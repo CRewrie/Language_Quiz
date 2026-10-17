@@ -1,0 +1,361 @@
+{
+  "id": "n1-formal",
+  "category": "JLPT N1",
+  "title": "Formal Words & Phrases: あくまでも, あらかじめ, あっての, いかなる, いずれにせよ, からある / からする, かれ…かれ",
+  "description": "Strictly / to the end, in advance, only possible thanks to, any whatsoever, in any case, as much as, and whether … or ….",
+  "level": "N1",
+  "points": [
+    {
+      "id": "akumademo",
+      "title": "あくまで(も): strictly; to the end",
+      "summary": "1) あくまで(も) + opinion = strictly, merely. 2) あくまで(も) + verb = persistently, to the end.",
+      "body": "- これは**あくまでも**個人の意見です.",
+      "examples": [
+        [
+          "{彼|かれ}はあくまでも{反対|はんたい}するつもりだ。",
+          "He intends to oppose it to the very end."
+        ]
+      ]
+    },
+    {
+      "id": "arakajime",
+      "title": "あらかじめ: in advance",
+      "summary": "あらかじめ = beforehand (formal 前もって).",
+      "body": "- 欠席する場合は、**あらかじめ**ご連絡ください.",
+      "examples": [
+        [
+          "{資料|しりょう}はあらかじめ{読|よ}んでおいてください。",
+          "Please read the materials beforehand."
+        ]
+      ]
+    },
+    {
+      "id": "atteno",
+      "title": "〜あっての: only possible thanks to",
+      "summary": "A あっての B = B exists only because of A.",
+      "body": "- お客様**あっての**商売だ.",
+      "examples": [
+        [
+          "{健康|けんこう}あっての{人生|じんせい}だ。",
+          "Life is nothing without health."
+        ]
+      ]
+    },
+    {
+      "id": "ikanaru",
+      "title": "いかなる: any (whatsoever)",
+      "summary": "いかなる + noun (+ も / でも) = any at all (formal どんな).",
+      "body": "- **いかなる**理由があっても、暴力は許されない.",
+      "examples": [
+        [
+          "いかなる{困難|こんなん}にも{負|ま}けない。",
+          "I won't give in to any hardship whatsoever."
+        ]
+      ]
+    },
+    {
+      "id": "izurenise",
+      "title": "いずれにせよ: in any case",
+      "summary": "いずれにせよ / いずれにしても = whichever it is.",
+      "body": "- 行くか行かないか、**いずれにせよ**明日までに返事をください.",
+      "examples": [
+        [
+          "いずれにせよ、もう{一度|いちど}{話|はな}し{合|あ}う{必要|ひつよう}がある。",
+          "Either way, we need to talk again."
+        ]
+      ]
+    },
+    {
+      "id": "karaaru",
+      "title": "〜からある / からする: as much as",
+      "summary": "Number + からある = (weight, length) as much as. Number + からする = (price) costing as much as.",
+      "body": "- 百キロ**からある**荷物.\n- 一億円**からする**車.",
+      "examples": [
+        [
+          "{彼|かれ}は{百|ひゃく}キロからある{荷物|にもつ}を{一人|ひとり}で{運|はこ}んだ。",
+          "He carried a load of a hundred kilos all by himself."
+        ]
+      ]
+    },
+    {
+      "id": "karekare",
+      "title": "A かれ B かれ: whether A or B",
+      "summary": "い-adjective stem + かれ, paired: 遅かれ早かれ (sooner or later), 多かれ少なかれ (to some extent).",
+      "body": "- 遅**かれ**早**かれ**、真実は明らかになる.",
+      "examples": [
+        [
+          "{多|おお}かれ{少|すく}なかれ、{誰|だれ}にでも{悩|なや}みはある。",
+          "Everyone has worries, to a greater or lesser extent."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "akumademo",
+      "prompt": "これは（　）{個人|こじん}の{意見|いけん}です。",
+      "options": [
+        "あいにく",
+        "あらかじめ",
+        "あくまでも",
+        "あえて"
+      ],
+      "answer": 2,
+      "explanation": "Strictly: **あくまでも**.",
+      "notes": [
+        "あいにく = 'unfortunately'.",
+        "あらかじめ = 'in advance'.",
+        "",
+        "あえて = 'deliberately'."
+      ],
+      "translation": "This is strictly my personal opinion."
+    },
+    {
+      "point": "akumademo",
+      "prompt": "What does 「{彼|かれ}はあくまでも{反対|はんたい}するつもりだ。」 mean?",
+      "options": [
+        "He's just slightly against it.",
+        "He intends to oppose it, unfortunately.",
+        "He opposed it in advance.",
+        "He intends to oppose it to the very end."
+      ],
+      "answer": 3,
+      "explanation": "あくまでも = **to the end**.",
+      "notes": [
+        "It's persistent.",
+        "That's あいにく.",
+        "That's あらかじめ.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "arakajime",
+      "prompt": "{欠席|けっせき}する{場合|ばあい}は、（　）ご{連絡|れんらく}ください。",
+      "options": [
+        "あいにく",
+        "あらかじめ",
+        "あえて",
+        "あくまでも"
+      ],
+      "answer": 1,
+      "explanation": "In advance: **あらかじめ**.",
+      "notes": [
+        "あいにく = 'unfortunately'.",
+        "",
+        "あえて = 'deliberately'.",
+        "あくまでも = 'strictly'."
+      ],
+      "translation": "If you'll be absent, please let us know in advance."
+    },
+    {
+      "point": "arakajime",
+      "prompt": "{会議|かいぎ}の{資料|しりょう}は（　）{読|よ}んでおいてください。",
+      "options": [
+        "あらかじめ",
+        "いまだに",
+        "あくまでも",
+        "かつて"
+      ],
+      "answer": 0,
+      "explanation": "**あらかじめ**.",
+      "notes": [
+        "",
+        "いまだに = 'still'.",
+        "あくまでも = 'strictly'.",
+        "かつて = 'once'."
+      ],
+      "translation": "Please read the meeting materials beforehand."
+    },
+    {
+      "point": "atteno",
+      "prompt": "お{客様|きゃくさま}（　）{商売|しょうばい}だ。",
+      "options": [
+        "ならではの",
+        "きっての",
+        "あっての",
+        "ゆえの"
+      ],
+      "answer": 2,
+      "explanation": "Only possible thanks to: **あっての**.",
+      "notes": [
+        "ならではの = 'unique to'.",
+        "きっての = 'the best in'.",
+        "",
+        "ゆえの = 'caused by'."
+      ],
+      "translation": "There's no business without customers."
+    },
+    {
+      "point": "atteno",
+      "prompt": "What does 「{健康|けんこう}あっての{人生|じんせい}だ。」 mean?",
+      "options": [
+        "A healthy person met life.",
+        "Life is nothing without health.",
+        "Life gives you health.",
+        "Health happens in life."
+      ],
+      "answer": 1,
+      "explanation": "あっての = **only thanks to**.",
+      "notes": [
+        "あって here isn't 'meet'.",
+        "",
+        "Wrong direction.",
+        "Health is the foundation."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "ikanaru",
+      "prompt": "（　）{理由|りゆう}があっても、{暴力|ぼうりょく}は{許|ゆる}されない。",
+      "options": [
+        "いかなる",
+        "いかん",
+        "いかにも",
+        "いかに"
+      ],
+      "answer": 0,
+      "explanation": "Any whatsoever: **いかなる**.",
+      "notes": [
+        "",
+        "いかん = 'depending on'.",
+        "いかにも = 'truly'.",
+        "いかに = 'how' (+ ても)."
+      ],
+      "translation": "Whatever the reason, violence is unacceptable."
+    },
+    {
+      "point": "ikanaru",
+      "prompt": "What does 「いかなる{困難|こんなん}にも{負|ま}けない。」 mean?",
+      "options": [
+        "There's no hardship.",
+        "How hard it is!",
+        "I'll lose to some hardships.",
+        "I won't give in to any hardship whatsoever."
+      ],
+      "answer": 3,
+      "explanation": "いかなる = **any at all**.",
+      "notes": [
+        "No.",
+        "Not an exclamation.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "izurenise",
+      "prompt": "{行|い}くか{行|い}かないか、（　）{明日|あした}までに{返事|へんじ}をください。",
+      "options": [
+        "いずれ",
+        "いずれにせよ",
+        "いずれか",
+        "いずれも"
+      ],
+      "answer": 1,
+      "explanation": "In any case: **いずれにせよ**.",
+      "notes": [
+        "いずれ = 'eventually'.",
+        "",
+        "いずれか = 'either one'.",
+        "いずれも = 'all of them'."
+      ],
+      "translation": "Whether you're going or not, please reply by tomorrow."
+    },
+    {
+      "point": "izurenise",
+      "prompt": "What does 「いずれにせよ、もう{一度|いちど}{話|はな}し{合|あ}う{必要|ひつよう}がある。」 mean?",
+      "options": [
+        "We'll talk again eventually.",
+        "We don't need to talk.",
+        "We both need to talk.",
+        "Either way, we need to talk again."
+      ],
+      "answer": 3,
+      "explanation": "いずれにせよ = **either way**.",
+      "notes": [
+        "That's いずれ.",
+        "The opposite.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "karaaru",
+      "prompt": "{彼|かれ}は{百|ひゃく}キロ（　）{荷物|にもつ}を{一人|ひとり}で{運|はこ}んだ。",
+      "options": [
+        "からある",
+        "からの",
+        "までの",
+        "からする"
+      ],
+      "answer": 0,
+      "explanation": "As much as (weight): **からある**.",
+      "notes": [
+        "",
+        "からの = 'from'.",
+        "までの = 'up to'.",
+        "からする is for prices."
+      ],
+      "translation": "He carried a load of a hundred kilos all by himself."
+    },
+    {
+      "point": "karaaru",
+      "prompt": "{社長|しゃちょう}は{一億円|いちおくえん}（　）{車|くるま}を{買|か}った。",
+      "options": [
+        "までの",
+        "からする",
+        "からある",
+        "だけの"
+      ],
+      "answer": 1,
+      "explanation": "As much as (price): **からする**.",
+      "notes": [
+        "までの = 'up to'.",
+        "",
+        "からある is for size / weight, not price.",
+        "だけの = 'only'."
+      ],
+      "translation": "The president bought a car costing a hundred million yen."
+    },
+    {
+      "point": "karekare",
+      "prompt": "{遅|おそ}かれ{早|はや}（　）、{真実|しんじつ}は{明|あき}らかになる。",
+      "options": [
+        "かれ",
+        "くて",
+        "ければ",
+        "かろう"
+      ],
+      "answer": 0,
+      "explanation": "Whether A or B: **かれ…かれ**.",
+      "notes": [
+        "",
+        "The pair must match: かれ.",
+        "The pair must match.",
+        "The pair must match."
+      ],
+      "translation": "Sooner or later, the truth will come out."
+    },
+    {
+      "point": "karekare",
+      "prompt": "What does 「{多|おお}かれ{少|すく}なかれ、{誰|だれ}にでも{悩|なや}みはある。」 mean?",
+      "options": [
+        "Only a few people have worries.",
+        "Many people have few worries.",
+        "The more people, the more worries.",
+        "Everyone has worries, to a greater or lesser extent."
+      ],
+      "answer": 3,
+      "explanation": "多かれ少なかれ = **more or less**.",
+      "notes": [
+        "誰にでも = everyone.",
+        "No.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}

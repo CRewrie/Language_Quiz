@@ -1,0 +1,361 @@
+{
+  "id": "n1-assumptions",
+  "category": "JLPT N1",
+  "title": "Assumptions & Reports: ずとも, なりとも, もしないで, ものとして, ものと思われる, とされる / とみられる, ともすれば",
+  "description": "Even without, at least, without even, assuming, it is thought, it is said / estimated, and apt to.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "zutomo",
+      "title": "〜ずとも: even without",
+      "summary": "ない-stem + ずとも = even without A (formal ても…なくても).",
+      "body": "- 言わ**ずとも**、彼の気持ちはわかる.",
+      "examples": [
+        [
+          "{急|いそ}がずとも{間|ま}に{合|あ}う。",
+          "We'll make it even without hurrying."
+        ]
+      ]
+    },
+    {
+      "id": "naritomo",
+      "title": "〜なりとも: at least, even a little",
+      "summary": "Small amount + なりとも = even just (a little).",
+      "body": "- 少し**なりとも**お役に立てれば幸いです.",
+      "examples": [
+        [
+          "{一目|ひとめ}なりとも{会|あ}いたい。",
+          "I want to see them, if only for a moment."
+        ]
+      ]
+    },
+    {
+      "id": "moshinaide",
+      "title": "〜もしないで: without even",
+      "summary": "ます-stem + もしないで = without even doing A (criticism).",
+      "body": "- ろくに調べ**もしないで**文句を言う.",
+      "examples": [
+        [
+          "{見|み}もしないで{捨|す}てた。",
+          "He threw it away without even looking at it."
+        ]
+      ]
+    },
+    {
+      "id": "monotoshite",
+      "title": "〜ものとして: assuming",
+      "summary": "Plain form + ものとして = treating it as if A (for now).",
+      "body": "- 全員賛成した**ものとして**、話を進めます.",
+      "examples": [
+        [
+          "{連絡|れんらく}がなければ、{参加|さんか}しないものとして{扱|あつか}います。",
+          "If we don't hear from you, we'll treat you as not attending."
+        ]
+      ]
+    },
+    {
+      "id": "monotoomowareru",
+      "title": "〜ものと思われる: it is thought that",
+      "summary": "Plain form + ものと思われる = (news / report style) it is believed that.",
+      "body": "- 事故の原因は運転手の居眠りによる**ものと思われる**.",
+      "examples": [
+        [
+          "{犯人|はんにん}は{窓|まど}から{侵入|しんにゅう}したものと{思|おも}われる。",
+          "The culprit is believed to have got in through the window."
+        ]
+      ]
+    },
+    {
+      "id": "tosareru",
+      "title": "〜とされる / とみられる",
+      "summary": "とされる = it is said / regarded as (general view). とみられる = it is estimated (by observers).",
+      "body": "- この寺は八世紀に建てられた**とされる**.\n- 死者は百人を超える**とみられる**.",
+      "examples": [
+        [
+          "{死者|ししゃ}は{百人|ひゃくにん}を{超|こ}えるとみられる。",
+          "The death toll is estimated to exceed 100."
+        ]
+      ]
+    },
+    {
+      "id": "tomosureba",
+      "title": "ともすれば: apt to, easily",
+      "summary": "ともすれば (ともすると) + (unwanted) tendency = is apt to.",
+      "body": "- 忙しいと、**ともすれば**食事がおろそかになる.",
+      "examples": [
+        [
+          "{若|わか}い{人|ひと}はともすれば{無理|むり}をしがちだ。",
+          "Young people are apt to overdo it."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "zutomo",
+      "prompt": "{言|い}わ（　）、{彼|かれ}の{気持|きも}ちはわかる。",
+      "options": [
+        "ずじまい",
+        "ずくめ",
+        "ずとも",
+        "ずには"
+      ],
+      "answer": 2,
+      "explanation": "Even without: **ずとも**.",
+      "notes": [
+        "ずじまい = 'ended up never'.",
+        "ずくめ = 'nothing but'.",
+        "",
+        "ずには needs おかない / いられない."
+      ],
+      "translation": "I understand how he feels without him saying a word."
+    },
+    {
+      "point": "zutomo",
+      "prompt": "What does 「{急|いそ}がずとも{間|ま}に{合|あ}う。」 mean?",
+      "options": [
+        "We won't make it unless we hurry.",
+        "Don't hurry or we'll be late.",
+        "Hurry and we'll make it.",
+        "We'll make it even without hurrying."
+      ],
+      "answer": 3,
+      "explanation": "ずとも = **even without**.",
+      "notes": [
+        "ずとも = even without.",
+        "No.",
+        "Hurrying isn't needed.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "naritomo",
+      "prompt": "{少|すこ}し（　）お{役|やく}に{立|た}てれば{幸|さいわ}いです。",
+      "options": [
+        "なりの",
+        "なりとも",
+        "なり",
+        "なりに"
+      ],
+      "answer": 1,
+      "explanation": "At least a little: **なりとも**.",
+      "notes": [
+        "なりの needs a noun.",
+        "",
+        "少しなり alone isn't the phrase.",
+        "なりに = 'in one's own way'."
+      ],
+      "translation": "I'd be glad to be of even a little help."
+    },
+    {
+      "point": "naritomo",
+      "prompt": "What does 「{一目|ひとめ}なりとも{会|あ}いたい。」 mean?",
+      "options": [
+        "I don't want to see them.",
+        "Everyone wants to see them.",
+        "I want to see them, if only for a moment.",
+        "I saw them at a glance."
+      ],
+      "answer": 2,
+      "explanation": "なりとも = **if only, at least**.",
+      "notes": [
+        "The opposite.",
+        "No.",
+        "",
+        "It's a wish."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "moshinaide",
+      "prompt": "{彼|かれ}はろくに{調|しら}べ（　）{文句|もんく}ばかり{言|い}う。",
+      "options": [
+        "もしないで",
+        "しもしないで",
+        "もしなくて",
+        "もしないでも"
+      ],
+      "answer": 0,
+      "explanation": "Without even: **もしないで**.",
+      "notes": [
+        "",
+        "Not a form.",
+        "Not the pattern.",
+        "Not the pattern."
+      ],
+      "translation": "He complains without even looking into it properly."
+    },
+    {
+      "point": "moshinaide",
+      "prompt": "What does 「{見|み}もしないで{捨|す}てた。」 mean?",
+      "options": [
+        "He looked at it, then threw it away.",
+        "He threw it where nobody could see.",
+        "He didn't throw it away.",
+        "He threw it away without even looking at it."
+      ],
+      "answer": 3,
+      "explanation": "もしないで = **without even**.",
+      "notes": [
+        "He didn't look.",
+        "No.",
+        "He did throw it.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "monotoshite",
+      "prompt": "{全員|ぜんいん}{賛成|さんせい}した（　）、{話|はなし}を{進|すす}めます。",
+      "options": [
+        "ものなら",
+        "ものとして",
+        "ものだから",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "Assuming: **ものとして**.",
+      "notes": [
+        "ものなら = 'if (one could)'.",
+        "",
+        "ものだから = 'because' (excuse).",
+        "ものの = 'although'."
+      ],
+      "translation": "We'll proceed on the assumption that everyone agrees."
+    },
+    {
+      "point": "monotoshite",
+      "prompt": "What does 「{連絡|れんらく}がなければ、{参加|さんか}しないものとして{扱|あつか}います。」 mean?",
+      "options": [
+        "Only people who contact us will be treated.",
+        "Please don't contact us if you're attending.",
+        "If you don't contact us, you can't attend.",
+        "If we don't hear from you, we'll treat you as not attending."
+      ],
+      "answer": 3,
+      "explanation": "ものとして = **assuming**.",
+      "notes": [
+        "No.",
+        "No.",
+        "It's an assumption, not a rule.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "monotoomowareru",
+      "prompt": "{事故|じこ}の{原因|げんいん}は{運転手|うんてんしゅ}の{居眠|いねむ}りによる（　）。",
+      "options": [
+        "ものと{思|おも}いきや",
+        "ものと{思|おも}われる",
+        "ものと{思|おも}わせる",
+        "ものに{思|おも}われる"
+      ],
+      "answer": 1,
+      "explanation": "It is thought: **ものと思われる**.",
+      "notes": [
+        "思いきや = 'I thought …, but'.",
+        "",
+        "思わせる = 'make (people) think'.",
+        "Not the phrase."
+      ],
+      "translation": "The accident is believed to have been caused by the driver falling asleep."
+    },
+    {
+      "point": "monotoomowareru",
+      "prompt": "What does 「{犯人|はんにん}は{窓|まど}から{侵入|しんにゅう}したものと{思|おも}われる。」 mean?",
+      "options": [
+        "The culprit is believed to have got in through the window.",
+        "The culprit thought about the window.",
+        "Someone thinks they saw the culprit.",
+        "The culprit definitely came through the window."
+      ],
+      "answer": 0,
+      "explanation": "ものと思われる = **it is believed**.",
+      "notes": [
+        "",
+        "No.",
+        "No.",
+        "It's an assumption."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tosareru",
+      "prompt": "この{寺|てら}は{八世紀|はっせいき}に{建|た}てられた（　）。",
+      "options": [
+        "とする",
+        "とさせる",
+        "とされる",
+        "とした"
+      ],
+      "answer": 2,
+      "explanation": "It is said: **とされる**.",
+      "notes": [
+        "とする = 'assume / decide'.",
+        "とさせる isn't the phrase.",
+        "",
+        "とした = 'assumed'."
+      ],
+      "translation": "This temple is said to have been built in the eighth century."
+    },
+    {
+      "point": "tosareru",
+      "prompt": "What does 「{死者|ししゃ}は{百人|ひゃくにん}を{超|こ}えるとみられる。」 mean?",
+      "options": [
+        "The death toll is estimated to exceed 100.",
+        "Over 100 people watched.",
+        "The death toll is exactly 100.",
+        "We saw more than 100 dead."
+      ],
+      "answer": 0,
+      "explanation": "とみられる = **is estimated**.",
+      "notes": [
+        "",
+        "No.",
+        "It's an estimate.",
+        "みられる = estimated."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tomosureba",
+      "prompt": "{忙|いそが}しいと、（　）{食事|しょくじ}がおろそかになる。",
+      "options": [
+        "ともかく",
+        "ともに",
+        "ともすれば",
+        "ともなく"
+      ],
+      "answer": 2,
+      "explanation": "Apt to: **ともすれば**.",
+      "notes": [
+        "ともかく = 'anyway'.",
+        "ともに = 'together'.",
+        "",
+        "ともなく = 'without really meaning to'."
+      ],
+      "translation": "When you're busy, you're apt to neglect your meals."
+    },
+    {
+      "point": "tomosureba",
+      "prompt": "What does 「{若|わか}い{人|ひと}はともすれば{無理|むり}をしがちだ。」 mean?",
+      "options": [
+        "Young people are apt to overdo it.",
+        "Young people overdo it together.",
+        "If young people try, it's impossible.",
+        "Young people never overdo it."
+      ],
+      "answer": 0,
+      "explanation": "ともすれば = **apt to**.",
+      "notes": [
+        "",
+        "No.",
+        "No.",
+        "The opposite."
+      ],
+      "translation": ""
+    }
+  ]
+}

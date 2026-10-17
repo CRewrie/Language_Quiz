@@ -1,0 +1,361 @@
+{
+  "id": "n1-should",
+  "category": "JLPT N1",
+  "title": "Should & Shouldn't: べからず, まじき, てしかるべきだ, ても差し支えない, ことのないよう, べくもない, ざる",
+  "description": "Must not (signs), unbecoming of, ought to, it's fine to, so as not to, there's no way to, and the classical negative.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "bekarazu",
+      "title": "〜べからず: must not",
+      "summary": "Dictionary form + べからず = must not (signs, maxims).",
+      "body": "- 芝生に入る**べからず**.",
+      "examples": [
+        [
+          "{働|はたら}かざる{者|もの}{食|く}うべからず。",
+          "He who does not work shall not eat."
+        ]
+      ]
+    },
+    {
+      "id": "majiki",
+      "title": "〜まじき: unbecoming of",
+      "summary": "N にある まじき + noun = conduct a N should never show.",
+      "body": "- 教師にある**まじき**行為.",
+      "examples": [
+        [
+          "{許|ゆる}すまじき{犯罪|はんざい}だ。",
+          "It's an unforgivable crime."
+        ]
+      ]
+    },
+    {
+      "id": "shikarubeki",
+      "title": "〜てしかるべきだ: ought to (naturally)",
+      "summary": "て-form + しかるべきだ = it would only be right to.",
+      "body": "- 彼の努力は評価されて**しかるべきだ**.",
+      "examples": [
+        [
+          "{会社|かいしゃ}は{謝罪|しゃざい}してしかるべきだ。",
+          "The company ought to apologise."
+        ]
+      ]
+    },
+    {
+      "id": "sashitsukae",
+      "title": "〜ても差し支えない: it's fine to",
+      "summary": "て-form + も差し支えない = there's no problem with (polite).",
+      "body": "- 鉛筆で書いて**も差し支えない**.",
+      "examples": [
+        [
+          "{明日|あした}{伺|うかが}っても{差|さ}し{支|つか}えないでしょうか。",
+          "Would it be all right if I came tomorrow?"
+        ]
+      ]
+    },
+    {
+      "id": "kotononaiyou",
+      "title": "〜ことのないよう(に): so as not to",
+      "summary": "Dictionary form + ことのないよう = so that A doesn't happen (formal warnings).",
+      "body": "- 同じ失敗をする**ことのないよう**、注意してください.",
+      "examples": [
+        [
+          "{忘|わす}れ{物|もの}をすることのないよう、ご{注意|ちゅうい}ください。",
+          "Please take care not to leave anything behind."
+        ]
+      ]
+    },
+    {
+      "id": "bekumonai",
+      "title": "〜べくもない: there's no way to",
+      "summary": "Dictionary form (望む, 知る) + べくもない = can't possibly.",
+      "body": "- 今の給料では、家を買うなど望む**べくもない**.",
+      "examples": [
+        [
+          "{真相|しんそう}は{知|し}るべくもない。",
+          "There's no way of knowing the truth."
+        ]
+      ]
+    },
+    {
+      "id": "zaru",
+      "title": "〜ざる: not (classical)",
+      "summary": "ない-stem + ざる + noun = the classical negative: 知られざる (unknown), 欠くべからざる (indispensable).",
+      "body": "- 知られ**ざる**名作.",
+      "examples": [
+        [
+          "{水|みず}は{生活|せいかつ}に{欠|か}くべからざるものだ。",
+          "Water is indispensable to life."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "bekarazu",
+      "prompt": "（Sign）{芝生|しばふ}に{入|はい}る（　）。",
+      "options": [
+        "べく",
+        "べからず",
+        "べき",
+        "べくもない"
+      ],
+      "answer": 1,
+      "explanation": "Must not: **べからず**.",
+      "notes": [
+        "べく = 'in order to'.",
+        "",
+        "べき needs a noun or だ.",
+        "べくもない = 'there's no way'."
+      ],
+      "translation": "Keep off the grass."
+    },
+    {
+      "point": "bekarazu",
+      "prompt": "What does 「{働|はたら}かざる{者|もの}{食|く}うべからず。」 mean?",
+      "options": [
+        "He who does not work shall not eat.",
+        "Those who work must eat.",
+        "Work, or eat.",
+        "Don't eat while working."
+      ],
+      "answer": 0,
+      "explanation": "べからず = **must not**.",
+      "notes": [
+        "",
+        "Both parts are negative.",
+        "No.",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "majiki",
+      "prompt": "{生徒|せいと}を{殴|なぐ}るなど、{教師|きょうし}にある（　）{行為|こうい}だ。",
+      "options": [
+        "まい",
+        "べき",
+        "まじき",
+        "べからず"
+      ],
+      "answer": 2,
+      "explanation": "Unbecoming of: **まじき**.",
+      "notes": [
+        "まい can't modify a noun like this.",
+        "あるべき行為 = 'proper conduct' — hitting students isn't that.",
+        "",
+        "べからず ends a sentence."
+      ],
+      "translation": "Hitting students is conduct unbecoming of a teacher."
+    },
+    {
+      "point": "majiki",
+      "prompt": "What does 「{許|ゆる}すまじき{犯罪|はんざい}」 mean?",
+      "options": [
+        "a crime that will be forgiven",
+        "a crime one should forgive",
+        "a crime without permission",
+        "an unforgivable crime"
+      ],
+      "answer": 3,
+      "explanation": "まじき = **must not / unbecoming**.",
+      "notes": [
+        "The opposite.",
+        "The opposite.",
+        "許す here = forgive.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "shikarubeki",
+      "prompt": "{彼|かれ}の{努力|どりょく}は{評価|ひょうか}されて（　）。",
+      "options": [
+        "しかない",
+        "しかたがない",
+        "しかるべきだ",
+        "しかりだ"
+      ],
+      "answer": 2,
+      "explanation": "Ought to: **てしかるべきだ**.",
+      "notes": [
+        "しかない = 'have no choice'.",
+        "しかたがない = 'it can't be helped'.",
+        "",
+        "しかりだ = 'it is so' (archaic)."
+      ],
+      "translation": "His efforts deserve recognition."
+    },
+    {
+      "point": "shikarubeki",
+      "prompt": "What does 「{会社|かいしゃ}は{謝罪|しゃざい}してしかるべきだ。」 mean?",
+      "options": [
+        "The company can't apologise.",
+        "The company ought to apologise.",
+        "The company was scolded.",
+        "The company has apologised."
+      ],
+      "answer": 1,
+      "explanation": "てしかるべきだ = **ought to**.",
+      "notes": [
+        "No.",
+        "",
+        "しかる here isn't 叱る.",
+        "It's what should happen."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "sashitsukae",
+      "prompt": "この{書類|しょるい}は{鉛筆|えんぴつ}で{書|か}いても（　）。",
+      "options": [
+        "{差|さ}し{支|つか}える",
+        "{差|さ}し{上|あ}げない",
+        "{差|さ}し{出|だ}さない",
+        "{差|さ}し{支|つか}えない"
+      ],
+      "answer": 3,
+      "explanation": "It's fine to: **ても差し支えない**.",
+      "notes": [
+        "差し支える = 'is a problem' — the phrase is negative: 差し支えない.",
+        "差し上げる = 'give (humble)'.",
+        "差し出す = 'hand over'.",
+        ""
+      ],
+      "translation": "It's fine to fill in this form in pencil."
+    },
+    {
+      "point": "sashitsukae",
+      "prompt": "What does 「{明日|あした}{伺|うかが}っても{差|さ}し{支|つか}えないでしょうか。」 mean?",
+      "options": [
+        "Please come tomorrow.",
+        "May I ask you tomorrow?",
+        "Would it be all right if I came tomorrow?",
+        "I can't come tomorrow."
+      ],
+      "answer": 2,
+      "explanation": "ても差し支えない = **it's fine to**.",
+      "notes": [
+        "It's the speaker coming.",
+        "伺う here = visit.",
+        "",
+        "It's a polite request for permission."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kotononaiyou",
+      "prompt": "{二度|にど}と{同|おな}じ{失敗|しっぱい}をする（　）、{注意|ちゅうい}してください。",
+      "options": [
+        "ことのないで",
+        "ことから",
+        "ことだし",
+        "ことのないよう"
+      ],
+      "answer": 3,
+      "explanation": "So as not to: **ことのないよう**.",
+      "notes": [
+        "Not a pattern.",
+        "ことから = 'from the fact that'.",
+        "ことだし = 'since'.",
+        ""
+      ],
+      "translation": "Please be careful not to make the same mistake again."
+    },
+    {
+      "point": "kotononaiyou",
+      "prompt": "What does 「{忘|わす}れ{物|もの}をすることのないよう、ご{注意|ちゅうい}ください。」 mean?",
+      "options": [
+        "There are no lost items.",
+        "Lost items will be kept safely.",
+        "Please take care not to leave anything behind.",
+        "Please don't forget your manners."
+      ],
+      "answer": 2,
+      "explanation": "ことのないよう = **so as not to**.",
+      "notes": [
+        "It's a warning.",
+        "No.",
+        "",
+        "忘れ物 = things left behind."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "bekumonai",
+      "prompt": "{今|いま}の{給料|きゅうりょう}では、{家|いえ}を{買|か}うなど{望|のぞ}む（　）。",
+      "options": [
+        "べからず",
+        "べきだ",
+        "べく",
+        "べくもない"
+      ],
+      "answer": 3,
+      "explanation": "No way to: **べくもない**.",
+      "notes": [
+        "べからず = 'must not' (rule).",
+        "望むべきだ = 'should hope'.",
+        "べく = 'in order to'.",
+        ""
+      ],
+      "translation": "On my current salary, buying a house is out of the question."
+    },
+    {
+      "point": "bekumonai",
+      "prompt": "What does 「{真相|しんそう}は{知|し}るべくもない。」 mean?",
+      "options": [
+        "There's no way of knowing the truth.",
+        "You should know the truth.",
+        "You must not know the truth.",
+        "The truth is known to all."
+      ],
+      "answer": 0,
+      "explanation": "べくもない = **no way to**.",
+      "notes": [
+        "",
+        "べき would be 'should'.",
+        "べからず would be 'must not'.",
+        "The opposite."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "zaru",
+      "prompt": "これは{世|よ}に{知|し}られ（　）{名作|めいさく}だ。",
+      "options": [
+        "まいの",
+        "ざる",
+        "ぬの",
+        "ずの"
+      ],
+      "answer": 1,
+      "explanation": "Classical negative + noun: **ざる**.",
+      "notes": [
+        "知られまいの isn't grammatical.",
+        "",
+        "知られぬの isn't grammatical.",
+        "知られずの isn't grammatical."
+      ],
+      "translation": "This is an unknown masterpiece."
+    },
+    {
+      "point": "zaru",
+      "prompt": "What does 「{水|みず}は{生活|せいかつ}に{欠|か}くべからざるものだ。」 mean?",
+      "options": [
+        "Life lacks water.",
+        "Water shouldn't be part of life.",
+        "Water must not be wasted.",
+        "Water is indispensable to life."
+      ],
+      "answer": 3,
+      "explanation": "欠くべからざる = **indispensable**.",
+      "notes": [
+        "No.",
+        "The opposite.",
+        "欠く = lack — べからざる = can't be lacking.",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "id": "n1-misc",
+  "category": "JLPT N1",
+  "title": "Odds & Ends: か否か, ことだし, もので, ようによっては, というわけではない, とはいうものの, た瞬間に",
+  "description": "Whether or not, since (casual), because (excuse), depending on how you look at it, it's not that, although, and the instant.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "kaina",
+      "title": "〜か否か: whether or not",
+      "summary": "Plain form + か否か = formal かどうか.",
+      "body": "- 参加する**か否か**、今週中にお知らせください.",
+      "examples": [
+        [
+          "{真実|しんじつ}か{否|いな}かは{分|わ}からない。",
+          "Whether it's true or not is unknown."
+        ]
+      ]
+    },
+    {
+      "id": "kotodashi",
+      "title": "〜ことだし: since (casual)",
+      "summary": "Plain form + ことだし = since A (one reason among others), so B.",
+      "body": "- 雨も止んだ**ことだし**、そろそろ出かけようか.",
+      "examples": [
+        [
+          "みんな{揃|そろ}ったことだし、{始|はじ}めましょう。",
+          "Since everyone's here, let's begin."
+        ]
+      ]
+    },
+    {
+      "id": "monode",
+      "title": "〜もので: because (excuse)",
+      "summary": "Plain form + もので = because (apologetic, explaining).",
+      "body": "- 電車が遅れた**もので**、遅刻してしまいました.",
+      "examples": [
+        [
+          "{何|なに}しろ{初|はじ}めてなもので、うまくできなくてすみません。",
+          "It's my first time, so I'm sorry I'm not doing it well."
+        ]
+      ]
+    },
+    {
+      "id": "youniyotte",
+      "title": "〜ようによっては: depending on how you …",
+      "summary": "ます-stem + ようによっては = depending on the way you A (考えよう, 見よう).",
+      "body": "- 考え**ようによっては**、これはチャンスでもある.",
+      "examples": [
+        [
+          "{見|み}ようによっては、{彼|かれ}の{言|い}うことも{正|ただ}しい。",
+          "Depending on how you look at it, he has a point too."
+        ]
+      ]
+    },
+    {
+      "id": "wakedewanai",
+      "title": "〜というわけではない: it's not that",
+      "summary": "Plain form + というわけではない = it doesn't mean (simply) A.",
+      "body": "- 嫌いだ**というわけではない**、ただ今は食べたくないだけだ.",
+      "examples": [
+        [
+          "{高|たか}ければいいというわけではない。",
+          "Expensive doesn't automatically mean good."
+        ]
+      ]
+    },
+    {
+      "id": "tohaiumonono",
+      "title": "〜とはいうものの: although (that said)",
+      "summary": "Plain form + とはいうものの = admittedly A, but in reality B.",
+      "body": "- 春**とはいうものの**、まだ寒い.",
+      "examples": [
+        [
+          "{分|わ}かってはいるとはいうものの、なかなかやめられない。",
+          "I know, I know — but I just can't stop."
+        ]
+      ]
+    },
+    {
+      "id": "shunkan",
+      "title": "〜た瞬間(に): the instant",
+      "summary": "た-form + 瞬間(に) = at the very moment.",
+      "body": "- ドアを開けた**瞬間に**、猫が飛び出してきた.",
+      "examples": [
+        [
+          "{顔|かお}を{見|み}た{瞬間|しゅんかん}、{彼|かれ}だとわかった。",
+          "The instant I saw his face, I knew it was him."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "kaina",
+      "prompt": "{参加|さんか}する（　）、{今週中|こんしゅうちゅう}にお{知|し}らせください。",
+      "options": [
+        "や{否|いな}や",
+        "か{何|なに}か",
+        "ものか",
+        "か{否|いな}か"
+      ],
+      "answer": 3,
+      "explanation": "Whether or not: **か否か**.",
+      "notes": [
+        "や否や = 'as soon as'.",
+        "か何か = 'or something'.",
+        "ものか = 'as if!'.",
+        ""
+      ],
+      "translation": "Please let us know this week whether you'll take part."
+    },
+    {
+      "point": "kaina",
+      "prompt": "What does 「{真実|しんじつ}か{否|いな}かは{分|わ}からない。」 mean?",
+      "options": [
+        "The truth is unknown to me only.",
+        "As soon as it's true, we'll know.",
+        "Whether it's true or not is unknown.",
+        "It's definitely not true."
+      ],
+      "answer": 2,
+      "explanation": "か否か = **whether or not**.",
+      "notes": [
+        "No.",
+        "That's や否や.",
+        "",
+        "Undecided."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kotodashi",
+      "prompt": "{雨|あめ}も{止|や}んだ（　）、そろそろ{出|で}かけようか。",
+      "options": [
+        "ことだし",
+        "ことなく",
+        "ことから",
+        "こととて"
+      ],
+      "answer": 0,
+      "explanation": "Since (casual): **ことだし**.",
+      "notes": [
+        "",
+        "ことなく = 'without'.",
+        "ことから = 'from the fact that' (formal basis).",
+        "こととて = 'because (apology)'."
+      ],
+      "translation": "The rain's stopped too, so shall we head out?"
+    },
+    {
+      "point": "kotodashi",
+      "prompt": "What does 「みんな{揃|そろ}ったことだし、{始|はじ}めましょう。」 mean?",
+      "options": [
+        "Let's begin when everyone's here.",
+        "Although everyone's here, let's wait.",
+        "Everyone began together.",
+        "Since everyone's here, let's begin."
+      ],
+      "answer": 3,
+      "explanation": "ことだし = **since**.",
+      "notes": [
+        "They're already here.",
+        "No contrast.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "monode",
+      "prompt": "{電車|でんしゃ}が{遅|おく}れた（　）、{遅刻|ちこく}してしまいました。",
+      "options": [
+        "ものを",
+        "ものか",
+        "もので",
+        "ものの"
+      ],
+      "answer": 2,
+      "explanation": "Because (excuse): **もので**.",
+      "notes": [
+        "ものを = 'if only'.",
+        "ものか = 'as if!'.",
+        "",
+        "ものの = 'although'."
+      ],
+      "translation": "The train was late, so I'm afraid I was late."
+    },
+    {
+      "point": "monode",
+      "prompt": "{何|なに}しろ{初|はじ}めてな（　）、うまくできなくてすみません。",
+      "options": [
+        "ものの",
+        "ものを",
+        "ものなら",
+        "もので"
+      ],
+      "answer": 3,
+      "explanation": "**もので**.",
+      "notes": [
+        "ものの = 'although'.",
+        "ものを = 'if only'.",
+        "ものなら = 'if (one could)'.",
+        ""
+      ],
+      "translation": "It's my first time, so I'm sorry I'm not doing it well."
+    },
+    {
+      "point": "youniyotte",
+      "prompt": "{考|かんが}え（　）、これはチャンスでもある。",
+      "options": [
+        "ようによっては",
+        "ようでは",
+        "ように",
+        "ようも"
+      ],
+      "answer": 0,
+      "explanation": "Depending on how you …: **ようによっては**.",
+      "notes": [
+        "",
+        "ようでは = 'if (you're like that), then …'.",
+        "ように = 'so that / like'.",
+        "ようも isn't the pattern."
+      ],
+      "translation": "Depending on how you look at it, this is also a chance."
+    },
+    {
+      "point": "youniyotte",
+      "prompt": "What does 「{見|み}ようによっては、{彼|かれ}の{言|い}うことも{正|ただ}しい。」 mean?",
+      "options": [
+        "He's right, so look.",
+        "Depending on how you look at it, he has a point too.",
+        "If you see him, he's right.",
+        "Seen from afar, he's correct."
+      ],
+      "answer": 1,
+      "explanation": "ようによっては = **depending on how you**.",
+      "notes": [
+        "No.",
+        "",
+        "見よう = way of seeing.",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "wakedewanai",
+      "prompt": "{嫌|きら}いだ（　）、ただ{今|いま}は{食|た}べたくないだけだ。",
+      "options": [
+        "というものだ",
+        "というわけだ",
+        "というわけではない",
+        "ということだ"
+      ],
+      "answer": 2,
+      "explanation": "It's not that: **というわけではない**.",
+      "notes": [
+        "というものだ = 'that's what … is'.",
+        "というわけだ = 'that's why'.",
+        "",
+        "ということだ = 'I hear / that means'."
+      ],
+      "translation": "It's not that I dislike it — I just don't want to eat right now."
+    },
+    {
+      "point": "wakedewanai",
+      "prompt": "What does 「{高|たか}ければいいというわけではない。」 mean?",
+      "options": [
+        "Expensive is always good.",
+        "It's good because it's expensive.",
+        "It isn't expensive or good.",
+        "Expensive doesn't automatically mean good."
+      ],
+      "answer": 3,
+      "explanation": "というわけではない = **not necessarily**.",
+      "notes": [
+        "The opposite.",
+        "No.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tohaiumonono",
+      "prompt": "{暦|こよみ}の{上|うえ}では{春|はる}（　）、まだ{寒|さむ}い{日|ひ}が{続|つづ}く。",
+      "options": [
+        "とはいえば",
+        "とはいうものの",
+        "というより",
+        "というと"
+      ],
+      "answer": 1,
+      "explanation": "Although: **とはいうものの**.",
+      "notes": [
+        "Not a pattern.",
+        "",
+        "というより = 'rather than'.",
+        "というと = 'speaking of'."
+      ],
+      "translation": "It may be spring by the calendar, but the cold days continue."
+    },
+    {
+      "point": "tohaiumonono",
+      "prompt": "What does 「{分|わ}かってはいるとはいうものの、なかなかやめられない。」 mean?",
+      "options": [
+        "I know, I know — but I just can't stop.",
+        "I don't know how to stop.",
+        "I know, so I've stopped.",
+        "It's said I can stop easily."
+      ],
+      "answer": 0,
+      "explanation": "とはいうものの = **admittedly, but**.",
+      "notes": [
+        "",
+        "I do know.",
+        "Still can't stop.",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "shunkan",
+      "prompt": "ドアを{開|あ}けた（　）、{猫|ねこ}が{飛|と}び{出|だ}してきた。",
+      "options": [
+        "{瞬|まばた}きに",
+        "{瞬時|しゅんじ}に",
+        "{瞬間|しゅんかん}に",
+        "{一瞬|いっしゅん}に"
+      ],
+      "answer": 2,
+      "explanation": "The instant: **た瞬間に**.",
+      "notes": [
+        "瞬き = 'blink'.",
+        "瞬時に = 'instantly' — doesn't follow a た-form.",
+        "",
+        "一瞬に isn't natural after a verb."
+      ],
+      "translation": "The instant I opened the door, the cat shot out."
+    },
+    {
+      "point": "shunkan",
+      "prompt": "What does 「{顔|かお}を{見|み}た{瞬間|しゅんかん}、{彼|かれ}だとわかった。」 mean?",
+      "options": [
+        "The instant I saw his face, I knew it was him.",
+        "I saw his face for a moment only.",
+        "Seeing his face, I forgot him.",
+        "I knew it was him before I saw his face."
+      ],
+      "answer": 0,
+      "explanation": "た瞬間 = **the instant**.",
+      "notes": [
+        "",
+        "That's not the point.",
+        "No.",
+        "After seeing."
+      ],
+      "translation": ""
+    }
+  ]
+}

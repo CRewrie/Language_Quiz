@@ -1,0 +1,361 @@
+{
+  "id": "n1-tendencies",
+  "category": "JLPT N1",
+  "title": "Tendencies & Bad Results: 嫌いがある, 羽目になる, 始末だ, きりがない, 思いをする, ときている, ところがある",
+  "description": "Tends to (badly), end up stuck with, end up (as the last straw), there's no end, go through (a feeling), and on top of that, and has a side.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "kiraigaaru",
+      "title": "〜きらいがある: tends to (badly)",
+      "summary": "Dictionary form / Nの + きらいがある = has an unfortunate tendency.",
+      "body": "- 彼は物事を大げさに言う**きらいがある**.",
+      "examples": [
+        [
+          "{最近|さいきん}の{若者|わかもの}は{読書|どくしょ}を{軽視|けいし}するきらいがある。",
+          "Young people these days tend to neglect reading."
+        ]
+      ]
+    },
+    {
+      "id": "hameninaru",
+      "title": "〜羽目になる: end up (stuck with)",
+      "summary": "Dictionary form + 羽目になる = end up in an unwanted situation.",
+      "body": "- 財布を忘れて、家まで歩いて帰る**羽目になった**.",
+      "examples": [
+        [
+          "{結局|けっきょく}{一人|ひとり}で{全部|ぜんぶ}やる{羽目|はめ}になった。",
+          "In the end I got stuck doing it all myself."
+        ]
+      ]
+    },
+    {
+      "id": "shimatsu",
+      "title": "〜始末だ: end up (the last straw)",
+      "summary": "Dictionary form + 始末だ = after all that, it even came to A (exasperated).",
+      "body": "- 遅刻ばかりして、ついには会社を首になる**始末だ**.",
+      "examples": [
+        [
+          "{弟|おとうと}は{最後|さいご}には{泣|な}き{出|だ}す{始末|しまつ}だった。",
+          "In the end my brother even started crying."
+        ]
+      ]
+    },
+    {
+      "id": "kiriganai",
+      "title": "〜きりがない: there's no end",
+      "summary": "ば / たら / と + きりがない = it would go on forever.",
+      "body": "- 文句を言い出したら**きりがない**.",
+      "examples": [
+        [
+          "{上|うえ}を{見|み}ればきりがない。",
+          "If you compare yourself with those above, there's no end to it."
+        ]
+      ]
+    },
+    {
+      "id": "omoiwosuru",
+      "title": "〜思いをする: go through (a feeling)",
+      "summary": "Adjective + 思いをする = experience that feeling. させる = make someone go through it.",
+      "body": "- 外国で言葉が通じず、悔しい**思いをした**.",
+      "examples": [
+        [
+          "{子供|こども}にはこんな{辛|つら}い{思|おも}いをさせたくない。",
+          "I don't want my children to go through such hardship."
+        ]
+      ]
+    },
+    {
+      "id": "tokiteiru",
+      "title": "〜ときている: and on top of that",
+      "summary": "Plain form + ときている = it has this (striking) quality, which explains what follows.",
+      "body": "- この店は安くておいしい**ときている**から、いつも混んでいる.",
+      "examples": [
+        [
+          "{彼|かれ}は{頭|あたま}がいい{上|うえ}に、{性格|せいかく}もいいときている。",
+          "He's smart, and on top of that he's got a great personality."
+        ]
+      ]
+    },
+    {
+      "id": "tokorogaaru",
+      "title": "〜ところがある: has a side",
+      "summary": "Plain form + ところがある = has that aspect / streak.",
+      "body": "- 彼は優しいが、頑固な**ところがある**.",
+      "examples": [
+        [
+          "{彼女|かのじょ}には{子供|こども}っぽいところがある。",
+          "She has a childish side."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "kiraigaaru",
+      "prompt": "{彼|かれ}は{物事|ものごと}を{大|おお}げさに{言|い}う（　）。",
+      "options": [
+        "きらいだ",
+        "きらわれる",
+        "きらいない",
+        "きらいがある"
+      ],
+      "answer": 3,
+      "explanation": "Tends to (badly): **きらいがある**.",
+      "notes": [
+        "きらいだ = 'dislikes'.",
+        "きらわれる = 'is disliked'.",
+        "Not a form.",
+        ""
+      ],
+      "translation": "He has a tendency to exaggerate."
+    },
+    {
+      "point": "kiraigaaru",
+      "prompt": "What does 「{最近|さいきん}の{若者|わかもの}は{読書|どくしょ}を{軽視|けいし}するきらいがある。」 mean?",
+      "options": [
+        "Young people dislike reading.",
+        "Young people these days tend to neglect reading.",
+        "Young people are disliked for not reading.",
+        "Young people read lightly."
+      ],
+      "answer": 1,
+      "explanation": "きらいがある = **tends to (negative)**.",
+      "notes": [
+        "きらい here isn't 'dislike'.",
+        "",
+        "No.",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "hameninaru",
+      "prompt": "{財布|さいふ}を{忘|わす}れて、{家|いえ}まで{歩|ある}いて{帰|かえ}る（　）。",
+      "options": [
+        "{羽目|はめ}になった",
+        "{目|め}になった",
+        "{羽目|はめ}をした",
+        "{羽目|はめ}がした"
+      ],
+      "answer": 0,
+      "explanation": "End up stuck with: **羽目になる**.",
+      "notes": [
+        "",
+        "Not the phrase.",
+        "Not the phrase.",
+        "Not the phrase."
+      ],
+      "translation": "I forgot my wallet and ended up having to walk home."
+    },
+    {
+      "point": "hameninaru",
+      "prompt": "What does 「{結局|けっきょく}{一人|ひとり}で{全部|ぜんぶ}やる{羽目|はめ}になった。」 mean?",
+      "options": [
+        "Everyone did it together.",
+        "I finally learned to do it all.",
+        "In the end I chose to do it all myself.",
+        "In the end I got stuck doing it all myself."
+      ],
+      "answer": 3,
+      "explanation": "羽目になる = **end up stuck with**.",
+      "notes": [
+        "一人で.",
+        "No.",
+        "羽目 = an unwanted situation, not a choice.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "shimatsu",
+      "prompt": "{彼|かれ}は{遅刻|ちこく}ばかりして、ついには{会社|かいしゃ}を{首|くび}になる（　）。",
+      "options": [
+        "{末|すえ}だ",
+        "{始末|しまつ}だ",
+        "{週末|しゅうまつ}だ",
+        "{始末|しまつ}する"
+      ],
+      "answer": 1,
+      "explanation": "End up (last straw): **始末だ**.",
+      "notes": [
+        "末だ isn't the phrase.",
+        "",
+        "週末 = 'weekend'.",
+        "始末する = 'deal with'."
+      ],
+      "translation": "He was always late, and in the end he even got fired."
+    },
+    {
+      "point": "shimatsu",
+      "prompt": "What does 「{弟|おとうと}は{最後|さいご}には{泣|な}き{出|だ}す{始末|しまつ}だった。」 mean?",
+      "options": [
+        "My brother stopped crying at the end.",
+        "My brother handled it without crying.",
+        "In the end my brother even started crying.",
+        "My brother cried at the start."
+      ],
+      "answer": 2,
+      "explanation": "始末だ = **(it even) came to**.",
+      "notes": [
+        "始末だ = it came to that.",
+        "始末 here isn't 'handle'.",
+        "",
+        "At the end."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kiriganai",
+      "prompt": "{文句|もんく}を{言|い}い{出|だ}したら（　）。",
+      "options": [
+        "きりがある",
+        "きりだ",
+        "ぎりがない",
+        "きりがない"
+      ],
+      "answer": 3,
+      "explanation": "No end: **きりがない**.",
+      "notes": [
+        "The phrase is negative.",
+        "Not the phrase.",
+        "義理がない = 'no obligation'.",
+        ""
+      ],
+      "translation": "Once you start complaining, there's no end to it."
+    },
+    {
+      "point": "kiriganai",
+      "prompt": "What does 「{上|うえ}を{見|み}ればきりがない。」 mean?",
+      "options": [
+        "There's nothing above.",
+        "If you compare yourself with those above, there's no end to it.",
+        "Look up and you'll see the fog.",
+        "Looking up is pointless."
+      ],
+      "answer": 1,
+      "explanation": "きりがない = **endless**.",
+      "notes": [
+        "No.",
+        "",
+        "きり isn't 'fog' (霧).",
+        "Close, but it's about endless comparison."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "omoiwosuru",
+      "prompt": "{外国|がいこく}で{言葉|ことば}が{通|つう}じず、{悔|くや}しい（　）。",
+      "options": [
+        "{思|おも}いをした",
+        "{思|おも}ってした",
+        "{思|おも}いにした",
+        "{思|おも}い{出|だ}した"
+      ],
+      "answer": 0,
+      "explanation": "Go through (a feeling): **思いをする**.",
+      "notes": [
+        "",
+        "Not grammatical.",
+        "Not the phrase.",
+        "思い出した = 'remembered'."
+      ],
+      "translation": "Abroad, nobody understood me — it was frustrating."
+    },
+    {
+      "point": "omoiwosuru",
+      "prompt": "What does 「{子供|こども}にはこんな{辛|つら}い{思|おも}いをさせたくない。」 mean?",
+      "options": [
+        "I don't want my children to think about hard things.",
+        "My children don't want to go through hardship.",
+        "I don't want my children to go through such hardship.",
+        "I want my children to remember."
+      ],
+      "answer": 2,
+      "explanation": "思いをさせる = **put someone through**.",
+      "notes": [
+        "思いをさせる = make someone experience.",
+        "It's the parent's wish.",
+        "",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tokiteiru",
+      "prompt": "この{店|みせ}は{安|やす}くておいしい（　）、いつも{混|こ}んでいる。",
+      "options": [
+        "ときているから",
+        "としても",
+        "とあれば",
+        "ときたら"
+      ],
+      "answer": 0,
+      "explanation": "On top of that (so): **ときている**.",
+      "notes": [
+        "",
+        "としても = 'even if'.",
+        "とあれば = 'if it's for'.",
+        "ときたら = 'when it comes to (complaint)'."
+      ],
+      "translation": "This place is cheap and tasty to boot, so it's always packed."
+    },
+    {
+      "point": "tokiteiru",
+      "prompt": "What does 「{彼|かれ}は{頭|あたま}がいい{上|うえ}に、{性格|せいかく}もいいときている。」 mean?",
+      "options": [
+        "He's smart, but his personality is bad.",
+        "When he's smart, he's nice.",
+        "He's smart, and on top of that he's got a great personality.",
+        "He came because he's nice."
+      ],
+      "answer": 2,
+      "explanation": "ときている = **and on top of that**.",
+      "notes": [
+        "Both are good.",
+        "No condition.",
+        "",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tokorogaaru",
+      "prompt": "{彼|かれ}は{優|やさ}しいが、{頑固|がんこ}な（　）。",
+      "options": [
+        "ところだ",
+        "ところに",
+        "ところを",
+        "ところがある"
+      ],
+      "answer": 3,
+      "explanation": "Has a side: **ところがある**.",
+      "notes": [
+        "ところだ = 'is about to'.",
+        "ところに = 'just when'.",
+        "ところを = 'at the moment'.",
+        ""
+      ],
+      "translation": "He's kind, but he has a stubborn streak."
+    },
+    {
+      "point": "tokorogaaru",
+      "prompt": "What does 「{彼女|かのじょ}には{子供|こども}っぽいところがある。」 mean?",
+      "options": [
+        "She has a childish side.",
+        "She has children.",
+        "She has a place for children.",
+        "She's completely childish."
+      ],
+      "answer": 0,
+      "explanation": "ところがある = **has a side**.",
+      "notes": [
+        "",
+        "No.",
+        "ところ isn't a place here.",
+        "Only a side of her."
+      ],
+      "translation": ""
+    }
+  ]
+}

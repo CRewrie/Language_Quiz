@@ -1,0 +1,361 @@
+{
+  "id": "n1-spoken",
+  "category": "JLPT N1",
+  "title": "Spoken Emphasis: のなんのって, ってば, やしない, てかなわない, てみせる, とても…ない, くらいのものだ",
+  "description": "Incredibly, (impatient insisting), won't at all, unbearable, I'll show you, can't possibly, and about the only one.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "nonandatte",
+      "title": "〜のなんのって: incredibly",
+      "summary": "Plain form + のなんのって = so … you can't describe it (casual).",
+      "body": "- 昨日は寒い**のなんのって**、手が凍りそうだった.",
+      "examples": [
+        [
+          "{痛|いた}いのなんのって。",
+          "It hurt like crazy."
+        ]
+      ]
+    },
+    {
+      "id": "tteba",
+      "title": "〜ってば: (I said …!)",
+      "summary": "ってば adds impatience: 'I told you!', 'come on!'.",
+      "body": "- もう、わかった**ってば**!",
+      "examples": [
+        [
+          "{早|はや}くしてってば！",
+          "Hurry up, I said!"
+        ]
+      ]
+    },
+    {
+      "id": "yashinai",
+      "title": "〜やしない: won't at all",
+      "summary": "ます-stem + やしない = emphatic negation (casual ～はしない).",
+      "body": "- そんなこと、誰も信じ**やしない**.",
+      "examples": [
+        [
+          "{行|い}きやしないよ。",
+          "I'm certainly not going."
+        ]
+      ]
+    },
+    {
+      "id": "tekanawanai",
+      "title": "〜てかなわない: unbearable",
+      "summary": "て-form + かなわない = it's too much (heat, noise, …).",
+      "body": "- 毎日暑くて**かなわない**.",
+      "examples": [
+        [
+          "{隣|となり}の{部屋|へや}がうるさくてかなわない。",
+          "The noise from next door is unbearable."
+        ]
+      ]
+    },
+    {
+      "id": "temiseru",
+      "title": "〜てみせる: I'll show you",
+      "summary": "て-form + みせる = I'll definitely do it (determination).",
+      "body": "- 次の試合では必ず勝って**みせる**.",
+      "examples": [
+        [
+          "{絶対|ぜったい}に{合格|ごうかく}してみせる。",
+          "I'll pass, just you watch."
+        ]
+      ]
+    },
+    {
+      "id": "totemonai",
+      "title": "とても〜ない: can't possibly",
+      "summary": "とても + negative / potential negative = there's no way.",
+      "body": "- こんな問題は、**とても**一日では解け**ない**.",
+      "examples": [
+        [
+          "とても{信|しん}じられない{話|はなし}だ。",
+          "It's an utterly unbelievable story."
+        ]
+      ]
+    },
+    {
+      "id": "kurainomono",
+      "title": "〜くらいのものだ: about the only one",
+      "summary": "Noun + くらいのものだ = practically nobody but A.",
+      "body": "- そんな無茶をするのは彼**くらいのものだ**.",
+      "examples": [
+        [
+          "{毎朝|まいあさ}{五時|ごじ}に{起|お}きるのは{父|ちち}くらいのものだ。",
+          "My father is about the only one who gets up at five every morning."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nonandatte",
+      "prompt": "{昨日|きのう}は{寒|さむ}い（　）、{手|て}が{凍|こお}りそうだった。",
+      "options": [
+        "のなんだって",
+        "のなにやら",
+        "のなんのって",
+        "なんかって"
+      ],
+      "answer": 2,
+      "explanation": "Incredibly: **のなんのって**.",
+      "notes": [
+        "Not the phrase.",
+        "Not the phrase.",
+        "",
+        "Not the phrase."
+      ],
+      "translation": "It was so cold yesterday my hands nearly froze."
+    },
+    {
+      "point": "nonandatte",
+      "prompt": "What does 「{痛|いた}いのなんのって。」 mean?",
+      "options": [
+        "What hurts?",
+        "It hurt like crazy.",
+        "It hurts, apparently.",
+        "It didn't hurt at all."
+      ],
+      "answer": 1,
+      "explanation": "のなんのって = **incredibly**.",
+      "notes": [
+        "Not a question.",
+        "",
+        "No hearsay.",
+        "The opposite."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tteba",
+      "prompt": "もう、わかった（　）！ {何度|なんど}も{言|い}わないで。",
+      "options": [
+        "かしら",
+        "っぽい",
+        "ってば",
+        "っけ"
+      ],
+      "answer": 2,
+      "explanation": "Impatient: **ってば**.",
+      "notes": [
+        "かしら = 'I wonder'.",
+        "っぽい = '-ish'.",
+        "",
+        "っけ = 'was it?' (recalling)."
+      ],
+      "translation": "I get it already! Stop telling me over and over."
+    },
+    {
+      "point": "tteba",
+      "prompt": "What does 「{早|はや}くしてってば！」 express?",
+      "options": [
+        "Hearsay: 'They said hurry.'",
+        "Impatience: 'Hurry up, I said!'",
+        "A question: 'Will you hurry?'",
+        "A polite request."
+      ],
+      "answer": 1,
+      "explanation": "ってば = **impatience**.",
+      "notes": [
+        "Not hearsay here.",
+        "",
+        "Not a question.",
+        "ってば isn't polite."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yashinai",
+      "prompt": "そんなこと、{誰|だれ}も{信|しん}じ（　）。",
+      "options": [
+        "やしまい",
+        "やしなかろう",
+        "やしない",
+        "やしなう"
+      ],
+      "answer": 2,
+      "explanation": "Won't at all: **やしない**.",
+      "notes": [
+        "Not a form.",
+        "Not a form.",
+        "",
+        "養う (やしなう) = 'raise, support'."
+      ],
+      "translation": "Nobody's going to believe that."
+    },
+    {
+      "point": "yashinai",
+      "prompt": "What does 「{行|い}きやしないよ。」 mean?",
+      "options": [
+        "I'll definitely go.",
+        "Will you go?",
+        "I went, you know.",
+        "I'm certainly not going."
+      ],
+      "answer": 3,
+      "explanation": "やしない = **won't at all**.",
+      "notes": [
+        "やしない = emphatic no.",
+        "No.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tekanawanai",
+      "prompt": "{毎日|まいにち}{暑|あつ}くて（　）。",
+      "options": [
+        "かなわせる",
+        "かなえない",
+        "かなわない",
+        "かなう"
+      ],
+      "answer": 2,
+      "explanation": "Unbearable: **てかなわない**.",
+      "notes": [
+        "Not the phrase.",
+        "かなえない = 'can't grant (a wish)'.",
+        "",
+        "かなう = 'come true / match'."
+      ],
+      "translation": "It's unbearably hot every day."
+    },
+    {
+      "point": "tekanawanai",
+      "prompt": "What does 「{隣|となり}の{部屋|へや}がうるさくてかなわない。」 mean?",
+      "options": [
+        "The noise from next door is unbearable.",
+        "The room next door isn't noisy.",
+        "My wish for a quiet room came true.",
+        "I can't win against the room next door."
+      ],
+      "answer": 0,
+      "explanation": "てかなわない = **unbearable**.",
+      "notes": [
+        "",
+        "It is noisy.",
+        "No.",
+        "かなわない here isn't 'can't win'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "temiseru",
+      "prompt": "{次|つぎ}の{試合|しあい}では{必|かなら}ず{勝|か}って（　）。",
+      "options": [
+        "しまう",
+        "いる",
+        "みせる",
+        "おく"
+      ],
+      "answer": 2,
+      "explanation": "I'll show you: **てみせる**.",
+      "notes": [
+        "勝ってしまう = 'end up winning'.",
+        "勝っている = 'is winning'.",
+        "",
+        "勝っておく = 'win in advance'."
+      ],
+      "translation": "Next match, I'm going to win — just watch."
+    },
+    {
+      "point": "temiseru",
+      "prompt": "What does 「{絶対|ぜったい}に{合格|ごうかく}してみせる。」 mean?",
+      "options": [
+        "I passed to show off.",
+        "I'll try to pass and see.",
+        "I'll show my pass to you.",
+        "I'll pass, just you watch."
+      ],
+      "answer": 3,
+      "explanation": "てみせる = **I'll definitely do it**.",
+      "notes": [
+        "Future.",
+        "みせる here = determination, not 'try'.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "totemonai",
+      "prompt": "こんなに{難|むずか}しい{問題|もんだい}は、（　）{一日|いちにち}では{解|と}けない。",
+      "options": [
+        "すごく",
+        "とても",
+        "かなり",
+        "たいへん"
+      ],
+      "answer": 1,
+      "explanation": "Can't possibly: **とても…ない**.",
+      "notes": [
+        "すごく + negative isn't natural here.",
+        "",
+        "かなり + negative isn't natural.",
+        "たいへん + negative doesn't mean 'can't possibly'."
+      ],
+      "translation": "There's no way to solve a problem this hard in a single day."
+    },
+    {
+      "point": "totemonai",
+      "prompt": "What does 「とても{信|しん}じられない{話|はなし}だ。」 mean?",
+      "options": [
+        "It's a very believable story.",
+        "It's a very long story.",
+        "It's a story I believe very much.",
+        "It's an utterly unbelievable story."
+      ],
+      "answer": 3,
+      "explanation": "とても…ない = **can't possibly**.",
+      "notes": [
+        "とても + negative = can't possibly.",
+        "No.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kurainomono",
+      "prompt": "そんな{無茶|むちゃ}をするのは{彼|かれ}（　）。",
+      "options": [
+        "ぐらいに",
+        "くらいなら",
+        "くらいのものだ",
+        "くらいでも"
+      ],
+      "answer": 2,
+      "explanation": "About the only one: **くらいのものだ**.",
+      "notes": [
+        "ぐらいに = 'to the degree that'.",
+        "くらいなら = 'rather than'.",
+        "",
+        "くらいでも = 'even just'."
+      ],
+      "translation": "He's about the only one who'd do something that reckless."
+    },
+    {
+      "point": "kurainomono",
+      "prompt": "What does 「{毎朝|まいあさ}{五時|ごじ}に{起|お}きるのは{父|ちち}くらいのものだ。」 mean?",
+      "options": [
+        "My father is about the only one who gets up at five every morning.",
+        "Everyone gets up at five like my father.",
+        "My father gets up at about five.",
+        "My father gets up at five at the latest."
+      ],
+      "answer": 0,
+      "explanation": "くらいのものだ = **about the only one**.",
+      "notes": [
+        "",
+        "Only him.",
+        "くらい here isn't 'about (time)'.",
+        "No."
+      ],
+      "translation": ""
+    }
+  ]
+}

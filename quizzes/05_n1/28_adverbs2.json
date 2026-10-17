@@ -1,0 +1,361 @@
+{
+  "id": "n1-adverbs2",
+  "category": "JLPT N1",
+  "title": "More Adverbs: さぞ, さも, とっさに, とりわけ, まるっきり, それなりに / なりに, ままに",
+  "description": "Surely must have, as if, on the spur of the moment, especially, (not) at all, in its own way, and as (one wishes / is told).",
+  "level": "N1",
+  "points": [
+    {
+      "id": "sazo",
+      "title": "さぞ(かし): surely must have",
+      "summary": "さぞ + だろう / ことでしょう = imagining someone else's feelings.",
+      "body": "- 一人で大変だったでしょう。**さぞ**お疲れでしょう.",
+      "examples": [
+        [
+          "さぞ{寒|さむ}かったことでしょう。",
+          "You must have been so cold."
+        ]
+      ]
+    },
+    {
+      "id": "samo",
+      "title": "さも: as if (really)",
+      "summary": "さも + そうに / かのように = acting as though it were truly so.",
+      "body": "- 彼は**さも**知っているかのように話した.",
+      "examples": [
+        [
+          "さもおいしそうに{食|た}べる。",
+          "He eats as if it were really delicious."
+        ]
+      ]
+    },
+    {
+      "id": "tossani",
+      "title": "とっさに: on the spur of the moment",
+      "summary": "とっさに = instantly, without time to think.",
+      "body": "- 車が来たので、**とっさに**身をかわした.",
+      "examples": [
+        [
+          "とっさにうそをついてしまった。",
+          "I blurted out a lie on the spur of the moment."
+        ]
+      ]
+    },
+    {
+      "id": "toriwake",
+      "title": "とりわけ: especially",
+      "summary": "とりわけ = above all, particularly.",
+      "body": "- 今年の冬は**とりわけ**寒い.",
+      "examples": [
+        [
+          "{果物|くだもの}の{中|なか}でも、とりわけいちごが{好|す}きだ。",
+          "Of all fruit, I particularly like strawberries."
+        ]
+      ]
+    },
+    {
+      "id": "marukkiri",
+      "title": "まるっきり: (not) at all",
+      "summary": "まるっきり + negative / だめ = completely (casual まったく).",
+      "body": "- 彼の話は**まるっきり**意味がわからない.",
+      "examples": [
+        [
+          "フランス{語|ご}はまるっきりだめだ。",
+          "I'm totally hopeless at French."
+        ]
+      ]
+    },
+    {
+      "id": "nari",
+      "title": "それなり / 〜なりに: in its own way",
+      "summary": "それなりの + noun = appropriate to it. N なりに = in N's own (limited) way.",
+      "body": "- 高い店には**それなり**の理由がある.\n- 子供は子供**なりに**考えている.",
+      "examples": [
+        [
+          "{子供|こども}は{子供|こども}なりに{考|かんが}えている。",
+          "Children think things through in their own way."
+        ]
+      ]
+    },
+    {
+      "id": "mamani",
+      "title": "〜ままに: as (one wishes / is told)",
+      "summary": "Verb + ままに = just as A, following A.",
+      "body": "- 気の向く**ままに**旅をした.",
+      "examples": [
+        [
+          "{言|い}われるままに{契約書|けいやくしょ}にサインした。",
+          "I signed the contract just as I was told."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "sazo",
+      "prompt": "{一人|ひとり}で{大変|たいへん}だったでしょう。（　）お{疲|つか}れでしょう。",
+      "options": [
+        "さて",
+        "さも",
+        "さすが",
+        "さぞ"
+      ],
+      "answer": 3,
+      "explanation": "Surely must have: **さぞ**.",
+      "notes": [
+        "さて = 'well then'.",
+        "さも = 'as if'.",
+        "さすが = 'as expected'.",
+        ""
+      ],
+      "translation": "That must have been hard on your own. You must be exhausted."
+    },
+    {
+      "point": "sazo",
+      "prompt": "What does 「さぞ{寒|さむ}かったことでしょう。」 mean?",
+      "options": [
+        "It wasn't cold, was it?",
+        "You must have been so cold.",
+        "It seems it was cold.",
+        "Was it cold?"
+      ],
+      "answer": 1,
+      "explanation": "さぞ = **surely must have**.",
+      "notes": [
+        "No.",
+        "",
+        "さぞ = surely (sympathising).",
+        "Not a plain question."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "samo",
+      "prompt": "{彼|かれ}は（　）{知|し}っているかのように{話|はな}した。",
+      "options": [
+        "さぞ",
+        "さて",
+        "さも",
+        "さらに"
+      ],
+      "answer": 2,
+      "explanation": "As if: **さも**.",
+      "notes": [
+        "さぞ = 'surely must have' (others' feelings).",
+        "さて = 'well then'.",
+        "",
+        "さらに = 'further'."
+      ],
+      "translation": "He talked as though he knew all about it."
+    },
+    {
+      "point": "samo",
+      "prompt": "What does 「さもおいしそうに{食|た}べる。」 mean?",
+      "options": [
+        "He eats as if it were really delicious.",
+        "He doesn't seem to enjoy it.",
+        "He eats more and more.",
+        "He eats, and it's really delicious."
+      ],
+      "answer": 0,
+      "explanation": "さも = **as if**.",
+      "notes": [
+        "",
+        "The opposite.",
+        "No.",
+        "さも = appearance."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tossani",
+      "prompt": "{車|くるま}が{来|き}たので、（　）{身|み}をかわした。",
+      "options": [
+        "とりわけ",
+        "とっさに",
+        "てっきり",
+        "とっくに"
+      ],
+      "answer": 1,
+      "explanation": "On the spur of the moment: **とっさに**.",
+      "notes": [
+        "とりわけ = 'especially'.",
+        "",
+        "てっきり = 'I was sure'.",
+        "とっくに = 'long ago'."
+      ],
+      "translation": "A car came, so I instinctively jumped out of the way."
+    },
+    {
+      "point": "tossani",
+      "prompt": "What does 「とっさにうそをついてしまった。」 mean?",
+      "options": [
+        "I blurted out a lie on the spur of the moment.",
+        "I was sure it was a lie.",
+        "I planned a lie long ago.",
+        "I especially lied."
+      ],
+      "answer": 0,
+      "explanation": "とっさに = **instantly, without thinking**.",
+      "notes": [
+        "",
+        "That's てっきり.",
+        "That's とっくに.",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "toriwake",
+      "prompt": "{今年|ことし}の{冬|ふゆ}は（　）{寒|さむ}い。",
+      "options": [
+        "ともかく",
+        "とりわけ",
+        "とっさに",
+        "とりあえず"
+      ],
+      "answer": 1,
+      "explanation": "Especially: **とりわけ**.",
+      "notes": [
+        "ともかく = 'anyway'.",
+        "",
+        "とっさに = 'on the spur of the moment'.",
+        "とりあえず = 'for now'."
+      ],
+      "translation": "This winter is especially cold."
+    },
+    {
+      "point": "toriwake",
+      "prompt": "What does 「{果物|くだもの}の{中|なか}でも、とりわけいちごが{好|す}きだ。」 mean?",
+      "options": [
+        "Of all fruit, I particularly like strawberries.",
+        "For now, I like strawberries.",
+        "I like strawberries in fruit salad.",
+        "I only eat strawberries."
+      ],
+      "answer": 0,
+      "explanation": "とりわけ = **particularly**.",
+      "notes": [
+        "",
+        "That's とりあえず.",
+        "No.",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "marukkiri",
+      "prompt": "{彼|かれ}の{話|はなし}は（　）{意味|いみ}がわからない。",
+      "options": [
+        "まるい",
+        "まるごと",
+        "まさか",
+        "まるっきり"
+      ],
+      "answer": 3,
+      "explanation": "(Not) at all: **まるっきり**.",
+      "notes": [
+        "まるい = 'round'.",
+        "まるごと = 'whole'.",
+        "まさか = 'surely not'.",
+        ""
+      ],
+      "translation": "I can't make head or tail of what he says."
+    },
+    {
+      "point": "marukkiri",
+      "prompt": "What does 「フランス{語|ご}はまるっきりだめだ。」 mean?",
+      "options": [
+        "I'm not bad at French.",
+        "I'm totally hopeless at French.",
+        "French is bad for me.",
+        "French is a round language."
+      ],
+      "answer": 1,
+      "explanation": "まるっきり = **completely**.",
+      "notes": [
+        "The opposite.",
+        "",
+        "No.",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nari",
+      "prompt": "{高|たか}い{店|みせ}には（　）の{理由|りゆう}がある。",
+      "options": [
+        "それゆえ",
+        "それほど",
+        "それでも",
+        "それなり"
+      ],
+      "answer": 3,
+      "explanation": "Appropriate to it: **それなりの**.",
+      "notes": [
+        "それゆえ = 'therefore'.",
+        "それほど = 'that much'.",
+        "それでも = 'even so'.",
+        ""
+      ],
+      "translation": "Expensive shops have their reasons."
+    },
+    {
+      "point": "nari",
+      "prompt": "{子供|こども}は{子供|こども}（　）に{考|かんが}えている。",
+      "options": [
+        "なり",
+        "なりで",
+        "なりの",
+        "なりとも"
+      ],
+      "answer": 0,
+      "explanation": "In its own way: **なりに**.",
+      "notes": [
+        "",
+        "Not the form.",
+        "なりの needs a noun.",
+        "なりとも = 'at least'."
+      ],
+      "translation": "Children think things through in their own way."
+    },
+    {
+      "point": "mamani",
+      "prompt": "{休暇|きゅうか}は{気|き}の{向|む}く（　）{旅|たび}をした。",
+      "options": [
+        "までに",
+        "ままの",
+        "まみれ",
+        "ままに"
+      ],
+      "answer": 3,
+      "explanation": "As (one wishes): **ままに**.",
+      "notes": [
+        "までに = 'by (a deadline)'.",
+        "ままの needs a noun.",
+        "まみれ = 'covered in'.",
+        ""
+      ],
+      "translation": "During the holidays I travelled wherever my fancy took me."
+    },
+    {
+      "point": "mamani",
+      "prompt": "What does 「{言|い}われるままに{契約書|けいやくしょ}にサインした。」 mean?",
+      "options": [
+        "I signed the contract as it was.",
+        "I was told to sign it, but didn't.",
+        "I signed the contract just as I was told.",
+        "I signed it without being told."
+      ],
+      "answer": 2,
+      "explanation": "ままに = **as (told)**.",
+      "notes": [
+        "まま here = following.",
+        "I did sign.",
+        "",
+        "I followed instructions."
+      ],
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "id": "n1-cannot",
+  "category": "JLPT N1",
+  "title": "Wanting But Unable: (よ)うにも…ない, (よ)うか…まいか, そうにもない, どうにも…ない, ても始まらない, ないまでも, てもどうにもならない",
+  "description": "Want to but can't, whether to or not, not looking at all likely, no way at all, no use, even if not fully, and nothing can be done.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "younimo",
+      "title": "(よ)うにも〜ない: want to but can't",
+      "summary": "Volitional + にも + potential negative = even if you try to A, you can't.",
+      "body": "- 連絡しよう**にも**、電話番号がわから**ない**.",
+      "examples": [
+        [
+          "{動|うご}こうにも{動|うご}けなかった。",
+          "I wanted to move, but I just couldn't."
+        ]
+      ]
+    },
+    {
+      "id": "youkamaika",
+      "title": "(よ)うか〜まいか: whether to or not",
+      "summary": "Volitional + か + dictionary form + まいか = undecided whether to do A.",
+      "body": "- 行こう**か**行く**まいか**、まだ迷っている.",
+      "examples": [
+        [
+          "{言|い}おうか{言|い}うまいか{悩|なや}んだ。",
+          "I agonised over whether to say it or not."
+        ]
+      ]
+    },
+    {
+      "id": "souninai",
+      "title": "〜そうにもない: doesn't look at all likely",
+      "summary": "ます-stem + そうにもない = there's no sign it will happen (stronger そうにない).",
+      "body": "- この仕事は今日中に終わり**そうにもない**.",
+      "examples": [
+        [
+          "{雨|あめ}はやみそうにもない。",
+          "The rain shows no sign of stopping."
+        ]
+      ]
+    },
+    {
+      "id": "dounimo",
+      "title": "どうにも〜ない: no way at all",
+      "summary": "どうにも + negative = it can't be helped / nothing works.",
+      "body": "- この痛みは薬を飲んでも**どうにも**ならない.",
+      "examples": [
+        [
+          "{眠|ねむ}くてどうにもならない。",
+          "I'm so sleepy I can't do a thing about it."
+        ]
+      ]
+    },
+    {
+      "id": "hajimaranai",
+      "title": "〜ても始まらない: no use",
+      "summary": "て-form + も始まらない = doing A won't help now.",
+      "body": "- 今更後悔して**も始まらない**.",
+      "examples": [
+        [
+          "{泣|な}いても{始|はじ}まらない。",
+          "Crying won't do any good."
+        ]
+      ]
+    },
+    {
+      "id": "naimademo",
+      "title": "〜ないまでも: even if not (fully), at least",
+      "summary": "ない-form + までも = not as far as A, but at least B.",
+      "body": "- 毎日とは言わ**ないまでも**、週に一度は運動しなさい.",
+      "examples": [
+        [
+          "{完璧|かんぺき}ではないまでも、よくできている。",
+          "It's not perfect, but it's well done."
+        ]
+      ]
+    },
+    {
+      "id": "doumonaranai",
+      "title": "〜てもどうにもならない: nothing can be done",
+      "summary": "て-form + も + どうにもならない = no matter how much you A, it changes nothing.",
+      "body": "- 過ぎたことを悔やんで**もどうにもならない**.",
+      "examples": [
+        [
+          "{一人|ひとり}で{悩|なや}んでもどうにもならないよ。",
+          "Worrying on your own won't get you anywhere."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "younimo",
+      "prompt": "{連絡|れんらく}しよう（　）、{電話番号|でんわばんごう}がわからない。",
+      "options": [
+        "では",
+        "なら",
+        "にも",
+        "とも"
+      ],
+      "answer": 2,
+      "explanation": "Want to but can't: **(よ)うにも**.",
+      "notes": [
+        "しようでは isn't grammatical.",
+        "しようなら isn't grammatical.",
+        "",
+        "しようとも = 'even if one tries' — doesn't fit 'I can't because I don't know'."
+      ],
+      "translation": "I'd like to get in touch, but I don't know the number."
+    },
+    {
+      "point": "younimo",
+      "prompt": "What does 「{動|うご}こうにも{動|うご}けなかった。」 mean?",
+      "options": [
+        "Even if I move, I'll get stuck.",
+        "I tried moving and managed it.",
+        "I didn't want to move.",
+        "I wanted to move, but I just couldn't."
+      ],
+      "answer": 3,
+      "explanation": "うにも…ない = **can't, though you try**.",
+      "notes": [
+        "It's past.",
+        "It failed.",
+        "The wish was there.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "youkamaika",
+      "prompt": "{行|い}こうか{行|い}く（　）か、まだ{迷|まよ}っている。",
+      "options": [
+        "まい",
+        "べき",
+        "ない",
+        "まじ"
+      ],
+      "answer": 0,
+      "explanation": "Whether to or not: **うか…まいか**.",
+      "notes": [
+        "",
+        "行くべきか = 'whether I should go' — breaks the pair.",
+        "行くないか isn't grammatical.",
+        "まじ isn't the form here."
+      ],
+      "translation": "I still can't decide whether to go or not."
+    },
+    {
+      "point": "youkamaika",
+      "prompt": "What does 「{言|い}おうか{言|い}うまいか{悩|なや}んだ。」 mean?",
+      "options": [
+        "I decided not to say it.",
+        "I agonised over whether to say it or not.",
+        "I said it, then regretted it.",
+        "Someone told me not to say it."
+      ],
+      "answer": 1,
+      "explanation": "うか…まいか = **whether or not to**.",
+      "notes": [
+        "Still undecided.",
+        "",
+        "Nothing was said yet.",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "souninai",
+      "prompt": "この{仕事|しごと}は{今日中|きょうじゅう}に{終|お}わり（　）。",
+      "options": [
+        "そうにもない",
+        "そうでもない",
+        "そうもある",
+        "ようにもない"
+      ],
+      "answer": 0,
+      "explanation": "Not at all likely: **そうにもない**.",
+      "notes": [
+        "",
+        "そうでもない = 'not really so' — not about likelihood.",
+        "Not a pattern.",
+        "ようにもない isn't a pattern."
+      ],
+      "translation": "There's no way this job will be done today."
+    },
+    {
+      "point": "souninai",
+      "prompt": "What does 「{雨|あめ}はやみそうにもない。」 mean?",
+      "options": [
+        "It doesn't seem to be raining.",
+        "The rain will surely stop.",
+        "The rain shows no sign of stopping.",
+        "It seems the rain has stopped."
+      ],
+      "answer": 2,
+      "explanation": "そうにもない = **no sign of**.",
+      "notes": [
+        "It is raining.",
+        "The opposite.",
+        "",
+        "やみそうにもない = not stopping."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "dounimo",
+      "prompt": "この{痛|いた}みは{薬|くすり}を{飲|の}んでも（　）ならない。",
+      "options": [
+        "どうにも",
+        "どうにか",
+        "どうせ",
+        "どうやら"
+      ],
+      "answer": 0,
+      "explanation": "No way at all: **どうにも…ない**.",
+      "notes": [
+        "",
+        "どうにかならない = 'can't something be done?' (a wish).",
+        "どうせ = 'anyway'.",
+        "どうやら = 'apparently'."
+      ],
+      "translation": "This pain won't go away even with medicine."
+    },
+    {
+      "point": "dounimo",
+      "prompt": "What does 「{眠|ねむ}くてどうにもならない。」 mean?",
+      "options": [
+        "Somehow I'll stay awake.",
+        "I'm not sleepy at all.",
+        "I'm so sleepy I can't do a thing about it.",
+        "Why am I sleepy?"
+      ],
+      "answer": 2,
+      "explanation": "どうにもならない = **nothing helps**.",
+      "notes": [
+        "No.",
+        "No.",
+        "",
+        "Not a question."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "hajimaranai",
+      "prompt": "{今更|いまさら}{後悔|こうかい}して（　）。",
+      "options": [
+        "は{始|はじ}まらない",
+        "も{始|はじ}まる",
+        "も{始|はじ}めない",
+        "も{始|はじ}まらない"
+      ],
+      "answer": 3,
+      "explanation": "No use: **ても始まらない**.",
+      "notes": [
+        "は doesn't fit the phrase.",
+        "The phrase is negative.",
+        "始めない = 'won't start (something)'.",
+        ""
+      ],
+      "translation": "There's no point regretting it now."
+    },
+    {
+      "point": "hajimaranai",
+      "prompt": "What does 「{泣|な}いても{始|はじ}まらない。」 mean?",
+      "options": [
+        "Even crying, the show begins.",
+        "Crying won't do any good.",
+        "Crying hasn't started yet.",
+        "Don't start crying."
+      ],
+      "answer": 1,
+      "explanation": "ても始まらない = **no use**.",
+      "notes": [
+        "No.",
+        "",
+        "始まらない here isn't 'begin'.",
+        "Not a command."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "naimademo",
+      "prompt": "{毎日|まいにち}とは{言|い}わ（　）、{週|しゅう}に{一度|いちど}は{運動|うんどう}しなさい。",
+      "options": [
+        "ないことには",
+        "ないものか",
+        "ないまでも",
+        "ないではすまない"
+      ],
+      "answer": 2,
+      "explanation": "Even if not fully: **ないまでも**.",
+      "notes": [
+        "ないことには = 'unless'.",
+        "ないものか = 'I wish'.",
+        "",
+        "ないではすまない = 'must'."
+      ],
+      "translation": "I won't say every day, but at least exercise once a week."
+    },
+    {
+      "point": "naimademo",
+      "prompt": "What does 「{完璧|かんぺき}ではないまでも、よくできている。」 mean?",
+      "options": [
+        "It's not well done at all.",
+        "It's not perfect, but it's well done.",
+        "Until it's perfect, it's not done.",
+        "It's perfect and well done."
+      ],
+      "answer": 1,
+      "explanation": "ないまでも = **even if not**.",
+      "notes": [
+        "It is well done.",
+        "",
+        "までも here isn't 'until'.",
+        "Not perfect."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "doumonaranai",
+      "prompt": "{過|す}ぎたことを{悔|く}やんで（　）。",
+      "options": [
+        "もどうにかなる",
+        "もどうやら",
+        "もどうせ",
+        "もどうにもならない"
+      ],
+      "answer": 3,
+      "explanation": "Nothing can be done: **てもどうにもならない**.",
+      "notes": [
+        "どうにかなる = 'it'll work out' — regretting doesn't fix the past.",
+        "どうやら = 'apparently'.",
+        "どうせ = 'anyway'.",
+        ""
+      ],
+      "translation": "Regretting the past changes nothing."
+    },
+    {
+      "point": "doumonaranai",
+      "prompt": "What does 「{一人|ひとり}で{悩|なや}んでもどうにもならないよ。」 mean?",
+      "options": [
+        "Worrying on your own won't get you anywhere.",
+        "Worry on your own, and it'll be fine.",
+        "You're worrying about nothing.",
+        "Only you can solve it."
+      ],
+      "answer": 0,
+      "explanation": "てもどうにもならない = **pointless**.",
+      "notes": [
+        "",
+        "The opposite.",
+        "No.",
+        "No."
+      ],
+      "translation": ""
+    }
+  ]
+}
