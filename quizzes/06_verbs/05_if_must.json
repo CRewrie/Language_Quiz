@@ -52,7 +52,7 @@
         "飲めば",
         "のめば"
       ],
-      "hint": "の…",
+      "hint": "飲め…",
       "explanation": "{飲|の}む is an う-verb (godan): む → め (え-row) + ば → **飲めば**.",
       "notes": [],
       "translation": "If you take this medicine, you'll soon get better."
@@ -66,7 +66,7 @@
         "聞けば",
         "きけば"
       ],
-      "hint": "き…",
+      "hint": "聞け…",
       "explanation": "{聞|き}く is an う-verb (godan): く → け (え-row) + ば → **聞けば**.",
       "notes": [],
       "translation": "If there's anything you don't understand, just ask the teacher."
@@ -80,7 +80,7 @@
         "出れば",
         "でれば"
       ],
-      "hint": "で…",
+      "hint": "出れ…",
       "explanation": "{出|で}る is a る-verb (ichidan): drop る + れば → **出れば**.",
       "notes": [],
       "translation": "If we'd left earlier, we'd have made it."
@@ -94,7 +94,7 @@
         "着いたら",
         "ついたら"
       ],
-      "hint": "つ…",
+      "hint": "着い…",
       "explanation": "{着|つ}く is an う-verb (godan): く → いて (た-form) + ら → **着いたら**.",
       "notes": [],
       "translation": "Call me when you get to the station."
@@ -108,7 +108,7 @@
         "降ったら",
         "ふったら"
       ],
-      "hint": "ふ…",
+      "hint": "降っ…",
       "explanation": "{降|ふ}る is an う-verb (godan): う・つ・る → って (た-form) + ら → **降ったら**.",
       "notes": [],
       "translation": "If it rains, the match is off."
@@ -122,7 +122,7 @@
         "当たったら",
         "あたったら"
       ],
-      "hint": "あ…",
+      "hint": "当たっ…",
       "explanation": "{当|あ}たる is an う-verb (godan): う・つ・る → って (た-form) + ら → **当たったら**.",
       "notes": [],
       "translation": "If you won the lottery, what would you buy?"
@@ -144,7 +144,7 @@
         "勉強しないといけない",
         "べんきょうしないといけない"
       ],
-      "hint": "べ…",
+      "hint": "勉強し…",
       "explanation": "{勉強|べんきょう}する is irregular (する): する → し + ending → **勉強しなければならない**.",
       "notes": [],
       "translation": "There's an exam tomorrow, so I have to study tonight."
@@ -166,7 +166,7 @@
         "行かないといけない",
         "いかないといけない"
       ],
-      "hint": "い…",
+      "hint": "行か…",
       "explanation": "{行|い}く is an う-verb (godan) — with one exception: く → か (あ-row) + なければならない → **行かなければならない**.",
       "notes": [],
       "translation": "I have to be at the office by nine."
@@ -188,7 +188,7 @@
         "返さないといけない",
         "かえさないといけない"
       ],
-      "hint": "か…",
+      "hint": "返さ…",
       "explanation": "{返|かえ}す is an う-verb (godan): す → さ (あ-row) + なければならない → **返さなければならない**.",
       "notes": [],
       "translation": "I have to return the library books by next week."
@@ -201,7 +201,7 @@
       "accept": [
         "あれば"
       ],
-      "hint": "あ…",
+      "hint": "あれ…",
       "explanation": "ある is an う-verb (godan) with an irregular negative: る → れ (え-row) + ば → **あれば**.",
       "notes": [],
       "translation": "If I had the money, I'd like to travel around the world."
@@ -214,7 +214,7 @@
       "accept": [
         "あれば"
       ],
-      "hint": "あ…",
+      "hint": "あれ…",
       "explanation": "ある is an う-verb (godan) with an irregular negative: る → れ (え-row) + ば → **あれば**.",
       "notes": [],
       "translation": "If you have time, please come again."
@@ -228,7 +228,7 @@
         "帰ったら",
         "かえったら"
       ],
-      "hint": "か…",
+      "hint": "帰っ…",
       "explanation": "{帰|かえ}る is an う-verb (godan): う・つ・る → って (た-form) + ら → **帰ったら**.",
       "notes": [],
       "translation": "Wash your hands as soon as you get home."
@@ -250,7 +250,7 @@
         "飲まないといけない",
         "のまないといけない"
       ],
-      "hint": "の…",
+      "hint": "飲ま…",
       "explanation": "{飲|の}む is an う-verb (godan): む → ま (あ-row) + なければならない → **飲まなければならない**.",
       "notes": [],
       "translation": "You have to take this medicine every day."

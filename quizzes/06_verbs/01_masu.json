@@ -76,7 +76,7 @@
         "起きます",
         "おきます"
       ],
-      "hint": "お…",
+      "hint": "起きま…",
       "explanation": "{起|お}きる is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **起きます**.",
       "notes": [],
       "translation": "I get up at seven every morning."
@@ -90,7 +90,7 @@
         "飲みません",
         "のみません"
       ],
-      "hint": "の…",
+      "hint": "飲み…",
       "explanation": "{飲|の}む is an う-verb (godan): む → み (い-row) for the ます-stem, then add the ending → **飲みません**.",
       "notes": [],
       "translation": "I don't drink much alcohol."
@@ -104,7 +104,7 @@
         "見ました",
         "みました"
       ],
-      "hint": "み…",
+      "hint": "見ま…",
       "explanation": "{見|み}る is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **見ました**.",
       "notes": [],
       "translation": "Last weekend I watched a film with my family."
@@ -118,7 +118,7 @@
         "食べませんでした",
         "たべませんでした"
       ],
-      "hint": "た…",
+      "hint": "食べま…",
       "explanation": "{食|た}べる is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **食べませんでした**.",
       "notes": [],
       "translation": "I was so busy yesterday that I didn't eat lunch."
@@ -132,7 +132,7 @@
         "行きましょう",
         "いきましょう"
       ],
-      "hint": "い…",
+      "hint": "行き…",
       "explanation": "{行|い}く is an う-verb (godan) — with one exception: く → き (い-row) for the ます-stem, then add the ending → **行きましょう**.",
       "notes": [],
       "translation": "Let's go for a drink together sometime."
@@ -173,7 +173,7 @@
         "勉強しました",
         "べんきょうしました"
       ],
-      "hint": "べ…",
+      "hint": "勉強し…",
       "explanation": "{勉強|べんきょう}する is irregular (する): する → し + ending → **勉強しました**.",
       "notes": [],
       "translation": "I studied economics at university."
@@ -187,7 +187,7 @@
         "話しませんでした",
         "はなしませんでした"
       ],
-      "hint": "は…",
+      "hint": "話し…",
       "explanation": "{話|はな}す is an う-verb (godan): す → し (い-row) for the ます-stem, then add the ending → **話しませんでした**.",
       "notes": [],
       "translation": "At my previous company I didn't speak much English."
@@ -201,7 +201,7 @@
         "聞きます",
         "ききます"
       ],
-      "hint": "き…",
+      "hint": "聞き…",
       "explanation": "{聞|き}く is an う-verb (godan): く → き (い-row) for the ます-stem, then add the ending → **聞きます**.",
       "notes": [],
       "translation": "Every evening I listen to the news in Japanese."
@@ -215,7 +215,7 @@
         "吸いません",
         "すいません"
       ],
-      "hint": "す…",
+      "hint": "吸い…",
       "explanation": "{吸|す}う is an う-verb (godan): う → い (い-row) for the ます-stem, then add the ending → **吸いません**.",
       "notes": [],
       "translation": "I don't smoke."
@@ -229,7 +229,7 @@
         "引っ越しました",
         "ひっこしました"
       ],
-      "hint": "ひ…",
+      "hint": "引っ越し…",
       "explanation": "{引っ越|ひっこ}す is an う-verb (godan): す → し (い-row) for the ます-stem, then add the ending → **引っ越しました**.",
       "notes": [],
       "translation": "I moved to this town last month."
@@ -243,7 +243,7 @@
         "歩きましょう",
         "あるきましょう"
       ],
-      "hint": "あ…",
+      "hint": "歩き…",
       "explanation": "{歩|ある}く is an う-verb (godan): く → き (い-row) for the ます-stem, then add the ending → **歩きましょう**.",
       "notes": [],
       "translation": "Let's walk to the station together."
@@ -257,7 +257,7 @@
         "出かけませんでした",
         "でかけませんでした"
       ],
-      "hint": "で…",
+      "hint": "出かけま…",
       "explanation": "{出|で}かける is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **出かけませんでした**.",
       "notes": [],
       "translation": "It rained yesterday, so I didn't go anywhere."

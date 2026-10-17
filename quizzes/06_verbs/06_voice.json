@@ -64,7 +64,7 @@
         "踏まれた",
         "ふまれた"
       ],
-      "hint": "ふ…",
+      "hint": "踏ま…",
       "explanation": "Passive: {踏|ふ}む is an う-verb (godan): む → ま (あ-row) + れる → **踏まれた**.",
       "notes": [],
       "translation": "Someone stepped on my foot on the train."
@@ -78,7 +78,7 @@
         "叱られた",
         "しかられた"
       ],
-      "hint": "し…",
+      "hint": "叱ら…",
       "explanation": "Passive: {叱|しか}る is an う-verb (godan): る → ら (あ-row) + れる → **叱られた**.",
       "notes": [],
       "translation": "I was late and got told off by the teacher."
@@ -92,7 +92,7 @@
         "盗まれた",
         "ぬすまれた"
       ],
-      "hint": "ぬ…",
+      "hint": "盗ま…",
       "explanation": "Passive: {盗|ぬす}む is an う-verb (godan): む → ま (あ-row) + れる → **盗まれた**.",
       "notes": [],
       "translation": "My wallet was stolen at the station."
@@ -106,7 +106,7 @@
         "建てられた",
         "たてられた"
       ],
-      "hint": "た…",
+      "hint": "建てら…",
       "explanation": "Passive: {建|た}てる is a る-verb (ichidan): drop る + られる → **建てられた**.",
       "notes": [],
       "translation": "This temple was built 800 years ago."
@@ -120,7 +120,7 @@
         "読まれている",
         "よまれている"
       ],
-      "hint": "よ…",
+      "hint": "読ま…",
       "explanation": "Passive: {読|よ}む is an う-verb (godan): む → ま (あ-row) + れる → **読まれている**.",
       "notes": [],
       "translation": "This book is read all over the world."
@@ -134,7 +134,7 @@
         "歌われている",
         "うたわれている"
       ],
-      "hint": "う…",
+      "hint": "歌わ…",
       "explanation": "Passive: {歌|うた}う is an う-verb (godan): う → わ (あ-row) + れる → **歌われている**.",
       "notes": [],
       "translation": "This song is still sung by many people."
@@ -148,7 +148,7 @@
         "掃除させた",
         "そうじさせた"
       ],
-      "hint": "そ…",
+      "hint": "掃除さ…",
       "explanation": "{掃除|そうじ}する is irregular (する): する → させた → **掃除させた**.",
       "notes": [],
       "translation": "Mum made my little brother clean his room."
@@ -162,7 +162,7 @@
         "書かせた",
         "かかせた"
       ],
-      "hint": "か…",
+      "hint": "書か…",
       "explanation": "Causative: {書|か}く is an う-verb (godan): く → か (あ-row) + せる, past → **書かせた**.",
       "notes": [],
       "translation": "The teacher had the students write an essay."
@@ -176,7 +176,7 @@
         "食べさせた",
         "たべさせた"
       ],
-      "hint": "た…",
+      "hint": "食べさ…",
       "explanation": "Causative: {食|た}べる is a る-verb (ichidan): drop る + させる, past → **食べさせた**.",
       "notes": [],
       "translation": "On their birthday, we let the kids eat whatever they liked."
@@ -190,7 +190,7 @@
         "待たせた",
         "またせた"
       ],
-      "hint": "ま…",
+      "hint": "待た…",
       "explanation": "Causative: {待|ま}つ is an う-verb (godan): つ → た (あ-row) + せる, past → **待たせた**.",
       "notes": [],
       "translation": "My manager kept me waiting for a whole hour."
@@ -204,7 +204,7 @@
         "練習させられた",
         "れんしゅうさせられた"
       ],
-      "hint": "れ…",
+      "hint": "練習さ…",
       "explanation": "{練習|れんしゅう}する is irregular (する): する → させられた → **練習させられた**.",
       "notes": [],
       "translation": "As a child I was made to practise the piano every day."
@@ -220,7 +220,7 @@
         "飲ませられた",
         "のませられた"
       ],
-      "hint": "の…",
+      "hint": "飲ま…",
       "explanation": "Causative-passive: {飲|の}む is an う-verb (godan): む → ま (あ-row) + される (short form; せられる also works), past → **飲まされた**.",
       "notes": [],
       "translation": "At the party my senior made me drink."
@@ -236,7 +236,7 @@
         "待たせられた",
         "またせられた"
       ],
-      "hint": "ま…",
+      "hint": "待た…",
       "explanation": "Causative-passive: {待|ま}つ is an う-verb (godan): つ → た (あ-row) + される (short form; せられる also works), past → **待たされた**.",
       "notes": [],
       "translation": "Yesterday I was kept waiting at the station for a whole hour."
@@ -250,7 +250,7 @@
         "食べさせられた",
         "たべさせられた"
       ],
-      "hint": "た…",
+      "hint": "食べさ…",
       "explanation": "Causative-passive: {食|た}べる is a る-verb (ichidan): drop る + させられる, past → **食べさせられた**.",
       "notes": [],
       "translation": "At school lunch I was made to eat vegetables I hated."

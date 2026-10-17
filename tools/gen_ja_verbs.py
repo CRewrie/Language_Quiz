@@ -261,7 +261,17 @@ def build(key, form):
                     accept.append(a)
         why = explain(key, form, accept[0])
     kana_main = next((a for a in accept if all("぀" <= c <= "ゟ" for c in a)), accept[-1])
-    return accept, why, kana_main[0] + "…"
+    # Hint: the unchanged part of the verb plus the first kana that changes (歩く → 歩き…, 行く → 行っ…),
+    # so it points at the conjugation instead of giving away the verb's own first kana.
+    reading = VERBS[key][1]
+    n = 0
+    while n < min(len(kana_main), len(reading)) and kana_main[n] == reading[n]:
+        n += 1
+    hint = kana_main[:max(1, min(n + 1, len(kana_main) - 1))]  # never the whole answer
+    keigo_form = form in ("hon", "hon_ta", "hum", "hum_ta")
+    if keigo_form and hint in ("お", "ご"):  # regular keigo: お/ご + first kana of the stem
+        hint = kana_main[:2]
+    return accept, why, (to_kanji(hint, key) if n and not keigo_form else hint) + "…"
 
 
 # ---------------------------------------------------------------- quizzes

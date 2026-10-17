@@ -76,7 +76,7 @@
         "曲がって",
         "まがって"
       ],
-      "hint": "ま…",
+      "hint": "曲がっ…",
       "explanation": "{曲|ま}がる is an う-verb (godan): う・つ・る → って → **曲がって**.",
       "notes": [],
       "translation": "Turn right at the next corner and go straight on."
@@ -90,7 +90,7 @@
         "切って",
         "きって"
       ],
-      "hint": "き…",
+      "hint": "切っ…",
       "explanation": "{切|き}る is an う-verb (godan): う・つ・る → って (切る looks like a る-verb but is an う-verb) → **切って**.",
       "notes": [],
       "translation": "Cut the vegetables and put them in the pot."
@@ -104,7 +104,7 @@
         "割って",
         "わって"
       ],
-      "hint": "わ…",
+      "hint": "割っ…",
       "explanation": "{割|わ}る is an う-verb (godan): う・つ・る → って → **割って**.",
       "notes": [],
       "translation": "Crack the eggs and mix them well."
@@ -118,7 +118,7 @@
         "話してください",
         "はなしてください"
       ],
-      "hint": "は…",
+      "hint": "話し…",
       "explanation": "{話|はな}す is an う-verb (godan): す → して + ください → **話してください**.",
       "notes": [],
       "translation": "Excuse me, could you speak a little more slowly, please?"
@@ -132,7 +132,7 @@
         "書いてください",
         "かいてください"
       ],
-      "hint": "か…",
+      "hint": "書い…",
       "explanation": "{書|か}く is an う-verb (godan): く → いて + ください → **書いてください**.",
       "notes": [],
       "translation": "Please write your name here."
@@ -146,7 +146,7 @@
         "待ってください",
         "まってください"
       ],
-      "hint": "ま…",
+      "hint": "待っ…",
       "explanation": "{待|ま}つ is an う-verb (godan): う・つ・る → って + ください → **待ってください**.",
       "notes": [],
       "translation": "Please wait a moment — I'll be right back."
@@ -160,7 +160,7 @@
         "待っています",
         "まっています"
       ],
-      "hint": "ま…",
+      "hint": "待っ…",
       "explanation": "{待|ま}つ is an う-verb (godan): う・つ・る → って + います → **待っています**.",
       "notes": [],
       "translation": "I'm waiting for a friend in front of the station right now."
@@ -174,7 +174,7 @@
         "働いています",
         "はたらいています"
       ],
-      "hint": "は…",
+      "hint": "働い…",
       "explanation": "{働|はたら}く is an う-verb (godan): く → いて + います → **働いています**.",
       "notes": [],
       "translation": "My older sister works at a bank in Tokyo."
@@ -188,7 +188,7 @@
         "撮ってもいい",
         "とってもいい"
       ],
-      "hint": "と…",
+      "hint": "撮っ…",
       "explanation": "{撮|と}る is an う-verb (godan): う・つ・る → って + もいい → **撮ってもいい**.",
       "notes": [],
       "translation": "May I take photos here?"
@@ -202,7 +202,7 @@
         "休んでもいい",
         "やすんでもいい"
       ],
-      "hint": "や…",
+      "hint": "休ん…",
       "explanation": "{休|やす}む is an う-verb (godan): ぬ・ぶ・む → んで + もいい → **休んでもいい**.",
       "notes": [],
       "translation": "If you're tired, you can take a short break."
@@ -216,7 +216,7 @@
         "撮ってはいけない",
         "とってはいけない"
       ],
-      "hint": "と…",
+      "hint": "撮っ…",
       "explanation": "{撮|と}る is an う-verb (godan): う・つ・る → って + はいけない → **撮ってはいけない**.",
       "notes": [],
       "translation": "You mustn't take photos inside the museum."
@@ -230,7 +230,7 @@
         "押してはいけない",
         "おしてはいけない"
       ],
-      "hint": "お…",
+      "hint": "押し…",
       "explanation": "{押|お}す is an う-verb (godan): す → して + はいけない → **押してはいけない**.",
       "notes": [],
       "translation": "You must never press this button."
@@ -257,7 +257,7 @@
         "遊んでいます",
         "あそんでいます"
       ],
-      "hint": "あ…",
+      "hint": "遊ん…",
       "explanation": "{遊|あそ}ぶ is an う-verb (godan): ぬ・ぶ・む → んで + います → **遊んでいます**.",
       "notes": [],
       "translation": "The children are playing in the park."

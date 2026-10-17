@@ -64,7 +64,7 @@
         "起きる",
         "おきる"
       ],
-      "hint": "お…",
+      "hint": "起き…",
       "explanation": "Plain present = the dictionary form itself: **起きる**. Casual speech just drops ます.",
       "notes": [],
       "translation": "What time are you getting up tomorrow?"
@@ -78,7 +78,7 @@
         "行かない",
         "いかない"
       ],
-      "hint": "い…",
+      "hint": "行か…",
       "explanation": "{行|い}く is an う-verb (godan) — with one exception: く → か (あ-row) + ない → **行かない**.",
       "notes": [],
       "translation": "I'm tired today, so I'm not going anywhere."
@@ -92,7 +92,7 @@
         "会った",
         "あった"
       ],
-      "hint": "あ…",
+      "hint": "会っ…",
       "explanation": "{会|あ}う is an う-verb (godan): う・つ・る → って → **会った**.",
       "notes": [],
       "translation": "I bumped into Tanaka at the station yesterday."
@@ -120,7 +120,7 @@
         "休む",
         "やすむ"
       ],
-      "hint": "や…",
+      "hint": "休…",
       "explanation": "Plain present = the dictionary form itself: **休む**. Casual speech just drops ます.",
       "notes": [],
       "translation": "I'm planning to take it easy at home this weekend."
@@ -134,7 +134,7 @@
         "食べない",
         "たべない"
       ],
-      "hint": "た…",
+      "hint": "食べな…",
       "explanation": "{食|た}べる is a る-verb (ichidan): drop る + ない → **食べない**.",
       "notes": [],
       "translation": "I don't really eat spicy food."
@@ -148,7 +148,7 @@
         "食べた",
         "たべた"
       ],
-      "hint": "た…",
+      "hint": "食べ…",
       "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べた**.",
       "notes": [],
       "translation": "What did you eat last night?"
@@ -175,7 +175,7 @@
         "飲む",
         "のむ"
       ],
-      "hint": "の…",
+      "hint": "飲…",
       "explanation": "Plain present = the dictionary form itself: **飲む**. Casual speech just drops ます.",
       "notes": [],
       "translation": "Do you drink coffee every morning?"
@@ -189,7 +189,7 @@
         "出なかった",
         "でなかった"
       ],
-      "hint": "で…",
+      "hint": "出な…",
       "explanation": "{出|で}る is a る-verb (ichidan): drop る + なかった → **出なかった**.",
       "notes": [],
       "translation": "I called, but he didn't pick up."
@@ -203,7 +203,7 @@
         "行く",
         "いく"
       ],
-      "hint": "い…",
+      "hint": "行…",
       "explanation": "Plain present = the dictionary form itself: **行く**. Casual speech just drops ます.",
       "notes": [],
       "translation": "I'm going to Kyoto next week."
@@ -217,7 +217,7 @@
         "帰った",
         "かえった"
       ],
-      "hint": "か…",
+      "hint": "帰っ…",
       "explanation": "{帰|かえ}る is an う-verb (godan): う・つ・る → って → **帰った**.",
       "notes": [],
       "translation": "She's already gone home — she left a moment ago."
@@ -231,7 +231,7 @@
         "言わない",
         "いわない"
       ],
-      "hint": "い…",
+      "hint": "言わ…",
       "explanation": "{言|い}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **言わない**.",
       "notes": [],
       "translation": "Don't worry, I won't tell anyone."
@@ -245,7 +245,7 @@
         "食べなかった",
         "たべなかった"
       ],
-      "hint": "た…",
+      "hint": "食べな…",
       "explanation": "{食|た}べる is a る-verb (ichidan): drop る + なかった → **食べなかった**.",
       "notes": [],
       "translation": "As a kid I didn't eat vegetables at all."

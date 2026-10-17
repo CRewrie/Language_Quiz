@@ -52,7 +52,7 @@
         "読める",
         "よめる"
       ],
-      "hint": "よ…",
+      "hint": "読め…",
       "explanation": "{読|よ}む is an う-verb (godan): む → め (え-row) + る, then conjugate like a る-verb → **読める**.",
       "notes": [],
       "translation": "My little brother is only five, but he can read hiragana."
@@ -79,7 +79,7 @@
         "使えます",
         "つかえます"
       ],
-      "hint": "つ…",
+      "hint": "使え…",
       "explanation": "{使|つか}う is an う-verb (godan): う → え (え-row) + る, then conjugate like a る-verb → **使えます**.",
       "notes": [],
       "translation": "Can I pay by card in this shop?"
@@ -107,7 +107,7 @@
         "走れる",
         "はしれる"
       ],
-      "hint": "は…",
+      "hint": "走れ…",
       "explanation": "{走|はし}る is an う-verb (godan): る → れ (え-row) + る, then conjugate like a る-verb → **走れる**.",
       "notes": [],
       "translation": "She can run 100 metres in 12 seconds."
@@ -121,7 +121,7 @@
         "寝よう",
         "ねよう"
       ],
-      "hint": "ね…",
+      "hint": "寝よ…",
       "explanation": "{寝|ね}る is a る-verb (ichidan): drop る + よう → **寝よう**.",
       "notes": [],
       "translation": "I've got an early start tomorrow, so I think I'll go to bed early tonight."
@@ -135,7 +135,7 @@
         "行こう",
         "いこう"
       ],
-      "hint": "い…",
+      "hint": "行こ…",
       "explanation": "{行|い}く is an う-verb (godan) — with one exception: く → こ (お-row) + う → **行こう**.",
       "notes": [],
       "translation": "I'm thinking of going to Hokkaido in the summer holidays."
@@ -149,7 +149,7 @@
         "休もう",
         "やすもう"
       ],
-      "hint": "や…",
+      "hint": "休も…",
       "explanation": "{休|やす}む is an う-verb (godan): む → も (お-row) + う → **休もう**.",
       "notes": [],
       "translation": "We're tired — shall we take a break?"
@@ -163,7 +163,7 @@
         "書こう",
         "かこう"
       ],
-      "hint": "か…",
+      "hint": "書こ…",
       "explanation": "{書|か}く is an う-verb (godan): く → こ (お-row) + う → **書こう**.",
       "notes": [],
       "translation": "From next year I'm going to write a diary every day."
@@ -177,7 +177,7 @@
         "飼えます",
         "かえます"
       ],
-      "hint": "か…",
+      "hint": "飼え…",
       "explanation": "{飼|か}う is an う-verb (godan): う → え (え-row) + る, then conjugate like a る-verb → **飼えます**.",
       "notes": [],
       "translation": "You can keep pets in this flat."
@@ -191,7 +191,7 @@
         "作ろう",
         "つくろう"
       ],
-      "hint": "つ…",
+      "hint": "作ろ…",
       "explanation": "{作|つく}る is an う-verb (godan): る → ろ (お-row) + う → **作ろう**.",
       "notes": [],
       "translation": "Let's cook dinner together."
@@ -205,7 +205,7 @@
         "泳げる",
         "およげる"
       ],
-      "hint": "お…",
+      "hint": "泳げ…",
       "explanation": "{泳|およ}ぐ is an う-verb (godan): ぐ → げ (え-row) + る, then conjugate like a る-verb → **泳げる**.",
       "notes": [],
       "translation": "I practise every day so that I can swim well."

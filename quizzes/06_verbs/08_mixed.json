@@ -36,7 +36,7 @@
         "食べた",
         "たべた"
       ],
-      "hint": "た…",
+      "hint": "食べ…",
       "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べた**.",
       "notes": [],
       "translation": "I had sushi at a restaurant yesterday."
@@ -50,7 +50,7 @@
         "開けて",
         "あけて"
       ],
-      "hint": "あ…",
+      "hint": "開け…",
       "explanation": "{開|あ}ける is a る-verb (ichidan): drop る + て / た → **開けて**.",
       "notes": [],
       "translation": "It's hot, isn't it? May I open the window?"
@@ -64,7 +64,7 @@
         "読めません",
         "よめません"
       ],
-      "hint": "よ…",
+      "hint": "読め…",
       "explanation": "{読|よ}む is an う-verb (godan): む → め (え-row) + る, then conjugate like a る-verb → **読めません**.",
       "notes": [],
       "translation": "I still can't read kanji at all."
@@ -78,7 +78,7 @@
         "行こう",
         "いこう"
       ],
-      "hint": "い…",
+      "hint": "行こ…",
       "explanation": "{行|い}く is an う-verb (godan) — with one exception: く → こ (お-row) + う → **行こう**.",
       "notes": [],
       "translation": "Let's go to the beach together at the weekend."
@@ -92,7 +92,7 @@
         "呼ばれた",
         "よばれた"
       ],
-      "hint": "よ…",
+      "hint": "呼ば…",
       "explanation": "Passive: {呼|よ}ぶ is an う-verb (godan): ぶ → ば (あ-row) + れる → **呼ばれた**.",
       "notes": [],
       "translation": "My name was called by the teacher in class."
@@ -106,7 +106,7 @@
         "出れば",
         "でれば"
       ],
-      "hint": "で…",
+      "hint": "出れ…",
       "explanation": "{出|で}る is a る-verb (ichidan): drop る + れば → **出れば**.",
       "notes": [],
       "translation": "If you leave now, you'll make it."
@@ -128,7 +128,7 @@
         "読まないといけない",
         "よまないといけない"
       ],
-      "hint": "よ…",
+      "hint": "読ま…",
       "explanation": "{読|よ}む is an う-verb (godan): む → ま (あ-row) + なければならない → **読まなければならない**.",
       "notes": [],
       "translation": "I have to read the materials before the meeting."
@@ -142,7 +142,7 @@
         "いらっしゃいます",
         "おいでになります"
       ],
-      "hint": "い…",
+      "hint": "いら…",
       "explanation": "{行|い}く has a special honorific verb: **いらっしゃいます**. (おいでになります also work.)",
       "notes": [],
       "translation": "Where are you going, sir?"
@@ -169,7 +169,7 @@
         "止んだら",
         "やんだら"
       ],
-      "hint": "や…",
+      "hint": "止ん…",
       "explanation": "{止|や}む is an う-verb (godan): ぬ・ぶ・む → んで (た-form) + ら → **止んだら**.",
       "notes": [],
       "translation": "Let's go out once the rain stops."
@@ -183,7 +183,7 @@
         "食べませんでした",
         "たべませんでした"
       ],
-      "hint": "た…",
+      "hint": "食べま…",
       "explanation": "{食|た}べる is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **食べませんでした**.",
       "notes": [],
       "translation": "I had a headache yesterday and didn't eat anything."
@@ -224,7 +224,7 @@
         "言おう",
         "いおう"
       ],
-      "hint": "い…",
+      "hint": "言お…",
       "explanation": "{言|い}う is an う-verb (godan): う → お (お-row) + う → **言おう**.",
       "notes": [],
       "translation": "I think I'll tell her I like her."
@@ -240,7 +240,7 @@
         "お持ちいたします",
         "おもちいたします"
       ],
-      "hint": "お…",
+      "hint": "おも…",
       "explanation": "Regular humble: **お + ます-stem (持ち) + します** (more humble: いたします).",
       "notes": [],
       "translation": "Sir, I'll carry your luggage."

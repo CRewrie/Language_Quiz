@@ -93,7 +93,7 @@
       "accept": [
         "いらっしゃいます"
       ],
-      "hint": "い…",
+      "hint": "いら…",
       "explanation": "いる has a special honorific verb: **いらっしゃいます**.",
       "notes": [],
       "translation": "The president is in the meeting room at the moment."
@@ -106,7 +106,7 @@
       "accept": [
         "おっしゃいました"
       ],
-      "hint": "お…",
+      "hint": "おっ…",
       "explanation": "{言|い}う has a special honorific verb: **おっしゃいました**.",
       "notes": [],
       "translation": "What did the manager say about tomorrow's meeting?"
@@ -120,7 +120,7 @@
         "お読みになります",
         "およみになります"
       ],
-      "hint": "お…",
+      "hint": "およ…",
       "explanation": "Regular honorific: **お + ます-stem (読み) + になります**.",
       "notes": [],
       "translation": "The professor reads the newspaper every morning."
@@ -134,7 +134,7 @@
         "お着きになりました",
         "おつきになりました"
       ],
-      "hint": "お…",
+      "hint": "おつ…",
       "explanation": "Regular honorific: **お + ます-stem (着き) + になります**.",
       "notes": [],
       "translation": "The guest has already arrived at the hotel."
@@ -207,7 +207,7 @@
         "ご案内いたします",
         "ごあんないいたします"
       ],
-      "hint": "ご…",
+      "hint": "ごあ…",
       "explanation": "する-noun, humble: **ご + 案内 + します** (more humble: いたします).",
       "notes": [],
       "translation": "I'll show the guest to the meeting room."
@@ -223,7 +223,7 @@
         "お持ちいたします",
         "おもちいたします"
       ],
-      "hint": "お…",
+      "hint": "おも…",
       "explanation": "Regular humble: **お + ます-stem (持ち) + します** (more humble: いたします).",
       "notes": [],
       "translation": "That looks heavy — let me carry your luggage."
@@ -252,7 +252,7 @@
         "お会いしました",
         "おあいしました"
       ],
-      "hint": "お…",
+      "hint": "おめ…",
       "explanation": "{会|あ}う has a special humble verb: **お目にかかりました**. (お会いしました also work.)",
       "notes": [],
       "translation": "At yesterday's party I met the president's wife."
