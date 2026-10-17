@@ -1,0 +1,293 @@
+{
+  "id": "n5-sentence-order",
+  "category": "JLPT N5",
+  "title": "★ Sentence Building (並べ替え)",
+  "description": "JLPT-style ordering: put the four pieces in the right order and choose the one that goes in the ★ slot.",
+  "level": "N5",
+  "points": [
+    {
+      "id": "narabekae",
+      "title": "How to solve ★ questions",
+      "summary": "Find the end of the sentence first, glue particles to their nouns, then fit the pieces between what's given before and after the blanks.",
+      "body": "In the JLPT 文法 section, '★ questions' (並べ替え) give you a sentence with four blanks and four shuffled pieces. Only the piece in the ★ slot is asked.\n\n**Strategy:**\n- **Look at what comes right after the last blank** — it tells you what the last piece must connect to (です, ください, います, a noun…).\n- **Particles stick to the noun before them**: 本を, 友達と, 前で. A piece ending in a particle usually comes before a verb.\n- **Verb forms tell you what follows**: て-form → ください / いる / から; dictionary form → まえに / こと / の; た-form → ことがある / ほうがいい.\n- **Fixed patterns**: 〜のが好き, 〜たことがある, 〜てはいけません, 〜たほうがいい, 〜ませんか.\n- Write the full order down before answering — then just read off the ★ position.\n\nSometimes two pieces could swap (e.g. time words), but the ★ piece is always the same in every correct order.",
+      "examples": [
+        [
+          "わたしは {本|ほん}を {読|よ}む のが {好|す}き です。",
+          "I like reading books. (の connects 読む to が好き)"
+        ],
+        [
+          "ここで {写真|しゃしん}を {撮|と}っては いけ ません。",
+          "You must not take photos here."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "narabekae",
+      "prompt": "わたしは　＿＿　＿＿　★　＿＿　です。\n（{好|す}き・{読|よ}む・のが・{本|ほん}を）",
+      "options": [
+        "{好|す}き",
+        "{本|ほん}を",
+        "のが",
+        "{読|よ}む"
+      ],
+      "answer": 2,
+      "explanation": "わたしは **本を 読む のが 好き** です。 — の turns 読む into a noun, then が好き.",
+      "notes": [
+        "好き goes in slot 4, right before です.",
+        "本を goes in slot 1 (object first).",
+        "",
+        "読む goes in slot 2."
+      ],
+      "translation": "I like reading books."
+    },
+    {
+      "point": "narabekae",
+      "prompt": "{明日|あした}は　＿＿　＿＿　★　＿＿。\n（でしょう・{降|ふ}る・たぶん・{雨|あめ}が）",
+      "options": [
+        "でしょう",
+        "{雨|あめ}が",
+        "たぶん",
+        "{降|ふ}る"
+      ],
+      "answer": 3,
+      "explanation": "明日は **たぶん 雨が 降る でしょう**。 (たぶん and 雨が can swap — 降る is always 3rd.)",
+      "notes": [
+        "でしょう ends the sentence — slot 4.",
+        "雨が goes in slot 1 or 2.",
+        "たぶん goes in slot 1 or 2.",
+        ""
+      ],
+      "translation": "It will probably rain tomorrow."
+    },
+    {
+      "point": "narabekae",
+      "prompt": "{駅|えき}の　＿＿　＿＿　★　＿＿　ください。\n（{待|ま}って・いて・{前|まえ}で・{友達|ともだち}を）",
+      "options": [
+        "{前|まえ}で",
+        "{待|ま}って",
+        "{友達|ともだち}を",
+        "いて"
+      ],
+      "answer": 1,
+      "explanation": "駅の **前で 友達を 待って いて** ください。 — 駅の needs a noun (前), and ていて + ください = 'please be waiting'.",
+      "notes": [
+        "前で must follow 駅の — slot 1.",
+        "",
+        "友達を is the object before 待って — slot 2.",
+        "いて comes right before ください (待っていてください) — slot 4."
+      ],
+      "translation": "Please be waiting for your friend in front of the station."
+    },
+    {
+      "point": "narabekae",
+      "prompt": "わたしは　＿＿　＿＿　★　＿＿　があります。\n（{行|い}った・こと・{一度|いちど}・{日本|にほん}へ）",
+      "options": [
+        "{日本|にほん}へ",
+        "{一度|いちど}",
+        "こと",
+        "{行|い}った"
+      ],
+      "answer": 3,
+      "explanation": "わたしは **一度 日本へ 行った こと** があります。 (一度 and 日本へ can swap — 行った is always 3rd.)",
+      "notes": [
+        "日本へ goes in slot 1 or 2.",
+        "一度 goes in slot 1 or 2.",
+        "こと directly precedes があります — slot 4.",
+        ""
+      ],
+      "translation": "I have been to Japan once."
+    },
+    {
+      "point": "narabekae",
+      "prompt": "{掃除|そうじ}をして、{部屋|へや}が　＿＿　＿＿　★　＿＿。\n（ました・なり・きれいに・とても）",
+      "options": [
+        "とても",
+        "なり",
+        "きれいに",
+        "ました"
+      ],
+      "answer": 1,
+      "explanation": "部屋が **とても きれいに なり ました**。 — とても modifies きれい; きれいに + なる.",
+      "notes": [
+        "とても comes first, before きれいに — slot 1.",
+        "",
+        "きれいに comes right before なり — slot 2.",
+        "ました ends the sentence — slot 4."
+      ],
+      "translation": "I cleaned, and the room became very tidy."
+    },
+    {
+      "point": "narabekae",
+      "prompt": "これは　＿＿　＿＿　★　＿＿　です。\n（ケーキ・{作|つく}った・{母|はは}が・{昨日|きのう}）",
+      "options": [
+        "{作|つく}った",
+        "{母|はは}が",
+        "ケーキ",
+        "{昨日|きのう}"
+      ],
+      "answer": 0,
+      "explanation": "これは **昨日 母が 作った ケーキ** です。 (昨日 and 母が can swap — 作った is always 3rd.)",
+      "notes": [
+        "",
+        "母が goes in slot 1 or 2.",
+        "ケーキ is the noun modified by the clause — slot 4, before です.",
+        "昨日 goes in slot 1 or 2."
+      ],
+      "translation": "This is the cake my mother made yesterday."
+    },
+    {
+      "point": "narabekae",
+      "prompt": "{寒|さむ}い　＿＿　＿＿　＿＿　★　ください。\n（{閉|し}めて・から・{窓|まど}を・{早|はや}く）",
+      "options": [
+        "{窓|まど}を",
+        "{早|はや}く",
+        "{閉|し}めて",
+        "から"
+      ],
+      "answer": 2,
+      "explanation": "寒い **から 窓を 早く 閉めて** ください。 (窓を and 早く can swap — 閉めて is always right before ください.)",
+      "notes": [
+        "窓を goes in slot 2 or 3.",
+        "早く goes in slot 2 or 3.",
+        "",
+        "から must follow 寒い directly — slot 1."
+      ],
+      "translation": "It's cold, so please close the window quickly."
+    },
+    {
+      "point": "narabekae",
+      "prompt": "{宿題|しゅくだい}を　＿＿　★　＿＿　＿＿　{遊|あそ}びに{行|い}きます。\n（{一緒|いっしょ}に・して・{友達|ともだち}と・から）",
+      "options": [
+        "{一緒|いっしょ}に",
+        "して",
+        "{友達|ともだち}と",
+        "から"
+      ],
+      "answer": 3,
+      "explanation": "宿題を **して から 友達と 一緒に** 遊びに行きます。 — てから = after doing.",
+      "notes": [
+        "一緒に follows 友達と — slot 4.",
+        "して follows 宿題を — slot 1.",
+        "友達と comes after から — slot 3.",
+        ""
+      ],
+      "translation": "After doing my homework, I'll go out to play with my friends."
+    },
+    {
+      "point": "narabekae",
+      "prompt": "{日曜日|にちようび}、　＿＿　＿＿　★　＿＿。\n（か・{見|み}ません・{映画|えいが}を・{一緒|いっしょ}に）",
+      "options": [
+        "{見|み}ません",
+        "{一緒|いっしょ}に",
+        "{映画|えいが}を",
+        "か"
+      ],
+      "answer": 0,
+      "explanation": "日曜日、**一緒に 映画を 見ません か**。 (一緒に and 映画を can swap — 見ません is always 3rd.)",
+      "notes": [
+        "",
+        "一緒に goes in slot 1 or 2.",
+        "映画を goes in slot 1 or 2.",
+        "か ends the invitation — slot 4."
+      ],
+      "translation": "Would you like to watch a movie together on Sunday?"
+    },
+    {
+      "point": "narabekae",
+      "prompt": "{熱|ねつ}が　＿＿　＿＿　★　＿＿　いいですよ。\n（ほうが・あるなら・{休|やす}んだ・{早|はや}く）",
+      "options": [
+        "{早|はや}く",
+        "ほうが",
+        "あるなら",
+        "{休|やす}んだ"
+      ],
+      "answer": 3,
+      "explanation": "熱が **あるなら 早く 休んだ ほうが** いいですよ。 — た-form + ほうがいい.",
+      "notes": [
+        "早く modifies 休んだ — slot 2.",
+        "ほうが comes right before いい — slot 4.",
+        "あるなら follows 熱が — slot 1.",
+        ""
+      ],
+      "translation": "If you have a fever, you'd better rest early."
+    },
+    {
+      "point": "narabekae",
+      "prompt": "{美術館|びじゅつかん}の{中|なか}で　＿＿　＿＿　★　＿＿。\n（ません・{撮|と}っては・いけ・{写真|しゃしん}を）",
+      "options": [
+        "ません",
+        "{写真|しゃしん}を",
+        "いけ",
+        "{撮|と}っては"
+      ],
+      "answer": 2,
+      "explanation": "美術館の中で **写真を 撮っては いけ ません**。 — てはいけません = must not.",
+      "notes": [
+        "ません ends the sentence — slot 4.",
+        "写真を comes first — slot 1.",
+        "",
+        "撮っては follows its object — slot 2."
+      ],
+      "translation": "You must not take photos inside the museum."
+    },
+    {
+      "point": "narabekae",
+      "prompt": "{家|いえ}から{駅|えき}まで　＿＿　＿＿　★　＿＿　かかります。\n（くらい・{歩|ある}いて・15{分|ふん}・{大体|だいたい}）",
+      "options": [
+        "15{分|ふん}",
+        "くらい",
+        "{歩|ある}いて",
+        "{大体|だいたい}"
+      ],
+      "answer": 0,
+      "explanation": "家から駅まで **歩いて 大体 15分 くらい** かかります。 (歩いて and 大体 can swap — 15分 is always 3rd.)",
+      "notes": [
+        "",
+        "くらい attaches to the amount — slot 4, right before かかります.",
+        "歩いて goes in slot 1 or 2.",
+        "大体 goes in slot 1 or 2."
+      ],
+      "translation": "It takes roughly 15 minutes on foot from home to the station."
+    },
+    {
+      "point": "narabekae",
+      "prompt": "{寝|ね}る　＿＿　★　＿＿　＿＿　を{磨|みが}きます。\n（{自分|じぶん}の・まえに・{歯|は}・{毎晩|まいばん}）",
+      "options": [
+        "{自分|じぶん}の",
+        "{毎晩|まいばん}",
+        "まえに",
+        "{歯|は}"
+      ],
+      "answer": 1,
+      "explanation": "寝る **まえに 毎晩 自分の 歯** を磨きます。 — まえに follows 寝る; 自分の modifies 歯 directly.",
+      "notes": [
+        "自分の must sit directly before the noun 歯 — slot 3.",
+        "",
+        "まえに follows 寝る directly — slot 1.",
+        "歯 takes を — slot 4."
+      ],
+      "translation": "Every night before bed I brush my own teeth."
+    },
+    {
+      "point": "narabekae",
+      "prompt": "{日本語|にほんご}が　＿＿　＿＿　★　＿＿　ました。\n（{少|すこ}し・{上手|じょうず}に・なり・{前|まえ}より）",
+      "options": [
+        "{上手|じょうず}に",
+        "{前|まえ}より",
+        "なり",
+        "{少|すこ}し"
+      ],
+      "answer": 0,
+      "explanation": "日本語が **前より 少し 上手に なり** ました。 — より compares, 上手に + なる.",
+      "notes": [
+        "",
+        "前より goes first — slot 1.",
+        "なり comes right before ました — slot 4.",
+        "少し modifies 上手 — slot 2."
+      ],
+      "translation": "My Japanese has become a little better than before."
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "id": "n2-possibility",
+  "category": "JLPT N2",
+  "title": "Possible or Not: うる/える, えない, かねない, かねる, 恐れがある, っこない, ようがない",
+  "description": "Formal 'can be', 'can't be', 'might well (something bad)', 'can't (politely)', 'there's a risk of', 'no way', and 'no means to'.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "uru",
+      "title": "〜うる / 〜える: can, is possible (formal)",
+      "summary": "ます-stem + うる/える = is possible. Dictionary form うる (ありうる) or える; negative is always えない.",
+      "body": "- それは十分あり**うる**ことだ (that's quite possible).\n- 考え**うる**限りの方法.\n\nThe dictionary form is usually うる (ありうる, 考えうる); ます-form えます; negative **えない**.",
+      "examples": [
+        [
+          "それは{十分|じゅうぶん}ありうることだ。",
+          "That's quite possible."
+        ]
+      ]
+    },
+    {
+      "id": "enai",
+      "title": "〜えない: cannot, impossible",
+      "summary": "ます-stem + えない = cannot (logically/situationally). ありえない = impossible.",
+      "body": "- そんなことはあり**えない** (that's impossible).\n- 彼が犯人だなんて、考え**えない**.",
+      "examples": [
+        [
+          "そんなことはありえない。",
+          "That's impossible."
+        ]
+      ]
+    },
+    {
+      "id": "kanenai",
+      "title": "〜かねない: might well (something bad)",
+      "summary": "ます-stem + かねない = there's a danger that (something undesirable) could happen.",
+      "body": "- このまま放っておくと、大事故になり**かねない**.\n\nOnly for bad possibilities. Despite the negative form, it means 'could happen'.",
+      "examples": [
+        [
+          "このまま{放|ほう}っておくと、{大事故|だいじこ}になりかねない。",
+          "If we leave it like this, it could lead to a serious accident."
+        ]
+      ]
+    },
+    {
+      "id": "kaneru",
+      "title": "〜かねる: cannot (politely refuse)",
+      "summary": "ます-stem + かねる / かねます = I'm unable to (business-polite refusal).",
+      "body": "- そのご質問にはお答えし**かねます** (I'm afraid I can't answer that).\n\nDon't confuse with かねない (opposite feel: 'might well happen').",
+      "examples": [
+        [
+          "そのご{質問|しつもん}にはお{答|こた}えしかねます。",
+          "I'm afraid I'm unable to answer that question."
+        ]
+      ]
+    },
+    {
+      "id": "osore",
+      "title": "〜恐れがある: there's a risk / fear that",
+      "summary": "Dictionary form / noun + の + 恐れがある = there's a risk of (something bad). News/announcement style.",
+      "body": "- 台風が上陸する**恐れがある**.\n- 大雨**の恐れ**があります.",
+      "examples": [
+        [
+          "{台風|たいふう}が{上陸|じょうりく}する{恐|おそ}れがある。",
+          "There's a risk that the typhoon will make landfall."
+        ]
+      ]
+    },
+    {
+      "id": "kkonai",
+      "title": "〜っこない: no way, absolutely not (casual)",
+      "summary": "ます-stem + っこない = there's no chance (casual, emphatic).",
+      "body": "- あんな難しい試験、受かり**っこない**よ.\n- わかり**っこない**.",
+      "examples": [
+        [
+          "あんな{難|むずか}しい{試験|しけん}、{受|う}かりっこないよ。",
+          "There's no way I'll pass such a hard exam."
+        ]
+      ]
+    },
+    {
+      "id": "yougaanai",
+      "title": "〜ようがない: there's no way to",
+      "summary": "ます-stem + ようがない/ようもない = no means to do it. Noun: 連絡のしようがない.",
+      "body": "- 住所がわからないので、連絡のし**ようがない**.\n- 直し**ようがない** (can't be fixed).",
+      "examples": [
+        [
+          "{住所|じゅうしょ}がわからないので、{連絡|れんらく}のしようがない。",
+          "I don't know the address, so there's no way to contact them."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "uru",
+      "prompt": "それは{十分|じゅうぶん}あり（　）ことだ。",
+      "options": [
+        "えれる",
+        "ある",
+        "うる",
+        "うれ"
+      ],
+      "answer": 2,
+      "explanation": "Possible: **ありうる**.",
+      "notes": [
+        "えれる isn't a form.",
+        "ありある isn't a word.",
+        "",
+        "うれ isn't a form."
+      ],
+      "translation": "That's quite possible."
+    },
+    {
+      "point": "enai",
+      "prompt": "そんなことはあり（　）。",
+      "options": [
+        "うない",
+        "うらない",
+        "えなく",
+        "えない"
+      ],
+      "answer": 3,
+      "explanation": "Impossible: **ありえない**.",
+      "notes": [
+        "The negative is always えない.",
+        "うらない isn't a form.",
+        "えなく can't end the sentence.",
+        ""
+      ],
+      "translation": "That's impossible."
+    },
+    {
+      "point": "enai",
+      "prompt": "こんな{事故|じこ}は{普通|ふつう}{起|お}こり（　）。",
+      "options": [
+        "うない",
+        "うれない",
+        "えない",
+        "えれない"
+      ],
+      "answer": 2,
+      "explanation": "Impossible: **起こりえない**.",
+      "notes": [
+        "Negative is えない.",
+        "うれない isn't a form.",
+        "",
+        "えれない isn't a form."
+      ],
+      "translation": "Accidents like this can't normally happen."
+    },
+    {
+      "point": "kanenai",
+      "prompt": "このまま{放|ほう}っておくと、{大事故|だいじこ}になり（　）。",
+      "options": [
+        "かねる",
+        "かねない",
+        "かねたい",
+        "かねなく"
+      ],
+      "answer": 1,
+      "explanation": "Might well (bad): **かねない**.",
+      "notes": [
+        "かねる = 'can't (politely)' — wrong meaning.",
+        "",
+        "かねたい isn't a form.",
+        "かねなく can't end the sentence."
+      ],
+      "translation": "If we leave it like this, it could lead to a serious accident."
+    },
+    {
+      "point": "kaneru",
+      "prompt": "（Clerk）そのご{質問|しつもん}にはお{答|こた}えし（　）。",
+      "options": [
+        "かねません",
+        "かねて",
+        "かねます",
+        "かねる"
+      ],
+      "answer": 2,
+      "explanation": "Polite refusal: **かねます**.",
+      "notes": [
+        "かねません = 'might well (answer)' — the opposite feel.",
+        "かねて can't end the sentence.",
+        "",
+        "Plain かねる is too blunt for a clerk."
+      ],
+      "translation": "I'm afraid I'm unable to answer that question."
+    },
+    {
+      "point": "osore",
+      "prompt": "{台風|たいふう}が{上陸|じょうりく}する（　）がある。",
+      "options": [
+        "{恐|おそ}れ",
+        "{怖|こわ}さ",
+        "{恐|おそ}ろしさ",
+        "{恐|おそ}れる"
+      ],
+      "answer": 0,
+      "explanation": "Risk: **恐れがある**.",
+      "notes": [
+        "",
+        "怖さ = 'fear (feeling)'.",
+        "恐ろしさ = 'scariness'.",
+        "恐れるがある isn't grammatical."
+      ],
+      "translation": "There's a risk that the typhoon will make landfall."
+    },
+    {
+      "point": "osore",
+      "prompt": "{明日|あした}は{大雨|おおあめ}の（　）があります。",
+      "options": [
+        "{恐|おそ}れる",
+        "{恐|おそ}ろしい",
+        "{恐|おそ}く",
+        "{恐|おそ}れ"
+      ],
+      "answer": 3,
+      "explanation": "Noun + の + **恐れがある**.",
+      "notes": [
+        "A verb can't follow の here.",
+        "恐ろしいがある isn't grammatical.",
+        "恐く isn't a form.",
+        ""
+      ],
+      "translation": "There's a risk of heavy rain tomorrow."
+    },
+    {
+      "point": "kkonai",
+      "prompt": "あんな{難|むずか}しい{試験|しけん}、{受|う}かり（　）よ。",
+      "options": [
+        "っこない",
+        "っこなく",
+        "っこある",
+        "っぽない"
+      ],
+      "answer": 0,
+      "explanation": "No way: **っこない**.",
+      "notes": [
+        "",
+        "っこなく can't end the sentence.",
+        "The pattern is negative.",
+        "っぽい is '-ish', and っぽない isn't a form."
+      ],
+      "translation": "There's no way I'll pass such a hard exam."
+    },
+    {
+      "point": "yougaanai",
+      "prompt": "{住所|じゅうしょ}がわからないので、{連絡|れんらく}のし（　）がない。",
+      "options": [
+        "ほう",
+        "こと",
+        "よう",
+        "ため"
+      ],
+      "answer": 2,
+      "explanation": "No means to: **しようがない**.",
+      "notes": [
+        "しほう isn't a word here.",
+        "しこと isn't grammatical.",
+        "",
+        "しため isn't grammatical."
+      ],
+      "translation": "I don't know the address, so there's no way to contact them."
+    },
+    {
+      "point": "yougaanai",
+      "prompt": "ここまで{壊|こわ}れたら、もう{直|なお}し（　）。",
+      "options": [
+        "ようにない",
+        "ようがない",
+        "ようとない",
+        "ようがある"
+      ],
+      "answer": 1,
+      "explanation": "Can't be fixed: **直しようがない**.",
+      "notes": [
+        "ようにない isn't a form.",
+        "",
+        "ようとない isn't a form.",
+        "ようがある = 'there's a way' — contradicts もう."
+      ],
+      "translation": "Now that it's this broken, there's no way to fix it."
+    },
+    {
+      "point": "uru",
+      "prompt": "{考|かんが}え（　）{限|かぎ}りの{方法|ほうほう}を{試|ため}した。",
+      "options": [
+        "うる",
+        "えれる",
+        "ある",
+        "うれ"
+      ],
+      "answer": 0,
+      "explanation": "Every possible way: **考えうる限り**.",
+      "notes": [
+        "",
+        "えれる isn't a form.",
+        "考えある isn't a form.",
+        "うれ isn't a form."
+      ],
+      "translation": "I tried every method I could think of."
+    },
+    {
+      "point": "kanenai",
+      "prompt": "あの{人|ひと}なら、{嘘|うそ}をつき（　）。",
+      "options": [
+        "かねる",
+        "かねない",
+        "かねなく",
+        "かねぬき"
+      ],
+      "answer": 1,
+      "explanation": "Might well (bad): **かねない**.",
+      "notes": [
+        "かねる = 'unable to (politely)' — opposite feel.",
+        "",
+        "かねなく can't end the sentence.",
+        "かねぬき isn't a form."
+      ],
+      "translation": "That person might well lie."
+    },
+    {
+      "point": "kaneru",
+      "prompt": "（To a customer）その{条件|じょうけん}では、お{引|ひ}き{受|う}けし（　）。",
+      "options": [
+        "かねません",
+        "かねて",
+        "かねます",
+        "かねれ"
+      ],
+      "answer": 2,
+      "explanation": "Polite refusal: **かねます**.",
+      "notes": [
+        "かねません = 'might well (accept)' — the opposite.",
+        "かねて can't end the sentence.",
+        "",
+        "かねれ isn't a form."
+      ],
+      "translation": "I'm afraid we can't accept under those conditions."
+    },
+    {
+      "point": "kkonai",
+      "prompt": "{彼|かれ}に{私|わたし}の{気持|きも}ちなんて、わかり（　）。",
+      "options": [
+        "っきり",
+        "っこない",
+        "っぽい",
+        "っこある"
+      ],
+      "answer": 1,
+      "explanation": "No way: **っこない**.",
+      "notes": [
+        "っきり = 'only'.",
+        "",
+        "っぽい = '-ish'.",
+        "The pattern is negative."
+      ],
+      "translation": "There's no way he could understand how I feel."
+    }
+  ]
+}

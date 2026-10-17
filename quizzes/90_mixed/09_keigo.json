@@ -1,0 +1,207 @@
+{
+  "id": "keigo",
+  "category": "Mixed practice (N5–N4)",
+  "title": "Keigo Basics: 尊敬語 & 謙譲語",
+  "description": "Special honorific/humble verbs, お〜になる, お〜する, お〜ください, plus 〜なさい.",
+  "level": "N4",
+  "questions": [
+    {
+      "prompt": "はじめまして。{田中|たなか}と（　）。",
+      "options": [
+        "{申|もう}されます",
+        "{言|い}われます",
+        "おっしゃいます",
+        "{申|もう}します"
+      ],
+      "answer": 3,
+      "explanation": "**申す** is the humble (謙譲語) form of 言う. Use it for yourself: 〜と申します = 'I am called …'.",
+      "notes": [
+        "申される mixes the humble 申す with the respectful られる. It's a well-known keigo error.",
+        "言われます is passive ('I am told'), not a polite self-introduction.",
+        "おっしゃる is honorific (尊敬語). It raises the subject, so you can't use it about yourself.",
+        ""
+      ],
+      "translation": "Nice to meet you. My name is Tanaka."
+    },
+    {
+      "prompt": "{先生|せんせい}は{何|なん}と（　）か。",
+      "options": [
+        "{参|まい}りました",
+        "{拝見|はいけん}しました",
+        "おっしゃいました",
+        "{申|もう}しました"
+      ],
+      "answer": 2,
+      "explanation": "**おっしゃる** is the honorific form of 言う, used for what a superior says. Note the ます-form: おっしゃ**い**ます.",
+      "notes": [
+        "参る is humble 行く/来る, not 'say'.",
+        "拝見する is humble 見る ('I look at'), not 'say'.",
+        "",
+        "申す is humble, for your own speech. Using it for a teacher lowers them."
+      ],
+      "translation": "What did the teacher say?"
+    },
+    {
+      "prompt": "{先生|せんせい}、コーヒーを（　）か。",
+      "options": [
+        "{召|め}し{上|あ}がります",
+        "いただきます",
+        "{参|まい}ります",
+        "おります"
+      ],
+      "answer": 0,
+      "explanation": "**召し上がる** is the honorific form of 食べる/飲む, used when offering food or drink to a superior.",
+      "notes": [
+        "",
+        "いただく is humble 食べる/飲む, for yourself. Using it about the teacher lowers them.",
+        "参る is humble 行く/来る.",
+        "おる is humble いる."
+      ],
+      "translation": "Professor, would you like some coffee?"
+    },
+    {
+      "prompt": "{部長|ぶちょう}は{今|いま}、{会議室|かいぎしつ}に（　）。",
+      "options": [
+        "ございます",
+        "{参|まい}ります",
+        "いらっしゃいます",
+        "おります"
+      ],
+      "answer": 2,
+      "explanation": "**いらっしゃる** is the honorific form of いる/行く/来る, used for the actions of a superior such as a department head.",
+      "notes": [
+        "ござる is the polite form of ある (for things), not for people.",
+        "参る is humble 行く/来る, and it lowers the boss.",
+        "",
+        "おる is humble いる. Use it for yourself or your in-group when talking to outsiders, not for your boss inside the company."
+      ],
+      "translation": "The department head is in the meeting room right now."
+    },
+    {
+      "prompt": "{明日|あした}の{午後|ごご}、そちらに（　）。",
+      "options": [
+        "おいでになります",
+        "{参|まい}ります",
+        "いらっしゃいます",
+        "{召|め}し{上|あ}がります"
+      ],
+      "answer": 1,
+      "explanation": "**参る** is the humble form of 行く/来る. You lower your own action toward the listener.",
+      "notes": [
+        "おいでになる is honorific too, which is wrong for your own action.",
+        "",
+        "いらっしゃる is honorific, so you can't use it about yourself.",
+        "召し上がる means 'eat/drink' (honorific)."
+      ],
+      "translation": "I'll come to your place tomorrow afternoon."
+    },
+    {
+      "prompt": "{先生|せんせい}の{作品|さくひん}を（　）しました。",
+      "options": [
+        "{見|み}られ",
+        "お{見|み}",
+        "ご{覧|らん}",
+        "{拝見|はいけん}"
+      ],
+      "answer": 3,
+      "explanation": "**拝見する** is the humble form of 見る: 'I (humbly) looked at your work'.",
+      "notes": [
+        "見られる + しました isn't grammatical.",
+        "お見する isn't used. 見る has the special humble form 拝見する.",
+        "ご覧になる is honorific 見る, for someone else's looking. ご覧しました isn't a form.",
+        ""
+      ],
+      "translation": "I (humbly) looked at your work, Professor."
+    },
+    {
+      "prompt": "{社長|しゃちょう}はもうお{帰|かえ}り（　）。",
+      "options": [
+        "になりました",
+        "しました",
+        "ください",
+        "いたしました"
+      ],
+      "answer": 0,
+      "explanation": "**お + ます-stem + になる** is the regular honorific (尊敬語) pattern: お帰りになる = '(the president) went home'.",
+      "notes": [
+        "",
+        "お〜する is the humble pattern (お持ちします), for your own actions. You can't use it for the president.",
+        "お帰りください is a request ('please go home'), not a statement that he left.",
+        "お〜いたす is the extra-humble pattern, which is also wrong for a superior's action."
+      ],
+      "translation": "The president has already gone home."
+    },
+    {
+      "prompt": "お{荷物|にもつ}、（　）しましょうか。",
+      "options": [
+        "ご{持|も}ち",
+        "お{持|も}ち",
+        "{持|も}って",
+        "お{持|も}って"
+      ],
+      "answer": 1,
+      "explanation": "**お + ます-stem + する** is the humble pattern for actions you do for someone: お持ちします = 'I'll carry it for you'.",
+      "notes": [
+        "ご is used with Sino-Japanese (漢語) nouns (ご案内します). 持つ is a native verb and takes お.",
+        "",
+        "持ってしましょうか is ungrammatical. Use お持ちしましょうか or 持ちましょうか.",
+        "The pattern uses the ます-stem (持ち), not the て-form."
+      ],
+      "translation": "Shall I carry your luggage for you?"
+    },
+    {
+      "prompt": "（{店員|てんいん}が{客|きゃく}に）{少々|しょうしょう}お{待|ま}ち（　）。",
+      "options": [
+        "いたします",
+        "になります",
+        "ください",
+        "します"
+      ],
+      "answer": 2,
+      "explanation": "**お + ます-stem + ください** is a respectful request: お待ちください = 'Please wait'. You'll hear it constantly in shops.",
+      "notes": [
+        "お待ちいたします is humble ('I will wait'), the same problem as お待ちします.",
+        "お待ちになります is a statement ('you will wait'), not a request.",
+        "",
+        "お待ちします is humble ('I will wait'). The clerk is asking the customer to wait, not saying they themselves will wait."
+      ],
+      "translation": "(Clerk to customer) Please wait a moment."
+    },
+    {
+      "prompt": "ご{飯|はん}の{前|まえ}に{手|て}を{洗|あら}い（　）。",
+      "options": [
+        "ましょうか",
+        "なさい",
+        "たい",
+        "ください"
+      ],
+      "answer": 1,
+      "explanation": "**ます-stem + なさい** is a firm command, used by parents to children or teachers to students: 洗いなさい = 'Wash (your hands)!'.",
+      "notes": [
+        "洗いましょうか means 'shall I wash?'. It's an offer, not an instruction.",
+        "",
+        "洗いたい ('I want to wash') expresses your own wish.",
+        "ください follows the て-form (洗ってください), not the ます-stem 洗い."
+      ],
+      "translation": "Wash your hands before eating!"
+    },
+    {
+      "prompt": "{先生|せんせい}も{明日|あした}のパーティーに（　）か。",
+      "options": [
+        "{伺|うかが}います",
+        "{参|まい}ります",
+        "いらっしゃいます",
+        "おります"
+      ],
+      "answer": 2,
+      "explanation": "Asking about a superior's action requires the honorific: **いらっしゃる** (= 行く/来る/いる).",
+      "notes": [
+        "伺う is humble 行く/聞く, for your own visits. You can't use it for the teacher's action.",
+        "参る is humble, so it would lower the teacher.",
+        "",
+        "おる is humble いる, and it's also the wrong verb meaning."
+      ],
+      "translation": "Will you be coming to tomorrow's party too, Professor?"
+    }
+  ]
+}

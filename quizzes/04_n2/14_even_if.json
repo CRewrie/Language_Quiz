@@ -1,0 +1,361 @@
+{
+  "id": "n2-even-if",
+  "category": "JLPT N2",
+  "title": "Even If (N2): とも, としても, にしろ/にせよ, たって, てでも, ようでは, ていては",
+  "description": "Even if (formal とも), assuming that, whether … or, casual たって, even if it means, and warnings with ようでは / ていては.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "tomo",
+      "title": "〜とも: even if, no matter (formal)",
+      "summary": "い-adj く + とも / volitional + とも = even if. Fixed: 遅くとも (at the latest), 少なくとも (at least).",
+      "body": "- どんなに苦しく**とも**、諦めない.\n- 遅く**とも**、明日までには届くでしょう (at the latest).",
+      "examples": [
+        [
+          "どんなに{苦|くる}しくとも、{諦|あきら}めない。",
+          "No matter how hard it is, I won't give up."
+        ]
+      ]
+    },
+    {
+      "id": "toshitemo",
+      "title": "〜としても: even if (hypothetical)",
+      "summary": "Plain form + としても = even supposing that A, (still) B.",
+      "body": "- 仮に合格した**としても**、入学するかどうかわからない.\n- 今から出た**としても**、間に合わないだろう.",
+      "examples": [
+        [
+          "{今|いま}から{出|で}たとしても、{間|ま}に{合|あ}わないだろう。",
+          "Even if we left now, we probably wouldn't make it."
+        ]
+      ]
+    },
+    {
+      "id": "nishiro",
+      "title": "〜にしろ / にせよ: whether … or; even if",
+      "summary": "Plain / noun + にしろ(にせよ) = even if; Aにしろ Bにしろ = whether A or B. にせよ is more formal.",
+      "body": "- 行く**にしろ**行かない**にしろ**、返事をください.\n- どんな理由がある**にせよ**、暴力はいけない.",
+      "examples": [
+        [
+          "どんな{理由|りゆう}があるにせよ、{暴力|ぼうりょく}はいけない。",
+          "Whatever the reason, violence is wrong."
+        ]
+      ]
+    },
+    {
+      "id": "tatte",
+      "title": "〜たって / だって: even if (casual)",
+      "summary": "た-form + って (だって) = casual ても.",
+      "body": "- いくら頼んだ**って**、彼は聞いてくれない.\n- 今から急いだ**って**、間に合わないよ.",
+      "examples": [
+        [
+          "{今|いま}から{急|いそ}いだって、{間|ま}に{合|あ}わないよ。",
+          "Even if you hurry now, you won't make it."
+        ]
+      ]
+    },
+    {
+      "id": "tedemo",
+      "title": "〜てでも: even if it means",
+      "summary": "て-form + でも = even resorting to A (strong determination).",
+      "body": "- 借金をして**でも**、留学したい.",
+      "examples": [
+        [
+          "{借金|しゃっきん}をしてでも、{留学|りゅうがく}したい。",
+          "I want to study abroad, even if it means borrowing money."
+        ]
+      ]
+    },
+    {
+      "id": "youdewa",
+      "title": "〜ようでは: if (it's like this), then (bad)",
+      "summary": "Plain form + ようでは = if (the current state is) A, B (bad outcome). Warning/criticism.",
+      "body": "- こんな簡単な問題もできない**ようでは**、合格は無理だ.",
+      "examples": [
+        [
+          "こんな{簡単|かんたん}な{問題|もんだい}もできないようでは、{合格|ごうかく}は{無理|むり}だ。",
+          "If you can't even do a problem this easy, you won't pass."
+        ]
+      ]
+    },
+    {
+      "id": "teitewa",
+      "title": "〜ていては: if you keep (doing)",
+      "summary": "て-form + いては = if you continue like this, (bad result).",
+      "body": "- そんなに遊んで**いては**、試験に落ちるよ.",
+      "examples": [
+        [
+          "そんなに{遊|あそ}んでいては、{試験|しけん}に{落|お}ちるよ。",
+          "If you keep playing around like that, you'll fail the exam."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tomo",
+      "prompt": "どんなに{苦|くる}しく（　）、{諦|あきら}めない。",
+      "options": [
+        "とか",
+        "まで",
+        "とも",
+        "ども"
+      ],
+      "answer": 2,
+      "explanation": "Formal even if: **くとも**.",
+      "notes": [
+        "とか = 'such as'.",
+        "まで doesn't fit.",
+        "",
+        "ども isn't used after く."
+      ],
+      "translation": "No matter how hard it is, I won't give up."
+    },
+    {
+      "point": "tomo",
+      "prompt": "{遅|おそ}く（　）、{明日|あした}までには{届|とど}くでしょう。",
+      "options": [
+        "とか",
+        "とて",
+        "ども",
+        "とも"
+      ],
+      "answer": 3,
+      "explanation": "At the latest: **遅くとも**.",
+      "notes": [
+        "とか doesn't fit.",
+        "とて isn't the form.",
+        "ども isn't the form.",
+        ""
+      ],
+      "translation": "It should arrive by tomorrow at the latest."
+    },
+    {
+      "point": "toshitemo",
+      "prompt": "{仮|かり}に{合格|ごうかく}した（　）、{入学|にゅうがく}するかどうかわからない。",
+      "options": [
+        "として",
+        "としても",
+        "としては",
+        "としてから"
+      ],
+      "answer": 1,
+      "explanation": "Even supposing: **としても**.",
+      "notes": [
+        "として = 'as'.",
+        "",
+        "としては = 'as for'.",
+        "としてから isn't a pattern."
+      ],
+      "translation": "Even if I passed, I don't know whether I'd enrol."
+    },
+    {
+      "point": "toshitemo",
+      "prompt": "{今|いま}から{出|で}た（　）、{間|ま}に{合|あ}わないだろう。",
+      "options": [
+        "としては",
+        "として",
+        "としてで",
+        "としても"
+      ],
+      "answer": 3,
+      "explanation": "**としても**.",
+      "notes": [
+        "としては = 'as for'.",
+        "として = 'as'.",
+        "としてで isn't grammatical.",
+        ""
+      ],
+      "translation": "Even if we left now, we probably wouldn't make it."
+    },
+    {
+      "point": "nishiro",
+      "prompt": "{行|い}く（　）{行|い}かない（　）、{返事|へんじ}をください。",
+      "options": [
+        "にしろ／にしろ",
+        "にしては／にしては",
+        "にして／にして",
+        "にしたら／にしたら"
+      ],
+      "answer": 0,
+      "explanation": "Whether … or: **AにしろBにしろ**.",
+      "notes": [
+        "",
+        "にしては = 'for (surprisingly)'.",
+        "にして doesn't make 'whether … or'.",
+        "にしたら = 'from the viewpoint of'."
+      ],
+      "translation": "Whether you go or not, please reply."
+    },
+    {
+      "point": "nishiro",
+      "prompt": "どんな{理由|りゆう}がある（　）、{暴力|ぼうりょく}はいけない。",
+      "options": [
+        "にせろ",
+        "にせよ",
+        "にすれよ",
+        "にさせよ"
+      ],
+      "answer": 1,
+      "explanation": "Even if: **にせよ**.",
+      "notes": [
+        "にせろ isn't a form.",
+        "",
+        "にすれよ isn't a form.",
+        "にさせよ isn't a form."
+      ],
+      "translation": "Whatever the reason, violence is wrong."
+    },
+    {
+      "point": "tatte",
+      "prompt": "いくら{頼|たの}んだ（　）、{彼|かれ}は{聞|き}いてくれない。",
+      "options": [
+        "てって",
+        "っても",
+        "って",
+        "たって"
+      ],
+      "answer": 2,
+      "explanation": "Casual even if: 頼んだ**って**.",
+      "notes": [
+        "てって isn't a form.",
+        "っても isn't a form.",
+        "",
+        "頼んだたって doubles the た."
+      ],
+      "translation": "No matter how much I ask, he won't listen."
+    },
+    {
+      "point": "tatte",
+      "prompt": "{今|いま}から{急|いそ}いだ（　）、{間|ま}に{合|あ}わないよ。",
+      "options": [
+        "て",
+        "っと",
+        "っちゃ",
+        "って"
+      ],
+      "answer": 3,
+      "explanation": "**たって / だって**.",
+      "notes": [
+        "急いだて isn't a form.",
+        "っと isn't the pattern.",
+        "っちゃ = 'ては'.",
+        ""
+      ],
+      "translation": "Even if you hurry now, you won't make it."
+    },
+    {
+      "point": "tedemo",
+      "prompt": "{借金|しゃっきん}をして（　）、{留学|りゅうがく}したい。",
+      "options": [
+        "でさ",
+        "では",
+        "でも",
+        "だも"
+      ],
+      "answer": 2,
+      "explanation": "Even if it means: **てでも**.",
+      "notes": [
+        "でさ is casual filler.",
+        "では = 'if (it's like that)'.",
+        "",
+        "だも isn't a form."
+      ],
+      "translation": "I want to study abroad, even if it means borrowing money."
+    },
+    {
+      "point": "tedemo",
+      "prompt": "どんなことをして（　）、この{試合|しあい}に{勝|か}ちたい。",
+      "options": [
+        "ても",
+        "でも",
+        "だって",
+        "では"
+      ],
+      "answer": 1,
+      "explanation": "Whatever it takes: **てでも**.",
+      "notes": [
+        "してても isn't a form.",
+        "",
+        "だって doesn't follow して.",
+        "では = 'if'."
+      ],
+      "translation": "I want to win this match, whatever it takes."
+    },
+    {
+      "point": "youdewa",
+      "prompt": "こんな{簡単|かんたん}な{問題|もんだい}もできない（　）、{合格|ごうかく}は{無理|むり}だ。",
+      "options": [
+        "ようでは",
+        "ようにも",
+        "ようでも",
+        "ようとは"
+      ],
+      "answer": 0,
+      "explanation": "If (like this) → bad: **ようでは**.",
+      "notes": [
+        "",
+        "ようにも isn't the pattern.",
+        "ようでも = 'even if it seems'.",
+        "ようとは isn't the pattern."
+      ],
+      "translation": "If you can't even do a problem this easy, you won't pass."
+    },
+    {
+      "point": "youdewa",
+      "prompt": "{毎朝|まいあさ}{遅刻|ちこく}する（　）、{社会人|しゃかいじん}として{失格|しっかく}だ。",
+      "options": [
+        "ようには",
+        "ようでは",
+        "ようにも",
+        "ようとは"
+      ],
+      "answer": 1,
+      "explanation": "Warning: **ようでは**.",
+      "notes": [
+        "ようには isn't the pattern.",
+        "",
+        "ようにも isn't the pattern.",
+        "ようとは isn't the pattern."
+      ],
+      "translation": "If you're late every morning, you're not fit to be a working adult."
+    },
+    {
+      "point": "teitewa",
+      "prompt": "そんなに{遊|あそ}んで（　）、{試験|しけん}に{落|お}ちるよ。",
+      "options": [
+        "いては",
+        "いるは",
+        "いたに",
+        "いるに"
+      ],
+      "answer": 0,
+      "explanation": "If you keep: **ていては**.",
+      "notes": [
+        "",
+        "いるは isn't grammatical.",
+        "いたに isn't grammatical.",
+        "いるに isn't grammatical."
+      ],
+      "translation": "If you keep playing around like that, you'll fail the exam."
+    },
+    {
+      "point": "teitewa",
+      "prompt": "{文句|もんく}ばかり{言|い}って（　）、{何|なに}も{変|か}わらない。",
+      "options": [
+        "いたに",
+        "いては",
+        "いるに",
+        "いるは"
+      ],
+      "answer": 1,
+      "explanation": "**ていては** + negative result.",
+      "notes": [
+        "いたに isn't grammatical.",
+        "",
+        "いるに isn't grammatical.",
+        "いるは isn't grammatical."
+      ],
+      "translation": "If you just keep complaining, nothing will change."
+    }
+  ]
+}

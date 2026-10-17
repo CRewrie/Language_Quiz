@@ -1,0 +1,491 @@
+{
+  "id": "n5-requests-permission",
+  "category": "JLPT N5",
+  "title": "Requests, Permission & Prohibition",
+  "description": "〜てください, 〜ないでください, 〜てもいい, 〜てはいけない, and the blunt prohibitive 〜な.",
+  "level": "N5",
+  "points": [
+    {
+      "id": "tekudasai",
+      "title": "〜てください: please do …",
+      "summary": "て-form + ください is a polite request or instruction. It's built on the て-form, so the sound changes matter.",
+      "body": "**て-form + ください** asks someone to do something: 窓を開け**てください**, ここに名前を書い**てください**.\n\n**て-form review (godan verbs):**\n- う・つ・る → **って**: 買って, 待って, 取って\n- む・ぶ・ぬ → **んで**: 読んで, 遊んで, 死んで\n- く → **いて**: 書いて (exception: 行く → **行って**)\n- ぐ → **いで**: 泳いで\n- す → **して**: 話して\n- Ichidan: drop る + て: 食べて, 見て\n- Irregular: する → **して**, 来る → **来て (きて)**\n\n**Politeness:** てください is polite but still a **directive**. For a softer request, use 〜てくださいませんか or 〜ていただけませんか (N4). Noun + をください means 'please give me …': 水をください.",
+      "examples": [
+        [
+          "もう{一度|いちど}{言|い}ってください。",
+          "Please say it once more."
+        ],
+        [
+          "ここに{名前|なまえ}を{書|か}いてください。",
+          "Please write your name here."
+        ],
+        [
+          "ちょっと{待|ま}ってください。",
+          "Please wait a moment."
+        ]
+      ]
+    },
+    {
+      "id": "naidekudasai",
+      "title": "〜ないでください: please don't …",
+      "summary": "ない-form + でください is a polite negative request. The ない-form, not the て-form, comes first.",
+      "body": "**ない-form + でください** asks someone **not** to do something: ここでタバコを吸わ**ないでください**.\n\n**ない-form review:**\n- Godan: final u → a + ない: 吸う → 吸**わ**ない (う → **わ**!), 書く → 書かない, 飲む → 飲まない\n- Ichidan: drop る + ない: 食べない, 忘れない\n- する → しない, 来る → **こ**ない\n\n**Common mistakes:**\n- 〜なくてください ✗ → 〜**ないで**ください ✓\n- 〜ませんでください ✗\n- 吸あない ✗ → 吸**わ**ない ✓",
+      "examples": [
+        [
+          "ここで{写真|しゃしん}を{撮|と}らないでください。",
+          "Please don't take photos here."
+        ],
+        [
+          "{心配|しんぱい}しないでください。",
+          "Please don't worry."
+        ],
+        [
+          "{明日|あした}の{約束|やくそく}を{忘|わす}れないでください。",
+          "Please don't forget tomorrow's appointment."
+        ]
+      ]
+    },
+    {
+      "id": "temoii",
+      "title": "〜てもいい: may, it's okay to",
+      "summary": "て-form + もいい(です) gives permission. With か it asks for permission: 〜てもいいですか.",
+      "body": "**て-form + も + いい** literally means 'even if (you) do …, it's good':\n- Permission: 帰っ**てもいいです** (you may go home).\n- Asking: 入っ**てもいいですか** (may I come in?).\n\n**Answers:**\n- Yes: ええ、いいですよ / どうぞ\n- No: すみません、ちょっと… / いいえ、〜てはいけません (strong)\n\nVariants: 〜ても**かまいません** (more formal), 〜ても**大丈夫**です. In casual speech: 〜ていい？ / 〜てもいい？\n\nVerbs whose て-form ends in で keep で: 読ん**でも**いい, 遊ん**でも**いい.",
+      "examples": [
+        [
+          "ここに{座|すわ}ってもいいですか。—ええ、どうぞ。",
+          "May I sit here? — Sure, go ahead."
+        ],
+        [
+          "{鉛筆|えんぴつ}で{書|か}いてもいいです。",
+          "You may write in pencil."
+        ],
+        [
+          "この{本|ほん}、{借|か}りてもいい？",
+          "Can I borrow this book? (casual)"
+        ]
+      ]
+    },
+    {
+      "id": "tewaikenai",
+      "title": "〜てはいけない: must not",
+      "summary": "て-form + はいけません = 'you must not'. It's a firm prohibition, often rules. Casual: 〜ちゃだめ / 〜じゃだめ.",
+      "body": "**て-form + は + いけない** means 'doing … is not good', i.e. **must not**: ここで泳い**ではいけません**.\n\n- It's used for **rules and firm prohibitions** (signs, parents, teachers). Said directly to a superior, it sounds too strong.\n- Verbs whose て-form ends in で give **では**: 読ん**では**, 泳い**では**.\n- Formal/written variant: 〜てはなりません. Softer: 〜ないでください.\n\n**Casual contractions:**\n- 〜ては → **〜ちゃ**: 食べちゃだめ\n- 〜では → **〜じゃ**: 飲んじゃだめ\n\nOften paired as the 'no' answer to てもいいですか: 撮ってもいいですか—いいえ、撮ってはいけません.",
+      "examples": [
+        [
+          "{教室|きょうしつ}で{食|た}べてはいけません。",
+          "You must not eat in the classroom."
+        ],
+        [
+          "この{川|かわ}で{泳|およ}いではいけません。",
+          "You must not swim in this river."
+        ],
+        [
+          "ここで{遊|あそ}んじゃだめだよ。",
+          "You can't play here. (casual)"
+        ]
+      ]
+    },
+    {
+      "id": "na-prohibitive",
+      "title": "〜な: don't! (blunt command)",
+      "summary": "Dictionary form + な = a blunt 'Don't …!'. It's used on signs, in emergencies, and in rough male speech.",
+      "body": "**Dictionary form + な** is the strongest, most direct prohibition: 入る**な** (Keep out!), 走る**な** (Don't run!).\n\n**Where you'll see it:**\n- Signs and warnings: 触る**な**, 止まる**な**\n- Emergencies: 押す**な**！\n- Rough or male speech, sports coaches, manga, song lyrics: 泣く**な** (don't cry)\n\nIt's **very rude** in normal conversation. Politely you'd say 〜ないでください.\n\n**Don't confuse it with:**\n- Sentence-final な/なあ (exclamation): きれいだ**な**あ (how pretty).\n- ます-stem + な (short for なさい, a command): 早く寝**な** (go to bed). Here the verb is in the **stem** form, not the dictionary form.",
+      "examples": [
+        [
+          "ここに{入|はい}るな！",
+          "Keep out! (sign)"
+        ],
+        [
+          "{危|あぶ}ない！{触|さわ}るな！",
+          "Dangerous! Don't touch!"
+        ],
+        [
+          "{泣|な}くな。",
+          "Don't cry."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tekudasai",
+      "prompt": "もう{一度|いちど}（　）ください。",
+      "options": [
+        "{言|い}いて",
+        "{言|い}んで",
+        "{言|い}って",
+        "{言|い}た"
+      ],
+      "answer": 2,
+      "explanation": "言う ends in う, so its て-form is **って**: 言って.",
+      "notes": [
+        "いて is for く-verbs (書く→書いて).",
+        "んで is for む・ぶ・ぬ verbs.",
+        "",
+        "The past form 言った can't be followed by ください, and 言た isn't a form."
+      ],
+      "translation": "Please say it once more."
+    },
+    {
+      "point": "tekudasai",
+      "prompt": "{窓|まど}を{開|あ}け（　）。",
+      "options": [
+        "るください",
+        "てください",
+        "でください",
+        "たください"
+      ],
+      "answer": 1,
+      "explanation": "Ichidan verb: drop る + **て** + ください.",
+      "notes": [
+        "The dictionary form can't take ください.",
+        "",
+        "で is only for verbs ending in む/ぶ/ぬ/ぐ.",
+        "The past form can't take ください."
+      ],
+      "translation": "Please open the window."
+    },
+    {
+      "point": "tekudasai",
+      "prompt": "もう{少|すこ}しゆっくり（　）ください。",
+      "options": [
+        "{話|はな}いて",
+        "{話|はな}んで",
+        "{話|はな}して",
+        "{話|はな}って"
+      ],
+      "answer": 2,
+      "explanation": "す-verbs: す → **して**: 話して.",
+      "notes": [
+        "いて is for く-verbs.",
+        "んで is for む・ぶ・ぬ verbs.",
+        "",
+        "って is for う・つ・る verbs."
+      ],
+      "translation": "Please speak a little more slowly."
+    },
+    {
+      "point": "tekudasai",
+      "prompt": "すみません、お{水|みず}（　）ください。",
+      "options": [
+        "に",
+        "が",
+        "で",
+        "を"
+      ],
+      "answer": 3,
+      "explanation": "Asking for a thing: noun + **を** + ください.",
+      "notes": [
+        "に would mean 'to the water'.",
+        "が isn't used with ください.",
+        "で would mean 'by means of water'.",
+        ""
+      ],
+      "translation": "Excuse me, could I have some water?"
+    },
+    {
+      "point": "naidekudasai",
+      "prompt": "ここでタバコを{吸|す}わ（　）ください。",
+      "options": [
+        "なくて",
+        "ないで",
+        "ずに",
+        "ないて"
+      ],
+      "answer": 1,
+      "explanation": "'Please don't': ない-form + **で** + ください.",
+      "notes": [
+        "なくてください is a common mistake. The pattern is ないでください.",
+        "",
+        "ずに means 'without doing' and can't be followed by ください.",
+        "ないて isn't a form."
+      ],
+      "translation": "Please don't smoke here."
+    },
+    {
+      "point": "naidekudasai",
+      "prompt": "{心配|しんぱい}（　）でください。",
+      "options": [
+        "しなく",
+        "しなかった",
+        "しません",
+        "しない"
+      ],
+      "answer": 3,
+      "explanation": "する → しない + **でください**.",
+      "notes": [
+        "しなく is an adverbial form.",
+        "The past form doesn't fit a request.",
+        "Polite ません can't be followed by でください.",
+        ""
+      ],
+      "translation": "Please don't worry."
+    },
+    {
+      "point": "naidekudasai",
+      "prompt": "ここに{荷物|にもつ}を（　）でください。",
+      "options": [
+        "{置|お}くない",
+        "{置|お}かない",
+        "{置|お}けない",
+        "{置|お}きない"
+      ],
+      "answer": 1,
+      "explanation": "置く is godan: く → **か** + ない: 置かない.",
+      "notes": [
+        "ない can't attach to the dictionary form.",
+        "",
+        "置けない is the potential negative ('can't put'), not a request.",
+        "Adding ない to the ます-stem (置き) is wrong. Godan verbs use the あ-row."
+      ],
+      "translation": "Please don't leave your luggage here."
+    },
+    {
+      "point": "temoii",
+      "prompt": "ここに{座|すわ}って（　）いいですか。",
+      "options": [
+        "は",
+        "が",
+        "を",
+        "も"
+      ],
+      "answer": 3,
+      "explanation": "Asking permission: て-form + **も** + いいですか.",
+      "notes": [
+        "ては is used for prohibition (てはいけない).",
+        "が can't follow the て-form.",
+        "を can't follow the て-form.",
+        ""
+      ],
+      "translation": "May I sit here?"
+    },
+    {
+      "point": "temoii",
+      "prompt": "この{本|ほん}を{読|よ}ん（　）いいですか。",
+      "options": [
+        "ても",
+        "だも",
+        "でも",
+        "では"
+      ],
+      "answer": 2,
+      "explanation": "読む → 読んで, so you get **でも**いい.",
+      "notes": [
+        "読む's て-form ends in で, not て.",
+        "だも isn't a form.",
+        "",
+        "では is for prohibition (読んではいけない)."
+      ],
+      "translation": "May I read this book?"
+    },
+    {
+      "point": "temoii",
+      "prompt": "A：{窓|まど}を{開|あ}けてもいいですか。　B：ええ、（　）。",
+      "options": [
+        "ちょっと…",
+        "どうぞ",
+        "いけません",
+        "だめです"
+      ],
+      "answer": 1,
+      "explanation": "Granting permission after ええ: **どうぞ** (go ahead).",
+      "notes": [
+        "ちょっと… is a polite refusal.",
+        "",
+        "いけません refuses, which contradicts ええ.",
+        "だめです refuses too."
+      ],
+      "translation": "A: May I open the window? B: Yes, go ahead."
+    },
+    {
+      "point": "tewaikenai",
+      "prompt": "この{川|かわ}で{泳|およ}い（　）いけません。",
+      "options": [
+        "ても",
+        "でも",
+        "ては",
+        "では"
+      ],
+      "answer": 3,
+      "explanation": "泳ぐ → 泳いで, so you get **では**いけません ('must not').",
+      "notes": [
+        "The voicing is wrong (泳いで), and てもいけません isn't a pattern.",
+        "でもいい means 'may', and でもいけません isn't the prohibition pattern.",
+        "泳ぐ's て-form ends in で, so it's では.",
+        ""
+      ],
+      "translation": "You must not swim in this river."
+    },
+    {
+      "point": "tewaikenai",
+      "prompt": "A：ここで{写真|しゃしん}を{撮|と}ってもいいですか。　B：いいえ、{撮|と}っては（　）。",
+      "options": [
+        "いりません",
+        "いけません",
+        "いけます",
+        "いきません"
+      ],
+      "answer": 1,
+      "explanation": "'No, you must not': 〜ては**いけません**.",
+      "notes": [
+        "いりません means 'not needed' (要る).",
+        "",
+        "てはいけます isn't used. The prohibition is always negative: いけません.",
+        "いきません means 'won't go'. It's a different verb (行く)."
+      ],
+      "translation": "A: May I take photos here? B: No, you must not."
+    },
+    {
+      "point": "tewaikenai",
+      "prompt": "（Mother to child）ここで{遊|あそ}んじゃ（　）よ。",
+      "options": [
+        "しまう",
+        "ください",
+        "だめだ",
+        "いい"
+      ],
+      "answer": 2,
+      "explanation": "Casual prohibition: 〜じゃ (= では) + **だめ**.",
+      "notes": [
+        "遊んじゃう is a contraction of 遊んでしまう ('end up playing'). 遊んじゃしまう isn't a form.",
+        "じゃください isn't grammatical.",
+        "",
+        "遊んじゃいい isn't natural. Permission would be 遊んでもいい."
+      ],
+      "translation": "You can't play here, okay?"
+    },
+    {
+      "point": "na-prohibitive",
+      "prompt": "（Sign on a door）ここに{入|はい}る（　）！",
+      "options": [
+        "ない",
+        "なさい",
+        "たい",
+        "な"
+      ],
+      "answer": 3,
+      "explanation": "Dictionary form + **な** = 'Don't …!' (blunt, typical on signs).",
+      "notes": [
+        "入るない isn't a form. The negative of 入る is 入らない, and that wouldn't be a command anyway.",
+        "なさい attaches to the ます-stem (入りなさい), and it means 'do it!', the opposite.",
+        "たい attaches to the ます-stem (入りたい) and means 'want to'.",
+        ""
+      ],
+      "translation": "Keep out!"
+    },
+    {
+      "point": "na-prohibitive",
+      "prompt": "What does 「{走|はし}るな！」 mean?",
+      "options": [
+        "Let's run!",
+        "Run!",
+        "Don't run!",
+        "He doesn't run."
+      ],
+      "answer": 2,
+      "explanation": "Dictionary form + **な** is a prohibition: 'Don't run!'.",
+      "notes": [
+        "'Let's run' is 走ろう / 走りましょう.",
+        "'Run!' would be 走れ！ (imperative) or 走りなさい.",
+        "",
+        "'He doesn't run' is 走らない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "na-prohibitive",
+      "prompt": "Which is the **polite** way to say 「{触|さわ}るな」?",
+      "options": [
+        "{触|さわ}りなさい",
+        "{触|さわ}らないでください",
+        "{触|さわ}ってください",
+        "{触|さわ}ってもいいです"
+      ],
+      "answer": 1,
+      "explanation": "The polite equivalent of 〜な is **〜ないでください**.",
+      "notes": [
+        "触りなさい is a command to touch.",
+        "",
+        "触ってください means 'please touch', the opposite.",
+        "触ってもいいです means 'you may touch'."
+      ],
+      "translation": "Please don't touch."
+    },
+    {
+      "point": "tekudasai",
+      "prompt": "ここで{少|すこ}し（　）ください。",
+      "options": [
+        "{待|ま}って",
+        "{待|ま}んで",
+        "{待|ま}ちて",
+        "{待|ま}いて"
+      ],
+      "answer": 0,
+      "explanation": "つ-verbs → **って**: 待って.",
+      "notes": [
+        "",
+        "んで is for む・ぶ・ぬ verbs.",
+        "Godan verbs don't add て to the ます-stem.",
+        "いて is for く-verbs."
+      ],
+      "translation": "Please wait here a moment."
+    },
+    {
+      "point": "naidekudasai",
+      "prompt": "{授業中|じゅぎょうちゅう}は{話|はな}さ（　）ください。",
+      "options": [
+        "ずに",
+        "ないで",
+        "なくて",
+        "ないて"
+      ],
+      "answer": 1,
+      "explanation": "**ないでください** = please don't.",
+      "notes": [
+        "ずにください isn't grammatical.",
+        "",
+        "なくてください isn't the pattern.",
+        "ないて isn't a form."
+      ],
+      "translation": "Please don't talk during class."
+    },
+    {
+      "point": "temoii",
+      "prompt": "{明日|あした}は{休|やす}んで（　）いいですか。",
+      "options": [
+        "を",
+        "は",
+        "が",
+        "も"
+      ],
+      "answer": 3,
+      "explanation": "Permission: **てもいいですか**.",
+      "notes": [
+        "を can't follow the て-form.",
+        "ては is for prohibition.",
+        "が can't follow the て-form.",
+        ""
+      ],
+      "translation": "May I take tomorrow off?"
+    },
+    {
+      "point": "tewaikenai",
+      "prompt": "テストの{時|とき}、{辞書|じしょ}を{見|み}て（　）いけません。",
+      "options": [
+        "は",
+        "を",
+        "が",
+        "も"
+      ],
+      "answer": 0,
+      "explanation": "Prohibition: **てはいけません**.",
+      "notes": [
+        "",
+        "を can't follow the て-form.",
+        "が can't follow the て-form.",
+        "てもいけません isn't the prohibition pattern."
+      ],
+      "translation": "You must not look at a dictionary during the test."
+    }
+  ]
+}

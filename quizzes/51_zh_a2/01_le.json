@@ -1,0 +1,312 @@
+{
+  "id": "zh-a2-le",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "The Many Faces of 了",
+  "description": "Completed actions, new situations, 'not anymore', 快…了, 已经…了, durations with one or two 了, and 了吗 questions.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "le_done",
+      "title": "Verb + 了 + object: completed action",
+      "summary": "了 right after the verb marks a completed action. A quantified object (三杯, 一本) usually follows.",
+      "body": "- 他喝**了**三杯咖啡.\n- 我买**了**一本书.\n- Negative: 没 + verb, **without** 了 (我没买书).",
+      "examples": [
+        [
+          "{他|tā}{喝|hē}{了|le}{三|sān}{杯|bēi}{咖啡|kāfēi}。",
+          "He drank three cups of coffee."
+        ]
+      ]
+    },
+    {
+      "id": "le_change",
+      "title": "Sentence + 了: change / new situation",
+      "summary": "了 at the end of a sentence says 'now it's like this' — something has changed.",
+      "body": "- 下雨**了**! (It's started raining!)\n- 我饿**了** (I'm hungry now).\n- 不 + verb + 了 = not anymore: 我不喝酒**了**.",
+      "examples": [
+        [
+          "{我|wǒ}{不|bù}{喝|hē}{酒|jiǔ}{了|le}。",
+          "I don't drink anymore."
+        ]
+      ]
+    },
+    {
+      "id": "kuaile",
+      "title": "快(要) + verb + 了: about to",
+      "summary": "快 / 快要 + verb/adj + 了 = something is about to happen. The 了 is required.",
+      "body": "- 火车**快要**开**了**.\n- 我们**快**到北京**了**.",
+      "examples": [
+        [
+          "{我们|wǒmen}{快|kuài}{到|dào}{北京|Běijīng}{了|le}。",
+          "We're almost in Beijing."
+        ]
+      ]
+    },
+    {
+      "id": "yijing",
+      "title": "已经…了: already",
+      "summary": "已经 (yǐjīng) + verb … + 了 = already.",
+      "body": "- 我**已经**吃过饭**了**.\n- 他**已经**走**了**.",
+      "examples": [
+        [
+          "{他|tā}{已经|yǐjīng}{走|zǒu}{了|le}。",
+          "He's already left."
+        ]
+      ]
+    },
+    {
+      "id": "le_duration",
+      "title": "Verb + 了 + duration (+ 了)",
+      "summary": "One 了: the action lasted that long (finished). Two 了: it has lasted that long **so far** and is still going.",
+      "body": "- 我学**了**两年中文 (I studied for two years — maybe I've stopped).\n- 我学**了**两年中文**了** (I've been studying for two years — and still am).",
+      "examples": [
+        [
+          "{我|wǒ}{学|xué}{了|le}{两|liǎng}{年|nián}{中文|Zhōngwén}{了|le}。",
+          "I've been learning Chinese for two years now."
+        ]
+      ]
+    },
+    {
+      "id": "lema",
+      "title": "Verb + 了吗? / 还没(有)",
+      "summary": "Did you …? = verb + 了吗? Answer: verb + 了 / 还没(有) (not yet).",
+      "body": "- 你吃饭**了吗**? — 吃了 / 还没有.",
+      "examples": [
+        [
+          "{你|nǐ}{吃饭|chīfàn}{了|le}{吗|ma}？",
+          "Have you eaten?"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "le_done",
+      "prompt": "{我|wǒ}{昨天|zuótiān}{买|mǎi}（　）{一|yì}{本|běn}{书|shū}，{今天|jīntiān}{已经|yǐjīng}{看|kàn}{完|wán}{了|le}。",
+      "options": [
+        "{着|zhe}",
+        "{在|zài}",
+        "{的|de}",
+        "{了|le}"
+      ],
+      "answer": 3,
+      "explanation": "Completed action: **verb + 了**.",
+      "notes": [
+        "着 marks a lasting state, not a finished purchase.",
+        "在 goes before the verb.",
+        "买的一本书 would need a noun after it in a different structure.",
+        ""
+      ],
+      "translation": "I bought a book yesterday and finished reading it today."
+    },
+    {
+      "point": "le_done",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{喝|hē}{三|sān}{杯|bēi}{了|le}{咖啡|kāfēi}。",
+        "{他|tā}{了|le}{喝|hē}{三|sān}{杯|bēi}{咖啡|kāfēi}。",
+        "{他|tā}{喝|hē}{了|le}{三|sān}{杯|bēi}{咖啡|kāfēi}。",
+        "{他|tā}{喝|hē}{三|sān}{了|le}{杯|bēi}{咖啡|kāfēi}。"
+      ],
+      "answer": 2,
+      "explanation": "Verb + **了** + quantity + noun.",
+      "notes": [
+        "了 can't split the measure word and the noun.",
+        "了 comes after the verb, not before it.",
+        "",
+        "了 can't split the number and the measure word."
+      ],
+      "translation": "He drank three cups of coffee."
+    },
+    {
+      "point": "le_change",
+      "prompt": "{下雨|xià yǔ}（　）！{我们|wǒmen}{快|kuài}{回家|huíjiā}{吧|ba}。",
+      "options": [
+        "{着|zhe}",
+        "{了|le}",
+        "{过|guo}",
+        "{的|de}"
+      ],
+      "answer": 1,
+      "explanation": "New situation: sentence + **了**.",
+      "notes": [
+        "下雨着 isn't natural.",
+        "",
+        "下雨过 = 'it has rained before' — not a new situation.",
+        "的 doesn't mark a change."
+      ],
+      "translation": "It's started raining! Let's hurry home."
+    },
+    {
+      "point": "le_change",
+      "prompt": "What does 「{我|wǒ}{不|bù}{喝|hē}{酒|jiǔ}{了|le}。」 mean?",
+      "options": [
+        "I'mnotdrinkingyet.",
+        "Ididn'tdrink.",
+        "I'veneverdrunk.",
+        "Idon'tdrinkanymore."
+      ],
+      "answer": 3,
+      "explanation": "不…**了** = not anymore.",
+      "notes": [
+        "That's 我还没喝.",
+        "That's 我没喝酒.",
+        "That's 我从来没喝过酒.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kuaile",
+      "prompt": "{火车|huǒchē}（　）{开|kāi}{了|le}，{你|nǐ}{快|kuài}{上车|shàngchē}{吧|ba}！",
+      "options": [
+        "{正在|zhèngzài}",
+        "{已经|yǐjīng}",
+        "{快要|kuàiyào}",
+        "{刚|gāng}"
+      ],
+      "answer": 2,
+      "explanation": "About to: **快要…了**.",
+      "notes": [
+        "正在 doesn't combine with 了 like this.",
+        "If it had already left, you couldn't get on.",
+        "",
+        "刚开了 isn't the pattern — and you couldn't get on either."
+      ],
+      "translation": "The train is about to leave — get on quickly!"
+    },
+    {
+      "point": "kuaile",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我们|wǒmen}{到|dào}{北京|Běijīng}{快|kuài}{了|le}。",
+        "{我们|wǒmen}{快|kuài}{了|le}{到|dào}{北京|Běijīng}。",
+        "{我们|wǒmen}{快|kuài}{到|dào}{北京|Běijīng}。",
+        "{我们|wǒmen}{快|kuài}{到|dào}{北京|Běijīng}{了|le}。"
+      ],
+      "answer": 3,
+      "explanation": "**快 + verb + 了**.",
+      "notes": [
+        "快 goes before the verb.",
+        "了 goes at the end.",
+        "快 needs the final 了.",
+        ""
+      ],
+      "translation": "We're almost in Beijing."
+    },
+    {
+      "point": "yijing",
+      "prompt": "{我|wǒ}（　）{吃|chī}{过|guo}{饭|fàn}{了|le}，{不|bú}{饿|è}。",
+      "options": [
+        "{已经|yǐjīng}",
+        "{还|hái}",
+        "{正在|zhèngzài}",
+        "{快|kuài}"
+      ],
+      "answer": 0,
+      "explanation": "Already: **已经…了**.",
+      "notes": [
+        "",
+        "还吃过饭了 isn't grammatical.",
+        "正在 = 'in the middle of' — clashes with 过…了.",
+        "快吃过饭了 isn't grammatical."
+      ],
+      "translation": "I've already eaten, I'm not hungry."
+    },
+    {
+      "point": "yijing",
+      "prompt": "{他|tā}（　）{走|zǒu}{了|le}，{你|nǐ}{明天|míngtiān}{再|zài}{来|lái}{吧|ba}。",
+      "options": [
+        "{一直|yìzhí}",
+        "{正在|zhèngzài}",
+        "{从来|cónglái}",
+        "{已经|yǐjīng}"
+      ],
+      "answer": 3,
+      "explanation": "**已经…了**.",
+      "notes": [
+        "一直走 = 'go straight / keep walking'.",
+        "正在走了 isn't grammatical.",
+        "从来 needs a negative.",
+        ""
+      ],
+      "translation": "He's already left — come back tomorrow."
+    },
+    {
+      "point": "le_duration",
+      "prompt": "{我|wǒ}{学|xué}（　）{两|liǎng}{年|nián}{中文|Zhōngwén}，{现在|xiànzài}{能|néng}{看|kàn}{懂|dǒng}{一点儿|yìdiǎnr}。",
+      "options": [
+        "{的|de}",
+        "{着|zhe}",
+        "{了|le}",
+        "{在|zài}"
+      ],
+      "answer": 2,
+      "explanation": "Duration: **verb + 了 + time**.",
+      "notes": [
+        "学的两年 isn't the pattern.",
+        "着 doesn't take a duration like this.",
+        "",
+        "在 goes before the verb."
+      ],
+      "translation": "I studied Chinese for two years and can now understand a little."
+    },
+    {
+      "point": "le_duration",
+      "prompt": "Which sentence says you are **still** learning (two years so far)?",
+      "options": [
+        "{我|wǒ}{学|xué}{过|guo}{两|liǎng}{年|nián}{中文|Zhōngwén}。",
+        "{我|wǒ}{学|xué}{了|le}{两|liǎng}{年|nián}{中文|Zhōngwén}。",
+        "{我|wǒ}{两|liǎng}{年|nián}{学|xué}{中文|Zhōngwén}。",
+        "{我|wǒ}{学|xué}{了|le}{两|liǎng}{年|nián}{中文|Zhōngwén}{了|le}。"
+      ],
+      "answer": 3,
+      "explanation": "Ongoing: **了 + duration + 了**.",
+      "notes": [
+        "过 = at some point in the past.",
+        "One 了 = it lasted two years (could be over).",
+        "The duration goes after the verb.",
+        ""
+      ],
+      "translation": "I've been learning Chinese for two years now."
+    },
+    {
+      "point": "lema",
+      "prompt": "A：{你|nǐ}{吃饭|chīfàn}（　）？\nB：{吃|chī}{了|le}。",
+      "options": [
+        "{吗|ma}{了|le}",
+        "{了|le}{吗|ma}",
+        "{过|guo}{了|le}",
+        "{了|le}{呢|ne}"
+      ],
+      "answer": 1,
+      "explanation": "Did you …?: **了吗**.",
+      "notes": [
+        "The order is 了吗.",
+        "",
+        "过了 doesn't make a question.",
+        "了呢 doesn't ask a yes/no question."
+      ],
+      "translation": "A: Have you eaten? B: Yes."
+    },
+    {
+      "point": "lema",
+      "prompt": "A：{你|nǐ}{买|mǎi}{票|piào}{了|le}{吗|ma}？\nB：{还|hái}（　）。",
+      "options": [
+        "{不了|bù le}",
+        "{没有了|méiyǒu le}",
+        "{没有|méiyǒu}",
+        "{不|bù}"
+      ],
+      "answer": 2,
+      "explanation": "Not yet: **还没(有)**.",
+      "notes": [
+        "还不了 isn't an answer.",
+        "No 了 after 还没有.",
+        "",
+        "还不 doesn't answer 'did you?'."
+      ],
+      "translation": "A: Have you bought the tickets? B: Not yet."
+    }
+  ]
+}

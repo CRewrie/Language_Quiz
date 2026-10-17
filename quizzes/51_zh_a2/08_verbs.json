@@ -1,0 +1,312 @@
+{
+  "id": "zh-a2-verbs",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "Verbs: 想 vs 要, 应该, 会 (will), 没办法, verb + 一下, double objects",
+  "description": "Would like (想) vs want (要), should, will, can't (no way), doing something briefly, and verbs with two objects.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "xiangyao",
+      "title": "想 vs 要",
+      "summary": "想 + verb = would like to (softer); 想 + person/place = miss. 要 + noun = want (to have); 要 + verb = want to / be going to (stronger).",
+      "body": "- 我**想**家 (I'm homesick).\n- 我**要**一杯茶 — not ~~我想一杯茶~~.",
+      "examples": [
+        [
+          "{我|wǒ}{很|hěn}{想|xiǎng}{家|jiā}。",
+          "I'm really homesick."
+        ]
+      ]
+    },
+    {
+      "id": "yinggai",
+      "title": "应该 / 该 + verb: should",
+      "summary": "应该 (yīnggāi) = should, ought to. 该…了 = it's time to ….",
+      "body": "- 你病了，**应该**多休息.\n- 十点了，我**该**走**了**.",
+      "examples": [
+        [
+          "{你|nǐ}{应该|yīnggāi}{多|duō}{休息|xiūxi}。",
+          "You should rest more."
+        ]
+      ]
+    },
+    {
+      "id": "huiwill",
+      "title": "会 + verb: will (likely)",
+      "summary": "会 also predicts: it will / is likely to happen. Often with 的 at the end for certainty.",
+      "body": "- 明天**会**下雨吗?\n- 他一定**会**来**的**.",
+      "examples": [
+        [
+          "{别|bié}{担心|dānxīn}，{他|tā}{一定|yídìng}{会|huì}{来|lái}{的|de}。",
+          "Don't worry, he'll definitely come."
+        ]
+      ]
+    },
+    {
+      "id": "meibanfa",
+      "title": "没办法 + verb: can't (no way)",
+      "summary": "没(有)办法 = there's no way to / nothing can be done.",
+      "body": "- 我今天很忙，**没办法**陪你去.",
+      "examples": [
+        [
+          "{我|wǒ}{没|méi}{办法|bànfǎ}{帮|bāng}{你|nǐ}。",
+          "There's no way I can help you."
+        ]
+      ]
+    },
+    {
+      "id": "yixia",
+      "title": "Verb + 一下 / verb-verb: briefly",
+      "summary": "Verb + 一下 or doubling the verb (看看, 试试) softens it: 'have a quick …'.",
+      "body": "- 请等**一下**.\n- 你**试试**这件衣服吧.",
+      "examples": [
+        [
+          "{你|nǐ}{试试|shìshi}{这|zhè}{件|jiàn}{衣服|yīfu}{吧|ba}。",
+          "Why don't you try this on."
+        ]
+      ]
+    },
+    {
+      "id": "double",
+      "title": "Verb + person + thing (double objects)",
+      "summary": "给, 教, 问, 告诉 … take the person first, then the thing.",
+      "body": "- 他给了**我一本书**.\n- 老师问了**我们一个问题**.",
+      "examples": [
+        [
+          "{他|tā}{给|gěi}{了|le}{我|wǒ}{一|yì}{本|běn}{书|shū}。",
+          "He gave me a book."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "xiangyao",
+      "prompt": "A：{你|nǐ}{想|xiǎng}{喝|hē}{什么|shénme}？\nB：{我|wǒ}（　）{一|yì}{杯|bēi}{茶|chá}。",
+      "options": [
+        "{应该|yīnggāi}",
+        "{会|huì}",
+        "{想|xiǎng}",
+        "{要|yào}"
+      ],
+      "answer": 3,
+      "explanation": "Want (+ thing): **要**.",
+      "notes": [
+        "应该 needs a verb.",
+        "会 needs a verb.",
+        "想 + noun means 'miss' — 'I miss a cup of tea'.",
+        ""
+      ],
+      "translation": "A: What would you like to drink? B: A cup of tea, please."
+    },
+    {
+      "point": "xiangyao",
+      "prompt": "{我|wǒ}{来|lái}{中国|Zhōngguó}{半|bàn}{年|nián}{了|le}，{很|hěn}（　）{家|jiā}。",
+      "options": [
+        "{该|gāi}",
+        "{会|huì}",
+        "{想|xiǎng}",
+        "{要|yào}"
+      ],
+      "answer": 2,
+      "explanation": "Miss: **想**.",
+      "notes": [
+        "该家 isn't grammatical.",
+        "会家 isn't grammatical.",
+        "",
+        "要家 = 'want a home'."
+      ],
+      "translation": "I've been in China for half a year and I'm really homesick."
+    },
+    {
+      "point": "yinggai",
+      "prompt": "{你|nǐ}{病|bìng}{了|le}，（　）{多|duō}{休息|xiūxi}。",
+      "options": [
+        "{就是|jiùshì}",
+        "{应该|yīnggāi}",
+        "{会|huì}",
+        "{还是|háishi}"
+      ],
+      "answer": 1,
+      "explanation": "Should: **应该**.",
+      "notes": [
+        "就是 = 'precisely'.",
+        "",
+        "会多休息 = 'will rest more' — a prediction, not advice.",
+        "还是 would need a different structure."
+      ],
+      "translation": "You're ill — you should rest more."
+    },
+    {
+      "point": "yinggai",
+      "prompt": "{已经|yǐjīng}{十|shí}{点|diǎn}{了|le}，{我|wǒ}（　）{回家|huíjiā}{了|le}。",
+      "options": [
+        "{会|huì}",
+        "{过|guò}",
+        "{在|zài}",
+        "{该|gāi}"
+      ],
+      "answer": 3,
+      "explanation": "It's time to: **该…了**.",
+      "notes": [
+        "会…了 isn't 'it's time to'.",
+        "过回家 isn't grammatical.",
+        "在回家了 isn't grammatical.",
+        ""
+      ],
+      "translation": "It's already ten — time for me to go home."
+    },
+    {
+      "point": "huiwill",
+      "prompt": "{你|nǐ}{看|kàn}，{天|tiān}{这么|zhème}{黑|hēi}，{明天|míngtiān}（　）{下雨|xià yǔ}{吗|ma}？",
+      "options": [
+        "{能|néng}",
+        "{会|huì}",
+        "{想|xiǎng}",
+        "{可以|kěyǐ}"
+      ],
+      "answer": 1,
+      "explanation": "Will (prediction): **会**.",
+      "notes": [
+        "能 = 'be able'.",
+        "",
+        "想 = 'want to' — weather doesn't want.",
+        "可以 = 'be allowed'."
+      ],
+      "translation": "Look how dark the sky is — will it rain tomorrow?"
+    },
+    {
+      "point": "huiwill",
+      "prompt": "{别|bié}{担心|dānxīn}，{他|tā}{一定|yídìng}（　）{来|lái}{的|de}。",
+      "options": [
+        "{可以|kěyǐ}",
+        "{应该|yīnggāi}",
+        "{想|xiǎng}",
+        "{会|huì}"
+      ],
+      "answer": 3,
+      "explanation": "Certain prediction: **一定会…的**.",
+      "notes": [
+        "一定可以来的 isn't natural.",
+        "一定应该 isn't grammatical.",
+        "一定想来的 isn't natural.",
+        ""
+      ],
+      "translation": "Don't worry, he'll definitely come."
+    },
+    {
+      "point": "meibanfa",
+      "prompt": "{我|wǒ}{今天|jīntiān}{很|hěn}{忙|máng}，（　）{陪|péi}{你|nǐ}{去|qù}。",
+      "options": [
+        "{没有法|méiyǒu fǎ}",
+        "{没办法|méi bànfǎ}",
+        "{不办法|bú bànfǎ}",
+        "{没法办|méi fǎ bàn}"
+      ],
+      "answer": 1,
+      "explanation": "No way to: **没办法**.",
+      "notes": [
+        "没有法 isn't a phrase.",
+        "",
+        "办法 is a noun — negate it with 没.",
+        "没法办 = 'it can't be dealt with'."
+      ],
+      "translation": "I'm really busy today — I can't go with you."
+    },
+    {
+      "point": "meibanfa",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{办法|bànfǎ}{没有|méiyǒu}{帮|bāng}{你|nǐ}。",
+        "{我|wǒ}{没|méi}{帮|bāng}{你|nǐ}{办法|bànfǎ}。",
+        "{我|wǒ}{不|bú}{办法|bànfǎ}{帮|bāng}{你|nǐ}。",
+        "{我|wǒ}{没|méi}{办法|bànfǎ}{帮|bāng}{你|nǐ}。"
+      ],
+      "answer": 3,
+      "explanation": "**没办法 + verb**.",
+      "notes": [
+        "The order is 没有办法.",
+        "没办法 comes before the verb.",
+        "办法 is a noun — 没, not 不.",
+        ""
+      ],
+      "translation": "There's no way I can help you."
+    },
+    {
+      "point": "yixia",
+      "prompt": "{请|qǐng}{等|děng}（　），{他|tā}{马上|mǎshàng}{就|jiù}{来|lái}。",
+      "options": [
+        "{一点|yìdiǎn}",
+        "{一下|yíxià}",
+        "{一些|yìxiē}",
+        "{一次|yí cì}"
+      ],
+      "answer": 1,
+      "explanation": "Briefly: **verb + 一下**.",
+      "notes": [
+        "等一点 isn't natural.",
+        "",
+        "一些 goes before nouns.",
+        "等一次 = 'wait once'."
+      ],
+      "translation": "Please wait a moment, he'll be right here."
+    },
+    {
+      "point": "yixia",
+      "prompt": "{这|zhè}{件|jiàn}{衣服|yīfu}{很|hěn}{漂亮|piàoliang}，{你|nǐ}（　）{吧|ba}。",
+      "options": [
+        "{试一|shì yī}",
+        "{一试|yí shì}",
+        "{试试|shìshi}",
+        "{试和试|shì hé shì}"
+      ],
+      "answer": 2,
+      "explanation": "Doubled verb: **试试**.",
+      "notes": [
+        "试一 is incomplete — 试一试 or 试一下.",
+        "一试 can't stand alone here.",
+        "",
+        "和 can't link verbs."
+      ],
+      "translation": "This dress is lovely — why don't you try it on."
+    },
+    {
+      "point": "double",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{给|gěi}{了|le}{一|yì}{本|běn}{书|shū}{我|wǒ}。",
+        "{他|tā}{一|yì}{本|běn}{书|shū}{给|gěi}{了|le}{我|wǒ}。",
+        "{他|tā}{我|wǒ}{给|gěi}{了|le}{一|yì}{本|běn}{书|shū}。",
+        "{他|tā}{给|gěi}{了|le}{我|wǒ}{一|yì}{本|běn}{书|shū}。"
+      ],
+      "answer": 3,
+      "explanation": "Verb + **person + thing**.",
+      "notes": [
+        "The person comes before the thing.",
+        "The thing can't go before the verb like this.",
+        "The person comes after the verb.",
+        ""
+      ],
+      "translation": "He gave me a book."
+    },
+    {
+      "point": "double",
+      "prompt": "{上课|shàngkè}{的|de}{时候|shíhou}，{老师|lǎoshī}（　）{我们|wǒmen}{一个|yí ge}{问题|wèntí}。",
+      "options": [
+        "{跟|gēn}{了|le}",
+        "{问|wèn}{了|le}",
+        "{对|duì}{了|le}",
+        "{说|shuō}{了|le}"
+      ],
+      "answer": 1,
+      "explanation": "Ask someone something: **问 + person + thing**.",
+      "notes": [
+        "跟了 = 'followed'.",
+        "",
+        "对了 = 'that's right'.",
+        "说 doesn't take a person as the first object."
+      ],
+      "translation": "In class, the teacher asked us a question."
+    }
+  ]
+}

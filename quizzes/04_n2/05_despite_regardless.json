@@ -1,0 +1,411 @@
+{
+  "id": "n2-despite-regardless",
+  "category": "JLPT N2",
+  "title": "Despite & Regardless: にもかかわらず, にかかわらず, を問わず, に限らず, はともかく, は別として, もかまわず, に反して",
+  "description": "In spite of, regardless of, not only, setting aside, without caring about, and contrary to.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "nimokakawarazu",
+      "title": "〜にもかかわらず: despite, in spite of",
+      "summary": "Plain form / noun + にもかかわらず = although A, (surprisingly) B. Formal.",
+      "body": "- 雨**にもかかわらず**、試合は行われた.\n- 努力した**にもかかわらず**、失敗した.\n\nDon't confuse with にかかわらず (regardless) — the も makes the difference!",
+      "examples": [
+        [
+          "{雨|あめ}にもかかわらず、{試合|しあい}は{行|おこな}われた。",
+          "Despite the rain, the match was held."
+        ]
+      ]
+    },
+    {
+      "id": "nikakawarazu",
+      "title": "〜にかかわらず: regardless of",
+      "summary": "Noun (often a pair/range: 年齢, 天候, 経験の有無, 好き嫌い) + にかかわらず = regardless of.",
+      "body": "- 年齢**にかかわらず**、誰でも参加できます.\n- 好むと好まない**とにかかわらず** (whether you like it or not).",
+      "examples": [
+        [
+          "{年齢|ねんれい}にかかわらず、{誰|だれ}でも{参加|さんか}できます。",
+          "Anyone can take part, regardless of age."
+        ]
+      ]
+    },
+    {
+      "id": "wotowazu",
+      "title": "〜を問わず: regardless of, irrespective of",
+      "summary": "Noun (男女, 年齢, 経験, 昼夜) + を問わず = without making it a condition.",
+      "body": "- 経験の有無**を問わず**、応募できます.\n- 昼夜**を問わず** (day and night).",
+      "examples": [
+        [
+          "{経験|けいけん}の{有無|うむ}を{問|と}わず、{応募|おうぼ}できます。",
+          "You can apply regardless of experience."
+        ]
+      ]
+    },
+    {
+      "id": "nikagirazu",
+      "title": "〜に限らず: not only, not limited to",
+      "summary": "Noun + に限らず = not just A, but (B) too.",
+      "body": "- この店は若者**に限らず**、お年寄りにも人気がある.",
+      "examples": [
+        [
+          "この{店|みせ}は{若者|わかもの}に{限|かぎ}らず、お{年寄|としよ}りにも{人気|にんき}がある。",
+          "This shop is popular not just with young people but with the elderly too."
+        ]
+      ]
+    },
+    {
+      "id": "watomokaku",
+      "title": "〜はともかく: setting aside, whatever about",
+      "summary": "Noun + はともかく(として) = leaving A aside (it may be questionable), B ….",
+      "body": "- 味**はともかく**、見た目はきれいだ (whatever about the taste, it looks nice).",
+      "examples": [
+        [
+          "{味|あじ}はともかく、{見|み}た{目|め}はきれいだ。",
+          "The taste aside, it looks nice."
+        ]
+      ]
+    },
+    {
+      "id": "wabetsutoshite",
+      "title": "〜は別として: apart from, except for",
+      "summary": "Noun + は別として = A is a separate matter / an exception.",
+      "body": "- 冗談**は別として**、本題に入りましょう.\n- 田中さん**は別として**、みんな賛成だ.",
+      "examples": [
+        [
+          "{冗談|じょうだん}は{別|べつ}として、{本題|ほんだい}に{入|はい}りましょう。",
+          "Jokes aside, let's get down to business."
+        ]
+      ]
+    },
+    {
+      "id": "mokamawazu",
+      "title": "〜もかまわず: without caring about",
+      "summary": "Noun + もかまわず = paying no attention to (what others think, the rain …).",
+      "body": "- 彼は人目**もかまわず**泣き出した (cried without caring who saw).\n- 雨に濡れるの**もかまわず**、走った.",
+      "examples": [
+        [
+          "{彼|かれ}は{人目|ひとめ}もかまわず{泣|な}き{出|だ}した。",
+          "He burst into tears, not caring who saw."
+        ]
+      ]
+    },
+    {
+      "id": "nihanshite",
+      "title": "〜に反して: contrary to, against",
+      "summary": "Noun (予想, 期待, 意志, 規則) + に反して = contrary to. Before a noun: に反する.",
+      "body": "- 予想**に反して**、結果は悪かった.\n- 規則**に反する**行為.\n\nKanji: 反 (はん), not 返 (かえす).",
+      "examples": [
+        [
+          "{予想|よそう}に{反|はん}して、{結果|けっか}は{悪|わる}かった。",
+          "Contrary to expectations, the result was bad."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nimokakawarazu",
+      "prompt": "{雨|あめ}（　）、{試合|しあい}は{予定|よてい}どおり{行|おこな}われた。",
+      "options": [
+        "にもかかわって",
+        "にもかかわらない",
+        "にもかかわり",
+        "にもかかわらず"
+      ],
+      "answer": 3,
+      "explanation": "Despite: **にもかかわらず**.",
+      "notes": [
+        "かかわって = 'being involved'.",
+        "かかわらない can't connect to the next clause.",
+        "かかわり is a noun.",
+        ""
+      ],
+      "translation": "Despite the rain, the match went ahead as planned."
+    },
+    {
+      "point": "nimokakawarazu",
+      "prompt": "{一生懸命|いっしょうけんめい}{努力|どりょく}した（　）、{失敗|しっぱい}してしまった。",
+      "options": [
+        "を問わず",
+        "にかかわらず",
+        "にもかかわらず",
+        "に限らず"
+      ],
+      "answer": 2,
+      "explanation": "Unexpected result despite effort → **にもかかわらず** (with も).",
+      "notes": [
+        "を問わず = 'regardless of (categories)'.",
+        "にかかわらず = 'regardless of' — doesn't fit a single past fact.",
+        "",
+        "に限らず = 'not only'."
+      ],
+      "translation": "Even though I tried my best, I failed."
+    },
+    {
+      "point": "nikakawarazu",
+      "prompt": "{年齢|ねんれい}（　）、{誰|だれ}でも{参加|さんか}できます。",
+      "options": [
+        "にかかわらず",
+        "にかからず",
+        "にかかわって",
+        "にかかわる"
+      ],
+      "answer": 0,
+      "explanation": "Regardless of: **にかかわらず**.",
+      "notes": [
+        "",
+        "かからず = 'without costing'.",
+        "かかわって = 'relating to'.",
+        "かかわる can't connect here."
+      ],
+      "translation": "Anyone can take part, regardless of age."
+    },
+    {
+      "point": "wotowazu",
+      "prompt": "{経験|けいけん}の{有無|うむ}（　）、{応募|おうぼ}できます。",
+      "options": [
+        "が{問|と}わず",
+        "を{問|と}わず",
+        "に{問|と}わず",
+        "を{問|と}って"
+      ],
+      "answer": 1,
+      "explanation": "Regardless of: **を問わず**.",
+      "notes": [
+        "The particle is を.",
+        "",
+        "The particle is を.",
+        "問って isn't the pattern."
+      ],
+      "translation": "You can apply regardless of experience."
+    },
+    {
+      "point": "nikagirazu",
+      "prompt": "この{店|みせ}は{若者|わかもの}（　）、お{年寄|としよ}りにも{人気|にんき}がある。",
+      "options": [
+        "に{限|かぎ}る",
+        "に{限|かぎ}り",
+        "に{限|かぎ}らず",
+        "に{限|かぎ}って"
+      ],
+      "answer": 2,
+      "explanation": "Not only: **に限らず**.",
+      "notes": [
+        "に限る = 'nothing beats'.",
+        "に限り = 'limited to'.",
+        "",
+        "に限って = 'only when (unfortunately)'."
+      ],
+      "translation": "This shop is popular not just with young people but with the elderly too."
+    },
+    {
+      "point": "watomokaku",
+      "prompt": "{味|あじ}は（　）、{見|み}た{目|め}はきれいだ。",
+      "options": [
+        "ともかく",
+        "ともに",
+        "ところで",
+        "とにかく"
+      ],
+      "answer": 0,
+      "explanation": "Setting aside: **はともかく**.",
+      "notes": [
+        "",
+        "ともに = 'together'.",
+        "ところで = 'by the way'.",
+        "とにかく = 'anyway' — doesn't follow は."
+      ],
+      "translation": "The taste aside, it looks nice."
+    },
+    {
+      "point": "wabetsutoshite",
+      "prompt": "{冗談|じょうだん}は（　）、{本題|ほんだい}に{入|はい}りましょう。",
+      "options": [
+        "{別|べつ}がして",
+        "{別|べつ}として",
+        "{別|べつ}をして",
+        "{別|べつ}となって"
+      ],
+      "answer": 1,
+      "explanation": "Aside from: **は別として**.",
+      "notes": [
+        "別がして isn't grammatical.",
+        "",
+        "別をして isn't grammatical.",
+        "別となって isn't the pattern."
+      ],
+      "translation": "Jokes aside, let's get down to business."
+    },
+    {
+      "point": "mokamawazu",
+      "prompt": "{彼|かれ}は{人目|ひとめ}（　）{泣|な}き{出|だ}した。",
+      "options": [
+        "もかまわず",
+        "がかまわず",
+        "もかまわない",
+        "をかまわず"
+      ],
+      "answer": 0,
+      "explanation": "Without caring: **もかまわず**.",
+      "notes": [
+        "",
+        "The particle is も.",
+        "かまわない can't connect to the verb.",
+        "The particle is も."
+      ],
+      "translation": "He burst into tears, not caring who saw."
+    },
+    {
+      "point": "nihanshite",
+      "prompt": "{予想|よそう}（　）、{結果|けっか}は{悪|わる}かった。",
+      "options": [
+        "に{反|はん}する",
+        "に{反|はん}して",
+        "に{返|かえ}して",
+        "を{反|はん}して"
+      ],
+      "answer": 1,
+      "explanation": "Contrary to: **に反して**.",
+      "notes": [
+        "に反する must modify a noun.",
+        "",
+        "返す = 'return' — wrong kanji/verb.",
+        "The particle is に."
+      ],
+      "translation": "Contrary to expectations, the result was bad."
+    },
+    {
+      "point": "nikakawarazu",
+      "prompt": "{天候|てんこう}（　）、{試合|しあい}は{行|おこな}われます。",
+      "options": [
+        "にかかわる",
+        "にかからず",
+        "にかかわらず",
+        "にかかわって"
+      ],
+      "answer": 2,
+      "explanation": "Regardless of: **にかかわらず**.",
+      "notes": [
+        "にかかわる can't connect here.",
+        "かからず = 'without costing'.",
+        "",
+        "にかかわって = 'relating to'."
+      ],
+      "translation": "The match will be held regardless of the weather."
+    },
+    {
+      "point": "wotowazu",
+      "prompt": "この{仕事|しごと}は{男女|だんじょ}（　）、{誰|だれ}でもできる。",
+      "options": [
+        "が{問|と}わず",
+        "に{問|と}わず",
+        "を{問|と}って",
+        "を{問|と}わず"
+      ],
+      "answer": 3,
+      "explanation": "Regardless of: **を問わず**.",
+      "notes": [
+        "The particle is を.",
+        "The particle is を.",
+        "問って isn't the pattern.",
+        ""
+      ],
+      "translation": "Anyone can do this job, regardless of gender."
+    },
+    {
+      "point": "nikagirazu",
+      "prompt": "{東京|とうきょう}（　）、{大|おお}きな{町|まち}は{物価|ぶっか}が{高|たか}い。",
+      "options": [
+        "に{限|かぎ}り",
+        "に{限|かぎ}らず",
+        "に{限|かぎ}る",
+        "に{限|かぎ}って"
+      ],
+      "answer": 1,
+      "explanation": "Not only: **に限らず**.",
+      "notes": [
+        "に限り = 'limited to'.",
+        "",
+        "に限る = 'nothing beats'.",
+        "に限って = 'only (unfortunately)'."
+      ],
+      "translation": "Not just Tokyo — big cities in general are expensive."
+    },
+    {
+      "point": "watomokaku",
+      "prompt": "{結果|けっか}は（　）、{最後|さいご}まで{頑張|がんば}ったことが{大切|たいせつ}だ。",
+      "options": [
+        "ともに",
+        "とにかく",
+        "ともかく",
+        "ところで"
+      ],
+      "answer": 2,
+      "explanation": "Setting aside: **はともかく**.",
+      "notes": [
+        "ともに = 'together'.",
+        "とにかく doesn't follow は.",
+        "",
+        "ところで = 'by the way'."
+      ],
+      "translation": "Whatever the result, what matters is that you kept going to the end."
+    },
+    {
+      "point": "wabetsutoshite",
+      "prompt": "{田中|たなか}さんは（　）、みんな{賛成|さんせい}している。",
+      "options": [
+        "{別|べつ}として",
+        "{別|べつ}となって",
+        "{別|べつ}をして",
+        "{別|べつ}がして"
+      ],
+      "answer": 0,
+      "explanation": "Except for: **は別として**.",
+      "notes": [
+        "",
+        "別となって isn't the pattern.",
+        "別をして isn't grammatical.",
+        "別がして isn't grammatical."
+      ],
+      "translation": "Apart from Tanaka, everyone agrees."
+    },
+    {
+      "point": "mokamawazu",
+      "prompt": "{雨|あめ}に{濡|ぬ}れるの（　）、{子供|こども}たちは{遊|あそ}び{続|つづ}けた。",
+      "options": [
+        "もかまわない",
+        "もかまわず",
+        "をかまわず",
+        "がかまわず"
+      ],
+      "answer": 1,
+      "explanation": "Without caring: **もかまわず**.",
+      "notes": [
+        "かまわない can't connect to the verb.",
+        "",
+        "The particle is も.",
+        "The particle is も."
+      ],
+      "translation": "The children kept playing, not caring that they were getting wet."
+    },
+    {
+      "point": "nihanshite",
+      "prompt": "{親|おや}の{期待|きたい}（　）、{彼|かれ}は{画家|がか}になった。",
+      "options": [
+        "を{反|はん}して",
+        "に{反|はん}する",
+        "に{反|はん}して",
+        "に{返|かえ}して"
+      ],
+      "answer": 2,
+      "explanation": "Contrary to: **に反して**.",
+      "notes": [
+        "The particle is に.",
+        "に反する must modify a noun.",
+        "",
+        "返す = 'return'."
+      ],
+      "translation": "Contrary to his parents' expectations, he became a painter."
+    }
+  ]
+}

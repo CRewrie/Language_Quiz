@@ -1,0 +1,319 @@
+{
+  "id": "zh-b1-complements",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Complements: direction (来 / 去 / 出), 起来, 下去, potential (得 / 不), 好 / 错",
+  "description": "Where the movement goes, 'looks like / starts to', 'keep on', can / can't (吃不完, 来不及), and done well / wrongly.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "dir",
+      "title": "Direction complements: verb + 来 / 去",
+      "summary": "来 = towards the speaker, 去 = away. Compounds: 出来, 进去, 下来, 回去 …. 拿出 = take out.",
+      "body": "- 我在楼下，你快下**来**吧!\n- 他从包里拿**出**一本书.",
+      "examples": [
+        [
+          "{你|nǐ}{快|kuài}{下|xià}{来|lái}{吧|ba}，{我|wǒ}{在|zài}{楼下|lóuxià}{等|děng}{你|nǐ}。",
+          "Come down — I'm waiting downstairs."
+        ]
+      ]
+    },
+    {
+      "id": "qilai",
+      "title": "Verb + 起来: looks / start to",
+      "summary": "看起来 / 听起来 = it looks / sounds …. Verb + 了 + 起来 = suddenly started (哭了起来).",
+      "body": "- 这件衣服看**起来**很贵.\n- 她哭了**起来**.",
+      "examples": [
+        [
+          "{这|zhè}{件|jiàn}{衣服|yīfu}{看|kàn}{起来|qǐlái}{很|hěn}{贵|guì}。",
+          "This piece of clothing looks expensive."
+        ]
+      ]
+    },
+    {
+      "id": "xiaqu",
+      "title": "Verb + 下去: keep on",
+      "summary": "下去 after a verb = continue (说下去, 坚持下去).",
+      "body": "- 别停，你说**下去**!",
+      "examples": [
+        [
+          "{我们|wǒmen}{要|yào}{坚持|jiānchí}{下去|xiàqù}。",
+          "We have to keep going."
+        ]
+      ]
+    },
+    {
+      "id": "potential",
+      "title": "Potential complement: verb + 得 / 不 + result",
+      "summary": "Insert 得 (can) or 不 (can't) between verb and result: 吃得完 / 吃不完, 看得见 / 看不见, 来得及 / 来不及.",
+      "body": "- 这么多菜，我们吃**不完**.\n- 你看**得见**黑板上的字吗?\n- 快走吧，**来不及**了!",
+      "examples": [
+        [
+          "{快|kuài}{走|zǒu}{吧|ba}，{来|lái}{不|bu}{及|jí}{了|le}！",
+          "Hurry, we won't make it in time!"
+        ]
+      ]
+    },
+    {
+      "id": "result2",
+      "title": "Verb + 好 / 错",
+      "summary": "好 = done properly / ready; 错 = done wrongly (打错, 说错, 写错).",
+      "body": "- 饭做**好**了.\n- 对不起，我打**错**电话了.",
+      "examples": [
+        [
+          "{饭|fàn}{做|zuò}{好|hǎo}{了|le}，{快|kuài}{来|lái}{吃|chī}{吧|ba}！",
+          "Dinner's ready — come and eat!"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "dir",
+      "prompt": "{我|wǒ}{在|zài}{楼下|lóuxià}{等|děng}{你|nǐ}，{你|nǐ}{快|kuài}{下|xià}（　）{吧|ba}！",
+      "options": [
+        "{到|dào}",
+        "{上|shàng}",
+        "{来|lái}",
+        "{去|qù}"
+      ],
+      "answer": 2,
+      "explanation": "Towards the speaker: **下来**.",
+      "notes": [
+        "下到 needs a place.",
+        "下上 isn't a complement.",
+        "",
+        "下去 = down, away from the speaker — but the speaker is downstairs."
+      ],
+      "translation": "I'm waiting downstairs — come down!"
+    },
+    {
+      "point": "dir",
+      "prompt": "{我|wǒ}{在|zài}{屋|wū}{里|lǐ}，{外面|wàimiàn}{下雨|xià yǔ}{了|le}，{你|nǐ}{快|kuài}{进|jìn}（　）！",
+      "options": [
+        "{回|huí}",
+        "{来|lái}",
+        "{出|chū}",
+        "{去|qù}"
+      ],
+      "answer": 1,
+      "explanation": "Towards the speaker: **进来**.",
+      "notes": [
+        "进回 isn't a complement.",
+        "",
+        "进出 isn't a complement.",
+        "进去 = go in (away from the speaker) — but the speaker is inside."
+      ],
+      "translation": "I'm inside — it's raining, come in quickly!"
+    },
+    {
+      "point": "dir",
+      "prompt": "{他|tā}{从|cóng}{包|bāo}{里|lǐ}{拿|ná}（　）{一|yì}{本|běn}{书|shū}。",
+      "options": [
+        "{上|shàng}",
+        "{回|huí}",
+        "{进|jìn}",
+        "{出|chū}"
+      ],
+      "answer": 3,
+      "explanation": "Out of: **拿出**.",
+      "notes": [
+        "拿上 = take along.",
+        "拿回 = take back.",
+        "拿进 = take in — clashes with 从包里.",
+        ""
+      ],
+      "translation": "He took a book out of his bag."
+    },
+    {
+      "point": "qilai",
+      "prompt": "{这|zhè}{件|jiàn}{衣服|yīfu}{看|kàn}（　）{很|hěn}{贵|guì}，{其实|qíshí}{很|hěn}{便宜|piányi}。",
+      "options": [
+        "{起来|qǐlái}",
+        "{过来|guòlái}",
+        "{出去|chūqù}",
+        "{下去|xiàqù}"
+      ],
+      "answer": 0,
+      "explanation": "Looks …: **看起来**.",
+      "notes": [
+        "",
+        "看过来 = look over here.",
+        "看出去 = look outwards.",
+        "看下去 = keep watching."
+      ],
+      "translation": "This piece of clothing looks expensive, but it's actually cheap."
+    },
+    {
+      "point": "qilai",
+      "prompt": "{听|tīng}{到|dào}{这个|zhège}{消息|xiāoxi}，{她|tā}{哭|kū}{了|le}（　）。",
+      "options": [
+        "{下去|xiàqù}",
+        "{过去|guòqù}",
+        "{起来|qǐlái}",
+        "{上来|shànglái}"
+      ],
+      "answer": 2,
+      "explanation": "Started to: **verb + 了 + 起来**.",
+      "notes": [
+        "哭了下去 isn't natural — 下去 is 'keep on', not 'start'.",
+        "哭了过去 isn't natural.",
+        "",
+        "哭了上来 isn't a complement here."
+      ],
+      "translation": "When she heard the news, she started crying."
+    },
+    {
+      "point": "xiaqu",
+      "prompt": "{你|nǐ}{说|shuō}{得|de}{很|hěn}{好|hǎo}，{别|bié}{停|tíng}，{说|shuō}（　）！",
+      "options": [
+        "{过去|guòqù}",
+        "{下去|xiàqù}",
+        "{出去|chūqù}",
+        "{起来|qǐlái}"
+      ],
+      "answer": 1,
+      "explanation": "Keep on: **下去**.",
+      "notes": [
+        "说过去 isn't natural.",
+        "",
+        "说出去 = 'tell others (outside)'.",
+        "说起来 = 'speaking of it'."
+      ],
+      "translation": "You're doing well — don't stop, go on!"
+    },
+    {
+      "point": "xiaqu",
+      "prompt": "What does 「{我们|wǒmen}{要|yào}{坚持|jiānchí}{下去|xiàqù}。」 mean?",
+      "options": [
+        "Wehavetocomeback.",
+        "Wehavetostart.",
+        "Wehavetokeepgoing.",
+        "Wehavetogodownstairs."
+      ],
+      "answer": 2,
+      "explanation": "下去 = **continue**.",
+      "notes": [
+        "That's 回来.",
+        "That's 开始 / 起来.",
+        "",
+        "下去 here isn't physical."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "potential",
+      "prompt": "{这么|zhème}{多|duō}{菜|cài}，{我们|wǒmen}{两|liǎng}{个|ge}{人|rén}{吃|chī}（　）。",
+      "options": [
+        "{不|bu}{完|wán}",
+        "{不|bù}{了|le}{完|wán}",
+        "{没|méi}{完|wán}",
+        "{完|wán}{不|bu}"
+      ],
+      "answer": 0,
+      "explanation": "Can't finish: **吃不完**.",
+      "notes": [
+        "",
+        "Not grammatical.",
+        "吃没完 isn't grammatical — 没 goes before the verb.",
+        "The order is verb + 不 + result."
+      ],
+      "translation": "There's so much food — the two of us can't finish it."
+    },
+    {
+      "point": "potential",
+      "prompt": "{你|nǐ}{坐|zuò}{在|zài}{后面|hòumiàn}，{看|kàn}{得|de}（　）{黑板|hēibǎn}{上|shang}{的|de}{字|zì}{吗|ma}？",
+      "options": [
+        "{好|hǎo}",
+        "{见|jiàn}",
+        "{完|wán}",
+        "{会|huì}"
+      ],
+      "answer": 1,
+      "explanation": "Can see: **看得见**.",
+      "notes": [
+        "看得好 = 'watch well'.",
+        "",
+        "看得完 = 'can finish reading'.",
+        "看得会 isn't a complement."
+      ],
+      "translation": "You're sitting at the back — can you see the words on the board?"
+    },
+    {
+      "point": "potential",
+      "prompt": "Which one means 'We won't make it in time'?",
+      "options": [
+        "{来|lái}{及|jí}{不|bù}{了|le}",
+        "{不|bù}{来|lái}{及|jí}{了|le}",
+        "{来|lái}{没|méi}{及|jí}{了|le}",
+        "{来|lái}{不|bu}{及|jí}{了|le}"
+      ],
+      "answer": 3,
+      "explanation": "**来不及**.",
+      "notes": [
+        "The order is 来不及.",
+        "不 goes between 来 and 及.",
+        "没 can't go inside the complement.",
+        ""
+      ],
+      "translation": "We won't make it in time."
+    },
+    {
+      "point": "potential",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{这个|zhège}{字|zì}{我|wǒ}{写|xiě}{不|bu}{好|hǎo}。",
+        "{这个|zhège}{字|zì}{我|wǒ}{不|bù}{写|xiě}{好|hǎo}。",
+        "{这个|zhège}{字|zì}{我|wǒ}{写|xiě}{好|hǎo}{不|bù}。",
+        "{这个|zhège}{字|zì}{我|wǒ}{没|méi}{写|xiě}{得|de}{好|hǎo}。"
+      ],
+      "answer": 0,
+      "explanation": "Can't (do well): **写不好**.",
+      "notes": [
+        "",
+        "不写好 isn't a potential complement.",
+        "不 goes in the middle.",
+        "没 isn't used with 得-complements."
+      ],
+      "translation": "I can't write this character well."
+    },
+    {
+      "point": "result2",
+      "prompt": "{对不起|duìbuqǐ}，{我|wǒ}{打|dǎ}（　）{电话|diànhuà}{了|le}。",
+      "options": [
+        "{完|wán}",
+        "{好|hǎo}",
+        "{错|cuò}",
+        "{到|dào}"
+      ],
+      "answer": 2,
+      "explanation": "Wrong number: **打错**.",
+      "notes": [
+        "打完 = finished calling — no reason to apologise.",
+        "打好电话 isn't an apology.",
+        "",
+        "打到 = 'reached (by phone)'."
+      ],
+      "translation": "Sorry, I've dialled the wrong number."
+    },
+    {
+      "point": "result2",
+      "prompt": "{饭|fàn}{做|zuò}（　）{了|le}，{快|kuài}{来|lái}{吃|chī}{吧|ba}！",
+      "options": [
+        "{好|hǎo}",
+        "{懂|dǒng}",
+        "{错|cuò}",
+        "{见|jiàn}"
+      ],
+      "answer": 0,
+      "explanation": "Ready: **做好**.",
+      "notes": [
+        "",
+        "做懂 isn't a word.",
+        "做错了 + 'come and eat' doesn't fit.",
+        "做见 isn't a word."
+      ],
+      "translation": "Dinner's ready — come and eat!"
+    }
+  ]
+}

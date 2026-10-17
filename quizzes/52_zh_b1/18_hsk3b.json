@@ -1,0 +1,298 @@
+{
+  "id": "zh-b1-hsk3b",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "HSK 3 Practice 2",
+  "description": "More HSK-3-style practice with this batch: word bank (再, 又, 为了, 对 …), true/false traps like 差点儿没, reading and sentence building.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "xuanci3b",
+      "title": "选词填空 (HSK 3)",
+      "summary": "Word bank: 再, 又, 终于, 差点, 为了, 对.",
+      "body": "- 再 = again (future); 又 = again (already).\n- 为了 + goal; 对 + 感兴趣 / 好.",
+      "examples": [
+        [
+          "{我|wǒ}{对|duì}{中国|Zhōngguó}{文化|wénhuà}{很|hěn}{感兴趣|gǎn xìngqù}。",
+          "I'm very interested in Chinese culture."
+        ]
+      ]
+    },
+    {
+      "id": "tf3b",
+      "title": "判断对错 (HSK 3)",
+      "summary": "Watch out: 差点儿没赶上 = almost missed it — **but caught it**. 结果 introduces the real outcome.",
+      "body": "- 本来以为 … 结果 … = expected X, but in the end Y.",
+      "examples": [
+        [
+          "{我|wǒ}{差点儿|chàdiǎnr}{没|méi}{赶|gǎn}{上|shàng}{飞机|fēijī}。",
+          "I almost missed the plane."
+        ]
+      ]
+    },
+    {
+      "id": "yuedu3b",
+      "title": "阅读理解 (HSK 3)",
+      "summary": "后来 marks what changed; 另外 adds another reason; 通过 tells you how.",
+      "body": "- Read for the **current** situation after 后来 / 现在.",
+      "examples": [
+        [
+          "{后来|hòulái}{发现|fāxiàn}{坐|zuò}{地铁|dìtiě}{更|gèng}{快|kuài}。",
+          "Later I found out the subway is faster."
+        ]
+      ]
+    },
+    {
+      "id": "wancheng3b",
+      "title": "完成句子 (HSK 3)",
+      "summary": "Build the sentence, then pick the ★ piece.",
+      "body": "- 又 + 把 + object + verb.\n- 对 + topic + 很感兴趣.\n- 为了 + goal at the front.",
+      "examples": [
+        [
+          "{你|nǐ}{最好|zuìhǎo}{先|xiān}{问问|wènwen}{老师|lǎoshī}。",
+          "You'd better ask the teacher first."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "xuanci3b",
+      "prompt": "{这|zhè}{家|jiā}{的|de}{菜|cài}{太|tài}{好吃|hǎochī}{了|le}，{下|xià}{次|cì}{我|wǒ}{还|hái}{想|xiǎng}（　）{来|lái}。",
+      "options": [
+        "{又|yòu}",
+        "{再|zài}",
+        "{终于|zhōngyú}",
+        "{差点|chàdiǎn}"
+      ],
+      "answer": 1,
+      "explanation": "Again (future): **再**.",
+      "notes": [
+        "又 is for repetitions that already happened.",
+        "",
+        "终于 needs 了 and a long wait.",
+        "差点 = 'almost'."
+      ],
+      "translation": "The food here is so good — I want to come again next time."
+    },
+    {
+      "point": "xuanci3b",
+      "prompt": "{他|tā}{今天|jīntiān}（　）{没|méi}{来|lái}{上课|shàngkè}，{已经|yǐjīng}{是|shì}{第三|dì-sān}{次|cì}{了|le}。",
+      "options": [
+        "{为了|wèile}",
+        "{对|duì}",
+        "{再|zài}",
+        "{又|yòu}"
+      ],
+      "answer": 3,
+      "explanation": "Again (already): **又**.",
+      "notes": [
+        "为了 = 'in order to'.",
+        "对 = 'towards'.",
+        "再 is for the future.",
+        ""
+      ],
+      "translation": "He missed class again today — that's the third time."
+    },
+    {
+      "point": "xuanci3b",
+      "prompt": "（　）{找|zhǎo}{到|dào}{好|hǎo}{工作|gōngzuò}，{他|tā}{每天|měitiān}{都|dōu}{学习|xuéxí}{到|dào}{很|hěn}{晚|wǎn}。",
+      "options": [
+        "{终于|zhōngyú}",
+        "{为了|wèile}",
+        "{对|duì}",
+        "{又|yòu}"
+      ],
+      "answer": 1,
+      "explanation": "In order to: **为了**.",
+      "notes": [
+        "终于 needs 了.",
+        "",
+        "对 needs a person / topic.",
+        "又 = 'again'."
+      ],
+      "translation": "To find a good job, he studies late every night."
+    },
+    {
+      "point": "xuanci3b",
+      "prompt": "{我|wǒ}（　）{中国|Zhōngguó}{文化|wénhuà}{很|hěn}{感兴趣|gǎn xìngqù}。",
+      "options": [
+        "{对|duì}",
+        "{差点|chàdiǎn}",
+        "{再|zài}",
+        "{为了|wèile}"
+      ],
+      "answer": 0,
+      "explanation": "**对…感兴趣**.",
+      "notes": [
+        "",
+        "差点 = 'almost'.",
+        "再 = 'again'.",
+        "为了 = 'in order to'."
+      ],
+      "translation": "I'm very interested in Chinese culture."
+    },
+    {
+      "point": "tf3b",
+      "prompt": "{我|wǒ}{本来|běnlái}{以为|yǐwéi}{考试|kǎoshì}{会|huì}{很|hěn}{难|nán}，{结果|jiéguǒ}{很|hěn}{简单|jiǎndān}，{大家|dàjiā}{都|dōu}{考|kǎo}{得|de}{不错|búcuò}。\n\n★ {考试|kǎoshì}{很|hěn}{难|nán}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "**以为 … 结果** = expected, but actually.",
+      "notes": [
+        "以为 it would be hard — 结果 it was easy.",
+        ""
+      ],
+      "translation": "I'd thought the exam would be hard, but it turned out easy — everyone did well. ★ The exam was hard.",
+      "fixed_order": true
+    },
+    {
+      "point": "tf3b",
+      "prompt": "{他|tā}{学|xué}{了|le}{三|sān}{年|nián}{中文|Zhōngwén}，{还|hái}{去|qù}{过|guo}{两|liǎng}{次|cì}{中国|Zhōngguó}，{怪不得|guàibude}{他|tā}{对|duì}{中国|Zhōngguó}{这么|zhème}{了解|liǎojiě}。\n\n★ {他|tā}{去|qù}{过|guo}{中国|Zhōngguó}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "过 = **experience**.",
+      "notes": [
+        "",
+        "去过两次中国 — he's been twice."
+      ],
+      "translation": "He's studied Chinese for three years and been to China twice — no wonder he knows China so well. ★ He has been to China.",
+      "fixed_order": true
+    },
+    {
+      "point": "tf3b",
+      "prompt": "{我|wǒ}{差点儿|chàdiǎnr}{没|méi}{赶|gǎn}{上|shàng}{飞机|fēijī}，{还好|háihǎo}{路|lù}{上|shang}{车|chē}{不|bù}{多|duō}。\n\n★ {他|tā}{没|méi}{赶|gǎn}{上|shàng}{飞机|fēijī}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "**差点儿没** = almost didn't — but did.",
+      "notes": [
+        "差点儿没赶上 = almost missed it — he made it (还好).",
+        ""
+      ],
+      "translation": "I almost missed the plane — luckily there wasn't much traffic. ★ He missed the plane.",
+      "fixed_order": true
+    },
+    {
+      "point": "yuedu3b",
+      "prompt": "{以前|yǐqián}{我|wǒ}{每天|měitiān}{开车|kāichē}{上班|shàngbān}，{后来|hòulái}{发现|fāxiàn}{坐|zuò}{地铁|dìtiě}{更|gèng}{快|kuài}，{所以|suǒyǐ}{现在|xiànzài}{都|dōu}{坐|zuò}{地铁|dìtiě}{了|le}。{另外|lìngwài}，{坐|zuò}{地铁|dìtiě}{还|hái}{可以|kěyǐ}{在|zài}{车|chē}{上|shang}{看|kàn}{书|shū}。\n\n★ {他|tā}{现在|xiànzài}{怎么|zěnme}{上班|shàngbān}？",
+      "options": [
+        "{骑|qí}{自行车|zìxíngchē}",
+        "{开车|kāichē}",
+        "{走路|zǒulù}",
+        "{坐|zuò}{地铁|dìtiě}"
+      ],
+      "answer": 3,
+      "explanation": "后来 … **现在都坐地铁了**.",
+      "notes": [
+        "Cycling isn't mentioned.",
+        "That was 以前.",
+        "Walking isn't mentioned.",
+        ""
+      ],
+      "translation": "I used to drive to work every day; later I found the subway is faster, so now I always take it. Besides, I can read on the train. ★ How does he get to work now?"
+    },
+    {
+      "point": "yuedu3b",
+      "prompt": "{小张|Xiǎo Zhāng}{是|shì}{通过|tōngguò}{朋友|péngyou}{认识|rènshi}{他|tā}{女朋友|nǚpéngyou}{的|de}。{他们|tāmen}{第一|dì-yī}{次|cì}{见面|jiànmiàn}{是|shì}{在|zài}{一|yí}{个|ge}{咖啡馆|kāfēiguǎn}，{那天|nàtiān}{正好|zhènghǎo}{下|xià}{大雨|dàyǔ}。\n\n★ {小张|Xiǎo Zhāng}{是|shì}{怎么|zěnme}{认识|rènshi}{女朋友|nǚpéngyou}{的|de}？",
+      "options": [
+        "{在|zài}{网|wǎng}{上|shang}",
+        "{朋友|péngyou}{介绍|jièshào}{的|de}",
+        "{下雨|xià yǔ}{的|de}{时候|shíhou}{在|zài}{路|lù}{上|shang}",
+        "{在|zài}{公司|gōngsī}"
+      ],
+      "answer": 1,
+      "explanation": "**通过朋友**认识的.",
+      "notes": [
+        "The internet isn't mentioned.",
+        "",
+        "The rain was on their first date, at a café — they'd already been introduced.",
+        "Work isn't mentioned."
+      ],
+      "translation": "Xiao Zhang met his girlfriend through a friend. Their first date was at a café, and it happened to be pouring with rain. ★ How did Xiao Zhang meet his girlfriend?"
+    },
+    {
+      "point": "wancheng3b",
+      "prompt": "{他|tā}　＿＿　　＿＿　　★　　＿＿　{在|zài}{家|jiā}{里|lǐ}{了|le}。\n（{钥匙|yàoshi}・{又|yòu}・{忘|wàng}・{把|bǎ}）",
+      "options": [
+        "{钥匙|yàoshi}",
+        "{把|bǎ}",
+        "{忘|wàng}",
+        "{又|yòu}"
+      ],
+      "answer": 0,
+      "explanation": "他 **又 把 钥匙 忘** 在家里了。",
+      "notes": [
+        "",
+        "把 follows 又 — slot 2.",
+        "忘 is the verb before 在家里 — slot 4.",
+        "又 comes first — slot 1."
+      ],
+      "translation": "He's left his keys at home again."
+    },
+    {
+      "point": "wancheng3b",
+      "prompt": "{我|wǒ}　＿＿　　＿＿　　★　　＿＿　。\n（{很|hěn}{感兴趣|gǎn xìngqù}・{中国|Zhōngguó}・{对|duì}・{历史|lìshǐ}）",
+      "options": [
+        "{对|duì}",
+        "{很|hěn}{感兴趣|gǎn xìngqù}",
+        "{历史|lìshǐ}",
+        "{中国|Zhōngguó}"
+      ],
+      "answer": 2,
+      "explanation": "我 **对 中国 历史 很感兴趣**。",
+      "notes": [
+        "对 comes first — slot 1.",
+        "很感兴趣 ends the sentence — slot 4.",
+        "",
+        "中国 modifies 历史 — slot 2."
+      ],
+      "translation": "I'm very interested in Chinese history."
+    },
+    {
+      "point": "wancheng3b",
+      "prompt": "　＿＿　　＿＿　　★　　＿＿　，{我|wǒ}{每天|měitiān}{都|dōu}{跑步|pǎobù}。\n（{健康|jiànkāng}・{身体|shēntǐ}・{为了|wèile}・{让|ràng}）",
+      "options": [
+        "{身体|shēntǐ}",
+        "{让|ràng}",
+        "{健康|jiànkāng}",
+        "{为了|wèile}"
+      ],
+      "answer": 0,
+      "explanation": "**为了 让 身体 健康**，我每天都跑步。",
+      "notes": [
+        "",
+        "让 follows 为了 — slot 2.",
+        "健康 ends the clause — slot 4.",
+        "为了 comes first — slot 1."
+      ],
+      "translation": "I run every day to stay healthy."
+    },
+    {
+      "point": "wancheng3b",
+      "prompt": "{你|nǐ}　＿＿　　＿＿　　★　　＿＿　{吧|ba}。\n（{老师|lǎoshī}・{问问|wènwen}・{最好|zuìhǎo}・{先|xiān}）",
+      "options": [
+        "{最好|zuìhǎo}",
+        "{老师|lǎoshī}",
+        "{问问|wènwen}",
+        "{先|xiān}"
+      ],
+      "answer": 2,
+      "explanation": "你 **最好 先 问问 老师** 吧。",
+      "notes": [
+        "最好 comes first — slot 1.",
+        "老师 is the object — slot 4.",
+        "",
+        "先 follows 最好 — slot 2."
+      ],
+      "translation": "You'd better ask the teacher first."
+    }
+  ]
+}

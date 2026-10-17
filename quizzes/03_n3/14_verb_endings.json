@@ -1,0 +1,318 @@
+{
+  "id": "n3-verb-endings",
+  "category": "JLPT N3",
+  "title": "Half-done & All-done: かけ, 切る, 切れない, きり, っぱなし",
+  "description": "Half-finished (〜かけ), doing completely (〜切る), too much to finish (〜切れない), only / since (きり), and leaving something on (〜っぱなし).",
+  "level": "N3",
+  "points": [
+    {
+      "id": "kake",
+      "title": "〜かけ: half-done, in the middle of",
+      "summary": "ます-stem + かけ(の + noun) = started but not finished: 読みかけの本, 食べかけのパン.",
+      "body": "- 読み**かけ**の本 (a half-read book).\n- 食べ**かけ**のパン.\n- 言い**かけ**てやめた (started to say something and stopped) — verb form 〜かける.",
+      "examples": [
+        [
+          "{読|よ}みかけの{本|ほん}が{机|つくえ}の{上|うえ}にある。",
+          "There's a half-read book on the desk."
+        ]
+      ]
+    },
+    {
+      "id": "kiru",
+      "title": "〜切る: do completely, all the way",
+      "summary": "ます-stem + 切る = finish completely, use up: 読み切る, 使い切る, 走り切る.",
+      "body": "- この本を一晩で読み**切った** (read the whole book in one night).\n- お金を使い**切った** (used up all the money).\n\n切る is godan: 切ります, 切った, 切って.",
+      "examples": [
+        [
+          "お{金|かね}を{全部|ぜんぶ}{使|つか}い{切|き}った。",
+          "I used up all the money."
+        ]
+      ]
+    },
+    {
+      "id": "kirenai",
+      "title": "〜切れない: too many/much to (finish)",
+      "summary": "ます-stem + 切れない = can't do completely (there's too much): 数え切れない, 食べ切れない.",
+      "body": "- 星が多すぎて、数え**切れない** (too many to count).\n- 一人では食べ**切れない**よ.\n\nPotential negative of 切る.",
+      "examples": [
+        [
+          "{星|ほし}が{多|おお}すぎて、{数|かぞ}え{切|き}れない。",
+          "There are too many stars to count."
+        ]
+      ]
+    },
+    {
+      "id": "kiri",
+      "title": "〜きり: only, just; since (and nothing after)",
+      "summary": "Noun + きり = only (二人きり). た-form + きり = since … (and then nothing more).",
+      "body": "- 二人**きり**で話したい (just the two of us).\n- 彼は朝出かけた**きり**、まだ帰ってこない (left this morning and hasn't been back since).\n\nCasual: っきり (一人っきり).",
+      "examples": [
+        [
+          "{二人|ふたり}きりで{話|はな}したい。",
+          "I want to talk, just the two of us."
+        ]
+      ]
+    },
+    {
+      "id": "ppanashi",
+      "title": "〜っぱなし: leave (something) on / as is",
+      "summary": "ます-stem + っぱなし = leave something in a state (usually carelessly): 開けっぱなし, つけっぱなし.",
+      "body": "- 窓を開け**っぱなし**にしないでください (don't leave the window open).\n- テレビをつけ**っぱなし**で寝てしまった.\n\nUsually negative (careless). Also 'continuously': 立ちっぱなし (standing the whole time).",
+      "examples": [
+        [
+          "テレビをつけっぱなしで{寝|ね}てしまった。",
+          "I fell asleep with the TV left on."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "kake",
+      "prompt": "{読|よ}み（　）の{本|ほん}が{机|つくえ}の{上|うえ}にある。",
+      "options": [
+        "かける",
+        "かけ",
+        "かけて",
+        "かけた"
+      ],
+      "answer": 1,
+      "explanation": "Half-done + noun: **かけの** + 本.",
+      "notes": [
+        "かけるの本 isn't grammatical.",
+        "",
+        "かけての本 isn't grammatical.",
+        "かけたの本 isn't grammatical."
+      ],
+      "translation": "There's a half-read book on the desk."
+    },
+    {
+      "point": "kake",
+      "prompt": "{食|た}べ（　）のパンを{捨|す}てないで。",
+      "options": [
+        "かけ",
+        "切る",
+        "きり",
+        "っぱなし"
+      ],
+      "answer": 0,
+      "explanation": "Half-eaten: **食べかけ**.",
+      "notes": [
+        "",
+        "切るの isn't grammatical.",
+        "食べきり isn't used here.",
+        "食べっぱなし = 'leaving it after eating' — not 'half-eaten'."
+      ],
+      "translation": "Don't throw away the half-eaten bread."
+    },
+    {
+      "point": "kiru",
+      "prompt": "この{本|ほん}を{一晩|ひとばん}で{読|よ}み（　）。",
+      "options": [
+        "{切|き}る",
+        "{切|き}って",
+        "{切|き}りた",
+        "{切|き}った"
+      ],
+      "answer": 3,
+      "explanation": "Read completely: 読み**切った** (godan past).",
+      "notes": [
+        "The dictionary form doesn't fit the past context.",
+        "The て-form can't end the sentence.",
+        "切る is godan: 切った, not 切りた.",
+        ""
+      ],
+      "translation": "I read this whole book in one night."
+    },
+    {
+      "point": "kiru",
+      "prompt": "What does 「お{金|かね}を{使|つか}い{切|き}った」 mean?",
+      "options": [
+        "I used up all the money.",
+        "I cut the money.",
+        "I couldn't use the money.",
+        "I used a little money."
+      ],
+      "answer": 0,
+      "explanation": "〜切る = do **completely**.",
+      "notes": [
+        "",
+        "切る as a helper means 'completely', not 'cut'.",
+        "That would be 使えなかった.",
+        "That would be 少し使った."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kirenai",
+      "prompt": "{星|ほし}が{多|おお}すぎて、{数|かぞ}え（　）。",
+      "options": [
+        "{切|き}らない",
+        "{切|き}れる",
+        "{切|き}った",
+        "{切|き}れない"
+      ],
+      "answer": 3,
+      "explanation": "Too many to finish counting: **切れない**.",
+      "notes": [
+        "切らない = 'won't do completely' — not 'can't'.",
+        "切れる = 'can do completely' — contradicts 多すぎて.",
+        "切った = 'counted them all' — contradicts 多すぎて.",
+        ""
+      ],
+      "translation": "There are too many stars to count."
+    },
+    {
+      "point": "kirenai",
+      "prompt": "こんなにたくさん、{一人|ひとり}では{食|た}べ（　）よ。",
+      "options": [
+        "{切|き}らない",
+        "{切|き}り",
+        "{切|き}れない",
+        "{切|き}った"
+      ],
+      "answer": 2,
+      "explanation": "Can't finish: **食べ切れない**.",
+      "notes": [
+        "切らない = 'won't finish'.",
+        "切り can't end the sentence before よ.",
+        "",
+        "切った = 'finished it all'."
+      ],
+      "translation": "I can't eat this much on my own."
+    },
+    {
+      "point": "kiri",
+      "prompt": "{誰|だれ}にも{聞|き}かれたくないので、{二人|ふたり}（　）で{話|はな}したい。",
+      "options": [
+        "きり",
+        "っぱなし",
+        "ぎみ",
+        "かけ"
+      ],
+      "answer": 0,
+      "explanation": "Just the two of us: **二人きり**.",
+      "notes": [
+        "",
+        "二人っぱなし isn't a word.",
+        "二人ぎみ isn't a word.",
+        "二人かけ isn't a word."
+      ],
+      "translation": "I don't want anyone to hear, so I want to talk with just the two of us."
+    },
+    {
+      "point": "kiri",
+      "prompt": "{彼|かれ}は{朝|あさ}{出|で}かけた（　）、まだ{帰|かえ}ってこない。",
+      "options": [
+        "ぎみ",
+        "っぱなし",
+        "かけ",
+        "きり"
+      ],
+      "answer": 3,
+      "explanation": "Since (and nothing after): た-form + **きり**.",
+      "notes": [
+        "ぎみ doesn't attach to the た-form.",
+        "っぱなし attaches to the ます-stem, not the た-form.",
+        "出かけたかけ isn't grammatical.",
+        ""
+      ],
+      "translation": "He left this morning and hasn't been back since."
+    },
+    {
+      "point": "ppanashi",
+      "prompt": "{窓|まど}を{開|あ}け（　）にしないでください。",
+      "options": [
+        "っぱなし",
+        "{切|き}り",
+        "きり",
+        "かけ"
+      ],
+      "answer": 0,
+      "explanation": "Leave open: **開けっぱなし**.",
+      "notes": [
+        "",
+        "開け切り isn't natural here.",
+        "開けきりにする isn't natural.",
+        "開けかけにする isn't natural."
+      ],
+      "translation": "Please don't leave the window open."
+    },
+    {
+      "point": "ppanashi",
+      "prompt": "テレビをつけ（　）で{寝|ね}てしまった。",
+      "options": [
+        "ぎみ",
+        "きり",
+        "っぱなし",
+        "かけ"
+      ],
+      "answer": 2,
+      "explanation": "Left on: **つけっぱなし**.",
+      "notes": [
+        "つけぎみ isn't a word.",
+        "つけきり isn't natural.",
+        "",
+        "つけかけ = 'about to switch it on' — doesn't fit falling asleep with it on."
+      ],
+      "translation": "I fell asleep with the TV left on."
+    },
+    {
+      "point": "kake",
+      "prompt": "{何|なに}か{言|い}い（　）て、やめた。",
+      "options": [
+        "っぱなし",
+        "きっ",
+        "かかっ",
+        "かけ"
+      ],
+      "answer": 3,
+      "explanation": "Started to (but stopped): **言いかけて**.",
+      "notes": [
+        "っぱなして isn't a form.",
+        "言いきって = 'said it outright' — contradicts やめた.",
+        "言いかかって isn't a word.",
+        ""
+      ],
+      "translation": "She started to say something, then stopped."
+    },
+    {
+      "point": "kiru",
+      "prompt": "マラソンを{最後|さいご}まで{走|はし}り（　）。",
+      "options": [
+        "{切|き}て",
+        "{切|き}れった",
+        "{切|き}った",
+        "{切|き}りた"
+      ],
+      "answer": 2,
+      "explanation": "Ran all the way: **走り切った**.",
+      "notes": [
+        "切て isn't a form.",
+        "切れった isn't a form.",
+        "",
+        "切る is godan: 切った."
+      ],
+      "translation": "I ran the marathon all the way to the end."
+    },
+    {
+      "point": "ppanashi",
+      "prompt": "{一日中|いちにちじゅう}{立|た}ち（　）で{疲|つか}れた。",
+      "options": [
+        "ぎみ",
+        "かけ",
+        "きり",
+        "っぱなし"
+      ],
+      "answer": 3,
+      "explanation": "Continuously (the whole time): **立ちっぱなし**.",
+      "notes": [
+        "立ちぎみ isn't a word.",
+        "立ちかけ = 'about to stand'.",
+        "立ちきり isn't natural.",
+        ""
+      ],
+      "translation": "I was on my feet all day and I'm exhausted."
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "id": "n3-koto-mono",
+  "category": "JLPT N3",
+  "title": "こと & もの: ものだ, ことか, ことに, ことがある, こと (rule), っけ",
+  "description": "Used to / should naturally (ものだ), how …! (ことか), what's surprising is (ことに), sometimes (ことがある), rules in notices (こと), and 'what was it again?' (っけ).",
+  "level": "N3",
+  "points": [
+    {
+      "id": "monoda-past",
+      "title": "〜たものだ: used to (nostalgic)",
+      "summary": "た-form + ものだ = used to (often), remembering the past fondly.",
+      "body": "- 子供のころは、よくこの川で泳いだ**ものだ**.\n\nUsually with よく / 毎日 / 昔は.",
+      "examples": [
+        [
+          "{子供|こども}のころは、よくこの{川|かわ}で{泳|およ}いだものだ。",
+          "As a kid, I used to swim in this river a lot."
+        ]
+      ]
+    },
+    {
+      "id": "monoda-should",
+      "title": "〜ものだ: one should, it's natural to",
+      "summary": "Dictionary form + ものだ = what one naturally/normally should do (social norm). Negative: ものではない.",
+      "body": "- 人の話は最後まで聞く**ものだ**.\n- 人の悪口を言う**ものではない**.\n\nA general truth or norm, not personal advice (that's ことだ).",
+      "examples": [
+        [
+          "{人|ひと}の{話|はなし}は{最後|さいご}まで{聞|き}くものだ。",
+          "One should listen to people until they've finished."
+        ]
+      ]
+    },
+    {
+      "id": "kotoka",
+      "title": "〜ことか: how …! (strong emotion)",
+      "summary": "Question word (どんなに / 何度) + plain form + ことか = how much …!",
+      "body": "- 合格の知らせを聞いて、どんなに嬉しかった**ことか**.\n- 何度注意した**ことか**.",
+      "examples": [
+        [
+          "{合格|ごうかく}の{知|し}らせを{聞|き}いて、どんなに{嬉|うれ}しかったことか。",
+          "How happy I was to hear I'd passed!"
+        ]
+      ]
+    },
+    {
+      "id": "kotoni",
+      "title": "〜ことに: what's (surprising) is that …",
+      "summary": "Emotion adjective/verb (た) + ことに = to my (surprise/joy/sorrow) …: 驚いたことに, 残念なことに.",
+      "body": "- 驚いた**ことに**、彼はもう結婚していた.\n- 残念な**ことに**、雨で中止になった.",
+      "examples": [
+        [
+          "{驚|おどろ}いたことに、{彼|かれ}はもう{結婚|けっこん}していた。",
+          "To my surprise, he was already married."
+        ]
+      ]
+    },
+    {
+      "id": "kotogaaru-sometimes",
+      "title": "〜ことがある: there are times when, sometimes",
+      "summary": "Dictionary / ない-form + ことがある = sometimes. (た-form + ことがある = have done — experience.)",
+      "body": "- 私は時々、朝ご飯を食べない**ことがある**.\n- 日本に行く**ことがある** (I sometimes go to Japan) vs 行った**ことがある** (I have been).",
+      "examples": [
+        [
+          "{私|わたし}は{時々|ときどき}、{朝|あさ}ご{飯|はん}を{食|た}べないことがある。",
+          "I sometimes skip breakfast."
+        ]
+      ]
+    },
+    {
+      "id": "koto-rule",
+      "title": "〜こと: must (written rules)",
+      "summary": "Dictionary / ない-form + こと at the end of a sentence = an instruction in notices, rules and handouts.",
+      "body": "- 図書館では静かにする**こと**.\n- 提出期限を守る**こと**.\n\nTypical of school rules, signs, exam instructions.",
+      "examples": [
+        [
+          "{図書館|としょかん}では{静|しず}かにすること。",
+          "Be quiet in the library. (rule)"
+        ]
+      ]
+    },
+    {
+      "id": "kke",
+      "title": "〜っけ: what was it again?",
+      "summary": "Plain past (だった / た) + っけ = asking to confirm something you've forgotten. Casual.",
+      "body": "- あの人、名前は何だった**っけ**.\n- 明日の会議、何時から**だっけ**.\n\nNouns take だ/だった before っけ.",
+      "examples": [
+        [
+          "あの{人|ひと}、{名前|なまえ}は{何|なん}だったっけ。",
+          "What was that person's name again?"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "monoda-past",
+      "prompt": "{子供|こども}のころは、よくこの{川|かわ}で{泳|およ}いだ（　）だ。",
+      "options": [
+        "こと",
+        "ところ",
+        "ため",
+        "もの"
+      ],
+      "answer": 3,
+      "explanation": "Nostalgic 'used to': **たものだ**.",
+      "notes": [
+        "泳いだことだ isn't the pattern.",
+        "泳いだところだ = 'just swam'.",
+        "泳いだためだ = 'it's because I swam'.",
+        ""
+      ],
+      "translation": "As a kid, I used to swim in this river a lot."
+    },
+    {
+      "point": "monoda-should",
+      "prompt": "{人|ひと}の{話|はなし}は{最後|さいご}まで{聞|き}く（　）だ。",
+      "options": [
+        "ものの",
+        "もの",
+        "ものを",
+        "ものに"
+      ],
+      "answer": 1,
+      "explanation": "Social norm: **ものだ**.",
+      "notes": [
+        "もののだ isn't grammatical.",
+        "",
+        "ものをだ isn't grammatical.",
+        "ものにだ isn't grammatical."
+      ],
+      "translation": "One should listen to people until they've finished."
+    },
+    {
+      "point": "kotoka",
+      "prompt": "{合格|ごうかく}の{知|し}らせを{聞|き}いて、どんなに{嬉|うれ}しかった（　）。",
+      "options": [
+        "ものか",
+        "ことに",
+        "ことか",
+        "ことだ"
+      ],
+      "answer": 2,
+      "explanation": "How …!: どんなに … **ことか**.",
+      "notes": [
+        "ものか expresses strong denial ('as if!').",
+        "ことに can't end the sentence here.",
+        "",
+        "ことだ = advice."
+      ],
+      "translation": "How happy I was to hear I'd passed!"
+    },
+    {
+      "point": "kotoni",
+      "prompt": "{驚|おどろ}いた（　）、{彼|かれ}はもう{結婚|けっこん}していた。",
+      "options": [
+        "ことか",
+        "ことは",
+        "ことで",
+        "ことに"
+      ],
+      "answer": 3,
+      "explanation": "To my surprise: **驚いたことに**.",
+      "notes": [
+        "ことか ends a sentence.",
+        "ことは doesn't introduce a surprise.",
+        "ことで = 'by doing'.",
+        ""
+      ],
+      "translation": "To my surprise, he was already married."
+    },
+    {
+      "point": "kotogaaru-sometimes",
+      "prompt": "{私|わたし}は{時々|ときどき}、{朝|あさ}ご{飯|はん}を{食|た}べない（　）がある。",
+      "options": [
+        "こと",
+        "はず",
+        "ところ",
+        "もの"
+      ],
+      "answer": 0,
+      "explanation": "Sometimes: **ことがある**.",
+      "notes": [
+        "",
+        "はずがある isn't used.",
+        "ところがある = 'has a side (character trait)'.",
+        "ものがある isn't 'sometimes'."
+      ],
+      "translation": "I sometimes skip breakfast."
+    },
+    {
+      "point": "kotogaaru-sometimes",
+      "prompt": "Which sentence means 'I **sometimes** go to Osaka'?",
+      "options": [
+        "{大阪|おおさか}に{行|い}くことができる。",
+        "{大阪|おおさか}に{行|い}ったことがある。",
+        "{大阪|おおさか}に{行|い}くことにする。",
+        "{大阪|おおさか}に{行|い}くことがある。"
+      ],
+      "answer": 3,
+      "explanation": "**Dictionary form** + ことがある = sometimes.",
+      "notes": [
+        "ことができる = 'can'.",
+        "た-form = 'have been' (experience).",
+        "ことにする = 'decide to'.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "koto-rule",
+      "prompt": "（School rules）{図書館|としょかん}では{静|しず}かにする（　）。",
+      "options": [
+        "ところ",
+        "こと",
+        "ため",
+        "もの"
+      ],
+      "answer": 1,
+      "explanation": "Written rule: sentence-final **こと**.",
+      "notes": [
+        "ところ = 'about to'.",
+        "",
+        "ため = 'for the purpose'.",
+        "ものだ would need だ and sounds like a general norm, not a rule list."
+      ],
+      "translation": "Be quiet in the library."
+    },
+    {
+      "point": "kke",
+      "prompt": "あの{人|ひと}、{名前|なまえ}は{何|なん}だった（　）。",
+      "options": [
+        "っぽい",
+        "っぱなし",
+        "っきり",
+        "っけ"
+      ],
+      "answer": 3,
+      "explanation": "What was it again?: **っけ**.",
+      "notes": [
+        "っぽい = '-ish'.",
+        "っぱなし = 'left as is'.",
+        "っきり = 'only'.",
+        ""
+      ],
+      "translation": "What was that person's name again?"
+    },
+    {
+      "point": "kke",
+      "prompt": "{明日|あした}の{会議|かいぎ}、{何時|なんじ}から（　）？",
+      "options": [
+        "なっけ",
+        "でっけ",
+        "だっけ",
+        "のっけ"
+      ],
+      "answer": 2,
+      "explanation": "Noun phrase + **だっけ**.",
+      "notes": [
+        "なっけ isn't a form.",
+        "でっけ isn't a form.",
+        "",
+        "のっけ means 'the very start' — not a question."
+      ],
+      "translation": "What time does tomorrow's meeting start again?"
+    },
+    {
+      "point": "monoda-past",
+      "prompt": "{学生|がくせい}のころは、よく{徹夜|てつや}した（　）。",
+      "options": [
+        "ものに",
+        "ものだ",
+        "ものを",
+        "ものか"
+      ],
+      "answer": 1,
+      "explanation": "Nostalgic 'used to': **たものだ**.",
+      "notes": [
+        "ものに can't end the sentence.",
+        "",
+        "ものを can't end the sentence.",
+        "ものか = strong denial ('as if!')."
+      ],
+      "translation": "When I was a student, I often pulled all-nighters."
+    },
+    {
+      "point": "monoda-should",
+      "prompt": "{目上|めうえ}の{人|ひと}には{敬語|けいご}を{使|つか}う（　）。",
+      "options": [
+        "ものだ",
+        "ものに",
+        "ものを",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "Social norm: **ものだ**.",
+      "notes": [
+        "",
+        "ものに can't end the sentence.",
+        "ものを can't end the sentence.",
+        "ものの = 'although'."
+      ],
+      "translation": "One should use honorific language with superiors."
+    },
+    {
+      "point": "kotoka",
+      "prompt": "{何度|なんど}{注意|ちゅうい}した（　）。",
+      "options": [
+        "ことだ",
+        "ことか",
+        "ことに",
+        "ものか"
+      ],
+      "answer": 1,
+      "explanation": "How many times …!: **ことか**.",
+      "notes": [
+        "ことだ = advice.",
+        "",
+        "ことに can't end the sentence.",
+        "ものか = 'as if I would!'."
+      ],
+      "translation": "How many times have I warned you!"
+    },
+    {
+      "point": "kotoni",
+      "prompt": "{残念|ざんねん}な（　）、{試合|しあい}は{中止|ちゅうし}になった。",
+      "options": [
+        "ことは",
+        "ことで",
+        "ことに",
+        "ことか"
+      ],
+      "answer": 2,
+      "explanation": "Regrettably: **残念なことに**.",
+      "notes": [
+        "ことは doesn't introduce a feeling.",
+        "ことで = 'by'.",
+        "",
+        "ことか ends a sentence."
+      ],
+      "translation": "Regrettably, the match was cancelled."
+    },
+    {
+      "point": "koto-rule",
+      "prompt": "（Notice）{提出|ていしゅつ}{期限|きげん}を{守|まも}る（　）。",
+      "options": [
+        "もの",
+        "ため",
+        "ところ",
+        "こと"
+      ],
+      "answer": 3,
+      "explanation": "Written rule: sentence-final **こと**.",
+      "notes": [
+        "もの without だ isn't the rule pattern.",
+        "ため = 'for the purpose'.",
+        "ところ = 'about to'.",
+        ""
+      ],
+      "translation": "Deadlines must be kept."
+    }
+  ]
+}

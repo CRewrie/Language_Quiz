@@ -1,0 +1,281 @@
+{
+  "id": "n4-sorry-glad-koto",
+  "category": "JLPT N4",
+  "title": "Expressions: てすみません, てよかった, そんなに, ということ, こと",
+  "description": "Apologising and being glad with the て-form, そんなに/こんなに/あんなに, quoting meanings with ということ, and こと as a nominalizer.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "tesumimasen",
+      "title": "〜てすみません: sorry for …",
+      "summary": "て-form + すみません/ごめん(なさい) = apologising for something you did.",
+      "body": "- 遅れ**てすみません** (sorry for being late).\n- 待たせ**てごめん** (sorry for making you wait — casual).\n- ご迷惑をおかけし**て申し訳ありません** (very formal).\n\nPast-tense variant for something already finished: 〜てすみませんでした.\n\nNegative: 行け**なくて**すみません (sorry I couldn't go).",
+      "examples": [
+        [
+          "{遅|おく}れてすみません。",
+          "Sorry I'm late."
+        ],
+        [
+          "{待|ま}たせてごめんね。",
+          "Sorry to keep you waiting."
+        ]
+      ]
+    },
+    {
+      "id": "teyokatta",
+      "title": "〜てよかった: I'm glad that …",
+      "summary": "て-form + よかった = 'it was good that …, I'm glad'. Negative: 〜なくてよかった.",
+      "body": "- 日本に来**てよかった** (I'm glad I came to Japan).\n- 試験に落ち**なくてよかった** (I'm glad I didn't fail).\n\nCompare: **〜ばよかった** = 'I should have …' (regret): もっと勉強すれ**ばよかった**.",
+      "examples": [
+        [
+          "{日本|にほん}に{来|き}てよかったです。",
+          "I'm glad I came to Japan."
+        ],
+        [
+          "{試験|しけん}に{落|お}ちなくてよかった。",
+          "I'm glad I didn't fail the exam."
+        ]
+      ]
+    },
+    {
+      "id": "sonnani",
+      "title": "そんなに / こんなに / あんなに: so (much)",
+      "summary": "こんなに = this much (here, mine), そんなに = that much (what you said / near you), あんなに = that much (over there, shared memory). そんなに + negative = not that much.",
+      "body": "The こ・そ・あ system applies to degree:\n- **こんなに** — about something here / just shown: こんなに高いの？ (this expensive?)\n- **そんなに** — about what the listener said or has: え、**そんなに**高いの？ (that expensive? — reacting to them)\n- **あんなに** — about something both remember: **あんなに**練習したのに.\n\n**そんなに + negative** = 'not that …': **そんなに**面白くなかった (it wasn't that interesting).",
+      "examples": [
+        [
+          "え、そんなに{高|たか}いの？",
+          "What, it's that expensive?"
+        ],
+        [
+          "この{映画|えいが}はそんなに{面白|おもしろ}くなかった。",
+          "This movie wasn't that interesting."
+        ]
+      ]
+    },
+    {
+      "id": "toiukoto",
+      "title": "〜ということ: the fact that, (it) means",
+      "summary": "Plain form + ということ turns a statement into a noun: 'the fact that …'. Also explains meanings: XはYということです.",
+      "body": "- 明日は休みだ**ということ**を聞きました (I heard (the fact) that tomorrow is a day off).\n- 「禁煙」はたばこを吸ってはいけない**ということ**です ('禁煙' means you mustn't smoke).\n\nThe quoted part is plain form (nouns/な-adj keep だ: 休みだということ).\n\nSpelling: という is pronounced とゆう but always written **という**.",
+      "examples": [
+        [
+          "{明日|あした}は{休|やす}みだということを{聞|き}きました。",
+          "I heard that tomorrow is a day off."
+        ],
+        [
+          "「{禁煙|きんえん}」はたばこを{吸|す}ってはいけないということです。",
+          "'禁煙' means you must not smoke."
+        ]
+      ]
+    },
+    {
+      "id": "koto",
+      "title": "こと: nominalizer (the act of …)",
+      "summary": "Plain verb + こと turns an action into a noun: 趣味は写真を撮ることです. Required in some patterns (ことができる, ことがある, ことにする).",
+      "body": "- 私の趣味は写真を撮る**こと**です.\n- 日本語で話す**こと**は難しい.\n\n**こと vs の** (N5): both nominalize, but\n- **こと** is required before **です** in definitions (趣味は〜ことです) and in fixed patterns: ことができる, ことがある, ことにする, ということ.\n- **の** is required with perception verbs (見る, 聞く, 見える): 子供が遊んでいる**の**が見える.",
+      "examples": [
+        [
+          "{私|わたし}の{趣味|しゅみ}は{写真|しゃしん}を{撮|と}ることです。",
+          "My hobby is taking photos."
+        ],
+        [
+          "{日本語|にほんご}で{話|はな}すことは{難|むずか}しいです。",
+          "Speaking in Japanese is difficult."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tesumimasen",
+      "prompt": "（　）すみません。{電車|でんしゃ}が{止|と}まっていました。",
+      "options": [
+        "{遅|おく}れで",
+        "{遅|おく}れる",
+        "{遅|おく}れて",
+        "{遅|おく}れた"
+      ],
+      "answer": 2,
+      "explanation": "Apology for an action: **て-form + すみません**.",
+      "notes": [
+        "遅れで isn't the て-form of 遅れる.",
+        "遅れるすみません isn't grammatical.",
+        "",
+        "遅れたすみません isn't grammatical — use the て-form."
+      ],
+      "translation": "Sorry I'm late. The train had stopped."
+    },
+    {
+      "point": "tesumimasen",
+      "prompt": "{明日|あした}のパーティーに{行|い}け（　）すみません。",
+      "options": [
+        "なかった",
+        "なくて",
+        "ない",
+        "ないで"
+      ],
+      "answer": 1,
+      "explanation": "Negative reason + apology: **なくてすみません**.",
+      "notes": [
+        "なかった can't connect to すみません.",
+        "",
+        "ないすみません isn't grammatical.",
+        "ないで = 'without (doing)' — not a reason."
+      ],
+      "translation": "I'm sorry I can't go to tomorrow's party."
+    },
+    {
+      "point": "teyokatta",
+      "prompt": "{日本|にほん}に{来|き}て（　）。",
+      "options": [
+        "よいでした",
+        "いいでした",
+        "よくでした",
+        "よかったです"
+      ],
+      "answer": 3,
+      "explanation": "**〜てよかった(です)** = I'm glad.",
+      "notes": [
+        "い-adjectives can't take でした.",
+        "いい's past is よかった.",
+        "よくでした isn't a form.",
+        ""
+      ],
+      "translation": "I'm glad I came to Japan."
+    },
+    {
+      "point": "teyokatta",
+      "prompt": "{試験|しけん}に{落|お}ち（　）よかったです。",
+      "options": [
+        "なくて",
+        "ないて",
+        "なかって",
+        "ずて"
+      ],
+      "answer": 0,
+      "explanation": "Negative + よかった: **なくてよかった**.",
+      "notes": [
+        "",
+        "ないて isn't a form.",
+        "なかって isn't a form.",
+        "ずて isn't a form."
+      ],
+      "translation": "I'm glad I didn't fail the exam."
+    },
+    {
+      "point": "sonnani",
+      "prompt": "A：このかばん、10{万円|まんえん}だったよ。　B：え、（　）{高|たか}いの？",
+      "options": [
+        "そんなで",
+        "そんなな",
+        "そんなの",
+        "そんなに"
+      ],
+      "answer": 3,
+      "explanation": "Reacting to what the other person said: **そんなに** + adjective.",
+      "notes": [
+        "そんなで isn't a form.",
+        "そんなな isn't a form.",
+        "そんなの = 'such a thing' — can't modify 高い.",
+        ""
+      ],
+      "translation": "A: This bag was 100,000 yen. B: What, it was that expensive?"
+    },
+    {
+      "point": "sonnani",
+      "prompt": "{評判|ひょうばん}はよかったけど、この{映画|えいが}は（　）{面白|おもしろ}くなかった。",
+      "options": [
+        "そんなに",
+        "そんな",
+        "そうに",
+        "そんなの"
+      ],
+      "answer": 0,
+      "explanation": "**そんなに + negative** = not that ….",
+      "notes": [
+        "",
+        "そんな must be followed by a noun.",
+        "そうに means 'looking …' — doesn't modify like this.",
+        "そんなの = 'that kind of thing' — can't modify an adjective."
+      ],
+      "translation": "It had good reviews, but this movie wasn't that interesting."
+    },
+    {
+      "point": "toiukoto",
+      "prompt": "{明日|あした}は{休|やす}みだ（　）を{聞|き}きました。",
+      "options": [
+        "というもの",
+        "ということ",
+        "といこと",
+        "とゆうこと"
+      ],
+      "answer": 1,
+      "explanation": "'The fact that …': **ということ**.",
+      "notes": [
+        "というもの = 'a thing called…' — doesn't fit 'heard that'.",
+        "",
+        "といこと isn't a form.",
+        "Pronounced とゆう, but always written という."
+      ],
+      "translation": "I heard that tomorrow is a day off."
+    },
+    {
+      "point": "toiukoto",
+      "prompt": "「{禁煙|きんえん}」は、たばこを{吸|す}ってはいけない（　）です。",
+      "options": [
+        "ということ",
+        "とすること",
+        "ということの",
+        "といったこと"
+      ],
+      "answer": 0,
+      "explanation": "Explaining a meaning: X は Y **ということです**.",
+      "notes": [
+        "",
+        "とすること isn't the pattern.",
+        "ということのです isn't grammatical.",
+        "といったこと = 'things such as…' — not a definition."
+      ],
+      "translation": "'禁煙' means you must not smoke."
+    },
+    {
+      "point": "koto",
+      "prompt": "{私|わたし}の{趣味|しゅみ}は{写真|しゃしん}を{撮|と}る（　）です。",
+      "options": [
+        "もの",
+        "ため",
+        "ところ",
+        "こと"
+      ],
+      "answer": 3,
+      "explanation": "Hobby definitions: verb + **ことです**.",
+      "notes": [
+        "撮るもの = 'a thing for taking' — not an activity.",
+        "撮るため = 'in order to take'.",
+        "撮るところ = 'the place/moment of taking'.",
+        ""
+      ],
+      "translation": "My hobby is taking photos."
+    },
+    {
+      "point": "koto",
+      "prompt": "{日本語|にほんご}で{電話|でんわ}をかける（　）は、まだ{難|むずか}しいです。",
+      "options": [
+        "ため",
+        "もの",
+        "こと",
+        "ところ"
+      ],
+      "answer": 2,
+      "explanation": "Verb + **こと** = the act of ….",
+      "notes": [
+        "かけるため = 'in order to call'.",
+        "かけるもの = 'a thing to hang/call' — not an action.",
+        "",
+        "かけるところ = 'about to call'."
+      ],
+      "translation": "Making phone calls in Japanese is still hard for me."
+    }
+  ]
+}

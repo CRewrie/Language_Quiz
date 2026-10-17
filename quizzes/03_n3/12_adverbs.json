@@ -1,0 +1,411 @@
+{
+  "id": "n3-adverbs",
+  "category": "JLPT N3",
+  "title": "Adverbs: 決して, めったに, 別に, ふと, おそらく, もしかしたら, 確かに, なるべく",
+  "description": "Adverbs that demand a negative, express probability, or soften a request — and the words they're easily confused with.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "kesshite",
+      "title": "決して〜ない: never, by no means",
+      "summary": "決して must be followed by a negative. Strong, often a promise or warning.",
+      "body": "- この恩は**決して**忘れ**ません** (I will never forget this kindness).\n- 決して諦めないでください.\n\nCompare: **必ず** = surely (only with positive), **絶対(に)** = absolutely (positive or negative).",
+      "examples": [
+        [
+          "この{恩|おん}は{決|けっ}して{忘|わす}れません。",
+          "I will never forget this kindness."
+        ]
+      ]
+    },
+    {
+      "id": "mettani",
+      "title": "めったに〜ない: rarely, hardly ever",
+      "summary": "めったに + negative = seldom. Never with a positive verb.",
+      "body": "- このあたりでは、雪は**めったに**降ら**ない**.\n- 彼は**めったに**怒ら**ない**.\n\nFrequency scale: いつも > よく > 時々 > たまに > めったに〜ない > 全然〜ない.",
+      "examples": [
+        [
+          "このあたりでは、{雪|ゆき}はめったに{降|ふ}らない。",
+          "It rarely snows around here."
+        ]
+      ]
+    },
+    {
+      "id": "betsuni",
+      "title": "別に〜ない: not particularly",
+      "summary": "別に + negative = not especially. Alone, 別に。 is a cool/dismissive 'Not really.'",
+      "body": "- A：何か問題がありますか。 B：いいえ、**別に**ありません.\n- 別に行きたく**ない**.\n\nAs a one-word answer (別に。) it can sound cold.",
+      "examples": [
+        [
+          "{別|べつ}に{行|い}きたくない。",
+          "I don't particularly want to go."
+        ]
+      ]
+    },
+    {
+      "id": "futo",
+      "title": "ふと: suddenly, by chance (a thought or glance)",
+      "summary": "ふと = unexpectedly, without any particular reason — usually with 思う, 思い出す, 見る, 気づく.",
+      "body": "- 窓の外を見たら、**ふと**昔のことを思い出した.\n- **ふと**気がつくと、もう夜だった.",
+      "examples": [
+        [
+          "{窓|まど}の{外|そと}を{見|み}たら、ふと{昔|むかし}のことを{思|おも}い{出|だ}した。",
+          "Looking out the window, I suddenly remembered the old days."
+        ]
+      ]
+    },
+    {
+      "id": "osoraku",
+      "title": "おそらく: probably (formal)",
+      "summary": "おそらく + でしょう / だろう = most likely. More formal than たぶん.",
+      "body": "- **おそらく**明日は雨**でしょう**.\n\nCertainty: きっと / 必ず > おそらく ≈ たぶん > もしかしたら.",
+      "examples": [
+        [
+          "おそらく{明日|あした}は{雨|あめ}でしょう。",
+          "It will most likely rain tomorrow."
+        ]
+      ]
+    },
+    {
+      "id": "moshikashitara",
+      "title": "もしかしたら / もしかすると: maybe, possibly",
+      "summary": "もしかしたら … かもしれない = perhaps (low certainty).",
+      "body": "- **もしかしたら**、彼は来ない**かもしれない**.\n\nUsually closed with かもしれない. Don't confuse with もし (if), which needs ば/たら.",
+      "examples": [
+        [
+          "もしかしたら、{彼|かれ}は{来|こ}ないかもしれない。",
+          "Maybe he won't come."
+        ]
+      ]
+    },
+    {
+      "id": "tashikani",
+      "title": "確かに: certainly, indeed (agreeing)",
+      "summary": "確かに = I admit it's true / indeed. Often agreeing before a 'but'.",
+      "body": "- **確かに**、あなたの言うとおりです.\n- 確かに高いけど、品質はいい.\n\nNot to be confused with **確か** (if I remember correctly): 確か、彼は大阪出身だ.",
+      "examples": [
+        [
+          "{確|たし}かに、あなたの{言|い}うとおりです。",
+          "Indeed, it's just as you say."
+        ]
+      ]
+    },
+    {
+      "id": "narubeku",
+      "title": "なるべく: as … as possible",
+      "summary": "なるべく = as much as possible, if possible: なるべく早く来てください.",
+      "body": "- 明日は**なるべく**早く来てください.\n- なるべく野菜を食べるようにしている.\n\nSimilar: できるだけ. Don't confuse with なるほど (I see) or なかなか (quite / not easily).",
+      "examples": [
+        [
+          "{明日|あした}はなるべく{早|はや}く{来|き}てください。",
+          "Please come as early as possible tomorrow."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "kesshite",
+      "prompt": "この{恩|おん}は（　）{忘|わす}れません。",
+      "options": [
+        "ちょうど",
+        "{必|かなら}ず",
+        "{決|けっ}して",
+        "もうすぐ"
+      ],
+      "answer": 2,
+      "explanation": "Never (+ negative): **決して**.",
+      "notes": [
+        "ちょうど = 'exactly'.",
+        "必ず only goes with positive statements.",
+        "",
+        "もうすぐ = 'soon'."
+      ],
+      "translation": "I will never forget this kindness."
+    },
+    {
+      "point": "kesshite",
+      "prompt": "{決|けっ}して{諦|あきら}め（　）。",
+      "options": [
+        "ません",
+        "たい",
+        "ます",
+        "ましょう"
+      ],
+      "answer": 0,
+      "explanation": "決して requires a **negative**.",
+      "notes": [
+        "",
+        "決して + たい is ungrammatical.",
+        "決して + positive is ungrammatical.",
+        "決して + ましょう is ungrammatical."
+      ],
+      "translation": "I will never give up."
+    },
+    {
+      "point": "mettani",
+      "prompt": "このあたりでは、{雪|ゆき}はめったに（　）。",
+      "options": [
+        "{降|ふ}る",
+        "{降|ふ}ります",
+        "{降|ふ}った",
+        "{降|ふ}らない"
+      ],
+      "answer": 3,
+      "explanation": "めったに + **negative**.",
+      "notes": [
+        "めったに can't take a positive verb.",
+        "Positive — wrong.",
+        "Positive — wrong.",
+        ""
+      ],
+      "translation": "It rarely snows around here."
+    },
+    {
+      "point": "mettani",
+      "prompt": "What does 「{兄|あに}とはめったに{会|あ}わない」 mean?",
+      "options": [
+        "I often see my brother.",
+        "I rarely see my brother.",
+        "I'll see my brother soon.",
+        "I have never met my brother."
+      ],
+      "answer": 1,
+      "explanation": "めったに〜ない = **rarely**.",
+      "notes": [
+        "That would be よく会う.",
+        "",
+        "That would be もうすぐ会う.",
+        "That would be 会ったことがない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "betsuni",
+      "prompt": "A：{何|なに}か{問題|もんだい}がありますか。　B：いいえ、（　）ありません。",
+      "options": [
+        "{別|べつ}に",
+        "{別|べつ}が",
+        "{別|べつ}で",
+        "{別|べつ}の"
+      ],
+      "answer": 0,
+      "explanation": "Not particularly: **別に** + negative.",
+      "notes": [
+        "",
+        "別が isn't an adverb.",
+        "別で = 'separately'.",
+        "別の must be followed by a noun."
+      ],
+      "translation": "A: Is there any problem? B: No, not really."
+    },
+    {
+      "point": "betsuni",
+      "prompt": "{別|べつ}に{行|い}きたく（　）。",
+      "options": [
+        "なる",
+        "たい",
+        "ない",
+        "ある"
+      ],
+      "answer": 2,
+      "explanation": "別に + **negative** → 行きたくない.",
+      "notes": [
+        "行きたくなる = 'start to want to go' — contradicts 別に.",
+        "行きたくたい isn't a form.",
+        "",
+        "行きたくある isn't standard."
+      ],
+      "translation": "I don't particularly want to go."
+    },
+    {
+      "point": "futo",
+      "prompt": "{窓|まど}の{外|そと}を{見|み}たら、（　）{昔|むかし}のことを{思|おも}い{出|だ}した。",
+      "options": [
+        "ふと",
+        "ほぼ",
+        "さっさと",
+        "ずっと"
+      ],
+      "answer": 0,
+      "explanation": "Suddenly (a thought): **ふと**.",
+      "notes": [
+        "",
+        "ほぼ = 'almost'.",
+        "さっさと = 'quickly (get it done)'.",
+        "ずっと = 'all along'."
+      ],
+      "translation": "Looking out the window, I suddenly remembered the old days."
+    },
+    {
+      "point": "osoraku",
+      "prompt": "（　）{明日|あした}は{雨|あめ}でしょう。",
+      "options": [
+        "{決|けっ}して",
+        "おそらく",
+        "なるべく",
+        "めったに"
+      ],
+      "answer": 1,
+      "explanation": "Probably (formal): **おそらく … でしょう**.",
+      "notes": [
+        "決して needs a negative.",
+        "",
+        "なるべく = 'as … as possible'.",
+        "めったに needs a negative."
+      ],
+      "translation": "It will most likely rain tomorrow."
+    },
+    {
+      "point": "moshikashitara",
+      "prompt": "（　）、{彼|かれ}は{来|こ}ないかもしれない。",
+      "options": [
+        "もしも",
+        "もしくは",
+        "もし",
+        "もしかしたら"
+      ],
+      "answer": 3,
+      "explanation": "Maybe: **もしかしたら … かもしれない**.",
+      "notes": [
+        "もしも = 'if (by any chance)' — needs ば/たら.",
+        "もしくは = 'or' (formal).",
+        "もし = 'if' — needs ば/たら.",
+        ""
+      ],
+      "translation": "Maybe he won't come."
+    },
+    {
+      "point": "tashikani",
+      "prompt": "（　）、あなたの{言|い}うとおりです。",
+      "options": [
+        "{確実|かくじつ}",
+        "{確|たし}か",
+        "{確|たし}かに",
+        "{確認|かくにん}"
+      ],
+      "answer": 2,
+      "explanation": "Indeed (agreeing): **確かに**.",
+      "notes": [
+        "確実 is a な-adjective/noun ('certain') — not used alone like this.",
+        "確か = 'if I remember correctly'.",
+        "",
+        "確認 = 'confirmation'."
+      ],
+      "translation": "Indeed, it's just as you say."
+    },
+    {
+      "point": "narubeku",
+      "prompt": "{明日|あした}は（　）{早|はや}く{来|き}てください。",
+      "options": [
+        "なかなか",
+        "なるべく",
+        "なるまで",
+        "なるほど"
+      ],
+      "answer": 1,
+      "explanation": "As … as possible: **なるべく**.",
+      "notes": [
+        "なかなか = 'quite / not easily'.",
+        "",
+        "なるまで = 'until it becomes'.",
+        "なるほど = 'I see'."
+      ],
+      "translation": "Please come as early as possible tomorrow."
+    },
+    {
+      "point": "futo",
+      "prompt": "（　）{気|き}がつくと、もう{夜|よる}だった。",
+      "options": [
+        "ほっと",
+        "ほぼ",
+        "ふと",
+        "ふたたび"
+      ],
+      "answer": 2,
+      "explanation": "Suddenly noticing: **ふと**.",
+      "notes": [
+        "ほっと = 'relieved' (ほっとする).",
+        "ほぼ = 'almost'.",
+        "",
+        "ふたたび = 'again'."
+      ],
+      "translation": "When I suddenly noticed, it was already night."
+    },
+    {
+      "point": "osoraku",
+      "prompt": "Which word means 'most likely' (formal)?",
+      "options": [
+        "おそらく",
+        "おそく",
+        "おそろしい",
+        "おそれ"
+      ],
+      "answer": 0,
+      "explanation": "**おそらく** = probably (formal).",
+      "notes": [
+        "",
+        "おそく = 'late'.",
+        "おそろしい = 'terrifying'.",
+        "おそれ = 'fear / risk'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "moshikashitara",
+      "prompt": "もしかしたら、{明日|あした}は{雨|あめ}（　）。",
+      "options": [
+        "かもしらない",
+        "かもしれなく",
+        "かもしれない",
+        "かもしれる"
+      ],
+      "answer": 2,
+      "explanation": "もしかしたら … **かもしれない**.",
+      "notes": [
+        "かもしらない isn't a form.",
+        "しれなく can't end the sentence.",
+        "",
+        "かもしれる isn't used."
+      ],
+      "translation": "Maybe it'll rain tomorrow."
+    },
+    {
+      "point": "tashikani",
+      "prompt": "{確|たし}かに{高|たか}い（　）、{品質|ひんしつ}はいい。",
+      "options": [
+        "から",
+        "けど",
+        "ので",
+        "ために"
+      ],
+      "answer": 1,
+      "explanation": "確かに A **けど** B = admittedly A, but B.",
+      "notes": [
+        "から ('because') makes no sense.",
+        "",
+        "ので ('because') makes no sense.",
+        "ために ('because/for') makes no sense."
+      ],
+      "translation": "It's certainly expensive, but the quality is good."
+    },
+    {
+      "point": "narubeku",
+      "prompt": "{健康|けんこう}のため、{野菜|やさい}を（　）{食|た}べるようにしています。",
+      "options": [
+        "なるべく",
+        "なるほど",
+        "なおさら",
+        "なかなか"
+      ],
+      "answer": 0,
+      "explanation": "As much as possible: **なるべく**.",
+      "notes": [
+        "",
+        "なるほど = 'I see'.",
+        "なおさら = 'all the more'.",
+        "なかなか = 'quite / not easily'."
+      ],
+      "translation": "For my health, I try to eat vegetables as much as possible."
+    }
+  ]
+}

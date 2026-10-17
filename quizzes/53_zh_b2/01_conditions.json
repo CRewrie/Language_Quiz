@@ -1,0 +1,312 @@
+{
+  "id": "zh-b2-conditions",
+  "category": "Mandarin B2",
+  "language": "zh",
+  "title": "Conditions: 只要…就, 只有…才, 除非, 一旦, 万一, 要不是",
+  "description": "As long as, only if, unless, once, what if, and 'if it weren't for'.",
+  "level": "B2",
+  "points": [
+    {
+      "id": "zhiyao",
+      "title": "只要 … 就 …: as long as",
+      "summary": "只要 (zhǐyào) A，就 B = A is enough for B (a sufficient condition).",
+      "body": "- **只要**你努力，**就**一定能学好.",
+      "examples": [
+        [
+          "{只要|zhǐyào}{每天|měitiān}{练习|liànxí}，{你|nǐ}{的|de}{中文|Zhōngwén}{就|jiù}{会|huì}{越来越|yuè lái yuè}{好|hǎo}。",
+          "As long as you practise every day, your Chinese will keep getting better."
+        ]
+      ]
+    },
+    {
+      "id": "zhiyou",
+      "title": "只有 … 才 …: only if",
+      "summary": "只有 (zhǐyǒu) A，才 B = A is the only way to B (a necessary condition). Don't mix with 只要…就.",
+      "body": "- **只有**多练习，**才**能说得好.",
+      "examples": [
+        [
+          "{只有|zhǐyǒu}{你|nǐ}{去|qù}{请|qǐng}{他|tā}，{他|tā}{才|cái}{会|huì}{来|lái}。",
+          "He'll only come if you go and invite him."
+        ]
+      ]
+    },
+    {
+      "id": "chufei",
+      "title": "除非 … 才 / 否则 …: unless",
+      "summary": "除非 (chúfēi) A，才 B = only if A. 除非 A，否则 / 不然 B = unless A, B.",
+      "body": "- **除非**你道歉，我**才**原谅你.\n- **除非**下大雨，**否则**我们明天一定去.",
+      "examples": [
+        [
+          "{除非|chúfēi}{下|xià}{大雨|dàyǔ}，{否则|fǒuzé}{我们|wǒmen}{明天|míngtiān}{一定|yídìng}{去|qù}。",
+          "Unless it pours, we're definitely going tomorrow."
+        ]
+      ]
+    },
+    {
+      "id": "yidan",
+      "title": "一旦 … 就 …: once",
+      "summary": "一旦 (yídàn) A，就 B = once A happens (usually serious / irreversible), B.",
+      "body": "- **一旦**决定了，**就**不要后悔.",
+      "examples": [
+        [
+          "{一旦|yídàn}{决定|juédìng}{了|le}，{就|jiù}{不要|búyào}{后悔|hòuhuǐ}。",
+          "Once you've decided, don't regret it."
+        ]
+      ]
+    },
+    {
+      "id": "wanyi",
+      "title": "万一: what if, in case",
+      "summary": "万一 (wànyī) = in the unlikely (bad) case that …: 万一…怎么办?",
+      "body": "- **万一**下雨了怎么办?\n- 带上伞吧，**万一**下雨呢.",
+      "examples": [
+        [
+          "{万一|wànyī}{下雨|xià yǔ}{了|le}{怎么办|zěnme bàn}？",
+          "What if it rains?"
+        ]
+      ]
+    },
+    {
+      "id": "yaobushi",
+      "title": "要不是 …: if it weren't for",
+      "summary": "要不是 (yàobúshì) A，B = if it weren't for A, B would have happened (A really happened).",
+      "body": "- **要不是**你帮我，我一个人肯定做不完.",
+      "examples": [
+        [
+          "{要不是|yàobúshì}{下雨|xià yǔ}，{我们|wǒmen}{早|zǎo}{就|jiù}{到|dào}{了|le}。",
+          "If it hadn't rained, we'd have got there long ago."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "zhiyao",
+      "prompt": "{只要|zhǐyào}{你|nǐ}{努力|nǔlì}，（　）{一定|yídìng}{能|néng}{学|xué}{好|hǎo}。",
+      "options": [
+        "{才|cái}",
+        "{就|jiù}",
+        "{都|dōu}",
+        "{还|hái}"
+      ],
+      "answer": 1,
+      "explanation": "As long as: **只要…就**.",
+      "notes": [
+        "只要 pairs with 就 (只有 pairs with 才).",
+        "",
+        "都 doesn't pair with 只要.",
+        "还 doesn't pair with 只要."
+      ],
+      "translation": "As long as you work hard, you'll definitely learn it well."
+    },
+    {
+      "point": "zhiyao",
+      "prompt": "（　）{每天|měitiān}{练习|liànxí}，{你|nǐ}{的|de}{中文|Zhōngwén}{就|jiù}{会|huì}{越来越|yuè lái yuè}{好|hǎo}。",
+      "options": [
+        "{只要|zhǐyào}",
+        "{除非|chúfēi}",
+        "{只有|zhǐyǒu}",
+        "{虽然|suīrán}"
+      ],
+      "answer": 0,
+      "explanation": "**只要…就**.",
+      "notes": [
+        "",
+        "除非 pairs with 才 / 否则.",
+        "只有 pairs with 才, not 就.",
+        "虽然 needs 但是."
+      ],
+      "translation": "As long as you practise every day, your Chinese will keep getting better."
+    },
+    {
+      "point": "zhiyou",
+      "prompt": "{只有|zhǐyǒu}{多|duō}{练习|liànxí}，（　）{能|néng}{说|shuō}{得|de}{好|hǎo}。",
+      "options": [
+        "{都|dōu}",
+        "{也|yě}",
+        "{才|cái}",
+        "{就|jiù}"
+      ],
+      "answer": 2,
+      "explanation": "Only if: **只有…才**.",
+      "notes": [
+        "都 doesn't pair with 只有.",
+        "也 doesn't pair with 只有.",
+        "",
+        "只有 pairs with 才."
+      ],
+      "translation": "Only with lots of practice can you speak well."
+    },
+    {
+      "point": "zhiyou",
+      "prompt": "（　）{你|nǐ}{去|qù}{请|qǐng}{他|tā}，{他|tā}{才|cái}{会|huì}{来|lái}。",
+      "options": [
+        "{即使|jíshǐ}",
+        "{只有|zhǐyǒu}",
+        "{虽然|suīrán}",
+        "{只要|zhǐyào}"
+      ],
+      "answer": 1,
+      "explanation": "**只有…才**.",
+      "notes": [
+        "即使 pairs with 也.",
+        "",
+        "虽然 needs 但是.",
+        "只要 pairs with 就."
+      ],
+      "translation": "He'll only come if you go and invite him."
+    },
+    {
+      "point": "chufei",
+      "prompt": "{除非|chúfēi}{下|xià}{大雨|dàyǔ}，（　）{我们|wǒmen}{明天|míngtiān}{一定|yídìng}{去|qù}。",
+      "options": [
+        "{所以|suǒyǐ}",
+        "{而且|érqiě}",
+        "{因为|yīnwèi}",
+        "{否则|fǒuzé}"
+      ],
+      "answer": 3,
+      "explanation": "Unless …, otherwise: **除非…否则**.",
+      "notes": [
+        "所以 = 'so'.",
+        "而且 = 'moreover'.",
+        "因为 = 'because'.",
+        ""
+      ],
+      "translation": "Unless it pours, we're definitely going tomorrow."
+    },
+    {
+      "point": "chufei",
+      "prompt": "What does 「{除非|chúfēi}{你|nǐ}{道歉|dàoqiàn}，{我|wǒ}{才|cái}{原谅|yuánliàng}{你|nǐ}。」 mean?",
+      "options": [
+        "Becauseyouapologised,Iforgiveyou.",
+        "Evenifyouapologise,Iwon'tforgiveyou.",
+        "I'llonlyforgiveyouifyouapologise.",
+        "I'llforgiveyouunlessyouapologise."
+      ],
+      "answer": 2,
+      "explanation": "除非…才 = **only if**.",
+      "notes": [
+        "Nobody has apologised yet.",
+        "That would be 即使…也不.",
+        "",
+        "除非…才 = only if."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yidan",
+      "prompt": "{一旦|yídàn}{决定|juédìng}{了|le}，（　）{不要|búyào}{后悔|hòuhuǐ}。",
+      "options": [
+        "{就|jiù}",
+        "{才|cái}",
+        "{还|hái}",
+        "{又|yòu}"
+      ],
+      "answer": 0,
+      "explanation": "Once: **一旦…就**.",
+      "notes": [
+        "",
+        "一旦 pairs with 就.",
+        "还不要 isn't natural.",
+        "又不要 = 'and also don't want'."
+      ],
+      "translation": "Once you've decided, don't regret it."
+    },
+    {
+      "point": "yidan",
+      "prompt": "What does 「{这|zhè}{种|zhǒng}{病|bìng}{一旦|yídàn}{发现|fāxiàn}，{就|jiù}{要|yào}{马上|mǎshàng}{治疗|zhìliáo}。」 mean?",
+      "options": [
+        "Ifthisillnessisneverfound,itcan'tbetreated.",
+        "Oncethisillnessisfound,itmustbetreatedimmediately.",
+        "Onlyafterit'sfoundcanitbetreated.",
+        "Thisillnesswasfoundonce."
+      ],
+      "answer": 1,
+      "explanation": "一旦…就 = **once … then**.",
+      "notes": [
+        "一旦 = 'once (it happens)'.",
+        "",
+        "That would be 只有…才.",
+        "一旦 isn't 'once (one time)'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "wanyi",
+      "prompt": "{我们|wǒmen}{没|méi}{带|dài}{伞|sǎn}，（　）{下雨|xià yǔ}{了|le}{怎么办|zěnme bàn}？",
+      "options": [
+        "{万一|wànyī}",
+        "{千万|qiānwàn}",
+        "{万万|wànwàn}",
+        "{一万|yíwàn}"
+      ],
+      "answer": 0,
+      "explanation": "What if: **万一**.",
+      "notes": [
+        "",
+        "千万 = 'be sure to'.",
+        "万万 = 'absolutely (not)'.",
+        "一万 = 10,000."
+      ],
+      "translation": "We didn't bring an umbrella — what if it rains?"
+    },
+    {
+      "point": "wanyi",
+      "prompt": "{带|dài}{上|shang}{伞|sǎn}{吧|ba}，（　）{下雨|xià yǔ}{呢|ne}。",
+      "options": [
+        "{尽量|jǐnliàng}",
+        "{千万|qiānwàn}",
+        "{一万|yíwàn}",
+        "{万一|wànyī}"
+      ],
+      "answer": 3,
+      "explanation": "In case: **万一**.",
+      "notes": [
+        "尽量 = 'as much as possible'.",
+        "千万下雨 = 'be sure to rain'.",
+        "一万 = 10,000.",
+        ""
+      ],
+      "translation": "Take an umbrella, just in case it rains."
+    },
+    {
+      "point": "yaobushi",
+      "prompt": "（　）{你|nǐ}{帮|bāng}{我|wǒ}，{我|wǒ}{一|yí}{个|ge}{人|rén}{肯定|kěndìng}{做|zuò}{不|bu}{完|wán}。",
+      "options": [
+        "{要不是|yàobúshì}",
+        "{不是|búshì}",
+        "{要是|yàoshi}",
+        "{就是|jiùshì}"
+      ],
+      "answer": 0,
+      "explanation": "If it weren't for: **要不是**.",
+      "notes": [
+        "",
+        "不是你帮我 needs 而是 / 就是.",
+        "要是你帮我…做不完 is a contradiction.",
+        "就是你帮我 = 'it's you who helps me'."
+      ],
+      "translation": "If you hadn't helped me, I'd never have finished on my own."
+    },
+    {
+      "point": "yaobushi",
+      "prompt": "What does 「{要不是|yàobúshì}{下雨|xià yǔ}，{我们|wǒmen}{早|zǎo}{就|jiù}{到|dào}{了|le}。」 mean?",
+      "options": [
+        "Ifitrains,we'llarriveearly.",
+        "Itdidn'train,sowearrivedearly.",
+        "Ifithadn'trained,we'dhavearrivedlongago.",
+        "Unlessitrains,we'llarrive."
+      ],
+      "answer": 2,
+      "explanation": "要不是 = **if it weren't for**.",
+      "notes": [
+        "It did rain — 要不是 assumes the fact.",
+        "It didn't rain is wrong — it did.",
+        "",
+        "That's 除非."
+      ],
+      "translation": ""
+    }
+  ]
+}

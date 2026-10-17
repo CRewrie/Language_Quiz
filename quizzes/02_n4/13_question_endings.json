@@ -1,0 +1,300 @@
+{
+  "id": "n4-question-endings",
+  "category": "JLPT N4",
+  "title": "Whether & I Wonder: かどうか, かな, かしら, じゃないか, かい",
+  "description": "Embedded yes/no questions with かどうか, wondering with かな/かしら, 'isn't it!' with じゃないか, and casual questions with かい.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "kadouka",
+      "title": "〜かどうか: whether or not",
+      "summary": "Plain form + かどうか embeds a YES/NO question. With a question word (何, いつ, どこ…) use just か. Nouns / な-adj attach directly.",
+      "body": "**Yes/no question inside a sentence:**\n- 彼が来る**かどうか**わかりません (I don't know whether he'll come).\n- 明日休み**かどうか**知っていますか (do you know whether tomorrow is a day off?).\n\n**With a question word → only か:**\n- 何時に来る**か**教えてください (✗ 何時に来るかどうか).\n\n**Attachment:** plain form; nouns and な-adjectives **without だ**: 休み**かどうか**, 静か**かどうか**.\n\nTypical verbs after it: わからない, 知らない, 聞く, 調べる, 確認する, 教える.",
+      "examples": [
+        [
+          "{彼|かれ}が{来|く}るかどうかわかりません。",
+          "I don't know whether he'll come."
+        ],
+        [
+          "{何時|なんじ}に{来|く}るか{教|おし}えてください。",
+          "Please tell me what time you'll come."
+        ]
+      ]
+    },
+    {
+      "id": "kana",
+      "title": "〜かな: I wonder",
+      "summary": "Plain form + かな = wondering aloud / to yourself. Casual. Nouns and な-adj attach directly (雨かな).",
+      "body": "- 明日、晴れる**かな** (I wonder if it'll be sunny tomorrow).\n- これ、おいしい**かな** (I wonder if this is tasty).\n- 明日は雨**かな** (no だ).\n\nVariants: 〜かなあ (more drawn out), 〜**かな**と思う (I wonder…, I'm thinking maybe…).\n\nAlso used softly when asking for something: 手伝ってくれない**かな** (could you maybe help me?).\n\nUsed by everyone, but it's casual — in polite speech: 〜でしょうか.",
+      "examples": [
+        [
+          "{明日|あした}、{晴|は}れるかな。",
+          "I wonder if it'll be sunny tomorrow."
+        ],
+        [
+          "{明日|あした}は{雨|あめ}かな。",
+          "I wonder if it'll rain tomorrow."
+        ]
+      ]
+    },
+    {
+      "id": "kashira",
+      "title": "〜かしら: I wonder (feminine)",
+      "summary": "Same meaning as かな, traditionally used by women (and in older or very polite speech).",
+      "body": "- 田中さん、もう来た**かしら** (I wonder if Tanaka has come already).\n- これ、似合う**かしら** (I wonder if this suits me).\n\nIt sounds feminine and somewhat old-fashioned; younger speakers of all genders mostly use かな. You'll meet it a lot in novels, drama and anime.",
+      "examples": [
+        [
+          "{田中|たなか}さん、もう{来|き}たかしら。",
+          "I wonder if Tanaka has arrived yet."
+        ],
+        [
+          "このスカート、{似合|にあ}うかしら。",
+          "I wonder if this skirt suits me."
+        ]
+      ]
+    },
+    {
+      "id": "janaika",
+      "title": "〜じゃないか: isn't it! / hey, it's …!",
+      "summary": "Not a real question: じゃないか expresses surprise, discovery or emphasis ('That's great!', 'Hey, it's you!'). Formal: ではないか.",
+      "body": "Despite the negative form, it's a **positive exclamation**:\n- すごい**じゃないか**！ (That's amazing!)\n- 田中さん**じゃないか**！久しぶり！ (Hey, if it isn't Tanaka!)\n- だから言った**じゃないか** (I told you so, didn't I!)\n\nVariants: じゃない (casual, often rising), じゃないですか (polite), ではないか (written/formal).\n\nIt attaches to plain forms; nouns and な-adjectives directly (田中さんじゃないか, 元気じゃないか).",
+      "examples": [
+        [
+          "{田中|たなか}さんじゃないか！{久|ひさ}しぶり！",
+          "Hey, it's Tanaka! Long time no see!"
+        ],
+        [
+          "すごいじゃないか！",
+          "That's amazing!"
+        ]
+      ]
+    },
+    {
+      "id": "kai",
+      "title": "〜かい / 〜だい: casual question (male, friendly)",
+      "summary": "Plain form + かい = casual yes/no question (often older/male, friendly). With a question word, use だい instead.",
+      "body": "- 元気**かい**？ (You doing well?)\n- もう寝る**かい**？ (Going to bed already?)\n\n**Yes/no → かい; question word → だい:**\n- どこへ行くん**だい**？ (✗ どこへ行くかい)\n- 何を食べたん**だい**？\n\nIt sounds warm and a bit old-fashioned or masculine (a father to a child, an older man to a younger person).",
+      "examples": [
+        [
+          "{元気|げんき}かい？",
+          "You doing well?"
+        ],
+        [
+          "どこへ{行|い}くんだい？",
+          "Where are you going?"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "kadouka",
+      "prompt": "{彼|かれ}がパーティーに{来|く}る（　）わかりません。",
+      "options": [
+        "かとうか",
+        "かどうが",
+        "かどか",
+        "かどうか"
+      ],
+      "answer": 3,
+      "explanation": "Embedded yes/no question: **かどうか**.",
+      "notes": [
+        "かとうか isn't a form (どう, not とう).",
+        "かどうが isn't a form.",
+        "かどか isn't a form.",
+        ""
+      ],
+      "translation": "I don't know whether he'll come to the party."
+    },
+    {
+      "point": "kadouka",
+      "prompt": "{明日|あした}が{休|やす}み（　）{知|し}っていますか。",
+      "options": [
+        "のかどうか",
+        "かどうか",
+        "なかどうか",
+        "だかどうか"
+      ],
+      "answer": 1,
+      "explanation": "Noun + かどうか **directly** (no だ).",
+      "notes": [
+        "休みのかどうか isn't grammatical (it would need なの: 休みなのかどうか).",
+        "",
+        "な isn't used with nouns here.",
+        "だ disappears before かどうか."
+      ],
+      "translation": "Do you know whether tomorrow is a day off?"
+    },
+    {
+      "point": "kadouka",
+      "prompt": "{何時|なんじ}に{来|く}る（　）{教|おし}えてください。",
+      "options": [
+        "かは",
+        "かどうか",
+        "か",
+        "かどうが"
+      ],
+      "answer": 2,
+      "explanation": "With a **question word** (何時), use only **か**.",
+      "notes": [
+        "かは doesn't fit before 教える here.",
+        "かどうか is only for yes/no questions — not with 何時.",
+        "",
+        "かどうが isn't a form."
+      ],
+      "translation": "Please tell me what time you'll come."
+    },
+    {
+      "point": "kana",
+      "prompt": "（Talking to yourself）{明日|あした}は{雨|あめ}（　）。",
+      "options": [
+        "かな",
+        "なかな",
+        "だかな",
+        "のかな"
+      ],
+      "answer": 0,
+      "explanation": "Noun + **かな** directly.",
+      "notes": [
+        "",
+        "な isn't used with nouns.",
+        "だ disappears before かな.",
+        "雨のかな isn't grammatical (雨なのかな would be)."
+      ],
+      "translation": "I wonder if it'll rain tomorrow."
+    },
+    {
+      "point": "kana",
+      "prompt": "In which situation would you say 「おいしいかな」?",
+      "options": [
+        "Telling a customer the food is delicious",
+        "Asking a teacher politely if the food is good",
+        "Wondering aloud whether something will taste good",
+        "Complaining that the food was bad"
+      ],
+      "answer": 2,
+      "explanation": "**かな** = wondering, often to yourself.",
+      "notes": [
+        "That would be おいしいですよ.",
+        "Politely you'd say おいしいでしょうか.",
+        "",
+        "That would be おいしくなかった."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kashira",
+      "prompt": "Which 'I wonder' ending is traditionally **feminine**?",
+      "options": [
+        "かしら",
+        "かな",
+        "ぜ",
+        "だろう"
+      ],
+      "answer": 0,
+      "explanation": "**かしら** is traditionally used by women.",
+      "notes": [
+        "",
+        "かな is used by everyone.",
+        "ぜ is a rough masculine sentence ending.",
+        "だろう is plain 'probably' (often male in conversation)."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kashira",
+      "prompt": "{田中|たなか}さん、もう{来|き}た（　）。",
+      "options": [
+        "からし",
+        "かしれ",
+        "かしり",
+        "かしら"
+      ],
+      "answer": 3,
+      "explanation": "**かしら** = I wonder (feminine).",
+      "notes": [
+        "からし means 'mustard'.",
+        "かしれ isn't a sentence ending (it's part of かもしれない).",
+        "かしり isn't a word.",
+        ""
+      ],
+      "translation": "I wonder if Tanaka has arrived yet."
+    },
+    {
+      "point": "janaika",
+      "prompt": "あれ、{田中|たなか}さん（　）！{久|ひさ}しぶり！",
+      "options": [
+        "じゃいないか",
+        "じゃないか",
+        "じゃないが",
+        "じゃなかか"
+      ],
+      "answer": 1,
+      "explanation": "Surprised recognition: **じゃないか**.",
+      "notes": [
+        "じゃいないか isn't a form.",
+        "",
+        "じゃないが means 'isn't, but…'.",
+        "じゃなかか isn't a form."
+      ],
+      "translation": "Hey, it's Tanaka! Long time no see!"
+    },
+    {
+      "point": "janaika",
+      "prompt": "What does 「すごいじゃないか！」 mean?",
+      "options": [
+        "Is it amazing?",
+        "It might be amazing.",
+        "That's not amazing.",
+        "That's amazing!"
+      ],
+      "answer": 3,
+      "explanation": "じゃないか is an **exclamation**, not a negative.",
+      "notes": [
+        "That would be すごいですか.",
+        "That would be すごいかもしれない.",
+        "That would be すごくない.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kai",
+      "prompt": "（Grandfather to grandchild）{元気|げんき}（　）？",
+      "options": [
+        "がい",
+        "かい",
+        "かえ",
+        "かや"
+      ],
+      "answer": 1,
+      "explanation": "Casual yes/no question: **かい**.",
+      "notes": [
+        "がい isn't a question ending.",
+        "",
+        "かえ is dialectal/archaic, not standard.",
+        "かや isn't a standard ending."
+      ],
+      "translation": "You doing well?"
+    },
+    {
+      "point": "kai",
+      "prompt": "Which question is **correct**?",
+      "options": [
+        "もう{寝|ね}るかい？",
+        "{何|なに}を{食|た}べるかい？",
+        "だれが{来|き}たかい？",
+        "どこへ{行|い}くかい？"
+      ],
+      "answer": 0,
+      "explanation": "かい is for **yes/no** questions; with a question word you need **だい** (どこへ行くんだい).",
+      "notes": [
+        "",
+        "With 何, use だい: 何を食べるんだい？",
+        "With だれ, use だい: だれが来たんだい？",
+        "With どこ, use だい: どこへ行くんだい？"
+      ],
+      "translation": "Going to bed already?"
+    }
+  ]
+}

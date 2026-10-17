@@ -1,0 +1,510 @@
+{
+  "id": "n5-invitations-wishes",
+  "category": "JLPT N5",
+  "title": "Invitations, Wishes & Plans",
+  "description": "〜ませんか, 〜ましょう, 〜たい, 〜つもりだ, and going somewhere to do something with 〜に行く.",
+  "level": "N5",
+  "points": [
+    {
+      "id": "masenka",
+      "title": "〜ませんか: won't you…? / would you like to…?",
+      "summary": "ます-stem + ませんか is a polite invitation that leaves the choice to the listener. Accept with 〜ましょう, decline with ちょっと….",
+      "body": "Literally 'won't you do …?', **〜ませんか** is the standard **polite invitation**. Because it's phrased negatively, it doesn't pressure the listener.\n- いっしょに映画を見**ませんか**。 (Would you like to watch a movie together?)\n\n**Formation:** ます-stem + ませんか: 行き**ませんか**, 食べ**ませんか**, し**ませんか**.\n\n**Responding:**\n- Accept: いいですね。行き**ましょう**。\n- Decline politely: すみません、その日は**ちょっと**… Japanese rarely says a direct いいえ to invitations. ちょっと plus trailing off is enough.\n\n**ませんか vs ましょうか:** ませんか invites the listener ('would you like to?'), while ましょうか proposes doing something together or offers ('shall we / shall I?').",
+      "examples": [
+        [
+          "{今度|こんど}の{日曜日|にちようび}、テニスをしませんか。",
+          "Would you like to play tennis this Sunday?"
+        ],
+        [
+          "いいですね。しましょう。",
+          "Sounds good. Let's do it."
+        ],
+        [
+          "すみません、{日曜日|にちようび}はちょっと…",
+          "Sorry, Sunday is a bit… (difficult)."
+        ]
+      ]
+    },
+    {
+      "id": "mashou",
+      "title": "〜ましょう: let's / 〜ましょうか: shall we? shall I?",
+      "summary": "ます-stem + ましょう = 'let's …'. With か it becomes a suggestion ('shall we?') or an offer of help ('shall I?').",
+      "body": "**〜ましょう** is the polite volitional form:\n- **Let's**: 休み**ましょう** (let's take a break).\n- **Shall we?** (suggesting): 何時に会い**ましょうか** (what time shall we meet?).\n- **Shall I?** (offering help): 窓を開け**ましょうか** (shall I open the window?), 荷物を持ち**ましょうか**.\n\n**Formation:** ます-stem + ましょう: 行き**ましょう**, 食べ**ましょう**, し**ましょう**, 来 (き) **ましょう**.\n\nThe plain form (行こう, 食べよう) is the casual equivalent, covered at N4.\n\nDon't confuse it with **でしょう** ('probably'), which attaches to plain forms and nouns: 雨でしょう.",
+      "examples": [
+        [
+          "ちょっと{休|やす}みましょう。",
+          "Let's take a short break."
+        ],
+        [
+          "{重|おも}そうですね。{持|も}ちましょうか。",
+          "That looks heavy. Shall I carry it?"
+        ],
+        [
+          "どこで{会|あ}いましょうか。",
+          "Where shall we meet?"
+        ]
+      ]
+    },
+    {
+      "id": "tai",
+      "title": "〜たい: want to (do)",
+      "summary": "ます-stem + たい = 'want to do'. It conjugates like an い-adjective (たくない, たかった). It's for the speaker's own wishes (or a question to the listener).",
+      "body": "**ます-stem + たい** expresses **your own desire to do something**:\n- 日本へ行き**たい**です, 水が飲み**たい**です.\n\n**Conjugation (like an い-adjective):**\n- Negative: 〜**たくない**(です): 行きたくない\n- Past: 〜**たかった**(です): 行きたかった\n- Past negative: 〜**たくなかった**(です)\n\n**Particles:** the object can take を or が: 水**を**/**が**飲みたい.\n\n**Mistakes to avoid:**\n- 〜たいでした ✗ → 〜たかったです ✓ (no でした after い-adjectives).\n- 〜たい is for **yourself**. For others you say 〜たがっています (N4) or quote them. 母は行きたいです sounds odd.\n- **〜たい is for actions; ほしい is for things**: 車がほしい (I want a car), but 車を買いたい (I want to buy a car).",
+      "examples": [
+        [
+          "{冷|つめ}たい{水|みず}が{飲|の}みたいです。",
+          "I want to drink some cold water."
+        ],
+        [
+          "{今日|きょう}は{何|なに}も{食|た}べたくないです。",
+          "I don't want to eat anything today."
+        ],
+        [
+          "{子供|こども}のとき、パイロットになりたかったです。",
+          "When I was a child, I wanted to be a pilot."
+        ]
+      ]
+    },
+    {
+      "id": "tsumori",
+      "title": "〜つもりだ: plan to, intend to",
+      "summary": "Dictionary form (or ない-form) + つもりです = 'I intend to (not) …'. It states a fairly firm personal plan.",
+      "body": "**つもり** means 'intention'. Attach it to the **dictionary form** for 'I plan to do' and to the **ない-form** for 'I plan not to do':\n- 来年日本へ行く**つもりです**。\n- 今日は出かけない**つもりです**。\n\nAsk others with 〜つもりですか: 卒業してから、何をする**つもりですか**.\n\n**Nuance:**\n- つもり is a **firm decision you have made**, stronger than 〜たい (a wish).\n- For very formal situations or superiors, 〜予定です (scheduled) is preferred. Asking a superior about their つもり can sound blunt.\n\nつもりはない = 'have no intention of'.",
+      "examples": [
+        [
+          "{夏休|なつやす}みに{国|くに}へ{帰|かえ}るつもりです。",
+          "I'm planning to go home over summer vacation."
+        ],
+        [
+          "{今年|ことし}はお{酒|さけ}を{飲|の}まないつもりです。",
+          "I intend not to drink alcohol this year."
+        ],
+        [
+          "{卒業|そつぎょう}してから、{何|なに}をするつもりですか。",
+          "What do you plan to do after graduating?"
+        ]
+      ]
+    },
+    {
+      "id": "ni-iku",
+      "title": "〜に行く / 〜に来る: go / come (in order) to do",
+      "summary": "ます-stem (or action noun) + に + 行く/来る/帰る = go somewhere for a purpose: 買いに行く, 勉強に来る.",
+      "body": "To say **why** you're going somewhere, put the purpose before に + a movement verb:\n- **ます-stem + に**: 本を借り**に**行きます, 昼ご飯を食べ**に**行きます.\n- **する-noun + に** (drop する): 買い物**に**行きます, 勉強**に**来ました, 散歩**に**行きます.\n\nThe destination takes へ/に as usual: 図書館**へ**本を借り**に**行きます.\n\n**Only with movement verbs** (行く, 来る, 帰る, 出かける…). For 'in order to' with other verbs you need ために (N4).\n\nMistake to avoid: the dictionary or て-form before に is wrong. 食べるに行く ✗, 食べてに行く ✗, 食べ**に**行く ✓.",
+      "examples": [
+        [
+          "{図書館|としょかん}へ{本|ほん}を{借|か}りに{行|い}きます。",
+          "I'm going to the library to borrow books."
+        ],
+        [
+          "{日本|にほん}へ{日本語|にほんご}の{勉強|べんきょう}に{来|き}ました。",
+          "I came to Japan to study Japanese."
+        ],
+        [
+          "{昼|ひる}ご{飯|はん}を{食|た}べに{行|い}きませんか。",
+          "Would you like to go and have lunch?"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "masenka",
+      "prompt": "{今度|こんど}の{日曜日|にちようび}、いっしょに{映画|えいが}を{見|み}（　）。",
+      "options": [
+        "ませんでしたか",
+        "でしょうか",
+        "ませんか",
+        "ましたか"
+      ],
+      "answer": 2,
+      "explanation": "Inviting someone: ます-stem + **ませんか**.",
+      "notes": [
+        "ませんでしたか is past ('didn't you watch?'), but the sentence is about next Sunday.",
+        "でしょう attaches to plain forms (見るでしょう), not the ます-stem.",
+        "",
+        "ましたか is past ('did you watch?'), but the sentence is about next Sunday."
+      ],
+      "translation": "Would you like to watch a movie together this Sunday?"
+    },
+    {
+      "point": "masenka",
+      "prompt": "A：{明日|あした}、テニスをしませんか。　B：いいですね。（　）。",
+      "options": [
+        "しません",
+        "しましょう",
+        "しました",
+        "しませんか"
+      ],
+      "answer": 1,
+      "explanation": "Accepting an invitation: いいですね + **〜ましょう**.",
+      "notes": [
+        "しません ('I won't') contradicts いいですね.",
+        "",
+        "しました ('I did it') doesn't fit tomorrow.",
+        "Repeating the invitation back makes no sense as an answer."
+      ],
+      "translation": "A: Would you like to play tennis tomorrow? B: Sounds good. Let's."
+    },
+    {
+      "point": "masenka",
+      "prompt": "A：{今晩|こんばん}、{飲|の}みに{行|い}きませんか。　B：すみません、{今晩|こんばん}は（　）。",
+      "options": [
+        "はい、{行|い}きます",
+        "いいですね",
+        "{行|い}きましょう",
+        "ちょっと…"
+      ],
+      "answer": 3,
+      "explanation": "Politely declining: すみません + **ちょっと…**, trailing off instead of a direct 'no'.",
+      "notes": [
+        "はい、行きます accepts.",
+        "いいですね accepts the invitation, which contradicts すみません.",
+        "行きましょう accepts.",
+        ""
+      ],
+      "translation": "A: Want to go for a drink tonight? B: Sorry, tonight is a bit…"
+    },
+    {
+      "point": "mashou",
+      "prompt": "{疲|つか}れましたね。ちょっと{休|やす}み（　）。",
+      "options": [
+        "でしょう",
+        "たいでした",
+        "ましょう",
+        "ません"
+      ],
+      "answer": 2,
+      "explanation": "'Let's take a break': ます-stem + **ましょう**.",
+      "notes": [
+        "でしょう ('probably') doesn't attach to the ます-stem.",
+        "たいでした isn't a form. The past of たい is たかった.",
+        "",
+        "休みません means 'I won't rest', which contradicts 疲れましたね."
+      ],
+      "translation": "We're tired, aren't we? Let's take a little break."
+    },
+    {
+      "point": "mashou",
+      "prompt": "{重|おも}そうですね。{持|も}ち（　）か。",
+      "options": [
+        "たい",
+        "ましょう",
+        "ませ",
+        "でしょう"
+      ],
+      "answer": 1,
+      "explanation": "Offering help: **〜ましょうか** = 'Shall I …?'.",
+      "notes": [
+        "持ちたいか ('do you want to carry it?') is blunt and isn't an offer.",
+        "",
+        "ませ isn't followed by か.",
+        "でしょう doesn't attach to the ます-stem."
+      ],
+      "translation": "That looks heavy. Shall I carry it for you?"
+    },
+    {
+      "point": "mashou",
+      "prompt": "A：どこで{会|あ}い（　）か。　B：{駅|えき}の{前|まえ}はどうですか。",
+      "options": [
+        "たい",
+        "ました",
+        "でしょう",
+        "ましょう"
+      ],
+      "answer": 3,
+      "explanation": "Making plans together: **〜ましょうか** = 'Where shall we meet?'.",
+      "notes": [
+        "会いたいか is blunt and doesn't fit B's suggestion.",
+        "会いましたか asks where you met (past), but B suggests a future place.",
+        "でしょう doesn't attach to the ます-stem.",
+        ""
+      ],
+      "translation": "A: Where shall we meet? B: How about in front of the station?"
+    },
+    {
+      "point": "tai",
+      "prompt": "{冷|つめ}たい{水|みず}が{飲|の}み（　）です。",
+      "options": [
+        "たく",
+        "ます",
+        "たい",
+        "ほしい"
+      ],
+      "answer": 2,
+      "explanation": "Wanting to **do** something: ます-stem + **たい**.",
+      "notes": [
+        "たく needs ない or て after it.",
+        "ます can't be followed by です (飲みますです ✗).",
+        "",
+        "ほしい is for wanting **things** (水がほしい) and doesn't attach to a verb stem."
+      ],
+      "translation": "I want to drink some cold water."
+    },
+    {
+      "point": "tai",
+      "prompt": "{今日|きょう}は{何|なに}も{食|た}べ（　）です。",
+      "options": [
+        "ないたい",
+        "たいない",
+        "たいじゃない",
+        "たくない"
+      ],
+      "answer": 3,
+      "explanation": "たい conjugates like an い-adjective, so the negative is **たくない**.",
+      "notes": [
+        "The order is wrong, and ないたい isn't a form.",
+        "たい → たくない (drop い, add くない).",
+        "じゃない is for nouns and な-adjectives.",
+        ""
+      ],
+      "translation": "I don't want to eat anything today."
+    },
+    {
+      "point": "tai",
+      "prompt": "{子供|こども}のとき、パイロットになり（　）。",
+      "options": [
+        "たいでした",
+        "たかったです",
+        "たいかった",
+        "たかったでした"
+      ],
+      "answer": 1,
+      "explanation": "Past of たい: **たかった(です)**.",
+      "notes": [
+        "たいでした is a very common mistake. い-adjective-like forms can't take でした.",
+        "",
+        "たいかった isn't a form. Drop い: たかった.",
+        "でした is redundant after かった."
+      ],
+      "translation": "When I was a child, I wanted to become a pilot."
+    },
+    {
+      "point": "tai",
+      "prompt": "{新|あたら}しいパソコン（　）ほしいです。",
+      "options": [
+        "を",
+        "で",
+        "に",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "**ほしい** (want a thing) is an い-adjective, so the thing wanted takes **が**. Compare: パソコンを買いたい (want to **buy**).",
+      "notes": [
+        "パソコンをほしい is a common mistake. ほしい is an adjective, not a verb, so it takes が.",
+        "で would mean 'by means of a computer'.",
+        "に doesn't mark the thing you want.",
+        ""
+      ],
+      "translation": "I want a new computer."
+    },
+    {
+      "point": "tsumori",
+      "prompt": "{夏休|なつやす}みに{国|くに}へ{帰|かえ}る（　）です。",
+      "options": [
+        "つもりの",
+        "つもりな",
+        "つもり",
+        "のつもり"
+      ],
+      "answer": 2,
+      "explanation": "Dictionary form + **つもりです** = 'I plan to'.",
+      "notes": [
+        "つもりのです isn't grammatical.",
+        "つもりなです isn't grammatical. つもり is a noun.",
+        "",
+        "Verbs attach to つもり directly. の is only for nouns (旅行のつもり)."
+      ],
+      "translation": "I'm planning to go back to my country over summer vacation."
+    },
+    {
+      "point": "tsumori",
+      "prompt": "{今年|ことし}はお{酒|さけ}を（　）つもりです。",
+      "options": [
+        "{飲|の}みません",
+        "{飲|の}まない",
+        "{飲|の}まなかった",
+        "{飲|の}まなくて"
+      ],
+      "answer": 1,
+      "explanation": "'Plan **not** to': plain **ない-form** + つもり.",
+      "notes": [
+        "Polite ません can't modify つもり. Use the plain form.",
+        "",
+        "Past なかった doesn't fit a plan.",
+        "The て-form can't modify a noun like つもり."
+      ],
+      "translation": "This year I intend not to drink alcohol."
+    },
+    {
+      "point": "tsumori",
+      "prompt": "{卒業|そつぎょう}してから、{何|なに}をする（　）ですか。",
+      "options": [
+        "つもりに",
+        "つもりな",
+        "のつもり",
+        "つもり"
+      ],
+      "answer": 3,
+      "explanation": "Asking about plans: 〜**つもり**ですか.",
+      "notes": [
+        "つもりにですか isn't grammatical.",
+        "つもりなですか isn't grammatical.",
+        "Verbs attach to つもり directly, with no の.",
+        ""
+      ],
+      "translation": "What do you plan to do after you graduate?"
+    },
+    {
+      "point": "ni-iku",
+      "prompt": "{図書館|としょかん}へ{本|ほん}を{借|か}り（　）{行|い}きます。",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "へ"
+      ],
+      "answer": 2,
+      "explanation": "Purpose of going: ます-stem + **に** + 行く.",
+      "notes": [
+        "借りで isn't a form.",
+        "を can't mark a purpose.",
+        "",
+        "へ marks direction (図書館へ), not purpose."
+      ],
+      "translation": "I'm going to the library to borrow books."
+    },
+    {
+      "point": "ni-iku",
+      "prompt": "{昼|ひる}ご{飯|はん}を（　）に{行|い}きませんか。",
+      "options": [
+        "{食|た}べて",
+        "{食|た}べ",
+        "{食|た}べた",
+        "{食|た}べる"
+      ],
+      "answer": 1,
+      "explanation": "Before purpose-に, use the **ます-stem**: 食べに行く.",
+      "notes": [
+        "The て-form can't be followed by purpose-に.",
+        "",
+        "The past form can't be followed by purpose-に.",
+        "The dictionary form + に isn't used for purpose with 行く."
+      ],
+      "translation": "Would you like to go have lunch?"
+    },
+    {
+      "point": "ni-iku",
+      "prompt": "{日本|にほん}へ{日本語|にほんご}の{勉強|べんきょう}（　）{来|き}ました。",
+      "options": [
+        "を",
+        "で",
+        "に",
+        "が"
+      ],
+      "answer": 2,
+      "explanation": "With a する-noun, drop する: 勉強 + **に** + 来る.",
+      "notes": [
+        "勉強を来ました isn't grammatical. 来る takes no を-object.",
+        "で would mean 'by means of studying'.",
+        "",
+        "が would make studying the one who came."
+      ],
+      "translation": "I came to Japan to study Japanese."
+    },
+    {
+      "point": "masenka",
+      "prompt": "A：{一緒|いっしょ}に{帰|かえ}り（　）。　B：ええ、{帰|かえ}りましょう。",
+      "options": [
+        "ませんか",
+        "ませんでしたか",
+        "ますの",
+        "ないか"
+      ],
+      "answer": 0,
+      "explanation": "Invitation: ます-stem + **ませんか**.",
+      "notes": [
+        "",
+        "Past — but they're about to go home.",
+        "ますの isn't an invitation form.",
+        "The plain negative of 帰る is 帰らない, not 帰りない."
+      ],
+      "translation": "A: Shall we go home together? B: Yes, let's."
+    },
+    {
+      "point": "mashou",
+      "prompt": "{時間|じかん}がありませんね。タクシーで{行|い}き（　）。",
+      "options": [
+        "ませ",
+        "ましょう",
+        "でしょう",
+        "ました"
+      ],
+      "answer": 1,
+      "explanation": "'Let's go by taxi': **〜ましょう**.",
+      "notes": [
+        "ませ alone isn't a sentence ending here.",
+        "",
+        "でしょう doesn't attach to the ます-stem.",
+        "行きました ('went') contradicts the situation."
+      ],
+      "translation": "We don't have time. Let's go by taxi."
+    },
+    {
+      "point": "tai",
+      "prompt": "{将来|しょうらい}、{日本|にほん}の{大学|だいがく}で{勉強|べんきょう}し（　）です。",
+      "options": [
+        "ほしい",
+        "たいだ",
+        "たい",
+        "たく"
+      ],
+      "answer": 2,
+      "explanation": "ます-stem + **たい**.",
+      "notes": [
+        "ほしい doesn't attach to a verb stem.",
+        "たいだです isn't grammatical — たい is an い-adjective form, which never takes だ.",
+        "",
+        "たく needs ない/て after it."
+      ],
+      "translation": "In the future I want to study at a Japanese university."
+    },
+    {
+      "point": "tsumori",
+      "prompt": "{明日|あした}は{雨|あめ}なので、{出|で}かけない（　）です。",
+      "options": [
+        "つもりな",
+        "つもり",
+        "たい",
+        "のつもり"
+      ],
+      "answer": 1,
+      "explanation": "ない-form + **つもり** = plan not to.",
+      "notes": [
+        "つもりなです isn't grammatical.",
+        "",
+        "たい attaches to the ます-stem, not the ない-form.",
+        "Verbs attach to つもり directly — no の."
+      ],
+      "translation": "It's going to rain tomorrow, so I plan not to go out."
+    },
+    {
+      "point": "ni-iku",
+      "prompt": "{友達|ともだち}が{家|いえ}へ{遊|あそ}び（　）{来|き}ました。",
+      "options": [
+        "で",
+        "を",
+        "へ",
+        "に"
+      ],
+      "answer": 3,
+      "explanation": "Purpose: ます-stem + **に** + 来る.",
+      "notes": [
+        "遊びで isn't the purpose pattern.",
+        "を can't mark purpose.",
+        "へ marks direction (家へ), not purpose.",
+        ""
+      ],
+      "translation": "A friend came over to my house to hang out."
+    }
+  ]
+}

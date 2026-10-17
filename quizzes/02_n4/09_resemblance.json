@@ -1,0 +1,338 @@
+{
+  "id": "n4-resemblance",
+  "category": "JLPT N4",
+  "title": "Seems & Like: ようだ, みたい, のような",
+  "description": "Guessing from evidence (ようだ / みたいだ), comparing (のような / みたいな), and 'as …' (ように) — with all the attachment traps.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "youda",
+      "title": "〜ようだ: it seems that (inference)",
+      "summary": "Plain form + ようだ = 'it seems / appears' based on evidence you noticed. Nouns take の, な-adjectives take な.",
+      "body": "**Meaning:** a judgement based on **your own observation** (things you see, hear, feel) — more careful than だろう, less hearsay than そうだ.\n\n**Formation:**\n- Verb / い-adjective (plain): 誰もいない**ようです**, 忙しい**ようです**\n- な-adjective: 静か**な**ようです\n- Noun: 先生**の**ようです\n\nIt conjugates like a な-adjective: ような + noun, ように + verb.\n\nCompare:\n- 雨が降り**そう**だ → looks like it's about to rain (appearance, stem)\n- 雨が降っている**よう**だ → it seems to be raining (evidence: wet umbrellas)\n- 雨が降る**そう**だ → I heard it will rain (hearsay)",
+      "examples": [
+        [
+          "{電気|でんき}が{消|き}えていますね。{誰|だれ}もいないようです。",
+          "The lights are off. It seems nobody is there."
+        ],
+        [
+          "あの{人|ひと}は{先生|せんせい}のようです。",
+          "That person seems to be a teacher."
+        ]
+      ]
+    },
+    {
+      "id": "mitai",
+      "title": "〜みたいだ: seems / looks like (casual)",
+      "summary": "Casual version of ようだ. Plain form + みたい — but nouns and な-adjectives attach DIRECTLY (no の, no な).",
+      "body": "**Meaning:** same as ようだ (inference, or resemblance), but **conversational**.\n\n**Formation — the important difference from ようだ:**\n- Verb / い-adj (plain): 熱がある**みたい**, 高い**みたい**\n- Noun: 学生**みたい** (✗ 学生のみたい)\n- な-adjective: 元気**みたい** (✗ 元気なみたい)\n\nPoliteness: みたいです; plain: みたい(だ).\n\n**Two meanings, context decides:** 学生みたい = 'seems to be a student' or 'looks like a student (but isn't)'.",
+      "examples": [
+        [
+          "{顔|かお}が{赤|あか}いね。{熱|ねつ}があるみたい。",
+          "Your face is red. Looks like you have a fever."
+        ],
+        [
+          "{彼|かれ}は{元気|げんき}みたいですね。",
+          "He seems well."
+        ]
+      ]
+    },
+    {
+      "id": "mitaina",
+      "title": "みたいな / みたいに: like (resembling)",
+      "summary": "Noun + みたいな + noun ('a … like X'); noun + みたいに + verb/adjective ('like X'). Casual counterpart of のような / のように.",
+      "body": "**みたいな** modifies a noun: 人形**みたいな**顔 (a face like a doll's).\n**みたいに** modifies a verb or adjective: 子供**みたいに**泣く (cry like a child).\n\nAttachment: directly after the noun — no の.\n\nFormal equivalents: のような / のように.",
+      "examples": [
+        [
+          "{彼女|かのじょ}は{人形|にんぎょう}みたいな{顔|かお}をしています。",
+          "She has a face like a doll's."
+        ],
+        [
+          "{子供|こども}みたいに{泣|な}かないで。",
+          "Don't cry like a child."
+        ]
+      ]
+    },
+    {
+      "id": "noyouna",
+      "title": "のような / のように: like, similar to",
+      "summary": "Noun + のような + noun / noun + のように + verb/adjective. Neutral-to-formal; used in writing too.",
+      "body": "- **のような + noun**: 雪**のような**白い肌, 夢**のような**話\n- **のように + verb / adjective**: 雪**のように**白い, 鳥**のように**飛ぶ\n\nRegister: のような/のように is neutral and fine in writing; みたいな/みたいに is casual speech.\n\nTrap: nouns need **の** before ような/ように (✗ 雪ように, ✗ 雪なように).",
+      "examples": [
+        [
+          "{雪|ゆき}のように{白|しろ}い。",
+          "As white as snow."
+        ],
+        [
+          "{夢|ゆめ}のような{話|はなし}ですね。",
+          "That sounds like a dream."
+        ]
+      ]
+    },
+    {
+      "id": "youni-as",
+      "title": "〜ように / 〜ような: as, in the way that",
+      "summary": "Verb (plain) + ように = 'as (someone said/did)'. 次のような = 'of the following kind'.",
+      "body": "**ように** after a verb can mean **'as, in the way that'**:\n- 先生が言った**ように**書いてください (write it as the teacher said).\n- いつもの**ように** (as usual), 前に話した**ように** (as I said before).\n\n**ような** before a noun: 次の**ような**問題 (problems like the following), 先生が言った**ような**方法.\n\nNot to be confused with ようになる / ようにする (change, effort), which you'll practise in the 'plans & decisions' quiz.",
+      "examples": [
+        [
+          "{先生|せんせい}が{言|い}ったように、{書|か}いてください。",
+          "Please write it the way the teacher said."
+        ],
+        [
+          "{次|つぎ}のような{問題|もんだい}があります。",
+          "There are problems like the following."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "youda",
+      "prompt": "{電気|でんき}が{消|き}えていますね。{誰|だれ}もいない（　）。",
+      "options": [
+        "ようだです",
+        "ようなです",
+        "ようです",
+        "のようです"
+      ],
+      "answer": 2,
+      "explanation": "Verb (plain) + **ようです**.",
+      "notes": [
+        "だ and です can't be stacked.",
+        "ような must be followed by a noun.",
+        "",
+        "Verbs attach directly — の is only after nouns."
+      ],
+      "translation": "The lights are off. It seems nobody is there."
+    },
+    {
+      "point": "youda",
+      "prompt": "あの{人|ひと}は{先生|せんせい}（　）ようです。",
+      "options": [
+        "な",
+        "の",
+        "で",
+        "だ"
+      ],
+      "answer": 1,
+      "explanation": "Noun + **の** + ようだ.",
+      "notes": [
+        "な is for な-adjectives.",
+        "",
+        "で isn't used here.",
+        "だ can't come before ようだ."
+      ],
+      "translation": "That person seems to be a teacher."
+    },
+    {
+      "point": "youda",
+      "prompt": "この{町|まち}は{夜|よる}はとても{静|しず}か（　）ようです。",
+      "options": [
+        "な",
+        "で",
+        "だ",
+        "の"
+      ],
+      "answer": 0,
+      "explanation": "な-adjective + **な** + ようだ.",
+      "notes": [
+        "",
+        "で isn't used here.",
+        "だ can't come before ようだ.",
+        "の is for nouns."
+      ],
+      "translation": "This town seems to be very quiet at night."
+    },
+    {
+      "point": "mitai",
+      "prompt": "{顔|かお}が{赤|あか}いね。{熱|ねつ}がある（　）。",
+      "options": [
+        "みたく",
+        "のみたい",
+        "みたい",
+        "なみたい"
+      ],
+      "answer": 2,
+      "explanation": "Plain form + **みたい** (casual 'seems').",
+      "notes": [
+        "みたく is the adverbial form — it can't end the sentence.",
+        "みたい never takes の.",
+        "",
+        "みたい never takes な."
+      ],
+      "translation": "Your face is red. Looks like you have a fever."
+    },
+    {
+      "point": "mitai",
+      "prompt": "あの{人|ひと}、{学生|がくせい}（　）だね。",
+      "options": [
+        "のみたい",
+        "なみたい",
+        "だみたい",
+        "みたい"
+      ],
+      "answer": 3,
+      "explanation": "Noun + **みたい** directly.",
+      "notes": [
+        "Unlike ようだ, みたい takes no の after nouns.",
+        "な isn't used with nouns.",
+        "だ can't come before みたい.",
+        ""
+      ],
+      "translation": "That person looks like a student, huh."
+    },
+    {
+      "point": "mitai",
+      "prompt": "{田中|たなか}さんは{最近|さいきん}{元気|げんき}（　）ですね。",
+      "options": [
+        "みたい",
+        "のみたい",
+        "だみたい",
+        "なみたい"
+      ],
+      "answer": 0,
+      "explanation": "な-adjective + **みたい** directly — no な!",
+      "notes": [
+        "",
+        "の is never used with みたい.",
+        "だ can't come before みたい.",
+        "元気なみたい is a very common mistake — な is used with ようだ, not みたい."
+      ],
+      "translation": "Tanaka seems well these days."
+    },
+    {
+      "point": "mitaina",
+      "prompt": "{彼女|かのじょ}は{人形|にんぎょう}（　）{顔|かお}をしています。",
+      "options": [
+        "のみたい",
+        "みたいに",
+        "みたいな",
+        "みたい"
+      ],
+      "answer": 2,
+      "explanation": "Before a noun (顔): **みたいな**.",
+      "notes": [
+        "の isn't used with みたい.",
+        "みたいに modifies verbs/adjectives, not nouns.",
+        "",
+        "みたい can't directly modify a noun."
+      ],
+      "translation": "She has a face like a doll's."
+    },
+    {
+      "point": "mitaina",
+      "prompt": "{子供|こども}（　）{泣|な}かないでください。",
+      "options": [
+        "みたい",
+        "みたいな",
+        "のみたいに",
+        "みたいに"
+      ],
+      "answer": 3,
+      "explanation": "Before a verb (泣く): **みたいに**.",
+      "notes": [
+        "みたい alone can't modify a verb.",
+        "みたいな must be followed by a noun.",
+        "の isn't used with みたい.",
+        ""
+      ],
+      "translation": "Please don't cry like a child."
+    },
+    {
+      "point": "noyouna",
+      "prompt": "{雪|ゆき}（　）{白|しろ}い{肌|はだ}",
+      "options": [
+        "のように",
+        "なように",
+        "のような",
+        "ように"
+      ],
+      "answer": 0,
+      "explanation": "Modifying an adjective (白い): **のように**.",
+      "notes": [
+        "",
+        "Nouns take の, not な.",
+        "のような must be followed directly by a noun — here an adjective (白い) follows.",
+        "Nouns need の before ように."
+      ],
+      "translation": "skin as white as snow"
+    },
+    {
+      "point": "noyouna",
+      "prompt": "{宝|たから}くじが{当|あ}たるなんて、{夢|ゆめ}（　）{話|はなし}ですね。",
+      "options": [
+        "ような",
+        "のように",
+        "のような",
+        "なような"
+      ],
+      "answer": 2,
+      "explanation": "Modifying a noun (話): **のような**.",
+      "notes": [
+        "Nouns need の before ような.",
+        "のように modifies verbs/adjectives, not a noun.",
+        "",
+        "Nouns take の, not な."
+      ],
+      "translation": "Winning the lottery — that sounds like a dream."
+    },
+    {
+      "point": "noyouna",
+      "prompt": "Which version would you rather write in a **formal report**?",
+      "options": [
+        "{天使|てんし}のような{人|ひと}",
+        "{天使|てんし}みたいの{人|ひと}",
+        "{天使|てんし}ような{人|ひと}",
+        "{天使|てんし}みたいな{人|ひと}"
+      ],
+      "answer": 0,
+      "explanation": "**のような** is neutral/formal; みたいな is conversational.",
+      "notes": [
+        "",
+        "みたいの isn't a form.",
+        "Nouns need の before ような.",
+        "Correct, but casual — fine in speech, not ideal in a report."
+      ],
+      "translation": "a person like an angel"
+    },
+    {
+      "point": "youni-as",
+      "prompt": "{先生|せんせい}が{言|い}った（　）、{名前|なまえ}を{書|か}いてください。",
+      "options": [
+        "ような",
+        "ように",
+        "のように",
+        "ようで"
+      ],
+      "answer": 1,
+      "explanation": "'As (someone said)' → verb + **ように** + verb.",
+      "notes": [
+        "ような must be followed by a noun.",
+        "",
+        "Verbs don't take の before ように.",
+        "ようで means 'it seems…, and' — not 'as'."
+      ],
+      "translation": "Please write your name as the teacher said."
+    },
+    {
+      "point": "youni-as",
+      "prompt": "{次|つぎ}の（　）{問題|もんだい}があります。",
+      "options": [
+        "よう",
+        "ようで",
+        "ように",
+        "ような"
+      ],
+      "answer": 3,
+      "explanation": "Before a noun: 次の**ような**問題.",
+      "notes": [
+        "よう alone can't modify a noun.",
+        "ようで connects clauses — it can't modify 問題.",
+        "ように can't modify a noun.",
+        ""
+      ],
+      "translation": "There are problems like the following."
+    }
+  ]
+}

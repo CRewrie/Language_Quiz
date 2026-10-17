@@ -1,0 +1,312 @@
+{
+  "id": "zh-b1-degree",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Degree & Doubling: 极了, 挺…的, 比较, 不怎么, 全, 高高兴兴",
+  "description": "Extremely, quite, rather, not very, the whole …, and doubled adjectives.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "jile",
+      "title": "Adjective + 极了: extremely",
+      "summary": "Adj + 极了 (jí le) = extremely — no 很 before it.",
+      "body": "- 这个菜好吃**极了**!\n- ~~很热极了~~ ✗",
+      "examples": [
+        [
+          "{今天|jīntiān}{热|rè}{极了|jí le}。",
+          "It's extremely hot today."
+        ]
+      ]
+    },
+    {
+      "id": "ting",
+      "title": "挺 + adjective + 的: quite",
+      "summary": "挺 (tǐng) … 的 = quite, pretty (spoken, friendly).",
+      "body": "- 这件衣服**挺**漂亮**的**.\n- 他人**挺**好**的**.",
+      "examples": [
+        [
+          "{他|tā}{人|rén}{挺|tǐng}{好|hǎo}{的|de}。",
+          "He's a pretty nice guy."
+        ]
+      ]
+    },
+    {
+      "id": "bijiao",
+      "title": "比较 + adjective / verb: rather",
+      "summary": "比较 (bǐjiào) = relatively, rather — no second noun needed.",
+      "body": "- 今天**比较**冷.\n- 我**比较**喜欢喝茶 (I rather prefer tea).",
+      "examples": [
+        [
+          "{我|wǒ}{比较|bǐjiào}{喜欢|xǐhuan}{喝|hē}{茶|chá}。",
+          "I rather prefer tea."
+        ]
+      ]
+    },
+    {
+      "id": "buzenme",
+      "title": "不怎么 + adj / verb: not very, not much",
+      "summary": "不怎么 (bù zěnme) = not particularly / not often.",
+      "body": "- 这个电影**不怎么**好看.\n- 我**不怎么**喝酒.",
+      "examples": [
+        [
+          "{我|wǒ}{不|bù}{怎么|zěnme}{喝|hē}{酒|jiǔ}。",
+          "I don't drink much."
+        ]
+      ]
+    },
+    {
+      "id": "quan",
+      "title": "全 + noun: the whole …",
+      "summary": "全 (quán) + noun = the whole (全家 the whole family, 全班 the whole class), usually with 都.",
+      "body": "- **全**家人**都**很喜欢他.",
+      "examples": [
+        [
+          "{全|quán}{家|jiā}{人|rén}{都|dōu}{很|hěn}{喜欢|xǐhuan}{他|tā}。",
+          "The whole family loves him."
+        ]
+      ]
+    },
+    {
+      "id": "redup",
+      "title": "AABB / AA: doubled adjectives",
+      "summary": "Doubling makes an adjective vivid, usually as an adverb with 地: 高高兴兴地, 慢慢(地). No 很 before a doubled adjective.",
+      "body": "- 孩子们**高高兴兴**地回家了.\n- 你**慢慢**说.",
+      "examples": [
+        [
+          "{你|nǐ}{慢慢|mànmàn}{说|shuō}，{别|bié}{着急|zháojí}。",
+          "Take your time, don't rush."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "jile",
+      "prompt": "{这个|zhège}{菜|cài}{好吃|hǎochī}（　）！{你|nǐ}{也|yě}{尝尝|chángchang}。",
+      "options": [
+        "{死极|sǐ jí}",
+        "{很极|hěn jí}",
+        "{得很了|de hěn le}",
+        "{极了|jí le}"
+      ],
+      "answer": 3,
+      "explanation": "Extremely: **adj + 极了**.",
+      "notes": [
+        "Not a pattern.",
+        "Not a pattern.",
+        "得很 doesn't take 了.",
+        ""
+      ],
+      "translation": "This dish is absolutely delicious! Try some."
+    },
+    {
+      "point": "jile",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{今天|jīntiān}{热|rè}{极了|jí le}。",
+        "{今天|jīntiān}{极了|jí le}{热|rè}。",
+        "{今天|jīntiān}{很|hěn}{热|rè}{极了|jí le}。",
+        "{今天|jīntiān}{热|rè}{了|le}{极|jí}。"
+      ],
+      "answer": 0,
+      "explanation": "**adj + 极了**.",
+      "notes": [
+        "",
+        "极了 follows the adjective.",
+        "No 很 with 极了.",
+        "The order is 极了."
+      ],
+      "translation": "It's extremely hot today."
+    },
+    {
+      "point": "ting",
+      "prompt": "{这|zhè}{件|jiàn}{衣服|yīfu}（　）{漂亮|piàoliang}{的|de}，{你|nǐ}{穿|chuān}{上|shang}{试试|shìshi}。",
+      "options": [
+        "{最|zuì}",
+        "{挺|tǐng}",
+        "{更|gèng}",
+        "{太|tài}"
+      ],
+      "answer": 1,
+      "explanation": "Quite: **挺…的**.",
+      "notes": [
+        "最漂亮的 would need 是.",
+        "",
+        "更 needs a comparison.",
+        "太…的 isn't the pattern (太…了)."
+      ],
+      "translation": "This piece of clothing is pretty nice — try it on."
+    },
+    {
+      "point": "ting",
+      "prompt": "What does 「{他|tā}{人|rén}{挺|tǐng}{好|hǎo}{的|de}。」 mean?",
+      "options": [
+        "He'sthebestperson.",
+        "He'stoonice.",
+        "He'saprettyniceguy.",
+        "Heisn'tnice."
+      ],
+      "answer": 2,
+      "explanation": "挺…的 = **quite**.",
+      "notes": [
+        "That would be 最好.",
+        "That would be 太好了.",
+        "",
+        "There's no negation."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "bijiao",
+      "prompt": "{今天|jīntiān}（　）{冷|lěng}，{多|duō}{穿|chuān}{点儿|diǎnr}{衣服|yīfu}。",
+      "options": [
+        "{对比|duìbǐ}",
+        "{比|bǐ}",
+        "{比起|bǐqǐ}",
+        "{比较|bǐjiào}"
+      ],
+      "answer": 3,
+      "explanation": "Rather: **比较**.",
+      "notes": [
+        "对比 = 'contrast' (verb/noun).",
+        "比 needs a second noun.",
+        "比起 needs a noun after it.",
+        ""
+      ],
+      "translation": "It's rather cold today — wear more clothes."
+    },
+    {
+      "point": "bijiao",
+      "prompt": "What does 「{我|wǒ}{比较|bǐjiào}{喜欢|xǐhuan}{喝|hē}{茶|chá}。」 mean?",
+      "options": [
+        "Idon'tliketea.",
+        "Iratherprefertea.",
+        "Iliketeamorethanyoudo.",
+        "Icompareddifferentteas."
+      ],
+      "answer": 1,
+      "explanation": "比较 = **relatively, rather**.",
+      "notes": [
+        "There's no negation.",
+        "",
+        "There's no second person to compare with.",
+        "比较 here isn't the verb 'compare'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "buzenme",
+      "prompt": "{这个|zhège}{电影|diànyǐng}{不|bù}（　）{好看|hǎokàn}，{别|bié}{去|qù}{看|kàn}{了|le}。",
+      "options": [
+        "{怎样|zěnyàng}",
+        "{什么|shénme}",
+        "{怎么|zěnme}",
+        "{哪|nǎ}"
+      ],
+      "answer": 2,
+      "explanation": "Not very: **不怎么**.",
+      "notes": [
+        "不怎样好看 isn't grammatical.",
+        "不什么好看 isn't grammatical.",
+        "",
+        "不哪好看 isn't grammatical."
+      ],
+      "translation": "This film isn't much good — don't bother seeing it."
+    },
+    {
+      "point": "buzenme",
+      "prompt": "What does 「{我|wǒ}{不|bù}{怎么|zěnme}{喝|hē}{酒|jiǔ}。」 mean?",
+      "options": [
+        "Idon'tdrinkmuch.",
+        "Ineverdrink.",
+        "Idon'tknowhowtodrink.",
+        "HowcomeIdon'tdrink?"
+      ],
+      "answer": 0,
+      "explanation": "不怎么 = **not much**.",
+      "notes": [
+        "",
+        "That's 从来不喝酒.",
+        "That's 不会喝酒.",
+        "That's 我怎么不喝酒?"
+      ],
+      "translation": ""
+    },
+    {
+      "point": "quan",
+      "prompt": "（　）{家|jiā}{人|rén}{都|dōu}{很|hěn}{喜欢|xǐhuan}{这|zhè}{只|zhī}{小|xiǎo}{狗|gǒu}。",
+      "options": [
+        "{都|dōu}",
+        "{很|hěn}",
+        "{全|quán}",
+        "{太|tài}"
+      ],
+      "answer": 2,
+      "explanation": "The whole: **全**.",
+      "notes": [
+        "都 goes before the verb, not the noun.",
+        "很 can't modify 家人.",
+        "",
+        "太 can't modify 家人."
+      ],
+      "translation": "The whole family loves this puppy."
+    },
+    {
+      "point": "quan",
+      "prompt": "{老师|lǎoshī}{把|bǎ}（　）{班|bān}{的|de}{作业|zuòyè}{都|dōu}{改|gǎi}{完|wán}{了|le}。",
+      "options": [
+        "{最|zuì}",
+        "{全|quán}",
+        "{很|hěn}",
+        "{都|dōu}"
+      ],
+      "answer": 1,
+      "explanation": "The whole class: **全班**.",
+      "notes": [
+        "最班 isn't grammatical.",
+        "",
+        "很班 isn't grammatical.",
+        "都 goes before the verb."
+      ],
+      "translation": "The teacher has marked the whole class's homework."
+    },
+    {
+      "point": "redup",
+      "prompt": "{放学|fàngxué}{了|le}，{孩子们|háizimen}（　）{地|de}{回|huí}{家|jiā}{了|le}。",
+      "options": [
+        "{高兴高兴|gāoxìng gāoxìng}",
+        "{高兴兴|gāo xìngxìng}",
+        "{很|hěn}{高高兴兴|gāogāoxìngxìng}",
+        "{高高兴兴|gāogāoxìngxìng}"
+      ],
+      "answer": 3,
+      "explanation": "Adjective doubling: **AABB**.",
+      "notes": [
+        "ABAB is the verb doubling ('cheer up a bit').",
+        "Not a form.",
+        "No 很 before a doubled adjective.",
+        ""
+      ],
+      "translation": "School's out, and the children went home happily."
+    },
+    {
+      "point": "redup",
+      "prompt": "{你|nǐ}（　）{说|shuō}，{别|bié}{着急|zháojí}。",
+      "options": [
+        "{慢慢|mànmàn}",
+        "{慢慢慢|mànmànmàn}",
+        "{很|hěn}{慢慢|mànmàn}",
+        "{慢|màn}{一|yi}{慢|màn}"
+      ],
+      "answer": 0,
+      "explanation": "**慢慢** + verb.",
+      "notes": [
+        "",
+        "Not a form.",
+        "No 很 before a doubled adjective.",
+        "慢一慢 isn't natural."
+      ],
+      "translation": "Take your time, don't rush."
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "id": "zh-b2-cause-contrast",
+  "category": "Mandarin B2",
+  "language": "zh",
+  "title": "Cause & Contrast: 由于, 既然, 因此, 之所以…是因为, 尽管, 却, 反而, 而",
+  "description": "Formal reasons and results, 'since (as you say)', effect-before-cause, although, however, on the contrary, and contrastive 而.",
+  "level": "B2",
+  "points": [
+    {
+      "id": "youyu",
+      "title": "由于 …，(因此 / 所以) …: due to",
+      "summary": "由于 (yóuyú) = because of (more formal than 因为). Pairs with 因此 or 所以, not with 因为.",
+      "body": "- **由于**天气原因，航班取消了.",
+      "examples": [
+        [
+          "{由于|yóuyú}{天气|tiānqì}{原因|yuányīn}，{航班|hángbān}{取消|qǔxiāo}{了|le}。",
+          "The flight was cancelled due to the weather."
+        ]
+      ]
+    },
+    {
+      "id": "jiran",
+      "title": "既然 … 就 …: since (now that)",
+      "summary": "既然 (jìrán) A，就 B = since A is a fact (we both know), then B.",
+      "body": "- **既然**你不舒服，**就**早点儿回家吧.",
+      "examples": [
+        [
+          "{既然|jìrán}{你|nǐ}{已经|yǐjīng}{决定|juédìng}{了|le}，{我|wǒ}{就|jiù}{不|bù}{说|shuō}{什么|shénme}{了|le}。",
+          "Since you've already decided, I won't say anything more."
+        ]
+      ]
+    },
+    {
+      "id": "yinci",
+      "title": "…，因此 …: therefore",
+      "summary": "因此 (yīncǐ) = therefore — starts the result clause (before the subject or right after it).",
+      "body": "- 他每天坚持锻炼，**因此**身体一直很好.",
+      "examples": [
+        [
+          "{这|zhè}{条|tiáo}{路|lù}{很|hěn}{窄|zhǎi}，{因此|yīncǐ}{常常|chángcháng}{堵车|dǔchē}。",
+          "This road is narrow, so there are often traffic jams."
+        ]
+      ]
+    },
+    {
+      "id": "zhisuoyi",
+      "title": "之所以 … 是因为 …: the reason … is that",
+      "summary": "Effect first: A 之所以 B，是因为 C = the reason A does B is C.",
+      "body": "- 我**之所以**学中文，**是因为**我对中国文化感兴趣.",
+      "examples": [
+        [
+          "{他|tā}{之所以|zhī suǒyǐ}{迟到|chídào}，{是|shì}{因为|yīnwèi}{路|lù}{上|shang}{堵车|dǔchē}。",
+          "The reason he was late is that there was a traffic jam."
+        ]
+      ]
+    },
+    {
+      "id": "jinguan",
+      "title": "尽管 … (但是 / 还是 …): although",
+      "summary": "尽管 (jǐnguǎn) A，(但是 / 可是) 还是 B = although A, (still) B.",
+      "body": "- **尽管**很累，他**还是**坚持完成了工作.",
+      "examples": [
+        [
+          "{尽管|jǐnguǎn}{下|xià}{着|zhe}{大雨|dàyǔ}，{比赛|bǐsài}{还是|háishi}{照常|zhàocháng}{进行|jìnxíng}。",
+          "Despite the heavy rain, the match went ahead as normal."
+        ]
+      ]
+    },
+    {
+      "id": "que",
+      "title": "却: however, yet",
+      "summary": "却 (què) is an adverb: it goes **after the subject, before the verb** (not at the start like 但是).",
+      "body": "- 大家都去了，他**却**没去.",
+      "examples": [
+        [
+          "{他|tā}{学|xué}{了|le}{很|hěn}{多|duō}{年|nián}，{中文|Zhōngwén}{却|què}{说|shuō}{得|de}{不|bú}{太|tài}{好|hǎo}。",
+          "He's studied for years, yet his Chinese isn't very good."
+        ]
+      ]
+    },
+    {
+      "id": "faner",
+      "title": "反而: on the contrary, instead",
+      "summary": "反而 (fǎn'ér) = the opposite of what you'd expect happened. Often 不但没…，反而….",
+      "body": "- 吃了药，病不但没好，**反而**更严重了.",
+      "examples": [
+        [
+          "{我|wǒ}{帮|bāng}{了|le}{他|tā}，{他|tā}{反而|fǎn'ér}{生|shēng}{我|wǒ}{的|de}{气|qì}。",
+          "I helped him, and instead he got angry with me."
+        ]
+      ]
+    },
+    {
+      "id": "er",
+      "title": "A，而 B: whereas",
+      "summary": "而 (ér) contrasts two parallel statements: whereas, while.",
+      "body": "- 南方人喜欢吃米饭，**而**北方人喜欢吃面食.",
+      "examples": [
+        [
+          "{我|wǒ}{喜欢|xǐhuan}{安静|ānjìng}，{而|ér}{她|tā}{喜欢|xǐhuan}{热闹|rènao}。",
+          "I like peace and quiet, whereas she likes it lively."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "youyu",
+      "prompt": "（　）{天气|tiānqì}{原因|yuányīn}，{今天|jīntiān}{的|de}{航班|hángbān}{取消|qǔxiāo}{了|le}。",
+      "options": [
+        "{由|yóu}",
+        "{由于|yóuyú}",
+        "{于是|yúshì}",
+        "{自由|zìyóu}"
+      ],
+      "answer": 1,
+      "explanation": "Due to: **由于**.",
+      "notes": [
+        "由 = 'by (someone)'.",
+        "",
+        "于是 = 'and so (then)'.",
+        "自由 = 'freedom'."
+      ],
+      "translation": "Today's flight was cancelled due to the weather."
+    },
+    {
+      "point": "youyu",
+      "prompt": "{由于|yóuyú}{他|tā}{工作|gōngzuò}{努力|nǔlì}，（　）{很|hěn}{快|kuài}{就|jiù}{升职|shēngzhí}{了|le}。",
+      "options": [
+        "{因此|yīncǐ}",
+        "{但是|dànshì}",
+        "{而且|érqiě}",
+        "{虽然|suīrán}"
+      ],
+      "answer": 0,
+      "explanation": "Result: **由于…因此**.",
+      "notes": [
+        "",
+        "但是 — there's no contrast.",
+        "而且 = 'moreover'.",
+        "虽然 needs 但是."
+      ],
+      "translation": "Because he worked hard, he was soon promoted."
+    },
+    {
+      "point": "jiran",
+      "prompt": "{既然|jìrán}{你|nǐ}{不|bù}{舒服|shūfu}，（　）{早|zǎo}{点儿|diǎnr}{回|huí}{家|jiā}{吧|ba}。",
+      "options": [
+        "{才|cái}",
+        "{还|hái}",
+        "{也|yě}",
+        "{就|jiù}"
+      ],
+      "answer": 3,
+      "explanation": "Since: **既然…就**.",
+      "notes": [
+        "既然 pairs with 就.",
+        "还 = 'still'.",
+        "也 = 'also / even'.",
+        ""
+      ],
+      "translation": "Since you're not feeling well, go home early."
+    },
+    {
+      "point": "jiran",
+      "prompt": "（　）{你|nǐ}{已经|yǐjīng}{决定|juédìng}{了|le}，{我|wǒ}{就|jiù}{不|bù}{说|shuō}{什么|shénme}{了|le}。",
+      "options": [
+        "{既然|jìrán}",
+        "{除非|chúfēi}",
+        "{即使|jíshǐ}",
+        "{虽然|suīrán}"
+      ],
+      "answer": 0,
+      "explanation": "**既然…就**.",
+      "notes": [
+        "",
+        "除非 = 'unless'.",
+        "即使 pairs with 也.",
+        "虽然 needs 但是."
+      ],
+      "translation": "Since you've already decided, I won't say anything more."
+    },
+    {
+      "point": "yinci",
+      "prompt": "{他|tā}{每天|měitiān}{坚持|jiānchí}{锻炼|duànliàn}，（　）{身体|shēntǐ}{一直|yìzhí}{很|hěn}{好|hǎo}。",
+      "options": [
+        "{由于|yóuyú}",
+        "{既然|jìrán}",
+        "{因此|yīncǐ}",
+        "{因为|yīnwèi}"
+      ],
+      "answer": 2,
+      "explanation": "Therefore: **因此**.",
+      "notes": [
+        "由于 introduces a reason.",
+        "既然 introduces a known fact, not a result.",
+        "",
+        "因为 introduces a reason, not a result."
+      ],
+      "translation": "He exercises every day, so he's always been healthy."
+    },
+    {
+      "point": "yinci",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{这|zhè}{条|tiáo}{路|lù}{很|hěn}{窄|zhǎi}，{因此|yīncǐ}{常常|chángcháng}{堵车|dǔchē}。",
+        "{这|zhè}{条|tiáo}{路|lù}{因此|yīncǐ}{很|hěn}{窄|zhǎi}，{常常|chángcháng}{堵车|dǔchē}。",
+        "{这|zhè}{条|tiáo}{路|lù}{很|hěn}{窄|zhǎi}{因此|yīncǐ}，{常常|chángcháng}{堵车|dǔchē}。",
+        "{因此|yīncǐ}{这|zhè}{条|tiáo}{路|lù}{很|hěn}{窄|zhǎi}，{常常|chángcháng}{堵车|dǔchē}。"
+      ],
+      "answer": 0,
+      "explanation": "Cause，**因此** result.",
+      "notes": [
+        "",
+        "因此 belongs to the result clause.",
+        "因此 starts the result clause.",
+        "因此 introduces the result, not the cause."
+      ],
+      "translation": "This road is narrow, so there are often traffic jams."
+    },
+    {
+      "point": "zhisuoyi",
+      "prompt": "{我|wǒ}{之所以|zhī suǒyǐ}{学|xué}{中文|Zhōngwén}，（　）{因为|yīnwèi}{我|wǒ}{对|duì}{中国|Zhōngguó}{文化|wénhuà}{感兴趣|gǎn xìngqù}。",
+      "options": [
+        "{所以|suǒyǐ}",
+        "{就|jiù}",
+        "{是|shì}",
+        "{才|cái}"
+      ],
+      "answer": 2,
+      "explanation": "**之所以…是因为**.",
+      "notes": [
+        "所以 is already part of 之所以.",
+        "之所以 pairs with 是因为.",
+        "",
+        "之所以 pairs with 是因为."
+      ],
+      "translation": "The reason I'm learning Chinese is that I'm interested in Chinese culture."
+    },
+    {
+      "point": "zhisuoyi",
+      "prompt": "What does 「{他|tā}{之所以|zhī suǒyǐ}{迟到|chídào}，{是|shì}{因为|yīnwèi}{路|lù}{上|shang}{堵车|dǔchē}。」 mean?",
+      "options": [
+        "Hewaslate,sohetooktheroad.",
+        "Thereasonhewaslateisthattherewasatrafficjam.",
+        "Becausehewaslate,therewasatrafficjam.",
+        "He'slatebecausehe'sontheroad."
+      ],
+      "answer": 1,
+      "explanation": "Effect first: **之所以 effect，是因为 cause**.",
+      "notes": [
+        "That's not what 之所以 means.",
+        "",
+        "The cause is the jam, not his lateness.",
+        "It's about a past jam."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "jinguan",
+      "prompt": "{尽管|jǐnguǎn}{很|hěn}{累|lèi}，{他|tā}（　）{坚持|jiānchí}{完成|wánchéng}{了|le}{工作|gōngzuò}。",
+      "options": [
+        "{所以|suǒyǐ}",
+        "{因此|yīncǐ}",
+        "{于是|yúshì}",
+        "{还是|háishi}"
+      ],
+      "answer": 3,
+      "explanation": "Although … still: **尽管…还是**.",
+      "notes": [
+        "所以 — tiredness doesn't cause finishing.",
+        "因此 — no cause and effect.",
+        "于是 = 'and then'.",
+        ""
+      ],
+      "translation": "Although he was tired, he kept going and finished the job."
+    },
+    {
+      "point": "jinguan",
+      "prompt": "（　）{下|xià}{着|zhe}{大雨|dàyǔ}，{比赛|bǐsài}{还是|háishi}{照常|zhàocháng}{进行|jìnxíng}。",
+      "options": [
+        "{既然|jìrán}",
+        "{尽管|jǐnguǎn}",
+        "{只要|zhǐyào}",
+        "{由于|yóuyú}"
+      ],
+      "answer": 1,
+      "explanation": "Despite: **尽管**.",
+      "notes": [
+        "既然…还是 doesn't fit.",
+        "",
+        "只要 pairs with 就.",
+        "由于 gives a reason — rain doesn't cause the match to go on."
+      ],
+      "translation": "Despite the heavy rain, the match went ahead as normal."
+    },
+    {
+      "point": "que",
+      "prompt": "{他|tā}{学|xué}{了|le}{很|hěn}{多|duō}{年|nián}，{中文|Zhōngwén}（　）{说|shuō}{得|de}{不|bú}{太|tài}{好|hǎo}。",
+      "options": [
+        "{就|jiù}",
+        "{才|cái}",
+        "{又|yòu}",
+        "{却|què}"
+      ],
+      "answer": 3,
+      "explanation": "Yet: **却**.",
+      "notes": [
+        "就 doesn't express contrast.",
+        "才 doesn't fit.",
+        "又 = 'again'.",
+        ""
+      ],
+      "translation": "He's studied for years, yet his Chinese isn't very good."
+    },
+    {
+      "point": "que",
+      "prompt": "Where does **{却|què}** go?\n{大家|dàjiā}［A］{都|dōu}［B］{去|qù}{了|le}，{他|tā}［C］{没|méi}［D］{去|qù}。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "explanation": "Subject + **却** + verb: 他却没去。",
+      "notes": [
+        "却 belongs to the second clause.",
+        "却 belongs to the second clause.",
+        "",
+        "却 goes before the negation."
+      ],
+      "translation": "Everyone went, yet he didn't.",
+      "fixed_order": true
+    },
+    {
+      "point": "faner",
+      "prompt": "{吃|chī}{了|le}{药|yào}，{病|bìng}{不但|búdàn}{没|méi}{好|hǎo}，（　）{更|gèng}{严重|yánzhòng}{了|le}。",
+      "options": [
+        "{既然|jìrán}",
+        "{反而|fǎn'ér}",
+        "{于是|yúshì}",
+        "{因此|yīncǐ}"
+      ],
+      "answer": 1,
+      "explanation": "On the contrary: **不但没…反而**.",
+      "notes": [
+        "既然 = 'since'.",
+        "",
+        "于是 = 'and then'.",
+        "因此 = 'therefore'."
+      ],
+      "translation": "After taking the medicine, he didn't get better — he got worse."
+    },
+    {
+      "point": "faner",
+      "prompt": "What does 「{我|wǒ}{帮|bāng}{了|le}{他|tā}，{他|tā}{反而|fǎn'ér}{生|shēng}{我|wǒ}{的|de}{气|qì}。」 mean?",
+      "options": [
+        "Ihelpedhim,andinsteadhegotangrywithme.",
+        "Hehelpedme,andIgotangry.",
+        "Ihelpedhim,andhewasalsoangry.",
+        "Ihelpedhim,sohethankedme."
+      ],
+      "answer": 0,
+      "explanation": "反而 = **instead, contrary to expectation**.",
+      "notes": [
+        "",
+        "我 is the helper.",
+        "反而 isn't 'also'.",
+        "反而 = the opposite of what you'd expect."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "er",
+      "prompt": "{南方人|nánfāng rén}{喜欢|xǐhuan}{吃|chī}{米饭|mǐfàn}，（　）{北方人|běifāng rén}{喜欢|xǐhuan}{吃|chī}{面食|miànshí}。",
+      "options": [
+        "{与|yǔ}",
+        "{而|ér}",
+        "{且|qiě}",
+        "{和|hé}"
+      ],
+      "answer": 1,
+      "explanation": "Whereas: **而**.",
+      "notes": [
+        "与 links nouns.",
+        "",
+        "且 alone doesn't link clauses like this.",
+        "和 links nouns, not clauses."
+      ],
+      "translation": "Southerners like rice, whereas northerners like wheat-based food."
+    },
+    {
+      "point": "er",
+      "prompt": "Which sentence shows a contrast?",
+      "options": [
+        "{我|wǒ}{喜欢|xǐhuan}{安静|ānjìng}，{因此|yīncǐ}{她|tā}{喜欢|xǐhuan}{热闹|rènao}。",
+        "{我|wǒ}{喜欢|xǐhuan}{安静|ānjìng}，{而且|érqiě}{她|tā}{也|yě}{喜欢|xǐhuan}{安静|ānjìng}。",
+        "{我|wǒ}{喜欢|xǐhuan}{安静|ānjìng}，{而|ér}{她|tā}{喜欢|xǐhuan}{热闹|rènao}。",
+        "{我|wǒ}{喜欢|xǐhuan}{安静|ānjìng}，{所以|suǒyǐ}{她|tā}{喜欢|xǐhuan}{热闹|rènao}。"
+      ],
+      "answer": 2,
+      "explanation": "Contrast: **而**.",
+      "notes": [
+        "因此 — no cause and effect.",
+        "而且 adds — no contrast.",
+        "",
+        "所以 — her taste isn't caused by mine."
+      ],
+      "translation": "I like peace and quiet, whereas she likes it lively."
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "id": "zh-b2-complements",
+  "category": "Mandarin B2",
+  "language": "zh",
+  "title": "Complements (B2): 了 (liǎo), 住, 开, 出来 / 起来, 坏了, 着 (zháo), V来V去",
+  "description": "Can / can't at all (V得了 / V不了), holding fast (住), apart / open (开), coming out vs recalling, worn out, succeeding (着), and doing something over and over.",
+  "level": "B2",
+  "points": [
+    {
+      "id": "leliao",
+      "title": "Verb + 得了 / 不了 (liǎo)",
+      "summary": "了 read liǎo as a complement = able to (at all): 吃不了 (can't eat it all / can't eat), 去不了 (can't go).",
+      "body": "- 这么多菜，我一个人吃**不了**.\n- 我明天有事，去**不了**了.",
+      "examples": [
+        [
+          "{我|wǒ}{明天|míngtiān}{有|yǒu}{事|shì}，{去|qù}{不|bu}{了|liǎo}{了|le}。",
+          "I've got something on tomorrow — I can't go."
+        ]
+      ]
+    },
+    {
+      "id": "zhukai",
+      "title": "Verb + 住 / 开",
+      "summary": "住 (zhù) = firmly, fixed (记住 remember, 站住 stop!). 开 (kāi) = open, apart (打开, 让开 move aside).",
+      "body": "- 我记**住**了你的电话号码.\n- 人太多了，大家让**开**一下!",
+      "examples": [
+        [
+          "{请|qǐng}{把|bǎ}{窗户|chuānghu}{打开|dǎkāi}。",
+          "Please open the window."
+        ]
+      ]
+    },
+    {
+      "id": "chuqi",
+      "title": "出来 vs 起来 (perception, memory)",
+      "summary": "出来 = recognise / work out (听出来, 看出来, 想出来 an idea). 起来 = recall (想起来 a name / a fact).",
+      "body": "- 我听**出来**了，是你妈妈的声音.\n- 我想**起来**了! 他叫小王.",
+      "examples": [
+        [
+          "{我|wǒ}{想|xiǎng}{起来|qǐlái}{了|le}！{他|tā}{叫|jiào}{小王|Xiǎo Wáng}。",
+          "I remember now! His name is Xiao Wang."
+        ]
+      ]
+    },
+    {
+      "id": "huaile",
+      "title": "Verb / adj + 坏了",
+      "summary": "Verb + 坏 = break (摔坏). Adj / feeling + 坏了 = extremely (累坏了, 饿坏了).",
+      "body": "- 我的手机摔**坏**了.\n- 今天把我累**坏了**.",
+      "examples": [
+        [
+          "{今天|jīntiān}{把|bǎ}{我|wǒ}{累|lèi}{坏|huài}{了|le}。",
+          "Today wore me out completely."
+        ]
+      ]
+    },
+    {
+      "id": "zhao",
+      "title": "Verb + 着 (zháo): succeed in",
+      "summary": "着 read zháo = the action succeeds: 睡着 (fall asleep), 找着 (find).",
+      "body": "- 孩子已经睡**着**了.",
+      "examples": [
+        [
+          "{孩子|háizi}{已经|yǐjīng}{睡|shuì}{着|zháo}{了|le}。",
+          "The child is already asleep."
+        ]
+      ]
+    },
+    {
+      "id": "vlaiqu",
+      "title": "V来V去: over and over, back and forth",
+      "summary": "Verb + 来 + verb + 去 = repeatedly / back and forth, often without result.",
+      "body": "- 他在房间里**走来走去**.\n- 我**想来想去**，还是决定不去了.",
+      "examples": [
+        [
+          "{他|tā}{在|zài}{房间|fángjiān}{里|lǐ}{走来走去|zǒu lái zǒu qù}。",
+          "He paced up and down the room."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "leliao",
+      "prompt": "{这么|zhème}{多|duō}{菜|cài}，{我|wǒ}{一|yí}{个|ge}{人|rén}{吃|chī}{不|bu}（　）。",
+      "options": [
+        "{着|zhe}",
+        "{得|de}",
+        "{了|liǎo}",
+        "{过|guo}"
+      ],
+      "answer": 2,
+      "explanation": "Can't (manage): **吃不了**.",
+      "notes": [
+        "吃不着 = 'can't get to eat it'.",
+        "吃不得 = 'mustn't eat'.",
+        "",
+        "吃不过 isn't a complement."
+      ],
+      "translation": "There's so much food — I can't eat it all by myself."
+    },
+    {
+      "point": "leliao",
+      "prompt": "What does 「{我|wǒ}{明天|míngtiān}{有|yǒu}{事|shì}，{去|qù}{不|bu}{了|liǎo}{了|le}。」 mean?",
+      "options": [
+        "I'mnotgoingbecauseI'mnotallowed.",
+        "I'vegotsomethingontomorrow—Ican'tgo.",
+        "Idon'twanttogoanymore.",
+        "Iwentyesterday."
+      ],
+      "answer": 1,
+      "explanation": "V不了 = **can't (circumstances)**.",
+      "notes": [
+        "Nothing about permission.",
+        "",
+        "不了 is about ability, not wish.",
+        "No past."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "zhukai",
+      "prompt": "{你|nǐ}{的|de}{电话|diànhuà}{号码|hàomǎ}{我|wǒ}{已经|yǐjīng}{记|jì}（　）{了|le}。",
+      "options": [
+        "{住|zhù}",
+        "{开|kāi}",
+        "{过|guò}",
+        "{出|chū}"
+      ],
+      "answer": 0,
+      "explanation": "Memorise: **记住**.",
+      "notes": [
+        "",
+        "记开 isn't a word.",
+        "记过 = 'a demerit'.",
+        "记出 isn't a word."
+      ],
+      "translation": "I've memorised your phone number."
+    },
+    {
+      "point": "zhukai",
+      "prompt": "{人|rén}{太|tài}{多|duō}{了|le}，{请|qǐng}{大家|dàjiā}{让|ràng}（　）{一下|yíxià}！",
+      "options": [
+        "{上|shàng}",
+        "{住|zhù}",
+        "{开|kāi}",
+        "{出|chū}"
+      ],
+      "answer": 2,
+      "explanation": "Move aside: **让开**.",
+      "notes": [
+        "让上 isn't a word.",
+        "让住 isn't a word.",
+        "",
+        "让出 needs an object (让出座位)."
+      ],
+      "translation": "It's too crowded — could everyone make way, please!"
+    },
+    {
+      "point": "chuqi",
+      "prompt": "{你|nǐ}{别|bié}{说|shuō}{了|le}，{我|wǒ}{听|tīng}（　）{了|le}，{是|shì}{你|nǐ}{妈妈|māma}{的|de}{声音|shēngyīn}。",
+      "options": [
+        "{下去|xiàqù}",
+        "{过来|guòlái}",
+        "{起来|qǐlái}",
+        "{出来|chūlái}"
+      ],
+      "answer": 3,
+      "explanation": "Recognise: **听出来**.",
+      "notes": [
+        "听下去 = 'keep listening'.",
+        "听过来 isn't natural.",
+        "听起来 = 'it sounds'.",
+        ""
+      ],
+      "translation": "Don't tell me — I can tell, it's your mum's voice."
+    },
+    {
+      "point": "chuqi",
+      "prompt": "{他|tā}{叫|jiào}{什么|shénme}{来着|láizhe}？……{我|wǒ}{想|xiǎng}（　）{了|le}！{他|tā}{叫|jiào}{小王|Xiǎo Wáng}。",
+      "options": [
+        "{起来|qǐlái}",
+        "{过去|guòqù}",
+        "{出来|chūlái}",
+        "{下去|xiàqù}"
+      ],
+      "answer": 0,
+      "explanation": "Recall: **想起来**.",
+      "notes": [
+        "",
+        "想过去 isn't natural.",
+        "想出来 = come up with (an idea) — a name you knew is recalled.",
+        "想下去 = 'keep thinking'."
+      ],
+      "translation": "What was his name again? … I remember now! He's called Xiao Wang."
+    },
+    {
+      "point": "huaile",
+      "prompt": "{不|bù}{小心|xiǎoxīn}，{我|wǒ}{的|de}{手机|shǒujī}{摔|shuāi}（　）{了|le}。",
+      "options": [
+        "{住|zhù}",
+        "{好|hǎo}",
+        "{完|wán}",
+        "{坏|huài}"
+      ],
+      "answer": 3,
+      "explanation": "Broken: **摔坏**.",
+      "notes": [
+        "摔住 isn't a word.",
+        "摔好 is a contradiction.",
+        "摔完 isn't natural.",
+        ""
+      ],
+      "translation": "I wasn't careful and dropped my phone — it's broken."
+    },
+    {
+      "point": "huaile",
+      "prompt": "What does 「{今天|jīntiān}{把|bǎ}{我|wǒ}{累|lèi}{坏|huài}{了|le}。」 mean?",
+      "options": [
+        "Igotilltoday.",
+        "Iwastiredtodaybutfine.",
+        "Todayworemeoutcompletely.",
+        "Ibrokesomethingtoday."
+      ],
+      "answer": 2,
+      "explanation": "Adj + 坏了 = **extremely**.",
+      "notes": [
+        "Not illness.",
+        "累坏了 = extremely tired.",
+        "",
+        "坏了 after a feeling = extremely."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "zhao",
+      "prompt": "{嘘|xū}，{小|xiǎo}{声|shēng}{点儿|diǎnr}，{孩子|háizi}{已经|yǐjīng}{睡|shuì}（　）{了|le}。",
+      "options": [
+        "{着|zháo}",
+        "{到|dào}",
+        "{完|wán}",
+        "{见|jiàn}"
+      ],
+      "answer": 0,
+      "explanation": "Fall asleep: **睡着** (zháo).",
+      "notes": [
+        "",
+        "睡到 needs a time.",
+        "睡完 isn't natural.",
+        "睡见 isn't a word."
+      ],
+      "translation": "Shh, keep your voice down — the child is asleep."
+    },
+    {
+      "point": "zhao",
+      "prompt": "{找|zhǎo}{了|le}{半天|bàntiān}，{钥匙|yàoshi}{终于|zhōngyú}{找|zhǎo}（　）{了|le}。",
+      "options": [
+        "{住|zhù}",
+        "{着|zháo}",
+        "{完|wán}",
+        "{开|kāi}"
+      ],
+      "answer": 1,
+      "explanation": "Found: **找着** (zháo).",
+      "notes": [
+        "找住 isn't a word.",
+        "",
+        "找完 = 'finished searching'.",
+        "找开 isn't a word."
+      ],
+      "translation": "After searching for ages, I finally found the keys."
+    },
+    {
+      "point": "vlaiqu",
+      "prompt": "{他|tā}{很|hěn}{着急|zháojí}，{在|zài}{房间|fángjiān}{里|lǐ}{走来|zǒu lái}（　）。",
+      "options": [
+        "{走去|zǒu qù}",
+        "{去走|qù zǒu}",
+        "{走来|zǒu lái}",
+        "{来去|lái qù}"
+      ],
+      "answer": 0,
+      "explanation": "Back and forth: **走来走去**.",
+      "notes": [
+        "",
+        "The verb comes before 去.",
+        "The second half uses 去.",
+        "The verb is missing."
+      ],
+      "translation": "He was anxious and paced up and down the room."
+    },
+    {
+      "point": "vlaiqu",
+      "prompt": "What does 「{我|wǒ}{想来想去|xiǎng lái xiǎng qù}，{还是|háishi}{决定|juédìng}{不|bú}{去|qù}{了|le}。」 mean?",
+      "options": [
+        "Idecidedtogoafterall.",
+        "Iwantedtocomeandgo.",
+        "Ithoughtaboutcoming,thenwent.",
+        "Afterthinkingitoverandover,Idecidednottogo."
+      ],
+      "answer": 3,
+      "explanation": "V来V去 = **over and over**.",
+      "notes": [
+        "决定不去 = decided not to go.",
+        "想 here = think.",
+        "Nobody went.",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}

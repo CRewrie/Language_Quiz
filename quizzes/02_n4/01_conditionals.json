@@ -1,0 +1,522 @@
+{
+  "id": "n4-conditionals",
+  "category": "JLPT N4",
+  "title": "Conditionals: ば, たら, と, なら & 場合は",
+  "description": "The four 'if' forms and when each one fits, 〜場合は for formal 'in case of', and suggestions with 〜たらどうですか.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "ba",
+      "title": "〜ば: if (general condition)",
+      "summary": "ば-form = 'if A, then B'. It focuses on the condition itself, and is often used for hypotheticals, advice and regrets (〜ばよかった).",
+      "body": "**Formation:**\n- Godan: final u → **e + ば**: 行く → 行け**ば**, 飲む → 飲め**ば**, ある → あれ**ば**\n- Ichidan: drop る + **れば**: 食べる → 食べ**れば**\n- する → **すれば**, 来る → **来れば (くれば)**\n- い-adjective: drop い + **ければ**: 安い → 安**ければ**, いい → **よければ**\n- Negative: 〜ない → 〜**なければ**\n- Noun / な-adjective: **なら(ば)** or **であれば**: 学生なら, 静かであれば\n\n**Use:** a general or hypothetical condition, where B follows if A is true: お金があれ**ば**、買います.\n\n**Restriction:** when A is an action and B is a request, invitation or intention (〜てください, 〜ましょう, 〜たい), ば usually sounds wrong. Use たら instead: 着い**たら**電話してください ✓ (着けば電話してください ✗). If A is a state (ある, adjectives, ない-forms), ば is fine: 時間が**あれば**来てください.\n\n**〜ばよかった** = 'I should have …': もっと勉強すれ**ば**よかった.",
+      "examples": [
+        [
+          "お{金|かね}があれば、{旅行|りょこう}に{行|い}きたいです。",
+          "If I had money, I'd like to travel."
+        ],
+        [
+          "この{薬|くすり}を{飲|の}めば、すぐ{治|なお}りますよ。",
+          "If you take this medicine, you'll get better soon."
+        ],
+        [
+          "もっと{早|はや}く{起|お}きればよかった。",
+          "I should have got up earlier."
+        ]
+      ]
+    },
+    {
+      "id": "tara",
+      "title": "〜たら: if, when, after",
+      "summary": "た-form + ら = 'if/when A (happens), B'. It's the most versatile conditional: it works with requests and plans, and with a past main clause it means 'when I did A, (I found) B'.",
+      "body": "**Formation:** plain past + **ら**: 行った**ら**, 食べた**ら**, 安かった**ら**, 雨だった**ら**, 行かなかった**ら**.\n\n**Uses:**\n- **Hypothetical 'if'**: 雨が降っ**たら**、行きません.\n- **'When/once' (A will surely happen)**: 駅に着い**たら**、電話してください. Here B happens **after** A is completed.\n- **Discovery in the past**: 家に帰っ**たら**、荷物が届いていました (when I got home, the package had arrived).\n\n**Why it's the safe default:** たら can be followed by requests, invitations, intentions and wishes, which と cannot, and ば often cannot.\n\n**Timing:** たら always means B comes *after* A. That's why 京都に行っ**たら**新幹線が便利 is wrong: you take the Shinkansen before you arrive. Use なら there.\n\nIn speech: 〜たらどう？ ('why don't you…?') and 〜たら？ alone.",
+      "examples": [
+        [
+          "{駅|えき}に{着|つ}いたら、{電話|でんわ}してください。",
+          "Please call me when you get to the station."
+        ],
+        [
+          "{雨|あめ}だったら、{試合|しあい}は{中止|ちゅうし}です。",
+          "If it rains, the match is cancelled."
+        ],
+        [
+          "{家|いえ}に{帰|かえ}ったら、{荷物|にもつ}が{届|とど}いていました。",
+          "When I got home, the package had arrived."
+        ]
+      ]
+    },
+    {
+      "id": "to-if",
+      "title": "〜と: whenever, if (natural consequence)",
+      "summary": "Dictionary form + と = 'whenever/if A, B (automatically) follows'. It's used for natural results, machines, directions and habits. It can't be followed by requests or intentions.",
+      "body": "**Formation:** plain non-past + **と**: 押す**と**, 春になる**と**, 安い**と**, 静かだ**と**, 行かない**と**.\n\n**Uses:**\n- **Natural or automatic consequences**: 春になる**と**桜が咲きます, このボタンを押す**と**お茶が出ます.\n- **Directions**: まっすぐ行く**と**、右に銀行があります.\n- **Habits**: 父は家に帰る**と**すぐテレビをつけます.\n- **Discovery (past)**: 窓を開ける**と**、富士山が見えました.\n\n**The big restriction:** the main clause **can't** be a request, command, invitation, wish or intention:\n- 駅に着く**と**電話してください ✗ → 着い**たら** ✓\n- 春になる**と**旅行したい ✗ → 春になっ**たら** ✓\n\n〜ないと（いけない）, 'must', is a separate set pattern built on this と.",
+      "examples": [
+        [
+          "{春|はる}になると、{桜|さくら}が{咲|さ}きます。",
+          "When spring comes, the cherry blossoms bloom."
+        ],
+        [
+          "このボタンを{押|お}すと、お{茶|ちゃ}が{出|で}ます。",
+          "If you press this button, tea comes out."
+        ],
+        [
+          "まっすぐ{行|い}くと、{右|みぎ}に{銀行|ぎんこう}があります。",
+          "If you go straight, there's a bank on the right."
+        ]
+      ]
+    },
+    {
+      "id": "nara",
+      "title": "〜なら: if (it's the case that), as for",
+      "summary": "なら picks up a topic or situation (often from the other person) and gives advice, an opinion or a decision about it. Nouns take なら directly: 雨なら.",
+      "body": "**Formation:** plain form + **なら**: 行く**なら**, 行った**なら**, 安い**なら**. Nouns and な-adjectives attach directly, with **no だ**: 雨**なら**, 静か**なら**.\n\n**Uses:**\n- **Responding to what someone said**: A: 京都に行きます。 B: 京都に行く**なら**、金閣寺がおすすめですよ.\n- **Topic, 'as for …'**: お土産**なら**、浅草がいいですよ / 日本語**なら**、田中さんに聞いてください.\n- **Assumed condition**: 雨**なら**、行きません.\n\n**Timing is free:** なら can be followed by something that happens *before* A. 京都に行く**なら**、新幹線が便利です works because the advice applies before going. たら can't do this, since たら always means 'after A'.",
+      "examples": [
+        [
+          "{京都|きょうと}に{行|い}くなら、{金閣寺|きんかくじ}がおすすめですよ。",
+          "If you're going to Kyoto, I recommend Kinkakuji."
+        ],
+        [
+          "お{土産|みやげ}なら、{浅草|あさくさ}で{買|か}うといいですよ。",
+          "If it's souvenirs you want, Asakusa is a good place to buy them."
+        ],
+        [
+          "{雨|あめ}なら、{試合|しあい}は{中止|ちゅうし}です。",
+          "If it rains, the match is off."
+        ]
+      ]
+    },
+    {
+      "id": "baai",
+      "title": "〜場合は: in the event of, in case",
+      "summary": "Plain form / noun + の + 場合(は) = 'in the case that …'. It's formal and typical of instructions, notices and rules.",
+      "body": "**場合 (ばあい)** means 'case, situation'. It turns a condition into a formal **'in case of'**:\n- Noun + **の場合**: 火事**の場合**は、エレベーターを使わないでください.\n- Verb (plain): 遅れる**場合**は、連絡してください.\n- い-adjective: 寒い**場合**は….\n- な-adjective: 必要な**場合**は….\n\nIt's typically followed by **は** (or used with a comma) and an instruction or rule.\n\n**Nuance:** it's more formal than たら or とき, and it's used for possible situations that may or may not happen. You'll see it constantly on signs, in manuals and in emails. It isn't used for one-time certain events (明日学校に着いた場合 ✗ when you will surely arrive).",
+      "examples": [
+        [
+          "{火事|かじ}の{場合|ばあい}は、エレベーターを{使|つか}わないでください。",
+          "In case of fire, do not use the elevator."
+        ],
+        [
+          "{遅|おく}れる{場合|ばあい}は、{必|かなら}ず{連絡|れんらく}してください。",
+          "If you are going to be late, be sure to contact us."
+        ]
+      ]
+    },
+    {
+      "id": "taradou",
+      "title": "〜たらどうですか: why don't you…?",
+      "summary": "た-form + らどうですか / どう？ gives a suggestion or advice: 'how about doing …?'",
+      "body": "**た-form + ら + どうですか** literally means 'if you did …, how would it be?'. It's a friendly suggestion:\n- 少し休ん**だらどうですか** (why don't you rest a bit?)\n\n**Variants by politeness:**\n- Casual: 〜たら**どう**？ / just 〜**たら**？ (休んだら？)\n- Polite: 〜たら**どうですか**\n- More polite: 〜たら**いかがですか**\n\n**Nuance:** it's said to people at your level or below. To a superior it can sound like you're telling them what to do; 〜てはいかがでしょうか is softer.\n\nCompare: 〜たほうがいい (you'd better) is stronger advice, while 〜たらどう is a lighter suggestion.",
+      "examples": [
+        [
+          "{疲|つか}れているなら、{少|すこ}し{休|やす}んだらどうですか。",
+          "If you're tired, why don't you rest a little?"
+        ],
+        [
+          "{先生|せんせい}に{聞|き}いてみたら？",
+          "Why don't you try asking the teacher?"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "ba",
+      "prompt": "お{金|かね}が（　）、{旅行|りょこう}に{行|い}きたいです。",
+      "options": [
+        "あっては",
+        "あれば",
+        "あれると",
+        "あるば"
+      ],
+      "answer": 1,
+      "explanation": "ある → **あれば** (final u → e + ば). A state (having money) is fine before ば even with a wish.",
+      "notes": [
+        "あっては introduces something negative ('if you have…, it's bad') and doesn't fit a wish.",
+        "",
+        "あれると isn't a form.",
+        "ば doesn't attach to the dictionary form. It's built from the え-row: あれ-ば."
+      ],
+      "translation": "If I had money, I'd like to travel."
+    },
+    {
+      "point": "ba",
+      "prompt": "この{薬|くすり}を{飲|の}め（　）、すぐ{治|なお}りますよ。",
+      "options": [
+        "て",
+        "と",
+        "たら",
+        "ば"
+      ],
+      "answer": 3,
+      "explanation": "The ば-form of 飲む is **飲めば**. 飲め- is already the ば-stem.",
+      "notes": [
+        "飲めて is the て-form of the potential 飲める ('can drink'), a different meaning.",
+        "と follows the dictionary form (飲むと), not 飲め.",
+        "The たら form is 飲んだら, which can't follow 飲め.",
+        ""
+      ],
+      "translation": "If you take this medicine, you'll get better soon."
+    },
+    {
+      "point": "ba",
+      "prompt": "{天気|てんき}が（　）、{山|やま}が{見|み}えますよ。",
+      "options": [
+        "よいば",
+        "いいければ",
+        "よければ",
+        "いければ"
+      ],
+      "answer": 2,
+      "explanation": "いい is irregular and conjugates from よい: **よければ**.",
+      "notes": [
+        "い-adjectives take ければ, not ば directly.",
+        "Don't keep いい and add ければ.",
+        "",
+        "いい never conjugates from い-. Use よ-: よければ, よかった, よくない."
+      ],
+      "translation": "If the weather is good, you can see the mountains."
+    },
+    {
+      "point": "ba",
+      "prompt": "もっと{勉強|べんきょう}（　）よかったです。",
+      "options": [
+        "しれば",
+        "されば",
+        "するば",
+        "すれば"
+      ],
+      "answer": 3,
+      "explanation": "する → **すれば**. 〜ばよかった = 'I should have …'.",
+      "notes": [
+        "しれば isn't a form of する.",
+        "されば isn't a form of する.",
+        "ば doesn't attach to the dictionary form.",
+        ""
+      ],
+      "translation": "I should have studied more."
+    },
+    {
+      "point": "tara",
+      "prompt": "{駅|えき}に（　）、{電話|でんわ}してください。",
+      "options": [
+        "{着|つ}くたら",
+        "{着|つ}いたら",
+        "{着|つ}いてら",
+        "{着|つ}きたら"
+      ],
+      "answer": 1,
+      "explanation": "たら = plain past + ら: 着く → 着いた → **着いたら**. たら works with requests.",
+      "notes": [
+        "たら attaches to the た-form, not the dictionary form.",
+        "",
+        "てら isn't a form.",
+        "着く is godan: its past is 着いた, not 着きた."
+      ],
+      "translation": "Please call me when you arrive at the station."
+    },
+    {
+      "point": "tara",
+      "prompt": "{仕事|しごと}が（　）、{連絡|れんらく}してください。",
+      "options": [
+        "{終|お}わるたら",
+        "{終|お}わったと",
+        "{終|お}わったら",
+        "{終|お}わると"
+      ],
+      "answer": 2,
+      "explanation": "A request in the main clause calls for **たら**.",
+      "notes": [
+        "たら attaches to the た-form: 終わった + ら.",
+        "と attaches to the dictionary form, not the た-form.",
+        "",
+        "と can't be followed by a request (〜てください)."
+      ],
+      "translation": "Please contact me when work is over."
+    },
+    {
+      "point": "tara",
+      "prompt": "{明日|あした}{雨|あめ}（　）、{試合|しあい}は{中止|ちゅうし}です。",
+      "options": [
+        "だら",
+        "かったら",
+        "たら",
+        "だったら"
+      ],
+      "answer": 3,
+      "explanation": "Noun + **だったら** (plain past of だ + ら).",
+      "notes": [
+        "だら isn't a form. You need the past だった + ら.",
+        "かったら is for い-adjectives (高かったら).",
+        "雨たら is missing だっ.",
+        ""
+      ],
+      "translation": "If it rains tomorrow, the match will be cancelled."
+    },
+    {
+      "point": "tara",
+      "prompt": "{家|いえ}に（　）、{荷物|にもつ}が{届|とど}いていました。",
+      "options": [
+        "{帰|かえ}れば",
+        "{帰|かえ}るたら",
+        "{帰|かえ}ったら",
+        "{帰|かえ}るなら"
+      ],
+      "answer": 2,
+      "explanation": "**たら + past** = 'when I did A, I found B' (discovery).",
+      "notes": [
+        "ば isn't used for a one-time discovery in the past.",
+        "たら needs the た-form: 帰った + ら.",
+        "",
+        "なら would mean 'if you're going to go home', which doesn't fit something that already happened."
+      ],
+      "translation": "When I got home, the package had arrived."
+    },
+    {
+      "point": "to-if",
+      "prompt": "{春|はる}に（　）、{桜|さくら}が{咲|さ}きます。",
+      "options": [
+        "なったと",
+        "なると",
+        "なれると",
+        "なるとは"
+      ],
+      "answer": 1,
+      "explanation": "A natural, recurring consequence: **dictionary form + と**.",
+      "notes": [
+        "Conditional と attaches to the dictionary form, not the past.",
+        "",
+        "なれる means 'can become'. 'If it can become spring' makes no sense.",
+        "とは marks a definition or surprise, not a condition."
+      ],
+      "translation": "When spring comes, the cherry blossoms bloom."
+    },
+    {
+      "point": "to-if",
+      "prompt": "このボタンを（　）、お{茶|ちゃ}が{出|で}ます。",
+      "options": [
+        "{押|お}しと",
+        "{押|お}せると",
+        "{押|お}したと",
+        "{押|お}すと"
+      ],
+      "answer": 3,
+      "explanation": "A machine's automatic result: **と**.",
+      "notes": [
+        "と can't attach to the ます-stem.",
+        "押せる means 'can press', so 'if you can press it…' changes the meaning.",
+        "と needs the dictionary form, not the た-form.",
+        ""
+      ],
+      "translation": "If you press this button, tea comes out."
+    },
+    {
+      "point": "to-if",
+      "prompt": "Which sentence is **unnatural**?",
+      "options": [
+        "{春|はる}になると、{暖|あたた}かくなります。",
+        "{駅|えき}に{着|つ}くと、{電話|でんわ}してください。",
+        "{駅|えき}に{着|つ}いたら、{電話|でんわ}してください。",
+        "まっすぐ{行|い}くと、{銀行|ぎんこう}があります。"
+      ],
+      "answer": 1,
+      "explanation": "**と can't be followed by a request.** The natural version is 着いたら電話してください.",
+      "notes": [
+        "This is natural: an automatic seasonal change.",
+        "",
+        "This is natural: たら works with requests.",
+        "This is natural: と is typical for giving directions."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "to-if",
+      "prompt": "{父|ちち}は{家|いえ}に{帰|かえ}る（　）、すぐテレビをつけます。",
+      "options": [
+        "ば",
+        "たと",
+        "と",
+        "たら"
+      ],
+      "answer": 2,
+      "explanation": "A habitual sequence ('whenever A, B') takes **と**.",
+      "notes": [
+        "ば needs the ば-form (帰れば). It can't attach to 帰る.",
+        "たと isn't a form.",
+        "",
+        "たら needs the た-form (帰ったら). It can't attach to 帰る."
+      ],
+      "translation": "Whenever my father gets home, he immediately turns on the TV."
+    },
+    {
+      "point": "nara",
+      "prompt": "A：{日本|にほん}のお{土産|みやげ}を{買|か}いたいんですが。　B：お{土産|みやげ}（　）、{浅草|あさくさ}がいいですよ。",
+      "options": [
+        "と",
+        "ば",
+        "たら",
+        "なら"
+      ],
+      "answer": 3,
+      "explanation": "Picking up the listener's topic: noun + **なら** ('if it's souvenirs…').",
+      "notes": [
+        "お土産と means 'souvenirs and…', not 'if'.",
+        "ば can't attach directly to a noun.",
+        "Nouns need だった before たら (お土産だったら). お土産たら isn't a form.",
+        ""
+      ],
+      "translation": "A: I'd like to buy some Japanese souvenirs. B: For souvenirs, Asakusa is good."
+    },
+    {
+      "point": "nara",
+      "prompt": "A：{来週|らいしゅう}、{京都|きょうと}へ{行|い}きます。　B：{京都|きょうと}へ（　）、{新幹線|しんかんせん}が{便利|べんり}ですよ。",
+      "options": [
+        "{行|い}ったら",
+        "{行|い}けば",
+        "{行|い}くなら",
+        "{行|い}くと"
+      ],
+      "answer": 2,
+      "explanation": "Advice that applies *before* A happens needs **なら**. You take the Shinkansen before you're in Kyoto.",
+      "notes": [
+        "たら means 'after A'. 'After you've gone to Kyoto, the Shinkansen is convenient' gets the timing wrong.",
+        "ば sounds like a general rule ('if one goes to Kyoto') and doesn't pick up the topic naturally.",
+        "",
+        "と expresses an automatic consequence and doesn't respond to the listener's plan."
+      ],
+      "translation": "A: I'm going to Kyoto next week. B: If you're going to Kyoto, the Shinkansen is convenient."
+    },
+    {
+      "point": "nara",
+      "prompt": "{明日|あした}{雨|あめ}（　）、{行|い}きません。",
+      "options": [
+        "でなら",
+        "なら",
+        "だなら",
+        "のなら"
+      ],
+      "answer": 1,
+      "explanation": "Noun + **なら** directly, with no だ.",
+      "notes": [
+        "でなら isn't a form.",
+        "",
+        "だ disappears before なら.",
+        "の + なら is used after verbs (行くのなら), not after nouns like this."
+      ],
+      "translation": "If it rains tomorrow, I won't go."
+    },
+    {
+      "point": "baai",
+      "prompt": "{火事|かじ}の（　）は、エレベーターを{使|つか}わないでください。",
+      "options": [
+        "{場面|ばめん}",
+        "{場所|ばしょ}",
+        "{具合|ぐあい}",
+        "{場合|ばあい}"
+      ],
+      "answer": 3,
+      "explanation": "Formal 'in case of': noun + の + **場合は**.",
+      "notes": [
+        "場面 means 'scene' (in a film or story).",
+        "場所 means 'place'. 火事の場所 is where the fire is.",
+        "具合 means 'condition' (体の具合), not 'in case of'.",
+        ""
+      ],
+      "translation": "In case of fire, do not use the elevator."
+    },
+    {
+      "point": "baai",
+      "prompt": "{授業|じゅぎょう}に{遅|おく}れる（　）は、{必|かなら}ず{連絡|れんらく}してください。",
+      "options": [
+        "{場所|ばしょ}",
+        "{場合|ばあい}",
+        "{具合|ぐあい}",
+        "{場面|ばめん}"
+      ],
+      "answer": 1,
+      "explanation": "Verb (plain) + **場合は** = 'if/in case you …'.",
+      "notes": [
+        "場所 means 'place'.",
+        "",
+        "具合 means 'condition / state'.",
+        "場面 means 'scene'."
+      ],
+      "translation": "If you're going to be late for class, be sure to let us know."
+    },
+    {
+      "point": "baai",
+      "prompt": "Which phrase would you most likely see on an **official notice**?",
+      "options": [
+        "{雨|あめ}だと、やめちゃう。",
+        "{雨|あめ}なら、やめよう。",
+        "{雨|あめ}の{場合|ばあい}は{中止|ちゅうし}します。",
+        "{雨|あめ}だったら、やめるね。"
+      ],
+      "answer": 2,
+      "explanation": "**〜の場合は** is the formal choice for notices, rules and announcements.",
+      "notes": [
+        "やめちゃう is very casual.",
+        "なら…やめよう is casual speech.",
+        "",
+        "だったら…ね is casual conversation."
+      ],
+      "translation": "The event will be cancelled in case of rain."
+    },
+    {
+      "point": "taradou",
+      "prompt": "{疲|つか}れているなら、{少|すこ}し{休|やす}ん（　）どうですか。",
+      "options": [
+        "たら",
+        "でら",
+        "だり",
+        "だら"
+      ],
+      "answer": 3,
+      "explanation": "休む → 休んだ → **休んだら**どうですか.",
+      "notes": [
+        "休む's past is 休んだ (voiced), so たら becomes だら.",
+        "でら isn't a form.",
+        "だり is the たり-form used for listing actions (休んだり…したり). It doesn't make a suggestion.",
+        ""
+      ],
+      "translation": "If you're tired, why don't you rest a little?"
+    },
+    {
+      "point": "taradou",
+      "prompt": "A：{日本語|にほんご}がもっと{上手|じょうず}になりたいです。　B：{日本人|にほんじん}の{友達|ともだち}を{作|つく}っ（　）どう？",
+      "options": [
+        "たって",
+        "たれば",
+        "たら",
+        "たり"
+      ],
+      "answer": 2,
+      "explanation": "Suggestion: **〜たらどう？**",
+      "notes": [
+        "たって means 'even if' (casual). 'Even if you make friends, how?' isn't a suggestion.",
+        "たれば isn't a form. It mixes たら and ば.",
+        "",
+        "たり lists actions (作ったり…したり) and doesn't make a suggestion."
+      ],
+      "translation": "A: I want to get better at Japanese. B: Why not make some Japanese friends?"
+    },
+    {
+      "point": "taradou",
+      "prompt": "What does 「{医者|いしゃ}に{行|い}ったらどうですか」 mean?",
+      "options": [
+        "What happened after you went to the doctor?",
+        "How was the doctor?",
+        "You must go to the doctor.",
+        "Why don't you go to the doctor?"
+      ],
+      "answer": 3,
+      "explanation": "〜たらどうですか is a set phrase for a **suggestion**.",
+      "notes": [
+        "That would be 医者に行ったら、どうなりましたか.",
+        "'How was it?' would be 医者はどうでしたか.",
+        "'Must' would be 行かなければなりません.",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}

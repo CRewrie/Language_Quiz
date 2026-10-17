@@ -1,0 +1,297 @@
+{
+  "id": "conditionals-time",
+  "category": "Mixed practice (N5–N4)",
+  "title": "Conditionals & Time Clauses",
+  "description": "たら・ば・と・なら, 前に/後で/てから, ながら, 間に, とき, のに, ても, なければいけない, ないでください.",
+  "level": "N4",
+  "questions": [
+    {
+      "prompt": "{明日|あした}{雨|あめ}が{降|ふ}っ（　）、{家|いえ}にいます。",
+      "options": [
+        "たれば",
+        "てら",
+        "たら",
+        "たと"
+      ],
+      "answer": 2,
+      "explanation": "**た-form + ら** = 'if/when …'. Take the plain past and add ら: 降った → 降ったら.",
+      "notes": [
+        "This mixes たら and ば. The ば-form of 降る is 降れば.",
+        "てら isn't a form. The conditional is built on the た-form: 降ったら.",
+        "",
+        "と attaches to the dictionary form (降ると), not the た-form."
+      ],
+      "translation": "If it rains tomorrow, I'll stay home."
+    },
+    {
+      "prompt": "このボタンを{押|お}す（　）、{水|みず}が{出|で}ます。",
+      "options": [
+        "と",
+        "で",
+        "て",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "**Dictionary form + と** = 'whenever/if A, B (automatically) happens'. It's used for natural consequences, machines and directions.",
+      "notes": [
+        "",
+        "で can't attach directly to a verb's dictionary form.",
+        "押すて isn't a form. The て-form of 押す is 押して.",
+        "押すに isn't a conditional. に after a dictionary form usually expresses purpose (with 行く) or appears in set phrases."
+      ],
+      "translation": "When you press this button, water comes out."
+    },
+    {
+      "prompt": "{安|やす}けれ（　）、{買|か}います。",
+      "options": [
+        "と",
+        "て",
+        "ば",
+        "たら"
+      ],
+      "answer": 2,
+      "explanation": "The **ば-conditional** of an い-adjective: drop い and add **ければ**: 安い → 安ければ ('if it's cheap').",
+      "notes": [
+        "と follows the full adjective (安いと), not 安けれ.",
+        "The て-form is 安くて, which can't follow 安けれ.",
+        "",
+        "The たら form is 安かったら, which can't follow 安けれ."
+      ],
+      "translation": "If it's cheap, I'll buy it."
+    },
+    {
+      "prompt": "A：{来週|らいしゅう}、{京都|きょうと}に{行|い}きます。　B：{京都|きょうと}に{行|い}く（　）、{金閣寺|きんかくじ}がおすすめですよ。",
+      "options": [
+        "まで",
+        "ので",
+        "のに",
+        "なら"
+      ],
+      "answer": 3,
+      "explanation": "**〜なら** = 'if (it's the case that) …'. It picks up a topic the other person mentioned and gives advice about it.",
+      "notes": [
+        "まで ('until') doesn't fit a piece of advice.",
+        "ので ('because') makes B's sentence illogical: 'Because you go to Kyoto, Kinkakuji is recommended.'",
+        "のに ('even though') expresses surprise or frustration and doesn't make sense here.",
+        ""
+      ],
+      "translation": "A: I'm going to Kyoto next week. B: If you're going to Kyoto, I recommend Kinkakuji."
+    },
+    {
+      "prompt": "{寝|ね}る（　）、{歯|は}を{磨|みが}きます。",
+      "options": [
+        "ながら",
+        "{前|まえ}に",
+        "たら",
+        "{後|あと}で"
+      ],
+      "answer": 1,
+      "explanation": "**Dictionary form + 前に** = 'before doing …'. The verb before 前に is always the dictionary form, even in past sentences.",
+      "notes": [
+        "ながら attaches to the ます-stem (寝ながら).",
+        "",
+        "たら attaches to the た-form (寝たら).",
+        "後で needs the た-form (寝た後で). 寝る後で is ungrammatical."
+      ],
+      "translation": "I brush my teeth before going to bed."
+    },
+    {
+      "prompt": "{宿題|しゅくだい}をした（　）、ゲームをします。",
+      "options": [
+        "{後|あと}で",
+        "ながら",
+        "までに",
+        "{前|まえ}に"
+      ],
+      "answer": 0,
+      "explanation": "**た-form + 後で** = 'after doing …'.",
+      "notes": [
+        "",
+        "ながら attaches to the ます-stem (しながら).",
+        "までに ('by …') follows the dictionary form or a noun, and 'by having done homework, I play' makes no sense.",
+        "前に needs the dictionary form (する前に). It can't follow した."
+      ],
+      "translation": "I'll play games after doing my homework."
+    },
+    {
+      "prompt": "{音楽|おんがく}を{聞|き}き（　）、{勉強|べんきょう}します。",
+      "options": [
+        "ても",
+        "から",
+        "たら",
+        "ながら"
+      ],
+      "answer": 3,
+      "explanation": "**ます-stem + ながら** = 'while doing …'. It describes two simultaneous actions by the same person, and the main action comes last.",
+      "notes": [
+        "ても attaches to the て-form (聞いても), not the ます-stem 聞き.",
+        "から attaches to a full form (聞くから, 'because') or a て-form (聞いてから, 'after'), not the bare stem.",
+        "たら attaches to the た-form (聞いたら).",
+        ""
+      ],
+      "translation": "I study while listening to music."
+    },
+    {
+      "prompt": "{手|て}を{洗|あら}って（　）、{食|た}べてください。",
+      "options": [
+        "まで",
+        "ので",
+        "から",
+        "のに"
+      ],
+      "answer": 2,
+      "explanation": "**て-form + から** = 'after doing … / once you've done …'. It stresses the order of the two actions.",
+      "notes": [
+        "まで doesn't follow a て-form.",
+        "ので follows a plain form (洗うので), not a て-form.",
+        "",
+        "のに follows a plain form and means 'even though'."
+      ],
+      "translation": "Please wash your hands before you eat. (lit. after washing, eat)"
+    },
+    {
+      "prompt": "{赤|あか}ちゃんが{寝|ね}ている（　）に、{料理|りょうり}をします。",
+      "options": [
+        "{上|うえ}",
+        "{下|した}",
+        "{中|なか}",
+        "{間|あいだ}"
+      ],
+      "answer": 3,
+      "explanation": "**〜間に** = 'while/during (a period), do something (once)'. 間 without に means the action lasts the whole period.",
+      "notes": [
+        "上 means 'on/above'. It isn't a time expression here.",
+        "下 means 'under'.",
+        "中 doesn't follow 寝ている. It's used as 〜中 with nouns (仕事中).",
+        ""
+      ],
+      "translation": "I cook while the baby is sleeping."
+    },
+    {
+      "prompt": "{子供|こども}の（　）、よく{川|かわ}で{泳|およ}ぎました。",
+      "options": [
+        "まえ",
+        "あと",
+        "とき",
+        "ながら"
+      ],
+      "answer": 2,
+      "explanation": "**Noun + の + とき** = 'when (I was) …'. With verbs and adjectives: 若いとき, 暇なとき, 行くとき.",
+      "notes": [
+        "子供のまえ would mean 'in front of the children'.",
+        "子供のあと isn't a natural time expression.",
+        "",
+        "ながら attaches to verb stems, not to nouns with の."
+      ],
+      "translation": "When I was a child, I often swam in the river."
+    },
+    {
+      "prompt": "{熱|ねつ}がある（　）、{学校|がっこう}に{行|い}きました。",
+      "options": [
+        "のに",
+        "なら",
+        "まで",
+        "ので"
+      ],
+      "answer": 0,
+      "explanation": "**〜のに** = 'even though …', often with a sense of surprise or frustration. Having a fever and still going to school is a contrast.",
+      "notes": [
+        "",
+        "なら ('if') doesn't fit a sentence about something that already happened.",
+        "まで means 'until'. 'Until I had a fever' doesn't fit here.",
+        "ので ('because') gives the reason. 'Because I had a fever, I went to school' is illogical."
+      ],
+      "translation": "Even though I had a fever, I went to school."
+    },
+    {
+      "prompt": "{雨|あめ}が{降|ふ}って（　）、サッカーの{試合|しあい}はあります。",
+      "options": [
+        "は",
+        "も",
+        "で",
+        "が"
+      ],
+      "answer": 1,
+      "explanation": "**て-form + も** = 'even if …'. The game takes place regardless of the rain.",
+      "notes": [
+        "〜ては is used in patterns like てはいけない ('must not'). It doesn't mean 'even if'.",
+        "",
+        "The て-form already ends in て, so adding で is ungrammatical.",
+        "が can't follow the て-form."
+      ],
+      "translation": "Even if it rains, the soccer match will be held."
+    },
+    {
+      "prompt": "{明日|あした}までにレポートを{出|だ}さ（　）いけません。",
+      "options": [
+        "ないで",
+        "なくて",
+        "なくても",
+        "なければ"
+      ],
+      "answer": 3,
+      "explanation": "**〜なければいけません** = 'must / have to …' (literally 'if you don't, it won't do').",
+      "notes": [
+        "ないで + いけません isn't a pattern. ないで is used for 'without doing' or ないでください.",
+        "なくて + いけません isn't the obligation pattern. Use なければ or なくては.",
+        "なくてもいい means 'don't have to'. なくてもいけません is contradictory.",
+        ""
+      ],
+      "translation": "I have to hand in the report by tomorrow."
+    },
+    {
+      "prompt": "{無理|むり}をし（　）でください。",
+      "options": [
+        "なくて",
+        "なかった",
+        "ない",
+        "なく"
+      ],
+      "answer": 2,
+      "explanation": "**ない-form + でください** = 'please don't …'.",
+      "notes": [
+        "なくてください isn't a form. Use ないでください.",
+        "Past なかった can't be used in a request.",
+        "",
+        "なく is an adverbial form. It can't be followed by でください."
+      ],
+      "translation": "Please don't overdo it."
+    },
+    {
+      "prompt": "{大学|だいがく}を{卒業|そつぎょう}する（　）、{日本|にほん}にいるつもりです。",
+      "options": [
+        "ので",
+        "から",
+        "までに",
+        "まで"
+      ],
+      "answer": 3,
+      "explanation": "**まで** = 'until', for a state or action that continues up to a point (いる = keep being there). **までに** = 'by (a deadline)', for a one-time action.",
+      "notes": [
+        "ので ('because') has the same problem.",
+        "から ('because/from') makes it 'because I graduate, I'll stay', which doesn't make sense.",
+        "までに is for a deadline for a single action (卒業するまでに論文を書く). いる is an ongoing state, so it needs まで.",
+        ""
+      ],
+      "translation": "I plan to stay in Japan until I graduate from university."
+    },
+    {
+      "prompt": "もっと{勉強|べんきょう}すれ（　）よかったです。",
+      "options": [
+        "ば",
+        "て",
+        "たら",
+        "と"
+      ],
+      "answer": 0,
+      "explanation": "**ば-form + よかった** = 'I should have …' (regret). すれ is part of the ば-form of する: すれば.",
+      "notes": [
+        "",
+        "すれて isn't a form.",
+        "The たら form would be したらよかった, which can't follow すれ.",
+        "と attaches to the dictionary form (すると), not すれ."
+      ],
+      "translation": "I should have studied more."
+    }
+  ]
+}

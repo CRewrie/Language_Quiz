@@ -1,0 +1,331 @@
+{
+  "id": "zh-a2-comparisons",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "Comparisons: 比, 没有, 跟…一样, 更, 最, 多, 有点儿",
+  "description": "A 比 B + adj (and why 很 can't go there), 没有 for 'not as … as', sameness with 一样, how tall/far with 多, and 有点儿 vs 一点儿.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "bi",
+      "title": "A 比 B + adjective",
+      "summary": "A 比 B + adj = A is more … than B. No 很 / 非常 / 太 before the adjective — use 更 / 还, or put the amount after it.",
+      "body": "- 哥哥**比**我高.\n- 他**比**我高**一点儿** / 高**两厘米**.\n- 今天**比**昨天**更**冷.\n- ~~他比我很高~~ ✗",
+      "examples": [
+        [
+          "{今天|jīntiān}{比|bǐ}{昨天|zuótiān}{更|gèng}{冷|lěng}。",
+          "Today is even colder than yesterday."
+        ]
+      ]
+    },
+    {
+      "id": "meiyou_comp",
+      "title": "A 没有 B + adjective: not as … as",
+      "summary": "A 没有 B (那么) + adj = A isn't as … as B.",
+      "body": "- 我**没有**他高 (I'm not as tall as him).\n- 不比 = 'not more … than' (maybe equal) — weaker.",
+      "examples": [
+        [
+          "{我|wǒ}{没有|méiyǒu}{他|tā}{高|gāo}。",
+          "I'm not as tall as him."
+        ]
+      ]
+    },
+    {
+      "id": "yiyang",
+      "title": "A 跟 / 和 B 一样 (+ adj)",
+      "summary": "A 跟 B 一样 = A is the same as B; 一样 + adj = equally ….",
+      "body": "- 我的手机**跟**你的**一样**.\n- 我**跟**他**一样**高.",
+      "examples": [
+        [
+          "{我|wǒ}{跟|gēn}{他|tā}{一样|yíyàng}{高|gāo}。",
+          "I'm as tall as him."
+        ]
+      ]
+    },
+    {
+      "id": "zui",
+      "title": "最 + adjective: the most",
+      "summary": "最 (zuì) = most / -est.",
+      "body": "- 他是我们班**最**高的学生.",
+      "examples": [
+        [
+          "{这|zhè}{是|shì}{我|wǒ}{最|zuì}{喜欢|xǐhuan}{的|de}{菜|cài}。",
+          "This is my favourite dish."
+        ]
+      ]
+    },
+    {
+      "id": "duo",
+      "title": "多 + adjective?: how …?",
+      "summary": "(有) 多 + adj? asks for an amount: 多高 (how tall), 多远, 多大 (how old), 多长.",
+      "body": "- 你**多**高? — 一米八.\n- 长城有**多**长?",
+      "examples": [
+        [
+          "{你|nǐ}{多|duō}{高|gāo}？",
+          "How tall are you?"
+        ]
+      ]
+    },
+    {
+      "id": "youdian",
+      "title": "有点儿 vs 一点儿",
+      "summary": "有点儿 + adj = a bit (too) …, usually negative, **before** the adjective. Adj + 一点儿 = a bit more …, **after** the adjective (comparisons, requests).",
+      "body": "- 今天**有点儿**冷.\n- 便宜**一点儿**吧! / 有没有大**一点儿**的?",
+      "examples": [
+        [
+          "{今天|jīntiān}{有点儿|yǒudiǎnr}{冷|lěng}。",
+          "It's a bit cold today."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "bi",
+      "prompt": "{哥哥|gēge}（　）{我|wǒ}{高|gāo}。",
+      "options": [
+        "{跟|gēn}",
+        "{和|hé}",
+        "{对|duì}",
+        "{比|bǐ}"
+      ],
+      "answer": 3,
+      "explanation": "Comparison: **比**.",
+      "notes": [
+        "跟我高 isn't a comparison — 跟 needs 一样.",
+        "和我高 isn't grammatical.",
+        "对 = 'towards'.",
+        ""
+      ],
+      "translation": "My older brother is taller than me."
+    },
+    {
+      "point": "bi",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{很|hěn}{比|bǐ}{我|wǒ}{高|gāo}。",
+        "{他|tā}{比|bǐ}{我|wǒ}{高|gāo}{很|hěn}。",
+        "{他|tā}{比|bǐ}{我|wǒ}{高|gāo}{一点儿|yìdiǎnr}。",
+        "{他|tā}{比|bǐ}{我|wǒ}{很|hěn}{高|gāo}。"
+      ],
+      "answer": 2,
+      "explanation": "比 + adj (+ amount).",
+      "notes": [
+        "很 can't go before 比.",
+        "很 can't go after the adjective.",
+        "",
+        "No 很 in a 比 comparison."
+      ],
+      "translation": "He's a bit taller than me."
+    },
+    {
+      "point": "bi",
+      "prompt": "{今天|jīntiān}{比|bǐ}{昨天|zuótiān}（　）{冷|lěng}。",
+      "options": [
+        "{非常|fēicháng}",
+        "{更|gèng}",
+        "{太|tài}",
+        "{很|hěn}"
+      ],
+      "answer": 1,
+      "explanation": "Even more: **比…更**.",
+      "notes": [
+        "非常 can't be used with 比.",
+        "",
+        "太 can't be used with 比.",
+        "很 can't be used with 比."
+      ],
+      "translation": "Today is even colder than yesterday."
+    },
+    {
+      "point": "meiyou_comp",
+      "prompt": "Which sentence means 'I'm not as tall as him'?",
+      "options": [
+        "{我|wǒ}{没有|méiyǒu}{他|tā}{高|gāo}。",
+        "{他|tā}{没有|méiyǒu}{我|wǒ}{高|gāo}。",
+        "{我|wǒ}{比|bǐ}{他|tā}{不|bù}{高|gāo}。",
+        "{我|wǒ}{不|bù}{比|bǐ}{他|tā}{高|gāo}。"
+      ],
+      "answer": 0,
+      "explanation": "**A 没有 B + adj**.",
+      "notes": [
+        "",
+        "That's 'he's not as tall as me'.",
+        "不 can't go after 比.",
+        "不比 = 'not taller than' — we might be the same height."
+      ],
+      "translation": "I'm not as tall as him."
+    },
+    {
+      "point": "meiyou_comp",
+      "prompt": "{北京|Běijīng}{的|de}{冬天|dōngtiān}（　）{哈尔滨|Hā'ěrbīn}{冷|lěng}。",
+      "options": [
+        "{不要|búyào}",
+        "{没有|méiyǒu}",
+        "{不是|búshì}",
+        "{不有|bù yǒu}"
+      ],
+      "answer": 1,
+      "explanation": "Not as … as: **没有**.",
+      "notes": [
+        "不要 = 'don't'.",
+        "",
+        "不是 doesn't make comparisons.",
+        "不有 doesn't exist."
+      ],
+      "translation": "Winter in Beijing isn't as cold as in Harbin."
+    },
+    {
+      "point": "yiyang",
+      "prompt": "{我|wǒ}{的|de}{手机|shǒujī}{跟|gēn}{你|nǐ}{的|de}（　）。",
+      "options": [
+        "{一下|yíxià}",
+        "{一点|yìdiǎn}",
+        "{一样|yíyàng}",
+        "{一起|yìqǐ}"
+      ],
+      "answer": 2,
+      "explanation": "Same: **跟…一样**.",
+      "notes": [
+        "一下 = 'briefly'.",
+        "一点 = 'a little'.",
+        "",
+        "一起 = 'together'."
+      ],
+      "translation": "My phone is the same as yours."
+    },
+    {
+      "point": "yiyang",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{一样|yíyàng}{跟|gēn}{他|tā}{高|gāo}。",
+        "{我|wǒ}{跟|gēn}{他|tā}{一样|yíyàng}{高|gāo}。",
+        "{我|wǒ}{跟|gēn}{他|tā}{一样|yíyàng}{很|hěn}{高|gāo}。",
+        "{我|wǒ}{跟|gēn}{他|tā}{高|gāo}{一样|yíyàng}。"
+      ],
+      "answer": 1,
+      "explanation": "A 跟 B **一样** + adj.",
+      "notes": [
+        "跟 + B comes first.",
+        "",
+        "No 很 after 一样.",
+        "一样 goes before the adjective."
+      ],
+      "translation": "I'm as tall as him."
+    },
+    {
+      "point": "zui",
+      "prompt": "{他|tā}{是|shì}{我们|wǒmen}{班|bān}（　）{高|gāo}{的|de}{学生|xuésheng}。",
+      "options": [
+        "{更|gèng}",
+        "{太|tài}",
+        "{最|zuì}",
+        "{比|bǐ}"
+      ],
+      "answer": 2,
+      "explanation": "The most: **最**.",
+      "notes": [
+        "更 compares two things.",
+        "太高的学生 = 'too tall a student'.",
+        "",
+        "比 needs a second noun."
+      ],
+      "translation": "He's the tallest student in our class."
+    },
+    {
+      "point": "zui",
+      "prompt": "{这|zhè}{是|shì}{我|wǒ}（　）{喜欢|xǐhuan}{的|de}{菜|cài}。",
+      "options": [
+        "{太|tài}",
+        "{最|zuì}",
+        "{比|bǐ}",
+        "{更|gèng}"
+      ],
+      "answer": 1,
+      "explanation": "Favourite: **最喜欢**.",
+      "notes": [
+        "太喜欢的 isn't natural.",
+        "",
+        "比 needs a second noun.",
+        "更 needs something to compare with."
+      ],
+      "translation": "This is my favourite dish."
+    },
+    {
+      "point": "duo",
+      "prompt": "A：{你|nǐ}（　）{高|gāo}？\nB：{一|yì}{米|mǐ}{八|bā}。",
+      "options": [
+        "{什么|shénme}",
+        "{几|jǐ}",
+        "{怎么|zěnme}",
+        "{多|duō}"
+      ],
+      "answer": 3,
+      "explanation": "How + adj: **多**.",
+      "notes": [
+        "什么高 isn't grammatical.",
+        "几高 isn't grammatical.",
+        "怎么高 = 'how come (you're) tall'.",
+        ""
+      ],
+      "translation": "A: How tall are you? B: 1.80 m."
+    },
+    {
+      "point": "duo",
+      "prompt": "{长城|Chángchéng}{有|yǒu}（　）{长|cháng}？",
+      "options": [
+        "{怎么|zěnme}",
+        "{哪|nǎ}",
+        "{多|duō}",
+        "{几|jǐ}"
+      ],
+      "answer": 2,
+      "explanation": "**有多 + adj**?",
+      "notes": [
+        "怎么长 = 'how does it grow'.",
+        "哪长 isn't grammatical.",
+        "",
+        "几长 isn't grammatical."
+      ],
+      "translation": "How long is the Great Wall?"
+    },
+    {
+      "point": "youdian",
+      "prompt": "{今天|jīntiān}（　）{冷|lěng}，{多|duō}{穿|chuān}{点儿|diǎnr}{衣服|yīfu}。",
+      "options": [
+        "{一点儿|yìdiǎnr}",
+        "{有的|yǒude}",
+        "{一些|yìxiē}",
+        "{有点儿|yǒudiǎnr}"
+      ],
+      "answer": 3,
+      "explanation": "A bit (unpleasant): **有点儿 + adj**.",
+      "notes": [
+        "一点儿 goes after the adjective, not before.",
+        "有的 = 'some (of them)'.",
+        "一些 goes before nouns.",
+        ""
+      ],
+      "translation": "It's a bit cold today — put on some more clothes."
+    },
+    {
+      "point": "youdian",
+      "prompt": "{这|zhè}{件|jiàn}{太|tài}{贵|guì}{了|le}，{有|yǒu}{没有|méiyǒu}{便宜|piányi}（　）{的|de}？",
+      "options": [
+        "{一点儿|yìdiǎnr}",
+        "{有的|yǒude}",
+        "{有点儿|yǒudiǎnr}",
+        "{一些儿|yìxiēr}"
+      ],
+      "answer": 0,
+      "explanation": "A bit more …: **adj + 一点儿**.",
+      "notes": [
+        "",
+        "有的 = 'some'.",
+        "有点儿 goes before the adjective.",
+        "一些儿 isn't a word."
+      ],
+      "translation": "This one is too expensive — do you have a slightly cheaper one?"
+    }
+  ]
+}

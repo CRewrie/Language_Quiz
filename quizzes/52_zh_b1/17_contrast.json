@@ -1,0 +1,212 @@
+{
+  "id": "zh-b1-contrast",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Which One? 离 vs 从, 的时候 vs 以后, 之间 vs 中间, 人家",
+  "description": "B1 contrast practice: distance vs starting point, during vs after, between vs middle, and the many meanings of 人家.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "li_cong",
+      "title": "离 vs 从",
+      "summary": "离 (lí) = distance from (A 离 B 很近, 离考试还有三天). 从 (cóng) = starting point of a movement or time (从…到…).",
+      "body": "- **从**这儿到火车站要多长时间?\n- 现在**离**考试还有三天.",
+      "examples": [
+        [
+          "{现在|xiànzài}{离|lí}{考试|kǎoshì}{还有|háiyǒu}{三|sān}{天|tiān}。",
+          "There are three days left until the exam."
+        ]
+      ]
+    },
+    {
+      "id": "yihou_deshihou",
+      "title": "的时候 vs 以后",
+      "summary": "…的时候 = while / when (at the same time). …以后 = after (it's finished).",
+      "body": "- 我小**的时候**住在农村.\n- 到了北京**以后**，给我发个短信.",
+      "examples": [
+        [
+          "{我|wǒ}{小|xiǎo}{的|de}{时候|shíhou}{住|zhù}{在|zài}{农村|nóngcūn}。",
+          "When I was little I lived in the countryside."
+        ]
+      ]
+    },
+    {
+      "id": "zhijian",
+      "title": "之间 vs 中间",
+      "summary": "之间 (zhījiān) always follows two (or more) things: 我们之间, A 和 B 之间. 中间 (zhōngjiān) can stand alone: 坐在中间 (sit in the middle).",
+      "body": "- 我们**之间**没有秘密.\n- 请坐在**中间**.",
+      "examples": [
+        [
+          "{我们|wǒmen}{之间|zhījiān}{没有|méiyǒu}{秘密|mìmì}。",
+          "There are no secrets between us."
+        ]
+      ]
+    },
+    {
+      "id": "renjia",
+      "title": "人家: others / that person / I",
+      "summary": "人家 (rénjia) usually means 'other people' (like 别人) — but said playfully about yourself it means 'I'.",
+      "body": "- **人家**都去了，你为什么不去? (Everyone else went …)\n- **人家**不想去嘛! (I don't want to go! — sulky, playful)",
+      "examples": [
+        [
+          "{人家|rénjia}{都|dōu}{去|qù}{了|le}，{你|nǐ}{为什么|wèishénme}{不|bú}{去|qù}？",
+          "Everyone else went — why aren't you going?"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "li_cong",
+      "prompt": "（　）{这儿|zhèr}{到|dào}{火车站|huǒchēzhàn}{要|yào}{多|duō}{长|cháng}{时间|shíjiān}？",
+      "options": [
+        "{往|wǎng}",
+        "{在|zài}",
+        "{从|cóng}",
+        "{离|lí}"
+      ],
+      "answer": 2,
+      "explanation": "Starting point: **从…到**.",
+      "notes": [
+        "往 = 'towards'.",
+        "在这儿到 isn't the pattern.",
+        "",
+        "离 doesn't pair with 到."
+      ],
+      "translation": "How long does it take from here to the train station?"
+    },
+    {
+      "point": "li_cong",
+      "prompt": "{现在|xiànzài}（　）{考试|kǎoshì}{还有|háiyǒu}{三|sān}{天|tiān}，{我|wǒ}{得|děi}{好好|hǎohǎo}{复习|fùxí}。",
+      "options": [
+        "{从|cóng}",
+        "{在|zài}",
+        "{到|dào}",
+        "{离|lí}"
+      ],
+      "answer": 3,
+      "explanation": "Distance (in time): **离**.",
+      "notes": [
+        "从考试 = 'since the exam'.",
+        "在考试 = 'during the exam'.",
+        "到考试还有 isn't the pattern.",
+        ""
+      ],
+      "translation": "There are three days left until the exam — I need to revise properly."
+    },
+    {
+      "point": "yihou_deshihou",
+      "prompt": "{我|wǒ}{小|xiǎo}（　），{住|zhù}{在|zài}{农村|nóngcūn}。",
+      "options": [
+        "{以后|yǐhòu}",
+        "{的时候|de shíhou}",
+        "{时间|shíjiān}",
+        "{以来|yǐlái}"
+      ],
+      "answer": 1,
+      "explanation": "While: **的时候**.",
+      "notes": [
+        "小以后 doesn't work — childhood doesn't 'finish' at a point.",
+        "",
+        "小时间 isn't grammatical.",
+        "以来 = 'since'."
+      ],
+      "translation": "When I was little I lived in the countryside."
+    },
+    {
+      "point": "yihou_deshihou",
+      "prompt": "{到|dào}{了|le}{北京|Běijīng}（　），{给|gěi}{我|wǒ}{发|fā}{个|ge}{短信|duǎnxìn}。",
+      "options": [
+        "{以后|yǐhòu}",
+        "{以前|yǐqián}",
+        "{后来|hòulái}",
+        "{时间|shíjiān}"
+      ],
+      "answer": 0,
+      "explanation": "After (完成): **了…以后**.",
+      "notes": [
+        "",
+        "Before arriving you can't report arriving.",
+        "后来 can't follow a verb.",
+        "时间 = 'time' (a noun)."
+      ],
+      "translation": "Text me after you get to Beijing."
+    },
+    {
+      "point": "zhijian",
+      "prompt": "{我们|wǒmen}{是|shì}{最|zuì}{好|hǎo}{的|de}{朋友|péngyou}，{我们|wǒmen}（　）{没有|méiyǒu}{秘密|mìmì}。",
+      "options": [
+        "{对面|duìmiàn}",
+        "{旁边|pángbiān}",
+        "{中间|zhōngjiān}",
+        "{之间|zhījiān}"
+      ],
+      "answer": 3,
+      "explanation": "Between (people): **之间**.",
+      "notes": [
+        "对面 = 'opposite'.",
+        "旁边 = 'next to'.",
+        "中间 = the middle (a position) — not 'between people'.",
+        ""
+      ],
+      "translation": "We're best friends — there are no secrets between us."
+    },
+    {
+      "point": "zhijian",
+      "prompt": "{你|nǐ}{个子|gèzi}{不|bù}{高|gāo}，{照相|zhàoxiàng}{的|de}{时候|shíhou}{站|zhàn}{在|zài}（　）{吧|ba}。",
+      "options": [
+        "{之一|zhīyī}",
+        "{以间|yǐjiān}",
+        "{中间|zhōngjiān}",
+        "{之间|zhījiān}"
+      ],
+      "answer": 2,
+      "explanation": "Stands alone: **中间**.",
+      "notes": [
+        "之一 = 'one of'.",
+        "以间 isn't a word.",
+        "",
+        "之间 needs two things before it."
+      ],
+      "translation": "You're not tall — stand in the middle for the photo."
+    },
+    {
+      "point": "renjia",
+      "prompt": "In 「{人家|rénjia}{都|dōu}{去|qù}{了|le}，{你|nǐ}{为什么|wèishénme}{不|bú}{去|qù}？」, who is 人家?",
+      "options": [
+        "thespeaker",
+        "nobody",
+        "thespeaker'sfamily",
+        "otherpeople,everyoneelse"
+      ],
+      "answer": 3,
+      "explanation": "人家 = **others** (like 别人).",
+      "notes": [
+        "Here 人家 contrasts with 你 — it's the others.",
+        "人家 isn't 家人.",
+        "That's the playful use — not here.",
+        ""
+      ],
+      "translation": "Everyone else went — why aren't you going?"
+    },
+    {
+      "point": "renjia",
+      "prompt": "Said in a sulky, playful tone, who doesn't want to go in 「{人家|rénjia}{不|bù}{想|xiǎng}{去|qù}{嘛|ma}！」?",
+      "options": [
+        "thespeakerherself/himself",
+        "everybody",
+        "otherpeople",
+        "thefamily"
+      ],
+      "answer": 0,
+      "explanation": "Playful 人家 = **I**.",
+      "notes": [
+        "",
+        "Not in this tone.",
+        "In this tone 人家 means 'I'.",
+        "人家 isn't 大家."
+      ],
+      "translation": "I don't want to go!"
+    }
+  ]
+}

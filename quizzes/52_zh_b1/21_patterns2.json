@@ -1,0 +1,362 @@
+{
+  "id": "zh-b1-patterns2",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Patterns (2): 一个一个, 个个 / 天天, 想…就…, 多长时间…一次, 一方面…另一方面, 不是不, A是A",
+  "description": "One by one, every single, as you like, how often, on the one hand / on the other, double negation, and conceding a point.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "yiyi",
+      "title": "一 + MW + 一 + MW: one by one",
+      "summary": "一个一个, 一口一口 = one at a time.",
+      "body": "- 请大家**一个一个**进来.",
+      "examples": [
+        [
+          "{他|tā}{一口一口|yì kǒu yì kǒu}{地|de}{吃|chī}。",
+          "He ate bite by bite."
+        ]
+      ]
+    },
+    {
+      "id": "mwredup",
+      "title": "个个 / 天天 / 人人: every single",
+      "summary": "Doubling a measure word = every single one, usually with 都.",
+      "body": "- 我们班的学生**个个**都很聪明.\n- 他**天天**都去跑步.",
+      "examples": [
+        [
+          "{他|tā}{天天|tiāntiān}{都|dōu}{去|qù}{跑步|pǎobù}。",
+          "He goes running every single day."
+        ]
+      ]
+    },
+    {
+      "id": "xiangjiu",
+      "title": "想 + QW + 就 + QW: whatever you like",
+      "summary": "想吃什么就吃什么 = eat whatever you want. The same question word appears twice.",
+      "body": "- 想去**哪儿**就去**哪儿**.",
+      "examples": [
+        [
+          "{今天|jīntiān}{你|nǐ}{想|xiǎng}{吃|chī}{什么|shénme}{就|jiù}{吃|chī}{什么|shénme}。",
+          "Today you can eat whatever you like."
+        ]
+      ]
+    },
+    {
+      "id": "duochang",
+      "title": "多长时间 + verb + 一次?: how often",
+      "summary": "Subject + 多长时间 + verb + 一次 (+ object)? Answer: 一个月一次 etc.",
+      "body": "- 你**多长时间**去**一次**超市?",
+      "examples": [
+        [
+          "{你|nǐ}{多|duō}{长|cháng}{时间|shíjiān}{回|huí}{一|yí}{次|cì}{家|jiā}？",
+          "How often do you go home?"
+        ]
+      ]
+    },
+    {
+      "id": "yifangmian",
+      "title": "一方面 … 另一方面 …",
+      "summary": "一方面 A，(另)一方面 B = on the one hand … on the other (two sides or two reasons).",
+      "body": "- 我学中文，**一方面**是因为工作，**另一方面**是因为我喜欢中国文化.",
+      "examples": [
+        [
+          "{他|tā}{一方面|yì fāngmiàn}{要|yào}{工作|gōngzuò}，{一方面|yì fāngmiàn}{要|yào}{照顾|zhàogù}{孩子|háizi}。",
+          "He has to work on the one hand, and look after the children on the other."
+        ]
+      ]
+    },
+    {
+      "id": "bushibu",
+      "title": "不是不 …: it's not that … not",
+      "summary": "不是不 + verb = it's not that (I) don't … — there's another reason.",
+      "body": "- 我**不是不**想去，是没有时间.",
+      "examples": [
+        [
+          "{我|wǒ}{不是|búshì}{不|bù}{想|xiǎng}{去|qù}，{是|shì}{没有|méiyǒu}{时间|shíjiān}。",
+          "It's not that I don't want to go — I just don't have time."
+        ]
+      ]
+    },
+    {
+      "id": "shishi",
+      "title": "A 是 A，但是 / 就是 …: sure, but",
+      "summary": "Adj + 是 + same adj，但是 / 就是 … = it is …, but ….",
+      "body": "- 这件衣服好看**是**好看，**但是**太贵了.",
+      "examples": [
+        [
+          "{东西|dōngxi}{好|hǎo}{是|shì}{好|hǎo}，{就是|jiùshì}{贵|guì}{了|le}{点儿|diǎnr}。",
+          "It's good, sure, just a bit pricey."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "yiyi",
+      "prompt": "{别|bié}{急|jí}，{请|qǐng}{大家|dàjiā}（　）{个|gè}{一|yí}{个|gè}{进来|jìnlái}。",
+      "options": [
+        "{每|měi}",
+        "{个|gè}",
+        "{几|jǐ}",
+        "{一|yí}"
+      ],
+      "answer": 3,
+      "explanation": "One by one: **一个一个**.",
+      "notes": [
+        "每个一个 isn't the pattern.",
+        "个个一个 isn't the pattern.",
+        "几个一个 isn't the pattern.",
+        ""
+      ],
+      "translation": "Don't rush — please come in one at a time."
+    },
+    {
+      "point": "yiyi",
+      "prompt": "What does 「{他|tā}{一口一口|yì kǒu yì kǒu}{地|de}{吃|chī}。」 mean?",
+      "options": [
+        "Heatewitheveryone.",
+        "Heonlyateonebite.",
+        "Heatebitebybite.",
+        "Heateitinonebite."
+      ],
+      "answer": 2,
+      "explanation": "一 MW 一 MW = **one by one**.",
+      "notes": [
+        "That's 跟大家一起吃.",
+        "That's 只吃了一口.",
+        "",
+        "That's 一口吃完."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "mwredup",
+      "prompt": "{我们|wǒmen}{班|bān}{的|de}{学生|xuésheng}（　）{都|dōu}{很|hěn}{聪明|cōngming}。",
+      "options": [
+        "{每个个|měi gègè}",
+        "{个个|gègè}",
+        "{一个|yí ge}",
+        "{个一个|gè yí gè}"
+      ],
+      "answer": 1,
+      "explanation": "Every single one: **个个**.",
+      "notes": [
+        "Not a form.",
+        "",
+        "一个都 = 'not a single one' (in negatives).",
+        "Not a form."
+      ],
+      "translation": "Every single student in our class is clever."
+    },
+    {
+      "point": "mwredup",
+      "prompt": "{他|tā}{身体|shēntǐ}{很|hěn}{好|hǎo}，{因为|yīnwèi}（　）{都|dōu}{去|qù}{跑步|pǎobù}。",
+      "options": [
+        "{一天|yì tiān}",
+        "{天一天|tiān yì tiān}",
+        "{每天天|měi tiāntiān}",
+        "{天天|tiāntiān}"
+      ],
+      "answer": 3,
+      "explanation": "Every single day: **天天**.",
+      "notes": [
+        "一天都去 isn't natural.",
+        "Not a form.",
+        "Not a form.",
+        ""
+      ],
+      "translation": "He's very healthy because he goes running every single day."
+    },
+    {
+      "point": "xiangjiu",
+      "prompt": "{今天|jīntiān}{你|nǐ}{过|guò}{生日|shēngrì}，{想|xiǎng}{吃|chī}{什么|shénme}{就|jiù}{吃|chī}（　）。",
+      "options": [
+        "{谁|shéi}",
+        "{什么|shénme}",
+        "{怎么|zěnme}",
+        "{哪儿|nǎr}"
+      ],
+      "answer": 1,
+      "explanation": "**想…什么就…什么**.",
+      "notes": [
+        "The same question word must repeat.",
+        "",
+        "The same question word must repeat.",
+        "The same question word must repeat."
+      ],
+      "translation": "It's your birthday — eat whatever you like."
+    },
+    {
+      "point": "xiangjiu",
+      "prompt": "{放假|fàngjià}{了|le}，{你|nǐ}{想|xiǎng}{去|qù}{哪儿|nǎr}{就|jiù}{去|qù}（　）。",
+      "options": [
+        "{谁|shéi}",
+        "{什么|shénme}",
+        "{怎么|zěnme}",
+        "{哪儿|nǎr}"
+      ],
+      "answer": 3,
+      "explanation": "**想去哪儿就去哪儿**.",
+      "notes": [
+        "The same question word must repeat.",
+        "The same question word must repeat.",
+        "The same question word must repeat.",
+        ""
+      ],
+      "translation": "It's the holidays — go wherever you want."
+    },
+    {
+      "point": "duochang",
+      "prompt": "{你|nǐ}（　）{去|qù}{一|yí}{次|cì}{超市|chāoshì}？",
+      "options": [
+        "{多长时间|duō cháng shíjiān}",
+        "{多少|duōshao}",
+        "{多大|duō dà}",
+        "{几点|jǐ diǎn}"
+      ],
+      "answer": 0,
+      "explanation": "How often: **多长时间…一次**.",
+      "notes": [
+        "",
+        "多少 = 'how many'.",
+        "多大 = 'how old / big'.",
+        "几点 = 'at what time'."
+      ],
+      "translation": "How often do you go to the supermarket?"
+    },
+    {
+      "point": "duochang",
+      "prompt": "A：{你|nǐ}{多|duō}{长|cháng}{时间|shíjiān}{回|huí}{一|yí}{次|cì}{家|jiā}？\nB：（　）。",
+      "options": [
+        "{一|yí}{月|yuè}{次|cì}",
+        "{一|yí}{次|cì}{一个|yí ge}{月|yuè}",
+        "{每|měi}{月|yuè}{一|yí}{个|gè}{次|cì}",
+        "{一个|yí ge}{月|yuè}{一|yí}{次|cì}"
+      ],
+      "answer": 3,
+      "explanation": "Period + **一次**.",
+      "notes": [
+        "Not grammatical.",
+        "The period comes first.",
+        "次 doesn't take 个.",
+        ""
+      ],
+      "translation": "A: How often do you go home? B: Once a month."
+    },
+    {
+      "point": "yifangmian",
+      "prompt": "{我|wǒ}{学|xué}{中文|Zhōngwén}，{一方面|yì fāngmiàn}{是|shì}{因为|yīnwèi}{工作|gōngzuò}{需要|xūyào}，（　）{是|shì}{因为|yīnwèi}{我|wǒ}{喜欢|xǐhuan}{中国|Zhōngguó}{文化|wénhuà}。",
+      "options": [
+        "{另一方面|lìng yì fāngmiàn}",
+        "{另一边|lìng yì biān}",
+        "{一边|yìbiān}",
+        "{方面|fāngmiàn}"
+      ],
+      "answer": 0,
+      "explanation": "**一方面…另一方面**.",
+      "notes": [
+        "",
+        "另一边 = 'the other side (place)'.",
+        "一边 pairs with 一边 (simultaneous actions).",
+        "方面 alone isn't the pattern."
+      ],
+      "translation": "I'm learning Chinese partly because I need it for work, and partly because I love Chinese culture."
+    },
+    {
+      "point": "yifangmian",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{方面|fāngmiàn}{一|yī}{要|yào}{工作|gōngzuò}，{方面|fāngmiàn}{一|yī}{要|yào}{照顾|zhàogù}{孩子|háizi}。",
+        "{他|tā}{一方面|yì fāngmiàn}{要|yào}{工作|gōngzuò}，{一边|yìbiān}{要|yào}{照顾|zhàogù}{孩子|háizi}。",
+        "{一方面|yì fāngmiàn}{他|tā}{要|yào}{工作|gōngzuò}{一方面|yì fāngmiàn}，{要|yào}{照顾|zhàogù}{孩子|háizi}。",
+        "{他|tā}{一方面|yì fāngmiàn}{要|yào}{工作|gōngzuò}，{一方面|yì fāngmiàn}{要|yào}{照顾|zhàogù}{孩子|háizi}。"
+      ],
+      "answer": 3,
+      "explanation": "**一方面…一方面**.",
+      "notes": [
+        "The order is 一方面.",
+        "一方面 pairs with (另)一方面, not 一边.",
+        "Each 一方面 introduces its own clause.",
+        ""
+      ],
+      "translation": "He has to work on the one hand, and look after the children on the other."
+    },
+    {
+      "point": "bushibu",
+      "prompt": "What does 「{我|wǒ}{不是|búshì}{不|bù}{想|xiǎng}{去|qù}，{是|shì}{没有|méiyǒu}{时间|shíjiān}。」 mean?",
+      "options": [
+        "It'snotthatIdon'twanttogo—Ijustdon'thavetime.",
+        "Idon'twanttogoandIdon'thavetime.",
+        "I'mnotgoingbecauseIdon'twantto.",
+        "IwanttogoandIhavetime."
+      ],
+      "answer": 0,
+      "explanation": "不是不 = **it's not that … not**.",
+      "notes": [
+        "",
+        "不是不 cancels the 'don't want'.",
+        "The reason is time, not wanting.",
+        "没有时间 = no time."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "bushibu",
+      "prompt": "{他|tā}{不是|búshì}（　）{喜欢|xǐhuan}{你|nǐ}，{只是|zhǐshì}{不好意思|bù hǎoyìsi}{说|shuō}。",
+      "options": [
+        "{非|fēi}",
+        "{没|méi}",
+        "{别|bié}",
+        "{不|bù}"
+      ],
+      "answer": 3,
+      "explanation": "**不是不** + verb.",
+      "notes": [
+        "非 isn't used like this.",
+        "不是没喜欢 isn't natural — 喜欢 is a state.",
+        "别 is a command.",
+        ""
+      ],
+      "translation": "It's not that he doesn't like you — he's just too shy to say it."
+    },
+    {
+      "point": "shishi",
+      "prompt": "{这|zhè}{件|jiàn}{衣服|yīfu}{好看|hǎokàn}（　）{好看|hǎokàn}，{但是|dànshì}{太|tài}{贵|guì}{了|le}。",
+      "options": [
+        "{都|dōu}",
+        "{也|yě}",
+        "{是|shì}",
+        "{就|jiù}"
+      ],
+      "answer": 2,
+      "explanation": "Conceding: **A 是 A，但是**.",
+      "notes": [
+        "好看都好看 isn't the pattern.",
+        "好看也好看 isn't the pattern.",
+        "",
+        "好看就好看 isn't the pattern."
+      ],
+      "translation": "This piece of clothing looks nice, sure, but it's too expensive."
+    },
+    {
+      "point": "shishi",
+      "prompt": "What does 「{东西|dōngxi}{好|hǎo}{是|shì}{好|hǎo}，{就是|jiùshì}{贵|guì}{了|le}{点儿|diǎnr}。」 mean?",
+      "options": [
+        "It'sgood,sure,justabitpricey.",
+        "It'sgoodbecauseit'sexpensive.",
+        "It'snotgoodandit'sexpensive.",
+        "It'sgoodandcheap."
+      ],
+      "answer": 0,
+      "explanation": "A是A，就是 = **sure, but**.",
+      "notes": [
+        "",
+        "就是 introduces a drawback, not a reason.",
+        "好是好 concedes it IS good.",
+        "贵了点儿 = a bit expensive."
+      ],
+      "translation": ""
+    }
+  ]
+}

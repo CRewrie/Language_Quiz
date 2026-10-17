@@ -1,0 +1,232 @@
+{
+  "id": "zh-b1-ba",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "The 把 Sentence",
+  "description": "Subject + 把 + object + verb + result: what the action does to something. Why the verb can't stand alone, where 没 / 不要 go, and which verbs can't use 把.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "ba_basic",
+      "title": "Subject + 把 + object + verb + …",
+      "summary": "把 (bǎ) moves a definite object before the verb to say what happens **to** it: put where, finished, broken, eaten ….",
+      "body": "- 请**把**门关上.\n- 你**把**手机放在哪儿了?\n- 他**把**我的蛋糕吃了!",
+      "examples": [
+        [
+          "{请|qǐng}{把|bǎ}{门|mén}{关|guān}{上|shang}。",
+          "Please close the door."
+        ]
+      ]
+    },
+    {
+      "id": "ba_needs",
+      "title": "The verb needs something after it",
+      "summary": "A 把 sentence can't end in a bare verb: add a result (完, 好, 干净), a place (在…), 了, or a direction.",
+      "body": "- 我把作业做**完了** — not ~~我把作业做~~.\n- 你把这杯水喝**了**吧.",
+      "examples": [
+        [
+          "{我|wǒ}{把|bǎ}{作业|zuòyè}{做|zuò}{完|wán}{了|le}。",
+          "I've finished my homework."
+        ]
+      ]
+    },
+    {
+      "id": "ba_neg",
+      "title": "没 / 不要 / modal verbs go before 把",
+      "summary": "Negation and modal verbs come **before** 把, not before the verb.",
+      "body": "- 我**没**把钱带来.\n- 你**不要**把这件事告诉他.\n- 你**应该**把房间打扫干净.",
+      "examples": [
+        [
+          "{你|nǐ}{不要|búyào}{把|bǎ}{这|zhè}{件|jiàn}{事|shì}{告诉|gàosu}{他|tā}。",
+          "Don't tell him about this."
+        ]
+      ]
+    },
+    {
+      "id": "ba_not",
+      "title": "Verbs that can't use 把",
+      "summary": "Verbs that don't act on the object — 是, 有, 在, 知道, 喜欢, 觉得, 认识 — never take 把.",
+      "body": "- 我很喜欢这本书 — not ~~我把这本书喜欢了~~.",
+      "examples": [
+        [
+          "{我|wǒ}{知道|zhīdào}{这|zhè}{件|jiàn}{事|shì}。",
+          "I know about this."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "ba_basic",
+      "prompt": "{请|qǐng}（　）{门|mén}{关|guān}{上|shang}。",
+      "options": [
+        "{把|bǎ}",
+        "{被|bèi}",
+        "{对|duì}",
+        "{让|ràng}"
+      ],
+      "answer": 0,
+      "explanation": "Doing something to the door: **把**.",
+      "notes": [
+        "",
+        "被 makes it passive: 'please be closed by the door'.",
+        "对门 = 'towards the door / opposite'.",
+        "让门关上 = 'let the door close'."
+      ],
+      "translation": "Please close the door."
+    },
+    {
+      "point": "ba_basic",
+      "prompt": "{你|nǐ}{把|bǎ}{我|wǒ}{的|de}{手机|shǒujī}{放|fàng}（　）{哪儿|nǎr}{了|le}？",
+      "options": [
+        "{过|guo}",
+        "{着|zhe}",
+        "{的|de}",
+        "{在|zài}"
+      ],
+      "answer": 3,
+      "explanation": "Put where: **放在 + place**.",
+      "notes": [
+        "放过哪儿 isn't grammatical.",
+        "放着哪儿 isn't grammatical.",
+        "放的哪儿 isn't grammatical.",
+        ""
+      ],
+      "translation": "Where did you put my phone?"
+    },
+    {
+      "point": "ba_basic",
+      "prompt": "What does 「{他|tā}{把|bǎ}{我|wǒ}{的|de}{蛋糕|dàngāo}{吃|chī}{了|le}！」 mean?",
+      "options": [
+        "Hewantstoeatmycake!",
+        "Heatemycake!",
+        "Iatehiscake!",
+        "Hegavemecake!"
+      ],
+      "answer": 1,
+      "explanation": "把 + object + verb: **he ate it**.",
+      "notes": [
+        "That's 他想吃我的蛋糕.",
+        "",
+        "他 is the subject — he did the eating.",
+        "That's 他给了我蛋糕."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "ba_needs",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{把|bǎ}{我|wǒ}{作业|zuòyè}{做|zuò}{完|wán}{了|le}。",
+        "{我|wǒ}{把|bǎ}{作业|zuòyè}{做|zuò}。",
+        "{我|wǒ}{做|zuò}{把|bǎ}{作业|zuòyè}{完|wán}{了|le}。",
+        "{我|wǒ}{把|bǎ}{作业|zuòyè}{做|zuò}{完|wán}{了|le}。"
+      ],
+      "answer": 3,
+      "explanation": "把 + object + verb + **result**.",
+      "notes": [
+        "The subject comes before 把.",
+        "The verb can't stand alone after 把.",
+        "把 + object comes before the verb.",
+        ""
+      ],
+      "translation": "I've finished my homework."
+    },
+    {
+      "point": "ba_needs",
+      "prompt": "{你|nǐ}{把|bǎ}{这|zhè}{杯|bēi}{药|yào}{喝|hē}（　）{吧|ba}，{喝|hē}{了|le}{就|jiù}{好|hǎo}{了|le}。",
+      "options": [
+        "{着|zhe}",
+        "{的|de}",
+        "{了|le}",
+        "{过|guo}"
+      ],
+      "answer": 2,
+      "explanation": "The verb needs something: **喝了**.",
+      "notes": [
+        "喝着 = 'be drinking' — no result.",
+        "喝的 isn't a complement.",
+        "",
+        "过 = experience — no result."
+      ],
+      "translation": "Drink this medicine — you'll feel better once you have."
+    },
+    {
+      "point": "ba_neg",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{把|bǎ}{钱|qián}{没|méi}{带|dài}{来|lái}。",
+        "{我|wǒ}{没|méi}{把|bǎ}{钱|qián}{带|dài}{来|lái}。",
+        "{我|wǒ}{没|méi}{把|bǎ}{钱|qián}{带|dài}。",
+        "{我|wǒ}{把|bǎ}{钱|qián}{不|bú}{带|dài}{来|lái}。"
+      ],
+      "answer": 1,
+      "explanation": "**没** + 把 + object + verb + complement.",
+      "notes": [
+        "没 goes before 把 (in standard Chinese).",
+        "",
+        "带 needs a result/direction: 带来.",
+        "不 doesn't fit a past event — and it goes before 把."
+      ],
+      "translation": "I didn't bring the money."
+    },
+    {
+      "point": "ba_neg",
+      "prompt": "Where does **{不要|búyào}** go?\n{你|nǐ}［A］{把|bǎ}［B］{这|zhè}{件|jiàn}{事|shì}［C］{告诉|gàosu}［D］{他|tā}。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "**不要** before 把.",
+      "notes": [
+        "",
+        "不要 can't come between 把 and its object.",
+        "不要 can't come after the object of 把.",
+        "不要 can't split the verb and its object."
+      ],
+      "translation": "Don't tell him about this.",
+      "fixed_order": true
+    },
+    {
+      "point": "ba_not",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{把|bǎ}{这|zhè}{本|běn}{书|shū}{很|hěn}{喜欢|xǐhuan}。",
+        "{我|wǒ}{很|hěn}{喜欢|xǐhuan}{这|zhè}{本|běn}{书|shū}。",
+        "{我|wǒ}{把|bǎ}{这|zhè}{本|běn}{书|shū}{喜欢|xǐhuan}{了|le}。",
+        "{我|wǒ}{喜欢|xǐhuan}{把|bǎ}{这|zhè}{本|běn}{书|shū}。"
+      ],
+      "answer": 1,
+      "explanation": "Feeling verbs: **no 把**.",
+      "notes": [
+        "喜欢 doesn't act on the book — no 把.",
+        "",
+        "喜欢 can't use 把.",
+        "把 needs a verb that does something to its object."
+      ],
+      "translation": "I really like this book."
+    },
+    {
+      "point": "ba_not",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{把|bǎ}{这|zhè}{件|jiàn}{事|shì}{知道|zhīdào}{了|le}。",
+        "{我|wǒ}{知道|zhīdào}{把|bǎ}{这|zhè}{件|jiàn}{事|shì}。",
+        "{我|wǒ}{把|bǎ}{这|zhè}{件|jiàn}{事|shì}{知道|zhīdào}。",
+        "{我|wǒ}{知道|zhīdào}{这|zhè}{件|jiàn}{事|shì}。"
+      ],
+      "answer": 3,
+      "explanation": "知道 takes a normal object — **no 把**.",
+      "notes": [
+        "知道 can't use 把.",
+        "把 can't follow the verb.",
+        "知道 can't use 把.",
+        ""
+      ],
+      "translation": "I know about this."
+    }
+  ]
+}

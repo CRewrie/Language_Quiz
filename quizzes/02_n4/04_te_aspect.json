@@ -1,0 +1,450 @@
+{
+  "id": "n4-te-aspect",
+  "category": "JLPT N4",
+  "title": "てある, ておく, てしまう, てみる, ていく & てくる",
+  "description": "The helper verbs after the て-form: prepared states, doing things in advance, regret and completion, trying, and change over time.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "tearu",
+      "title": "〜てある: has been done (and stays that way)",
+      "summary": "Transitive verb て-form + ある describes a state that someone deliberately created. The object becomes が: 窓が開けてある.",
+      "body": "**Transitive verb + てある** describes the **result of an intentional action** that is still visible:\n- 窓**が**開け**てあります** (the window has been opened, and someone left it open on purpose).\n- 壁に地図**が**貼っ**てあります** (a map has been put up on the wall).\n\n**Key features:**\n- Only **transitive** verbs (開ける, 貼る, 書く, 置く, 予約する).\n- The thing affected is marked with **が** (or は). The person who did it isn't mentioned.\n- It implies purpose or preparation: someone did it for a reason.\n\n**Compare the three 'states':**\n- 窓**が開いています**: intransitive + ている. The window is open (no idea why).\n- 窓**が開けてあります**: transitive + てある. Someone opened it, on purpose.\n- 窓**を開けています**: transitive + ている. Someone is opening it right now.",
+      "examples": [
+        [
+          "{壁|かべ}に{地図|ちず}が{貼|は}ってあります。",
+          "A map has been put up on the wall."
+        ],
+        [
+          "ホテルはもう{予約|よやく}してあります。",
+          "The hotel has already been booked."
+        ],
+        [
+          "{黒板|こくばん}に{名前|なまえ}が{書|か}いてあります。",
+          "A name is written on the blackboard."
+        ]
+      ]
+    },
+    {
+      "id": "teoku",
+      "title": "〜ておく: do in advance / leave as is",
+      "summary": "て-form + おく = do something in preparation, or leave something in a certain state. Casual: 〜とく / 〜どく.",
+      "body": "**て-form + おく** has two main uses:\n\n**1. Preparation / in advance:** 旅行の前にホテルを予約し**ておきます** (I'll book the hotel beforehand), 授業の前に予習し**ておく**.\n\n**2. Leave as is:** 窓を開け**ておいて**ください (please leave the window open), そのままにし**ておいて** (leave it as it is).\n\n**Casual contractions:**\n- 〜ておく → 〜**とく**: 買っ**とく**, 冷やし**とく**\n- 〜でおく → 〜**どく**: 読ん**どく**\n\n**てある vs ておく:** ておく is the **action** someone does for preparation (with を: ビールを冷やしておく). てある is the resulting **state** (with が: ビールが冷やしてある).",
+      "examples": [
+        [
+          "パーティーの{前|まえ}に、ビールを{冷|ひ}やしておきます。",
+          "I'll chill the beer before the party."
+        ],
+        [
+          "{使|つか}ったら、{元|もと}の{場所|ばしょ}に{戻|もど}しておいてください。",
+          "When you're done, please put it back where it was."
+        ],
+        [
+          "{明日|あした}の{資料|しりょう}、コピーしとくね。",
+          "I'll copy tomorrow's materials. (casual)"
+        ]
+      ]
+    },
+    {
+      "id": "teshimau",
+      "title": "〜てしまう: end up doing / do completely",
+      "summary": "て-form + しまう = (1) do something regrettable or by accident, (2) finish completely. Casual: 〜ちゃう / 〜じゃう.",
+      "body": "**て-form + しまう** has two meanings, often mixed:\n\n**1. Regret / accident / unwanted result:** 財布を忘れ**てしまいました** (I forgot my wallet, unfortunately), お皿を割っ**てしまった** (I broke a plate).\n\n**2. Completion:** 宿題を全部やっ**てしまいました** (I finished all my homework), 本を一日で読ん**でしまった** (I read the whole book in one day).\n\n**Casual contractions (very common):**\n- 〜てしまう → 〜**ちゃう** / past 〜**ちゃった**: 忘れ**ちゃった**\n- 〜でしまう → 〜**じゃう** / past 〜**じゃった**: 飲ん**じゃった**, 死ん**じゃう**\n\nThe choice of ちゃう vs じゃう follows the て-form: 〜て → ちゃ, 〜で → じゃ.",
+      "examples": [
+        [
+          "{大切|たいせつ}なお{皿|さら}を{割|わ}ってしまいました。",
+          "I (accidentally) broke an important plate."
+        ],
+        [
+          "{宿題|しゅくだい}、もう{全部|ぜんぶ}やっちゃった。",
+          "I've already finished all my homework."
+        ],
+        [
+          "{弟|おとうと}がわたしのジュースを{飲|の}んじゃった。",
+          "My little brother drank my juice (ugh)."
+        ]
+      ]
+    },
+    {
+      "id": "temiru",
+      "title": "〜てみる: try doing (and see)",
+      "summary": "て-form + みる = do something to see what it's like or what happens. It's not 'attempt with effort' (that's ようとする, N3).",
+      "body": "**て-form + みる** means **'try doing … and see'**: you do the action itself to find out the result or experience:\n- この服、着**てみても**いいですか (may I try this on?)\n- 日本料理を作っ**てみたい**です (I want to try making Japanese food).\n- 先生に聞い**てみてください** (try asking the teacher).\n\nみる is written in hiragana here, not 見る, because it has lost its 'see' meaning.\n\n**Nuance:** it softens suggestions (〜てみたらどう?) and expresses curiosity about new experiences.\n\n**Don't confuse it with 〜ようとする (N3)**, which is 'try to (attempt)' with effort, often failing: 起きようとしたが起きられなかった.",
+      "examples": [
+        [
+          "この{服|ふく}、{着|き}てみてもいいですか。",
+          "May I try this on?"
+        ],
+        [
+          "{日本|にほん}の{料理|りょうり}を{作|つく}ってみたいです。",
+          "I want to try making Japanese food."
+        ],
+        [
+          "わからなかったら、{先生|せんせい}に{聞|き}いてみてください。",
+          "If you don't understand, try asking the teacher."
+        ]
+      ]
+    },
+    {
+      "id": "teiku",
+      "title": "〜ていく: go on doing (from now on) / go and …",
+      "summary": "て-form + いく = (1) a change or continuation from now into the future, (2) do something and then go (or go while doing it).",
+      "body": "**て-form + いく** points **away**, from the present into the future, or away from the speaker:\n\n**1. Continuing change into the future:** これからも日本語の勉強を続け**ていく**つもりです (I'll keep studying from now on), 人口は減っ**ていく**でしょう (the population will keep decreasing).\n\n**2. Do something and then go / go in a certain way:** 傘を持っ**ていきます** (I'll take an umbrella along), 歩い**ていきます** (I'll go on foot), 朝ご飯を食べ**ていきます** (I'll eat breakfast before I go).\n\n**ていく vs てくる (time):**\n- ていく: from **now → future**\n- てくる: from **past → now**\n\nIn casual speech the い drops: 持っ**てく**.",
+      "examples": [
+        [
+          "これからも{日本語|にほんご}の{勉強|べんきょう}を{続|つづ}けていくつもりです。",
+          "I plan to keep studying Japanese from now on."
+        ],
+        [
+          "{雨|あめ}が{降|ふ}りそうだから、{傘|かさ}を{持|も}っていきます。",
+          "It looks like rain, so I'll take an umbrella."
+        ]
+      ]
+    },
+    {
+      "id": "tekuru",
+      "title": "〜てくる: come to / start to / go and come back",
+      "summary": "て-form + くる = (1) a change up to now ('has come to'), (2) start to (雨が降ってきた), (3) go, do something, and come back.",
+      "body": "**て-form + くる** points **toward** the speaker or the present:\n\n**1. Change up to now:** 日本語がわかるようになっ**てきました** (I've gradually come to understand Japanese), 寒くなっ**てきた** (it's got colder).\n\n**2. Something starts and reaches me:** 雨が降っ**てきました** (it's started to rain), いい匂いがし**てきた**.\n\n**3. Go, do something, and come back:** ちょっとコンビニに行っ**てくる**ね (I'll pop out to the convenience store), 飲み物を買っ**てきます** (I'll go buy drinks and come back).\n\n**4. Movement toward the speaker:** 走っ**てきた** (came running).\n\nThe set phrase **行ってきます** ('I'm off', lit. 'I'll go and come back') is this pattern.",
+      "examples": [
+        [
+          "{最近|さいきん}、{日本語|にほんご}がわかるようになってきました。",
+          "Recently I've come to understand Japanese."
+        ],
+        [
+          "あ、{雨|あめ}が{降|ふ}ってきました。",
+          "Oh, it's started to rain."
+        ],
+        [
+          "ちょっと{飲|の}み{物|もの}を{買|か}ってきます。",
+          "I'll just go and buy some drinks."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tearu",
+      "prompt": "{壁|かべ}にカレンダーが{掛|か}けて（　）。",
+      "options": [
+        "います",
+        "あります",
+        "おきます",
+        "みます"
+      ],
+      "answer": 1,
+      "explanation": "Transitive verb + **てある** with が: a deliberately created state.",
+      "notes": [
+        "With が, 掛けている would make the calendar the one hanging something.",
+        "",
+        "ておく needs を and a person doing it (カレンダーを掛けておきます).",
+        "てみる ('try') doesn't describe a state, and with が it's ungrammatical."
+      ],
+      "translation": "A calendar has been hung on the wall."
+    },
+    {
+      "point": "tearu",
+      "prompt": "（Someone opened it on purpose）{窓|まど}が（　）あります。",
+      "options": [
+        "{開|あ}いて",
+        "{開|あ}けって",
+        "{開|あ}く",
+        "{開|あ}けて"
+      ],
+      "answer": 3,
+      "explanation": "てある needs a **transitive** verb: 開ける → 開けてある.",
+      "notes": [
+        "開く is intransitive. Its state is 開いている, not 開いてある.",
+        "There's no small っ: 開けて.",
+        "てある needs the て-form.",
+        ""
+      ],
+      "translation": "The window has been (left) open."
+    },
+    {
+      "point": "tearu",
+      "prompt": "Which sentence says **someone turned off the light on purpose** and it's still off?",
+      "options": [
+        "{電気|でんき}を{消|け}しています。",
+        "{電気|でんき}が{消|き}えています。",
+        "{電気|でんき}が{消|け}してあります。",
+        "{電気|でんき}が{消|け}しています。"
+      ],
+      "answer": 2,
+      "explanation": "Transitive **消す + てある** = deliberately turned off, and the state remains.",
+      "notes": [
+        "電気を消しています = someone is turning it off right now (or habitually).",
+        "消えている just describes the state ('the light is off'), with no idea who or why.",
+        "",
+        "電気が消している is ungrammatical. The light can't 'turn off' something."
+      ],
+      "translation": "The light has been turned off."
+    },
+    {
+      "point": "teoku",
+      "prompt": "{旅行|りょこう}の{前|まえ}に、ホテルを{予約|よやく}して（　）。",
+      "options": [
+        "なります",
+        "います",
+        "あります",
+        "おきます"
+      ],
+      "answer": 3,
+      "explanation": "Doing something **in advance**: **ておく**.",
+      "notes": [
+        "てなります isn't a form.",
+        "予約しています = am booking now / habitually. That doesn't fit 'before the trip'.",
+        "てある needs が (ホテルが予約してある) and describes a state, not an action you'll do.",
+        ""
+      ],
+      "translation": "I'll book the hotel before the trip."
+    },
+    {
+      "point": "teoku",
+      "prompt": "{使|つか}ったら、{元|もと}の{場所|ばしょ}に{戻|もど}して（　）ください。",
+      "options": [
+        "みて",
+        "おいて",
+        "あって",
+        "いて"
+      ],
+      "answer": 1,
+      "explanation": "Leave something in a certain state: **ておいて**ください.",
+      "notes": [
+        "戻してみてください ('try putting it back') changes the meaning.",
+        "",
+        "てあってください isn't grammatical.",
+        "戻していてください ('keep returning it') doesn't fit."
+      ],
+      "translation": "When you've used it, please put it back where it was."
+    },
+    {
+      "point": "teoku",
+      "prompt": "（Casual）パーティーのビール、{冷|ひ}やし（　）ね。",
+      "options": [
+        "てる",
+        "ちゃう",
+        "とく",
+        "とる"
+      ],
+      "answer": 2,
+      "explanation": "Casual **〜とく** = 〜ておく (do in preparation).",
+      "notes": [
+        "冷やしてる = is chilling (now). It doesn't express preparation.",
+        "ちゃう = てしまう (regret/completion), not preparation.",
+        "",
+        "とる is dialect (Western Japan) for ている, not ておく."
+      ],
+      "translation": "I'll chill the beer for the party, okay?"
+    },
+    {
+      "point": "teshimau",
+      "prompt": "あっ、{大切|たいせつ}なお{皿|さら}を{割|わ}って（　）。",
+      "options": [
+        "ありました",
+        "みました",
+        "おきました",
+        "しまいました"
+      ],
+      "answer": 3,
+      "explanation": "An accident with regret: **てしまう**.",
+      "notes": [
+        "てある needs が and a deliberate state.",
+        "てみる means 'try breaking it'.",
+        "ておく implies breaking it on purpose, as preparation.",
+        ""
+      ],
+      "translation": "Oh no, I broke an important plate."
+    },
+    {
+      "point": "teshimau",
+      "prompt": "（Casual）{宿題|しゅくだい}、もう{全部|ぜんぶ}やっ（　）。",
+      "options": [
+        "ちった",
+        "ちゃった",
+        "じゃった",
+        "とった"
+      ],
+      "answer": 1,
+      "explanation": "やって + しまった → **やっちゃった** (completion).",
+      "notes": [
+        "ちった isn't a form.",
+        "",
+        "じゃった is for verbs whose て-form ends in で (飲んじゃった).",
+        "とった is dialect for ていた, or the past of 取る."
+      ],
+      "translation": "I've already finished all my homework."
+    },
+    {
+      "point": "teshimau",
+      "prompt": "{弟|おとうと}がわたしのジュースを{飲|の}ん（　）。",
+      "options": [
+        "ちゃった",
+        "どった",
+        "だった",
+        "じゃった"
+      ],
+      "answer": 3,
+      "explanation": "飲んで + しまった → **飲んじゃった**. A で-ending て-form gives じゃ.",
+      "notes": [
+        "ちゃった follows て-forms ending in て, not で.",
+        "どった isn't a form.",
+        "飲んだった isn't a form.",
+        ""
+      ],
+      "translation": "My little brother drank my juice."
+    },
+    {
+      "point": "temiru",
+      "prompt": "すみません、この{服|ふく}、{着|き}て（　）もいいですか。",
+      "options": [
+        "しまっ",
+        "あげ",
+        "み",
+        "おい"
+      ],
+      "answer": 2,
+      "explanation": "'Try on (and see)': 着て**みて**もいいですか.",
+      "notes": [
+        "着てしまってもいい ('end up wearing it') is odd.",
+        "着てあげてもいい ('wear it for you') makes no sense.",
+        "",
+        "着ておいてもいい ('put it on in advance') isn't trying on."
+      ],
+      "translation": "Excuse me, may I try this on?"
+    },
+    {
+      "point": "temiru",
+      "prompt": "いつか{日本|にほん}の{料理|りょうり}を{作|つく}って（　）たいです。",
+      "options": [
+        "い",
+        "み",
+        "あり",
+        "くれ"
+      ],
+      "answer": 1,
+      "explanation": "'Want to try making': 作って**み**たい.",
+      "notes": [
+        "作っていたい ('want to keep making') changes the meaning.",
+        "",
+        "作ってありたい isn't grammatical.",
+        "作ってくれたい isn't grammatical. くれる isn't used with たい for yourself."
+      ],
+      "translation": "Someday I want to try making Japanese food."
+    },
+    {
+      "point": "temiru",
+      "prompt": "わからなかったら、{先生|せんせい}に{聞|き}いて（　）。",
+      "options": [
+        "しまってください",
+        "おりてください",
+        "あってください",
+        "みてください"
+      ],
+      "answer": 3,
+      "explanation": "Suggesting someone try something: **てみてください**.",
+      "notes": [
+        "てしまってください ('end up asking') is odd.",
+        "おりて isn't a helper verb here (降りる = get off).",
+        "てあってください isn't grammatical.",
+        ""
+      ],
+      "translation": "If you don't understand, try asking the teacher."
+    },
+    {
+      "point": "teiku",
+      "prompt": "これからも{日本語|にほんご}の{勉強|べんきょう}を{続|つづ}けて（　）つもりです。",
+      "options": [
+        "くる",
+        "ある",
+        "いく",
+        "なる"
+      ],
+      "answer": 2,
+      "explanation": "Continuing **from now into the future**: **ていく**.",
+      "notes": [
+        "てくる describes change *up to now*, which clashes with これからも (from now on).",
+        "てあるつもり isn't grammatical.",
+        "",
+        "続けてなる isn't grammatical. なる doesn't follow a て-form."
+      ],
+      "translation": "I plan to keep studying Japanese from now on."
+    },
+    {
+      "point": "teiku",
+      "prompt": "{雨|あめ}が{降|ふ}りそうだから、{傘|かさ}を{持|も}って（　）。",
+      "options": [
+        "みます",
+        "しまいます",
+        "あります",
+        "いきます"
+      ],
+      "answer": 3,
+      "explanation": "Take something along when you go: **持っていく**.",
+      "notes": [
+        "持ってみます ('try holding it') doesn't fit.",
+        "持ってしまいます ('end up holding it') doesn't fit.",
+        "傘を持ってあります isn't grammatical (it would need が).",
+        ""
+      ],
+      "translation": "It looks like rain, so I'll take an umbrella."
+    },
+    {
+      "point": "tekuru",
+      "prompt": "{最近|さいきん}、{日本語|にほんご}のニュースがわかるようになって（　）。",
+      "options": [
+        "ありました",
+        "いきました",
+        "きました",
+        "おきました"
+      ],
+      "answer": 2,
+      "explanation": "A gradual change **up to now** (最近): **てきました**.",
+      "notes": [
+        "てありました isn't used with なる like this.",
+        "ていきました points from that point onward, which doesn't fit 最近.",
+        "",
+        "ておきました ('did in advance') doesn't fit a change."
+      ],
+      "translation": "Recently I've come to understand the news in Japanese."
+    },
+    {
+      "point": "tekuru",
+      "prompt": "あ、{雨|あめ}が{降|ふ}って（　）ました。{急|いそ}ぎましょう。",
+      "options": [
+        "お",
+        "き",
+        "い",
+        "あり"
+      ],
+      "answer": 1,
+      "explanation": "Something **starts** (and reaches us): 降って**きました**.",
+      "notes": [
+        "降っておきました isn't grammatical. Rain doesn't prepare.",
+        "",
+        "降っていました means 'it was raining', and it doesn't express that it just started.",
+        "降ってありました isn't grammatical."
+      ],
+      "translation": "Oh, it's started to rain. Let's hurry."
+    },
+    {
+      "point": "tekuru",
+      "prompt": "ちょっとコンビニに{行|い}って（　）ね。すぐ{戻|もど}るから。",
+      "options": [
+        "ある",
+        "いく",
+        "くる",
+        "しまう"
+      ],
+      "answer": 2,
+      "explanation": "Go somewhere and come back: **行ってくる**.",
+      "notes": [
+        "行ってある isn't grammatical.",
+        "行っていく isn't natural. You'd just say 行く.",
+        "",
+        "行ってしまう ('go away, unfortunately') contradicts すぐ戻る."
+      ],
+      "translation": "I'm just popping to the convenience store. I'll be right back."
+    }
+  ]
+}

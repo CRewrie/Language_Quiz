@@ -1,0 +1,362 @@
+{
+  "id": "zh-b1-misc",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "More B1: …时, 那么, 用 / 通过…来, 在…上, 使 / 请, 经过, 我来",
+  "description": "When (formal), in that case, by means of, in terms of, causing / inviting, after / passing by, and 'let me'.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "shi",
+      "title": "…时: when (formal)",
+      "summary": "Clause + 时 = …的时候, a bit more written.",
+      "body": "- 上课**时**，请关手机.\n- 我到家**时**，他已经睡了.",
+      "examples": [
+        [
+          "{上课|shàngkè}{时|shí}，{请|qǐng}{关|guān}{手机|shǒujī}。",
+          "Please switch off your phone during class."
+        ]
+      ]
+    },
+    {
+      "id": "name",
+      "title": "那么: in that case, then",
+      "summary": "那么 (nàme) at the start = 'well then, in that case'.",
+      "body": "- A: 我今天很忙. B: **那么**，我们明天再见吧.",
+      "examples": [
+        [
+          "{那么|nàme}，{我们|wǒmen}{明天|míngtiān}{再|zài}{见|jiàn}{吧|ba}。",
+          "Well then, let's meet tomorrow."
+        ]
+      ]
+    },
+    {
+      "id": "yonglai",
+      "title": "用 / 通过 + method + 来 + verb",
+      "summary": "来 links the method and the goal: 用这个方法来解决问题.",
+      "body": "- 他通过跑步**来**减肥.",
+      "examples": [
+        [
+          "{我们|wǒmen}{可以|kěyǐ}{用|yòng}{这个|zhège}{方法|fāngfǎ}{来|lái}{解决|jiějué}{问题|wèntí}。",
+          "We can use this method to solve the problem."
+        ]
+      ]
+    },
+    {
+      "id": "zaishang",
+      "title": "在 + topic + 上: in terms of",
+      "summary": "在学习上 (in studying), 在这个问题上 (on this issue).",
+      "body": "- **在**学习**上**，他很努力.",
+      "examples": [
+        [
+          "{在|zài}{这个|zhège}{问题|wèntí}{上|shang}，{我|wǒ}{同意|tóngyì}{你|nǐ}。",
+          "On this issue I agree with you."
+        ]
+      ]
+    },
+    {
+      "id": "causative",
+      "title": "使 / 请 + person + verb",
+      "summary": "使 (shǐ) = cause, make (feelings, written). 请 (qǐng) = invite / treat (请你吃饭 = my treat).",
+      "body": "- 这个消息**使**大家都很高兴.\n- 今天我**请**你吃饭.",
+      "examples": [
+        [
+          "{今天|jīntiān}{我|wǒ}{请|qǐng}{你|nǐ}{吃饭|chīfàn}。",
+          "Dinner's on me today."
+        ]
+      ]
+    },
+    {
+      "id": "jingguo",
+      "title": "经过: after (a process); pass by",
+      "summary": "经过 (jīngguò) + effort / time = after; 经过 + place = pass by.",
+      "body": "- **经过**三年的努力，他终于成功了.\n- 我每天上班都**经过**这个公园.",
+      "examples": [
+        [
+          "{经过|jīngguò}{三|sān}{年|nián}{的|de}{努力|nǔlì}，{他|tā}{终于|zhōngyú}{成功|chénggōng}{了|le}。",
+          "After three years of hard work, he finally succeeded."
+        ]
+      ]
+    },
+    {
+      "id": "lai_dummy",
+      "title": "我来 (+ verb): let me",
+      "summary": "来 can stand in for a verb: 我来吧 = let me (do it).",
+      "body": "- 这个箱子太重了。——我**来**吧!\n- 你休息，我**来**做饭.",
+      "examples": [
+        [
+          "{你|nǐ}{休息|xiūxi}，{我|wǒ}{来|lái}{做饭|zuòfàn}。",
+          "You rest, I'll do the cooking."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "shi",
+      "prompt": "{上课|shàngkè}（　），{请|qǐng}{关|guān}{手机|shǒujī}。",
+      "options": [
+        "{时|shí}",
+        "{时间|shíjiān}",
+        "{后来|hòulái}",
+        "{以|yǐ}"
+      ],
+      "answer": 0,
+      "explanation": "When (formal): **…时**.",
+      "notes": [
+        "",
+        "时间 is a noun — 上课时间 would need another verb.",
+        "后来 can't follow a verb.",
+        "以 alone doesn't mean 'when'."
+      ],
+      "translation": "Please switch off your phone during class."
+    },
+    {
+      "point": "shi",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{时|shí}{我|wǒ}{到|dào}{家|jiā}，{他|tā}{已经|yǐjīng}{睡|shuì}{了|le}。",
+        "{我|wǒ}{到|dào}{家|jiā}{时|shí}，{他|tā}{已经|yǐjīng}{睡|shuì}{了|le}。",
+        "{我|wǒ}{到|dào}{时|shí}{家|jiā}，{他|tā}{已经|yǐjīng}{睡|shuì}{了|le}。",
+        "{我|wǒ}{时|shí}{到|dào}{家|jiā}，{他|tā}{已经|yǐjīng}{睡|shuì}{了|le}。"
+      ],
+      "answer": 1,
+      "explanation": "Clause + **时**.",
+      "notes": [
+        "时 follows the whole clause.",
+        "",
+        "时 follows the whole clause.",
+        "时 follows the whole clause."
+      ],
+      "translation": "When I got home, he was already asleep."
+    },
+    {
+      "point": "name",
+      "prompt": "A：{我|wǒ}{今天|jīntiān}{很|hěn}{忙|máng}。\nB：（　），{我们|wǒmen}{明天|míngtiān}{再|zài}{见|jiàn}{吧|ba}。",
+      "options": [
+        "{这么|zhème}",
+        "{什么|shénme}",
+        "{怎么|zěnme}",
+        "{那么|nàme}"
+      ],
+      "answer": 3,
+      "explanation": "In that case: **那么**.",
+      "notes": [
+        "这么 = 'so (like this)'.",
+        "什么 = 'what'.",
+        "怎么 = 'how / why'.",
+        ""
+      ],
+      "translation": "A: I'm busy today. B: Well then, let's meet tomorrow."
+    },
+    {
+      "point": "name",
+      "prompt": "Which one means 'In that case, let's not go'?",
+      "options": [
+        "{那么|nàme}{我们|wǒmen}{去|qù}{了|le}。",
+        "{这么|zhème}，{我们|wǒmen}{就|jiù}{别|bié}{去|qù}{了|le}。",
+        "{那么|nàme}，{我们|wǒmen}{就|jiù}{别|bié}{去|qù}{了|le}。",
+        "{怎么|zěnme}，{我们|wǒmen}{就|jiù}{别|bié}{去|qù}{了|le}。"
+      ],
+      "answer": 2,
+      "explanation": "**那么，…**.",
+      "notes": [
+        "That says 'we went'.",
+        "这么 doesn't start a conclusion.",
+        "",
+        "怎么 asks 'how'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yonglai",
+      "prompt": "{我们|wǒmen}{可以|kěyǐ}{用|yòng}{这个|zhège}{方法|fāngfǎ}（　）{解决|jiějué}{问题|wèntí}。",
+      "options": [
+        "{到|dào}",
+        "{去|qù}",
+        "{在|zài}",
+        "{来|lái}"
+      ],
+      "answer": 3,
+      "explanation": "Method + **来** + verb.",
+      "notes": [
+        "到解决 isn't grammatical.",
+        "去 isn't the linking verb here.",
+        "在解决 = 'be solving'.",
+        ""
+      ],
+      "translation": "We can use this method to solve the problem."
+    },
+    {
+      "point": "yonglai",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{通过|tōngguò}{跑步|pǎobù}{来|lái}{减肥|jiǎnféi}。",
+        "{他|tā}{跑步|pǎobù}{通过|tōngguò}{来|lái}{减肥|jiǎnféi}。",
+        "{他|tā}{来|lái}{通过|tōngguò}{跑步|pǎobù}{减肥|jiǎnféi}。",
+        "{他|tā}{通过|tōngguò}{来|lái}{跑步|pǎobù}{减肥|jiǎnféi}。"
+      ],
+      "answer": 0,
+      "explanation": "**通过 + method + 来 + goal**.",
+      "notes": [
+        "",
+        "通过 comes before the method.",
+        "来 links the method and the goal.",
+        "来 comes after the method."
+      ],
+      "translation": "He's losing weight by running."
+    },
+    {
+      "point": "zaishang",
+      "prompt": "{在|zài}{学习|xuéxí}（　），{他|tā}{很|hěn}{努力|nǔlì}，{可是|kěshì}{在|zài}{生活|shēnghuó}{上|shang}{有点儿|yǒudiǎnr}{懒|lǎn}。",
+      "options": [
+        "{下|xià}",
+        "{前|qián}",
+        "{外|wài}",
+        "{上|shang}"
+      ],
+      "answer": 3,
+      "explanation": "In terms of: **在…上**.",
+      "notes": [
+        "在学习下 isn't the pattern.",
+        "在学习前 = 'before studying'.",
+        "在学习外 = 'outside of studying'.",
+        ""
+      ],
+      "translation": "When it comes to studying he works hard, but in daily life he's a bit lazy."
+    },
+    {
+      "point": "zaishang",
+      "prompt": "What does 「{在|zài}{这个|zhège}{问题|wèntí}{上|shang}，{我|wǒ}{同意|tóngyì}{你|nǐ}。」 mean?",
+      "options": [
+        "Onthisissue,Iagreewithyou.",
+        "Ontopofthisproblem,Iagree.",
+        "Afterthisproblem,Iagree.",
+        "Underthisproblem,Iagree."
+      ],
+      "answer": 0,
+      "explanation": "在…上 = **regarding**.",
+      "notes": [
+        "",
+        "上 here isn't physical.",
+        "上 isn't 'after'.",
+        "上 isn't 'under'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "causative",
+      "prompt": "{这个|zhège}{好|hǎo}{消息|xiāoxi}（　）{大家|dàjiā}{都|dōu}{很|hěn}{高兴|gāoxìng}。",
+      "options": [
+        "{把|bǎ}",
+        "{使|shǐ}",
+        "{被|bèi}",
+        "{对|duì}"
+      ],
+      "answer": 1,
+      "explanation": "Cause: **使**.",
+      "notes": [
+        "把大家都很高兴 isn't grammatical (no action verb).",
+        "",
+        "被 = passive — the news didn't suffer.",
+        "对大家都很高兴 isn't grammatical."
+      ],
+      "translation": "This good news made everyone very happy."
+    },
+    {
+      "point": "causative",
+      "prompt": "{今天|jīntiān}{我|wǒ}（　）{你|nǐ}{吃饭|chīfàn}，{你|nǐ}{想|xiǎng}{吃|chī}{什么|shénme}？",
+      "options": [
+        "{把|bǎ}",
+        "{被|bèi}",
+        "{使|shǐ}",
+        "{请|qǐng}"
+      ],
+      "answer": 3,
+      "explanation": "My treat: **请**.",
+      "notes": [
+        "把你吃饭 isn't grammatical.",
+        "被 = passive.",
+        "使你吃饭 isn't natural.",
+        ""
+      ],
+      "translation": "Dinner's on me today — what would you like?"
+    },
+    {
+      "point": "jingguo",
+      "prompt": "（　）{三|sān}{年|nián}{的|de}{努力|nǔlì}，{他|tā}{终于|zhōngyú}{成功|chénggōng}{了|le}。",
+      "options": [
+        "{对于|duìyú}",
+        "{关于|guānyú}",
+        "{经过|jīngguò}",
+        "{为了|wèile}"
+      ],
+      "answer": 2,
+      "explanation": "After (a process): **经过**.",
+      "notes": [
+        "对于 = 'regarding'.",
+        "关于 = 'about'.",
+        "",
+        "为了 = 'in order to'."
+      ],
+      "translation": "After three years of hard work, he finally succeeded."
+    },
+    {
+      "point": "jingguo",
+      "prompt": "{我|wǒ}{每天|měitiān}{上班|shàngbān}{都|dōu}{要|yào}（　）{这个|zhège}{公园|gōngyuán}。",
+      "options": [
+        "{过去|guòqù}",
+        "{超过|chāoguò}",
+        "{经常|jīngcháng}",
+        "{经过|jīngguò}"
+      ],
+      "answer": 3,
+      "explanation": "Pass by: **经过**.",
+      "notes": [
+        "过去 = 'go over / the past' — doesn't take the park as object here.",
+        "超过 = 'exceed'.",
+        "经常 = 'often'.",
+        ""
+      ],
+      "translation": "I pass this park on my way to work every day."
+    },
+    {
+      "point": "lai_dummy",
+      "prompt": "A：{这个|zhège}{箱子|xiāngzi}{太|tài}{重|zhòng}{了|le}。\nB：{我|wǒ}（　）{吧|ba}！",
+      "options": [
+        "{来|lái}",
+        "{去|qù}",
+        "{走|zǒu}",
+        "{到|dào}"
+      ],
+      "answer": 0,
+      "explanation": "Let me: **我来吧**.",
+      "notes": [
+        "",
+        "我去吧 = 'I'll go'.",
+        "我走吧 = 'I'll leave'.",
+        "我到吧 isn't natural."
+      ],
+      "translation": "A: This box is too heavy. B: Let me!"
+    },
+    {
+      "point": "lai_dummy",
+      "prompt": "What does 「{你|nǐ}{休息|xiūxi}，{我|wǒ}{来|lái}{做饭|zuòfàn}。」 mean?",
+      "options": [
+        "Yourested,andIcameandcooked.",
+        "Let'scooktogether.",
+        "Yourest,I'lldothecooking.",
+        "Yourest,I'mcomingovertocook."
+      ],
+      "answer": 2,
+      "explanation": "我来 + verb = **let me**.",
+      "notes": [
+        "It's about now, not the past.",
+        "Only 我 cooks.",
+        "",
+        "来 here doesn't mean physically coming."
+      ],
+      "translation": ""
+    }
+  ]
+}

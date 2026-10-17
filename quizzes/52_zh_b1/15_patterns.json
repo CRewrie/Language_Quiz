@@ -1,0 +1,362 @@
+{
+  "id": "zh-b1-patterns",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Useful Patterns: 为了, 对…来说, 每次…都, 怪不得 / 难怪, 还好…不然, 等…再, 不知道…好",
+  "description": "In order to, for someone, every time, no wonder, luckily … otherwise, wait until … then, and not knowing what to do.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "weile",
+      "title": "为了 + purpose，…: in order to",
+      "summary": "为了 (wèile) + goal comes **first**, then the action.",
+      "body": "- **为了**学好中文，他每天都练习.",
+      "examples": [
+        [
+          "{为了|wèile}{健康|jiànkāng}，{我|wǒ}{每天|měitiān}{跑步|pǎobù}。",
+          "I run every day for my health."
+        ]
+      ]
+    },
+    {
+      "id": "duilaishuo",
+      "title": "对 + person + 来说: for (someone)",
+      "summary": "对 X 来说 = from X's point of view, as far as X is concerned.",
+      "body": "- **对**我**来说**，学汉字最难.",
+      "examples": [
+        [
+          "{对|duì}{我|wǒ}{来说|lái shuō}，{学|xué}{汉字|Hànzì}{最|zuì}{难|nán}。",
+          "For me, learning characters is the hardest part."
+        ]
+      ]
+    },
+    {
+      "id": "meicidou",
+      "title": "每次 A 都 B: every time",
+      "summary": "每次 + event，(subject) + 都 + verb.",
+      "body": "- **每次**去北京，我**都**去看朋友.",
+      "examples": [
+        [
+          "{他|tā}{每|měi}{次|cì}{来|lái}{都|dōu}{给|gěi}{我|wǒ}{带|dài}{礼物|lǐwù}。",
+          "He brings me a present every time he comes."
+        ]
+      ]
+    },
+    {
+      "id": "guaibude",
+      "title": "怪不得 / 难怪: no wonder",
+      "summary": "Reason，怪不得 (guàibude) / 难怪 (nánguài) + what you now understand.",
+      "body": "- 他在中国住了十年，**怪不得**中文说得这么好.\n- 外面下雪了。——**难怪**这么冷!",
+      "examples": [
+        [
+          "{难怪|nánguài}{这么|zhème}{冷|lěng}！",
+          "No wonder it's so cold!"
+        ]
+      ]
+    },
+    {
+      "id": "haihao",
+      "title": "还好 …，不然 …: luckily, otherwise",
+      "summary": "还好 (háihǎo) = luckily; 不然 (bùrán) = otherwise (the bad outcome that was avoided).",
+      "body": "- **还好**我带了伞，**不然**就淋湿了.",
+      "examples": [
+        [
+          "{还好|háihǎo}{我|wǒ}{带|dài}{了|le}{伞|sǎn}，{不然|bùrán}{就|jiù}{淋|lín}{湿|shī}{了|le}。",
+          "Luckily I had an umbrella — otherwise I'd have got soaked."
+        ]
+      ]
+    },
+    {
+      "id": "dengdao",
+      "title": "等(到) A，再 / 就 B: when A, then B",
+      "summary": "等 (děng) + event，(subject) + 再 / 就 + verb = wait until A, then B.",
+      "body": "- **等**你回来，我们**再**吃饭.\n- **等到**明天，你**就**知道了.",
+      "examples": [
+        [
+          "{等|děng}{你|nǐ}{回来|huílái}，{我们|wǒmen}{再|zài}{吃饭|chīfàn}。",
+          "We'll eat when you get back."
+        ]
+      ]
+    },
+    {
+      "id": "buzhidao_hao",
+      "title": "不知道 + question + 好: don't know what to do",
+      "summary": "不知道 + 怎么办 / 说什么 / 去哪儿 + 好 = don't know what would be best.",
+      "body": "- 我**不知道**说什么**好**.",
+      "examples": [
+        [
+          "{我|wǒ}{不|bù}{知道|zhīdào}{怎么|zěnme}{办|bàn}{好|hǎo}。",
+          "I don't know what to do."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "weile",
+      "prompt": "（　）{学|xué}{好|hǎo}{中文|Zhōngwén}，{他|tā}{每天|měitiān}{都|dōu}{练习|liànxí}。",
+      "options": [
+        "{关于|guānyú}",
+        "{所以|suǒyǐ}",
+        "{因为|yīnwèi}",
+        "{为了|wèile}"
+      ],
+      "answer": 3,
+      "explanation": "In order to: **为了**.",
+      "notes": [
+        "关于 = 'about'.",
+        "所以 introduces a result.",
+        "因为 gives a reason, not a goal.",
+        ""
+      ],
+      "translation": "He practises every day in order to learn Chinese well."
+    },
+    {
+      "point": "weile",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{为了|wèile}，{健康|jiànkāng}{我|wǒ}{每天|měitiān}{跑步|pǎobù}。",
+        "{健康|jiànkāng}{为了|wèile}，{我|wǒ}{每天|měitiān}{跑步|pǎobù}。",
+        "{为了|wèile}{健康|jiànkāng}，{我|wǒ}{每天|měitiān}{跑步|pǎobù}。",
+        "{我|wǒ}{每天|měitiān}{跑步|pǎobù}，{为了|wèile}{的|de}{健康|jiànkāng}。"
+      ],
+      "answer": 2,
+      "explanation": "**为了 + goal**，action.",
+      "notes": [
+        "The goal follows 为了 directly.",
+        "为了 comes before the goal.",
+        "",
+        "No 的 after 为了."
+      ],
+      "translation": "I run every day for my health."
+    },
+    {
+      "point": "duilaishuo",
+      "prompt": "（　）{我|wǒ}{来说|lái shuō}，{学|xué}{汉字|Hànzì}{最|zuì}{难|nán}。",
+      "options": [
+        "{为|wèi}",
+        "{给|gěi}",
+        "{跟|gēn}",
+        "{对|duì}"
+      ],
+      "answer": 3,
+      "explanation": "For me: **对…来说**.",
+      "notes": [
+        "The pattern is 对…来说.",
+        "The pattern is 对…来说.",
+        "The pattern is 对…来说.",
+        ""
+      ],
+      "translation": "For me, learning characters is the hardest part."
+    },
+    {
+      "point": "duilaishuo",
+      "prompt": "{对|duì}{初学者|chūxuézhě}（　），{这|zhè}{本|běn}{书|shū}{有点儿|yǒudiǎnr}{难|nán}。",
+      "options": [
+        "{看来|kànlái}",
+        "{来说|lái shuō}",
+        "{来看|lái kàn}",
+        "{说话|shuōhuà}"
+      ],
+      "answer": 1,
+      "explanation": "**对…来说**.",
+      "notes": [
+        "看来 = 'it seems'.",
+        "",
+        "对…来看 isn't the pattern.",
+        "说话 = 'speak'."
+      ],
+      "translation": "For beginners, this book is a bit difficult."
+    },
+    {
+      "point": "meicidou",
+      "prompt": "{每|měi}{次|cì}{去|qù}{北京|Běijīng}，{我|wǒ}（　）{去|qù}{看|kàn}{朋友|péngyou}。",
+      "options": [
+        "{再|zài}",
+        "{又|yòu}",
+        "{都|dōu}",
+        "{才|cái}"
+      ],
+      "answer": 2,
+      "explanation": "Every time: **每次…都**.",
+      "notes": [
+        "再 = 'again (future)'.",
+        "又 = 'again'.",
+        "",
+        "每次 pairs with 都."
+      ],
+      "translation": "Every time I go to Beijing I visit friends."
+    },
+    {
+      "point": "meicidou",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{每|měi}{次|cì}{来|lái}{都|dōu}{给|gěi}{我|wǒ}{带|dài}{礼物|lǐwù}。",
+        "{他|tā}{每|měi}{次|cì}{来|lái}{给|gěi}{我|wǒ}{带|dài}{礼物|lǐwù}{都|dōu}。",
+        "{每|měi}{次|cì}{他|tā}{来|lái}{给|gěi}{都|dōu}{我|wǒ}{带|dài}{礼物|lǐwù}。",
+        "{他|tā}{都|dōu}{每|měi}{次|cì}{来|lái}{给|gěi}{我|wǒ}{带|dài}{礼物|lǐwù}。"
+      ],
+      "answer": 0,
+      "explanation": "每次 … **都** + verb.",
+      "notes": [
+        "",
+        "都 goes before the verb phrase.",
+        "都 can't split 给 and 我.",
+        "都 comes after the 每次 part."
+      ],
+      "translation": "He brings me a present every time he comes."
+    },
+    {
+      "point": "guaibude",
+      "prompt": "{他|tā}{在|zài}{中国|Zhōngguó}{住|zhù}{了|le}{十|shí}{年|nián}，（　）{中文|Zhōngwén}{说|shuō}{得|de}{这么|zhème}{好|hǎo}。",
+      "options": [
+        "{差点|chàdiǎn}",
+        "{怪不得|guàibude}",
+        "{虽然|suīrán}",
+        "{要不|yàobù}"
+      ],
+      "answer": 1,
+      "explanation": "No wonder: **怪不得**.",
+      "notes": [
+        "差点 = 'almost'.",
+        "",
+        "虽然 needs 但是 — and there's no contrast.",
+        "要不 = 'how about'."
+      ],
+      "translation": "He's lived in China for ten years — no wonder his Chinese is so good."
+    },
+    {
+      "point": "guaibude",
+      "prompt": "A：{外面|wàimiàn}{下雪|xià xuě}{了|le}。\nB：（　）{这么|zhème}{冷|lěng}！",
+      "options": [
+        "{困难|kùnnan}",
+        "{难过|nánguò}",
+        "{难怪|nánguài}",
+        "{难看|nánkàn}"
+      ],
+      "answer": 2,
+      "explanation": "No wonder: **难怪**.",
+      "notes": [
+        "困难 = 'difficulty'.",
+        "难过 = 'sad'.",
+        "",
+        "难看 = 'ugly'."
+      ],
+      "translation": "A: It's snowing outside. B: No wonder it's so cold!"
+    },
+    {
+      "point": "haihao",
+      "prompt": "（　）{我|wǒ}{带|dài}{了|le}{伞|sǎn}，{不然|bùrán}{就|jiù}{淋|lín}{湿|shī}{了|le}。",
+      "options": [
+        "{还好|háihǎo}",
+        "{最好|zuìhǎo}",
+        "{还是|háishi}",
+        "{好像|hǎoxiàng}"
+      ],
+      "answer": 0,
+      "explanation": "Luckily: **还好**.",
+      "notes": [
+        "",
+        "最好 = 'you'd better'.",
+        "还是 = 'had better / or'.",
+        "好像 = 'it seems'."
+      ],
+      "translation": "Luckily I had an umbrella — otherwise I'd have got soaked."
+    },
+    {
+      "point": "haihao",
+      "prompt": "{还好|háihǎo}{你|nǐ}{提醒|tíxǐng}{我|wǒ}，（　）{我|wǒ}{就|jiù}{忘|wàng}{了|le}。",
+      "options": [
+        "{所以|suǒyǐ}",
+        "{然后|ránhòu}",
+        "{虽然|suīrán}",
+        "{不然|bùrán}"
+      ],
+      "answer": 3,
+      "explanation": "Otherwise: **不然**.",
+      "notes": [
+        "所以 = 'so' — you didn't forget.",
+        "然后 = 'then, afterwards'.",
+        "虽然 = 'although'.",
+        ""
+      ],
+      "translation": "Good thing you reminded me — otherwise I'd have forgotten."
+    },
+    {
+      "point": "dengdao",
+      "prompt": "（　）{你|nǐ}{回来|huílái}，{我们|wǒmen}{再|zài}{吃饭|chīfàn}。",
+      "options": [
+        "{到|dào}",
+        "{等|děng}",
+        "{在|zài}",
+        "{从|cóng}"
+      ],
+      "answer": 1,
+      "explanation": "When … then: **等…再**.",
+      "notes": [
+        "到你回来 isn't the pattern.",
+        "",
+        "在你回来 isn't grammatical.",
+        "从你回来 = 'since you came back'."
+      ],
+      "translation": "We'll eat when you get back."
+    },
+    {
+      "point": "dengdao",
+      "prompt": "{现在|xiànzài}{先|xiān}{不|bú}{告诉|gàosu}{你|nǐ}，{等到|děngdào}{明天|míngtiān}，{你|nǐ}（　）{知道|zhīdào}{了|le}。",
+      "options": [
+        "{再|zài}",
+        "{才|cái}",
+        "{又|yòu}",
+        "{就|jiù}"
+      ],
+      "answer": 3,
+      "explanation": "**等到…就**.",
+      "notes": [
+        "再知道 isn't natural.",
+        "才 doesn't take 了.",
+        "又知道了 = 'knew again'.",
+        ""
+      ],
+      "translation": "I won't tell you yet — you'll find out tomorrow."
+    },
+    {
+      "point": "buzhidao_hao",
+      "prompt": "{他|tā}{突然|tūrán}{哭|kū}{了|le}，{我|wǒ}{不|bù}{知道|zhīdào}{说|shuō}{什么|shénme}（　）。",
+      "options": [
+        "{好|hǎo}",
+        "{会|huì}",
+        "{对|duì}",
+        "{很|hěn}"
+      ],
+      "answer": 0,
+      "explanation": "**不知道…好**.",
+      "notes": [
+        "",
+        "会 can't end the sentence.",
+        "说什么对 isn't the pattern.",
+        "很 can't end the sentence."
+      ],
+      "translation": "He suddenly started crying, and I didn't know what to say."
+    },
+    {
+      "point": "buzhidao_hao",
+      "prompt": "What does 「{我|wǒ}{不|bù}{知道|zhīdào}{怎么|zěnme}{办|bàn}{好|hǎo}。」 mean?",
+      "options": [
+        "Idon'tknowhowtodoitwell.",
+        "Idon'tknowwhattodo.",
+        "Iknowwhattodo.",
+        "Idon'tknowifit'sgood."
+      ],
+      "answer": 1,
+      "explanation": "不知道怎么办好 = **don't know what to do**.",
+      "notes": [
+        "好 here isn't 'well'.",
+        "",
+        "There's a 不.",
+        "That's 不知道好不好."
+      ],
+      "translation": ""
+    }
+  ]
+}

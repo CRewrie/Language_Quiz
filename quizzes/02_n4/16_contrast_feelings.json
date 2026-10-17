@@ -1,0 +1,473 @@
+{
+  "id": "n4-contrast-feelings",
+  "category": "JLPT N4",
+  "title": "のに, ても, それでも & Feelings: たがる, がる, がする, さ",
+  "description": "Two kinds of のに, 'even if' with ても, それでも, others' wishes and feelings (たがる/がる), sensing things with がする, and nouns from adjectives with さ.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "noni-purpose",
+      "title": "のに (1): for, in order to",
+      "summary": "Dictionary form + のに / noun + に + 便利だ・必要だ・使う・かかる = 'for (doing)'. Describes usefulness, cost or time.",
+      "body": "This のに appears with a limited set of predicates — **便利, 必要, 使う, いい, かかる (time/money), 役に立つ**:\n- このかばんは旅行する**のに**便利です.\n- 家を買う**のに**お金がかかります.\n\nWith nouns, drop の: 引っ越し**に**お金がかかる, 旅行**に**便利.\n\nCompare **ために** (purpose of a deliberate action): 日本語を勉強する**ために**日本に来た.",
+      "examples": [
+        [
+          "このかばんは{旅行|りょこう}するのに{便利|べんり}です。",
+          "This bag is handy for travelling."
+        ],
+        [
+          "{引|ひ}っ{越|こ}しにお{金|かね}がかかりました。",
+          "The move cost a lot of money."
+        ]
+      ]
+    },
+    {
+      "id": "noni-although",
+      "title": "のに (2): although, even though (frustration)",
+      "summary": "Plain form + のに = 'even though' — with surprise or frustration about an unexpected result. Nouns/な-adj take な. The main clause can't be a request or intention.",
+      "body": "- 薬を飲んだ**のに**、まだ熱が下がりません.\n- 日曜日**なのに**、仕事に行かなければならない.\n\n**Attachment:** plain form; nouns/な-adjectives with **な**: 日曜日**なのに**, 静か**なのに**.\n\n**Restriction:** the result is a *fact*, so the main clause can't be a request, invitation or intention:\n- ✗ 雨なのに、出かけましょう → use けど / ても: 雨だけど出かけましょう.\n\nAt the end of a sentence it expresses regret: 来ればよかった**のに**.",
+      "examples": [
+        [
+          "{薬|くすり}を{飲|の}んだのに、まだ{熱|ねつ}が{下|さ}がりません。",
+          "Even though I took medicine, my fever still hasn't gone down."
+        ],
+        [
+          "{日曜日|にちようび}なのに、{仕事|しごと}に{行|い}かなければなりません。",
+          "Even though it's Sunday, I have to go to work."
+        ]
+      ]
+    },
+    {
+      "id": "temo",
+      "title": "〜ても: even if, even though",
+      "summary": "て-form + も (い-adj くても, noun/な-adj でも). With いくら / どんなに = no matter how.",
+      "body": "**Formation:**\n- Verb: 呼んで → 呼ん**でも**, 行って → 行っ**ても**\n- い-adjective: 高い → 高**くても**\n- Noun / な-adjective: 雨 → 雨**でも**, 静か → 静か**でも**\n\n**Uses:**\n- 'Even if': 雨**でも**行きます.\n- 'No matter how': **いくら**呼ん**でも**返事がない, **どんなに**高く**ても**買う.\n\nUnlike のに, ても can be followed by requests and intentions.",
+      "examples": [
+        [
+          "いくら{呼|よ}んでも、{返事|へんじ}がありません。",
+          "No matter how much I call, there's no answer."
+        ],
+        [
+          "{高|たか}くても{買|か}います。",
+          "I'll buy it even if it's expensive."
+        ]
+      ]
+    },
+    {
+      "id": "soredemo",
+      "title": "それでも: but still, even so",
+      "summary": "Sentence-initial それでも = 'even so, nevertheless' — the following result goes against what you'd expect.",
+      "body": "- 何度も説明しました。**それでも**、彼はわかりませんでした.\n- 熱がありました。**それでも**、会社に行きました.\n\nCompare other connectors:\n- **それで** = so, therefore (expected result)\n- **それに** = moreover, besides\n- **それなら** = in that case\n- **それから** = and then",
+      "examples": [
+        [
+          "{何度|なんど}も{説明|せつめい}しました。それでも、{彼|かれ}はわかりませんでした。",
+          "I explained many times. Even so, he didn't understand."
+        ]
+      ]
+    },
+    {
+      "id": "tagaru",
+      "title": "〜たがる: (someone else) wants to",
+      "summary": "ます-stem + たがる = a third person's wish (shown through behaviour). Usually 〜たがっている.",
+      "body": "〜たい is only for *your own* wishes (or questions to the listener). For others, Japanese describes what they **show**:\n- 弟は新しいゲームを買い**たがっています**.\n- 子供は外で遊び**たがっています**.\n\nFormation: たい → drop い + **がる**: 行きたがる, 食べたがる. It conjugates as a godan verb: たがって, たがらない.\n\nNote: with たがる the object takes **を** (not が).",
+      "examples": [
+        [
+          "{弟|おとうと}は{新|あたら}しいゲームを{買|か}いたがっています。",
+          "My little brother wants to buy a new game."
+        ]
+      ]
+    },
+    {
+      "id": "garu",
+      "title": "〜がる: (someone else) feels / shows",
+      "summary": "Adjective stem (feelings) + がる = a third person shows a feeling: 怖がる, 寒がる, 嫌がる, ほしがる.",
+      "body": "Feelings like 怖い, 寒い, 嫌, 欲しい, 痛い are directly stated only for yourself. For others, add **がる**:\n- 妹は犬を**怖がって**います (my sister is afraid of dogs).\n- 彼は**寒がって**、ストーブをつけた.\n\nFormation: い-adjective → drop い + がる (怖**がる**); な-adjective → stem + がる (嫌**がる**).\nThe object of the feeling takes **を**: 犬**を**怖がる.",
+      "examples": [
+        [
+          "{妹|いもうと}は{犬|いぬ}を{怖|こわ}がっています。",
+          "My younger sister is afraid of dogs."
+        ],
+        [
+          "{彼|かれ}は{寒|さむ}がって、ストーブをつけました。",
+          "He felt cold and turned on the heater."
+        ]
+      ]
+    },
+    {
+      "id": "gasuru",
+      "title": "〜がする: smell / sound / taste / feel",
+      "summary": "におい・音・声・味・感じ + がする = there's a smell / sound / taste / feeling (perceived by the senses).",
+      "body": "- いいにおい**がします** (something smells good).\n- 変な音**がしました** (there was a strange noise).\n- このスープは変な味**がする**.\n- 誰かに見られている気**がする** (I have a feeling …).\n\nThe sensation takes **が**, not を: ✗ 音をする.",
+      "examples": [
+        [
+          "{台所|だいどころ}からいいにおいがします。",
+          "Something smells good from the kitchen."
+        ],
+        [
+          "{外|そと}で{変|へん}な{音|おと}がしました。",
+          "There was a strange noise outside."
+        ]
+      ]
+    },
+    {
+      "id": "sa",
+      "title": "〜さ: turning adjectives into nouns",
+      "summary": "い-adj (drop い) + さ / な-adj stem + さ = the degree/quality: 高さ (height), 大切さ (importance). いい → よさ.",
+      "body": "- 高い → 高**さ** (height), 長い → 長**さ** (length), 重い → 重**さ** (weight)\n- 大切 → 大切**さ** (importance), 便利 → 便利**さ**\n- いい → **よさ** (good points)\n\n〜さ measures *how much* of a quality something has. (〜み, as in 甘み or 楽しみ, is a different, limited suffix.)",
+      "examples": [
+        [
+          "この{山|やま}の{高|たか}さは{何|なん}メートルですか。",
+          "How high is this mountain?"
+        ],
+        [
+          "{仕事|しごと}の{大切|たいせつ}さがわかりました。",
+          "I understood the importance of the job."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "noni-purpose",
+      "prompt": "このかばんは{旅行|りょこう}する（　）{便利|べんり}です。",
+      "options": [
+        "ので",
+        "のを",
+        "なのに",
+        "のに"
+      ],
+      "answer": 3,
+      "explanation": "'Handy **for** travelling': dictionary form + **のに** + 便利.",
+      "notes": [
+        "ので = 'because' — 'because I travel, it's handy' is odd.",
+        "のを can't be followed by 便利.",
+        "なのに = 'even though' and needs a noun/な-adjective before it — 旅行するなのに is ungrammatical.",
+        ""
+      ],
+      "translation": "This bag is handy for travelling."
+    },
+    {
+      "point": "noni-purpose",
+      "prompt": "{引|ひ}っ{越|こ}し（　）お{金|かね}がかかりました。",
+      "options": [
+        "のに",
+        "なのに",
+        "に",
+        "だのに"
+      ],
+      "answer": 2,
+      "explanation": "With a **noun**, purpose-のに becomes just **に**.",
+      "notes": [
+        "のに after a noun needs な (なのに) — and that means 'even though'.",
+        "なのに = 'even though it's a move' — wrong meaning.",
+        "",
+        "だのに isn't standard."
+      ],
+      "translation": "The move cost a lot of money."
+    },
+    {
+      "point": "noni-although",
+      "prompt": "{薬|くすり}を{飲|の}んだ（　）、まだ{熱|ねつ}が{下|さ}がりません。",
+      "options": [
+        "のに",
+        "ので",
+        "のを",
+        "のは"
+      ],
+      "answer": 0,
+      "explanation": "Unexpected result → **のに** (even though).",
+      "notes": [
+        "",
+        "ので = 'because' — taking medicine isn't why the fever stays.",
+        "のを can't connect clauses here.",
+        "飲んだのは = 'the fact that I took…' — sentence wouldn't work."
+      ],
+      "translation": "Even though I took medicine, my fever still hasn't gone down."
+    },
+    {
+      "point": "noni-although",
+      "prompt": "{日曜日|にちようび}（　）、{仕事|しごと}に{行|い}かなければなりません。",
+      "options": [
+        "のに",
+        "だのに",
+        "なのに",
+        "でのに"
+      ],
+      "answer": 2,
+      "explanation": "Noun + **なのに**.",
+      "notes": [
+        "Nouns need な before のに.",
+        "だのに isn't standard.",
+        "",
+        "でのに isn't a form."
+      ],
+      "translation": "Even though it's Sunday, I have to go to work."
+    },
+    {
+      "point": "noni-although",
+      "prompt": "Which sentence is **wrong**?",
+      "options": [
+        "{雨|あめ}なのに、{出|で}かけましょう。",
+        "{約束|やくそく}したのに、{来|こ}なかった。",
+        "{安|やす}いのに、{買|か}わなかった。",
+        "{雨|あめ}なのに、{出|で}かけた。"
+      ],
+      "answer": 0,
+      "explanation": "のに can't be followed by an invitation/intention (〜ましょう). Use けど / ても instead.",
+      "notes": [
+        "",
+        "Correct.",
+        "Correct.",
+        "Correct — a fact after のに."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "temo",
+      "prompt": "いくら{呼|よ}ん（　）、{返事|へんじ}がありません。",
+      "options": [
+        "だら",
+        "でも",
+        "だも",
+        "ても"
+      ],
+      "answer": 1,
+      "explanation": "呼ぶ → 呼んで → **呼んでも**.",
+      "notes": [
+        "だら is the conditional (呼んだら).",
+        "",
+        "だも isn't a form.",
+        "呼ぶ's て-form ends in で, so ても becomes でも."
+      ],
+      "translation": "No matter how much I call, there's no answer."
+    },
+    {
+      "point": "temo",
+      "prompt": "{高|たか}く（　）、この{時計|とけい}を{買|か}いたいです。",
+      "options": [
+        "でも",
+        "て",
+        "ても",
+        "たら"
+      ],
+      "answer": 2,
+      "explanation": "い-adjective: 高い → **高くても**.",
+      "notes": [
+        "い-adjectives take ても (くても), not でも.",
+        "高くて = 'it's expensive and…' — doesn't express 'even if'.",
+        "",
+        "高くたら isn't a form (高かったら)."
+      ],
+      "translation": "Even if it's expensive, I want to buy this watch."
+    },
+    {
+      "point": "temo",
+      "prompt": "{明日|あした}は（　）、{試合|しあい}をします。",
+      "options": [
+        "{雨|あめ}なでも",
+        "{雨|あめ}でも",
+        "{雨|あめ}だでも",
+        "{雨|あめ}ても"
+      ],
+      "answer": 1,
+      "explanation": "Noun + **でも** = even if it's ….",
+      "notes": [
+        "な isn't used here.",
+        "",
+        "だ disappears: 雨でも.",
+        "Nouns take でも, not ても."
+      ],
+      "translation": "Even if it rains tomorrow, we'll have the match."
+    },
+    {
+      "point": "soredemo",
+      "prompt": "{何度|なんど}も{説明|せつめい}しました。（　）、{彼|かれ}はわかりませんでした。",
+      "options": [
+        "それなら",
+        "それで",
+        "それに",
+        "それでも"
+      ],
+      "answer": 3,
+      "explanation": "Unexpected result → **それでも** (even so).",
+      "notes": [
+        "それなら = 'in that case' — doesn't fit.",
+        "それで = 'so' — implies he didn't understand *because* I explained.",
+        "それに = 'moreover' — doesn't fit.",
+        ""
+      ],
+      "translation": "I explained many times. Even so, he didn't understand."
+    },
+    {
+      "point": "soredemo",
+      "prompt": "{熱|ねつ}がありました。（　）、{会社|かいしゃ}に{休|やす}まず{行|い}きました。",
+      "options": [
+        "それに",
+        "それで",
+        "それでも",
+        "それなら"
+      ],
+      "answer": 2,
+      "explanation": "Despite the fever → **それでも**.",
+      "notes": [
+        "それに ('moreover') doesn't connect cause and contrast.",
+        "それで ('so') makes the fever the reason for going.",
+        "",
+        "それなら ('in that case') doesn't fit a past fact."
+      ],
+      "translation": "I had a fever. Even so, I went to work without taking a day off."
+    },
+    {
+      "point": "tagaru",
+      "prompt": "{弟|おとうと}は{新|あたら}しいゲームを{買|か}い（　）います。",
+      "options": [
+        "たくて",
+        "たがって",
+        "たがれて",
+        "たいて"
+      ],
+      "answer": 1,
+      "explanation": "Third person's wish: **たがっている**.",
+      "notes": [
+        "買いたくています isn't grammatical.",
+        "",
+        "たがれて isn't a form.",
+        "たいて isn't a form."
+      ],
+      "translation": "My little brother wants to buy a new game."
+    },
+    {
+      "point": "tagaru",
+      "prompt": "Which sentence correctly describes **a child's** wish?",
+      "options": [
+        "{子供|こども}は{外|そと}で{遊|あそ}びたいがっています。",
+        "{子供|こども}は{外|そと}で{遊|あそ}びたいです。",
+        "{子供|こども}は{外|そと}で{遊|あそ}びたがっています。",
+        "{子供|こども}は{外|そと}で{遊|あそ}びたがりです。"
+      ],
+      "answer": 2,
+      "explanation": "For someone else: **〜たがっている**.",
+      "notes": [
+        "Drop the い: たがる, not たいがる.",
+        "〜たいです states a wish as if you could feel it directly — unnatural for a third person.",
+        "",
+        "遊びたがりです isn't the wish pattern."
+      ],
+      "translation": "The child wants to play outside."
+    },
+    {
+      "point": "garu",
+      "prompt": "{妹|いもうと}は{犬|いぬ}を{怖|こわ}（　）います。",
+      "options": [
+        "がって",
+        "さがって",
+        "くて",
+        "いがって"
+      ],
+      "answer": 0,
+      "explanation": "怖い → drop い + **がる** → 怖がっている.",
+      "notes": [
+        "",
+        "さ isn't inserted.",
+        "怖くています isn't grammatical.",
+        "Drop the い before がる."
+      ],
+      "translation": "My younger sister is afraid of dogs."
+    },
+    {
+      "point": "garu",
+      "prompt": "{彼|かれ}は{寒|さむ}（　）、ストーブをつけました。",
+      "options": [
+        "くがって",
+        "がって",
+        "そうがって",
+        "いがって"
+      ],
+      "answer": 1,
+      "explanation": "寒い → **寒がって** (showing he feels cold).",
+      "notes": [
+        "No く before がる.",
+        "",
+        "そう and がる don't combine.",
+        "Drop the い before がる."
+      ],
+      "translation": "He felt cold and turned on the heater."
+    },
+    {
+      "point": "gasuru",
+      "prompt": "{台所|だいどころ}からいいにおい（　）します。",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "Sensation + **がする**.",
+      "notes": [
+        "においにする isn't the pattern.",
+        "においをする isn't grammatical.",
+        "においでする isn't grammatical.",
+        ""
+      ],
+      "translation": "Something smells good from the kitchen."
+    },
+    {
+      "point": "gasuru",
+      "prompt": "このスープは{変|へん}な{味|あじ}（　）します。",
+      "options": [
+        "を",
+        "が",
+        "で",
+        "の"
+      ],
+      "answer": 1,
+      "explanation": "Taste: 味**がする**.",
+      "notes": [
+        "味をする isn't grammatical.",
+        "",
+        "味でする isn't grammatical.",
+        "味のします isn't grammatical — the sensation takes が."
+      ],
+      "translation": "This soup tastes strange."
+    },
+    {
+      "point": "sa",
+      "prompt": "この{山|やま}の{高|たか}（　）は{何|なん}メートルですか。",
+      "options": [
+        "く",
+        "い",
+        "さ",
+        "み"
+      ],
+      "answer": 2,
+      "explanation": "い-adjective → noun: drop い + **さ** (height).",
+      "notes": [
+        "高くは… isn't a noun.",
+        "高いは… doesn't work as a noun here.",
+        "",
+        "高み means 'a high place / height (abstract)' — not the measurement."
+      ],
+      "translation": "How high is this mountain?"
+    },
+    {
+      "point": "sa",
+      "prompt": "{仕事|しごと}の{大切|たいせつ}（　）がわかりました。",
+      "options": [
+        "さ",
+        "なさ",
+        "だ",
+        "み"
+      ],
+      "answer": 0,
+      "explanation": "な-adjective stem + **さ**: 大切さ.",
+      "notes": [
+        "",
+        "No な before さ.",
+        "大切だが would be a clause, not a noun.",
+        "大切み isn't a word."
+      ],
+      "translation": "I understood the importance of the job."
+    }
+  ]
+}

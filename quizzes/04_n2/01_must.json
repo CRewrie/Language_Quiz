@@ -1,0 +1,361 @@
+{
+  "id": "n2-must",
+  "category": "JLPT N2",
+  "title": "Must & Can't Help: ざるを得ない, よりほかない, ねばならない, ないではいられない, てはいられない, ずに済む",
+  "description": "Having no choice, formal 'must', not being able to stop yourself, not being able to afford to keep doing something, and getting away without doing it.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "zaruwoenai",
+      "title": "〜ざるを得ない: have no choice but to",
+      "summary": "ない-stem + ざるを得ない = forced by circumstances to do something you'd rather not. する → せざるを得ない.",
+      "body": "- 会社の命令なので、行か**ざるを得ない**.\n- 雨で、中止**せざるを得ない**.\n\nFormation: ない-form minus ない + ざる: 行かない → 行か**ざる**; **する → せざる**; 来る → こざる.\nNuance: reluctant obligation — stronger and more formal than しかない.",
+      "examples": [
+        [
+          "{会社|かいしゃ}の{命令|めいれい}なので、{行|い}かざるを{得|え}ない。",
+          "It's a company order, so I have no choice but to go."
+        ]
+      ]
+    },
+    {
+      "id": "yorihokanai",
+      "title": "〜よりほかない: there's nothing to do but",
+      "summary": "Dictionary form + よりほかない(ほかはない) = the only option is. Similar to しかない, more formal.",
+      "body": "- 誰も手伝ってくれないので、自分でやる**よりほかない**.\n\nVariants: よりほかはない, ほかない, よりしかたがない.",
+      "examples": [
+        [
+          "{誰|だれ}も{手伝|てつだ}ってくれないので、{自分|じぶん}でやるよりほかない。",
+          "Nobody will help, so I have no choice but to do it myself."
+        ]
+      ]
+    },
+    {
+      "id": "nebanaranai",
+      "title": "〜ねばならない: must (formal / written)",
+      "summary": "ない-stem + ねばならない = なければならない in formal or written style. する → せねばならない.",
+      "body": "- 明日までに終わらせ**ねばならない**.\n- もっと努力**せねばならない**.\n\nSpoken short form: 〜ねば (行かねば！).",
+      "examples": [
+        [
+          "{明日|あした}までに{終|お}わらせねばならない。",
+          "It must be finished by tomorrow."
+        ]
+      ]
+    },
+    {
+      "id": "naidewairarenai",
+      "title": "〜ないではいられない: can't help (doing)",
+      "summary": "ない-form + ではいられない = can't stop yourself. Same as ずにはいられない (more colloquial).",
+      "body": "- その話を聞いて、笑わ**ないではいられなかった**.\n\nUsed for emotions/reactions you can't suppress.",
+      "examples": [
+        [
+          "その{話|はなし}を{聞|き}いて、{笑|わら}わないではいられなかった。",
+          "Hearing that story, I couldn't help laughing."
+        ]
+      ]
+    },
+    {
+      "id": "tewairarenai",
+      "title": "〜てはいられない: can't afford to (keep doing)",
+      "summary": "て-form + はいられない = the situation doesn't allow you to keep doing this.",
+      "body": "- 試験まであと1週間だ。遊んで**はいられない**.\n- ゆっくりして**はいられない** (no time to relax).",
+      "examples": [
+        [
+          "{試験|しけん}まであと1{週間|しゅうかん}だ。{遊|あそ}んではいられない。",
+          "The exam is a week away — I can't afford to fool around."
+        ]
+      ]
+    },
+    {
+      "id": "tebakariwairarenai",
+      "title": "〜てばかりはいられない: can't just keep doing",
+      "summary": "て-form + ばかりはいられない = you can't go on only doing this forever.",
+      "body": "- いつまでも泣いて**ばかりはいられない** (I can't just keep crying).",
+      "examples": [
+        [
+          "いつまでも{泣|な}いてばかりはいられない。",
+          "I can't just keep crying forever."
+        ]
+      ]
+    },
+    {
+      "id": "zunisumu",
+      "title": "〜ずに済む: get by without (having to) do",
+      "summary": "ない-stem + ずに済む = luckily, you don't have to do something. Also 〜ないで済む / 〜なくて済む.",
+      "body": "- 友達が送ってくれたので、タクシーに乗ら**ずに済んだ**.\n\n済む (すむ) = to be settled/finished. Don't confuse with 住む (to live)!",
+      "examples": [
+        [
+          "{友達|ともだち}が{車|くるま}で{送|おく}ってくれたので、タクシーに{乗|の}らずに{済|す}んだ。",
+          "My friend drove me, so I didn't have to take a taxi."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "zaruwoenai",
+      "prompt": "{会社|かいしゃ}の{命令|めいれい}なので、{行|い}か（　）。",
+      "options": [
+        "ざるを{得|え}ない",
+        "ざるを{得|え}る",
+        "ざるに{得|え}ない",
+        "ずを{得|え}ない"
+      ],
+      "answer": 0,
+      "explanation": "Forced to: **ざるを得ない**.",
+      "notes": [
+        "",
+        "The pattern is negative: 得ない.",
+        "The particle is を, not に.",
+        "ずを isn't the form — it's ざる."
+      ],
+      "translation": "It's a company order, so I have no choice but to go."
+    },
+    {
+      "point": "zaruwoenai",
+      "prompt": "{台風|たいふう}のため、{試合|しあい}は{中止|ちゅうし}（　）ざるを{得|え}ない。",
+      "options": [
+        "す",
+        "し",
+        "さ",
+        "せ"
+      ],
+      "answer": 3,
+      "explanation": "する → **せざる**を得ない.",
+      "notes": [
+        "すざる isn't a form.",
+        "しざる isn't a form.",
+        "さざる isn't a form.",
+        ""
+      ],
+      "translation": "Because of the typhoon, the match has to be cancelled."
+    },
+    {
+      "point": "yorihokanai",
+      "prompt": "{誰|だれ}も{手伝|てつだ}ってくれないので、{自分|じぶん}でやる（　）。",
+      "options": [
+        "よりほかない",
+        "よりほかに",
+        "ほかよりない",
+        "よりほかある"
+      ],
+      "answer": 0,
+      "explanation": "Only option: **よりほかない**.",
+      "notes": [
+        "",
+        "よりほかに can't end the sentence.",
+        "The order is wrong: よりほか.",
+        "The pattern is negative: ない."
+      ],
+      "translation": "Nobody will help, so I have no choice but to do it myself."
+    },
+    {
+      "point": "yorihokanai",
+      "prompt": "What does 「{待|ま}つよりほかない」 mean?",
+      "options": [
+        "I don't want to wait.",
+        "It's better than waiting.",
+        "I'll wait somewhere else.",
+        "There's nothing to do but wait."
+      ],
+      "answer": 3,
+      "explanation": "よりほかない = **no choice but**.",
+      "notes": [
+        "That would be 待ちたくない.",
+        "より here isn't a comparison.",
+        "ほか here means 'other option', not 'other place'.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nebanaranai",
+      "prompt": "{明日|あした}までにこの{仕事|しごと}を{終|お}わらせ（　）。",
+      "options": [
+        "ねばいけるない",
+        "ねばならない",
+        "ねばなる",
+        "ないばならない"
+      ],
+      "answer": 1,
+      "explanation": "Formal must: **ねばならない**.",
+      "notes": [
+        "いけるない isn't a form.",
+        "",
+        "ならない is required.",
+        "ないば isn't a form."
+      ],
+      "translation": "This work must be finished by tomorrow."
+    },
+    {
+      "point": "nebanaranai",
+      "prompt": "{目標|もくひょう}を{達成|たっせい}するためには、もっと{努力|どりょく}（　）ねばならない。",
+      "options": [
+        "さ",
+        "す",
+        "せ",
+        "し"
+      ],
+      "answer": 2,
+      "explanation": "する → **せねば**ならない.",
+      "notes": [
+        "さねば isn't a form.",
+        "すねば isn't a form.",
+        "",
+        "しねば isn't a form."
+      ],
+      "translation": "To reach the goal, we must work harder."
+    },
+    {
+      "point": "naidewairarenai",
+      "prompt": "その{話|はなし}を{聞|き}いて、{笑|わら}わ（　）いられなかった。",
+      "options": [
+        "ずでは",
+        "ないでは",
+        "なくては",
+        "ないで"
+      ],
+      "answer": 1,
+      "explanation": "Can't help: **ないではいられない**.",
+      "notes": [
+        "ずでは isn't a form (ずには would be).",
+        "",
+        "なくてはいられない isn't the pattern.",
+        "は is needed: ないでは."
+      ],
+      "translation": "Hearing that story, I couldn't help laughing."
+    },
+    {
+      "point": "tewairarenai",
+      "prompt": "{試験|しけん}まであと1{週間|しゅうかん}だ。{遊|あそ}んで（　）。",
+      "options": [
+        "はいられない",
+        "はいらない",
+        "がいられない",
+        "はいられる"
+      ],
+      "answer": 0,
+      "explanation": "Can't afford to: **てはいられない**.",
+      "notes": [
+        "",
+        "いらない = 'not needed'.",
+        "が isn't used in this pattern.",
+        "The pattern is negative."
+      ],
+      "translation": "The exam is a week away — I can't afford to fool around."
+    },
+    {
+      "point": "tebakariwairarenai",
+      "prompt": "いつまでも{泣|な}いて（　）。",
+      "options": [
+        "ばかりいられる",
+        "ばかりがいられない",
+        "ばかりはいられない",
+        "ばかりはいる"
+      ],
+      "answer": 2,
+      "explanation": "Can't just keep: **てばかりはいられない**.",
+      "notes": [
+        "The pattern is negative.",
+        "が isn't used here.",
+        "",
+        "ばかりはいる isn't the pattern."
+      ],
+      "translation": "I can't just keep crying forever."
+    },
+    {
+      "point": "zunisumu",
+      "prompt": "{友達|ともだち}が{車|くるま}で{送|おく}ってくれたので、タクシーに{乗|の}ら（　）。",
+      "options": [
+        "ないに{済|す}んだ",
+        "ずで{済|す}んだ",
+        "ずに{住|す}んだ",
+        "ずに{済|す}んだ"
+      ],
+      "answer": 3,
+      "explanation": "Got by without: **ずに済んだ** (済む).",
+      "notes": [
+        "ないに isn't a form (ないで済んだ would be).",
+        "ずで isn't a form.",
+        "住む = 'to live' — wrong kanji/verb.",
+        ""
+      ],
+      "translation": "My friend drove me, so I didn't have to take a taxi."
+    },
+    {
+      "point": "naidewairarenai",
+      "prompt": "{困|こま}っている{人|ひと}を{見|み}ると、{助|たす}け（　）。",
+      "options": [
+        "なくてはいられない",
+        "ないではいられない",
+        "ないでいられない",
+        "ないではいる"
+      ],
+      "answer": 1,
+      "explanation": "Can't help: **ないではいられない**.",
+      "notes": [
+        "なくてはいられない isn't the pattern.",
+        "",
+        "は is needed: ないでは.",
+        "The pattern is negative: いられない."
+      ],
+      "translation": "When I see someone in trouble, I can't help but help."
+    },
+    {
+      "point": "tewairarenai",
+      "prompt": "{時間|じかん}がないので、ゆっくり{食|た}べて（　）。",
+      "options": [
+        "はいる",
+        "もいられる",
+        "はいられない",
+        "がいられない"
+      ],
+      "answer": 2,
+      "explanation": "Can't afford to: **てはいられない**.",
+      "notes": [
+        "はいる isn't the pattern.",
+        "もいられる = 'can also stay' — positive.",
+        "",
+        "が isn't used here."
+      ],
+      "translation": "There's no time, so I can't sit around eating slowly."
+    },
+    {
+      "point": "tebakariwairarenai",
+      "prompt": "もう{大人|おとな}なのだから、{親|おや}に{頼|たよ}って（　）。",
+      "options": [
+        "ばかりはいられない",
+        "ばかりがいられない",
+        "ばかりはいる",
+        "ばかりいられる"
+      ],
+      "answer": 0,
+      "explanation": "Can't just keep: **てばかりはいられない**.",
+      "notes": [
+        "",
+        "が isn't used here.",
+        "ばかりはいる isn't the pattern.",
+        "The pattern is negative."
+      ],
+      "translation": "You're an adult now, so you can't keep relying on your parents."
+    },
+    {
+      "point": "zunisumu",
+      "prompt": "{会社|かいしゃ}の{近|ちか}くに{住|す}んでいるので、{電車|でんしゃ}に{乗|の}ら（　）。",
+      "options": [
+        "ずに{住|す}む",
+        "ずに{済|す}む",
+        "ずと{済|す}む",
+        "ずを{済|す}む"
+      ],
+      "answer": 1,
+      "explanation": "Get by without: **ずに済む**.",
+      "notes": [
+        "住む = 'to live' — wrong verb.",
+        "",
+        "ずと isn't the pattern.",
+        "ずを isn't the pattern."
+      ],
+      "translation": "I live near the office, so I don't have to take the train."
+    }
+  ]
+}

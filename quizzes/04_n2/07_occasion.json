@@ -1,0 +1,461 @@
+{
+  "id": "n2-occasion",
+  "category": "JLPT N2",
+  "title": "Occasion & Timing: 際に, に際して, にあたり, に先立ち, 次第, て以来, 上で, かと思ったら, か〜ないかのうちに",
+  "description": "Formal 'when', on the occasion of, prior to, as soon as, ever since, after (doing), no sooner than, and right as.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "saini",
+      "title": "〜際(に): when, at the time of (formal)",
+      "summary": "Dictionary/た-form / noun + の + 際(に) = formal とき (announcements, business).",
+      "body": "- お降りの**際**は、お忘れ物にご注意ください.\n- 申し込む**際に**、身分証明書が必要です.",
+      "examples": [
+        [
+          "お{降|お}りの{際|さい}は、お{忘|わす}れ{物|もの}にご{注意|ちゅうい}ください。",
+          "When getting off, please be careful not to leave anything behind."
+        ]
+      ]
+    },
+    {
+      "id": "nisaishite",
+      "title": "〜に際して: on the occasion of",
+      "summary": "Noun / dictionary form + に際して = when doing (something special/formal).",
+      "body": "- 入学**に際して**、書類を提出してください.",
+      "examples": [
+        [
+          "{入学|にゅうがく}に{際|さい}して、{書類|しょるい}を{提出|ていしゅつ}してください。",
+          "Please submit the documents upon enrolment."
+        ]
+      ]
+    },
+    {
+      "id": "niatari",
+      "title": "〜にあたり / にあたって: on the occasion of (formal)",
+      "summary": "Noun / dictionary form + にあたり = at the start of an important event (speeches, letters).",
+      "body": "- 新年を迎える**にあたり**、一言ご挨拶申し上げます.",
+      "examples": [
+        [
+          "{新年|しんねん}を{迎|むか}えるにあたり、{一言|ひとこと}ご{挨拶|あいさつ}{申|もう}し{上|あ}げます。",
+          "On the occasion of the New Year, I'd like to say a few words."
+        ]
+      ]
+    },
+    {
+      "id": "nisakidachi",
+      "title": "〜に先立ち / に先立って: prior to",
+      "summary": "Noun + に先立ち = before (an event), as preparation.",
+      "body": "- 試合**に先立ち**、開会式が行われた.",
+      "examples": [
+        [
+          "{試合|しあい}に{先立|さきだ}ち、{開会式|かいかいしき}が{行|おこな}われた。",
+          "Prior to the match, an opening ceremony was held."
+        ]
+      ]
+    },
+    {
+      "id": "shidai",
+      "title": "〜次第: as soon as",
+      "summary": "ます-stem + 次第 = as soon as A, (I'll) B. Business style; B is a future action.",
+      "body": "- 準備ができ**次第**、出発します.\n- 分かり**次第**、ご連絡します.",
+      "examples": [
+        [
+          "{準備|じゅんび}ができ{次第|しだい}、{出発|しゅっぱつ}します。",
+          "We'll leave as soon as we're ready."
+        ]
+      ]
+    },
+    {
+      "id": "teirai",
+      "title": "〜て以来: ever since",
+      "summary": "て-form + 以来 = since A (and it's continued).",
+      "body": "- 日本に来て**以来**、一度も国に帰っていない.",
+      "examples": [
+        [
+          "{日本|にほん}に{来|き}て{以来|いらい}、{一度|いちど}も{国|くに}に{帰|かえ}っていない。",
+          "Since coming to Japan, I haven't been home once."
+        ]
+      ]
+    },
+    {
+      "id": "uede",
+      "title": "〜上で: after (doing), upon",
+      "summary": "た-form / noun + の + 上で = after doing A (as a basis), do B.",
+      "body": "- よく考えた**上で**、決めてください.\n- 相談の**上で**、決めます.",
+      "examples": [
+        [
+          "よく{考|かんが}えた{上|うえ}で、{決|き}めてください。",
+          "Please decide after thinking it over carefully."
+        ]
+      ]
+    },
+    {
+      "id": "katoomottara",
+      "title": "〜かと思ったら / かと思うと: no sooner than … (then)",
+      "summary": "た-form + かと思ったら = just when A happened, (surprisingly quickly) B.",
+      "body": "- 雨が降ってきた**かと思ったら**、すぐにやんだ.\n\nB is something unexpected that the speaker observes.",
+      "examples": [
+        [
+          "{雨|あめ}が{降|ふ}ってきたかと{思|おも}ったら、すぐにやんだ。",
+          "No sooner had it started raining than it stopped."
+        ]
+      ]
+    },
+    {
+      "id": "kanaikanouchini",
+      "title": "〜か〜ないかのうちに: right as, barely had",
+      "summary": "Dictionary/た-form + か + ない-form + かのうちに = just as A happened (or before it quite did), B.",
+      "body": "- ベルが鳴る**か鳴らないかのうちに**、学生たちは教室を出た.",
+      "examples": [
+        [
+          "ベルが{鳴|な}るか{鳴|な}らないかのうちに、{学生|がくせい}たちは{教室|きょうしつ}を{出|で}た。",
+          "The bell had barely rung when the students left the classroom."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "saini",
+      "prompt": "お{降|お}りの（　）は、お{忘|わす}れ{物|もの}にご{注意|ちゅうい}ください。",
+      "options": [
+        "{際|さい}",
+        "{場|ば}",
+        "{間|あいだ}",
+        "{次第|しだい}"
+      ],
+      "answer": 0,
+      "explanation": "Formal 'when': **際**.",
+      "notes": [
+        "",
+        "お降りの場 = 'the place of getting off'.",
+        "お降りの間 isn't natural.",
+        "お降りの次第 isn't grammatical."
+      ],
+      "translation": "When getting off, please be careful not to leave anything behind."
+    },
+    {
+      "point": "nisaishite",
+      "prompt": "{入学|にゅうがく}（　）、{書類|しょるい}を{提出|ていしゅつ}してください。",
+      "options": [
+        "を{際|さい}して",
+        "が{際|さい}して",
+        "に{際|さい}して",
+        "に{際|さい}する"
+      ],
+      "answer": 2,
+      "explanation": "On the occasion of: **に際して**.",
+      "notes": [
+        "The particle is に.",
+        "The particle is に.",
+        "",
+        "に際する must modify a noun."
+      ],
+      "translation": "Please submit the documents upon enrolment."
+    },
+    {
+      "point": "niatari",
+      "prompt": "{新年|しんねん}を{迎|むか}える（　）、{一言|ひとこと}ご{挨拶|あいさつ}{申|もう}し{上|あ}げます。",
+      "options": [
+        "にあてて",
+        "にあたり",
+        "にあたる",
+        "にあって"
+      ],
+      "answer": 1,
+      "explanation": "On the occasion of: **にあたり**.",
+      "notes": [
+        "にあてて = 'addressed to'.",
+        "",
+        "にあたる can't connect to the next clause.",
+        "にあって = 'in (a situation)'."
+      ],
+      "translation": "On the occasion of the New Year, I'd like to say a few words."
+    },
+    {
+      "point": "nisakidachi",
+      "prompt": "{試合|しあい}（　）、{開会式|かいかいしき}が{行|おこな}われた。",
+      "options": [
+        "に{先立|さきだ}ち",
+        "が{先立|さきだ}ち",
+        "に{先立|さきだ}つ",
+        "を{先立|さきだ}ち"
+      ],
+      "answer": 0,
+      "explanation": "Prior to: **に先立ち**.",
+      "notes": [
+        "",
+        "The particle is に.",
+        "に先立つ must modify a noun.",
+        "The particle is に."
+      ],
+      "translation": "Prior to the match, an opening ceremony was held."
+    },
+    {
+      "point": "shidai",
+      "prompt": "{準備|じゅんび}ができ（　）、{出発|しゅっぱつ}します。",
+      "options": [
+        "{次|つぎ}に",
+        "{次第|しだい}",
+        "{後|あと}で",
+        "{次第|しだい}に"
+      ],
+      "answer": 1,
+      "explanation": "As soon as: stem + **次第**.",
+      "notes": [
+        "でき次に isn't grammatical.",
+        "",
+        "でき後で isn't grammatical (できた後で would be).",
+        "次第に = 'gradually'."
+      ],
+      "translation": "We'll leave as soon as we're ready."
+    },
+    {
+      "point": "teirai",
+      "prompt": "{日本|にほん}に{来|き}て（　）、{一度|いちど}も{国|くに}に{帰|かえ}っていない。",
+      "options": [
+        "{以来|いらい}",
+        "{以内|いない}",
+        "{以前|いぜん}",
+        "{以上|いじょう}"
+      ],
+      "answer": 0,
+      "explanation": "Ever since: **て以来**.",
+      "notes": [
+        "",
+        "以内 = 'within'.",
+        "以前 = 'before'.",
+        "以上 = 'more than / now that'."
+      ],
+      "translation": "Since coming to Japan, I haven't been home once."
+    },
+    {
+      "point": "uede",
+      "prompt": "よく{考|かんが}えた（　）、{決|き}めてください。",
+      "options": [
+        "{上|うえ}に",
+        "{上|うえ}を",
+        "{上|うえ}は",
+        "{上|うえ}で"
+      ],
+      "answer": 3,
+      "explanation": "After doing (as a basis): **上で**.",
+      "notes": [
+        "上に = 'in addition to'.",
+        "上を isn't the pattern.",
+        "上は = 'now that'.",
+        ""
+      ],
+      "translation": "Please decide after thinking it over carefully."
+    },
+    {
+      "point": "katoomottara",
+      "prompt": "{雨|あめ}が{降|ふ}ってきた（　）、すぐにやんだ。",
+      "options": [
+        "かと{思|おも}われたら",
+        "かと{思|おも}ったら",
+        "かと{思|おも}うなら",
+        "かと{思|おも}いたら"
+      ],
+      "answer": 1,
+      "explanation": "No sooner … than: **かと思ったら**.",
+      "notes": [
+        "思われたら = 'if it's thought'.",
+        "",
+        "思うなら = 'if you think'.",
+        "思いたら isn't a form."
+      ],
+      "translation": "No sooner had it started raining than it stopped."
+    },
+    {
+      "point": "kanaikanouchini",
+      "prompt": "ベルが{鳴|な}る（　）、{学生|がくせい}たちは{教室|きょうしつ}を{出|で}た。",
+      "options": [
+        "か{鳴|な}らないうちに",
+        "も{鳴|な}らないかのうちに",
+        "か{鳴|な}らないかのうちに",
+        "か{鳴|な}るかのうちに"
+      ],
+      "answer": 2,
+      "explanation": "Barely: **か〜ないかのうちに**.",
+      "notes": [
+        "か is needed after 鳴らない.",
+        "The first particle is か.",
+        "",
+        "The second verb must be negative."
+      ],
+      "translation": "The bell had barely rung when the students left the classroom."
+    },
+    {
+      "point": "saini",
+      "prompt": "{申|もう}し{込|こ}む（　）に、{身分証明書|みぶんしょうめいしょ}が{必要|ひつよう}です。",
+      "options": [
+        "{際|さい}",
+        "{次第|しだい}",
+        "{場|ば}",
+        "{間|あいだ}"
+      ],
+      "answer": 0,
+      "explanation": "Formal 'when': **際に**.",
+      "notes": [
+        "",
+        "申し込む次第に isn't grammatical.",
+        "申し込む場に = 'at the place of applying'.",
+        "申し込む間に isn't natural."
+      ],
+      "translation": "You need ID when applying."
+    },
+    {
+      "point": "nisaishite",
+      "prompt": "{出発|しゅっぱつ}（　）、{注意事項|ちゅういじこう}を{説明|せつめい}します。",
+      "options": [
+        "が{際|さい}して",
+        "を{際|さい}して",
+        "に{際|さい}する",
+        "に{際|さい}して"
+      ],
+      "answer": 3,
+      "explanation": "On the occasion of: **に際して**.",
+      "notes": [
+        "The particle is に.",
+        "The particle is に.",
+        "に際する must modify a noun.",
+        ""
+      ],
+      "translation": "Before departure, we'll explain the precautions."
+    },
+    {
+      "point": "niatari",
+      "prompt": "{開店|かいてん}（　）、スタッフを{募集|ぼしゅう}します。",
+      "options": [
+        "にあたり",
+        "にあって",
+        "にあたる",
+        "にあてて"
+      ],
+      "answer": 0,
+      "explanation": "On the occasion of: **にあたり**.",
+      "notes": [
+        "",
+        "にあって = 'in (a situation)'.",
+        "にあたる can't connect here.",
+        "にあてて = 'addressed to'."
+      ],
+      "translation": "On the occasion of our opening, we're recruiting staff."
+    },
+    {
+      "point": "nisakidachi",
+      "prompt": "{新製品|しんせいひん}の{発売|はつばい}（　）、{記者会見|きしゃかいけん}が{開|ひら}かれた。",
+      "options": [
+        "が{先立|さきだ}ち",
+        "に{先立|さきだ}つ",
+        "に{先立|さきだ}ち",
+        "を{先立|さきだ}ち"
+      ],
+      "answer": 2,
+      "explanation": "Prior to: **に先立ち**.",
+      "notes": [
+        "The particle is に.",
+        "に先立つ must modify a noun.",
+        "",
+        "The particle is に."
+      ],
+      "translation": "A press conference was held prior to the launch of the new product."
+    },
+    {
+      "point": "shidai",
+      "prompt": "{結果|けっか}がわかり（　）、ご{連絡|れんらく}します。",
+      "options": [
+        "{次|つぎ}に",
+        "{次第|しだい}に",
+        "{後|あと}で",
+        "{次第|しだい}"
+      ],
+      "answer": 3,
+      "explanation": "As soon as: **次第**.",
+      "notes": [
+        "わかり次に isn't grammatical.",
+        "次第に = 'gradually'.",
+        "わかり後で isn't grammatical.",
+        ""
+      ],
+      "translation": "We'll contact you as soon as we know the results."
+    },
+    {
+      "point": "teirai",
+      "prompt": "{卒業|そつぎょう}して（　）、{彼|かれ}とは{会|あ}っていない。",
+      "options": [
+        "{以来|いらい}",
+        "{以前|いぜん}",
+        "{以内|いない}",
+        "{以上|いじょう}"
+      ],
+      "answer": 0,
+      "explanation": "Ever since: **て以来**.",
+      "notes": [
+        "",
+        "以前 = 'before'.",
+        "以内 = 'within'.",
+        "以上 = 'now that / more than'."
+      ],
+      "translation": "I haven't seen him since we graduated."
+    },
+    {
+      "point": "uede",
+      "prompt": "{家族|かぞく}と{相談|そうだん}の（　）、{決|き}めます。",
+      "options": [
+        "{上|うえ}は",
+        "{上|うえ}で",
+        "{上|うえ}に",
+        "{上|うえ}を"
+      ],
+      "answer": 1,
+      "explanation": "After (consulting): **の上で**.",
+      "notes": [
+        "上は = 'now that'.",
+        "",
+        "上に = 'in addition'.",
+        "上を isn't the pattern."
+      ],
+      "translation": "I'll decide after talking it over with my family."
+    },
+    {
+      "point": "katoomottara",
+      "prompt": "{赤|あか}ちゃんは{泣|な}いた（　）、もう{笑|わら}っている。",
+      "options": [
+        "かと{思|おも}いたら",
+        "かと{思|おも}われたら",
+        "かと{思|おも}ったら",
+        "かと{思|おも}うなら"
+      ],
+      "answer": 2,
+      "explanation": "No sooner than: **かと思ったら**.",
+      "notes": [
+        "思いたら isn't a form.",
+        "思われたら = 'if it's thought'.",
+        "",
+        "思うなら = 'if you think'."
+      ],
+      "translation": "No sooner had the baby cried than it was already laughing."
+    },
+    {
+      "point": "kanaikanouchini",
+      "prompt": "{横|よこ}になる（　）、{寝|ね}てしまった。",
+      "options": [
+        "もならないかのうちに",
+        "かならないうちに",
+        "かなるかのうちに",
+        "かならないかのうちに"
+      ],
+      "answer": 3,
+      "explanation": "Barely: **か〜ないかのうちに**.",
+      "notes": [
+        "The first particle is か.",
+        "か is needed after ならない.",
+        "The second verb must be negative.",
+        ""
+      ],
+      "translation": "I had barely lain down when I fell asleep."
+    }
+  ]
+}

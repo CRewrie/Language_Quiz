@@ -1,0 +1,311 @@
+{
+  "id": "n2-mono",
+  "category": "JLPT N2",
+  "title": "The もの Family: ものではない, ものがある, ものか, ものなら, ものの, もっとも",
+  "description": "Shouldn't (social norm), there's something …, 'as if!', 'if only I could', 'although', and the afterthought もっとも.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "monodewanai",
+      "title": "〜ものではない: you shouldn't (norm)",
+      "summary": "Dictionary form + ものではない (ものじゃない) = it's not proper to … (general advice/criticism).",
+      "body": "- 人の悪口を言う**ものではない**.\n- 年上の人にそんな口をきく**ものじゃない**.",
+      "examples": [
+        [
+          "{人|ひと}の{悪口|わるくち}を{言|い}うものではない。",
+          "You shouldn't speak ill of others."
+        ]
+      ]
+    },
+    {
+      "id": "monogaaru",
+      "title": "〜ものがある: there's something (impressive) about",
+      "summary": "Plain / adjective + ものがある = I feel a certain quality in it (strong impression).",
+      "body": "- 彼の演奏には人を感動させる**ものがある**.\n- この歌詞には心に響く**ものがある**.",
+      "examples": [
+        [
+          "{彼|かれ}の{演奏|えんそう}には{人|ひと}を{感動|かんどう}させるものがある。",
+          "There's something moving about his playing."
+        ]
+      ]
+    },
+    {
+      "id": "monoka",
+      "title": "〜ものか: as if! no way I'll …",
+      "summary": "Dictionary form + ものか (もんか) = strong refusal / denial.",
+      "body": "- あんな店、二度と行く**ものか** (I'll never go there again!).\n- 負ける**ものか**.",
+      "examples": [
+        [
+          "あんな{店|みせ}、{二度|にど}と{行|い}くものか。",
+          "I'm never going to that shop again!"
+        ]
+      ]
+    },
+    {
+      "id": "mononara",
+      "title": "〜ものなら: if (by any chance) one could",
+      "summary": "Potential form + ものなら = if it were possible (wish). Volitional + ものなら = if you dare … (bad result).",
+      "body": "- できる**ものなら**、もう一度若くなりたい.\n- 行ける**ものなら**行ってみたい.",
+      "examples": [
+        [
+          "できるものなら、もう{一度|いちど}{若|わか}くなりたい。",
+          "If only I could, I'd like to be young again."
+        ]
+      ]
+    },
+    {
+      "id": "monono",
+      "title": "〜ものの: although, but",
+      "summary": "Plain form + ものの = A is true, but (the expected result doesn't follow). Formal.",
+      "body": "- 買ったはいい**ものの**、一度も使っていない.\n- 大学は卒業した**ものの**、仕事が見つからない.",
+      "examples": [
+        [
+          "{大学|だいがく}は{卒業|そつぎょう}したものの、{仕事|しごと}が{見|み}つからない。",
+          "I graduated from university, but I can't find a job."
+        ]
+      ]
+    },
+    {
+      "id": "mottomo",
+      "title": "もっとも: though, mind you (afterthought)",
+      "summary": "Sentence-initial もっとも adds a reservation: 'having said that …' (often ends with が/けど).",
+      "body": "- このレストランは安くておいしい。**もっとも**、量は少ないが.\n\nDon't confuse with もっと (more) or 最も (もっとも = most).",
+      "examples": [
+        [
+          "このレストランは{安|やす}くておいしい。もっとも、{量|りょう}は{少|すく}ないが。",
+          "This restaurant is cheap and tasty. Mind you, the portions are small."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "monodewanai",
+      "prompt": "{人|ひと}の{悪口|わるくち}を{言|い}う（　）。",
+      "options": [
+        "ものはない",
+        "もののない",
+        "ものではない",
+        "ものがない"
+      ],
+      "answer": 2,
+      "explanation": "Shouldn't (norm): **ものではない**.",
+      "notes": [
+        "ものはない = 'there's nothing'.",
+        "もののない isn't grammatical.",
+        "",
+        "ものがない = 'there's no thing'."
+      ],
+      "translation": "You shouldn't speak ill of others."
+    },
+    {
+      "point": "monodewanai",
+      "prompt": "{年上|としうえ}の{人|ひと}にそんな{口|くち}をきく（　）よ。",
+      "options": [
+        "ものないじゃ",
+        "ものじゃある",
+        "ものなく",
+        "ものじゃない"
+      ],
+      "answer": 3,
+      "explanation": "Casual: **ものじゃない**.",
+      "notes": [
+        "Not a form.",
+        "The pattern is negative.",
+        "ものなく can't end the sentence.",
+        ""
+      ],
+      "translation": "You shouldn't talk like that to someone older."
+    },
+    {
+      "point": "monogaaru",
+      "prompt": "{彼|かれ}の{演奏|えんそう}には{人|ひと}を{感動|かんどう}させる（　）がある。",
+      "options": [
+        "もの",
+        "ものの",
+        "もので",
+        "ものか"
+      ],
+      "answer": 0,
+      "explanation": "There's something about: **ものがある**.",
+      "notes": [
+        "",
+        "もののがある isn't grammatical.",
+        "ものでがある isn't grammatical.",
+        "ものかがある isn't grammatical."
+      ],
+      "translation": "There's something moving about his playing."
+    },
+    {
+      "point": "monogaaru",
+      "prompt": "この{歌|うた}の{歌詞|かし}には{心|こころ}に{響|ひび}く（　）。",
+      "options": [
+        "ものにある",
+        "ものがいる",
+        "ものがある",
+        "ものをある"
+      ],
+      "answer": 2,
+      "explanation": "**ものがある**.",
+      "notes": [
+        "ものにある isn't the pattern.",
+        "いる is for living beings.",
+        "",
+        "ものをある isn't grammatical."
+      ],
+      "translation": "There's something about these lyrics that really resonates."
+    },
+    {
+      "point": "monoka",
+      "prompt": "あんな{店|みせ}、{二度|にど}と{行|い}く（　）。",
+      "options": [
+        "ものか",
+        "ものだ",
+        "ものなら",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "Never again!: **ものか**.",
+      "notes": [
+        "",
+        "ものだ = 'one should / used to'.",
+        "ものなら = 'if one could' — unfinished.",
+        "ものの = 'although' — unfinished."
+      ],
+      "translation": "I'm never going to that shop again!"
+    },
+    {
+      "point": "monoka",
+      "prompt": "What does 「{負|ま}けるものか」 mean?",
+      "options": [
+        "I might lose.",
+        "I'll never lose!",
+        "I lost.",
+        "Did I lose?"
+      ],
+      "answer": 1,
+      "explanation": "ものか = **strong denial**.",
+      "notes": [
+        "That's 負けるかもしれない.",
+        "",
+        "That's 負けた.",
+        "That's 負けたか."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "mononara",
+      "prompt": "できる（　）、もう{一度|いちど}{若|わか}くなりたい。",
+      "options": [
+        "ものだから",
+        "ものの",
+        "ものか",
+        "ものなら"
+      ],
+      "answer": 3,
+      "explanation": "If only I could: **ものなら**.",
+      "notes": [
+        "ものだから = 'because'.",
+        "ものの = 'although'.",
+        "ものか = 'as if!'.",
+        ""
+      ],
+      "translation": "If only I could, I'd like to be young again."
+    },
+    {
+      "point": "mononara",
+      "prompt": "{行|い}ける（　）{行|い}ってみたい。",
+      "options": [
+        "ものだから",
+        "ものなら",
+        "ものを",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "Potential + **ものなら**.",
+      "notes": [
+        "ものだから = 'because'.",
+        "",
+        "ものを = 'if only (regret)' — doesn't fit.",
+        "ものの = 'although'."
+      ],
+      "translation": "I'd like to go if I could."
+    },
+    {
+      "point": "monono",
+      "prompt": "{買|か}ったはいい（　）、{一度|いちど}も{使|つか}っていない。",
+      "options": [
+        "ものだから",
+        "ものなら",
+        "ものか",
+        "ものの"
+      ],
+      "answer": 3,
+      "explanation": "Although: **ものの**.",
+      "notes": [
+        "ものだから = 'because'.",
+        "ものなら = 'if one could'.",
+        "ものか = 'as if!'.",
+        ""
+      ],
+      "translation": "I bought it all right, but I haven't used it once."
+    },
+    {
+      "point": "monono",
+      "prompt": "{大学|だいがく}は{卒業|そつぎょう}した（　）、{仕事|しごと}が{見|み}つからない。",
+      "options": [
+        "ものなら",
+        "ものの",
+        "もので",
+        "ものか"
+      ],
+      "answer": 1,
+      "explanation": "Although: **ものの**.",
+      "notes": [
+        "ものなら = 'if one could'.",
+        "",
+        "もので = 'because' — illogical.",
+        "ものか = 'as if!'."
+      ],
+      "translation": "I graduated from university, but I can't find a job."
+    },
+    {
+      "point": "mottomo",
+      "prompt": "このレストランは{安|やす}くておいしい。（　）、{量|りょう}は{少|すく}ないが。",
+      "options": [
+        "もちろん",
+        "もっぱら",
+        "もっと",
+        "もっとも"
+      ],
+      "answer": 3,
+      "explanation": "Reservation: **もっとも … が**.",
+      "notes": [
+        "もちろん = 'of course' — doesn't introduce a reservation.",
+        "もっぱら = 'mainly, exclusively'.",
+        "もっと = 'more'.",
+        ""
+      ],
+      "translation": "This restaurant is cheap and tasty. Mind you, the portions are small."
+    },
+    {
+      "point": "mottomo",
+      "prompt": "{彼|かれ}の{意見|いけん}は{正|ただ}しい。もっとも、{反対|はんたい}する{人|ひと}もいる（　）。",
+      "options": [
+        "まで",
+        "が",
+        "から",
+        "ので"
+      ],
+      "answer": 1,
+      "explanation": "もっとも … **が** (trailing reservation).",
+      "notes": [
+        "まで = 'until'.",
+        "",
+        "から = 'because'.",
+        "ので = 'because'."
+      ],
+      "translation": "His opinion is correct. Mind you, some people disagree."
+    }
+  ]
+}

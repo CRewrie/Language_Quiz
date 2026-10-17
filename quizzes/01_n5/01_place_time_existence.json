@@ -1,0 +1,548 @@
+{
+  "id": "n5-place-time-existence",
+  "category": "JLPT N5",
+  "title": "Particles: が, に, で & ある/いる",
+  "description": "The subject marker が, saying 'there is' with ある/いる, and the classic に vs. で split.",
+  "level": "N5",
+  "points": [
+    {
+      "id": "ga-subject",
+      "title": "が: subject marker",
+      "summary": "が marks the subject, especially new information, question-word subjects, and the object of 好き/わかる/できる/ほしい.",
+      "body": "が marks **who or what does / is something**. It often looks interchangeable with は, but they do different jobs: は marks the **topic** (what we're talking about, known information), while が marks the **subject** and puts the focus on it.\n\nUse が in these situations:\n- **New information / noticing something**: あ、雨が降っています。 (Oh, it's raining.)\n- **Question words as subject**: だれが来ましたか。 Question words can never take は. The answer keeps が: 田中さんが来ました。\n- **'There is' sentences** with ある/いる: 机の上に本があります。\n- **Objects of certain predicates**: 好き, 嫌い, 上手, 下手, わかる, できる, ほしい, ある (have). For example 猫が好きです, 日本語がわかります. Learners often wrongly use を here.\n- **Inside a sub-clause**: 母が作った料理 (the food my mother made).\n\nCommon mistake: だれは…？ / なには…？ are always wrong.",
+      "examples": [
+        [
+          "だれが{窓|まど}を{開|あ}けましたか。",
+          "Who opened the window?"
+        ],
+        [
+          "わたしは{犬|いぬ}が{好|す}きです。",
+          "I like dogs."
+        ],
+        [
+          "あ、バスが{来|き}ました！",
+          "Oh, the bus is here!"
+        ]
+      ]
+    },
+    {
+      "id": "aru-iru",
+      "title": "がある / がいる: there is",
+      "summary": "ある for non-living things (and plants), いる for people and animals. The place takes に and the thing takes が.",
+      "body": "Both mean 'there is / to exist' (and 'to have'), but Japanese splits them by whether the thing can move by itself:\n- **ある**: objects, plants, events, abstract things: 本がある, 木がある, 会議がある, 時間がある.\n- **いる**: people and animals: 先生がいる, 猫がいる, 魚がいる.\n\n**Pattern 1 (focus on the thing):** [place]に[thing]が あります/います: 部屋にテレビがあります。\n**Pattern 2 (focus on the location):** [thing]は[place]に あります/います: テレビは部屋にあります。\n\n**Possession / family:** 車があります (I have a car), 兄弟がいます (I have siblings).\n**Events** use ある, and the place takes で: 学校でテストがあります。\n\nNegatives: ありません / いません. The plain negative of ある is irregular: **ない** (not あらない).",
+      "examples": [
+        [
+          "{机|つくえ}の{上|うえ}に{本|ほん}があります。",
+          "There is a book on the desk."
+        ],
+        [
+          "{公園|こうえん}に{子供|こども}がたくさんいます。",
+          "There are lots of children in the park."
+        ],
+        [
+          "わたしは{兄弟|きょうだい}が{二人|ふたり}います。",
+          "I have two siblings."
+        ]
+      ]
+    },
+    {
+      "id": "ni",
+      "title": "に: at (time), in (existence), to (target)",
+      "summary": "に marks a point in time, the place where something exists, a destination, and the target/recipient of an action.",
+      "body": "に points at a **target**. Its main N5 uses:\n- **Specific time**: 7時に起きます, 月曜日に, 5月に. Relative times (今日, 明日, 毎日, 来週) take **no** particle.\n- **Location of existence** (with ある/いる/住む): 東京に住んでいます, 部屋にいます.\n- **Destination**: 学校に行きます (へ also works).\n- **Recipient / target of an action**: 友達に手紙を書きます, 先生に聞きます.\n- **Getting on/into**: バスに乗ります, お風呂に入ります.\n- **Purpose with movement verbs**: 買い物に行きます.\n\nThe key contrast: **に = where something IS**, **で = where something HAPPENS**. Compare 部屋にいます (I'm in the room) with 部屋で勉強します (I study in the room).",
+      "examples": [
+        [
+          "{毎朝|まいあさ}6{時|じ}に{起|お}きます。",
+          "I get up at 6 every morning."
+        ],
+        [
+          "{姉|あね}は{大阪|おおさか}に{住|す}んでいます。",
+          "My sister lives in Osaka."
+        ],
+        [
+          "{母|はは}に{電話|でんわ}をかけました。",
+          "I phoned my mother."
+        ]
+      ]
+    },
+    {
+      "id": "de-place",
+      "title": "で (1): at, in (place of action / scope)",
+      "summary": "で marks the place where an action or event happens, and the range within which something is the most.",
+      "body": "Use で for the **place where an action takes place**: 図書館で勉強します, レストランで食べます, 公園で遊びます.\n\nSince events are 'happenings', they take で even with ある: 体育館でコンサートがあります。\n\nで also marks a **scope**: 日本で一番高い山 (the highest mountain in Japan), クラスで一番 (the best in the class).\n\n**に vs で, the classic mistake:**\n- 部屋**に**います: existence, so に.\n- 部屋**で**寝ます: action, so で.\n- 東京**に**住んでいます: 住む is treated as a state of being located, so に (not で).\n- 駅の前**で**待ちます: waiting is an action, so で.",
+      "examples": [
+        [
+          "{図書館|としょかん}で{本|ほん}を{読|よ}みます。",
+          "I read books at the library."
+        ],
+        [
+          "{公園|こうえん}で{子供|こども}が{遊|あそ}んでいます。",
+          "Children are playing in the park."
+        ],
+        [
+          "{日本|にほん}で{一番|いちばん}{高|たか}い{山|やま}は{富士山|ふじさん}です。",
+          "The highest mountain in Japan is Mt. Fuji."
+        ]
+      ]
+    },
+    {
+      "id": "de-means",
+      "title": "で (2): with, by (means, tool, language, total)",
+      "summary": "で marks the means, tool, method or language used. It also marks a total, as in 全部で.",
+      "body": "で answers the question 'by what means?':\n- **Tools**: はしで食べます, ペンで書きます.\n- **Transport**: バスで行きます, 自転車で来ます. (Walking is 歩いて, not 足で.)\n- **Language**: 日本語で話します, 英語で書きます.\n- **Materials**: 木で作ります.\n- **Totals / grouping**: 全部で千円です (1,000 yen in total), 三人で行きます (we'll go as three people).\n\nDon't confuse it with に + 乗る. バス**に**乗ります means 'get on the bus', while バス**で**行きます means 'go by bus'.",
+      "examples": [
+        [
+          "はしで{食|た}べます。",
+          "I eat with chopsticks."
+        ],
+        [
+          "{日本語|にほんご}でメールを{書|か}きました。",
+          "I wrote an email in Japanese."
+        ],
+        [
+          "{全部|ぜんぶ}で{三千円|さんぜんえん}です。",
+          "It's 3,000 yen in total."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "ga-subject",
+      "prompt": "あ、{雨|あめ}（　）{降|ふ}ってきました。",
+      "options": [
+        "の",
+        "に",
+        "を",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "Noticing something new: the subject 雨 takes **が**.",
+      "notes": [
+        "雨の降ってきました is ungrammatical. の can't mark the subject of a main sentence.",
+        "に marks a target, time or place. Rain is the subject here.",
+        "を marks the object of an action. Rain isn't being acted on, it's the thing falling.",
+        ""
+      ],
+      "translation": "Oh, it's started to rain."
+    },
+    {
+      "point": "ga-subject",
+      "prompt": "どれ（　）あなたの{傘|かさ}ですか。",
+      "options": [
+        "を",
+        "も",
+        "が",
+        "は"
+      ],
+      "answer": 2,
+      "explanation": "A question word as subject always takes **が**.",
+      "notes": [
+        "を marks an object, but there's no action verb here.",
+        "どれも means 'every one' and doesn't make a question.",
+        "",
+        "Question words can't be the topic. どれは is always wrong."
+      ],
+      "translation": "Which one is your umbrella?"
+    },
+    {
+      "point": "ga-subject",
+      "prompt": "わたしは{猫|ねこ}（　）{好|す}きです。",
+      "options": [
+        "の",
+        "が",
+        "に",
+        "を"
+      ],
+      "answer": 1,
+      "explanation": "好き is an adjective, not a verb. The thing liked is marked with **が**.",
+      "notes": [
+        "猫の好き is ungrammatical.",
+        "",
+        "に doesn't mark the thing you like.",
+        "好き is a な-adjective, not a verb, so it takes が. 猫を好き is a common mistake."
+      ],
+      "translation": "I like cats."
+    },
+    {
+      "point": "ga-subject",
+      "prompt": "{田中|たなか}さんは{英語|えいご}（　）よくわかります。",
+      "options": [
+        "を",
+        "の",
+        "が",
+        "に"
+      ],
+      "answer": 2,
+      "explanation": "わかる takes **が** for the thing understood. 田中さんは is the topic.",
+      "notes": [
+        "わかる isn't a transitive action verb. 英語をわかる is a very common mistake.",
+        "英語のよくわかります is ungrammatical. の must link two nouns.",
+        "",
+        "に doesn't mark the thing understood."
+      ],
+      "translation": "Mr. Tanaka understands English well."
+    },
+    {
+      "point": "aru-iru",
+      "prompt": "{教室|きょうしつ}に{先生|せんせい}が（　）。",
+      "options": [
+        "あるです",
+        "います",
+        "あります",
+        "いるです"
+      ],
+      "answer": 1,
+      "explanation": "People and animals use **いる**.",
+      "notes": [
+        "Wrong verb (ある), and です can't follow a dictionary form.",
+        "",
+        "ある is for non-living things. A teacher is a person.",
+        "です can't follow a verb's dictionary form."
+      ],
+      "translation": "There is a teacher in the classroom."
+    },
+    {
+      "point": "aru-iru",
+      "prompt": "{冷蔵庫|れいぞうこ}に{卵|たまご}が（　）。",
+      "options": [
+        "います",
+        "あるます",
+        "いるです",
+        "あります"
+      ],
+      "answer": 3,
+      "explanation": "Objects, including food, use **ある**.",
+      "notes": [
+        "いる is for people and animals. Eggs are objects.",
+        "ます attaches to the ます-stem: あり + ます.",
+        "Wrong verb (いる), and です can't follow a dictionary form.",
+        ""
+      ],
+      "translation": "There are eggs in the fridge."
+    },
+    {
+      "point": "aru-iru",
+      "prompt": "{池|いけ}に{魚|さかな}がたくさん（　）。",
+      "options": [
+        "あります",
+        "あるます",
+        "います",
+        "いるます"
+      ],
+      "answer": 2,
+      "explanation": "Fish are animals, so they take **いる**.",
+      "notes": [
+        "ある is for objects and plants. Fish are living animals.",
+        "Wrong verb (ある), and the form should be あります anyway.",
+        "",
+        "ます attaches to the ます-stem: い + ます."
+      ],
+      "translation": "There are many fish in the pond."
+    },
+    {
+      "point": "aru-iru",
+      "prompt": "{明日|あした}、{学校|がっこう}でテストが（　）。",
+      "options": [
+        "います",
+        "あります",
+        "あるます",
+        "ありです"
+      ],
+      "answer": 1,
+      "explanation": "Events (tests, parties, meetings) 'exist' with **ある**, and their location takes で.",
+      "notes": [
+        "いる is only for people and animals. Events use ある.",
+        "",
+        "ます attaches to the ます-stem: あり + ます.",
+        "ありです isn't a form."
+      ],
+      "translation": "There's a test at school tomorrow."
+    },
+    {
+      "point": "ni",
+      "prompt": "{毎晩|まいばん}11{時|じ}（　）{寝|ね}ます。",
+      "options": [
+        "へ",
+        "で",
+        "の",
+        "に"
+      ],
+      "answer": 3,
+      "explanation": "Clock times take **に**.",
+      "notes": [
+        "へ marks a direction of movement, not a time.",
+        "で isn't used for points in time.",
+        "11時の寝ます is ungrammatical. の links nouns.",
+        ""
+      ],
+      "translation": "I go to bed at 11 every night."
+    },
+    {
+      "point": "ni",
+      "prompt": "{姉|あね}は{東京|とうきょう}（　）{住|す}んでいます。",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "へ"
+      ],
+      "answer": 2,
+      "explanation": "住む takes **に** for where you live (location of existence).",
+      "notes": [
+        "東京で住んでいます is a very common mistake. 住む behaves like いる, so it takes に.",
+        "を would mark Tokyo as an object.",
+        "",
+        "へ marks a direction of movement."
+      ],
+      "translation": "My older sister lives in Tokyo."
+    },
+    {
+      "point": "ni",
+      "prompt": "{駅|えき}でバス（　）{乗|の}ります。",
+      "options": [
+        "が",
+        "に",
+        "を",
+        "で"
+      ],
+      "answer": 1,
+      "explanation": "乗る marks the vehicle you get on with **に**.",
+      "notes": [
+        "が would make the bus the subject that's riding.",
+        "",
+        "を doesn't go with 乗る for the vehicle.",
+        "バスで乗ります mixes up 'by bus' (バスで行く) with 'get on the bus' (バスに乗る)."
+      ],
+      "translation": "I get on the bus at the station."
+    },
+    {
+      "point": "ni",
+      "prompt": "{友達|ともだち}（　）{手紙|てがみ}を{書|か}きました。",
+      "options": [
+        "が",
+        "で",
+        "を",
+        "に"
+      ],
+      "answer": 3,
+      "explanation": "The recipient of an action takes **に**.",
+      "notes": [
+        "が would make the friend the writer, but the friend is the recipient.",
+        "で would mean 'by means of a friend'.",
+        "手紙 is already the object with を.",
+        ""
+      ],
+      "translation": "I wrote a letter to a friend."
+    },
+    {
+      "point": "de-place",
+      "prompt": "{公園|こうえん}（　）{子供|こども}が{遊|あそ}んでいます。",
+      "options": [
+        "へ",
+        "を",
+        "で",
+        "に"
+      ],
+      "answer": 2,
+      "explanation": "Playing is an action, so the place takes **で**.",
+      "notes": [
+        "へ marks a direction of movement.",
+        "を with 遊ぶ would make the park the object.",
+        "",
+        "に marks where something exists, not where an action happens."
+      ],
+      "translation": "Children are playing in the park."
+    },
+    {
+      "point": "de-place",
+      "prompt": "{駅|えき}の{前|まえ}（　）{友達|ともだち}を{待|ま}ちます。",
+      "options": [
+        "に",
+        "が",
+        "を",
+        "で"
+      ],
+      "answer": 3,
+      "explanation": "Waiting is an action, so its place takes **で**.",
+      "notes": [
+        "駅の前に is for existence (駅の前にいます). 待つ is an action.",
+        "が would make 'in front of the station' the subject.",
+        "を already marks the friend you wait for.",
+        ""
+      ],
+      "translation": "I'll wait for my friend in front of the station."
+    },
+    {
+      "point": "de-place",
+      "prompt": "{世界|せかい}（　）{一番|いちばん}{長|なが}い{川|かわ}は{何|なん}ですか。",
+      "options": [
+        "は",
+        "を",
+        "で",
+        "に"
+      ],
+      "answer": 2,
+      "explanation": "**で** marks the scope of a superlative: 'in the world'.",
+      "notes": [
+        "世界は would make 'the world' the topic. The sentence is about the longest river, so the scope needs で.",
+        "を marks an object.",
+        "",
+        "に doesn't mark the range for 一番."
+      ],
+      "translation": "What is the longest river in the world?"
+    },
+    {
+      "point": "de-means",
+      "prompt": "はし（　）ご{飯|はん}を{食|た}べます。",
+      "options": [
+        "と",
+        "で",
+        "を",
+        "に"
+      ],
+      "answer": 1,
+      "explanation": "Tools take **で**.",
+      "notes": [
+        "と would mean 'together with chopsticks'.",
+        "",
+        "を already marks the food.",
+        "に doesn't express a tool."
+      ],
+      "translation": "I eat rice with chopsticks."
+    },
+    {
+      "point": "de-means",
+      "prompt": "{日本語|にほんご}（　）{手紙|てがみ}を{書|か}きました。",
+      "options": [
+        "に",
+        "を",
+        "が",
+        "で"
+      ],
+      "answer": 3,
+      "explanation": "The language used takes **で**.",
+      "notes": [
+        "に doesn't mark the language used.",
+        "The object is already 手紙を. A verb can't have two を-objects like this.",
+        "が would make Japanese the writer.",
+        ""
+      ],
+      "translation": "I wrote a letter in Japanese."
+    },
+    {
+      "point": "de-means",
+      "prompt": "りんごを{三|みっ}つください。—はい、{全部|ぜんぶ}（　）{三百円|さんびゃくえん}です。",
+      "options": [
+        "を",
+        "で",
+        "が",
+        "に"
+      ],
+      "answer": 1,
+      "explanation": "**全部で** = 'in total'. で marks the total.",
+      "notes": [
+        "全部を would make 'all' an object.",
+        "",
+        "全部が三百円 would mean 'each and every one costs 300', not the total.",
+        "全部に isn't used for totals."
+      ],
+      "translation": "Three apples, please. — Sure, that's 300 yen in total."
+    },
+    {
+      "point": "ga-subject",
+      "prompt": "この{中|なか}で、だれ（　）{一番|いちばん}{若|わか}いですか。",
+      "options": [
+        "が",
+        "を",
+        "の",
+        "は"
+      ],
+      "answer": 0,
+      "explanation": "Question-word subject → **が**: だれが.",
+      "notes": [
+        "",
+        "を marks an object, but 若い is an adjective.",
+        "だれの一番 isn't grammatical here.",
+        "Question words can never take は. だれは is always wrong."
+      ],
+      "translation": "Who is the youngest among these people?"
+    },
+    {
+      "point": "aru-iru",
+      "prompt": "わたしは{兄弟|きょうだい}が{三人|さんにん}（　）。",
+      "options": [
+        "ありいます",
+        "います",
+        "あります",
+        "いるです"
+      ],
+      "answer": 1,
+      "explanation": "'Have (people/animals)' also uses **いる**: 兄弟がいます.",
+      "notes": [
+        "ありいます isn't a form.",
+        "",
+        "Siblings are people → いる, even when it means 'have'.",
+        "です can't follow a verb's dictionary form."
+      ],
+      "translation": "I have three siblings."
+    },
+    {
+      "point": "ni",
+      "prompt": "{日曜日|にちようび}（　）{友達|ともだち}に{会|あ}います。",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "の"
+      ],
+      "answer": 2,
+      "explanation": "Days of the week take **に**.",
+      "notes": [
+        "で doesn't mark points in time.",
+        "を marks objects.",
+        "",
+        "日曜日の友達 would mean 'Sunday's friend'."
+      ],
+      "translation": "I'm meeting a friend on Sunday."
+    },
+    {
+      "point": "de-place",
+      "prompt": "{会議|かいぎ}は{三階|さんがい}の{部屋|へや}（　）あります。",
+      "options": [
+        "に",
+        "を",
+        "へ",
+        "で"
+      ],
+      "answer": 3,
+      "explanation": "Events take **で** for their location, even with ある: 会議は三階の部屋であります.",
+      "notes": [
+        "Objects 'exist' with に, but **events** (meetings, parties, tests) take で even with ある.",
+        "を marks objects.",
+        "へ marks direction of movement.",
+        ""
+      ],
+      "translation": "The meeting is (held) in a room on the third floor."
+    },
+    {
+      "point": "de-means",
+      "prompt": "{昨日|きのう}は{三人|さんにん}（　）{旅行|りょこう}に{行|い}きました。",
+      "options": [
+        "を",
+        "で",
+        "に",
+        "の"
+      ],
+      "answer": 1,
+      "explanation": "Number of people doing something together: **で** (三人で, 一人で, 家族で).",
+      "notes": [
+        "三人を旅行に行きました isn't grammatical — を can't mark the people who go.",
+        "",
+        "三人に行きました isn't grammatical.",
+        "三人の旅行に行きました would mean 'went on the three people's trip'."
+      ],
+      "translation": "Yesterday the three of us went on a trip."
+    }
+  ]
+}

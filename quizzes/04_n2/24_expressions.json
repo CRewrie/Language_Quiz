@@ -1,0 +1,211 @@
+{
+  "id": "n2-expressions",
+  "category": "JLPT N2",
+  "title": "Set Expressions: 抜く, というものだ, と考えられる, 中を",
+  "description": "Doing something to the very end, 'that's what … is', 'it is thought that', and 'in the midst of'.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "nuku",
+      "title": "〜抜く: do to the very end, thoroughly",
+      "summary": "ます-stem + 抜く = carry through to the end / do thoroughly (考え抜く, やり抜く, 走り抜く).",
+      "body": "- 最後まで考え**抜いた**.\n- 一度始めたら、最後までやり**抜く**.",
+      "examples": [
+        [
+          "{一度|いちど}{始|はじ}めたら、{最後|さいご}までやり{抜|ぬ}く。",
+          "Once I start something, I see it through."
+        ]
+      ]
+    },
+    {
+      "id": "toiumonoda",
+      "title": "〜というものだ: that's (just) what … is",
+      "summary": "Plain form / noun + というものだ = a general truth or the speaker's firm judgement.",
+      "body": "- 約束を守るのが大人**というものだ**.\n- 人の話を聞かないなんて、失礼**というものだ**.\n\nNegated: というものでもない = 'not necessarily'.",
+      "examples": [
+        [
+          "{約束|やくそく}を{守|まも}るのが{大人|おとな}というものだ。",
+          "Keeping your promises — that's what being an adult means."
+        ]
+      ]
+    },
+    {
+      "id": "tokangaerareru",
+      "title": "〜と考えられる: it is thought that",
+      "summary": "Plain form + と考えられる / と考えられている = it's thought / considered (objective, formal).",
+      "body": "- 事故の原因は運転手の不注意だと**考えられる**.\n- 温暖化が原因だと**考えられている**.",
+      "examples": [
+        [
+          "{事故|じこ}の{原因|げんいん}は{運転手|うんてんしゅ}の{不注意|ふちゅうい}だと{考|かんが}えられる。",
+          "The cause of the accident is thought to be driver carelessness."
+        ]
+      ]
+    },
+    {
+      "id": "nakawo",
+      "title": "〜中(なか)を: in the midst of, despite",
+      "summary": "Noun + の / adj + 中を = in (bad conditions); in spite of being (busy).",
+      "body": "- お忙しい**中を**、お越しいただきありがとうございます.\n- 雨の**中を**、試合は続けられた.",
+      "examples": [
+        [
+          "お{忙|いそが}しい{中|なか}を、お{越|こ}しいただきありがとうございます。",
+          "Thank you for coming despite being so busy."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nuku",
+      "prompt": "{難|むずか}しい{問題|もんだい}だったが、{最後|さいご}まで{考|かんが}え（　）。",
+      "options": [
+        "{抜|ぬ}かした",
+        "{抜|ぬ}いた",
+        "{抜|ぬ}きた",
+        "{抜|ぬ}けた"
+      ],
+      "answer": 1,
+      "explanation": "Thoroughly: **考え抜いた**.",
+      "notes": [
+        "抜かした = 'skipped'.",
+        "",
+        "抜きた isn't a form.",
+        "抜けた = 'came out / slipped through'."
+      ],
+      "translation": "It was a hard problem, but I thought it through to the end."
+    },
+    {
+      "point": "nuku",
+      "prompt": "What does 「やり{抜|ぬ}く」 mean?",
+      "options": [
+        "to do it halfway",
+        "to skip doing it",
+        "to see something through to the end",
+        "to overtake someone"
+      ],
+      "answer": 2,
+      "explanation": "〜抜く = **to the very end**.",
+      "notes": [
+        "The opposite.",
+        "That's 抜かす / 抜きにする.",
+        "",
+        "That's 追い抜く."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "toiumonoda",
+      "prompt": "{約束|やくそく}を{守|まも}るのが{大人|おとな}（　）。",
+      "options": [
+        "というものか",
+        "というものだ",
+        "というもので",
+        "というものの"
+      ],
+      "answer": 1,
+      "explanation": "That's what … is: **というものだ**.",
+      "notes": [
+        "というものか = 'is that what …?' — not a statement of principle.",
+        "",
+        "というもので can't end the sentence.",
+        "というものの = 'although'."
+      ],
+      "translation": "Keeping your promises — that's what being an adult means."
+    },
+    {
+      "point": "toiumonoda",
+      "prompt": "{人|ひと}の{話|はなし}を{聞|き}かないなんて、{失礼|しつれい}（　）。",
+      "options": [
+        "というものに",
+        "というもので",
+        "というものだ",
+        "というものの"
+      ],
+      "answer": 2,
+      "explanation": "Firm judgement: **というものだ**.",
+      "notes": [
+        "Can't end the sentence.",
+        "Can't end the sentence.",
+        "",
+        "= 'although'."
+      ],
+      "translation": "Not listening to people — that's just rude."
+    },
+    {
+      "point": "tokangaerareru",
+      "prompt": "{事故|じこ}の{原因|げんいん}は{運転手|うんてんしゅ}の{不注意|ふちゅうい}だと（　）。",
+      "options": [
+        "{考|かんが}えられる",
+        "{考|かんが}え{込|こ}む",
+        "{考|かんが}えさせる",
+        "{考|かんが}えてある"
+      ],
+      "answer": 0,
+      "explanation": "It is thought: **と考えられる**.",
+      "notes": [
+        "",
+        "考え込む = 'brood'.",
+        "考えさせる = 'make (someone) think'.",
+        "考えてある isn't used like this."
+      ],
+      "translation": "The cause of the accident is thought to be driver carelessness."
+    },
+    {
+      "point": "tokangaerareru",
+      "prompt": "{気温|きおん}が{上|あ}がったのは、{温暖化|おんだんか}が{原因|げんいん}だと（　）。",
+      "options": [
+        "{考|かんが}えていられる",
+        "{考|かんが}え{込|こ}んでいる",
+        "{考|かんが}えられている",
+        "{考|かんが}えさせている"
+      ],
+      "answer": 2,
+      "explanation": "Generally held view: **と考えられている**.",
+      "notes": [
+        "考えていられる = 'can keep thinking'.",
+        "考え込んでいる = 'is brooding'.",
+        "",
+        "考えさせている = 'is making (someone) think'."
+      ],
+      "translation": "The rise in temperatures is thought to be caused by global warming."
+    },
+    {
+      "point": "nakawo",
+      "prompt": "お{忙|いそが}しい（　）、お{越|こ}しいただきありがとうございます。",
+      "options": [
+        "{中|なか}を",
+        "{中|なか}が",
+        "{中|なか}の",
+        "{中|なか}は"
+      ],
+      "answer": 0,
+      "explanation": "Despite (being busy): **中を**.",
+      "notes": [
+        "",
+        "中が = 'the inside (subject)'.",
+        "中の must modify a noun.",
+        "中は = 'as for inside'."
+      ],
+      "translation": "Thank you for coming despite being so busy."
+    },
+    {
+      "point": "nakawo",
+      "prompt": "{激|はげ}しい{雨|あめ}の（　）、{試合|しあい}は{続|つづ}けられた。",
+      "options": [
+        "{中|なか}は",
+        "{中|なか}の",
+        "{中|なか}が",
+        "{中|なか}を"
+      ],
+      "answer": 3,
+      "explanation": "In the midst of: **の中を**.",
+      "notes": [
+        "中は = 'as for inside'.",
+        "中の must modify a noun.",
+        "中が = subject — doesn't fit.",
+        ""
+      ],
+      "translation": "The match went on in the pouring rain."
+    }
+  ]
+}

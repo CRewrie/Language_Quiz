@@ -1,0 +1,315 @@
+{
+  "id": "n3-purpose-attempt",
+  "category": "JLPT N3",
+  "title": "Purpose & Attempt: ために, ように, ようとする, ずに",
+  "description": "In order to (ために vs ように), trying or being about to (ようとする), not even trying (ようとしない), and 'without doing' (ずに).",
+  "level": "N3",
+  "points": [
+    {
+      "id": "tameni-purpose",
+      "title": "〜ために (1): in order to, for the sake of",
+      "summary": "Dictionary form (volitional verb) + ために / noun + の + ために. Same subject in both clauses.",
+      "body": "- 日本語を勉強する**ために**、日本に来ました.\n- 家族**のために**一生懸命働いている.\n\n**Rules:**\n- The verb before ために is something you **control** (勉強する, 買う, 行く).\n- Same subject in both parts.\n- For non-controllable verbs (potential, わかる, 聞こえる, なる) or a different subject → use **ように**.",
+      "examples": [
+        [
+          "{日本語|にほんご}を{勉強|べんきょう}するために、{日本|にほん}に{来|き}ました。",
+          "I came to Japan to study Japanese."
+        ],
+        [
+          "{家族|かぞく}のために{一生懸命|いっしょうけんめい}{働|はたら}いています。",
+          "I work hard for my family."
+        ]
+      ]
+    },
+    {
+      "id": "youni-sothat",
+      "title": "〜ように: so that, in order that",
+      "summary": "Dictionary / ない / potential form + ように = so that (something becomes possible / doesn't happen). For non-volitional verbs.",
+      "body": "- 後ろの人にも聞こえる**ように**、大きい声で話してください.\n- 風邪をひかない**ように**、暖かくして寝てください.\n- 日本語が話せる**ように**、毎日練習している.\n\n**ために vs ように:**\n- ために + controllable action (勉強する**ために**)\n- ように + uncontrollable / potential / negative (話せる**ように**, 忘れない**ように**, 聞こえる**ように**)",
+      "examples": [
+        [
+          "{後|うし}ろの{人|ひと}にも{聞|き}こえるように、{大|おお}きい{声|こえ}で{話|はな}してください。",
+          "Please speak loudly so that the people in the back can hear too."
+        ],
+        [
+          "{風邪|かぜ}をひかないように、{暖|あたた}かくして{寝|ね}てください。",
+          "Keep warm when you sleep so you don't catch a cold."
+        ]
+      ]
+    },
+    {
+      "id": "youtosuru",
+      "title": "〜ようとする: try to / be about to",
+      "summary": "Volitional form + とする = attempt to do (often unsuccessfully), or be just about to do when something happens.",
+      "body": "- 寝**ようとした**が、眠れなかった (I tried to sleep but couldn't).\n- 家を出**ようとした**とき、電話が鳴った (just as I was about to leave …).\n\n**ようとする vs てみる:** ようとする = attempt (effort, maybe failing); てみる = actually do it to see.",
+      "examples": [
+        [
+          "{寝|ね}ようとしたが、{眠|ねむ}れなかった。",
+          "I tried to sleep, but couldn't."
+        ],
+        [
+          "{家|いえ}を{出|で}ようとしたとき、{電話|でんわ}が{鳴|な}った。",
+          "Just as I was about to leave the house, the phone rang."
+        ]
+      ]
+    },
+    {
+      "id": "youtoshinai",
+      "title": "〜ようとしない: won't even try to",
+      "summary": "Volitional + としない = someone (usually another person) refuses to / makes no effort to do something.",
+      "body": "- 息子は全然勉強し**ようとしない** (my son won't even try to study).\n- 彼は人の話を聞こ**うとしない**.\n\nUsually about other people (criticism). For yourself, you'd say 〜する気がない.",
+      "examples": [
+        [
+          "{息子|むすこ}は{全然|ぜんぜん}{勉強|べんきょう}しようとしない。",
+          "My son won't even try to study."
+        ]
+      ]
+    },
+    {
+      "id": "zuni",
+      "title": "〜ずに: without doing",
+      "summary": "ない-stem + ずに = without doing (written/formal version of ないで). する → せずに.",
+      "body": "- 朝ご飯を食べ**ずに**学校へ行った.\n- 勉強**せずに**試験を受けた.\n\n**Formation:** 食べない → 食べ**ずに**; 行かない → 行か**ずに**; **する → せずに**; 来る → こずに.\n\nSame meaning as 〜ないで (more casual).",
+      "examples": [
+        [
+          "{朝|あさ}ご{飯|はん}を{食|た}べずに{学校|がっこう}へ{行|い}った。",
+          "I went to school without eating breakfast."
+        ],
+        [
+          "{勉強|べんきょう}せずに{試験|しけん}を{受|う}けた。",
+          "I took the exam without studying."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tameni-purpose",
+      "prompt": "{日本語|にほんご}を{勉強|べんきょう}する（　）、{日本|にほん}に{来|き}ました。",
+      "options": [
+        "ために",
+        "ように",
+        "ためで",
+        "のに"
+      ],
+      "answer": 0,
+      "explanation": "Controllable action + **ために** = in order to.",
+      "notes": [
+        "",
+        "ように is for uncontrollable/potential verbs; 勉強する is a deliberate action.",
+        "ためで isn't the purpose pattern.",
+        "のに (purpose) only works with 便利/必要/かかる etc."
+      ],
+      "translation": "I came to Japan to study Japanese."
+    },
+    {
+      "point": "tameni-purpose",
+      "prompt": "{家族|かぞく}（　）{一生懸命|いっしょうけんめい}{働|はたら}いています。",
+      "options": [
+        "なために",
+        "にために",
+        "のために",
+        "ために"
+      ],
+      "answer": 2,
+      "explanation": "Noun + **のために**.",
+      "notes": [
+        "な is for な-adjectives.",
+        "にために isn't grammatical.",
+        "",
+        "Nouns need の before ために."
+      ],
+      "translation": "I work hard for my family."
+    },
+    {
+      "point": "youni-sothat",
+      "prompt": "{後|うし}ろの{人|ひと}にも{聞|き}こえる（　）、{大|おお}きい{声|こえ}で{話|はな}してください。",
+      "options": [
+        "ような",
+        "ようで",
+        "ために",
+        "ように"
+      ],
+      "answer": 3,
+      "explanation": "聞こえる is non-volitional → **ように**.",
+      "notes": [
+        "ような must be followed by a noun.",
+        "ようで = 'it seems … and'.",
+        "ために needs a controllable verb with the same subject.",
+        ""
+      ],
+      "translation": "Please speak loudly so the people in the back can hear too."
+    },
+    {
+      "point": "youni-sothat",
+      "prompt": "{風邪|かぜ}をひかない（　）、{暖|あたた}かくして{寝|ね}てください。",
+      "options": [
+        "ような",
+        "ように",
+        "ようで",
+        "ようが"
+      ],
+      "answer": 1,
+      "explanation": "Negative + **ように** = so that … not.",
+      "notes": [
+        "ような needs a noun.",
+        "",
+        "ようで isn't purpose.",
+        "ようが isn't a pattern here."
+      ],
+      "translation": "Keep warm when you sleep so you don't catch a cold."
+    },
+    {
+      "point": "youni-sothat",
+      "prompt": "{日本語|にほんご}が（　）ように、{毎日|まいにち}{練習|れんしゅう}しています。",
+      "options": [
+        "{話|はな}して",
+        "{話|はな}し",
+        "{話|はな}す",
+        "{話|はな}せる"
+      ],
+      "answer": 3,
+      "explanation": "With が, you need the **potential**: 話せるように.",
+      "notes": [
+        "The て-form can't come before ように.",
+        "The ます-stem can't come before ように.",
+        "日本語が話す is ungrammatical — 話す takes を.",
+        ""
+      ],
+      "translation": "I practise every day so that I can speak Japanese."
+    },
+    {
+      "point": "youtosuru",
+      "prompt": "{家|いえ}を{出|で}よう（　）とき、{電話|でんわ}が{鳴|な}った。",
+      "options": [
+        "とした",
+        "がした",
+        "をした",
+        "にした"
+      ],
+      "answer": 0,
+      "explanation": "Volitional + **とする** = be about to.",
+      "notes": [
+        "",
+        "ようがした isn't grammatical.",
+        "ようをした isn't grammatical.",
+        "ようにした = made an effort to."
+      ],
+      "translation": "Just as I was about to leave the house, the phone rang."
+    },
+    {
+      "point": "youtosuru",
+      "prompt": "{寝|ね}（　）としたが、{眠|ねむ}れなかった。",
+      "options": [
+        "る",
+        "おう",
+        "よう",
+        "ろう"
+      ],
+      "answer": 2,
+      "explanation": "Ichidan volitional: 寝る → **寝よう**.",
+      "notes": [
+        "寝るとした = 'decided it as going to sleep' — not an attempt.",
+        "寝おう isn't a form.",
+        "",
+        "寝ろう isn't a form."
+      ],
+      "translation": "I tried to sleep, but couldn't."
+    },
+    {
+      "point": "youtoshinai",
+      "prompt": "{息子|むすこ}は{全然|ぜんぜん}{勉強|べんきょう}しよう（　）。",
+      "options": [
+        "としない",
+        "がしない",
+        "をしない",
+        "にしない"
+      ],
+      "answer": 0,
+      "explanation": "Won't even try: volitional + **としない**.",
+      "notes": [
+        "",
+        "ようがしない isn't grammatical.",
+        "ようをしない isn't grammatical.",
+        "ようにしない = doesn't make it a habit — weaker and different."
+      ],
+      "translation": "My son won't even try to study."
+    },
+    {
+      "point": "youtoshinai",
+      "prompt": "What does 「{彼|かれ}は{人|ひと}の{話|はなし}を{聞|き}こうとしない」 mean?",
+      "options": [
+        "He can't hear what people say.",
+        "He is about to listen to others.",
+        "He tried to listen to others.",
+        "He won't (even try to) listen to others."
+      ],
+      "answer": 3,
+      "explanation": "ようとしない = makes no effort / refuses.",
+      "notes": [
+        "'Can't hear' would be 聞こえない.",
+        "'About to' would be 聞こうとしている.",
+        "'Tried to' would be 聞こうとした.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "zuni",
+      "prompt": "{朝|あさ}ご{飯|はん}を{食|た}べ（　）{学校|がっこう}へ{行|い}った。",
+      "options": [
+        "ずに",
+        "ないに",
+        "ずを",
+        "ずで"
+      ],
+      "answer": 0,
+      "explanation": "Without doing: **ずに**.",
+      "notes": [
+        "",
+        "ないに isn't a form (ないで would be).",
+        "ずを isn't grammatical.",
+        "ずで isn't standard."
+      ],
+      "translation": "I went to school without eating breakfast."
+    },
+    {
+      "point": "zuni",
+      "prompt": "{勉強|べんきょう}（　）{試験|しけん}を{受|う}けた。",
+      "options": [
+        "さずに",
+        "しずに",
+        "すずに",
+        "せずに"
+      ],
+      "answer": 3,
+      "explanation": "する → **せずに**.",
+      "notes": [
+        "さずに isn't a form.",
+        "しずに isn't a form.",
+        "すずに isn't a form.",
+        ""
+      ],
+      "translation": "I took the exam without studying."
+    },
+    {
+      "point": "zuni",
+      "prompt": "Which sentence means the same as 「{辞書|じしょ}を{使|つか}わずに{読|よ}んだ」?",
+      "options": [
+        "{辞書|じしょ}を{使|つか}えずに{読|よ}んだ。",
+        "{辞書|じしょ}を{使|つか}わないで{読|よ}んだ。",
+        "{辞書|じしょ}を{使|つか}って{読|よ}んだ。",
+        "{辞書|じしょ}を{使|つか}わなくて{読|よ}んだ。"
+      ],
+      "answer": 1,
+      "explanation": "〜ずに = **〜ないで** (without).",
+      "notes": [
+        "使えずに = 'without being able to use' — different meaning.",
+        "",
+        "使って = 'using' — the opposite.",
+        "なくて gives a reason ('because I didn't use…')."
+      ],
+      "translation": "I read it without using a dictionary."
+    }
+  ]
+}

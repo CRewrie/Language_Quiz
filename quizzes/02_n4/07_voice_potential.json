@@ -1,0 +1,530 @@
+{
+  "id": "n4-voice-potential",
+  "category": "JLPT N4",
+  "title": "Can, Passive, Causative & Transitivity",
+  "description": "Potential forms and ことができる, the passive (られる), causative (させる), causative-passive (させられる), and transitive/intransitive verb pairs.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "potential",
+      "title": "られる (1) / potential: can, be able to",
+      "summary": "Godan: u → e + る (読める). Ichidan: る → られる (食べられる). する → できる, 来る → 来られる. The object usually takes が.",
+      "body": "**Formation:**\n- **Godan**: final u → **e + る**: 読む → 読**める**, 書く → 書**ける**, 話す → 話**せる**, 買う → 買**える**\n- **Ichidan**: drop る + **られる**: 食べる → 食べ**られる**, 見る → 見**られる**\n- **する** → **できる**; **来る** → **来られる (こられる)**\n\nThe result is an ichidan verb: 読めます, 読めない, 読めた.\n\n**Particle:** the object usually switches from を to **が**: 漢字**が**読めます, 日本語**が**話せます. (を is also heard, especially with longer phrases.)\n\n**ら抜き言葉:** in casual speech, 食べ**れる** and 来**れる** (dropping ら) are very common, but they're considered non-standard. Use 食べ**られる** in tests and formal writing.\n\nThe ichidan potential looks identical to the passive (食べられる); context decides.",
+      "examples": [
+        [
+          "{漢字|かんじ}が{読|よ}めますか。",
+          "Can you read kanji?"
+        ],
+        [
+          "{納豆|なっとう}は{食|た}べられません。",
+          "I can't eat natto."
+        ],
+        [
+          "{来週|らいしゅう}のパーティーに{来|こ}られますか。",
+          "Can you come to next week's party?"
+        ]
+      ]
+    },
+    {
+      "id": "kotogadekiru",
+      "title": "ことができる: can, be able to (formal)",
+      "summary": "Dictionary form + ことができる = 'can do'. It's more formal and written than the potential form. Nouns: 日本語ができる.",
+      "body": "**Dictionary form + こと + が + できる** expresses ability or possibility:\n- ピアノを弾く**ことができます** (I can play the piano).\n- ここでたばこを吸う**ことはできません** (smoking isn't possible / allowed here).\n\n**Noun + ができる:** 日本語**が**できます, テニス**が**できる. Here the noun takes **が**.\n\n**ことができる vs potential form:** same meaning, but ことができる is **more formal**. It's common in writing, signs and announcements, and it also expresses circumstantial possibility (rules, permissions). The potential form (弾ける) is more natural in conversation.\n\nDon't use の here (弾くのができる ✗). It must be こと.",
+      "examples": [
+        [
+          "{姉|あね}はピアノを{弾|ひ}くことができます。",
+          "My older sister can play the piano."
+        ],
+        [
+          "この{図書館|としょかん}では、{本|ほん}を{三冊|さんさつ}まで{借|か}りることができます。",
+          "At this library you can borrow up to three books."
+        ],
+        [
+          "{日本語|にほんご}ができますか。",
+          "Can you speak Japanese?"
+        ]
+      ]
+    },
+    {
+      "id": "passive",
+      "title": "られる (2) / passive: be done (to)",
+      "summary": "Godan: u → a + れる (読まれる). Ichidan: る → られる. する → される, 来る → 来られる. The doer is marked with に. Japanese also has a 'suffering' passive.",
+      "body": "**Formation:**\n- **Godan**: final u → **a + れる**: 読む → 読**まれる**, 書く → 書**かれる**, 言う → 言**われる** (う → **わ**)\n- **Ichidan**: drop る + **られる**: 褒める → 褒め**られる**\n- **する** → **される**; **来る** → **来られる (こられる)**\n\n**Structure:** [person affected]は + [doer]**に** + passive verb: わたしは先生**に**褒め**られました**.\n\n**Three uses:**\n- **Direct passive**: 先生に褒められた (I was praised by the teacher).\n- **Suffering passive** (something unpleasant happens *to* you, even with intransitive verbs): 雨に降**られた** (I got rained on), 弟にケーキを食べ**られた** (my brother ate my cake, to my annoyance).\n- **Neutral/impersonal** (things, facts): この歌は世界中で歌わ**れています**.\n\nThe ichidan passive looks the same as the potential (食べられる).",
+      "examples": [
+        [
+          "{先生|せんせい}に{褒|ほ}められました。",
+          "I was praised by my teacher."
+        ],
+        [
+          "{雨|あめ}に{降|ふ}られて、びしょびしょになりました。",
+          "I got caught in the rain and was soaked."
+        ],
+        [
+          "この{歌|うた}は{世界中|せかいじゅう}で{歌|うた}われています。",
+          "This song is sung all over the world."
+        ]
+      ]
+    },
+    {
+      "id": "causative",
+      "title": "させる: make / let someone do",
+      "summary": "Godan: u → a + せる (読ませる). Ichidan: る → させる. する → させる, 来る → 来させる. The person made or allowed to act is marked with に (or を).",
+      "body": "**Formation:**\n- **Godan**: final u → **a + せる**: 読む → 読**ませる**, 行く → 行**かせる**, 言う → 言**わせる**\n- **Ichidan**: drop る + **させる**: 食べる → 食べ**させる**\n- **する** → **させる**; **来る** → **来させる (こさせる)**\n\n**Meaning:** **make** (force) or **let** (allow), depending on context:\n- 母は子供**に**野菜を食べ**させました** (made the child eat).\n- 父は私**を**留学**させてくれました** (let me study abroad, kindly).\n\n**Particle:** with transitive verbs (that have a を-object), the person takes **に**. With intransitive verbs, the person can take を or に (子供を/に行かせる).\n\n**Asking permission:** **〜させてください** = 'please let me …': 少し休ま**せてください**, 私にやら**せてください**.",
+      "examples": [
+        [
+          "{母|はは}は{子供|こども}に{野菜|やさい}を{食|た}べさせました。",
+          "The mother made her child eat vegetables."
+        ],
+        [
+          "すみません、ちょっと{休|やす}ませてください。",
+          "Excuse me, please let me rest a little."
+        ],
+        [
+          "{先生|せんせい}は{学生|がくせい}に{作文|さくぶん}を{書|か}かせました。",
+          "The teacher had the students write an essay."
+        ]
+      ]
+    },
+    {
+      "id": "causative-passive",
+      "title": "させられる: be made to do (against your will)",
+      "summary": "Causative + passive: 食べさせられる, 行かせられる / 行かされる. It expresses being forced to do something you didn't want to.",
+      "body": "**Formation:** take the causative form and make it passive:\n- Ichidan: 食べ**させられる**\n- Godan: 行か**せられる**, usually shortened to 行か**される** (u → a + **される**). The short form isn't used for verbs ending in す: 話**させられる** (not 話さされる).\n- する → **させられる**; 来る → **来させられる (こさせられる)**\n\n**Structure:** わたしは + [person who forced me]**に** + 〜させられる:\n- わたしは母**に**野菜を食べ**させられました** (I was made to eat vegetables by my mother).\n\n**Nuance:** it almost always implies the subject **didn't want to** do it. That's the difference from plain causative, which is about the person doing the forcing.",
+      "examples": [
+        [
+          "{子供|こども}のとき、{母|はは}に{野菜|やさい}を{食|た}べさせられました。",
+          "As a child, I was made to eat vegetables by my mother."
+        ],
+        [
+          "{部長|ぶちょう}にお{酒|さけ}を{飲|の}まされました。",
+          "I was made to drink by the department head."
+        ],
+        [
+          "{駅|えき}で{一時間|いちじかん}も{待|ま}たされました。",
+          "I was kept waiting at the station for a whole hour."
+        ]
+      ]
+    },
+    {
+      "id": "transitivity",
+      "title": "Transitive & intransitive verb pairs",
+      "summary": "Transitive (someone does it, with を): 開ける, 閉める, 消す, 始める. Intransitive (it happens, with が): 開く, 閉まる, 消える, 始まる.",
+      "body": "Many verbs come in **pairs**:\n- **Transitive (他動詞)**: someone acts on something, marked with **を**: ドア**を**閉める (I close the door).\n- **Intransitive (自動詞)**: something happens by itself, marked with **が**: ドア**が**閉まる (the door closes).\n\n**Common pairs (transitive / intransitive):**\n- 開ける / 開く (open)\n- 閉める / 閉まる (close)\n- 消す / 消える (turn off / go out)\n- つける / つく (turn on)\n- 始める / 始まる (begin)\n- 止める / 止まる (stop)\n- 落とす / 落ちる (drop / fall)\n- 入れる / 入る (put in / enter)\n- 出す / 出る (take out / come out)\n- 壊す / 壊れる (break)\n\n**Patterns that help:** 〜eru verbs are often transitive with an 〜aru partner (閉める/閉まる, 始める/始まる), and 〜su verbs are transitive (消す, 落とす, 出す).\n\n**State forms:** intransitive + **ている** (窓が開いている) vs transitive + **てある** (窓が開けてある).",
+      "examples": [
+        [
+          "ドアが{閉|し}まりました。",
+          "The door closed."
+        ],
+        [
+          "{部屋|へや}を{出|で}るとき、{電気|でんき}を{消|け}してください。",
+          "Please turn off the light when you leave the room."
+        ],
+        [
+          "{授業|じゅぎょう}は9{時|じ}に{始|はじ}まります。",
+          "Class starts at 9."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "potential",
+      "prompt": "この{漢字|かんじ}が{読|よ}（　）ますか。",
+      "options": [
+        "まれ",
+        "みられ",
+        "まられ",
+        "め"
+      ],
+      "answer": 3,
+      "explanation": "Godan potential: 読む → **読める** → 読めます.",
+      "notes": [
+        "読まれます is the passive ('is read').",
+        "みられ isn't a form of 読む.",
+        "まられ isn't a form.",
+        ""
+      ],
+      "translation": "Can you read this kanji?"
+    },
+    {
+      "point": "potential",
+      "prompt": "わたしは{納豆|なっとう}が{食|た}べ（　）ません。",
+      "options": [
+        "らせ",
+        "られさせ",
+        "られ",
+        "させ"
+      ],
+      "answer": 2,
+      "explanation": "Ichidan potential: 食べる → **食べられる**.",
+      "notes": [
+        "らせ isn't a form.",
+        "られさせ isn't a form.",
+        "",
+        "食べさせません = 'I won't make/let (someone) eat'."
+      ],
+      "translation": "I can't eat natto."
+    },
+    {
+      "point": "potential",
+      "prompt": "{来週|らいしゅう}のパーティーに（　）か。",
+      "options": [
+        "きられます",
+        "こられます",
+        "くられます",
+        "こさせます"
+      ],
+      "answer": 1,
+      "explanation": "Potential of 来る: **来られる (こられる)**.",
+      "notes": [
+        "The reading き is used in 来ます/来て, not in the potential.",
+        "",
+        "く is only the dictionary-form reading.",
+        "こさせます is causative ('make come')."
+      ],
+      "translation": "Can you come to next week's party?"
+    },
+    {
+      "point": "potential",
+      "prompt": "{練習|れんしゅう}して、{日本語|にほんご}で{電話|でんわ}が（　）ようになりました。",
+      "options": [
+        "すれる",
+        "しれる",
+        "できる",
+        "される"
+      ],
+      "answer": 2,
+      "explanation": "The potential of する is **できる**.",
+      "notes": [
+        "すれる isn't a form.",
+        "しれる isn't a form of する.",
+        "",
+        "される is the passive of する."
+      ],
+      "translation": "With practice, I became able to make phone calls in Japanese."
+    },
+    {
+      "point": "kotogadekiru",
+      "prompt": "{姉|あね}はピアノを{弾|ひ}く（　）ができます。",
+      "options": [
+        "ところ",
+        "もの",
+        "の",
+        "こと"
+      ],
+      "answer": 3,
+      "explanation": "Ability: dictionary form + **ことができる**.",
+      "notes": [
+        "ところができる isn't a pattern.",
+        "ものができる means 'a thing gets made'.",
+        "のができる isn't used for ability. It has to be こと.",
+        ""
+      ],
+      "translation": "My older sister can play the piano."
+    },
+    {
+      "point": "kotogadekiru",
+      "prompt": "この{図書館|としょかん}では、{本|ほん}を{三冊|さんさつ}まで{借|か}りる（　）できます。",
+      "options": [
+        "ことを",
+        "ことが",
+        "のが",
+        "ことに"
+      ],
+      "answer": 1,
+      "explanation": "The fixed pattern is **ことができる**.",
+      "notes": [
+        "ことをできる isn't standard. できる takes が.",
+        "",
+        "のができる isn't used for ability or possibility.",
+        "ことにできる isn't the ability pattern."
+      ],
+      "translation": "At this library you can borrow up to three books."
+    },
+    {
+      "point": "kotogadekiru",
+      "prompt": "A：{日本語|にほんご}（　）できますか。　B：はい、{少|すこ}し。",
+      "options": [
+        "を",
+        "に",
+        "で",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "Noun + **が** + できる.",
+      "notes": [
+        "できる takes が for the skill. を is a common mistake.",
+        "に doesn't mark the skill.",
+        "日本語でできますか = 'can it be done in Japanese?', a different question.",
+        ""
+      ],
+      "translation": "A: Can you speak Japanese? B: Yes, a little."
+    },
+    {
+      "point": "passive",
+      "prompt": "{試験|しけん}がよくできたので、{先生|せんせい}に{褒|ほ}め（　）。",
+      "options": [
+        "れました",
+        "させました",
+        "られました",
+        "らせました"
+      ],
+      "answer": 2,
+      "explanation": "Ichidan passive: 褒める → **褒められる**.",
+      "notes": [
+        "褒めれました is a ら-dropped form that doesn't exist for the passive.",
+        "褒めさせました = 'made someone praise'. That's causative, the wrong direction.",
+        "",
+        "らせる isn't a form."
+      ],
+      "translation": "I did well on the test, so I was praised by my teacher."
+    },
+    {
+      "point": "passive",
+      "prompt": "{傘|かさ}がなかったので、{雨|あめ}に{降|ふ}ら（　）、びしょびしょになりました。",
+      "options": [
+        "せて",
+        "れて",
+        "して",
+        "られて"
+      ],
+      "answer": 1,
+      "explanation": "Suffering passive: 降る → 降**られる** (godan: る → ら + れる).",
+      "notes": [
+        "降らせて is causative ('made it rain').",
+        "",
+        "降らして is colloquial causative, not passive.",
+        "られる after the あ-stem is wrong. Godan verbs take れる: 降らられる ✗."
+      ],
+      "translation": "I had no umbrella, so I got caught in the rain and was soaked."
+    },
+    {
+      "point": "passive",
+      "prompt": "この{歌|うた}は{世界中|せかいじゅう}で{歌|うた}わ（　）います。",
+      "options": [
+        "られて",
+        "せて",
+        "れて",
+        "して"
+      ],
+      "answer": 2,
+      "explanation": "Godan passive: 歌う → 歌**われる** (う → わ).",
+      "notes": [
+        "Godan verbs take れる, not られる.",
+        "歌わせている = 'is making (someone) sing'.",
+        "",
+        "歌わして is colloquial causative."
+      ],
+      "translation": "This song is sung all over the world."
+    },
+    {
+      "point": "passive",
+      "prompt": "{楽|たの}しみにしていたのに、{弟|おとうと}にケーキを{食|た}べ（　）。",
+      "options": [
+        "れました",
+        "られました",
+        "らせました",
+        "りました"
+      ],
+      "answer": 1,
+      "explanation": "Suffering passive with ichidan: 食べ**られる** ('my brother ate my cake, to my annoyance').",
+      "notes": [
+        "食べれました is a casual ら-dropped *potential* ('could eat'), not passive.",
+        "",
+        "らせる isn't a form.",
+        "食べりました isn't a form."
+      ],
+      "translation": "I'd been looking forward to it, but my little brother ate my cake."
+    },
+    {
+      "point": "causative",
+      "prompt": "{先生|せんせい}は{学生|がくせい}に{教科書|きょうかしょ}を{読|よ}ま（　）。",
+      "options": [
+        "されました",
+        "さました",
+        "せました",
+        "させました"
+      ],
+      "answer": 2,
+      "explanation": "Godan causative: 読む → 読**ませる**.",
+      "notes": [
+        "読まされました is causative-passive ('was made to read'), which has the wrong subject here.",
+        "さました isn't a form.",
+        "",
+        "させる is for ichidan verbs. Godan verbs take せる after the あ-stem."
+      ],
+      "translation": "The teacher had the students read the textbook."
+    },
+    {
+      "point": "causative",
+      "prompt": "すみません、{熱|ねつ}があるので、{今日|きょう}は{休|やす}ませて（　）。",
+      "options": [
+        "します",
+        "ください",
+        "いきます",
+        "なさい"
+      ],
+      "answer": 1,
+      "explanation": "Asking permission: causative て-form + **ください** = 'please let me …'.",
+      "notes": [
+        "休ませてします isn't grammatical.",
+        "",
+        "休ませていきます doesn't make sense here.",
+        "なさい needs the ます-stem and is a command."
+      ],
+      "translation": "Excuse me, I have a fever, so please let me take today off."
+    },
+    {
+      "point": "causative",
+      "prompt": "{母|はは}は{子供|こども}に{部屋|へや}の{掃除|そうじ}を（　）。",
+      "options": [
+        "させれました",
+        "すさせました",
+        "しさせました",
+        "させました"
+      ],
+      "answer": 3,
+      "explanation": "The causative of する is **させる**.",
+      "notes": [
+        "させれる isn't a form.",
+        "すさせる isn't a form.",
+        "しさせる isn't a form.",
+        ""
+      ],
+      "translation": "The mother made her child clean the room."
+    },
+    {
+      "point": "causative-passive",
+      "prompt": "{子供|こども}のとき、{母|はは}に{嫌|きら}いな{野菜|やさい}を{食|た}べ（　）。",
+      "options": [
+        "させりました",
+        "させられました",
+        "されさせました",
+        "られさせました"
+      ],
+      "answer": 1,
+      "explanation": "Ichidan causative-passive: 食べ**させられる** (causative first, then passive).",
+      "notes": [
+        "させりました isn't a form.",
+        "",
+        "されさせました isn't a form.",
+        "The order is wrong: causative (させ) comes before passive (られ)."
+      ],
+      "translation": "As a child, I was made to eat vegetables I hated by my mother."
+    },
+    {
+      "point": "causative-passive",
+      "prompt": "{飲|の}み{会|かい}で、{部長|ぶちょう}にお{酒|さけ}をたくさん{飲|の}ま（　）。",
+      "options": [
+        "させれました",
+        "さられました",
+        "せれました",
+        "されました"
+      ],
+      "answer": 3,
+      "explanation": "Godan short causative-passive: 飲む → 飲ま**される** (= 飲ませられる).",
+      "notes": [
+        "させれる isn't a form.",
+        "さられる isn't a form.",
+        "せれる isn't a form. The long form is 飲ませられる.",
+        ""
+      ],
+      "translation": "At the drinking party, I was made to drink a lot by the department head."
+    },
+    {
+      "point": "causative-passive",
+      "prompt": "What does 「{駅|えき}で{一時間|いちじかん}も{待|ま}たされました」 mean?",
+      "options": [
+        "I made someone wait at the station for an hour.",
+        "I was kept waiting at the station for an hour.",
+        "Someone waited for me for an hour.",
+        "I could wait for an hour."
+      ],
+      "answer": 1,
+      "explanation": "待た**される** = causative-passive: 'was made to wait'.",
+      "notes": [
+        "'Made someone wait' is the plain causative: 待たせました.",
+        "",
+        "'Someone waited for me' would be 待ってくれました / 待ってもらいました.",
+        "'Could wait' is the potential: 待てました."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "transitivity",
+      "prompt": "{風|かぜ}でドアが（　）。",
+      "options": [
+        "{閉|し}めました",
+        "{閉|し}まめました",
+        "{閉|し}まりました",
+        "{閉|し}めりました"
+      ],
+      "answer": 2,
+      "explanation": "With **が** and no person acting: intransitive **閉まる**.",
+      "notes": [
+        "閉める is transitive and needs を and someone doing it (ドアを閉めました).",
+        "閉まめる isn't a verb.",
+        "",
+        "閉める isn't 閉めり-. That isn't a form."
+      ],
+      "translation": "The door closed because of the wind."
+    },
+    {
+      "point": "transitivity",
+      "prompt": "{部屋|へや}を{出|で}るとき、{電気|でんき}を（　）ください。",
+      "options": [
+        "きえて",
+        "けえて",
+        "きして",
+        "けして"
+      ],
+      "answer": 3,
+      "explanation": "電気**を**: transitive **消す** → 消して.",
+      "notes": [
+        "きえて (消える) is intransitive ('go out') and can't take を.",
+        "けえて isn't a form of either verb.",
+        "きして isn't a form.",
+        ""
+      ],
+      "translation": "Please turn off the light when you leave the room."
+    },
+    {
+      "point": "transitivity",
+      "prompt": "{授業|じゅぎょう}は9{時|じ}に（　）。",
+      "options": [
+        "{始|はじ}めまります",
+        "{始|はじ}めます",
+        "{始|はじ}まります",
+        "{始|はじ}まえます"
+      ],
+      "answer": 2,
+      "explanation": "Class (は/が) starts by itself: intransitive **始まる**.",
+      "notes": [
+        "始めまります isn't a form.",
+        "始める is transitive (先生が授業を始めます). With 授業 as the subject, use 始まる.",
+        "",
+        "始まえる isn't a verb."
+      ],
+      "translation": "Class starts at 9."
+    },
+    {
+      "point": "transitivity",
+      "prompt": "あっ、{財布|さいふ}を（　）しまいました。",
+      "options": [
+        "{落|お}とちて",
+        "{落|お}ちて",
+        "{落|お}ちとして",
+        "{落|お}として"
+      ],
+      "answer": 3,
+      "explanation": "財布**を**: transitive **落とす** ('drop') → 落として.",
+      "notes": [
+        "落とちて isn't a form.",
+        "落ちる is intransitive ('fall') and can't take を.",
+        "落ちとして isn't a form.",
+        ""
+      ],
+      "translation": "Oh no, I dropped my wallet."
+    }
+  ]
+}

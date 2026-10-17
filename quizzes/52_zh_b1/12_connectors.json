@@ -1,0 +1,362 @@
+{
+  "id": "zh-b1-connectors",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Connectors: 不过, 要不, 另外 / 再说, 结果, 后来, 之前 / 之后, 以来",
+  "description": "A softer but, 'how about', in addition / besides, as a result, later on (past), before / after, and since.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "buguo",
+      "title": "不过: but (softer)",
+      "summary": "不过 (búguò) = 'but, however' — milder than 但是, common in speech.",
+      "body": "- 这家饭馆的菜很好吃，**不过**有点儿贵.",
+      "examples": [
+        [
+          "{我|wǒ}{想|xiǎng}{去|qù}，{不过|búguò}{今天|jīntiān}{没|méi}{时间|shíjiān}。",
+          "I'd like to go, but I don't have time today."
+        ]
+      ]
+    },
+    {
+      "id": "yaobu",
+      "title": "要不 … 吧: how about …",
+      "summary": "要不 (yàobù) + suggestion + 吧 = 'then how about …?'.",
+      "body": "- 今天太热了，**要不**我们去游泳**吧**.",
+      "examples": [
+        [
+          "{要不|yàobù}{你|nǐ}{先|xiān}{回去|huíqù}{吧|ba}。",
+          "How about you go back first?"
+        ]
+      ]
+    },
+    {
+      "id": "lingwai",
+      "title": "另外 / 再说: in addition, besides",
+      "summary": "另外 (lìngwài) adds another point. 再说 (zàishuō) adds another **reason** ('besides, …').",
+      "body": "- 这个房子太小了，**另外**离公司也很远.\n- 我不想去，太远了，**再说**我也没时间.",
+      "examples": [
+        [
+          "{再说|zàishuō}，{我|wǒ}{也|yě}{没有|méiyǒu}{时间|shíjiān}。",
+          "Besides, I don't have time anyway."
+        ]
+      ]
+    },
+    {
+      "id": "jieguo",
+      "title": "结果: as a result, in the end",
+      "summary": "结果 (jiéguǒ) introduces the outcome — often an unwanted or unexpected one.",
+      "body": "- 他没带伞，**结果**被雨淋湿了.",
+      "examples": [
+        [
+          "{我|wǒ}{等|děng}{了|le}{他|tā}{一个|yí ge}{小时|xiǎoshí}，{结果|jiéguǒ}{他|tā}{没|méi}{来|lái}。",
+          "I waited an hour for him, and in the end he didn't come."
+        ]
+      ]
+    },
+    {
+      "id": "houlai",
+      "title": "后来 vs 以后",
+      "summary": "后来 (hòulái) = afterwards, later on — **past** narratives only, stands alone. 以后 = after (an event) or 'in future'.",
+      "body": "- 我们大学时是好朋友，**后来**他去了美国.\n- **以后**我想去中国工作.",
+      "examples": [
+        [
+          "{后来|hòulái}{他|tā}{去|qù}{了|le}{美国|Měiguó}。",
+          "Later on he went to America."
+        ]
+      ]
+    },
+    {
+      "id": "zhiqian",
+      "title": "Event + 之前 / 之后: before / after",
+      "summary": "之前 = before, 之后 = after (a bit more formal than 以前 / 以后).",
+      "body": "- 睡觉**之前**，别喝咖啡.\n- 吃完饭**之后**，我们去散步吧.",
+      "examples": [
+        [
+          "{睡觉|shuìjiào}{之前|zhīqián}，{别|bié}{喝|hē}{咖啡|kāfēi}。",
+          "Don't drink coffee before bed."
+        ]
+      ]
+    },
+    {
+      "id": "yilai",
+      "title": "… 以来: since",
+      "summary": "Time / event + 以来 (yǐlái) = since then, up to now.",
+      "body": "- 来中国**以来**，我交了很多朋友.\n- 今年**以来** (since the start of this year).",
+      "examples": [
+        [
+          "{来|lái}{中国|Zhōngguó}{以来|yǐlái}，{我|wǒ}{交|jiāo}{了|le}{很|hěn}{多|duō}{朋友|péngyou}。",
+          "Since coming to China I've made lots of friends."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "buguo",
+      "prompt": "{这|zhè}{家|jiā}{饭馆|fànguǎn}{的|de}{菜|cài}{很|hěn}{好吃|hǎochī}，（　）{有点儿|yǒudiǎnr}{贵|guì}。",
+      "options": [
+        "{因为|yīnwèi}",
+        "{所以|suǒyǐ}",
+        "{而且|érqiě}",
+        "{不过|búguò}"
+      ],
+      "answer": 3,
+      "explanation": "Softer but: **不过**.",
+      "notes": [
+        "因为 = 'because'.",
+        "所以 = 'so' — not a contrast.",
+        "而且 = 'and also' — 有点儿贵 is a drawback.",
+        ""
+      ],
+      "translation": "The food in this restaurant is good, but a bit pricey."
+    },
+    {
+      "point": "buguo",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{想|xiǎng}{不过|búguò}{去|qù}，{今天|jīntiān}{没|méi}{时间|shíjiān}。",
+        "{我|wǒ}{想|xiǎng}{去|qù}，{不过|búguò}{今天|jīntiān}{没|méi}{时间|shíjiān}。",
+        "{我|wǒ}{想|xiǎng}{去|qù}{不过|búguò}，{今天|jīntiān}{没|méi}{时间|shíjiān}。",
+        "{不过|búguò}{我|wǒ}{想|xiǎng}{去|qù}，{今天|jīntiān}{没|méi}{时间|shíjiān}。"
+      ],
+      "answer": 1,
+      "explanation": "…，**不过** ….",
+      "notes": [
+        "不过 can't split the verb phrase.",
+        "",
+        "不过 starts the second clause.",
+        "不过 starts the second clause."
+      ],
+      "translation": "I'd like to go, but I don't have time today."
+    },
+    {
+      "point": "yaobu",
+      "prompt": "{今天|jīntiān}{太|tài}{热|rè}{了|le}，（　）{我们|wǒmen}{去|qù}{游泳|yóuyǒng}{吧|ba}。",
+      "options": [
+        "{要不|yàobù}",
+        "{要是|yàoshi}",
+        "{不过|búguò}",
+        "{不要|búyào}"
+      ],
+      "answer": 0,
+      "explanation": "How about: **要不…吧**.",
+      "notes": [
+        "",
+        "要是 = 'if' — needs a result.",
+        "不过 = 'but'.",
+        "不要 = 'don't'."
+      ],
+      "translation": "It's so hot today — how about we go swimming?"
+    },
+    {
+      "point": "yaobu",
+      "prompt": "What does 「{要不|yàobù}{你|nǐ}{先|xiān}{回去|huíqù}{吧|ba}。」 mean?",
+      "options": [
+        "Youmustn'tgoback.",
+        "Ifnot,yougoback.",
+        "Doyouwanttogoback?",
+        "Howaboutyougobackfirst?"
+      ],
+      "answer": 3,
+      "explanation": "要不…吧 = **suggestion**.",
+      "notes": [
+        "That's 你不要回去.",
+        "要不 here is a suggestion, not 'otherwise'.",
+        "That's 你要回去吗.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "lingwai",
+      "prompt": "{这个|zhège}{房子|fángzi}{太|tài}{小|xiǎo}{了|le}，（　）{离|lí}{公司|gōngsī}{也|yě}{很|hěn}{远|yuǎn}。",
+      "options": [
+        "{另外|lìngwài}",
+        "{结果|jiéguǒ}",
+        "{所以|suǒyǐ}",
+        "{不过|búguò}"
+      ],
+      "answer": 0,
+      "explanation": "In addition: **另外**.",
+      "notes": [
+        "",
+        "结果 = 'as a result'.",
+        "所以 = 'so' — the distance isn't a result of the size.",
+        "不过 = 'but' — both are drawbacks."
+      ],
+      "translation": "This flat is too small, and on top of that it's far from the office."
+    },
+    {
+      "point": "lingwai",
+      "prompt": "{我|wǒ}{不|bù}{想|xiǎng}{去|qù}，{太|tài}{远|yuǎn}{了|le}，（　）{我|wǒ}{也|yě}{没有|méiyǒu}{时间|shíjiān}。",
+      "options": [
+        "{结果|jiéguǒ}",
+        "{后来|hòulái}",
+        "{再说|zàishuō}",
+        "{原来|yuánlái}"
+      ],
+      "answer": 2,
+      "explanation": "Besides (another reason): **再说**.",
+      "notes": [
+        "结果 = 'as a result'.",
+        "后来 = 'later on' (past).",
+        "",
+        "原来 = 'so it turns out'."
+      ],
+      "translation": "I don't want to go — it's too far, and besides I don't have time."
+    },
+    {
+      "point": "jieguo",
+      "prompt": "{他|tā}{没|méi}{带|dài}{伞|sǎn}，（　）{被|bèi}{雨|yǔ}{淋|lín}{湿|shī}{了|le}。",
+      "options": [
+        "{不过|búguò}",
+        "{结果|jiéguǒ}",
+        "{原来|yuánlái}",
+        "{要不|yàobù}"
+      ],
+      "answer": 1,
+      "explanation": "As a result: **结果**.",
+      "notes": [
+        "不过 = 'but' — getting wet isn't a contrast.",
+        "",
+        "原来 = 'so it turns out'.",
+        "要不 = 'how about'."
+      ],
+      "translation": "He didn't take an umbrella and got soaked."
+    },
+    {
+      "point": "jieguo",
+      "prompt": "{我|wǒ}{等|děng}{了|le}{他|tā}{一个|yí ge}{小时|xiǎoshí}，（　）{他|tā}{没|méi}{来|lái}。",
+      "options": [
+        "{要不|yàobù}",
+        "{再说|zàishuō}",
+        "{原来|yuánlái}",
+        "{结果|jiéguǒ}"
+      ],
+      "answer": 3,
+      "explanation": "In the end: **结果**.",
+      "notes": [
+        "要不 = 'how about'.",
+        "再说 = 'besides'.",
+        "原来 = discovering a fact — here it's the outcome.",
+        ""
+      ],
+      "translation": "I waited an hour for him, and in the end he didn't come."
+    },
+    {
+      "point": "houlai",
+      "prompt": "{我们|wǒmen}{上|shàng}{大学|dàxué}{的|de}{时候|shíhou}{是|shì}{好|hǎo}{朋友|péngyou}，（　）{他|tā}{去|qù}{了|le}{美国|Měiguó}，{就|jiù}{不|bù}{常|cháng}{联系|liánxì}{了|le}。",
+      "options": [
+        "{以前|yǐqián}",
+        "{最近|zuìjìn}",
+        "{后来|hòulái}",
+        "{刚才|gāngcái}"
+      ],
+      "answer": 2,
+      "explanation": "Later on (past): **后来**.",
+      "notes": [
+        "以前 = 'before' — but this happened after university.",
+        "最近 = 'recently' — doesn't fit the story.",
+        "",
+        "刚才 = 'a moment ago' — not years later."
+      ],
+      "translation": "We were good friends at university; later he went to America and we lost touch."
+    },
+    {
+      "point": "houlai",
+      "prompt": "（　），{我|wǒ}{想|xiǎng}{去|qù}{中国|Zhōngguó}{工作|gōngzuò}。",
+      "options": [
+        "{已经|yǐjīng}",
+        "{以后|yǐhòu}",
+        "{刚才|gāngcái}",
+        "{后来|hòulái}"
+      ],
+      "answer": 1,
+      "explanation": "In future: **以后**.",
+      "notes": [
+        "已经 can't start the sentence like this.",
+        "",
+        "刚才 = 'a moment ago'.",
+        "后来 is only for the past."
+      ],
+      "translation": "In future, I want to work in China."
+    },
+    {
+      "point": "zhiqian",
+      "prompt": "{睡觉|shuìjiào}（　），{别|bié}{喝|hē}{咖啡|kāfēi}。",
+      "options": [
+        "{以来|yǐlái}",
+        "{后来|hòulái}",
+        "{之前|zhīqián}",
+        "{之后|zhīhòu}"
+      ],
+      "answer": 2,
+      "explanation": "Before: **之前**.",
+      "notes": [
+        "以来 = 'since'.",
+        "后来 can't follow a verb.",
+        "",
+        "After sleeping, coffee is fine."
+      ],
+      "translation": "Don't drink coffee before bed."
+    },
+    {
+      "point": "zhiqian",
+      "prompt": "{吃|chī}{完|wán}{饭|fàn}（　），{我们|wǒmen}{去|qù}{散步|sànbù}{吧|ba}。",
+      "options": [
+        "{之后|zhīhòu}",
+        "{以来|yǐlái}",
+        "{之前|zhīqián}",
+        "{后来|hòulái}"
+      ],
+      "answer": 0,
+      "explanation": "After: **之后**.",
+      "notes": [
+        "",
+        "以来 = 'since'.",
+        "吃完饭之前 is contradictory.",
+        "后来 can't follow a verb."
+      ],
+      "translation": "Let's go for a walk after dinner."
+    },
+    {
+      "point": "yilai",
+      "prompt": "{来|lái}{中国|Zhōngguó}（　），{我|wǒ}{交|jiāo}{了|le}{很|hěn}{多|duō}{朋友|péngyou}。",
+      "options": [
+        "{后来|hòulái}",
+        "{以来|yǐlái}",
+        "{以前|yǐqián}",
+        "{之前|zhīqián}"
+      ],
+      "answer": 1,
+      "explanation": "Since: **以来**.",
+      "notes": [
+        "后来 can't follow a verb.",
+        "",
+        "以前 = 'before'.",
+        "Before coming to China, you couldn't make friends there."
+      ],
+      "translation": "Since coming to China I've made lots of friends."
+    },
+    {
+      "point": "yilai",
+      "prompt": "What does 「{今年|jīnnián}{以来|yǐlái}」 mean?",
+      "options": [
+        "onlythisyear",
+        "afterthisyear",
+        "sincethestartofthisyear",
+        "beforethisyear"
+      ],
+      "answer": 2,
+      "explanation": "以来 = **since (until now)**.",
+      "notes": [
+        "That's 只有今年.",
+        "That's 今年以后.",
+        "",
+        "That's 今年以前."
+      ],
+      "translation": ""
+    }
+  ]
+}

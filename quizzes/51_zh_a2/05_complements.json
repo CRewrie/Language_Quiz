@@ -1,0 +1,331 @@
+{
+  "id": "zh-a2-complements",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "的 / 得 / 地 and Result Complements: 完, 到, 见, 懂, 好 / 难 + verb",
+  "description": "The three 'de', how well something is done (V得…), finished (完), managed / perceived (到, 见), understood (懂), and easy / hard to do.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "de3",
+      "title": "的 vs 得 vs 地",
+      "summary": "All three sound 'de'. 的 links to a **noun** (my book, the clothes I bought). 得 follows a **verb** to say how well/how much (跑得快). 地 turns an adjective into an **adverb before a verb** (高兴地说).",
+      "body": "- 我昨天买**的**衣服.\n- 他跑**得**很快.\n- 她高兴**地**说.",
+      "examples": [
+        [
+          "{他|tā}{跑|pǎo}{得|de}{很|hěn}{快|kuài}。",
+          "He runs fast."
+        ]
+      ]
+    },
+    {
+      "id": "degree",
+      "title": "Verb + 得 + adj: how well",
+      "summary": "Verb + 得 + (很) adj. With an object, repeat the verb: 他说中文**说得**很好 (or 他中文说得很好). Negative: verb + 得 + 不 + adj.",
+      "body": "- 他说中文说**得很好**.\n- 他跑**得不快** — not ~~不跑得快~~.",
+      "examples": [
+        [
+          "{他|tā}{说|shuō}{中文|Zhōngwén}{说|shuō}{得|de}{很|hěn}{好|hǎo}。",
+          "He speaks Chinese very well."
+        ]
+      ]
+    },
+    {
+      "id": "wan",
+      "title": "Verb + 完: finish",
+      "summary": "完 (wán) after a verb = finish doing it.",
+      "body": "- 我做**完**作业了.\n- 我看**完**了这本书.",
+      "examples": [
+        [
+          "{我|wǒ}{已经|yǐjīng}{做|zuò}{完|wán}{作业|zuòyè}{了|le}。",
+          "I've already finished my homework."
+        ]
+      ]
+    },
+    {
+      "id": "daojian",
+      "title": "Verb + 到 / 见: manage to, perceive",
+      "summary": "到 = reach the goal (找到 find, 买到 manage to buy). 见 = perceive (看见 see, 听见 hear).",
+      "body": "- 我找**到**钥匙了.\n- 你听**见**了吗?",
+      "examples": [
+        [
+          "{我|wǒ}{找|zhǎo}{到|dào}{我|wǒ}{的|de}{钥匙|yàoshi}{了|le}。",
+          "I found my keys."
+        ]
+      ]
+    },
+    {
+      "id": "budong",
+      "title": "Verb + 不懂 / 懂: (not) understand",
+      "summary": "看懂 / 听懂 = understand by reading/listening. Can't: 看**不**懂 / 听**不**懂. 听不见 = can't hear (too quiet), 听不懂 = can't understand.",
+      "body": "- 老师说得太快，我听**不懂**.\n- 这本书我看**不懂**.",
+      "examples": [
+        [
+          "{这|zhè}{本|běn}{书|shū}{我|wǒ}{看|kàn}{不|bu}{懂|dǒng}。",
+          "I can't understand this book."
+        ]
+      ]
+    },
+    {
+      "id": "haonan",
+      "title": "好 / 难 + verb: easy / hard to …",
+      "summary": "好 + verb = easy to … / nice to … (好吃, 好写). 难 + verb = hard to … / bad to … (难吃, 难写).",
+      "body": "- 这个字很**难**写.\n- 饺子很**好**吃.",
+      "examples": [
+        [
+          "{这个|zhège}{字|zì}{很|hěn}{难|nán}{写|xiě}。",
+          "This character is hard to write."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "de3",
+      "prompt": "{他|tā}{跑|pǎo}（　）{很|hěn}{快|kuài}。",
+      "options": [
+        "{了|le}",
+        "{地|de}",
+        "{的|de}",
+        "{得|de}"
+      ],
+      "answer": 3,
+      "explanation": "Verb + **得** + how.",
+      "notes": [
+        "跑了很快 isn't grammatical.",
+        "地 comes before a verb.",
+        "的 links to a noun.",
+        ""
+      ],
+      "translation": "He runs fast."
+    },
+    {
+      "point": "de3",
+      "prompt": "{她|tā}{高兴|gāoxìng}（　）{说|shuō}：“{太|tài}{好|hǎo}{了|le}！”",
+      "options": [
+        "{了|le}",
+        "{地|de}",
+        "{的|de}",
+        "{得|de}"
+      ],
+      "answer": 1,
+      "explanation": "Adverb before a verb: **地**.",
+      "notes": [
+        "高兴了说 isn't grammatical.",
+        "",
+        "的 links to a noun, not a verb.",
+        "得 comes after a verb, not before one."
+      ],
+      "translation": "She said happily: 'Great!'"
+    },
+    {
+      "point": "de3",
+      "prompt": "{这|zhè}{是|shì}{我|wǒ}{昨天|zuótiān}{买|mǎi}（　）{衣服|yīfu}。",
+      "options": [
+        "{的|de}",
+        "{了|le}",
+        "{地|de}",
+        "{得|de}"
+      ],
+      "answer": 0,
+      "explanation": "Clause modifying a noun: **的**.",
+      "notes": [
+        "",
+        "这是我昨天买了衣服 isn't grammatical.",
+        "地 comes before a verb.",
+        "得 needs a description of how after it."
+      ],
+      "translation": "These are the clothes I bought yesterday."
+    },
+    {
+      "point": "degree",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{说|shuō}{中文|Zhōngwén}{得|de}{很|hěn}{好|hǎo}。",
+        "{他|tā}{说|shuō}{得|de}{中文|Zhōngwén}{很|hěn}{好|hǎo}。",
+        "{他|tā}{说|shuō}{中文|Zhōngwén}{很|hěn}{好|hǎo}{得|de}。",
+        "{他|tā}{说|shuō}{中文|Zhōngwén}{说|shuō}{得|de}{很|hěn}{好|hǎo}。"
+      ],
+      "answer": 3,
+      "explanation": "Repeat the verb: **说中文说得很好**.",
+      "notes": [
+        "得 must follow the verb directly — repeat 说.",
+        "The object can't go between 得 and the adjective.",
+        "得 comes before the adjective.",
+        ""
+      ],
+      "translation": "He speaks Chinese very well."
+    },
+    {
+      "point": "degree",
+      "prompt": "Which sentence means 'He doesn't run fast'?",
+      "options": [
+        "{他|tā}{没|méi}{跑|pǎo}{得|de}{快|kuài}。",
+        "{他|tā}{不|bù}{跑|pǎo}{得|de}{快|kuài}。",
+        "{他|tā}{跑|pǎo}{得|de}{不|bú}{快|kuài}。",
+        "{他|tā}{跑|pǎo}{不|bu}{得|de}{快|kuài}。"
+      ],
+      "answer": 2,
+      "explanation": "Negative: verb + 得 + **不** + adj.",
+      "notes": [
+        "没 isn't used with degree complements.",
+        "不 goes after 得, before the adjective.",
+        "",
+        "Not grammatical."
+      ],
+      "translation": "He doesn't run fast."
+    },
+    {
+      "point": "wan",
+      "prompt": "{我|wǒ}{已经|yǐjīng}{做|zuò}（　）{作业|zuòyè}{了|le}，{可以|kěyǐ}{出去|chūqù}{玩儿|wánr}{吗|ma}？",
+      "options": [
+        "{懂|dǒng}",
+        "{完|wán}",
+        "{见|jiàn}",
+        "{到|dào}"
+      ],
+      "answer": 1,
+      "explanation": "Finished: **做完**.",
+      "notes": [
+        "做懂 isn't a word.",
+        "",
+        "见 is for seeing/hearing.",
+        "做到 = 'achieve' — not 'finish homework'."
+      ],
+      "translation": "I've finished my homework — can I go out and play?"
+    },
+    {
+      "point": "wan",
+      "prompt": "What does 「{我|wǒ}{看|kàn}{完|wán}{了|le}{这|zhè}{本|běn}{书|shū}。」 mean?",
+      "options": [
+        "Isawthisbook.",
+        "Iunderstoodthisbook.",
+        "I'vereadthisbookbefore.",
+        "I'vefinishedreadingthisbook."
+      ],
+      "answer": 3,
+      "explanation": "完 = **finished**.",
+      "notes": [
+        "That's 看见.",
+        "That's 看懂.",
+        "That's 看过.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "daojian",
+      "prompt": "{我|wǒ}{找|zhǎo}（　）{我|wǒ}{的|de}{钥匙|yàoshi}{了|le}！{在|zài}{沙发|shāfā}{下面|xiàmiàn}。",
+      "options": [
+        "{懂|dǒng}",
+        "{完|wán}",
+        "{到|dào}",
+        "{会|huì}"
+      ],
+      "answer": 2,
+      "explanation": "Found: **找到**.",
+      "notes": [
+        "找懂 isn't a word.",
+        "找完 = 'finished searching' — not 'found'.",
+        "",
+        "找会 isn't a word."
+      ],
+      "translation": "I found my keys! They were under the sofa."
+    },
+    {
+      "point": "daojian",
+      "prompt": "{你|nǐ}{听|tīng}（　）{了|le}{吗|ma}？{外面|wàimiàn}{有人|yǒurén}{叫|jiào}{你|nǐ}。",
+      "options": [
+        "{懂|dǒng}",
+        "{见|jiàn}",
+        "{会|huì}",
+        "{完|wán}"
+      ],
+      "answer": 1,
+      "explanation": "Heard: **听见**.",
+      "notes": [
+        "听懂 = 'understood' — the question is whether you heard someone.",
+        "",
+        "听会 isn't a word.",
+        "听完 = 'finished listening'."
+      ],
+      "translation": "Did you hear that? Someone outside is calling you."
+    },
+    {
+      "point": "budong",
+      "prompt": "{老师|lǎoshī}{说|shuō}{得|de}{太|tài}{快|kuài}，{我|wǒ}{听|tīng}{不|bu}（　）。",
+      "options": [
+        "{懂|dǒng}",
+        "{会|huì}",
+        "{见|jiàn}",
+        "{完|wán}"
+      ],
+      "answer": 0,
+      "explanation": "Can't understand: **听不懂**.",
+      "notes": [
+        "",
+        "听不会 isn't a word.",
+        "听不见 = 'can't hear' (too quiet) — the problem is speed.",
+        "听不完 = 'can't listen to it all'."
+      ],
+      "translation": "The teacher speaks too fast — I can't understand."
+    },
+    {
+      "point": "budong",
+      "prompt": "{这|zhè}{本|běn}{书|shū}{是|shì}{中文|Zhōngwén}{的|de}，{我|wǒ}{看|kàn}（　）。",
+      "options": [
+        "{懂|dǒng}{不|bu}",
+        "{没|méi}{懂|dǒng}",
+        "{不|bú}{会|huì}{懂|dǒng}",
+        "{不|bu}{懂|dǒng}"
+      ],
+      "answer": 3,
+      "explanation": "**Verb + 不懂**.",
+      "notes": [
+        "The order is 看不懂.",
+        "看没懂 isn't grammatical.",
+        "看不会懂 isn't grammatical.",
+        ""
+      ],
+      "translation": "This book is in Chinese — I can't understand it."
+    },
+    {
+      "point": "haonan",
+      "prompt": "{这个|zhège}{汉字|Hànzì}{很|hěn}（　）{写|xiě}，{有|yǒu}{二十|èrshí}{多|duō}{画|huà}。",
+      "options": [
+        "{好|hǎo}",
+        "{容|róng}",
+        "{难|nán}",
+        "{多|duō}"
+      ],
+      "answer": 2,
+      "explanation": "Hard to: **难 + verb**.",
+      "notes": [
+        "Twenty strokes don't make it easy.",
+        "容 alone isn't used — 容易.",
+        "",
+        "多写 = 'write more'."
+      ],
+      "translation": "This character is hard to write — it has over twenty strokes."
+    },
+    {
+      "point": "haonan",
+      "prompt": "{这|zhè}{家|jiā}{的|de}{饺子|jiǎozi}{很|hěn}（　）{吃|chī}，{你|nǐ}{一定|yídìng}{要|yào}{试试|shìshi}！",
+      "options": [
+        "{可|kě}",
+        "{好|hǎo}",
+        "{难|nán}",
+        "{多|duō}"
+      ],
+      "answer": 1,
+      "explanation": "Tasty: **好吃**.",
+      "notes": [
+        "可吃 isn't a word.",
+        "",
+        "难吃 = 'tastes bad' — then you wouldn't recommend it.",
+        "多吃 = 'eat more'."
+      ],
+      "translation": "The dumplings here are delicious — you have to try them!"
+    }
+  ]
+}

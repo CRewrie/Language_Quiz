@@ -1,0 +1,361 @@
+{
+  "id": "n2-process",
+  "category": "JLPT N2",
+  "title": "Process & Outcome: つつ, つつある, たあげく, た末, てこそ, てからでないと, ないことには",
+  "description": "While / although (つつ), in the process of, after much (bad) …, after long …, only by, not until, and unless.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "tsutsu",
+      "title": "〜つつ(も): while; although",
+      "summary": "ます-stem + つつ = while doing (formal ながら). つつも = although (concessive).",
+      "body": "- 景色を楽しみ**つつ**、散歩した (while enjoying the scenery).\n- 悪いと知り**つつ**(も)、嘘をついてしまった (although I knew it was wrong).",
+      "examples": [
+        [
+          "{悪|わる}いと{知|し}りつつ、{嘘|うそ}をついてしまった。",
+          "Although I knew it was wrong, I lied."
+        ]
+      ]
+    },
+    {
+      "id": "tsutsuaru",
+      "title": "〜つつある: be in the process of",
+      "summary": "ます-stem + つつある = a change is steadily progressing (formal).",
+      "body": "- 地球の温暖化が進み**つつある**.\n- 景気は回復し**つつある**.",
+      "examples": [
+        [
+          "{景気|けいき}は{回復|かいふく}しつつある。",
+          "The economy is on the road to recovery."
+        ]
+      ]
+    },
+    {
+      "id": "taageku",
+      "title": "〜たあげく: after much … (bad ending)",
+      "summary": "た-form / noun + の + あげく = after a long process, finally (a disappointing) result.",
+      "body": "- さんざん迷った**あげく**、何も買わなかった.\n- 何時間も待たされた**あげく**、中止になった.",
+      "examples": [
+        [
+          "さんざん{迷|まよ}ったあげく、{何|なに}も{買|か}わなかった。",
+          "After agonising over it for ages, I ended up buying nothing."
+        ]
+      ]
+    },
+    {
+      "id": "tasue",
+      "title": "〜た末(に): after (long effort), finally",
+      "summary": "た-form / noun + の + 末(に) = after a long process, B (neutral or positive).",
+      "body": "- 長い話し合い**の末**、合意に達した.\n- よく考えた**末に**、会社を辞めることにした.\n\nあげく = often negative; 末 = neutral.",
+      "examples": [
+        [
+          "{長|なが}い{話|はな}し{合|あ}いの{末|すえ}、{合意|ごうい}に{達|たっ}した。",
+          "After long talks, they reached an agreement."
+        ]
+      ]
+    },
+    {
+      "id": "tekoso",
+      "title": "〜てこそ: only by (doing), only when",
+      "summary": "て-form + こそ = only if A, then B is really achieved.",
+      "body": "- 健康であって**こそ**、仕事ができる.\n- 自分でやってみて**こそ**、難しさがわかる.",
+      "examples": [
+        [
+          "{健康|けんこう}であってこそ、{仕事|しごと}ができる。",
+          "Only when you're healthy can you work."
+        ]
+      ]
+    },
+    {
+      "id": "tekaradenaito",
+      "title": "〜てからでないと: not until, unless first",
+      "summary": "て-form + からでないと + negative = B can't happen until A is done.",
+      "body": "- 料金を払って**からでないと**、入れません.\n- 実物を見て**からでないと**、決められない.",
+      "examples": [
+        [
+          "{料金|りょうきん}を{払|はら}ってからでないと、{入|はい}れません。",
+          "You can't enter until you've paid."
+        ]
+      ]
+    },
+    {
+      "id": "naikotoniwa",
+      "title": "〜ないことには: unless",
+      "summary": "ない-form + ことには + negative = unless A happens, B won't.",
+      "body": "- 実際に会わ**ないことには**、どんな人かわからない.\n- 練習し**ないことには**、上手にならない.",
+      "examples": [
+        [
+          "{実際|じっさい}に{会|あ}わないことには、どんな{人|ひと}かわからない。",
+          "Unless you actually meet them, you can't tell what they're like."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tsutsu",
+      "prompt": "{悪|わる}いと{知|し}り（　）、{嘘|うそ}をついてしまった。",
+      "options": [
+        "つつで",
+        "っつ",
+        "つつ",
+        "つつに"
+      ],
+      "answer": 2,
+      "explanation": "Although: **つつ**.",
+      "notes": [
+        "つつで isn't a form.",
+        "っつ isn't a form.",
+        "",
+        "つつに isn't a form."
+      ],
+      "translation": "Although I knew it was wrong, I lied."
+    },
+    {
+      "point": "tsutsu",
+      "prompt": "{景色|けしき}を{楽|たの}しみ（　）、{散歩|さんぽ}した。",
+      "options": [
+        "つづけ",
+        "つつ",
+        "つつく",
+        "つつある"
+      ],
+      "answer": 1,
+      "explanation": "While: **つつ**.",
+      "notes": [
+        "楽しみつづけ can't connect here.",
+        "",
+        "つつく = 'peck'.",
+        "つつある can't connect to the next clause."
+      ],
+      "translation": "I took a walk while enjoying the scenery."
+    },
+    {
+      "point": "tsutsuaru",
+      "prompt": "{地球|ちきゅう}の{温暖化|おんだんか}が{進|すす}み（　）。",
+      "options": [
+        "つつがある",
+        "つつ",
+        "つつある",
+        "つづく"
+      ],
+      "answer": 2,
+      "explanation": "In progress: **つつある**.",
+      "notes": [
+        "つつがある isn't a form.",
+        "つつ can't end the sentence.",
+        "",
+        "進みつづく isn't natural."
+      ],
+      "translation": "Global warming is progressing."
+    },
+    {
+      "point": "tsutsuaru",
+      "prompt": "{景気|けいき}は{回復|かいふく}し（　）。",
+      "options": [
+        "つつある",
+        "つつだ",
+        "つつしている",
+        "つつもある"
+      ],
+      "answer": 0,
+      "explanation": "**つつある**.",
+      "notes": [
+        "",
+        "つつだ isn't grammatical.",
+        "つつしている isn't grammatical.",
+        "つつもある isn't the pattern."
+      ],
+      "translation": "The economy is on the road to recovery."
+    },
+    {
+      "point": "taageku",
+      "prompt": "さんざん{迷|まよ}った（　）、{何|なに}も{買|か}わなかった。",
+      "options": [
+        "あがく",
+        "あげて",
+        "あけく",
+        "あげく"
+      ],
+      "answer": 3,
+      "explanation": "After much (bad): **あげく**.",
+      "notes": [
+        "あがく = 'struggle'.",
+        "あげて = 'raising'.",
+        "あけく isn't a word.",
+        ""
+      ],
+      "translation": "After agonising over it for ages, I ended up buying nothing."
+    },
+    {
+      "point": "taageku",
+      "prompt": "{何時間|なんじかん}も{待|ま}たされた（　）、{中止|ちゅうし}になった。",
+      "options": [
+        "あがり",
+        "あげく",
+        "あがく",
+        "あげて"
+      ],
+      "answer": 1,
+      "explanation": "**あげく** (frustrating ending).",
+      "notes": [
+        "あがり = 'rise / finish'.",
+        "",
+        "あがく = 'struggle'.",
+        "あげて = 'raising'."
+      ],
+      "translation": "After being kept waiting for hours, it was cancelled."
+    },
+    {
+      "point": "tasue",
+      "prompt": "{長|なが}い{話|はな}し{合|あ}いの（　）、{合意|ごうい}に{達|たっ}した。",
+      "options": [
+        "{下|した}",
+        "{先|さき}",
+        "{中|なか}",
+        "{末|すえ}"
+      ],
+      "answer": 3,
+      "explanation": "After a long process: **の末**.",
+      "notes": [
+        "下 = 'under'.",
+        "先 = 'ahead'.",
+        "中 = 'inside / during'.",
+        ""
+      ],
+      "translation": "After long talks, they reached an agreement."
+    },
+    {
+      "point": "tasue",
+      "prompt": "よく{考|かんが}えた（　）、{会社|かいしゃ}を{辞|や}めることにした。",
+      "options": [
+        "{端|はし}に",
+        "{末|すえ}に",
+        "{先|さき}に",
+        "{末|すえ}で"
+      ],
+      "answer": 1,
+      "explanation": "**た末に**.",
+      "notes": [
+        "端に = 'at the edge'.",
+        "",
+        "先に = 'ahead'.",
+        "末で isn't the pattern."
+      ],
+      "translation": "After thinking it over carefully, I decided to quit."
+    },
+    {
+      "point": "tekoso",
+      "prompt": "{健康|けんこう}であって（　）、{仕事|しごと}ができる。",
+      "options": [
+        "ほど",
+        "しか",
+        "さえ",
+        "こそ"
+      ],
+      "answer": 3,
+      "explanation": "Only when: **てこそ**.",
+      "notes": [
+        "ほど doesn't fit.",
+        "しか needs a negative.",
+        "てさえ isn't the pattern here.",
+        ""
+      ],
+      "translation": "Only when you're healthy can you work."
+    },
+    {
+      "point": "tekoso",
+      "prompt": "{自分|じぶん}でやってみて（　）、{難|むずか}しさがわかる。",
+      "options": [
+        "こそ",
+        "だけ",
+        "まで",
+        "さえ"
+      ],
+      "answer": 0,
+      "explanation": "Only by doing: **てこそ**.",
+      "notes": [
+        "",
+        "てだけ isn't natural.",
+        "てまで = 'going so far as'.",
+        "てさえ = 'even doing'."
+      ],
+      "translation": "Only by trying it yourself do you understand how hard it is."
+    },
+    {
+      "point": "tekaradenaito",
+      "prompt": "{料金|りょうきん}を{払|はら}って（　）、{入|はい}れません。",
+      "options": [
+        "からでは",
+        "からでなくて",
+        "からでないと",
+        "からないと"
+      ],
+      "answer": 2,
+      "explanation": "Not until: **てからでないと**.",
+      "notes": [
+        "からでは = 'after (doing), it's too late'.",
+        "からでなくて isn't the pattern.",
+        "",
+        "からないと isn't a form."
+      ],
+      "translation": "You can't enter until you've paid."
+    },
+    {
+      "point": "tekaradenaito",
+      "prompt": "{実物|じつぶつ}を{見|み}て（　）、{買|か}うかどうか{決|き}められない。",
+      "options": [
+        "からだと",
+        "からでないと",
+        "からでも",
+        "からなら"
+      ],
+      "answer": 1,
+      "explanation": "**てからでないと**.",
+      "notes": [
+        "からだと isn't the pattern.",
+        "",
+        "からでも = 'even after'.",
+        "からなら isn't the pattern."
+      ],
+      "translation": "I can't decide whether to buy it until I've seen the real thing."
+    },
+    {
+      "point": "naikotoniwa",
+      "prompt": "{実際|じっさい}に{会|あ}わ（　）、どんな{人|ひと}かわからない。",
+      "options": [
+        "ないことでは",
+        "ないことは",
+        "ないことには",
+        "ないことに"
+      ],
+      "answer": 2,
+      "explanation": "Unless: **ないことには**.",
+      "notes": [
+        "ことでは isn't the pattern.",
+        "には is needed.",
+        "",
+        "には is needed."
+      ],
+      "translation": "Unless you actually meet them, you can't tell what they're like."
+    },
+    {
+      "point": "naikotoniwa",
+      "prompt": "{練習|れんしゅう}し（　）、{上手|じょうず}にならない。",
+      "options": [
+        "ないことには",
+        "ないことでも",
+        "ないものには",
+        "ないことも"
+      ],
+      "answer": 0,
+      "explanation": "**ないことには**.",
+      "notes": [
+        "",
+        "ことでも isn't the pattern.",
+        "ものには isn't the pattern.",
+        "ないことも = 'there are times one doesn't'."
+      ],
+      "translation": "Unless you practise, you won't improve."
+    }
+  ]
+}

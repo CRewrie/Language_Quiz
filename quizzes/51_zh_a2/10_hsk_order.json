@@ -1,0 +1,230 @@
+{
+  "id": "zh-a2-hsk-order",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "HSK Sentence Building: 排列顺序 & ★ ordering",
+  "description": "Put three parts A/B/C in order (HSK 排列顺序), and build sentences with A2 grammar (比, 得, 已经, 过, 一边, 离).",
+  "level": "A2",
+  "points": [
+    {
+      "id": "paixu",
+      "title": "排列顺序: order A, B, C",
+      "summary": "Find the part that can open the text (it has a subject / time and no connector), then follow the connectors.",
+      "body": "- 所以, 但是, 就, 然后, 最后 can't open the text — something must come before them.\n- 先 → 然后 → 最后.\n- 刚 … 就 … : the 就 part comes later.",
+      "examples": [
+        [
+          "{我|wǒ}{先|xiān}{去|qù}{银行|yínháng}，{然后|ránhòu}{去|qù}{超市|chāoshì}。",
+          "First I go to the bank, then to the supermarket."
+        ]
+      ]
+    },
+    {
+      "id": "order2",
+      "title": "★ ordering with A2 grammar",
+      "summary": "Rebuild the A2 patterns first: 比 + B + adj, verb + 得 + adj, 已经 + verb + 完, 一边 + verb.",
+      "body": "- Comparison: A 比 B 高 一点儿.\n- 中文 说 得 很好.\n- 离 + place + 不太 + 远.",
+      "examples": [
+        [
+          "{我|wǒ}{比|bǐ}{他|tā}{高|gāo}{一点儿|yìdiǎnr}。",
+          "I'm a bit taller than him."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "paixu",
+      "prompt": "Put the parts in order:\nA　{所以|suǒyǐ}{我|wǒ}{今天|jīntiān}{没|méi}{去|qù}{上班|shàngbān}\nB　{昨天|zuótiān}{晚上|wǎnshang}{我|wǒ}{发烧|fāshāo}{了|le}\nC　{现在|xiànzài}{已经|yǐjīng}{好|hǎo}{多|duō}{了|le}",
+      "options": [
+        "ACB",
+        "BAC",
+        "CAB",
+        "CBA"
+      ],
+      "answer": 1,
+      "explanation": "**B** 昨天晚上我发烧了，**A** 所以我今天没去上班，**C** 现在已经好多了。",
+      "notes": [
+        "所以 can't open the text.",
+        "",
+        "所以 needs the reason (B) before it.",
+        "The fever (B) must come before 所以 (A)."
+      ],
+      "translation": "I had a fever last night, so I didn't go to work today; I'm much better now.",
+      "fixed_order": true
+    },
+    {
+      "point": "paixu",
+      "prompt": "Put the parts in order:\nA　{然后|ránhòu}{去|qù}{超市|chāoshì}{买|mǎi}{东西|dōngxi}\nB　{我|wǒ}{下|xià}{了|le}{班|bān}{先|xiān}{去|qù}{银行|yínháng}\nC　{最后|zuìhòu}{回家|huíjiā}{做饭|zuòfàn}",
+      "options": [
+        "ABC",
+        "BAC",
+        "BCA",
+        "CAB"
+      ],
+      "answer": 1,
+      "explanation": "**B** 先 → **A** 然后 → **C** 最后.",
+      "notes": [
+        "然后 can't open the text.",
+        "",
+        "最后 must come last.",
+        "最后 can't open the text."
+      ],
+      "translation": "After work I go to the bank first, then shopping at the supermarket, and finally home to cook.",
+      "fixed_order": true
+    },
+    {
+      "point": "paixu",
+      "prompt": "Put the parts in order:\nA　{他|tā}{就|jiù}{给|gěi}{我|wǒ}{打|dǎ}{了|le}{电话|diànhuà}\nB　{我|wǒ}{刚|gāng}{到|dào}{家|jiā}\nC　{还|hái}{没|méi}{坐|zuò}{下|xià}",
+      "options": [
+        "ABC",
+        "BAC",
+        "BCA",
+        "CBA"
+      ],
+      "answer": 2,
+      "explanation": "**B** 我刚到家，**C** 还没坐下，**A** 他就给我打了电话。",
+      "notes": [
+        "就 can't open the text.",
+        "还没坐下 belongs to 'me' and comes before the call interrupts.",
+        "",
+        "还没坐下 needs a subject before it."
+      ],
+      "translation": "I'd just got home and hadn't even sat down when he called me.",
+      "fixed_order": true
+    },
+    {
+      "point": "paixu",
+      "prompt": "Put the parts in order:\nA　{但是|dànshì}{他|tā}{说|shuō}{得|de}{非常|fēicháng}{好|hǎo}\nB　{他|tā}{只|zhǐ}{学|xué}{了|le}{半|bàn}{年|nián}{中文|Zhōngwén}\nC　{大家|dàjiā}{都|dōu}{以为|yǐwéi}{他|tā}{是|shì}{中国人|Zhōngguórén}",
+      "options": [
+        "ABC",
+        "ACB",
+        "BAC",
+        "CAB"
+      ],
+      "answer": 2,
+      "explanation": "**B** only half a year **A** but speaks very well **C** so everyone thought he was Chinese.",
+      "notes": [
+        "但是 can't open the text.",
+        "但是 can't open the text.",
+        "",
+        "C as an opener leaves 但是 contrasting the wrong things."
+      ],
+      "translation": "He's only studied Chinese for half a year, but he speaks it so well that everyone thought he was Chinese.",
+      "fixed_order": true
+    },
+    {
+      "point": "order2",
+      "prompt": "{我|wǒ}　＿＿　　＿＿　　★　　＿＿　。\n（{一点儿|yìdiǎnr}・{高|gāo}・{他|tā}・{比|bǐ}）",
+      "options": [
+        "{一点儿|yìdiǎnr}",
+        "{高|gāo}",
+        "{比|bǐ}",
+        "{他|tā}"
+      ],
+      "answer": 1,
+      "explanation": "我 **比 他 高 一点儿**。",
+      "notes": [
+        "一点儿 follows the adjective — slot 4.",
+        "",
+        "比 comes first — slot 1.",
+        "他 follows 比 — slot 2."
+      ],
+      "translation": "I'm a bit taller than him."
+    },
+    {
+      "point": "order2",
+      "prompt": "{他|tā}　＿＿　　＿＿　　★　　＿＿　。\n（{得|de}・{很好|hěn hǎo}・{说|shuō}・{中文|Zhōngwén}）",
+      "options": [
+        "{说|shuō}",
+        "{很好|hěn hǎo}",
+        "{中文|Zhōngwén}",
+        "{得|de}"
+      ],
+      "answer": 3,
+      "explanation": "他 **中文 说 得 很好**。",
+      "notes": [
+        "说 comes before 得 — slot 2.",
+        "很好 ends the sentence — slot 4.",
+        "中文 is the topic — slot 1.",
+        ""
+      ],
+      "translation": "He speaks Chinese very well."
+    },
+    {
+      "point": "order2",
+      "prompt": "{我|wǒ}　＿＿　　＿＿　　★　　＿＿　{了|le}。\n（{书|shū}・{那|nà}{本|běn}・{看完|kàn wán}・{已经|yǐjīng}）",
+      "options": [
+        "{那|nà}{本|běn}",
+        "{书|shū}",
+        "{已经|yǐjīng}",
+        "{看完|kàn wán}"
+      ],
+      "answer": 0,
+      "explanation": "我 **已经 看完 那本 书** 了。",
+      "notes": [
+        "",
+        "书 follows 那本 — slot 4.",
+        "已经 comes first — slot 1.",
+        "看完 is the verb — slot 2."
+      ],
+      "translation": "I've already finished reading that book."
+    },
+    {
+      "point": "order2",
+      "prompt": "{你|nǐ}　＿＿　　＿＿　　★　　＿＿　？\n（{没有|méiyǒu}・{中国|Zhōngguó}・{以前|yǐqián}・{去过|qù guo}）",
+      "options": [
+        "{没有|méiyǒu}",
+        "{以前|yǐqián}",
+        "{去过|qù guo}",
+        "{中国|Zhōngguó}"
+      ],
+      "answer": 3,
+      "explanation": "你 **以前 去过 中国 没有**？",
+      "notes": [
+        "没有 ends the question — slot 4.",
+        "以前 comes first — slot 1.",
+        "去过 is the verb — slot 2.",
+        ""
+      ],
+      "translation": "Have you ever been to China before?"
+    },
+    {
+      "point": "order2",
+      "prompt": "　＿＿　　＿＿　　★　　＿＿　{一边|yìbiān}{听|tīng}{音乐|yīnyuè}。\n（{一边|yìbiān}・{跑步|pǎobù}・{他|tā}・{喜欢|xǐhuan}）",
+      "options": [
+        "{他|tā}",
+        "{跑步|pǎobù}",
+        "{一边|yìbiān}",
+        "{喜欢|xǐhuan}"
+      ],
+      "answer": 2,
+      "explanation": "**他 喜欢 一边 跑步** 一边听音乐。",
+      "notes": [
+        "他 is the subject — slot 1.",
+        "跑步 follows 一边 — slot 4.",
+        "",
+        "喜欢 — slot 2."
+      ],
+      "translation": "He likes listening to music while running."
+    },
+    {
+      "point": "order2",
+      "prompt": "{我|wǒ}{家|jiā}　＿＿　　＿＿　　★　　＿＿　。\n（{远|yuǎn}・{不|bú}{太|tài}・{公司|gōngsī}・{离|lí}）",
+      "options": [
+        "{远|yuǎn}",
+        "{公司|gōngsī}",
+        "{离|lí}",
+        "{不|bú}{太|tài}"
+      ],
+      "answer": 3,
+      "explanation": "我家 **离 公司 不太 远**。",
+      "notes": [
+        "远 ends the sentence — slot 4.",
+        "公司 follows 离 — slot 2.",
+        "离 comes first — slot 1.",
+        ""
+      ],
+      "translation": "My home isn't very far from the office."
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "id": "zh-a2-connectors",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "Time & Logic: 以前 / 以后, 的时候, 从…到…, 因为…所以, 但是, 或者 / 还是, 离",
+  "description": "Before/after, when, from … to …, because … so, but, 'or' in statements vs questions, and distance with 离.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "yiqianhou",
+      "title": "Time / verb + 以前 / 以后",
+      "summary": "以前 = before; 以后 = after. They follow the time or the event.",
+      "body": "- 到北京**以后**，给我打电话.\n- 三年**以前**，我还不会说中文.",
+      "examples": [
+        [
+          "{到|dào}{北京|Běijīng}{以后|yǐhòu}，{给|gěi}{我|wǒ}{打|dǎ}{电话|diànhuà}。",
+          "Call me after you arrive in Beijing."
+        ]
+      ]
+    },
+    {
+      "id": "deshihou",
+      "title": "…的时候: when",
+      "summary": "Clause + 的时候 = when / while ….",
+      "body": "- 我小**的时候**很喜欢画画儿.\n- 我上大学**的时候**学过法语.",
+      "examples": [
+        [
+          "{我|wǒ}{小|xiǎo}{的|de}{时候|shíhou}{很|hěn}{喜欢|xǐhuan}{画画儿|huà huàr}。",
+          "When I was little, I loved drawing."
+        ]
+      ]
+    },
+    {
+      "id": "congdao",
+      "title": "从 A 到 B: from A to B",
+      "summary": "从 … 到 … for time and place.",
+      "body": "- 我**从**九点**到**五点工作.\n- **从**我家**到**学校要二十分钟.",
+      "examples": [
+        [
+          "{我|wǒ}{从|cóng}{九|jiǔ}{点|diǎn}{到|dào}{五|wǔ}{点|diǎn}{工作|gōngzuò}。",
+          "I work from nine to five."
+        ]
+      ]
+    },
+    {
+      "id": "yinwei",
+      "title": "因为 … 所以 …: because … so",
+      "summary": "因为 introduces the reason, 所以 the result. Either can stand alone.",
+      "body": "- **因为**下雨，**所以**比赛取消了.",
+      "examples": [
+        [
+          "{因为|yīnwèi}{下雨|xià yǔ}，{所以|suǒyǐ}{比赛|bǐsài}{取消|qǔxiāo}{了|le}。",
+          "The match was cancelled because of the rain."
+        ]
+      ]
+    },
+    {
+      "id": "danshi",
+      "title": "可是 / 但是: but",
+      "summary": "可是 and 但是 both mean 'but' and start the second clause. 可是 is a bit more spoken.",
+      "body": "- 这件衣服很漂亮，**可是**太贵了.",
+      "examples": [
+        [
+          "{我|wǒ}{想|xiǎng}{去|qù}，{但是|dànshì}{没有|méiyǒu}{时间|shíjiān}。",
+          "I want to go, but I don't have time."
+        ]
+      ]
+    },
+    {
+      "id": "huozhe",
+      "title": "或者 vs 还是: or",
+      "summary": "或者 = or in **statements** (either is fine). 还是 = or in **questions** (choose one).",
+      "body": "- 我们周末去爬山**或者**去游泳吧.\n- 你想喝茶**还是**咖啡?",
+      "examples": [
+        [
+          "{你|nǐ}{想|xiǎng}{喝|hē}{茶|chá}{还是|háishi}{咖啡|kāfēi}？",
+          "Would you like tea or coffee?"
+        ]
+      ]
+    },
+    {
+      "id": "li",
+      "title": "A 离 B + 近 / 远: distance",
+      "summary": "A 离 B 很近 / 很远 = A is close to / far from B.",
+      "body": "- 我家**离**公司很近.",
+      "examples": [
+        [
+          "{我|wǒ}{家|jiā}{离|lí}{公司|gōngsī}{很|hěn}{近|jìn}。",
+          "My home is close to the office."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "yiqianhou",
+      "prompt": "{到|dào}{北京|Běijīng}（　），{给|gěi}{我|wǒ}{打|dǎ}{个|ge}{电话|diànhuà}。",
+      "options": [
+        "{时间|shíjiān}",
+        "{以前|yǐqián}",
+        "{后来|hòulái}",
+        "{以后|yǐhòu}"
+      ],
+      "answer": 3,
+      "explanation": "After: **以后**.",
+      "notes": [
+        "时间 = 'time' (a noun) — doesn't follow a verb like this.",
+        "You can't call 'before arriving' to report arriving.",
+        "后来 = 'later on' (past narrative), not after a verb.",
+        ""
+      ],
+      "translation": "Give me a call after you arrive in Beijing."
+    },
+    {
+      "point": "yiqianhou",
+      "prompt": "{三|sān}{年|nián}（　），{我|wǒ}{还|hái}{不|bú}{会|huì}{说|shuō}{中文|Zhōngwén}，{现在|xiànzài}{说|shuō}{得|de}{很|hěn}{好|hǎo}。",
+      "options": [
+        "{以前|yǐqián}",
+        "{以后|yǐhòu}",
+        "{时候|shíhou}",
+        "{的时候|de shíhou}"
+      ],
+      "answer": 0,
+      "explanation": "Ago: **以前**.",
+      "notes": [
+        "",
+        "以后 = 'in three years' — clashes with 现在说得很好.",
+        "时候 needs 的.",
+        "三年的时候 = 'at age three'."
+      ],
+      "translation": "Three years ago I couldn't speak Chinese; now I speak it well."
+    },
+    {
+      "point": "deshihou",
+      "prompt": "{我|wǒ}{小|xiǎo}（　），{很|hěn}{喜欢|xǐhuan}{画画儿|huà huàr}。",
+      "options": [
+        "{时间|shíjiān}",
+        "{以后|yǐhòu}",
+        "{以前|yǐqián}",
+        "{的时候|de shíhou}"
+      ],
+      "answer": 3,
+      "explanation": "When: **的时候**.",
+      "notes": [
+        "小时间 isn't grammatical.",
+        "小以后 isn't grammatical.",
+        "小以前 isn't grammatical.",
+        ""
+      ],
+      "translation": "When I was little, I loved drawing."
+    },
+    {
+      "point": "deshihou",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{上|shàng}{大学|dàxué}{的|de}{时候|shíhou}{学|xué}{过|guo}{法语|Fǎyǔ}。",
+        "{上|shàng}{大学|dàxué}{我|wǒ}{的|de}{时候|shíhou}{学|xué}{过|guo}{法语|Fǎyǔ}。",
+        "{我|wǒ}{的|de}{时候|shíhou}{上|shàng}{大学|dàxué}{学|xué}{过|guo}{法语|Fǎyǔ}。",
+        "{我|wǒ}{上|shàng}{大学|dàxué}{时候|shíhou}{的|de}{学|xué}{过|guo}{法语|Fǎyǔ}。"
+      ],
+      "answer": 0,
+      "explanation": "Clause + **的时候**.",
+      "notes": [
+        "",
+        "的时候 follows the whole clause, subject included.",
+        "的时候 follows the whole clause.",
+        "The order is 的时候."
+      ],
+      "translation": "I studied French when I was at university."
+    },
+    {
+      "point": "congdao",
+      "prompt": "{我|wǒ}{每天|měitiān}（　）{九|jiǔ}{点|diǎn}{到|dào}{五|wǔ}{点|diǎn}{工作|gōngzuò}。",
+      "options": [
+        "{到|dào}",
+        "{离|lí}",
+        "{在|zài}",
+        "{从|cóng}"
+      ],
+      "answer": 3,
+      "explanation": "From … to: **从…到**.",
+      "notes": [
+        "到九点到五点 isn't grammatical.",
+        "离 = distance from.",
+        "在九点到五点 isn't the pattern.",
+        ""
+      ],
+      "translation": "I work from nine to five every day."
+    },
+    {
+      "point": "congdao",
+      "prompt": "{从|cóng}{我|wǒ}{家|jiā}（　）{学校|xuéxiào}{要|yào}{二十|èrshí}{分钟|fēnzhōng}。",
+      "options": [
+        "{对|duì}",
+        "{离|lí}",
+        "{到|dào}",
+        "{在|zài}"
+      ],
+      "answer": 2,
+      "explanation": "**从 … 到 …**.",
+      "notes": [
+        "对 = 'towards / for'.",
+        "从 … 离 isn't the pattern.",
+        "",
+        "从 … 在 isn't the pattern."
+      ],
+      "translation": "It takes twenty minutes from my home to school."
+    },
+    {
+      "point": "yinwei",
+      "prompt": "（　）{下雨|xià yǔ}，{所以|suǒyǐ}{比赛|bǐsài}{取消|qǔxiāo}{了|le}。",
+      "options": [
+        "{如果|rúguǒ}",
+        "{因为|yīnwèi}",
+        "{所以|suǒyǐ}",
+        "{但是|dànshì}"
+      ],
+      "answer": 1,
+      "explanation": "Because: **因为…所以**.",
+      "notes": [
+        "如果 = 'if' — doesn't pair with 所以 and a past 了.",
+        "",
+        "所以 introduces the result, which comes later.",
+        "但是 = 'but'."
+      ],
+      "translation": "The match was cancelled because of the rain."
+    },
+    {
+      "point": "yinwei",
+      "prompt": "{因为|yīnwèi}{他|tā}{病|bìng}{了|le}，（　）{没|méi}{来|lái}{上课|shàngkè}。",
+      "options": [
+        "{因为|yīnwèi}",
+        "{但是|dànshì}",
+        "{所以|suǒyǐ}",
+        "{可是|kěshì}"
+      ],
+      "answer": 2,
+      "explanation": "So: **所以**.",
+      "notes": [
+        "Another 因为 isn't needed.",
+        "但是 = 'but' — no contrast here.",
+        "",
+        "可是 = 'but'."
+      ],
+      "translation": "He was ill, so he didn't come to class."
+    },
+    {
+      "point": "danshi",
+      "prompt": "{这|zhè}{件|jiàn}{衣服|yīfu}{很|hěn}{漂亮|piàoliang}，（　）{太|tài}{贵|guì}{了|le}。",
+      "options": [
+        "{所以|suǒyǐ}",
+        "{或者|huòzhě}",
+        "{因为|yīnwèi}",
+        "{可是|kěshì}"
+      ],
+      "answer": 3,
+      "explanation": "But: **可是**.",
+      "notes": [
+        "所以 = 'so' — 'pretty, so too expensive' is illogical.",
+        "或者 = 'or'.",
+        "因为 introduces a reason.",
+        ""
+      ],
+      "translation": "This piece of clothing is pretty, but too expensive."
+    },
+    {
+      "point": "danshi",
+      "prompt": "{我|wǒ}{很|hěn}{想|xiǎng}{去|qù}，（　）{没有|méiyǒu}{时间|shíjiān}。",
+      "options": [
+        "{还是|háishi}",
+        "{但是|dànshì}",
+        "{或者|huòzhě}",
+        "{所以|suǒyǐ}"
+      ],
+      "answer": 1,
+      "explanation": "But: **但是**.",
+      "notes": [
+        "还是 = 'or (question)' / 'still'.",
+        "",
+        "或者 = 'or'.",
+        "所以 = 'so' — not a contrast."
+      ],
+      "translation": "I'd really like to go, but I don't have time."
+    },
+    {
+      "point": "huozhe",
+      "prompt": "{我们|wǒmen}{周末|zhōumò}{去|qù}{爬山|páshān}（　）{去|qù}{游泳|yóuyǒng}{吧|ba}。",
+      "options": [
+        "{也|yě}",
+        "{和|hé}",
+        "{或者|huòzhě}",
+        "{还是|háishi}"
+      ],
+      "answer": 2,
+      "explanation": "Or (statement): **或者**.",
+      "notes": [
+        "也 = 'also'.",
+        "和 can't link verb phrases.",
+        "",
+        "还是 is 'or' in questions — this is a suggestion."
+      ],
+      "translation": "Let's go hiking or swimming this weekend."
+    },
+    {
+      "point": "huozhe",
+      "prompt": "{你|nǐ}{想|xiǎng}{喝|hē}{茶|chá}（　）{咖啡|kāfēi}？",
+      "options": [
+        "{还是|háishi}",
+        "{或者|huòzhě}",
+        "{和|hé}",
+        "{也|yě}"
+      ],
+      "answer": 0,
+      "explanation": "Or (question): **还是**.",
+      "notes": [
+        "",
+        "或者 doesn't make an either-or question.",
+        "茶和咖啡 = 'tea and coffee' — not a choice.",
+        "也 = 'also'."
+      ],
+      "translation": "Would you like tea or coffee?"
+    },
+    {
+      "point": "li",
+      "prompt": "{我|wǒ}{家|jiā}（　）{公司|gōngsī}{很|hěn}{近|jìn}，{走路|zǒulù}{五|wǔ}{分钟|fēnzhōng}。",
+      "options": [
+        "{到|dào}",
+        "{从|cóng}",
+        "{在|zài}",
+        "{离|lí}"
+      ],
+      "answer": 3,
+      "explanation": "Distance: **离**.",
+      "notes": [
+        "到 isn't used for distance like this.",
+        "从 needs 到 and a verb.",
+        "在 = 'at'.",
+        ""
+      ],
+      "translation": "My home is close to the office — a five-minute walk."
+    },
+    {
+      "point": "li",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{学校|xuéxiào}{离|lí}{我|wǒ}{家|jiā}{远|yuǎn}{很|hěn}。",
+        "{学校|xuéxiào}{离|lí}{我|wǒ}{家|jiā}{很|hěn}{远|yuǎn}。",
+        "{离|lí}{学校|xuéxiào}{我|wǒ}{家|jiā}{很|hěn}{远|yuǎn}。",
+        "{学校|xuéxiào}{从|cóng}{我|wǒ}{家|jiā}{很|hěn}{远|yuǎn}。"
+      ],
+      "answer": 1,
+      "explanation": "**A 离 B 很远**.",
+      "notes": [
+        "很 comes before the adjective.",
+        "",
+        "A comes before 离.",
+        "Distance uses 离, not 从."
+      ],
+      "translation": "The school is far from my home."
+    }
+  ]
+}

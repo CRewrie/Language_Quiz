@@ -1,0 +1,292 @@
+{
+  "id": "n4-tokoro-bakari",
+  "category": "JLPT N4",
+  "title": "Just Did, Doing Now & About To",
+  "description": "〜たばかり, 〜たところ, 〜ているところ and 〜るところ: the moments before, during and after an action.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "tabakari",
+      "title": "〜たばかり: have just done (feels recent)",
+      "summary": "た-form + ばかり = 'just did'. It's subjective: it can be minutes or months ago if it feels recent. It can modify nouns: 買ったばかりのパソコン.",
+      "body": "**た-form + ばかり** means the action happened **only a short time ago**, from the speaker's point of view:\n- さっき食べ**たばかり**です (I only just ate).\n- 3か月前に日本に来**たばかり**なので、まだ日本語が下手です. Three months can still be 'just'.\n\n**Grammar:**\n- It ends with だ/です or なので: 来たばかりだ.\n- It modifies nouns with の: 買っ**たばかりの**パソコン (a computer I just bought).\n\n**ばかり vs ところ:**\n- **たばかり** is subjective ('it feels recent'), and the time can be long.\n- **たところ** is objective: the moment *right after*, typically minutes. It can't modify nouns like this.\n\nDon't confuse it with **noun + ばかり** = 'nothing but' (ゲームばかり).",
+      "examples": [
+        [
+          "さっき{食|た}べたばかりだから、おなかがいっぱいです。",
+          "I just ate, so I'm full."
+        ],
+        [
+          "{三|さん}か{月前|げつまえ}に{来|き}たばかりなので、まだ{日本語|にほんご}が{下手|へた}です。",
+          "I only came three months ago, so my Japanese is still poor."
+        ],
+        [
+          "{買|か}ったばかりのパソコンが{壊|こわ}れました。",
+          "The computer I just bought broke."
+        ]
+      ]
+    },
+    {
+      "id": "tatokoro",
+      "title": "〜たところ: have just (this moment) done",
+      "summary": "た-form + ところだ = the action finished just now. It's the moment right after.",
+      "body": "**ところ** literally means 'place', and here it marks a **point in time** relative to an action. **た-form + ところ** = 'just finished, right now':\n- ちょうど仕事が終わっ**たところ**です (I've just this moment finished work).\n- 今起き**たところ**です (I just woke up).\n\nIt's often paired with **今** or **ちょうど**.\n\nIt can't be used for something a long time ago (三か月前に来たところ ✗). Use たばかり there.\n\n**The ところ family:**\n- 〜る**ところ**: about to do\n- 〜ている**ところ**: in the middle of doing\n- 〜た**ところ**: just finished doing",
+      "examples": [
+        [
+          "ちょうど{仕事|しごと}が{終|お}わったところです。",
+          "I've just finished work."
+        ],
+        [
+          "{今|いま}、{駅|えき}に{着|つ}いたところです。",
+          "I've just arrived at the station."
+        ]
+      ]
+    },
+    {
+      "id": "teirutokoro",
+      "title": "〜ているところ: in the middle of doing",
+      "summary": "て-form + いるところだ = right in the middle of an action. It stresses that the action is in progress at this very moment.",
+      "body": "**ている + ところ** zooms in on **the middle** of an action: '(right now) I'm in the process of …':\n- 今、晩ご飯を作っ**ているところ**です (I'm in the middle of cooking dinner).\n\n**ているところ vs ている:** ている can also mean a habit or state. ているところ is only 'in progress right now', and is often used to explain why you can't do something else: 今、電話している**ところ**だから、あとで.\n\n**Past form:** 〜ている**ところでした**: I was in the middle of … (when something happened).",
+      "examples": [
+        [
+          "{今|いま}、{晩|ばん}ご{飯|はん}を{作|つく}っているところです。",
+          "I'm in the middle of making dinner."
+        ],
+        [
+          "{今|いま}、{考|かんが}えているところです。もう{少|すこ}し{待|ま}ってください。",
+          "I'm thinking about it right now. Please wait a little longer."
+        ]
+      ]
+    },
+    {
+      "id": "rutokoro",
+      "title": "〜るところ: about to do",
+      "summary": "Dictionary form + ところだ = 'just about to do'. The past ところでした means 'was just about to (when …)'.",
+      "body": "**Dictionary form + ところ** marks the moment **right before** an action:\n- これから出かける**ところ**です (I'm just about to go out).\n- 今から寝る**ところ**だったのに、電話が来た (I was just about to go to bed when the phone rang).\n\nIt's often with **これから** or **今から**.\n\n**Past:** 〜る**ところでした** = 'was about to'. This is common for 'just in time' stories and near-misses: 電話する**ところでした** (I was just about to call you).\n\nMemory trick: the verb tense before ところ tells you where you are in the action:\n- **る** (not yet) → **ている** (during) → **た** (just finished).",
+      "examples": [
+        [
+          "これから{出|で}かけるところです。",
+          "I'm just about to go out."
+        ],
+        [
+          "ちょうど{電話|でんわ}するところでした。",
+          "I was just about to call you."
+        ],
+        [
+          "{今|いま}から{寝|ね}るところだったのに、{友達|ともだち}から{電話|でんわ}が{来|き}た。",
+          "I was just about to go to bed when a friend called."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tabakari",
+      "prompt": "{三|さん}か{月前|げつまえ}に{日本|にほん}に{来|き}た（　）なので、まだ{日本語|にほんご}が{下手|へた}です。",
+      "options": [
+        "まま",
+        "ところ",
+        "ばかり",
+        "あいだ"
+      ],
+      "answer": 2,
+      "explanation": "'Only just came' even three months ago: subjective **たばかり**.",
+      "notes": [
+        "来たまま means 'still in the state of having come', which doesn't fit.",
+        "たところ only covers the moment right after. Three months ago is too long.",
+        "",
+        "来たあいだ isn't grammatical. 間 needs a continuing state."
+      ],
+      "translation": "I only came to Japan three months ago, so my Japanese is still poor."
+    },
+    {
+      "point": "tabakari",
+      "prompt": "さっき{食|た}べた（　）だから、おなかがいっぱいです。",
+      "options": [
+        "まま",
+        "ばかり",
+        "ながら",
+        "あいだ"
+      ],
+      "answer": 1,
+      "explanation": "た-form + **ばかり** = 'just did'.",
+      "notes": [
+        "食べたまま means 'having eaten (and staying that way)', and it doesn't explain being full.",
+        "",
+        "ながら attaches to the ます-stem (食べながら).",
+        "食べたあいだ isn't grammatical."
+      ],
+      "translation": "I just ate, so I'm full."
+    },
+    {
+      "point": "tabakari",
+      "prompt": "{買|か}った（　）のパソコンが、もう{壊|こわ}れました。",
+      "options": [
+        "ほど",
+        "まま",
+        "ばかり",
+        "ところ"
+      ],
+      "answer": 2,
+      "explanation": "**たばかりの + noun**: 'the … I just bought'.",
+      "notes": [
+        "ほど ('extent') doesn't fit.",
+        "買ったままのパソコン would mean 'left as bought (e.g. still in the box)'.",
+        "",
+        "たところ can't modify a noun with の like this."
+      ],
+      "translation": "The computer I just bought has already broken."
+    },
+    {
+      "point": "tatokoro",
+      "prompt": "A：もしもし、{今|いま}{話|はな}せる？　B：うん、ちょうど{仕事|しごと}が{終|お}わった（　）だよ。",
+      "options": [
+        "あいだ",
+        "ところ",
+        "ため",
+        "まま"
+      ],
+      "answer": 1,
+      "explanation": "'Just this moment finished': た-form + **ところ**.",
+      "notes": [
+        "終わったあいだ isn't grammatical.",
+        "",
+        "終わったためだ means 'it's because work ended', which doesn't answer the question.",
+        "終わったままだ ('remains finished') isn't natural here."
+      ],
+      "translation": "A: Hello, can you talk now? B: Yeah, I've just finished work."
+    },
+    {
+      "point": "tatokoro",
+      "prompt": "{今|いま}、{駅|えき}に（　）ところです。これから{電車|でんしゃ}に{乗|の}ります。",
+      "options": [
+        "{着|つ}く",
+        "{着|つ}いて",
+        "{着|つ}き",
+        "{着|つ}いた"
+      ],
+      "answer": 3,
+      "explanation": "Just arrived, and next comes the train: **た-form + ところ**.",
+      "notes": [
+        "着くところ = 'about to arrive', but then you couldn't board the train next.",
+        "The て-form doesn't go directly before ところ.",
+        "The ます-stem can't come before ところ.",
+        ""
+      ],
+      "translation": "I've just arrived at the station. Now I'll get on the train."
+    },
+    {
+      "point": "teirutokoro",
+      "prompt": "{今|いま}、{晩|ばん}ご{飯|はん}を{作|つく}っている（　）です。",
+      "options": [
+        "まで",
+        "ばかり",
+        "ところ",
+        "まま"
+      ],
+      "answer": 2,
+      "explanation": "In the middle of doing: **ているところ**.",
+      "notes": [
+        "作っているまでです isn't grammatical here.",
+        "ているばかり means 'doing nothing but…'. It doesn't express 'right now'.",
+        "",
+        "作っているまま isn't natural."
+      ],
+      "translation": "I'm in the middle of making dinner."
+    },
+    {
+      "point": "teirutokoro",
+      "prompt": "Which means 'I'm **in the middle of** eating'?",
+      "options": [
+        "{食|た}べるところです。",
+        "{食|た}べているところです。",
+        "{食|た}べたところです。",
+        "{食|た}べたばかりです。"
+      ],
+      "answer": 1,
+      "explanation": "ている + ところ = **during** the action.",
+      "notes": [
+        "食べるところ = 'about to eat'.",
+        "",
+        "食べたところ = 'just finished eating'.",
+        "食べたばかり = 'just ate (recently)'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "teirutokoro",
+      "prompt": "{今|いま}、{考|かんが}えて（　）ところです。もう{少|すこ}し{待|ま}ってください。",
+      "options": [
+        "いない",
+        "いた",
+        "いて",
+        "いる"
+      ],
+      "answer": 3,
+      "explanation": "'I'm thinking about it right now': 考えて**いる**ところ.",
+      "notes": [
+        "考えていないところ isn't a pattern.",
+        "考えていたところ = 'was (just) thinking about it', which doesn't fit 'please wait'.",
+        "The て-form can't come before ところ.",
+        ""
+      ],
+      "translation": "I'm thinking about it right now. Please wait a bit longer."
+    },
+    {
+      "point": "rutokoro",
+      "prompt": "これから{出|で}かける（　）です。",
+      "options": [
+        "ばかり",
+        "あいだ",
+        "ところ",
+        "まま"
+      ],
+      "answer": 2,
+      "explanation": "Dictionary form + **ところ** = 'about to'.",
+      "notes": [
+        "ばかり in the 'just did' sense follows the た-form.",
+        "出かけるあいだです isn't grammatical.",
+        "",
+        "出かけるまま isn't natural."
+      ],
+      "translation": "I'm just about to go out."
+    },
+    {
+      "point": "rutokoro",
+      "prompt": "Which means 'I was just **about to** call you'?",
+      "options": [
+        "ちょうど{電話|でんわ}したところでした。",
+        "ちょうど{電話|でんわ}するところでした。",
+        "ちょうど{電話|でんわ}したばかりでした。",
+        "ちょうど{電話|でんわ}しているところでした。"
+      ],
+      "answer": 1,
+      "explanation": "Dictionary form + ところ**でした** = 'was just about to'.",
+      "notes": [
+        "したところ = 'had just called'.",
+        "",
+        "したばかり = 'had only just called'.",
+        "しているところ = 'was in the middle of calling'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "rutokoro",
+      "prompt": "{今|いま}から（　）ところだったのに、{友達|ともだち}から{電話|でんわ}が{来|き}た。",
+      "options": [
+        "{寝|ね}た",
+        "{寝|ね}ない",
+        "{寝|ね}て",
+        "{寝|ね}る"
+      ],
+      "answer": 3,
+      "explanation": "今から + **dictionary form** + ところだった = 'was about to'.",
+      "notes": [
+        "寝たところ ('had just gone to bed') clashes with 今から.",
+        "寝ないところ isn't a pattern.",
+        "The て-form can't come before ところ.",
+        ""
+      ],
+      "translation": "I was just about to go to bed when a friend called."
+    }
+  ]
+}

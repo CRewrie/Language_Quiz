@@ -1,0 +1,230 @@
+{
+  "id": "n3-contrast-logic",
+  "category": "JLPT N3",
+  "title": "Which One? はず/わけ, ために/ように, おかげで/せいで",
+  "description": "Contrast practice for the N3 pairs that look alike: expectation vs. explanation, purpose with and without control, and good vs. bad causes.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "hazu-vs-wake",
+      "title": "はず vs わけ",
+      "summary": "はず = what SHOULD be true (expectation, can turn out wrong: はずなのに). わけ = what logically FOLLOWS from what you now know (explanation).",
+      "body": "- **はず** looks forward: 鍵はかばんに入れた**はず**なのに、ない (I'm sure I put it in my bag — but it's not there).\n- **わけ** explains what you see: 窓が開いていた。寒い**わけだ** (that's why it's cold).\n\nTest: can it be contradicted by reality (〜はずなのに / 〜はずだったのに)? → はず. Does it explain a fact you just noticed (どうりで / それで)? → わけ.\n\nNegatives: はずがない ≈ わけがない (no way). But わけではない (it's not that) has no はず-counterpart.",
+      "examples": [
+        [
+          "{鍵|かぎ}はかばんに{入|い}れたはずなのに、ない。",
+          "I'm sure I put the key in my bag, but it's not there."
+        ],
+        [
+          "{窓|まど}が{開|あ}いていた。{寒|さむ}いわけだ。",
+          "The window was open — that's why it's cold."
+        ]
+      ]
+    },
+    {
+      "id": "tameni-vs-youni",
+      "title": "ために vs ように (purpose)",
+      "summary": "ために + verb you control, same subject. ように + verb you can't directly control (potential, negative, なる, 見える…) or a different subject.",
+      "body": "- 日本語を勉強する**ために**日本に来た (勉強する is a deliberate action).\n- 忘れない**ように**メモする (not forgetting isn't a direct action).\n- 誰でも使える**ように**、説明を簡単にした (potential + different subject).\n- Noun: 家族**のために** (for the family) — ように after a noun means 'like' (家族のように = like family).",
+      "examples": [
+        [
+          "{日本語|にほんご}を{勉強|べんきょう}するために、{日本|にほん}に{来|き}た。",
+          "I came to Japan to study Japanese."
+        ],
+        [
+          "{忘|わす}れないように、メモしておく。",
+          "I'll take a note so I don't forget."
+        ]
+      ]
+    },
+    {
+      "id": "okage-vs-sei",
+      "title": "おかげで vs せいで",
+      "summary": "おかげで = thanks to (good result, gratitude). せいで = because of (bad result, blame).",
+      "body": "- 先生の**おかげで**合格できた.\n- 雨の**せいで**試合が中止になった.\n\nNeutral alternative for either: ために (formal), から/ので.",
+      "examples": [
+        [
+          "{先生|せんせい}のおかげで{合格|ごうかく}できた。",
+          "Thanks to my teacher, I passed."
+        ],
+        [
+          "{雨|あめ}のせいで{試合|しあい}が{中止|ちゅうし}になった。",
+          "Because of the rain, the match was cancelled."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "hazu-vs-wake",
+      "prompt": "{鍵|かぎ}はかばんに{入|い}れた（　）なのに、どこにもない。",
+      "options": [
+        "はず",
+        "もの",
+        "わけ",
+        "ため"
+      ],
+      "answer": 0,
+      "explanation": "Expectation contradicted by reality → **はずなのに**.",
+      "notes": [
+        "",
+        "ものなのに isn't natural here.",
+        "わけなのに isn't used — わけ explains facts, it isn't 'supposed to'.",
+        "ためなのに = 'even though it's because' — illogical."
+      ],
+      "translation": "I'm sure I put the key in my bag, but it's nowhere to be found."
+    },
+    {
+      "point": "hazu-vs-wake",
+      "prompt": "{田中|たなか}さんは{今日|きょう}{来|く}る（　）だったのに、{来|こ}なかった。",
+      "options": [
+        "こと",
+        "はず",
+        "もの",
+        "わけ"
+      ],
+      "answer": 1,
+      "explanation": "Was supposed to (but didn't) → **はずだった**.",
+      "notes": [
+        "来ることだった isn't natural.",
+        "",
+        "来るものだった = 'used to come / ought to come' — doesn't fit.",
+        "わけだった doesn't express an unmet expectation."
+      ],
+      "translation": "Tanaka was supposed to come today, but didn't."
+    },
+    {
+      "point": "hazu-vs-wake",
+      "prompt": "{部屋|へや}の{窓|まど}が{全部|ぜんぶ}{開|あ}いていた。どうりで{寒|さむ}い（　）。",
+      "options": [
+        "わけにはいかない",
+        "わけがない",
+        "わけではない",
+        "わけだ"
+      ],
+      "answer": 3,
+      "explanation": "どうりで + explanation of a noticed fact → **わけだ**.",
+      "notes": [
+        "わけにはいかない doesn't fit 寒い.",
+        "わけがない contradicts the open windows.",
+        "わけではない denies the obvious conclusion.",
+        ""
+      ],
+      "translation": "All the windows were open. No wonder it's cold."
+    },
+    {
+      "point": "tameni-vs-youni",
+      "prompt": "{日本語|にほんご}を{勉強|べんきょう}する（　）、{日本|にほん}に{来|き}た。",
+      "options": [
+        "ために",
+        "ように",
+        "ためで",
+        "ようで"
+      ],
+      "answer": 0,
+      "explanation": "Deliberate action, same subject → **ために**.",
+      "notes": [
+        "",
+        "ように is for non-controllable verbs (話せるように) or different subjects.",
+        "ためで isn't the purpose pattern.",
+        "ようで isn't purpose."
+      ],
+      "translation": "I came to Japan to study Japanese."
+    },
+    {
+      "point": "tameni-vs-youni",
+      "prompt": "{忘|わす}れない（　）、{手帳|てちょう}にメモしておく。",
+      "options": [
+        "ために",
+        "ためで",
+        "ようで",
+        "ように"
+      ],
+      "answer": 3,
+      "explanation": "Negative / non-controllable → **ように**.",
+      "notes": [
+        "ない + ために is generally avoided — not forgetting isn't a deliberate action.",
+        "ためで isn't the pattern.",
+        "ようで isn't purpose.",
+        ""
+      ],
+      "translation": "I'll write it in my planner so I don't forget."
+    },
+    {
+      "point": "tameni-vs-youni",
+      "prompt": "{誰|だれ}でも{使|つか}える（　）、{説明|せつめい}を{簡単|かんたん}にした。",
+      "options": [
+        "ような",
+        "ように",
+        "ために",
+        "ためな"
+      ],
+      "answer": 1,
+      "explanation": "Potential verb + different subject → **ように**.",
+      "notes": [
+        "ような must be followed by a noun.",
+        "",
+        "ために can't follow a potential verb like 使える.",
+        "ためな isn't a form."
+      ],
+      "translation": "I simplified the explanation so that anyone can use it."
+    },
+    {
+      "point": "tameni-vs-youni",
+      "prompt": "{家族|かぞく}（　）、{毎日|まいにち}{遅|おそ}くまで{働|はたら}いている。",
+      "options": [
+        "のように",
+        "ように",
+        "ために",
+        "のために"
+      ],
+      "answer": 3,
+      "explanation": "For the family's sake: noun + **のために**.",
+      "notes": [
+        "家族のように = 'like a family' — different meaning.",
+        "Nouns need の — and ように would mean 'like'.",
+        "Nouns need の before ために.",
+        ""
+      ],
+      "translation": "He works late every day for his family."
+    },
+    {
+      "point": "okage-vs-sei",
+      "prompt": "{友達|ともだち}が{手伝|てつだ}ってくれた（　）、{早|はや}く{終|お}わった。",
+      "options": [
+        "わりに",
+        "おかげで",
+        "せいで",
+        "くせに"
+      ],
+      "answer": 1,
+      "explanation": "Good result, gratitude → **おかげで**.",
+      "notes": [
+        "わりに = 'considering'.",
+        "",
+        "せいで blames — but finishing early is good.",
+        "くせに = 'even though (criticism)'."
+      ],
+      "translation": "Thanks to my friend's help, I finished early."
+    },
+    {
+      "point": "okage-vs-sei",
+      "prompt": "{隣|となり}の{部屋|へや}がうるさかった（　）、よく{眠|ねむ}れなかった。",
+      "options": [
+        "せいで",
+        "おかげで",
+        "くせに",
+        "わりに"
+      ],
+      "answer": 0,
+      "explanation": "Bad result, blame → **せいで**.",
+      "notes": [
+        "",
+        "おかげで expresses gratitude — wrong for a bad night's sleep.",
+        "くせに = 'even though' — illogical.",
+        "わりに = 'considering' — doesn't express a cause."
+      ],
+      "translation": "Because the room next door was noisy, I couldn't sleep well."
+    }
+  ]
+}

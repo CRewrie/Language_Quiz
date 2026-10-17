@@ -1,0 +1,431 @@
+{
+  "id": "zh-a1-questions",
+  "category": "Mandarin A1",
+  "language": "zh",
+  "title": "Asking Questions: 吗, 呢, 吧, V不V, 还是, question words, tags",
+  "description": "Yes/no with 吗, 'and you?' with 呢, suggestions with 吧, A-not-A questions, either-or with 还是, and where question words go.",
+  "level": "A1",
+  "points": [
+    {
+      "id": "ma",
+      "title": "…吗? yes/no questions",
+      "summary": "Add 吗 (ma) to a statement to make a yes/no question. Don't add 吗 to questions that already are questions (V不V, question words, 还是).",
+      "body": "- 你喝咖啡**吗**?\n- ~~你喝不喝咖啡吗?~~ ✗\n- ~~你去哪儿吗?~~ ✗",
+      "examples": [
+        [
+          "{你|nǐ}{喝|hē}{咖啡|kāfēi}{吗|ma}？",
+          "Do you drink coffee?"
+        ]
+      ]
+    },
+    {
+      "id": "ne",
+      "title": "…呢? and you? / where is …?",
+      "summary": "Noun + 呢 = 'and (what about) …?' after a statement, or 'where is …?' on its own.",
+      "body": "- 我很好，你**呢**? (I'm fine, and you?)\n- 我的手机**呢**? (Where's my phone?)",
+      "examples": [
+        [
+          "{我|wǒ}{很|hěn}{好|hǎo}，{你|nǐ}{呢|ne}？",
+          "I'm fine, and you?"
+        ]
+      ]
+    },
+    {
+      "id": "ba",
+      "title": "Command / suggestion + 吧",
+      "summary": "吧 (ba) softens a suggestion: 'let's …', '… why don't you'.",
+      "body": "- 我们一起去**吧**! (Let's go together!)\n- 你休息一下**吧** (Why don't you take a rest).",
+      "examples": [
+        [
+          "{我们|wǒmen}{一起|yìqǐ}{去|qù}{吧|ba}！",
+          "Let's go together!"
+        ]
+      ]
+    },
+    {
+      "id": "vnotv",
+      "title": "Verb 不 verb? (A-not-A)",
+      "summary": "Repeat the verb/adjective with 不 in between: 去不去? 忙不忙? For 有: 有没有. No 吗 and no 很.",
+      "body": "- 你**去不去**? (Are you going?)\n- 你**忙不忙**? — not ~~很忙不忙~~.\n- 你**有没有**时间?",
+      "examples": [
+        [
+          "{你|nǐ}{有|yǒu}{没有|méiyǒu}{时间|shíjiān}？",
+          "Do you have time?"
+        ]
+      ]
+    },
+    {
+      "id": "qword",
+      "title": "Question words stay in place",
+      "summary": "什么, 谁, 哪儿, 什么时候, 为什么, 怎么 go where the answer would be — the word order doesn't change.",
+      "body": "- 你去**哪儿**? → 我去北京.\n- **谁**是你的老师? → 王老师是我的老师.\n- No 吗 at the end.",
+      "examples": [
+        [
+          "{你|nǐ}{去|qù}{哪儿|nǎr}？",
+          "Where are you going?"
+        ]
+      ]
+    },
+    {
+      "id": "zenme",
+      "title": "怎么 + verb: how to …",
+      "summary": "怎么 (zěnme) + verb asks for the way to do something.",
+      "body": "- 这个字**怎么**读? (How do you read this character?)\n- 你**怎么**来学校? — 坐地铁 (by subway).",
+      "examples": [
+        [
+          "{这个|zhège}{字|zì}{怎么|zěnme}{读|dú}？",
+          "How do you read this character?"
+        ]
+      ]
+    },
+    {
+      "id": "haishi",
+      "title": "A 还是 B? (either-or question)",
+      "summary": "还是 (háishi) offers a choice in a question. No 吗.",
+      "body": "- 你喝茶**还是**喝咖啡?\n- ~~…还是…吗?~~ ✗\n- 或者 also means 'or', but in statements, not in either-or questions.",
+      "examples": [
+        [
+          "{你|nǐ}{喝|hē}{茶|chá}{还是|háishi}{喝|hē}{咖啡|kāfēi}？",
+          "Will you have tea or coffee?"
+        ]
+      ]
+    },
+    {
+      "id": "tag",
+      "title": "Tag questions: 是不是 / 好吗 / 对吗",
+      "summary": "Statement + ，是不是? / 对不对? / 好吗? = '…, right? / …, OK?'",
+      "body": "- 你是美国人，**是不是**?\n- 我们明天去，**好吗**?",
+      "examples": [
+        [
+          "{我们|wǒmen}{明天|míngtiān}{去|qù}，{好|hǎo}{吗|ma}？",
+          "Let's go tomorrow, OK?"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "ma",
+      "prompt": "{你|nǐ}{是|shì}{日本人|Rìběnrén}（　）？",
+      "options": [
+        "{吗|ma}",
+        "{的|de}",
+        "{呢|ne}",
+        "{了|le}"
+      ],
+      "answer": 0,
+      "explanation": "Yes/no question: **吗**.",
+      "notes": [
+        "",
+        "的 doesn't make a question.",
+        "呢 asks 'and what about …?'.",
+        "了 doesn't make a question."
+      ],
+      "translation": "Are you Japanese?"
+    },
+    {
+      "point": "ma",
+      "prompt": "Which question is correct?",
+      "options": [
+        "{你|nǐ}{喝|hē}{什么|shénme}{吗|ma}？",
+        "{你|nǐ}{喝|hē}{不|bu}{喝|hē}{咖啡|kāfēi}{吗|ma}？",
+        "{你|nǐ}{喝|hē}{咖啡|kāfēi}{吗|ma}？",
+        "{你|nǐ}{吗|ma}{喝|hē}{咖啡|kāfēi}？"
+      ],
+      "answer": 2,
+      "explanation": "**吗** only after a statement.",
+      "notes": [
+        "A question word is already a question — no 吗.",
+        "A-not-A is already a question — no 吗.",
+        "",
+        "吗 goes at the end."
+      ],
+      "translation": "Do you drink coffee?"
+    },
+    {
+      "point": "ne",
+      "prompt": "A：{你|nǐ}{好|hǎo}{吗|ma}？\nB：{我|wǒ}{很|hěn}{好|hǎo}，{你|nǐ}（　）？",
+      "options": [
+        "{吗|ma}",
+        "{呢|ne}",
+        "{了|le}",
+        "{吧|ba}"
+      ],
+      "answer": 1,
+      "explanation": "And you?: **呢**.",
+      "notes": [
+        "你吗? isn't a question.",
+        "",
+        "你了 isn't grammatical.",
+        "你吧 isn't a question."
+      ],
+      "translation": "A: How are you? B: I'm fine, and you?"
+    },
+    {
+      "point": "ne",
+      "prompt": "{我|wǒ}{的|de}{手机|shǒujī}（　）？{我|wǒ}{找|zhǎo}{不|bu}{到|dào}。",
+      "options": [
+        "{吗|ma}",
+        "{呢|ne}",
+        "{吧|ba}",
+        "{的|de}"
+      ],
+      "answer": 1,
+      "explanation": "Where is …?: noun + **呢**.",
+      "notes": [
+        "我的手机吗? = 'My phone?' (just echoing).",
+        "",
+        "吧 makes a suggestion.",
+        "的 doesn't make a question."
+      ],
+      "translation": "Where's my phone? I can't find it."
+    },
+    {
+      "point": "ba",
+      "prompt": "{我们|wǒmen}{一起|yìqǐ}{去|qù}{吃饭|chīfàn}（　）！",
+      "options": [
+        "{吧|ba}",
+        "{呢|ne}",
+        "{吗|ma}",
+        "{的|de}"
+      ],
+      "answer": 0,
+      "explanation": "Let's …: **吧**.",
+      "notes": [
+        "",
+        "呢 doesn't make suggestions.",
+        "吗 asks; the sentence ends with ！.",
+        "的 doesn't make suggestions."
+      ],
+      "translation": "Let's go and eat together!"
+    },
+    {
+      "point": "ba",
+      "prompt": "{太|tài}{晚|wǎn}{了|le}，{你|nǐ}{回家|huíjiā}（　）。",
+      "options": [
+        "{吧|ba}",
+        "{的|de}",
+        "{吗|ma}",
+        "{呢|ne}"
+      ],
+      "answer": 0,
+      "explanation": "Soft suggestion: **吧**.",
+      "notes": [
+        "",
+        "的 doesn't fit.",
+        "吗 needs a question mark.",
+        "呢 needs a question mark here."
+      ],
+      "translation": "It's late — why don't you go home."
+    },
+    {
+      "point": "vnotv",
+      "prompt": "{你|nǐ}{明天|míngtiān}（　）{去|qù}？",
+      "options": [
+        "{去|qù}{吗|ma}",
+        "{去|qù}{没|méi}",
+        "{去|qù}{不|bu}",
+        "{不|bú}{去|qù}{不|bu}"
+      ],
+      "answer": 2,
+      "explanation": "A-not-A: **去不去**.",
+      "notes": [
+        "吗 goes at the end, not in the middle.",
+        "A-not-A uses 不 (没 only with 有 / past).",
+        "",
+        "Only one 不 in the middle."
+      ],
+      "translation": "Are you going tomorrow?"
+    },
+    {
+      "point": "vnotv",
+      "prompt": "Which question is correct?",
+      "options": [
+        "{你|nǐ}{很|hěn}{忙|máng}{不|bu}{忙|máng}？",
+        "{你|nǐ}{忙|máng}{不|bu}{忙|máng}{吗|ma}？",
+        "{你|nǐ}{忙|máng}{不|bu}{忙|máng}？",
+        "{你|nǐ}{不|bù}{忙|máng}{忙|máng}？"
+      ],
+      "answer": 2,
+      "explanation": "Adjective A-not-A: **忙不忙**.",
+      "notes": [
+        "No 很 in A-not-A.",
+        "No 吗 after A-not-A.",
+        "",
+        "The order is A 不 A."
+      ],
+      "translation": "Are you busy?"
+    },
+    {
+      "point": "vnotv",
+      "prompt": "{你|nǐ}（　）{时间|shíjiān}？",
+      "options": [
+        "{没有|méiyǒu}{有|yǒu}",
+        "{有|yǒu}{不|bù}{有|yǒu}",
+        "{有|yǒu}{没有|méiyǒu}",
+        "{有|yǒu}{吗|ma}"
+      ],
+      "answer": 2,
+      "explanation": "有 → **有没有**.",
+      "notes": [
+        "The positive comes first.",
+        "有 is negated with 没, never 不.",
+        "",
+        "吗 goes at the end."
+      ],
+      "translation": "Do you have time?"
+    },
+    {
+      "point": "qword",
+      "prompt": "Which question is correct?",
+      "options": [
+        "{你|nǐ}{去|qù}{哪儿|nǎr}{吗|ma}？",
+        "{去|qù}{哪儿|nǎr}{你|nǐ}？",
+        "{你|nǐ}{去|qù}{哪儿|nǎr}？",
+        "{哪儿|nǎr}{你|nǐ}{去|qù}？"
+      ],
+      "answer": 2,
+      "explanation": "Question word **in place**.",
+      "notes": [
+        "No 吗 with question words.",
+        "The subject comes first.",
+        "",
+        "The question word stays where the answer goes (after 去)."
+      ],
+      "translation": "Where are you going?"
+    },
+    {
+      "point": "qword",
+      "prompt": "A：（　）{是|shì}{你|nǐ}{的|de}{老师|lǎoshī}？\nB：{王|Wáng}{老师|lǎoshī}。",
+      "options": [
+        "{哪儿|nǎr}",
+        "{怎么|zěnme}",
+        "{谁|shéi}",
+        "{什么|shénme}"
+      ],
+      "answer": 2,
+      "explanation": "Who: **谁**.",
+      "notes": [
+        "哪儿 = 'where'.",
+        "怎么 = 'how'.",
+        "",
+        "什么 = 'what' — the answer is a person."
+      ],
+      "translation": "A: Who is your teacher? B: Teacher Wang."
+    },
+    {
+      "point": "zenme",
+      "prompt": "{这个|zhège}{字|zì}（　）{读|dú}？",
+      "options": [
+        "{什么|shénme}",
+        "{怎么|zěnme}",
+        "{为什么|wèishénme}",
+        "{哪儿|nǎr}"
+      ],
+      "answer": 1,
+      "explanation": "How to: **怎么** + verb.",
+      "notes": [
+        "什么 = 'what' — can't come before the verb like this.",
+        "",
+        "为什么 = 'why'.",
+        "哪儿 = 'where'."
+      ],
+      "translation": "How do you read this character?"
+    },
+    {
+      "point": "zenme",
+      "prompt": "A：{你|nǐ}（　）{来|lái}{学校|xuéxiào}？\nB：{坐|zuò}{地铁|dìtiě}{来|lái}。",
+      "options": [
+        "{为什么|wèishénme}",
+        "{什么|shénme}",
+        "{哪儿|nǎr}",
+        "{怎么|zěnme}"
+      ],
+      "answer": 3,
+      "explanation": "By what means: **怎么**.",
+      "notes": [
+        "为什么 = 'why' — the answer is a way.",
+        "什么 doesn't go before a verb.",
+        "哪儿 = 'where'.",
+        ""
+      ],
+      "translation": "A: How do you get to school? B: By subway."
+    },
+    {
+      "point": "haishi",
+      "prompt": "{你|nǐ}{喝|hē}{茶|chá}（　）{喝|hē}{咖啡|kāfēi}？",
+      "options": [
+        "{还是|háishi}",
+        "{和|hé}",
+        "{或者|huòzhě}",
+        "{也|yě}"
+      ],
+      "answer": 0,
+      "explanation": "Either-or question: **还是**.",
+      "notes": [
+        "",
+        "和 links nouns — 'tea and drink coffee' doesn't work.",
+        "或者 is 'or' in statements, not in either-or questions.",
+        "也 = 'also'."
+      ],
+      "translation": "Will you have tea or coffee?"
+    },
+    {
+      "point": "haishi",
+      "prompt": "Which question is correct?",
+      "options": [
+        "{你|nǐ}{是|shì}{老师|lǎoshī}{还是|háishi}{吗|ma}{学生|xuésheng}？",
+        "{你|nǐ}{是|shì}{老师|lǎoshī}{还是|háishi}{学生|xuésheng}？",
+        "{你|nǐ}{是|shì}{老师|lǎoshī}{还是|háishi}{学生|xuésheng}{吗|ma}？",
+        "{还是|háishi}{你|nǐ}{是|shì}{老师|lǎoshī}{学生|xuésheng}？"
+      ],
+      "answer": 1,
+      "explanation": "A **还是** B — no 吗.",
+      "notes": [
+        "吗 can't go inside.",
+        "",
+        "No 吗 with 还是.",
+        "还是 goes between the two choices."
+      ],
+      "translation": "Are you a teacher or a student?"
+    },
+    {
+      "point": "tag",
+      "prompt": "{我们|wǒmen}{明天|míngtiān}{去|qù}，（　）？",
+      "options": [
+        "{好|hǎo}{不|bu}{好|hǎo}{吗|ma}",
+        "{好|hǎo}{吧|ba}{吗|ma}",
+        "{好|hǎo}{吗|ma}",
+        "{好|hǎo}{呢|ne}"
+      ],
+      "answer": 2,
+      "explanation": "Tag: **好吗**?",
+      "notes": [
+        "No 吗 after A-not-A.",
+        "Two particles can't stack like this.",
+        "",
+        "好呢 isn't a tag."
+      ],
+      "translation": "Let's go tomorrow, OK?"
+    },
+    {
+      "point": "tag",
+      "prompt": "{你|nǐ}{是|shì}{美国人|Měiguórén}，（　）？",
+      "options": [
+        "{是|shì}{没|méi}{是|shì}",
+        "{是|shì}{不|bu}{是|shì}{吗|ma}",
+        "{是|shì}{不|bu}{是|shì}",
+        "{不|bú}{是|shì}{是|shì}"
+      ],
+      "answer": 2,
+      "explanation": "Tag: **是不是**?",
+      "notes": [
+        "是 is negated with 不.",
+        "No 吗 after A-not-A.",
+        "",
+        "The order is 是不是."
+      ],
+      "translation": "You're American, right?"
+    }
+  ]
+}

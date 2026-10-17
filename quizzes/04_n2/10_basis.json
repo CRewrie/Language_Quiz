@@ -1,0 +1,361 @@
+{
+  "id": "n2-basis",
+  "category": "JLPT N2",
+  "title": "Basis & Relation: に基づいて, をもとに, に沿って, に応じて, に応えて, をめぐって, にかかわる",
+  "description": "Based on, using as a source, along / in line with, according to, in response to, concerning (disputes), and affecting.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "nimotozuite",
+      "title": "〜に基づいて / に基づく: based on",
+      "summary": "Noun + に基づいて = on the basis of (facts, rules, data). Before a noun: に基づく.",
+      "body": "- この映画は実話**に基づいて**作られた.\n- 調査**に基づく**報告書.",
+      "examples": [
+        [
+          "この{映画|えいが}は{実話|じつわ}に{基|もと}づいて{作|つく}られた。",
+          "This film is based on a true story."
+        ]
+      ]
+    },
+    {
+      "id": "womotoni",
+      "title": "〜をもとに(して): using … as a source",
+      "summary": "Noun + をもとに = taking A as material/hint and creating B.",
+      "body": "- 日記**をもとに**小説を書いた.\n\nNuance: をもとに = raw material/inspiration; に基づいて = strict basis (rules, data).",
+      "examples": [
+        [
+          "{日記|にっき}をもとに{小説|しょうせつ}を{書|か}いた。",
+          "I wrote a novel based on my diary."
+        ]
+      ]
+    },
+    {
+      "id": "nisotte",
+      "title": "〜に沿って: along, in line with",
+      "summary": "Noun + に沿って = along (a river, road) / in accordance with (a plan, wishes). Kanji: 沿.",
+      "body": "- 川**に沿って**歩いた.\n- 計画**に沿って**進めてください.",
+      "examples": [
+        [
+          "{川|かわ}に{沿|そ}って{歩|ある}いた。",
+          "I walked along the river."
+        ]
+      ]
+    },
+    {
+      "id": "niojite",
+      "title": "〜に応じて: according to, depending on",
+      "summary": "Noun + に応じて = adjusting to (budget, age, ability). (おうじて)",
+      "body": "- 予算**に応じて**料理を用意します.\n- 年齢**に応じて**、料金が変わります.",
+      "examples": [
+        [
+          "{予算|よさん}に{応|おう}じて{料理|りょうり}を{用意|ようい}します。",
+          "We'll prepare food according to your budget."
+        ]
+      ]
+    },
+    {
+      "id": "nikotaete",
+      "title": "〜に応えて: in response to (expectations, requests)",
+      "summary": "Noun (期待, 要望, 声) + に応えて = responding to. Kanji: 応える (こたえる), not 答える.",
+      "body": "- ファンの声**に応えて**、再結成が決まった.\n- 期待**に応えて**、優勝した.",
+      "examples": [
+        [
+          "{期待|きたい}に{応|こた}えて、{優勝|ゆうしょう}した。",
+          "Living up to expectations, they won the championship."
+        ]
+      ]
+    },
+    {
+      "id": "womegutte",
+      "title": "〜をめぐって: over, concerning (dispute)",
+      "summary": "Noun + をめぐって = surrounding an issue (debate, conflict). Before a noun: をめぐる.",
+      "body": "- 遺産**をめぐって**、兄弟が争った.\n- 環境問題**をめぐる**議論.",
+      "examples": [
+        [
+          "{遺産|いさん}をめぐって、{兄弟|きょうだい}が{争|あらそ}った。",
+          "The siblings fought over the inheritance."
+        ]
+      ]
+    },
+    {
+      "id": "nikakawaru",
+      "title": "〜にかかわる: affecting, concerning (important)",
+      "summary": "Noun + にかかわる = having a serious effect on (命, 将来, 名誉) / related to.",
+      "body": "- これは命**にかかわる**問題だ.\n- 教育**にかかわる**仕事.",
+      "examples": [
+        [
+          "これは{命|いのち}にかかわる{問題|もんだい}だ。",
+          "This is a matter of life and death."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nimotozuite",
+      "prompt": "この{映画|えいが}は{実話|じつわ}（　）{作|つく}られた。",
+      "options": [
+        "に{基|もと}づいて",
+        "に{基|もと}づく",
+        "を{基|もと}づいて",
+        "が{基|もと}づいて"
+      ],
+      "answer": 0,
+      "explanation": "Based on: **に基づいて**.",
+      "notes": [
+        "",
+        "に基づく must modify a noun.",
+        "The particle is に.",
+        "The particle is に."
+      ],
+      "translation": "This film is based on a true story."
+    },
+    {
+      "point": "nimotozuite",
+      "prompt": "{調査|ちょうさ}（　）{報告書|ほうこくしょ}を{作成|さくせい}した。",
+      "options": [
+        "を{基|もと}づく",
+        "に{基|もと}づく",
+        "に{基|もと}づいて",
+        "に{基|もと}づける"
+      ],
+      "answer": 1,
+      "explanation": "Before a noun: **に基づく**.",
+      "notes": [
+        "The particle is に.",
+        "",
+        "に基づいて can't directly modify 報告書.",
+        "基づける isn't a verb."
+      ],
+      "translation": "We prepared a report based on the survey."
+    },
+    {
+      "point": "womotoni",
+      "prompt": "{日記|にっき}（　）{小説|しょうせつ}を{書|か}いた。",
+      "options": [
+        "をもとに",
+        "にもとに",
+        "をもとで",
+        "がもとに"
+      ],
+      "answer": 0,
+      "explanation": "Using as source: **をもとに**.",
+      "notes": [
+        "",
+        "The particle is を.",
+        "をもとで isn't the pattern.",
+        "The particle is を."
+      ],
+      "translation": "I wrote a novel based on my diary."
+    },
+    {
+      "point": "womotoni",
+      "prompt": "{客|きゃく}のアンケートを（　）、メニューを{改善|かいぜん}した。",
+      "options": [
+        "もとで",
+        "もとから",
+        "もとに",
+        "ものに"
+      ],
+      "answer": 2,
+      "explanation": "**をもとに**.",
+      "notes": [
+        "をもとで isn't the pattern.",
+        "をもとから isn't the pattern.",
+        "",
+        "ものに isn't the pattern."
+      ],
+      "translation": "We improved the menu based on customer surveys."
+    },
+    {
+      "point": "nisotte",
+      "prompt": "{川|かわ}（　）{歩|ある}いた。",
+      "options": [
+        "が{沿|そ}って",
+        "に{沿|そ}って",
+        "に{添|そ}って",
+        "を{沿|そ}って"
+      ],
+      "answer": 1,
+      "explanation": "Along: **に沿って** (沿).",
+      "notes": [
+        "The particle is に.",
+        "",
+        "添う = 'accompany' — different kanji.",
+        "The particle is に."
+      ],
+      "translation": "I walked along the river."
+    },
+    {
+      "point": "nisotte",
+      "prompt": "{計画|けいかく}（　）{進|すす}めてください。",
+      "options": [
+        "に{沿|そ}った",
+        "に{沿|そ}う",
+        "を{沿|そ}って",
+        "に{沿|そ}って"
+      ],
+      "answer": 3,
+      "explanation": "In line with: **に沿って**.",
+      "notes": [
+        "に沿った must modify a noun.",
+        "に沿う can't connect to the verb.",
+        "The particle is に.",
+        ""
+      ],
+      "translation": "Please proceed according to the plan."
+    },
+    {
+      "point": "niojite",
+      "prompt": "{予算|よさん}（　）{料理|りょうり}を{用意|ようい}します。",
+      "options": [
+        "を{応|おう}じて",
+        "に{答|こた}えて",
+        "に{応|おう}じて",
+        "に{応|こた}えて"
+      ],
+      "answer": 2,
+      "explanation": "According to: **に応じて**.",
+      "notes": [
+        "The particle is に.",
+        "答える = 'answer'.",
+        "",
+        "に応えて = 'in response to (expectations)'."
+      ],
+      "translation": "We'll prepare food according to your budget."
+    },
+    {
+      "point": "niojite",
+      "prompt": "{年齢|ねんれい}（　）、{料金|りょうきん}が{変|か}わります。",
+      "options": [
+        "に{応|おう}じて",
+        "に{応|おう}える",
+        "に{応|おう}じる",
+        "を{応|おう}じて"
+      ],
+      "answer": 0,
+      "explanation": "Depending on: **に応じて**.",
+      "notes": [
+        "",
+        "応える is read こたえる and means 'respond'.",
+        "に応じる can't connect to the clause.",
+        "The particle is に."
+      ],
+      "translation": "The fee varies by age."
+    },
+    {
+      "point": "nikotaete",
+      "prompt": "ファンの{声|こえ}（　）、{再結成|さいけっせい}が{決|き}まった。",
+      "options": [
+        "に{答|こた}えて",
+        "に{応|こた}えて",
+        "を{応|こた}えて",
+        "が{応|こた}えて"
+      ],
+      "answer": 1,
+      "explanation": "In response to: **に応えて** (応).",
+      "notes": [
+        "答える = answer a question — wrong kanji.",
+        "",
+        "The particle is に.",
+        "The particle is に."
+      ],
+      "translation": "In response to the fans, the band decided to reunite."
+    },
+    {
+      "point": "nikotaete",
+      "prompt": "{両親|りょうしん}の{期待|きたい}（　）、{医者|いしゃ}になった。",
+      "options": [
+        "に{応|こた}えて",
+        "を{応|こた}えて",
+        "に{答|こた}えて",
+        "に{応|おう}じて"
+      ],
+      "answer": 0,
+      "explanation": "Living up to: **期待に応えて**.",
+      "notes": [
+        "",
+        "The particle is に.",
+        "答える = answer.",
+        "に応じて = 'according to' — doesn't fit 期待."
+      ],
+      "translation": "Living up to his parents' expectations, he became a doctor."
+    },
+    {
+      "point": "womegutte",
+      "prompt": "{遺産|いさん}（　）、{兄弟|きょうだい}が{争|あらそ}った。",
+      "options": [
+        "にめぐって",
+        "をめくって",
+        "がめぐって",
+        "をめぐって"
+      ],
+      "answer": 3,
+      "explanation": "Over (a dispute): **をめぐって**.",
+      "notes": [
+        "The particle is を.",
+        "めくる = 'turn (pages)'.",
+        "The particle is を.",
+        ""
+      ],
+      "translation": "The siblings fought over the inheritance."
+    },
+    {
+      "point": "womegutte",
+      "prompt": "{環境問題|かんきょうもんだい}（　）{議論|ぎろん}が{続|つづ}いている。",
+      "options": [
+        "にめぐる",
+        "をめぐる",
+        "をめぐって",
+        "をめくる"
+      ],
+      "answer": 1,
+      "explanation": "Before a noun: **をめぐる**.",
+      "notes": [
+        "The particle is を.",
+        "",
+        "をめぐって can't directly modify 議論.",
+        "めくる = 'turn (pages)'."
+      ],
+      "translation": "Debate over environmental issues continues."
+    },
+    {
+      "point": "nikakawaru",
+      "prompt": "これは{命|いのち}（　）{問題|もんだい}だ。",
+      "options": [
+        "にかかわって",
+        "にかかわらず",
+        "にかかわる",
+        "をかかわる"
+      ],
+      "answer": 2,
+      "explanation": "Affecting: **にかかわる** + noun.",
+      "notes": [
+        "にかかわって can't directly modify 問題.",
+        "にかかわらず = 'regardless of'.",
+        "",
+        "The particle is に."
+      ],
+      "translation": "This is a matter of life and death."
+    },
+    {
+      "point": "nikakawaru",
+      "prompt": "{将来|しょうらい}は{教育|きょういく}（　）{仕事|しごと}がしたい。",
+      "options": [
+        "にかからず",
+        "にかかわる",
+        "にかかわらず",
+        "にかかる"
+      ],
+      "answer": 1,
+      "explanation": "Related to: **にかかわる**.",
+      "notes": [
+        "にかからず isn't the pattern.",
+        "",
+        "にかかわらず = 'regardless of'.",
+        "にかかる = 'cost / depend on'."
+      ],
+      "translation": "In the future I want a job related to education."
+    }
+  ]
+}

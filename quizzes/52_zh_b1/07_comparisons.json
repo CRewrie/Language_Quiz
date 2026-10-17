@@ -1,0 +1,312 @@
+{
+  "id": "zh-b1-comparisons",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Comparisons (B1): 多了 / 得多, 还 / 更, 有…那么, 越来越, 一点儿也不, 跟…比",
+  "description": "Much more, even more, 'as … as' questions with 有, more and more, not at all, and 'compared with'.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "duole",
+      "title": "比 … adj + 多了 / 得多: much more",
+      "summary": "A 比 B + adj + 多了 / 得多 = much more …. Not ~~很 + adj~~ after 比.",
+      "body": "- 今天比昨天冷**多了**.\n- 他比我高**得多**.",
+      "examples": [
+        [
+          "{今天|jīntiān}{比|bǐ}{昨天|zuótiān}{冷|lěng}{多|duō}{了|le}。",
+          "Today is much colder than yesterday."
+        ]
+      ]
+    },
+    {
+      "id": "haigeng",
+      "title": "比 … 还 / 更 + adj: even more",
+      "summary": "比 + B + 还 / 更 + adj = even more ….",
+      "body": "- 弟弟比哥哥**还**高.",
+      "examples": [
+        [
+          "{弟弟|dìdi}{比|bǐ}{哥哥|gēge}{还|hái}{高|gāo}。",
+          "The younger brother is even taller than the older one."
+        ]
+      ]
+    },
+    {
+      "id": "you_comp",
+      "title": "A 有 B (那么) + adj (吗)?",
+      "summary": "A 有 B 那么 + adj = A is as … as B (often in questions or negatives: 没有 B 那么 …).",
+      "body": "- 你**有**你哥哥**那么**高吗?",
+      "examples": [
+        [
+          "{你|nǐ}{有|yǒu}{你|nǐ}{哥哥|gēge}{那么|nàme}{高|gāo}{吗|ma}？",
+          "Are you as tall as your brother?"
+        ]
+      ]
+    },
+    {
+      "id": "yuelaiyue",
+      "title": "越来越 + adj (+ 了): more and more",
+      "summary": "越来越 + adj/verb = more and more …. No 很 after it.",
+      "body": "- 天气**越来越**冷了.",
+      "examples": [
+        [
+          "{他|tā}{的|de}{中文|Zhōngwén}{越来越|yuè lái yuè}{好|hǎo}{了|le}。",
+          "His Chinese is getting better and better."
+        ]
+      ]
+    },
+    {
+      "id": "yidianye",
+      "title": "一点儿也 / 都 + 不 + adj: not at all",
+      "summary": "一点儿也不 + adj = not … at all.",
+      "body": "- 这个电影**一点儿也不**好看.",
+      "examples": [
+        [
+          "{我|wǒ}{一点儿|yìdiǎnr}{也|yě}{不|bú}{累|lèi}。",
+          "I'm not tired at all."
+        ]
+      ]
+    },
+    {
+      "id": "genbi",
+      "title": "跟 A 比，B …: compared with A",
+      "summary": "跟 A 比(起来)，B 比较 / 更 + adj = compared with A, B is ….",
+      "body": "- **跟**北京**比**，上海比较暖和.",
+      "examples": [
+        [
+          "{跟|gēn}{北京|Běijīng}{比|bǐ}，{上海|Shànghǎi}{比较|bǐjiào}{暖和|nuǎnhuo}。",
+          "Compared with Beijing, Shanghai is fairly warm."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "duole",
+      "prompt": "{今天|jīntiān}{比|bǐ}{昨天|zuótiān}{冷|lěng}（　），{多|duō}{穿|chuān}{点儿|diǎnr}{衣服|yīfu}{吧|ba}。",
+      "options": [
+        "{太|tài}{多|duō}",
+        "{得|de}{很|hěn}",
+        "{多|duō}{了|le}",
+        "{多|duō}{很|hěn}"
+      ],
+      "answer": 2,
+      "explanation": "Much more: **adj + 多了**.",
+      "notes": [
+        "冷太多 isn't natural.",
+        "得很 can't follow a 比 comparison.",
+        "",
+        "多很 isn't grammatical."
+      ],
+      "translation": "Today is much colder than yesterday — put on more clothes."
+    },
+    {
+      "point": "duole",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{比|bǐ}{我|wǒ}{很|hěn}{高|gāo}{多|duō}{了|le}。",
+        "{他|tā}{比|bǐ}{我|wǒ}{高|gāo}{得|de}{多|duō}。",
+        "{他|tā}{比|bǐ}{我|wǒ}{多|duō}{高|gāo}{了|le}。",
+        "{他|tā}{比|bǐ}{我|wǒ}{高|gāo}{多|duō}{得|de}。"
+      ],
+      "answer": 1,
+      "explanation": "**adj + 得多**.",
+      "notes": [
+        "No 很 in a 比 comparison.",
+        "",
+        "多 goes after the adjective.",
+        "The order is 得多."
+      ],
+      "translation": "He's much taller than me."
+    },
+    {
+      "point": "haigeng",
+      "prompt": "{哥哥|gēge}{已经|yǐjīng}{很|hěn}{高|gāo}{了|le}，{可是|kěshì}{弟弟|dìdi}{比|bǐ}{哥哥|gēge}（　）{高|gāo}。",
+      "options": [
+        "{最|zuì}",
+        "{很|hěn}",
+        "{还|hái}",
+        "{非常|fēicháng}"
+      ],
+      "answer": 2,
+      "explanation": "Even more: **比…还**.",
+      "notes": [
+        "最 can't be used with 比.",
+        "很 can't be used with 比.",
+        "",
+        "非常 can't be used with 比."
+      ],
+      "translation": "The older brother is already tall, but the younger one is even taller."
+    },
+    {
+      "point": "haigeng",
+      "prompt": "{今天|jīntiān}{比|bǐ}{昨天|zuótiān}（　）{热|rè}，{已经|yǐjīng}{三十八|sānshíbā}{度|dù}{了|le}。",
+      "options": [
+        "{真|zhēn}",
+        "{太|tài}",
+        "{很|hěn}",
+        "{更|gèng}"
+      ],
+      "answer": 3,
+      "explanation": "Even more: **比…更**.",
+      "notes": [
+        "真 can't be used with 比.",
+        "太 can't be used with 比.",
+        "很 can't be used with 比.",
+        ""
+      ],
+      "translation": "Today is even hotter than yesterday — it's already 38 degrees."
+    },
+    {
+      "point": "you_comp",
+      "prompt": "{你|nǐ}{有|yǒu}{你|nǐ}{哥哥|gēge}（　）{高|gāo}{吗|ma}？",
+      "options": [
+        "{很|hěn}",
+        "{那么|nàme}",
+        "{最|zuì}",
+        "{非常|fēicháng}"
+      ],
+      "answer": 1,
+      "explanation": "As … as: **有…那么**.",
+      "notes": [
+        "有 … 很高 isn't a comparison.",
+        "",
+        "最 can't be used here.",
+        "非常 can't be used here."
+      ],
+      "translation": "Are you as tall as your brother?"
+    },
+    {
+      "point": "you_comp",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{你|nǐ}{有|yǒu}{他|tā}{那么|nàme}{高|gāo}{吗|ma}？",
+        "{你|nǐ}{那么|nàme}{有|yǒu}{他|tā}{高|gāo}{吗|ma}？",
+        "{你|nǐ}{有|yǒu}{他|tā}{高|gāo}{那么|nàme}{吗|ma}？",
+        "{你|nǐ}{有|yǒu}{那么|nàme}{他|tā}{高|gāo}{吗|ma}？"
+      ],
+      "answer": 0,
+      "explanation": "A **有** B **那么** + adj.",
+      "notes": [
+        "",
+        "有 comes first.",
+        "那么 goes before the adjective.",
+        "那么 comes after B."
+      ],
+      "translation": "Are you as tall as him?"
+    },
+    {
+      "point": "yuelaiyue",
+      "prompt": "{秋天|qiūtiān}{到|dào}{了|le}，{天气|tiānqì}{越来越|yuè lái yuè}（　）{了|le}。",
+      "options": [
+        "{更|gèng}{冷|lěng}",
+        "{很|hěn}{冷|lěng}",
+        "{冷|lěng}{冷|lěng}",
+        "{冷|lěng}"
+      ],
+      "answer": 3,
+      "explanation": "**越来越 + adj**.",
+      "notes": [
+        "更 is redundant after 越来越.",
+        "No 很 after 越来越.",
+        "Reduplication doesn't fit.",
+        ""
+      ],
+      "translation": "Autumn is here — it's getting colder and colder."
+    },
+    {
+      "point": "yuelaiyue",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{的|de}{中文|Zhōngwén}{越来越|yuè lái yuè}{很|hěn}{好|hǎo}{了|le}。",
+        "{他|tā}{的|de}{中文|Zhōngwén}{越来越|yuè lái yuè}{好|hǎo}{了|le}。",
+        "{他|tā}{的|de}{中文|Zhōngwén}{越|yuè}{好|hǎo}{越|yuè}{来|lái}{了|le}。",
+        "{他|tā}{越来越|yuè lái yuè}{的|de}{中文|Zhōngwén}{好|hǎo}{了|le}。"
+      ],
+      "answer": 1,
+      "explanation": "**越来越好了**.",
+      "notes": [
+        "No 很 after 越来越.",
+        "",
+        "The order is 越来越 + adj.",
+        "越来越 goes before the adjective."
+      ],
+      "translation": "His Chinese is getting better and better."
+    },
+    {
+      "point": "yidianye",
+      "prompt": "{这个|zhège}{电影|diànyǐng}{一点儿|yìdiǎnr}{也|yě}{不|bù}（　），{我|wǒ}{看|kàn}{了|le}{一半|yíbàn}{就|jiù}{走|zǒu}{了|le}。",
+      "options": [
+        "{好看|hǎokàn}",
+        "{好看|hǎokàn}{了|le}",
+        "{很|hěn}{好看|hǎokàn}",
+        "{太|tài}{好看|hǎokàn}"
+      ],
+      "answer": 0,
+      "explanation": "Not at all: **一点儿也不 + adj**.",
+      "notes": [
+        "",
+        "好看了 doesn't fit.",
+        "No 很 after 一点儿也不.",
+        "不太好看 = 'not very good' — but 一点儿也不太 isn't grammatical."
+      ],
+      "translation": "This film wasn't good at all — I left halfway through."
+    },
+    {
+      "point": "yidianye",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{一点儿|yìdiǎnr}{不|bù}{也|yě}{累|lèi}。",
+        "{我|wǒ}{一点儿|yìdiǎnr}{也|yě}{不|bú}{累|lèi}。",
+        "{我|wǒ}{不|bù}{一点儿|yìdiǎnr}{也|yě}{累|lèi}。",
+        "{我|wǒ}{一点儿|yìdiǎnr}{也|yě}{很|hěn}{累|lèi}。"
+      ],
+      "answer": 1,
+      "explanation": "**一点儿也不** + adj.",
+      "notes": [
+        "The order is 也不.",
+        "",
+        "不 goes right before the adjective.",
+        "一点儿也 needs a negative."
+      ],
+      "translation": "I'm not tired at all."
+    },
+    {
+      "point": "genbi",
+      "prompt": "{跟|gēn}{北京|Běijīng}{比|bǐ}，{上海|Shànghǎi}{的|de}{冬天|dōngtiān}（　）{暖和|nuǎnhuo}。",
+      "options": [
+        "{比|bǐ}",
+        "{比|bǐ}{起|qǐ}",
+        "{比较|bǐjiào}",
+        "{很|hěn}{比|bǐ}"
+      ],
+      "answer": 2,
+      "explanation": "Compared with …, fairly: **跟…比，…比较**.",
+      "notes": [
+        "比 needs a second noun after it.",
+        "比起 needs a noun after it.",
+        "",
+        "Not grammatical."
+      ],
+      "translation": "Compared with Beijing, winters in Shanghai are fairly warm."
+    },
+    {
+      "point": "genbi",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{跟|gēn}{去年|qùnián}{比|bǐ}，{今年|jīnnián}{的|de}{夏天|xiàtiān}{更|gèng}{热|rè}。",
+        "{跟|gēn}{去年|qùnián}{比较|bǐjiào}，{今年|jīnnián}{的|de}{夏天|xiàtiān}{热|rè}{更|gèng}。",
+        "{跟|gēn}{去年|qùnián}{比|bǐ}，{今年|jīnnián}{的|de}{夏天|xiàtiān}{比|bǐ}{热|rè}。",
+        "{比|bǐ}{去年|qùnián}{跟|gēn}，{今年|jīnnián}{的|de}{夏天|xiàtiān}{更|gèng}{热|rè}。"
+      ],
+      "answer": 0,
+      "explanation": "**跟 A 比，B 更 + adj**.",
+      "notes": [
+        "",
+        "更 goes before the adjective.",
+        "比 needs a noun after it.",
+        "The order is 跟 … 比."
+      ],
+      "translation": "Compared with last year, this summer is even hotter."
+    }
+  ]
+}

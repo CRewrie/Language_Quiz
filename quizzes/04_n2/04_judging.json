@@ -1,0 +1,411 @@
+{
+  "id": "n2-judging",
+  "category": "JLPT N2",
+  "title": "Judging From: からすると, から見ると, からして, から言うと, ところを見ると, にしたら, 上, としては",
+  "description": "Judging from evidence, from someone's viewpoint, from a standpoint, and 'as for me'.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "karasuruto",
+      "title": "〜からすると / からすれば: judging from",
+      "summary": "Noun + からすると = judging from (evidence) / from the viewpoint of.",
+      "body": "- 彼の話し方**からすると**、関西の人だろう.\n- 親**からすれば**、心配なのは当然だ (from the parents' standpoint).",
+      "examples": [
+        [
+          "{彼|かれ}の{話|はな}し{方|かた}からすると、{関西|かんさい}の{人|ひと}だろう。",
+          "Judging from the way he talks, he's probably from Kansai."
+        ]
+      ]
+    },
+    {
+      "id": "karamiruto",
+      "title": "〜から見ると / から見れば: from the viewpoint of",
+      "summary": "Noun + から見ると = seen from (someone's eyes/position).",
+      "body": "- 子供の目**から見ると**、大人の世界は不思議だ.",
+      "examples": [
+        [
+          "{子供|こども}の{目|め}から{見|み}ると、{大人|おとな}の{世界|せかい}は{不思議|ふしぎ}だ。",
+          "From a child's point of view, the adult world is strange."
+        ]
+      ]
+    },
+    {
+      "id": "karashite",
+      "title": "〜からして: judging from (even), starting with",
+      "summary": "Noun + からして = judging even from just A (one example suggests the whole).",
+      "body": "- 題名**からして**面白そうな本だ (even the title makes it look interesting).\n- あの人は話し方**からして**偉そうだ.",
+      "examples": [
+        [
+          "{題名|だいめい}からして{面白|おもしろ}そうな{本|ほん}だ。",
+          "Even from the title, it looks like an interesting book."
+        ]
+      ]
+    },
+    {
+      "id": "karaiuto",
+      "title": "〜から言うと / から言えば: in terms of",
+      "summary": "Noun + から言うと = speaking in terms of (a criterion).",
+      "body": "- 経験**から言うと**、彼の方がリーダーに向いている.\n- 値段**から言えば**、こちらの方が安い.",
+      "examples": [
+        [
+          "{経験|けいけん}から{言|い}うと、{彼|かれ}の{方|ほう}がリーダーに{向|む}いている。",
+          "In terms of experience, he's better suited to be the leader."
+        ]
+      ]
+    },
+    {
+      "id": "tokorowomiruto",
+      "title": "〜ところを見ると: seeing that, judging from",
+      "summary": "Plain form + ところを見ると = judging from what you can observe, (probably) ….",
+      "body": "- 笑っている**ところを見ると**、試験はうまくいったようだ.\n\nUsually ends with ようだ / らしい / にちがいない.",
+      "examples": [
+        [
+          "{笑|わら}っているところを{見|み}ると、{試験|しけん}はうまくいったようだ。",
+          "Seeing that he's smiling, the exam seems to have gone well."
+        ]
+      ]
+    },
+    {
+      "id": "nishitara",
+      "title": "〜にしたら / にすれば: from (someone's) perspective",
+      "summary": "Person + にしたら = if you put yourself in X's shoes.",
+      "body": "- 子供**にしたら**、毎日塾に行くのは大変だろう.\n\nUsed when imagining another person's feelings.",
+      "examples": [
+        [
+          "{子供|こども}にしたら、{毎日|まいにち}{塾|じゅく}に{行|い}くのは{大変|たいへん}だろう。",
+          "From the child's perspective, going to cram school every day must be hard."
+        ]
+      ]
+    },
+    {
+      "id": "jou",
+      "title": "〜上 (じょう): from the standpoint of, in terms of",
+      "summary": "Noun + 上(じょう) = from the point of view of (law, education, health …): 法律上, 教育上, 健康上.",
+      "body": "- 法律**上**は問題ない (legally there's no problem).\n- 健康**上**の理由で.",
+      "examples": [
+        [
+          "この{計画|けいかく}は{法律|ほうりつ}{上|じょう}、{問題|もんだい}ない。",
+          "Legally, this plan has no problems."
+        ]
+      ]
+    },
+    {
+      "id": "toshitewa",
+      "title": "〜としては: as for, from the position of",
+      "summary": "Noun + としては = speaking as / for (someone in a role).",
+      "body": "- 私**としては**、その意見に反対です.\n- 会社**としては**、認められない.",
+      "examples": [
+        [
+          "{私|わたし}としては、その{意見|いけん}に{反対|はんたい}です。",
+          "As for me, I'm against that opinion."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "karasuruto",
+      "prompt": "{彼|かれ}の{話|はな}し{方|かた}（　）、{関西|かんさい}の{人|ひと}だろう。",
+      "options": [
+        "からこそ",
+        "からすると",
+        "からには",
+        "からといって"
+      ],
+      "answer": 1,
+      "explanation": "Judging from evidence: **からすると**.",
+      "notes": [
+        "からこそ = 'precisely because'.",
+        "",
+        "からには = 'now that'.",
+        "からといって = 'just because'."
+      ],
+      "translation": "Judging from the way he talks, he's probably from Kansai."
+    },
+    {
+      "point": "karamiruto",
+      "prompt": "{子供|こども}の{目|め}（　）、{大人|おとな}の{世界|せかい}は{不思議|ふしぎ}だ。",
+      "options": [
+        "から{見|み}ると",
+        "から{聞|き}くと",
+        "から{出|で}ると",
+        "から{来|く}ると"
+      ],
+      "answer": 0,
+      "explanation": "Seen from: **から見ると**.",
+      "notes": [
+        "",
+        "から聞くと = 'when hearing from'.",
+        "から出ると = 'when leaving'.",
+        "から来ると = 'coming from'."
+      ],
+      "translation": "From a child's point of view, the adult world is strange."
+    },
+    {
+      "point": "karashite",
+      "prompt": "{題名|だいめい}（　）{面白|おもしろ}そうな{本|ほん}だ。",
+      "options": [
+        "からこそ",
+        "からには",
+        "からして",
+        "からといって"
+      ],
+      "answer": 2,
+      "explanation": "Judging even from: **からして**.",
+      "notes": [
+        "からこそ = 'precisely because'.",
+        "からには = 'now that'.",
+        "",
+        "からといって = 'just because'."
+      ],
+      "translation": "Even from the title, it looks like an interesting book."
+    },
+    {
+      "point": "karaiuto",
+      "prompt": "{経験|けいけん}（　）、{彼|かれ}の{方|ほう}がリーダーに{向|む}いている。",
+      "options": [
+        "から{言|い}うに",
+        "から{言|い}われると",
+        "から{言|い}いと",
+        "から{言|い}うと"
+      ],
+      "answer": 3,
+      "explanation": "In terms of: **から言うと**.",
+      "notes": [
+        "言うに isn't the pattern.",
+        "言われると = 'when told'.",
+        "言いと isn't a form.",
+        ""
+      ],
+      "translation": "In terms of experience, he's better suited to be the leader."
+    },
+    {
+      "point": "tokorowomiruto",
+      "prompt": "{笑|わら}っているところを（　）、{試験|しけん}はうまくいったようだ。",
+      "options": [
+        "{見|み}せると",
+        "{見|み}るに",
+        "{見|み}ると",
+        "{見|み}えると"
+      ],
+      "answer": 2,
+      "explanation": "Seeing that: **ところを見ると**.",
+      "notes": [
+        "見せると = 'when showing'.",
+        "見るに isn't the pattern.",
+        "",
+        "見えると = 'when visible' — を doesn't fit."
+      ],
+      "translation": "Seeing that he's smiling, the exam seems to have gone well."
+    },
+    {
+      "point": "nishitara",
+      "prompt": "{子供|こども}（　）、{毎日|まいにち}{塾|じゅく}に{行|い}くのは{大変|たいへん}だろう。",
+      "options": [
+        "にしたら",
+        "として",
+        "にしては",
+        "にしても"
+      ],
+      "answer": 0,
+      "explanation": "From someone's perspective: **にしたら**.",
+      "notes": [
+        "",
+        "として = 'as (a role)'.",
+        "にしては = 'for a child, surprisingly'.",
+        "にしても = 'even if'."
+      ],
+      "translation": "From the child's perspective, going to cram school every day must be hard."
+    },
+    {
+      "point": "jou",
+      "prompt": "この{計画|けいかく}は{法律|ほうりつ}（　）、{問題|もんだい}ない。",
+      "options": [
+        "{上|うえ}で",
+        "{上|うえ}を",
+        "{上|じょう}",
+        "{上|うえ}に"
+      ],
+      "answer": 2,
+      "explanation": "Legally: **法律上** (じょう).",
+      "notes": [
+        "上で = 'after / upon'.",
+        "上を isn't the pattern.",
+        "",
+        "上に = 'on top of / in addition'."
+      ],
+      "translation": "Legally, this plan has no problems."
+    },
+    {
+      "point": "toshitewa",
+      "prompt": "{私|わたし}（　）、その{意見|いけん}に{反対|はんたい}です。",
+      "options": [
+        "については",
+        "としては",
+        "にとっては",
+        "によっては"
+      ],
+      "answer": 1,
+      "explanation": "Speaking for myself: **としては**.",
+      "notes": [
+        "については = 'as for (a topic)'.",
+        "",
+        "にとっては needs an evaluation (大切/難しい), not an opinion like 反対.",
+        "によっては = 'depending on'."
+      ],
+      "translation": "As for me, I'm against that opinion."
+    },
+    {
+      "point": "karasuruto",
+      "prompt": "{親|おや}（　）、{子供|こども}の{安全|あんぜん}が{一番|いちばん}{大事|だいじ}だ。",
+      "options": [
+        "からといって",
+        "からには",
+        "からこそ",
+        "からすれば"
+      ],
+      "answer": 3,
+      "explanation": "From the standpoint of: **からすれば**.",
+      "notes": [
+        "からといって = 'just because'.",
+        "からには = 'now that'.",
+        "からこそ = 'precisely because'.",
+        ""
+      ],
+      "translation": "From the parents' standpoint, the child's safety matters most."
+    },
+    {
+      "point": "karamiruto",
+      "prompt": "{外国人|がいこくじん}（　）、{日本|にほん}の{習慣|しゅうかん}は{不思議|ふしぎ}に{見|み}える。",
+      "options": [
+        "から{出|で}ると",
+        "から{聞|き}くと",
+        "から{見|み}ると",
+        "から{来|く}ると"
+      ],
+      "answer": 2,
+      "explanation": "Seen from: **から見ると**.",
+      "notes": [
+        "から出ると = 'leaving from'.",
+        "から聞くと = 'hearing from'.",
+        "",
+        "から来ると = 'coming from'."
+      ],
+      "translation": "From a foreigner's point of view, Japanese customs look strange."
+    },
+    {
+      "point": "karashite",
+      "prompt": "あの{人|ひと}は{服装|ふくそう}（　）{怪|あや}しい。",
+      "options": [
+        "からといって",
+        "からして",
+        "からこそ",
+        "からには"
+      ],
+      "answer": 1,
+      "explanation": "Even judging from: **からして**.",
+      "notes": [
+        "からといって = 'just because'.",
+        "",
+        "からこそ = 'precisely because'.",
+        "からには = 'now that'."
+      ],
+      "translation": "Even just from his clothes, that guy looks suspicious."
+    },
+    {
+      "point": "karaiuto",
+      "prompt": "{値段|ねだん}（　）、こちらの{方|ほう}が{安|やす}い。",
+      "options": [
+        "から{言|い}えば",
+        "から{言|い}いば",
+        "から{言|い}えて",
+        "から{言|い}われれば"
+      ],
+      "answer": 0,
+      "explanation": "In terms of: **から言えば**.",
+      "notes": [
+        "",
+        "言いば isn't a form.",
+        "言えて isn't the pattern.",
+        "言われれば = 'if told'."
+      ],
+      "translation": "In terms of price, this one is cheaper."
+    },
+    {
+      "point": "tokorowomiruto",
+      "prompt": "{電気|でんき}が{消|き}えているところを（　）、{誰|だれ}もいないらしい。",
+      "options": [
+        "{見|み}えると",
+        "{見|み}ると",
+        "{見|み}せると",
+        "{見|み}るに"
+      ],
+      "answer": 1,
+      "explanation": "Seeing that: **ところを見ると**.",
+      "notes": [
+        "見えると doesn't take を.",
+        "",
+        "見せると = 'when showing'.",
+        "見るに isn't the pattern."
+      ],
+      "translation": "Seeing that the lights are off, it seems nobody's there."
+    },
+    {
+      "point": "nishitara",
+      "prompt": "{親|おや}（　）、{子供|こども}の{留学|りゅうがく}は{心配|しんぱい}だろう。",
+      "options": [
+        "にしては",
+        "にしても",
+        "にしたら",
+        "として"
+      ],
+      "answer": 2,
+      "explanation": "From someone's perspective: **にしたら**.",
+      "notes": [
+        "にしては = 'for a parent, surprisingly'.",
+        "にしても = 'even if'.",
+        "",
+        "として = 'as (a role)'."
+      ],
+      "translation": "From the parents' perspective, their child studying abroad must be worrying."
+    },
+    {
+      "point": "jou",
+      "prompt": "{健康|けんこう}（　）の{理由|りゆう}で{会社|かいしゃ}を{辞|や}めた。",
+      "options": [
+        "{上|うえ}を",
+        "{上|じょう}",
+        "{上|うえ}で",
+        "{上|うえ}に"
+      ],
+      "answer": 1,
+      "explanation": "For health reasons: **健康上の理由**.",
+      "notes": [
+        "上を isn't the pattern.",
+        "",
+        "上で = 'after'.",
+        "上に = 'in addition'."
+      ],
+      "translation": "I quit the company for health reasons."
+    },
+    {
+      "point": "toshitewa",
+      "prompt": "{会社|かいしゃ}（　）、その{提案|ていあん}は{受|う}け{入|い}れられない。",
+      "options": [
+        "としては",
+        "にとっては",
+        "によっては",
+        "については"
+      ],
+      "answer": 0,
+      "explanation": "Speaking for (an organisation): **としては**.",
+      "notes": [
+        "",
+        "にとっては needs an evaluation, not a decision.",
+        "によっては = 'depending on'.",
+        "については = 'about'."
+      ],
+      "translation": "As a company, we can't accept that proposal."
+    }
+  ]
+}

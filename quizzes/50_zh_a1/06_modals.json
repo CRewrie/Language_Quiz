@@ -1,0 +1,212 @@
+{
+  "id": "zh-a1-modals",
+  "category": "Mandarin A1",
+  "language": "zh",
+  "title": "Can, May, Want: 会, 能, 可以, 要",
+  "description": "Three kinds of 'can' — learned skill (会), ability/possibility (能), permission (可以) — and 要 for 'want' and 'be going to'.",
+  "level": "A1",
+  "points": [
+    {
+      "id": "hui",
+      "title": "会 + verb: can (learned skill)",
+      "summary": "会 (huì) = know how to, because you've learned it: languages, swimming, driving.",
+      "body": "- 我**会**游泳 (I can swim).\n- 我不**会**开车 (I can't drive — never learned).\n\n会 can also mean 'will (probably)' — later level.",
+      "examples": [
+        [
+          "{我|wǒ}{会|huì}{说|shuō}{一点儿|yìdiǎnr}{中文|Zhōngwén}。",
+          "I can speak a little Chinese."
+        ]
+      ]
+    },
+    {
+      "id": "neng",
+      "title": "能 + verb: can (able / possible now)",
+      "summary": "能 (néng) = physically able, or circumstances allow it right now.",
+      "body": "- 我今天喝酒了，不**能**开车 (I can't drive — I've been drinking).\n- 你明天**能**来吗? (Can you come tomorrow?)",
+      "examples": [
+        [
+          "{你|nǐ}{明天|míngtiān}{能|néng}{来|lái}{吗|ma}？",
+          "Can you come tomorrow?"
+        ]
+      ]
+    },
+    {
+      "id": "keyi",
+      "title": "可以 + verb: may (permission)",
+      "summary": "可以 (kěyǐ) = it's allowed. Asking permission: 可以…吗?",
+      "body": "- 这儿**可以**拍照吗? (Can I take photos here?)\n- 不可以 = not allowed.",
+      "examples": [
+        [
+          "{这儿|zhèr}{可以|kěyǐ}{拍照|pāizhào}{吗|ma}？",
+          "May I take photos here?"
+        ]
+      ]
+    },
+    {
+      "id": "yao",
+      "title": "要: want / be going to",
+      "summary": "要 (yào) + noun = want (to have); 要 + verb = want to / be going to. 要…了 = about to.",
+      "body": "- 我**要**一杯咖啡.\n- 下个月我**要**去中国**了** (I'm going to China next month).",
+      "examples": [
+        [
+          "{我|wǒ}{要|yào}{一|yì}{杯|bēi}{咖啡|kāfēi}。",
+          "I'd like a cup of coffee."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "hui",
+      "prompt": "{她|tā}（　）{游泳|yóuyǒng}，{但是|dànshì}{今天|jīntiān}{感冒|gǎnmào}{了|le}，{不|bù}{能|néng}{游|yóu}。",
+      "options": [
+        "{会|huì}",
+        "{能|néng}",
+        "{要|yào}",
+        "{可以|kěyǐ}"
+      ],
+      "answer": 0,
+      "explanation": "Learned skill: **会**.",
+      "notes": [
+        "",
+        "能 would clash with 不能 right after it — she has the skill but can't today.",
+        "要 = 'wants to'.",
+        "可以 = 'is allowed'."
+      ],
+      "translation": "She can swim, but she has a cold today, so she can't."
+    },
+    {
+      "point": "hui",
+      "prompt": "{我|wǒ}{没|méi}{学|xué}{过|guo}，{所以|suǒyǐ}{不|bú}（　）{开车|kāichē}。",
+      "options": [
+        "{会|huì}",
+        "{要|yào}",
+        "{能|néng}",
+        "{可以|kěyǐ}"
+      ],
+      "answer": 0,
+      "explanation": "Never learned → **不会**.",
+      "notes": [
+        "",
+        "不要 = 'don't want / don't!'.",
+        "不能 = 'unable right now' (e.g. drunk) — here the reason is never having learned.",
+        "不可以 = 'not allowed'."
+      ],
+      "translation": "I've never learned, so I can't drive."
+    },
+    {
+      "point": "neng",
+      "prompt": "{我|wǒ}{今天|jīntiān}{喝|hē}{酒|jiǔ}{了|le}，{不|bù}（　）{开车|kāichē}。",
+      "options": [
+        "{有|yǒu}",
+        "{会|huì}",
+        "{是|shì}",
+        "{能|néng}"
+      ],
+      "answer": 3,
+      "explanation": "Circumstances: **不能**.",
+      "notes": [
+        "有 is negated with 没.",
+        "不会 = 'never learned' — you can drive, just not now.",
+        "不是开车 isn't grammatical here.",
+        ""
+      ],
+      "translation": "I've had alcohol today, so I can't drive."
+    },
+    {
+      "point": "neng",
+      "prompt": "A：{你|nǐ}{明天|míngtiān}（　）{来|lái}{吗|ma}？\nB：{能|néng}，{我|wǒ}{有|yǒu}{时间|shíjiān}。",
+      "options": [
+        "{会|huì}",
+        "{有|yǒu}",
+        "{是|shì}",
+        "{能|néng}"
+      ],
+      "answer": 3,
+      "explanation": "Possible (time allows): **能**.",
+      "notes": [
+        "B answers 能 — and coming isn't a learned skill.",
+        "有来 isn't grammatical.",
+        "是来 isn't grammatical here.",
+        ""
+      ],
+      "translation": "A: Can you come tomorrow? B: Yes, I have time."
+    },
+    {
+      "point": "keyi",
+      "prompt": "A：{这儿|zhèr}（　）{拍照|pāizhào}{吗|ma}？\nB：{可以|kěyǐ}。",
+      "options": [
+        "{会|huì}",
+        "{是|shì}",
+        "{可以|kěyǐ}",
+        "{有|yǒu}"
+      ],
+      "answer": 2,
+      "explanation": "Permission: **可以**.",
+      "notes": [
+        "会 = 'know how to' — B answers 可以.",
+        "是拍照 isn't grammatical.",
+        "",
+        "有拍照 isn't grammatical."
+      ],
+      "translation": "A: Can I take photos here? B: Yes, you can."
+    },
+    {
+      "point": "keyi",
+      "prompt": "{老师|lǎoshī}，{我|wǒ}（　）{用|yòng}{一下|yíxià}{你|nǐ}{的|de}{笔|bǐ}{吗|ma}？",
+      "options": [
+        "{有|yǒu}",
+        "{是|shì}",
+        "{可以|kěyǐ}",
+        "{会|huì}"
+      ],
+      "answer": 2,
+      "explanation": "Asking permission: **可以…吗**?",
+      "notes": [
+        "有用 = 'useful'.",
+        "是用 isn't grammatical.",
+        "",
+        "会 = 'know how to'."
+      ],
+      "translation": "Teacher, may I use your pen for a moment?"
+    },
+    {
+      "point": "yao",
+      "prompt": "{服务员|fúwùyuán}，{我|wǒ}（　）{一|yì}{杯|bēi}{咖啡|kāfēi}。",
+      "options": [
+        "{会|huì}",
+        "{可以|kěyǐ}",
+        "{能|néng}",
+        "{要|yào}"
+      ],
+      "answer": 3,
+      "explanation": "Want (+ noun): **要**.",
+      "notes": [
+        "会 needs a verb.",
+        "可以 needs a verb.",
+        "能 needs a verb.",
+        ""
+      ],
+      "translation": "Waiter, I'd like a cup of coffee."
+    },
+    {
+      "point": "yao",
+      "prompt": "{下|xià}{个|ge}{月|yuè}{我|wǒ}（　）{去|qù}{中国|Zhōngguó}{了|le}。",
+      "options": [
+        "{要|yào}",
+        "{能|néng}",
+        "{会|huì}",
+        "{可以|kěyǐ}"
+      ],
+      "answer": 0,
+      "explanation": "Going to: **要…了**.",
+      "notes": [
+        "",
+        "能…了 = 'can now' — not a plan.",
+        "会…了 isn't this pattern.",
+        "可以…了 = 'am now allowed'."
+      ],
+      "translation": "I'm going to China next month."
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "id": "n3-time-points",
+  "category": "JLPT N3",
+  "title": "Moments in Time: たとたん, たびに, うちに, 最中, 途中, 中, 間に, てはじめて",
+  "description": "As soon as, every time, while (before it changes), in the middle of, on the way, throughout, during, and 'not until'.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "tatotan",
+      "title": "〜たとたん(に): just as, the moment that",
+      "summary": "た-form + とたん(に) = right after A, something unexpected B happened. The B-part is a surprise, not your intention.",
+      "body": "- 立ち上がった**とたん**、頭が痛くなった.\n- 家を出た**とたん**、雨が降り出した.\n\nB is usually **unexpected** and **past**. You can't use it for your own planned action (✗ 家に帰ったとたん、宿題をした).",
+      "examples": [
+        [
+          "{家|いえ}を{出|で}たとたん、{雨|あめ}が{降|ふ}り{出|だ}した。",
+          "The moment I left the house, it started raining."
+        ]
+      ]
+    },
+    {
+      "id": "tabini",
+      "title": "〜たびに: every time",
+      "summary": "Dictionary form / noun + の + たびに = every time A happens, B (also) happens.",
+      "body": "- この写真を見る**たびに**、国を思い出す.\n- 旅行**のたびに**、お土産を買う.\n\nIt stresses that B happens *without exception* each time A happens.",
+      "examples": [
+        [
+          "この{写真|しゃしん}を{見|み}るたびに、{国|くに}を{思|おも}い{出|だ}します。",
+          "Every time I look at this photo, I think of home."
+        ]
+      ]
+    },
+    {
+      "id": "uchini",
+      "title": "〜うちに: while (before a change), while still …",
+      "summary": "Plain form / な-adj + な / noun + の + うちに = do B while A still holds (before it's too late). Negative: 〜ないうちに = before …",
+      "body": "- 若い**うちに**、いろいろな国へ行きたい (while I'm still young).\n- 暗くなら**ないうちに**帰りましょう (before it gets dark).\n- 元気**な**うちに, 学生**の**うちに.\n\nIt implies the situation will change, so act now. Also 'while doing A, (unnoticed) B happened': 話している**うちに**、寝てしまった.",
+      "examples": [
+        [
+          "{若|わか}いうちに、いろいろな{国|くに}へ{行|い}きたい。",
+          "I want to visit many countries while I'm young."
+        ],
+        [
+          "{暗|くら}くならないうちに、{帰|かえ}りましょう。",
+          "Let's go home before it gets dark."
+        ]
+      ]
+    },
+    {
+      "id": "saichuu",
+      "title": "〜最中(に): right in the middle of",
+      "summary": "ている-form / noun + の + 最中(に) = right in the middle of an activity (often when interrupted).",
+      "body": "- 会議**の最中に**、電話が鳴った.\n- 食事をしている**最中に**、客が来た.\n\nStronger than 〜ている間に — it emphasises the *peak* of the activity, typically when something interrupts it.",
+      "examples": [
+        [
+          "{会議|かいぎ}の{最中|さいちゅう}に、{電話|でんわ}が{鳴|な}った。",
+          "The phone rang right in the middle of the meeting."
+        ]
+      ]
+    },
+    {
+      "id": "tochuu",
+      "title": "〜途中で / 途中に: on the way, midway",
+      "summary": "Dictionary form / noun + の + 途中で = on the way / partway through.",
+      "body": "- 学校へ行く**途中で**、友達に会った (on the way to school).\n- 仕事の**途中で**帰ってはいけない (partway through work).\n\n途中に is used for locations along the way: 駅へ行く**途中に**コンビニがある.",
+      "examples": [
+        [
+          "{学校|がっこう}へ{行|い}く{途中|とちゅう}で、{友達|ともだち}に{会|あ}いました。",
+          "I met a friend on the way to school."
+        ]
+      ]
+    },
+    {
+      "id": "chuu",
+      "title": "中 (ちゅう / じゅう): during / throughout",
+      "summary": "〜中 (ちゅう) = in the middle of (an activity): 会議中, 電話中. 〜中 (じゅう) = throughout (time) / all over (place): 一日中, 世界中.",
+      "body": "**ちゅう** — an ongoing activity/state: 会議**中**, 工事**中**, 授業**中**, 営業**中**, 午前**中**.\n**じゅう** — the whole span: 一日**中** (all day), 一年**中**, 世界**中** (all over the world), 日本**中**.\n\nTip: activities → ちゅう; time spans and places → じゅう.",
+      "examples": [
+        [
+          "{一日中|いちにちじゅう}、{雨|あめ}が{降|ふ}っていた。",
+          "It rained all day."
+        ],
+        [
+          "{会議中|かいぎちゅう}ですので、{静|しず}かにしてください。",
+          "A meeting is in progress, so please be quiet."
+        ]
+      ]
+    },
+    {
+      "id": "noaidani",
+      "title": "〜間 / 〜間に: during, while",
+      "summary": "間 = during the whole period (continuous action). 間に = at some point during the period (one-time action).",
+      "body": "- 夏休み**の間**、ずっと国にいた (the whole time).\n- 母が買い物をしている**間に**、部屋を掃除した (at some point during).\n\nTip: ずっと / continuous verbs → 間. A one-off action → 間に.",
+      "examples": [
+        [
+          "{夏休|なつやす}みの{間|あいだ}、ずっと{国|くに}にいました。",
+          "I was in my home country for the whole summer holiday."
+        ],
+        [
+          "{母|はは}が{買|か}い{物|もの}をしている{間|あいだ}に、{部屋|へや}を{掃除|そうじ}した。",
+          "I cleaned the room while my mother was out shopping."
+        ]
+      ]
+    },
+    {
+      "id": "tehajimete",
+      "title": "〜てはじめて: not until, only after … did",
+      "summary": "て-form + はじめて = only after A did I realise/experience B. Often with わかる/気づく.",
+      "body": "- 病気になって**はじめて**、健康の大切さがわかった.\n- 日本に来て**はじめて**、富士山を見た.\n\nIt stresses that A was the trigger — before A, B hadn't happened.",
+      "examples": [
+        [
+          "{病気|びょうき}になってはじめて、{健康|けんこう}の{大切|たいせつ}さがわかった。",
+          "Only after I got sick did I understand the importance of health."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tatotan",
+      "prompt": "{立|た}ち{上|あ}がった（　）、{頭|あたま}が{痛|いた}くなった。",
+      "options": [
+        "とたが",
+        "たとたん",
+        "のとたん",
+        "とたん"
+      ],
+      "answer": 3,
+      "explanation": "た-form + **とたん** = the moment.",
+      "notes": [
+        "とたが isn't a form.",
+        "The た is already there: 立ち上がった + とたん.",
+        "の isn't used after a verb here.",
+        ""
+      ],
+      "translation": "The moment I stood up, my head started to hurt."
+    },
+    {
+      "point": "tatotan",
+      "prompt": "{家|いえ}を（　）とたん、{雨|あめ}が{降|ふ}り{出|だ}した。",
+      "options": [
+        "{出|で}",
+        "{出|で}た",
+        "{出|で}て",
+        "{出|で}る"
+      ],
+      "answer": 1,
+      "explanation": "とたん always follows the **た-form**.",
+      "notes": [
+        "The stem doesn't fit.",
+        "",
+        "The て-form doesn't fit.",
+        "The dictionary form doesn't fit とたん."
+      ],
+      "translation": "The moment I left the house, it started raining."
+    },
+    {
+      "point": "tabini",
+      "prompt": "この{写真|しゃしん}を{見|み}る（　）、{国|くに}を{思|おも}い{出|だ}す。",
+      "options": [
+        "たびに",
+        "たびで",
+        "たびを",
+        "たびが"
+      ],
+      "answer": 0,
+      "explanation": "Every time: **たびに**.",
+      "notes": [
+        "",
+        "たびで isn't the pattern.",
+        "たびを isn't the pattern.",
+        "たびが isn't the pattern."
+      ],
+      "translation": "Every time I look at this photo, I think of home."
+    },
+    {
+      "point": "tabini",
+      "prompt": "{旅行|りょこう}（　）たびに、お{土産|みやげ}を{買|か}います。",
+      "options": [
+        "が",
+        "な",
+        "に",
+        "の"
+      ],
+      "answer": 3,
+      "explanation": "Noun + **の** + たびに.",
+      "notes": [
+        "がたびに isn't grammatical.",
+        "な is for な-adjectives.",
+        "にたびに isn't grammatical.",
+        ""
+      ],
+      "translation": "I buy souvenirs every time I travel."
+    },
+    {
+      "point": "uchini",
+      "prompt": "{若|わか}い（　）、いろいろな{国|くに}へ{行|い}きたい。",
+      "options": [
+        "うちで",
+        "うちを",
+        "うちに",
+        "うちが"
+      ],
+      "answer": 2,
+      "explanation": "While (it's still possible): **うちに**.",
+      "notes": [
+        "うちで would mean 'at home'.",
+        "うちを isn't the pattern.",
+        "",
+        "うちが isn't the pattern."
+      ],
+      "translation": "I want to visit many countries while I'm young."
+    },
+    {
+      "point": "uchini",
+      "prompt": "{暗|くら}くなら（　）うちに、{帰|かえ}りましょう。",
+      "options": [
+        "ず",
+        "ない",
+        "なく",
+        "なかった"
+      ],
+      "answer": 1,
+      "explanation": "Before it changes: **ないうちに**.",
+      "notes": [
+        "ずうちに isn't standard.",
+        "",
+        "なく can't modify うち.",
+        "Past なかった doesn't fit."
+      ],
+      "translation": "Let's go home before it gets dark."
+    },
+    {
+      "point": "uchini",
+      "prompt": "{元気|げんき}（　）うちに、たくさん{旅行|りょこう}したい。",
+      "options": [
+        "で",
+        "だ",
+        "な",
+        "の"
+      ],
+      "answer": 2,
+      "explanation": "な-adjective + **な** + うちに.",
+      "notes": [
+        "で can't modify うち.",
+        "だ can't modify うち.",
+        "",
+        "の is for nouns."
+      ],
+      "translation": "I want to travel a lot while I'm still healthy."
+    },
+    {
+      "point": "saichuu",
+      "prompt": "{会議|かいぎ}の（　）に、{電話|でんわ}が{鳴|な}った。",
+      "options": [
+        "{最近|さいきん}",
+        "{最中|さいちゅう}",
+        "{最高|さいこう}",
+        "{最大|さいだい}"
+      ],
+      "answer": 1,
+      "explanation": "Right in the middle of: **最中に**.",
+      "notes": [
+        "最近 = 'recently'.",
+        "",
+        "最高 = 'the best'.",
+        "最大 = 'the largest'."
+      ],
+      "translation": "The phone rang right in the middle of the meeting."
+    },
+    {
+      "point": "saichuu",
+      "prompt": "{食事|しょくじ}をしている（　）に、{客|きゃく}が{来|き}た。",
+      "options": [
+        "{最中|さいちゅう}",
+        "{最中|さいちゅう}な",
+        "{最中|さいちゅう}の",
+        "{最近|さいきん}"
+      ],
+      "answer": 0,
+      "explanation": "ている + **最中に**.",
+      "notes": [
+        "",
+        "最中なに isn't grammatical.",
+        "最中のに isn't grammatical.",
+        "最近 = 'recently'."
+      ],
+      "translation": "A guest arrived right while we were eating."
+    },
+    {
+      "point": "tochuu",
+      "prompt": "{学校|がっこう}へ{行|い}く（　）、{友達|ともだち}に{会|あ}いました。",
+      "options": [
+        "{途中|とちゅう}の",
+        "{途中|とちゅう}で",
+        "{途中|とちゅう}が",
+        "{途中|とちゅう}を"
+      ],
+      "answer": 1,
+      "explanation": "On the way: **途中で**.",
+      "notes": [
+        "途中の must be followed by a noun.",
+        "",
+        "途中が isn't the pattern.",
+        "途中を isn't the pattern."
+      ],
+      "translation": "I met a friend on the way to school."
+    },
+    {
+      "point": "tochuu",
+      "prompt": "{仕事|しごと}の（　）で{帰|かえ}ってはいけない。",
+      "options": [
+        "{方向|ほうこう}",
+        "{中心|ちゅうしん}",
+        "{途中|とちゅう}",
+        "{途方|とほう}"
+      ],
+      "answer": 2,
+      "explanation": "Partway through: **途中で**.",
+      "notes": [
+        "方向 = 'direction'.",
+        "中心 = 'centre'.",
+        "",
+        "途方 appears in 途方に暮れる (be at a loss)."
+      ],
+      "translation": "You mustn't go home partway through work."
+    },
+    {
+      "point": "chuu",
+      "prompt": "{一日|いちにち}中、{雨|あめ}が{降|ふ}っていた。How is 中 read here?",
+      "options": [
+        "うち",
+        "じゅう",
+        "なか",
+        "ちゅう"
+      ],
+      "answer": 1,
+      "explanation": "Throughout a time span → **じゅう**.",
+      "notes": [
+        "うち isn't a reading of 中 here.",
+        "",
+        "なか = 'inside'.",
+        "ちゅう is for ongoing activities (会議中)."
+      ],
+      "translation": "It rained all day."
+    },
+    {
+      "point": "chuu",
+      "prompt": "{会議|かいぎ}中ですので、{静|しず}かにしてください。How is 中 read here?",
+      "options": [
+        "なか",
+        "うち",
+        "ちゅう",
+        "じゅう"
+      ],
+      "answer": 2,
+      "explanation": "Ongoing activity → **ちゅう**.",
+      "notes": [
+        "なか = 'inside'.",
+        "うち isn't a reading of 中 here.",
+        "",
+        "じゅう = throughout (一日中) / all over (世界中)."
+      ],
+      "translation": "A meeting is in progress, so please be quiet."
+    },
+    {
+      "point": "noaidani",
+      "prompt": "{母|はは}が{買|か}い{物|もの}をしている（　）、{部屋|へや}を{掃除|そうじ}した。",
+      "options": [
+        "{間|あいだ}を",
+        "{間|あいだ}が",
+        "{間|あいだ}の",
+        "{間|あいだ}に"
+      ],
+      "answer": 3,
+      "explanation": "One action during the period: **間に**.",
+      "notes": [
+        "間を isn't the pattern here.",
+        "間が isn't the pattern.",
+        "間の must be followed by a noun.",
+        ""
+      ],
+      "translation": "I cleaned the room while my mother was out shopping."
+    },
+    {
+      "point": "noaidani",
+      "prompt": "{夏休|なつやす}みの（　）、ずっと{国|くに}にいました。",
+      "options": [
+        "{間|あいだ}",
+        "{間|あいだ}に",
+        "{間|あいだ}を",
+        "{間|あいだ}が"
+      ],
+      "answer": 0,
+      "explanation": "Continuous for the whole period (ずっと) → **間** (no に).",
+      "notes": [
+        "",
+        "間に = at some point during — clashes with ずっと.",
+        "間を isn't the pattern.",
+        "間が isn't the pattern."
+      ],
+      "translation": "I was in my home country for the whole summer holiday."
+    },
+    {
+      "point": "tehajimete",
+      "prompt": "{病気|びょうき}になって（　）、{健康|けんこう}の{大切|たいせつ}さがわかった。",
+      "options": [
+        "はじめに",
+        "はじまって",
+        "はじめると",
+        "はじめて"
+      ],
+      "answer": 3,
+      "explanation": "Not until: て-form + **はじめて**.",
+      "notes": [
+        "はじめに = 'first of all'.",
+        "はじまって = 'starting' — wrong verb.",
+        "はじめると = 'when (I) start'.",
+        ""
+      ],
+      "translation": "Only after I got sick did I understand the importance of health."
+    },
+    {
+      "point": "tehajimete",
+      "prompt": "{日本|にほん}に（　）はじめて、{本物|ほんもの}の{富士山|ふじさん}を{見|み}た。",
+      "options": [
+        "{来|き}",
+        "{来|く}る",
+        "{来|き}て",
+        "{来|き}た"
+      ],
+      "answer": 2,
+      "explanation": "**て-form** + はじめて.",
+      "notes": [
+        "The stem doesn't fit.",
+        "The dictionary form doesn't fit.",
+        "",
+        "The た-form doesn't fit."
+      ],
+      "translation": "Only after coming to Japan did I see the real Mt. Fuji."
+    }
+  ]
+}

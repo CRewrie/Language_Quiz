@@ -1,0 +1,262 @@
+{
+  "id": "zh-b1-complex",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Linking Clauses: 虽然…但是, 如果…就, 不但…而且, 除了…以外, 要么…要么",
+  "description": "Although, if … then, not only … but also, except / besides, and either … or.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "suiran",
+      "title": "虽然 … 但是 / 可是 …: although",
+      "summary": "Unlike English, Chinese uses both: 虽然 A，但是 B.",
+      "body": "- **虽然**他很忙，**但是**每天都运动.",
+      "examples": [
+        [
+          "{虽然|suīrán}{这个|zhège}{菜|cài}{很|hěn}{辣|là}，{但是|dànshì}{很|hěn}{好吃|hǎochī}。",
+          "Although this dish is spicy, it's delicious."
+        ]
+      ]
+    },
+    {
+      "id": "ruguo",
+      "title": "如果 … (的话)，就 …: if … then",
+      "summary": "如果 A (的话)，(subject) 就 B. 的话 and 就 are optional but common.",
+      "body": "- **如果**明天下雨，我们**就**不去了.\n- **如果**你有时间**的话**，来我家玩儿吧.",
+      "examples": [
+        [
+          "{如果|rúguǒ}{明天|míngtiān}{下雨|xià yǔ}，{我们|wǒmen}{就|jiù}{不|bú}{去|qù}{了|le}。",
+          "If it rains tomorrow, we won't go."
+        ]
+      ]
+    },
+    {
+      "id": "budan",
+      "title": "不但 … 而且 …: not only … but also",
+      "summary": "不但 A，而且 (还 / 也) B. With one subject, put it **before** 不但.",
+      "body": "- 他**不但**会说英语，**而且**会说法语.",
+      "examples": [
+        [
+          "{她|tā}{不但|búdàn}{漂亮|piàoliang}，{而且|érqiě}{很|hěn}{聪明|cōngming}。",
+          "She's not only pretty but also clever."
+        ]
+      ]
+    },
+    {
+      "id": "chule",
+      "title": "除了 … 以外，都 / 也 / 还",
+      "summary": "除了 X 以外 + **都** = everyone except X. 除了 X 以外 + **也 / 还** = besides X (X included).",
+      "body": "- 除了小王以外，大家**都**来了 (Everyone except Wang came).\n- 除了中文以外，我**还**学过日语 (Besides Chinese, I've also studied Japanese).",
+      "examples": [
+        [
+          "{除了|chúle}{小王|Xiǎo Wáng}{以外|yǐwài}，{大家|dàjiā}{都|dōu}{来|lái}{了|le}。",
+          "Everyone came except Xiao Wang."
+        ]
+      ]
+    },
+    {
+      "id": "yaome",
+      "title": "要么 … 要么 …: either … or",
+      "summary": "要么 A，要么 B = it's one or the other (a choice to be made).",
+      "body": "- 周末我们**要么**去爬山，**要么**在家看电影.",
+      "examples": [
+        [
+          "{要么|yàome}{你|nǐ}{来|lái}，{要么|yàome}{我|wǒ}{去|qù}，{你|nǐ}{选|xuǎn}{吧|ba}。",
+          "Either you come or I go — you choose."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "suiran",
+      "prompt": "（　）{他|tā}{很|hěn}{忙|máng}，{但是|dànshì}{每天|měitiān}{都|dōu}{运动|yùndòng}。",
+      "options": [
+        "{如果|rúguǒ}",
+        "{所以|suǒyǐ}",
+        "{虽然|suīrán}",
+        "{因为|yīnwèi}"
+      ],
+      "answer": 2,
+      "explanation": "Although: **虽然…但是**.",
+      "notes": [
+        "如果 doesn't pair with 但是.",
+        "所以 introduces a result.",
+        "",
+        "因为…但是 is illogical."
+      ],
+      "translation": "Although he's busy, he exercises every day."
+    },
+    {
+      "point": "suiran",
+      "prompt": "{虽然|suīrán}{这个|zhège}{菜|cài}{很|hěn}{辣|là}，（　）{很|hěn}{好吃|hǎochī}。",
+      "options": [
+        "{因为|yīnwèi}",
+        "{而且|érqiě}",
+        "{所以|suǒyǐ}",
+        "{但是|dànshì}"
+      ],
+      "answer": 3,
+      "explanation": "**虽然…但是**.",
+      "notes": [
+        "因为 = 'because'.",
+        "而且 = 'moreover' — clashes with 虽然.",
+        "所以 = 'so' — not a contrast.",
+        ""
+      ],
+      "translation": "Although this dish is spicy, it's delicious."
+    },
+    {
+      "point": "ruguo",
+      "prompt": "{如果|rúguǒ}{明天|míngtiān}{下雨|xià yǔ}，{我们|wǒmen}（　）{不|bú}{去|qù}{了|le}。",
+      "options": [
+        "{就|jiù}",
+        "{都|dōu}",
+        "{还|hái}",
+        "{才|cái}"
+      ],
+      "answer": 0,
+      "explanation": "If … then: **如果…就**.",
+      "notes": [
+        "",
+        "都 doesn't fit.",
+        "还不去 = 'still not going'.",
+        "才 = 'only then' — doesn't fit 不去了."
+      ],
+      "translation": "If it rains tomorrow, we won't go."
+    },
+    {
+      "point": "ruguo",
+      "prompt": "（　）{你|nǐ}{有|yǒu}{时间|shíjiān}{的话|dehuà}，{来|lái}{我|wǒ}{家|jiā}{玩儿|wánr}{吧|ba}。",
+      "options": [
+        "{因为|yīnwèi}",
+        "{不但|búdàn}",
+        "{如果|rúguǒ}",
+        "{虽然|suīrán}"
+      ],
+      "answer": 2,
+      "explanation": "If: **如果…的话**.",
+      "notes": [
+        "因为 = 'because' — doesn't go with 的话.",
+        "不但 needs 而且.",
+        "",
+        "虽然 = 'although'."
+      ],
+      "translation": "If you have time, come round to my place."
+    },
+    {
+      "point": "budan",
+      "prompt": "{他|tā}{不但|búdàn}{会|huì}{说|shuō}{英语|Yīngyǔ}，（　）{会|huì}{说|shuō}{法语|Fǎyǔ}。",
+      "options": [
+        "{但是|dànshì}",
+        "{所以|suǒyǐ}",
+        "{或者|huòzhě}",
+        "{而且|érqiě}"
+      ],
+      "answer": 3,
+      "explanation": "Not only … but also: **不但…而且**.",
+      "notes": [
+        "但是 = 'but' — no contrast.",
+        "所以 = 'so'.",
+        "或者 = 'or'.",
+        ""
+      ],
+      "translation": "He speaks not only English but also French."
+    },
+    {
+      "point": "budan",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{她|tā}{不但|búdàn}{漂亮|piàoliang}，{而且|érqiě}{很|hěn}{聪明|cōngming}。",
+        "{她|tā}{不但|búdàn}{漂亮|piàoliang}，{但是|dànshì}{很|hěn}{聪明|cōngming}。",
+        "{她|tā}{而且|érqiě}{漂亮|piàoliang}，{不但|búdàn}{很|hěn}{聪明|cōngming}。",
+        "{不但|búdàn}{她|tā}{漂亮|piàoliang}，{而且|érqiě}{聪明|cōngming}{很|hěn}。"
+      ],
+      "answer": 0,
+      "explanation": "Subject + **不但** A，**而且** B.",
+      "notes": [
+        "",
+        "不但 pairs with 而且, not 但是.",
+        "不但 comes first, 而且 second.",
+        "One subject goes before 不但; 很 goes before the adjective."
+      ],
+      "translation": "She's not only pretty but also clever."
+    },
+    {
+      "point": "chule",
+      "prompt": "Which sentence means 'Everyone came except Xiao Wang'?",
+      "options": [
+        "{除了|chúle}{小王|Xiǎo Wáng}{以外|yǐwài}，{大家|dàjiā}{也|yě}{来|lái}{了|le}。",
+        "{除了|chúle}{小王|Xiǎo Wáng}{以外|yǐwài}，{大家|dàjiā}{都|dōu}{没|méi}{来|lái}。",
+        "{小王|Xiǎo Wáng}{以外|yǐwài}{除了|chúle}{大家|dàjiā}{都|dōu}{来|lái}{了|le}。",
+        "{除了|chúle}{小王|Xiǎo Wáng}{以外|yǐwài}，{大家|dàjiā}{都|dōu}{来|lái}{了|le}。"
+      ],
+      "answer": 3,
+      "explanation": "Except: **除了…以外，都**.",
+      "notes": [
+        "也 = 'besides Wang, others came too' (Wang came as well).",
+        "= 'Only Xiao Wang came'.",
+        "除了 comes first.",
+        ""
+      ],
+      "translation": "Everyone came except Xiao Wang."
+    },
+    {
+      "point": "chule",
+      "prompt": "{除了|chúle}{中文|Zhōngwén}{以外|yǐwài}，{我|wǒ}（　）{学|xué}{过|guo}{日语|Rìyǔ}。",
+      "options": [
+        "{就|jiù}",
+        "{才|cái}",
+        "{还|hái}",
+        "{都|dōu}"
+      ],
+      "answer": 2,
+      "explanation": "Besides: **除了…以外，还**.",
+      "notes": [
+        "就 = 'right away'.",
+        "才 = 'only then'.",
+        "",
+        "都 = 'except' — but there's only one subject (我)."
+      ],
+      "translation": "Besides Chinese, I've also studied Japanese."
+    },
+    {
+      "point": "yaome",
+      "prompt": "{周末|zhōumò}{我们|wǒmen}（　）{去|qù}{爬山|páshān}，{要么|yàome}{在|zài}{家|jiā}{看|kàn}{电影|diànyǐng}。",
+      "options": [
+        "{要么|yàome}",
+        "{要是|yàoshi}",
+        "{或者|huòzhě}",
+        "{还是|háishi}"
+      ],
+      "answer": 0,
+      "explanation": "Either … or: **要么…要么**.",
+      "notes": [
+        "",
+        "要是 = 'if'.",
+        "The pair is 要么…要么.",
+        "还是 is for questions."
+      ],
+      "translation": "At the weekend we'll either go hiking or watch a film at home."
+    },
+    {
+      "point": "yaome",
+      "prompt": "{要么|yàome}{你|nǐ}{来|lái}，（　）{我|wǒ}{去|qù}，{你|nǐ}{选|xuǎn}{吧|ba}。",
+      "options": [
+        "{要是|yàoshi}",
+        "{还是|háishi}",
+        "{要么|yàome}",
+        "{不是|búshì}"
+      ],
+      "answer": 2,
+      "explanation": "**要么…要么**.",
+      "notes": [
+        "要是 = 'if'.",
+        "还是 is for questions.",
+        "",
+        "不是 doesn't pair with 要么."
+      ],
+      "translation": "Either you come or I go — you choose."
+    }
+  ]
+}

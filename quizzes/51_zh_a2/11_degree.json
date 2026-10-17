@@ -1,0 +1,263 @@
+{
+  "id": "zh-a2-degree",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "How Much: 死了, 真 / 多…啊, 差不多, 很 + verb, 大家都",
+  "description": "Extremely (死了), exclamations, about the same (差不多), which verbs take 很, and 都 after 大家 / 很多人.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "sile",
+      "title": "Adjective + 死了: extremely (colloquial)",
+      "summary": "Adj + 死了 = 'to death' — an exaggeration for something unpleasant (and sometimes happy): 累死了, 饿死了, 热死了.",
+      "body": "- 我累**死了**!\n- Not ~~累得死~~ or ~~很死~~.",
+      "examples": [
+        [
+          "{我|wǒ}{饿|è}{死|sǐ}{了|le}！",
+          "I'm starving!"
+        ]
+      ]
+    },
+    {
+      "id": "zhenduo",
+      "title": "真 + adj / 多 + adj + 啊: how …!",
+      "summary": "真 + adj = really …; 多 + adj + 啊 = how …! (exclamation).",
+      "body": "- 她**真**漂亮!\n- 这里的风景**多**美**啊**!",
+      "examples": [
+        [
+          "{这里|zhèlǐ}{的|de}{风景|fēngjǐng}{多|duō}{美|měi}{啊|a}！",
+          "How beautiful the scenery is here!"
+        ]
+      ]
+    },
+    {
+      "id": "chabuduo",
+      "title": "差不多: about the same, almost",
+      "summary": "差不多 (chàbuduō) = more or less the same; also 'almost (done / there)'.",
+      "body": "- 我们两个人**差不多**高.\n- **差不多**了，还有五分钟.",
+      "examples": [
+        [
+          "{我们|wǒmen}{两|liǎng}{个|ge}{人|rén}{差不多|chàbuduō}{高|gāo}。",
+          "The two of us are about the same height."
+        ]
+      ]
+    },
+    {
+      "id": "henverb",
+      "title": "很 + feeling verbs",
+      "summary": "Only verbs of feeling/attitude take 很: 很喜欢, 很想, 很爱, 很希望, 很怕. Action verbs don't: ~~很游泳~~.",
+      "body": "- 我**很喜欢**游泳.\n- ~~我很游泳~~ ✗",
+      "examples": [
+        [
+          "{我|wǒ}{很|hěn}{喜欢|xǐhuan}{游泳|yóuyǒng}。",
+          "I really like swimming."
+        ]
+      ]
+    },
+    {
+      "id": "dajiadou",
+      "title": "大家 / 很多人 + 都",
+      "summary": "After words for 'everyone' or 'many people', 都 before the verb is (almost) required.",
+      "body": "- **大家都**觉得这个办法很好.\n- **很多人都**喜欢这个电影.",
+      "examples": [
+        [
+          "{大家|dàjiā}{都|dōu}{觉得|juéde}{这个|zhège}{办法|bànfǎ}{很|hěn}{好|hǎo}。",
+          "Everyone thinks this is a good idea."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "sile",
+      "prompt": "{今天|jīntiān}{跑|pǎo}{了|le}{十|shí}{公里|gōnglǐ}，{我|wǒ}{累|lèi}（　）！",
+      "options": [
+        "{死|sǐ}{的|de}",
+        "{得|de}{死|sǐ}",
+        "{死|sǐ}{了|le}",
+        "{很|hěn}{死|sǐ}"
+      ],
+      "answer": 2,
+      "explanation": "Extremely: **adj + 死了**.",
+      "notes": [
+        "累死的 isn't the pattern.",
+        "The pattern is adj + 死了.",
+        "",
+        "很死 isn't grammatical."
+      ],
+      "translation": "I ran ten kilometres today — I'm dead tired!"
+    },
+    {
+      "point": "sile",
+      "prompt": "What does 「{我|wǒ}{饿|è}{死|sǐ}{了|le}！」 mean?",
+      "options": [
+        "I'mstarving!",
+        "Idiedofhunger.",
+        "I'malittlehungry.",
+        "I'mnothungryanymore."
+      ],
+      "answer": 0,
+      "explanation": "死了 = **extremely** (exaggeration).",
+      "notes": [
+        "",
+        "It's an exaggeration, not literal.",
+        "死了 is extreme, not 'a little'.",
+        "That would be 我不饿了."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "zhenduo",
+      "prompt": "{这里|zhèlǐ}{的|de}{风景|fēngjǐng}（　）{美|měi}{啊|a}！",
+      "options": [
+        "{几|jǐ}",
+        "{怎么|zěnme}",
+        "{什么|shénme}",
+        "{多|duō}"
+      ],
+      "answer": 3,
+      "explanation": "How …!: **多 + adj + 啊**.",
+      "notes": [
+        "几美 isn't grammatical.",
+        "怎么美啊 isn't an exclamation of degree.",
+        "什么美 isn't grammatical.",
+        ""
+      ],
+      "translation": "How beautiful the scenery is here!"
+    },
+    {
+      "point": "zhenduo",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{她|tā}{漂亮|piàoliang}{真|zhēn}！",
+        "{她|tā}{真|zhēn}{漂亮|piàoliang}！",
+        "{她|tā}{很|hěn}{真|zhēn}{漂亮|piàoliang}！",
+        "{真|zhēn}{她|tā}{漂亮|piàoliang}！"
+      ],
+      "answer": 1,
+      "explanation": "**真 + adj**.",
+      "notes": [
+        "真 goes before the adjective.",
+        "",
+        "很 and 真 don't stack.",
+        "真 goes after the subject."
+      ],
+      "translation": "She's really pretty!"
+    },
+    {
+      "point": "chabuduo",
+      "prompt": "{我|wǒ}{跟|gēn}{我|wǒ}{弟弟|dìdi}（　）{高|gāo}，{别人|biérén}{常常|chángcháng}{问|wèn}{我们|wǒmen}{谁|shéi}{是|shì}{哥哥|gēge}。",
+      "options": [
+        "{不太多|bú tài duō}",
+        "{差一点|chà yìdiǎn}",
+        "{差不多|chàbuduō}",
+        "{不差多|bú chà duō}"
+      ],
+      "answer": 2,
+      "explanation": "About the same: **差不多**.",
+      "notes": [
+        "不太多 = 'not too many'.",
+        "差一点 = 'almost (happened)'.",
+        "",
+        "不差多 isn't a word."
+      ],
+      "translation": "My little brother and I are about the same height — people often ask which of us is older."
+    },
+    {
+      "point": "chabuduo",
+      "prompt": "A：{你|nǐ}{到|dào}{了|le}{吗|ma}？\nB：（　）{了|le}，{还有|háiyǒu}{五|wǔ}{分钟|fēnzhōng}。",
+      "options": [
+        "{不多|bù duō}",
+        "{差很多|chà hěn duō}",
+        "{差一点|chà yìdiǎn}",
+        "{差不多|chàbuduō}"
+      ],
+      "answer": 3,
+      "explanation": "Almost: **差不多了**.",
+      "notes": [
+        "不多了 = 'not much left' (of a quantity).",
+        "差很多 = 'far from it' — contradicts 五分钟.",
+        "差一点了 isn't natural.",
+        ""
+      ],
+      "translation": "A: Are you there yet? B: Almost — five more minutes."
+    },
+    {
+      "point": "henverb",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{很|hěn}{游泳|yóuyǒng}。",
+        "{我|wǒ}{游泳|yóuyǒng}{很|hěn}。",
+        "{我|wǒ}{很|hěn}{喜欢|xǐhuan}{游泳|yóuyǒng}。",
+        "{我|wǒ}{喜欢|xǐhuan}{很|hěn}{游泳|yóuyǒng}。"
+      ],
+      "answer": 2,
+      "explanation": "很 + **feeling verb**.",
+      "notes": [
+        "游泳 is an action — no 很.",
+        "很 can't end the sentence.",
+        "",
+        "很 goes before 喜欢."
+      ],
+      "translation": "I really like swimming."
+    },
+    {
+      "point": "henverb",
+      "prompt": "{他|tā}{很|hěn}（　）{中国菜|Zhōngguó cài}。",
+      "options": [
+        "{喜欢|xǐhuan}",
+        "{做|zuò}",
+        "{吃|chī}",
+        "{买|mǎi}"
+      ],
+      "answer": 0,
+      "explanation": "Only feeling verbs take 很: **很喜欢**.",
+      "notes": [
+        "",
+        "做 is an action verb.",
+        "吃 is an action verb — 很吃 isn't grammatical.",
+        "买 is an action verb."
+      ],
+      "translation": "He really likes Chinese food."
+    },
+    {
+      "point": "dajiadou",
+      "prompt": "{很|hěn}{多|duō}{人|rén}（　）{喜欢|xǐhuan}{这个|zhège}{电影|diànyǐng}。",
+      "options": [
+        "{就|jiù}",
+        "{都|dōu}",
+        "{还|hái}",
+        "{才|cái}"
+      ],
+      "answer": 1,
+      "explanation": "Many people … all: **很多人都**.",
+      "notes": [
+        "就 = 'right away'.",
+        "",
+        "还 = 'still / also'.",
+        "才 = 'only then'."
+      ],
+      "translation": "Lots of people like this film."
+    },
+    {
+      "point": "dajiadou",
+      "prompt": "Where does **{都|dōu}** go?\n［A］{大家|dàjiā}［B］{觉得|juéde}［C］{这个|zhège}{办法|bànfǎ}［D］{很|hěn}{好|hǎo}。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "大家 **都** + verb.",
+      "notes": [
+        "都 refers back to 大家, so it comes after it.",
+        "",
+        "都 must come before the verb 觉得.",
+        "都 can't go inside the object."
+      ],
+      "translation": "Everyone thinks this is a good idea.",
+      "fixed_order": true
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": "n4-limits-lists",
+  "category": "JLPT N4",
+  "title": "Only, Just & Lists: ばかり, しか, だけで, でも, し, たり, とか",
+  "description": "Nothing but (ばかり), only (しか〜ない), just by (だけで), or something (でも), reasons and examples (し, など, たり〜たり, とか〜とか).",
+  "level": "N4",
+  "points": [
+    {
+      "id": "bakari",
+      "title": "〜ばかり: nothing but, only (too much)",
+      "summary": "Noun + ばかり / て-form + ばかりいる = 'nothing but …' — usually with a critical tone.",
+      "body": "- 弟は漫画**ばかり**読んでいる (my brother reads nothing but manga).\n- 彼は寝て**ばかり**いる (he does nothing but sleep).\n\nParticles が/を usually disappear before ばかり; others stay: 友達と**ばかり**遊ぶ.\n\nDon't confuse with **た-form + ばかり** = 'just did' (来たばかり).",
+      "examples": [
+        [
+          "{弟|おとうと}は{漫画|まんが}ばかり{読|よ}んでいます。",
+          "My brother reads nothing but manga."
+        ],
+        [
+          "{彼|かれ}は{毎日|まいにち}{寝|ね}てばかりいます。",
+          "He does nothing but sleep every day."
+        ]
+      ]
+    },
+    {
+      "id": "shika",
+      "title": "〜しか〜ない: only (not more than)",
+      "summary": "Noun / quantity + しか + NEGATIVE verb = only. Stresses that it's not enough. Never with a positive verb.",
+      "body": "- 財布に100円**しかありません** (I only have 100 yen).\n- 日本語は少し**しか**話せ**ません**.\n\n**Always negative:** ✗ 100円しかあります.\n\n**しか vs だけ:** だけ is neutral and goes with positive verbs (100円だけあります); しか + negative stresses shortage.",
+      "examples": [
+        [
+          "{財布|さいふ}に100{円|えん}しかありません。",
+          "I only have 100 yen in my wallet."
+        ],
+        [
+          "{日本語|にほんご}は{少|すこ}ししか{話|はな}せません。",
+          "I can only speak a little Japanese."
+        ]
+      ]
+    },
+    {
+      "id": "dakede",
+      "title": "〜だけで: just by, merely by",
+      "summary": "Verb (dictionary) / noun + だけで = just by (doing), with just … (a big result from a small thing).",
+      "body": "- このボタンを押す**だけで**、電気がつきます (just by pressing this button…).\n- 彼女の声を聞く**だけで**元気になる.\n- 一人**だけで**行きました (went alone, with just one person).\n\nIt highlights that very little is needed.",
+      "examples": [
+        [
+          "このボタンを{押|お}すだけで、{電気|でんき}がつきます。",
+          "Just pressing this button turns on the light."
+        ],
+        [
+          "{彼女|かのじょ}の{声|こえ}を{聞|き}くだけで、{元気|げんき}になります。",
+          "Just hearing her voice cheers me up."
+        ]
+      ]
+    },
+    {
+      "id": "demo",
+      "title": "〜でも: … or something",
+      "summary": "Noun + でも softens an invitation or suggestion: 'tea or something'. It replaces が/を.",
+      "body": "- お茶**でも**飲みませんか (how about some tea or something?).\n- 映画**でも**見に行こうか.\n\nIt keeps the suggestion light and leaves room for alternatives. Particles が/を disappear: ✗ お茶をでも.\n\n(Other uses: question word + でも = any (何でも, いつでも); 〜ても / でも = even if.)",
+      "examples": [
+        [
+          "{喉|のど}が{渇|かわ}きましたね。お{茶|ちゃ}でも{飲|の}みませんか。",
+          "I'm thirsty — shall we have some tea or something?"
+        ],
+        [
+          "{週末|しゅうまつ}、{映画|えいが}でも{見|み}に{行|い}こうか。",
+          "Shall we go see a movie or something this weekend?"
+        ]
+      ]
+    },
+    {
+      "id": "nado",
+      "title": "〜など: such as, and so on",
+      "summary": "Noun (や noun) + など = examples from a larger set. More formal than とか.",
+      "body": "- 京都や奈良**など**に行きました.\n- 冷蔵庫に卵や牛乳**など**があります.\n\nOften paired with や: AやB**など**. Particles follow など: など**に**, など**を**, など**が**.\n\nCasual: なんか / とか.",
+      "examples": [
+        [
+          "{京都|きょうと}や{奈良|なら}などに{行|い}きました。",
+          "I went to places like Kyoto and Nara."
+        ],
+        [
+          "{冷蔵庫|れいぞうこ}に{卵|たまご}や{牛乳|ぎゅうにゅう}などがあります。",
+          "There are eggs, milk and so on in the fridge."
+        ]
+      ]
+    },
+    {
+      "id": "shi",
+      "title": "〜し、〜し: and (what's more) — listing reasons",
+      "summary": "Plain form + し lists reasons or features: 'it's cheap, and it's tasty, (so…)'. Nouns / な-adj take だ: 静かだし.",
+      "body": "- この店は安い**し**、おいしい**し**、よく来ます.\n- 雨だ**し**、寒い**し**、今日は家にいよう.\n\n**Attachment:** plain form; nouns and な-adjectives need **だ**: 学生**だし**, 静か**だし** (✗ 静かなし).\n\nOften only one し is said, implying more reasons: もう遅い**し**、帰ろう.",
+      "examples": [
+        [
+          "この{店|みせ}は{安|やす}いし、おいしいし、よく{来|き}ます。",
+          "This shop is cheap and tasty, so I come often."
+        ],
+        [
+          "{部屋|へや}が{静|しず}かだし、{駅|えき}にも{近|ちか}いです。",
+          "The room is quiet, and it's close to the station too."
+        ]
+      ]
+    },
+    {
+      "id": "tari",
+      "title": "〜たり〜たりする: do things like A and B",
+      "summary": "た-form + り, た-form + り + する = listing example actions (not all, not in order). Must end with する.",
+      "body": "- 休みの日は本を読ん**だり**、音楽を聞い**たり**します.\n\n**Formation:** take the た-form and add り: 読んだ → 読ん**だり**, 聞いた → 聞い**たり**, 行った → 行っ**たり**.\nThe list must end with **する** (します, した, したい …).\n\nAlso for alternating states: 降っ**たり**止んだり (on and off).",
+      "examples": [
+        [
+          "{休|やす}みの{日|ひ}は{本|ほん}を{読|よ}んだり、{音楽|おんがく}を{聞|き}いたりします。",
+          "On days off I do things like read and listen to music."
+        ],
+        [
+          "{週末|しゅうまつ}は{掃除|そうじ}をしたり{洗濯|せんたく}をしたりしました。",
+          "On the weekend I did things like cleaning and laundry."
+        ]
+      ]
+    },
+    {
+      "id": "toka",
+      "title": "〜とか〜とか: things like (casual)",
+      "summary": "Noun/verb + とか, noun/verb + とか = casual listing of examples. Equivalent to や〜など / たり〜たり in speech.",
+      "body": "- 寿司**とか**天ぷら**とか**が好きです.\n- 映画を見る**とか**、買い物する**とか**.\n\nIt can list nouns *and* actions. Casual — in writing use や〜など.",
+      "examples": [
+        [
+          "{日本料理|にほんりょうり}では{寿司|すし}とか{天|てん}ぷらとかが{好|す}きです。",
+          "Of Japanese food, I like things like sushi and tempura."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "bakari",
+      "prompt": "{弟|おとうと}は{勉強|べんきょう}しないで、{漫画|まんが}（　）{読|よ}んでいます。",
+      "options": [
+        "だけで",
+        "ばかり",
+        "ほど",
+        "しか"
+      ],
+      "answer": 1,
+      "explanation": "'Nothing but' (critical): **ばかり**.",
+      "notes": [
+        "だけで = 'just by' — doesn't fit.",
+        "",
+        "ほど = 'extent' — doesn't fit.",
+        "しか needs a negative verb."
+      ],
+      "translation": "My brother doesn't study — he reads nothing but manga."
+    },
+    {
+      "point": "bakari",
+      "prompt": "{彼|かれ}は{毎日|まいにち}{寝|ね}て（　）います。",
+      "options": [
+        "ばかり",
+        "しか",
+        "ずつ",
+        "だけで"
+      ],
+      "answer": 0,
+      "explanation": "て-form + **ばかりいる** = does nothing but.",
+      "notes": [
+        "",
+        "しか needs a negative verb.",
+        "ずつ means 'each'.",
+        "寝てだけでいます isn't grammatical."
+      ],
+      "translation": "He does nothing but sleep every day."
+    },
+    {
+      "point": "shika",
+      "prompt": "{財布|さいふ}に100{円|えん}（　）ありません。",
+      "options": [
+        "ばかり",
+        "だけ",
+        "しか",
+        "まで"
+      ],
+      "answer": 2,
+      "explanation": "'Only' + negative → **しか**.",
+      "notes": [
+        "ばかり + ありません doesn't make 'only'.",
+        "100円だけありません = 'it's not just 100 yen that's missing' — wrong meaning.",
+        "",
+        "100円まであります/ありません doesn't express 'only' — まで means 'up to'."
+      ],
+      "translation": "I only have 100 yen in my wallet."
+    },
+    {
+      "point": "shika",
+      "prompt": "{日本語|にほんご}は{少|すこ}ししか（　）。",
+      "options": [
+        "{話|はな}せません",
+        "{話|はな}せる",
+        "{話|はな}せた",
+        "{話|はな}せます"
+      ],
+      "answer": 0,
+      "explanation": "しか always needs a **negative** verb.",
+      "notes": [
+        "",
+        "Positive — ungrammatical with しか.",
+        "Positive past — ungrammatical with しか.",
+        "しか + positive is ungrammatical."
+      ],
+      "translation": "I can only speak a little Japanese."
+    },
+    {
+      "point": "dakede",
+      "prompt": "このボタンを{押|お}す（　）、{電気|でんき}がつきます。",
+      "options": [
+        "しか",
+        "だけで",
+        "だけを",
+        "だけに"
+      ],
+      "answer": 1,
+      "explanation": "'Just by doing' → **だけで**.",
+      "notes": [
+        "しか needs a negative verb.",
+        "",
+        "だけを can't follow a verb this way.",
+        "だけに means 'precisely because' (N2) — not 'just by'."
+      ],
+      "translation": "Just pressing this button turns on the light."
+    },
+    {
+      "point": "dakede",
+      "prompt": "{彼女|かのじょ}の{声|こえ}を{聞|き}く（　）{元気|げんき}になります。",
+      "options": [
+        "だけで",
+        "ばかりで",
+        "だけに",
+        "しかで"
+      ],
+      "answer": 0,
+      "explanation": "**だけで** = merely by.",
+      "notes": [
+        "",
+        "聞くばかりで isn't natural here.",
+        "だけに = 'precisely because' — different meaning.",
+        "しかで isn't grammatical."
+      ],
+      "translation": "Just hearing her voice cheers me up."
+    },
+    {
+      "point": "demo",
+      "prompt": "{喉|のど}が{渇|かわ}きましたね。お{茶|ちゃ}（　）{飲|の}みませんか。",
+      "options": [
+        "ばかり",
+        "しか",
+        "だけ",
+        "でも"
+      ],
+      "answer": 3,
+      "explanation": "Soft suggestion: noun + **でも** ('or something').",
+      "notes": [
+        "ばかり = 'nothing but'.",
+        "しか needs a negative and means 'only'.",
+        "だけ = 'only' — not a soft invitation.",
+        ""
+      ],
+      "translation": "I'm thirsty — shall we have some tea or something?"
+    },
+    {
+      "point": "demo",
+      "prompt": "{週末|しゅうまつ}、{映画|えいが}（　）{見|み}に{行|い}こうか。",
+      "options": [
+        "でも",
+        "でが",
+        "では",
+        "でを"
+      ],
+      "answer": 0,
+      "explanation": "**でも** replaces を: 映画でも見に行こう.",
+      "notes": [
+        "",
+        "でが isn't a combination.",
+        "映画では = 'as for movies / in movies' — not a suggestion.",
+        "でを isn't a combination."
+      ],
+      "translation": "Shall we go see a movie or something this weekend?"
+    },
+    {
+      "point": "nado",
+      "prompt": "{夏休|なつやす}みは{京都|きょうと}や{奈良|なら}（　）に{行|い}きました。",
+      "options": [
+        "ほど",
+        "なんど",
+        "まで",
+        "など"
+      ],
+      "answer": 3,
+      "explanation": "AやB**など** = places like A and B.",
+      "notes": [
+        "ほど = 'extent'.",
+        "なんど means 'how many times'.",
+        "まで = 'until/as far as'.",
+        ""
+      ],
+      "translation": "Over summer vacation I went to places like Kyoto and Nara."
+    },
+    {
+      "point": "shi",
+      "prompt": "この{店|みせ}は{安|やす}い（　）、おいしいし、よく{来|き}ます。",
+      "options": [
+        "と",
+        "し",
+        "が",
+        "て"
+      ],
+      "answer": 1,
+      "explanation": "Listing reasons: **〜し、〜し**.",
+      "notes": [
+        "安いと = 'if/when it's cheap'.",
+        "",
+        "安いが = 'cheap, but…' — contradicts the second positive reason.",
+        "い-adjectives connect with くて, not て."
+      ],
+      "translation": "This shop is cheap and tasty, so I come often."
+    },
+    {
+      "point": "shi",
+      "prompt": "{部屋|へや}が{静|しず}か（　）し、{駅|えき}にも{近|ちか}いです。",
+      "options": [
+        "な",
+        "で",
+        "だ",
+        "の"
+      ],
+      "answer": 2,
+      "explanation": "な-adjective + **だ** + し.",
+      "notes": [
+        "な can't come before し.",
+        "でし isn't a form.",
+        "",
+        "のし isn't a form."
+      ],
+      "translation": "The room is quiet, and it's close to the station too."
+    },
+    {
+      "point": "tari",
+      "prompt": "{休|やす}みの{日|ひ}は{本|ほん}を{読|よ}ん（　）、{音楽|おんがく}を{聞|き}いたりします。",
+      "options": [
+        "たり",
+        "で",
+        "でり",
+        "だり"
+      ],
+      "answer": 3,
+      "explanation": "読む → 読んだ → **読んだり**.",
+      "notes": [
+        "読む's past ends in だ, so たり becomes だり.",
+        "読んで is the て-form — the list needs たり/だり.",
+        "でり isn't a form.",
+        ""
+      ],
+      "translation": "On days off I do things like read and listen to music."
+    },
+    {
+      "point": "tari",
+      "prompt": "{週末|しゅうまつ}は{掃除|そうじ}をしたり{洗濯|せんたく}をしたり（　）。",
+      "options": [
+        "しりました",
+        "ました",
+        "しました",
+        "でした"
+      ],
+      "answer": 2,
+      "explanation": "The たり-list must end with **する** (here: しました).",
+      "notes": [
+        "しりました isn't a form.",
+        "ました needs a stem.",
+        "",
+        "でした can't close a たり-list of actions."
+      ],
+      "translation": "On the weekend I did things like cleaning and laundry."
+    },
+    {
+      "point": "toka",
+      "prompt": "{日本料理|にほんりょうり}では、{寿司|すし}（　）{天|てん}ぷら（　）が{好|す}きです。",
+      "options": [
+        "と／とか",
+        "とか／とか",
+        "しか／しか",
+        "とか／や"
+      ],
+      "answer": 1,
+      "explanation": "Casual list of examples: **AとかBとか**.",
+      "notes": [
+        "と…とか mixes two patterns.",
+        "",
+        "しか needs a negative verb.",
+        "とか…や mixes two patterns."
+      ],
+      "translation": "Of Japanese food, I like things like sushi and tempura."
+    }
+  ]
+}

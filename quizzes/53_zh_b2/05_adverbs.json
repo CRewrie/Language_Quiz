@@ -1,0 +1,462 @@
+{
+  "id": "zh-b2-adverbs",
+  "category": "Mandarin B2",
+  "language": "zh",
+  "title": "More Adverbs: 几乎, 甚至, 不得不 / 只好, 再也不, 曾经, 本来, 好不容易, 白, 顺便",
+  "description": "Nearly, even, having to, never again, once (before), originally, with great difficulty, in vain, and while you're at it.",
+  "level": "B2",
+  "points": [
+    {
+      "id": "jihu",
+      "title": "几乎: nearly, almost",
+      "summary": "几乎 (jīhū) = almost (all / every / nothing).",
+      "body": "- 他**几乎**每天都去图书馆.",
+      "examples": [
+        [
+          "{我|wǒ}{几乎|jīhū}{忘|wàng}{了|le}。",
+          "I nearly forgot."
+        ]
+      ]
+    },
+    {
+      "id": "shenzhi",
+      "title": "甚至: even",
+      "summary": "甚至 (shènzhì) adds an extreme example, often with 连…都 / 也.",
+      "body": "- 他忙得没时间吃饭，**甚至**没时间睡觉.",
+      "examples": [
+        [
+          "{这个|zhège}{问题|wèntí}{太|tài}{简单|jiǎndān}{了|le}，{甚至|shènzhì}{连|lián}{小孩子|xiǎo háizi}{都|dōu}{知道|zhīdào}。",
+          "This question is so easy that even a child knows it."
+        ]
+      ]
+    },
+    {
+      "id": "budebu",
+      "title": "不得不 / 只好: have to, have no choice but",
+      "summary": "不得不 (bùdébù) + verb = be forced to. 只好 (zhǐhǎo) + verb = the only option left.",
+      "body": "- 车坏了，我**不得不**走路去上班.\n- 外面下大雨，我们**只好**在家看电视.",
+      "examples": [
+        [
+          "{车|chē}{坏|huài}{了|le}，{我|wǒ}{不得不|bùdébù}{走路|zǒulù}{去|qù}{上班|shàngbān}。",
+          "My car broke down, so I had to walk to work."
+        ]
+      ]
+    },
+    {
+      "id": "zaiyebu",
+      "title": "再也不 … 了: never again",
+      "summary": "再也不 / 再也没 + verb (+ 了) = never again.",
+      "body": "- 那家饭馆太难吃了，我**再也不**去**了**.",
+      "examples": [
+        [
+          "{我|wǒ}{再也|zài yě}{不|bù}{喝|hē}{酒|jiǔ}{了|le}。",
+          "I'm never drinking again."
+        ]
+      ]
+    },
+    {
+      "id": "cengjing",
+      "title": "曾经 + verb + 过: once, at one time",
+      "summary": "曾经 (céngjīng) = at some point in the past (often with 过).",
+      "body": "- 我**曾经**在北京住**过**两年.",
+      "examples": [
+        [
+          "{他|tā}{曾经|céngjīng}{是|shì}{我|wǒ}{的|de}{老师|lǎoshī}。",
+          "He was once my teacher."
+        ]
+      ]
+    },
+    {
+      "id": "benlai",
+      "title": "本来: originally (but)",
+      "summary": "本来 (běnlái) = originally, at first (the plan changed); also 'by nature, of course'.",
+      "body": "- 我**本来**打算今天去，可是下雨了.",
+      "examples": [
+        [
+          "{这个|zhège}{问题|wèntí}{本来|běnlái}{就|jiù}{很|hěn}{简单|jiǎndān}。",
+          "This question is simple to begin with."
+        ]
+      ]
+    },
+    {
+      "id": "haoburongyi",
+      "title": "好不容易: with great difficulty",
+      "summary": "好不容易 (hǎo bù róngyì) … 才 = finally managed, after a lot of trouble. (Confusingly, 好容易 means the same!)",
+      "body": "- 我**好不容易**才找到你家.",
+      "examples": [
+        [
+          "{我|wǒ}{好不容易|hǎo bù róngyì}{才|cái}{买|mǎi}{到|dào}{票|piào}。",
+          "It took me ages to get tickets."
+        ]
+      ]
+    },
+    {
+      "id": "bai",
+      "title": "白 + verb: in vain",
+      "summary": "白 (bái) + verb = for nothing, wasted.",
+      "body": "- 他不在家，我**白**跑了一趟.",
+      "examples": [
+        [
+          "{我|wǒ}{白|bái}{等|děng}{了|le}{一个|yí ge}{小时|xiǎoshí}。",
+          "I waited an hour for nothing."
+        ]
+      ]
+    },
+    {
+      "id": "shunbian",
+      "title": "顺便: while you're at it",
+      "summary": "顺便 (shùnbiàn) + verb = on the way, at the same time (no extra effort).",
+      "body": "- 你去超市的时候，**顺便**帮我买瓶水.",
+      "examples": [
+        [
+          "{我|wǒ}{去|qù}{北京|Běijīng}{开会|kāihuì}，{顺便|shùnbiàn}{看看|kànkan}{老|lǎo}{朋友|péngyou}。",
+          "I'm going to Beijing for a meeting and will see some old friends while I'm there."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "jihu",
+      "prompt": "{他|tā}（　）{每天|měitiān}{都|dōu}{去|qù}{图书馆|túshūguǎn}，{很|hěn}{少|shǎo}{休息|xiūxi}。",
+      "options": [
+        "{几个|jǐ ge}",
+        "{几时|jǐshí}",
+        "{差点|chàdiǎn}",
+        "{几乎|jīhū}"
+      ],
+      "answer": 3,
+      "explanation": "Almost: **几乎**.",
+      "notes": [
+        "几个每天 isn't grammatical.",
+        "几时 = 'when'.",
+        "差点 = 'almost happened (but didn't)'.",
+        ""
+      ],
+      "translation": "He goes to the library almost every day and rarely takes a break."
+    },
+    {
+      "point": "jihu",
+      "prompt": "What does 「{我|wǒ}{几乎|jīhū}{忘|wàng}{了|le}。」 mean?",
+      "options": [
+        "WhendidIforget?",
+        "Inearlyforgot.",
+        "Iforgotafewthings.",
+        "Iforgotcompletely."
+      ],
+      "answer": 1,
+      "explanation": "几乎 = **nearly**.",
+      "notes": [
+        "That's 几时.",
+        "",
+        "几乎 isn't 几个.",
+        "几乎 = nearly."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "shenzhi",
+      "prompt": "{他|tā}{忙|máng}{得|de}{没|méi}{时间|shíjiān}{吃饭|chīfàn}，（　）{没|méi}{时间|shíjiān}{睡觉|shuìjiào}。",
+      "options": [
+        "{至于|zhìyú}",
+        "{直到|zhídào}",
+        "{甚至|shènzhì}",
+        "{于是|yúshì}"
+      ],
+      "answer": 2,
+      "explanation": "Even: **甚至**.",
+      "notes": [
+        "至于 = 'as for'.",
+        "直到 = 'until'.",
+        "",
+        "于是 = 'and so'."
+      ],
+      "translation": "He's so busy he has no time to eat — or even to sleep."
+    },
+    {
+      "point": "shenzhi",
+      "prompt": "{这个|zhège}{问题|wèntí}{太|tài}{简单|jiǎndān}{了|le}，（　）{连|lián}{小孩子|xiǎo háizi}{都|dōu}{知道|zhīdào}。",
+      "options": [
+        "{尽管|jǐnguǎn}",
+        "{甚至|shènzhì}",
+        "{至于|zhìyú}",
+        "{不管|bùguǎn}"
+      ],
+      "answer": 1,
+      "explanation": "**甚至连…都**.",
+      "notes": [
+        "尽管 = 'although'.",
+        "",
+        "至于 = 'as for'.",
+        "不管 = 'no matter'."
+      ],
+      "translation": "This question is so easy that even a child knows it."
+    },
+    {
+      "point": "budebu",
+      "prompt": "{车|chē}{坏|huài}{了|le}，{我|wǒ}（　）{走路|zǒulù}{去|qù}{上班|shàngbān}。",
+      "options": [
+        "{不一定|bù yídìng}",
+        "{不见得|bú jiàn dé}",
+        "{不得不|bùdébù}",
+        "{不得了|bùdéliǎo}"
+      ],
+      "answer": 2,
+      "explanation": "Have to: **不得不**.",
+      "notes": [
+        "不一定 = 'not necessarily'.",
+        "不见得 = 'not likely'.",
+        "",
+        "不得了 = 'extremely / terrible'."
+      ],
+      "translation": "My car broke down, so I had to walk to work."
+    },
+    {
+      "point": "budebu",
+      "prompt": "{外面|wàimiàn}{下|xià}{大雨|dàyǔ}，{我们|wǒmen}（　）{在|zài}{家|jiā}{看|kàn}{电视|diànshì}。",
+      "options": [
+        "{只好|zhǐhǎo}",
+        "{好不容易|hǎo bù róngyì}",
+        "{只要|zhǐyào}",
+        "{只有|zhǐyǒu}"
+      ],
+      "answer": 0,
+      "explanation": "No choice but: **只好**.",
+      "notes": [
+        "",
+        "好不容易 = 'with great difficulty'.",
+        "只要 = 'as long as'.",
+        "只有 = 'only if'."
+      ],
+      "translation": "It's pouring outside, so we have to stay in and watch TV."
+    },
+    {
+      "point": "zaiyebu",
+      "prompt": "{那|nà}{家|jiā}{饭馆|fànguǎn}{太|tài}{难吃|nánchī}{了|le}，{我|wǒ}{再也|zài yě}（　）{去|qù}{了|le}。",
+      "options": [
+        "{没|méi}",
+        "{非|fēi}",
+        "{别|bié}",
+        "{不|bú}"
+      ],
+      "answer": 3,
+      "explanation": "Never again: **再也不…了**.",
+      "notes": [
+        "再也没去 = 'never went again' — but 了 + a decision points to 不.",
+        "非 isn't used here.",
+        "别 is a command.",
+        ""
+      ],
+      "translation": "That restaurant was awful — I'm never going there again."
+    },
+    {
+      "point": "zaiyebu",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{再也|zài yě}{不|bù}{喝|hē}{酒|jiǔ}{了|le}。",
+        "{我|wǒ}{再也|zài yě}{喝|hē}{不|bù}{酒|jiǔ}{了|le}。",
+        "{我|wǒ}{再|zài}{不|bù}{也|yě}{喝|hē}{酒|jiǔ}{了|le}。",
+        "{我|wǒ}{也|yě}{再|zài}{不|bù}{喝|hē}{酒|jiǔ}{了|le}。"
+      ],
+      "answer": 0,
+      "explanation": "**再也不** + verb + 了.",
+      "notes": [
+        "",
+        "不 goes before the verb.",
+        "The order is 再也不.",
+        "The order is 再也不."
+      ],
+      "translation": "I'm never drinking again."
+    },
+    {
+      "point": "cengjing",
+      "prompt": "{我|wǒ}（　）{在|zài}{北京|Běijīng}{住|zhù}{过|guo}{两|liǎng}{年|nián}，{很|hěn}{喜欢|xǐhuan}{那儿|nàr}。",
+      "options": [
+        "{正在|zhèngzài}",
+        "{将要|jiāngyào}",
+        "{马上|mǎshàng}",
+        "{曾经|céngjīng}"
+      ],
+      "answer": 3,
+      "explanation": "Once (in the past): **曾经…过**.",
+      "notes": [
+        "正在 doesn't go with 过.",
+        "将要 = 'about to'.",
+        "马上 = 'right away'.",
+        ""
+      ],
+      "translation": "I once lived in Beijing for two years and loved it."
+    },
+    {
+      "point": "cengjing",
+      "prompt": "What does 「{他|tā}{曾经|céngjīng}{是|shì}{我|wǒ}{的|de}{老师|lǎoshī}。」 mean?",
+      "options": [
+        "Hehasjustbecomemyteacher.",
+        "He'sstillmyteacher.",
+        "Hewasoncemyteacher.",
+        "He'llbemyteacher."
+      ],
+      "answer": 2,
+      "explanation": "曾经 = **once, formerly**.",
+      "notes": [
+        "曾经 isn't 刚.",
+        "曾经 implies it's no longer the case.",
+        "",
+        "No future."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "benlai",
+      "prompt": "{我|wǒ}（　）{打算|dǎsuàn}{今天|jīntiān}{去|qù}，{可是|kěshì}{下雨|xià yǔ}{了|le}。",
+      "options": [
+        "{本来|běnlái}",
+        "{将来|jiānglái}",
+        "{未来|wèilái}",
+        "{后来|hòulái}"
+      ],
+      "answer": 0,
+      "explanation": "Originally: **本来**.",
+      "notes": [
+        "",
+        "将来 = 'in the future'.",
+        "未来 = 'the future'.",
+        "后来 = 'later on'."
+      ],
+      "translation": "I'd originally planned to go today, but it rained."
+    },
+    {
+      "point": "benlai",
+      "prompt": "{这个|zhège}{问题|wèntí}（　）{就|jiù}{很|hěn}{简单|jiǎndān}，{你|nǐ}{想|xiǎng}{得|de}{太|tài}{复杂|fùzá}{了|le}。",
+      "options": [
+        "{后来|hòulái}",
+        "{将来|jiānglái}",
+        "{以后|yǐhòu}",
+        "{本来|běnlái}"
+      ],
+      "answer": 3,
+      "explanation": "By nature: **本来就**.",
+      "notes": [
+        "后来 = 'later on'.",
+        "将来 = 'in the future'.",
+        "以后 = 'after(wards)'.",
+        ""
+      ],
+      "translation": "This question is simple to begin with — you're overthinking it."
+    },
+    {
+      "point": "haoburongyi",
+      "prompt": "{路|lù}{太|tài}{难|nán}{找|zhǎo}{了|le}，{我|wǒ}（　）{才|cái}{找|zhǎo}{到|dào}{你|nǐ}{家|jiā}。",
+      "options": [
+        "{好不容易|hǎo bù róngyì}",
+        "{不好意思|bù hǎoyìsi}",
+        "{不容易|bù róngyì}",
+        "{很|hěn}{容易|róngyì}"
+      ],
+      "answer": 0,
+      "explanation": "With great difficulty: **好不容易…才**.",
+      "notes": [
+        "",
+        "不好意思 = 'sorry / embarrassed'.",
+        "不容易 alone doesn't pair with 才 like this.",
+        "很容易 contradicts 路太难找."
+      ],
+      "translation": "Your place was so hard to find — it took me ages."
+    },
+    {
+      "point": "haoburongyi",
+      "prompt": "What does 「{我|wǒ}{好不容易|hǎo bù róngyì}{才|cái}{买|mǎi}{到|dào}{票|piào}。」 mean?",
+      "options": [
+        "Buyingticketsisn'teasy.",
+        "Itwaseasytobuythetickets.",
+        "Imanagedtogetticketswithgreatdifficulty.",
+        "Icouldn'tgetanytickets."
+      ],
+      "answer": 2,
+      "explanation": "好不容易 = **with great difficulty**.",
+      "notes": [
+        "It's about my experience, not a general fact.",
+        "好不容易 ≠ 'easy'.",
+        "",
+        "买到 = managed to buy."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "bai",
+      "prompt": "{他|tā}{今天|jīntiān}{不|bú}{在|zài}{家|jiā}，{我|wǒ}（　）{跑|pǎo}{了|le}{一|yí}{趟|tàng}。",
+      "options": [
+        "{白|bái}",
+        "{还|hái}",
+        "{才|cái}",
+        "{就|jiù}"
+      ],
+      "answer": 0,
+      "explanation": "In vain: **白**.",
+      "notes": [
+        "",
+        "还跑了一趟 = 'also made a trip'.",
+        "才 doesn't fit.",
+        "就 = 'right away'."
+      ],
+      "translation": "He wasn't home today — I went for nothing."
+    },
+    {
+      "point": "bai",
+      "prompt": "What does 「{我|wǒ}{白|bái}{等|děng}{了|le}{一个|yí ge}{小时|xiǎoshí}。」 mean?",
+      "options": [
+        "Iwaitedanhourinthesnow.",
+        "Ihappilywaitedanhour.",
+        "Iwaitedanhourfornothing.",
+        "Ionlywaitedanhour."
+      ],
+      "answer": 2,
+      "explanation": "白 + verb = **in vain**.",
+      "notes": [
+        "白 here isn't 'white'.",
+        "白 isn't a feeling.",
+        "",
+        "That's 只等了."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "shunbian",
+      "prompt": "{你|nǐ}{去|qù}{超市|chāoshì}{的|de}{时候|shíhou}，（　）{帮|bāng}{我|wǒ}{买|mǎi}{瓶|píng}{水|shuǐ}。",
+      "options": [
+        "{顺便|shùnbiàn}",
+        "{顺利|shùnlì}",
+        "{便宜|piányi}",
+        "{方便|fāngbiàn}"
+      ],
+      "answer": 0,
+      "explanation": "While you're at it: **顺便**.",
+      "notes": [
+        "",
+        "顺利 = 'smoothly'.",
+        "便宜 = 'cheap'.",
+        "方便 = 'convenient'."
+      ],
+      "translation": "When you go to the supermarket, could you get me a bottle of water?"
+    },
+    {
+      "point": "shunbian",
+      "prompt": "{我|wǒ}{去|qù}{北京|Běijīng}{开会|kāihuì}，（　）{看看|kànkan}{老|lǎo}{朋友|péngyou}。",
+      "options": [
+        "{顺利|shùnlì}",
+        "{简直|jiǎnzhí}",
+        "{顺便|shùnbiàn}",
+        "{方便|fāngbiàn}"
+      ],
+      "answer": 2,
+      "explanation": "**顺便**.",
+      "notes": [
+        "顺利 = 'smoothly'.",
+        "简直 = 'simply'.",
+        "",
+        "方便 = 'convenient'."
+      ],
+      "translation": "I'm going to Beijing for a meeting and will see some old friends while I'm there."
+    }
+  ]
+}

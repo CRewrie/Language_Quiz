@@ -1,0 +1,297 @@
+{
+  "id": "n4-expressions",
+  "category": "Mixed practice (N5–N4)",
+  "title": "Useful N4 Expressions",
+  "description": "ことにする, ようになる, 〜方, かどうか, という, みたい, のような/のように, はず, ばかり, ところ, まま, しか, ないで.",
+  "level": "N4",
+  "questions": [
+    {
+      "prompt": "{来年|らいねん}、{日本|にほん}に{留学|りゅうがく}すること（　）しました。",
+      "options": [
+        "を",
+        "で",
+        "に",
+        "が"
+      ],
+      "answer": 2,
+      "explanation": "**Dictionary form + ことにする** = 'decide to …' (your own decision). ことになる = 'it has been decided (by others)'.",
+      "notes": [
+        "ことをしました would mean 'did the thing of studying abroad'. It doesn't express a decision.",
+        "で isn't part of the 'decide to' pattern.",
+        "",
+        "ことがしました is ungrammatical. する doesn't take a が-subject like that here."
+      ],
+      "translation": "I decided to study abroad in Japan next year."
+    },
+    {
+      "prompt": "{健康|けんこう}のために、{毎日|まいにち}{歩|ある}く（　）にしています。",
+      "options": [
+        "ほう",
+        "まで",
+        "から",
+        "よう"
+      ],
+      "answer": 3,
+      "explanation": "**Dictionary form + ようにしている** = 'make a point of … / try to …' (a habit you keep up). ことにしている also exists ('have made it a rule to').",
+      "notes": [
+        "ほうにする isn't a pattern. ほうがいい is for advice.",
+        "まで ('until') doesn't form a pattern with にする.",
+        "から ('from/because') can't be followed by にしています.",
+        ""
+      ],
+      "translation": "For my health, I make a point of walking every day."
+    },
+    {
+      "prompt": "{毎日|まいにち}{練習|れんしゅう}して、{日本語|にほんご}が{話|はな}せる（　）なりました。",
+      "options": [
+        "ために",
+        "ことに",
+        "ように",
+        "そうに"
+      ],
+      "answer": 2,
+      "explanation": "**Potential/dictionary form + ようになる** = 'come to be able to / reach the point where …'. It describes a gradual change.",
+      "notes": [
+        "ために means 'in order to'. ためになる means 'be beneficial', a different expression.",
+        "ことになる means 'it has been decided that …'. It's about decisions, not ability.",
+        "",
+        "そうになる means 'almost …' and attaches to the ます-stem (話しそうになる)."
+      ],
+      "translation": "By practising every day, I became able to speak Japanese."
+    },
+    {
+      "prompt": "この{漢字|かんじ}の{読|よ}み（　）を{教|おし}えてください。",
+      "options": [
+        "{次|つぎ}",
+        "{方|かた}",
+        "{上|うえ}",
+        "{法|ほう}"
+      ],
+      "answer": 1,
+      "explanation": "**ます-stem + 方 (かた)** = 'the way of doing …': 読み方 (how to read), 使い方 (how to use), 作り方 (how to make).",
+      "notes": [
+        "次 means 'next'. 読み次 isn't a word.",
+        "",
+        "上 means 'above' and doesn't form this pattern.",
+        "法 (ほう) means 'law/method' in compounds, but it doesn't attach to verb stems."
+      ],
+      "translation": "Please teach me how to read this kanji."
+    },
+    {
+      "prompt": "{明日|あした}{晴|は}れる（　）わかりません。",
+      "options": [
+        "そうだ",
+        "らしい",
+        "かもしれない",
+        "かどうか"
+      ],
+      "answer": 3,
+      "explanation": "**Plain form + かどうか** = 'whether or not …'. It embeds a yes/no question inside a sentence (with わからない, 知らない, 聞く…).",
+      "notes": [
+        "そうだ (hearsay) is a sentence ending, not an embedded question.",
+        "らしい ('apparently') is also a sentence ending.",
+        "かもしれない ('might') ends a sentence and can't be followed by わかりません.",
+        ""
+      ],
+      "translation": "I don't know whether it will be sunny tomorrow."
+    },
+    {
+      "prompt": "「となりのトトロ」（　）{映画|えいが}を{見|み}たことがありますか。",
+      "options": [
+        "という",
+        "といて",
+        "とゆう",
+        "として"
+      ],
+      "answer": 0,
+      "explanation": "**A という B** = 'a B called A'. It introduces a name the listener might not know.",
+      "notes": [
+        "",
+        "といて isn't a form.",
+        "とゆう is how it's often pronounced, but it's spelled という.",
+        "として means 'as (a role)' and doesn't introduce a name."
+      ],
+      "translation": "Have you ever seen a movie called 'My Neighbor Totoro'?"
+    },
+    {
+      "prompt": "{彼|かれ}は{力|ちから}が{強|つよ}くて、スーパーマン（　）ですね。",
+      "options": [
+        "らしく",
+        "そう",
+        "ような",
+        "みたい"
+      ],
+      "answer": 3,
+      "explanation": "**Noun + みたい(です)** = 'like …' (resemblance, casual). The formal equivalent is 〜のようです.",
+      "notes": [
+        "らしく is an adverbial form and can't be followed by です.",
+        "The 'looks like' そう doesn't attach to nouns (スーパーマンそう ✗).",
+        "ような must be followed by a noun (スーパーマンのような人), and it also needs の.",
+        ""
+      ],
+      "translation": "He's so strong, he's like Superman."
+    },
+    {
+      "prompt": "{父|ちち}（　）{人|ひと}になりたいです。",
+      "options": [
+        "なような",
+        "なように",
+        "のような",
+        "のように"
+      ],
+      "answer": 2,
+      "explanation": "**Noun + のような + noun** = 'a … like X'. ような (with な) modifies a noun: 父のような人.",
+      "notes": [
+        "Nouns connect with の, not な: 父の….",
+        "Nouns need の, and before a noun you need ような, not ように.",
+        "",
+        "のように (with に) modifies a verb or adjective, not a noun like 人."
+      ],
+      "translation": "I want to become a person like my father."
+    },
+    {
+      "prompt": "{父|ちち}（　）{強|つよ}くなりたいです。",
+      "options": [
+        "なように",
+        "のように",
+        "なような",
+        "のような"
+      ],
+      "answer": 1,
+      "explanation": "**Noun + のように + verb/adjective** = 'like X' (adverbial). It modifies 強くなる.",
+      "notes": [
+        "Nouns connect with の, not な.",
+        "",
+        "Nouns connect with の, and ような needs a noun after it.",
+        "のような must be followed by a noun. Here it's followed by an adjective (強く)."
+      ],
+      "translation": "I want to become strong like my father."
+    },
+    {
+      "prompt": "{彼|かれ}は{毎日|まいにち}{練習|れんしゅう}しているから、{上手|じょうず}な（　）です。",
+      "options": [
+        "ところ",
+        "まま",
+        "はず",
+        "ばかり"
+      ],
+      "answer": 2,
+      "explanation": "**〜はずです** = 'should be / is expected to be …', a confident conclusion based on evidence (he practises daily).",
+      "notes": [
+        "上手なところ means 'his skilled point/place' and doesn't fit after から.",
+        "まま means 'unchanged state' and doesn't fit.",
+        "",
+        "ばかり means 'nothing but / just did' and doesn't attach to な-adjectives this way (上手なばかり ✗)."
+      ],
+      "translation": "He practises every day, so he should be good at it."
+    },
+    {
+      "prompt": "{弟|おとうと}は{勉強|べんきょう}しないで、ゲーム（　）しています。",
+      "options": [
+        "ばかり",
+        "しか",
+        "ほど",
+        "まで"
+      ],
+      "answer": 0,
+      "explanation": "**Noun + ばかり** = 'nothing but …'. It's often critical: ゲームばかりしている = 'does nothing but play games'.",
+      "notes": [
+        "",
+        "しか ('only') must be followed by a negative verb (ゲームしかしない). しています is positive.",
+        "ほど means 'to the extent of' and doesn't fit.",
+        "まで ('even/until') doesn't express 'nothing but'."
+      ],
+      "translation": "My little brother doesn't study. He does nothing but play games."
+    },
+    {
+      "prompt": "A：もしもし、{今|いま}どこ？　B：ちょうど{今|いま}、{家|いえ}を{出|で}る（　）だよ。",
+      "options": [
+        "ばかり",
+        "まま",
+        "あいだ",
+        "ところ"
+      ],
+      "answer": 3,
+      "explanation": "**Dictionary form + ところだ** = 'just about to …'. Compare: 出ているところ (in the middle of leaving), 出たところ (just left).",
+      "notes": [
+        "ばかり in the sense of 'just did' follows the た-form (出たばかり), not the dictionary form.",
+        "まま ('as is') follows the た-form or ない-form and describes an unchanged state.",
+        "あいだ needs a continuing action (出ている間) and must be followed by に or a clause, not だ.",
+        ""
+      ],
+      "translation": "A: Hello, where are you now? B: I'm just about to leave the house."
+    },
+    {
+      "prompt": "{眼鏡|めがね}をかけた（　）{寝|ね}てしまいました。",
+      "options": [
+        "まま",
+        "ところ",
+        "ばかり",
+        "ながら"
+      ],
+      "answer": 0,
+      "explanation": "**た-form + まま** = 'with … still (unchanged)'. I fell asleep with my glasses still on.",
+      "notes": [
+        "",
+        "かけたところ = 'just put them on'. It doesn't explain the state while sleeping.",
+        "かけたばかり = 'just put them on', and it can't be followed directly by 寝てしまう.",
+        "ながら attaches to the ます-stem (かけながら), not the た-form."
+      ],
+      "translation": "I fell asleep with my glasses on."
+    },
+    {
+      "prompt": "{明日|あした}テストがありますが、30{分|ぷん}（　）{勉強|べんきょう}しませんでした。",
+      "options": [
+        "から",
+        "まで",
+        "だけ",
+        "しか"
+      ],
+      "answer": 3,
+      "explanation": "**しか + negative** = 'only (and that's not enough)'. しか always needs a negative verb.",
+      "notes": [
+        "から means 'from'. 30分から doesn't fit.",
+        "まで means 'until'. 30分まで doesn't fit.",
+        "だけ also means 'only', but it goes with a positive verb (30分だけ勉強しました). With a negative it means 'didn't study for just 30 minutes'.",
+        ""
+      ],
+      "translation": "I have a test tomorrow, but I only studied for 30 minutes."
+    },
+    {
+      "prompt": "{昨日|きのう}は4{時間|じかん}（　）{勉強|べんきょう}しました！",
+      "options": [
+        "しか",
+        "も",
+        "が",
+        "を"
+      ],
+      "answer": 1,
+      "explanation": "**Quantity + も** = 'as many/much as …'. It emphasises that the amount is large.",
+      "notes": [
+        "しか needs a negative verb, and 勉強しました is positive.",
+        "",
+        "が after a duration doesn't make sense here.",
+        "Durations normally take no particle. を would mark 4時間 as an object."
+      ],
+      "translation": "Yesterday I studied for as many as four hours!"
+    },
+    {
+      "prompt": "{寝坊|ねぼう}したので、{朝|あさ}ご{飯|はん}を{食|た}べ（　）{会社|かいしゃ}に{行|い}きました。",
+      "options": [
+        "なくて",
+        "ないと",
+        "なかった",
+        "ないで"
+      ],
+      "answer": 3,
+      "explanation": "**ない-form + で** = 'without doing …': 食べないで行きました = 'went without eating'.",
+      "notes": [
+        "なくて expresses a reason ('because I didn't eat …'). Skipping breakfast isn't the reason for going to work.",
+        "ないと ('if you don't') is conditional and doesn't fit a past event.",
+        "なかった ends a clause. It can't connect directly to the next verb.",
+        ""
+      ],
+      "translation": "I overslept, so I went to work without eating breakfast."
+    }
+  ]
+}

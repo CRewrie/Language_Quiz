@@ -1,0 +1,346 @@
+{
+  "id": "n3-should-no-need",
+  "category": "JLPT N3",
+  "title": "Should & No Need: べき, ばいい, たらいい, ことだ, ことはない",
+  "description": "Moral 'should' (べき), practical advice (ばいい / ことだ), wishes (たらいい / といい), and 'there's no need' (ことはない).",
+  "level": "N3",
+  "points": [
+    {
+      "id": "beki",
+      "title": "〜べきだ: should, ought to",
+      "summary": "Dictionary form + べきだ = what is right or proper (moral duty, strong opinion). する → すべき (or するべき).",
+      "body": "**Meaning:** a strong 'should' based on what is morally right or common sense — stronger than ほうがいい.\n- 約束は守る**べきだ** (one should keep promises).\n- 学生はもっと勉強**すべきだ**.\n\n**Formation:** dictionary form + べき. **する** has two accepted forms: **すべき** and するべき.\n**Past:** べきだった = should have (regret/criticism): あの時、本当のことを言う**べきだった**.\n\nUse with care toward others — it can sound preachy. For personal advice, ほうがいい is softer.",
+      "examples": [
+        [
+          "{約束|やくそく}は{守|まも}るべきだ。",
+          "Promises should be kept."
+        ],
+        [
+          "あの{時|とき}、{本当|ほんとう}のことを{言|い}うべきだった。",
+          "I should have told the truth back then."
+        ]
+      ]
+    },
+    {
+      "id": "bekidewanai",
+      "title": "〜べきではない: should not",
+      "summary": "Dictionary form + べきではない (casual べきじゃない) = one shouldn't. Not ないべき.",
+      "body": "- 人の悪口を言う**べきではない** (you shouldn't speak ill of others).\n- 子供にそんなことを言う**べきじゃない** (casual).\n\nThe negation goes **after** べき: ✓ 言うべきではない, ✗ 言わないべきだ (sounds wrong to most speakers).",
+      "examples": [
+        [
+          "{人|ひと}の{悪口|わるくち}を{言|い}うべきではない。",
+          "You shouldn't speak ill of others."
+        ]
+      ]
+    },
+    {
+      "id": "baii",
+      "title": "〜ばいい: should (practical), all you need to do is",
+      "summary": "ば-form + いい = 'you just need to …, it would be good to'. Asking for advice: どうすればいいですか.",
+      "body": "- 駅までどうやって行け**ばいい**ですか (how should I get to the station?).\n- わからなければ、先生に聞け**ばいい** (just ask the teacher).\n\nIt's practical advice — 'that's all it takes', not moral duty (べき).\n\nForm reminder: 聞く → 聞け**ば**, 食べる → 食べれ**ば**, する → すれ**ば**.",
+      "examples": [
+        [
+          "{駅|えき}までどうやって{行|い}けばいいですか。",
+          "How should I get to the station?"
+        ],
+        [
+          "わからなければ、{先生|せんせい}に{聞|き}けばいい。",
+          "If you don't understand, just ask the teacher."
+        ]
+      ]
+    },
+    {
+      "id": "taraii",
+      "title": "〜たらいい / 〜といい: it would be nice if, I hope",
+      "summary": "たら/と + いい(なあ/ですね) = a wish or hope. Also advice: 〜たらいいですよ.",
+      "body": "- 明日晴れ**たらいいなあ** (I hope it's sunny tomorrow).\n- 試験に合格する**といいですね** (I hope you pass).\n\nForms: た-form + **らいい**; dictionary form + **といい**; ば-form + いい also exists for wishes.\n\nWith past: 〜たらよかった / 〜ばよかった = I wish I had … (regret).",
+      "examples": [
+        [
+          "{明日|あした}、{晴|は}れたらいいなあ。",
+          "I hope it's sunny tomorrow."
+        ],
+        [
+          "{試験|しけん}に{合格|ごうかく}するといいですね。",
+          "I hope you pass the exam."
+        ]
+      ]
+    },
+    {
+      "id": "kotoda",
+      "title": "〜ことだ: you should (advice)",
+      "summary": "Dictionary / ない-form + ことだ = 'the best thing is to …'. Advice from someone with experience or authority.",
+      "body": "- 上手になりたいなら、毎日話す**ことだ** (if you want to improve, speak every day).\n- 健康のためには、夜更かししない**ことだ**.\n\nIt sounds like advice from an older or more experienced person; mainly in plain speech or writing. Don't use it toward superiors.",
+      "examples": [
+        [
+          "{日本語|にほんご}が{上手|じょうず}になりたいなら、{毎日|まいにち}{話|はな}すことだ。",
+          "If you want to get good at Japanese, speak it every day."
+        ]
+      ]
+    },
+    {
+      "id": "kotowanai",
+      "title": "〜ことはない: there's no need to",
+      "summary": "Dictionary form + ことはない = 'no need to …, don't have to'. Reassuring tone.",
+      "body": "- まだ時間がありますから、急ぐ**ことはありません** (no need to hurry).\n- 心配する**ことはない**よ (no need to worry).\n\nCompare: 〜**た**ことがない = have never done (experience). Different particle (は vs が) and different verb form!",
+      "examples": [
+        [
+          "まだ{時間|じかん}がありますから、{急|いそ}ぐことはありません。",
+          "There's still time, so there's no need to hurry."
+        ],
+        [
+          "そんなに{心配|しんぱい}することはないよ。",
+          "There's no need to worry so much."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "beki",
+      "prompt": "{約束|やくそく}は{守|まも}る（　）だ。",
+      "options": [
+        "べき",
+        "べきの",
+        "べけ",
+        "べく"
+      ],
+      "answer": 0,
+      "explanation": "Dictionary form + **べきだ**.",
+      "notes": [
+        "",
+        "べきのだ isn't grammatical.",
+        "べけ isn't a form.",
+        "べく means 'in order to' (formal) and doesn't take だ here."
+      ],
+      "translation": "Promises should be kept."
+    },
+    {
+      "point": "beki",
+      "prompt": "{学生|がくせい}はもっと{勉強|べんきょう}（　）だ。",
+      "options": [
+        "しべき",
+        "せべき",
+        "さべき",
+        "すべき"
+      ],
+      "answer": 3,
+      "explanation": "する → **すべき** (するべき is also correct).",
+      "notes": [
+        "しべき isn't a form.",
+        "せべき isn't a form.",
+        "さべき isn't a form.",
+        ""
+      ],
+      "translation": "Students should study more."
+    },
+    {
+      "point": "beki",
+      "prompt": "あの{時|とき}、{本当|ほんとう}のことを{言|い}う（　）。",
+      "options": [
+        "べきだ",
+        "べくだった",
+        "べきだった",
+        "べきかった"
+      ],
+      "answer": 2,
+      "explanation": "Regret about the past: **べきだった** = should have.",
+      "notes": [
+        "べきだ is present — clashes with あの時.",
+        "べくだった isn't a form.",
+        "",
+        "べき is noun-like, so the past is べきだった, not べきかった."
+      ],
+      "translation": "I should have told the truth back then."
+    },
+    {
+      "point": "bekidewanai",
+      "prompt": "{人|ひと}の{悪口|わるくち}を{言|い}う（　）。",
+      "options": [
+        "べくない",
+        "べきではない",
+        "べきない",
+        "ないべきだ"
+      ],
+      "answer": 1,
+      "explanation": "Negative: **べきではない** (casual べきじゃない).",
+      "notes": [
+        "べくない isn't a form.",
+        "",
+        "べき needs ではない, not just ない.",
+        "The negation belongs after べき — and ないべきだ would need 言わない anyway."
+      ],
+      "translation": "You shouldn't speak ill of others."
+    },
+    {
+      "point": "bekidewanai",
+      "prompt": "{子供|こども}にそんなことを{言|い}う（　）じゃないよ。",
+      "options": [
+        "べきだ",
+        "べく",
+        "べき",
+        "べきの"
+      ],
+      "answer": 2,
+      "explanation": "Casual negative: **べきじゃない**.",
+      "notes": [
+        "べきだじゃない doubles the copula.",
+        "べくじゃない isn't a form.",
+        "",
+        "べきのじゃない isn't grammatical."
+      ],
+      "translation": "You shouldn't say things like that to a child."
+    },
+    {
+      "point": "baii",
+      "prompt": "すみません、{駅|えき}までどうやって{行|い}け（　）いいですか。",
+      "options": [
+        "ば",
+        "と",
+        "て",
+        "たら"
+      ],
+      "answer": 0,
+      "explanation": "行け + **ば** + いい = how should I go?",
+      "notes": [
+        "",
+        "と needs the dictionary form (行くと).",
+        "行けて is the て-form of 'can go' — wrong pattern.",
+        "たら needs the た-form (行ったら) — not 行け."
+      ],
+      "translation": "Excuse me, how should I get to the station?"
+    },
+    {
+      "point": "baii",
+      "prompt": "わからなければ、{先生|せんせい}に（　）いい。",
+      "options": [
+        "{聞|き}いば",
+        "{聞|き}きば",
+        "{聞|き}けば",
+        "{聞|き}くば"
+      ],
+      "answer": 2,
+      "explanation": "聞く → **聞けば** (u → e + ば).",
+      "notes": [
+        "聞いば isn't a form.",
+        "ば doesn't attach to the ます-stem.",
+        "",
+        "ば doesn't attach to the dictionary form."
+      ],
+      "translation": "If you don't understand, just ask the teacher."
+    },
+    {
+      "point": "taraii",
+      "prompt": "{明日|あした}、{晴|は}れ（　）いいなあ。",
+      "options": [
+        "と",
+        "たら",
+        "たり",
+        "てら"
+      ],
+      "answer": 1,
+      "explanation": "Wish: た-form + **らいい** → 晴れたらいいなあ.",
+      "notes": [
+        "と needs the dictionary form: 晴れるといい.",
+        "",
+        "たり lists actions.",
+        "てら isn't a form."
+      ],
+      "translation": "I hope it's sunny tomorrow."
+    },
+    {
+      "point": "taraii",
+      "prompt": "{試験|しけん}に{合格|ごうかく}する（　）いいですね。",
+      "options": [
+        "たら",
+        "て",
+        "ば",
+        "と"
+      ],
+      "answer": 3,
+      "explanation": "Dictionary form + **といい** = I hope.",
+      "notes": [
+        "たら needs the た-form: 合格したら.",
+        "合格するて isn't a form.",
+        "ば needs the ば-form: 合格すれば.",
+        ""
+      ],
+      "translation": "I hope you pass the exam."
+    },
+    {
+      "point": "kotoda",
+      "prompt": "{日本語|にほんご}が{上手|じょうず}になりたいなら、{毎日|まいにち}{話|はな}す（　）。",
+      "options": [
+        "ことか",
+        "ことに",
+        "ことだ",
+        "ことがある"
+      ],
+      "answer": 2,
+      "explanation": "Advice: **ことだ** = the best thing is to ….",
+      "notes": [
+        "ことか expresses strong emotion ('how …!').",
+        "ことに needs a following clause (〜ことにする etc.).",
+        "",
+        "ことがある = 'sometimes' — not advice."
+      ],
+      "translation": "If you want to get good at Japanese, speak it every day."
+    },
+    {
+      "point": "kotoda",
+      "prompt": "{健康|けんこう}のためには、{夜|よる}{遅|おそ}くまで{起|お}きていない（　）。",
+      "options": [
+        "ことに",
+        "ことだ",
+        "ことで",
+        "ことか"
+      ],
+      "answer": 1,
+      "explanation": "Negative advice: ない-form + **ことだ**.",
+      "notes": [
+        "ことに can't end the sentence here.",
+        "",
+        "ことで = 'by doing' — incomplete.",
+        "ことか = 'how …!' — doesn't fit advice."
+      ],
+      "translation": "For your health, don't stay up late."
+    },
+    {
+      "point": "kotowanai",
+      "prompt": "まだ{時間|じかん}がありますから、{急|いそ}ぐ（　）。",
+      "options": [
+        "ことはなりません",
+        "ことにありません",
+        "ことはありません",
+        "ことでありません"
+      ],
+      "answer": 2,
+      "explanation": "No need: **ことはない / ことはありません**.",
+      "notes": [
+        "ことはなりません isn't the pattern.",
+        "ことにありません isn't grammatical.",
+        "",
+        "ことでありません isn't grammatical."
+      ],
+      "translation": "There's still time, so there's no need to hurry."
+    },
+    {
+      "point": "kotowanai",
+      "prompt": "What does 「{心配|しんぱい}することはないよ」 mean?",
+      "options": [
+        "You must worry.",
+        "I have never worried.",
+        "I can't worry.",
+        "There's no need to worry."
+      ],
+      "answer": 3,
+      "explanation": "Dictionary form + **ことはない** = no need to.",
+      "notes": [
+        "'Must worry' would be 心配しなければならない.",
+        "'Never worried' would be 心配したことがない.",
+        "'Can't worry' would be 心配できない.",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}

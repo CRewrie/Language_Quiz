@@ -1,0 +1,232 @@
+{
+  "id": "zh-b1-bei",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Passive & Causative: 被, 让 / 叫, 把 vs 被",
+  "description": "Something happens to the subject (被, usually unpleasant), someone makes / lets someone do something (让), and telling 把 from 被.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "bei_basic",
+      "title": "Subject + 被 (+ doer) + verb + …",
+      "summary": "被 (bèi) = passive. The subject suffers the action; the doer is optional. Like 把, the verb needs a result or 了.",
+      "body": "- 我的自行车**被**(人)偷了.\n- 他**被**老师批评了.",
+      "examples": [
+        [
+          "{我|wǒ}{的|de}{自行车|zìxíngchē}{被|bèi}{人|rén}{偷|tōu}{了|le}。",
+          "My bike got stolen."
+        ]
+      ]
+    },
+    {
+      "id": "bei_neg",
+      "title": "没 + 被",
+      "summary": "Negation goes before 被: 没被….",
+      "body": "- 我的钱包**没被**偷.",
+      "examples": [
+        [
+          "{还好|háihǎo}，{我|wǒ}{的|de}{钱包|qiánbāo}{没|méi}{被|bèi}{偷|tōu}。",
+          "Luckily my wallet wasn't stolen."
+        ]
+      ]
+    },
+    {
+      "id": "rang",
+      "title": "让 / 叫 + person + verb: make / let",
+      "summary": "让 (ràng) / 叫 (jiào) + person + verb = make / tell / let someone do something.",
+      "body": "- 妈妈**让**我去买牛奶.\n- 老师**让**我们写作业.",
+      "examples": [
+        [
+          "{老师|lǎoshī}{让|ràng}{我们|wǒmen}{写|xiě}{作业|zuòyè}。",
+          "The teacher made us do homework."
+        ]
+      ]
+    },
+    {
+      "id": "ba_vs_bei",
+      "title": "把 vs 被",
+      "summary": "Doer + **把** + thing + verb (the doer is the subject). Thing + **被** + doer + verb (the thing is the subject).",
+      "body": "- 风**把**门吹开了 (The wind blew the door open).\n- 门**被**风吹开了 (The door was blown open by the wind).",
+      "examples": [
+        [
+          "{门|mén}{被|bèi}{风|fēng}{吹|chuī}{开|kāi}{了|le}。",
+          "The door was blown open by the wind."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "bei_basic",
+      "prompt": "{我|wǒ}{的|de}{自行车|zìxíngchē}（　）{人|rén}{偷|tōu}{了|le}。",
+      "options": [
+        "{把|bǎ}",
+        "{对|duì}",
+        "{跟|gēn}",
+        "{被|bèi}"
+      ],
+      "answer": 3,
+      "explanation": "Passive: **被**.",
+      "notes": [
+        "把 would make the bike the thief.",
+        "对人 = 'towards people'.",
+        "跟人 = 'with someone'.",
+        ""
+      ],
+      "translation": "My bike got stolen."
+    },
+    {
+      "point": "bei_basic",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{被|bèi}{老师|lǎoshī}{批评|pīpíng}{了|le}。",
+        "{被|bèi}{老师|lǎoshī}{他|tā}{批评|pīpíng}{了|le}。",
+        "{他|tā}{被|bèi}{老师|lǎoshī}{了|le}{批评|pīpíng}。",
+        "{他|tā}{被|bèi}{批评|pīpíng}{老师|lǎoshī}{了|le}。"
+      ],
+      "answer": 0,
+      "explanation": "Subject + 被 + **doer** + verb + 了.",
+      "notes": [
+        "",
+        "The subject comes before 被.",
+        "了 follows the verb.",
+        "The doer comes right after 被."
+      ],
+      "translation": "He was told off by the teacher."
+    },
+    {
+      "point": "bei_basic",
+      "prompt": "What does 「{蛋糕|dàngāo}{被|bèi}{弟弟|dìdi}{吃|chī}{了|le}。」 mean?",
+      "options": [
+        "Mylittlebrotherwaseatenbythecake.",
+        "Thecakewaseatenbymylittlebrother.",
+        "Mylittlebrotherboughtthecake.",
+        "Mylittlebrotherdidn'teatthecake."
+      ],
+      "answer": 1,
+      "explanation": "被 + doer = **by**.",
+      "notes": [
+        "被 + doer: the brother is the eater.",
+        "",
+        "Nothing was bought.",
+        "There's no negation."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "bei_neg",
+      "prompt": "Where does **{没|méi}** go?\n{我|wǒ}{的|de}{钱包|qiánbāo}［A］{被|bèi}［B］{小偷|xiǎotōu}［C］{偷|tōu}［D］{走|zǒu}。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "**没** before 被.",
+      "notes": [
+        "",
+        "没 can't come between 被 and the doer.",
+        "没 can't come after the doer.",
+        "没 can't split 偷 and 走."
+      ],
+      "translation": "My wallet wasn't taken by the thief.",
+      "fixed_order": true
+    },
+    {
+      "point": "bei_neg",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{的|de}{钱包|qiánbāo}{被|bèi}{没|méi}{偷|tōu}。",
+        "{我|wǒ}{的|de}{钱包|qiánbāo}{不|bú}{被|bèi}{偷|tōu}{了|le}。",
+        "{我|wǒ}{的|de}{钱包|qiánbāo}{没|méi}{被|bèi}{偷|tōu}。",
+        "{我|wǒ}{的|de}{钱包|qiánbāo}{被|bèi}{偷|tōu}{没|méi}。"
+      ],
+      "answer": 2,
+      "explanation": "**没被** + verb.",
+      "notes": [
+        "没 goes before 被.",
+        "A past event takes 没, not 不…了.",
+        "",
+        "没 can't follow the verb."
+      ],
+      "translation": "My wallet wasn't stolen."
+    },
+    {
+      "point": "rang",
+      "prompt": "{妈妈|māma}（　）{我|wǒ}{去|qù}{超市|chāoshì}{买|mǎi}{牛奶|niúnǎi}。",
+      "options": [
+        "{让|ràng}",
+        "{对|duì}",
+        "{被|bèi}",
+        "{把|bǎ}"
+      ],
+      "answer": 0,
+      "explanation": "Make / tell: **让**.",
+      "notes": [
+        "",
+        "对我 = 'to me' — no verb fits.",
+        "被 = passive — 'I was … by mum'.",
+        "把我去 isn't grammatical."
+      ],
+      "translation": "Mum told me to go to the supermarket to buy milk."
+    },
+    {
+      "point": "rang",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{老师|lǎoshī}{我们|wǒmen}{让|ràng}{写|xiě}{作业|zuòyè}。",
+        "{老师|lǎoshī}{让|ràng}{写|xiě}{作业|zuòyè}{我们|wǒmen}。",
+        "{让|ràng}{老师|lǎoshī}{我们|wǒmen}{写|xiě}{作业|zuòyè}。",
+        "{老师|lǎoshī}{让|ràng}{我们|wǒmen}{写|xiě}{作业|zuòyè}。"
+      ],
+      "answer": 3,
+      "explanation": "让 + **person** + verb.",
+      "notes": [
+        "让 comes before the person.",
+        "The person comes right after 让.",
+        "The subject comes first.",
+        ""
+      ],
+      "translation": "The teacher made us do homework."
+    },
+    {
+      "point": "ba_vs_bei",
+      "prompt": "{门|mén}（　）{风|fēng}{吹|chuī}{开|kāi}{了|le}。",
+      "options": [
+        "{对|duì}",
+        "{从|cóng}",
+        "{被|bèi}",
+        "{把|bǎ}"
+      ],
+      "answer": 2,
+      "explanation": "The door is the subject: **被**.",
+      "notes": [
+        "对风 doesn't fit.",
+        "从风 doesn't fit.",
+        "",
+        "门把风吹开了 = 'the door blew the wind open'."
+      ],
+      "translation": "The door was blown open by the wind."
+    },
+    {
+      "point": "ba_vs_bei",
+      "prompt": "{风|fēng}（　）{门|mén}{吹|chuī}{开|kāi}{了|le}。",
+      "options": [
+        "{把|bǎ}",
+        "{从|cóng}",
+        "{被|bèi}",
+        "{对|duì}"
+      ],
+      "answer": 0,
+      "explanation": "The wind does it: **把**.",
+      "notes": [
+        "",
+        "从门 = 'from the door'.",
+        "风被门吹开了 = 'the wind was blown open by the door'.",
+        "对门 = 'opposite / towards the door'."
+      ],
+      "translation": "The wind blew the door open."
+    }
+  ]
+}

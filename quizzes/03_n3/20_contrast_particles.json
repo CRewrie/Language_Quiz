@@ -1,0 +1,281 @@
+{
+  "id": "n3-contrast-particles",
+  "category": "JLPT N3",
+  "title": "Which One? にとって/に対して, にしては/にしても, くせに/わりに, がち/ぎみ, ところで/ところが",
+  "description": "Contrast practice for N3 expressions that sound alike but mean different things.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "nitotte-vs-nitaishite",
+      "title": "にとって vs に対して",
+      "summary": "にとって + evaluation (大切/難しい/便利) = from X's point of view. に対して + action/attitude = toward X (or 'in contrast to').",
+      "body": "- 私**にとって**家族は大切だ (evaluation from my viewpoint).\n- 客**に対して**失礼な態度をとる (an attitude directed at the customer).\n\nQuick test: is the next part an adjective judging something (大切, 難しい)? → にとって. Is it an action or attitude aimed at someone (失礼, 厳しい態度, 反対する)? → に対して.",
+      "examples": [
+        [
+          "{私|わたし}にとって、{家族|かぞく}は{一番|いちばん}{大切|たいせつ}だ。",
+          "For me, family is the most important thing."
+        ],
+        [
+          "お{客様|きゃくさま}に{対|たい}して{失礼|しつれい}な{態度|たいど}をとってはいけない。",
+          "You mustn't be rude to customers."
+        ]
+      ]
+    },
+    {
+      "id": "nishitewa-vs-nishitemo",
+      "title": "にしては vs にしても",
+      "summary": "にしては = 'for (a …), it's unexpectedly …' (surprise). にしても = 'even if/granting that …, still …'.",
+      "body": "- 初心者**にしては**上手だ (good, for a beginner — surprise).\n- 忙しい**にしても**、電話ぐらいできるでしょう (even granting you're busy, you could at least call).",
+      "examples": [
+        [
+          "{初心者|しょしんしゃ}にしては、{上手|じょうず}ですね。",
+          "You're good for a beginner."
+        ],
+        [
+          "{忙|いそが}しいにしても、{電話|でんわ}ぐらいできるでしょう。",
+          "Even if you're busy, you could at least call."
+        ]
+      ]
+    },
+    {
+      "id": "kuseni-vs-warini",
+      "title": "くせに vs わりに",
+      "summary": "くせに = criticism of a PERSON ('even though …, and that annoys me'). わりに = neutral 'considering', also for things.",
+      "body": "- 知っている**くせに**教えない (annoyed at someone).\n- 値段の**わりに**おいしい (neutral, about a thing).\n\nくせに can't be used for things or for yourself; わりに can.",
+      "examples": [
+        [
+          "{知|し}っているくせに、{教|おし}えてくれない。",
+          "He knows, but he won't tell me."
+        ],
+        [
+          "この{店|みせ}は{値段|ねだん}のわりにおいしい。",
+          "This shop is tasty for the price."
+        ]
+      ]
+    },
+    {
+      "id": "gachi-vs-gimi",
+      "title": "がち vs ぎみ",
+      "summary": "がち = tends to happen often (a habit/frequency). ぎみ = a slight sign of a state right now.",
+      "body": "- 冬は風邪をひき**がち**だ (people often catch colds in winter).\n- 今日は少し風邪**ぎみ**だ (I've got a slight cold today).",
+      "examples": [
+        [
+          "{冬|ふゆ}は{風邪|かぜ}をひきがちだ。",
+          "People tend to catch colds in winter."
+        ],
+        [
+          "{今日|きょう}は{少|すこ}し{風邪|かぜ}ぎみだ。",
+          "I've got a slight cold today."
+        ]
+      ]
+    },
+    {
+      "id": "tokorode-vs-tokoroga",
+      "title": "ところで vs ところが",
+      "summary": "ところで = by the way (topic change). ところが = however (unexpected result).",
+      "body": "- **ところで**、明日の予定は？ (by the way…)\n- 急いで行った。**ところが**、店は閉まっていた (but unexpectedly…).",
+      "examples": [
+        [
+          "ところで、{明日|あした}の{予定|よてい}は？",
+          "By the way, what are your plans tomorrow?"
+        ],
+        [
+          "{急|いそ}いで{行|い}った。ところが、{店|みせ}は{閉|し}まっていた。",
+          "I hurried there. However, the shop was closed."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nitotte-vs-nitaishite",
+      "prompt": "{留学生|りゅうがくせい}（　）、{日本|にほん}の{敬語|けいご}はとても{難|むずか}しい。",
+      "options": [
+        "にとって",
+        "について",
+        "によって",
+        "に{対|たい}して"
+      ],
+      "answer": 0,
+      "explanation": "Evaluation (難しい) from someone's viewpoint → **にとって**.",
+      "notes": [
+        "",
+        "について = 'about'.",
+        "によって = 'by / depending on'.",
+        "に対して is for actions/attitudes toward someone, not an evaluation."
+      ],
+      "translation": "For international students, Japanese honorifics are very difficult."
+    },
+    {
+      "point": "nitotte-vs-nitaishite",
+      "prompt": "お{客様|きゃくさま}（　）{失礼|しつれい}な{態度|たいど}をとってはいけない。",
+      "options": [
+        "にかけて",
+        "に{対|たい}して",
+        "にとって",
+        "について"
+      ],
+      "answer": 1,
+      "explanation": "Attitude directed at someone → **に対して**.",
+      "notes": [
+        "にかけて = 'over (a period)'.",
+        "",
+        "にとって needs an evaluation, not an attitude toward someone.",
+        "について = 'about'."
+      ],
+      "translation": "You mustn't be rude to customers."
+    },
+    {
+      "point": "nishitewa-vs-nishitemo",
+      "prompt": "{初心者|しょしんしゃ}（　）、{上手|じょうず}ですね。",
+      "options": [
+        "にしても",
+        "として",
+        "にしては",
+        "にとって"
+      ],
+      "answer": 2,
+      "explanation": "Surprisingly good for a beginner → **にしては**.",
+      "notes": [
+        "にしても = 'even granting' — doesn't express surprise.",
+        "として = 'as (a role)'.",
+        "",
+        "にとって = 'for (someone's viewpoint)'."
+      ],
+      "translation": "You're good for a beginner."
+    },
+    {
+      "point": "nishitewa-vs-nishitemo",
+      "prompt": "{忙|いそが}しい（　）、{電話|でんわ}ぐらいできるでしょう。",
+      "options": [
+        "にしては",
+        "にとって",
+        "として",
+        "にしても"
+      ],
+      "answer": 3,
+      "explanation": "Even granting that → **にしても**.",
+      "notes": [
+        "にしては = 'for (a busy person), surprisingly' — doesn't fit.",
+        "にとって = 'for'.",
+        "として = 'as'.",
+        ""
+      ],
+      "translation": "Even if you're busy, you could at least call."
+    },
+    {
+      "point": "kuseni-vs-warini",
+      "prompt": "（Annoyed）{自分|じぶん}はやらない（　）、{人|ひと}には{文句|もんく}ばかり{言|い}う。",
+      "options": [
+        "おかげで",
+        "くせに",
+        "わりに",
+        "ために"
+      ],
+      "answer": 1,
+      "explanation": "Criticising a person → **くせに**.",
+      "notes": [
+        "おかげで = 'thanks to'.",
+        "",
+        "わりに is neutral and doesn't carry the criticism here.",
+        "ために = 'because / in order to'."
+      ],
+      "translation": "He doesn't do anything himself, yet he's always complaining about others."
+    },
+    {
+      "point": "kuseni-vs-warini",
+      "prompt": "このレストランは{値段|ねだん}の（　）、{量|りょう}が{多|おお}い。",
+      "options": [
+        "くせに",
+        "とおりに",
+        "せいで",
+        "わりに"
+      ],
+      "answer": 3,
+      "explanation": "Neutral 'considering', about a thing → **わりに**.",
+      "notes": [
+        "くせに criticises people, not prices.",
+        "値段のとおりに = 'exactly as the price'.",
+        "せいで blames for something bad.",
+        ""
+      ],
+      "translation": "For the price, this restaurant gives big portions."
+    },
+    {
+      "point": "gachi-vs-gimi",
+      "prompt": "{冬|ふゆ}は{運動|うんどう}{不足|ぶそく}になり（　）だ。",
+      "options": [
+        "っぽい",
+        "ぎみ",
+        "がち",
+        "だらけ"
+      ],
+      "answer": 2,
+      "explanation": "Tends to happen (often) → **がち**.",
+      "notes": [
+        "なりっぽい isn't used.",
+        "ぎみ describes a slight current state — 〜になりぎみ isn't used.",
+        "",
+        "だらけ = 'covered with'."
+      ],
+      "translation": "In winter, people tend not to get enough exercise."
+    },
+    {
+      "point": "gachi-vs-gimi",
+      "prompt": "{今日|きょう}は{少|すこ}し{疲|つか}れ（　）なので、{早|はや}く{帰|かえ}ります。",
+      "options": [
+        "っぽさ",
+        "ぎみ",
+        "がち",
+        "だらけ"
+      ],
+      "answer": 1,
+      "explanation": "A slight state right now (少し) → **ぎみ**.",
+      "notes": [
+        "っぽさ is a noun ('-ishness').",
+        "",
+        "がち is about frequency, not 'a little today'.",
+        "疲れだらけ isn't used."
+      ],
+      "translation": "I'm a bit tired today, so I'll go home early."
+    },
+    {
+      "point": "tokorode-vs-tokoroga",
+      "prompt": "{試験|しけん}の{話|はなし}はこれで{終|お}わり。（　）、{週末|しゅうまつ}は{何|なに}をするの？",
+      "options": [
+        "ところが",
+        "だから",
+        "ところで",
+        "それで"
+      ],
+      "answer": 2,
+      "explanation": "Topic change → **ところで**.",
+      "notes": [
+        "ところが = 'however (unexpectedly)'.",
+        "だから = 'therefore'.",
+        "",
+        "それで = 'so'."
+      ],
+      "translation": "That's it about the exam. By the way, what are you doing this weekend?"
+    },
+    {
+      "point": "tokorode-vs-tokoroga",
+      "prompt": "{急|いそ}いで{店|みせ}に{行|い}った。（　）、もう{閉|し}まっていた。",
+      "options": [
+        "ところが",
+        "すると",
+        "それで",
+        "ところで"
+      ],
+      "answer": 0,
+      "explanation": "Unexpected result → **ところが**.",
+      "notes": [
+        "",
+        "すると = 'and then (what happened next)' — no sense of contrast.",
+        "それで = 'so'.",
+        "ところで changes the topic."
+      ],
+      "translation": "I hurried to the shop. However, it was already closed."
+    }
+  ]
+}

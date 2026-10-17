@@ -1,0 +1,279 @@
+{
+  "id": "adjectives-comparison",
+  "category": "Mixed practice (N5–N4)",
+  "title": "Adjectives & Comparisons",
+  "description": "い/な-adjective conjugation, くて/で, 〜くなる/〜になる, より・ほう・いちばん, 〜そう, 〜やすい, 〜すぎる.",
+  "level": "N5–N4",
+  "questions": [
+    {
+      "prompt": "{昨日|きのう}はとても{寒|さむ}（　）です。",
+      "options": [
+        "いでした",
+        "かった",
+        "だった",
+        "くかった"
+      ],
+      "answer": 1,
+      "explanation": "Polite past of an **い-adjective**: drop い and add **かったです**: 寒い → 寒かったです.",
+      "notes": [
+        "〜いでした is a very common mistake. い-adjectives conjugate themselves. You can't put でした after them.",
+        "",
+        "だった is the plain past of です/だ, used for nouns and な-adjectives. い-adjectives don't take it.",
+        "くかった mixes two endings. The past is just 〜かった."
+      ],
+      "translation": "It was very cold yesterday."
+    },
+    {
+      "prompt": "この{映画|えいが}はあまり{面白|おもしろ}（　）。",
+      "options": [
+        "くありです",
+        "いではありません",
+        "じゃないです",
+        "くないです"
+      ],
+      "answer": 3,
+      "explanation": "**あまり + negative** = 'not very'. The negative of an い-adjective is **〜くない(です)**: 面白い → 面白くないです (or 面白くありません).",
+      "notes": [
+        "くありです doesn't exist. The forms are 〜くありません or 〜くないです.",
+        "ではありません is the negative of nouns and な-adjectives. い-adjectives use 〜くありません.",
+        "じゃないです is also for nouns and な-adjectives (静かじゃないです).",
+        ""
+      ],
+      "translation": "This movie isn't very interesting."
+    },
+    {
+      "prompt": "{先週|せんしゅう}のテストは{簡単|かんたん}（　）。",
+      "options": [
+        "くでした",
+        "でした",
+        "かったです",
+        "いでした"
+      ],
+      "answer": 1,
+      "explanation": "**簡単** is a **な-adjective**, so it behaves like a noun: 簡単です → 簡単**でした**.",
+      "notes": [
+        "くでした mixes い-adjective and noun patterns and doesn't exist.",
+        "",
+        "〜かった is the past ending for い-adjectives. 簡単 is a な-adjective.",
+        "簡単 doesn't end in い, so there's nothing to conjugate. Just add でした."
+      ],
+      "translation": "Last week's test was easy."
+    },
+    {
+      "prompt": "この{部屋|へや}は{広|ひろ}（　）、{明|あか}るいです。",
+      "options": [
+        "くて",
+        "くで",
+        "いで",
+        "いて"
+      ],
+      "answer": 0,
+      "explanation": "To link an **い-adjective** to the next phrase ('… and …'), drop い and add **くて**: 広い → 広くて.",
+      "notes": [
+        "",
+        "The connective form is くて, not くで.",
+        "いで isn't an adjective form. It looks like a て-form of a ぐ-verb.",
+        "い-adjectives don't take a て-form like verbs (広いて). Use 〜くて."
+      ],
+      "translation": "This room is spacious and bright."
+    },
+    {
+      "prompt": "この{町|まち}は{静|しず}か（　）、きれいです。",
+      "options": [
+        "に",
+        "な",
+        "くて",
+        "で"
+      ],
+      "answer": 3,
+      "explanation": "To link a **な-adjective** or noun to the next phrase, use **で**: 静かで, きれいで, 学生で.",
+      "notes": [
+        "に makes an adverb (静かに話す, 'speak quietly'). It doesn't mean 'and'.",
+        "な is used only before a noun (静かな町), not to connect two clauses.",
+        "くて is only for い-adjectives. 静か is a な-adjective.",
+        ""
+      ],
+      "translation": "This town is quiet and pretty."
+    },
+    {
+      "prompt": "{京都|きょうと}は{有名|ゆうめい}（　）{町|まち}です。",
+      "options": [
+        "の",
+        "に",
+        "な",
+        "い"
+      ],
+      "answer": 2,
+      "explanation": "Before a noun, a **な-adjective** takes **な**: 有名な町, きれいな花, 静かな部屋.",
+      "notes": [
+        "の links two nouns. 有名 is an adjective, so it uses な.",
+        "に turns it into an adverb or a result (有名になる). It can't modify 町 directly.",
+        "",
+        "有名 is a な-adjective. 有名い doesn't exist."
+      ],
+      "translation": "Kyoto is a famous city."
+    },
+    {
+      "prompt": "{東京|とうきょう}は{大阪|おおさか}（　）{大|おお}きいです。",
+      "options": [
+        "まで",
+        "から",
+        "ほう",
+        "より"
+      ],
+      "answer": 3,
+      "explanation": "**AはBより〜** = 'A is more … than B'. より marks the thing being compared against.",
+      "notes": [
+        "まで means 'until/as far as'. It doesn't compare.",
+        "から means 'from' or 'because'. It doesn't compare.",
+        "ほう is used as AのほうがBより… and needs の and が: 東京のほうが大きいです.",
+        ""
+      ],
+      "translation": "Tokyo is bigger than Osaka."
+    },
+    {
+      "prompt": "A：{電車|でんしゃ}とバスと、どちら（　）{速|はや}いですか。　B：{電車|でんしゃ}のほうが{速|はや}いです。",
+      "options": [
+        "が",
+        "を",
+        "は",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "**AとBと、どちらが〜ですか** = 'Which is more … , A or B?'. The question word どちら is the subject, so it takes **が**.",
+      "notes": [
+        "",
+        "を marks an object, but there's no action verb here.",
+        "Question words can't be the topic with は. どちらは is ungrammatical.",
+        "に doesn't mark the subject of an adjective."
+      ],
+      "translation": "A: Which is faster, the train or the bus? B: The train is faster."
+    },
+    {
+      "prompt": "バスの（　）が{電車|でんしゃ}（　）{安|やす}いです。",
+      "options": [
+        "ひと／より",
+        "ほう／より",
+        "みち／も",
+        "ほう／ので"
+      ],
+      "answer": 1,
+      "explanation": "**AのほうがBより〜** = 'A is more … than B'. ほう ('side') highlights the winner, and より marks the loser.",
+      "notes": [
+        "ひと means 'person', so バスのひと would be 'the bus person'.",
+        "",
+        "みち means 'road', and も ('also') doesn't compare.",
+        "ので means 'because'. It can't mark the item being compared against."
+      ],
+      "translation": "The bus is cheaper than the train."
+    },
+    {
+      "prompt": "{果物|くだもの}の{中|なか}で、{何|なに}が（　）{好|す}きですか。",
+      "options": [
+        "より",
+        "とても",
+        "いちばん",
+        "もっと"
+      ],
+      "answer": 2,
+      "explanation": "**〜の中で、何がいちばん〜** = 'Among …, what is the most …?'. いちばん is the superlative.",
+      "notes": [
+        "より marks the item compared against (Bより). It doesn't stand alone before an adjective.",
+        "とても means 'very'. It doesn't ask which one ranks highest.",
+        "",
+        "もっと means 'more' and compares two things. 'Among the fruits' calls for 'the most'."
+      ],
+      "translation": "Among fruits, which do you like the most?"
+    },
+    {
+      "prompt": "{掃除|そうじ}したので、{部屋|へや}が（　）なりました。",
+      "options": [
+        "きれいに",
+        "きれいく",
+        "きれいな",
+        "きれいだ"
+      ],
+      "answer": 0,
+      "explanation": "'Become …': **な-adjective + に + なる** (きれいになる). い-adjectives use 〜くなる (高くなる).",
+      "notes": [
+        "",
+        "きれい is a な-adjective even though it ends in い. It doesn't conjugate with く.",
+        "な is for modifying a noun (きれいな部屋), not for なる.",
+        "だ ends a sentence. It can't come before なる."
+      ],
+      "translation": "I cleaned, so the room became tidy."
+    },
+    {
+      "prompt": "{四月|しがつ}になって、{暖|あたた}か（　）なりました。",
+      "options": [
+        "な",
+        "に",
+        "で",
+        "く"
+      ],
+      "answer": 3,
+      "explanation": "暖かい is an **い-adjective**, so 'become warm' is **暖かくなる** (drop い, add く).",
+      "notes": [
+        "な is used before nouns.",
+        "〜になる is for nouns and な-adjectives. い-adjectives use 〜くなる.",
+        "で is the connective form of な-adjectives and doesn't go with なる.",
+        ""
+      ],
+      "translation": "It's April and it's gotten warmer."
+    },
+    {
+      "prompt": "わあ、このケーキ、おいし（　）ですね。",
+      "options": [
+        "みたい",
+        "そう",
+        "よう",
+        "らしい"
+      ],
+      "answer": 1,
+      "explanation": "**Adjective stem + そう** = 'looks …' (judging by appearance): おいしそう, 高そう, 元気そう.",
+      "notes": [
+        "みたい attaches to the full adjective (おいしいみたい), not the stem.",
+        "",
+        "よう ('seems') needs the full form: おいしいようです. It can't attach to the stem おいし.",
+        "らしい attaches to the full form (おいしいらしい) and means 'I hear', not 'looks'."
+      ],
+      "translation": "Wow, this cake looks delicious."
+    },
+    {
+      "prompt": "このペンはとても{書|か}き（　）ので、いつも{使|つか}っています。",
+      "options": [
+        "にくい",
+        "たい",
+        "すぎる",
+        "やすい"
+      ],
+      "answer": 3,
+      "explanation": "**ます-stem + やすい** = 'easy to …'; **ます-stem + にくい** = 'hard to …'. The pen is always used, so it must be easy to write with.",
+      "notes": [
+        "書きにくい ('hard to write with') is grammatical, but it contradicts using the pen all the time.",
+        "書きたい ('want to write') describes a person's desire. A pen can't want anything.",
+        "書きすぎる ('write too much') doesn't fit with とても or with the meaning.",
+        ""
+      ],
+      "translation": "This pen is very easy to write with, so I always use it."
+    },
+    {
+      "prompt": "{昨日|きのう}{食|た}べ（　）、おなかが{痛|いた}いです。",
+      "options": [
+        "すぎく",
+        "すぎて",
+        "すぎに",
+        "すぎで"
+      ],
+      "answer": 1,
+      "explanation": "**ます-stem + すぎる** = 'do too much'. すぎる is an ichidan verb, so its て-form (giving the reason) is **すぎて**.",
+      "notes": [
+        "く is an adjective ending. すぎる conjugates like a verb.",
+        "",
+        "に doesn't attach to すぎ to make a reason clause.",
+        "すぎる is a verb, so its て-form is すぎて, not すぎで."
+      ],
+      "translation": "I ate too much yesterday, so my stomach hurts."
+    }
+  ]
+}

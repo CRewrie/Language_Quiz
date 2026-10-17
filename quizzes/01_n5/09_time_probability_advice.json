@@ -1,0 +1,579 @@
+{
+  "id": "n5-time-probability-advice",
+  "category": "JLPT N5",
+  "title": "まだ/もう, でしょう/だろう & ほうがいい",
+  "description": "Still / not yet vs. already / anymore, guessing with でしょう and だろう, and giving advice with 〜たほうがいい / 〜ないほうがいい.",
+  "level": "N5",
+  "points": [
+    {
+      "id": "mada",
+      "title": "まだ: still, not yet",
+      "summary": "まだ + positive = 'still'. まだ + 〜ていない = 'not yet'. Reply to もう〜ましたか with いいえ、まだです.",
+      "body": "**まだ** describes something that **hasn't changed yet**:\n- With a positive: **still**: まだ雨が降っています (it's still raining), まだ学生です (I'm still a student).\n- With a negative: **not yet**: まだ食べていません (I haven't eaten yet).\n\n**'Not yet' uses 〜ていません**, the present, not 〜ませんでした:\n- まだ終わっていません ✓\n- まだ終わりませんでした ✗ (that would mean it 'didn't finish' at a past moment)\n\nShort answer: もう宿題をしましたか。—いいえ、**まだです**。\n\nDon't confuse it with **また** ('again'): また来てください.",
+      "examples": [
+        [
+          "{雨|あめ}はまだ{降|ふ}っています。",
+          "It's still raining."
+        ],
+        [
+          "{宿題|しゅくだい}はまだ{終|お}わっていません。",
+          "My homework isn't finished yet."
+        ],
+        [
+          "もう{食|た}べましたか。—いいえ、まだです。",
+          "Have you eaten already? — No, not yet."
+        ]
+      ]
+    },
+    {
+      "id": "mou",
+      "title": "もう: already, anymore",
+      "summary": "もう + positive (often past) = 'already'. もう + negative = 'not anymore'. もう少し / もう一度 = 'a bit more / once more'.",
+      "body": "**もう** marks that a **change has happened**:\n- With a positive: **already**: もう終わりました (it's already finished), もう12時です.\n- With a negative: **not anymore**: もうお腹がいっぱいで食べられません, 彼はもう来ません (he won't come anymore).\n\n**Questions:** もう〜ましたか = 'Have you … yet?' Answers: はい、もう〜ました / いいえ、まだです.\n\n**Also:** もう + amount = 'more': **もう少し** (a little more), **もう一度** (once more), もう一つ (one more).\n\n**まだ and もう are opposites:**\n- まだ学生です (still a student) ↔ もう学生じゃありません (not a student anymore)\n- まだ食べていません (not yet) ↔ もう食べました (already)",
+      "examples": [
+        [
+          "もう{宿題|しゅくだい}をしました。",
+          "I've already done my homework."
+        ],
+        [
+          "もうお{腹|なか}がいっぱいです。",
+          "I'm already full."
+        ],
+        [
+          "{彼|かれ}はもうここに{住|す}んでいません。",
+          "He doesn't live here anymore."
+        ]
+      ]
+    },
+    {
+      "id": "deshou",
+      "title": "でしょう: probably / ~, right?",
+      "summary": "Plain form + でしょう = 'probably' (a polite guess). With rising intonation it asks for agreement: 'right?'. Nouns and な-adjectives drop だ.",
+      "body": "**でしょう** is the polite form of だろう:\n\n**1. Probability / guess:** 明日は雨**でしょう** (it'll probably rain tomorrow). This is the classic weather-forecast phrase. It's often paired with **たぶん** ('probably'): たぶん来る**でしょう**.\n\n**2. Seeking agreement** (rising intonation, often でしょう？ or casual でしょ？): この料理、おいしい**でしょう**？ (This is delicious, right?)\n\n**How it attaches:**\n- Verb / い-adjective: plain form: 降る**でしょう**, 寒い**でしょう**, 来た**でしょう**\n- Noun / な-adjective: **no だ**: 雨**でしょう**, 元気**でしょう** (雨だでしょう ✗)\n\nDon't confuse it with **ましょう** ('let's'), which attaches to the ます-stem.",
+      "examples": [
+        [
+          "{明日|あした}は{雨|あめ}でしょう。",
+          "It will probably rain tomorrow."
+        ],
+        [
+          "{彼|かれ}はたぶん{来|く}るでしょう。",
+          "He'll probably come."
+        ],
+        [
+          "このケーキ、おいしいでしょう？",
+          "This cake is delicious, isn't it?"
+        ]
+      ]
+    },
+    {
+      "id": "darou",
+      "title": "だろう: probably (plain)",
+      "summary": "だろう is the plain/casual form of でしょう. It's used in thoughts, writing and casual (often male) speech. It attaches exactly like でしょう.",
+      "body": "**だろう** = **でしょう** in plain style. Same meaning (probably, I suppose) and same attachment:\n- 雨が降る**だろう**, 寒い**だろう**, 学生**だろう** (no だ before だろう!)\n\n**Where it's used:**\n- Inner thoughts and writing (essays, diaries, novels): 明日は晴れる**だろう**.\n- With と思う, very common in polite speech too: 来る**だろうと思います** (I think he'll probably come).\n- Casual speech, mostly male. Women more often use でしょ.\n- Questions to yourself: **だろうか** / **かな** = 'I wonder'.\n\n**Mistakes:** だろうです ✗ (a polite ending can't follow だろう; use でしょう instead), 雨だだろう ✗.",
+      "examples": [
+        [
+          "{明日|あした}は{晴|は}れるだろう。",
+          "It'll probably be sunny tomorrow."
+        ],
+        [
+          "{彼|かれ}はもう{家|いえ}に{着|つ}いただろう。",
+          "He's probably already arrived home."
+        ],
+        [
+          "{田中|たなか}さんも{来|く}るだろうと{思|おも}います。",
+          "I think Mr. Tanaka will probably come too."
+        ]
+      ]
+    },
+    {
+      "id": "hougaii",
+      "title": "〜たほうがいい: you'd better / it's better to",
+      "summary": "た-form + ほうがいい(です) gives advice: 'you should …'. The past form is used even though the advice is about the future.",
+      "body": "**Plain past (た-form) + ほうがいい** = 'it would be better to …, you should …':\n- 病院へ行っ**たほうがいい**ですよ (you'd better go to the hospital).\n\n**Why the た-form?** It's an idiom. The dictionary form (行くほうがいい) also exists, but it sounds like a general comparison, while the た-form gives **personal, specific advice**.\n\n**Nuance:** it's quite direct and implies 'something bad may happen if you don't'. Toward superiors, soften it (〜たほうがいいかもしれません) or avoid it.\n\nAdding **よ** makes it sound like friendly advice: 〜たほうがいいですよ.",
+      "examples": [
+        [
+          "{熱|ねつ}がありますね。{病院|びょういん}へ{行|い}ったほうがいいですよ。",
+          "You have a fever. You'd better go to the hospital."
+        ],
+        [
+          "{寝|ね}るまえに{歯|は}を{磨|みが}いたほうがいいです。",
+          "It's better to brush your teeth before bed."
+        ]
+      ]
+    },
+    {
+      "id": "hougaii-nai",
+      "title": "〜ないほうがいい: you'd better not",
+      "summary": "ない-form + ほうがいい = 'you'd better not …'. The negative uses the present ない-form, not なかった.",
+      "body": "For **negative advice**, use the plain **ない-form** (not past!) + ほうがいい:\n- 夜遅くコーヒーを飲ま**ないほうがいい**ですよ.\n- 無理をし**ないほうがいい**です.\n\n**The asymmetry to remember:**\n- Positive: **た**-form: 行っ**た**ほうがいい\n- Negative: **ない**-form: 行か**ない**ほうがいい (行かなかったほうがいい ✗)\n\nA softer alternative is 〜ないでください (please don't), which is a request rather than advice.",
+      "examples": [
+        [
+          "{夜|よる}{遅|おそ}くコーヒーを{飲|の}まないほうがいいですよ。",
+          "You'd better not drink coffee late at night."
+        ],
+        [
+          "お{酒|さけ}を{飲|の}んだら、{運転|うんてん}しないほうがいいです。",
+          "If you've been drinking, you shouldn't drive."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "mada",
+      "prompt": "{雨|あめ}は（　）{降|ふ}っています。{傘|かさ}を{持|も}って{行|い}きましょう。",
+      "options": [
+        "あまり",
+        "すぐ",
+        "まだ",
+        "ぜんぜん"
+      ],
+      "answer": 2,
+      "explanation": "'Still raining': **まだ** + positive.",
+      "notes": [
+        "あまり ('not much') needs a negative verb.",
+        "すぐ ('soon/immediately') doesn't fit with 降っています.",
+        "",
+        "ぜんぜん ('not at all') needs a negative verb."
+      ],
+      "translation": "It's still raining. Let's take an umbrella."
+    },
+    {
+      "point": "mada",
+      "prompt": "{宿題|しゅくだい}は（　）{終|お}わっていません。",
+      "options": [
+        "また",
+        "まだ",
+        "ただ",
+        "もう"
+      ],
+      "answer": 1,
+      "explanation": "'Not yet': **まだ** + 〜ていません.",
+      "notes": [
+        "また means 'again'.",
+        "",
+        "ただ means 'just / only'.",
+        "もう + negative means 'not anymore', which doesn't fit 'homework isn't finished'."
+      ],
+      "translation": "My homework isn't finished yet."
+    },
+    {
+      "point": "mada",
+      "prompt": "A：もうレポートを{出|だ}しましたか。　B：いいえ、まだ（　）。",
+      "options": [
+        "ません",
+        "ました",
+        "でした",
+        "です"
+      ],
+      "answer": 3,
+      "explanation": "The short answer for 'not yet' is **まだです**.",
+      "notes": [
+        "まだません isn't a form.",
+        "まだました isn't a form.",
+        "まだでした is past and doesn't fit 'not yet (now)'.",
+        ""
+      ],
+      "translation": "A: Have you handed in the report yet? B: No, not yet."
+    },
+    {
+      "point": "mada",
+      "prompt": "{映画|えいが}は（　）{始|はじ}まっていませんよ。{急|いそ}がなくてもいいです。",
+      "options": [
+        "よく",
+        "また",
+        "まだ",
+        "もう"
+      ],
+      "answer": 2,
+      "explanation": "'Hasn't started yet': **まだ** + 〜ていません.",
+      "notes": [
+        "よく + negative means 'not often'.",
+        "また means 'again'.",
+        "",
+        "もう + negative ('not anymore') makes no sense for a film that hasn't started."
+      ],
+      "translation": "The movie hasn't started yet. You don't need to hurry."
+    },
+    {
+      "point": "mou",
+      "prompt": "A：{宿題|しゅくだい}をしましたか。　B：はい、（　）しました。",
+      "options": [
+        "また",
+        "すぐ",
+        "まだ",
+        "もう"
+      ],
+      "answer": 3,
+      "explanation": "'Already done': **もう** + past.",
+      "notes": [
+        "またしました means 'did it again'.",
+        "すぐしました means 'did it immediately', not a natural answer to this question.",
+        "まだしました is ungrammatical. まだ with a completed action contradicts 'yet'.",
+        ""
+      ],
+      "translation": "A: Did you do your homework? B: Yes, I already did it."
+    },
+    {
+      "point": "mou",
+      "prompt": "（　）お{腹|なか}がいっぱいです。{何|なに}も{食|た}べられません。",
+      "options": [
+        "あまり",
+        "もう",
+        "少しも",
+        "ぜんぜん"
+      ],
+      "answer": 1,
+      "explanation": "**もう** = 'already' (full already, so I can't eat).",
+      "notes": [
+        "あまり needs a negative (あまり〜ない).",
+        "",
+        "少しも ('not even a little') needs a negative.",
+        "ぜんぜん needs a negative verb, and いっぱいです is positive."
+      ],
+      "translation": "I'm already full. I can't eat anything."
+    },
+    {
+      "point": "mou",
+      "prompt": "{彼|かれ}は{会社|かいしゃ}を{辞|や}めました。（　）ここには{来|き}ません。",
+      "options": [
+        "すぐ",
+        "まだ",
+        "もう",
+        "よく"
+      ],
+      "answer": 2,
+      "explanation": "**もう** + negative = 'not anymore'.",
+      "notes": [
+        "すぐ来ません doesn't fit.",
+        "まだ来ません ('hasn't come yet') contradicts him having quit.",
+        "",
+        "よく来ません ('doesn't come often') doesn't fit quitting."
+      ],
+      "translation": "He quit the company. He doesn't come here anymore."
+    },
+    {
+      "point": "mou",
+      "prompt": "すみません、（　）{一度|いちど}{言|い}ってください。",
+      "options": [
+        "まだ",
+        "もう",
+        "ちょっと",
+        "また"
+      ],
+      "answer": 1,
+      "explanation": "**もう一度** = 'once more'.",
+      "notes": [
+        "まだ一度 isn't a phrase.",
+        "",
+        "ちょっと一度 isn't a phrase.",
+        "また一度 isn't idiomatic. また alone means 'again'."
+      ],
+      "translation": "Sorry, please say it once more."
+    },
+    {
+      "point": "deshou",
+      "prompt": "{明日|あした}は{雨|あめ}（　）。",
+      "options": [
+        "だでしょう",
+        "ましょう",
+        "ですでしょう",
+        "でしょう"
+      ],
+      "answer": 3,
+      "explanation": "Noun + **でしょう** (no だ).",
+      "notes": [
+        "だでしょう is wrong. でしょう replaces だ.",
+        "ましょう ('let's') attaches to ます-stems.",
+        "ですでしょう doubles the copula.",
+        ""
+      ],
+      "translation": "It will probably rain tomorrow."
+    },
+    {
+      "point": "deshou",
+      "prompt": "{彼|かれ}はたぶん{来|く}る（　）。",
+      "options": [
+        "ません",
+        "でしょう",
+        "ましょう",
+        "ください"
+      ],
+      "answer": 1,
+      "explanation": "たぶん + plain form + **でしょう** = 'probably'.",
+      "notes": [
+        "ません attaches to the ます-stem (来ません).",
+        "",
+        "ましょう attaches to the ます-stem (来ましょう) and means 'let's'.",
+        "ください needs a て-form."
+      ],
+      "translation": "He'll probably come."
+    },
+    {
+      "point": "deshou",
+      "prompt": "このケーキ、おいしい（　）？　{私|わたし}が{作|つく}ったんです。",
+      "options": [
+        "ましょう",
+        "ですでしょう",
+        "でしょう",
+        "ますか"
+      ],
+      "answer": 2,
+      "explanation": "Seeking agreement with rising intonation: **でしょう？** ('right?').",
+      "notes": [
+        "ましょう ('let's') doesn't attach to adjectives.",
+        "ですでしょう doubles the copula.",
+        "",
+        "おいしいますか isn't grammatical."
+      ],
+      "translation": "This cake is good, isn't it? I made it."
+    },
+    {
+      "point": "darou",
+      "prompt": "（{日記|にっき}）{明日|あした}は{晴|は}れる（　）。",
+      "options": [
+        "ましょう",
+        "だろうです",
+        "でしょうだ",
+        "だろう"
+      ],
+      "answer": 3,
+      "explanation": "Plain style (a diary): **だろう**.",
+      "notes": [
+        "ましょう ('let's') doesn't attach to the dictionary form.",
+        "だろうです isn't a form. In polite style use でしょう.",
+        "でしょうだ isn't a form.",
+        ""
+      ],
+      "translation": "(Diary) It'll probably be sunny tomorrow."
+    },
+    {
+      "point": "darou",
+      "prompt": "{田中|たなか}さんも{来|く}る（　）と{思|おも}います。",
+      "options": [
+        "です",
+        "だろう",
+        "ましょう",
+        "でしょう"
+      ],
+      "answer": 1,
+      "explanation": "Inside と思う, use the **plain** だろう (the politeness goes on 思います).",
+      "notes": [
+        "来るです isn't grammatical.",
+        "",
+        "ましょう doesn't attach to 来る.",
+        "Polite でしょう isn't normally used inside と思います."
+      ],
+      "translation": "I think Mr. Tanaka will probably come too."
+    },
+    {
+      "point": "darou",
+      "prompt": "What is the **polite** equivalent of 「{寒|さむ}いだろう」?",
+      "options": [
+        "{寒|さむ}いですだろう",
+        "{寒|さむ}いだろうです",
+        "{寒|さむ}いでしょう",
+        "{寒|さむ}いましょう"
+      ],
+      "answer": 2,
+      "explanation": "だろう → **でしょう**.",
+      "notes": [
+        "ですだろう isn't a form.",
+        "だろうです isn't a form.",
+        "",
+        "ましょう means 'let's' and doesn't attach to adjectives."
+      ],
+      "translation": "It's probably cold."
+    },
+    {
+      "point": "hougaii",
+      "prompt": "{熱|ねつ}がありますね。{病院|びょういん}へ{行|い}った（　）がいいですよ。",
+      "options": [
+        "ほか",
+        "ほう",
+        "ほど",
+        "より"
+      ],
+      "answer": 1,
+      "explanation": "た-form + **ほうがいい** = 'you'd better'.",
+      "notes": [
+        "ほか means 'other' and doesn't make the advice pattern.",
+        "",
+        "ほど expresses extent and doesn't make the advice pattern.",
+        "よりがいい isn't grammatical."
+      ],
+      "translation": "You have a fever. You'd better go to the hospital."
+    },
+    {
+      "point": "hougaii",
+      "prompt": "{寝|ね}るまえに{歯|は}を（　）ほうがいいです。",
+      "options": [
+        "{磨|みが}いて",
+        "{磨|みが}き",
+        "{磨|みが}いた",
+        "{磨|みが}く"
+      ],
+      "answer": 2,
+      "explanation": "Positive advice: **た-form** + ほうがいい.",
+      "notes": [
+        "The て-form can't modify ほう.",
+        "The ます-stem can't modify ほう.",
+        "",
+        "磨くほうがいい exists, but it sounds like a general comparison. For giving advice, the た-form is standard."
+      ],
+      "translation": "You should brush your teeth before bed."
+    },
+    {
+      "point": "hougaii",
+      "prompt": "もっと{野菜|やさい}を{食|た}べたほう（　）いいですよ。",
+      "options": [
+        "を",
+        "に",
+        "は",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "The fixed pattern is ほう**が**いい.",
+      "notes": [
+        "ほうをいい isn't grammatical.",
+        "ほうにいい isn't grammatical.",
+        "ほうはいい isn't the advice pattern.",
+        ""
+      ],
+      "translation": "You should eat more vegetables."
+    },
+    {
+      "point": "hougaii-nai",
+      "prompt": "{夜|よる}{遅|おそ}くコーヒーを{飲|の}ま（　）ほうがいいですよ。",
+      "options": [
+        "なくて",
+        "ない",
+        "なかった",
+        "ず"
+      ],
+      "answer": 1,
+      "explanation": "Negative advice: **ない-form** + ほうがいい (not past).",
+      "notes": [
+        "The て-form can't modify ほう.",
+        "",
+        "なかったほうがいい is a common mistake. The negative uses the ない-form.",
+        "ず can't modify ほう."
+      ],
+      "translation": "You'd better not drink coffee late at night."
+    },
+    {
+      "point": "hougaii-nai",
+      "prompt": "{無理|むり}を（　）ほうがいいですよ。",
+      "options": [
+        "しなかった",
+        "しないで",
+        "しない",
+        "しません"
+      ],
+      "answer": 2,
+      "explanation": "する → **しない** + ほうがいい.",
+      "notes": [
+        "The past negative isn't used in this pattern.",
+        "しないで can't modify ほう.",
+        "",
+        "Polite ません can't modify ほう."
+      ],
+      "translation": "You'd better not overdo it."
+    },
+    {
+      "point": "hougaii-nai",
+      "prompt": "お{酒|さけ}を{飲|の}んだら、{車|くるま}を（　）ほうがいいです。",
+      "options": [
+        "{運転|うんてん}した",
+        "{運転|うんてん}しない",
+        "{運転|うんてん}しなかった",
+        "{運転|うんてん}する"
+      ],
+      "answer": 1,
+      "explanation": "Don't drive after drinking: **しない**ほうがいい.",
+      "notes": [
+        "運転したほうがいい means 'you should drive', which is dangerous advice.",
+        "",
+        "Negative advice uses ない, not なかった.",
+        "運転するほうがいい means 'it's better to drive', also the wrong meaning."
+      ],
+      "translation": "If you've been drinking, you'd better not drive."
+    },
+    {
+      "point": "deshou",
+      "prompt": "{明日|あした}は{寒|さむ}い（　）。",
+      "options": [
+        "ましょう",
+        "だでしょう",
+        "ですでしょう",
+        "でしょう"
+      ],
+      "answer": 3,
+      "explanation": "い-adjective + **でしょう**.",
+      "notes": [
+        "ましょう doesn't attach to adjectives.",
+        "い-adjectives never take だ.",
+        "Double copula.",
+        ""
+      ],
+      "translation": "It'll probably be cold tomorrow."
+    },
+    {
+      "point": "darou",
+      "prompt": "（{心|こころ}の{中|なか}で）あの{人|ひと}は{学生|がくせい}（　）。",
+      "options": [
+        "なだろう",
+        "だだろう",
+        "だろう",
+        "でだろう"
+      ],
+      "answer": 2,
+      "explanation": "Noun + **だろう** (no だ).",
+      "notes": [
+        "なだろう isn't a form.",
+        "だ disappears before だろう.",
+        "",
+        "でだろう isn't a form."
+      ],
+      "translation": "(Thinking) That person is probably a student."
+    },
+    {
+      "point": "hougaii",
+      "prompt": "{熱|ねつ}があるなら、{薬|くすり}を（　）ほうがいいですよ。",
+      "options": [
+        "{飲|の}んだ",
+        "{飲|の}むだ",
+        "{飲|の}んて",
+        "{飲|の}みた"
+      ],
+      "answer": 0,
+      "explanation": "Advice: **た-form** + ほうがいい.",
+      "notes": [
+        "",
+        "だ can't attach to the dictionary form.",
+        "む-verbs voice the ending: 飲んで/飲んだ.",
+        "む-verbs: past is 飲んだ, not 飲みた."
+      ],
+      "translation": "If you have a fever, you'd better take medicine."
+    },
+    {
+      "point": "hougaii-nai",
+      "prompt": "{夜|よる}は{一人|ひとり}で（　）ほうがいいですよ。",
+      "options": [
+        "{出|で}かけません",
+        "{出|で}かけなかった",
+        "{出|で}かけないで",
+        "{出|で}かけない"
+      ],
+      "answer": 3,
+      "explanation": "**ないほうがいい** = better not.",
+      "notes": [
+        "Polite forms can't modify ほう.",
+        "Negative advice uses ない, not なかった.",
+        "ないで can't modify ほう.",
+        ""
+      ],
+      "translation": "You'd better not go out alone at night."
+    }
+  ]
+}

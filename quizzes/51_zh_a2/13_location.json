@@ -1,0 +1,263 @@
+{
+  "id": "zh-a2-location",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "Where & Which Way: 在…里/上/下, verb + 在, 来 / 去 / 到, actions in a row, 跟",
+  "description": "Location words, verbs like 住 / 坐 that put 在 after them, coming and going, chaining actions, and doing things with someone.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "fangwei",
+      "title": "在 + noun + 里 / 上 / 下 / 旁边",
+      "summary": "Location = 在 + noun + position word: 包里 (in the bag), 桌子上 (on the table), 椅子下面 (under the chair), 我旁边 (next to me).",
+      "body": "- 钥匙**在**包**里**.\n- 猫在椅子**下面**.",
+      "examples": [
+        [
+          "{我|wǒ}{的|de}{钥匙|yàoshi}{在|zài}{包|bāo}{里|lǐ}。",
+          "My keys are in the bag."
+        ]
+      ]
+    },
+    {
+      "id": "vzai",
+      "title": "Verb + 在 + place",
+      "summary": "With 住 (live), 坐 (sit), 站 (stand), 放 (put), 在 + place comes **after** the verb.",
+      "body": "- 我**住在**北京.\n- 他**坐在**我旁边.",
+      "examples": [
+        [
+          "{他|tā}{坐|zuò}{在|zài}{我|wǒ}{旁边|pángbiān}。",
+          "He's sitting next to me."
+        ]
+      ]
+    },
+    {
+      "id": "laiqu",
+      "title": "来 / 去 / 到 + place",
+      "summary": "来 = towards the speaker, 去 = away from the speaker. 到 + place = to, as far as (often after a means of transport).",
+      "body": "- 明天你**来**我家玩儿吧!\n- 我们坐地铁**到**机场吧.",
+      "examples": [
+        [
+          "{明天|míngtiān}{你|nǐ}{来|lái}{我|wǒ}{家|jiā}{玩儿|wánr}{吧|ba}！",
+          "Come round to my place tomorrow!"
+        ]
+      ]
+    },
+    {
+      "id": "inarow",
+      "title": "Actions in a row",
+      "summary": "Actions are listed in the order they happen: 去超市 → 买东西; 坐飞机 (means) → 去上海.",
+      "body": "- 我**去超市买**东西.\n- 他**坐飞机去**上海.",
+      "examples": [
+        [
+          "{他|tā}{坐|zuò}{飞机|fēijī}{去|qù}{上海|Shànghǎi}。",
+          "He's flying to Shanghai."
+        ]
+      ]
+    },
+    {
+      "id": "gen",
+      "title": "跟 + person + verb: with",
+      "summary": "跟 (gēn) + person (+ 一起) + verb = do something with someone. 跟 + person comes **before** the verb.",
+      "body": "- 我想**跟**你一起去.",
+      "examples": [
+        [
+          "{我|wǒ}{想|xiǎng}{跟|gēn}{你|nǐ}{一起|yìqǐ}{去|qù}。",
+          "I'd like to go with you."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "fangwei",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{的|de}{钥匙|yàoshi}{在|zài}{里|lǐ}{包|bāo}。",
+        "{我|wǒ}{的|de}{钥匙|yàoshi}{在|zài}{包|bāo}{里|lǐ}。",
+        "{我|wǒ}{的|de}{钥匙|yàoshi}{包|bāo}{在|zài}{里|lǐ}。",
+        "{我|wǒ}{的|de}{钥匙|yàoshi}{里|lǐ}{在|zài}{包|bāo}。"
+      ],
+      "answer": 1,
+      "explanation": "**在 + noun + 里**.",
+      "notes": [
+        "The position word comes after the noun: 包里.",
+        "",
+        "在 comes before the place.",
+        "在 comes before the place."
+      ],
+      "translation": "My keys are in the bag."
+    },
+    {
+      "point": "fangwei",
+      "prompt": "What does 「{猫|māo}{在|zài}{椅子|yǐzi}{下面|xiàmiàn}。」 mean?",
+      "options": [
+        "Thecatisinthechair.",
+        "Thecatisnexttothechair.",
+        "Thecatisunderthechair.",
+        "Thecatisonthechair."
+      ],
+      "answer": 2,
+      "explanation": "下面 = **under**.",
+      "notes": [
+        "In = 里.",
+        "Next to = 旁边.",
+        "",
+        "On = 上面."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "vzai",
+      "prompt": "{我|wǒ}（　）{在|zài}{北京|Běijīng}，{你|nǐ}{呢|ne}？",
+      "options": [
+        "{在|zài}",
+        "{是|shì}",
+        "{有|yǒu}",
+        "{住|zhù}"
+      ],
+      "answer": 3,
+      "explanation": "Live in: **住在**.",
+      "notes": [
+        "在在 isn't grammatical.",
+        "是在北京 = 'it's in Beijing (that …)'.",
+        "有在 isn't grammatical.",
+        ""
+      ],
+      "translation": "I live in Beijing — and you?"
+    },
+    {
+      "point": "vzai",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{坐|zuò}{旁边|pángbiān}{在|zài}{我|wǒ}。",
+        "{他|tā}{坐|zuò}{在|zài}{我|wǒ}{旁边|pángbiān}。",
+        "{他|tā}{在|zài}{旁边|pángbiān}{坐|zuò}{我|wǒ}。",
+        "{他|tā}{坐|zuò}{我|wǒ}{在|zài}{旁边|pángbiān}。"
+      ],
+      "answer": 1,
+      "explanation": "**坐在** + place.",
+      "notes": [
+        "The order is 在 + 我旁边.",
+        "",
+        "坐 doesn't take 我 as an object.",
+        "在 comes before the whole place (我旁边)."
+      ],
+      "translation": "He's sitting next to me."
+    },
+    {
+      "point": "laiqu",
+      "prompt": "{明天|míngtiān}{你|nǐ}（　）{我|wǒ}{家|jiā}{玩儿|wánr}{吧|ba}！{我|wǒ}{做|zuò}{饺子|jiǎozi}。",
+      "options": [
+        "{回|huí}",
+        "{去|qù}",
+        "{来|lái}",
+        "{从|cóng}"
+      ],
+      "answer": 2,
+      "explanation": "Towards the speaker: **来**.",
+      "notes": [
+        "回 = 'return (home)' — it isn't your home.",
+        "去 = away from the speaker — but it's the speaker's own home.",
+        "",
+        "从 = 'from' — it needs a destination after it."
+      ],
+      "translation": "Come round to my place tomorrow! I'll make dumplings."
+    },
+    {
+      "point": "laiqu",
+      "prompt": "{我们|wǒmen}{坐|zuò}{地铁|dìtiě}（　）{机场|jīchǎng}{吧|ba}，{比|bǐ}{打车|dǎchē}{快|kuài}。",
+      "options": [
+        "{离|lí}",
+        "{在|zài}",
+        "{从|cóng}",
+        "{到|dào}"
+      ],
+      "answer": 3,
+      "explanation": "To (a destination): **到**.",
+      "notes": [
+        "离 = distance from.",
+        "坐地铁在机场 isn't grammatical.",
+        "从 = from.",
+        ""
+      ],
+      "translation": "Let's take the subway to the airport — it's faster than a taxi."
+    },
+    {
+      "point": "inarow",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{去|qù}{买|mǎi}{东西|dōngxi}{超市|chāoshì}。",
+        "{我|wǒ}{去|qù}{超市|chāoshì}{买|mǎi}{东西|dōngxi}。",
+        "{超市|chāoshì}{我|wǒ}{买|mǎi}{东西|dōngxi}{去|qù}。",
+        "{我|wǒ}{买|mǎi}{东西|dōngxi}{去|qù}{超市|chāoshì}。"
+      ],
+      "answer": 1,
+      "explanation": "Actions **in order**.",
+      "notes": [
+        "超市 must follow 去.",
+        "",
+        "Order is broken.",
+        "First you go, then you buy."
+      ],
+      "translation": "I'm going to the supermarket to buy things."
+    },
+    {
+      "point": "inarow",
+      "prompt": "Which sentence means 'He's going to Shanghai by plane'?",
+      "options": [
+        "{他|tā}{去|qù}{坐|zuò}{上海|Shànghǎi}{飞机|fēijī}。",
+        "{他|tā}{去|qù}{上海|Shànghǎi}{坐|zuò}{飞机|fēijī}。",
+        "{他|tā}{坐|zuò}{飞机|fēijī}{去|qù}{上海|Shànghǎi}。",
+        "{他|tā}{飞机|fēijī}{坐|zuò}{去|qù}{上海|Shànghǎi}。"
+      ],
+      "answer": 2,
+      "explanation": "Means first: **坐飞机去**.",
+      "notes": [
+        "Not grammatical.",
+        "= 'He's going to Shanghai to take a plane (there)'.",
+        "",
+        "The object follows 坐."
+      ],
+      "translation": "He's flying to Shanghai."
+    },
+    {
+      "point": "gen",
+      "prompt": "{周末|zhōumò}{我|wǒ}{想|xiǎng}（　）{你|nǐ}{一起|yìqǐ}{去|qù}{爬山|páshān}。",
+      "options": [
+        "{跟|gēn}",
+        "{对|duì}",
+        "{给|gěi}",
+        "{比|bǐ}"
+      ],
+      "answer": 0,
+      "explanation": "With: **跟…一起**.",
+      "notes": [
+        "",
+        "对 = 'towards'.",
+        "给 = 'for / to'.",
+        "比 compares."
+      ],
+      "translation": "I'd like to go hiking with you at the weekend."
+    },
+    {
+      "point": "gen",
+      "prompt": "Where does **{跟|gēn}{我|wǒ}** go?\n{你|nǐ}［A］{想|xiǎng}［B］{去|qù}［C］{看|kàn}{电影|diànyǐng}［D］{吗|ma}？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "Modal + **跟 + person** + verb: 你想跟我去看电影吗？",
+      "notes": [
+        "跟我 goes after 想.",
+        "",
+        "跟我 can't come between 去 and its purpose.",
+        "跟我 can't go at the end."
+      ],
+      "translation": "Would you like to go to a film with me?",
+      "fixed_order": true
+    }
+  ]
+}

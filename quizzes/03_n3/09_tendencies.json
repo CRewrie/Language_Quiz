@@ -1,0 +1,361 @@
+{
+  "id": "n3-tendencies",
+  "category": "JLPT N3",
+  "title": "Tendencies & Looks: がち, ぎみ, っぽい, だらけ, まるで, 気がする, ふり",
+  "description": "Tend to (がち), a touch of (ぎみ), -ish (っぽい), covered with (だらけ), as if (まるで), I have a feeling (ような気がする), and pretending (ふりをする).",
+  "level": "N3",
+  "points": [
+    {
+      "id": "gachi",
+      "title": "〜がち: tend to, be apt to (often negative)",
+      "summary": "ます-stem / noun + がち = something tends to happen (usually undesirable). 忘れがち, 病気がち, 曇りがち.",
+      "body": "- 冬は風邪をひき**がち**だ (people tend to catch colds in winter).\n- 忘れ**がち**, 遅れ**がち**, 病気**がち**, 曇り**がち**.\n\nConjugates like a な-adjective: がち**な**/がち**の** + noun.",
+      "examples": [
+        [
+          "{冬|ふゆ}は{風邪|かぜ}をひきがちだ。",
+          "People tend to catch colds in winter."
+        ]
+      ]
+    },
+    {
+      "id": "gimi",
+      "title": "〜ぎみ (気味): a touch of, slightly",
+      "summary": "Noun / ます-stem + ぎみ = showing a slight sign of: 風邪ぎみ, 疲れぎみ, 太りぎみ.",
+      "body": "- 少し風邪**ぎみ**なので、早く寝ます (I'm coming down with a slight cold).\n- 最近、太り**ぎみ**だ.\n\n**がち vs ぎみ:** がち = something tends to happen *often*; ぎみ = a *slight* state right now.",
+      "examples": [
+        [
+          "{少|すこ}し{風邪|かぜ}ぎみなので、{早|はや}く{寝|ね}ます。",
+          "I've got a bit of a cold, so I'll go to bed early."
+        ]
+      ]
+    },
+    {
+      "id": "ppoi",
+      "title": "〜っぽい: -ish, -like, tends to",
+      "summary": "Noun / ます-stem / い-adj stem + っぽい = has the feel of; casual. 子供っぽい, 忘れっぽい, 安っぽい.",
+      "body": "- あの人は子供**っぽい** (childish).\n- 最近、忘れ**っぽく**なった (forgetful).\n- 白**っぽい**服 (whitish).\n\nっぽい is an い-adjective: っぽく, っぽくない. Casual and often slightly negative.",
+      "examples": [
+        [
+          "あの{人|ひと}は{子供|こども}っぽい。",
+          "That person is childish."
+        ]
+      ]
+    },
+    {
+      "id": "darake",
+      "title": "〜だらけ: covered with, full of (negative)",
+      "summary": "Noun + だらけ = full of / covered in something undesirable: 泥だらけ, 間違いだらけ, ゴミだらけ.",
+      "body": "- 子供たちの服は泥**だらけ**だった.\n- この作文は間違い**だらけ**だ.\n\nAlmost always negative. (まみれ is for liquids/dirt sticking to the surface: 汗まみれ.)",
+      "examples": [
+        [
+          "この{作文|さくぶん}は{間違|まちが}いだらけだ。",
+          "This essay is full of mistakes."
+        ]
+      ]
+    },
+    {
+      "id": "marude",
+      "title": "まるで〜ようだ / みたいだ: just like, as if",
+      "summary": "まるで + … ようだ / みたいだ = 'as if, just like' (comparison with something it isn't).",
+      "body": "- 彼の日本語は**まるで**日本人の**ようだ**.\n- **まるで**夢を見ている**みたい**だ.\n\nまるで strengthens a comparison; it's usually closed with ようだ / みたいだ.",
+      "examples": [
+        [
+          "{彼|かれ}の{日本語|にほんご}はまるで{日本人|にほんじん}のようだ。",
+          "His Japanese is just like a native speaker's."
+        ]
+      ]
+    },
+    {
+      "id": "kigasuru",
+      "title": "〜ような気がする: I have a feeling that",
+      "summary": "Plain form / noun + の + ような気がする = I have a feeling / it seems to me.",
+      "body": "- どこかで会った**ような気がする**.\n- 誰かに見られている気**がする** (気 + が + する).\n\nSofter than と思う — used for vague impressions.",
+      "examples": [
+        [
+          "どこかで{会|あ}ったような{気|き}がします。",
+          "I have a feeling we've met somewhere."
+        ]
+      ]
+    },
+    {
+      "id": "furi",
+      "title": "〜ふりをする: pretend to",
+      "summary": "Plain form / noun + の + ふりをする = pretend, act as if.",
+      "body": "- 彼は聞こえない**ふりをした**.\n- 知っているのに、知らない**ふりをした**.\n- 学生**の**ふりをする.\n\n振り (ふり) = 'appearance, pretence'.",
+      "examples": [
+        [
+          "{彼|かれ}は{聞|き}こえないふりをした。",
+          "He pretended not to hear."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "gachi",
+      "prompt": "{冬|ふゆ}は{風邪|かぜ}をひき（　）だ。",
+      "options": [
+        "ぎみ",
+        "っぽい",
+        "がち",
+        "だらけ"
+      ],
+      "answer": 2,
+      "explanation": "Tend to happen (often): **がち**.",
+      "notes": [
+        "ぎみ attaches to nouns or describes a slight current state — ひきぎみ isn't used.",
+        "ひきっぽい isn't used.",
+        "",
+        "だらけ = 'covered with' — only after nouns."
+      ],
+      "translation": "People tend to catch colds in winter."
+    },
+    {
+      "point": "gachi",
+      "prompt": "What does 「{忘|わす}れがち」 mean?",
+      "options": [
+        "tend to forget",
+        "forgot slightly",
+        "looks forgetful",
+        "forgot completely"
+      ],
+      "answer": 0,
+      "explanation": "がち = **tends to** happen.",
+      "notes": [
+        "",
+        "'Slightly' is ぎみ.",
+        "'Looks …' is そう.",
+        "'Completely' would be 忘れてしまった."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "gimi",
+      "prompt": "{少|すこ}し{風邪|かぜ}（　）なので、{早|はや}く{寝|ね}ます。",
+      "options": [
+        "っぽさ",
+        "ぎみ",
+        "だらけ",
+        "まみれ"
+      ],
+      "answer": 1,
+      "explanation": "Slight sign: **ぎみ**.",
+      "notes": [
+        "っぽさ is a noun ('-ishness') and doesn't fit before なので.",
+        "",
+        "風邪だらけ makes no sense.",
+        "まみれ is for dirt/liquids."
+      ],
+      "translation": "I've got a bit of a cold, so I'll go to bed early."
+    },
+    {
+      "point": "gimi",
+      "prompt": "{最近|さいきん}、{運動|うんどう}していないので、{太|ふと}り（　）だ。",
+      "options": [
+        "だらけ",
+        "まみれ",
+        "ぎみ",
+        "っぽい"
+      ],
+      "answer": 2,
+      "explanation": "Slightly gaining weight: **太りぎみ**.",
+      "notes": [
+        "太りだらけ isn't a word.",
+        "太りまみれ isn't a word.",
+        "",
+        "太りっぽいだ isn't grammatical."
+      ],
+      "translation": "I haven't been exercising, so I'm putting on a bit of weight."
+    },
+    {
+      "point": "ppoi",
+      "prompt": "あの{人|ひと}はもう30{歳|さい}なのに、{子供|こども}（　）。",
+      "options": [
+        "っぽい",
+        "がち",
+        "だらけ",
+        "ぎみ"
+      ],
+      "answer": 0,
+      "explanation": "-ish: **子供っぽい** (childish).",
+      "notes": [
+        "",
+        "子供がち isn't used.",
+        "子供だらけ = 'full of children'.",
+        "子供ぎみ isn't used."
+      ],
+      "translation": "That person is already 30 but is so childish."
+    },
+    {
+      "point": "ppoi",
+      "prompt": "{最近|さいきん}、{忘|わす}れ（　）なった。",
+      "options": [
+        "っぽさ",
+        "っぽく",
+        "っぽに",
+        "っぽい"
+      ],
+      "answer": 1,
+      "explanation": "っぽい is an い-adjective → **っぽく**なる.",
+      "notes": [
+        "っぽさなる isn't grammatical.",
+        "",
+        "っぽに isn't a form.",
+        "っぽいなる isn't grammatical."
+      ],
+      "translation": "I've become forgetful lately."
+    },
+    {
+      "point": "darake",
+      "prompt": "{公園|こうえん}で{遊|あそ}んだ{子供|こども}たちの{服|ふく}は{泥|どろ}（　）だった。",
+      "options": [
+        "がち",
+        "っぽい",
+        "ぎみ",
+        "だらけ"
+      ],
+      "answer": 3,
+      "explanation": "Covered in: **泥だらけ**.",
+      "notes": [
+        "泥がち isn't used.",
+        "泥っぽい = 'muddy-ish' — doesn't take だった like this.",
+        "泥ぎみ isn't used.",
+        ""
+      ],
+      "translation": "The children's clothes were covered in mud after playing in the park."
+    },
+    {
+      "point": "darake",
+      "prompt": "この{作文|さくぶん}は{間違|まちが}い（　）だ。",
+      "options": [
+        "ぎみ",
+        "だらけ",
+        "まみれ",
+        "っぽい"
+      ],
+      "answer": 1,
+      "explanation": "Full of (bad things): **だらけ**.",
+      "notes": [
+        "間違いぎみ isn't used.",
+        "",
+        "まみれ is for dirt/sweat/blood on a surface.",
+        "間違いっぽい = 'seems like a mistake'."
+      ],
+      "translation": "This essay is full of mistakes."
+    },
+    {
+      "point": "marude",
+      "prompt": "{彼|かれ}の{日本語|にほんご}は（　）{日本人|にほんじん}のようだ。",
+      "options": [
+        "まず",
+        "まだ",
+        "まるで",
+        "まさか"
+      ],
+      "answer": 2,
+      "explanation": "Just like: **まるで〜ようだ**.",
+      "notes": [
+        "まず = 'first of all'.",
+        "まだ = 'still'.",
+        "",
+        "まさか = 'surely not'."
+      ],
+      "translation": "His Japanese is just like a native speaker's."
+    },
+    {
+      "point": "marude",
+      "prompt": "まるで{夢|ゆめ}を{見|み}ている（　）だ。",
+      "options": [
+        "そう",
+        "よう",
+        "らしい",
+        "ほど"
+      ],
+      "answer": 1,
+      "explanation": "まるで + **ようだ**.",
+      "notes": [
+        "見ているそうだ = 'I heard he's dreaming'.",
+        "",
+        "らしいだ isn't grammatical.",
+        "ほどだ means 'to that extent' — doesn't fit まるで."
+      ],
+      "translation": "It's just like a dream."
+    },
+    {
+      "point": "kigasuru",
+      "prompt": "どこかで{会|あ}った（　）{気|き}がします。",
+      "options": [
+        "ような",
+        "そうな",
+        "らしい",
+        "ように"
+      ],
+      "answer": 0,
+      "explanation": "Before 気: **ような気がする**.",
+      "notes": [
+        "",
+        "会ったそうな isn't standard.",
+        "会ったらしい気 isn't natural.",
+        "ように can't modify the noun 気."
+      ],
+      "translation": "I have a feeling we've met somewhere."
+    },
+    {
+      "point": "kigasuru",
+      "prompt": "{誰|だれ}かに{見|み}られている{気|き}（　）する。",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "**気がする** — 気 takes が.",
+      "notes": [
+        "気でする isn't grammatical.",
+        "気をする isn't grammatical.",
+        "気にする = 'to worry about' — different meaning.",
+        ""
+      ],
+      "translation": "I feel like someone is watching me."
+    },
+    {
+      "point": "furi",
+      "prompt": "{彼|かれ}は{聞|き}こえない（　）をした。",
+      "options": [
+        "ふる",
+        "ふり",
+        "ぶり",
+        "ふりに"
+      ],
+      "answer": 1,
+      "explanation": "Pretend: **ふりをする**.",
+      "notes": [
+        "ふる is a verb.",
+        "",
+        "ぶり means 'after (a long time)' (三年ぶり).",
+        "ふりにをした isn't grammatical."
+      ],
+      "translation": "He pretended not to hear."
+    },
+    {
+      "point": "furi",
+      "prompt": "{知|し}っているのに、{知|し}らない（　）。",
+      "options": [
+        "ふりをした",
+        "ふりにした",
+        "ふりでした",
+        "ふりがした"
+      ],
+      "answer": 0,
+      "explanation": "**ふりをする**.",
+      "notes": [
+        "",
+        "ふりにする isn't the pattern.",
+        "ふりでした = 'it was a pretence' — not 'pretended'.",
+        "ふりがする isn't the pattern."
+      ],
+      "translation": "Even though he knew, he pretended not to."
+    }
+  ]
+}

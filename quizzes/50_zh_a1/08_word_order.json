@@ -1,0 +1,246 @@
+{
+  "id": "zh-a1-word-order",
+  "category": "Mandarin A1",
+  "language": "zh",
+  "title": "★ Word Order (连词成句)",
+  "description": "Chinese has no endings — word order carries the grammar. Time and place go before the verb; put the pieces in order and pick the ★ piece.",
+  "level": "A1",
+  "points": [
+    {
+      "id": "timeplace",
+      "title": "Subject + time + place + verb",
+      "summary": "Time words go before the verb (before or after the subject). Place with 在 also goes before the verb: subject + time + 在 + place + verb + object.",
+      "body": "- 我**明天在家**看电视.\n- **明天**我在家看电视 (also fine).\n- ~~我看电视在家明天~~ ✗ (English order).",
+      "examples": [
+        [
+          "{我|wǒ}{明天|míngtiān}{在|zài}{家|jiā}{看|kàn}{电视|diànshì}。",
+          "I'm watching TV at home tomorrow."
+        ]
+      ]
+    },
+    {
+      "id": "order",
+      "title": "Solving ★ ordering questions",
+      "summary": "Build the sentence, then pick the piece in the ★ slot.",
+      "body": "- Find the verb and its object first.\n- Adverbs (也, 都, 不, 没有) and modal verbs (能, 想, 要) come right before the verb.\n- Time and 在 + place come before those.\n- Measure words stick to their number: 两本书.",
+      "examples": [
+        [
+          "{昨天|zuótiān}{我|wǒ}{没有|méiyǒu}{去|qù}{学校|xuéxiào}。",
+          "I didn't go to school yesterday."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "timeplace",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{明天|míngtiān}{在|zài}{家|jiā}{看|kàn}{电视|diànshì}。",
+        "{我|wǒ}{看|kàn}{电视|diànshì}{在|zài}{家|jiā}{明天|míngtiān}。",
+        "{明天|míngtiān}{看|kàn}{电视|diànshì}{我|wǒ}{在|zài}{家|jiā}。",
+        "{我|wǒ}{在|zài}{家|jiā}{看|kàn}{电视|diànshì}{明天|míngtiān}。"
+      ],
+      "answer": 0,
+      "explanation": "Subject + **time + place** + verb.",
+      "notes": [
+        "",
+        "That's English order — time and place come before the verb.",
+        "The subject must come before the verb.",
+        "Time can't come at the end."
+      ],
+      "translation": "I'm watching TV at home tomorrow."
+    },
+    {
+      "point": "timeplace",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{每天|měitiān}{在|zài}{图书馆|túshūguǎn}{学习|xuéxí}。",
+        "{他|tā}{学习|xuéxí}{在|zài}{图书馆|túshūguǎn}{每天|měitiān}。",
+        "{他|tā}{在|zài}{图书馆|túshūguǎn}{学习|xuéxí}{每天|měitiān}。",
+        "{每天|měitiān}{他|tā}{学习|xuéxí}{在|zài}{图书馆|túshūguǎn}。"
+      ],
+      "answer": 0,
+      "explanation": "Time + 在 + place + **verb**.",
+      "notes": [
+        "",
+        "English order.",
+        "每天 must come before the verb.",
+        "在图书馆 must come before the verb."
+      ],
+      "translation": "He studies in the library every day."
+    },
+    {
+      "point": "timeplace",
+      "prompt": "Where does **{在|zài}{公司|gōngsī}** go?\n［A］{我|wǒ}{爸爸|bàba}［B］{吃|chī}［C］{午饭|wǔfàn}［D］。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "在 + place goes **before the verb**: 我爸爸在公司吃午饭。",
+      "notes": [
+        "The subject comes first.",
+        "",
+        "在 + place can't come between verb and object.",
+        "在 + place doesn't go at the end."
+      ],
+      "translation": "My dad eats lunch at the office.",
+      "fixed_order": true
+    },
+    {
+      "point": "order",
+      "prompt": "{我|wǒ}　＿＿　　＿＿　　★　　＿＿　。\n（{电视|diànshì}・{看|kàn}・{明天|míngtiān}・{在家|zàijiā}）",
+      "options": [
+        "{在家|zàijiā}",
+        "{明天|míngtiān}",
+        "{电视|diànshì}",
+        "{看|kàn}"
+      ],
+      "answer": 3,
+      "explanation": "我 **明天 在家 看 电视**。",
+      "notes": [
+        "在家 comes after the time — slot 2.",
+        "明天 comes right after 我 — slot 1.",
+        "电视 is the object — slot 4.",
+        ""
+      ],
+      "translation": "I'm watching TV at home tomorrow."
+    },
+    {
+      "point": "order",
+      "prompt": "{他|tā}　＿＿　　＿＿　　★　　＿＿　。\n（{喜欢|xǐhuan}・{咖啡|kāfēi}・{也|yě}・{不|bù}）",
+      "options": [
+        "{也|yě}",
+        "{不|bù}",
+        "{咖啡|kāfēi}",
+        "{喜欢|xǐhuan}"
+      ],
+      "answer": 3,
+      "explanation": "他 **也 不 喜欢 咖啡**。",
+      "notes": [
+        "也 comes first — slot 1.",
+        "不 comes after 也 — slot 2.",
+        "咖啡 is the object — slot 4.",
+        ""
+      ],
+      "translation": "He doesn't like coffee either."
+    },
+    {
+      "point": "order",
+      "prompt": "　＿＿　　＿＿　　★　　＿＿　{吗|ma}？\n（{来|lái}・{能|néng}・{你|nǐ}・{明天|míngtiān}）",
+      "options": [
+        "{能|néng}",
+        "{明天|míngtiān}",
+        "{你|nǐ}",
+        "{来|lái}"
+      ],
+      "answer": 0,
+      "explanation": "**你 明天 能 来** 吗？ (明天你能来吗 also works — 能 stays in the ★ slot.)",
+      "notes": [
+        "",
+        "明天 goes in slot 2 (or 1).",
+        "你 goes in slot 1 (or 2).",
+        "来 comes right before 吗 — slot 4."
+      ],
+      "translation": "Can you come tomorrow?"
+    },
+    {
+      "point": "order",
+      "prompt": "{我们|wǒmen}　＿＿　　＿＿　　★　　＿＿　{学生|xuésheng}。\n（{是|shì}・{北京大学|Běijīng Dàxué}{的|de}・{都|dōu}・{也|yě}）",
+      "options": [
+        "{北京大学|Běijīng Dàxué}{的|de}",
+        "{都|dōu}",
+        "{也|yě}",
+        "{是|shì}"
+      ],
+      "answer": 3,
+      "explanation": "我们 **也 都 是 北京大学的** 学生。",
+      "notes": [
+        "北京大学的 modifies 学生 — slot 4.",
+        "都 follows 也 — slot 2.",
+        "也 comes first — slot 1.",
+        ""
+      ],
+      "translation": "We're all Peking University students too."
+    },
+    {
+      "point": "order",
+      "prompt": "{这|zhè}　＿＿　　＿＿　　★　　＿＿　。\n（{书|shū}・{的|de}・{是|shì}・{我|wǒ}{妈妈|māma}）",
+      "options": [
+        "{是|shì}",
+        "{书|shū}",
+        "{我|wǒ}{妈妈|māma}",
+        "{的|de}"
+      ],
+      "answer": 3,
+      "explanation": "这 **是 我妈妈 的 书**。",
+      "notes": [
+        "是 follows 这 — slot 1.",
+        "书 ends the sentence — slot 4.",
+        "我妈妈 is the owner — slot 2.",
+        ""
+      ],
+      "translation": "This is my mum's book."
+    },
+    {
+      "point": "order",
+      "prompt": "{你|nǐ}　＿＿　　＿＿　　★　　＿＿　？\n（{喝咖啡|hē kāfēi}・{还是|háishi}・{想|xiǎng}・{喝茶|hē chá}）",
+      "options": [
+        "{喝茶|hē chá}",
+        "{还是|háishi}",
+        "{想|xiǎng}",
+        "{喝咖啡|hē kāfēi}"
+      ],
+      "answer": 1,
+      "explanation": "你 **想 喝茶 还是 喝咖啡**？",
+      "notes": [
+        "The first choice — slot 2.",
+        "",
+        "想 comes right after 你 — slot 1.",
+        "The second choice — slot 4."
+      ],
+      "translation": "Would you like tea or coffee?"
+    },
+    {
+      "point": "order",
+      "prompt": "{昨天|zuótiān}　＿＿　　＿＿　　★　　＿＿　。\n（{去|qù}・{学校|xuéxiào}・{我|wǒ}・{没有|méiyǒu}）",
+      "options": [
+        "{我|wǒ}",
+        "{没有|méiyǒu}",
+        "{去|qù}",
+        "{学校|xuéxiào}"
+      ],
+      "answer": 2,
+      "explanation": "昨天 **我 没有 去 学校**。",
+      "notes": [
+        "我 is the subject — slot 1.",
+        "没有 comes before the verb — slot 2.",
+        "",
+        "学校 is the destination — slot 4."
+      ],
+      "translation": "I didn't go to school yesterday."
+    },
+    {
+      "point": "order",
+      "prompt": "{桌子|zhuōzi}　＿＿　　＿＿　　★　　＿＿　。\n（{书|shū}・{有|yǒu}・{上|shang}・{两本|liǎng běn}）",
+      "options": [
+        "{书|shū}",
+        "{有|yǒu}",
+        "{上|shang}",
+        "{两本|liǎng běn}"
+      ],
+      "answer": 3,
+      "explanation": "桌子 **上 有 两本 书**。",
+      "notes": [
+        "书 ends the sentence — slot 4.",
+        "有 follows the place — slot 2.",
+        "上 completes 桌子上 — slot 1.",
+        ""
+      ],
+      "translation": "There are two books on the table."
+    }
+  ]
+}

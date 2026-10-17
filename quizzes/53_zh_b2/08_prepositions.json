@@ -1,0 +1,462 @@
+{
+  "id": "zh-b2-prepositions",
+  "category": "Mandarin B2",
+  "language": "zh",
+  "title": "Prepositions (B2): 随着, 自从, 对…而言, 而已, 凭, 趁, 至于, 包括…在内, 跟…有关",
+  "description": "Along with, ever since, as far as … is concerned, that's all, on the strength of, while (the chance lasts), as for, including, and related to.",
+  "level": "B2",
+  "points": [
+    {
+      "id": "suizhe",
+      "title": "随着 …: along with, as",
+      "summary": "随着 (suízhe) + change (…的发展 / 增长), main clause = as … changes, ….",
+      "body": "- **随着**经济的发展，人们的生活越来越好.",
+      "examples": [
+        [
+          "{随着|suízhe}{经济|jīngjì}{的|de}{发展|fāzhǎn}，{人们|rénmen}{的|de}{生活|shēnghuó}{越来越|yuè lái yuè}{好|hǎo}。",
+          "As the economy develops, people's lives keep getting better."
+        ]
+      ]
+    },
+    {
+      "id": "zicong",
+      "title": "自从 … (以后 / 以来): ever since",
+      "summary": "自从 (zìcóng) + past event (+ 以后) = ever since ….",
+      "body": "- **自从**他来了以后，办公室热闹多了.",
+      "examples": [
+        [
+          "{自从|zìcóng}{搬家|bānjiā}{以后|yǐhòu}，{我|wǒ}{就|jiù}{很|hěn}{少|shǎo}{见|jiàn}{到|dào}{他|tā}{了|le}。",
+          "Since I moved, I've rarely seen him."
+        ]
+      ]
+    },
+    {
+      "id": "eryan",
+      "title": "对 … 而言: as far as … is concerned",
+      "summary": "对 X 而言 (ér yán) = formal 对 X 来说.",
+      "body": "- **对**我**而言**，健康最重要.",
+      "examples": [
+        [
+          "{对|duì}{很|hěn}{多|duō}{外国人|wàiguó rén}{而言|ér yán}，{声调|shēngdiào}{是|shì}{最|zuì}{难|nán}{的|de}。",
+          "For many foreigners, tones are the hardest part."
+        ]
+      ]
+    },
+    {
+      "id": "eryi",
+      "title": "… 而已: that's all, merely",
+      "summary": "而已 (éryǐ) at the end = just, only (often with 只是 / 不过).",
+      "body": "- 我只是随便问问**而已**.",
+      "examples": [
+        [
+          "{他|tā}{不过|búguò}{是|shì}{个|ge}{孩子|háizi}{而已|éryǐ}。",
+          "He's only a child, that's all."
+        ]
+      ]
+    },
+    {
+      "id": "ping",
+      "title": "凭: on the strength of, by",
+      "summary": "凭 (píng) + ability / document = relying on; 凭票入场 = admission by ticket.",
+      "body": "- 他**凭**自己的努力考上了大学.",
+      "examples": [
+        [
+          "{他|tā}{凭|píng}{自己|zìjǐ}{的|de}{努力|nǔlì}{考|kǎo}{上|shàng}{了|le}{大学|dàxué}。",
+          "He got into university through his own hard work."
+        ]
+      ]
+    },
+    {
+      "id": "chen",
+      "title": "趁: while, taking the chance",
+      "summary": "趁 (chèn) + situation = while it lasts / take advantage of ….",
+      "body": "- **趁**年轻，多出去走走吧.\n- 菜**趁**热吃吧.",
+      "examples": [
+        [
+          "{趁|chèn}{年轻|niánqīng}，{多|duō}{出去|chūqù}{走走|zǒuzou}{吧|ba}。",
+          "Travel while you're young."
+        ]
+      ]
+    },
+    {
+      "id": "zhiyu",
+      "title": "至于: as for",
+      "summary": "至于 (zhìyú) + related topic = 'as for …' (switches to a new, related point).",
+      "body": "- 我们先把工作做完，**至于**怎么庆祝，以后再说.",
+      "examples": [
+        [
+          "{至于|zhìyú}{怎么|zěnme}{庆祝|qìngzhù}，{以后|yǐhòu}{再|zài}{说|shuō}。",
+          "As for how to celebrate, we'll talk about it later."
+        ]
+      ]
+    },
+    {
+      "id": "zainei",
+      "title": "包括 … 在内: including",
+      "summary": "(包括) X 在内 (zài nèi) = X included.",
+      "body": "- **包括**我**在内**，一共有十个人.",
+      "examples": [
+        [
+          "{包括|bāokuò}{老师|lǎoshī}{在内|zài nèi}，{大家|dàjiā}{都|dōu}{同意|tóngyì}{了|le}。",
+          "Everyone, including the teacher, agreed."
+        ]
+      ]
+    },
+    {
+      "id": "youguan",
+      "title": "跟 / 和 … 有关(的): related to",
+      "summary": "跟 X 有关 (yǒuguān) = related to X; 跟 X 有关的 + noun.",
+      "body": "- 我想找一些**跟**中国历史**有关的**书.",
+      "examples": [
+        [
+          "{这|zhè}{是|shì}{跟|gēn}{环境|huánjìng}{有关|yǒuguān}{的|de}{问题|wèntí}。",
+          "This is a problem related to the environment."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "suizhe",
+      "prompt": "（　）{经济|jīngjì}{的|de}{发展|fāzhǎn}，{人们|rénmen}{的|de}{生活|shēnghuó}{越来越|yuè lái yuè}{好|hǎo}。",
+      "options": [
+        "{随便|suíbiàn}",
+        "{对着|duìzhe}",
+        "{随着|suízhe}",
+        "{接着|jiēzhe}"
+      ],
+      "answer": 2,
+      "explanation": "Along with: **随着**.",
+      "notes": [
+        "随便 = 'casual / whatever'.",
+        "对着 = 'facing'.",
+        "",
+        "接着 = 'next, then'."
+      ],
+      "translation": "As the economy develops, people's lives keep getting better."
+    },
+    {
+      "point": "suizhe",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{随着|suízhe}{时间|shíjiān}{的|de}{过去|guòqù}，{他|tā}{慢慢|mànmàn}{忘|wàng}{了|le}{这|zhè}{件|jiàn}{事|shì}。",
+        "{随着|suízhe}{时间|shíjiān}{的|de}{过去|guòqù}{他|tā}，{慢慢|mànmàn}{忘|wàng}{了|le}{这|zhè}{件|jiàn}{事|shì}。",
+        "{随着|suízhe}{时间|shíjiān}{过去|guòqù}{的|de}，{他|tā}{慢慢|mànmàn}{忘|wàng}{了|le}{这|zhè}{件|jiàn}{事|shì}。",
+        "{时间|shíjiān}{随着|suízhe}{的|de}{过去|guòqù}，{他|tā}{慢慢|mànmàn}{忘|wàng}{了|le}{这|zhè}{件|jiàn}{事|shì}。"
+      ],
+      "answer": 0,
+      "explanation": "**随着 + X 的 + change**，main clause.",
+      "notes": [
+        "",
+        "The subject belongs to the main clause.",
+        "的 goes before the change: 时间的过去.",
+        "随着 comes first."
+      ],
+      "translation": "As time went by, he slowly forgot about it."
+    },
+    {
+      "point": "zicong",
+      "prompt": "（　）{他|tā}{来|lái}{了|le}{以后|yǐhòu}，{办公室|bàngōngshì}{热闹|rènao}{多|duō}{了|le}。",
+      "options": [
+        "{从此|cóngcǐ}",
+        "{从来|cónglái}",
+        "{自从|zìcóng}",
+        "{自己|zìjǐ}"
+      ],
+      "answer": 2,
+      "explanation": "Ever since: **自从…以后**.",
+      "notes": [
+        "从此 = 'from then on' — stands alone, not before a clause.",
+        "从来 = 'always / never'.",
+        "",
+        "自己 = 'oneself'."
+      ],
+      "translation": "Ever since he arrived, the office has been much livelier."
+    },
+    {
+      "point": "zicong",
+      "prompt": "What does 「{自从|zìcóng}{搬家|bānjiā}{以后|yǐhòu}，{我|wǒ}{就|jiù}{很|hěn}{少|shǎo}{见|jiàn}{到|dào}{他|tā}{了|le}。」 mean?",
+      "options": [
+        "SinceImoved,I'verarelyseenhim.",
+        "AfterImove,I'llrarelyseehim.",
+        "ImovedbecauseIrarelysawhim.",
+        "BeforeImoved,Irarelysawhim."
+      ],
+      "answer": 0,
+      "explanation": "自从 = **ever since**.",
+      "notes": [
+        "",
+        "自从 refers to the past.",
+        "No cause.",
+        "以后 = after."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "eryan",
+      "prompt": "{对|duì}{我|wǒ}（　），{健康|jiànkāng}{比|bǐ}{钱|qián}{重要|zhòngyào}。",
+      "options": [
+        "{而是|ér shì}",
+        "{而且|érqiě}",
+        "{而言|ér yán}",
+        "{而已|éryǐ}"
+      ],
+      "answer": 2,
+      "explanation": "As far as … is concerned: **对…而言**.",
+      "notes": [
+        "而是 = 'but rather'.",
+        "而且 = 'moreover'.",
+        "",
+        "而已 = 'that's all'."
+      ],
+      "translation": "For me, health matters more than money."
+    },
+    {
+      "point": "eryan",
+      "prompt": "{对|duì}{很|hěn}{多|duō}{外国人|wàiguó rén}（　），{声调|shēngdiào}{是|shì}{最|zuì}{难|nán}{的|de}。",
+      "options": [
+        "{而言|ér yán}",
+        "{而是|ér shì}",
+        "{而且|érqiě}",
+        "{而已|éryǐ}"
+      ],
+      "answer": 0,
+      "explanation": "**对…而言**.",
+      "notes": [
+        "",
+        "而是 = 'but rather'.",
+        "而且 = 'moreover'.",
+        "而已 = 'that's all'."
+      ],
+      "translation": "For many foreigners, tones are the hardest part."
+    },
+    {
+      "point": "eryi",
+      "prompt": "{别|bié}{紧张|jǐnzhāng}，{我|wǒ}{只是|zhǐshì}{随便|suíbiàn}{问问|wènwen}（　）。",
+      "options": [
+        "{而是|ér shì}",
+        "{而已|éryǐ}",
+        "{而且|érqiě}",
+        "{而言|ér yán}"
+      ],
+      "answer": 1,
+      "explanation": "That's all: **而已**.",
+      "notes": [
+        "而是 = 'but rather'.",
+        "",
+        "而且 = 'moreover'.",
+        "而言 needs 对 … before it."
+      ],
+      "translation": "Relax, I'm just asking, that's all."
+    },
+    {
+      "point": "eryi",
+      "prompt": "What does 「{他|tā}{不过|búguò}{是|shì}{个|ge}{孩子|háizi}{而已|éryǐ}。」 mean?",
+      "options": [
+        "He'snolongerachild.",
+        "He'sachild,butacleverone.",
+        "Hepassedasachild.",
+        "He'sonlyachild,that'sall."
+      ],
+      "answer": 3,
+      "explanation": "不过…而已 = **merely**.",
+      "notes": [
+        "不过 here = only, not 'passed'.",
+        "而已 doesn't add a contrast.",
+        "不过 isn't 'passed'.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "ping",
+      "prompt": "{他|tā}（　）{自己|zìjǐ}{的|de}{努力|nǔlì}{考|kǎo}{上|shàng}{了|le}{大学|dàxué}。",
+      "options": [
+        "{凭|píng}",
+        "{往|wǎng}",
+        "{朝|cháo}",
+        "{对|duì}"
+      ],
+      "answer": 0,
+      "explanation": "On the strength of: **凭**.",
+      "notes": [
+        "",
+        "往 = 'towards (a direction)'.",
+        "朝 = 'facing'.",
+        "对 = 'towards'."
+      ],
+      "translation": "He got into university through his own hard work."
+    },
+    {
+      "point": "ping",
+      "prompt": "What does the sign 「{凭|píng}{票|piào}{入场|rùchǎng}」 mean?",
+      "options": [
+        "Ticketssoldattheentrance.",
+        "Ticketsnotneeded.",
+        "Admissionwithaticketonly.",
+        "Freeadmission."
+      ],
+      "answer": 2,
+      "explanation": "凭 = **on presentation of**.",
+      "notes": [
+        "Not free.",
+        "Nothing about sales.",
+        "",
+        "凭票 = by showing a ticket."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "chen",
+      "prompt": "（　）{年轻|niánqīng}，{多|duō}{出去|chūqù}{走走|zǒuzou}{吧|ba}。",
+      "options": [
+        "{趁|chèn}",
+        "{在|zài}",
+        "{对|duì}",
+        "{当|dāng}"
+      ],
+      "answer": 0,
+      "explanation": "While (you can): **趁**.",
+      "notes": [
+        "",
+        "在年轻 isn't grammatical.",
+        "对年轻 isn't natural.",
+        "当年轻 would need 的时候."
+      ],
+      "translation": "Travel while you're young."
+    },
+    {
+      "point": "chen",
+      "prompt": "{菜|cài}（　）{热|rè}{吃|chī}{吧|ba}，{凉|liáng}{了|le}{就|jiù}{不|bù}{好吃|hǎochī}{了|le}。",
+      "options": [
+        "{给|gěi}",
+        "{对|duì}",
+        "{往|wǎng}",
+        "{趁|chèn}"
+      ],
+      "answer": 3,
+      "explanation": "**趁热**.",
+      "notes": [
+        "给热吃 isn't grammatical.",
+        "对热吃 isn't grammatical.",
+        "往 is for directions.",
+        ""
+      ],
+      "translation": "Eat it while it's hot — it's not good cold."
+    },
+    {
+      "point": "zhiyu",
+      "prompt": "{我们|wǒmen}{先|xiān}{把|bǎ}{工作|gōngzuò}{做|zuò}{完|wán}，（　）{怎么|zěnme}{庆祝|qìngzhù}，{以后|yǐhòu}{再|zài}{说|shuō}。",
+      "options": [
+        "{甚至|shènzhì}",
+        "{终于|zhōngyú}",
+        "{至于|zhìyú}",
+        "{由于|yóuyú}"
+      ],
+      "answer": 2,
+      "explanation": "As for: **至于**.",
+      "notes": [
+        "甚至 = 'even'.",
+        "终于 = 'finally'.",
+        "",
+        "由于 = 'due to'."
+      ],
+      "translation": "Let's finish the work first — as for how to celebrate, we'll talk about it later."
+    },
+    {
+      "point": "zhiyu",
+      "prompt": "Which word introduces a new, related topic ('as for …')?",
+      "options": [
+        "{甚至|shènzhì}",
+        "{至于|zhìyú}",
+        "{由于|yóuyú}",
+        "{终于|zhōngyú}"
+      ],
+      "answer": 1,
+      "explanation": "**至于** = as for.",
+      "notes": [
+        "甚至 = 'even'.",
+        "",
+        "由于 introduces a reason.",
+        "终于 = 'finally'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "zainei",
+      "prompt": "{包括|bāokuò}{我|wǒ}（　），{一共|yígòng}{有|yǒu}{十|shí}{个|ge}{人|rén}。",
+      "options": [
+        "{在内|zài nèi}",
+        "{以内|yǐ nèi}",
+        "{之内|zhī nèi}",
+        "{在里|zài lǐ}"
+      ],
+      "answer": 0,
+      "explanation": "Including: **包括…在内**.",
+      "notes": [
+        "",
+        "以内 = 'within (a limit)'.",
+        "之内 = 'within (a time/space)'.",
+        "Not the set phrase."
+      ],
+      "translation": "Including me, there are ten people in total."
+    },
+    {
+      "point": "zainei",
+      "prompt": "What does 「{包括|bāokuò}{老师|lǎoshī}{在内|zài nèi}，{大家|dàjiā}{都|dōu}{同意|tóngyì}{了|le}。」 mean?",
+      "options": [
+        "Theteacherwasinsidewhentheyagreed.",
+        "Everyoneexcepttheteacheragreed.",
+        "Onlytheteacheragreed.",
+        "Everyone,includingtheteacher,agreed."
+      ],
+      "answer": 3,
+      "explanation": "包括…在内 = **including**.",
+      "notes": [
+        "在内 isn't 'inside the room'.",
+        "包括 = including.",
+        "Everyone agreed.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "youguan",
+      "prompt": "{我|wǒ}{想|xiǎng}{找|zhǎo}{一些|yìxiē}{跟|gēn}{中国|Zhōngguó}{历史|lìshǐ}（　）{的|de}{书|shū}。",
+      "options": [
+        "{有关|yǒuguān}",
+        "{关于|guānyú}",
+        "{关系|guānxi}",
+        "{对于|duìyú}"
+      ],
+      "answer": 0,
+      "explanation": "Related to: **跟…有关**.",
+      "notes": [
+        "",
+        "关于 goes before the topic, not after it.",
+        "关系 is a noun (跟…有关系).",
+        "对于 goes before the topic."
+      ],
+      "translation": "I'm looking for some books about Chinese history."
+    },
+    {
+      "point": "youguan",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{这|zhè}{是|shì}{跟|gēn}{有关|yǒuguān}{环境|huánjìng}{的|de}{问题|wèntí}。",
+        "{这|zhè}{是|shì}{有关|yǒuguān}{跟|gēn}{环境|huánjìng}{的|de}{问题|wèntí}。",
+        "{这|zhè}{是|shì}{跟|gēn}{环境|huánjìng}{有关|yǒuguān}{的|de}{问题|wèntí}。",
+        "{这|zhè}{是|shì}{环境|huánjìng}{跟|gēn}{有关|yǒuguān}{的|de}{问题|wèntí}。"
+      ],
+      "answer": 2,
+      "explanation": "**跟 + topic + 有关的** + noun.",
+      "notes": [
+        "跟 needs the topic right after it.",
+        "跟 + topic comes first.",
+        "",
+        "跟 comes before the topic."
+      ],
+      "translation": "This is a problem related to the environment."
+    }
+  ]
+}

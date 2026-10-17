@@ -1,0 +1,433 @@
+{
+  "id": "n5-sequence-progressive",
+  "category": "JLPT N5",
+  "title": "Before, After, ている & Experience",
+  "description": "〜てから (after), 〜まえに (before), 〜ている (ongoing action, state, habit), and 〜たことがある (have done before).",
+  "level": "N5",
+  "points": [
+    {
+      "id": "tekara",
+      "title": "〜てから: after doing",
+      "summary": "て-form + から = 'after doing A, (then) B'. It stresses the order. It also means 'since' with time: 来てから3年.",
+      "body": "**て-form + から** says that B happens **after A is done**: 手を洗っ**てから**食べます.\n\nCompared with a plain て-sequence (洗って、食べます), てから **emphasises the order**: first A, only then B.\n\nWith a time expression it means **'since'**: 日本に来**てから**3年になります (it's been 3 years since I came to Japan).\n\n**Don't mix it up with:**\n- **Plain form + から** = because: 洗う**から** (because I wash).\n- **た-form + 後で** = after (N4): 洗った後で. Similar meaning, different form.",
+      "examples": [
+        [
+          "{手|て}を{洗|あら}ってから、ご{飯|はん}を{食|た}べます。",
+          "I eat after washing my hands."
+        ],
+        [
+          "{宿題|しゅくだい}をしてから、テレビを{見|み}ます。",
+          "I'll watch TV after doing my homework."
+        ],
+        [
+          "{日本|にほん}に{来|き}てから、{三年|さんねん}になります。",
+          "It's been three years since I came to Japan."
+        ]
+      ]
+    },
+    {
+      "id": "maeni",
+      "title": "〜まえに: before",
+      "summary": "Dictionary form + まえに / noun + の + まえに = 'before …'. The verb stays in the dictionary form even in past sentences.",
+      "body": "**Verb (dictionary form) + まえに**: 寝る**まえに**歯を磨きます.\n**Noun + の + まえに**: 食事**のまえに**, 授業**のまえに**.\n**Time span + まえに** = 'ago': 3年**まえに**来ました (I came 3 years ago).\n\n**Key rule:** the verb before まえに is **always the dictionary form**, even when the whole sentence is past:\n- 日本に**来る**まえに、日本語を勉強しました ✓\n- 日本に来た**まえに** ✗\n\nAt the time of A, A hasn't happened yet, so it's non-past.\n\nまえ alone also means 'in front of' (駅のまえ). With に + time it's 'before', and with で + action it's 'in front of': 駅のまえで待ちます.",
+      "examples": [
+        [
+          "{寝|ね}るまえに、{歯|は}を{磨|みが}きます。",
+          "I brush my teeth before going to bed."
+        ],
+        [
+          "{日本|にほん}に{来|く}るまえに、{少|すこ}し{日本語|にほんご}を{勉強|べんきょう}しました。",
+          "I studied a little Japanese before coming to Japan."
+        ],
+        [
+          "{三年|さんねん}まえに{結婚|けっこん}しました。",
+          "I got married three years ago."
+        ]
+      ]
+    },
+    {
+      "id": "teiru",
+      "title": "〜ている: is doing / state / habit",
+      "summary": "て-form + いる has three main uses: an action in progress, a resulting state (結婚している, 知っている), and a habit. まだ〜ていない = not yet.",
+      "body": "**て-form + いる** (polite: 〜ています) covers more than English '-ing':\n\n**1. Action in progress:** 今、雨が降っ**ています**. 何をし**ていますか**？\n\n**2. Resulting state** after a change (with verbs of change like 結婚する, 知る, 住む, 着る, 来る, 行く):\n- 結婚**しています** (I'm married), not 'I'm marrying'\n- 知っ**ています** (I know). The negative is irregular: 知りません, not 知っていません.\n- 東京に住ん**でいます** (I live in Tokyo)\n- 来**ています** (has come and is here)\n\n**3. Habit / repeated action:** 毎朝ジョギングをし**ています**.\n\n**Not yet:** まだ〜**ていません**: まだ食べていません (I haven't eaten yet). Using the past form here (〜ませんでした) is a classic mistake.\n\nIn casual speech the い drops: 食べてる, 読んでる.",
+      "examples": [
+        [
+          "{今|いま}、{何|なに}をしていますか。—{本|ほん}を{読|よ}んでいます。",
+          "What are you doing now? — I'm reading a book."
+        ],
+        [
+          "{兄|あに}は{結婚|けっこん}しています。",
+          "My older brother is married."
+        ],
+        [
+          "{毎朝|まいあさ}、{公園|こうえん}を{走|はし}っています。",
+          "I run in the park every morning."
+        ]
+      ]
+    },
+    {
+      "id": "takotogaaru",
+      "title": "〜たことがある: have done (before)",
+      "summary": "た-form + ことがある = 'have the experience of doing'. Negative: 〜たことがない. Answer with あります / ありません.",
+      "body": "**Plain past (た-form) + ことがあります** talks about **life experience**: 富士山に登っ**たことがあります** (I have climbed Mt. Fuji).\n\n- Negative: 〜たこと**がありません / がない**. Add **一度も** for 'never once': 一度も見たことがありません.\n- Question: 〜たことがありますか. Short answers: はい、**あります** / いいえ、**ありません**.\n- Frequency: 何度も (many times), 一度 (once), 二回.\n\n**Watch the form:** it must be the た-form: 行った, 食べた, 飲んだ, 見た. 行くことがある (dictionary form) means something else: 'sometimes go'.\n\nDon't use it for very recent or everyday things (今朝ご飯を食べたことがあります ✗). It's for experiences.",
+      "examples": [
+        [
+          "{富士山|ふじさん}に{登|のぼ}ったことがあります。",
+          "I have climbed Mt. Fuji."
+        ],
+        [
+          "{納豆|なっとう}を{食|た}べたことがありますか。—いいえ、ありません。",
+          "Have you ever eaten natto? — No, I haven't."
+        ],
+        [
+          "{一度|いちど}も{雪|ゆき}を{見|み}たことがありません。",
+          "I've never seen snow."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tekara",
+      "prompt": "{手|て}を{洗|あら}って（　）、ご{飯|はん}を{食|た}べてください。",
+      "options": [
+        "ので",
+        "から",
+        "まで",
+        "が"
+      ],
+      "answer": 1,
+      "explanation": "て-form + **から** = 'after doing'.",
+      "notes": [
+        "ので follows plain forms (洗うので), not the て-form.",
+        "",
+        "まで can't follow the て-form.",
+        "が can't follow the て-form."
+      ],
+      "translation": "Please wash your hands before you eat. (lit. after washing, eat)"
+    },
+    {
+      "point": "tekara",
+      "prompt": "{宿題|しゅくだい}を（　）から、テレビを{見|み}ます。",
+      "options": [
+        "する",
+        "し",
+        "した",
+        "して"
+      ],
+      "answer": 3,
+      "explanation": "'After doing' needs the **て-form**: してから.",
+      "notes": [
+        "するから means 'because I do (homework)', a different meaning.",
+        "しから isn't a form.",
+        "したから means 'because I did', a reason, not a sequence.",
+        ""
+      ],
+      "translation": "I'll watch TV after doing my homework."
+    },
+    {
+      "point": "tekara",
+      "prompt": "{日本|にほん}に{来|き}て（　）、もう{三年|さんねん}になります。",
+      "options": [
+        "からに",
+        "から",
+        "まえに",
+        "まで"
+      ],
+      "answer": 1,
+      "explanation": "て-form + **から** + time span = 'since'.",
+      "notes": [
+        "からに isn't a form.",
+        "",
+        "まえに needs the dictionary form (来るまえに).",
+        "まで can't follow the て-form."
+      ],
+      "translation": "It's already been three years since I came to Japan."
+    },
+    {
+      "point": "maeni",
+      "prompt": "{寝|ね}る（　）、{歯|は}を{磨|みが}きます。",
+      "options": [
+        "てから",
+        "ながら",
+        "あとで",
+        "まえに"
+      ],
+      "answer": 3,
+      "explanation": "Dictionary form + **まえに** = 'before'.",
+      "notes": [
+        "てから needs the て-form (寝てから). 寝るてから is ungrammatical.",
+        "ながら needs the ます-stem (寝ながら).",
+        "あとで needs the た-form (寝たあとで).",
+        ""
+      ],
+      "translation": "I brush my teeth before going to bed."
+    },
+    {
+      "point": "maeni",
+      "prompt": "{日本|にほん}に（　）まえに、{日本語|にほんご}を{勉強|べんきょう}しました。",
+      "options": [
+        "{来|き}て",
+        "{来|き}た",
+        "{来|く}る",
+        "{来|き}ます"
+      ],
+      "answer": 2,
+      "explanation": "Before まえに, always the **dictionary form**, even in the past: 来るまえに.",
+      "notes": [
+        "The て-form can't come before まえに.",
+        "来たまえに is a common mistake. The tense comes from the main verb (勉強しました).",
+        "",
+        "The polite form can't come before まえに."
+      ],
+      "translation": "Before I came to Japan, I studied Japanese."
+    },
+    {
+      "point": "maeni",
+      "prompt": "{食事|しょくじ}（　）まえに、{薬|くすり}を{飲|の}んでください。",
+      "options": [
+        "に",
+        "が",
+        "を",
+        "の"
+      ],
+      "answer": 3,
+      "explanation": "Noun + **の** + まえに.",
+      "notes": [
+        "にまえに isn't possible.",
+        "食事がまえに isn't grammatical.",
+        "食事をまえに is a different, literary structure ('facing the meal').",
+        ""
+      ],
+      "translation": "Please take the medicine before meals."
+    },
+    {
+      "point": "maeni",
+      "prompt": "{三年|さんねん}（　）{日本|にほん}に{来|き}ました。",
+      "options": [
+        "のまえに",
+        "まえに",
+        "まえで",
+        "からまえ"
+      ],
+      "answer": 1,
+      "explanation": "Time span + **まえに** = 'ago'. No の after a time span.",
+      "notes": [
+        "三年のまえに isn't used for 'ago'.",
+        "",
+        "まえで means 'in front of'.",
+        "からまえ isn't a form."
+      ],
+      "translation": "I came to Japan three years ago."
+    },
+    {
+      "point": "teiru",
+      "prompt": "A：{今|いま}、{何|なに}をし（　）か。　B：{本|ほん}を{読|よ}んでいます。",
+      "options": [
+        "ました",
+        "ません",
+        "ています",
+        "ます"
+      ],
+      "answer": 2,
+      "explanation": "'Right now' + action in progress: **〜ています**.",
+      "notes": [
+        "何をしましたか asks about the past.",
+        "何をしませんか isn't a natural question here.",
+        "",
+        "何をしますか asks about future plans, but B answers about now (読んでいます)."
+      ],
+      "translation": "A: What are you doing now? B: I'm reading a book."
+    },
+    {
+      "point": "teiru",
+      "prompt": "{兄|あに}は{結婚|けっこん}し（　）。{子供|こども}が{二人|ふたり}います。",
+      "options": [
+        "てあります",
+        "てなります",
+        "てみます",
+        "ています"
+      ],
+      "answer": 3,
+      "explanation": "結婚する + **ている** = 'is married' (resulting state).",
+      "notes": [
+        "てある is for things deliberately placed or prepared, not people's status.",
+        "てなります isn't a form.",
+        "てみます means 'try doing'. 'Try marrying' doesn't fit having two children.",
+        ""
+      ],
+      "translation": "My older brother is married. He has two children."
+    },
+    {
+      "point": "teiru",
+      "prompt": "A：{田中|たなか}さんの{電話番号|でんわばんごう}を{知|し}っていますか。　B：いいえ、（　）。",
+      "options": [
+        "{知|し}っていません",
+        "{知|し}りないです",
+        "{知|し}りません",
+        "{知|し}っていないです"
+      ],
+      "answer": 2,
+      "explanation": "知る is special: positive **知っています**, but negative **知りません** (not 知っていません).",
+      "notes": [
+        "知っていません is a classic learner mistake. The negative of 知っている is 知らない / 知りません.",
+        "知りない isn't a form. 知る is godan, so its negative is 知らない.",
+        "",
+        "知っていないです isn't used."
+      ],
+      "translation": "A: Do you know Mr. Tanaka's phone number? B: No, I don't."
+    },
+    {
+      "point": "teiru",
+      "prompt": "A：もう{昼|ひる}ご{飯|はん}を{食|た}べましたか。　B：いいえ、まだ{食|た}べて（　）。",
+      "options": [
+        "しません",
+        "いません",
+        "ありません",
+        "いませんでした"
+      ],
+      "answer": 1,
+      "explanation": "'Not yet': まだ + **〜ていません** (present, because it's still the case).",
+      "notes": [
+        "てしません isn't a form.",
+        "",
+        "てありません isn't the pattern for people's actions.",
+        "いませんでした is past, but 'not yet' is a current state, so it uses the present ていません."
+      ],
+      "translation": "A: Have you eaten lunch yet? B: No, not yet."
+    },
+    {
+      "point": "teiru",
+      "prompt": "{毎朝|まいあさ}、{公園|こうえん}を{走|はし}って（　）。",
+      "options": [
+        "いるます",
+        "ありいます",
+        "あります",
+        "います"
+      ],
+      "answer": 3,
+      "explanation": "A regular habit: **〜ています**.",
+      "notes": [
+        "ます attaches to the stem い, not to いる.",
+        "ありいます isn't a form.",
+        "てあります is for the state of objects someone placed or prepared, not for habits.",
+        ""
+      ],
+      "translation": "I run in the park every morning."
+    },
+    {
+      "point": "takotogaaru",
+      "prompt": "{日本|にほん}のお{酒|さけ}を{飲|の}ん（　）ことがありますか。",
+      "options": [
+        "で",
+        "だ",
+        "る",
+        "た"
+      ],
+      "answer": 1,
+      "explanation": "Experience needs the **た-form**: 飲む → 飲**ん****だ**.",
+      "notes": [
+        "飲んで is the て-form, but the pattern needs the past た-form.",
+        "",
+        "飲んる isn't a form.",
+        "飲む-verbs voice the ending: 飲んだ, not 飲んた."
+      ],
+      "translation": "Have you ever drunk Japanese sake?"
+    },
+    {
+      "point": "takotogaaru",
+      "prompt": "{一度|いちど}も{雪|ゆき}を（　）ことがありません。",
+      "options": [
+        "{見|み}よう",
+        "{見|み}ます",
+        "{見|み}た",
+        "{見|み}て"
+      ],
+      "answer": 2,
+      "explanation": "た-form + ことがありません = 'have never …'.",
+      "notes": [
+        "The volitional 見よう ('let's see') can't modify こと here.",
+        "Polite ます forms can't modify こと.",
+        "",
+        "The て-form can't modify こと."
+      ],
+      "translation": "I've never once seen snow."
+    },
+    {
+      "point": "takotogaaru",
+      "prompt": "A：{北海道|ほっかいどう}へ{行|い}ったことがありますか。　B：いいえ、（　）。",
+      "options": [
+        "{行|い}きません",
+        "ありません",
+        "しません",
+        "いません"
+      ],
+      "answer": 1,
+      "explanation": "Answer the experience question with **ありません** (the verb of the pattern).",
+      "notes": [
+        "行きません means 'I don't/won't go', not 'I've never been'.",
+        "",
+        "しません doesn't answer an experience question.",
+        "The pattern uses ある, not いる."
+      ],
+      "translation": "A: Have you ever been to Hokkaido? B: No, I haven't."
+    },
+    {
+      "point": "tekara",
+      "prompt": "{顔|かお}を（　）から、{朝|あさ}ご{飯|はん}を{食|た}べます。",
+      "options": [
+        "{洗|あら}て",
+        "{洗|あら}いて",
+        "{洗|あら}んで",
+        "{洗|あら}って"
+      ],
+      "answer": 3,
+      "explanation": "洗う → **洗って** + から.",
+      "notes": [
+        "う-verbs take って, not て directly.",
+        "いて is for く-verbs.",
+        "んで is for む・ぶ・ぬ verbs.",
+        ""
+      ],
+      "translation": "I eat breakfast after washing my face."
+    },
+    {
+      "point": "maeni",
+      "prompt": "{出|で}かける（　）、{電気|でんき}を{消|け}してください。",
+      "options": [
+        "まえに",
+        "のまえに",
+        "まえで",
+        "まえを"
+      ],
+      "answer": 0,
+      "explanation": "Dictionary form + **まえに**.",
+      "notes": [
+        "",
+        "Verbs take まえに directly — no の.",
+        "まえで means 'in front of'.",
+        "まえを isn't the 'before' pattern."
+      ],
+      "translation": "Please turn off the lights before going out."
+    },
+    {
+      "point": "takotogaaru",
+      "prompt": "{日本|にほん}の{映画|えいが}を（　）ことがありますか。",
+      "options": [
+        "{見|み}ました",
+        "{見|み}た",
+        "{見|み}て",
+        "{見|み}たの"
+      ],
+      "answer": 1,
+      "explanation": "Experience: plain past **た + ことがある**.",
+      "notes": [
+        "Polite forms can't modify こと.",
+        "",
+        "The て-form can't modify こと.",
+        "見たのこと isn't grammatical."
+      ],
+      "translation": "Have you ever seen a Japanese movie?"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "id": "n3-connectors",
+  "category": "JLPT N3",
+  "title": "Connectors: ところで, ところが, つまり, 一方で, としたら, と共に",
+  "description": "By the way vs. however, in other words, on the other hand, supposing that, and together with / as.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "tokorode",
+      "title": "ところで: by the way",
+      "summary": "Sentence-initial ところで changes the topic.",
+      "body": "- **ところで**、明日の会議は何時からですか.\n\nDon't confuse with **ところが** (however, unexpectedly).",
+      "examples": [
+        [
+          "ところで、{明日|あした}の{会議|かいぎ}は{何時|なんじ}からですか。",
+          "By the way, what time does tomorrow's meeting start?"
+        ]
+      ]
+    },
+    {
+      "id": "tokoroga",
+      "title": "ところが: however (unexpectedly)",
+      "summary": "Sentence-initial ところが = but (contrary to expectation). Describes facts, not the speaker's will.",
+      "body": "- 天気予報では晴れると言っていた。**ところが**、雨が降ってきた.\n\nStronger surprise than しかし; the following part is a fact (past), not a request.",
+      "examples": [
+        [
+          "{天気予報|てんきよほう}では{晴|は}れると{言|い}っていた。ところが、{雨|あめ}が{降|ふ}ってきた。",
+          "The forecast said it'd be sunny. However, it started raining."
+        ]
+      ]
+    },
+    {
+      "id": "tsumari",
+      "title": "つまり: in other words, that is",
+      "summary": "つまり = to sum up / in other words — restates the previous part.",
+      "body": "- 彼は母の兄、**つまり**私のおじです.\n\nSimilar: すなわち (formal), 要するに (in short).",
+      "examples": [
+        [
+          "{彼|かれ}は{母|はは}の{兄|あに}、つまり{私|わたし}のおじです。",
+          "He's my mother's older brother — in other words, my uncle."
+        ]
+      ]
+    },
+    {
+      "id": "ippoude",
+      "title": "一方で / その一方で: on the other hand",
+      "summary": "(その)一方で = while/on the other hand, presenting a contrasting side. Different from 一方だ (keeps increasing).",
+      "body": "- 仕事は大変だ。その**一方で**、やりがいもある.\n- 人口が増える**一方で**、空き家も増えている.",
+      "examples": [
+        [
+          "{仕事|しごと}は{大変|たいへん}だ。その{一方|いっぽう}で、やりがいもある。",
+          "The job is hard. On the other hand, it's rewarding."
+        ]
+      ]
+    },
+    {
+      "id": "toshitara",
+      "title": "〜としたら / 〜とすれば: supposing that, if",
+      "summary": "Plain form + としたら / とすれば = assuming that (hypothetical).",
+      "body": "- もし宝くじが当たった**としたら**、何を買いますか.\n- 電車で行く**とすれば**、何時に出ればいいですか.\n\nOften with もし / 仮に. Variant: とすると.",
+      "examples": [
+        [
+          "もし{宝|たから}くじが{当|あ}たったとしたら、{何|なに}を{買|か}いますか。",
+          "Supposing you won the lottery, what would you buy?"
+        ]
+      ]
+    },
+    {
+      "id": "totomoni",
+      "title": "〜と共に: together with; as (changes)",
+      "summary": "Noun + と共に = together with (formal); verb + と共に = as A changes, B changes (like につれて). Kanji: 共 (not 友).",
+      "body": "- 家族**と共に**日本に来ました.\n- 年をとる**と共に**、体力が落ちる.",
+      "examples": [
+        [
+          "{家族|かぞく}と{共|とも}に{日本|にほん}に{来|き}ました。",
+          "I came to Japan together with my family."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tokorode",
+      "prompt": "（Changing the topic）（　）、{明日|あした}の{会議|かいぎ}は{何時|なんじ}からですか。",
+      "options": [
+        "ところに",
+        "ところが",
+        "ところを",
+        "ところで"
+      ],
+      "answer": 3,
+      "explanation": "Topic change: **ところで**.",
+      "notes": [
+        "ところに = 'just when'.",
+        "ところが = 'however' — not a topic change.",
+        "ところを = 'at the moment of (being …)'.",
+        ""
+      ],
+      "translation": "By the way, what time does tomorrow's meeting start?"
+    },
+    {
+      "point": "tokoroga",
+      "prompt": "{天気予報|てんきよほう}では{晴|は}れると{言|い}っていた。（　）、{雨|あめ}が{降|ふ}ってきた。",
+      "options": [
+        "ところが",
+        "それで",
+        "ところで",
+        "だから"
+      ],
+      "answer": 0,
+      "explanation": "Unexpected contrast: **ところが**.",
+      "notes": [
+        "",
+        "それで = 'so' — illogical.",
+        "ところで changes the topic.",
+        "だから = 'so' — illogical."
+      ],
+      "translation": "The forecast said it'd be sunny. However, it started raining."
+    },
+    {
+      "point": "tsumari",
+      "prompt": "{彼|かれ}は{母|はは}の{兄|あに}、（　）{私|わたし}のおじです。",
+      "options": [
+        "それに",
+        "たとえば",
+        "つまり",
+        "ところが"
+      ],
+      "answer": 2,
+      "explanation": "In other words: **つまり**.",
+      "notes": [
+        "それに = 'moreover'.",
+        "たとえば = 'for example'.",
+        "",
+        "ところが = 'however'."
+      ],
+      "translation": "He's my mother's older brother — in other words, my uncle."
+    },
+    {
+      "point": "ippoude",
+      "prompt": "{仕事|しごと}は{大変|たいへん}だ。その（　）、やりがいもある。",
+      "options": [
+        "{一方|いっぽう}だ",
+        "{一方|いっぽう}が",
+        "{一方|いっぽう}に",
+        "{一方|いっぽう}で"
+      ],
+      "answer": 3,
+      "explanation": "On the other hand: **その一方で**.",
+      "notes": [
+        "一方だ = 'keeps increasing'.",
+        "その一方が isn't the pattern.",
+        "その一方に isn't the pattern.",
+        ""
+      ],
+      "translation": "The job is hard. On the other hand, it's rewarding."
+    },
+    {
+      "point": "ippoude",
+      "prompt": "{人口|じんこう}が{増|ふ}える（　）、{空|あ}き{家|や}も{増|ふ}えている。",
+      "options": [
+        "{一方|いっぽう}を",
+        "{一方|いっぽう}で",
+        "{一方|いっぽう}だ",
+        "{一方|いっぽう}に"
+      ],
+      "answer": 1,
+      "explanation": "Two contrasting trends: **一方で**.",
+      "notes": [
+        "一方を isn't the pattern.",
+        "",
+        "一方だ can't connect to a following clause.",
+        "一方に isn't the pattern."
+      ],
+      "translation": "While the population is growing, vacant houses are also increasing."
+    },
+    {
+      "point": "toshitara",
+      "prompt": "もし{宝|たから}くじが{当|あ}たった（　）、{何|なに}を{買|か}いますか。",
+      "options": [
+        "としたら",
+        "としても",
+        "とする",
+        "として"
+      ],
+      "answer": 0,
+      "explanation": "Supposing: **としたら**.",
+      "notes": [
+        "",
+        "としても = 'even if' — doesn't fit 'what would you buy?'.",
+        "とする can't connect to the question.",
+        "として = 'as (a role)'."
+      ],
+      "translation": "Supposing you won the lottery, what would you buy?"
+    },
+    {
+      "point": "toshitara",
+      "prompt": "{電車|でんしゃ}で{行|い}く（　）、{何時|なんじ}に{出|で}ればいいですか。",
+      "options": [
+        "とすれ",
+        "とすれば",
+        "とするば",
+        "とされば"
+      ],
+      "answer": 1,
+      "explanation": "**とすれば** (ば-form of する).",
+      "notes": [
+        "とすれ is missing ば.",
+        "",
+        "するば isn't a form.",
+        "されば isn't a form."
+      ],
+      "translation": "If we go by train, what time should we leave?"
+    },
+    {
+      "point": "totomoni",
+      "prompt": "{家族|かぞく}（　）{日本|にほん}に{来|き}ました。",
+      "options": [
+        "と{共|とも}に",
+        "と{友|とも}に",
+        "に{共|とも}に",
+        "が{共|とも}に"
+      ],
+      "answer": 0,
+      "explanation": "Together with: **と共に** (共, not 友).",
+      "notes": [
+        "",
+        "友 means 'friend' — wrong kanji.",
+        "に共に isn't the pattern.",
+        "が共に isn't the pattern."
+      ],
+      "translation": "I came to Japan together with my family."
+    },
+    {
+      "point": "totomoni",
+      "prompt": "{年|とし}をとる（　）、{体力|たいりょく}が{落|お}ちる。",
+      "options": [
+        "と{共|とも}で",
+        "の{共|とも}に",
+        "と{共|とも}に",
+        "に{共|とも}に"
+      ],
+      "answer": 2,
+      "explanation": "As (change): verb + **と共に**.",
+      "notes": [
+        "と共で isn't the pattern.",
+        "の共に isn't the pattern.",
+        "",
+        "に共に isn't the pattern."
+      ],
+      "translation": "As you age, your stamina declines."
+    },
+    {
+      "point": "tokorode",
+      "prompt": "（Changing the topic）（　）、{最近|さいきん}{元気|げんき}？",
+      "options": [
+        "ところに",
+        "ところが",
+        "ところを",
+        "ところで"
+      ],
+      "answer": 3,
+      "explanation": "By the way: **ところで**.",
+      "notes": [
+        "ところに = 'just when'.",
+        "ところが = 'however'.",
+        "ところを = 'at the moment of'.",
+        ""
+      ],
+      "translation": "By the way, how have you been lately?"
+    },
+    {
+      "point": "tokoroga",
+      "prompt": "{急|いそ}いで{駅|えき}へ{行|い}った。（　）、{電車|でんしゃ}はもう{出|で}ていた。",
+      "options": [
+        "だから",
+        "ところで",
+        "ところが",
+        "それで"
+      ],
+      "answer": 2,
+      "explanation": "Unexpectedly: **ところが**.",
+      "notes": [
+        "だから = 'so' — illogical.",
+        "ところで changes the topic.",
+        "",
+        "それで = 'so' — illogical."
+      ],
+      "translation": "I hurried to the station. However, the train had already left."
+    },
+    {
+      "point": "tsumari",
+      "prompt": "{彼|かれ}は{一度|いちど}も{遅刻|ちこく}したことがない。（　）、とてもまじめな{人|ひと}だ。",
+      "options": [
+        "たとえば",
+        "つまり",
+        "ところで",
+        "ところが"
+      ],
+      "answer": 1,
+      "explanation": "In other words: **つまり**.",
+      "notes": [
+        "たとえば = 'for example'.",
+        "",
+        "ところで = 'by the way'.",
+        "ところが = 'however'."
+      ],
+      "translation": "He has never once been late. In other words, he's very conscientious."
+    },
+    {
+      "point": "toshitara",
+      "prompt": "{仮|かり}に{明日|あした}{雨|あめ}だ（　）、{試合|しあい}はどうなりますか。",
+      "options": [
+        "としては",
+        "として",
+        "とする",
+        "としたら"
+      ],
+      "answer": 3,
+      "explanation": "Supposing: **としたら**.",
+      "notes": [
+        "としては = 'for (someone's part)'.",
+        "として = 'as'.",
+        "とする can't connect to the question.",
+        ""
+      ],
+      "translation": "Supposing it rains tomorrow, what happens to the match?"
+    }
+  ]
+}

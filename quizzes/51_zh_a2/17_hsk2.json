@@ -1,0 +1,245 @@
+{
+  "id": "zh-a2-hsk2",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "HSK Practice 2: 选词填空, 判断对错, 阅读理解",
+  "description": "More HSK-style practice with the second half of A2: choose the word from a small word bank, true/false, and short reading.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "xuanci",
+      "title": "选词填空: choose the word",
+      "summary": "In the HSK, several sentences share one word bank. Here each question shows four words from the same bank: 已经, 怎么, 差不多, 离, 跟, 一直.",
+      "body": "- 已经…了 = already.\n- 怎么 + 还 / 不 = how come.\n- 差不多 = about the same.\n- A 离 B 远 / 近 = distance.\n- 跟 = with.\n- 一直 = all along.",
+      "examples": [
+        [
+          "{我|wǒ}{已经|yǐjīng}{等|děng}{了|le}{你|nǐ}{一个|yí ge}{小时|xiǎoshí}{了|le}！",
+          "I've been waiting for you for an hour already!"
+        ]
+      ]
+    },
+    {
+      "id": "tf2",
+      "title": "判断对错 (2)",
+      "summary": "Decide whether the ★ statement matches the passage.",
+      "body": "Watch for: 什么都没 (nothing at all), 走路 vs 坐车, comparisons with 比 / 没有, and 以前 vs 现在.",
+      "examples": [
+        [
+          "{我|wǒ}{什么|shénme}{都|dōu}{没|méi}{买|mǎi}。",
+          "I didn't buy anything."
+        ]
+      ]
+    },
+    {
+      "id": "yuedu2",
+      "title": "阅读理解 (2)",
+      "summary": "Answer the ★ question. Times often need a small calculation; locations need the right position word.",
+      "body": "- Subtract the travel time to get the departure time.\n- 旁边 / 上面 / 下面 / 对面 — read carefully.",
+      "examples": [
+        [
+          "{路|lù}{上|shang}{要|yào}{四十|sìshí}{分钟|fēnzhōng}。",
+          "The journey takes forty minutes."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "xuanci",
+      "prompt": "{我|wǒ}（　）{等|děng}{了|le}{你|nǐ}{一个|yí ge}{小时|xiǎoshí}{了|le}！",
+      "options": [
+        "{离|lí}",
+        "{怎么|zěnme}",
+        "{已经|yǐjīng}",
+        "{跟|gēn}"
+      ],
+      "answer": 2,
+      "explanation": "Already: **已经…了**.",
+      "notes": [
+        "离 needs a place and 近/远.",
+        "怎么等了 = 'how come (I) waited' — not the meaning.",
+        "",
+        "跟 needs a person after it."
+      ],
+      "translation": "I've been waiting for you for an hour already!"
+    },
+    {
+      "point": "xuanci",
+      "prompt": "{你|nǐ}（　）{还|hái}{没|méi}{睡|shuì}？{都|dōu}{十二|shí'èr}{点|diǎn}{了|le}。",
+      "options": [
+        "{差不多|chàbuduō}",
+        "{怎么|zěnme}",
+        "{跟|gēn}",
+        "{已经|yǐjīng}"
+      ],
+      "answer": 1,
+      "explanation": "How come: **怎么**.",
+      "notes": [
+        "差不多还没 isn't grammatical.",
+        "",
+        "跟 needs a person after it.",
+        "已经还没 is contradictory."
+      ],
+      "translation": "How come you're still not asleep? It's already midnight."
+    },
+    {
+      "point": "xuanci",
+      "prompt": "{我|wǒ}{和|hé}{姐姐|jiějie}{长|zhǎng}{得|de}（　），{很|hěn}{多|duō}{人|rén}{以为|yǐwéi}{我们|wǒmen}{是|shì}{双胞胎|shuāngbāotāi}。",
+      "options": [
+        "{怎么|zěnme}",
+        "{离|lí}",
+        "{已经|yǐjīng}",
+        "{差不多|chàbuduō}"
+      ],
+      "answer": 3,
+      "explanation": "Look alike: **长得差不多**.",
+      "notes": [
+        "长得怎么 isn't a statement.",
+        "离 needs a place.",
+        "长得已经 isn't grammatical.",
+        ""
+      ],
+      "translation": "My sister and I look so alike that lots of people think we're twins."
+    },
+    {
+      "point": "xuanci",
+      "prompt": "{我|wǒ}{家|jiā}（　）{火车站|huǒchēzhàn}{不|bù}{远|yuǎn}，{走路|zǒulù}{十|shí}{分钟|fēnzhōng}。",
+      "options": [
+        "{跟|gēn}",
+        "{离|lí}",
+        "{怎么|zěnme}",
+        "{一直|yìzhí}"
+      ],
+      "answer": 1,
+      "explanation": "Distance: **离**.",
+      "notes": [
+        "跟火车站 isn't distance.",
+        "",
+        "怎么 doesn't fit.",
+        "一直 = 'straight / all along'."
+      ],
+      "translation": "My home isn't far from the train station — ten minutes on foot."
+    },
+    {
+      "point": "tf2",
+      "prompt": "{我|wǒ}{昨天|zuótiān}{去|qù}{商店|shāngdiàn}{买|mǎi}{衣服|yīfu}，{可是|kěshì}{衣服|yīfu}{都|dōu}{太|tài}{贵|guì}{了|le}，{所以|suǒyǐ}{我|wǒ}{什么|shénme}{都|dōu}{没|méi}{买|mǎi}。\n\n★ {他|tā}{昨天|zuótiān}{买|mǎi}{了|le}{衣服|yīfu}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "**什么都没** = nothing at all.",
+      "notes": [
+        "什么都没买 = he bought nothing.",
+        ""
+      ],
+      "translation": "Yesterday I went to the shop to buy clothes, but everything was too expensive, so I didn't buy anything. ★ He bought clothes yesterday.",
+      "fixed_order": true
+    },
+    {
+      "point": "tf2",
+      "prompt": "{我|wǒ}{家|jiā}{离|lí}{学校|xuéxiào}{很|hěn}{近|jìn}，{所以|suǒyǐ}{我|wǒ}{每天|měitiān}{走路|zǒulù}{去|qù}{上学|shàngxué}，{差不多|chàbuduō}{十|shí}{分钟|fēnzhōng}{就|jiù}{到|dào}{了|le}。\n\n★ {他|tā}{每天|měitiān}{坐|zuò}{车|chē}{去|qù}{学校|xuéxiào}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "走路 = **on foot**.",
+      "notes": [
+        "走路去上学 = he walks.",
+        ""
+      ],
+      "translation": "My home is close to the school, so I walk there every day — it takes about ten minutes. ★ He goes to school by car every day.",
+      "fixed_order": true
+    },
+    {
+      "point": "tf2",
+      "prompt": "{弟弟|dìdi}{今年|jīnnián}{八|bā}{岁|suì}，{会|huì}{说|shuō}{中文|Zhōngwén}{和|hé}{英语|Yīngyǔ}，{英语|Yīngyǔ}{说|shuō}{得|de}{比|bǐ}{中文|Zhōngwén}{好|hǎo}。\n\n★ {弟弟|dìdi}{的|de}{中文|Zhōngwén}{没有|méiyǒu}{英语|Yīngyǔ}{好|hǎo}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "比 ↔ **没有** say the same thing from both sides.",
+      "notes": [
+        "",
+        "English is better than Chinese = Chinese isn't as good as English."
+      ],
+      "translation": "My little brother is eight. He speaks Chinese and English, and his English is better than his Chinese. ★ His Chinese isn't as good as his English.",
+      "fixed_order": true
+    },
+    {
+      "point": "tf2",
+      "prompt": "{我|wǒ}{以前|yǐqián}{不|bù}{喜欢|xǐhuan}{吃|chī}{辣|là}{的|de}，{来|lái}{四川|Sìchuān}{以后|yǐhòu}，{现在|xiànzài}{很|hěn}{喜欢|xǐhuan}{了|le}。\n\n★ {他|tā}{以前|yǐqián}{就|jiù}{喜欢|xǐhuan}{吃|chī}{辣|là}{的|de}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "**以前** vs **现在…了** (change).",
+      "notes": [
+        "以前不喜欢 = he didn't like it before.",
+        ""
+      ],
+      "translation": "I didn't use to like spicy food, but since coming to Sichuan I really like it now. ★ He already liked spicy food before.",
+      "fixed_order": true
+    },
+    {
+      "point": "yuedu2",
+      "prompt": "{我|wǒ}{每天|měitiān}{早上|zǎoshang}{七|qī}{点|diǎn}{起床|qǐchuáng}，{吃|chī}{完|wán}{早饭|zǎofàn}{坐|zuò}{公共汽车|gōnggòng qìchē}{去|qù}{公司|gōngsī}，{路|lù}{上|shang}{要|yào}{四十|sìshí}{分钟|fēnzhōng}。{我|wǒ}{八|bā}{点|diǎn}{二十|èrshí}{到|dào}{公司|gōngsī}。\n\n★ {他|tā}{几|jǐ}{点|diǎn}{从|cóng}{家|jiā}{里|lǐ}{出发|chūfā}？",
+      "options": [
+        "{八|bā}{点|diǎn}",
+        "{七|qī}{点|diǎn}{二十|èrshí}",
+        "{七|qī}{点|diǎn}",
+        "{七|qī}{点|diǎn}{四十|sìshí}"
+      ],
+      "answer": 3,
+      "explanation": "8:20 − 40 minutes = **7:40**.",
+      "notes": [
+        "8:20 − 40 minutes isn't 8:00.",
+        "That would be an hour's journey.",
+        "七点 is when he gets up.",
+        ""
+      ],
+      "translation": "I get up at seven every morning, have breakfast, then take the bus to the office — the journey takes forty minutes. I arrive at 8:20. ★ When does he leave home?"
+    },
+    {
+      "point": "yuedu2",
+      "prompt": "{小王|Xiǎo Wáng}{的|de}{房间|fángjiān}{不|bú}{大|dà}，{可是|kěshì}{很|hěn}{干净|gānjìng}。{床|chuáng}{在|zài}{窗户|chuānghu}{旁边|pángbiān}，{桌子|zhuōzi}{在|zài}{门|mén}{旁边|pángbiān}，{桌子|zhuōzi}{上|shang}{有|yǒu}{很|hěn}{多|duō}{书|shū}。\n\n★ {床|chuáng}{在|zài}{哪儿|nǎr}？",
+      "options": [
+        "{窗户|chuānghu}{旁边|pángbiān}",
+        "{桌子|zhuōzi}{上面|shàngmiàn}",
+        "{椅子|yǐzi}{下面|xiàmiàn}",
+        "{门|mén}{旁边|pángbiān}"
+      ],
+      "answer": 0,
+      "explanation": "床在**窗户旁边**.",
+      "notes": [
+        "",
+        "The books are on the table.",
+        "Chairs aren't mentioned.",
+        "The table is by the door."
+      ],
+      "translation": "Xiao Wang's room isn't big, but it's very clean. The bed is by the window, the desk is by the door, and there are lots of books on the desk. ★ Where is the bed?"
+    },
+    {
+      "point": "yuedu2",
+      "prompt": "{昨天|zuótiān}{的|de}{考试|kǎoshì}{很|hěn}{难|nán}，{大家|dàjiā}{都|dōu}{觉得|juéde}{时间|shíjiān}{不|bú}{够|gòu}。{我|wǒ}{差不多|chàbuduō}{写|xiě}{完|wán}{了|le}，{可是|kěshì}{最后|zuìhòu}{一个|yí ge}{题|tí}{没|méi}{写|xiě}。\n\n★ {关于|guānyú}{考试|kǎoshì}，{可以|kěyǐ}{知道|zhīdào}：",
+      "options": [
+        "{考试|kǎoshì}{很|hěn}{容易|róngyì}",
+        "{他|tā}{没|méi}{去|qù}{考试|kǎoshì}",
+        "{很|hěn}{多|duō}{人|rén}{觉得|juéde}{时间|shíjiān}{不|bú}{够|gòu}",
+        "{他|tā}{都|dōu}{写|xiě}{完|wán}{了|le}"
+      ],
+      "answer": 2,
+      "explanation": "大家都觉得**时间不够**.",
+      "notes": [
+        "It was 很难.",
+        "He took it.",
+        "",
+        "差不多写完 — the last question is missing."
+      ],
+      "translation": "Yesterday's exam was hard; everyone felt there wasn't enough time. I almost finished, but didn't do the last question. ★ What do we know about the exam?"
+    }
+  ]
+}

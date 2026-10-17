@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grammar Practice</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="theme-color" content="#b5452f">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#" class="brand" id="home-link"><span id="brand-word">文法</span> <span>Grammar Practice</span></a>
+    <div class="topbar-right">
+      <div class="segmented mini" id="script-switch" role="group" aria-label="Chinese script" hidden>
+        <button data-script="simp" title="Simplified characters">简</button>
+        <button data-script="trad" title="Traditional characters">繁</button>
+      </div>
+      <button class="sound-toggle" id="sound-toggle" type="button" aria-label="Sound on" title="Sound on/off">🔊</button>
+      <label class="toggle"><input type="checkbox" id="furigana-toggle" checked> <span id="ruby-label">Furigana</span></label>
+    </div>
+  </header>
+  <main id="app"></main>
+  <script src="/app.js"></script>
+</body>
+</html>

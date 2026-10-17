@@ -1,0 +1,287 @@
+{
+  "id": "n3-choice-limits",
+  "category": "JLPT N3",
+  "title": "No Choice & Not Always: しかない, ずにはいられない, ないことはない, とは限らない",
+  "description": "Having no other option, not being able to help yourself, 'it's not impossible', and 'not necessarily'.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "shikanai",
+      "title": "〜しかない: have no choice but to",
+      "summary": "Dictionary form + しかない = 'the only option is to …'.",
+      "body": "- 電車が止まったので、歩いて帰る**しかない** (I have no choice but to walk home).\n- 誰も手伝ってくれないなら、自分でやる**しかない**.\n\nDictionary form + しかない (not the ます-stem or て-form). Compare N4 しか〜ない ('only', with a noun): 100円**しか**ない.",
+      "examples": [
+        [
+          "{電車|でんしゃ}が{止|と}まったので、{歩|ある}いて{帰|かえ}るしかない。",
+          "The trains stopped, so I have no choice but to walk home."
+        ]
+      ]
+    },
+    {
+      "id": "zunihairarenai",
+      "title": "〜ずにはいられない: can't help (doing)",
+      "summary": "ない-stem + ずにはいられない = can't stop yourself from doing. する → せずにはいられない.",
+      "body": "- その話を聞いて、笑わ**ずにはいられなかった** (I couldn't help laughing).\n- 彼の話を聞くと、心配**せずにはいられない**.\n\n**Formation:** ない-form, drop ない, add **ずに**: 笑わない → 笑わ**ず**. **する → せず**, 来る → こず.\nVariant (more colloquial): 〜ないではいられない.",
+      "examples": [
+        [
+          "その{話|はなし}を{聞|き}いて、{笑|わら}わずにはいられなかった。",
+          "Hearing that story, I couldn't help laughing."
+        ]
+      ]
+    },
+    {
+      "id": "naikotowanai",
+      "title": "〜ないことはない: it's not that … not (can, but)",
+      "summary": "ない-form + ことはない = double negative: 'it's not impossible / I can, but …'. Often with a reservation.",
+      "body": "- 納豆は食べられない**ことはない**けど、あまり好きじゃない (I *can* eat natto, but I don't really like it).\n- 行けない**ことはない** (I could go, if I had to).\n\nIt's a hesitant 'yes'. Don't confuse with **ことはない** (no need to) after a positive verb.",
+      "examples": [
+        [
+          "{納豆|なっとう}は{食|た}べられないことはないけど、あまり{好|す}きじゃない。",
+          "It's not that I can't eat natto, but I don't really like it."
+        ]
+      ]
+    },
+    {
+      "id": "towakagiranai",
+      "title": "〜とは限らない: not necessarily",
+      "summary": "Plain form + とは限らない = 'it's not always true that …'. Often with 必ずしも / いつも / みんな.",
+      "body": "- 高い物がいい物だ**とは限らない** (expensive things aren't necessarily good).\n- 日本人がみんな寿司が好きだ**とは限らない**.\n\nNouns / な-adjectives often keep だ: いい物だとは限らない. Frequently paired with **必ずしも**: 必ずしも正しい**とは限らない**.",
+      "examples": [
+        [
+          "{高|たか}い{物|もの}がいい{物|もの}だとは{限|かぎ}らない。",
+          "Expensive things aren't necessarily good."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "shikanai",
+      "prompt": "{電車|でんしゃ}が{止|と}まったので、{歩|ある}いて{帰|かえ}る（　）。",
+      "options": [
+        "ばかりない",
+        "しかある",
+        "だけない",
+        "しかない"
+      ],
+      "answer": 3,
+      "explanation": "No other option: **しかない**.",
+      "notes": [
+        "ばかりない isn't a pattern.",
+        "しかある isn't grammatical — しか needs a negative.",
+        "だけない isn't a pattern.",
+        ""
+      ],
+      "translation": "The trains stopped, so I have no choice but to walk home."
+    },
+    {
+      "point": "shikanai",
+      "prompt": "{誰|だれ}も{手伝|てつだ}ってくれないなら、{自分|じぶん}で（　）しかない。",
+      "options": [
+        "やる",
+        "やり",
+        "やって",
+        "やった"
+      ],
+      "answer": 0,
+      "explanation": "**Dictionary form** + しかない.",
+      "notes": [
+        "",
+        "The ます-stem doesn't take しかない.",
+        "The て-form doesn't take しかない.",
+        "The past form doesn't fit 'no choice but to'."
+      ],
+      "translation": "If nobody will help me, I'll just have to do it myself."
+    },
+    {
+      "point": "zunihairarenai",
+      "prompt": "その{話|はなし}を{聞|き}いて、{笑|わら}わ（　）いられなかった。",
+      "options": [
+        "ずに",
+        "ずも",
+        "ずでは",
+        "ずには"
+      ],
+      "answer": 3,
+      "explanation": "**〜ずにはいられない** = couldn't help.",
+      "notes": [
+        "は is needed: ずには.",
+        "ずも isn't the pattern.",
+        "ずでは isn't a form.",
+        ""
+      ],
+      "translation": "Hearing that story, I couldn't help laughing."
+    },
+    {
+      "point": "zunihairarenai",
+      "prompt": "{彼|かれ}の{話|はなし}を{聞|き}くと、{心配|しんぱい}（　）にはいられない。",
+      "options": [
+        "せず",
+        "さず",
+        "しず",
+        "すず"
+      ],
+      "answer": 0,
+      "explanation": "する → **せず**.",
+      "notes": [
+        "",
+        "さず isn't a form.",
+        "しず isn't a form.",
+        "すず isn't a form."
+      ],
+      "translation": "When I hear his story, I can't help worrying."
+    },
+    {
+      "point": "naikotowanai",
+      "prompt": "A：{納豆|なっとう}、{食|た}べられる？　B：{食|た}べられない（　）けど、あまり{好|す}きじゃない。",
+      "options": [
+        "ものはない",
+        "ことはない",
+        "ことにない",
+        "ことがない"
+      ],
+      "answer": 1,
+      "explanation": "Hesitant 'I can': **ないことはない**.",
+      "notes": [
+        "ものはない isn't the pattern.",
+        "",
+        "ことにない isn't grammatical.",
+        "ないことがない = 'there's never a time I can't' — doesn't fit."
+      ],
+      "translation": "A: Can you eat natto? B: It's not that I can't, but I don't really like it."
+    },
+    {
+      "point": "naikotowanai",
+      "prompt": "What does 「{行|い}けないことはない」 mean?",
+      "options": [
+        "It's not impossible for me to go.",
+        "I can't go.",
+        "I have never gone.",
+        "I must go."
+      ],
+      "answer": 0,
+      "explanation": "Double negative = a hesitant **yes, I could**.",
+      "notes": [
+        "",
+        "That's just 行けない.",
+        "That's 行ったことがない.",
+        "That's 行かなければならない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "towakagiranai",
+      "prompt": "{高|たか}い{物|もの}がいい{物|もの}だ（　）。",
+      "options": [
+        "とは{限|かぎ}る",
+        "では{限|かぎ}らない",
+        "とは{限|かぎ}らない",
+        "には{限|かぎ}らない"
+      ],
+      "answer": 2,
+      "explanation": "Not necessarily: **とは限らない**.",
+      "notes": [
+        "とは限る isn't used — the pattern is negative.",
+        "では限らない isn't grammatical.",
+        "",
+        "には限らない isn't this pattern."
+      ],
+      "translation": "Expensive things aren't necessarily good."
+    },
+    {
+      "point": "towakagiranai",
+      "prompt": "{日本人|にほんじん}がみんな{寿司|すし}が{好|す}きだ（　）。",
+      "options": [
+        "に{限|かぎ}らない",
+        "とは{限|かぎ}らない",
+        "と{限|かぎ}らない",
+        "とは{限|かぎ}らなく"
+      ],
+      "answer": 1,
+      "explanation": "**とは限らない** — with は.",
+      "notes": [
+        "に限らない means 'not limited to' and doesn't follow a clause with だ.",
+        "",
+        "The standard pattern includes は: とは限らない.",
+        "限らなく can't end the sentence."
+      ],
+      "translation": "Not all Japanese people necessarily like sushi."
+    },
+    {
+      "point": "shikanai",
+      "prompt": "{財布|さいふ}を{忘|わす}れたので、{友達|ともだち}に{借|か}りる（　）。",
+      "options": [
+        "しかないだった",
+        "しかあった",
+        "だけなかった",
+        "しかなかった"
+      ],
+      "answer": 3,
+      "explanation": "Past 'had no choice but': **しかなかった**.",
+      "notes": [
+        "ないだった isn't grammatical — the past is なかった.",
+        "しか needs a negative.",
+        "だけなかった isn't the pattern.",
+        ""
+      ],
+      "translation": "I forgot my wallet, so I had no choice but to borrow from a friend."
+    },
+    {
+      "point": "zunihairarenai",
+      "prompt": "あまりに{悲|かな}しい{映画|えいが}で、{泣|な}か（　）いられなかった。",
+      "options": [
+        "ないには",
+        "ずに",
+        "ずには",
+        "ずでは"
+      ],
+      "answer": 2,
+      "explanation": "Couldn't help crying: **泣かずにはいられなかった**.",
+      "notes": [
+        "ないにはいられない isn't the pattern (ないではいられない would be).",
+        "は is needed: ずには.",
+        "",
+        "ずでは isn't a form."
+      ],
+      "translation": "It was such a sad film that I couldn't help crying."
+    },
+    {
+      "point": "naikotowanai",
+      "prompt": "{急|いそ}げば、{間|ま}に{合|あ}わない（　）。",
+      "options": [
+        "ことはない",
+        "ものはない",
+        "ことではない",
+        "ことにない"
+      ],
+      "answer": 0,
+      "explanation": "Hesitant 'we could make it': **ないことはない**.",
+      "notes": [
+        "",
+        "ものはない isn't the pattern.",
+        "ことではない = 'it's not a matter of…'.",
+        "ことにない isn't grammatical."
+      ],
+      "translation": "If we hurry, it's not impossible to make it."
+    },
+    {
+      "point": "towakagiranai",
+      "prompt": "{有名|ゆうめい}な{店|みせ}が{必|かなら}ずしもおいしい（　）。",
+      "options": [
+        "には{限|かぎ}らない",
+        "とは{限|かぎ}る",
+        "とは{限|かぎ}らない",
+        "と{限|かぎ}らなく"
+      ],
+      "answer": 2,
+      "explanation": "必ずしも … **とは限らない** = not necessarily.",
+      "notes": [
+        "には限らない isn't this pattern.",
+        "The pattern is negative: 限らない.",
+        "",
+        "限らなく can't end the sentence."
+      ],
+      "translation": "Famous shops aren't necessarily tasty."
+    }
+  ]
+}

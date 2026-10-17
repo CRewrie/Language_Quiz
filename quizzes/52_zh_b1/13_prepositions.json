@@ -1,0 +1,362 @@
+{
+  "id": "zh-b1-prepositions",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Prepositions: 对, 给, 为, 往 / 向, 关于, 通过, 直到",
+  "description": "Towards / about someone (对), for / to (给, 为), direction (往, 向), about (关于), through (通过), and 'not until' (直到…才).",
+  "level": "B1",
+  "points": [
+    {
+      "id": "dui",
+      "title": "对 + person / thing",
+      "summary": "对 (duì) = towards, to: 对我很好 (good to me), 对…感兴趣 (interested in).",
+      "body": "- 他**对**我很好.\n- 我**对**中国历史很感兴趣.",
+      "examples": [
+        [
+          "{我|wǒ}{对|duì}{中国|Zhōngguó}{历史|lìshǐ}{很|hěn}{感兴趣|gǎn xìngqù}。",
+          "I'm very interested in Chinese history."
+        ]
+      ]
+    },
+    {
+      "id": "gei",
+      "title": "给 + person + verb",
+      "summary": "给 (gěi) + person + verb = do something for / to someone: 给你打电话, 给妈妈写信.",
+      "body": "- 我**给**你打电话.\n- 我**给**妈妈写了一封信.",
+      "examples": [
+        [
+          "{我|wǒ}{给|gěi}{妈妈|māma}{写|xiě}{了|le}{一|yì}{封|fēng}{信|xìn}。",
+          "I wrote a letter to my mum."
+        ]
+      ]
+    },
+    {
+      "id": "wei",
+      "title": "为 + person: for (the sake of)",
+      "summary": "为 (wèi) + person = for someone's sake / benefit. 为…高兴 = happy for.",
+      "body": "- 我真**为**你高兴!",
+      "examples": [
+        [
+          "{我|wǒ}{真|zhēn}{为|wèi}{你|nǐ}{高兴|gāoxìng}！",
+          "I'm really happy for you!"
+        ]
+      ]
+    },
+    {
+      "id": "wangxiang",
+      "title": "往 / 向: towards",
+      "summary": "往 (wǎng) + direction + verb: 往前走. 向 (xiàng) also takes people: 向他学习 (learn from him).",
+      "body": "- 一直**往**前走.\n- 我们应该**向**他学习.",
+      "examples": [
+        [
+          "{一直|yìzhí}{往|wǎng}{前|qián}{走|zǒu}。",
+          "Go straight ahead."
+        ]
+      ]
+    },
+    {
+      "id": "guanyu",
+      "title": "关于: about, concerning",
+      "summary": "关于 (guānyú) + topic = about …, before a noun (关于…的书) or at the start of a sentence.",
+      "body": "- 一本**关于**中国历史的书.",
+      "examples": [
+        [
+          "{这|zhè}{是|shì}{一|yì}{本|běn}{关于|guānyú}{中国|Zhōngguó}{历史|lìshǐ}{的|de}{书|shū}。",
+          "This is a book about Chinese history."
+        ]
+      ]
+    },
+    {
+      "id": "tongguo",
+      "title": "通过: through, by means of",
+      "summary": "通过 (tōngguò) + person / method = via, through.",
+      "body": "- 我是**通过**朋友认识她的.",
+      "examples": [
+        [
+          "{我|wǒ}{是|shì}{通过|tōngguò}{朋友|péngyou}{认识|rènshi}{她|tā}{的|de}。",
+          "I met her through a friend."
+        ]
+      ]
+    },
+    {
+      "id": "zhidao",
+      "title": "直到 … 才: not until",
+      "summary": "直到 (zhídào) + time / event，(subject) + 才 + verb = it took until … for ….",
+      "body": "- **直到**昨天，我**才**知道这件事.",
+      "examples": [
+        [
+          "{直到|zhídào}{昨天|zuótiān}，{我|wǒ}{才|cái}{知道|zhīdào}{这|zhè}{件|jiàn}{事|shì}。",
+          "I didn't find out about it until yesterday."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "dui",
+      "prompt": "{他|tā}（　）{我|wǒ}{很|hěn}{好|hǎo}，{常常|chángcháng}{帮助|bāngzhù}{我|wǒ}。",
+      "options": [
+        "{往|wǎng}",
+        "{为|wèi}",
+        "{给|gěi}",
+        "{对|duì}"
+      ],
+      "answer": 3,
+      "explanation": "Good to someone: **对…好**.",
+      "notes": [
+        "往 is for directions.",
+        "为我很好 isn't natural.",
+        "给我很好 isn't grammatical.",
+        ""
+      ],
+      "translation": "He's very good to me and often helps me."
+    },
+    {
+      "point": "dui",
+      "prompt": "{我|wǒ}（　）{中国|Zhōngguó}{历史|lìshǐ}{很|hěn}{感兴趣|gǎn xìngqù}。",
+      "options": [
+        "{对|duì}",
+        "{向|xiàng}",
+        "{给|gěi}",
+        "{为|wèi}"
+      ],
+      "answer": 0,
+      "explanation": "Interested in: **对…感兴趣**.",
+      "notes": [
+        "",
+        "向 doesn't go with 感兴趣.",
+        "给 doesn't go with 感兴趣.",
+        "为 doesn't go with 感兴趣."
+      ],
+      "translation": "I'm very interested in Chinese history."
+    },
+    {
+      "point": "gei",
+      "prompt": "{我|wǒ}{晚上|wǎnshang}（　）{你|nǐ}{打|dǎ}{电话|diànhuà}。",
+      "options": [
+        "{往|wǎng}",
+        "{给|gěi}",
+        "{向|xiàng}",
+        "{对|duì}"
+      ],
+      "answer": 1,
+      "explanation": "Call someone: **给…打电话**.",
+      "notes": [
+        "往 is for directions.",
+        "",
+        "向你打电话 isn't natural.",
+        "对你打电话 isn't natural."
+      ],
+      "translation": "I'll call you tonight."
+    },
+    {
+      "point": "gei",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{写|xiě}{了|le}{给|gěi}{妈妈|māma}{一|yì}{封|fēng}{信|xìn}。",
+        "{我|wǒ}{给|gěi}{写|xiě}{了|le}{妈妈|māma}{一|yì}{封|fēng}{信|xìn}。",
+        "{我|wǒ}{给|gěi}{妈妈|māma}{写|xiě}{了|le}{一|yì}{封|fēng}{信|xìn}。",
+        "{我|wǒ}{妈妈|māma}{给|gěi}{写|xiě}{了|le}{一|yì}{封|fēng}{信|xìn}。"
+      ],
+      "answer": 2,
+      "explanation": "**给 + person** + verb.",
+      "notes": [
+        "给 + person comes before the verb (or 写给 + person).",
+        "The person comes right after 给.",
+        "",
+        "给 comes before the person."
+      ],
+      "translation": "I wrote a letter to my mum."
+    },
+    {
+      "point": "wei",
+      "prompt": "{你|nǐ}{考|kǎo}{上|shàng}{大学|dàxué}{了|le}？{我|wǒ}{真|zhēn}（　）{你|nǐ}{高兴|gāoxìng}！",
+      "options": [
+        "{对|duì}",
+        "{为|wèi}",
+        "{向|xiàng}",
+        "{往|wǎng}"
+      ],
+      "answer": 1,
+      "explanation": "Happy for: **为…高兴**.",
+      "notes": [
+        "对你高兴 isn't natural.",
+        "",
+        "向你高兴 isn't grammatical.",
+        "往 is for directions."
+      ],
+      "translation": "You got into university? I'm so happy for you!"
+    },
+    {
+      "point": "wei",
+      "prompt": "{父母|fùmǔ}（　）{孩子|háizi}{付出|fùchū}{了|le}{很|hěn}{多|duō}。",
+      "options": [
+        "{为|wèi}",
+        "{往|wǎng}",
+        "{从|cóng}",
+        "{向|xiàng}"
+      ],
+      "answer": 0,
+      "explanation": "For the sake of: **为**.",
+      "notes": [
+        "",
+        "往 is for directions.",
+        "从 = 'from'.",
+        "向孩子付出 isn't natural."
+      ],
+      "translation": "Parents give a great deal for their children."
+    },
+    {
+      "point": "wangxiang",
+      "prompt": "{一直|yìzhí}（　）{前|qián}{走|zǒu}，{就|jiù}{到|dào}{了|le}。",
+      "options": [
+        "{给|gěi}",
+        "{对|duì}",
+        "{跟|gēn}",
+        "{往|wǎng}"
+      ],
+      "answer": 3,
+      "explanation": "Towards: **往前走**.",
+      "notes": [
+        "给前 isn't grammatical.",
+        "对前 isn't a direction.",
+        "跟前 = 'in front of (someone)'.",
+        ""
+      ],
+      "translation": "Go straight ahead and you're there."
+    },
+    {
+      "point": "wangxiang",
+      "prompt": "{他|tā}{学习|xuéxí}{很|hěn}{努力|nǔlì}，{我们|wǒmen}{应该|yīnggāi}（　）{他|tā}{学习|xuéxí}。",
+      "options": [
+        "{对|duì}",
+        "{向|xiàng}",
+        "{给|gěi}",
+        "{往|wǎng}"
+      ],
+      "answer": 1,
+      "explanation": "Learn from: **向…学习**.",
+      "notes": [
+        "对他学习 isn't natural.",
+        "",
+        "给他学习 = 'study for him'.",
+        "往 doesn't take people."
+      ],
+      "translation": "He studies very hard — we should learn from him."
+    },
+    {
+      "point": "guanyu",
+      "prompt": "{这|zhè}{是|shì}{一|yì}{本|běn}（　）{中国|Zhōngguó}{历史|lìshǐ}{的|de}{书|shū}。",
+      "options": [
+        "{对|duì}",
+        "{为了|wèile}",
+        "{通过|tōngguò}",
+        "{关于|guānyú}"
+      ],
+      "answer": 3,
+      "explanation": "About: **关于…的**.",
+      "notes": [
+        "对中国历史的书 isn't natural.",
+        "为了 = 'in order to'.",
+        "通过 = 'through'.",
+        ""
+      ],
+      "translation": "This is a book about Chinese history."
+    },
+    {
+      "point": "guanyu",
+      "prompt": "（　）{这个|zhège}{问题|wèntí}，{我们|wǒmen}{明天|míngtiān}{再|zài}{讨论|tǎolùn}。",
+      "options": [
+        "{通过|tōngguò}",
+        "{直到|zhídào}",
+        "{关于|guānyú}",
+        "{为了|wèile}"
+      ],
+      "answer": 2,
+      "explanation": "Concerning: **关于**.",
+      "notes": [
+        "通过 = 'through'.",
+        "直到 = 'until'.",
+        "",
+        "为了 = 'in order to'."
+      ],
+      "translation": "As for this question, let's discuss it again tomorrow."
+    },
+    {
+      "point": "tongguo",
+      "prompt": "{我|wǒ}{是|shì}（　）{朋友|péngyou}{认识|rènshi}{我|wǒ}{女朋友|nǚpéngyou}{的|de}。",
+      "options": [
+        "{关于|guānyú}",
+        "{为了|wèile}",
+        "{对|duì}",
+        "{通过|tōngguò}"
+      ],
+      "answer": 3,
+      "explanation": "Through: **通过**.",
+      "notes": [
+        "关于 = 'about'.",
+        "为了 = 'in order to'.",
+        "对 = 'towards'.",
+        ""
+      ],
+      "translation": "I met my girlfriend through a friend."
+    },
+    {
+      "point": "tongguo",
+      "prompt": "（　）{这|zhè}{次|cì}{考试|kǎoshì}，{我|wǒ}{发现|fāxiàn}{了|le}{自己|zìjǐ}{的|de}{很|hěn}{多|duō}{问题|wèntí}。",
+      "options": [
+        "{以来|yǐlái}",
+        "{直到|zhídào}",
+        "{通过|tōngguò}",
+        "{为了|wèile}"
+      ],
+      "answer": 2,
+      "explanation": "By means of: **通过**.",
+      "notes": [
+        "以来 goes after a time.",
+        "直到 needs 才.",
+        "",
+        "为了 = 'in order to'."
+      ],
+      "translation": "Through this exam I discovered many of my own weaknesses."
+    },
+    {
+      "point": "zhidao",
+      "prompt": "{直到|zhídào}{十二|shí'èr}{点|diǎn}，{他|tā}（　）{回|huí}{家|jiā}。",
+      "options": [
+        "{才|cái}",
+        "{又|yòu}",
+        "{就|jiù}",
+        "{都|dōu}"
+      ],
+      "answer": 0,
+      "explanation": "Not until: **直到…才**.",
+      "notes": [
+        "",
+        "又 = 'again'.",
+        "直到 pairs with 才.",
+        "都 doesn't fit."
+      ],
+      "translation": "He didn't get home until midnight."
+    },
+    {
+      "point": "zhidao",
+      "prompt": "（　）{昨天|zuótiān}，{我|wǒ}{才|cái}{知道|zhīdào}{这|zhè}{件|jiàn}{事|shì}。",
+      "options": [
+        "{关于|guānyú}",
+        "{通过|tōngguò}",
+        "{直到|zhídào}",
+        "{为了|wèile}"
+      ],
+      "answer": 2,
+      "explanation": "**直到…才**.",
+      "notes": [
+        "关于 = 'about'.",
+        "通过昨天 isn't natural.",
+        "",
+        "为了 = 'in order to'."
+      ],
+      "translation": "I didn't find out about it until yesterday."
+    }
+  ]
+}

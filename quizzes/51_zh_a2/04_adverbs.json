@@ -1,0 +1,363 @@
+{
+  "id": "zh-a2-adverbs",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "Small Adverbs: 就, 还, 只, 总是, 别, 一边…一边, 又…又",
+  "description": "Early/right away (就), also/OK-ish (还), only (只), always (总是), don't/stop (别…了), doing two things at once and 'both … and'.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "jiu",
+      "title": "就: (as early as) / right away",
+      "summary": "就 (jiù) + verb: earlier/sooner than expected, or 'right away'. Often with 了.",
+      "body": "- 他六点**就**起床了 (He got up as early as six).\n- 我马上**就**来.",
+      "examples": [
+        [
+          "{我|wǒ}{马上|mǎshàng}{就|jiù}{来|lái}。",
+          "I'll be right there."
+        ]
+      ]
+    },
+    {
+      "id": "hai",
+      "title": "还: also; (it's) OK",
+      "summary": "还 + verb = in addition (还买了…). 还 + adj = reasonably, OK-ish: 还可以, 还不错.",
+      "body": "- 我买了苹果，**还**买了香蕉.\n- 这个电影**还**可以 (It's OK).",
+      "examples": [
+        [
+          "{这个|zhège}{电影|diànyǐng}{还|hái}{可以|kěyǐ}。",
+          "This film is OK."
+        ]
+      ]
+    },
+    {
+      "id": "zhi",
+      "title": "只 + verb: only",
+      "summary": "只 (zhǐ) goes **before the verb**, even when 'only' refers to the object.",
+      "body": "- 我**只**会说一点儿中文.\n- 我**只**有一百块钱.",
+      "examples": [
+        [
+          "{我|wǒ}{只|zhǐ}{有|yǒu}{一百|yìbǎi}{块|kuài}{钱|qián}。",
+          "I only have 100 yuan."
+        ]
+      ]
+    },
+    {
+      "id": "zongshi",
+      "title": "总是 + verb: always",
+      "summary": "总是 (zǒngshì) = always, every time (habit, often annoying).",
+      "body": "- 他**总是**迟到.",
+      "examples": [
+        [
+          "{他|tā}{总是|zǒngshì}{迟到|chídào}。",
+          "He's always late."
+        ]
+      ]
+    },
+    {
+      "id": "bie",
+      "title": "别 + verb (+ 了): don't / stop",
+      "summary": "别 (bié) + verb = don't. 别 + verb + 了 = stop doing it (it's happening now).",
+      "body": "- **别**担心.\n- **别**说话**了**! (Stop talking!)",
+      "examples": [
+        [
+          "{别|bié}{说话|shuōhuà}{了|le}！",
+          "Stop talking!"
+        ]
+      ]
+    },
+    {
+      "id": "yibian",
+      "title": "一边 A 一边 B: doing A while B",
+      "summary": "一边 + verb 1，一边 + verb 2 = doing both at the same time.",
+      "body": "- 他**一边**吃饭，**一边**看电视.",
+      "examples": [
+        [
+          "{我们|wǒmen}{一边|yìbiān}{走|zǒu}{一边|yìbiān}{聊天|liáotiān}。",
+          "We chatted as we walked."
+        ]
+      ]
+    },
+    {
+      "id": "youyou",
+      "title": "又 A 又 B: both A and B",
+      "summary": "又 + adj/verb，又 + adj/verb = both … and … (same direction: both good or both bad).",
+      "body": "- 这个苹果**又**大**又**甜.",
+      "examples": [
+        [
+          "{他|tā}{又|yòu}{高|gāo}{又|yòu}{帅|shuài}。",
+          "He's both tall and handsome."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "jiu",
+      "prompt": "{他|tā}{早上|zǎoshang}{六|liù}{点|diǎn}（　）{起床|qǐchuáng}{了|le}。",
+      "options": [
+        "{才|cái}",
+        "{就|jiù}",
+        "{还|hái}",
+        "{都|dōu}"
+      ],
+      "answer": 1,
+      "explanation": "As early as: **就…了**.",
+      "notes": [
+        "才 = 'not until' — and it doesn't take 了.",
+        "",
+        "还起床了 isn't grammatical.",
+        "都 needs a plural subject."
+      ],
+      "translation": "He got up as early as six this morning."
+    },
+    {
+      "point": "jiu",
+      "prompt": "{你|nǐ}{等|děng}{一下|yíxià}，{我|wǒ}{马上|mǎshàng}（　）{来|lái}。",
+      "options": [
+        "{就|jiù}",
+        "{只|zhǐ}",
+        "{才|cái}",
+        "{还|hái}"
+      ],
+      "answer": 0,
+      "explanation": "Right away: **马上就**.",
+      "notes": [
+        "",
+        "只来 = 'only coming'.",
+        "马上才 is contradictory.",
+        "还来 = 'still coming / coming again'."
+      ],
+      "translation": "Wait a moment, I'll be right there."
+    },
+    {
+      "point": "hai",
+      "prompt": "{我|wǒ}{买|mǎi}{了|le}{苹果|píngguǒ}，（　）{买|mǎi}{了|le}{香蕉|xiāngjiāo}。",
+      "options": [
+        "{就|jiù}",
+        "{都|dōu}",
+        "{还|hái}",
+        "{只|zhǐ}"
+      ],
+      "answer": 2,
+      "explanation": "In addition: **还**.",
+      "notes": [
+        "就 = 'right away / as early as'.",
+        "都 needs a plural subject.",
+        "",
+        "只 = 'only' — contradicts buying apples too."
+      ],
+      "translation": "I bought apples, and bananas too."
+    },
+    {
+      "point": "hai",
+      "prompt": "What does 「{这个|zhège}{电影|diànyǐng}{还|hái}{可以|kěyǐ}。」 mean?",
+      "options": [
+        "Thisfilmisalsoallowed.",
+        "ThisfilmisOK/notbad.",
+        "Thisfilmisstillshowing.",
+        "Thisfilmisexcellent."
+      ],
+      "answer": 1,
+      "explanation": "还 + adj = **reasonably, OK**.",
+      "notes": [
+        "还 + adj here means 'reasonably'.",
+        "",
+        "That would be 还在上映.",
+        "还可以 is lukewarm, not enthusiastic."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "zhi",
+      "prompt": "Where does **{只|zhǐ}** go?\n{我|wǒ}［A］{会|huì}［B］{说|shuō}［C］{一点儿|yìdiǎnr}［D］{中文|Zhōngwén}。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "**只** before the verb phrase.",
+      "notes": [
+        "",
+        "只 goes before the first verb (会).",
+        "只 can't split 说 and its object.",
+        "只 can't go inside the object."
+      ],
+      "translation": "I can only speak a little Chinese.",
+      "fixed_order": true
+    },
+    {
+      "point": "zhi",
+      "prompt": "{我|wǒ}（　）{有|yǒu}{一百|yìbǎi}{块|kuài}{钱|qián}，{不|bú}{够|gòu}{买|mǎi}{这个|zhège}。",
+      "options": [
+        "{又|yòu}",
+        "{也|yě}",
+        "{只|zhǐ}",
+        "{都|dōu}"
+      ],
+      "answer": 2,
+      "explanation": "Only: **只**.",
+      "notes": [
+        "又 = 'again'.",
+        "也 = 'also'.",
+        "",
+        "都 needs a plural subject."
+      ],
+      "translation": "I only have 100 yuan — not enough to buy this."
+    },
+    {
+      "point": "zongshi",
+      "prompt": "{他|tā}（　）{迟到|chídào}，{老师|lǎoshī}{很|hěn}{生气|shēngqì}。",
+      "options": [
+        "{从来|cónglái}",
+        "{总是|zǒngshì}",
+        "{刚|gāng}",
+        "{已经|yǐjīng}"
+      ],
+      "answer": 1,
+      "explanation": "Always: **总是**.",
+      "notes": [
+        "从来 needs a negative.",
+        "",
+        "刚迟到 doesn't explain an angry teacher well.",
+        "已经 needs 了."
+      ],
+      "translation": "He's always late, and the teacher is angry."
+    },
+    {
+      "point": "zongshi",
+      "prompt": "{我|wǒ}{妈妈|māma}（　）{说|shuō}{我|wǒ}{太|tài}{瘦|shòu}{了|le}。",
+      "options": [
+        "{快|kuài}",
+        "{从来|cónglái}",
+        "{已经|yǐjīng}",
+        "{总是|zǒngshì}"
+      ],
+      "answer": 3,
+      "explanation": "Always: **总是**.",
+      "notes": [
+        "快说 = 'say it quickly!'.",
+        "从来 needs a negative.",
+        "已经说 doesn't fit a repeated comment.",
+        ""
+      ],
+      "translation": "My mum always says I'm too thin."
+    },
+    {
+      "point": "bie",
+      "prompt": "（　）{说话|shuōhuà}{了|le}，{电影|diànyǐng}{开始|kāishǐ}{了|le}！",
+      "options": [
+        "{不是|búshì}",
+        "{没有|méiyǒu}",
+        "{别|bié}",
+        "{没|méi}"
+      ],
+      "answer": 2,
+      "explanation": "Stop doing: **别…了**.",
+      "notes": [
+        "不是 negates nouns.",
+        "没有说话了 isn't grammatical.",
+        "",
+        "没说话了 isn't grammatical."
+      ],
+      "translation": "Stop talking, the film has started!"
+    },
+    {
+      "point": "bie",
+      "prompt": "{外面|wàimiàn}{很|hěn}{冷|lěng}，{你|nǐ}（　）{出去|chūqù}{了|le}。",
+      "options": [
+        "{不是|búshì}",
+        "{没|méi}",
+        "{没有|méiyǒu}",
+        "{别|bié}"
+      ],
+      "answer": 3,
+      "explanation": "Don't (anymore): **别…了**.",
+      "notes": [
+        "不是出去 doesn't fit.",
+        "你没出去了 isn't grammatical.",
+        "没有出去了 isn't grammatical.",
+        ""
+      ],
+      "translation": "It's cold outside — don't go out."
+    },
+    {
+      "point": "yibian",
+      "prompt": "{他|tā}{一边|yìbiān}{吃饭|chīfàn}，（　）{看|kàn}{电视|diànshì}。",
+      "options": [
+        "{一点|yìdiǎn}",
+        "{一边|yìbiān}",
+        "{一样|yíyàng}",
+        "{一起|yìqǐ}"
+      ],
+      "answer": 1,
+      "explanation": "**一边…一边**.",
+      "notes": [
+        "一点 = 'a little'.",
+        "",
+        "一样 = 'the same'.",
+        "一起 = 'together'."
+      ],
+      "translation": "He watches TV while eating."
+    },
+    {
+      "point": "yibian",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我们|wǒmen}{一边|yìbiān}{走|zǒu}{一起|yìqǐ}{聊天|liáotiān}。",
+        "{一边|yìbiān}{我们|wǒmen}{走|zǒu}{一边|yìbiān}{聊天|liáotiān}。",
+        "{我们|wǒmen}{走|zǒu}{一边|yìbiān}{聊天|liáotiān}{一边|yìbiān}。",
+        "{我们|wǒmen}{一边|yìbiān}{走|zǒu}{一边|yìbiān}{聊天|liáotiān}。"
+      ],
+      "answer": 3,
+      "explanation": "Subject + **一边** V1 **一边** V2.",
+      "notes": [
+        "The pair is 一边…一边.",
+        "The subject comes first.",
+        "一边 goes before each verb.",
+        ""
+      ],
+      "translation": "We chatted as we walked."
+    },
+    {
+      "point": "youyou",
+      "prompt": "{这个|zhège}{苹果|píngguǒ}{又|yòu}{大|dà}（　）{甜|tián}。",
+      "options": [
+        "{还|hái}",
+        "{又|yòu}",
+        "{也|yě}",
+        "{和|hé}"
+      ],
+      "answer": 1,
+      "explanation": "**又…又**.",
+      "notes": [
+        "The pattern repeats 又.",
+        "",
+        "The pattern repeats 又.",
+        "和 doesn't link adjectives."
+      ],
+      "translation": "This apple is big and sweet."
+    },
+    {
+      "point": "youyou",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{又|yòu}{高|gāo}{又|yòu}{帅|shuài}。",
+        "{他|tā}{又|yòu}{高|gāo}{和|hé}{帅|shuài}。",
+        "{他|tā}{又|yòu}{高|gāo}{很|hěn}{帅|shuài}。",
+        "{他|tā}{很|hěn}{高|gāo}{又|yòu}{很|hěn}{帅|shuài}{又|yòu}。"
+      ],
+      "answer": 0,
+      "explanation": "**又 + adj，又 + adj**.",
+      "notes": [
+        "",
+        "和 can't link adjectives.",
+        "The second 又 is missing.",
+        "又 goes before each adjective."
+      ],
+      "translation": "He's both tall and handsome."
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "id": "n4-plans-decisions",
+  "category": "JLPT N4",
+  "title": "Plans & Decisions: 〜よう, ことにする, ようになる, 予定",
+  "description": "The volitional form (let's / I'll), 〜ようと思う, deciding (ことにする / ことになる), changing and trying (ようになる / ようにする), and schedules with 予定.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "volitional",
+      "title": "Volitional form: 〜よう / 〜おう (let's, I'll)",
+      "summary": "Godan: u → o + う (行こう). Ichidan: る → よう (食べよう). する → しよう, 来る → こよう. Casual 'let's' or 'I'll'.",
+      "body": "**Formation:**\n- **Godan**: final u-sound → o-sound + う: 行く → 行**こう**, 飲む → 飲**もう**, 帰る → 帰**ろう**, 待つ → 待**とう**, 買う → 買**おう**\n- **Ichidan**: drop る + **よう**: 食べる → 食べ**よう**, 見る → 見**よう**\n- **する** → **しよう**, **来る** → **こよう**\n\n**Uses:**\n- Casual 'let's': 一緒に帰**ろう** (= 帰りましょう).\n- Casual 'shall we?': 何を食べ**よう**か.\n- Your own intention (with と思う, see next point).\n\nCommon errors: ✗ 休みよう (stem + よう only for ichidan), ✗ 食べろう, ✗ 来よう read きよう.",
+      "examples": [
+        [
+          "{疲|つか}れたね。ちょっと{休|やす}もう。",
+          "I'm tired. Let's take a break."
+        ],
+        [
+          "{一緒|いっしょ}に{晩|ばん}ご{飯|はん}を{食|た}べよう。",
+          "Let's have dinner together."
+        ]
+      ]
+    },
+    {
+      "id": "youtoomou",
+      "title": "〜ようと思う: I think I'll …, I'm planning to …",
+      "summary": "Volitional + と思う(思っている) = an intention you're considering. 思っている = you've been thinking about it for a while.",
+      "body": "**Volitional + と思います** = 'I think I'll …' — a decision you're making (or considering) now.\n**Volitional + と思っています** = 'I've been thinking of …' — an intention you've held for some time.\n\n- 来年、日本に留学し**ようと思っています**.\n- 今日は早く寝**ようと思います**.\n\nCompare: **つもり** sounds firmer (a set plan); ようと思う is softer, still considering.\n\nFor third persons use 思っている: 田中さんは引っ越そうと思っている**ようです/そうです**.",
+      "examples": [
+        [
+          "{来年|らいねん}、{日本|にほん}に{留学|りゅうがく}しようと{思|おも}っています。",
+          "I'm thinking of studying in Japan next year."
+        ],
+        [
+          "{夏休|なつやす}みに{国|くに}へ{帰|かえ}ろうと{思|おも}います。",
+          "I think I'll go home over summer break."
+        ]
+      ]
+    },
+    {
+      "id": "kotonisuru",
+      "title": "〜ことにする: decide to (I decide)",
+      "summary": "Dictionary / ない-form + ことにする = make a decision yourself. ことにしている = a rule you keep.",
+      "body": "- 毎朝走る**ことにしました** (I decided to run every morning).\n- 甘いものを食べない**ことにしました** (I decided not to eat sweets).\n- 毎朝走る**ことにしています** (I make it a rule to run every morning — habit from a decision).\n\nThe decision is **your own** (or the speaker's group). Compare **ことになる** (decided by others / circumstances).\n\nNoun version: **〜にする** (N5): コーヒー**にします**.",
+      "examples": [
+        [
+          "{健康|けんこう}のために、{毎朝|まいあさ}{走|はし}ることにしました。",
+          "For my health, I decided to run every morning."
+        ],
+        [
+          "{今日|きょう}から{甘|あま}いものを{食|た}べないことにしました。",
+          "From today, I've decided not to eat sweets."
+        ]
+      ]
+    },
+    {
+      "id": "kotoninaru",
+      "title": "〜ことになる: it has been decided that …",
+      "summary": "Dictionary / ない-form + ことになる = a decision made by others or by circumstances. ことになっている = a rule / arrangement.",
+      "body": "- 来月から大阪で働く**ことになりました** (it's been decided that I'll work in Osaka — e.g. the company decided).\n- 日本では車は左を走る**ことになっています** (in Japan, cars drive on the left — it's the rule).\n\nJapanese people also use ことになりました for their *own* decisions to sound modest (結婚することになりました), but in tests: **ことにする = I decide**, **ことになる = it's been decided / it's the rule**.",
+      "examples": [
+        [
+          "{来月|らいげつ}から{大阪|おおさか}で{働|はたら}くことになりました。",
+          "It's been decided that I'll work in Osaka from next month."
+        ],
+        [
+          "{日本|にほん}では{車|くるま}は{左|ひだり}を{走|はし}ることになっています。",
+          "In Japan, cars drive on the left."
+        ]
+      ]
+    },
+    {
+      "id": "youninaru",
+      "title": "〜ようになる: come to (be able to), reach the point where",
+      "summary": "Dictionary / potential form + ようになる = a gradual change in ability or habit.",
+      "body": "- 日本語が話せる**ようになりました** (I've become able to speak Japanese).\n- 納豆が食べられる**ようになった** (I can eat natto now).\n- 毎朝コーヒーを飲む**ようになった** (I've started drinking coffee every morning).\n\nNegative change usually uses 〜なくなる: 走れ**なくなった** (I can't run any more).\n\nDon't confuse with **ことになる** (a decision).",
+      "examples": [
+        [
+          "{毎日|まいにち}{練習|れんしゅう}して、{漢字|かんじ}が{読|よ}めるようになりました。",
+          "With daily practice I became able to read kanji."
+        ],
+        [
+          "{納豆|なっとう}が{食|た}べられるようになりました。",
+          "I've become able to eat natto."
+        ]
+      ]
+    },
+    {
+      "id": "younisuru",
+      "title": "〜ようにする: try to, make sure to",
+      "summary": "Dictionary / ない-form + ようにする = make an effort to (not) do something; ようにしている = a habit you try to keep.",
+      "body": "- 毎日野菜を食べる**ようにしています** (I try to eat vegetables every day).\n- 夜遅く食べない**ようにしています** (I try not to eat late at night).\n- 忘れない**ようにして**ください (please make sure not to forget).\n\n**ようにする vs ことにする:** ようにする = effort/aim (try to), ことにする = a firm decision.",
+      "examples": [
+        [
+          "{健康|けんこう}のために、{毎日|まいにち}{野菜|やさい}を{食|た}べるようにしています。",
+          "For my health, I try to eat vegetables every day."
+        ],
+        [
+          "{夜|よる}{遅|おそ}く{食|た}べないようにしています。",
+          "I try not to eat late at night."
+        ]
+      ]
+    },
+    {
+      "id": "yotei",
+      "title": "〜予定だ: be scheduled to, plan to",
+      "summary": "Dictionary form + 予定です / noun + の + 予定です. A fixed schedule — also for things without intentions (trains, meetings).",
+      "body": "- 来週、東京へ出張する**予定です** (I'm scheduled to go to Tokyo on business).\n- 会議は3時から**の予定です**.\n- 電車は10時に着く**予定です** (the train is scheduled to arrive at 10).\n\n**予定 vs つもり:**\n- **つもり** = a person's *intention* (only people).\n- **予定** = a *schedule* — also for objects/events, and more formal; good for work.",
+      "examples": [
+        [
+          "{来週|らいしゅう}、{東京|とうきょう}へ{出張|しゅっちょう}する{予定|よてい}です。",
+          "I'm scheduled to go to Tokyo on business next week."
+        ],
+        [
+          "{会議|かいぎ}は3{時|じ}からの{予定|よてい}です。",
+          "The meeting is scheduled from 3 o'clock."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "volitional",
+      "prompt": "{疲|つか}れたね。ちょっと（　）。",
+      "options": [
+        "{休|やす}みよう",
+        "{休|やす}むよう",
+        "{休|やす}もう",
+        "{休|やす}めよう"
+      ],
+      "answer": 2,
+      "explanation": "Godan 休む → 休**もう** (u → o + う).",
+      "notes": [
+        "Stem + よう is only for ichidan verbs.",
+        "Dictionary form + よう isn't the volitional.",
+        "",
+        "休めよう is the volitional of the potential 休める ('let's be able to rest')."
+      ],
+      "translation": "I'm tired. Let's take a break."
+    },
+    {
+      "point": "volitional",
+      "prompt": "{一緒|いっしょ}に{晩|ばん}ご{飯|はん}を（　）。",
+      "options": [
+        "{食|た}べおう",
+        "{食|た}べりよう",
+        "{食|た}べろう",
+        "{食|た}べよう"
+      ],
+      "answer": 3,
+      "explanation": "Ichidan: drop る + **よう**.",
+      "notes": [
+        "おう isn't added to ichidan stems.",
+        "りよう isn't a form.",
+        "ろう is for godan verbs ending in る (帰ろう) — 食べる is ichidan.",
+        ""
+      ],
+      "translation": "Let's have dinner together."
+    },
+    {
+      "point": "volitional",
+      "prompt": "{明日|あした}また（　）。(来る)",
+      "options": [
+        "こおう",
+        "こよう",
+        "くろう",
+        "きよう"
+      ],
+      "answer": 1,
+      "explanation": "来る → **こよう** (irregular).",
+      "notes": [
+        "こおう isn't a form.",
+        "",
+        "くろう treats 来る as a godan verb.",
+        "The volitional uses こ, not き."
+      ],
+      "translation": "I'll come again tomorrow."
+    },
+    {
+      "point": "volitional",
+      "prompt": "{明日|あした}{一緒|いっしょ}に{勉強|べんきょう}（　）。",
+      "options": [
+        "しろう",
+        "さよう",
+        "すよう",
+        "しよう"
+      ],
+      "answer": 3,
+      "explanation": "する → **しよう**.",
+      "notes": [
+        "しろ is the command form — しろう isn't a word.",
+        "さよう means 'so/that way' (archaic) — not the volitional.",
+        "すよう isn't a form.",
+        ""
+      ],
+      "translation": "Let's study together tomorrow."
+    },
+    {
+      "point": "youtoomou",
+      "prompt": "{来年|らいねん}、{日本|にほん}に{留学|りゅうがく}しよう（　）。",
+      "options": [
+        "に{思|おも}っています",
+        "を{思|おも}っています",
+        "と{思|おも}っています",
+        "と{思|おも}いたいです"
+      ],
+      "answer": 2,
+      "explanation": "Volitional + **と思っています** = I'm thinking of (doing).",
+      "notes": [
+        "に can't quote a thought.",
+        "を can't quote a thought.",
+        "",
+        "思いたい ('want to think') changes the meaning."
+      ],
+      "translation": "I'm thinking of studying in Japan next year."
+    },
+    {
+      "point": "youtoomou",
+      "prompt": "{夏休|なつやす}みに{国|くに}へ（　）と{思|おも}います。",
+      "options": [
+        "{帰|かえ}ろう",
+        "{帰|かえ}りよう",
+        "{帰|かえ}れよう",
+        "{帰|かえ}るろう"
+      ],
+      "answer": 0,
+      "explanation": "帰る is godan → **帰ろう**.",
+      "notes": [
+        "",
+        "帰る looks ichidan, but it's godan: 帰ろう.",
+        "帰れよう comes from the potential 帰れる.",
+        "るろう isn't a form."
+      ],
+      "translation": "I think I'll go home over summer break."
+    },
+    {
+      "point": "kotonisuru",
+      "prompt": "{健康|けんこう}のために、{毎朝|まいあさ}{走|はし}る（　）にしました。",
+      "options": [
+        "ところ",
+        "もの",
+        "の",
+        "こと"
+      ],
+      "answer": 3,
+      "explanation": "Decide to: **ことにする**.",
+      "notes": [
+        "ところにする isn't a pattern.",
+        "ものにする isn't 'decide to'.",
+        "のにする isn't the decision pattern.",
+        ""
+      ],
+      "translation": "For my health, I decided to run every morning."
+    },
+    {
+      "point": "kotonisuru",
+      "prompt": "（My own decision）{今日|きょう}から{甘|あま}いものを{食|た}べない（　）。",
+      "options": [
+        "ことにあります",
+        "ことにしました",
+        "ことをしました",
+        "ことでしました"
+      ],
+      "answer": 1,
+      "explanation": "ない-form + **ことにしました** = decided not to.",
+      "notes": [
+        "ことにあります isn't a pattern.",
+        "",
+        "ことをしました = 'did the thing of …'.",
+        "ことでしました isn't grammatical."
+      ],
+      "translation": "From today, I've decided not to eat sweets."
+    },
+    {
+      "point": "kotoninaru",
+      "prompt": "（The company decided.）{来月|らいげつ}から{大阪|おおさか}で{働|はたら}く（　）。",
+      "options": [
+        "ようにしました",
+        "ようになりました",
+        "ことにしました",
+        "ことになりました"
+      ],
+      "answer": 3,
+      "explanation": "Decided by others → **ことになりました**.",
+      "notes": [
+        "ようにしました = 'made an effort to work'.",
+        "ようになりました = 'gradually came to work' — a change, not a decision.",
+        "ことにしました = *I* decided — the hint says the company did.",
+        ""
+      ],
+      "translation": "It's been decided that I'll work in Osaka from next month."
+    },
+    {
+      "point": "kotoninaru",
+      "prompt": "{日本|にほん}では、{車|くるま}は{左|ひだり}を{走|はし}る（　）なっています。",
+      "options": [
+        "のに",
+        "ことに",
+        "ことを",
+        "ことが"
+      ],
+      "answer": 1,
+      "explanation": "A rule/arrangement: **ことになっている**.",
+      "notes": [
+        "のになる isn't this pattern.",
+        "",
+        "ことをなる isn't grammatical.",
+        "ことがなる isn't grammatical."
+      ],
+      "translation": "In Japan, cars drive on the left."
+    },
+    {
+      "point": "youninaru",
+      "prompt": "{前|まえ}は{嫌|きら}いでしたが、{納豆|なっとう}が{食|た}べられる（　）なりました。",
+      "options": [
+        "ように",
+        "ようが",
+        "ようで",
+        "ような"
+      ],
+      "answer": 0,
+      "explanation": "A change in ability: **ようになる**.",
+      "notes": [
+        "",
+        "ようがなる isn't grammatical.",
+        "ようで isn't followed by なる.",
+        "ような must be followed by a noun."
+      ],
+      "translation": "I used to hate it, but now I can eat natto."
+    },
+    {
+      "point": "youninaru",
+      "prompt": "{毎日|まいにち}{練習|れんしゅう}して、{漢字|かんじ}が（　）ようになりました。",
+      "options": [
+        "{読|よ}め",
+        "{読|よ}める",
+        "{読|よ}む",
+        "{読|よ}んで"
+      ],
+      "answer": 1,
+      "explanation": "Ability change: **potential form** + ようになる.",
+      "notes": [
+        "読め alone isn't a form here.",
+        "",
+        "With が (漢字が), you need the potential 読める. 読む would need を and means 'started reading (habitually)'.",
+        "The て-form can't come before ように."
+      ],
+      "translation": "With daily practice I became able to read kanji."
+    },
+    {
+      "point": "younisuru",
+      "prompt": "{健康|けんこう}のために、{毎日|まいにち}{野菜|やさい}を{食|た}べる（　）しています。",
+      "options": [
+        "ように",
+        "ような",
+        "ようが",
+        "ようで"
+      ],
+      "answer": 0,
+      "explanation": "Try to (habit): **ようにしている**.",
+      "notes": [
+        "",
+        "ような must be followed by a noun.",
+        "ようがしている isn't grammatical.",
+        "ようでしている isn't grammatical."
+      ],
+      "translation": "For my health, I try to eat vegetables every day."
+    },
+    {
+      "point": "younisuru",
+      "prompt": "{夜|よる}{遅|おそ}く{食|た}べない（　）にしています。",
+      "options": [
+        "ように",
+        "ようで",
+        "ような",
+        "よう"
+      ],
+      "answer": 3,
+      "explanation": "ない-form + **ようにしている** = try not to.",
+      "notes": [
+        "ようにに would double the に.",
+        "ようでにしている isn't grammatical.",
+        "ようなにしている isn't grammatical.",
+        ""
+      ],
+      "translation": "I try not to eat late at night."
+    },
+    {
+      "point": "yotei",
+      "prompt": "{会議|かいぎ}は3{時|じ}から（　）です。",
+      "options": [
+        "な{予定|よてい}",
+        "{予定|よてい}",
+        "の{予定|よてい}",
+        "に{予定|よてい}"
+      ],
+      "answer": 2,
+      "explanation": "Noun phrase + **の予定**.",
+      "notes": [
+        "な is for な-adjectives.",
+        "3時から予定 — a noun phrase needs の to modify 予定.",
+        "",
+        "に予定 isn't grammatical."
+      ],
+      "translation": "The meeting is scheduled from 3 o'clock."
+    },
+    {
+      "point": "yotei",
+      "prompt": "{電車|でんしゃ}は10{時|じ}に{着|つ}く（　）です。",
+      "options": [
+        "{予定|よてい}",
+        "つもり",
+        "ため",
+        "ほう"
+      ],
+      "answer": 0,
+      "explanation": "A schedule for a thing (a train) → **予定**.",
+      "notes": [
+        "",
+        "つもり is a *person's* intention — trains don't intend.",
+        "ため ('for / because') doesn't fit.",
+        "ほうです isn't the schedule pattern."
+      ],
+      "translation": "The train is scheduled to arrive at 10."
+    }
+  ]
+}

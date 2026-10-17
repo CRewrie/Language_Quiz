@@ -1,0 +1,361 @@
+{
+  "id": "n2-adverbs",
+  "category": "JLPT N2",
+  "title": "Attitude Adverbs: どうせ, どうやら, かえって, むしろ, いよいよ, 果たして, いわゆる",
+  "description": "Resignation, cautious guesses, the opposite of what you'd expect, 'rather', 'at last', 'I wonder if really', and 'so-called'.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "douse",
+      "title": "どうせ: anyway (resigned)",
+      "summary": "どうせ = 'it'll turn out that way anyway' — resignation or a negative outlook. Often with なら / んだから / だろう.",
+      "body": "- **どうせ**負けるなら、思い切り戦おう (if we're going to lose anyway …).\n- 練習しても、**どうせ**私には無理だよ.\n\nDon't confuse: どうも (somehow / really), どうか (please), どうやら (it seems).",
+      "examples": [
+        [
+          "どうせ{負|ま}けるなら、{思|おも}い{切|き}り{戦|たたか}おう。",
+          "If we're going to lose anyway, let's fight all out."
+        ]
+      ]
+    },
+    {
+      "id": "douyara",
+      "title": "どうやら: it seems, apparently",
+      "summary": "どうやら + 〜ようだ / らしい / そうだ = a guess based on what you observe.",
+      "body": "- 空が暗くなってきた。**どうやら**雨が降りそうだ.\n- 電気がついていない。**どうやら**留守のようだ.",
+      "examples": [
+        [
+          "どうやら{留守|るす}のようだ。",
+          "It looks like nobody's home."
+        ]
+      ]
+    },
+    {
+      "id": "kaette",
+      "title": "かえって: on the contrary, instead (unexpectedly)",
+      "summary": "かえって = the result is the opposite of what the action was meant to achieve.",
+      "body": "- 薬を飲んだら、**かえって**具合が悪くなった.\n- 近道をしたら、**かえって**時間がかかった.\n\nNot to be confused with 返って (return) / 代わりに (instead of).",
+      "examples": [
+        [
+          "{近道|ちかみち}をしたら、かえって{時間|じかん}がかかった。",
+          "I took a shortcut, but it actually took longer."
+        ]
+      ]
+    },
+    {
+      "id": "mushiro",
+      "title": "むしろ: rather, if anything",
+      "summary": "AというよりむしろB / AよりむしろB = B describes it better than A.",
+      "body": "- 今日は暖かいというより、**むしろ**暑いくらいだ.\n- 彼は歌手というより、**むしろ**俳優として有名だ.\n\nかえって = an action backfires; むしろ = a better description / preference.",
+      "examples": [
+        [
+          "{彼|かれ}は{歌手|かしゅ}というより、むしろ{俳優|はいゆう}として{有名|ゆうめい}だ。",
+          "He's famous as an actor rather than as a singer."
+        ]
+      ]
+    },
+    {
+      "id": "iyoiyo",
+      "title": "いよいよ: at last, finally (approaching)",
+      "summary": "いよいよ = the long-awaited moment is here / about to come.",
+      "body": "- **いよいよ**明日から夏休みだ.\n- **いよいよ**試合が始まる.\n\nやっと / ようやく = finally (after difficulty, often past); いよいよ = the moment has now come.",
+      "examples": [
+        [
+          "いよいよ{明日|あした}から{夏休|なつやす}みだ。",
+          "Summer holidays finally start tomorrow."
+        ]
+      ]
+    },
+    {
+      "id": "hatashite",
+      "title": "果たして: really? I wonder whether",
+      "summary": "果たして + 〜だろうか / かどうか = doubt whether something will really happen / is really true.",
+      "body": "- **果たして**彼の言ったことは本当だろうか.\n- **果たして**成功するかどうか、まだわからない.",
+      "examples": [
+        [
+          "{果|は}たして{彼|かれ}の{言|い}ったことは{本当|ほんとう}だろうか。",
+          "Is what he said really true, I wonder?"
+        ]
+      ]
+    },
+    {
+      "id": "iwayuru",
+      "title": "いわゆる: so-called, what is called",
+      "summary": "いわゆる + noun = what people commonly call ….",
+      "body": "- 彼は**いわゆる**「オタク」だ.\n- これが**いわゆる**日本式の経営だ.",
+      "examples": [
+        [
+          "これがいわゆる{日本式|にほんしき}の{経営|けいえい}だ。",
+          "This is so-called Japanese-style management."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "douse",
+      "prompt": "（　）{負|ま}けるなら、{思|おも}い{切|き}り{戦|たたか}おう。",
+      "options": [
+        "どうやら",
+        "どうせ",
+        "どうか",
+        "どうも"
+      ],
+      "answer": 1,
+      "explanation": "Anyway (resigned): **どうせ〜なら**.",
+      "notes": [
+        "どうやら = 'it seems' — needs ようだ/らしい.",
+        "",
+        "どうか = 'please'.",
+        "どうも = 'somehow / really' — doesn't go with なら."
+      ],
+      "translation": "If we're going to lose anyway, let's fight all out."
+    },
+    {
+      "point": "douse",
+      "prompt": "{練習|れんしゅう}しても、（　）{私|わたし}には{無理|むり}だよ。",
+      "options": [
+        "どうせ",
+        "せっかく",
+        "せめて",
+        "どうか"
+      ],
+      "answer": 0,
+      "explanation": "Resignation: **どうせ**.",
+      "notes": [
+        "",
+        "せっかく = 'specially, with effort'.",
+        "せめて = 'at least'.",
+        "どうか = 'please'."
+      ],
+      "translation": "Even if I practise, it's impossible for me anyway."
+    },
+    {
+      "point": "douyara",
+      "prompt": "{空|そら}が{暗|くら}くなってきた。（　）{雨|あめ}が{降|ふ}りそうだ。",
+      "options": [
+        "どうせ",
+        "どうやら",
+        "どうしても",
+        "どうか"
+      ],
+      "answer": 1,
+      "explanation": "It seems: **どうやら〜そうだ**.",
+      "notes": [
+        "どうせ = 'anyway' (resigned).",
+        "",
+        "どうしても = 'no matter what'.",
+        "どうか = 'please'."
+      ],
+      "translation": "The sky is getting dark. It looks like it's going to rain."
+    },
+    {
+      "point": "douyara",
+      "prompt": "{電気|でんき}がついていない。（　）{留守|るす}のようだ。",
+      "options": [
+        "どうせ",
+        "どうぞ",
+        "どうやら",
+        "どうか"
+      ],
+      "answer": 2,
+      "explanation": "**どうやら〜ようだ**.",
+      "notes": [
+        "どうせ = 'anyway'.",
+        "どうぞ = 'please, go ahead'.",
+        "",
+        "どうか = 'please'."
+      ],
+      "translation": "The lights aren't on. It looks like nobody's home."
+    },
+    {
+      "point": "kaette",
+      "prompt": "{薬|くすり}を{飲|の}んだら、（　）{具合|ぐあい}が{悪|わる}くなった。",
+      "options": [
+        "かえって",
+        "ようやく",
+        "やはり",
+        "さっそく"
+      ],
+      "answer": 0,
+      "explanation": "Backfired: **かえって**.",
+      "notes": [
+        "",
+        "ようやく = 'finally (after waiting)'.",
+        "やはり = 'as expected' — taking medicine isn't expected to make you worse.",
+        "さっそく = 'right away'."
+      ],
+      "translation": "I took the medicine, and it actually made me feel worse."
+    },
+    {
+      "point": "kaette",
+      "prompt": "{近道|ちかみち}をしたら、（　）{時間|じかん}がかかってしまった。",
+      "options": [
+        "かえして",
+        "かならず",
+        "かわりに",
+        "かえって"
+      ],
+      "answer": 3,
+      "explanation": "**かえって** (opposite of the intention).",
+      "notes": [
+        "かえして = 'return (something)'.",
+        "かならず = 'without fail'.",
+        "かわりに = 'instead of'.",
+        ""
+      ],
+      "translation": "I took a shortcut, but it ended up taking longer."
+    },
+    {
+      "point": "mushiro",
+      "prompt": "{今日|きょう}は{暖|あたた}かいというより、（　）{暑|あつ}いくらいだ。",
+      "options": [
+        "むしろ",
+        "まさか",
+        "やっと",
+        "かえって"
+      ],
+      "answer": 0,
+      "explanation": "AというよりむしろB: **むしろ**.",
+      "notes": [
+        "",
+        "まさか = 'surely not'.",
+        "やっと = 'finally'.",
+        "かえって is for an action that backfires, not for a better description."
+      ],
+      "translation": "Today isn't so much warm as hot."
+    },
+    {
+      "point": "mushiro",
+      "prompt": "{彼|かれ}は{歌手|かしゅ}というより、（　）{俳優|はいゆう}として{有名|ゆうめい}だ。",
+      "options": [
+        "まさに",
+        "むしろ",
+        "まるで",
+        "もしも"
+      ],
+      "answer": 1,
+      "explanation": "**というよりむしろ**.",
+      "notes": [
+        "まさに = 'exactly' — doesn't pair with というより.",
+        "",
+        "まるで = 'just like'.",
+        "もしも = 'if by any chance'."
+      ],
+      "translation": "He's famous as an actor rather than as a singer."
+    },
+    {
+      "point": "iyoiyo",
+      "prompt": "（　）{明日|あした}から{夏休|なつやす}みだ。",
+      "options": [
+        "いよいよ",
+        "いちいち",
+        "ますます",
+        "いろいろ"
+      ],
+      "answer": 0,
+      "explanation": "At last (the moment comes): **いよいよ**.",
+      "notes": [
+        "",
+        "いちいち = 'one by one, every single time'.",
+        "ますます = 'more and more'.",
+        "いろいろ = 'various'."
+      ],
+      "translation": "Summer holidays finally start tomorrow."
+    },
+    {
+      "point": "iyoiyo",
+      "prompt": "What does 「いよいよ{試合|しあい}が{始|はじ}まる」 mean?",
+      "options": [
+        "The match is starting again.",
+        "The match is gradually starting.",
+        "At last, the match is about to start.",
+        "The match might start."
+      ],
+      "answer": 2,
+      "explanation": "いよいよ = **the awaited moment has come**.",
+      "notes": [
+        "That would be また / 再び.",
+        "'Gradually' would be だんだん / 次第に.",
+        "",
+        "That would be かもしれない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "hatashite",
+      "prompt": "（　）{彼|かれ}の{言|い}ったことは{本当|ほんとう}だろうか。",
+      "options": [
+        "{果|は}たした",
+        "{果|は}てに",
+        "{果|は}てして",
+        "{果|は}たして"
+      ],
+      "answer": 3,
+      "explanation": "I wonder if really: **果たして〜だろうか**.",
+      "notes": [
+        "果たした = 'accomplished'.",
+        "果てに = 'at the end'.",
+        "果てして isn't a word.",
+        ""
+      ],
+      "translation": "Is what he said really true, I wonder?"
+    },
+    {
+      "point": "hatashite",
+      "prompt": "（　）{成功|せいこう}するかどうか、まだわからない。",
+      "options": [
+        "きっと",
+        "{果|は}たして",
+        "ぜひ",
+        "{必|かなら}ず"
+      ],
+      "answer": 1,
+      "explanation": "Doubt + かどうか: **果たして**.",
+      "notes": [
+        "きっと = 'surely' — clashes with かどうか.",
+        "",
+        "ぜひ = 'by all means'.",
+        "必ず = 'certainly' — clashes with かどうか."
+      ],
+      "translation": "Whether it will really succeed, nobody knows yet."
+    },
+    {
+      "point": "iwayuru",
+      "prompt": "{彼|かれ}は（　）「オタク」だ。",
+      "options": [
+        "いわゆる",
+        "いわせる",
+        "いわれる",
+        "いわく"
+      ],
+      "answer": 0,
+      "explanation": "So-called: **いわゆる**.",
+      "notes": [
+        "",
+        "いわせる = 'make someone say'.",
+        "いわれる = 'is told'.",
+        "いわく = 'says / according to'."
+      ],
+      "translation": "He's what you'd call an 'otaku'."
+    },
+    {
+      "point": "iwayuru",
+      "prompt": "これが（　）{日本式|にほんしき}の{経営|けいえい}だ。",
+      "options": [
+        "いかに",
+        "いずれ",
+        "いわゆる",
+        "いろいろ"
+      ],
+      "answer": 2,
+      "explanation": "**いわゆる** + noun.",
+      "notes": [
+        "いかに = 'how (much)'.",
+        "いずれ = 'eventually / either'.",
+        "",
+        "いろいろ = 'various'."
+      ],
+      "translation": "This is so-called Japanese-style management."
+    }
+  ]
+}

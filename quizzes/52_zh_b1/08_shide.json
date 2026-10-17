@@ -1,0 +1,200 @@
+{
+  "id": "zh-b1-shide",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Emphasis: 是…的, 不是…吗, 连…都",
+  "description": "Highlighting when / where / how something happened (是…的), rhetorical 'isn't it?', and 'even …' with 连…都.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "shide",
+      "title": "是 … 的: focus on the details of a past event",
+      "summary": "When everyone knows it happened, 是…的 asks or tells **when, where, how, with whom**. 是 can be dropped; 的 can't.",
+      "body": "- 你是什么时候来**的**? — 我是去年来**的**.\n- 我是坐飞机来**的**.\n- ~~我是坐飞机来了~~ ✗",
+      "examples": [
+        [
+          "{我|wǒ}{是|shì}{坐|zuò}{飞机|fēijī}{来|lái}{的|de}。",
+          "I came by plane."
+        ]
+      ]
+    },
+    {
+      "id": "bushima",
+      "title": "不是 … 吗?: isn't it …?",
+      "summary": "A rhetorical question: the speaker is sure (and often surprised or annoyed).",
+      "body": "- 你**不是**说今天不来**吗**? 怎么来了?\n- 这**不是**你的书**吗**? (This is your book, isn't it?)",
+      "examples": [
+        [
+          "{你|nǐ}{不是|búshì}{说|shuō}{今天|jīntiān}{不|bù}{来|lái}{吗|ma}？",
+          "Didn't you say you weren't coming today?"
+        ]
+      ]
+    },
+    {
+      "id": "liandou",
+      "title": "连 … 都 / 也: even",
+      "summary": "连 + X + 都 / 也 + verb = even X ….",
+      "body": "- **连**小孩子**都**知道.\n- 他忙得**连**饭**都**没吃.",
+      "examples": [
+        [
+          "{这个|zhège}{问题|wèntí}{连|lián}{小孩子|xiǎo háizi}{都|dōu}{知道|zhīdào}。",
+          "Even a child knows this."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "shide",
+      "prompt": "A：{你|nǐ}{是|shì}{什么|shénme}{时候|shíhou}{来|lái}{中国|Zhōngguó}{的|de}？\nB：{我|wǒ}{是|shì}{去年|qùnián}（　）。",
+      "options": [
+        "{来|lái}{着|zhe}",
+        "{来|lái}{了|le}",
+        "{来|lái}{过|guo}",
+        "{来|lái}{的|de}"
+      ],
+      "answer": 3,
+      "explanation": "**是…的**.",
+      "notes": [
+        "来着 isn't the pattern.",
+        "是…来了 doesn't go together.",
+        "来过 = 'have been (before)'.",
+        ""
+      ],
+      "translation": "A: When did you come to China? B: Last year."
+    },
+    {
+      "point": "shide",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{是|shì}{坐|zuò}{飞机|fēijī}{来|lái}{的|de}。",
+        "{我|wǒ}{是|shì}{坐|zuò}{飞机|fēijī}{来|lái}{了|le}。",
+        "{我|wǒ}{的|de}{是|shì}{坐|zuò}{飞机|fēijī}{来|lái}。",
+        "{我|wǒ}{坐|zuò}{飞机|fēijī}{是|shì}{来|lái}{的|de}。"
+      ],
+      "answer": 0,
+      "explanation": "是 + **how** + verb + 的.",
+      "notes": [
+        "",
+        "是 pairs with 的, not 了.",
+        "的 goes at the end.",
+        "是 goes before the detail you emphasise."
+      ],
+      "translation": "I came by plane."
+    },
+    {
+      "point": "shide",
+      "prompt": "Which sentence focuses on **when** he came (we already know he came)?",
+      "options": [
+        "{他|tā}{是|shì}{来|lái}{的|de}{昨天|zuótiān}。",
+        "{他|tā}{昨天|zuótiān}{来|lái}{了|le}。",
+        "{他|tā}{是|shì}{昨天|zuótiān}{来|lái}{的|de}。",
+        "{他|tā}{来|lái}{了|le}{昨天|zuótiān}。"
+      ],
+      "answer": 2,
+      "explanation": "Focus on a detail: **是…的**.",
+      "notes": [
+        "The detail goes between 是 and the verb.",
+        "This just reports that he came.",
+        "",
+        "Time words go before the verb."
+      ],
+      "translation": "It was yesterday that he came."
+    },
+    {
+      "point": "bushima",
+      "prompt": "{你|nǐ}（　）{说|shuō}{今天|jīntiān}{不|bù}{来|lái}{吗|ma}？{怎么|zěnme}{来|lái}{了|le}？",
+      "options": [
+        "{不有|bù yǒu}",
+        "{没是|méi shì}",
+        "{是不|shì bu}",
+        "{不是|búshì}"
+      ],
+      "answer": 3,
+      "explanation": "Rhetorical: **不是…吗**?",
+      "notes": [
+        "不有 doesn't exist.",
+        "没是 doesn't exist.",
+        "The order is 不是.",
+        ""
+      ],
+      "translation": "Didn't you say you weren't coming today? How come you're here?"
+    },
+    {
+      "point": "bushima",
+      "prompt": "What does 「{这|zhè}{不是|búshì}{你|nǐ}{的|de}{书|shū}{吗|ma}？」 mean?",
+      "options": [
+        "Thisisn'tyourbook.",
+        "Thisisyourbook,isn'tit?",
+        "Whosebookisthis?",
+        "Isthisyourbookornot?"
+      ],
+      "answer": 1,
+      "explanation": "不是…吗 = **surely it is**.",
+      "notes": [
+        "It's a question that expects 'yes'.",
+        "",
+        "That's 这是谁的书?",
+        "That would be 是不是你的书?"
+      ],
+      "translation": ""
+    },
+    {
+      "point": "liandou",
+      "prompt": "{这个|zhège}{问题|wèntí}{太|tài}{简单|jiǎndān}{了|le}，{连|lián}{小孩子|xiǎo háizi}（　）{知道|zhīdào}。",
+      "options": [
+        "{就|jiù}",
+        "{还|hái}",
+        "{才|cái}",
+        "{都|dōu}"
+      ],
+      "answer": 3,
+      "explanation": "Even: **连…都**.",
+      "notes": [
+        "The pair is 连…都 / 也.",
+        "The pair is 连…都 / 也.",
+        "The pair is 连…都 / 也.",
+        ""
+      ],
+      "translation": "This question is so easy that even a child knows the answer."
+    },
+    {
+      "point": "liandou",
+      "prompt": "{他|tā}{今天|jīntiān}{忙|máng}{得|de}{连|lián}{饭|fàn}（　）{没|méi}{吃|chī}。",
+      "options": [
+        "{又|yòu}",
+        "{才|cái}",
+        "{都|dōu}",
+        "{就|jiù}"
+      ],
+      "answer": 2,
+      "explanation": "**连…都没**.",
+      "notes": [
+        "又没吃 = 'didn't eat again'.",
+        "连…才 isn't the pattern.",
+        "",
+        "连…就 isn't the pattern."
+      ],
+      "translation": "He was so busy today he didn't even eat."
+    },
+    {
+      "point": "liandou",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{连|lián}{一|yí}{个|ge}{字|zì}{都|dōu}{不|bú}{认识|rènshi}。",
+        "{他|tā}{一|yí}{个|ge}{字|zì}{连|lián}{都|dōu}{不|bú}{认识|rènshi}。",
+        "{他|tā}{连|lián}{一|yí}{个|ge}{字|zì}{不|bú}{认识|rènshi}{都|dōu}。",
+        "{他|tā}{都|dōu}{一|yí}{个|ge}{字|zì}{连|lián}{不|bú}{认识|rènshi}。"
+      ],
+      "answer": 0,
+      "explanation": "**连** + X + **都** + 不 + verb.",
+      "notes": [
+        "",
+        "连 goes before 一个字.",
+        "都 comes before the verb phrase.",
+        "连 comes first, 都 second."
+      ],
+      "translation": "He doesn't even know a single character."
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": "n5-direction-range",
+  "category": "JLPT N5",
+  "title": "Particles: へ/に, から & まで",
+  "description": "Going places with へ and に, starting points with から, and end points with まで (vs. までに).",
+  "level": "N5",
+  "points": [
+    {
+      "id": "ni-e",
+      "title": "に / へ: to (destination)",
+      "summary": "With movement verbs (行く, 来る, 帰る), both に and へ mark the destination. へ stresses direction and can take の.",
+      "body": "With **行く・来る・帰る・戻る** and similar movement verbs, both particles work:\n- 日本**に**行きます: に points at the **arrival point**.\n- 日本**へ**行きます: へ (pronounced え) stresses the **direction**.\n\nIn everyday speech they are mostly interchangeable. The differences that matter:\n- **Only に** can mark non-movement targets: 友達に会う, バスに乗る, 先生に聞く. へ can't replace these.\n- **Only へ** can be followed by の to modify a noun: 母**への**手紙 (a letter to my mother). に can't: 母にの手紙 ✗.\n- **Only に** is used for purpose: 買い物に行く.\n\nWhen in doubt with movement verbs, に is always safe.",
+      "examples": [
+        [
+          "{来年|らいねん}、{日本|にほん}へ{行|い}きます。",
+          "I'm going to Japan next year."
+        ],
+        [
+          "{何時|なんじ}に{家|うち}に{帰|かえ}りますか。",
+          "What time are you going home?"
+        ],
+        [
+          "これは{先生|せんせい}への{プレゼント|ぷれぜんと}です。",
+          "This is a present for the teacher."
+        ]
+      ]
+    },
+    {
+      "id": "kara-from",
+      "title": "から (2): from",
+      "summary": "Noun + から marks a starting point in place or time, or a source (who something comes from).",
+      "body": "から marks **where something starts**:\n- **Place**: 駅から歩きます (walk from the station).\n- **Time**: 9時から始まります (it starts at/from 9).\n- **Source / sender**: 母から手紙が来ました (a letter came from my mother), 友達からもらいました (I got it from a friend).\n\nIt very often pairs with まで: **AからBまで** = 'from A to/until B'.\n\nDon't confuse it with **から (1) = because**, which follows a full clause (高いから), while 'from' follows a noun (東京から). And with the て-form, **てから** means 'after doing'.",
+      "examples": [
+        [
+          "{授業|じゅぎょう}は9{時|じ}から{始|はじ}まります。",
+          "Class starts at nine."
+        ],
+        [
+          "{国|くに}の{母|はは}から{荷物|にもつ}が{届|とど}きました。",
+          "A package arrived from my mother back home."
+        ],
+        [
+          "{東京|とうきょう}から{大阪|おおさか}まで{新幹線|しんかんせん}で{行|い}きます。",
+          "I'll go from Tokyo to Osaka by Shinkansen."
+        ]
+      ]
+    },
+    {
+      "id": "made",
+      "title": "まで: until, to, as far as",
+      "summary": "まで marks an end point in place or time. Something continues up to that point. Compare までに = 'by (a deadline)'.",
+      "body": "まで marks **where or when something ends**:\n- **Place**: 駅まで歩きます (walk as far as the station).\n- **Time**: 5時まで働きます (work until 5).\n\nThe action **continues the whole way** up to that point.\n\n**まで vs までに** (a classic trap):\n- **まで** goes with a continuing action or state: 5時**まで**待ちます (I'll keep waiting until 5).\n- **までに** marks a deadline for a one-time action: 5時**までに**来てください (come **by** 5).\n\nWith verbs, use the dictionary form: 母が帰るまで待ちます (I'll wait until mother comes home).\n\nまで can also mean 'even': 子供まで知っています (even children know). This use is less common at N5.",
+      "examples": [
+        [
+          "{家|いえ}から{駅|えき}まで{歩|ある}きます。",
+          "I walk from home to the station."
+        ],
+        [
+          "9{時|じ}から5{時|じ}まで{働|はたら}きます。",
+          "I work from 9 to 5."
+        ],
+        [
+          "{金曜日|きんようび}までにレポートを{出|だ}してください。",
+          "Please hand in the report by Friday."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "ni-e",
+      "prompt": "{来月|らいげつ}、{国|くに}（　）{帰|かえ}ります。",
+      "options": [
+        "を",
+        "へ",
+        "が",
+        "で"
+      ],
+      "answer": 1,
+      "explanation": "With 帰る, the destination takes **へ** (or に).",
+      "notes": [
+        "を with movement verbs marks a route you pass through, not a destination.",
+        "",
+        "が would make the country the subject that goes home.",
+        "で marks the place of an action. 国で帰ります doesn't make sense."
+      ],
+      "translation": "I'm going back to my home country next month."
+    },
+    {
+      "point": "ni-e",
+      "prompt": "これは{母|はは}（　）の{手紙|てがみ}です。",
+      "options": [
+        "が",
+        "に",
+        "を",
+        "へ"
+      ],
+      "answer": 3,
+      "explanation": "Only **へ** can combine with の to modify a noun: 母への手紙 = 'a letter to my mother'.",
+      "notes": [
+        "がの isn't a valid combination.",
+        "にの is impossible. に can't be followed by の.",
+        "をの isn't a valid combination.",
+        ""
+      ],
+      "translation": "This is a letter to my mother."
+    },
+    {
+      "point": "ni-e",
+      "prompt": "{駅|えき}で{友達|ともだち}（　）{会|あ}いました。",
+      "options": [
+        "を",
+        "に",
+        "で",
+        "へ"
+      ],
+      "answer": 1,
+      "explanation": "会う marks the person you meet with **に** (or と). へ only works for direction with movement verbs.",
+      "notes": [
+        "友達を会う is a very common mistake. 会う takes に.",
+        "",
+        "で would mean 'by means of a friend'. The place is already 駅で.",
+        "へ is only for direction with movement verbs. You can't use it with 会う."
+      ],
+      "translation": "I met a friend at the station."
+    },
+    {
+      "point": "ni-e",
+      "prompt": "デパートへ{買|か}い{物|もの}（　）{行|い}きます。",
+      "options": [
+        "で",
+        "へ",
+        "を",
+        "に"
+      ],
+      "answer": 3,
+      "explanation": "The purpose of going takes **に**: 買い物に行く. へ can't mark purpose.",
+      "notes": [
+        "で marks a place or means of an action.",
+        "へ marks direction (デパートへ already does). It can't mark a purpose.",
+        "買い物をします is fine, but 買い物を行きます isn't.",
+        ""
+      ],
+      "translation": "I'm going to the department store to go shopping."
+    },
+    {
+      "point": "kara-from",
+      "prompt": "{国|くに}の{友達|ともだち}（　）メールが{来|き}ました。",
+      "options": [
+        "を",
+        "まで",
+        "から",
+        "で"
+      ],
+      "answer": 2,
+      "explanation": "The sender or source takes **から**.",
+      "notes": [
+        "を would make the friend an object.",
+        "まで marks an end point. The email didn't go 'as far as' the friend.",
+        "",
+        "で would mean 'by means of a friend'."
+      ],
+      "translation": "An email came from my friend back home."
+    },
+    {
+      "point": "kara-from",
+      "prompt": "{銀行|ぎんこう}は{何時|なんじ}（　）ですか。—9{時|じ}からです。",
+      "options": [
+        "に",
+        "まで",
+        "で",
+        "から"
+      ],
+      "answer": 3,
+      "explanation": "The answer 9時からです tells you the question is about the opening time: **から**.",
+      "notes": [
+        "何時にですか isn't natural with です here.",
+        "何時までですか asks about the closing time. The answer would then be 〜までです.",
+        "何時でですか isn't a form.",
+        ""
+      ],
+      "translation": "From what time is the bank open? — From 9."
+    },
+    {
+      "point": "kara-from",
+      "prompt": "この{本|ほん}は{図書館|としょかん}（　）{借|か}りました。",
+      "options": [
+        "まで",
+        "から",
+        "へ",
+        "に"
+      ],
+      "answer": 1,
+      "explanation": "The source you borrow from takes **から**.",
+      "notes": [
+        "まで means 'as far as', which doesn't fit borrowing.",
+        "",
+        "へ marks a direction toward something.",
+        "With 借りる, に marks the person you borrow from (友達に借りる). For an institution like a library, から is natural."
+      ],
+      "translation": "I borrowed this book from the library."
+    },
+    {
+      "point": "made",
+      "prompt": "{家|いえ}から{駅|えき}（　）{歩|ある}いて{行|い}きます。",
+      "options": [
+        "で",
+        "から",
+        "までに",
+        "まで"
+      ],
+      "answer": 3,
+      "explanation": "**AからBまで** = 'from A to B'.",
+      "notes": [
+        "駅で歩く would be 'walk (around) inside the station'.",
+        "から already marks the start (家から). The station is the end point.",
+        "までに means 'by (a deadline)' and is used for time, not as the end point of a route.",
+        ""
+      ],
+      "translation": "I walk from my house to the station."
+    },
+    {
+      "point": "made",
+      "prompt": "9{時|じ}から5{時|じ}（　）{働|はたら}きます。",
+      "options": [
+        "を",
+        "まで",
+        "に",
+        "までに"
+      ],
+      "answer": 1,
+      "explanation": "Working continues up to 5, so it's **まで** ('until').",
+      "notes": [
+        "を doesn't mark time here.",
+        "",
+        "5時に働きます would mean 'work at 5 o'clock', and it clashes with 9時から.",
+        "までに means 'by (a deadline)', for a one-time action. Working is continuous, so it needs まで."
+      ],
+      "translation": "I work from 9 to 5."
+    },
+    {
+      "point": "made",
+      "prompt": "{金曜日|きんようび}（　）{宿題|しゅくだい}を{出|だ}してください。",
+      "options": [
+        "で",
+        "まで",
+        "までに",
+        "から"
+      ],
+      "answer": 2,
+      "explanation": "Handing something in is a one-time action with a deadline, so it takes **までに** ('by Friday').",
+      "notes": [
+        "で doesn't mark a deadline.",
+        "まで would mean 'keep handing it in until Friday', a continuing action.",
+        "",
+        "から means 'from Friday', not a deadline."
+      ],
+      "translation": "Please hand in your homework by Friday."
+    },
+    {
+      "point": "made",
+      "prompt": "{雨|あめ}がやむ（　）、ここで{待|ま}ちましょう。",
+      "options": [
+        "ので",
+        "から",
+        "までに",
+        "まで"
+      ],
+      "answer": 3,
+      "explanation": "We keep waiting up to the point the rain stops, so it's **まで** after the dictionary form.",
+      "notes": [
+        "ので ('because it stops') doesn't fit.",
+        "から would mean 'after/because the rain stops, let's wait', which is illogical.",
+        "までに is a deadline for a single action. Waiting is continuous.",
+        ""
+      ],
+      "translation": "Let's wait here until the rain stops."
+    },
+    {
+      "point": "kara-from",
+      "prompt": "{仕事|しごと}は{何時|なんじ}（　）{何時|なんじ}までですか。",
+      "options": [
+        "まで",
+        "に",
+        "から",
+        "で"
+      ],
+      "answer": 2,
+      "explanation": "**AからBまで** = from A to B.",
+      "notes": [
+        "まで is already used for the end point.",
+        "何時に何時まで isn't the range pattern.",
+        "",
+        "何時で何時まで isn't grammatical."
+      ],
+      "translation": "What time to what time is your work?"
+    },
+    {
+      "point": "made",
+      "prompt": "{駅|えき}（　）{迎|むか}えに{来|き}てください。",
+      "options": [
+        "までに",
+        "から",
+        "で",
+        "まで"
+      ],
+      "answer": 3,
+      "explanation": "**まで** marks 'as far as' a place.",
+      "notes": [
+        "までに is a time deadline, not a place.",
+        "駅から迎えに来て = 'come from the station to pick me up' — wrong direction.",
+        "駅で迎えに来て isn't natural; you'd say 駅まで / 駅に.",
+        ""
+      ],
+      "translation": "Please come to pick me up at the station."
+    }
+  ]
+}

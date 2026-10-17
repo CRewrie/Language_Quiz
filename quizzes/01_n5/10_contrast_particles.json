@@ -1,0 +1,376 @@
+{
+  "id": "n5-contrast-particles",
+  "category": "JLPT N5",
+  "title": "Which One? は/が, に/で, と/や, を/が",
+  "description": "Contrast practice: the particle pairs N5 learners mix up most, side by side.",
+  "level": "N5",
+  "points": [
+    {
+      "id": "wa-vs-ga",
+      "title": "は vs が",
+      "summary": "は = topic (known, 'as for …'). が = subject with focus (new info, question words, answers to が-questions, inside sub-clauses).",
+      "body": "Both can mark what looks like the subject, but they answer different questions.\n\n**は (topic)** — sets up what the sentence is about; the important part comes *after* it:\n- わたしは学生です。 (As for me — student.)\n- Contrast: 肉は食べますが、魚は食べません。\n\n**が (subject with focus)** — the important part is the *subject itself*:\n- **Question words**: だれが来ましたか。 — never だれは.\n- **Answering a が-question**: どれがあなたのですか。—これ**が**わたしのです。\n- **Noticing / new information**: あ、財布が落ちていますよ。\n- **Inside a sub-clause** (relative clause, とき, から…): 母**が**作った料理 — は is not used there.\n- **Objects of 好き/わかる/ほしい/上手** (see を vs が).\n\nRule of thumb: if you could add 'it is X who/that…' in English, use が.",
+      "examples": [
+        [
+          "だれが{窓|まど}を{開|あ}けましたか。—{田中|たなか}さんが{開|あ}けました。",
+          "Who opened the window? — Tanaka did."
+        ],
+        [
+          "{母|はは}が{作|つく}った{料理|りょうり}はおいしいです。",
+          "The food my mother made is delicious."
+        ],
+        [
+          "{肉|にく}は{食|た}べますが、{魚|さかな}は{食|た}べません。",
+          "Meat I eat, but fish I don't."
+        ]
+      ]
+    },
+    {
+      "id": "ni-vs-de",
+      "title": "に vs で (place)",
+      "summary": "に = where something IS (exists, lives) or the point something goes to/lands on. で = where something HAPPENS (actions, events).",
+      "body": "**に — location of existence / arrival point:**\n- いる・ある・住む: 部屋**に**います, 東京**に**住んでいます.\n- Where something ends up: 机の上**に**置く, 紙**に**書く, 駅**に**着く.\n\n**で — location of an action or event:**\n- 図書館**で**勉強する, 入口**で**靴を脱ぐ, 公園**で**遊ぶ.\n- Events, even with ある: 体育館**で**コンサートがあります.\n\nQuick test: is there a **verb of doing**? → で. Is it about **being / ending up somewhere**? → に.",
+      "examples": [
+        [
+          "{本|ほん}は{机|つくえ}の{上|うえ}にあります。",
+          "The book is on the desk."
+        ],
+        [
+          "{毎日|まいにち}{図書館|としょかん}で{勉強|べんきょう}しています。",
+          "I study at the library every day."
+        ],
+        [
+          "{入口|いりぐち}で{靴|くつ}を{脱|ぬ}いでください。",
+          "Please take your shoes off at the entrance."
+        ]
+      ]
+    },
+    {
+      "id": "to-vs-ya",
+      "title": "と vs や",
+      "summary": "と = 'and' (complete list) or 'with' (a companion). や = 'and … among others' (incomplete list, nouns only).",
+      "body": "**と**:\n- Complete list: 父**と**母**と**私の三人です — exactly these.\n- 'With': 友達**と**映画を見ました.\n\n**や**:\n- Example list, others implied: 本**や**ノート**など**があります.\n- Can't mean 'with' — 友達や映画を見ました would mean 'watched friends and movies'.\n\nIf the sentence counts or names *everyone/everything* (三人です, 全部), use と.",
+      "examples": [
+        [
+          "{家族|かぞく}は{父|ちち}と{母|はは}と{私|わたし}の{三人|さんにん}です。",
+          "My family is three people: my father, my mother and me."
+        ],
+        [
+          "{友達|ともだち}と{一緒|いっしょ}に{映画|えいが}を{見|み}ました。",
+          "I watched a movie with a friend."
+        ],
+        [
+          "かばんに{本|ほん}やノートなどが{入|はい}っています。",
+          "There are books, notebooks and so on in my bag."
+        ]
+      ]
+    },
+    {
+      "id": "wo-vs-ga",
+      "title": "を vs が (objects)",
+      "summary": "Action verbs (食べる, 飲む, 買う) take を. Adjectives and state verbs (好き, 嫌い, 上手, ほしい, わかる, できる) take が.",
+      "body": "In English everything is just 'an object', but Japanese splits them:\n\n**を** — object of an **action verb**: コーヒー**を**飲む, 本**を**読む, 日本語**を**勉強する.\n\n**が** — the 'object' of **adjectives** and **state verbs**:\n- 好き・嫌い: 猫**が**好き\n- 上手・下手: 料理**が**上手\n- ほしい: 車**が**ほしい\n- わかる・できる: 日本語**が**わかる / できる\n- ある (have): 時間**が**ある\n\nThese are among the most frequent learner errors: ✗ 日本語をわかります, ✗ 猫を好きです, ✗ 車をほしいです.",
+      "examples": [
+        [
+          "{毎朝|まいあさ}コーヒーを{飲|の}みます。",
+          "I drink coffee every morning."
+        ],
+        [
+          "{日本語|にほんご}が{少|すこ}しわかります。",
+          "I understand a little Japanese."
+        ],
+        [
+          "{母|はは}は{料理|りょうり}が{上手|じょうず}です。",
+          "My mother is good at cooking."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "wa-vs-ga",
+      "prompt": "だれ（　）この{絵|え}を{描|か}きましたか。",
+      "options": [
+        "が",
+        "を",
+        "も",
+        "は"
+      ],
+      "answer": 0,
+      "explanation": "Question word as subject → **が**.",
+      "notes": [
+        "",
+        "を would make 'who' the object of drawing.",
+        "だれも + positive verb isn't used.",
+        "Question words can't be topics — だれは is always wrong."
+      ],
+      "translation": "Who drew this picture?"
+    },
+    {
+      "point": "wa-vs-ga",
+      "prompt": "A：どれがあなたのかばんですか。　B：これ（　）わたしのかばんです。",
+      "options": [
+        "は",
+        "を",
+        "も",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "Answering a **が**-question keeps **が** — the focus is on 'this one'.",
+      "notes": [
+        "これは… states a fact about 'this', but doesn't answer *which one* — the question's focus is on the subject, so が.",
+        "を doesn't fit with です.",
+        "これも = 'this one too' — doesn't answer which one.",
+        ""
+      ],
+      "translation": "A: Which one is your bag? B: This one is my bag."
+    },
+    {
+      "point": "wa-vs-ga",
+      "prompt": "{母|はは}（　）{作|つく}った{料理|りょうり}はとてもおいしいです。",
+      "options": [
+        "は",
+        "が",
+        "で",
+        "を"
+      ],
+      "answer": 1,
+      "explanation": "Inside a relative clause (母が作った → 料理), the subject takes **が**, not は.",
+      "notes": [
+        "は can't mark the subject inside a noun-modifying clause.",
+        "",
+        "で would mean 'by means of mother'.",
+        "を would make mother the thing cooked."
+      ],
+      "translation": "The food my mother made is very delicious."
+    },
+    {
+      "point": "wa-vs-ga",
+      "prompt": "あ、{財布|さいふ}（　）{落|お}ちていますよ。",
+      "options": [
+        "を",
+        "の",
+        "が",
+        "は"
+      ],
+      "answer": 2,
+      "explanation": "Noticing something new → **が**.",
+      "notes": [
+        "落ちる is intransitive — no を.",
+        "財布の落ちて isn't a sentence.",
+        "",
+        "財布は… would treat the wallet as a known topic — but you've only just noticed it."
+      ],
+      "translation": "Oh, your wallet has fallen (on the floor)."
+    },
+    {
+      "point": "ni-vs-de",
+      "prompt": "{毎日|まいにち}{図書館|としょかん}（　）{勉強|べんきょう}しています。",
+      "options": [
+        "へ",
+        "で",
+        "を",
+        "に"
+      ],
+      "answer": 1,
+      "explanation": "Action (studying) → place with **で**.",
+      "notes": [
+        "へ marks direction of movement.",
+        "",
+        "図書館を勉強 = 'study the library'.",
+        "に is for existence or arrival, not for where an action happens."
+      ],
+      "translation": "I study at the library every day."
+    },
+    {
+      "point": "ni-vs-de",
+      "prompt": "{本|ほん}は{机|つくえ}の{上|うえ}（　）あります。",
+      "options": [
+        "を",
+        "へ",
+        "に",
+        "で"
+      ],
+      "answer": 2,
+      "explanation": "Existence of an object → **に**.",
+      "notes": [
+        "を marks objects of actions.",
+        "へ marks direction.",
+        "",
+        "で is for actions/events — a book lying there isn't an event."
+      ],
+      "translation": "The book is on the desk."
+    },
+    {
+      "point": "ni-vs-de",
+      "prompt": "{入口|いりぐち}（　）{靴|くつ}を{脱|ぬ}いでください。",
+      "options": [
+        "で",
+        "に",
+        "を",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "Taking off shoes is an action → **で**.",
+      "notes": [
+        "",
+        "入口に脱ぐ isn't natural — に would mark where the shoes end up, not where you do it.",
+        "入口を脱ぐ = 'take off the entrance'.",
+        "へ marks direction."
+      ],
+      "translation": "Please take off your shoes at the entrance."
+    },
+    {
+      "point": "ni-vs-de",
+      "prompt": "{日本|にほん}で{一番|いちばん}{大|おお}きい{町|まち}（　）{住|す}んでいます。",
+      "options": [
+        "へ",
+        "で",
+        "に",
+        "を"
+      ],
+      "answer": 2,
+      "explanation": "住む always takes **に**, even though 'live' sounds like an action.",
+      "notes": [
+        "へ marks direction.",
+        "町で住んでいます is a very common mistake — 住む is treated like いる.",
+        "",
+        "を doesn't go with 住む."
+      ],
+      "translation": "I live in the biggest city in Japan."
+    },
+    {
+      "point": "to-vs-ya",
+      "prompt": "わたしの{家族|かぞく}は{父|ちち}（　）{母|はは}とわたしの{三人|さんにん}です。",
+      "options": [
+        "と",
+        "か",
+        "や",
+        "も"
+      ],
+      "answer": 0,
+      "explanation": "A complete, counted list (三人) → **と**.",
+      "notes": [
+        "",
+        "か means 'or'.",
+        "や implies 'and others' — contradicts exactly three people.",
+        "父も母と isn't a list structure."
+      ],
+      "translation": "My family is three people: my father, my mother and me."
+    },
+    {
+      "point": "to-vs-ya",
+      "prompt": "{友達|ともだち}（　）{一緒|いっしょ}に{映画|えいが}を{見|み}ました。",
+      "options": [
+        "の",
+        "と",
+        "か",
+        "や"
+      ],
+      "answer": 1,
+      "explanation": "'With (someone)' → **と**. や can't mean 'with'.",
+      "notes": [
+        "友達の一緒 isn't grammatical.",
+        "",
+        "か means 'or'.",
+        "や only lists nouns — it can't mean 'together with'."
+      ],
+      "translation": "I watched a movie together with a friend."
+    },
+    {
+      "point": "to-vs-ya",
+      "prompt": "かばんに{本|ほん}（　）ノート（　）が{入|はい}っています。(…among other things)",
+      "options": [
+        "と／や",
+        "や／と",
+        "と／など",
+        "や／など"
+      ],
+      "answer": 3,
+      "explanation": "Incomplete list: **AやBなど**.",
+      "notes": [
+        "と…や isn't a list pattern.",
+        "や…と isn't a list pattern.",
+        "と makes a complete list — clashes with 'among other things'.",
+        ""
+      ],
+      "translation": "There are books, notebooks and so on in my bag."
+    },
+    {
+      "point": "wo-vs-ga",
+      "prompt": "わたしは{日本語|にほんご}（　）{少|すこ}しわかります。",
+      "options": [
+        "に",
+        "が",
+        "で",
+        "を"
+      ],
+      "answer": 1,
+      "explanation": "わかる is a state verb → **が**.",
+      "notes": [
+        "に doesn't mark what is understood.",
+        "",
+        "日本語でわかります = 'understand (it) in Japanese'.",
+        "日本語をわかります is a classic mistake."
+      ],
+      "translation": "I understand a little Japanese."
+    },
+    {
+      "point": "wo-vs-ga",
+      "prompt": "{新|あたら}しいパソコン（　）ほしいです。",
+      "options": [
+        "で",
+        "に",
+        "が",
+        "を"
+      ],
+      "answer": 2,
+      "explanation": "ほしい is an adjective → **が**.",
+      "notes": [
+        "で would mean 'by means of a computer'.",
+        "に doesn't mark the thing wanted.",
+        "",
+        "をほしい is wrong — use を with 買いたい instead."
+      ],
+      "translation": "I want a new computer."
+    },
+    {
+      "point": "wo-vs-ga",
+      "prompt": "{母|はは}は{料理|りょうり}（　）{上手|じょうず}です。",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "上手 is a な-adjective → **が**.",
+      "notes": [
+        "に doesn't mark the skill.",
+        "上手 isn't a verb — 料理を上手 is wrong.",
+        "で would mean 'by means of cooking'.",
+        ""
+      ],
+      "translation": "My mother is good at cooking."
+    },
+    {
+      "point": "wo-vs-ga",
+      "prompt": "{毎朝|まいあさ}{新聞|しんぶん}（　）{読|よ}みます。",
+      "options": [
+        "を",
+        "が",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "読む is an action verb → **を**.",
+      "notes": [
+        "",
+        "が would make the newspaper the reader.",
+        "に doesn't mark the thing read.",
+        "で would mean 'by means of the newspaper'."
+      ],
+      "translation": "I read the newspaper every morning."
+    }
+  ]
+}

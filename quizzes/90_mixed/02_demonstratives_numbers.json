@@ -1,0 +1,279 @@
+{
+  "id": "demonstratives-numbers",
+  "category": "Mixed practice (N5–N4)",
+  "title": "こそあど, Question Words & Counting",
+  "description": "これ/この/あれ, どこ・いつ・いくら, readings of numbers, prices, times, dates, and counters.",
+  "level": "N5",
+  "questions": [
+    {
+      "prompt": "（Holding a book）（　）はわたしの{本|ほん}です。",
+      "options": [
+        "この",
+        "あれ",
+        "これ",
+        "どれ"
+      ],
+      "answer": 2,
+      "explanation": "**これ** = 'this (thing)', for something near the speaker. It stands alone as a noun: これは….",
+      "notes": [
+        "この must come right before a noun (この本). It can't stand alone before は.",
+        "あれ is for something far from both speaker and listener, not something in your own hand.",
+        "",
+        "どれ means 'which one?'. It's a question word and can't be used in a statement."
+      ],
+      "translation": "This is my book."
+    },
+    {
+      "prompt": "（Pointing far away）（　）{人|ひと}はだれですか。—{田中|たなか}さんです。",
+      "options": [
+        "あそこ",
+        "あれ",
+        "どの",
+        "あの"
+      ],
+      "answer": 3,
+      "explanation": "**あの + noun** = 'that … over there'. The こ/そ/あ/ど + の forms must be followed by a noun: あの人.",
+      "notes": [
+        "あそこ means 'over there' (a place). It can't modify 人.",
+        "あれ is a pronoun ('that thing') and can't directly modify a noun. あれ人 is ungrammatical.",
+        "どの means 'which?'. The sentence already has a question word (だれ), and the answer shows a specific person was pointed at.",
+        ""
+      ],
+      "translation": "Who is that person over there? — It's Mr. Tanaka."
+    },
+    {
+      "prompt": "すみません、トイレは（　）ですか。",
+      "options": [
+        "どこ",
+        "だれ",
+        "なに",
+        "どれ"
+      ],
+      "answer": 0,
+      "explanation": "**どこ** asks 'where?'. The pattern Xはどこですか means 'Where is X?'.",
+      "notes": [
+        "",
+        "だれ means 'who?'.",
+        "なに means 'what?'. トイレはなにですか would mean 'What is a toilet?'.",
+        "どれ asks 'which one (out of three or more)?'. It doesn't ask for a location."
+      ],
+      "translation": "Excuse me, where is the restroom?"
+    },
+    {
+      "prompt": "（　）{傘|かさ}があなたのですか。—その{赤|あか}い{傘|かさ}です。",
+      "options": [
+        "どれ",
+        "どこ",
+        "どの",
+        "なに"
+      ],
+      "answer": 2,
+      "explanation": "**どの + noun** = 'which …?'. It's the question form of この/その/あの and must come before a noun.",
+      "notes": [
+        "どれ is a pronoun ('which one?') and can't directly modify 傘. You'd say どれがあなたの傘ですか.",
+        "どこ asks about a place and can't modify a noun this way.",
+        "",
+        "なに means 'what' and can't directly modify 傘. なにの傘 isn't used."
+      ],
+      "translation": "Which umbrella is yours? — That red one."
+    },
+    {
+      "prompt": "このりんごは300{円|えん}です。How do you read 300{円|えん}?",
+      "options": [
+        "さんぜんえん",
+        "さんぴゃくえん",
+        "さんひゃくえん",
+        "さんびゃくえん"
+      ],
+      "answer": 3,
+      "explanation": "百 changes its sound after some numbers: 300 = **さんびゃく**, 600 = ろっぴゃく, 800 = はっぴゃく. The others are regular (よんひゃく, ごひゃく, …).",
+      "notes": [
+        "さんぜん is 3,000, not 300.",
+        "ぴゃく appears in ろっぴゃく (600) and はっぴゃく (800), not in 300.",
+        "ひゃく becomes びゃく after さん. さんひゃく isn't used.",
+        ""
+      ],
+      "translation": "These apples are 300 yen."
+    },
+    {
+      "prompt": "このカメラは800{円|えん}です。How do you read 800?",
+      "options": [
+        "はちびゃく",
+        "はっぴゃく",
+        "はちひゃく",
+        "はっせん"
+      ],
+      "answer": 1,
+      "explanation": "800 = **はっぴゃく**: はち shortens to はっ and ひゃく becomes ぴゃく.",
+      "notes": [
+        "びゃく occurs in さんびゃく (300), not after はち.",
+        "",
+        "はちひゃく isn't used. The sound change はち+ひゃく → はっぴゃく is required.",
+        "はっせん is 8,000, not 800."
+      ],
+      "translation": "This camera is 800 yen."
+    },
+    {
+      "prompt": "「4:00」はなんじですか。",
+      "options": [
+        "よじ",
+        "しじ",
+        "よんじ",
+        "よっじ"
+      ],
+      "answer": 0,
+      "explanation": "4 o'clock is **よじ**, an irregular reading to memorise. Also note 7時 = しちじ and 9時 = くじ.",
+      "notes": [
+        "",
+        "し is avoided for 4 here (it sounds like 死, 'death'), and しじ isn't used for 4 o'clock.",
+        "よん is the normal reading of 4, but with 時 it shortens to よ: よじ.",
+        "There's no small っ in this word."
+      ],
+      "translation": "What time is '4:00'? — Four o'clock."
+    },
+    {
+      "prompt": "「6:30」は（　）です。",
+      "options": [
+        "ろくはんじ",
+        "ろっじはん",
+        "ろくじはん",
+        "むじはん"
+      ],
+      "answer": 2,
+      "explanation": "**半 (はん)** = half past, and it comes after 時: 6時半 = **ろくじはん**.",
+      "notes": [
+        "The order is wrong. 半 follows 時: 〜時半.",
+        "There's no sound change between ろく and じ.",
+        "",
+        "む is the native-Japanese reading of 6 (むっつ), not used with 時."
+      ],
+      "translation": "6:30 is 'half past six'."
+    },
+    {
+      "prompt": "{誕生日|たんじょうび}は4月8日です。How do you read 4月8日?",
+      "options": [
+        "よんがつやっか",
+        "しがつはちにち",
+        "よんがつようか",
+        "しがつようか"
+      ],
+      "answer": 3,
+      "explanation": "April is always **しがつ**. Dates 1–10 use native readings: ついたち, ふつか, みっか, よっか, いつか, むいか, なのか, **ようか**, ここのか, とおか.",
+      "notes": [
+        "Both parts are wrong: April is しがつ, and the 8th is ようか (やっか doesn't exist).",
+        "The 8th of the month is ようか, not はちにち. Days 1–10 (plus 14, 20, 24) have special readings.",
+        "April is しがつ, never よんがつ.",
+        ""
+      ],
+      "translation": "My birthday is April 8th."
+    },
+    {
+      "prompt": "{切手|きって}を3（　）ください。",
+      "options": [
+        "{本|ほん}",
+        "{冊|さつ}",
+        "{枚|まい}",
+        "{台|だい}"
+      ],
+      "answer": 2,
+      "explanation": "**枚 (まい)** counts thin, flat things: stamps, paper, tickets, shirts, plates.",
+      "notes": [
+        "本 counts long, thin things (pens, bottles, umbrellas).",
+        "冊 counts books and notebooks.",
+        "",
+        "台 counts machines and vehicles (cars, computers)."
+      ],
+      "translation": "Three stamps, please."
+    },
+    {
+      "prompt": "ペンを2（　）{買|か}いました。",
+      "options": [
+        "{冊|さつ}",
+        "{枚|まい}",
+        "{匹|ひき}",
+        "{本|ほん}"
+      ],
+      "answer": 3,
+      "explanation": "**本** counts long, cylindrical objects: pens, bottles, trees, umbrellas. 2本 is read にほん (いっぽん, にほん, さんぼん…).",
+      "notes": [
+        "冊 counts bound volumes like books.",
+        "枚 counts flat things (paper, stamps). A pen isn't flat.",
+        "匹 counts small animals (cats, dogs, fish).",
+        ""
+      ],
+      "translation": "I bought two pens."
+    },
+    {
+      "prompt": "{庭|にわ}に{犬|いぬ}が3（　）います。",
+      "options": [
+        "{本|ぼん}",
+        "{匹|びき}",
+        "{人|にん}",
+        "{台|だい}"
+      ],
+      "answer": 1,
+      "explanation": "**匹** counts small and medium animals. After 3 it becomes びき: いっぴき, にひき, **さんびき**, よんひき….",
+      "notes": [
+        "本 (here read ぼん after 3) counts long thin objects, not animals.",
+        "",
+        "人 counts people only.",
+        "台 counts machines and vehicles."
+      ],
+      "translation": "There are three dogs in the garden."
+    },
+    {
+      "prompt": "りんごを（three, general counter）ください。",
+      "options": [
+        "みっつ",
+        "みいつ",
+        "さんつ",
+        "みつ"
+      ],
+      "answer": 0,
+      "explanation": "The general native counter: ひとつ, ふたつ, **みっつ**, よっつ, いつつ, むっつ, ななつ, やっつ, ここのつ, とお.",
+      "notes": [
+        "",
+        "There's no long vowel. It's みっつ.",
+        "つ attaches only to native Japanese numbers. さん is a Sino-Japanese number.",
+        "It needs a small っ: みっつ."
+      ],
+      "translation": "Three apples, please."
+    },
+    {
+      "prompt": "{教室|きょうしつ}に{学生|がくせい}が（　）いますか。—5{人|にん}います。",
+      "options": [
+        "いくら",
+        "{何本|なんぼん}",
+        "いくつ",
+        "{何人|なんにん}"
+      ],
+      "answer": 3,
+      "explanation": "**何人 (なんにん)** asks 'how many people?'. Ask with the same counter the answer will use (5人).",
+      "notes": [
+        "いくら asks 'how much (money)?'.",
+        "何本 counts long thin objects, not people.",
+        "いくつ asks 'how many (things)?' or someone's age. For counting people, use なんにん.",
+        ""
+      ],
+      "translation": "How many students are in the classroom? — There are five."
+    },
+    {
+      "prompt": "この{時計|とけい}は（　）ですか。—5,000{円|えん}です。",
+      "options": [
+        "どれ",
+        "だれ",
+        "いくら",
+        "いつ"
+      ],
+      "answer": 2,
+      "explanation": "**いくら** asks about price: 'how much is it?'.",
+      "notes": [
+        "どれ asks 'which one?', but the answer gives a price.",
+        "だれ asks 'who?'.",
+        "",
+        "いつ asks 'when?'."
+      ],
+      "translation": "How much is this watch? — 5,000 yen."
+    }
+  ]
+}

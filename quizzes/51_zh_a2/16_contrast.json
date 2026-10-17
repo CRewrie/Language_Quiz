@@ -1,0 +1,219 @@
+{
+  "id": "zh-a2-contrast",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "Which One? 了 vs 过, 不 vs 没, 在 before vs after the verb",
+  "description": "A2 contrast practice: a specific past event or an experience, not (habit/decision) vs didn't/haven't, and where 在 + place goes.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "le_vs_guo",
+      "title": "了 vs 过",
+      "summary": "了 = a specific action got done (and matters now). 过 = you have the experience (at least once, at some point).",
+      "body": "- 昨天我买**了**一件衣服，可是太小了 (that purchase, still relevant).\n- 你吃**过**北京烤鸭吗? (ever?)\n- 我去**过**日本 (I've been to Japan) ≠ 我去**了**日本 (I went to Japan — maybe still there).",
+      "examples": [
+        [
+          "{我|wǒ}{去|qù}{过|guo}{日本|Rìběn}。",
+          "I've been to Japan."
+        ]
+      ]
+    },
+    {
+      "id": "bu_vs_mei2",
+      "title": "不 vs 没 (A2)",
+      "summary": "不: habits, wishes, decisions, 'not anymore' (不…了). 没: didn't, haven't (yet) (还没).",
+      "body": "- 我昨天**没**去，今天也**不**想去.\n- 他现在**不**抽**了**.\n- 我还**没**想好.",
+      "examples": [
+        [
+          "{我|wǒ}{昨天|zuótiān}{没|méi}{去|qù}，{今天|jīntiān}{也|yě}{不|bù}{想|xiǎng}{去|qù}。",
+          "I didn't go yesterday, and I don't want to go today either."
+        ]
+      ]
+    },
+    {
+      "id": "zai_pos",
+      "title": "在 + place: before or after the verb?",
+      "summary": "Normally 在 + place goes **before** the verb (在图书馆看书). Only with 住, 坐, 站, 放 (where something ends up / stays) does it go **after** (住在北京).",
+      "body": "- 他**在**图书馆看书.\n- 他**住在**北京.\n- ~~他看书在图书馆~~ ✗",
+      "examples": [
+        [
+          "{他|tā}{在|zài}{图书馆|túshūguǎn}{看|kàn}{书|shū}。",
+          "He's reading in the library."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "le_vs_guo",
+      "prompt": "{你|nǐ}{吃|chī}（　）{北京|Běijīng}{烤鸭|kǎoyā}{吗|ma}？{没|méi}{吃|chī}{过|guo}{的话|dehuà}，{我们|wǒmen}{去|qù}{吃|chī}{吧|ba}！",
+      "options": [
+        "{过|guo}",
+        "{了|le}",
+        "{完|wán}",
+        "{着|zhe}"
+      ],
+      "answer": 0,
+      "explanation": "Ever: **过**.",
+      "notes": [
+        "",
+        "吃了吗 = 'did you eat it (just now)' — the follow-up asks about experience.",
+        "吃完 = 'finish eating'.",
+        "着 doesn't fit."
+      ],
+      "translation": "Have you ever had Peking duck? If not, let's go and have some!"
+    },
+    {
+      "point": "le_vs_guo",
+      "prompt": "{昨天|zuótiān}{我|wǒ}{买|mǎi}（　）{一|yí}{件|jiàn}{衣服|yīfu}，{可是|kěshì}{太|tài}{小|xiǎo}{了|le}，{今天|jīntiān}{要|yào}{去|qù}{换|huàn}。",
+      "options": [
+        "{着|zhe}",
+        "{了|le}",
+        "{过|guo}",
+        "{在|zài}"
+      ],
+      "answer": 1,
+      "explanation": "Specific completed event: **了**.",
+      "notes": [
+        "着 doesn't fit.",
+        "",
+        "过 is for experiences — not one specific purchase you're still dealing with.",
+        "在 goes before the verb."
+      ],
+      "translation": "I bought a piece of clothing yesterday, but it's too small — I'm going to exchange it today."
+    },
+    {
+      "point": "le_vs_guo",
+      "prompt": "Which sentence means 'I've been to Japan (before)'?",
+      "options": [
+        "{我|wǒ}{去|qù}{日本|Rìběn}{了|le}。",
+        "{我|wǒ}{在|zài}{日本|Rìběn}。",
+        "{我|wǒ}{去|qù}{了|le}{日本|Rìběn}。",
+        "{我|wǒ}{去|qù}{过|guo}{日本|Rìběn}。"
+      ],
+      "answer": 3,
+      "explanation": "Experience: **去过**.",
+      "notes": [
+        "去日本了 = 'I've gone to Japan' (maybe still there).",
+        "在日本 = 'I'm in Japan'.",
+        "去了日本 = 'I went to Japan' (a specific trip).",
+        ""
+      ],
+      "translation": "I've been to Japan."
+    },
+    {
+      "point": "bu_vs_mei2",
+      "prompt": "{我|wǒ}{昨天|zuótiān}（　）{去|qù}，{今天|jīntiān}{也|yě}{不|bù}{想|xiǎng}{去|qù}。",
+      "options": [
+        "{没|méi}",
+        "{不|bú}",
+        "{别|bié}",
+        "{不要|búyào}"
+      ],
+      "answer": 0,
+      "explanation": "Didn't: **没**.",
+      "notes": [
+        "",
+        "昨天 is a past event — 没.",
+        "别 is a command.",
+        "不要 is a command."
+      ],
+      "translation": "I didn't go yesterday, and I don't want to go today either."
+    },
+    {
+      "point": "bu_vs_mei2",
+      "prompt": "{他|tā}{以前|yǐqián}{抽烟|chōuyān}，{现在|xiànzài}（　）{抽|chōu}{了|le}。",
+      "options": [
+        "{没|méi}",
+        "{不|bù}",
+        "{没有|méiyǒu}",
+        "{别|bié}"
+      ],
+      "answer": 1,
+      "explanation": "Not anymore: **不…了**.",
+      "notes": [
+        "没…了 isn't the pattern.",
+        "",
+        "没有…了 isn't the pattern.",
+        "别抽了 = 'stop smoking!' (a command)."
+      ],
+      "translation": "He used to smoke, but he doesn't anymore."
+    },
+    {
+      "point": "bu_vs_mei2",
+      "prompt": "{我|wǒ}{还|hái}（　）{想|xiǎng}{好|hǎo}，{你|nǐ}{等|děng}{我|wǒ}{一下|yíxià}。",
+      "options": [
+        "{不是|búshì}",
+        "{别|bié}",
+        "{没|méi}",
+        "{不|bù}"
+      ],
+      "answer": 2,
+      "explanation": "Not yet: **还没**.",
+      "notes": [
+        "不是 negates nouns.",
+        "别 is a command.",
+        "",
+        "还不想好 isn't grammatical — 想好 is a result."
+      ],
+      "translation": "I haven't decided yet — give me a moment."
+    },
+    {
+      "point": "zai_pos",
+      "prompt": "Which sentence means 'He lives in Beijing'?",
+      "options": [
+        "{他|tā}{住|zhù}{在|zài}{北京|Běijīng}。",
+        "{他|tā}{在|zài}{住|zhù}{北京|Běijīng}。",
+        "{他|tā}{住|zhù}{北京|Běijīng}{在|zài}。",
+        "{他|tā}{北京|Běijīng}{住|zhù}{在|zài}。"
+      ],
+      "answer": 0,
+      "explanation": "**住在** + place.",
+      "notes": [
+        "",
+        "在住 would mean 'is living (right now)', and 北京 can't follow like that.",
+        "在 needs the place after it.",
+        "在 needs the place after it."
+      ],
+      "translation": "He lives in Beijing."
+    },
+    {
+      "point": "zai_pos",
+      "prompt": "{我们|wǒmen}{明天|míngtiān}（　）{那|nà}{家|jiā}{咖啡馆|kāfēiguǎn}{见面|jiànmiàn}{吧|ba}。",
+      "options": [
+        "{住|zhù}",
+        "{坐|zuò}{在|zài}",
+        "{到|dào}{在|zài}",
+        "{在|zài}"
+      ],
+      "answer": 3,
+      "explanation": "Place before the verb: **在 + place + 见面**.",
+      "notes": [
+        "住 = 'live'.",
+        "坐在…见面 = 'sit in … meet' — two verbs clash.",
+        "到在 isn't grammatical.",
+        ""
+      ],
+      "translation": "Let's meet at that café tomorrow."
+    },
+    {
+      "point": "zai_pos",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{看|kàn}{在|zài}{图书馆|túshūguǎn}{书|shū}。",
+        "{他|tā}{在|zài}{图书馆|túshūguǎn}{看|kàn}{书|shū}。",
+        "{他|tā}{看|kàn}{书|shū}{在|zài}{图书馆|túshūguǎn}。",
+        "{他|tā}{在|zài}{看|kàn}{书|shū}{图书馆|túshūguǎn}。"
+      ],
+      "answer": 1,
+      "explanation": "Action verbs: **在 + place + verb**.",
+      "notes": [
+        "看 doesn't take 在 after it.",
+        "",
+        "English order — 在 + place goes before the verb.",
+        "The place can't come at the end."
+      ],
+      "translation": "He's reading in the library."
+    }
+  ]
+}

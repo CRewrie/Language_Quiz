@@ -1,0 +1,392 @@
+{
+  "id": "n4-giving-receiving",
+  "category": "JLPT N4",
+  "title": "Favours: てあげる, てくれる, てもらう & more",
+  "description": "Doing things for others and having them done for you, polite requests with ていただけませんか, and wanting someone to do something with てほしい.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "teageru",
+      "title": "〜てあげる: do something for someone",
+      "summary": "て-form + あげる = do a favour for someone (outward from the speaker or their group). It can sound condescending toward superiors.",
+      "body": "**て-form + あげる** means the subject does something **for someone else's benefit**, with the favour going **away from** the speaker:\n- わたしは弟に本を読ん**であげました** (I read a book to my brother).\n- 地図を描い**てあげます**よ (I'll draw you a map).\n\nThe beneficiary is usually marked with **に** (for verbs with a recipient) or **の** + noun: 友達**の**宿題を手伝ってあげた.\n\n**Politeness warning:** saying 'I'll do it for you' directly to a superior (〜てあげましょうか) sounds patronising, because it emphasises your kindness. Use the humble お〜します instead: お持ち**しましょうか**.\n\nRelated: 〜て**やる** is for animals, plants and people below you (casual, can sound rough). 〜て**さしあげる** is the humble form, used in third-person descriptions.",
+      "examples": [
+        [
+          "わたしは{弟|おとうと}に{本|ほん}を{読|よ}んであげました。",
+          "I read a book to my little brother."
+        ],
+        [
+          "{道|みち}がわからないなら、{地図|ちず}を{描|か}いてあげますよ。",
+          "If you don't know the way, I'll draw you a map."
+        ],
+        [
+          "お{荷物|にもつ}、お{持|も}ちしましょうか。",
+          "Shall I carry your luggage? (polite to a superior)"
+        ]
+      ]
+    },
+    {
+      "id": "tekureru",
+      "title": "〜てくれる: someone does something for me",
+      "summary": "て-form + くれる = someone does a favour for the speaker (or their in-group). The giver is the subject (が/は). Honorific: てくださる.",
+      "body": "**て-form + くれる**: the favour comes **toward me** (or my family, my group). The doer is the **subject**:\n- 友達**が**駅まで迎えに来**てくれました** (my friend kindly came to pick me up).\n- 母**が**作っ**てくれた**お弁当 (the lunch my mother made for me).\n\nIt adds **gratitude**. Without くれる (友達が迎えに来ました), it's a neutral fact.\n\n**Requests:** 〜てくれる？ (casual) / 〜てくれませんか (polite) / 〜てくださいませんか (more polite).\n\n**Honorific:** when the giver is a superior, use **てくださる**: 先生が教え**てくださいました**.\n\n**Direction rule:** くれる always points toward the speaker. 'I did X for my friend' can't use くれる; that needs あげる.",
+      "examples": [
+        [
+          "{友達|ともだち}が{駅|えき}まで{迎|むか}えに{来|き}てくれました。",
+          "My friend kindly came to pick me up at the station."
+        ],
+        [
+          "{母|はは}が{作|つく}ってくれたお{弁当|べんとう}はおいしいです。",
+          "The lunch my mother made me is delicious."
+        ],
+        [
+          "ちょっと{手伝|てつだ}ってくれる？",
+          "Can you help me a bit? (casual)"
+        ]
+      ]
+    },
+    {
+      "id": "temorau",
+      "title": "〜てもらう: get someone to do something / have something done",
+      "summary": "わたしは + person に + て-form + もらう. The receiver is the subject, and the doer is marked with に. Humble: ていただく.",
+      "body": "**て-form + もらう** looks at the favour from the **receiver's** side. 'I received the action of …':\n- わたし**は**友達**に**写真を撮っ**てもらいました** (I had my friend take a photo / my friend took a photo for me).\n\n**Structure:** [receiver]は + [doer]**に** + て-form + もらう. The doer takes **に**, not が.\n\n**Nuance vs てくれる:**\n- 友達**が**撮っ**てくれた**: focus on the friend's kindness (they did it).\n- 友達**に**撮っ**てもらった**: focus on me getting it done, often because I asked.\n\n**Humble form:** **ていただく** when the doer is a superior: 先生**に**直し**ていただきました**.\n\n**Advice:** 医者に診**てもらった**ほうがいい (you'd better see a doctor, lit. get a doctor to examine you).",
+      "examples": [
+        [
+          "わたしは{友達|ともだち}に{写真|しゃしん}を{撮|と}ってもらいました。",
+          "I had my friend take a photo for me."
+        ],
+        [
+          "{医者|いしゃ}に{診|み}てもらったほうがいいですよ。",
+          "You should get a doctor to look at it."
+        ],
+        [
+          "{先生|せんせい}に{作文|さくぶん}を{直|なお}していただきました。",
+          "My teacher kindly corrected my essay."
+        ]
+      ]
+    },
+    {
+      "id": "teitadakemasenka",
+      "title": "〜ていただけませんか: could you please …?",
+      "summary": "て-form + いただけませんか is a very polite request. It uses the potential negative of いただく: 'could I not receive you doing …?'",
+      "body": "**Formation:** て-form + **いただけませんか**: 書い**ていただけませんか**, 待っ**ていただけませんか**.\n\nいただける is the potential form of いただく (the humble 'receive'), and the negative question makes it extra soft. Literally: 'Can't I humbly receive your doing …?'\n\n**Politeness ladder (low → high):**\n- 〜て (casual command)\n- 〜てくれる？ / 〜てもらえる？ (casual)\n- 〜てください (polite, but still a directive)\n- 〜てくれませんか / 〜てもらえませんか\n- 〜てくださいませんか / **〜ていただけませんか** (very polite)\n- 〜ていただけないでしょうか (most polite)\n\nUse it with strangers, customers, superiors, and for bigger favours.",
+      "examples": [
+        [
+          "すみません、もう{少|すこ}しゆっくり{話|はな}していただけませんか。",
+          "Excuse me, could you speak a little more slowly?"
+        ],
+        [
+          "ここに{住所|じゅうしょ}を{書|か}いていただけませんか。",
+          "Could you please write your address here?"
+        ]
+      ]
+    },
+    {
+      "id": "tehoshii",
+      "title": "〜てほしい: I want (someone) to do",
+      "summary": "Person に + て-form + ほしい = 'I want X to do …'. Negative: 〜ないでほしい. ほしい alone is for wanting things: 〜がほしい.",
+      "body": "**ほしい** is an い-adjective meaning 'wanted':\n- **Thing + が + ほしい**: 新しい靴**が**ほしいです (I want new shoes).\n- **Person に + て-form + ほしい**: 夫**に**料理を手伝っ**てほしい**です (I want my husband to help with the cooking).\n\n**Negative wish:** ない-form + **でほしい**: タバコを吸わ**ないでほしい** (I don't want you to smoke).\n\n**〜たい vs 〜てほしい:**\n- 〜たい is about *my own* action: 行きたい (I want to go).\n- 〜てほしい is about *someone else's* action: 来てほしい (I want you to come).\n\n**Politeness:** 〜てほしい stated directly to a superior sounds demanding. Use 〜ていただけませんか instead.",
+      "examples": [
+        [
+          "{部屋|へや}を{片付|かたづ}けてほしいです。",
+          "I want you to tidy your room."
+        ],
+        [
+          "{夫|おっと}に{料理|りょうり}を{手伝|てつだ}ってほしいです。",
+          "I want my husband to help with the cooking."
+        ],
+        [
+          "ここでタバコを{吸|す}わないでほしいです。",
+          "I'd like you not to smoke here."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "teageru",
+      "prompt": "わたしは{弟|おとうと}に{絵本|えほん}を{読|よ}んで（　）。",
+      "options": [
+        "くれました",
+        "あげました",
+        "くださいました",
+        "さしあげました"
+      ],
+      "answer": 1,
+      "explanation": "I do a favour **for** my brother, going outward: **てあげる**.",
+      "notes": [
+        "くれる points toward the speaker. Here the speaker is the one giving the favour.",
+        "",
+        "くださる is honorific くれる, with the wrong direction and the wrong politeness.",
+        "さしあげる is humble, used toward superiors. It's too formal for your little brother."
+      ],
+      "translation": "I read a picture book to my little brother."
+    },
+    {
+      "point": "teageru",
+      "prompt": "{道|みち}がわからないなら、{地図|ちず}を{描|か}いて（　）よ。",
+      "options": [
+        "くれます",
+        "もらいます",
+        "あげます",
+        "ください"
+      ],
+      "answer": 2,
+      "explanation": "Offering to do something for the listener: **〜てあげます**.",
+      "notes": [
+        "くれます would mean someone will draw it for *me*.",
+        "描いてもらいます means 'I'll get someone to draw it', which isn't an offer.",
+        "",
+        "描いてくださいよ would be a request to the listener, the opposite of offering."
+      ],
+      "translation": "If you don't know the way, I'll draw you a map."
+    },
+    {
+      "point": "teageru",
+      "prompt": "Your teacher is carrying heavy books. What's the **polite** offer?",
+      "options": [
+        "{持|も}ってくれますか。",
+        "{持|も}ってあげましょうか。",
+        "{持|も}ってもらいましょうか。",
+        "お{持|も}ちしましょうか。"
+      ],
+      "answer": 3,
+      "explanation": "To a superior, use humble **お〜しましょうか**. てあげる sounds patronising.",
+      "notes": [
+        "持ってくれますか asks the *teacher* to carry something for you.",
+        "てあげましょうか stresses that you're doing them a favour, which is rude toward a teacher.",
+        "持ってもらいましょうか means 'shall we get someone to carry it?'.",
+        ""
+      ],
+      "translation": "Shall I carry those for you?"
+    },
+    {
+      "point": "tekureru",
+      "prompt": "{雨|あめ}の{日|ひ}、{友達|ともだち}が{駅|えき}まで{迎|むか}えに{来|き}て（　）。",
+      "options": [
+        "やりました",
+        "もらいました",
+        "くれました",
+        "あげました"
+      ],
+      "answer": 2,
+      "explanation": "The friend (が) did something for me: **てくれる**.",
+      "notes": [
+        "てやる is for favours toward inferiors. Wrong direction.",
+        "てもらう needs 友達に, not 友達が.",
+        "",
+        "てあげる points away from the speaker. Without another recipient, the favour is clearly for me."
+      ],
+      "translation": "On a rainy day, my friend kindly came to pick me up at the station."
+    },
+    {
+      "point": "tekureru",
+      "prompt": "{母|はは}が{作|つく}って（　）お{弁当|べんとう}は、いつもおいしいです。",
+      "options": [
+        "あげた",
+        "くれた",
+        "やった",
+        "もらった"
+      ],
+      "answer": 1,
+      "explanation": "Mother (が) makes it for me: **てくれた**, modifying お弁当.",
+      "notes": [
+        "あげた would mean my mother made it for someone else.",
+        "",
+        "やる is wrong in direction and in tone toward one's mother.",
+        "With 母が, もらう doesn't work. It would need 母に作ってもらったお弁当."
+      ],
+      "translation": "The lunch my mother makes me is always delicious."
+    },
+    {
+      "point": "tekureru",
+      "prompt": "{先生|せんせい}がわたしに{日本|にほん}の{歌|うた}を{教|おし}えて（　）。",
+      "options": [
+        "あげました",
+        "いただきました",
+        "さしあげました",
+        "くださいました"
+      ],
+      "answer": 3,
+      "explanation": "A superior (が) did something for me: honorific **てくださる**.",
+      "notes": [
+        "あげる points away from me, and it's rude for a teacher's action.",
+        "いただく needs わたしは先生に…, not 先生が.",
+        "さしあげる is humble giving from me to a superior. Wrong direction.",
+        ""
+      ],
+      "translation": "My teacher kindly taught me a Japanese song."
+    },
+    {
+      "point": "temorau",
+      "prompt": "わたしは{友達|ともだち}（　）{写真|しゃしん}を{撮|と}ってもらいました。",
+      "options": [
+        "が",
+        "に",
+        "を",
+        "で"
+      ],
+      "answer": 1,
+      "explanation": "With てもらう, the doer of the favour is marked with **に**.",
+      "notes": [
+        "が would make the friend the subject, but the subject is わたし (the receiver).",
+        "",
+        "を already marks 写真.",
+        "で would mean 'by means of a friend'."
+      ],
+      "translation": "I had my friend take a photo of me."
+    },
+    {
+      "point": "temorau",
+      "prompt": "{熱|ねつ}があるなら、{医者|いしゃ}に{診|み}て（　）ほうがいいですよ。",
+      "options": [
+        "くれた",
+        "やった",
+        "もらった",
+        "あげた"
+      ],
+      "answer": 2,
+      "explanation": "医者**に** + **てもらう**: get the doctor to examine you.",
+      "notes": [
+        "くれる needs the doctor as subject with が, not に.",
+        "やる means doing a favour for an inferior. Wrong direction.",
+        "",
+        "あげる would mean you examine the doctor as a favour."
+      ],
+      "translation": "If you have a fever, you'd better get a doctor to examine you."
+    },
+    {
+      "point": "temorau",
+      "prompt": "わたしは{先生|せんせい}に{作文|さくぶん}を{直|なお}して（　）。",
+      "options": [
+        "さしあげました",
+        "くださいました",
+        "あげました",
+        "いただきました"
+      ],
+      "answer": 3,
+      "explanation": "わたしは + superior **に** + **ていただく** (humble てもらう).",
+      "notes": [
+        "さしあげる would mean I corrected something for the teacher.",
+        "くださる needs the teacher as subject with が (先生が直してくださいました).",
+        "あげる has the wrong direction, and it's rude toward a teacher.",
+        ""
+      ],
+      "translation": "I had my teacher correct my essay."
+    },
+    {
+      "point": "teitadakemasenka",
+      "prompt": "すみません、ここにお{名前|なまえ}を{書|か}いて（　）。",
+      "options": [
+        "いただきませんか",
+        "いただけませんか",
+        "いただかませんか",
+        "いただくませんか"
+      ],
+      "answer": 1,
+      "explanation": "Very polite request: て-form + **いただけませんか** (potential negative of いただく).",
+      "notes": [
+        "いただきませんか is an invitation ('won't you receive?'), not a request.",
+        "",
+        "いただかません isn't a form. ません attaches to the ます-stem.",
+        "ません can't attach to the dictionary form."
+      ],
+      "translation": "Excuse me, could you please write your name here?"
+    },
+    {
+      "point": "teitadakemasenka",
+      "prompt": "Which is the **most polite** way to ask a stranger to open the window?",
+      "options": [
+        "{窓|まど}を{開|あ}けてください。",
+        "{窓|まど}を{開|あ}けてくれる？",
+        "{窓|まど}を{開|あ}けて。",
+        "{窓|まど}を{開|あ}けていただけませんか。"
+      ],
+      "answer": 3,
+      "explanation": "**〜ていただけませんか** is near the top of the politeness ladder.",
+      "notes": [
+        "てください is polite, but still a directive.",
+        "てくれる？ is casual, for friends and family.",
+        "て alone is a casual command.",
+        ""
+      ],
+      "translation": "Could you please open the window?"
+    },
+    {
+      "point": "teitadakemasenka",
+      "prompt": "{申|もう}し{訳|わけ}ありませんが、もう{少|すこ}し{待|ま}って（　）か。",
+      "options": [
+        "くださりません",
+        "いただけません",
+        "いただかません",
+        "いただきません"
+      ],
+      "answer": 1,
+      "explanation": "Polite request: て-form + **いただけませんか**.",
+      "notes": [
+        "The ます-form of くださる is くださいます, so the request is くださいませんか (not くださりません).",
+        "",
+        "いただかません isn't a form. ません attaches to the ます-stem.",
+        "いただきませんか is an invitation ('won't you receive?'), not a request."
+      ],
+      "translation": "I'm very sorry, but could you please wait a little longer?"
+    },
+    {
+      "point": "tehoshii",
+      "prompt": "{子供|こども}に{自分|じぶん}の{部屋|へや}を{片付|かたづ}けて（　）です。",
+      "options": [
+        "くれる",
+        "あげる",
+        "たい",
+        "ほしい"
+      ],
+      "answer": 3,
+      "explanation": "Wanting **someone else** to do something: person に + **てほしい**.",
+      "notes": [
+        "くれるです isn't grammatical.",
+        "あげるです isn't grammatical.",
+        "たい is for your own actions and attaches to the ます-stem (片付けたい).",
+        ""
+      ],
+      "translation": "I want my child to tidy their own room."
+    },
+    {
+      "point": "tehoshii",
+      "prompt": "わたしは{夫|おっと}（　）もっと{料理|りょうり}を{手伝|てつだ}ってほしいです。",
+      "options": [
+        "を",
+        "に",
+        "が",
+        "で"
+      ],
+      "answer": 1,
+      "explanation": "The person you want to act is marked with **に**.",
+      "notes": [
+        "を already marks 料理.",
+        "",
+        "が would make the husband the one doing the wanting.",
+        "で would mean 'by means of my husband'."
+      ],
+      "translation": "I want my husband to help more with the cooking."
+    },
+    {
+      "point": "tehoshii",
+      "prompt": "{会議中|かいぎちゅう}は{電話|でんわ}をかけ（　）ほしいです。",
+      "options": [
+        "ない",
+        "なくて",
+        "なかった",
+        "ないで"
+      ],
+      "answer": 3,
+      "explanation": "'I don't want you to': ない-form + **でほしい**.",
+      "notes": [
+        "ないほしい is missing で.",
+        "なくてほしい isn't the pattern.",
+        "なかったほしい isn't grammatical.",
+        ""
+      ],
+      "translation": "I'd like you not to call during meetings."
+    }
+  ]
+}

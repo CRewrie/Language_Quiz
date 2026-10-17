@@ -1,0 +1,311 @@
+{
+  "id": "n2-koto",
+  "category": "JLPT N2",
+  "title": "こと Expressions: ことだから, ことから, ことなく, ことになっている, ことは〜が, ということは",
+  "description": "Knowing them, …; from the fact that; without (ever); it's the rule/plan; (I do) … but; and 'which means'.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "kotodakara",
+      "title": "〜ことだから: knowing (him/her), …",
+      "summary": "Person + の + ことだから = given what this person is like, (surely) ….",
+      "body": "- 時間に厳しい田中さん**のことだから**、もう来ているだろう.\n- 優しい彼**のことだから**、きっと手伝ってくれるよ.",
+      "examples": [
+        [
+          "{時間|じかん}に{厳|きび}しい{田中|たなか}さんのことだから、もう{来|き}ているだろう。",
+          "Knowing how punctual Tanaka is, he's probably already here."
+        ]
+      ]
+    },
+    {
+      "id": "kotokara",
+      "title": "〜ことから: from the fact that, because",
+      "summary": "Plain form + ことから = from the fact A (reason for a name/judgement).",
+      "body": "- 富士山が見える**ことから**、この町は富士見町と呼ばれている.\n- 指紋が一致した**ことから**、彼が犯人だとわかった.",
+      "examples": [
+        [
+          "{富士山|ふじさん}が{見|み}えることから、この{町|まち}は{富士見町|ふじみちょう}と{呼|よ}ばれている。",
+          "Because Mt. Fuji is visible, this town is called Fujimi-cho."
+        ]
+      ]
+    },
+    {
+      "id": "kotonaku",
+      "title": "〜ことなく: without (doing even once)",
+      "summary": "Dictionary form + ことなく = without doing A at all (formal ないで).",
+      "body": "- 彼は休む**ことなく**働き続けた.\n- 誰にも知られる**ことなく**、計画は進んだ.",
+      "examples": [
+        [
+          "{彼|かれ}は{休|やす}むことなく{働|はたら}き{続|つづ}けた。",
+          "He kept working without a single break."
+        ]
+      ]
+    },
+    {
+      "id": "kotoninatteiru",
+      "title": "〜ことになっている: it's the rule / it's scheduled",
+      "summary": "Dictionary / ない-form + ことになっている = a rule, custom or arrangement that's already set.",
+      "body": "- この寮では、夜10時までに帰る**ことになっている**.\n- 会議は3時から始まる**ことになっている**.",
+      "examples": [
+        [
+          "{会議|かいぎ}は3{時|じ}から{始|はじ}まることになっている。",
+          "The meeting is scheduled to start at 3."
+        ]
+      ]
+    },
+    {
+      "id": "kotowaga",
+      "title": "〜ことは〜が: (it's true that) … but",
+      "summary": "A + ことは + A + が = I do/can A, but (only to a limited extent).",
+      "body": "- 行く**ことは**行く**が**、少し遅れるかもしれない.\n- 漢字は読める**ことは**読めます**が**、書けません.",
+      "examples": [
+        [
+          "{漢字|かんじ}は{読|よ}めることは{読|よ}めますが、{書|か}けません。",
+          "I can read kanji, sure, but I can't write them."
+        ]
+      ]
+    },
+    {
+      "id": "toiukotowa",
+      "title": "ということは: which means, so",
+      "summary": "Sentence-initial ということは = 'that means …' (drawing a conclusion).",
+      "body": "- 電気が消えている。**ということは**、もう寝たのだろう.",
+      "examples": [
+        [
+          "{電気|でんき}が{消|き}えている。ということは、もう{寝|ね}たのだろう。",
+          "The lights are off. That means they've probably gone to bed."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "kotodakara",
+      "prompt": "{時間|じかん}に{厳|きび}しい{田中|たなか}さんの（　）、もう{来|き}ているだろう。",
+      "options": [
+        "ことには",
+        "ことなく",
+        "ことから",
+        "ことだから"
+      ],
+      "answer": 3,
+      "explanation": "Knowing him: **のことだから**.",
+      "notes": [
+        "ことには = 'unless'.",
+        "ことなく = 'without'.",
+        "ことから = 'from the fact that' — not about a person's character.",
+        ""
+      ],
+      "translation": "Knowing how punctual Tanaka is, he's probably already here."
+    },
+    {
+      "point": "kotodakara",
+      "prompt": "{優|やさ}しい{彼|かれ}の（　）、きっと{手伝|てつだ}ってくれるよ。",
+      "options": [
+        "ことだから",
+        "ことに",
+        "ことから",
+        "ことで"
+      ],
+      "answer": 0,
+      "explanation": "**のことだから**.",
+      "notes": [
+        "",
+        "ことに = 'to my (surprise etc.)'.",
+        "ことから = 'from the fact that'.",
+        "ことで = 'by'."
+      ],
+      "translation": "Knowing how kind he is, he'll definitely help."
+    },
+    {
+      "point": "kotokara",
+      "prompt": "{富士山|ふじさん}が{見|み}える（　）、この{町|まち}は{富士見町|ふじみちょう}と{呼|よ}ばれている。",
+      "options": [
+        "ことだから",
+        "ことなく",
+        "ことから",
+        "ことには"
+      ],
+      "answer": 2,
+      "explanation": "From the fact that: **ことから**.",
+      "notes": [
+        "ことだから is about a person's character.",
+        "ことなく = 'without'.",
+        "",
+        "ことには = 'unless'."
+      ],
+      "translation": "Because Mt. Fuji is visible, this town is called Fujimi-cho."
+    },
+    {
+      "point": "kotokara",
+      "prompt": "{指紋|しもん}が{一致|いっち}した（　）、{彼|かれ}が{犯人|はんにん}だとわかった。",
+      "options": [
+        "ことから",
+        "ことだから",
+        "ことに",
+        "ことなく"
+      ],
+      "answer": 0,
+      "explanation": "**ことから** (basis for a judgement).",
+      "notes": [
+        "",
+        "ことだから is about character.",
+        "ことに = 'to my (surprise etc.)'.",
+        "ことなく = 'without'."
+      ],
+      "translation": "From the fact that the fingerprints matched, they knew he was the culprit."
+    },
+    {
+      "point": "kotonaku",
+      "prompt": "{彼|かれ}は{休|やす}む（　）{働|はたら}き{続|つづ}けた。",
+      "options": [
+        "ことなし",
+        "ことない",
+        "ことなく",
+        "ことなくて"
+      ],
+      "answer": 2,
+      "explanation": "Without: **ことなく**.",
+      "notes": [
+        "ことなし can't connect to the verb.",
+        "ことない can't connect here.",
+        "",
+        "ことなくて isn't the form."
+      ],
+      "translation": "He kept working without a single break."
+    },
+    {
+      "point": "kotonaku",
+      "prompt": "{誰|だれ}にも{知|し}られる（　）、{計画|けいかく}は{進|すす}んだ。",
+      "options": [
+        "ことなし",
+        "ことだから",
+        "ことから",
+        "ことなく"
+      ],
+      "answer": 3,
+      "explanation": "**ことなく**.",
+      "notes": [
+        "ことなし can't connect.",
+        "ことだから = 'knowing (someone)'.",
+        "ことから = 'from the fact that'.",
+        ""
+      ],
+      "translation": "The plan went ahead without anyone finding out."
+    },
+    {
+      "point": "kotoninatteiru",
+      "prompt": "この{寮|りょう}では、{夜|よる}10{時|じ}までに{帰|かえ}る（　）。",
+      "options": [
+        "ことになっている",
+        "ことにされている",
+        "ことになりている",
+        "ことになってくる"
+      ],
+      "answer": 0,
+      "explanation": "Rule: **ことになっている**.",
+      "notes": [
+        "",
+        "されている isn't the pattern.",
+        "なりている isn't a form.",
+        "なってくる = 'is becoming'."
+      ],
+      "translation": "In this dorm, you're supposed to be back by 10 pm."
+    },
+    {
+      "point": "kotoninatteiru",
+      "prompt": "What does 「{会議|かいぎ}は3{時|じ}から{始|はじ}まることになっている」 mean?",
+      "options": [
+        "The meeting might start at 3.",
+        "The meeting is scheduled to start at 3.",
+        "The meeting started at 3.",
+        "I decided to start the meeting at 3."
+      ],
+      "answer": 1,
+      "explanation": "ことになっている = **fixed arrangement**.",
+      "notes": [
+        "That's かもしれない.",
+        "",
+        "That's 始まった.",
+        "That's ことにした."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kotowaga",
+      "prompt": "{行|い}く（　）{行|い}くが、{少|すこ}し{遅|おく}れるかもしれない。",
+      "options": [
+        "ことを",
+        "ことに",
+        "ことが",
+        "ことは"
+      ],
+      "answer": 3,
+      "explanation": "I'll go, but: **ことは〜が**.",
+      "notes": [
+        "ことを isn't the pattern.",
+        "ことに isn't the pattern.",
+        "ことが isn't the pattern.",
+        ""
+      ],
+      "translation": "I'll go, sure, but I might be a bit late."
+    },
+    {
+      "point": "kotowaga",
+      "prompt": "{漢字|かんじ}は{読|よ}める（　）{読|よ}めますが、{書|か}けません。",
+      "options": [
+        "ことは",
+        "ことを",
+        "ことに",
+        "ことが"
+      ],
+      "answer": 0,
+      "explanation": "**ことは〜が**.",
+      "notes": [
+        "",
+        "ことを isn't the pattern.",
+        "ことに isn't the pattern.",
+        "ことが isn't the pattern."
+      ],
+      "translation": "I can read kanji, sure, but I can't write them."
+    },
+    {
+      "point": "toiukotowa",
+      "prompt": "{電気|でんき}が{消|き}えている。（　）、もう{寝|ね}たのだろう。",
+      "options": [
+        "ということに",
+        "というと",
+        "ということは",
+        "というより"
+      ],
+      "answer": 2,
+      "explanation": "Which means: **ということは**.",
+      "notes": [
+        "ということに isn't a connector.",
+        "というと = 'speaking of'.",
+        "",
+        "というより = 'rather than'."
+      ],
+      "translation": "The lights are off. That means they've probably gone to bed."
+    },
+    {
+      "point": "toiukotowa",
+      "prompt": "A：{明日|あした}は{祝日|しゅくじつ}だよ。　B：（　）、{会社|かいしゃ}は{休|やす}みだね。",
+      "options": [
+        "ということは",
+        "といっても",
+        "ということに",
+        "というより"
+      ],
+      "answer": 0,
+      "explanation": "Drawing a conclusion: **ということは**.",
+      "notes": [
+        "",
+        "といっても = 'although'.",
+        "ということに isn't a connector.",
+        "というより = 'rather than'."
+      ],
+      "translation": "A: Tomorrow's a public holiday. B: So that means the office is closed."
+    }
+  ]
+}

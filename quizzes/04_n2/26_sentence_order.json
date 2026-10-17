@@ -1,0 +1,213 @@
+{
+  "id": "n2-sentence-order",
+  "category": "JLPT N2",
+  "title": "★ Sentence Building N2 (並べ替え)",
+  "description": "JLPT-style ordering with N2 grammar: put the four pieces in order and choose the one in the ★ slot.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "narabekae-n2",
+      "title": "Solving N2 ★ questions",
+      "summary": "Anchor the multi-part patterns (〜手前, 〜限り, 〜というものでもない, 〜かのような, 〜どころではない …), then fit the rest around them.",
+      "body": "N2 ordering questions are often built around a pattern split over two or three pieces. Strategy:\n- **Rebuild the pattern first**: というもの + でもない, かの + ような, どころ + では + ない, かいが + あって.\n- **Check what the pattern needs before it**: た-form + 手前, ない-form + 限り, dictionary form + ことなく, noun + に限って.\n- **Look at what follows the last blank** (いかない, 限らない, 顔, 思い出す) — the 4th piece must connect to it.\n- Modifiers (明日の, 無事に, 故郷の) sit directly before what they modify.",
+      "examples": [
+        [
+          "{約束|やくそく}した{手前|てまえ}、{今|いま}さら{行|い}かないわけにはいかない。",
+          "Having promised, I can't back out now."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "narabekae-n2",
+      "prompt": "{約束|やくそく}した　＿＿　＿＿　★　＿＿　いかない。\n（わけには・{行|い}かない・{手前|てまえ}・{今|いま}さら）",
+      "options": [
+        "わけには",
+        "{手前|てまえ}",
+        "{今|いま}さら",
+        "{行|い}かない"
+      ],
+      "answer": 3,
+      "explanation": "約束した **手前 今さら 行かない わけには** いかない。",
+      "notes": [
+        "わけには goes right before いかない — slot 4.",
+        "手前 follows 約束した — slot 1.",
+        "今さら opens the main clause — slot 2.",
+        ""
+      ],
+      "translation": "Having promised, I can't back out now."
+    },
+    {
+      "point": "narabekae-n2",
+      "prompt": "{雨|あめ}が　＿＿　＿＿　★　＿＿　{行|おこな}われる。\n（{試合|しあい}は・{降|ふ}らない・{明日|あした}の・{限|かぎ}り）",
+      "options": [
+        "{明日|あした}の",
+        "{限|かぎ}り",
+        "{降|ふ}らない",
+        "{試合|しあい}は"
+      ],
+      "answer": 0,
+      "explanation": "雨が **降らない 限り 明日の 試合は** 行われる。",
+      "notes": [
+        "",
+        "限り follows the ない-form — slot 2.",
+        "降らない follows 雨が — slot 1.",
+        "試合は is the topic before 行われる — slot 4."
+      ],
+      "translation": "As long as it doesn't rain, tomorrow's match will go ahead."
+    },
+    {
+      "point": "narabekae-n2",
+      "prompt": "{値段|ねだん}が{高|たか}ければ　＿＿　＿＿　★　＿＿。\n（でもない・いい・もの・という）",
+      "options": [
+        "いい",
+        "という",
+        "もの",
+        "でもない"
+      ],
+      "answer": 2,
+      "explanation": "高ければ **いい という もの でもない**。",
+      "notes": [
+        "いい completes 高ければいい — slot 1.",
+        "という quotes it — slot 2.",
+        "",
+        "でもない ends the sentence — slot 4."
+      ],
+      "translation": "Expensive doesn't automatically mean good."
+    },
+    {
+      "point": "narabekae-n2",
+      "prompt": "{彼|かれ}は　＿＿　＿＿　★　＿＿　{顔|かお}をしていた。\n（ような・かの・{何|なに}も・{知|し}らない）",
+      "options": [
+        "{何|なに}も",
+        "かの",
+        "ような",
+        "{知|し}らない"
+      ],
+      "answer": 1,
+      "explanation": "彼は **何も 知らない かの ような** 顔をしていた。",
+      "notes": [
+        "何も comes first, before the negative — slot 1.",
+        "",
+        "ような modifies 顔 — slot 4.",
+        "知らない — slot 2."
+      ],
+      "translation": "He looked as if he knew nothing."
+    },
+    {
+      "point": "narabekae-n2",
+      "prompt": "{仕事|しごと}が{忙|いそが}しくて、　＿＿　＿＿　★　＿＿。\n（ない・{旅行|りょこう}・では・どころ）",
+      "options": [
+        "どころ",
+        "{旅行|りょこう}",
+        "では",
+        "ない"
+      ],
+      "answer": 2,
+      "explanation": "仕事が忙しくて、**旅行 どころ では ない**。",
+      "notes": [
+        "どころ follows the noun — slot 2.",
+        "旅行 is the noun — slot 1.",
+        "",
+        "ない ends the sentence — slot 4."
+      ],
+      "translation": "I'm so busy with work that a holiday is out of the question."
+    },
+    {
+      "point": "narabekae-n2",
+      "prompt": "{頑張|がんば}った　＿＿　＿＿　★　＿＿　できた。\n（{合格|ごうかく}・かいが・{無事|ぶじ}に・あって）",
+      "options": [
+        "あって",
+        "かいが",
+        "{合格|ごうかく}",
+        "{無事|ぶじ}に"
+      ],
+      "answer": 3,
+      "explanation": "頑張った **かいが あって 無事に 合格** できた。",
+      "notes": [
+        "あって completes かいがあって — slot 2.",
+        "かいが follows 頑張った — slot 1.",
+        "合格 goes right before できた — slot 4.",
+        ""
+      ],
+      "translation": "My hard work paid off and I passed without a hitch."
+    },
+    {
+      "point": "narabekae-n2",
+      "prompt": "{日本人|にほんじん}だ　＿＿　＿＿　★　＿＿　{限|かぎ}らない。\n（とは・{敬語|けいご}が・からといって・{上手|じょうず}だ）",
+      "options": [
+        "からといって",
+        "{敬語|けいご}が",
+        "{上手|じょうず}だ",
+        "とは"
+      ],
+      "answer": 2,
+      "explanation": "日本人だ **からといって 敬語が 上手だ とは** 限らない。",
+      "notes": [
+        "からといって follows 日本人だ — slot 1.",
+        "敬語が is the subject of 上手だ — slot 2.",
+        "",
+        "とは goes right before 限らない — slot 4."
+      ],
+      "translation": "Just because someone is Japanese doesn't mean they're good at honorifics."
+    },
+    {
+      "point": "narabekae-n2",
+      "prompt": "＿＿　＿＿　★　＿＿　{遅|おく}れる。\n（{電車|でんしゃ}が・{限|かぎ}って・{急|いそ}いでいる・{時|とき}に）",
+      "options": [
+        "{限|かぎ}って",
+        "{電車|でんしゃ}が",
+        "{時|とき}に",
+        "{急|いそ}いでいる"
+      ],
+      "answer": 0,
+      "explanation": "**急いでいる 時に 限って 電車が** 遅れる。",
+      "notes": [
+        "",
+        "電車が is the subject of 遅れる — slot 4.",
+        "時に comes before 限って — slot 2.",
+        "急いでいる modifies 時 — slot 1."
+      ],
+      "translation": "The train is always late precisely when I'm in a hurry."
+    },
+    {
+      "point": "narabekae-n2",
+      "prompt": "{写真|しゃしん}を　＿＿　＿＿　★　＿＿　{思|おも}い{出|だ}す。\n（ことを・につけ・{故郷|ふるさと}の・{見|み}る）",
+      "options": [
+        "{見|み}る",
+        "ことを",
+        "{故郷|ふるさと}の",
+        "につけ"
+      ],
+      "answer": 2,
+      "explanation": "写真を **見る につけ 故郷の ことを** 思い出す。",
+      "notes": [
+        "見る takes 写真を — slot 1.",
+        "ことを is the object of 思い出す — slot 4.",
+        "",
+        "につけ follows 見る — slot 2."
+      ],
+      "translation": "Whenever I look at the photos, I think of my hometown."
+    },
+    {
+      "point": "narabekae-n2",
+      "prompt": "{彼|かれ}は　＿＿　＿＿　★　＿＿　{働|はたら}き{続|つづ}けた。\n（なく・{休|やす}む・{一日|いちにち}も・こと）",
+      "options": [
+        "なく",
+        "{休|やす}む",
+        "{一日|いちにち}も",
+        "こと"
+      ],
+      "answer": 3,
+      "explanation": "彼は **一日も 休む こと なく** 働き続けた。",
+      "notes": [
+        "なく completes ことなく — slot 4.",
+        "休む comes before こと — slot 2.",
+        "一日も comes first — slot 1.",
+        ""
+      ],
+      "translation": "He kept working without taking a single day off."
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": "zh-a1-shi-you-zai",
+  "category": "Mandarin A1",
+  "language": "zh",
+  "title": "Being and Having: 是, 有, 在",
+  "description": "A 是 B for identity, 在 for where something is, 有 for 'there is' and 'have' — and the word order each needs.",
+  "level": "A1",
+  "points": [
+    {
+      "id": "shi",
+      "title": "A 是 B: be (nouns only)",
+      "summary": "是 (shì) links two nouns: 'A is B'. Adjectives don't use 是 (→ 很).",
+      "body": "- 我**是**大学生.\n- ~~我是累~~ ✗ → 我很累.",
+      "examples": [
+        [
+          "{我|wǒ}{是|shì}{大学生|dàxuéshēng}。",
+          "I'm a university student."
+        ]
+      ]
+    },
+    {
+      "id": "zai",
+      "title": "Thing + 在 + place: be at",
+      "summary": "在 (zài) says where a known thing/person is: thing first, then 在 + place.",
+      "body": "- 我的书**在**桌子上.\n- 你的老师**在**哪儿?",
+      "examples": [
+        [
+          "{我|wǒ}{的|de}{书|shū}{在|zài}{桌子|zhuōzi}{上|shang}。",
+          "My book is on the table."
+        ]
+      ]
+    },
+    {
+      "id": "you",
+      "title": "Place + 有 + thing: there is",
+      "summary": "有 (yǒu) says what exists somewhere: place first, then 有 + thing (usually something new / indefinite).",
+      "body": "- 桌子上**有**一本书 (There's a book on the table).\n- 学校旁边**有**一个公园.\n- Negative: 没有.",
+      "examples": [
+        [
+          "{学校|xuéxiào}{旁边|pángbiān}{有|yǒu}{一个|yí ge}{公园|gōngyuán}。",
+          "There's a park next to the school."
+        ]
+      ]
+    },
+    {
+      "id": "youposs",
+      "title": "Subject + 有 + object: have",
+      "summary": "有 also means 'have'. Negative: 没有.",
+      "body": "- 他**有**两个孩子.\n- 我**没有**钱.",
+      "examples": [
+        [
+          "{他|tā}{有|yǒu}{两|liǎng}{个|ge}{孩子|háizi}。",
+          "He has two children."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "shi",
+      "prompt": "{我|wǒ}（　）{大学生|dàxuéshēng}。",
+      "options": [
+        "{在|zài}",
+        "{是|shì}",
+        "{很|hěn}",
+        "{有|yǒu}"
+      ],
+      "answer": 1,
+      "explanation": "Noun = noun: **是**.",
+      "notes": [
+        "在 = 'be at (a place)'.",
+        "",
+        "很 goes with adjectives.",
+        "有 = 'have'."
+      ],
+      "translation": "I'm a university student."
+    },
+    {
+      "point": "shi",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{很|hěn}{累|lèi}。",
+        "{很|hěn}{我|wǒ}{累|lèi}。",
+        "{我|wǒ}{累|lèi}{很|hěn}。",
+        "{我|wǒ}{是|shì}{累|lèi}。"
+      ],
+      "answer": 0,
+      "explanation": "Adjectives: **很**, not 是.",
+      "notes": [
+        "",
+        "很 goes after the subject.",
+        "很 goes before the adjective.",
+        "Adjectives don't take 是."
+      ],
+      "translation": "I'm tired."
+    },
+    {
+      "point": "zai",
+      "prompt": "{我|wǒ}{的|de}{书|shū}（　）{桌子|zhuōzi}{上|shang}。",
+      "options": [
+        "{有|yǒu}",
+        "{着|zhe}",
+        "{在|zài}",
+        "{是|shì}"
+      ],
+      "answer": 2,
+      "explanation": "Known thing + **在** + place.",
+      "notes": [
+        "有 needs the place first (桌子上有…).",
+        "着 is a verb suffix.",
+        "",
+        "是 links two nouns."
+      ],
+      "translation": "My book is on the table."
+    },
+    {
+      "point": "zai",
+      "prompt": "{你|nǐ}{的|de}{老师|lǎoshī}{现在|xiànzài}（　）{哪儿|nǎr}？",
+      "options": [
+        "{在|zài}",
+        "{着|zhe}",
+        "{的|de}",
+        "{有|yǒu}"
+      ],
+      "answer": 0,
+      "explanation": "Where is: **在哪儿**.",
+      "notes": [
+        "",
+        "着 is a verb suffix.",
+        "的哪儿 isn't grammatical.",
+        "有哪儿 isn't grammatical."
+      ],
+      "translation": "Where is your teacher now?"
+    },
+    {
+      "point": "you",
+      "prompt": "{桌子|zhuōzi}{上|shang}（　）{一|yì}{本|běn}{书|shū}。",
+      "options": [
+        "{有|yǒu}",
+        "{没|méi}",
+        "{着|zhe}",
+        "{在|zài}"
+      ],
+      "answer": 0,
+      "explanation": "Place + **有** + thing.",
+      "notes": [
+        "",
+        "没 alone isn't enough — 没有.",
+        "着 is a verb suffix.",
+        "在 needs the thing first (书在桌子上)."
+      ],
+      "translation": "There's a book on the table."
+    },
+    {
+      "point": "you",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{有|yǒu}{学校|xuéxiào}{旁边|pángbiān}{一个|yí ge}{公园|gōngyuán}。",
+        "{一个|yí ge}{公园|gōngyuán}{在|zài}{学校|xuéxiào}{旁边|pángbiān}{有|yǒu}。",
+        "{学校|xuéxiào}{旁边|pángbiān}{在|zài}{一个|yí ge}{公园|gōngyuán}。",
+        "{学校|xuéxiào}{旁边|pángbiān}{有|yǒu}{一个|yí ge}{公园|gōngyuán}。"
+      ],
+      "answer": 3,
+      "explanation": "**Place + 有 + thing**.",
+      "notes": [
+        "The place comes before 有.",
+        "Two verbs (在 and 有) in a broken order.",
+        "Place + 在 + thing is the wrong way round.",
+        ""
+      ],
+      "translation": "There's a park next to the school."
+    },
+    {
+      "point": "youposs",
+      "prompt": "{他|tā}（　）{两|liǎng}{个|ge}{孩子|háizi}。",
+      "options": [
+        "{在|zài}",
+        "{和|hé}",
+        "{是|shì}",
+        "{有|yǒu}"
+      ],
+      "answer": 3,
+      "explanation": "Have: **有**.",
+      "notes": [
+        "在 = 'be at'.",
+        "和 = 'and'.",
+        "是 = 'is' — 'he is two children'.",
+        ""
+      ],
+      "translation": "He has two children."
+    },
+    {
+      "point": "youposs",
+      "prompt": "{对不起|duìbuqǐ}，{我|wǒ}{今天|jīntiān}（　）{时间|shíjiān}。",
+      "options": [
+        "{不有|bù yǒu}",
+        "{没有|méiyǒu}",
+        "{不是|búshì}",
+        "{没是|méi shì}"
+      ],
+      "answer": 1,
+      "explanation": "Don't have: **没有**.",
+      "notes": [
+        "不有 doesn't exist.",
+        "",
+        "不是时间 = 'is not time'.",
+        "没是 doesn't exist."
+      ],
+      "translation": "Sorry, I don't have time today."
+    }
+  ]
+}

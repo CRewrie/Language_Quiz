@@ -1,0 +1,279 @@
+{
+  "id": "verbs-te-form",
+  "category": "Mixed practice (N5–N4)",
+  "title": "Verbs: ます-forms & て-form",
+  "description": "Polite past and negative, invitations, the て-form sound changes, てください, てもいい, てはいけない, ている.",
+  "level": "N5",
+  "questions": [
+    {
+      "prompt": "{昨日|きのう}は{何|なに}も（　）。",
+      "options": [
+        "{食|た}べませんでした",
+        "{食|た}べました",
+        "{食|た}べます",
+        "{食|た}べません"
+      ],
+      "answer": 0,
+      "explanation": "**何も + negative** = 'nothing'. Because it's about 昨日 (yesterday), the verb must be negative **and** past: 〜ませんでした.",
+      "notes": [
+        "",
+        "何も ('nothing') requires a negative verb. 何も食べました is ungrammatical.",
+        "This is non-past and positive, but 昨日 needs past, and 何も needs a negative.",
+        "This is negative, but non-past. 昨日 refers to yesterday, so you need the past: 食べませんでした."
+      ],
+      "translation": "I didn't eat anything yesterday."
+    },
+    {
+      "prompt": "{今度|こんど}の{土曜日|どようび}、いっしょに{映画|えいが}を{見|み}（　）。",
+      "options": [
+        "たいです",
+        "ますた",
+        "でしょう",
+        "ませんか"
+      ],
+      "answer": 3,
+      "explanation": "**〜ませんか** ('won't you…?') is the polite way to invite someone: いっしょに見ませんか = 'Would you like to watch it together?'.",
+      "notes": [
+        "見たいです is possible but only states your own wish. It clashes with いっしょに as an invitation and doesn't ask the listener anything.",
+        "ますた doesn't exist. The past of ます is ました.",
+        "でしょう attaches to the dictionary form (見るでしょう) and expresses probability, not invitation.",
+        ""
+      ],
+      "translation": "Would you like to watch a movie together this Saturday?"
+    },
+    {
+      "prompt": "{銀行|ぎんこう}に（　）、お{金|かね}をおろします。",
+      "options": [
+        "{行|い}んで",
+        "{行|い}って",
+        "{行|い}いて",
+        "{行|い}きて"
+      ],
+      "answer": 1,
+      "explanation": "**行く** is the one exception among く-verbs. Its て-form is **行って**, not 行いて. (Compare 書く → 書いて.)",
+      "notes": [
+        "んで is for verbs ending in む/ぶ/ぬ (読む→読んで).",
+        "",
+        "This follows the regular く→いて pattern (書く→書いて), but 行く is irregular: 行って.",
+        "Godan verbs don't add て to the ます-stem (行き+て). Only ichidan verbs do (食べ+て)."
+      ],
+      "translation": "I'll go to the bank and withdraw money."
+    },
+    {
+      "prompt": "この{本|ほん}を{読|よ}（　）ください。",
+      "options": [
+        "って",
+        "んて",
+        "いて",
+        "んで"
+      ],
+      "answer": 3,
+      "explanation": "Verbs ending in **む・ぶ・ぬ** change to **んで**: 読む→読んで, 遊ぶ→遊んで, 死ぬ→死んで.",
+      "notes": [
+        "って is for verbs ending in う・つ・る (買う→買って, 待つ→待って, 取る→取って).",
+        "After ん, the て becomes voiced: で, not て.",
+        "いて is for く-verbs (書く→書いて). いで is for ぐ-verbs.",
+        ""
+      ],
+      "translation": "Please read this book."
+    },
+    {
+      "prompt": "ちょっと（　）ください。",
+      "options": [
+        "{待|ま}ちて",
+        "{待|ま}って",
+        "{待|ま}んで",
+        "{待|ま}いて"
+      ],
+      "answer": 1,
+      "explanation": "Verbs ending in **う・つ・る** take **って**: 待つ→待って, 買う→買って, 帰る→帰って.",
+      "notes": [
+        "Godan verbs don't attach て directly to the ます-stem (待ち). That pattern only applies to ichidan verbs.",
+        "",
+        "んで is for む・ぶ・ぬ verbs.",
+        "いて is for く-verbs."
+      ],
+      "translation": "Please wait a moment."
+    },
+    {
+      "prompt": "{海|うみ}で（　）、{楽|たの}しかったです。",
+      "options": [
+        "{泳|およ}って",
+        "{泳|およ}ぎて",
+        "{泳|およ}いで",
+        "{泳|およ}いて"
+      ],
+      "answer": 2,
+      "explanation": "Verbs ending in **ぐ** become **いで**: 泳ぐ→泳いで, 急ぐ→急いで. The voicing of ぐ carries over to で.",
+      "notes": [
+        "って is for う・つ・る verbs.",
+        "Godan verbs don't simply add て to the ます-stem.",
+        "",
+        "いて is for く-verbs. For ぐ the て is voiced: いで."
+      ],
+      "translation": "I swam in the sea and it was fun."
+    },
+    {
+      "prompt": "ここに{名前|なまえ}を（　）ください。",
+      "options": [
+        "{書|か}いて",
+        "{書|か}きて",
+        "{書|か}って",
+        "{書|か}んで"
+      ],
+      "answer": 0,
+      "explanation": "Verbs ending in **く** become **いて**: 書く→書いて, 聞く→聞いて, 歩く→歩いて (except 行く→行って).",
+      "notes": [
+        "",
+        "Adding て to the stem (書き+て) is the ichidan pattern. 書く is godan.",
+        "って is for う・つ・る verbs.",
+        "んで is for む・ぶ・ぬ verbs."
+      ],
+      "translation": "Please write your name here."
+    },
+    {
+      "prompt": "{明日|あした}も{学校|がっこう}に（　）ください。",
+      "options": [
+        "{来|く}て",
+        "{来|き}て",
+        "{来|こ}て",
+        "{来|き}って"
+      ],
+      "answer": 1,
+      "explanation": "**来る** is irregular: 来る (くる) → 来ます (きます) → **来て (きて)** → 来ない (こない).",
+      "notes": [
+        "く is only the reading in the dictionary form (くる). The て-form uses き.",
+        "",
+        "こ is the reading in the negative (こない) and volitional (こよう), not the て-form.",
+        "There's no small っ: きて."
+      ],
+      "translation": "Please come to school tomorrow as well."
+    },
+    {
+      "prompt": "ここで{写真|しゃしん}を{撮|と}って（　）いいですか。",
+      "options": [
+        "も",
+        "を",
+        "は",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "**〜てもいいですか** = 'May I…?' (asking permission). 〜てもいいです = '… is okay'.",
+      "notes": [
+        "",
+        "を can't follow the て-form.",
+        "〜てはいけません is prohibition ('must not'). 〜てはいいですか isn't a pattern.",
+        "が can't follow the て-form in this pattern."
+      ],
+      "translation": "May I take photos here?"
+    },
+    {
+      "prompt": "{美術館|びじゅつかん}の{中|なか}で{写真|しゃしん}を{撮|と}って（　）いけません。",
+      "options": [
+        "も",
+        "が",
+        "で",
+        "は"
+      ],
+      "answer": 3,
+      "explanation": "**〜てはいけません** = 'you must not…' (prohibition).",
+      "notes": [
+        "〜てもいい is permission. 〜てもいけません isn't the prohibition pattern.",
+        "が can't be inserted between the て-form and いけません.",
+        "The て-form already ends in て/で. You can't add another で.",
+        ""
+      ],
+      "translation": "You must not take photos inside the museum."
+    },
+    {
+      "prompt": "{今|いま}、{雨|あめ}が{降|ふ}って（　）。",
+      "options": [
+        "います",
+        "ます",
+        "です",
+        "あります"
+      ],
+      "answer": 0,
+      "explanation": "**て-form + いる** describes an action in progress: 雨が降っています = 'it is raining (now)'.",
+      "notes": [
+        "",
+        "ます attaches to the ます-stem (降ります), not to the て-form.",
+        "です doesn't follow a verb's て-form.",
+        "〜てある describes the result of someone's deliberate action on a thing (窓が開けてある). Rain isn't put there by anyone."
+      ],
+      "translation": "It's raining right now."
+    },
+    {
+      "prompt": "{姉|あね}は{東京|とうきょう}に{住|す}んで（　）。",
+      "options": [
+        "なります",
+        "います",
+        "あります",
+        "します"
+      ],
+      "answer": 1,
+      "explanation": "Some verbs use **〜ている** for a continuing state: 住んでいる (live), 結婚している (be married), 知っている (know).",
+      "notes": [
+        "なります doesn't follow the て-form.",
+        "",
+        "〜てあります is for things deliberately placed or prepared by someone. A person living somewhere uses 〜ています.",
+        "します doesn't follow the て-form."
+      ],
+      "translation": "My older sister lives in Tokyo."
+    },
+    {
+      "prompt": "{朝|あさ}{起|お}き（　）、コーヒーを{飲|の}みます。",
+      "options": [
+        "ます",
+        "る",
+        "て",
+        "た"
+      ],
+      "answer": 2,
+      "explanation": "**て-form** links actions in sequence: 'do A, (and then) B'. The tense comes from the last verb (飲みます).",
+      "notes": [
+        "起きます ends a sentence. Clauses are joined with the て-form.",
+        "起きる is the dictionary form and can't link clauses with a comma like this.",
+        "",
+        "起きた is the plain past and can't link to the next clause like this."
+      ],
+      "translation": "I get up in the morning and drink coffee."
+    },
+    {
+      "prompt": "{宿題|しゅくだい}を（　）から、{寝|ね}ます。",
+      "options": [
+        "すて",
+        "して",
+        "さて",
+        "しって"
+      ],
+      "answer": 1,
+      "explanation": "**する → して** (irregular). **て-form + から** = 'after doing…': 宿題をしてから寝ます.",
+      "notes": [
+        "する's て-form isn't built from す. It's して.",
+        "",
+        "さ is part of the negative/causative stem (させる), not the て-form.",
+        "There's no small っ: して."
+      ],
+      "translation": "I'll go to bed after doing my homework."
+    },
+    {
+      "prompt": "A：いっしょに{帰|かえ}り（　）か。　B：ええ、そうしましょう。",
+      "options": [
+        "ろう",
+        "でしょう",
+        "ましょう",
+        "たい"
+      ],
+      "answer": 2,
+      "explanation": "**〜ましょうか** = 'Shall we…?' (a suggestion). The reply そうしましょう ('let's do that') confirms it was a suggestion.",
+      "notes": [
+        "帰りろう isn't a form. The plain volitional of 帰る is 帰ろう (no り), and it wouldn't take か in polite speech like this.",
+        "でしょう attaches to plain forms (帰るでしょう) and means 'probably'. It doesn't attach to the ます-stem.",
+        "",
+        "帰りたいか is blunt plain speech, and B's そうしましょう doesn't fit as an answer to a question about wishes."
+      ],
+      "translation": "A: Shall we go home together? B: Yes, let's."
+    }
+  ]
+}

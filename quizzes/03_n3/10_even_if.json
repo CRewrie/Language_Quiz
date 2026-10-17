@@ -1,0 +1,361 @@
+{
+  "id": "n3-even-if",
+  "category": "JLPT N3",
+  "title": "Even If & Although: いくら/どんなに/たとえ〜ても, ながらも, くせに, わりに, にしては",
+  "description": "No matter how, even if, although (neutral), although (annoyed), considering, and 'for a …'.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "ikura",
+      "title": "いくら〜ても: no matter how (much)",
+      "summary": "いくら + て-form + も = no matter how much A, B (doesn't change).",
+      "body": "- **いくら**練習し**ても**、うまくならない.\n- **いくら**高く**ても**、買います.\n\nCasual: いくら〜たって. いくら also means 'how much (money)?' — context decides.",
+      "examples": [
+        [
+          "いくら{練習|れんしゅう}しても、うまくならない。",
+          "No matter how much I practise, I don't get better."
+        ]
+      ]
+    },
+    {
+      "id": "donnani",
+      "title": "どんなに〜ても: no matter how",
+      "summary": "どんなに + adjective/verb (て-form) + も = however (difficult/much) …. Focuses on degree.",
+      "body": "- **どんなに**忙しく**ても**、毎日運動している.\n- **どんなに**頼ん**でも**、教えてくれなかった.\n\nCompared to いくら, どんなに focuses more on the *degree* of a state.",
+      "examples": [
+        [
+          "どんなに{忙|いそが}しくても、{毎日|まいにち}{運動|うんどう}しています。",
+          "No matter how busy I am, I exercise every day."
+        ]
+      ]
+    },
+    {
+      "id": "tatoe",
+      "title": "たとえ〜ても: even if (hypothetical)",
+      "summary": "たとえ + … ても/でも = even if (supposing that). Nouns/な-adj: たとえ〜でも.",
+      "body": "- **たとえ**雨が降っ**ても**、試合は行われる.\n- **たとえ**子供**でも**、許されないことだ.\n\nたとえ makes the 'even if' more hypothetical/emphatic. Don't confuse with **たとえば** (for example).",
+      "examples": [
+        [
+          "たとえ{雨|あめ}が{降|ふ}っても、{試合|しあい}は{行|おこな}われます。",
+          "Even if it rains, the match will take place."
+        ]
+      ]
+    },
+    {
+      "id": "nagaramo",
+      "title": "〜ながらも: although, despite",
+      "summary": "Stem / い-adj / noun + ながらも = although (state and contrasting fact co-exist). Neutral or positive tone.",
+      "body": "- 知ってい**ながらも**、教えてくれなかった.\n- 狭い**ながらも**、楽しい家です.\n\nUnlike the N4 ながら ('while doing'), this ながら(も) is concessive; も makes it clear.",
+      "examples": [
+        [
+          "{知|し}っていながらも、{教|おし}えてくれなかった。",
+          "Although he knew, he didn't tell me."
+        ]
+      ]
+    },
+    {
+      "id": "kuseni",
+      "title": "〜くせに: even though (criticism)",
+      "summary": "Plain form / noun + の + くせに = 'even though (and that's annoying)'. Criticises a person; casual.",
+      "body": "- 知っている**くせに**、教えてくれない.\n- 子供**のくせに**、生意気だ.\n\nAlways about a **person's** behaviour with irritation or contempt. Don't use it about yourself or in polite speech.",
+      "examples": [
+        [
+          "{知|し}っているくせに、{教|おし}えてくれない。",
+          "He knows, but he won't tell me (how annoying)."
+        ]
+      ]
+    },
+    {
+      "id": "warini",
+      "title": "〜わりに: considering, for (unexpectedly)",
+      "summary": "Plain form / noun + の + わりに = given A, B is unexpectedly different (better or worse).",
+      "body": "- この店は値段**のわりに**おいしい (tasty, considering the price).\n- 彼はよく食べる**わりに**太らない.\n\nUnlike くせに, わりに is neutral and can be about things.",
+      "examples": [
+        [
+          "この{店|みせ}は{値段|ねだん}のわりにおいしい。",
+          "This shop is tasty for the price."
+        ]
+      ]
+    },
+    {
+      "id": "nishitewa",
+      "title": "〜にしては: for (a …), considering it's …",
+      "summary": "Plain / noun + にしては = B is unexpected given A (a specific fact).",
+      "body": "- 初めて作った**にしては**、よくできている (for a first attempt, it's good).\n- 10年も住んでいる**にしては**、日本語が下手だ.\n\n**わりに vs にしては:** both 'considering'; にしては refers to a *specific* fact/person, わりに to a general degree.",
+      "examples": [
+        [
+          "{初|はじ}めて{作|つく}ったにしては、よくできている。",
+          "For a first attempt, it's well made."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "ikura",
+      "prompt": "いくら{練習|れんしゅう}し（　）、うまくならない。",
+      "options": [
+        "たら",
+        "て",
+        "ても",
+        "ては"
+      ],
+      "answer": 2,
+      "explanation": "いくら + **ても** = no matter how much.",
+      "notes": [
+        "いくら…たら isn't the concessive pattern.",
+        "て alone can't express 'no matter how'.",
+        "",
+        "ては is used with いけない."
+      ],
+      "translation": "No matter how much I practise, I don't get better."
+    },
+    {
+      "point": "ikura",
+      "prompt": "いくら{高|たか}く（　）、この{時計|とけい}を{買|か}います。",
+      "options": [
+        "ば",
+        "ても",
+        "たら",
+        "でも"
+      ],
+      "answer": 1,
+      "explanation": "い-adjective: 高**くても**.",
+      "notes": [
+        "高くば isn't standard.",
+        "",
+        "高くたら isn't a form.",
+        "い-adjectives take くても, not でも."
+      ],
+      "translation": "No matter how expensive it is, I'll buy this watch."
+    },
+    {
+      "point": "donnani",
+      "prompt": "（　）{忙|いそが}しくても、{毎日|まいにち}{運動|うんどう}しています。",
+      "options": [
+        "どんな",
+        "どれ",
+        "どんなに",
+        "どう"
+      ],
+      "answer": 2,
+      "explanation": "Before an adjective: **どんなに**.",
+      "notes": [
+        "どんな must be followed by a noun.",
+        "どれ = 'which one'.",
+        "",
+        "どう isn't used in this pattern."
+      ],
+      "translation": "No matter how busy I am, I exercise every day."
+    },
+    {
+      "point": "donnani",
+      "prompt": "どんなに{頼|たの}ん（　）、{教|おし}えてくれなかった。",
+      "options": [
+        "でも",
+        "だり",
+        "だら",
+        "ても"
+      ],
+      "answer": 0,
+      "explanation": "頼む → 頼んで → **頼んでも**.",
+      "notes": [
+        "",
+        "だり is for listing.",
+        "だら is conditional.",
+        "頼む's て-form ends in で."
+      ],
+      "translation": "No matter how much I begged, they wouldn't tell me."
+    },
+    {
+      "point": "tatoe",
+      "prompt": "（　）{雨|あめ}が{降|ふ}っても、{試合|しあい}は{行|おこな}われます。",
+      "options": [
+        "まさか",
+        "たとえ",
+        "たしか",
+        "たとえば"
+      ],
+      "answer": 1,
+      "explanation": "Even if: **たとえ〜ても**.",
+      "notes": [
+        "まさか = 'surely not'.",
+        "",
+        "たしか = 'if I remember correctly'.",
+        "たとえば = 'for example'."
+      ],
+      "translation": "Even if it rains, the match will take place."
+    },
+    {
+      "point": "tatoe",
+      "prompt": "たとえ{子供|こども}（　）、{許|ゆる}されないことだ。",
+      "options": [
+        "ても",
+        "なでも",
+        "でも",
+        "だっても"
+      ],
+      "answer": 2,
+      "explanation": "Noun + **でも**.",
+      "notes": [
+        "Nouns take でも, not ても.",
+        "なでも isn't a form.",
+        "",
+        "だっても isn't a form."
+      ],
+      "translation": "Even for a child, that's unforgivable."
+    },
+    {
+      "point": "nagaramo",
+      "prompt": "{彼|かれ}は{答|こた}えを{知|し}ってい（　）、{教|おし}えてくれなかった。",
+      "options": [
+        "ながらに",
+        "ながらも",
+        "ながらで",
+        "ながらは"
+      ],
+      "answer": 1,
+      "explanation": "Although: **ながらも**.",
+      "notes": [
+        "ながらに is a fixed literary form (生まれながらに).",
+        "",
+        "ながらで isn't a form.",
+        "ながらは isn't a form."
+      ],
+      "translation": "Although he knew the answer, he didn't tell me."
+    },
+    {
+      "point": "kuseni",
+      "prompt": "（annoyed）{知|し}っている（　）、{教|おし}えてくれない。",
+      "options": [
+        "から",
+        "ので",
+        "ために",
+        "くせに"
+      ],
+      "answer": 3,
+      "explanation": "Annoyed 'even though': **くせに**.",
+      "notes": [
+        "から = 'because' — illogical.",
+        "ので = 'because' — illogical.",
+        "ために = 'because / in order to' — illogical.",
+        ""
+      ],
+      "translation": "He knows, but he won't tell me."
+    },
+    {
+      "point": "kuseni",
+      "prompt": "{子供|こども}の（　）、{生意気|なまいき}なことを{言|い}うな。",
+      "options": [
+        "くせに",
+        "くせで",
+        "くせが",
+        "くせを"
+      ],
+      "answer": 0,
+      "explanation": "Noun + の + **くせに**.",
+      "notes": [
+        "",
+        "くせで isn't the pattern.",
+        "くせが = 'a habit' (癖が).",
+        "くせを isn't the pattern."
+      ],
+      "translation": "Don't be so cheeky — you're just a kid."
+    },
+    {
+      "point": "warini",
+      "prompt": "この{店|みせ}は{値段|ねだん}の（　）、おいしい。",
+      "options": [
+        "おかげで",
+        "せいで",
+        "くせに",
+        "わりに"
+      ],
+      "answer": 3,
+      "explanation": "Considering (unexpectedly good): **わりに**.",
+      "notes": [
+        "値段のおかげで = 'thanks to the price' — illogical.",
+        "せいで blames for a bad result.",
+        "くせに criticises people, not prices.",
+        ""
+      ],
+      "translation": "This shop is tasty for the price."
+    },
+    {
+      "point": "warini",
+      "prompt": "{彼|かれ}はよく{食|た}べる（　）、{太|ふと}らない。",
+      "options": [
+        "わりに",
+        "わりが",
+        "わりを",
+        "わりで"
+      ],
+      "answer": 0,
+      "explanation": "Considering: **わりに**.",
+      "notes": [
+        "",
+        "わりが isn't the pattern.",
+        "わりを isn't the pattern.",
+        "わりで isn't the pattern."
+      ],
+      "translation": "He doesn't put on weight, considering how much he eats."
+    },
+    {
+      "point": "nishitewa",
+      "prompt": "{初|はじ}めて{作|つく}った（　）、よくできている。",
+      "options": [
+        "として",
+        "について",
+        "にしても",
+        "にしては"
+      ],
+      "answer": 3,
+      "explanation": "For a (first attempt): **にしては**.",
+      "notes": [
+        "として = 'as (a role)'.",
+        "について = 'about'.",
+        "にしても = 'even if' — doesn't fit a positive surprise.",
+        ""
+      ],
+      "translation": "For a first attempt, it's well made."
+    },
+    {
+      "point": "nishitewa",
+      "prompt": "{日本|にほん}に10{年|ねん}も{住|す}んでいる（　）、{日本語|にほんご}が{下手|へた}だ。",
+      "options": [
+        "によって",
+        "にしては",
+        "にとって",
+        "として"
+      ],
+      "answer": 1,
+      "explanation": "Unexpected given the fact: **にしては**.",
+      "notes": [
+        "によって = 'by / depending on'.",
+        "",
+        "にとって = 'for (someone)'.",
+        "として = 'as'."
+      ],
+      "translation": "For someone who's lived in Japan for 10 years, his Japanese is poor."
+    },
+    {
+      "point": "nagaramo",
+      "prompt": "（　）、{今回|こんかい}は{参加|さんか}できません。",
+      "options": [
+        "{残念|ざんねん}ながら",
+        "{残念|ざんねん}ながらに",
+        "{残念|ざんねん}ながらで",
+        "{残念|ざんねん}ながらは"
+      ],
+      "answer": 0,
+      "explanation": "Fixed concessive: **残念ながら** = unfortunately.",
+      "notes": [
+        "",
+        "ながらに isn't used with 残念.",
+        "ながらで isn't a form.",
+        "ながらは isn't a form."
+      ],
+      "translation": "Unfortunately, I can't take part this time."
+    }
+  ]
+}

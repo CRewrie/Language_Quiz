@@ -1,0 +1,298 @@
+{
+  "id": "zh-b1-hsk3",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "HSK 3 Practice: 选词填空, 判断对错, 阅读理解, 完成句子",
+  "description": "HSK-3-style practice with this batch's grammar: word bank (把, 被, 才, 越来越), true/false, short reading, and building whole sentences.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "xuanci3",
+      "title": "选词填空 (HSK 3)",
+      "summary": "Each sentence shows four words from the same bank: 把, 被, 着, 才, 虽然, 越来越.",
+      "body": "- 把: doer + 把 + thing + verb + result.\n- 被: thing + 被 + doer + verb + result.\n- 才: later / fewer than expected.\n- 越来越 + adj.",
+      "examples": [
+        [
+          "{请|qǐng}{把|bǎ}{窗户|chuānghu}{打开|dǎkāi}。",
+          "Please open the window."
+        ]
+      ]
+    },
+    {
+      "id": "tf3",
+      "title": "判断对错 (HSK 3)",
+      "summary": "Decide if the ★ statement matches the passage.",
+      "body": "Watch out for 本来…可是 (planned, but), 虽然…但是 (the real opinion follows 但是), 一…就 (immediately after).",
+      "examples": [
+        [
+          "{我|wǒ}{本来|běnlái}{想|xiǎng}{坐|zuò}{火车|huǒchē}{去|qù}。",
+          "I'd originally planned to go by train."
+        ]
+      ]
+    },
+    {
+      "id": "yuedu3",
+      "title": "阅读理解 (HSK 3)",
+      "summary": "Read the passage and answer the ★ question.",
+      "body": "- 让 + person + verb = what someone wants another person to do.\n- 虽然 … 还 … : progress, but not perfect yet.",
+      "examples": [
+        [
+          "{妈妈|māma}{让|ràng}{他|tā}{把|bǎ}{房间|fángjiān}{打扫|dǎsǎo}{干净|gānjìng}。",
+          "Mum told him to clean his room."
+        ]
+      ]
+    },
+    {
+      "id": "wancheng",
+      "title": "完成句子: build the sentence",
+      "summary": "HSK 3 writing part 1: put the words in order. Here: pick the piece in the ★ slot.",
+      "body": "- 把 / 被 + noun come before the verb.\n- 着 follows the verb directly.\n- 一 … 就 … frame the two events.",
+      "examples": [
+        [
+          "{我|wǒ}{把|bǎ}{作业|zuòyè}{做|zuò}{完|wán}{了|le}。",
+          "I've finished my homework."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "xuanci3",
+      "prompt": "{天|tiān}{太|tài}{热|rè}{了|le}，{请|qǐng}（　）{窗户|chuānghu}{打开|dǎkāi}。",
+      "options": [
+        "{被|bèi}",
+        "{才|cái}",
+        "{把|bǎ}",
+        "{着|zhe}"
+      ],
+      "answer": 2,
+      "explanation": "Do something to the window: **把**.",
+      "notes": [
+        "被 would make the window the doer.",
+        "才 = 'not until'.",
+        "",
+        "着 follows a verb."
+      ],
+      "translation": "It's too hot — please open the window."
+    },
+    {
+      "point": "xuanci3",
+      "prompt": "{我|wǒ}{的|de}{手机|shǒujī}（　）{弟弟|dìdi}{弄|nòng}{坏|huài}{了|le}。",
+      "options": [
+        "{被|bèi}",
+        "{才|cái}",
+        "{把|bǎ}",
+        "{着|zhe}"
+      ],
+      "answer": 0,
+      "explanation": "The phone suffers it: **被**.",
+      "notes": [
+        "",
+        "才 doesn't fit.",
+        "把 would make the phone break the brother.",
+        "着 follows a verb."
+      ],
+      "translation": "My phone was broken by my little brother."
+    },
+    {
+      "point": "xuanci3",
+      "prompt": "{他|tā}{昨天|zuótiān}{晚上|wǎnshang}{十二|shí'èr}{点|diǎn}（　）{回|huí}{家|jiā}，{妈妈|māma}{很|hěn}{生气|shēngqì}。",
+      "options": [
+        "{越来越|yuè lái yuè}",
+        "{把|bǎ}",
+        "{才|cái}",
+        "{被|bèi}"
+      ],
+      "answer": 2,
+      "explanation": "Not until (late): **才**.",
+      "notes": [
+        "越来越 needs an adjective.",
+        "把 needs an object.",
+        "",
+        "被 needs a doer."
+      ],
+      "translation": "He didn't get home until midnight last night — his mum was angry."
+    },
+    {
+      "point": "xuanci3",
+      "prompt": "{夏天|xiàtiān}{到|dào}{了|le}，{天气|tiānqì}（　）{热|rè}{了|le}。",
+      "options": [
+        "{虽然|suīrán}",
+        "{越来越|yuè lái yuè}",
+        "{才|cái}",
+        "{把|bǎ}"
+      ],
+      "answer": 1,
+      "explanation": "More and more: **越来越**.",
+      "notes": [
+        "虽然 needs 但是.",
+        "",
+        "才热了 — 才 doesn't take 了.",
+        "把 needs an object and a verb."
+      ],
+      "translation": "Summer's here — it's getting hotter and hotter."
+    },
+    {
+      "point": "tf3",
+      "prompt": "{我|wǒ}{本来|běnlái}{想|xiǎng}{坐|zuò}{火车|huǒchē}{去|qù}{上海|Shànghǎi}，{可是|kěshì}{火车票|huǒchēpiào}{都|dōu}{卖|mài}{完|wán}{了|le}，{所以|suǒyǐ}{只好|zhǐhǎo}{坐|zuò}{飞机|fēijī}{去|qù}。\n\n★ {他|tā}{是|shì}{坐|zuò}{火车|huǒchē}{去|qù}{的|de}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "本来 = **originally (but it changed)**.",
+      "notes": [
+        "The train tickets were sold out — he flew.",
+        ""
+      ],
+      "translation": "I'd originally planned to take the train to Shanghai, but the tickets were sold out, so I had to fly. ★ He went by train.",
+      "fixed_order": true
+    },
+    {
+      "point": "tf3",
+      "prompt": "{这|zhè}{家|jiā}{饭馆|fànguǎn}{的|de}{菜|cài}{虽然|suīrán}{有点儿|yǒudiǎnr}{贵|guì}，{但是|dànshì}{非常|fēicháng}{好吃|hǎochī}，{所以|suǒyǐ}{我|wǒ}{常常|chángcháng}{来|lái}。\n\n★ {他|tā}{觉得|juéde}{这|zhè}{家|jiā}{饭馆|fànguǎn}{的|de}{菜|cài}{不|bù}{好吃|hǎochī}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "The opinion follows **但是**.",
+      "notes": [
+        "但是非常好吃 — he thinks it's delicious.",
+        ""
+      ],
+      "translation": "The food in this restaurant is a bit pricey, but it's delicious, so I come often. ★ He thinks the food here isn't good.",
+      "fixed_order": true
+    },
+    {
+      "point": "tf3",
+      "prompt": "{我|wǒ}{一|yí}{下课|xiàkè}{就|jiù}{去|qù}{了|le}{图书馆|túshūguǎn}，{在|zài}{那儿|nàr}{看|kàn}{了|le}{两|liǎng}{个|ge}{小时|xiǎoshí}{书|shū}{才|cái}{回|huí}{家|jiā}。\n\n★ {他|tā}{下课|xiàkè}{以后|yǐhòu}{去|qù}{了|le}{图书馆|túshūguǎn}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "**一…就** = as soon as.",
+      "notes": [
+        "",
+        "一下课就去了图书馆 — right after class he went to the library."
+      ],
+      "translation": "As soon as class finished I went to the library, read there for two hours and only then went home. ★ He went to the library after class.",
+      "fixed_order": true
+    },
+    {
+      "point": "yuedu3",
+      "prompt": "{小李|Xiǎo Lǐ}{的|de}{房间|fángjiān}{乱|luàn}{极了|jí le}：{床|chuáng}{上|shang}{放|fàng}{着|zhe}{衣服|yīfu}，{桌子|zhuōzi}{上|shang}{放|fàng}{着|zhe}{吃|chī}{完|wán}{的|de}{饭盒|fànhé}，{地|dì}{上|shang}{还|hái}{有|yǒu}{很|hěn}{多|duō}{书|shū}。{妈妈|māma}{让|ràng}{他|tā}{马上|mǎshàng}{把|bǎ}{房间|fángjiān}{打扫|dǎsǎo}{干净|gānjìng}。\n\n★ {妈妈|māma}{希望|xīwàng}{小李|Xiǎo Lǐ}：",
+      "options": [
+        "{多|duō}{看|kàn}{书|shū}",
+        "{去|qù}{买|mǎi}{饭盒|fànhé}",
+        "{洗|xǐ}{衣服|yīfu}",
+        "{打扫|dǎsǎo}{房间|fángjiān}"
+      ],
+      "answer": 3,
+      "explanation": "让 + him + **把房间打扫干净**.",
+      "notes": [
+        "The books are on the floor — she wants them tidied, not read.",
+        "The lunch boxes are already eaten from.",
+        "The clothes are on the bed — but she asks for the whole room.",
+        ""
+      ],
+      "translation": "Xiao Li's room is a total mess: clothes on the bed, empty lunch boxes on the desk, and lots of books on the floor. His mum told him to clean the room at once. ★ What does his mum want?"
+    },
+    {
+      "point": "yuedu3",
+      "prompt": "{我|wǒ}{去年|qùnián}{来|lái}{北京|Běijīng}{的|de}{时候|shíhou}，{一|yí}{句|jù}{中文|Zhōngwén}{都|dōu}{不|bú}{会|huì}{说|shuō}。{现在|xiànzài}{我|wǒ}{能|néng}{跟|gēn}{中国|Zhōngguó}{朋友|péngyou}{聊天|liáotiān}{了|le}，{虽然|suīrán}{说|shuō}{得|de}{还|hái}{不|bú}{太|tài}{好|hǎo}。\n\n★ {关于|guānyú}“{我|wǒ}”，{可以|kěyǐ}{知道|zhīdào}：",
+      "options": [
+        "{中文|Zhōngwén}{比|bǐ}{以前|yǐqián}{好|hǎo}{多|duō}{了|le}",
+        "{没有|méiyǒu}{中国|Zhōngguó}{朋友|péngyou}",
+        "{中文|Zhōngwén}{说|shuō}{得|de}{很|hěn}{好|hǎo}",
+        "{去年|qùnián}{就|jiù}{会|huì}{说|shuō}{中文|Zhōngwén}"
+      ],
+      "answer": 0,
+      "explanation": "Not a word → can chat now = **much better**.",
+      "notes": [
+        "",
+        "He chats with Chinese friends.",
+        "还不太好 — not very good yet.",
+        "一句都不会说 — not a word last year."
+      ],
+      "translation": "When I came to Beijing last year I couldn't say a single sentence of Chinese. Now I can chat with Chinese friends, though I still don't speak very well. ★ What do we know about the speaker?"
+    },
+    {
+      "point": "wancheng",
+      "prompt": "{我|wǒ}　＿＿　　＿＿　　★　　＿＿　。\n（{完了|wán le}・{做|zuò}・{作业|zuòyè}・{把|bǎ}）",
+      "options": [
+        "{作业|zuòyè}",
+        "{把|bǎ}",
+        "{完了|wán le}",
+        "{做|zuò}"
+      ],
+      "answer": 3,
+      "explanation": "我 **把 作业 做 完了**。",
+      "notes": [
+        "作业 is the object of 把 — slot 2.",
+        "把 comes first — slot 1.",
+        "完了 is the result — slot 4.",
+        ""
+      ],
+      "translation": "I've finished my homework."
+    },
+    {
+      "point": "wancheng",
+      "prompt": "{我|wǒ}{的|de}{自行车|zìxíngchē}　＿＿　　＿＿　　★　　＿＿　。\n（{走|zǒu}{了|le}・{小偷|xiǎotōu}・{被|bèi}・{偷|tōu}）",
+      "options": [
+        "{被|bèi}",
+        "{小偷|xiǎotōu}",
+        "{偷|tōu}",
+        "{走|zǒu}{了|le}"
+      ],
+      "answer": 2,
+      "explanation": "我的自行车 **被 小偷 偷 走了**。",
+      "notes": [
+        "被 comes first — slot 1.",
+        "The doer follows 被 — slot 2.",
+        "",
+        "走了 is the result — slot 4."
+      ],
+      "translation": "My bike was stolen by a thief."
+    },
+    {
+      "point": "wancheng",
+      "prompt": "{墙|qiáng}{上|shang}　＿＿　　＿＿　　★　　＿＿　。\n（{地图|dìtú}・{挂|guà}・{一|yì}{张|zhāng}・{着|zhe}）",
+      "options": [
+        "{挂|guà}",
+        "{着|zhe}",
+        "{地图|dìtú}",
+        "{一|yì}{张|zhāng}"
+      ],
+      "answer": 3,
+      "explanation": "墙上 **挂 着 一张 地图**。",
+      "notes": [
+        "挂 is the verb — slot 1.",
+        "着 follows the verb — slot 2.",
+        "地图 ends the sentence — slot 4.",
+        ""
+      ],
+      "translation": "There's a map hanging on the wall."
+    },
+    {
+      "point": "wancheng",
+      "prompt": "{他|tā}　＿＿　　＿＿　　★　　＿＿　。\n（{睡觉|shuìjiào}・{就|jiù}・{回家|huíjiā}・{一|yì}）",
+      "options": [
+        "{一|yì}",
+        "{就|jiù}",
+        "{回家|huíjiā}",
+        "{睡觉|shuìjiào}"
+      ],
+      "answer": 1,
+      "explanation": "他 **一 回家 就 睡觉**。",
+      "notes": [
+        "一 comes first — slot 1.",
+        "",
+        "回家 is the first event — slot 2.",
+        "睡觉 is the second event — slot 4."
+      ],
+      "translation": "He goes to bed as soon as he gets home."
+    }
+  ]
+}

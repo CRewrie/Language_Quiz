@@ -1,0 +1,415 @@
+{
+  "id": "n3-viewpoint",
+  "category": "JLPT N3",
+  "title": "について, に関して, に対して, にとって, によると, として, に比べて, において",
+  "description": "The N3 compound particles that are easy to mix up: about, regarding, toward/in contrast, for (someone), according to, as, compared with, and in (formal).",
+  "level": "N3",
+  "points": [
+    {
+      "id": "nitsuite",
+      "title": "〜について: about, concerning",
+      "summary": "Noun + について = about (a topic). Before a noun: についての.",
+      "body": "- 日本の歴史**について**調べています.\n- 環境**についての**本.\n\nThe most general 'about' — used with 話す, 書く, 調べる, 考える, 質問する …",
+      "examples": [
+        [
+          "{日本|にほん}の{歴史|れきし}について{調|しら}べています。",
+          "I'm researching Japanese history."
+        ]
+      ]
+    },
+    {
+      "id": "nikanshite",
+      "title": "〜に関して / に関する: regarding (formal)",
+      "summary": "Noun + に関して = regarding; before a noun に関する. More formal than について.",
+      "body": "- この件**に関して**、何か質問はありますか.\n- 日本の文化**に関する**本.\n\nAlmost the same as について, but more formal/written (business, academic).",
+      "examples": [
+        [
+          "この{件|けん}に{関|かん}して、{何|なに}か{質問|しつもん}はありますか。",
+          "Are there any questions regarding this matter?"
+        ]
+      ]
+    },
+    {
+      "id": "nitaishite",
+      "title": "〜に対して: toward / in contrast to",
+      "summary": "Noun + に対して = (attitude/action) toward someone; also 'whereas, in contrast' (plain + のに対して).",
+      "body": "**1. Toward (a person/thing):** お客様**に対して**失礼なことを言ってはいけない.\n**2. In contrast:** 兄が背が高い**のに対して**、弟は低い.\n\nDon't confuse with **にとって** (from someone's point of view).",
+      "examples": [
+        [
+          "お{客様|きゃくさま}に{対|たい}して{失礼|しつれい}なことを{言|い}ってはいけない。",
+          "You mustn't say rude things to customers."
+        ],
+        [
+          "{兄|あに}が{背|せ}が{高|たか}いのに{対|たい}して、{弟|おとうと}は{低|ひく}い。",
+          "Whereas the older brother is tall, the younger one is short."
+        ]
+      ]
+    },
+    {
+      "id": "nitotte",
+      "title": "〜にとって: for, from the viewpoint of",
+      "summary": "Person/group + にとって + evaluation (大切, 難しい, 便利 …) = 'for X, it is …'.",
+      "body": "- 私**にとって**、家族は一番大切です.\n- この問題は子供**にとって**難しすぎる.\n\nAlways followed by a judgement/evaluation — not by an action toward someone (that's に対して).",
+      "examples": [
+        [
+          "{私|わたし}にとって、{家族|かぞく}は{一番|いちばん}{大切|たいせつ}です。",
+          "For me, family is the most important thing."
+        ]
+      ]
+    },
+    {
+      "id": "niyoruto",
+      "title": "〜によると / によれば: according to",
+      "summary": "Source + によると = according to. Usually ends with そうだ / らしい / ということだ.",
+      "body": "- 天気予報**によると**、明日は雪だそうです.\n- 新聞に**よれば**、犯人が捕まったらしい.\n\nによれば is a slightly more formal variant.",
+      "examples": [
+        [
+          "{天気予報|てんきよほう}によると、{明日|あした}は{雪|ゆき}だそうです。",
+          "According to the weather forecast, it will snow tomorrow."
+        ]
+      ]
+    },
+    {
+      "id": "toshite",
+      "title": "〜として: as (a role, status)",
+      "summary": "Noun + として = in the role/capacity of. Before a noun: としての.",
+      "body": "- 彼は留学生**として**日本に来ました.\n- 趣味**として**写真を撮っている.\n- 親**としての**責任.",
+      "examples": [
+        [
+          "{彼|かれ}は{留学生|りゅうがくせい}として{日本|にほん}に{来|き}ました。",
+          "He came to Japan as an exchange student."
+        ]
+      ]
+    },
+    {
+      "id": "nikurabete",
+      "title": "〜に比べて: compared to",
+      "summary": "Noun + に比べて(比べると) = compared with. The main clause describes a difference.",
+      "body": "- 去年**に比べて**、今年は雨が多い.\n- 東京は大阪**に比べて**人が多い.\n\nVariants: と比べて, に比べると, に比べ (formal).",
+      "examples": [
+        [
+          "{去年|きょねん}に{比|くら}べて、{今年|ことし}は{雨|あめ}が{多|おお}い。",
+          "Compared to last year, there's more rain this year."
+        ]
+      ]
+    },
+    {
+      "id": "nioite",
+      "title": "〜において / における: in, at (formal)",
+      "summary": "Noun + において = formal で (place, time, field). Before a noun: における.",
+      "body": "- 会議は本社**において**行われる (= 本社で).\n- 日本**における**教育の問題.\n\nTypical of announcements, news and academic writing.",
+      "examples": [
+        [
+          "{会議|かいぎ}は{本社|ほんしゃ}において{行|おこな}われます。",
+          "The meeting will be held at the head office."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nitsuite",
+      "prompt": "{日本|にほん}の{歴史|れきし}（　）{調|しら}べています。",
+      "options": [
+        "に対して",
+        "について",
+        "にとって",
+        "によって"
+      ],
+      "answer": 1,
+      "explanation": "About a topic: **について**.",
+      "notes": [
+        "に対して = 'toward'.",
+        "",
+        "にとって = 'for (someone)'.",
+        "によって = 'by / depending on'."
+      ],
+      "translation": "I'm researching Japanese history."
+    },
+    {
+      "point": "nitsuite",
+      "prompt": "{環境|かんきょう}（　）{本|ほん}を{読|よ}んだ。",
+      "options": [
+        "についての",
+        "についた",
+        "につく",
+        "について"
+      ],
+      "answer": 0,
+      "explanation": "Before a noun: **についての**.",
+      "notes": [
+        "",
+        "についた means 'arrived at / stuck to'.",
+        "につく isn't the pattern.",
+        "について can't directly modify 本."
+      ],
+      "translation": "I read a book about the environment."
+    },
+    {
+      "point": "nikanshite",
+      "prompt": "この{件|けん}（　）、{何|なに}か{質問|しつもん}はありますか。",
+      "options": [
+        "に{対|たい}して",
+        "によって",
+        "に{関|かん}して",
+        "にとって"
+      ],
+      "answer": 2,
+      "explanation": "Formal 'regarding': **に関して**.",
+      "notes": [
+        "に対して = 'toward / in contrast'.",
+        "によって = 'by / depending on'.",
+        "",
+        "にとって = 'from the viewpoint of'."
+      ],
+      "translation": "Are there any questions regarding this matter?"
+    },
+    {
+      "point": "nikanshite",
+      "prompt": "{日本|にほん}の{文化|ぶんか}（　）{本|ほん}",
+      "options": [
+        "に{関|かん}して",
+        "に{関|かん}し",
+        "に{関|かん}しる",
+        "に{関|かん}する"
+      ],
+      "answer": 3,
+      "explanation": "Before a noun: **に関する**.",
+      "notes": [
+        "に関して can't directly modify a noun.",
+        "に関し (formal) doesn't modify a noun directly.",
+        "関しる isn't a form.",
+        ""
+      ],
+      "translation": "a book about Japanese culture"
+    },
+    {
+      "point": "nitaishite",
+      "prompt": "{兄|あに}が{背|せ}が{高|たか}いの（　）、{弟|おとうと}は{低|ひく}い。",
+      "options": [
+        "に{対|たい}して",
+        "によって",
+        "にとって",
+        "について"
+      ],
+      "answer": 0,
+      "explanation": "Contrast: **のに対して** = whereas.",
+      "notes": [
+        "",
+        "によって = 'depending on'.",
+        "にとって = 'for (someone)'.",
+        "について = 'about'."
+      ],
+      "translation": "Whereas the older brother is tall, the younger one is short."
+    },
+    {
+      "point": "nitaishite",
+      "prompt": "お{客様|きゃくさま}（　）{失礼|しつれい}なことを{言|い}ってはいけない。",
+      "options": [
+        "にとって",
+        "によって",
+        "に{対|たい}して",
+        "にかけて"
+      ],
+      "answer": 2,
+      "explanation": "Behaviour toward someone: **に対して**.",
+      "notes": [
+        "にとって needs an evaluation (大切, 難しい) — not an action toward someone.",
+        "によって = 'by / depending on'.",
+        "",
+        "にかけて = 'over (a period)'."
+      ],
+      "translation": "You mustn't say rude things to customers."
+    },
+    {
+      "point": "nitotte",
+      "prompt": "{私|わたし}（　）、{家族|かぞく}は{一番|いちばん}{大切|たいせつ}です。",
+      "options": [
+        "に{対|たい}して",
+        "について",
+        "によって",
+        "にとって"
+      ],
+      "answer": 3,
+      "explanation": "Evaluation from someone's viewpoint: **にとって**.",
+      "notes": [
+        "に対して = toward (an action/attitude).",
+        "について = 'about'.",
+        "によって = 'by / depending on'.",
+        ""
+      ],
+      "translation": "For me, family is the most important thing."
+    },
+    {
+      "point": "nitotte",
+      "prompt": "この{問題|もんだい}は{子供|こども}（　）{難|むずか}しすぎる。",
+      "options": [
+        "について",
+        "に{対|たい}して",
+        "にとって",
+        "によって"
+      ],
+      "answer": 2,
+      "explanation": "Too difficult *for* children → **にとって**.",
+      "notes": [
+        "について = 'about'.",
+        "に対して is for actions/attitudes toward someone.",
+        "",
+        "によって = 'depending on'."
+      ],
+      "translation": "This problem is too difficult for children."
+    },
+    {
+      "point": "niyoruto",
+      "prompt": "{天気予報|てんきよほう}（　）、{明日|あした}は{雪|ゆき}だそうです。",
+      "options": [
+        "にとって",
+        "によると",
+        "について",
+        "によって"
+      ],
+      "answer": 1,
+      "explanation": "Source of information: **によると** … そうです.",
+      "notes": [
+        "にとって = 'for (someone)'.",
+        "",
+        "について = 'about'.",
+        "によって = 'by / depending on'."
+      ],
+      "translation": "According to the forecast, it will snow tomorrow."
+    },
+    {
+      "point": "niyoruto",
+      "prompt": "{新聞|しんぶん}に（　）、{犯人|はんにん}が{捕|つか}まったらしい。",
+      "options": [
+        "とって",
+        "よって",
+        "よれば",
+        "ついて"
+      ],
+      "answer": 2,
+      "explanation": "**によれば** = according to.",
+      "notes": [
+        "にとって = 'for'.",
+        "によって = 'by'.",
+        "",
+        "について = 'about'."
+      ],
+      "translation": "According to the newspaper, the culprit has apparently been caught."
+    },
+    {
+      "point": "toshite",
+      "prompt": "{彼|かれ}は{留学生|りゅうがくせい}（　）{日本|にほん}に{来|き}ました。",
+      "options": [
+        "にして",
+        "にとって",
+        "とする",
+        "として"
+      ],
+      "answer": 3,
+      "explanation": "In the role of: **として**.",
+      "notes": [
+        "にして isn't 'as'.",
+        "にとって = 'for (someone)'.",
+        "とする can't connect here.",
+        ""
+      ],
+      "translation": "He came to Japan as an exchange student."
+    },
+    {
+      "point": "toshite",
+      "prompt": "{趣味|しゅみ}（　）{写真|しゃしん}を{撮|と}っています。",
+      "options": [
+        "とした",
+        "によって",
+        "として",
+        "にとって"
+      ],
+      "answer": 2,
+      "explanation": "As (a hobby): **として**.",
+      "notes": [
+        "とした would need a noun after it.",
+        "によって = 'by'.",
+        "",
+        "にとって = 'for (someone)'."
+      ],
+      "translation": "I take photos as a hobby."
+    },
+    {
+      "point": "nikurabete",
+      "prompt": "{去年|きょねん}（　）、{今年|ことし}は{雨|あめ}が{多|おお}い。",
+      "options": [
+        "が{比|くら}べて",
+        "を{比|くら}べて",
+        "で{比|くら}べて",
+        "に{比|くら}べて"
+      ],
+      "answer": 3,
+      "explanation": "Compared to: **に比べて**.",
+      "notes": [
+        "が比べて isn't grammatical.",
+        "を比べて = 'comparing (something)' — needs a second item.",
+        "で比べて isn't the pattern.",
+        ""
+      ],
+      "translation": "Compared to last year, there's more rain this year."
+    },
+    {
+      "point": "nikurabete",
+      "prompt": "{東京|とうきょう}は{大阪|おおさか}（　）{人|ひと}が{多|おお}い。",
+      "options": [
+        "に{比|くら}べた",
+        "に{比|くら}べない",
+        "に{比|くら}べて",
+        "に{比|くら}べる"
+      ],
+      "answer": 2,
+      "explanation": "Connecting form: **に比べて**.",
+      "notes": [
+        "比べた can't connect here.",
+        "比べない isn't the pattern.",
+        "",
+        "比べる can't connect to the next clause."
+      ],
+      "translation": "Tokyo has more people than Osaka."
+    },
+    {
+      "point": "nioite",
+      "prompt": "{会議|かいぎ}は{本社|ほんしゃ}（　）{行|おこな}われる。",
+      "options": [
+        "において",
+        "について",
+        "にとって",
+        "に{対|たい}して"
+      ],
+      "answer": 0,
+      "explanation": "Formal place (= で): **において**.",
+      "notes": [
+        "",
+        "について = 'about'.",
+        "にとって = 'for (someone)'.",
+        "に対して = 'toward'."
+      ],
+      "translation": "The meeting will be held at the head office."
+    },
+    {
+      "point": "nioite",
+      "prompt": "{日本|にほん}（　）{教育|きょういく}の{問題|もんだい}",
+      "options": [
+        "におく",
+        "における",
+        "におけた",
+        "において"
+      ],
+      "answer": 1,
+      "explanation": "Before a noun: **における**.",
+      "notes": [
+        "におく isn't the pattern.",
+        "",
+        "におけた isn't a form.",
+        "において can't directly modify a noun."
+      ],
+      "translation": "educational problems in Japan"
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "id": "n5-contrast-forms",
+  "category": "JLPT N5",
+  "title": "Which One? から/ので, まだ/もう, ている/た, まで/までに",
+  "description": "Contrast practice: reasons, 'still/already', ongoing vs. finished, and 'until' vs. 'by'.",
+  "level": "N5",
+  "points": [
+    {
+      "id": "kara-vs-node",
+      "title": "から vs ので",
+      "summary": "Same meaning ('because'), different attachment: nouns/な-adj take だから but なので. から can end an answer (〜からです); ので normally can't.",
+      "body": "**Attachment — the part tests love:**\n- Verb / い-adjective: same for both — 降る**から** / 降る**ので**, 高い**から** / 高い**ので**.\n- Noun / な-adjective: 学生**だから** ↔ 学生**なので**; 静か**だから** ↔ 静か**なので**.\n  ✗ 学生なから ✗ 学生だので.\n\n**Answering 'why?':** 〜**からです** is natural; 〜のでです is wrong.\n\n**Tone:** から is more direct/subjective; ので sounds softer and more polite (good for excuses to superiors).",
+      "examples": [
+        [
+          "{子供|こども}だから、まだわかりません。",
+          "He's a child, so he doesn't understand yet."
+        ],
+        [
+          "{静|しず}かなので、よく{眠|ねむ}れました。",
+          "It was quiet, so I slept well."
+        ],
+        [
+          "どうして{遅|おく}れたんですか。—{電車|でんしゃ}が{止|と}まったからです。",
+          "Why were you late? — Because the train stopped."
+        ]
+      ]
+    },
+    {
+      "id": "mada-vs-mou",
+      "title": "まだ vs もう",
+      "summary": "まだ = still / not yet (no change yet). もう = already / not anymore (the change has happened).",
+      "body": "Think of a change (e.g. finishing lunch):\n- **Before** the change: まだ — まだ食べていません (not yet), まだ雨が降っています (still raining).\n- **After** the change: もう — もう食べました (already), もう雨は降っていません (not anymore).\n\nQuestion & answers:\n- もう食べましたか。 → はい、**もう**食べました。 / いいえ、**まだ**です。\n\nTrap: 'not yet' is まだ〜**ていません** (present), not 〜ませんでした.",
+      "examples": [
+        [
+          "{父|ちち}はまだ{帰|かえ}っていません。",
+          "My father hasn't come home yet."
+        ],
+        [
+          "もう{昼|ひる}ご{飯|はん}を{食|た}べました。",
+          "I've already eaten lunch."
+        ]
+      ]
+    },
+    {
+      "id": "teiru-vs-ta",
+      "title": "〜ている vs 〜た",
+      "summary": "〜ている = happening now / resulting state / habit. 〜た = a completed event in the past.",
+      "body": "- **〜ている** looks at a situation *now*: コーヒーを飲ん**でいます** (is drinking), 窓が開い**ています** (is open), 毎日走っ**ています** (habit).\n- **〜た** reports a finished event: 昨日手紙を書き**ました**.\n\nTip: time words help. 今, いつも, 毎日 → often ている. 昨日, 先週, さっき → usually た.",
+      "examples": [
+        [
+          "{田中|たなか}さんは{今|いま}、コーヒーを{飲|の}んでいます。",
+          "Tanaka is drinking coffee now."
+        ],
+        [
+          "{昨日|きのう}、{友達|ともだち}に{手紙|てがみ}を{書|か}きました。",
+          "Yesterday I wrote a letter to a friend."
+        ]
+      ]
+    },
+    {
+      "id": "made-vs-madeni",
+      "title": "まで vs までに",
+      "summary": "まで = until (something continues up to that point). までに = by (a deadline for a one-time action).",
+      "body": "- **まで** + continuing action/state: 5時**まで**働きます, 会議が終わる**まで**待ちます.\n- **までに** + one-time action with a deadline: 明日**までに**出してください, 7時**までに**帰ります.\n\nTest: can you add 'the whole time'? → まで. Is it 'no later than'? → までに.",
+      "examples": [
+        [
+          "{毎日|まいにち}{夜|よる}{遅|おそ}くまで{働|はたら}いています。",
+          "I work until late every night."
+        ],
+        [
+          "レポートは{金曜日|きんようび}までに{出|だ}してください。",
+          "Please hand in the report by Friday."
+        ]
+      ]
+    },
+    {
+      "id": "kurai-vs-goro",
+      "title": "くらい vs ごろ",
+      "summary": "くらい/ぐらい = about (an amount or duration). ごろ = around (a point in time).",
+      "body": "- **くらい** after quantities and durations: 1時間**くらい**, 千円**ぐらい**, 10人**くらい**.\n- **ごろ** after points in time: 3時**ごろ**, 5月**ごろ**, 夏休み**ごろ**.\n\nCompare: 3時間**くらい**寝ました (slept for about 3 hours) vs 3時**ごろ**寝ました (went to bed around 3 o'clock).",
+      "examples": [
+        [
+          "{家|いえ}から{会社|かいしゃ}まで{一時間|いちじかん}くらいかかります。",
+          "It takes about an hour from home to the office."
+        ],
+        [
+          "{昨日|きのう}は12{時|じ}ごろ{寝|ね}ました。",
+          "I went to bed around 12 yesterday."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "kara-vs-node",
+      "prompt": "この{部屋|へや}は{静|しず}か（　）、よく{眠|ねむ}れました。",
+      "options": [
+        "だので",
+        "のので",
+        "なので",
+        "なから"
+      ],
+      "answer": 2,
+      "explanation": "な-adjective + **なので**. (Or 静かだから.)",
+      "notes": [
+        "だ + ので is never correct.",
+        "のので isn't a form.",
+        "",
+        "な + から is never correct — から takes だ."
+      ],
+      "translation": "This room was quiet, so I slept well."
+    },
+    {
+      "point": "kara-vs-node",
+      "prompt": "A：どうして{遅|おく}れたんですか。　B：{電車|でんしゃ}が{止|と}まった（　）。",
+      "options": [
+        "からので",
+        "からです",
+        "のでです",
+        "なのでです"
+      ],
+      "answer": 1,
+      "explanation": "Answering 'why?' → **〜からです**.",
+      "notes": [
+        "Two reason markers in a row.",
+        "",
+        "ので can't be followed by です.",
+        "Verbs don't take な, and ので can't take です."
+      ],
+      "translation": "A: Why were you late? B: Because the train stopped."
+    },
+    {
+      "point": "kara-vs-node",
+      "prompt": "{弟|おとうと}はまだ{子供|こども}（　）、{一人|ひとり}で{電車|でんしゃ}に{乗|の}れません。",
+      "options": [
+        "なから",
+        "のから",
+        "だから",
+        "だので"
+      ],
+      "answer": 2,
+      "explanation": "Noun + **だから**. (The ので version is 子供なので.)",
+      "notes": [
+        "なから is never correct.",
+        "のから isn't a form.",
+        "",
+        "だので is never correct."
+      ],
+      "translation": "My little brother is still a child, so he can't ride the train alone."
+    },
+    {
+      "point": "mada-vs-mou",
+      "prompt": "{父|ちち}は{会社|かいしゃ}です。（　）{帰|かえ}っていません。",
+      "options": [
+        "もう",
+        "まだ",
+        "まで",
+        "また"
+      ],
+      "answer": 1,
+      "explanation": "Not yet (no change) → **まだ** + 〜ていません.",
+      "notes": [
+        "もう + negative = 'not anymore' — makes no sense for someone still at work.",
+        "",
+        "まで means 'until'.",
+        "また means 'again'."
+      ],
+      "translation": "My father is at the office. He hasn't come home yet."
+    },
+    {
+      "point": "mada-vs-mou",
+      "prompt": "A：お{昼|ひる}ご{飯|はん}は？　B：（　）{食|た}べました。おなかがいっぱいです。",
+      "options": [
+        "まで",
+        "まだ",
+        "もう",
+        "まだも"
+      ],
+      "answer": 2,
+      "explanation": "Already done → **もう** + past.",
+      "notes": [
+        "まで means 'until'.",
+        "まだ + past positive is ungrammatical here — まだ means 'still / not yet'.",
+        "",
+        "まだも isn't a word."
+      ],
+      "translation": "A: What about lunch? B: I've already eaten. I'm full."
+    },
+    {
+      "point": "mada-vs-mou",
+      "prompt": "A：{雨|あめ}は（　）{降|ふ}っていますか。　B：いいえ、もうやみました。",
+      "options": [
+        "まだ",
+        "まえ",
+        "まで",
+        "もう"
+      ],
+      "answer": 0,
+      "explanation": "'Is it **still** raining?' — the answer もうやみました shows A asked about continuation.",
+      "notes": [
+        "",
+        "まえ isn't an adverb here.",
+        "まで means 'until' — not an adverb for 'still'.",
+        "もう降っていますか = 'has it started raining already?' — doesn't match the answer 'it already stopped'."
+      ],
+      "translation": "A: Is it still raining? B: No, it's already stopped."
+    },
+    {
+      "point": "teiru-vs-ta",
+      "prompt": "A：{田中|たなか}さんはどこですか。　B：あそこでコーヒーを{飲|の}んで（　）。",
+      "options": [
+        "みます",
+        "あります",
+        "おきます",
+        "います"
+      ],
+      "answer": 3,
+      "explanation": "Happening right now → **〜ています**.",
+      "notes": [
+        "てみます = try drinking — doesn't answer the question.",
+        "てあります is for objects placed/prepared, not people's actions.",
+        "ておきます = do in advance — doesn't answer 'where is he'.",
+        ""
+      ],
+      "translation": "A: Where's Tanaka? B: He's drinking coffee over there."
+    },
+    {
+      "point": "teiru-vs-ta",
+      "prompt": "{昨日|きのう}、{国|くに}の{母|はは}に{手紙|てがみ}を（　）。",
+      "options": [
+        "{書|か}いてあります",
+        "{書|か}いています",
+        "{書|か}きました",
+        "{書|か}きます"
+      ],
+      "answer": 2,
+      "explanation": "昨日 + a finished event → **past (〜ました)**.",
+      "notes": [
+        "書いてあります needs が and describes something written somewhere.",
+        "書いています = is writing / writes regularly — clashes with 昨日.",
+        "",
+        "書きます is non-past — clashes with 昨日."
+      ],
+      "translation": "Yesterday I wrote a letter to my mother back home."
+    },
+    {
+      "point": "teiru-vs-ta",
+      "prompt": "{寒|さむ}いですね。{窓|まど}が{開|あ}いて（　）よ。",
+      "options": [
+        "おきます",
+        "います",
+        "みます",
+        "あります"
+      ],
+      "answer": 1,
+      "explanation": "Intransitive 開く + **ている** = current state ('is open').",
+      "notes": [
+        "ておく needs を and a person (窓を開けておく).",
+        "",
+        "てみる ('try') doesn't describe a state.",
+        "てある needs a transitive verb (開けてある)."
+      ],
+      "translation": "It's cold — the window is open."
+    },
+    {
+      "point": "made-vs-madeni",
+      "prompt": "{毎日|まいにち}{夜|よる}{遅|おそ}く（　）{働|はたら}いています。",
+      "options": [
+        "まで",
+        "までで",
+        "から",
+        "までに"
+      ],
+      "answer": 0,
+      "explanation": "Working continues up to that point → **まで**.",
+      "notes": [
+        "",
+        "までで isn't a time pattern here.",
+        "遅くから = 'from late' — the opposite meaning.",
+        "までに is for one-time actions with a deadline."
+      ],
+      "translation": "I work until late every night."
+    },
+    {
+      "point": "made-vs-madeni",
+      "prompt": "レポートは{金曜日|きんようび}（　）{出|だ}してください。",
+      "options": [
+        "から",
+        "までに",
+        "まで",
+        "ので"
+      ],
+      "answer": 1,
+      "explanation": "Deadline for a one-time action → **までに**.",
+      "notes": [
+        "から = starting from Friday — not a deadline.",
+        "",
+        "まで = keep handing it in until Friday.",
+        "金曜日ので isn't grammatical — nouns need なので, and it would mean 'because'."
+      ],
+      "translation": "Please hand in the report by Friday."
+    },
+    {
+      "point": "made-vs-madeni",
+      "prompt": "{会議|かいぎ}が{終|お}わる（　）、ロビーで{待|ま}っています。",
+      "options": [
+        "から",
+        "ので",
+        "まで",
+        "までに"
+      ],
+      "answer": 2,
+      "explanation": "Waiting continues until the meeting ends → **まで**.",
+      "notes": [
+        "終わるから = 'because it ends' — illogical.",
+        "終わるので = 'because it ends' — illogical.",
+        "",
+        "までに is for a single action by a deadline — waiting is continuous."
+      ],
+      "translation": "I'll wait in the lobby until the meeting is over."
+    },
+    {
+      "point": "kurai-vs-goro",
+      "prompt": "{家|いえ}から{会社|かいしゃ}まで{一時間|いちじかん}（　）かかります。",
+      "options": [
+        "くらい",
+        "ころ",
+        "ごろ",
+        "ぐらいに"
+      ],
+      "answer": 0,
+      "explanation": "Duration → **くらい**.",
+      "notes": [
+        "",
+        "ころ is another reading of ごろ — same problem.",
+        "ごろ is for points in time, not durations.",
+        "ぐらいに かかります isn't natural — no に after a duration."
+      ],
+      "translation": "It takes about an hour from home to the office."
+    },
+    {
+      "point": "kurai-vs-goro",
+      "prompt": "Which sentence means 'I went to bed **around 3 o'clock**'?",
+      "options": [
+        "3{時間|じかん}くらい{寝|ね}ました。",
+        "3{時|じ}まで{寝|ね}ました。",
+        "3{時間|じかん}ごろ{寝|ね}ました。",
+        "3{時|じ}ごろ{寝|ね}ました。"
+      ],
+      "answer": 3,
+      "explanation": "Point in time + **ごろ**.",
+      "notes": [
+        "This means 'slept for about 3 hours'.",
+        "This means 'slept until 3'.",
+        "ごろ can't follow a duration (時間).",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}

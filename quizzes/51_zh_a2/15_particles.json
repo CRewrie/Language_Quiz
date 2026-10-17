@@ -1,0 +1,212 @@
+{
+  "id": "zh-a2-particles",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "Asking & Reacting: 怎么样, 怎么 (why), 啊, 吧 (fine…)",
+  "description": "How is it / how about, 'how come?', the exclamation 啊, and the reluctant 好吧.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "zenmeyang",
+      "title": "…怎么样?: how is it? / how about?",
+      "summary": "怎么样 at the end asks for an opinion, or makes a suggestion: '…, how about it?'.",
+      "body": "- 这个菜**怎么样**?\n- 我们明天去公园，**怎么样**?",
+      "examples": [
+        [
+          "{你|nǐ}{觉得|juéde}{这个|zhège}{菜|cài}{怎么样|zěnmeyàng}？",
+          "What do you think of this dish?"
+        ]
+      ]
+    },
+    {
+      "id": "zenmewhy",
+      "title": "怎么 + verb?: how come?",
+      "summary": "怎么 before a verb (especially with 不/没) asks 'how come?', with surprise.",
+      "body": "- 你**怎么**没来上课? (How come you didn't come to class?)",
+      "examples": [
+        [
+          "{你|nǐ}{怎么|zěnme}{没|méi}{来|lái}{上课|shàngkè}？",
+          "How come you didn't come to class?"
+        ]
+      ]
+    },
+    {
+      "id": "a",
+      "title": "…啊!: exclamation, warmth",
+      "summary": "啊 (a) at the end adds feeling: surprise, enthusiasm, reproach.",
+      "body": "- 去**啊**! 当然去!\n- 你怎么不早说**啊**!",
+      "examples": [
+        [
+          "{你|nǐ}{怎么|zěnme}{不|bù}{早|zǎo}{说|shuō}{啊|a}！",
+          "Why didn't you say so earlier!"
+        ]
+      ]
+    },
+    {
+      "id": "ba2",
+      "title": "好吧: OK, fine (conceding)",
+      "summary": "吧 can concede: 好吧 = 'OK then' (often a little reluctant).",
+      "body": "- A: 八十块，可以吗? B: **好吧**.",
+      "examples": [
+        [
+          "{好|hǎo}{吧|ba}，{八十|bāshí}{就|jiù}{八十|bāshí}。",
+          "Fine, eighty it is."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "zenmeyang",
+      "prompt": "{你|nǐ}{觉得|juéde}{这个|zhège}{菜|cài}（　）？\n{——很|hěn}{好吃|hǎochī}。",
+      "options": [
+        "{怎么|zěnme}",
+        "{什么|shénme}",
+        "{为什么|wèishénme}",
+        "{怎么样|zěnmeyàng}"
+      ],
+      "answer": 3,
+      "explanation": "Opinion: **怎么样**.",
+      "notes": [
+        "怎么 needs a verb after it.",
+        "什么 = 'what'.",
+        "为什么 = 'why'.",
+        ""
+      ],
+      "translation": "What do you think of this dish? — It's delicious."
+    },
+    {
+      "point": "zenmeyang",
+      "prompt": "{我们|wǒmen}{明天|míngtiān}{去|qù}{公园|gōngyuán}，（　）？",
+      "options": [
+        "{怎么样|zěnmeyàng}",
+        "{怎么|zěnme}",
+        "{多少|duōshao}",
+        "{哪儿|nǎr}"
+      ],
+      "answer": 0,
+      "explanation": "Suggestion: **…，怎么样？**",
+      "notes": [
+        "",
+        "怎么 can't end a suggestion.",
+        "多少 = 'how many'.",
+        "哪儿 = 'where' — the place is already given."
+      ],
+      "translation": "Let's go to the park tomorrow — how about it?"
+    },
+    {
+      "point": "zenmewhy",
+      "prompt": "{你|nǐ}{昨天|zuótiān}（　）{没|méi}{来|lái}{上课|shàngkè}？{病|bìng}{了|le}{吗|ma}？",
+      "options": [
+        "{怎么样|zěnmeyàng}",
+        "{怎么|zěnme}",
+        "{多少|duōshao}",
+        "{什么|shénme}"
+      ],
+      "answer": 1,
+      "explanation": "How come: **怎么** + 没.",
+      "notes": [
+        "怎么样 can't go before a verb like this.",
+        "",
+        "多少 = 'how many'.",
+        "什么没来 isn't grammatical."
+      ],
+      "translation": "How come you didn't come to class yesterday? Were you ill?"
+    },
+    {
+      "point": "zenmewhy",
+      "prompt": "What does 「{他|tā}{怎么|zěnme}{不|bù}{说话|shuōhuà}？」 mean?",
+      "options": [
+        "Ishetalking?",
+        "Whatdidhesay?",
+        "Howdoeshetalk?",
+        "Howcomeheisn'ttalking?"
+      ],
+      "answer": 3,
+      "explanation": "怎么不 = **how come … not**.",
+      "notes": [
+        "That's 他在说话吗.",
+        "That's 他说了什么.",
+        "怎么 + 不 asks 'why not', not 'in what way'.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "a",
+      "prompt": "{你|nǐ}{怎么|zěnme}{不|bù}{早|zǎo}{说|shuō}（　）！",
+      "options": [
+        "{吧|ba}",
+        "{啊|a}",
+        "{吗|ma}",
+        "{了|le}"
+      ],
+      "answer": 1,
+      "explanation": "Exclamation: **啊**.",
+      "notes": [
+        "吧 would make it a suggestion.",
+        "",
+        "吗 asks a yes/no question.",
+        "不早说了 isn't grammatical."
+      ],
+      "translation": "Why didn't you say so earlier!"
+    },
+    {
+      "point": "a",
+      "prompt": "A：{你|nǐ}{去|qù}{不|bu}{去|qù}？\nB：{去|qù}（　）！{当然|dāngrán}{去|qù}！",
+      "options": [
+        "{吗|ma}",
+        "{的|de}",
+        "{呢|ne}",
+        "{啊|a}"
+      ],
+      "answer": 3,
+      "explanation": "Enthusiasm: **啊**.",
+      "notes": [
+        "吗 makes it a question.",
+        "去的 isn't natural.",
+        "呢 doesn't fit an enthusiastic answer.",
+        ""
+      ],
+      "translation": "A: Are you going? B: Of course I am!"
+    },
+    {
+      "point": "ba2",
+      "prompt": "Said with a sigh, what does 「{好|hǎo}{吧|ba}。」 mean?",
+      "options": [
+        "IsthatOK?",
+        "That'snogood.",
+        "OK,fine(reluctantly).",
+        "Great,let'sdoit!"
+      ],
+      "answer": 2,
+      "explanation": "好吧 = **conceding**.",
+      "notes": [
+        "That's 好吗?",
+        "That's 不行.",
+        "",
+        "That's 好啊! / 太好了!"
+      ],
+      "translation": ""
+    },
+    {
+      "point": "ba2",
+      "prompt": "A：{这|zhè}{件|jiàn}{衣服|yīfu}{一百|yìbǎi}{块|kuài}。\nB：{太|tài}{贵|guì}{了|le}，{八十|bāshí}{块|kuài}，{可以|kěyǐ}{吗|ma}？\nA：（　），{八十|bāshí}{就|jiù}{八十|bāshí}。",
+      "options": [
+        "{好|hǎo}{的|de}{吗|ma}",
+        "{好|hǎo}{吗|ma}",
+        "{好|hǎo}{呢|ne}",
+        "{好|hǎo}{吧|ba}"
+      ],
+      "answer": 3,
+      "explanation": "Conceding: **好吧**.",
+      "notes": [
+        "Not grammatical.",
+        "好吗 asks — but A is agreeing.",
+        "好呢 isn't a reply.",
+        ""
+      ],
+      "translation": "A: This is 100 yuan. B: Too expensive — 80, OK? A: Fine, 80 it is."
+    }
+  ]
+}

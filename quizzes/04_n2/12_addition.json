@@ -1,0 +1,361 @@
+{
+  "id": "n2-addition",
+  "category": "JLPT N2",
+  "title": "Plus & Except: に加えて, のみならず, はもとより, 上に, おまけに, を除いて, 抜き",
+  "description": "In addition to, not only, let alone, on top of, to make matters worse, except for, and leaving out.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "nikuwaete",
+      "title": "〜に加えて: in addition to",
+      "summary": "Noun + に加えて = on top of A, also B (formal).",
+      "body": "- 雨**に加えて**、風も強くなってきた.\n- 英語**に加えて**、中国語も話せる.",
+      "examples": [
+        [
+          "{雨|あめ}に{加|くわ}えて、{風|かぜ}も{強|つよ}くなってきた。",
+          "On top of the rain, the wind is getting stronger."
+        ]
+      ]
+    },
+    {
+      "id": "nominarazu",
+      "title": "〜のみならず: not only (formal)",
+      "summary": "Noun / plain form + のみならず … も = not only A but also B (written).",
+      "body": "- この歌は日本**のみならず**、海外でも人気がある.",
+      "examples": [
+        [
+          "この{歌|うた}は{日本|にほん}のみならず、{海外|かいがい}でも{人気|にんき}がある。",
+          "This song is popular not only in Japan but abroad too."
+        ]
+      ]
+    },
+    {
+      "id": "wamotoyori",
+      "title": "〜はもとより: let alone, not to mention",
+      "summary": "Noun + はもとより … も = A goes without saying, and also B.",
+      "body": "- 英語**はもとより**、フランス語も話せる.\n- 子供**はもとより**、大人も楽しめる映画だ.",
+      "examples": [
+        [
+          "{英語|えいご}はもとより、フランス{語|ご}も{話|はな}せる。",
+          "He speaks French, not to mention English."
+        ]
+      ]
+    },
+    {
+      "id": "ueni",
+      "title": "〜上に: on top of, besides",
+      "summary": "Plain form + 上に = A, and in addition B (same direction: good+good, bad+bad). な-adj + な, noun + である/の.",
+      "body": "- この店は安い**上に**、おいしい.\n- 道に迷った**上に**、雨まで降ってきた.",
+      "examples": [
+        [
+          "この{店|みせ}は{安|やす}い{上|うえ}に、おいしい。",
+          "This shop is cheap, and on top of that it's tasty."
+        ]
+      ]
+    },
+    {
+      "id": "omakeni",
+      "title": "おまけに: on top of that, to make matters worse",
+      "summary": "Sentence-initial おまけに = adding another (often bad) thing.",
+      "body": "- 財布をなくした。**おまけに**、携帯も壊れた.",
+      "examples": [
+        [
+          "{財布|さいふ}をなくした。おまけに、{携帯|けいたい}も{壊|こわ}れた。",
+          "I lost my wallet. To make matters worse, my phone broke."
+        ]
+      ]
+    },
+    {
+      "id": "wonozoite",
+      "title": "〜を除いて: except (for)",
+      "summary": "Noun + を除いて = excluding A. Formal version of 以外.",
+      "body": "- 日曜日**を除いて**、毎日営業しています.",
+      "examples": [
+        [
+          "{日曜日|にちようび}を{除|のぞ}いて、{毎日|まいにち}{営業|えいぎょう}しています。",
+          "We're open every day except Sunday."
+        ]
+      ]
+    },
+    {
+      "id": "nuki",
+      "title": "〜抜きで / 抜きにして: without, leaving out",
+      "summary": "Noun + 抜きで / 抜きにして = without A (something normally included).",
+      "body": "- 冗談**抜きで**、真面目に話そう.\n- 朝ご飯**抜き**で会社に行った.",
+      "examples": [
+        [
+          "{冗談|じょうだん}{抜|ぬ}きで、{真面目|まじめ}に{話|はな}そう。",
+          "Joking aside, let's talk seriously."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nikuwaete",
+      "prompt": "{雨|あめ}（　）、{風|かぜ}も{強|つよ}くなってきた。",
+      "options": [
+        "に{加|くわ}えて",
+        "を{加|くわ}えて",
+        "に{加|くわ}わって",
+        "が{加|くわ}えて"
+      ],
+      "answer": 0,
+      "explanation": "In addition to: **に加えて**.",
+      "notes": [
+        "",
+        "を加えて = 'adding (something)'.",
+        "加わる = 'join'.",
+        "The particle is に."
+      ],
+      "translation": "On top of the rain, the wind is getting stronger."
+    },
+    {
+      "point": "nikuwaete",
+      "prompt": "{彼|かれ}は{英語|えいご}に（　）{中国語|ちゅうごくご}も{話|はな}せる。",
+      "options": [
+        "{加|くわ}わって",
+        "{加|くわ}えて",
+        "{加|くわ}えた",
+        "{加|くわ}わる"
+      ],
+      "answer": 1,
+      "explanation": "**に加えて**.",
+      "notes": [
+        "加わる = 'join'.",
+        "",
+        "加えた can't connect here.",
+        "加わる can't connect here."
+      ],
+      "translation": "In addition to English, he can speak Chinese."
+    },
+    {
+      "point": "nominarazu",
+      "prompt": "この{歌|うた}は{日本|にほん}（　）、{海外|かいがい}でも{人気|にんき}がある。",
+      "options": [
+        "のみならず",
+        "のみなりず",
+        "のみなら",
+        "のみならない"
+      ],
+      "answer": 0,
+      "explanation": "Not only: **のみならず**.",
+      "notes": [
+        "",
+        "なりず isn't a form.",
+        "のみなら = 'if only'.",
+        "ならない can't connect."
+      ],
+      "translation": "This song is popular not only in Japan but abroad too."
+    },
+    {
+      "point": "nominarazu",
+      "prompt": "{彼|かれ}は{勉強|べんきょう}ができる（　）、スポーツも{得意|とくい}だ。",
+      "options": [
+        "のみに",
+        "のみならず",
+        "のみで",
+        "のみなら"
+      ],
+      "answer": 1,
+      "explanation": "Not only: **のみならず**.",
+      "notes": [
+        "のみに isn't the pattern.",
+        "",
+        "のみで = 'with only'.",
+        "のみなら = 'if only'."
+      ],
+      "translation": "Not only is he good at studying, he's also good at sports."
+    },
+    {
+      "point": "wamotoyori",
+      "prompt": "{英語|えいご}（　）、フランス{語|ご}も{話|はな}せる。",
+      "options": [
+        "はもとより",
+        "はもとで",
+        "をもとより",
+        "がもとより"
+      ],
+      "answer": 0,
+      "explanation": "Not to mention: **はもとより**.",
+      "notes": [
+        "",
+        "はもとで isn't the pattern.",
+        "The particle is は.",
+        "The particle is は."
+      ],
+      "translation": "He speaks French, not to mention English."
+    },
+    {
+      "point": "wamotoyori",
+      "prompt": "{子供|こども}（　）、{大人|おとな}も{楽|たの}しめる{映画|えいが}だ。",
+      "options": [
+        "のもとより",
+        "はもとに",
+        "はもとから",
+        "はもとより"
+      ],
+      "answer": 3,
+      "explanation": "**はもとより**.",
+      "notes": [
+        "The particle is は.",
+        "はもとに isn't the pattern.",
+        "はもとから = 'originally'.",
+        ""
+      ],
+      "translation": "It's a film adults can enjoy, let alone children."
+    },
+    {
+      "point": "ueni",
+      "prompt": "この{店|みせ}は{安|やす}い（　）、おいしい。",
+      "options": [
+        "{上|うえ}を",
+        "{上|うえ}は",
+        "{上|うえ}に",
+        "{上|うえ}で"
+      ],
+      "answer": 2,
+      "explanation": "On top of: **上に**.",
+      "notes": [
+        "上を isn't the pattern.",
+        "上は = 'now that'.",
+        "",
+        "上で = 'after / upon'."
+      ],
+      "translation": "This shop is cheap, and on top of that it's tasty."
+    },
+    {
+      "point": "ueni",
+      "prompt": "{道|みち}に{迷|まよ}った（　）、{雨|あめ}まで{降|ふ}ってきた。",
+      "options": [
+        "{上|うえ}は",
+        "{上|うえ}に",
+        "{上|うえ}で",
+        "{上|うえ}を"
+      ],
+      "answer": 1,
+      "explanation": "On top of (bad + bad): **上に**.",
+      "notes": [
+        "上は = 'now that'.",
+        "",
+        "上で = 'after doing'.",
+        "上を isn't the pattern."
+      ],
+      "translation": "I got lost, and on top of that it started to rain."
+    },
+    {
+      "point": "omakeni",
+      "prompt": "{財布|さいふ}をなくした。（　）、{携帯|けいたい}も{壊|こわ}れた。",
+      "options": [
+        "おまけで",
+        "おかげに",
+        "おまけに",
+        "おかげで"
+      ],
+      "answer": 2,
+      "explanation": "To make matters worse: **おまけに**.",
+      "notes": [
+        "おまけで = 'as a freebie'.",
+        "おかげに isn't a form.",
+        "",
+        "おかげで = 'thanks to'."
+      ],
+      "translation": "I lost my wallet. To make matters worse, my phone broke."
+    },
+    {
+      "point": "omakeni",
+      "prompt": "{今日|きょう}は{寒|さむ}い。（　）{雪|ゆき}まで{降|ふ}ってきた。",
+      "options": [
+        "おまけは",
+        "おまけに",
+        "おまけで",
+        "おまけを"
+      ],
+      "answer": 1,
+      "explanation": "On top of that: **おまけに**.",
+      "notes": [
+        "おまけは isn't a connector.",
+        "",
+        "おまけで = 'as a bonus'.",
+        "おまけを isn't a connector."
+      ],
+      "translation": "It's cold today. On top of that, it's started to snow."
+    },
+    {
+      "point": "wonozoite",
+      "prompt": "{日曜日|にちようび}（　）、{毎日|まいにち}{営業|えいぎょう}しています。",
+      "options": [
+        "を{除|のぞ}く",
+        "に{除|のぞ}いて",
+        "を{除|のぞ}いて",
+        "が{除|のぞ}いて"
+      ],
+      "answer": 2,
+      "explanation": "Except: **を除いて**.",
+      "notes": [
+        "を除く must modify a noun.",
+        "The particle is を.",
+        "",
+        "The particle is を."
+      ],
+      "translation": "We're open every day except Sunday."
+    },
+    {
+      "point": "wonozoite",
+      "prompt": "{田中|たなか}さんを（　）、{全員|ぜんいん}が{参加|さんか}した。",
+      "options": [
+        "{除|のぞ}って",
+        "{除|のぞ}かれて",
+        "{除|よ}けて",
+        "{除|のぞ}いて"
+      ],
+      "answer": 3,
+      "explanation": "Except: **を除いて**.",
+      "notes": [
+        "除って isn't a form.",
+        "除かれて = passive.",
+        "除ける (よける) = 'avoid / set aside'.",
+        ""
+      ],
+      "translation": "Everyone except Tanaka took part."
+    },
+    {
+      "point": "nuki",
+      "prompt": "{冗談|じょうだん}（　）で、{真面目|まじめ}に{話|はな}そう。",
+      "options": [
+        "{抜|ぬ}け",
+        "{抜|ぬ}き",
+        "{抜|ぬ}く",
+        "{抜|ぬ}いて"
+      ],
+      "answer": 1,
+      "explanation": "Without: **抜きで**.",
+      "notes": [
+        "抜けで isn't the pattern.",
+        "",
+        "抜くで isn't grammatical.",
+        "抜いてで isn't grammatical."
+      ],
+      "translation": "Joking aside, let's talk seriously."
+    },
+    {
+      "point": "nuki",
+      "prompt": "{寝坊|ねぼう}して、{朝|あさ}ご{飯|はん}（　）で{会社|かいしゃ}に{行|い}った。",
+      "options": [
+        "{抜|ぬ}かれ",
+        "{抜|ぬ}け",
+        "{抜|ぬ}いて",
+        "{抜|ぬ}き"
+      ],
+      "answer": 3,
+      "explanation": "Skipping: **抜きで**.",
+      "notes": [
+        "抜かれで isn't grammatical.",
+        "抜けで isn't the pattern.",
+        "抜いてで isn't grammatical.",
+        ""
+      ],
+      "translation": "I overslept and went to work without breakfast."
+    }
+  ]
+}

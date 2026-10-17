@@ -1,0 +1,353 @@
+{
+  "id": "n3-cause-result",
+  "category": "JLPT N3",
+  "title": "Cause & Result: おかげで, せいで, ために, によって, 結果, なぜなら",
+  "description": "Thanks to (positive) vs because of (negative), formal causes, 'by / depending on', results, and explaining reasons with なぜなら.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "okagede",
+      "title": "〜おかげで: thanks to (good result)",
+      "summary": "Plain form / noun + の + おかげで = because of (with gratitude). The result is positive.",
+      "body": "- 先生**のおかげで**、試験に合格できました.\n- 薬を飲んだ**おかげで**、元気になった.\n\nAttachment: verb/い-adj plain + おかげで; な-adj + な; noun + **の**.\nSarcastic use with bad results exists (君のおかげで遅刻した!), but in tests: おかげで = positive.",
+      "examples": [
+        [
+          "{先生|せんせい}のおかげで、{試験|しけん}に{合格|ごうかく}できました。",
+          "Thanks to my teacher, I passed the exam."
+        ]
+      ]
+    },
+    {
+      "id": "seide",
+      "title": "〜せいで: because of (bad result, blame)",
+      "summary": "Plain form / noun + の + せいで = because of — blaming something for a negative result.",
+      "body": "- 雨**のせいで**、試合が中止になった.\n- 部屋が狭い**せいで**、家具が置けない.\n\nOpposite nuance to おかげで. Also: 〜**せいか** (perhaps because …).",
+      "examples": [
+        [
+          "{雨|あめ}のせいで、{試合|しあい}が{中止|ちゅうし}になった。",
+          "Because of the rain, the match was cancelled."
+        ]
+      ]
+    },
+    {
+      "id": "tameni-cause",
+      "title": "〜ために (2): because of (formal)",
+      "summary": "Noun + の + ために / plain form + ために = due to. Neutral, formal (news, announcements).",
+      "body": "- 大雪**のために**、電車が止まりました.\n- 事故があった**ために**、遅れた.\n\n**ために = because** when the main clause is a result outside your control; **ために = in order to** when the main clause is your deliberate action (勉強する**ために**来た). Context decides.",
+      "examples": [
+        [
+          "{大雪|おおゆき}のために、{電車|でんしゃ}が{止|と}まりました。",
+          "Due to heavy snow, the trains stopped."
+        ]
+      ]
+    },
+    {
+      "id": "niyotte",
+      "title": "〜によって / 〜による: by, depending on, due to",
+      "summary": "によって = by (passive agent), depending on (国によって違う), by means of, due to. Before a noun: による.",
+      "body": "- **Agent of a passive** (works, inventions): この小説は有名な作家**によって**書かれた.\n- **Depending on**: 国**によって**習慣が違う.\n- **Cause**: 地震**による**被害 (damage caused by the earthquake).\n- **Means**: 話し合い**によって**解決する.\n\nBefore a noun use **による**: 地震による被害.",
+      "examples": [
+        [
+          "この{小説|しょうせつ}は{有名|ゆうめい}な{作家|さっか}によって{書|か}かれました。",
+          "This novel was written by a famous author."
+        ],
+        [
+          "{国|くに}によって{習慣|しゅうかん}が{違|ちが}います。",
+          "Customs differ from country to country."
+        ]
+      ]
+    },
+    {
+      "id": "kekka",
+      "title": "〜た結果 / 〜の結果 / その結果: as a result",
+      "summary": "Verb た-form + 結果 / noun + の + 結果 = as a result of. その結果 starts a new sentence.",
+      "body": "- よく話し合った**結果**、計画を変えることにした.\n- 調査**の結果**、原因がわかった.\n- 毎日練習した。**その結果**、試合に勝てた.\n\nVerbs take the **た-form** + 結果 (no の); nouns take **の** 結果.",
+      "examples": [
+        [
+          "よく{話|はな}し{合|あ}った{結果|けっか}、{計画|けいかく}を{変|か}えることにした。",
+          "As a result of a thorough discussion, we decided to change the plan."
+        ]
+      ]
+    },
+    {
+      "id": "nazenara",
+      "title": "なぜなら〜からだ: because, the reason is",
+      "summary": "Sentence-initial なぜなら + … からだ/からです gives the reason for the previous statement. Formal, often in writing.",
+      "body": "- 明日は行けません。**なぜなら**、仕事がある**からです**.\n\nThe sentence after なぜなら normally ends with **からだ/からです** (or のだ).\n\nCompare: だから / それで = so (result follows). なぜなら = because (reason follows).",
+      "examples": [
+        [
+          "{明日|あした}は{行|い}けません。なぜなら、{仕事|しごと}があるからです。",
+          "I can't go tomorrow. That's because I have work."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "okagede",
+      "prompt": "{先生|せんせい}の（　）、{試験|しけん}に{合格|ごうかく}できました。",
+      "options": [
+        "せいで",
+        "わりに",
+        "おかげで",
+        "くせに"
+      ],
+      "answer": 2,
+      "explanation": "Positive result with gratitude → **おかげで**.",
+      "notes": [
+        "せいで blames — wrong for passing an exam thanks to the teacher.",
+        "わりに = 'considering' — doesn't fit.",
+        "",
+        "くせに = 'even though (criticism)' — doesn't fit."
+      ],
+      "translation": "Thanks to my teacher, I passed the exam."
+    },
+    {
+      "point": "okagede",
+      "prompt": "{薬|くすり}を{飲|の}んだ（　）、{元気|げんき}になりました。",
+      "options": [
+        "おかげを",
+        "おかげが",
+        "おかげに",
+        "おかげで"
+      ],
+      "answer": 3,
+      "explanation": "The pattern is **おかげで**.",
+      "notes": [
+        "おかげを isn't the pattern.",
+        "おかげが isn't the pattern.",
+        "おかげに isn't the pattern.",
+        ""
+      ],
+      "translation": "Thanks to the medicine, I got better."
+    },
+    {
+      "point": "seide",
+      "prompt": "{雨|あめ}の（　）、{試合|しあい}が{中止|ちゅうし}になった。",
+      "options": [
+        "ばかりで",
+        "くせに",
+        "せいで",
+        "おかげで"
+      ],
+      "answer": 2,
+      "explanation": "Negative result, blaming → **せいで**.",
+      "notes": [
+        "ばかりで = 'only/nothing but' — doesn't fit.",
+        "くせに criticises a person's behaviour.",
+        "",
+        "おかげで thanks something for a *good* result."
+      ],
+      "translation": "Because of the rain, the match was cancelled."
+    },
+    {
+      "point": "seide",
+      "prompt": "{部屋|へや}が{狭|せま}い（　）、{大|おお}きい{家具|かぐ}が{置|お}けない。",
+      "options": [
+        "せいが",
+        "せいで",
+        "せいを",
+        "せいに"
+      ],
+      "answer": 1,
+      "explanation": "The pattern is **せいで**.",
+      "notes": [
+        "せいが isn't the pattern.",
+        "",
+        "せいを isn't the pattern.",
+        "せいにする means 'to blame on' — a different pattern."
+      ],
+      "translation": "Because the room is small, I can't put large furniture in it."
+    },
+    {
+      "point": "tameni-cause",
+      "prompt": "{大雪|おおゆき}の（　）、{電車|でんしゃ}が{止|と}まりました。",
+      "options": [
+        "ためで",
+        "ためが",
+        "ために",
+        "ためを"
+      ],
+      "answer": 2,
+      "explanation": "Formal cause: noun + の + **ために**.",
+      "notes": [
+        "ためで isn't standard.",
+        "ためが isn't grammatical here.",
+        "",
+        "ためを isn't grammatical here."
+      ],
+      "translation": "Due to heavy snow, the trains stopped."
+    },
+    {
+      "point": "tameni-cause",
+      "prompt": "In which sentence does ために mean **'because'**?",
+      "options": [
+        "{健康|けんこう}のために{走|はし}っている。",
+        "{事故|じこ}のために{遅|おく}れた。",
+        "{日本語|にほんご}を{勉強|べんきょう}するために{来|き}た。",
+        "{子供|こども}のためにお{金|かね}を{貯|た}める。"
+      ],
+      "answer": 1,
+      "explanation": "Being late is an uncontrolled result → ために = **because**.",
+      "notes": [
+        "Deliberate action → 'for the sake of'.",
+        "",
+        "Deliberate action → 'in order to'.",
+        "Deliberate action → 'for (the children)'."
+      ],
+      "translation": "I was late because of an accident."
+    },
+    {
+      "point": "niyotte",
+      "prompt": "この{小説|しょうせつ}は{有名|ゆうめい}な{作家|さっか}（　）{書|か}かれました。",
+      "options": [
+        "によって",
+        "にとって",
+        "について",
+        "に対して"
+      ],
+      "answer": 0,
+      "explanation": "Agent of a passive (creating a work): **によって**.",
+      "notes": [
+        "",
+        "にとって = 'for / from the viewpoint of'.",
+        "について = 'about'.",
+        "に対して = 'toward / in contrast to'."
+      ],
+      "translation": "This novel was written by a famous author."
+    },
+    {
+      "point": "niyotte",
+      "prompt": "{国|くに}（　）{習慣|しゅうかん}が{違|ちが}います。",
+      "options": [
+        "について",
+        "に対して",
+        "によって",
+        "にとって"
+      ],
+      "answer": 2,
+      "explanation": "'Depending on': **によって**.",
+      "notes": [
+        "について = 'about'.",
+        "に対して = 'toward'.",
+        "",
+        "にとって = 'for (someone)'."
+      ],
+      "translation": "Customs differ from country to country."
+    },
+    {
+      "point": "niyotte",
+      "prompt": "{地震|じしん}（　）{被害|ひがい}は{大|おお}きかった。",
+      "options": [
+        "にとって",
+        "による",
+        "によって",
+        "について"
+      ],
+      "answer": 1,
+      "explanation": "Before a noun: **による** + 被害.",
+      "notes": [
+        "にとって doesn't mean 'caused by'.",
+        "",
+        "によって can't directly modify a noun.",
+        "について = 'about'."
+      ],
+      "translation": "The damage caused by the earthquake was severe."
+    },
+    {
+      "point": "kekka",
+      "prompt": "よく{話|はな}し{合|あ}った（　）、{計画|けいかく}を{変|か}えることにした。",
+      "options": [
+        "{結果|けっか}が",
+        "{結果|けっか}を",
+        "{結果|けっか}",
+        "の{結果|けっか}"
+      ],
+      "answer": 2,
+      "explanation": "Verb (た) + **結果** — no の after a verb.",
+      "notes": [
+        "結果が isn't the pattern.",
+        "結果を isn't the pattern.",
+        "",
+        "の結果 follows nouns, not verbs."
+      ],
+      "translation": "As a result of a thorough discussion, we decided to change the plan."
+    },
+    {
+      "point": "kekka",
+      "prompt": "{調査|ちょうさ}（　）、{原因|げんいん}がわかった。",
+      "options": [
+        "の{結果|けっか}",
+        "{結果|けっか}",
+        "に{結果|けっか}",
+        "な{結果|けっか}"
+      ],
+      "answer": 0,
+      "explanation": "Noun + **の結果**.",
+      "notes": [
+        "",
+        "A noun needs の before 結果.",
+        "に結果 isn't grammatical.",
+        "な is for な-adjectives."
+      ],
+      "translation": "As a result of the investigation, the cause was found."
+    },
+    {
+      "point": "kekka",
+      "prompt": "{毎日|まいにち}{練習|れんしゅう}した。（　）、{試合|しあい}に{勝|か}てた。",
+      "options": [
+        "その{一方|いっぽう}で",
+        "その{代|か}わりに",
+        "その{結果|けっか}",
+        "それなのに"
+      ],
+      "answer": 2,
+      "explanation": "Result connector: **その結果**.",
+      "notes": [
+        "その一方で = 'on the other hand'.",
+        "その代わりに = 'instead'.",
+        "",
+        "それなのに = 'despite that' — contradicts winning after practice."
+      ],
+      "translation": "I practised every day. As a result, we won the match."
+    },
+    {
+      "point": "nazenara",
+      "prompt": "{明日|あした}は{行|い}けません。（　）、{仕事|しごと}があるからです。",
+      "options": [
+        "なぜなら",
+        "それで",
+        "だから",
+        "すると"
+      ],
+      "answer": 0,
+      "explanation": "Reason follows: **なぜなら … からです**.",
+      "notes": [
+        "",
+        "それで introduces a result.",
+        "だから introduces a result, not a reason.",
+        "すると = 'then / thereupon'."
+      ],
+      "translation": "I can't go tomorrow. That's because I have work."
+    },
+    {
+      "point": "nazenara",
+      "prompt": "このプロジェクトは{中止|ちゅうし}します。なぜなら、{予算|よさん}が{足|た}りない（　）。",
+      "options": [
+        "のでです",
+        "ためで",
+        "ので",
+        "からです"
+      ],
+      "answer": 3,
+      "explanation": "なぜなら … **からです**.",
+      "notes": [
+        "ので can't be followed by です.",
+        "ためで can't end the sentence.",
+        "ので can't end the sentence.",
+        ""
+      ],
+      "translation": "We're cancelling this project. The reason is that the budget isn't enough."
+    }
+  ]
+}

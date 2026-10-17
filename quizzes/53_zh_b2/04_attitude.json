@@ -1,0 +1,462 @@
+{
+  "id": "zh-b2-attitude",
+  "category": "Mandarin B2",
+  "language": "zh",
+  "title": "Attitude Adverbs: 到底, 简直, 反正, 毕竟, 难道, 恐怕, 千万, 尽量, 干脆",
+  "description": "On earth, simply, anyway, after all, surely not?, I'm afraid, be sure to, as much as possible, and 'just (do it)'.",
+  "level": "B2",
+  "points": [
+    {
+      "id": "daodi",
+      "title": "到底: on earth, exactly",
+      "summary": "In questions, 到底 (dàodǐ) pushes for a clear answer: 你到底去不去?",
+      "body": "- 你**到底**想要什么?",
+      "examples": [
+        [
+          "{你|nǐ}{到底|dàodǐ}{去|qù}{不|bu}{去|qù}？",
+          "Are you going or not?"
+        ]
+      ]
+    },
+    {
+      "id": "jianzhi",
+      "title": "简直: simply, practically",
+      "summary": "简直 (jiǎnzhí) exaggerates: 'it's simply …'.",
+      "body": "- 这道题太难了，**简直**不可能做出来.",
+      "examples": [
+        [
+          "{他|tā}{简直|jiǎnzhí}{像|xiàng}{个|ge}{孩子|háizi}。",
+          "He's like a child, honestly."
+        ]
+      ]
+    },
+    {
+      "id": "fanzheng",
+      "title": "反正: anyway, in any case",
+      "summary": "反正 (fǎnzhèng) = whatever happens / it doesn't matter, because ….",
+      "body": "- 你别着急，**反正**还有时间.",
+      "examples": [
+        [
+          "{去|qù}{不|bu}{去|qù}{都|dōu}{可以|kěyǐ}，{反正|fǎnzhèng}{我|wǒ}{明天|míngtiān}{没|méi}{事|shì}。",
+          "Going or not is fine — I'm free tomorrow anyway."
+        ]
+      ]
+    },
+    {
+      "id": "bijing",
+      "title": "毕竟: after all",
+      "summary": "毕竟 (bìjìng) = after all (reminding of an important fact).",
+      "body": "- 别生他的气，他**毕竟**还是个孩子.",
+      "examples": [
+        [
+          "{毕竟|bìjìng}{是|shì}{第一|dì-yī}{次|cì}，{做|zuò}{得|de}{不|bù}{好|hǎo}{也|yě}{很|hěn}{正常|zhèngcháng}。",
+          "It's the first time, after all — it's normal not to do it well."
+        ]
+      ]
+    },
+    {
+      "id": "nandao",
+      "title": "难道 …?: surely not …?",
+      "summary": "难道 (nándào) makes a rhetorical question: 'don't tell me …?!'.",
+      "body": "- **难道**你不知道明天考试吗?",
+      "examples": [
+        [
+          "{难道|nándào}{你|nǐ}{忘|wàng}{了|le}？",
+          "Don't tell me you forgot?!"
+        ]
+      ]
+    },
+    {
+      "id": "kongpa",
+      "title": "恐怕: I'm afraid (that)",
+      "summary": "恐怕 (kǒngpà) softens bad news or a worried guess.",
+      "body": "- **恐怕**他今天来不了了.",
+      "examples": [
+        [
+          "{天|tiān}{这么|zhème}{黑|hēi}，{恐怕|kǒngpà}{要|yào}{下雨|xià yǔ}{了|le}。",
+          "It's so dark — I'm afraid it's going to rain."
+        ]
+      ]
+    },
+    {
+      "id": "qianwan",
+      "title": "千万 + 要 / 别: be sure to / whatever you do, don't",
+      "summary": "千万 (qiānwàn) strengthens advice and warnings.",
+      "body": "- 路上很滑，你**千万**要小心!\n- 你**千万**别忘了!",
+      "examples": [
+        [
+          "{你|nǐ}{千万|qiānwàn}{别|bié}{忘|wàng}{了|le}！",
+          "Whatever you do, don't forget!"
+        ]
+      ]
+    },
+    {
+      "id": "jinliang",
+      "title": "尽量: as much as possible",
+      "summary": "尽量 (jǐnliàng) + verb = do your best to ….",
+      "body": "- 我会**尽量**早点儿来.",
+      "examples": [
+        [
+          "{请|qǐng}{尽量|jǐnliàng}{少|shǎo}{用|yòng}{塑料袋|sùliàodài}。",
+          "Please use as few plastic bags as possible."
+        ]
+      ]
+    },
+    {
+      "id": "gancui",
+      "title": "干脆: just (decisively)",
+      "summary": "干脆 (gāncuì) + verb = cut it short and just do ….",
+      "body": "- 修了好几次还是坏，**干脆**买个新的吧.",
+      "examples": [
+        [
+          "{没有|méiyǒu}{车|chē}{了|le}，{我们|wǒmen}{干脆|gāncuì}{走|zǒu}{回去|huíqù}{吧|ba}。",
+          "There are no buses left — let's just walk back."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "daodi",
+      "prompt": "{你|nǐ}（　）{去|qù}{不|bu}{去|qù}？{快|kuài}{决定|juédìng}{吧|ba}！",
+      "options": [
+        "{毕竟|bìjìng}",
+        "{反正|fǎnzhèng}",
+        "{终于|zhōngyú}",
+        "{到底|dàodǐ}"
+      ],
+      "answer": 3,
+      "explanation": "On earth: **到底**.",
+      "notes": [
+        "毕竟 = 'after all' — not in questions.",
+        "反正 = 'anyway' — not in questions.",
+        "终于 = 'finally' — not in questions.",
+        ""
+      ],
+      "translation": "Are you going or not? Make up your mind!"
+    },
+    {
+      "point": "daodi",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{你|nǐ}{想|xiǎng}{要|yào}{到底|dàodǐ}{什么|shénme}？",
+        "{你|nǐ}{到底|dàodǐ}{想|xiǎng}{要|yào}{什么|shénme}？",
+        "{你|nǐ}{想|xiǎng}{到底|dàodǐ}{要|yào}{什么|shénme}{吗|ma}？",
+        "{你|nǐ}{到底|dàodǐ}{想|xiǎng}{要|yào}{什么|shénme}{吗|ma}？"
+      ],
+      "answer": 1,
+      "explanation": "**到底** + question (no 吗).",
+      "notes": [
+        "到底 goes before the verb phrase.",
+        "",
+        "No 吗 — and 到底 goes before 想.",
+        "No 吗 with a question word."
+      ],
+      "translation": "What on earth do you want?"
+    },
+    {
+      "point": "jianzhi",
+      "prompt": "{这|zhè}{道|dào}{题|tí}{太|tài}{难|nán}{了|le}，（　）{不|bù}{可能|kěnéng}{做|zuò}{出来|chūlái}。",
+      "options": [
+        "{直接|zhíjiē}",
+        "{一直|yìzhí}",
+        "{简单|jiǎndān}",
+        "{简直|jiǎnzhí}"
+      ],
+      "answer": 3,
+      "explanation": "Simply: **简直**.",
+      "notes": [
+        "直接 = 'directly'.",
+        "一直 = 'all along'.",
+        "简单 = 'simple' (adjective).",
+        ""
+      ],
+      "translation": "This question is so hard it's practically impossible to solve."
+    },
+    {
+      "point": "jianzhi",
+      "prompt": "What does 「{他|tā}{简直|jiǎnzhí}{像|xiàng}{个|ge}{孩子|háizi}。」 mean?",
+      "options": [
+        "He'slikeachild,honestly.",
+        "He'sdirectlyachild.",
+        "He'ssimple,likeachild.",
+        "Heusedtobeachild."
+      ],
+      "answer": 0,
+      "explanation": "简直 = **simply, practically**.",
+      "notes": [
+        "",
+        "简直 doesn't mean 'directly'.",
+        "简直 isn't 简单.",
+        "No past."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "fanzheng",
+      "prompt": "{你|nǐ}{别|bié}{着急|zháojí}，（　）{还有|háiyǒu}{时间|shíjiān}。",
+      "options": [
+        "{反而|fǎn'ér}",
+        "{到底|dàodǐ}",
+        "{反正|fǎnzhèng}",
+        "{正反|zhèngfǎn}"
+      ],
+      "answer": 2,
+      "explanation": "Anyway: **反正**.",
+      "notes": [
+        "反而 = 'on the contrary'.",
+        "到底 = 'on earth' (questions).",
+        "",
+        "正反 = 'pros and cons'."
+      ],
+      "translation": "Don't rush — there's still time anyway."
+    },
+    {
+      "point": "fanzheng",
+      "prompt": "{去|qù}{不|bu}{去|qù}{都|dōu}{可以|kěyǐ}，（　）{我|wǒ}{明天|míngtiān}{没|méi}{事|shì}。",
+      "options": [
+        "{简直|jiǎnzhí}",
+        "{到底|dàodǐ}",
+        "{反而|fǎn'ér}",
+        "{反正|fǎnzhèng}"
+      ],
+      "answer": 3,
+      "explanation": "**反正**.",
+      "notes": [
+        "简直 = 'simply'.",
+        "到底 is for questions.",
+        "反而 = 'on the contrary'.",
+        ""
+      ],
+      "translation": "Going or not is fine — I'm free tomorrow anyway."
+    },
+    {
+      "point": "bijing",
+      "prompt": "{别|bié}{生|shēng}{他|tā}{的|de}{气|qì}{了|le}，{他|tā}（　）{还|hái}{是|shì}{个|ge}{孩子|háizi}。",
+      "options": [
+        "{毕竟|bìjìng}",
+        "{千万|qiānwàn}",
+        "{难道|nándào}",
+        "{简直|jiǎnzhí}"
+      ],
+      "answer": 0,
+      "explanation": "After all: **毕竟**.",
+      "notes": [
+        "",
+        "千万 = 'be sure to'.",
+        "难道 makes a rhetorical question.",
+        "简直还是个孩子 isn't natural."
+      ],
+      "translation": "Don't be angry with him — he's only a child, after all."
+    },
+    {
+      "point": "bijing",
+      "prompt": "What does 「{毕竟|bìjìng}{是|shì}{第一|dì-yī}{次|cì}，{做|zuò}{得|de}{不|bù}{好|hǎo}{也|yě}{很|hěn}{正常|zhèngcháng}。」 mean?",
+      "options": [
+        "Sincethefirsttime,it'sneverbeengood.",
+        "It'sthefirsttime,afterall—it'snormalnottodoitwell.",
+        "It'sfinallythefirsttime,anditwentbadly.",
+        "Thefirsttimewassurprisinglygood."
+      ],
+      "answer": 1,
+      "explanation": "毕竟 = **after all**.",
+      "notes": [
+        "No 自从.",
+        "",
+        "毕竟 isn't 终于.",
+        "做得不好 = not done well."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nandao",
+      "prompt": "（　）{你|nǐ}{不|bù}{知道|zhīdào}{明天|míngtiān}{考试|kǎoshì}{吗|ma}？",
+      "options": [
+        "{困难|kùnnan}",
+        "{难过|nánguò}",
+        "{难怪|nánguài}",
+        "{难道|nándào}"
+      ],
+      "answer": 3,
+      "explanation": "Rhetorical: **难道…吗**?",
+      "notes": [
+        "困难 = 'difficulty'.",
+        "难过 = 'sad'.",
+        "难怪 = 'no wonder'.",
+        ""
+      ],
+      "translation": "Don't tell me you don't know there's an exam tomorrow?!"
+    },
+    {
+      "point": "nandao",
+      "prompt": "What does 「{难道|nándào}{你|nǐ}{忘|wàng}{了|le}？」 express?",
+      "options": [
+        "Astatement:youforgot.",
+        "Awish:Ihopeyouforgot.",
+        "Disbelief:surelyyoudidn'tforget?!",
+        "Aneutralquestion:didyouforget?"
+      ],
+      "answer": 2,
+      "explanation": "难道 = **surely not?!**",
+      "notes": [
+        "It's a (rhetorical) question.",
+        "No wish.",
+        "",
+        "难道 isn't neutral."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kongpa",
+      "prompt": "{天|tiān}{这么|zhème}{黑|hēi}，（　）{要|yào}{下雨|xià yǔ}{了|le}。",
+      "options": [
+        "{恐怕|kǒngpà}",
+        "{怕人|pàrén}",
+        "{可怕|kěpà}",
+        "{哪怕|nǎpà}"
+      ],
+      "answer": 0,
+      "explanation": "I'm afraid: **恐怕**.",
+      "notes": [
+        "",
+        "怕人 = 'scary'.",
+        "可怕 = 'terrible'.",
+        "哪怕 = 'even if'."
+      ],
+      "translation": "It's so dark — I'm afraid it's going to rain."
+    },
+    {
+      "point": "kongpa",
+      "prompt": "What does 「{恐怕|kǒngpà}{他|tā}{今天|jīntiān}{来|lái}{不|bu}{了|liǎo}{了|le}。」 mean?",
+      "options": [
+        "Evenifhecomestoday…",
+        "I'mafraidhecan'tcometoday.",
+        "Hedefinitelywon'tcometoday.",
+        "He'sscaredofcomingtoday."
+      ],
+      "answer": 1,
+      "explanation": "恐怕 = **I'm afraid (that)**.",
+      "notes": [
+        "That's 哪怕.",
+        "",
+        "恐怕 softens — it isn't certain.",
+        "恐怕 is the speaker's worry, not his fear."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "qianwan",
+      "prompt": "{路|lù}{上|shang}{很|hěn}{滑|huá}，{你|nǐ}（　）{要|yào}{小心|xiǎoxīn}！",
+      "options": [
+        "{千千|qiānqiān}",
+        "{一万|yíwàn}",
+        "{万一|wànyī}",
+        "{千万|qiānwàn}"
+      ],
+      "answer": 3,
+      "explanation": "Be sure to: **千万**.",
+      "notes": [
+        "Not a word.",
+        "一万 = 10,000.",
+        "万一 = 'in case'.",
+        ""
+      ],
+      "translation": "The roads are slippery — be really careful!"
+    },
+    {
+      "point": "qianwan",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{你|nǐ}{千万|qiānwàn}{别|bié}{忘|wàng}{了|le}！",
+        "{你|nǐ}{千万|qiānwàn}{忘|wàng}{别|bié}{了|le}！",
+        "{你|nǐ}{别|bié}{千万|qiānwàn}{忘|wàng}{了|le}！",
+        "{你|nǐ}{千万|qiānwàn}{别|bié}{了|le}{忘|wàng}！"
+      ],
+      "answer": 0,
+      "explanation": "**千万别** + verb.",
+      "notes": [
+        "",
+        "别 goes before the verb.",
+        "千万 comes before 别.",
+        "了 follows the verb."
+      ],
+      "translation": "Whatever you do, don't forget!"
+    },
+    {
+      "point": "jinliang",
+      "prompt": "{你|nǐ}{放心|fàngxīn}，{我|wǒ}{会|huì}（　）{早|zǎo}{点儿|diǎnr}{来|lái}。",
+      "options": [
+        "{千万|qiānwàn}",
+        "{简直|jiǎnzhí}",
+        "{尽量|jǐnliàng}",
+        "{尽管|jǐnguǎn}"
+      ],
+      "answer": 2,
+      "explanation": "As much as possible: **尽量**.",
+      "notes": [
+        "千万 is for advice to others.",
+        "简直 = 'simply'.",
+        "",
+        "尽管 = 'feel free / although'."
+      ],
+      "translation": "Don't worry, I'll try to come as early as I can."
+    },
+    {
+      "point": "jinliang",
+      "prompt": "What does 「{请|qǐng}{尽量|jǐnliàng}{少|shǎo}{用|yòng}{塑料袋|sùliàodài}。」 mean?",
+      "options": [
+        "Pleaseusemoreplasticbags.",
+        "Pleaseuseasfewplasticbagsaspossible.",
+        "Pleasedon'tuseanyplasticbags.",
+        "Pleaseuseplasticbagsfreely."
+      ],
+      "answer": 1,
+      "explanation": "尽量 = **as much as possible**.",
+      "notes": [
+        "少 = less.",
+        "",
+        "尽量 isn't a total ban.",
+        "That's 尽管用."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "gancui",
+      "prompt": "{这么|zhème}{晚|wǎn}{了|le}，{没有|méiyǒu}{车|chē}{了|le}，{我们|wǒmen}（　）{走|zǒu}{回去|huíqù}{吧|ba}。",
+      "options": [
+        "{恐怕|kǒngpà}",
+        "{干净|gānjìng}",
+        "{简直|jiǎnzhí}",
+        "{干脆|gāncuì}"
+      ],
+      "answer": 3,
+      "explanation": "Just (decide): **干脆**.",
+      "notes": [
+        "恐怕 = 'I'm afraid'.",
+        "干净 = 'clean'.",
+        "简直 = 'simply' (exaggeration).",
+        ""
+      ],
+      "translation": "It's so late and there are no buses — let's just walk back."
+    },
+    {
+      "point": "gancui",
+      "prompt": "{这|zhè}{台|tái}{电脑|diànnǎo}{修|xiū}{了|le}{好几|hǎo jǐ}{次|cì}{还是|háishi}{坏|huài}，（　）{买|mǎi}{个|ge}{新|xīn}{的|de}{吧|ba}。",
+      "options": [
+        "{难道|nándào}",
+        "{干脆|gāncuì}",
+        "{毕竟|bìjìng}",
+        "{干净|gānjìng}"
+      ],
+      "answer": 1,
+      "explanation": "**干脆**.",
+      "notes": [
+        "难道 makes a rhetorical question.",
+        "",
+        "毕竟 = 'after all'.",
+        "干净 = 'clean'."
+      ],
+      "translation": "This computer has been repaired several times and still breaks — let's just buy a new one."
+    }
+  ]
+}

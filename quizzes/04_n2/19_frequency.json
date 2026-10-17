@@ -1,0 +1,361 @@
+{
+  "id": "n2-frequency",
+  "category": "JLPT N2",
+  "title": "Every Time & Moments: ごとに, ぶりに, につけ, につき, ては, ところに, 手前",
+  "description": "Every / each, for the first time in, whenever, per / due to, doing … over and over, just when, and because (of one's position).",
+  "level": "N2",
+  "points": [
+    {
+      "id": "gotoni",
+      "title": "〜ごとに: every, each",
+      "summary": "Noun / dictionary form + ごとに = every (time/unit). 一時間ごとに, 会う人ごとに.",
+      "body": "- 一時間**ごとに**バスが来ます.\n- 会う人**ごとに**同じ質問をされた.",
+      "examples": [
+        [
+          "{一時間|いちじかん}ごとにバスが{来|き}ます。",
+          "A bus comes every hour."
+        ]
+      ]
+    },
+    {
+      "id": "burini",
+      "title": "〜ぶりに: for the first time in (a period)",
+      "summary": "Time span + ぶりに = for the first time in …. 久しぶり = long time no see.",
+      "body": "- 5年**ぶりに**国に帰った.\n- 久し**ぶり**ですね.",
+      "examples": [
+        [
+          "5{年|ねん}ぶりに{国|くに}に{帰|かえ}った。",
+          "I went home for the first time in five years."
+        ]
+      ]
+    },
+    {
+      "id": "nitsuke",
+      "title": "〜につけ: whenever; whether … or",
+      "summary": "Verb + につけ = whenever A (a feeling arises). AにつけBにつけ = whether A or B.",
+      "body": "- この写真を見る**につけ**、故郷を思い出す.\n- 雨**につけ**風**につけ**、子供のことが心配だ.",
+      "examples": [
+        [
+          "この{写真|しゃしん}を{見|み}るにつけ、{故郷|ふるさと}を{思|おも}い{出|だ}す。",
+          "Whenever I see this photo, I remember my hometown."
+        ]
+      ]
+    },
+    {
+      "id": "nitsuki",
+      "title": "〜につき: due to (notices); per",
+      "summary": "Noun + につき = because of (formal notices) / per (unit).",
+      "body": "- 工事中**につき**、通行止めです.\n- 参加費は一人**につき**千円です.",
+      "examples": [
+        [
+          "{工事中|こうじちゅう}につき、{通行止|つうこうど}めです。",
+          "Road closed due to construction."
+        ]
+      ]
+    },
+    {
+      "id": "tewa",
+      "title": "〜ては〜(repeated): doing A then B, over and over",
+      "summary": "Aては B、Aては B = repeating the same cycle.",
+      "body": "- 書い**ては**消し、書い**ては**消した.\n- 食べて**は**寝る生活.",
+      "examples": [
+        [
+          "{書|か}いては{消|け}し、{書|か}いては{消|け}した。",
+          "I wrote and erased, wrote and erased."
+        ]
+      ]
+    },
+    {
+      "id": "tokoroni",
+      "title": "〜ところに / ところへ: just when (something came)",
+      "summary": "Situation + ところに/ところへ = just as A was happening, B came/happened (often a visitor or call).",
+      "body": "- 出かけようとしている**ところに**、電話がかかってきた.\n- 困っている**ところへ**、友達が来てくれた.",
+      "examples": [
+        [
+          "{出|で}かけようとしているところに、{電話|でんわ}がかかってきた。",
+          "Just as I was about to leave, the phone rang."
+        ]
+      ]
+    },
+    {
+      "id": "temae",
+      "title": "〜手前: because (of face / one's position)",
+      "summary": "Plain form / noun + の + 手前 = because (in front of others / having said so), I can't …",
+      "body": "- 約束した**手前**、行かないわけにはいかない.\n- 子供の**手前**、親がけんかするわけにはいかない.",
+      "examples": [
+        [
+          "{約束|やくそく}した{手前|てまえ}、{行|い}かないわけにはいかない。",
+          "Having promised, I can't not go."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "gotoni",
+      "prompt": "{一時間|いちじかん}（　）バスが{来|き}ます。",
+      "options": [
+        "おきで",
+        "ごとに",
+        "ずつに",
+        "ごとで"
+      ],
+      "answer": 1,
+      "explanation": "Every: **ごとに**.",
+      "notes": [
+        "おきで isn't the pattern (おきに is).",
+        "",
+        "ずつに isn't the pattern.",
+        "ごとで isn't the pattern."
+      ],
+      "translation": "A bus comes every hour."
+    },
+    {
+      "point": "gotoni",
+      "prompt": "{会|あ}う{人|ひと}（　）{同|おな}じ{質問|しつもん}をされた。",
+      "options": [
+        "おきに",
+        "ごとで",
+        "ずつ",
+        "ごとに"
+      ],
+      "answer": 3,
+      "explanation": "Each person: **ごとに**.",
+      "notes": [
+        "おきに = 'every other'.",
+        "ごとで isn't the pattern.",
+        "ずつ = 'each (amount)'.",
+        ""
+      ],
+      "translation": "Everyone I met asked me the same question."
+    },
+    {
+      "point": "burini",
+      "prompt": "5{年|ねん}（　）{国|くに}に{帰|かえ}った。",
+      "options": [
+        "ぶりに",
+        "ふりに",
+        "ぶらに",
+        "ぶりを"
+      ],
+      "answer": 0,
+      "explanation": "First time in: **ぶりに**.",
+      "notes": [
+        "",
+        "ふり = 'pretence'.",
+        "ぶらに isn't a form.",
+        "ぶりを isn't the pattern."
+      ],
+      "translation": "I went home for the first time in five years."
+    },
+    {
+      "point": "burini",
+      "prompt": "{久|ひさ}し（　）ですね。お{元気|げんき}でしたか。",
+      "options": [
+        "ぶれ",
+        "ぶり",
+        "ぶら",
+        "ふり"
+      ],
+      "answer": 1,
+      "explanation": "Long time no see: **久しぶり**.",
+      "notes": [
+        "ぶれ = 'blur'.",
+        "",
+        "ぶら isn't the word.",
+        "ふり = 'pretence'."
+      ],
+      "translation": "Long time no see. How have you been?"
+    },
+    {
+      "point": "nitsuke",
+      "prompt": "この{写真|しゃしん}を{見|み}る（　）、{故郷|ふるさと}を{思|おも}い{出|だ}す。",
+      "options": [
+        "について",
+        "につき",
+        "にとって",
+        "につけ"
+      ],
+      "answer": 3,
+      "explanation": "Whenever: **につけ**.",
+      "notes": [
+        "について = 'about'.",
+        "につき = 'due to / per'.",
+        "にとって = 'for'.",
+        ""
+      ],
+      "translation": "Whenever I see this photo, I remember my hometown."
+    },
+    {
+      "point": "nitsuke",
+      "prompt": "{雨|あめ}につけ{風|かぜ}（　）、{子供|こども}のことが{心配|しんぱい}だ。",
+      "options": [
+        "について",
+        "にかけ",
+        "につけ",
+        "につき"
+      ],
+      "answer": 2,
+      "explanation": "Whether … or: **AにつけBにつけ**.",
+      "notes": [
+        "について = 'about'.",
+        "にかけ isn't the pattern.",
+        "",
+        "につき = 'due to'."
+      ],
+      "translation": "Rain or wind, I always worry about my child."
+    },
+    {
+      "point": "nitsuki",
+      "prompt": "{工事中|こうじちゅう}（　）、{通行止|つうこうど}めです。",
+      "options": [
+        "につけ",
+        "にとって",
+        "について",
+        "につき"
+      ],
+      "answer": 3,
+      "explanation": "Due to (notice): **につき**.",
+      "notes": [
+        "につけ = 'whenever'.",
+        "にとって = 'for'.",
+        "について = 'about'.",
+        ""
+      ],
+      "translation": "Road closed due to construction."
+    },
+    {
+      "point": "nitsuki",
+      "prompt": "{参加費|さんかひ}は{一人|ひとり}（　）千{円|えん}です。",
+      "options": [
+        "にとって",
+        "につき",
+        "につけ",
+        "について"
+      ],
+      "answer": 1,
+      "explanation": "Per person: **につき**.",
+      "notes": [
+        "にとって = 'for (viewpoint)'.",
+        "",
+        "につけ = 'whenever'.",
+        "について = 'about'."
+      ],
+      "translation": "The fee is 1,000 yen per person."
+    },
+    {
+      "point": "tewa",
+      "prompt": "{書|か}いて（　）{消|け}し、{書|か}いては{消|け}した。",
+      "options": [
+        "は",
+        "も",
+        "を",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Repeated cycle: **ては**.",
+      "notes": [
+        "",
+        "ても = 'even if'.",
+        "を can't follow the て-form.",
+        "が can't follow the て-form."
+      ],
+      "translation": "I wrote and erased, wrote and erased."
+    },
+    {
+      "point": "tewa",
+      "prompt": "{休|やす}みの{日|ひ}は{食|た}べて（　）{寝|ね}、{食|た}べては{寝|ね}ている。",
+      "options": [
+        "で",
+        "も",
+        "は",
+        "が"
+      ],
+      "answer": 2,
+      "explanation": "**ては** (repetition).",
+      "notes": [
+        "で can't follow the て-form.",
+        "ても = 'even if'.",
+        "",
+        "が can't follow the て-form."
+      ],
+      "translation": "On days off I just eat and sleep, eat and sleep."
+    },
+    {
+      "point": "tokoroni",
+      "prompt": "{出|で}かけようとしている（　）、{電話|でんわ}がかかってきた。",
+      "options": [
+        "ところに",
+        "ところは",
+        "ところが",
+        "ところを"
+      ],
+      "answer": 0,
+      "explanation": "Just when (something came): **ところに**.",
+      "notes": [
+        "",
+        "ところは = 'as for the place'.",
+        "ところが = 'however'.",
+        "ところを = 'at the moment of (being caught/helped)'."
+      ],
+      "translation": "Just as I was about to leave, the phone rang."
+    },
+    {
+      "point": "tokoroni",
+      "prompt": "{道|みち}に{迷|まよ}って{困|こま}っている（　）、{親切|しんせつ}な{人|ひと}が{来|き}てくれた。",
+      "options": [
+        "ところが",
+        "ところを",
+        "ところへ",
+        "ところと"
+      ],
+      "answer": 2,
+      "explanation": "**ところへ** (someone arrives).",
+      "notes": [
+        "ところが = 'however'.",
+        "ところを doesn't fit 来てくれた.",
+        "",
+        "ところと isn't the pattern."
+      ],
+      "translation": "Just when I was lost and in trouble, a kind person came along."
+    },
+    {
+      "point": "temae",
+      "prompt": "{約束|やくそく}した（　）、{行|い}かないわけにはいかない。",
+      "options": [
+        "{手間|てま}",
+        "{手前|てまえ}",
+        "{手元|てもと}",
+        "{手順|てじゅん}"
+      ],
+      "answer": 1,
+      "explanation": "Because (one's word/face): **手前**.",
+      "notes": [
+        "手間 = 'trouble, effort'.",
+        "",
+        "手元 = 'at hand'.",
+        "手順 = 'procedure'."
+      ],
+      "translation": "Having promised, I can't not go."
+    },
+    {
+      "point": "temae",
+      "prompt": "{子供|こども}の（　）、{親|おや}がけんかするわけにはいかない。",
+      "options": [
+        "{手前|てまえ}",
+        "{手間|てま}",
+        "{手元|てもと}",
+        "{手首|てくび}"
+      ],
+      "answer": 0,
+      "explanation": "In front of: **の手前**.",
+      "notes": [
+        "",
+        "手間 = 'effort'.",
+        "手元 = 'at hand'.",
+        "手首 = 'wrist'."
+      ],
+      "translation": "In front of the children, parents can't be seen fighting."
+    }
+  ]
+}

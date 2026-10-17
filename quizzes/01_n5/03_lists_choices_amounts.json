@@ -1,0 +1,372 @@
+{
+  "id": "n5-lists-choices-amounts",
+  "category": "JLPT N5",
+  "title": "や, か (or), だけ & くらい",
+  "description": "Incomplete lists with や, choices with か, limiting with だけ, and approximations with くらい/ぐらい (vs. ごろ).",
+  "level": "N5",
+  "points": [
+    {
+      "id": "ya",
+      "title": "や: and (among other things)",
+      "summary": "Noun や noun lists a few examples from a larger group: 'A, B and so on'. Often paired with など.",
+      "body": "**や** joins nouns like と does, but it says the list is **incomplete**: these are just examples.\n- 本**と**ペンがあります: there's a book and a pen (that's all).\n- 本**や**ペンがあります: there are things like books and pens (and other stuff).\n\nや is often followed by **など** at the end of the list: 本やペンなどがあります.\n\nや only connects **nouns**. It can't join verbs or adjectives (for those, use the て-form or たり, the latter at N4).",
+      "examples": [
+        [
+          "かばんの{中|なか}に{本|ほん}や{財布|さいふ}などがあります。",
+          "In my bag there are books, a wallet and so on."
+        ],
+        [
+          "{休|やす}みの{日|ひ}は{掃除|そうじ}や{洗濯|せんたく}をします。",
+          "On my days off I do things like cleaning and laundry."
+        ]
+      ]
+    },
+    {
+      "id": "ka-or",
+      "title": "か (1): or",
+      "summary": "A か B = 'A or B', a choice between options. It often appears as AかBか.",
+      "body": "Placed **between nouns**, か means 'or': コーヒー**か**紅茶 (coffee or tea).\n\nYou'll also see it repeated after each option: 月曜日**か**火曜日**か**.\n\nOn its own, か at the end of a sentence makes a question (an easy point not covered here). With question words, か makes 'some-' words: なにか (something), だれか (someone), どこか (somewhere), いつか (sometime).\n\nDon't mix up か (or) with と (and): コーヒーと紅茶を飲みます = I drink both. コーヒーか紅茶を飲みます = I drink one of the two.",
+      "examples": [
+        [
+          "ペンか{鉛筆|えんぴつ}で{書|か}いてください。",
+          "Please write with a pen or a pencil."
+        ],
+        [
+          "{明日|あした}か{明後日|あさって}、{電話|でんわ}します。",
+          "I'll call tomorrow or the day after."
+        ],
+        [
+          "{何|なに}か{飲|の}みますか。",
+          "Will you drink something?"
+        ]
+      ]
+    },
+    {
+      "id": "dake",
+      "title": "だけ: only, just",
+      "summary": "だけ limits something to exactly this amount or thing. It works with positive or negative verbs (unlike しか).",
+      "body": "**だけ** follows nouns, numbers and verbs to say 'only / just this much':\n- 水**だけ**飲みました (I only drank water).\n- 一人**だけ**来ました (only one person came).\n- 見る**だけ**です (I'm just looking).\n\nParticles が and を usually disappear after だけ (水だけ飲む), while に, で, と stay: 友達に**だけ**話しました.\n\n**だけ vs しか (N4):** しか always needs a **negative** verb: 水しか飲みません. だけ is neutral, while しか stresses that it's 'not enough'. A common mistake is しか with a positive verb.",
+      "examples": [
+        [
+          "{朝|あさ}はコーヒーだけ{飲|の}みます。",
+          "In the morning I only drink coffee."
+        ],
+        [
+          "{日本語|にほんご}は{少|すこ}しだけ{話|はな}せます。",
+          "I can speak just a little Japanese."
+        ],
+        [
+          "{見|み}るだけです。",
+          "I'm just looking. (in a shop)"
+        ]
+      ]
+    },
+    {
+      "id": "kurai",
+      "title": "くらい / ぐらい: about, approximately",
+      "summary": "Amount + くらい/ぐらい = 'about'. For points in time, ごろ is standard instead: 3時ごろ.",
+      "body": "**くらい** and **ぐらい** are interchangeable and mean 'about, roughly' after a **quantity**:\n- 10分**くらい** (about 10 minutes), 千円**ぐらい** (about 1,000 yen), 三人**くらい** (about three people).\n\n**くらい vs ごろ:**\n- **ごろ** = around a **point** in time: 3時**ごろ** (around 3 o'clock), 5月**ごろ**.\n- **くらい** = about an **amount** or duration: 3時間**くらい** (for about 3 hours).\n\nAsking 'how much / how long?' you can say どのくらい or どれぐらい: 駅までどのくらいかかりますか.\n\nくらい can also express extent ('so … that'), which is covered at higher levels.",
+      "examples": [
+        [
+          "{駅|えき}まで{歩|ある}いて10{分|ぷん}くらいです。",
+          "It's about a 10-minute walk to the station."
+        ],
+        [
+          "{毎日|まいにち}2{時間|じかん}ぐらい{勉強|べんきょう}します。",
+          "I study for about two hours every day."
+        ],
+        [
+          "3{時|じ}ごろ{来|き}てください。",
+          "Please come around 3 o'clock."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "ya",
+      "prompt": "かばんの{中|なか}に{本|ほん}（　）ペンなどがあります。",
+      "options": [
+        "の",
+        "や",
+        "を",
+        "も"
+      ],
+      "answer": 1,
+      "explanation": "**や…など** lists examples from a larger set: 'books, pens and so on'.",
+      "notes": [
+        "本のペン would mean 'the book's pen'.",
+        "",
+        "を marks an object, but ある has none.",
+        "本もペンなど is ungrammatical. も means 'also' and doesn't make a list with など."
+      ],
+      "translation": "In the bag there are books, pens and so on."
+    },
+    {
+      "point": "ya",
+      "prompt": "Which sentence says there are **other things too**?",
+      "options": [
+        "{机|つくえ}の{上|うえ}に{本|ほん}もノートもあります。",
+        "{机|つくえ}の{上|うえ}に{本|ほん}とノートがあります。",
+        "{机|つくえ}の{上|うえ}に{本|ほん}やノートがあります。",
+        "{机|つくえ}の{上|うえ}に{本|ほん}かノートがあります。"
+      ],
+      "answer": 2,
+      "explanation": "**や** signals an incomplete list. Other things may be on the desk too.",
+      "notes": [
+        "AもBも means 'both A and B' and stresses both, not that there are other things.",
+        "と gives a complete list: exactly a book and a notebook.",
+        "",
+        "か means 'or', so either a book or a notebook is there."
+      ],
+      "translation": "There are a book, a notebook and so on on the desk."
+    },
+    {
+      "point": "ya",
+      "prompt": "{休|やす}みの{日|ひ}は{掃除|そうじ}（　）{洗濯|せんたく}などをします。",
+      "options": [
+        "を",
+        "や",
+        "が",
+        "も"
+      ],
+      "answer": 1,
+      "explanation": "**や…など** = 'things like A and B'.",
+      "notes": [
+        "を marks the object. It belongs after など, not between the two nouns.",
+        "",
+        "が would make cleaning the subject.",
+        "掃除も洗濯など doesn't work. も doesn't build a list with など."
+      ],
+      "translation": "On days off, I do things like cleaning and laundry."
+    },
+    {
+      "point": "ka-or",
+      "prompt": "{飲|の}み{物|もの}はコーヒー（　）{紅茶|こうちゃ}、どちらがいいですか。",
+      "options": [
+        "の",
+        "や",
+        "か",
+        "も"
+      ],
+      "answer": 2,
+      "explanation": "**AかB** offers a choice: 'coffee or tea'.",
+      "notes": [
+        "コーヒーの紅茶 means 'coffee's tea'.",
+        "や lists examples ('coffee, tea, etc.'). It doesn't present two options to choose between with どちら.",
+        "",
+        "コーヒーも紅茶 doesn't offer a choice."
+      ],
+      "translation": "Would you prefer coffee or tea to drink?"
+    },
+    {
+      "point": "ka-or",
+      "prompt": "ペン（　）{鉛筆|えんぴつ}で{書|か}いてください。",
+      "options": [
+        "も",
+        "が",
+        "の",
+        "か"
+      ],
+      "answer": 3,
+      "explanation": "**か** = 'or'. Use one of the two to write.",
+      "notes": [
+        "ペンも鉛筆で is ungrammatical. も would need to follow both nouns.",
+        "ペンが鉛筆で would make the pen the subject.",
+        "ペンの鉛筆 means 'the pen's pencil'.",
+        ""
+      ],
+      "translation": "Please write with a pen or a pencil."
+    },
+    {
+      "point": "ka-or",
+      "prompt": "{明日|あした}（　）{明後日|あさって}、{電話|でんわ}します。",
+      "options": [
+        "も",
+        "か",
+        "や",
+        "の"
+      ],
+      "answer": 1,
+      "explanation": "One of the two days, so **か** ('or').",
+      "notes": [
+        "も would need to follow both days (明日も明後日も), and it means 'both'.",
+        "",
+        "や lists examples and doesn't fit two specific days.",
+        "明日の明後日 means 'tomorrow's day-after-tomorrow', which is nonsense."
+      ],
+      "translation": "I'll call you tomorrow or the day after."
+    },
+    {
+      "point": "dake",
+      "prompt": "{朝|あさ}は{水|みず}（　）{飲|の}みました。",
+      "options": [
+        "だけしか",
+        "しかだけ",
+        "しか",
+        "だけ"
+      ],
+      "answer": 3,
+      "explanation": "**だけ** = 'only' and works with a positive verb.",
+      "notes": [
+        "だけしか is emphatic, but it also needs a negative verb.",
+        "しかだけ isn't a valid combination.",
+        "しか needs a negative verb (水しか飲みませんでした). 飲みました is positive.",
+        ""
+      ],
+      "translation": "In the morning I only drank water."
+    },
+    {
+      "point": "dake",
+      "prompt": "（Only one person came.）パーティーには{一人|ひとり}（　）{来|き}ませんでした。",
+      "options": [
+        "だけ",
+        "しか",
+        "が",
+        "も"
+      ],
+      "answer": 1,
+      "explanation": "With a **negative** verb, 'only one person came' is **しか…ない**. しか is the N4 partner of だけ.",
+      "notes": [
+        "一人だけ来ませんでした means 'just one person didn't come', a different meaning.",
+        "",
+        "一人が来ませんでした isn't natural with a number like this.",
+        "一人も来ませんでした means 'not a single person came'. That's grammatical, but it means nobody came, which isn't the intended meaning."
+      ],
+      "translation": "Only one person came to the party."
+    },
+    {
+      "point": "dake",
+      "prompt": "（{店|みせ}で）すみません、{見|み}る（　）です。",
+      "options": [
+        "くらい",
+        "ほど",
+        "しか",
+        "だけ"
+      ],
+      "answer": 3,
+      "explanation": "Verb + **だけ** = 'just (doing)'.",
+      "notes": [
+        "くらい means 'about', which makes no sense here.",
+        "ほど means 'extent' and doesn't fit.",
+        "しか needs a negative verb.",
+        ""
+      ],
+      "translation": "(In a shop) Sorry, I'm just looking."
+    },
+    {
+      "point": "kurai",
+      "prompt": "{駅|えき}まで{歩|ある}いて10{分|ぷん}（　）です。",
+      "options": [
+        "ごろ",
+        "まで",
+        "くらい",
+        "くらいに"
+      ],
+      "answer": 2,
+      "explanation": "A duration (10 minutes) plus 'about' is **くらい**.",
+      "notes": [
+        "ごろ is for points in time (3時ごろ), not durations.",
+        "10分まで would mean 'until 10 minutes'.",
+        "",
+        "くらいに can't be followed by です here."
+      ],
+      "translation": "It's about a 10-minute walk to the station."
+    },
+    {
+      "point": "kurai",
+      "prompt": "{昨日|きのう}は3{時|じ}（　）{寝|ね}ました。",
+      "options": [
+        "だけ",
+        "まで",
+        "くらい",
+        "ごろ"
+      ],
+      "answer": 3,
+      "explanation": "For a **point in time**, 'around' is **ごろ**: 3時ごろ (around 3 o'clock).",
+      "notes": [
+        "3時だけ寝ました would mean 'slept only at 3'.",
+        "3時まで寝ました means 'slept until 3', a different meaning.",
+        "In standard Japanese, くらい goes with amounts and durations. 3時くらい is heard in speech, but ごろ is the correct choice for a time point.",
+        ""
+      ],
+      "translation": "I went to bed around 3 o'clock yesterday."
+    },
+    {
+      "point": "kurai",
+      "prompt": "{毎日|まいにち}どの（　）{勉強|べんきょう}しますか。—2{時間|じかん}ぐらいです。",
+      "options": [
+        "まで",
+        "ごろ",
+        "くらい",
+        "だけ"
+      ],
+      "answer": 2,
+      "explanation": "**どのくらい** asks 'how long / how much?'.",
+      "notes": [
+        "どのまで isn't a word.",
+        "どのごろ isn't a word.",
+        "",
+        "どのだけ isn't a word."
+      ],
+      "translation": "How long do you study every day? — About two hours."
+    },
+    {
+      "point": "ka-or",
+      "prompt": "{日曜日|にちようび}は{本|ほん}を{読|よ}む（　）、{映画|えいが}を{見|み}ます。",
+      "options": [
+        "と",
+        "か",
+        "も",
+        "や"
+      ],
+      "answer": 1,
+      "explanation": "**か** can also join verb phrases: 'read a book **or** watch a movie'.",
+      "notes": [
+        "と only joins nouns.",
+        "",
+        "読むも isn't grammatical.",
+        "や only joins nouns, not verbs."
+      ],
+      "translation": "On Sundays I read a book or watch a movie."
+    },
+    {
+      "point": "ka-or",
+      "prompt": "{何|なに}（　）{飲|の}みますか。—はい、お{茶|ちゃ}をください。",
+      "options": [
+        "が",
+        "の",
+        "も",
+        "か"
+      ],
+      "answer": 3,
+      "explanation": "**なにか** = something. The はい answer shows it's a yes/no question.",
+      "notes": [
+        "何が飲みますか isn't grammatical — the drinker isn't 'what'.",
+        "何の飲みます isn't grammatical.",
+        "何も needs a negative verb.",
+        ""
+      ],
+      "translation": "Will you have something to drink? — Yes, tea please."
+    },
+    {
+      "point": "dake",
+      "prompt": "{日本語|にほんご}は{少|すこ}し（　）{話|はな}せます。",
+      "options": [
+        "も",
+        "しか",
+        "だけ",
+        "ほど"
+      ],
+      "answer": 2,
+      "explanation": "**だけ** with a positive verb: 'just a little'.",
+      "notes": [
+        "少しも needs a negative ('not even a little').",
+        "しか needs a negative verb (少ししか話せません).",
+        "",
+        "少しほど isn't natural."
+      ],
+      "translation": "I can speak just a little Japanese."
+    }
+  ]
+}

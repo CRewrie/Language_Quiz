@@ -1,0 +1,241 @@
+{
+  "id": "zh-b2-hsk4",
+  "category": "Mandarin B2",
+  "language": "zh",
+  "title": "HSK 4 Practice: 选词填空, 排列顺序, 阅读理解",
+  "description": "HSK-4-style practice with this batch: a word bank of connectors, ordering three sentence parts, and short readings.",
+  "level": "B2",
+  "points": [
+    {
+      "id": "xuanci4",
+      "title": "选词填空 (HSK 4)",
+      "summary": "Word bank: 既然, 只要, 千万, 毕竟, 即使, 反而.",
+      "body": "- 既然 + known fact，就 ….\n- 只要 + sufficient condition，就 ….\n- 千万 + 别 / 要.\n- 毕竟 = after all.",
+      "examples": [
+        [
+          "{既然|jìrán}{你|nǐ}{已经|yǐjīng}{来|lái}{了|le}，{就|jiù}{一起|yìqǐ}{吃饭|chīfàn}{吧|ba}。",
+          "Since you're here already, let's eat together."
+        ]
+      ]
+    },
+    {
+      "id": "paixu4",
+      "title": "排列顺序 (HSK 4)",
+      "summary": "HSK 4 reading part 2: order three parts. Look for pairs (本来…可是…所以, 不但没…反而) and for parts that can't open a text.",
+      "body": "- 于是, 所以, 可是, 反而 never start the text.\n- 从小 / 本来 often set the scene.",
+      "examples": [
+        [
+          "{本来|běnlái}{打算|dǎsuàn}{今天|jīntiān}{去|qù}，{可是|kěshì}{下雨|xià yǔ}{了|le}。",
+          "I'd planned to go today, but it rained."
+        ]
+      ]
+    },
+    {
+      "id": "yuedu4",
+      "title": "阅读理解 (HSK 4)",
+      "summary": "Find the sentence with the connector the question hinges on: 由于 / 因此 for reasons, 自从 for changes, 只有…才 for the main message.",
+      "body": "- The 'main idea' question usually matches the 只有…才 / 应该 sentence.",
+      "examples": [
+        [
+          "{只有|zhǐyǒu}{亲自|qīnzì}{去|qù}{过|guo}，{你|nǐ}{才|cái}{会|huì}{知道|zhīdào}。",
+          "Only once you've been there yourself will you know."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "xuanci4",
+      "prompt": "（　）{你|nǐ}{已经|yǐjīng}{来|lái}{了|le}，{就|jiù}{一起|yìqǐ}{吃饭|chīfàn}{吧|ba}。",
+      "options": [
+        "{反而|fǎn'ér}",
+        "{既然|jìrán}",
+        "{只要|zhǐyào}",
+        "{即使|jíshǐ}"
+      ],
+      "answer": 1,
+      "explanation": "Since (known fact): **既然**.",
+      "notes": [
+        "反而 = 'on the contrary'.",
+        "",
+        "只要 is for a condition, not a known fact.",
+        "即使 pairs with 也."
+      ],
+      "translation": "Since you're here already, let's eat together."
+    },
+    {
+      "point": "xuanci4",
+      "prompt": "（　）{有|yǒu}{时间|shíjiān}，{我|wǒ}{就|jiù}{去|qù}{看|kàn}{你|nǐ}。",
+      "options": [
+        "{只要|zhǐyào}",
+        "{反而|fǎn'ér}",
+        "{毕竟|bìjìng}",
+        "{千万|qiānwàn}"
+      ],
+      "answer": 0,
+      "explanation": "As long as: **只要…就**.",
+      "notes": [
+        "",
+        "反而 = 'on the contrary'.",
+        "毕竟 = 'after all'.",
+        "千万 = 'be sure to'."
+      ],
+      "translation": "As long as I have time, I'll come and see you."
+    },
+    {
+      "point": "xuanci4",
+      "prompt": "{这|zhè}{件|jiàn}{事|shì}{你|nǐ}（　）{别|bié}{告诉|gàosu}{他|tā}，{他|tā}{会|huì}{生气|shēngqì}{的|de}。",
+      "options": [
+        "{毕竟|bìjìng}",
+        "{即使|jíshǐ}",
+        "{千万|qiānwàn}",
+        "{反而|fǎn'ér}"
+      ],
+      "answer": 2,
+      "explanation": "Whatever you do: **千万别**.",
+      "notes": [
+        "毕竟 = 'after all'.",
+        "即使 needs 也.",
+        "",
+        "反而 = 'on the contrary'."
+      ],
+      "translation": "Whatever you do, don't tell him about this — he'll be angry."
+    },
+    {
+      "point": "xuanci4",
+      "prompt": "{别|bié}{怪|guài}{他|tā}{了|le}，{他|tā}（　）{是|shì}{第一|dì-yī}{次|cì}{做|zuò}。",
+      "options": [
+        "{千万|qiānwàn}",
+        "{毕竟|bìjìng}",
+        "{只要|zhǐyào}",
+        "{反而|fǎn'ér}"
+      ],
+      "answer": 1,
+      "explanation": "After all: **毕竟**.",
+      "notes": [
+        "千万 = 'be sure to'.",
+        "",
+        "只要 = 'as long as'.",
+        "反而 = 'on the contrary'."
+      ],
+      "translation": "Don't blame him — it's his first time, after all."
+    },
+    {
+      "point": "paixu4",
+      "prompt": "Put the parts in order:\nA　{所以|suǒyǐ}{我们|wǒmen}{决定|juédìng}{改天|gǎitiān}{再|zài}{去|qù}\nB　{本来|běnlái}{打算|dǎsuàn}{今天|jīntiān}{去|qù}{爬山|páshān}{的|de}\nC　{可是|kěshì}{早上|zǎoshang}{起来|qǐlái}{发现|fāxiàn}{下雨|xià yǔ}{了|le}",
+      "options": [
+        "ACB",
+        "BAC",
+        "BCA",
+        "CAB"
+      ],
+      "answer": 2,
+      "explanation": "**B** 本来 → **C** 可是 → **A** 所以.",
+      "notes": [
+        "所以 can't open the text.",
+        "The rain (C) is the reason for 所以 — it must come before A.",
+        "",
+        "可是 can't open the text."
+      ],
+      "translation": "We'd planned to go hiking today, but when we got up it was raining, so we decided to go another day.",
+      "fixed_order": true
+    },
+    {
+      "point": "paixu4",
+      "prompt": "Put the parts in order:\nA　{于是|yúshì}{他|tā}{决定|juédìng}{去|qù}{中国|Zhōngguó}{留学|liúxué}\nB　{他|tā}{从小|cóngxiǎo}{就|jiù}{对|duì}{中国|Zhōngguó}{文化|wénhuà}{很|hěn}{感兴趣|gǎn xìngqù}\nC　{大学|dàxué}{毕业|bìyè}{以后|yǐhòu}",
+      "options": [
+        "ABC",
+        "BCA",
+        "CAB",
+        "CBA"
+      ],
+      "answer": 1,
+      "explanation": "**B** 从小… **C** 大学毕业以后，**A** 于是….",
+      "notes": [
+        "于是 can't open the text.",
+        "",
+        "C + 于是 leaves out who 'he' is — B introduces him.",
+        "从小 doesn't fit after 大学毕业以后."
+      ],
+      "translation": "He's been interested in Chinese culture since he was little, so after graduating he decided to study in China.",
+      "fixed_order": true
+    },
+    {
+      "point": "paixu4",
+      "prompt": "Put the parts in order:\nA　{反而|fǎn'ér}{越来越|yuè lái yuè}{胖|pàng}{了|le}\nB　{她|tā}{每天|měitiān}{都|dōu}{在|zài}{减肥|jiǎnféi}\nC　{可是|kěshì}{不但|búdàn}{没|méi}{瘦|shòu}",
+      "options": [
+        "ABC",
+        "ACB",
+        "BCA",
+        "CBA"
+      ],
+      "answer": 2,
+      "explanation": "**B** → **C** 不但没瘦 → **A** 反而更胖.",
+      "notes": [
+        "反而 can't open the text.",
+        "反而 can't open the text.",
+        "",
+        "可是 can't open the text."
+      ],
+      "translation": "She's on a diet every day, but instead of losing weight she keeps getting heavier.",
+      "fixed_order": true
+    },
+    {
+      "point": "yuedu4",
+      "prompt": "{很|hěn}{多|duō}{人|rén}{以为|yǐwéi}{熊猫|xióngmāo}{只|zhǐ}{吃|chī}{竹子|zhúzi}，{其实|qíshí}{熊猫|xióngmāo}{偶尔|ǒu'ěr}{也|yě}{吃|chī}{肉|ròu}。{不过|búguò}，{由于|yóuyú}{竹子|zhúzi}{到处|dàochù}{都|dōu}{是|shì}，{而且|érqiě}{很|hěn}{容易|róngyì}{得到|dédào}，{因此|yīncǐ}{竹子|zhúzi}{就|jiù}{成|chéng}{了|le}{它们|tāmen}{最|zuì}{主要|zhǔyào}{的|de}{食物|shíwù}。\n\n★ {熊猫|xióngmāo}{为什么|wèishénme}{主要|zhǔyào}{吃|chī}{竹子|zhúzi}？",
+      "options": [
+        "{竹子|zhúzi}{很|hěn}{好吃|hǎochī}",
+        "{竹子|zhúzi}{很|hěn}{容易|róngyì}{得到|dédào}",
+        "{熊猫|xióngmāo}{不|bù}{能|néng}{吃|chī}{肉|ròu}",
+        "{熊猫|xióngmāo}{只|zhǐ}{吃|chī}{竹子|zhúzi}"
+      ],
+      "answer": 1,
+      "explanation": "由于 … **很容易得到**，因此 ….",
+      "notes": [
+        "Taste isn't mentioned.",
+        "",
+        "偶尔也吃肉 — they sometimes eat meat.",
+        "That's what many people wrongly think (以为)."
+      ],
+      "translation": "Many people think pandas only eat bamboo, but they occasionally eat meat too. Because bamboo is everywhere and easy to get, it became their main food. ★ Why do pandas mainly eat bamboo?"
+    },
+    {
+      "point": "yuedu4",
+      "prompt": "{我|wǒ}{本来|běnlái}{不|bù}{喜欢|xǐhuan}{运动|yùndòng}，{可是|kěshì}{自从|zìcóng}{去年|qùnián}{开始|kāishǐ}{跑步|pǎobù}{以后|yǐhòu}，{我|wǒ}{发现|fāxiàn}{自己|zìjǐ}{的|de}{身体|shēntǐ}{越来越|yuè lái yuè}{好|hǎo}，{心情|xīnqíng}{也|yě}{好|hǎo}{多|duō}{了|le}。{现在|xiànzài}，{即使|jíshǐ}{工作|gōngzuò}{再|zài}{忙|máng}，{我|wǒ}{也|yě}{会|huì}{每天|měitiān}{跑|pǎo}{半|bàn}{个|ge}{小时|xiǎoshí}。\n\n★ {关于|guānyú}“{我|wǒ}”，{可以|kěyǐ}{知道|zhīdào}：",
+      "options": [
+        "{工作|gōngzuò}{不|bù}{忙|máng}",
+        "{一直|yìzhí}{很|hěn}{喜欢|xǐhuan}{运动|yùndòng}",
+        "{现在|xiànzài}{每天|měitiān}{都|dōu}{跑步|pǎobù}",
+        "{去年|qùnián}{才|cái}{开始|kāishǐ}{工作|gōngzuò}"
+      ],
+      "answer": 2,
+      "explanation": "即使…也会**每天跑**.",
+      "notes": [
+        "即使工作再忙 implies work is busy.",
+        "本来不喜欢 — originally didn't like it.",
+        "",
+        "Running started last year, not work."
+      ],
+      "translation": "I didn't use to like exercise, but since I started running last year I've become healthier and happier. Now I run half an hour every day, however busy work is. ★ What do we know about the speaker?"
+    },
+    {
+      "point": "yuedu4",
+      "prompt": "{只有|zhǐyǒu}{亲自|qīnzì}{去|qù}{过|guo}，{你|nǐ}{才|cái}{会|huì}{知道|zhīdào}{那个|nàge}{地方|dìfang}{有|yǒu}{多|duō}{美|měi}。{照片|zhàopiàn}{上|shang}{的|de}{风景|fēngjǐng}{虽然|suīrán}{漂亮|piàoliang}，{但是|dànshì}{跟|gēn}{真|zhēn}{的|de}{比|bǐ}{起来|qǐlái}，{还是|háishi}{差|chà}{很|hěn}{多|duō}。\n\n★ {这|zhè}{段|duàn}{话|huà}{主要|zhǔyào}{想|xiǎng}{告诉|gàosu}{我们|wǒmen}：",
+      "options": [
+        "{应该|yīnggāi}{亲自|qīnzì}{去|qù}{看看|kànkan}",
+        "{照片|zhàopiàn}{很|hěn}{难|nán}{拍|pāi}",
+        "{照片|zhàopiàn}{比|bǐ}{真|zhēn}{的|de}{漂亮|piàoliang}",
+        "{那个|nàge}{地方|dìfang}{不|bú}{太|tài}{美|měi}"
+      ],
+      "answer": 0,
+      "explanation": "Main message: **只有亲自去过，才…**.",
+      "notes": [
+        "",
+        "Taking photos isn't the point.",
+        "差很多 — photos fall far short.",
+        "It's very beautiful."
+      ],
+      "translation": "Only if you've been there yourself will you know how beautiful it is. The photos are pretty, but compared with the real thing they fall far short. ★ What is the main message?"
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "id": "n4-compound-verbs",
+  "category": "JLPT N4",
+  "title": "Stem + Verb: 始める, 終わる, 続ける, 出す, すぎる, やすい, にくい, 方",
+  "description": "Things you attach to the ます-stem: start, finish, keep on, suddenly start, too much, easy/hard to, and 'the way of doing'.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "hajimeru",
+      "title": "〜始める: start doing",
+      "summary": "ます-stem + 始める (はじめる). Always the transitive 始める — even for rain, crying etc. (✗ 降り始まる).",
+      "body": "- 去年から日本語を勉強し**始めました**.\n- 雨が降り**始めました**.\n\nThe helper is always **始める** (ichidan), even when the subject is not a person: 雨が降り**始める** ✓, ✗ 降り始まる.\n\nConjugates normally: 始めます, 始めた, 始めて.\n\nSee also 〜出す (suddenly start).",
+      "examples": [
+        [
+          "{去年|きょねん}から{日本語|にほんご}を{勉強|べんきょう}し{始|はじ}めました。",
+          "I started studying Japanese last year."
+        ],
+        [
+          "{雨|あめ}が{降|ふ}り{始|はじ}めました。",
+          "It started to rain."
+        ]
+      ]
+    },
+    {
+      "id": "owaru",
+      "title": "〜終わる: finish doing",
+      "summary": "ます-stem + 終わる (おわる) = finish doing something completely. (〜終える is a slightly more formal transitive variant.)",
+      "body": "- この本はもう読み**終わりました**.\n- 食べ**終わった**ら、食器を洗ってください.\n\nThe helper is usually **終わる** (godan: 終わります, 終わった, 終わって). 〜終える (読み終える) also exists and is a bit more formal.\n\nOpposite: 〜始める.",
+      "examples": [
+        [
+          "この{本|ほん}はもう{読|よ}み{終|お}わりました。",
+          "I've already finished reading this book."
+        ],
+        [
+          "{食|た}べ{終|お}わったら、{食器|しょっき}を{洗|あら}ってください。",
+          "When you've finished eating, please wash the dishes."
+        ]
+      ]
+    },
+    {
+      "id": "tsuzukeru",
+      "title": "〜続ける: keep on doing",
+      "summary": "ます-stem + 続ける (つづける) = continue doing.",
+      "body": "- 彼は3時間も話し**続けました**.\n- これからも日本語を勉強し**続けたい**.\n\n**続ける** is ichidan: 続けます, 続けた, 続けて.\n\n(〜続く with intransitive verbs like 雨が降り続く also exists, but 〜続ける is the general pattern to learn.)",
+      "examples": [
+        [
+          "{彼|かれ}は3{時間|じかん}も{話|はな}し{続|つづ}けました。",
+          "He kept on talking for three whole hours."
+        ],
+        [
+          "これからも{日本語|にほんご}を{勉強|べんきょう}し{続|つづ}けたいです。",
+          "I want to keep studying Japanese from now on too."
+        ]
+      ]
+    },
+    {
+      "id": "dasu",
+      "title": "〜出す: suddenly start",
+      "summary": "ます-stem + 出す (だす) = start doing — usually suddenly or unexpectedly.",
+      "body": "- 急に雨が降り**出しました** (it suddenly started to rain).\n- 赤ちゃんが泣き**出した** (the baby burst into tears).\n\n**出す vs 始める:** 出す stresses suddenness and is mostly used for things outside your control (weather, emotions, someone else). For deliberate starts (studying, a job), use 始める: ✗ 勉強し出した (sounds odd).\n\n出す is godan: 出します, 出した, 出して.",
+      "examples": [
+        [
+          "{急|きゅう}に{雨|あめ}が{降|ふ}り{出|だ}しました。",
+          "Suddenly it started to rain."
+        ],
+        [
+          "{赤|あか}ちゃんが{泣|な}き{出|だ}しました。",
+          "The baby burst into tears."
+        ]
+      ]
+    },
+    {
+      "id": "sugiru",
+      "title": "〜すぎる: too much",
+      "summary": "Verb stem / い-adj without い / な-adj stem + すぎる. Irregular: いい → よすぎる, ない → なさすぎる.",
+      "body": "**Formation:**\n- Verb: ます-stem: 飲み**すぎる**, 食べ**すぎる**\n- い-adjective: drop い: 高**すぎる**, 狭**すぎる**\n- な-adjective: stem: 簡単**すぎる**, 静か**すぎる**\n- Irregular: いい → **よすぎる**; ない / 〜くない → **なさすぎる** (つまらな**さ**すぎる is wrong — only for ない itself)\n\nすぎる is ichidan: すぎます, すぎた, すぎて (te-form often gives a reason: 食べすぎて、おなかが痛い).",
+      "examples": [
+        [
+          "{昨日|きのう}はお{酒|さけ}を{飲|の}みすぎました。",
+          "I drank too much yesterday."
+        ],
+        [
+          "この{部屋|へや}は{狭|せま}すぎます。",
+          "This room is too small."
+        ]
+      ]
+    },
+    {
+      "id": "yasui",
+      "title": "〜やすい: easy to, likely to",
+      "summary": "ます-stem + やすい = easy to do (or tends to happen). Conjugates as an い-adjective.",
+      "body": "- この辞書は使い**やすい** (easy to use).\n- 冬は風邪をひき**やすい** (you catch colds easily in winter — 'tends to').\n\nい-adjective conjugation: 書き**やすくない**, 書き**やすかった**, 書き**やすくて**.\n\nOpposite: 〜にくい.",
+      "examples": [
+        [
+          "この{辞書|じしょ}はとても{使|つか}いやすいです。",
+          "This dictionary is very easy to use."
+        ],
+        [
+          "{冬|ふゆ}は{風邪|かぜ}をひきやすいです。",
+          "You catch colds easily in winter."
+        ]
+      ]
+    },
+    {
+      "id": "nikui",
+      "title": "〜にくい: hard to",
+      "summary": "ます-stem + にくい = difficult to do (physically/practically). Conjugates as an い-adjective.",
+      "body": "- この薬は苦くて飲み**にくい**.\n- 字が小さくて読み**にくい**.\n\nい-adjective conjugation: 読み**にくくない**, 読み**にくかった**.\n\n(〜づらい means much the same, with a nuance of discomfort; you'll meet it at N3.)",
+      "examples": [
+        [
+          "この{薬|くすり}は{苦|にが}くて{飲|の}みにくいです。",
+          "This medicine is bitter and hard to swallow."
+        ],
+        [
+          "{字|じ}が{小|ちい}さくて{読|よ}みにくいです。",
+          "The letters are small and hard to read."
+        ]
+      ]
+    },
+    {
+      "id": "kata",
+      "title": "〜方: the way of doing, how to",
+      "summary": "ます-stem + 方 (かた) = 'way of …'. する-verbs: noun + の + 仕方 (しかた). The object takes の: 漢字の書き方.",
+      "body": "- 書き**方** (how to write), 使い**方** (how to use), 行き**方** (how to get there).\n- The object becomes **の**: 漢字**を**書く → 漢字**の**書き方.\n- する-verbs: 勉強する → 勉強**の仕方** (しかた) (✗ 勉強し方).\n\nTypical requests: 〜の〜方を教えてください.",
+      "examples": [
+        [
+          "この{漢字|かんじ}の{書|か}き{方|かた}を{教|おし}えてください。",
+          "Please teach me how to write this kanji."
+        ],
+        [
+          "{駅|えき}への{行|い}き{方|かた}がわかりません。",
+          "I don't know how to get to the station."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "hajimeru",
+      "prompt": "{去年|きょねん}から{日本語|にほんご}を{勉強|べんきょう}し（　）。",
+      "options": [
+        "{始|はじ}めりました",
+        "{始|はじ}まえました",
+        "{始|はじ}めました",
+        "{始|はじ}まりました"
+      ],
+      "answer": 2,
+      "explanation": "Stem + **始める** → 始めました.",
+      "notes": [
+        "始める is ichidan: 始めました.",
+        "始まえる isn't a verb.",
+        "",
+        "The helper is always 始める, not 始まる."
+      ],
+      "translation": "I started studying Japanese last year."
+    },
+    {
+      "point": "hajimeru",
+      "prompt": "{雨|あめ}が（　）{始|はじ}めました。",
+      "options": [
+        "{降|ふ}る",
+        "{降|ふ}り",
+        "{降|ふ}ら",
+        "{降|ふ}って"
+      ],
+      "answer": 1,
+      "explanation": "始める attaches to the **ます-stem**: 降り始める.",
+      "notes": [
+        "The dictionary form doesn't take 始める.",
+        "",
+        "The ない-stem doesn't take 始める.",
+        "The て-form doesn't take 始める."
+      ],
+      "translation": "It started to rain."
+    },
+    {
+      "point": "owaru",
+      "prompt": "この{本|ほん}はもう{読|よ}み（　）。",
+      "options": [
+        "{終|お}えりました",
+        "{終|お}わっりました",
+        "{終|お}わりました",
+        "{終|お}わえました"
+      ],
+      "answer": 2,
+      "explanation": "Stem + **終わる** → 終わりました.",
+      "notes": [
+        "終える is ichidan: 終えました (not 終えりました).",
+        "There's no small っ: 終わりました.",
+        "",
+        "終わえる isn't a verb."
+      ],
+      "translation": "I've already finished reading this book."
+    },
+    {
+      "point": "owaru",
+      "prompt": "{食|た}べ（　）ら、{食器|しょっき}を{洗|あら}ってください。",
+      "options": [
+        "{終|お}わる",
+        "{終|お}わって",
+        "{終|お}わり",
+        "{終|お}わった"
+      ],
+      "answer": 3,
+      "explanation": "たら needs the た-form: 食べ終わっ**た**ら.",
+      "notes": [
+        "たら can't follow the dictionary form.",
+        "てら isn't a form.",
+        "りら isn't a form.",
+        ""
+      ],
+      "translation": "When you've finished eating, please wash the dishes."
+    },
+    {
+      "point": "tsuzukeru",
+      "prompt": "{彼|かれ}は3{時間|じかん}も{話|はな}し（　）。",
+      "options": [
+        "{続|つづ}けました",
+        "{続|つづ}きけました",
+        "{続|つづ}いました",
+        "{続|つづ}けりました"
+      ],
+      "answer": 0,
+      "explanation": "Stem + **続ける** → 続けました.",
+      "notes": [
+        "",
+        "続きける isn't a verb.",
+        "続う isn't a verb.",
+        "続ける is ichidan: 続けました."
+      ],
+      "translation": "He kept on talking for three whole hours."
+    },
+    {
+      "point": "dasu",
+      "prompt": "{急|きゅう}に{雨|あめ}が{降|ふ}り（　）。",
+      "options": [
+        "{出|だ}してしました",
+        "{出|だ}りました",
+        "{出|だ}しました",
+        "{出|で}ました"
+      ],
+      "answer": 2,
+      "explanation": "Suddenly start: stem + **出す** (だす).",
+      "notes": [
+        "してしました isn't a form.",
+        "出す is godan: 出しました, not 出りました.",
+        "",
+        "出る (でる) means 'come out' — the helper is 出す."
+      ],
+      "translation": "Suddenly it started to rain."
+    },
+    {
+      "point": "dasu",
+      "prompt": "{赤|あか}ちゃんが{急|きゅう}に{泣|な}き（　）。",
+      "options": [
+        "{始|はじ}まった",
+        "{出|だ}てた",
+        "{出|で}た",
+        "{出|だ}した"
+      ],
+      "answer": 3,
+      "explanation": "Burst into (crying): **泣き出した**.",
+      "notes": [
+        "The helper is 始める, never 始まる (泣き始めた would be OK).",
+        "出てた isn't a form here.",
+        "出た (でた) means 'came out'.",
+        ""
+      ],
+      "translation": "The baby suddenly burst into tears."
+    },
+    {
+      "point": "sugiru",
+      "prompt": "{昨日|きのう}はお{酒|さけ}を{飲|の}み（　）。",
+      "options": [
+        "すぎいました",
+        "すぎしました",
+        "すぎました",
+        "すぎりました"
+      ],
+      "answer": 2,
+      "explanation": "Stem + **すぎる** → すぎました (ichidan).",
+      "notes": [
+        "すぎいました isn't a form.",
+        "すぎしました isn't a form.",
+        "",
+        "すぎる is ichidan: すぎました."
+      ],
+      "translation": "I drank too much yesterday."
+    },
+    {
+      "point": "sugiru",
+      "prompt": "この{部屋|へや}は{狭|せま}（　）ます。",
+      "options": [
+        "すぎ",
+        "いすぎ",
+        "さすぎ",
+        "くすぎ"
+      ],
+      "answer": 0,
+      "explanation": "い-adjective: drop い + **すぎる**: 狭すぎる.",
+      "notes": [
+        "",
+        "Drop the い: 狭すぎる.",
+        "さ is only inserted for ない/いい (なさすぎる, よさすぎる).",
+        "No く: 狭すぎる."
+      ],
+      "translation": "This room is too small."
+    },
+    {
+      "point": "sugiru",
+      "prompt": "この{問題|もんだい}は{簡単|かんたん}（　）ます。",
+      "options": [
+        "さすぎ",
+        "にすぎ",
+        "すぎ",
+        "なすぎ"
+      ],
+      "answer": 2,
+      "explanation": "な-adjective stem + **すぎる**: 簡単すぎる.",
+      "notes": [
+        "No さ for な-adjectives.",
+        "No に before すぎる.",
+        "",
+        "No な before すぎる."
+      ],
+      "translation": "This problem is too easy."
+    },
+    {
+      "point": "yasui",
+      "prompt": "この{辞書|じしょ}はとても{使|つか}い（　）です。",
+      "options": [
+        "やすいな",
+        "やさしい",
+        "やすいだ",
+        "やすい"
+      ],
+      "answer": 3,
+      "explanation": "Stem + **やすい** = easy to.",
+      "notes": [
+        "やすいな + です isn't grammatical.",
+        "使いやさしい isn't a word — the pattern is やすい.",
+        "い-adjectives never take だ before です.",
+        ""
+      ],
+      "translation": "This dictionary is very easy to use."
+    },
+    {
+      "point": "yasui",
+      "prompt": "{前|まえ}のペンは{書|か}き（　）なかったです。",
+      "options": [
+        "やすく",
+        "やすくて",
+        "やすか",
+        "やすい"
+      ],
+      "answer": 0,
+      "explanation": "やすい is an い-adjective: negative **やすくない** → past やすくなかった.",
+      "notes": [
+        "",
+        "やすくてなかった isn't grammatical.",
+        "やすかなかった isn't a form.",
+        "やすいなかった isn't grammatical."
+      ],
+      "translation": "My old pen wasn't easy to write with."
+    },
+    {
+      "point": "nikui",
+      "prompt": "この{薬|くすり}は{苦|にが}くて{飲|の}み（　）です。",
+      "options": [
+        "にくく",
+        "にくい",
+        "にがい",
+        "にくいな"
+      ],
+      "answer": 1,
+      "explanation": "Stem + **にくい** = hard to.",
+      "notes": [
+        "にくく + です isn't grammatical.",
+        "",
+        "飲みにがい isn't a word (苦い = bitter).",
+        "にくいな + です isn't grammatical."
+      ],
+      "translation": "This medicine is bitter and hard to swallow."
+    },
+    {
+      "point": "nikui",
+      "prompt": "{字|じ}が{小|ちい}さくて、{読|よ}み（　）。",
+      "options": [
+        "にくいだ",
+        "にくいでした",
+        "にくいです",
+        "にくです"
+      ],
+      "answer": 2,
+      "explanation": "い-adjective + です: **にくいです**.",
+      "notes": [
+        "い-adjectives never take だ.",
+        "い-adjectives can't take でした — the past is にくかったです.",
+        "",
+        "The い can't be dropped before です."
+      ],
+      "translation": "The letters are small and hard to read."
+    },
+    {
+      "point": "kata",
+      "prompt": "この{漢字|かんじ}の{書|か}き（　）を{教|おし}えてください。",
+      "options": [
+        "{方法|ほうほう}",
+        "{様|さま}",
+        "{型|かた}",
+        "{方|かた}"
+      ],
+      "answer": 3,
+      "explanation": "Stem + **方 (かた)** = how to.",
+      "notes": [
+        "方法 is a separate noun ('method') — it doesn't attach to a verb stem.",
+        "様 (さま) is an honorific suffix.",
+        "型 (かた) means 'model, mould' — a different kanji.",
+        ""
+      ],
+      "translation": "Please teach me how to write this kanji."
+    },
+    {
+      "point": "kata",
+      "prompt": "{駅|えき}への（　）がわかりません。",
+      "options": [
+        "{行|い}く{方|かた}",
+        "{行|い}って{方|かた}",
+        "{行|い}き{方|かた}",
+        "{行|い}った{方|かた}"
+      ],
+      "answer": 2,
+      "explanation": "ます-stem + 方: **行き方**.",
+      "notes": [
+        "行く方 (いくほう) means 'the side that goes' — not 'how to get there'.",
+        "The て-form can't take 方.",
+        "",
+        "行った方 (いったほう) is used in advice (〜たほうがいい)."
+      ],
+      "translation": "I don't know how to get to the station."
+    },
+    {
+      "point": "kata",
+      "prompt": "{効果的|こうかてき}な（　）を{知|し}りたいです。",
+      "options": [
+        "{勉強|べんきょう}するかた",
+        "{勉強|べんきょう}かた",
+        "{勉強|べんきょう}しりかた",
+        "{勉強|べんきょう}のしかた"
+      ],
+      "answer": 3,
+      "explanation": "する-verbs: noun + の + **しかた** (仕方).",
+      "notes": [
+        "The dictionary form can't take 方.",
+        "A noun can't take 方 directly here.",
+        "しりかた isn't a form.",
+        ""
+      ],
+      "translation": "I want to know an effective way to study."
+    }
+  ]
+}

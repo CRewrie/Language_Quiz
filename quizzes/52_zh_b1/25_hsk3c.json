@@ -1,0 +1,298 @@
+{
+  "id": "zh-b1-hsk3c",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "HSK 3 Practice 3",
+  "description": "Final HSK-3-style round for B1: word bank (极了, 挺, 经过, 就是), true/false with 不是不 and duration + 没, reading with 'how often', and sentence building.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "xuanci3c",
+      "title": "选词填空 (HSK 3)",
+      "summary": "Word bank: 极了, 挺, 经过, 就是, 嘛, 一…一.",
+      "body": "- adj + 极了; 挺 + adj + 的.\n- 经过 + effort / time.\n- 就是 + 不 = stubbornly.",
+      "examples": [
+        [
+          "{这个|zhège}{地方|dìfang}{漂亮|piàoliang}{极了|jí le}。",
+          "This place is absolutely beautiful."
+        ]
+      ]
+    },
+    {
+      "id": "tf3c",
+      "title": "判断对错 (HSK 3)",
+      "summary": "Traps: 不是不 (it's not that … not), duration + 没 (hasn't for …), A是A就是 (but).",
+      "body": "- Read the whole sentence before deciding.",
+      "examples": [
+        [
+          "{我|wǒ}{两|liǎng}{年|nián}{没|méi}{回|huí}{家|jiā}{了|le}。",
+          "I haven't been home for two years."
+        ]
+      ]
+    },
+    {
+      "id": "yuedu3c",
+      "title": "阅读理解 (HSK 3)",
+      "summary": "Frequency questions: convert '两次 a week' into 'every three or four days'.",
+      "body": "- 想…就… = whatever you like.",
+      "examples": [
+        [
+          "{我|wǒ}{妈妈|māma}{每|měi}{个|ge}{星期|xīngqī}{给|gěi}{我|wǒ}{打|dǎ}{两|liǎng}{次|cì}{电话|diànhuà}。",
+          "My mum calls me twice a week."
+        ]
+      ]
+    },
+    {
+      "id": "wancheng3c",
+      "title": "完成句子 (HSK 3)",
+      "summary": "Build the sentence, then pick the ★ piece.",
+      "body": "- Duration + 没 + verb + 了.\n- 通过 + method + 来 + goal.\n- 帮 + person + 一个忙.",
+      "examples": [
+        [
+          "{我们|wǒmen}{已经|yǐjīng}{两|liǎng}{年|nián}{没|méi}{见面|jiànmiàn}{了|le}。",
+          "We haven't seen each other for two years."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "xuanci3c",
+      "prompt": "{这个|zhège}{地方|dìfang}{漂亮|piàoliang}（　）！{我们|wǒmen}{在|zài}{这儿|zhèr}{照|zhào}{张|zhāng}{相|xiàng}{吧|ba}。",
+      "options": [
+        "{嘛|ma}",
+        "{挺|tǐng}",
+        "{极了|jí le}",
+        "{经过|jīngguò}"
+      ],
+      "answer": 2,
+      "explanation": "Extremely: **极了**.",
+      "notes": [
+        "嘛 = 'obviously' — doesn't intensify.",
+        "挺 goes before the adjective.",
+        "",
+        "经过 = 'after / pass by'."
+      ],
+      "translation": "This place is absolutely beautiful! Let's take a photo here."
+    },
+    {
+      "point": "xuanci3c",
+      "prompt": "{他|tā}{人|rén}（　）{好|hǎo}{的|de}，{大家|dàjiā}{都|dōu}{喜欢|xǐhuan}{他|tā}。",
+      "options": [
+        "{挺|tǐng}",
+        "{经过|jīngguò}",
+        "{就是|jiùshì}",
+        "{极了|jí le}"
+      ],
+      "answer": 0,
+      "explanation": "Quite: **挺…的**.",
+      "notes": [
+        "",
+        "经过 doesn't fit.",
+        "就是好的 isn't the pattern.",
+        "极了 goes after the adjective."
+      ],
+      "translation": "He's a pretty nice guy — everyone likes him."
+    },
+    {
+      "point": "xuanci3c",
+      "prompt": "（　）{一|yì}{年|nián}{的|de}{学习|xuéxí}，{我|wǒ}{的|de}{中文|Zhōngwén}{进步|jìnbù}{了|le}{很|hěn}{多|duō}。",
+      "options": [
+        "{就是|jiùshì}",
+        "{挺|tǐng}",
+        "{经过|jīngguò}",
+        "{嘛|ma}"
+      ],
+      "answer": 2,
+      "explanation": "After (a process): **经过**.",
+      "notes": [
+        "就是 doesn't fit.",
+        "挺 needs an adjective.",
+        "",
+        "嘛 goes at the end."
+      ],
+      "translation": "After a year of study, my Chinese has improved a lot."
+    },
+    {
+      "point": "xuanci3c",
+      "prompt": "{不管|bùguǎn}{妈妈|māma}{怎么|zěnme}{说|shuō}，{他|tā}（　）{不|bù}{听|tīng}。",
+      "options": [
+        "{就是|jiùshì}",
+        "{经过|jīngguò}",
+        "{极了|jí le}",
+        "{挺|tǐng}"
+      ],
+      "answer": 0,
+      "explanation": "Stubbornly: **就是不**.",
+      "notes": [
+        "",
+        "经过不听 isn't grammatical.",
+        "极了 goes after an adjective.",
+        "挺不听 isn't grammatical."
+      ],
+      "translation": "No matter what his mum says, he simply won't listen."
+    },
+    {
+      "point": "tf3c",
+      "prompt": "{我|wǒ}{不是|búshì}{不|bù}{喜欢|xǐhuan}{运动|yùndòng}，{是|shì}{工作|gōngzuò}{太|tài}{忙|máng}{了|le}，{没有|méiyǒu}{时间|shíjiān}。\n\n★ {他|tā}{不|bù}{喜欢|xǐhuan}{运动|yùndòng}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "**不是不** cancels the negative.",
+      "notes": [
+        "不是不喜欢 = it's not that he doesn't like it.",
+        ""
+      ],
+      "translation": "It's not that I don't like exercise — work is just too busy and I have no time. ★ He doesn't like exercise.",
+      "fixed_order": true
+    },
+    {
+      "point": "tf3c",
+      "prompt": "{我|wǒ}{已经|yǐjīng}{两|liǎng}{年|nián}{没|méi}{回|huí}{家|jiā}{了|le}，{今年|jīnnián}{春节|Chūnjié}{一定|yídìng}{要|yào}{回去|huíqù}{看看|kànkan}{父母|fùmǔ}。\n\n★ {他|tā}{去年|qùnián}{春节|Chūnjié}{回|huí}{家|jiā}{了|le}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "**Duration + 没…了**.",
+      "notes": [
+        "两年没回家 — not last year either.",
+        ""
+      ],
+      "translation": "I haven't been home for two years — this Spring Festival I'm definitely going back to see my parents. ★ He went home last Spring Festival.",
+      "fixed_order": true
+    },
+    {
+      "point": "tf3c",
+      "prompt": "{这|zhè}{家|jiā}{店|diàn}{的|de}{衣服|yīfu}{好看|hǎokàn}{是|shì}{好看|hǎokàn}，{就是|jiùshì}{太|tài}{贵|guì}{了|le}，{所以|suǒyǐ}{我|wǒ}{只|zhǐ}{看|kàn}{不|bù}{买|mǎi}。\n\n★ {他|tā}{没|méi}{买|mǎi}{这|zhè}{家|jiā}{店|diàn}{的|de}{衣服|yīfu}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "**A是A，就是…** = sure, but.",
+      "notes": [
+        "",
+        "只看不买 — he only looks."
+      ],
+      "translation": "The clothes in this shop look nice, sure, but they're too expensive, so I just look and don't buy. ★ He didn't buy clothes from this shop.",
+      "fixed_order": true
+    },
+    {
+      "point": "yuedu3c",
+      "prompt": "{我|wǒ}{妈妈|māma}{每|měi}{个|ge}{星期|xīngqī}{给|gěi}{我|wǒ}{打|dǎ}{两|liǎng}{次|cì}{电话|diànhuà}，{每|měi}{次|cì}{都|dōu}{问|wèn}{我|wǒ}{吃|chī}{得|de}{好|hǎo}{不|bu}{好|hǎo}、{睡|shuì}{得|de}{好|hǎo}{不|bu}{好|hǎo}。{我|wǒ}{觉得|juéde}{她|tā}{太|tài}{担心|dānxīn}{了|le}，{不过|búguò}{我|wǒ}{知道|zhīdào}{她|tā}{是|shì}{爱|ài}{我|wǒ}。\n\n★ {妈妈|māma}{多|duō}{长|cháng}{时间|shíjiān}{给|gěi}{他|tā}{打|dǎ}{一|yí}{次|cì}{电话|diànhuà}？",
+      "options": [
+        "{一|yí}{个|ge}{星期|xīngqī}{一|yí}{次|cì}",
+        "{三四|sān sì}{天|tiān}{一|yí}{次|cì}",
+        "{每天|měitiān}{一|yí}{次|cì}",
+        "{两|liǎng}{个|ge}{星期|xīngqī}{一|yí}{次|cì}"
+      ],
+      "answer": 1,
+      "explanation": "Twice a week ≈ **every three or four days**.",
+      "notes": [
+        "It's twice a week, not once.",
+        "",
+        "That would be seven times a week.",
+        "That would be much less often."
+      ],
+      "translation": "My mum calls me twice a week and always asks whether I'm eating and sleeping well. I think she worries too much, but I know it's because she loves me. ★ How often does his mum call him?"
+    },
+    {
+      "point": "yuedu3c",
+      "prompt": "{小王|Xiǎo Wáng}{最近|zuìjìn}{想|xiǎng}{去|qù}{哪儿|nǎr}{就|jiù}{去|qù}{哪儿|nǎr}，{想|xiǎng}{吃|chī}{什么|shénme}{就|jiù}{吃|chī}{什么|shénme}，{因为|yīnwèi}{他|tā}{刚|gāng}{找|zhǎo}{到|dào}{工作|gōngzuò}，{第一|dì-yī}{次|cì}{有|yǒu}{了|le}{自己|zìjǐ}{的|de}{钱|qián}。\n\n★ {小王|Xiǎo Wáng}{最近|zuìjìn}{怎么|zěnme}{了|le}？",
+      "options": [
+        "{有|yǒu}{了|le}{自己|zìjǐ}{的|de}{钱|qián}",
+        "{丢|diū}{了|le}{工作|gōngzuò}",
+        "{没有|méiyǒu}{钱|qián}{了|le}",
+        "{生病|shēngbìng}{了|le}"
+      ],
+      "answer": 0,
+      "explanation": "因为 … **第一次有了自己的钱**.",
+      "notes": [
+        "",
+        "He has just found a job.",
+        "The opposite.",
+        "Illness isn't mentioned."
+      ],
+      "translation": "Lately Xiao Wang goes wherever he likes and eats whatever he wants, because he's just found a job and has his own money for the first time. ★ What's happened to Xiao Wang recently?"
+    },
+    {
+      "point": "wancheng3c",
+      "prompt": "{我们|wǒmen}　＿＿　　＿＿　　★　　＿＿　。\n（{见面|jiànmiàn}{了|le}・{两|liǎng}{年|nián}・{没|méi}・{已经|yǐjīng}）",
+      "options": [
+        "{两|liǎng}{年|nián}",
+        "{没|méi}",
+        "{已经|yǐjīng}",
+        "{见面|jiànmiàn}{了|le}"
+      ],
+      "answer": 1,
+      "explanation": "我们 **已经 两年 没 见面了**。",
+      "notes": [
+        "The duration comes before 没 — slot 2.",
+        "",
+        "已经 comes first — slot 1.",
+        "见面了 ends the sentence — slot 4."
+      ],
+      "translation": "We haven't seen each other for two years."
+    },
+    {
+      "point": "wancheng3c",
+      "prompt": "{他|tā}　＿＿　　＿＿　　★　　＿＿　。\n（{减肥|jiǎnféi}・{来|lái}・{跑步|pǎobù}・{通过|tōngguò}）",
+      "options": [
+        "{来|lái}",
+        "{通过|tōngguò}",
+        "{跑步|pǎobù}",
+        "{减肥|jiǎnféi}"
+      ],
+      "answer": 0,
+      "explanation": "他 **通过 跑步 来 减肥**。",
+      "notes": [
+        "",
+        "通过 comes first — slot 1.",
+        "The method follows 通过 — slot 2.",
+        "The goal ends the sentence — slot 4."
+      ],
+      "translation": "He's losing weight by running."
+    },
+    {
+      "point": "wancheng3c",
+      "prompt": "{我|wǒ}　＿＿　　＿＿　　★　　＿＿　。\n（{忙|máng}・{一个|yí ge}・{他|tā}・{帮了|bāng le}）",
+      "options": [
+        "{忙|máng}",
+        "{他|tā}",
+        "{帮了|bāng le}",
+        "{一个|yí ge}"
+      ],
+      "answer": 3,
+      "explanation": "我 **帮了 他 一个 忙**。",
+      "notes": [
+        "忙 completes 帮忙 — slot 4.",
+        "The person follows 帮 — slot 2.",
+        "帮了 comes first — slot 1.",
+        ""
+      ],
+      "translation": "I did him a favour."
+    },
+    {
+      "point": "wancheng3c",
+      "prompt": "{你|nǐ}　＿＿　　＿＿　　★　　＿＿　{一|yí}{次|cì}{超市|chāoshì}？\n（{去|qù}・{多长|duō cháng}・{一般|yìbān}・{时间|shíjiān}）",
+      "options": [
+        "{一般|yìbān}",
+        "{多长|duō cháng}",
+        "{时间|shíjiān}",
+        "{去|qù}"
+      ],
+      "answer": 2,
+      "explanation": "你 **一般 多长 时间 去** 一次超市？",
+      "notes": [
+        "一般 comes first — slot 1.",
+        "多长 comes before 时间 — slot 2.",
+        "",
+        "去 comes before 一次 — slot 4."
+      ],
+      "translation": "How often do you usually go to the supermarket?"
+    }
+  ]
+}

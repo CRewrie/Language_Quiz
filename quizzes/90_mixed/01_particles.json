@@ -1,0 +1,243 @@
+{
+  "id": "particles",
+  "category": "Mixed practice (N5–N4)",
+  "title": "Particles: は・が・を・に・で・と・も・の",
+  "description": "The core case particles: objects, places of action vs. existence, time, means, and question-word subjects.",
+  "level": "N5",
+  "questions": [
+    {
+      "prompt": "わたしは{毎朝|まいあさ}コーヒー（　）{飲|の}みます。",
+      "options": [
+        "に",
+        "を",
+        "が",
+        "で"
+      ],
+      "answer": 1,
+      "explanation": "**を** marks the direct object of an action verb. Coffee is the thing being drunk, so it takes を: コーヒーを飲みます.",
+      "notes": [
+        "に marks destinations, time points and recipients. Coffee is none of these here.",
+        "",
+        "が marks the subject (the one doing or being something). Coffee isn't doing the drinking. が appears with objects only for special predicates like 好き, わかる, ほしい, できる.",
+        "で marks the place of an action or the means/tool. コーヒーで飲みます would mean 'drink using coffee'."
+      ],
+      "translation": "I drink coffee every morning."
+    },
+    {
+      "prompt": "{図書館|としょかん}（　）{勉強|べんきょう}します。",
+      "options": [
+        "で",
+        "へ",
+        "を",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "**で** marks the place where an action happens. Studying is an action, so the library takes で.",
+      "notes": [
+        "",
+        "へ marks direction of movement and goes with verbs like 行く/来る/帰る, not with 勉強する.",
+        "図書館を勉強します would mean 'I study the library' (as a subject).",
+        "に marks where something exists (いる/ある) or the destination of movement. 勉強する is an action, not existence or movement, so に doesn't work."
+      ],
+      "translation": "I study at the library."
+    },
+    {
+      "prompt": "{日曜日|にちようび}（　）{友達|ともだち}と{映画|えいが}を{見|み}ました。",
+      "options": [
+        "で",
+        "が",
+        "を",
+        "に"
+      ],
+      "answer": 3,
+      "explanation": "Specific time points such as days of the week, dates and clock times take **に**: 日曜日に, 3時に, 5月に. (Relative times like 今日, 明日, 毎日 take no particle.)",
+      "notes": [
+        "で marks the place or means of an action, not a point in time.",
+        "が would make Sunday the subject, as if Sunday watched the movie.",
+        "を marks the direct object. 映画 is already the object here.",
+        ""
+      ],
+      "translation": "I watched a movie with a friend on Sunday."
+    },
+    {
+      "prompt": "バス（　）{学校|がっこう}へ{行|い}きます。",
+      "options": [
+        "で",
+        "と",
+        "に",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "**で** marks the means or tool used to do something, including transport: バスで, 電車で, 日本語で, はしで.",
+      "notes": [
+        "",
+        "と means 'together with (someone)'. バスと行きます would mean you travel with the bus as a companion.",
+        "に with vehicles is used with 乗る (バスに乗ります, 'get on the bus'), not with 行く to express the means.",
+        "を with 行く marks a route you pass through (道を行く). It doesn't express the means of transport."
+      ],
+      "translation": "I go to school by bus."
+    },
+    {
+      "prompt": "{公園|こうえん}に{猫|ねこ}（　）います。",
+      "options": [
+        "で",
+        "へ",
+        "が",
+        "を"
+      ],
+      "answer": 2,
+      "explanation": "In 'there is X' sentences with いる/ある, the thing that exists is marked with **が**, and the location with に: [place]に[thing]がいます.",
+      "notes": [
+        "で marks a place of action. The location is already marked with に, and 猫 isn't a place.",
+        "へ marks a direction of movement.",
+        "",
+        "を marks a direct object, but いる doesn't take one."
+      ],
+      "translation": "There is a cat in the park."
+    },
+    {
+      "prompt": "スーパーでパン（　）{卵|たまご}を{買|か}いました。",
+      "options": [
+        "へ",
+        "が",
+        "で",
+        "と"
+      ],
+      "answer": 3,
+      "explanation": "**と** joins nouns into a complete list: 'A and B'. (や is used for a non-exhaustive list: 'A, B and so on'.)",
+      "notes": [
+        "へ marks a direction of movement.",
+        "が would make the bread the subject that did the buying.",
+        "パンで would mean 'using bread' (as a tool). The place is already marked with スーパーで.",
+        ""
+      ],
+      "translation": "I bought bread and eggs at the supermarket."
+    },
+    {
+      "prompt": "リーさんは{学生|がくせい}です。わたし（　）{学生|がくせい}です。",
+      "options": [
+        "も",
+        "を",
+        "の",
+        "へ"
+      ],
+      "answer": 0,
+      "explanation": "**も** means 'also/too'. It replaces は, が or を: わたしも学生です = 'I'm a student too'.",
+      "notes": [
+        "",
+        "を marks the object of an action verb. です isn't an action verb.",
+        "の links two nouns (わたしの学生 = 'my student'). It can't connect わたし to です like this.",
+        "へ marks a direction of movement."
+      ],
+      "translation": "Lee is a student. I'm a student too."
+    },
+    {
+      "prompt": "{駅|えき}（　）{家|いえ}まで{歩|ある}いて10{分|ぷん}です。",
+      "options": [
+        "まで",
+        "で",
+        "に",
+        "から"
+      ],
+      "answer": 3,
+      "explanation": "**から〜まで** means 'from … to/until …'. It works for places (駅から家まで) and for times (9時から5時まで).",
+      "notes": [
+        "まで already marks the end point (家まで). The station is the starting point, so it needs から.",
+        "で marks the place of an action or a means. It doesn't express a starting point.",
+        "に marks a destination. The station is where you start, not where you go.",
+        ""
+      ],
+      "translation": "It's a ten-minute walk from the station to my house."
+    },
+    {
+      "prompt": "これはだれ（　）{傘|かさ}ですか。",
+      "options": [
+        "に",
+        "が",
+        "の",
+        "は"
+      ],
+      "answer": 2,
+      "explanation": "**の** links two nouns. Here it shows possession: だれの傘 = 'whose umbrella'.",
+      "notes": [
+        "に marks place, time or a recipient. It can't link two nouns into 'whose umbrella'.",
+        "が after だれ would make だれ the subject of a predicate, but 傘 is a noun and needs の to connect.",
+        "",
+        "Question words such as だれ, なに and どこ can't take は. The sentence also already has a topic (これは)."
+      ],
+      "translation": "Whose umbrella is this?"
+    },
+    {
+      "prompt": "{部屋|へや}（　）だれがいますか。",
+      "options": [
+        "と",
+        "を",
+        "で",
+        "に"
+      ],
+      "answer": 3,
+      "explanation": "The location of existence (いる/ある) takes **に**: 部屋にだれがいますか.",
+      "notes": [
+        "と means 'with'. 部屋と would mean 'together with the room'.",
+        "を marks a direct object, and いる doesn't take one.",
+        "で marks where an action happens. Being/existing (いる) is not an action, so the location takes に. (Compare 部屋で勉強します.)",
+        ""
+      ],
+      "translation": "Who is in the room?"
+    },
+    {
+      "prompt": "この{道|みち}（　）まっすぐ{行|い}ってください。",
+      "options": [
+        "に",
+        "を",
+        "が",
+        "の"
+      ],
+      "answer": 1,
+      "explanation": "With movement verbs (行く, 歩く, 渡る, 通る), **を** marks the route or space you move through: 道を行く, 橋を渡る, 公園を散歩する.",
+      "notes": [
+        "に would make the road the destination ('go to the road'). That conflicts with まっすぐ, which describes moving along it.",
+        "",
+        "が would make the road the subject, as if the road itself were going straight.",
+        "の links nouns. この道の… would need another noun after it."
+      ],
+      "translation": "Please go straight along this road."
+    },
+    {
+      "prompt": "すみません、{日本語|にほんご}（　）よくわかりません。",
+      "options": [
+        "に",
+        "で",
+        "が",
+        "を"
+      ],
+      "answer": 2,
+      "explanation": "**わかる** marks what is understood with **が**, not を (like 好き, できる, ほしい). (は is also possible for contrast.)",
+      "notes": [
+        "に marks a target or location. It doesn't mark the thing understood.",
+        "日本語で would mean 'in Japanese' (as the language used). It doesn't say what you don't understand.",
+        "",
+        "わかる isn't a transitive action verb, so it doesn't take を. 日本語をわかる is a very common learner mistake."
+      ],
+      "translation": "Sorry, I don't really understand Japanese."
+    },
+    {
+      "prompt": "A：だれ（　）{来|き}ましたか。　B：{山田|やまだ}さんが{来|き}ました。",
+      "options": [
+        "が",
+        "も",
+        "を",
+        "は"
+      ],
+      "answer": 0,
+      "explanation": "When a question word is the subject, it must take **が**: だれが, なにが, どれが. The answer keeps が as well: 山田さんが来ました.",
+      "notes": [
+        "",
+        "だれも with a positive verb isn't used. だれも is used with negatives: だれも来ませんでした = 'nobody came'.",
+        "を marks an object, but だれ is the one who came (the subject).",
+        "は marks known or given information (the topic), but a question word is unknown by definition. だれは… is ungrammatical."
+      ],
+      "translation": "A: Who came? B: Mr. Yamada came."
+    }
+  ]
+}

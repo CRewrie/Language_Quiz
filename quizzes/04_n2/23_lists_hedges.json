@@ -1,0 +1,311 @@
+{
+  "id": "n2-lists-hedges",
+  "category": "JLPT N2",
+  "title": "Lists & Hedges: なくはない, も〜ば〜も, やら〜やら, にしても〜にしても, か何か, んだって",
+  "description": "Not entirely not, both … and, what with … and, whether … or, … or something, and hearsay んだって.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "nakuwanai",
+      "title": "〜なくはない / なくもない: it's not that I don't",
+      "summary": "ない-form + はない / もない = a reserved 'yes, somewhat' (double negative).",
+      "body": "- 刺身は食べられ**なくはない**が、あまり好きではない.\n- 行きたい気持ちも**なくはない**.",
+      "examples": [
+        [
+          "{刺身|さしみ}は{食|た}べられなくはないが、あまり{好|す}きではない。",
+          "It's not that I can't eat sashimi, but I don't really like it."
+        ]
+      ]
+    },
+    {
+      "id": "mobamo",
+      "title": "AもBばCも: both … and (moreover)",
+      "summary": "Aも + ば-form + Bも = not only A but also B (listing similar things).",
+      "body": "- この店は値段も安けれ**ば**、味もいい.\n- 彼女は英語も話せれ**ば**、中国語も話せる.",
+      "examples": [
+        [
+          "この{店|みせ}は{値段|ねだん}も{安|やす}ければ、{味|あじ}もいい。",
+          "This shop is cheap and the food is good too."
+        ]
+      ]
+    },
+    {
+      "id": "yarayara",
+      "title": "〜やら〜やら: what with … and …",
+      "summary": "AやらBやら = listing (often troublesome or mixed) things/feelings.",
+      "body": "- 引っ越しの準備**やら**仕事**やら**、忙しい.\n- うれしい**やら**恥ずかしい**やら**、複雑な気持ちだ.",
+      "examples": [
+        [
+          "うれしいやら{恥|は}ずかしいやら、{複雑|ふくざつ}な{気持|きも}ちだ。",
+          "I'm happy and embarrassed at the same time — mixed feelings."
+        ]
+      ]
+    },
+    {
+      "id": "nishitemo2",
+      "title": "AにしてもBにしても: whether A or B",
+      "summary": "AにしてもBにしても = in either case.",
+      "body": "- 行く**にしても**行かない**にしても**、早く決めてください.\n- 大人**にしても**子供**にしても**、ルールは守らなければならない.",
+      "examples": [
+        [
+          "{行|い}くにしても{行|い}かないにしても、{早|はや}く{決|き}めてください。",
+          "Whether you go or not, please decide soon."
+        ]
+      ]
+    },
+    {
+      "id": "kananika",
+      "title": "〜か何か: … or something",
+      "summary": "Noun + か何か = A or something like it (vague).",
+      "body": "- 風邪**か何か**で、学校を休んだらしい.\n- コーヒー**か何か**飲みませんか.",
+      "examples": [
+        [
+          "コーヒーか{何|なに}か{飲|の}みませんか。",
+          "Would you like a coffee or something?"
+        ]
+      ]
+    },
+    {
+      "id": "ndatte",
+      "title": "〜んだって: I heard that (casual)",
+      "summary": "Plain form (な/noun + な) + んだって = casual hearsay ('they say').",
+      "body": "- 田中さん、会社を辞める**んだって**.\n- 明日は休み**なんだって**.",
+      "examples": [
+        [
+          "{田中|たなか}さん、{会社|かいしゃ}を{辞|や}めるんだって。",
+          "I heard Tanaka's quitting the company."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nakuwanai",
+      "prompt": "{刺身|さしみ}は{食|た}べられ（　）が、あまり{好|す}きではない。",
+      "options": [
+        "なくてはない",
+        "なくはない",
+        "なくはなる",
+        "なくはある"
+      ],
+      "answer": 1,
+      "explanation": "Not that I can't: **なくはない**.",
+      "notes": [
+        "なくてはない isn't grammatical.",
+        "",
+        "なくはなる isn't grammatical.",
+        "The pattern is a double negative."
+      ],
+      "translation": "It's not that I can't eat sashimi, but I don't really like it."
+    },
+    {
+      "point": "nakuwanai",
+      "prompt": "{行|い}きたい{気持|きも}ちも（　）。",
+      "options": [
+        "ないもない",
+        "ないはない",
+        "なくはある",
+        "なくはない"
+      ],
+      "answer": 3,
+      "explanation": "**なくはない** (a little).",
+      "notes": [
+        "ないもない isn't grammatical.",
+        "ないはない isn't grammatical.",
+        "The pattern is a double negative.",
+        ""
+      ],
+      "translation": "It's not that I don't feel like going."
+    },
+    {
+      "point": "mobamo",
+      "prompt": "この{店|みせ}は{値段|ねだん}も{安|やす}けれ（　）、{味|あじ}もいい。",
+      "options": [
+        "と",
+        "ば",
+        "て",
+        "ど"
+      ],
+      "answer": 1,
+      "explanation": "Both … and: **AもBばCも**.",
+      "notes": [
+        "安けれと isn't a form.",
+        "",
+        "安けれて isn't a form.",
+        "安けれど = 'though cheap' — contradicts the も〜も listing."
+      ],
+      "translation": "This shop is cheap and the food is good too."
+    },
+    {
+      "point": "mobamo",
+      "prompt": "{彼女|かのじょ}は{英語|えいご}も{話|はな}せれ（　）、{中国語|ちゅうごくご}も{話|はな}せる。",
+      "options": [
+        "ど",
+        "て",
+        "ば",
+        "と"
+      ],
+      "answer": 2,
+      "explanation": "**話せれば … も**.",
+      "notes": [
+        "話せれど isn't natural here.",
+        "話せれて isn't a form.",
+        "",
+        "話せれと isn't a form."
+      ],
+      "translation": "She speaks English, and Chinese as well."
+    },
+    {
+      "point": "yarayara",
+      "prompt": "{引|ひ}っ{越|こ}しの{準備|じゅんび}（　）{仕事|しごと}やら、{忙|いそが}しい。",
+      "options": [
+        "やら",
+        "だの",
+        "とか",
+        "なり"
+      ],
+      "answer": 0,
+      "explanation": "**やら〜やら** — the pair must match.",
+      "notes": [
+        "",
+        "だの pairs with だの.",
+        "とか pairs with とか.",
+        "なり pairs with なり (and means 'either… or')."
+      ],
+      "translation": "What with preparing for the move and work, I'm busy."
+    },
+    {
+      "point": "yarayara",
+      "prompt": "{合格|ごうかく}して、うれしいやら{恥|は}ずかしい（　）、{複雑|ふくざつ}な{気持|きも}ちだ。",
+      "options": [
+        "なり",
+        "まで",
+        "だけ",
+        "やら"
+      ],
+      "answer": 3,
+      "explanation": "Mixed feelings: **やら〜やら**.",
+      "notes": [
+        "なり doesn't list feelings.",
+        "まで = 'even'.",
+        "だけ = 'only'.",
+        ""
+      ],
+      "translation": "I passed — I'm happy and embarrassed at the same time."
+    },
+    {
+      "point": "nishitemo2",
+      "prompt": "{行|い}くにしても{行|い}かない（　）、{早|はや}く{決|き}めてください。",
+      "options": [
+        "にしたら",
+        "にしては",
+        "にしても",
+        "にとっても"
+      ],
+      "answer": 2,
+      "explanation": "Whether … or: **にしても〜にしても**.",
+      "notes": [
+        "にしたら = 'from the viewpoint of'.",
+        "にしては = 'for (surprisingly)'.",
+        "",
+        "にとっても = 'also for'."
+      ],
+      "translation": "Whether you go or not, please decide soon."
+    },
+    {
+      "point": "nishitemo2",
+      "prompt": "{大人|おとな}にしても{子供|こども}（　）、ルールは{守|まも}らなければならない。",
+      "options": [
+        "にしては",
+        "にしても",
+        "にとって",
+        "にすれば"
+      ],
+      "answer": 1,
+      "explanation": "**にしても〜にしても**.",
+      "notes": [
+        "にしては = 'for (surprisingly)'.",
+        "",
+        "にとって = 'for'.",
+        "にすれば = 'from the viewpoint of'."
+      ],
+      "translation": "Adults and children alike must follow the rules."
+    },
+    {
+      "point": "kananika",
+      "prompt": "{風邪|かぜ}（　）{何|なに}かで、{学校|がっこう}を{休|やす}んだらしい。",
+      "options": [
+        "を",
+        "が",
+        "に",
+        "か"
+      ],
+      "answer": 3,
+      "explanation": "Or something: **か何か**.",
+      "notes": [
+        "風邪を何か isn't grammatical.",
+        "風邪が何か isn't grammatical.",
+        "風邪に何か isn't grammatical.",
+        ""
+      ],
+      "translation": "Apparently he missed school because of a cold or something."
+    },
+    {
+      "point": "kananika",
+      "prompt": "コーヒーか（　）{飲|の}みませんか。",
+      "options": [
+        "{何|なに}で",
+        "{何|なに}か",
+        "{何|なに}も",
+        "{何|なに}が"
+      ],
+      "answer": 1,
+      "explanation": "**か何か**.",
+      "notes": [
+        "何で = 'why / by what'.",
+        "",
+        "何も needs a negative.",
+        "何が = 'what (subject)'."
+      ],
+      "translation": "Would you like a coffee or something?"
+    },
+    {
+      "point": "ndatte",
+      "prompt": "A：{田中|たなか}さん、{会社|かいしゃ}を{辞|や}める（　）。　B：え、{本当|ほんとう}？",
+      "options": [
+        "んだって",
+        "んだし",
+        "んだから",
+        "んだもの"
+      ],
+      "answer": 0,
+      "explanation": "Hearsay: **んだって** (B reacts with 'really?').",
+      "notes": [
+        "",
+        "んだし = 'and besides'.",
+        "んだから = 'because (you see)'.",
+        "んだもの = 'it's because…' (excuse)."
+      ],
+      "translation": "A: I heard Tanaka's quitting. B: What, really?"
+    },
+    {
+      "point": "ndatte",
+      "prompt": "What does 「{明日|あした}は{休|やす}みなんだって」 mean?",
+      "options": [
+        "Tomorrow's a day off, you see.",
+        "Is tomorrow a day off?",
+        "I heard tomorrow's a day off.",
+        "Even tomorrow is a day off."
+      ],
+      "answer": 2,
+      "explanation": "んだって = **casual hearsay**.",
+      "notes": [
+        "That's なんだ / なんです.",
+        "That would be なの？ with rising intonation.",
+        "",
+        "That would be 明日も."
+      ],
+      "translation": ""
+    }
+  ]
+}

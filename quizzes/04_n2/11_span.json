@@ -1,0 +1,411 @@
+{
+  "id": "n2-span",
+  "category": "JLPT N2",
+  "title": "Through & Along With: を通じて, にわたって, に伴って, に従って, と同時に, のもとで, をきっかけに, を契機に",
+  "description": "Via / throughout, over (a span), as … changes, following, at the same time as, under (guidance), and triggered by.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "wotsuujite",
+      "title": "〜を通じて / を通して: through, via; throughout",
+      "summary": "Noun + を通じて = via (a person/medium) or throughout (a period). を通して is a near-synonym.",
+      "body": "- 友人**を通じて**彼女と知り合った.\n- この地域は一年**を通じて**暖かい.",
+      "examples": [
+        [
+          "{友人|ゆうじん}を{通|つう}じて{彼女|かのじょ}と{知|し}り{合|あ}った。",
+          "I met her through a friend."
+        ]
+      ]
+    },
+    {
+      "id": "niwatatte",
+      "title": "〜にわたって / にわたる: over, throughout (a range)",
+      "summary": "Period/area + にわたって = across the whole span. Before a noun: にわたる.",
+      "body": "- 会議は3日間**にわたって**行われた.\n- 広い範囲**にわたって**被害が出た.",
+      "examples": [
+        [
+          "{会議|かいぎ}は3{日間|みっかかん}にわたって{行|おこな}われた。",
+          "The conference was held over three days."
+        ]
+      ]
+    },
+    {
+      "id": "nitomonatte",
+      "title": "〜に伴って / に伴う: along with, as",
+      "summary": "Noun / dictionary form + に伴って = as A changes, B changes too (formal). Before a noun: に伴う.",
+      "body": "- 人口の増加**に伴って**、住宅が不足している.\n- 台風に**伴う**大雨.",
+      "examples": [
+        [
+          "{人口|じんこう}の{増加|ぞうか}に{伴|ともな}って、{住宅|じゅうたく}が{不足|ふそく}している。",
+          "Along with population growth, there's a housing shortage."
+        ]
+      ]
+    },
+    {
+      "id": "nishitagatte",
+      "title": "〜に従って: following; as",
+      "summary": "Noun + に従って = in accordance with (instructions). Verb + に従って = as A progresses, B (like につれて).",
+      "body": "- 先生の指示**に従って**行動してください.\n- 北へ行く**に従って**、寒くなる.",
+      "examples": [
+        [
+          "{先生|せんせい}の{指示|しじ}に{従|したが}って{行動|こうどう}してください。",
+          "Please act according to the teacher's instructions."
+        ]
+      ]
+    },
+    {
+      "id": "todoujini",
+      "title": "〜と同時に: at the same time as",
+      "summary": "Dictionary form / noun + と同時に = at the same moment; also 'while also being'.",
+      "body": "- ベルが鳴る**と同時に**、走り出した.\n- 彼は医者である**と同時に**、作家でもある.",
+      "examples": [
+        [
+          "ベルが{鳴|な}ると{同時|どうじ}に、{走|はし}り{出|だ}した。",
+          "The moment the bell rang, they started running."
+        ]
+      ]
+    },
+    {
+      "id": "nomotode",
+      "title": "〜のもとで: under (guidance, conditions)",
+      "summary": "Noun + のもとで = under (someone's guidance / certain conditions).",
+      "body": "- 先生の指導**のもとで**、研究を進めた.\n- 青い空**のもとで**.",
+      "examples": [
+        [
+          "{先生|せんせい}の{指導|しどう}のもとで、{研究|けんきゅう}を{進|すす}めた。",
+          "I carried out my research under the professor's guidance."
+        ]
+      ]
+    },
+    {
+      "id": "wokikkakeni",
+      "title": "〜をきっかけに: triggered by, with … as the start",
+      "summary": "Noun + をきっかけに = A was the trigger for B. Also がきっかけで.",
+      "body": "- 留学**をきっかけに**、日本の文化に興味を持った.",
+      "examples": [
+        [
+          "{留学|りゅうがく}をきっかけに、{日本|にほん}の{文化|ぶんか}に{興味|きょうみ}を{持|も}った。",
+          "Studying abroad sparked my interest in Japanese culture."
+        ]
+      ]
+    },
+    {
+      "id": "wokeikini",
+      "title": "〜を契機に: taking … as an opportunity (formal)",
+      "summary": "Noun + を契機に = formal をきっかけに. Kanji: 契機 (けいき) — not 景気 (economy)!",
+      "body": "- 結婚**を契機に**、東京に引っ越した.",
+      "examples": [
+        [
+          "{結婚|けっこん}を{契機|けいき}に、{東京|とうきょう}に{引|ひ}っ{越|こ}した。",
+          "Getting married was the occasion for moving to Tokyo."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "wotsuujite",
+      "prompt": "{友人|ゆうじん}（　）{彼女|かのじょ}と{知|し}り{合|あ}った。",
+      "options": [
+        "が{通|つう}じて",
+        "を{通|かよ}って",
+        "を{通|つう}じて",
+        "に{通|つう}じて"
+      ],
+      "answer": 2,
+      "explanation": "Via: **を通じて**.",
+      "notes": [
+        "The particle is を.",
+        "通う = commute.",
+        "",
+        "The particle is を."
+      ],
+      "translation": "I met her through a friend."
+    },
+    {
+      "point": "wotsuujite",
+      "prompt": "この{地域|ちいき}は{一年|いちねん}（　）{暖|あたた}かい。",
+      "options": [
+        "が{通|つう}じて",
+        "に{通|つう}じて",
+        "を{通|とお}って",
+        "を{通|つう}じて"
+      ],
+      "answer": 3,
+      "explanation": "Throughout: **を通じて**.",
+      "notes": [
+        "The particle is を.",
+        "The particle is を.",
+        "通って = 'passing through (a place)'.",
+        ""
+      ],
+      "translation": "This region is warm all year round."
+    },
+    {
+      "point": "niwatatte",
+      "prompt": "{会議|かいぎ}は3{日間|みっかかん}（　）{行|おこな}われた。",
+      "options": [
+        "にわたって",
+        "にわたる",
+        "にかわって",
+        "をわたって"
+      ],
+      "answer": 0,
+      "explanation": "Over (a span): **にわたって**.",
+      "notes": [
+        "",
+        "にわたる must modify a noun.",
+        "にかわって = 'on behalf of'.",
+        "をわたって = 'crossing'."
+      ],
+      "translation": "The conference was held over three days."
+    },
+    {
+      "point": "niwatatte",
+      "prompt": "{広|ひろ}い{範囲|はんい}（　）{被害|ひがい}が{出|で}た。",
+      "options": [
+        "にあたって",
+        "にわたって",
+        "にかわって",
+        "をわたって"
+      ],
+      "answer": 1,
+      "explanation": "Across a wide area: **にわたって**.",
+      "notes": [
+        "にあたって = 'on the occasion of'.",
+        "",
+        "にかわって = 'instead of'.",
+        "をわたって = 'crossing'."
+      ],
+      "translation": "Damage occurred across a wide area."
+    },
+    {
+      "point": "nitomonatte",
+      "prompt": "{人口|じんこう}の{増加|ぞうか}（　）、{住宅|じゅうたく}が{不足|ふそく}している。",
+      "options": [
+        "を{伴|ともな}って",
+        "に{伴|ともな}う",
+        "が{伴|ともな}って",
+        "に{伴|ともな}って"
+      ],
+      "answer": 3,
+      "explanation": "Along with: **に伴って**.",
+      "notes": [
+        "を伴って = 'bringing along'.",
+        "に伴う must modify a noun.",
+        "The particle is に.",
+        ""
+      ],
+      "translation": "Along with population growth, there's a housing shortage."
+    },
+    {
+      "point": "nitomonatte",
+      "prompt": "{台風|たいふう}に（　）{大雨|おおあめ}に{注意|ちゅうい}してください。",
+      "options": [
+        "{伴|ともな}わ",
+        "{伴|ともな}う",
+        "{伴|ともな}え",
+        "{伴|ともな}って"
+      ],
+      "answer": 1,
+      "explanation": "Before a noun: **に伴う** + 大雨.",
+      "notes": [
+        "伴わ isn't a complete form.",
+        "",
+        "伴え isn't the pattern.",
+        "に伴って can't directly modify 大雨."
+      ],
+      "translation": "Please watch out for heavy rain accompanying the typhoon."
+    },
+    {
+      "point": "nishitagatte",
+      "prompt": "{先生|せんせい}の{指示|しじ}（　）{行動|こうどう}してください。",
+      "options": [
+        "が{従|したが}って",
+        "を{従|したが}って",
+        "に{従|したが}う",
+        "に{従|したが}って"
+      ],
+      "answer": 3,
+      "explanation": "Following: **に従って**.",
+      "notes": [
+        "The particle is に.",
+        "The particle is に.",
+        "に従う can't connect to the verb.",
+        ""
+      ],
+      "translation": "Please act according to the teacher's instructions."
+    },
+    {
+      "point": "nishitagatte",
+      "prompt": "{北|きた}へ{行|い}く（　）、{寒|さむ}くなる。",
+      "options": [
+        "に{従|したが}って",
+        "について",
+        "によって",
+        "にとって"
+      ],
+      "answer": 0,
+      "explanation": "As (change): verb + **に従って**.",
+      "notes": [
+        "",
+        "について = 'about'.",
+        "によって = 'by / depending on'.",
+        "にとって = 'for'."
+      ],
+      "translation": "The further north you go, the colder it gets."
+    },
+    {
+      "point": "todoujini",
+      "prompt": "ベルが{鳴|な}る（　）、{走|はし}り{出|だ}した。",
+      "options": [
+        "に{同時|どうじ}に",
+        "と{同時|どうじ}で",
+        "と{同時|どうじ}に",
+        "を{同時|どうじ}に"
+      ],
+      "answer": 2,
+      "explanation": "At the same moment: **と同時に**.",
+      "notes": [
+        "The particle is と.",
+        "同時で isn't the pattern.",
+        "",
+        "The particle is と."
+      ],
+      "translation": "The moment the bell rang, they started running."
+    },
+    {
+      "point": "todoujini",
+      "prompt": "{彼|かれ}は{医者|いしゃ}である（　）、{作家|さっか}でもある。",
+      "options": [
+        "と{一緒|いっしょ}に",
+        "と{同時|どうじ}に",
+        "と{同時|どうじ}で",
+        "と{同|おな}じに"
+      ],
+      "answer": 1,
+      "explanation": "While also being: **であると同時に**.",
+      "notes": [
+        "と一緒に = 'together with (someone)'.",
+        "",
+        "同時で isn't the pattern.",
+        "と同じに isn't idiomatic."
+      ],
+      "translation": "He's a doctor and, at the same time, a writer."
+    },
+    {
+      "point": "nomotode",
+      "prompt": "{先生|せんせい}の{指導|しどう}（　）、{研究|けんきゅう}を{進|すす}めた。",
+      "options": [
+        "のもとへ",
+        "のもとが",
+        "のもとを",
+        "のもとで"
+      ],
+      "answer": 3,
+      "explanation": "Under guidance: **のもとで**.",
+      "notes": [
+        "のもとへ = 'to (someone's side)'.",
+        "のもとが isn't the pattern.",
+        "のもとを isn't the pattern.",
+        ""
+      ],
+      "translation": "I carried out my research under the professor's guidance."
+    },
+    {
+      "point": "nomotode",
+      "prompt": "{青|あお}い{空|そら}の（　）、{運動会|うんどうかい}が{行|おこな}われた。",
+      "options": [
+        "もとで",
+        "もとから",
+        "もとが",
+        "もとを"
+      ],
+      "answer": 0,
+      "explanation": "Under (the sky): **のもとで**.",
+      "notes": [
+        "",
+        "もとから = 'originally'.",
+        "もとが isn't the pattern.",
+        "もとを isn't the pattern."
+      ],
+      "translation": "The sports day was held under a blue sky."
+    },
+    {
+      "point": "wokikkakeni",
+      "prompt": "{留学|りゅうがく}（　）、{日本|にほん}の{文化|ぶんか}に{興味|きょうみ}を{持|も}った。",
+      "options": [
+        "をきっかけで",
+        "をきっかけに",
+        "のきっかけに",
+        "にきっかけに"
+      ],
+      "answer": 1,
+      "explanation": "Triggered by: **をきっかけに**.",
+      "notes": [
+        "をきっかけで isn't standard (がきっかけで is).",
+        "",
+        "の isn't the pattern.",
+        "The particle is を."
+      ],
+      "translation": "Studying abroad sparked my interest in Japanese culture."
+    },
+    {
+      "point": "wokeikini",
+      "prompt": "{結婚|けっこん}を（　）、{東京|とうきょう}に{引|ひ}っ{越|こ}した。",
+      "options": [
+        "{景気|けいき}に",
+        "{契約|けいやく}に",
+        "{契機|けいき}に",
+        "{計器|けいき}に"
+      ],
+      "answer": 2,
+      "explanation": "Taking as an occasion: **を契機に** (契機).",
+      "notes": [
+        "景気 = 'economy' — same reading, wrong word.",
+        "契約 = 'contract'.",
+        "",
+        "計器 = 'gauge'."
+      ],
+      "translation": "Getting married was the occasion for moving to Tokyo."
+    },
+    {
+      "point": "wokikkakeni",
+      "prompt": "{友達|ともだち}の{一言|ひとこと}（　）、{留学|りゅうがく}を{決|き}めた。",
+      "options": [
+        "をきっかけに",
+        "にきっかけに",
+        "のきっかけに",
+        "をきっかけで"
+      ],
+      "answer": 0,
+      "explanation": "Triggered by: **をきっかけに**.",
+      "notes": [
+        "",
+        "The particle is を.",
+        "の isn't the pattern.",
+        "をきっかけで isn't standard."
+      ],
+      "translation": "A single remark from a friend prompted me to study abroad."
+    },
+    {
+      "point": "wokeikini",
+      "prompt": "{入院|にゅういん}を（　）、たばこをやめた。",
+      "options": [
+        "{契約|けいやく}に",
+        "{景気|けいき}に",
+        "{計器|けいき}に",
+        "{契機|けいき}に"
+      ],
+      "answer": 3,
+      "explanation": "Taking as an occasion: **を契機に**.",
+      "notes": [
+        "契約 = 'contract'.",
+        "景気 = 'economy'.",
+        "計器 = 'gauge'.",
+        ""
+      ],
+      "translation": "Being hospitalised was the occasion for me to quit smoking."
+    }
+  ]
+}

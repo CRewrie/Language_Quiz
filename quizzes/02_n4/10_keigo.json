@@ -1,0 +1,400 @@
+{
+  "id": "n4-keigo",
+  "category": "JLPT N4",
+  "title": "Keigo: いらっしゃる, なさる, お〜になる, いたす, ございます",
+  "description": "Honorific verbs for others' actions, humble いたす for your own, polite request お〜ください, and the super-polite ございます / でございます.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "irassharu",
+      "title": "いらっしゃる: to be / come / go (honorific)",
+      "summary": "Honorific for いる, 来る and 行く. Irregular ます-form: いらっしゃいます (not いらっしゃります).",
+      "body": "**いらっしゃる** raises the *subject* (a teacher, boss, customer) and replaces three verbs:\n- いる → 先生は会議室に**いらっしゃいます**\n- 来る → 社長が**いらっしゃいました**\n- 行く → 先生は大阪へ**いらっしゃる**そうです\n\n**Irregular ます-form:** いらっしゃる → いらっしゃ**い**ます (the る becomes い). Same for なさる → なさいます, くださる → くださいます, おっしゃる → おっしゃいます.\n\nSet phrases: **いらっしゃいませ** (welcome, in shops), **よくいらっしゃいました** (welcome, thanks for coming).\n\nNever use it for yourself — your own coming/going is humble: 参ります / 伺います.",
+      "examples": [
+        [
+          "{社長|しゃちょう}は{今|いま}、{会議室|かいぎしつ}にいらっしゃいます。",
+          "The president is in the meeting room now."
+        ],
+        [
+          "よくいらっしゃいました。どうぞお{入|はい}りください。",
+          "Welcome — please come in."
+        ]
+      ]
+    },
+    {
+      "id": "nasaru",
+      "title": "なさる: to do (honorific)",
+      "summary": "Honorific of する for someone else's action. ます-form: なさいます.",
+      "body": "**なさる** = honorific **する**: 週末は何を**なさいます**か (what will you do on the weekend?), 先生はゴルフを**なさいます**.\n\nIt works with する-nouns too: ご心配**なさらないで**ください (please don't worry).\n\nConjugation like いらっしゃる: なさ**い**ます, なさった, なさらない.\n\nDon't mix it up with:\n- **いたす** = humble する (your own action)\n- **〜なさい** = command (parent → child) — same root, very different politeness!",
+      "examples": [
+        [
+          "{週末|しゅうまつ}は{何|なに}をなさいますか。",
+          "What will you do this weekend?"
+        ],
+        [
+          "どうぞご{心配|しんぱい}なさらないでください。",
+          "Please don't worry."
+        ]
+      ]
+    },
+    {
+      "id": "oninaru",
+      "title": "お〜になる: honorific pattern",
+      "summary": "お + ます-stem + になる turns most verbs honorific (お帰りになる, お読みになる). Exceptions use special verbs: 見る → ご覧になる, 食べる → 召し上がる, 言う → おっしゃる.",
+      "body": "**Formation:** お + **ます-stem** + になる: 帰る → お帰り**になる**, 読む → お読み**になる**, 待つ → お待ち**になる**.\nFor Chinese-origin する-nouns: **ご** + noun + になる: ご利用になる.\n\n**Don't use the regular pattern** when a special honorific verb exists:\n- 見る → **ご覧になる** (✗ お見になる)\n- 食べる/飲む → **召し上がる**\n- 言う → **おっしゃる**\n- いる/来る/行く → **いらっしゃる**\n- する → **なさる**\n\nAlso: one-syllable stems (寝る→寝, いる→い) can't take this pattern.\n\nMirror pattern for yourself: **お〜する / お〜いたす** (humble).",
+      "examples": [
+        [
+          "{部長|ぶちょう}はもうお{帰|かえ}りになりました。",
+          "The manager has already gone home."
+        ],
+        [
+          "この{本|ほん}をお{読|よ}みになりましたか。",
+          "Have you read this book? (honorific)"
+        ],
+        [
+          "{先生|せんせい}、この{写真|しゃしん}をご{覧|らん}になりましたか。",
+          "Professor, have you seen this photo?"
+        ]
+      ]
+    },
+    {
+      "id": "okudasai",
+      "title": "お〜ください: please (honorific request)",
+      "summary": "お + ます-stem + ください (ご + する-noun + ください) — the polite request form used by staff and in signs.",
+      "body": "**Formation:**\n- お + ます-stem + ください: お待ち**ください**, お座り**ください**, お入り**ください**\n- ご + する-noun + ください: ご利用**ください**, ご注意**ください**\n\nIt's more polite than 〜てください and you'll hear it constantly in shops, stations and announcements: 少々お待ちください, 黄色い線の内側までお下がりください.\n\nExceptions again use special forms: 見る → **ご覧ください**, 食べる → **召し上がってください**.",
+      "examples": [
+        [
+          "こちらにお{座|すわ}りください。",
+          "Please have a seat here."
+        ],
+        [
+          "{少々|しょうしょう}お{待|ま}ちください。",
+          "Please wait a moment."
+        ],
+        [
+          "こちらの{出口|でぐち}をご{利用|りよう}ください。",
+          "Please use this exit."
+        ]
+      ]
+    },
+    {
+      "id": "itasu",
+      "title": "いたす: to do (humble)",
+      "summary": "Humble する for your OWN actions toward others. Also in お〜いたします (お持ちいたします).",
+      "body": "**いたす** = humble **する**, lowering yourself (or your company) in front of the listener:\n- 私がご説明**いたします** (I will explain).\n- よろしくお願い**いたします**.\n- お荷物はわたしがお持ち**いたします** (お〜いたす = extra-humble version of お〜する).\n\nNever use it for the listener's or a superior's actions — that would *lower* them. Use **なさる** for them.",
+      "examples": [
+        [
+          "わたしがご{説明|せつめい}いたします。",
+          "I will explain it to you."
+        ],
+        [
+          "お{荷物|にもつ}はわたしがお{持|も}ちいたします。",
+          "I'll carry your luggage for you."
+        ]
+      ]
+    },
+    {
+      "id": "gozaimasu",
+      "title": "ございます / でございます: there is / is (very polite)",
+      "summary": "ございます = very polite ある (there is/have). でございます = very polite です. Typical in shops, hotels and announcements.",
+      "body": "- **ございます** replaces **あります**: トイレは2階に**ございます** (the restroom is on the 2nd floor).\n- **でございます** replaces **です**: こちらが新しいメニュー**でございます**.\n\nThey're 丁寧語 (polite language) — they raise the politeness of the whole sentence rather than a person.\n\nYou already know them from set phrases: ありがとう**ございます**, おはよう**ございます**, おめでとう**ございます**.\n\nTraps: ✗ ございです (ございます is the only form), ✗ 2階にでございます (location + ある → ございます).",
+      "examples": [
+        [
+          "トイレは2{階|かい}にございます。",
+          "The restroom is on the second floor."
+        ],
+        [
+          "こちらが{新|あたら}しいメニューでございます。",
+          "This is our new menu."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "irassharu",
+      "prompt": "{社長|しゃちょう}は{今|いま}、{会議室|かいぎしつ}に（　）。",
+      "options": [
+        "いらしゃいます",
+        "いらっしゃるます",
+        "いらっしゃります",
+        "いらっしゃいます"
+      ],
+      "answer": 3,
+      "explanation": "Irregular ます-form: いらっしゃる → **いらっしゃいます**.",
+      "notes": [
+        "There's a small っ: いらっしゃいます.",
+        "ます attaches to the stem, not the dictionary form.",
+        "The る becomes い, not り: いらっしゃいます.",
+        ""
+      ],
+      "translation": "The president is in the meeting room now."
+    },
+    {
+      "point": "irassharu",
+      "prompt": "{先生|せんせい}は{明日|あした}、{大阪|おおさか}へ（　）そうです。",
+      "options": [
+        "まいる",
+        "いらっしゃる",
+        "うかがう",
+        "おる"
+      ],
+      "answer": 1,
+      "explanation": "A superior's going → honorific **いらっしゃる**.",
+      "notes": [
+        "まいる is humble (your own going) — it would lower the teacher.",
+        "",
+        "うかがう is humble 'visit/ask' — for yourself only.",
+        "おる is humble いる — wrong verb and wrong direction."
+      ],
+      "translation": "I hear the teacher is going to Osaka tomorrow."
+    },
+    {
+      "point": "irassharu",
+      "prompt": "よく（　）ました。どうぞお{入|はい}りください。",
+      "options": [
+        "いらっしゃい",
+        "いらっしゃり",
+        "まいり",
+        "おり"
+      ],
+      "answer": 0,
+      "explanation": "Set phrase: **よくいらっしゃいました** ('welcome, thanks for coming').",
+      "notes": [
+        "",
+        "The stem is いらっしゃい-, not いらっしゃり-.",
+        "まいりました would be humble — the guest's coming must be honorific.",
+        "おりました means 'was (humble)' — not 'came'."
+      ],
+      "translation": "Welcome — please come in."
+    },
+    {
+      "point": "nasaru",
+      "prompt": "{週末|しゅうまつ}は{何|なに}を（　）か。",
+      "options": [
+        "なさいります",
+        "なさります",
+        "なさいます",
+        "いたします"
+      ],
+      "answer": 2,
+      "explanation": "Honorific する: **なさいます** (irregular い).",
+      "notes": [
+        "なさいります isn't a form.",
+        "The る becomes い: なさいます.",
+        "",
+        "いたします is humble — you can't use it for the listener's actions."
+      ],
+      "translation": "What will you do this weekend?"
+    },
+    {
+      "point": "nasaru",
+      "prompt": "（To a customer）どうぞご{心配|しんぱい}（　）ください。",
+      "options": [
+        "なさらないで",
+        "なさないで",
+        "しないなさって",
+        "いたさないで"
+      ],
+      "answer": 0,
+      "explanation": "Negative of なさる: **なさらない** + でください.",
+      "notes": [
+        "",
+        "なさる's negative is なさらない.",
+        "Not a form.",
+        "いたす is humble — wrong for the customer."
+      ],
+      "translation": "Please don't worry."
+    },
+    {
+      "point": "oninaru",
+      "prompt": "{部長|ぶちょう}はもうお{帰|かえ}り（　）。",
+      "options": [
+        "になされました",
+        "いたしました",
+        "しました",
+        "になりました"
+      ],
+      "answer": 3,
+      "explanation": "Honorific pattern: お + stem + **になる**.",
+      "notes": [
+        "になされる isn't a form.",
+        "お〜いたす is extra humble — also wrong for a superior.",
+        "お〜する is the humble pattern — wrong for a superior.",
+        ""
+      ],
+      "translation": "The manager has already gone home."
+    },
+    {
+      "point": "oninaru",
+      "prompt": "この{本|ほん}をお（　）になりましたか。",
+      "options": [
+        "{読|よ}み",
+        "{読|よ}ま",
+        "{読|よ}む",
+        "{読|よ}んで"
+      ],
+      "answer": 0,
+      "explanation": "お + **ます-stem** + になる: お読みになる.",
+      "notes": [
+        "",
+        "読ま is the ない-stem — not used here.",
+        "The dictionary form doesn't fit the pattern.",
+        "The て-form doesn't fit the pattern."
+      ],
+      "translation": "Have you read this book?"
+    },
+    {
+      "point": "oninaru",
+      "prompt": "{先生|せんせい}、この{写真|しゃしん}を（　）か。",
+      "options": [
+        "お{見|み}になりました",
+        "ご{覧|らん}になりました",
+        "{見|み}られになりました",
+        "{拝見|はいけん}しました"
+      ],
+      "answer": 1,
+      "explanation": "見る has a special honorific: **ご覧になる**.",
+      "notes": [
+        "お見になる doesn't exist — 見る uses ご覧になる.",
+        "",
+        "見られになる isn't a form.",
+        "拝見する is humble (your own looking)."
+      ],
+      "translation": "Professor, have you seen this photo?"
+    },
+    {
+      "point": "okudasai",
+      "prompt": "こちらにお{座|すわ}り（　）。",
+      "options": [
+        "ください",
+        "くださって",
+        "くださる",
+        "くだせい"
+      ],
+      "answer": 0,
+      "explanation": "お + stem + **ください**.",
+      "notes": [
+        "",
+        "くださって is the て-form — the request needs ください.",
+        "くださる is the dictionary form — not a request.",
+        "くだせい isn't a word."
+      ],
+      "translation": "Please have a seat here."
+    },
+    {
+      "point": "okudasai",
+      "prompt": "{少々|しょうしょう}お（　）ください。",
+      "options": [
+        "{待|ま}た",
+        "{待|ま}って",
+        "{待|ま}つ",
+        "{待|ま}ち"
+      ],
+      "answer": 3,
+      "explanation": "お + **ます-stem** + ください: お待ちください.",
+      "notes": [
+        "The ない-stem doesn't fit.",
+        "お待ってください is a mix of two patterns — wrong.",
+        "The dictionary form doesn't fit.",
+        ""
+      ],
+      "translation": "Please wait a moment."
+    },
+    {
+      "point": "okudasai",
+      "prompt": "こちらの{出口|でぐち}をご（　）ください。",
+      "options": [
+        "{利用|りよう}する",
+        "{利用|りよう}して",
+        "{利用|りよう}",
+        "{利用|りよう}し"
+      ],
+      "answer": 2,
+      "explanation": "ご + **する-noun** + ください: ご利用ください.",
+      "notes": [
+        "The dictionary form doesn't fit.",
+        "ご利用してください mixes patterns — drop して.",
+        "",
+        "し isn't used after the noun here."
+      ],
+      "translation": "Please use this exit."
+    },
+    {
+      "point": "itasu",
+      "prompt": "では、わたしがご{説明|せつめい}（　）。",
+      "options": [
+        "くださいます",
+        "いたします",
+        "なさいます",
+        "いたさいます"
+      ],
+      "answer": 1,
+      "explanation": "Your own action, humbly: **いたします**.",
+      "notes": [
+        "くださる means someone gives *you* a favour — wrong direction.",
+        "",
+        "なさる is honorific — you can't raise yourself.",
+        "いたさいます isn't a form."
+      ],
+      "translation": "Then I will explain."
+    },
+    {
+      "point": "itasu",
+      "prompt": "お{荷物|にもつ}はわたしがお{持|も}ち（　）。",
+      "options": [
+        "いたします",
+        "なさいます",
+        "になります",
+        "ください"
+      ],
+      "answer": 0,
+      "explanation": "Humble お〜**いたします** for your own action.",
+      "notes": [
+        "",
+        "お持ちなさいます would be honorific — raising yourself.",
+        "お持ちになります is honorific — for others' actions.",
+        "お持ちください asks *them* to carry it."
+      ],
+      "translation": "I'll carry your luggage."
+    },
+    {
+      "point": "gozaimasu",
+      "prompt": "（{店員|てんいん}）トイレは2{階|かい}に（　）。",
+      "options": [
+        "ございです",
+        "でございます",
+        "ございます",
+        "ござります"
+      ],
+      "answer": 2,
+      "explanation": "Location + ある → **ございます**.",
+      "notes": [
+        "ございです isn't a form.",
+        "でございます = です; with a location (2階に) you need ある → ございます.",
+        "",
+        "ござります isn't standard."
+      ],
+      "translation": "The restroom is on the second floor."
+    },
+    {
+      "point": "gozaimasu",
+      "prompt": "こちらが{新|あたら}しいメニュー（　）。",
+      "options": [
+        "がございます",
+        "ございです",
+        "にございます",
+        "でございます"
+      ],
+      "answer": 3,
+      "explanation": "Very polite です → **でございます**.",
+      "notes": [
+        "がございます = 'there is …' — the sentence says what this is.",
+        "ございです isn't a form.",
+        "にございます = 'is located at …'.",
+        ""
+      ],
+      "translation": "This is our new menu."
+    }
+  ]
+}

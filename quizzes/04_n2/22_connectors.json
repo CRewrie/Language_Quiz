@@ -1,0 +1,361 @@
+{
+  "id": "n2-connectors",
+  "category": "JLPT N2",
+  "title": "Connectors: 反面, 要するに, すなわち, なお, あるいは, 逆に, 以上に",
+  "description": "On the other hand, in short, namely, additionally, or, conversely, and more than.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "hanmen",
+      "title": "〜反面: on the other hand",
+      "summary": "Plain form (な-adj + な / である) + 反面 = while A, (at the same time) B — two sides of one thing.",
+      "body": "- この仕事は給料がいい**反面**、休みが少ない.\n- 都会の生活は便利な**反面**、ストレスも多い.",
+      "examples": [
+        [
+          "{都会|とかい}の{生活|せいかつ}は{便利|べんり}な{反面|はんめん}、ストレスも{多|おお}い。",
+          "City life is convenient, but on the other hand it's stressful."
+        ]
+      ]
+    },
+    {
+      "id": "yousuruni",
+      "title": "要するに: in short, basically",
+      "summary": "要するに = to sum up (what was just said).",
+      "body": "- 時間もお金もない。**要するに**、今回は無理だということだ.\n- A：忙しいし、遠いし…　B：**要するに**、行きたくないんでしょう.",
+      "examples": [
+        [
+          "{要|よう}するに、{行|い}きたくないんでしょう。",
+          "Basically, you just don't want to go, right?"
+        ]
+      ]
+    },
+    {
+      "id": "sunawachi",
+      "title": "すなわち: that is, namely",
+      "summary": "A、すなわちB = A, in other words B (formal; A and B are the same thing).",
+      "body": "- 日本の首都、**すなわち**東京.\n- 彼は父の弟、**すなわち**私の叔父だ.",
+      "examples": [
+        [
+          "{彼|かれ}は{父|ちち}の{弟|おとうと}、すなわち{私|わたし}の{叔父|おじ}だ。",
+          "He's my father's younger brother — that is, my uncle."
+        ]
+      ]
+    },
+    {
+      "id": "nao",
+      "title": "なお: additionally, please note",
+      "summary": "Sentence-initial なお = an additional note (announcements, documents).",
+      "body": "- 会議は3時からです。**なお**、資料は当日配ります.\n- **なお**、駐車場はありませんのでご注意ください.",
+      "examples": [
+        [
+          "なお、{資料|しりょう}は{当日|とうじつ}{配|くば}ります。",
+          "Please note that the materials will be handed out on the day."
+        ]
+      ]
+    },
+    {
+      "id": "aruiwa",
+      "title": "あるいは: or, possibly",
+      "summary": "AあるいはB = A or B (formal または).",
+      "body": "- 電話**あるいは**メールでご連絡ください.\n- 明日は雨、**あるいは**雪になるでしょう.",
+      "examples": [
+        [
+          "{電話|でんわ}あるいはメールでご{連絡|れんらく}ください。",
+          "Please contact us by phone or e-mail."
+        ]
+      ]
+    },
+    {
+      "id": "gyakuni",
+      "title": "逆に: conversely, the other way round",
+      "summary": "逆に = the reverse of what you'd expect / of the previous statement.",
+      "body": "- 節約しようとして、**逆に**お金がかかった.\n- 先生に質問したら、**逆に**質問されてしまった.",
+      "examples": [
+        [
+          "{先生|せんせい}に{質問|しつもん}したら、{逆|ぎゃく}に{質問|しつもん}されてしまった。",
+          "I asked the teacher a question, and instead got asked one back."
+        ]
+      ]
+    },
+    {
+      "id": "ijouni",
+      "title": "〜以上に: more than",
+      "summary": "Noun / plain form + 以上に = beyond, more than (expected).",
+      "body": "- 試験は思っていた**以上に**難しかった.\n- 彼は予想**以上に**早く着いた.\n\nCareful: 以外に (except) vs 意外に (surprisingly) — both sound いがいに.",
+      "examples": [
+        [
+          "{試験|しけん}は{思|おも}っていた{以上|いじょう}に{難|むずか}しかった。",
+          "The exam was harder than I had expected."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "hanmen",
+      "prompt": "この{仕事|しごと}は{給料|きゅうりょう}がいい（　）、{休|やす}みが{少|すく}ない。",
+      "options": [
+        "{反省|はんせい}",
+        "{反対|はんたい}",
+        "{反応|はんのう}",
+        "{反面|はんめん}"
+      ],
+      "answer": 3,
+      "explanation": "On the other hand: **反面**.",
+      "notes": [
+        "反省 = 'reflection'.",
+        "反対 = 'opposite / opposition'.",
+        "反応 = 'reaction'.",
+        ""
+      ],
+      "translation": "This job pays well, but on the other hand there are few days off."
+    },
+    {
+      "point": "hanmen",
+      "prompt": "{都会|とかい}の{生活|せいかつ}は{便利|べんり}な（　）、ストレスも{多|おお}い。",
+      "options": [
+        "{反面|はんめん}",
+        "{正面|しょうめん}",
+        "{表面|ひょうめん}",
+        "{裏面|りめん}"
+      ],
+      "answer": 0,
+      "explanation": "**な反面**.",
+      "notes": [
+        "",
+        "正面 = 'front'.",
+        "表面 = 'surface'.",
+        "裏面 = 'reverse side (of paper)'."
+      ],
+      "translation": "City life is convenient, but on the other hand it's stressful."
+    },
+    {
+      "point": "yousuruni",
+      "prompt": "{時間|じかん}もお{金|かね}もない。（　）、{今回|こんかい}は{無理|むり}だということだ。",
+      "options": [
+        "{要|よう}して",
+        "{要|よう}すると",
+        "{要|よう}するに",
+        "{要|よう}すれば"
+      ],
+      "answer": 2,
+      "explanation": "In short: **要するに**.",
+      "notes": [
+        "要して = 'requiring'.",
+        "要すると isn't the set phrase.",
+        "",
+        "要すれば = 'if needed' (old-fashioned)."
+      ],
+      "translation": "There's no time and no money. In short, it's impossible this time."
+    },
+    {
+      "point": "yousuruni",
+      "prompt": "A：{忙|いそが}しいし、{遠|とお}いし、{天気|てんき}も{悪|わる}いし…。　B：（　）、{行|い}きたくないんでしょう。",
+      "options": [
+        "{要|よう}するに",
+        "ところで",
+        "それとも",
+        "ところが"
+      ],
+      "answer": 0,
+      "explanation": "Summing up: **要するに**.",
+      "notes": [
+        "",
+        "ところで = 'by the way'.",
+        "それとも = 'or (in questions)'.",
+        "ところが = 'however'."
+      ],
+      "translation": "A: I'm busy, it's far, and the weather's bad… B: Basically, you don't want to go, right?"
+    },
+    {
+      "point": "sunawachi",
+      "prompt": "{日本|にほん}の{首都|しゅと}、（　）{東京|とうきょう}は{人口|じんこう}が{多|おお}い。",
+      "options": [
+        "なお",
+        "ただし",
+        "すなわち",
+        "あるいは"
+      ],
+      "answer": 2,
+      "explanation": "Namely: **すなわち**.",
+      "notes": [
+        "なお = 'additionally'.",
+        "ただし = 'however (exception)'.",
+        "",
+        "あるいは = 'or'."
+      ],
+      "translation": "Japan's capital, namely Tokyo, has a large population."
+    },
+    {
+      "point": "sunawachi",
+      "prompt": "{彼|かれ}は{父|ちち}の{弟|おとうと}、（　）{私|わたし}の{叔父|おじ}だ。",
+      "options": [
+        "しかも",
+        "ただし",
+        "おまけに",
+        "すなわち"
+      ],
+      "answer": 3,
+      "explanation": "Same thing restated: **すなわち**.",
+      "notes": [
+        "しかも = 'moreover' — adds something new, not a restatement.",
+        "ただし = 'however'.",
+        "おまけに = 'on top of that'.",
+        ""
+      ],
+      "translation": "He's my father's younger brother — that is, my uncle."
+    },
+    {
+      "point": "nao",
+      "prompt": "{会議|かいぎ}は3{時|じ}からです。（　）、{資料|しりょう}は{当日|とうじつ}{配|くば}ります。",
+      "options": [
+        "なお",
+        "それで",
+        "しかし",
+        "だから"
+      ],
+      "answer": 0,
+      "explanation": "Additional note: **なお**.",
+      "notes": [
+        "",
+        "それで = 'and so'.",
+        "しかし = 'however' — nothing is contradicted.",
+        "だから = 'therefore'."
+      ],
+      "translation": "The meeting is from 3. Please note that the materials will be handed out on the day."
+    },
+    {
+      "point": "nao",
+      "prompt": "What does 「なお、{駐車場|ちゅうしゃじょう}はありません。」 mean in an announcement?",
+      "options": [
+        "However, there is parking.",
+        "Instead, there is no parking.",
+        "Please also note: there is no parking.",
+        "Therefore, there is no parking."
+      ],
+      "answer": 2,
+      "explanation": "なお = **additional information**.",
+      "notes": [
+        "ありません is negative.",
+        "That's その代わり.",
+        "",
+        "That's したがって / だから."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "aruiwa",
+      "prompt": "{電話|でんわ}（　）メールでご{連絡|れんらく}ください。",
+      "options": [
+        "あるいも",
+        "あるので",
+        "あるいて",
+        "あるいは"
+      ],
+      "answer": 3,
+      "explanation": "Or: **あるいは**.",
+      "notes": [
+        "あるいも isn't a word.",
+        "あるので = 'because there is'.",
+        "あるいて = 歩いて (walking).",
+        ""
+      ],
+      "translation": "Please contact us by phone or e-mail."
+    },
+    {
+      "point": "aruiwa",
+      "prompt": "{明日|あした}は{雨|あめ}、（　）{雪|ゆき}になるでしょう。",
+      "options": [
+        "ただし",
+        "あるいは",
+        "しかも",
+        "そのうえ"
+      ],
+      "answer": 1,
+      "explanation": "**あるいは** (one or the other).",
+      "notes": [
+        "ただし = 'however'.",
+        "",
+        "しかも = 'moreover'.",
+        "そのうえ = 'on top of that'."
+      ],
+      "translation": "Tomorrow there'll be rain, or possibly snow."
+    },
+    {
+      "point": "gyakuni",
+      "prompt": "{節約|せつやく}しようとして、（　）お{金|かね}がかかった。",
+      "options": [
+        "{逆|ぎゃく}に",
+        "{逆|ぎゃく}の",
+        "{逆|ぎゃく}を",
+        "{逆|ぎゃく}で"
+      ],
+      "answer": 0,
+      "explanation": "Adverb form: **逆に**.",
+      "notes": [
+        "",
+        "逆の modifies a noun.",
+        "逆を needs a verb (逆を行く).",
+        "逆で isn't the adverb."
+      ],
+      "translation": "I tried to save money but ended up spending more instead."
+    },
+    {
+      "point": "gyakuni",
+      "prompt": "{先生|せんせい}に{質問|しつもん}したら、（　）{質問|しつもん}されてしまった。",
+      "options": [
+        "{反面|はんめん}",
+        "{逆|ぎゃく}で",
+        "{反対|はんたい}で",
+        "{逆|ぎゃく}に"
+      ],
+      "answer": 3,
+      "explanation": "The other way round: **逆に**.",
+      "notes": [
+        "反面 follows a clause (〜反面).",
+        "逆で isn't the adverb.",
+        "反対で isn't the adverb.",
+        ""
+      ],
+      "translation": "I asked the teacher a question, and instead got asked one back."
+    },
+    {
+      "point": "ijouni",
+      "prompt": "{試験|しけん}は{思|おも}っていた（　）{難|むずか}しかった。",
+      "options": [
+        "{以上|いじょう}に",
+        "{以上|いじょう}は",
+        "{以外|いがい}に",
+        "{以下|いか}に"
+      ],
+      "answer": 0,
+      "explanation": "More than: **以上に**.",
+      "notes": [
+        "",
+        "以上は = 'now that'.",
+        "以外に = 'except' (意外に would be 'surprisingly').",
+        "以下に = 'below' — doesn't fit 思っていた."
+      ],
+      "translation": "The exam was harder than I had expected."
+    },
+    {
+      "point": "ijouni",
+      "prompt": "{彼|かれ}は{予想|よそう}（　）{早|はや}く{着|つ}いた。",
+      "options": [
+        "{以上|いじょう}で",
+        "{以上|いじょう}に",
+        "{以来|いらい}",
+        "{以内|いない}に"
+      ],
+      "answer": 1,
+      "explanation": "**予想以上に**.",
+      "notes": [
+        "以上で = 'that's all'.",
+        "",
+        "以来 = 'since'.",
+        "以内に = 'within'."
+      ],
+      "translation": "He arrived earlier than expected."
+    }
+  ]
+}

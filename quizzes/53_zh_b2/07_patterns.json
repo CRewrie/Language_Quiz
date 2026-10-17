@@ -1,0 +1,312 @@
+{
+  "id": "zh-b2-patterns",
+  "category": "Mandarin B2",
+  "language": "zh",
+  "title": "Patterns (B2): 越…越, 既…又, 不是…就是, 宁可…也, 别说 / 更不用说, 不但…甚至",
+  "description": "The more … the more, both … and, either … or (only two options), would rather, let alone, and not only … even.",
+  "level": "B2",
+  "points": [
+    {
+      "id": "yueyue",
+      "title": "越 A 越 B: the more A, the more B",
+      "summary": "Subject + 越 + verb / adj + 越 + adj / verb. No 很 after the second 越.",
+      "body": "- 雨**越**下**越**大.\n- 他**越**说**越**高兴.",
+      "examples": [
+        [
+          "{雨|yǔ}{越|yuè}{下|xià}{越|yuè}{大|dà}。",
+          "The rain is getting heavier and heavier."
+        ]
+      ]
+    },
+    {
+      "id": "jiyou",
+      "title": "既 A 又 / 也 B: both … and",
+      "summary": "既 (jì) A 又 / 也 B = both A and B (more formal than 又…又).",
+      "body": "- 她**既**聪明**又**漂亮.",
+      "examples": [
+        [
+          "{这个|zhège}{工作|gōngzuò}{既|jì}{轻松|qīngsōng}{又|yòu}{赚钱|zhuànqián}。",
+          "This job is both easy and well paid."
+        ]
+      ]
+    },
+    {
+      "id": "bushijiushi",
+      "title": "不是 A 就是 B: either A or B",
+      "summary": "不是 A，就是 B = it's always one of the two. (不是 A 而是 B = not A but B.)",
+      "body": "- 他每天**不是**看书，**就是**看电影.",
+      "examples": [
+        [
+          "{周末|zhōumò}{我|wǒ}{不是|búshì}{在|zài}{家|jiā}，{就是|jiùshì}{去|qù}{公园|gōngyuán}。",
+          "At weekends I'm either at home or in the park."
+        ]
+      ]
+    },
+    {
+      "id": "ningke",
+      "title": "宁可 A 也 (不) B: would rather",
+      "summary": "宁可 (nìngkě) A，也不 B = would rather A than B.",
+      "body": "- 我**宁可**走路，**也不**坐他的车.",
+      "examples": [
+        [
+          "{我|wǒ}{宁可|nìngkě}{饿|è}{着|zhe}，{也|yě}{不|bù}{吃|chī}{这个|zhège}。",
+          "I'd rather go hungry than eat this."
+        ]
+      ]
+    },
+    {
+      "id": "bieshuo",
+      "title": "别说 … / … 更不用说: let alone",
+      "summary": "别说 (biéshuō) A，(就是 / 连) B 也 … = never mind A, even B …. … 更不用说 (gèng búyòng shuō) A = let alone A.",
+      "body": "- **别说**汉字了，他连拼音都不会.\n- 这个字连老师都不认识，**更不用说**我了.",
+      "examples": [
+        [
+          "{别说|biéshuō}{汉字|Hànzì}{了|le}，{他|tā}{连|lián}{拼音|pīnyīn}{都|dōu}{不|bú}{会|huì}。",
+          "Never mind characters — he can't even do pinyin."
+        ]
+      ]
+    },
+    {
+      "id": "budanshenzhi",
+      "title": "不但 … 甚至(连) …: not only … even",
+      "summary": "不但 A，甚至(连) B 也 / 都 … adds a surprising extreme.",
+      "body": "- 这首歌**不但**年轻人喜欢，**甚至连**老人**也**喜欢.",
+      "examples": [
+        [
+          "{他|tā}{不但|búdàn}{会|huì}{说|shuō}{汉语|Hànyǔ}，{甚至|shènzhì}{还|hái}{会|huì}{写|xiě}{书法|shūfǎ}。",
+          "He not only speaks Chinese — he even does calligraphy."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "yueyue",
+      "prompt": "{雨|yǔ}{越|yuè}{下|xià}（　）{大|dà}，{我们|wǒmen}{进去|jìnqù}{吧|ba}。",
+      "options": [
+        "{越|yuè}",
+        "{太|tài}",
+        "{很|hěn}",
+        "{更|gèng}"
+      ],
+      "answer": 0,
+      "explanation": "**越…越**.",
+      "notes": [
+        "",
+        "太 can't follow 越下.",
+        "很 can't follow 越下.",
+        "The pattern repeats 越."
+      ],
+      "translation": "The rain is getting heavier and heavier — let's go inside."
+    },
+    {
+      "point": "yueyue",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{说|shuō}{越|yuè}{越|yuè}{高兴|gāoxìng}。",
+        "{他|tā}{越|yuè}{说|shuō}{越|yuè}{高兴|gāoxìng}。",
+        "{他|tā}{越|yuè}{说|shuō}{越|yuè}{很|hěn}{高兴|gāoxìng}。",
+        "{越|yuè}{他|tā}{说|shuō}{越|yuè}{高兴|gāoxìng}。"
+      ],
+      "answer": 1,
+      "explanation": "**越 V 越 adj**.",
+      "notes": [
+        "越 goes before each part.",
+        "",
+        "No 很 after 越.",
+        "With one subject, it comes first."
+      ],
+      "translation": "The more he talked, the happier he got."
+    },
+    {
+      "point": "jiyou",
+      "prompt": "{她|tā}{既|jì}{聪明|cōngming}（　）{漂亮|piàoliang}。",
+      "options": [
+        "{又|yòu}",
+        "{还|hái}",
+        "{和|hé}",
+        "{而|ér}"
+      ],
+      "answer": 0,
+      "explanation": "Both … and: **既…又**.",
+      "notes": [
+        "",
+        "既 pairs with 又 / 也.",
+        "和 can't link adjectives.",
+        "而 contrasts — no contrast here."
+      ],
+      "translation": "She's both clever and pretty."
+    },
+    {
+      "point": "jiyou",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{这个|zhège}{工作|gōngzuò}{又|yòu}{轻松|qīngsōng}{既|jì}{赚钱|zhuànqián}。",
+        "{这个|zhège}{工作|gōngzuò}{既|jì}{轻松|qīngsōng}{又|yòu}{赚钱|zhuànqián}。",
+        "{这个|zhège}{工作|gōngzuò}{既|jì}{轻松|qīngsōng}{和|hé}{赚钱|zhuànqián}。",
+        "{既|jì}{这个|zhège}{工作|gōngzuò}{轻松|qīngsōng}{又|yòu}{赚钱|zhuànqián}。"
+      ],
+      "answer": 1,
+      "explanation": "Subject + **既** A **又** B.",
+      "notes": [
+        "既 comes first.",
+        "",
+        "既 pairs with 又.",
+        "既 goes after the subject."
+      ],
+      "translation": "This job is both easy and well paid."
+    },
+    {
+      "point": "bushijiushi",
+      "prompt": "{他|tā}{每天|měitiān}{不是|búshì}{看|kàn}{书|shū}，（　）{看|kàn}{电影|diànyǐng}，{很|hěn}{少|shǎo}{出门|chūmén}。",
+      "options": [
+        "{也是|yěshì}",
+        "{还是|háishi}",
+        "{只是|zhǐshì}",
+        "{就是|jiùshì}"
+      ],
+      "answer": 3,
+      "explanation": "Either … or: **不是…就是**.",
+      "notes": [
+        "也是 doesn't pair with 不是.",
+        "还是 is for questions.",
+        "只是 = 'only'.",
+        ""
+      ],
+      "translation": "Every day he either reads or watches films — he rarely goes out."
+    },
+    {
+      "point": "bushijiushi",
+      "prompt": "What does 「{周末|zhōumò}{我|wǒ}{不是|búshì}{在|zài}{家|jiā}，{就是|jiùshì}{去|qù}{公园|gōngyuán}。」 mean?",
+      "options": [
+        "AtweekendsI'mathomeandinthepark.",
+        "AtweekendsI'meitherathomeorinthepark.",
+        "AtweekendsI'mneitherathomenorinthepark.",
+        "AtweekendsI'mnotathomebutinthepark."
+      ],
+      "answer": 1,
+      "explanation": "不是…就是 = **either … or**.",
+      "notes": [
+        "It's one or the other.",
+        "",
+        "That would be 既不…也不.",
+        "That would be 不是…而是."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "ningke",
+      "prompt": "{我|wǒ}{宁可|nìngkě}{走路|zǒulù}，（　）{不|bú}{坐|zuò}{他|tā}{的|de}{车|chē}。",
+      "options": [
+        "{才|cái}",
+        "{就|jiù}",
+        "{也|yě}",
+        "{都|dōu}"
+      ],
+      "answer": 2,
+      "explanation": "Would rather: **宁可…也不**.",
+      "notes": [
+        "宁可 pairs with 也.",
+        "宁可 pairs with 也.",
+        "",
+        "宁可 pairs with 也."
+      ],
+      "translation": "I'd rather walk than ride in his car."
+    },
+    {
+      "point": "ningke",
+      "prompt": "What does 「{我|wǒ}{宁可|nìngkě}{饿|è}{着|zhe}，{也|yě}{不|bù}{吃|chī}{这个|zhège}。」 mean?",
+      "options": [
+        "I'mnothungry,soIwon'teatthis.",
+        "EvenifI'mhungry,Imighteatthis.",
+        "I'mhungry,soI'lleatthis.",
+        "I'drathergohungrythaneatthis."
+      ],
+      "answer": 3,
+      "explanation": "宁可 A 也不 B = **rather A than B**.",
+      "notes": [
+        "饿着 is chosen over eating.",
+        "Not a possibility.",
+        "宁可…也不 = refuses B.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "bieshuo",
+      "prompt": "{这个|zhège}{字|zì}{连|lián}{老师|lǎoshī}{都|dōu}{不|bú}{认识|rènshi}，（　）{我|wǒ}{了|le}。",
+      "options": [
+        "{不用更说|búyòng gèng shuō}",
+        "{更不用说|gèng búyòng shuō}",
+        "{更不说用|gèng bù shuō yòng}",
+        "{更说不用|gèng shuō búyòng}"
+      ],
+      "answer": 1,
+      "explanation": "Let alone: **更不用说**.",
+      "notes": [
+        "Order is broken.",
+        "",
+        "Order is broken.",
+        "Order is broken."
+      ],
+      "translation": "Even the teacher doesn't know this character, let alone me."
+    },
+    {
+      "point": "bieshuo",
+      "prompt": "（　）{汉字|Hànzì}{了|le}，{他|tā}{连|lián}{拼音|pīnyīn}{都|dōu}{不|bú}{会|huì}。",
+      "options": [
+        "{别说|biéshuō}",
+        "{说别|shuō bié}",
+        "{不说|bù shuō}",
+        "{没说|méi shuō}"
+      ],
+      "answer": 0,
+      "explanation": "Never mind: **别说…连…都**.",
+      "notes": [
+        "",
+        "Not a phrase.",
+        "不说汉字了 = 'let's stop talking about characters'.",
+        "没说 = 'didn't say'."
+      ],
+      "translation": "Never mind characters — he can't even do pinyin."
+    },
+    {
+      "point": "budanshenzhi",
+      "prompt": "{他|tā}{不但|búdàn}{会|huì}{说|shuō}{汉语|Hànyǔ}，（　）{还|hái}{会|huì}{写|xiě}{书法|shūfǎ}。",
+      "options": [
+        "{至于|zhìyú}",
+        "{直到|zhídào}",
+        "{以至|yǐzhì}",
+        "{甚至|shènzhì}"
+      ],
+      "answer": 3,
+      "explanation": "Not only … even: **不但…甚至**.",
+      "notes": [
+        "至于 = 'as for'.",
+        "直到 = 'until'.",
+        "以至 = 'to the extent that' (result).",
+        ""
+      ],
+      "translation": "He not only speaks Chinese — he even does calligraphy."
+    },
+    {
+      "point": "budanshenzhi",
+      "prompt": "What does 「{这|zhè}{首|shǒu}{歌|gē}{不但|búdàn}{年轻人|niánqīng rén}{喜欢|xǐhuan}，{甚至|shènzhì}{连|lián}{老人|lǎorén}{也|yě}{喜欢|xǐhuan}。」 mean?",
+      "options": [
+        "Youngpeoplelikeit,butoldpeopledon't.",
+        "Oldpeoplelikeitmorethanyoungpeople.",
+        "Notonlyyoungpeoplelikethissong—evenoldpeopledo.",
+        "Onlyyoungpeoplelikethissong."
+      ],
+      "answer": 2,
+      "explanation": "**不但…甚至连…也**.",
+      "notes": [
+        "甚至连老人也喜欢 — they like it too.",
+        "No comparison.",
+        "",
+        "甚至连 adds old people."
+      ],
+      "translation": ""
+    }
+  ]
+}

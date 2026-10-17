@@ -1,0 +1,621 @@
+{
+  "id": "n5-comparison-change",
+  "category": "JLPT N5",
+  "title": "Comparison, Change & Choosing",
+  "description": "より〜のほうが, いちばん, なる (become), にする (decide on), and turning verbs into nouns with の (のが好き/上手/下手).",
+  "level": "N5",
+  "points": [
+    {
+      "id": "yori-hou",
+      "title": "より〜のほうが: is more … than",
+      "summary": "AよりBのほうが〜 = 'B is more … than A'. より marks the loser and のほうが the winner. Ask with AとBと、どちらが〜.",
+      "body": "Japanese adjectives don't change for comparison (there's no 'bigger'). Instead you mark the items:\n- **より** = 'than'. It marks the thing compared against.\n- **のほうが** = 'the side of …'. It marks the one that 'wins'.\n\nThe full pattern is **AよりBのほうが[adjective]**: 電車よりバスのほうが安いです (the bus is cheaper than the train). Either part can stand alone: バスのほうが安いです / バスは電車より安いです.\n\n**Asking:** AとBと、**どちらが**〜ですか. Answer with Bのほうが〜です. (Never どちらは.)\n\n**Mistakes to avoid:**\n- Don't add もっと just to make a comparative. より already does that job (もっと is only for emphasis).\n- ほうが needs の after nouns (バスのほう), but not after verbs (歩くほうが).",
+      "examples": [
+        [
+          "{東京|とうきょう}は{大阪|おおさか}より{大|おお}きいです。",
+          "Tokyo is bigger than Osaka."
+        ],
+        [
+          "{犬|いぬ}と{猫|ねこ}と、どちらが{好|す}きですか。—{猫|ねこ}のほうが{好|す}きです。",
+          "Which do you like better, dogs or cats? — I prefer cats."
+        ],
+        [
+          "{電車|でんしゃ}よりバスのほうが{安|やす}いです。",
+          "The bus is cheaper than the train."
+        ]
+      ]
+    },
+    {
+      "id": "ichiban",
+      "title": "いちばん: the most",
+      "summary": "いちばん + adjective = superlative. The group is marked with 〜の中で or 〜で. Ask with 何/だれ/どこ/いつ が いちばん〜.",
+      "body": "**いちばん** (一番, literally 'number one') goes right before the adjective to make a superlative: いちばん高い (the tallest), いちばん好き (favourite).\n\nThe **group** being compared is marked with **〜の中で** or **〜で**:\n- 果物**の中で**、りんごが**いちばん**好きです。\n- クラス**で**いちばん背が高い人。\n\n**Asking:** use a question word + **が**: 何**が**いちばん好きですか, だれ**が**いちばん速いですか.\nFor comparing exactly two things, use どちら/〜のほうが, not いちばん.",
+      "examples": [
+        [
+          "{果物|くだもの}の{中|なか}で、{何|なに}がいちばん{好|す}きですか。",
+          "Among fruits, which do you like best?"
+        ],
+        [
+          "{家族|かぞく}でいちばん{背|せ}が{高|たか}いのは{父|ちち}です。",
+          "The tallest person in my family is my father."
+        ]
+      ]
+    },
+    {
+      "id": "naru",
+      "title": "なる: to become",
+      "summary": "Noun/な-adjective + に + なる; い-adjective (drop い) + く + なる. It describes a change.",
+      "body": "**なる** describes a change of state:\n- **Noun + になる**: 医者**に**なる, 20歳**に**なる, 春**に**なる\n- **な-adjective + になる**: 元気**に**なる, 上手**に**なる, きれい**に**なる\n- **い-adjective → 〜くなる**: 寒い → 寒**く**なる, 大きい → 大き**く**なる (いい → **よく**なる)\n\nPast tense なりました is very common for 'has become / got': 暖かくなりましたね (it's got warmer, hasn't it).\n\n**Watch out:** きれい, 嫌い and 有名 are な-adjectives even though some end in い, so it's きれい**に**なる, not きれくなる.",
+      "examples": [
+        [
+          "{春|はる}になって、{暖|あたた}かくなりました。",
+          "Spring has come and it's got warmer."
+        ],
+        [
+          "{日本語|にほんご}が{上手|じょうず}になりましたね。",
+          "Your Japanese has really improved."
+        ],
+        [
+          "{将来|しょうらい}、{医者|いしゃ}になりたいです。",
+          "I want to become a doctor in the future."
+        ]
+      ]
+    },
+    {
+      "id": "ni-suru",
+      "title": "にする: to decide on, to choose",
+      "summary": "Noun + にする = 'I'll have / go with …'. A decision or choice made by you (vs. になる, a change that just happens).",
+      "body": "**Noun + にする** expresses a **choice or decision**:\n- At a restaurant: 私はカレー**にします** (I'll have the curry).\n- Planning: 旅行は来月**にしましょう** (let's make the trip next month).\n- Asking: 何**にします**か (what will you have?).\n\n**にする vs になる:**\n- **にする**: someone actively chooses or makes it so.\n- **になる**: it changes or turns out that way by itself.\n\nWith verbs, the pattern becomes **ことにする** ('decide to do'), which is N4: 毎日走ることにしました.\n\nRelated: adjectives + する mean 'make something …': 部屋をきれい**にする** (make the room tidy), 音を小さ**くする** (turn the volume down).",
+      "examples": [
+        [
+          "わたしはコーヒーにします。",
+          "I'll have coffee."
+        ],
+        [
+          "{会議|かいぎ}は{月曜日|げつようび}にしましょう。",
+          "Let's set the meeting for Monday."
+        ],
+        [
+          "{部屋|へや}をきれいにしてください。",
+          "Please tidy up the room."
+        ]
+      ]
+    },
+    {
+      "id": "no-nominalizer",
+      "title": "の (2): turning a verb phrase into a noun",
+      "summary": "Plain verb + の = 'the act of doing'. It lets a verb phrase work as a subject or object: 読むのが好き, 話すのは難しい.",
+      "body": "Particles (が, を, は) need a **noun** in front of them. To talk about an **action** as a thing, put **の** after the plain form of the verb:\n- 本を読む**の**が好きです (I like reading books).\n- 日本語を話す**の**は難しいです (speaking Japanese is hard).\n- 宿題をする**の**を忘れました (I forgot to do my homework).\n\n**こと** can often replace の here (読むことが好き). こと sounds more abstract or formal, の more immediate. A few patterns need one or the other: ことができる (can do) always uses こと, while perception verbs like 見る and 聞く take の.",
+      "examples": [
+        [
+          "{本|ほん}を{読|よ}むのが{好|す}きです。",
+          "I like reading books."
+        ],
+        [
+          "{漢字|かんじ}を{覚|おぼ}えるのは{大変|たいへん}です。",
+          "Memorising kanji is tough."
+        ],
+        [
+          "{電気|でんき}を{消|け}すのを{忘|わす}れました。",
+          "I forgot to turn off the light."
+        ]
+      ]
+    },
+    {
+      "id": "noga-suki-jouzu",
+      "title": "のが好き / のが上手 / のが下手: like / be good / be bad at doing",
+      "summary": "Verb + のが + 好き/嫌い/上手/下手 talks about activities you like or are good or bad at. Always が, never を.",
+      "body": "These combine **の (nominalizer)** with adjectives that take **が**:\n- 歌う**のが好き**です: I like singing.\n- 料理をする**のが上手**です: (she) is good at cooking.\n- 絵をかく**のが下手**です: I'm bad at drawing.\n- 早く起きる**のが嫌い**です: I hate getting up early.\n\n**Grammar notes:**\n- The particle is **が** because 好き, 上手 and 下手 are adjectives, not action verbs. のを好き is wrong.\n- The topic (the person) takes は: 姉**は**歌うの**が**上手です.\n- Modest usage: 上手 is a compliment for **others**. About yourself, Japanese people prefer 得意 (N4) or understate.",
+      "examples": [
+        [
+          "{姉|あね}は{歌|うた}を{歌|うた}うのが{上手|じょうず}です。",
+          "My older sister is good at singing."
+        ],
+        [
+          "わたしは{料理|りょうり}をするのが{下手|へた}です。",
+          "I'm bad at cooking."
+        ],
+        [
+          "{旅行|りょこう}するのが{大好|だいす}きです。",
+          "I love travelling."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "yori-hou",
+      "prompt": "{犬|いぬ}（　）{猫|ねこ}のほうが{好|す}きです。",
+      "options": [
+        "のより",
+        "より",
+        "ほう",
+        "ほど"
+      ],
+      "answer": 1,
+      "explanation": "**AよりBのほうが** = 'B more than A'. より marks the item compared against.",
+      "notes": [
+        "Nouns take より directly: 犬より, not 犬のより.",
+        "",
+        "ほう is already used with 猫. 犬ほう猫のほう is ungrammatical.",
+        "ほど is used with negatives (犬ほど好きじゃない)."
+      ],
+      "translation": "I like cats more than dogs."
+    },
+    {
+      "point": "yori-hou",
+      "prompt": "A：{夏|なつ}と{冬|ふゆ}と、どちらが{好|す}きですか。　B：{夏|なつ}の（　）が{好|す}きです。",
+      "options": [
+        "もの",
+        "より",
+        "ほう",
+        "どちら"
+      ],
+      "answer": 2,
+      "explanation": "Answer a どちら question with **〜のほうが**.",
+      "notes": [
+        "夏のものが would mean 'summer things'.",
+        "夏のよりが isn't a form. より directly follows the noun (夏より).",
+        "",
+        "どちら is the question word, so the answer can't contain it."
+      ],
+      "translation": "A: Which do you like better, summer or winter? B: I prefer summer."
+    },
+    {
+      "point": "yori-hou",
+      "prompt": "{電車|でんしゃ}とバスと、（　）が{速|はや}いですか。",
+      "options": [
+        "どこ",
+        "どれ",
+        "どの",
+        "どちら"
+      ],
+      "answer": 3,
+      "explanation": "Comparing **two** things: **どちら**.",
+      "notes": [
+        "どこ asks 'where?'.",
+        "どれ is for choosing among three or more.",
+        "どの must be followed by a noun (どの乗り物).",
+        ""
+      ],
+      "translation": "Which is faster, the train or the bus?"
+    },
+    {
+      "point": "yori-hou",
+      "prompt": "{新幹線|しんかんせん}は{飛行機|ひこうき}より（　）。",
+      "options": [
+        "{遅|おそ}いのほうです",
+        "{遅|おそ}いよりです",
+        "{遅|おそ}いです",
+        "もっと{遅|おそ}くです"
+      ],
+      "answer": 2,
+      "explanation": "With より, the adjective stays in its **normal form**. Japanese has no special comparative.",
+      "notes": [
+        "のほう attaches to the winning noun (新幹線のほうが), not to the adjective.",
+        "より is already used. 遅いよりです is ungrammatical.",
+        "",
+        "もっと遅くです isn't grammatical. 遅く can't take です."
+      ],
+      "translation": "The Shinkansen is slower than a plane."
+    },
+    {
+      "point": "ichiban",
+      "prompt": "{家族|かぞく}の{中|なか}で、{父|ちち}が（　）{背|せ}が{高|たか}いです。",
+      "options": [
+        "ほど",
+        "より",
+        "もっと",
+        "いちばん"
+      ],
+      "answer": 3,
+      "explanation": "Within a group (の中で), 'the most' is **いちばん**.",
+      "notes": [
+        "ほど is used with negatives (父ほど高くない).",
+        "より needs a noun before it ('than X').",
+        "もっと means 'more' and is for comparing two things, not ranking in a group.",
+        ""
+      ],
+      "translation": "In my family, my father is the tallest."
+    },
+    {
+      "point": "ichiban",
+      "prompt": "スポーツ（　）{何|なに}がいちばん{好|す}きですか。",
+      "options": [
+        "に",
+        "で",
+        "と",
+        "を"
+      ],
+      "answer": 1,
+      "explanation": "The group for いちばん takes **で** (or の中で).",
+      "notes": [
+        "に doesn't mark the comparison group.",
+        "",
+        "と would mean 'together with sports'.",
+        "を would make sports an object."
+      ],
+      "translation": "Which sport do you like most?"
+    },
+    {
+      "point": "ichiban",
+      "prompt": "{一年|いちねん}で（　）がいちばん{寒|さむ}いですか。",
+      "options": [
+        "どの",
+        "いくつ",
+        "いつ",
+        "どちら"
+      ],
+      "answer": 2,
+      "explanation": "Asking for a time within the year: **いつ**が. (何月が would also work.)",
+      "notes": [
+        "どの must be followed by a noun (どの月).",
+        "いくつ asks 'how many / how old'.",
+        "",
+        "どちら is for choosing between two options."
+      ],
+      "translation": "When is it coldest in the year?"
+    },
+    {
+      "point": "naru",
+      "prompt": "{四月|しがつ}になって、{暖|あたた}か（　）なりました。",
+      "options": [
+        "に",
+        "で",
+        "な",
+        "く"
+      ],
+      "answer": 3,
+      "explanation": "い-adjective → drop い + **く** + なる.",
+      "notes": [
+        "になる is for nouns and な-adjectives.",
+        "で is the connective form of な-adjectives.",
+        "な is for modifying nouns.",
+        ""
+      ],
+      "translation": "It's April and it's got warmer."
+    },
+    {
+      "point": "naru",
+      "prompt": "{毎日|まいにち}{練習|れんしゅう}して、{日本語|にほんご}が{上手|じょうず}（　）なりました。",
+      "options": [
+        "く",
+        "に",
+        "な",
+        "が"
+      ],
+      "answer": 1,
+      "explanation": "上手 is a な-adjective, so **に** + なる.",
+      "notes": [
+        "上手く (うまく) is a different word. 上手 (じょうず) is a な-adjective and takes に.",
+        "",
+        "な is used before nouns.",
+        "が can't come between an adjective and なる."
+      ],
+      "translation": "I practised every day and my Japanese got better."
+    },
+    {
+      "point": "naru",
+      "prompt": "{来月|らいげつ}、20{歳|さい}（　）なります。",
+      "options": [
+        "で",
+        "く",
+        "が",
+        "に"
+      ],
+      "answer": 3,
+      "explanation": "Noun + **に** + なる.",
+      "notes": [
+        "20歳でなります isn't grammatical. 20歳で means 'at age 20'.",
+        "く is for い-adjectives.",
+        "が would make '20 years old' the subject that becomes something.",
+        ""
+      ],
+      "translation": "I'll turn 20 next month."
+    },
+    {
+      "point": "naru",
+      "prompt": "{薬|くすり}を{飲|の}んで、{風邪|かぜ}が（　）なりました。",
+      "options": [
+        "いいに",
+        "よく",
+        "いく",
+        "よいに"
+      ],
+      "answer": 1,
+      "explanation": "いい is irregular: its く-form is **よく** (from よい).",
+      "notes": [
+        "いい is an い-adjective, so に is wrong.",
+        "",
+        "いく isn't a form of いい.",
+        "よい is an い-adjective too, so it's よく, not よいに."
+      ],
+      "translation": "I took medicine and my cold got better."
+    },
+    {
+      "point": "ni-suru",
+      "prompt": "（At a restaurant）{店員|てんいん}：ご{注文|ちゅうもん}は？　{客|きゃく}：カレー（　）します。",
+      "options": [
+        "が",
+        "で",
+        "に",
+        "を"
+      ],
+      "answer": 2,
+      "explanation": "Choosing something: noun + **にします** ('I'll have …').",
+      "notes": [
+        "が would make the curry the one doing.",
+        "で would mean 'by means of curry'.",
+        "",
+        "カレーをします means 'do curry', which doesn't mean ordering it."
+      ],
+      "translation": "Waiter: Your order? Customer: I'll have the curry."
+    },
+    {
+      "point": "ni-suru",
+      "prompt": "{旅行|りょこう}は{来月|らいげつ}に（　）。",
+      "options": [
+        "しりましょう",
+        "しましょう",
+        "なりましょう",
+        "するましょう"
+      ],
+      "answer": 1,
+      "explanation": "Deciding on a time: **にする** → にしましょう ('let's make it next month').",
+      "notes": [
+        "しりましょう isn't a form of する.",
+        "",
+        "なる describes an unplanned change. You can't suggest 'let's become next month'.",
+        "ましょう attaches to the ます-stem し, not the dictionary form."
+      ],
+      "translation": "Let's make the trip next month."
+    },
+    {
+      "point": "ni-suru",
+      "prompt": "{寒|さむ}いですね。エアコンの{温度|おんど}を{高|たか}（　）しましょうか。",
+      "options": [
+        "な",
+        "で",
+        "く",
+        "に"
+      ],
+      "answer": 2,
+      "explanation": "'Make something …' with an い-adjective: drop い + **く** + する.",
+      "notes": [
+        "な is for modifying nouns.",
+        "で doesn't combine with する like this.",
+        "",
+        "に + する is for nouns and な-adjectives (静かにする)."
+      ],
+      "translation": "It's cold, isn't it? Shall I turn the air conditioner up?"
+    },
+    {
+      "point": "no-nominalizer",
+      "prompt": "{日本語|にほんご}を{話|はな}す（　）は{難|むずか}しいです。",
+      "options": [
+        "のが",
+        "のを",
+        "で",
+        "の"
+      ],
+      "answer": 3,
+      "explanation": "Verb + **の** turns 'speaking Japanese' into a noun that can take は.",
+      "notes": [
+        "のがは doubles the particles. は replaces が.",
+        "のをは isn't possible.",
+        "話すでは isn't the nominalizing structure.",
+        ""
+      ],
+      "translation": "Speaking Japanese is difficult."
+    },
+    {
+      "point": "no-nominalizer",
+      "prompt": "{電気|でんき}を{消|け}す（　）を{忘|わす}れました。",
+      "options": [
+        "のに",
+        "の",
+        "ので",
+        "のが"
+      ],
+      "answer": 1,
+      "explanation": "Verb + **の** + を: 'forgot (the act of) turning off'.",
+      "notes": [
+        "のに means 'even though / for', and のにを isn't possible.",
+        "",
+        "ので means 'because', and のでを isn't possible.",
+        "のがを doubles the particles."
+      ],
+      "translation": "I forgot to turn off the light."
+    },
+    {
+      "point": "no-nominalizer",
+      "prompt": "{子供|こども}が{公園|こうえん}で{遊|あそ}んでいる（　）が{見|み}えます。",
+      "options": [
+        "こと",
+        "もの",
+        "ところに",
+        "の"
+      ],
+      "answer": 3,
+      "explanation": "With perception verbs (見える, 聞こえる, 見る), the nominalizer must be **の**, not こと.",
+      "notes": [
+        "こと can't be used with perception verbs. You see a scene, not an abstract fact.",
+        "もの refers to objects, not an action you see.",
+        "ところにが isn't grammatical.",
+        ""
+      ],
+      "translation": "I can see children playing in the park."
+    },
+    {
+      "point": "noga-suki-jouzu",
+      "prompt": "{姉|あね}は{歌|うた}を{歌|うた}うのが（　）です。",
+      "options": [
+        "{上手|じょうず}な",
+        "{上手|じょうず}く",
+        "{上手|じょうず}",
+        "{上手|じょうず}に"
+      ],
+      "answer": 2,
+      "explanation": "**のが上手です** = 'is good at'. Before です, the な-adjective stands alone.",
+      "notes": [
+        "な is only used before a noun.",
+        "上手 is a な-adjective, so it doesn't take く.",
+        "",
+        "上手にです isn't a form. に makes an adverb."
+      ],
+      "translation": "My older sister is good at singing."
+    },
+    {
+      "point": "noga-suki-jouzu",
+      "prompt": "わたしは{料理|りょうり}をするの（　）{好|す}きです。",
+      "options": [
+        "に",
+        "が",
+        "で",
+        "を"
+      ],
+      "answer": 1,
+      "explanation": "好き takes **が**, also after verb + の.",
+      "notes": [
+        "に doesn't mark what you like.",
+        "",
+        "で doesn't mark what you like.",
+        "のを好き is a classic mistake. 好き is an adjective, not a verb."
+      ],
+      "translation": "I like cooking."
+    },
+    {
+      "point": "noga-suki-jouzu",
+      "prompt": "{絵|え}をかくのが（　）なので、{練習|れんしゅう}しています。",
+      "options": [
+        "{下手|へた}に",
+        "{上手|じょうず}",
+        "{下手|へた}",
+        "{下手|へた}な"
+      ],
+      "answer": 2,
+      "explanation": "Practising because you're **bad** at it: **下手**.",
+      "notes": [
+        "に makes an adverb and can't come before なので.",
+        "上手 ('good at') doesn't explain why you'd need to practise.",
+        "",
+        "な is only used before a noun. Before なので, use the bare stem: 下手なので (the な there belongs to ので)."
+      ],
+      "translation": "I'm bad at drawing, so I'm practising."
+    },
+    {
+      "point": "yori-hou",
+      "prompt": "バスより{歩|ある}く（　）が{健康|けんこう}にいいです。",
+      "options": [
+        "のほう",
+        "ほど",
+        "より",
+        "ほう"
+      ],
+      "answer": 3,
+      "explanation": "Verb + **ほうが** (no の).",
+      "notes": [
+        "After a verb, ほう attaches directly — の is only after nouns (バスのほう).",
+        "ほどが isn't the comparison pattern.",
+        "より is already used for the other side.",
+        ""
+      ],
+      "translation": "Walking is better for your health than the bus."
+    },
+    {
+      "point": "ichiban",
+      "prompt": "{三人|さんにん}の{中|なか}（　）、だれがいちばん{背|せ}が{高|たか}いですか。",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "が"
+      ],
+      "answer": 1,
+      "explanation": "Comparison group: **〜の中で**.",
+      "notes": [
+        "の中に is for 'inside something'; the comparison group takes で.",
+        "",
+        "を marks objects.",
+        "が would make the group the subject."
+      ],
+      "translation": "Who is the tallest of the three?"
+    },
+    {
+      "point": "naru",
+      "prompt": "{外|そと}が{暗|くら}く（　）から、{帰|かえ}りましょう。",
+      "options": [
+        "なるた",
+        "なっだ",
+        "なった",
+        "なりた"
+      ],
+      "answer": 2,
+      "explanation": "暗い → 暗く + **なった** (became dark).",
+      "notes": [
+        "た can't attach to the dictionary form.",
+        "なっだ isn't a form — る-verbs end in った.",
+        "",
+        "The past of なる is なった — not built from the ます-stem."
+      ],
+      "translation": "It's got dark outside, so let's go home."
+    },
+    {
+      "point": "ni-suru",
+      "prompt": "{飲|の}み{物|もの}は{何|なに}（　）しますか。",
+      "options": [
+        "に",
+        "を",
+        "が",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "Choosing: **〜にする** → 何にしますか.",
+      "notes": [
+        "",
+        "何をしますか = 'what will you do?' — doesn't ask for a choice of drink.",
+        "何がしますか isn't grammatical.",
+        "何でしますか isn't the choice pattern."
+      ],
+      "translation": "What will you have to drink?"
+    },
+    {
+      "point": "no-nominalizer",
+      "prompt": "{音楽|おんがく}を{聞|き}く（　）が{好|す}きです。",
+      "options": [
+        "のに",
+        "の",
+        "のを",
+        "ので"
+      ],
+      "answer": 1,
+      "explanation": "Verb + **の** + が好き.",
+      "notes": [
+        "のに means 'for / even though' — not a nominalizer here.",
+        "",
+        "のをが doubles particles.",
+        "ので means 'because'."
+      ],
+      "translation": "I like listening to music."
+    },
+    {
+      "point": "noga-suki-jouzu",
+      "prompt": "{兄|あに}は{泳|およ}ぐ（　）が{上手|じょうず}です。",
+      "options": [
+        "の",
+        "もの",
+        "ので",
+        "のを"
+      ],
+      "answer": 0,
+      "explanation": "Verb + **のが上手**.",
+      "notes": [
+        "",
+        "泳ぐもの = 'things that swim'.",
+        "ので means 'because'.",
+        "のをが doubles particles."
+      ],
+      "translation": "My older brother is good at swimming."
+    }
+  ]
+}

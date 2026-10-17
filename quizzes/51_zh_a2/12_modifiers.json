@@ -1,0 +1,200 @@
+{
+  "id": "zh-a2-modifiers",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "Describing Nouns: adj + 的, clause + 的, 第",
+  "description": "When an adjective needs 的 (好朋友 vs 很好的朋友), relative clauses with 的 (the person who …), and ordinals with 第.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "adjde",
+      "title": "Adjective + (的) + noun",
+      "summary": "One-syllable adjectives often attach directly: 好朋友, 新书. With 很 or a two-syllable adjective, use 的: 很好**的**朋友, 聪明**的**孩子.",
+      "body": "- 一本**新**书.\n- 一个很聪明**的**孩子.\n- ~~很好朋友~~ ✗",
+      "examples": [
+        [
+          "{我|wǒ}{有|yǒu}{一个|yí ge}{很|hěn}{好|hǎo}{的|de}{朋友|péngyou}。",
+          "I have a very good friend."
+        ]
+      ]
+    },
+    {
+      "id": "clausede",
+      "title": "Clause + 的 + noun: the … who / that",
+      "summary": "In Chinese the description (a whole clause) comes **before** the noun, joined by 的.",
+      "body": "- 在那儿工作**的**人 (the people who work there).\n- 跟你说话**的**那个人 (that person who was talking to you).",
+      "examples": [
+        [
+          "{在|zài}{那儿|nàr}{工作|gōngzuò}{的|de}{人|rén}{都|dōu}{很|hěn}{年轻|niánqīng}。",
+          "The people who work there are all young."
+        ]
+      ]
+    },
+    {
+      "id": "di",
+      "title": "第 + number: ordinals",
+      "summary": "第 (dì) + number (+ measure word) = first, second …. 第二天 = the next day.",
+      "body": "- 这是我**第**一次来中国.\n- **第**二天 (the next day).",
+      "examples": [
+        [
+          "{这|zhè}{是|shì}{我|wǒ}{第一|dì-yī}{次|cì}{来|lái}{中国|Zhōngguó}。",
+          "This is my first time in China."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "adjde",
+      "prompt": "{她|tā}{是|shì}{一个|yí ge}{很|hěn}{聪明|cōngming}（　）{孩子|háizi}。",
+      "options": [
+        "{得|de}",
+        "{地|de}",
+        "{了|le}",
+        "{的|de}"
+      ],
+      "answer": 3,
+      "explanation": "很 + adj + **的** + noun.",
+      "notes": [
+        "得 follows a verb.",
+        "地 comes before a verb.",
+        "了 doesn't link to a noun.",
+        ""
+      ],
+      "translation": "She's a very clever child."
+    },
+    {
+      "point": "adjde",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{有|yǒu}{一个|yí ge}{朋友|péngyou}{很|hěn}{好|hǎo}{的|de}。",
+        "{我|wǒ}{有|yǒu}{一个|yí ge}{很|hěn}{好|hǎo}{的|de}{朋友|péngyou}。",
+        "{我|wǒ}{有|yǒu}{一个|yí ge}{好|hǎo}{的|de}{很|hěn}{朋友|péngyou}。",
+        "{我|wǒ}{有|yǒu}{一个|yí ge}{很|hěn}{好|hǎo}{朋友|péngyou}。"
+      ],
+      "answer": 1,
+      "explanation": "**很好的朋友**.",
+      "notes": [
+        "The description comes before the noun.",
+        "",
+        "很 goes before the adjective.",
+        "With 很, the adjective needs 的."
+      ],
+      "translation": "I have a very good friend."
+    },
+    {
+      "point": "adjde",
+      "prompt": "Which phrase is correct?",
+      "options": [
+        "{一|yì}{本|běn}{新|xīn}{书|shū}",
+        "{一|yì}{本|běn}{新|xīn}{很|hěn}{书|shū}",
+        "{一|yì}{本|běn}{很|hěn}{新|xīn}{书|shū}",
+        "{一|yì}{本|běn}{书|shū}{新|xīn}"
+      ],
+      "answer": 0,
+      "explanation": "One-syllable adj + noun: **新书**.",
+      "notes": [
+        "",
+        "很 must come before the adjective.",
+        "With 很 you'd need 的: 很新的书.",
+        "The adjective comes before the noun."
+      ],
+      "translation": "a new book"
+    },
+    {
+      "point": "clausede",
+      "prompt": "{在|zài}{那儿|nàr}{工作|gōngzuò}（　）{人|rén}{都|dōu}{很|hěn}{年轻|niánqīng}。",
+      "options": [
+        "{得|de}",
+        "{了|le}",
+        "{的|de}",
+        "{地|de}"
+      ],
+      "answer": 2,
+      "explanation": "Clause + **的** + noun.",
+      "notes": [
+        "得 needs a description after it.",
+        "工作了人 isn't grammatical.",
+        "",
+        "地 comes before a verb."
+      ],
+      "translation": "The people who work there are all young."
+    },
+    {
+      "point": "clausede",
+      "prompt": "Which phrase means 'the person who is reading a book'?",
+      "options": [
+        "{看|kàn}{书|shū}{在|zài}{的|de}{人|rén}",
+        "{在|zài}{看|kàn}{书|shū}{的|de}{人|rén}",
+        "{的|de}{在|zài}{看|kàn}{书|shū}{人|rén}",
+        "{人|rén}{在|zài}{看|kàn}{书|shū}{的|de}"
+      ],
+      "answer": 1,
+      "explanation": "Description **before** the noun.",
+      "notes": [
+        "在 goes before 看.",
+        "",
+        "的 joins the clause to the noun.",
+        "The noun comes last."
+      ],
+      "translation": "the person who is reading a book"
+    },
+    {
+      "point": "clausede",
+      "prompt": "{我|wǒ}{不|bú}{认识|rènshi}{跟|gēn}{你|nǐ}{说话|shuōhuà}（　）{那个|nàge}{人|rén}。",
+      "options": [
+        "{得|de}",
+        "{地|de}",
+        "{的|de}",
+        "{在|zài}"
+      ],
+      "answer": 2,
+      "explanation": "**Clause + 的** + noun.",
+      "notes": [
+        "得 needs a description after it.",
+        "地 comes before a verb.",
+        "",
+        "说话在那个人 isn't grammatical."
+      ],
+      "translation": "I don't know the person who was talking to you."
+    },
+    {
+      "point": "di",
+      "prompt": "{这|zhè}{是|shì}{我|wǒ}（　）{一|yī}{次|cì}{来|lái}{中国|Zhōngguó}。",
+      "options": [
+        "{第|dì}",
+        "{几|jǐ}",
+        "{每|měi}",
+        "{这|zhè}"
+      ],
+      "answer": 0,
+      "explanation": "Ordinal: **第**.",
+      "notes": [
+        "",
+        "几一次 isn't grammatical.",
+        "每一次 = 'every time' — 这是我每一次… isn't grammatical.",
+        "这一次 = 'this time' — 这是我这一次 isn't grammatical."
+      ],
+      "translation": "This is my first time in China."
+    },
+    {
+      "point": "di",
+      "prompt": "In 「{我|wǒ}{第二|dì-èr}{天|tiān}{就|jiù}{回|huí}{去|qù}{了|le}。」, what does 第二天 mean?",
+      "options": [
+        "thedayaftertomorrow",
+        "twodays",
+        "everysecondday",
+        "thenextday"
+      ],
+      "answer": 3,
+      "explanation": "第二天 = **the next day**.",
+      "notes": [
+        "The day after tomorrow = 后天.",
+        "Two days = 两天.",
+        "Every other day = 每隔一天.",
+        ""
+      ],
+      "translation": "I went back the next day."
+    }
+  ]
+}

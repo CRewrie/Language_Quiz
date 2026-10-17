@@ -1,0 +1,411 @@
+{
+  "id": "n2-extent",
+  "category": "JLPT N2",
+  "title": "Even, Not the Time & At Least: すら, どころではない, だけましだ, だけは, ばかりだ, ろくに〜ない, せいぜい, せめて",
+  "description": "Even (すら), no time for, at least it's (だけまし), all one can, keeps getting worse, hardly properly, at most, and at least.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "sura",
+      "title": "〜(で)すら: even",
+      "summary": "Noun + すら (でさえ) = even (an extreme example). Formal/written さえ.",
+      "body": "- 子供で**すら**知っている.\n- 名前**すら**書けない.",
+      "examples": [
+        [
+          "{子供|こども}ですら{知|し}っている。",
+          "Even a child knows that."
+        ]
+      ]
+    },
+    {
+      "id": "dokorodewanai",
+      "title": "〜どころではない: it's no time for, out of the question",
+      "summary": "Dictionary form / noun + どころではない = the situation doesn't allow it at all.",
+      "body": "- 明日が試験なので、遊ぶ**どころではない**.\n- 忙しくて、旅行**どころじゃない**.",
+      "examples": [
+        [
+          "{明日|あした}が{試験|しけん}なので、{遊|あそ}ぶどころではない。",
+          "The exam is tomorrow, so playing is out of the question."
+        ]
+      ]
+    },
+    {
+      "id": "dakemashida",
+      "title": "〜だけましだ: at least (it could be worse)",
+      "summary": "Plain form + だけましだ = it's bad, but at least … (relief).",
+      "body": "- 財布は盗まれたが、怪我がなかった**だけましだ**.",
+      "examples": [
+        [
+          "{財布|さいふ}は{盗|ぬす}まれたが、{怪我|けが}がなかっただけましだ。",
+          "My wallet was stolen, but at least I wasn't hurt."
+        ]
+      ]
+    },
+    {
+      "id": "dakewa",
+      "title": "〜だけは: at least (do all one can)",
+      "summary": "Verb (potential/dictionary) + だけは + same verb = do everything one can.",
+      "body": "- 結果はどうであれ、やれる**だけは**やった.\n- 言いたいこと**だけは**言った.",
+      "examples": [
+        [
+          "{結果|けっか}はどうであれ、やれるだけはやった。",
+          "Whatever the result, I did everything I could."
+        ]
+      ]
+    },
+    {
+      "id": "bakarida",
+      "title": "〜ばかりだ: keeps (getting worse)",
+      "summary": "Dictionary form + ばかりだ = a one-way (usually negative) trend. Similar to 一方だ.",
+      "body": "- 病状は悪くなる**ばかりだ**.\n- 物価は上がる**ばかり**で、給料は上がらない.",
+      "examples": [
+        [
+          "{病状|びょうじょう}は{悪|わる}くなるばかりだ。",
+          "His condition just keeps getting worse."
+        ]
+      ]
+    },
+    {
+      "id": "rokuni",
+      "title": "ろくに〜ない: hardly, not properly",
+      "summary": "ろくに + negative = not (doing) properly / hardly at all (critical).",
+      "body": "- 忙しくて、ろくに食事も**できなかった**.\n- ろくに勉強**もしないで**試験を受けた.",
+      "examples": [
+        [
+          "{忙|いそが}しくて、ろくに{食事|しょくじ}もできなかった。",
+          "I was so busy I hardly ate a proper meal."
+        ]
+      ]
+    },
+    {
+      "id": "seizei",
+      "title": "せいぜい: at most, at best",
+      "summary": "せいぜい + amount = at the very most (not much).",
+      "body": "- 参加者は**せいぜい**10人ぐらいだろう.",
+      "examples": [
+        [
+          "{参加者|さんかしゃ}はせいぜい10{人|にん}ぐらいだろう。",
+          "There'll be ten participants at most."
+        ]
+      ]
+    },
+    {
+      "id": "semete",
+      "title": "せめて: at least (minimum wish)",
+      "summary": "せめて = at least (a minimum that you hope for).",
+      "body": "- 忙しくても、**せめて**電話ぐらいしてよ.\n- **せめて**あと1日あれば.",
+      "examples": [
+        [
+          "{忙|いそが}しくても、せめて{電話|でんわ}ぐらいしてよ。",
+          "Even if you're busy, at least give me a call."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "sura",
+      "prompt": "こんな{簡単|かんたん}なことは、{子供|こども}で（　）{知|し}っている。",
+      "options": [
+        "すれ",
+        "さら",
+        "すら",
+        "ずら"
+      ],
+      "answer": 2,
+      "explanation": "Even: **ですら**.",
+      "notes": [
+        "すれ isn't a particle.",
+        "さら = 'plate / anew'.",
+        "",
+        "ずら is dialect."
+      ],
+      "translation": "Even a child knows something this simple."
+    },
+    {
+      "point": "sura",
+      "prompt": "{疲|つか}れすぎて、{名前|なまえ}（　）{書|か}けない。",
+      "options": [
+        "すらで",
+        "すらを",
+        "すらに",
+        "すら"
+      ],
+      "answer": 3,
+      "explanation": "Even: **すら**.",
+      "notes": [
+        "すらで isn't the pattern.",
+        "すらを isn't the pattern.",
+        "すらに isn't the pattern.",
+        ""
+      ],
+      "translation": "I'm so exhausted I can't even write my name."
+    },
+    {
+      "point": "dokorodewanai",
+      "prompt": "{明日|あした}が{試験|しけん}なので、{遊|あそ}ぶ（　）。",
+      "options": [
+        "どころでもある",
+        "どころではない",
+        "ところではない",
+        "どころか"
+      ],
+      "answer": 1,
+      "explanation": "Out of the question: **どころではない**.",
+      "notes": [
+        "The pattern is negative.",
+        "",
+        "ところ needs the voiced ど here.",
+        "どころか = 'far from' — unfinished."
+      ],
+      "translation": "The exam is tomorrow, so playing is out of the question."
+    },
+    {
+      "point": "dokorodewanai",
+      "prompt": "{仕事|しごと}が{忙|いそが}しくて、{旅行|りょこう}（　）。",
+      "options": [
+        "どころではある",
+        "どころかない",
+        "ところじゃない",
+        "どころじゃない"
+      ],
+      "answer": 3,
+      "explanation": "Casual: **どころじゃない**.",
+      "notes": [
+        "The pattern is negative.",
+        "どころかない isn't a form.",
+        "Voiced ど is required.",
+        ""
+      ],
+      "translation": "Work is so busy that a trip is out of the question."
+    },
+    {
+      "point": "dakemashida",
+      "prompt": "{財布|さいふ}は{盗|ぬす}まれたが、{怪我|けが}がなかった（　）。",
+      "options": [
+        "だけましく",
+        "だけましだ",
+        "だけましい",
+        "だけまして"
+      ],
+      "answer": 1,
+      "explanation": "At least: **だけましだ**.",
+      "notes": [
+        "ましく isn't a form.",
+        "",
+        "ましい isn't a word.",
+        "まして = 'let alone'."
+      ],
+      "translation": "My wallet was stolen, but at least I wasn't hurt."
+    },
+    {
+      "point": "dakemashida",
+      "prompt": "What does 「{雨|あめ}が{降|ふ}らなかっただけましだ」 mean?",
+      "options": [
+        "It didn't rain at all.",
+        "Only the rain stopped.",
+        "It's better that it rained.",
+        "At least it didn't rain."
+      ],
+      "answer": 3,
+      "explanation": "だけましだ = **it could have been worse**.",
+      "notes": [
+        "That would be 全然降らなかった.",
+        "That's not the meaning.",
+        "The opposite.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "dakewa",
+      "prompt": "{結果|けっか}はどうであれ、やれる（　）やった。",
+      "options": [
+        "だけは",
+        "だけに",
+        "だけを",
+        "だけで"
+      ],
+      "answer": 0,
+      "explanation": "All one can: **〜るだけは〜た**.",
+      "notes": [
+        "",
+        "だけに = 'precisely because'.",
+        "だけを isn't the pattern.",
+        "だけで = 'just by'."
+      ],
+      "translation": "Whatever the result, I did everything I could."
+    },
+    {
+      "point": "dakewa",
+      "prompt": "{結局|けっきょく}{断|ことわ}られたが、{言|い}いたいこと（　）{言|い}った。",
+      "options": [
+        "だけで",
+        "だけは",
+        "だけが",
+        "だけに"
+      ],
+      "answer": 1,
+      "explanation": "At least (I said it): **だけは**.",
+      "notes": [
+        "だけで = 'just by'.",
+        "",
+        "だけが makes it the subject.",
+        "だけに = 'precisely because'."
+      ],
+      "translation": "In the end I was turned down, but at least I said what I wanted to say."
+    },
+    {
+      "point": "bakarida",
+      "prompt": "{入院|にゅういん}してから、{病状|びょうじょう}は{悪|わる}くなる（　）。",
+      "options": [
+        "ばかりで",
+        "ばかりか",
+        "ばかりに",
+        "ばかりだ"
+      ],
+      "answer": 3,
+      "explanation": "Keeps getting worse: **ばかりだ**.",
+      "notes": [
+        "ばかりで can't end the sentence.",
+        "ばかりか = 'not only'.",
+        "ばかりに = 'just because'.",
+        ""
+      ],
+      "translation": "Since being admitted, his condition just keeps getting worse."
+    },
+    {
+      "point": "bakarida",
+      "prompt": "{物価|ぶっか}は{上|あ}がる（　）で、{給料|きゅうりょう}は{上|あ}がらない。",
+      "options": [
+        "ばかりか",
+        "ばかり",
+        "ばかりに",
+        "ばかりは"
+      ],
+      "answer": 1,
+      "explanation": "**ばかりで** (keeps … and).",
+      "notes": [
+        "ばかりかで isn't grammatical.",
+        "",
+        "ばかりにで isn't grammatical.",
+        "ばかりはで isn't grammatical."
+      ],
+      "translation": "Prices keep going up, but wages don't."
+    },
+    {
+      "point": "rokuni",
+      "prompt": "{忙|いそが}しくて、ろくに{食事|しょくじ}も（　）。",
+      "options": [
+        "できた",
+        "している",
+        "したかった",
+        "できなかった"
+      ],
+      "answer": 3,
+      "explanation": "ろくに + **negative**.",
+      "notes": [
+        "ろくに needs a negative.",
+        "Positive — wrong.",
+        "Positive — wrong.",
+        ""
+      ],
+      "translation": "I was so busy I hardly ate a proper meal."
+    },
+    {
+      "point": "rokuni",
+      "prompt": "{彼|かれ}はろくに{勉強|べんきょう}（　）、{試験|しけん}を{受|う}けた。",
+      "options": [
+        "をして",
+        "もしないで",
+        "もして",
+        "がしないで"
+      ],
+      "answer": 1,
+      "explanation": "ろくに + negative: **もしないで**.",
+      "notes": [
+        "Positive — wrong.",
+        "",
+        "Positive — ろくに needs a negative.",
+        "が doesn't fit here."
+      ],
+      "translation": "He took the exam without studying properly."
+    },
+    {
+      "point": "seizei",
+      "prompt": "{参加者|さんかしゃ}は（　）10{人|にん}ぐらいだろう。",
+      "options": [
+        "せっせと",
+        "せめて",
+        "せいぜい",
+        "せっかく"
+      ],
+      "answer": 2,
+      "explanation": "At most: **せいぜい**.",
+      "notes": [
+        "せっせと = 'diligently'.",
+        "せめて = 'at least (a wish)'.",
+        "",
+        "せっかく = 'with effort / since'."
+      ],
+      "translation": "There'll be ten participants at most."
+    },
+    {
+      "point": "seizei",
+      "prompt": "アルバイトの{給料|きゅうりょう}は（　）{月|つき}5{万円|まんえん}だ。",
+      "options": [
+        "せいぜい",
+        "すっかり",
+        "せめて",
+        "せっかく"
+      ],
+      "answer": 0,
+      "explanation": "At best: **せいぜい**.",
+      "notes": [
+        "",
+        "すっかり = 'completely'.",
+        "せめて = 'at least (wish)'.",
+        "せっかく = 'with effort'."
+      ],
+      "translation": "My part-time pay is 50,000 yen a month at best."
+    },
+    {
+      "point": "semete",
+      "prompt": "{忙|いそが}しくても、（　）{電話|でんわ}ぐらいしてよ。",
+      "options": [
+        "せっかく",
+        "せめて",
+        "せいぜい",
+        "ぜひ"
+      ],
+      "answer": 1,
+      "explanation": "At least (a wish): **せめて**.",
+      "notes": [
+        "せっかく = 'since you went to the trouble'.",
+        "",
+        "せいぜい = 'at most'.",
+        "ぜひ + ぐらい doesn't fit."
+      ],
+      "translation": "Even if you're busy, at least give me a call."
+    },
+    {
+      "point": "semete",
+      "prompt": "（　）あと1{日|にち}あれば、{終|お}わるのに。",
+      "options": [
+        "せめて",
+        "せいぜい",
+        "せっかく",
+        "たった"
+      ],
+      "answer": 0,
+      "explanation": "If only at least: **せめて**.",
+      "notes": [
+        "",
+        "せいぜい = 'at most'.",
+        "せっかく doesn't fit.",
+        "たった = 'only (a small amount)'."
+      ],
+      "translation": "If only I had at least one more day, I could finish."
+    }
+  ]
+}

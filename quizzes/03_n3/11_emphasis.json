@@ -1,0 +1,361 @@
+{
+  "id": "n3-emphasis",
+  "category": "JLPT N3",
+  "title": "Emphasis: にしても, といっても, どころか, さえ, さえ〜ば, こそ, ばかりでなく",
+  "description": "Even if / even so, although I say, far from, even, if only, precisely, and not only … but also.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "nishitemo",
+      "title": "〜にしても: even if, even so; whether … or …",
+      "summary": "Plain / noun + にしても = even granting that … (still). AにしてもBにしても = whether A or B.",
+      "body": "- 冗談**にしても**、それは言いすぎだ (even as a joke, that's too much).\n- 行く**にしても**行かない**にしても**、連絡してください.\n\nCompare にしては (considering) — different meaning!",
+      "examples": [
+        [
+          "{冗談|じょうだん}にしても、それは{言|い}いすぎだよ。",
+          "Even as a joke, that's going too far."
+        ]
+      ]
+    },
+    {
+      "id": "toittemo",
+      "title": "〜といっても: although I say …, but actually",
+      "summary": "Plain / noun + といっても = 'I say A, but it's not as much as you'd think'.",
+      "body": "- 料理ができる**といっても**、簡単なものだけです.\n- 休み**といっても**、一日だけです.\n\nIt lowers expectations created by the first statement.",
+      "examples": [
+        [
+          "{料理|りょうり}ができるといっても、{簡単|かんたん}なものだけです。",
+          "I can cook, but only simple things."
+        ]
+      ]
+    },
+    {
+      "id": "dokoroka",
+      "title": "〜どころか: far from, let alone",
+      "summary": "Plain / noun + どころか = not only not A, but (the opposite / even less) B.",
+      "body": "- 彼は漢字**どころか**、ひらがなも読めない (let alone kanji, he can't even read hiragana).\n- 休む**どころか**、もっと忙しくなった (far from resting, I got busier).",
+      "examples": [
+        [
+          "{彼|かれ}は{漢字|かんじ}どころか、ひらがなも{読|よ}めない。",
+          "He can't even read hiragana, let alone kanji."
+        ]
+      ]
+    },
+    {
+      "id": "sae",
+      "title": "〜さえ: even",
+      "summary": "Noun + さえ = even (an extreme example). で/に + さえ: 子供でさえ.",
+      "body": "- 忙しくて、寝る時間**さえ**ない.\n- 子供で**さえ**わかる問題だ.\n\nさえ replaces が/を; with other particles it follows them (子供で**さえ**, 先生に**さえ**).",
+      "examples": [
+        [
+          "{忙|いそが}しくて、{寝|ね}る{時間|じかん}さえない。",
+          "I'm so busy I don't even have time to sleep."
+        ]
+      ]
+    },
+    {
+      "id": "saeba",
+      "title": "〜さえ〜ば: if only, as long as",
+      "summary": "Noun + さえ + ば-form / ます-stem + さえすれば = as long as A, (B follows).",
+      "body": "- 時間**さえ**あれ**ば**、旅行に行けるのに.\n- この薬を飲み**さえ**すれ**ば**、すぐ治る.",
+      "examples": [
+        [
+          "{時間|じかん}さえあれば、{旅行|りょこう}に{行|い}けるのに。",
+          "If only I had time, I could travel."
+        ]
+      ]
+    },
+    {
+      "id": "koso",
+      "title": "〜こそ: precisely, (this time) for sure",
+      "summary": "Noun + こそ = strong emphasis: it's exactly this one. こちらこそ, 今年こそ.",
+      "body": "- **こちらこそ**、よろしくお願いします (likewise / it's me who should say that).\n- 今年**こそ**合格するぞ！ (this year for sure!).",
+      "examples": [
+        [
+          "{今年|ことし}こそ{合格|ごうかく}するぞ！",
+          "This year I'll pass for sure!"
+        ]
+      ]
+    },
+    {
+      "id": "bakaridenaku",
+      "title": "〜ばかりでなく: not only … but also",
+      "summary": "Plain / noun + ばかりでなく … も = not only A, but also B. Same as だけでなく.",
+      "body": "- 彼は英語**ばかりでなく**、中国語**も**話せる.\n- この店は安い**ばかりでなく**、おいしい.",
+      "examples": [
+        [
+          "{彼|かれ}は{英語|えいご}ばかりでなく、{中国語|ちゅうごくご}も{話|はな}せる。",
+          "He can speak not only English but also Chinese."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nishitemo",
+      "prompt": "{冗談|じょうだん}（　）、それは{言|い}いすぎだよ。",
+      "options": [
+        "にとっても",
+        "によっても",
+        "についても",
+        "にしても"
+      ],
+      "answer": 3,
+      "explanation": "Even (as a joke): **にしても**.",
+      "notes": [
+        "にとっても = 'also for (someone)'.",
+        "によっても = 'also depending on / by'.",
+        "についても = 'also about'.",
+        ""
+      ],
+      "translation": "Even as a joke, that's going too far."
+    },
+    {
+      "point": "nishitemo",
+      "prompt": "{行|い}く（　）{行|い}かない（　）、{連絡|れんらく}してください。",
+      "options": [
+        "にしては／にしては",
+        "にしても／にしても",
+        "として／として",
+        "によって／によって"
+      ],
+      "answer": 1,
+      "explanation": "Whether A or B: **AにしてもBにしても**.",
+      "notes": [
+        "にしては = 'considering' — not 'whether … or'.",
+        "",
+        "として = 'as'.",
+        "によって = 'depending on' — would need different grammar (行くかどうかによって)."
+      ],
+      "translation": "Whether you go or not, please let me know."
+    },
+    {
+      "point": "toittemo",
+      "prompt": "{料理|りょうり}ができる（　）、{簡単|かんたん}なものだけです。",
+      "options": [
+        "ということ",
+        "というより",
+        "というと",
+        "といっても"
+      ],
+      "answer": 3,
+      "explanation": "Lowering expectations: **といっても**.",
+      "notes": [
+        "ということ = 'the fact that'.",
+        "というより = 'rather than'.",
+        "というと = 'speaking of'.",
+        ""
+      ],
+      "translation": "I can cook, but only simple things."
+    },
+    {
+      "point": "toittemo",
+      "prompt": "{休|やす}みと（　）、{一日|いちにち}だけです。",
+      "options": [
+        "いうより",
+        "いっても",
+        "いえば",
+        "いうと"
+      ],
+      "answer": 1,
+      "explanation": "**といっても**.",
+      "notes": [
+        "というより = 'rather than'.",
+        "",
+        "といえば = 'speaking of'.",
+        "というと = 'speaking of'."
+      ],
+      "translation": "I do have a day off, but it's only one day."
+    },
+    {
+      "point": "dokoroka",
+      "prompt": "{彼|かれ}は{漢字|かんじ}（　）、ひらがなも{読|よ}めない。",
+      "options": [
+        "ところか",
+        "どころが",
+        "ところが",
+        "どころか"
+      ],
+      "answer": 3,
+      "explanation": "Let alone / far from: **どころか**.",
+      "notes": [
+        "ところか isn't a form (voiced ど).",
+        "どころが isn't a form.",
+        "ところが = 'however' (sentence connector).",
+        ""
+      ],
+      "translation": "He can't even read hiragana, let alone kanji."
+    },
+    {
+      "point": "dokoroka",
+      "prompt": "What does 「{休|やす}むどころか、もっと{忙|いそが}しくなった」 mean?",
+      "options": [
+        "I rested a little and was busy.",
+        "Instead of being busy, I rested.",
+        "Far from resting, I got even busier.",
+        "I rested and got busier."
+      ],
+      "answer": 2,
+      "explanation": "どころか = far from A, actually the opposite.",
+      "notes": [
+        "That ignores どころか.",
+        "The reverse.",
+        "",
+        "That ignores どころか."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "sae",
+      "prompt": "{忙|いそが}しくて、{寝|ね}る{時間|じかん}（　）ない。",
+      "options": [
+        "ほど",
+        "くらい",
+        "こそ",
+        "さえ"
+      ],
+      "answer": 3,
+      "explanation": "Even: **さえ**.",
+      "notes": [
+        "寝る時間ほどない isn't natural.",
+        "寝る時間くらいない isn't natural.",
+        "こそ emphasises positively — doesn't fit 'not even'.",
+        ""
+      ],
+      "translation": "I'm so busy I don't even have time to sleep."
+    },
+    {
+      "point": "sae",
+      "prompt": "これは{子供|こども}で（　）わかる{問題|もんだい}だ。",
+      "options": [
+        "さえ",
+        "こそ",
+        "しか",
+        "だけ"
+      ],
+      "answer": 0,
+      "explanation": "Even (a child): **でさえ**.",
+      "notes": [
+        "",
+        "でこそ = 'precisely as a child' — wrong meaning.",
+        "しか needs a negative verb.",
+        "子供でだけ = 'only as a child' — wrong."
+      ],
+      "translation": "This is a problem even a child could solve."
+    },
+    {
+      "point": "saeba",
+      "prompt": "{時間|じかん}（　）あれば、{旅行|りょこう}に{行|い}けるのに。",
+      "options": [
+        "こそ",
+        "しか",
+        "さえ",
+        "ほど"
+      ],
+      "answer": 2,
+      "explanation": "If only: **さえ〜ば**.",
+      "notes": [
+        "こそあれば isn't the pattern.",
+        "しか needs a negative.",
+        "",
+        "ほどあれば isn't the pattern."
+      ],
+      "translation": "If only I had time, I could travel."
+    },
+    {
+      "point": "saeba",
+      "prompt": "この{薬|くすり}を{飲|の}み（　）すれば、すぐ{治|なお}る。",
+      "options": [
+        "ほど",
+        "しか",
+        "こそ",
+        "さえ"
+      ],
+      "answer": 3,
+      "explanation": "Stem + **さえすれば** = as long as you ….",
+      "notes": [
+        "飲みほど isn't a form.",
+        "しか needs a negative.",
+        "飲みこそすれば isn't natural.",
+        ""
+      ],
+      "translation": "As long as you take this medicine, you'll get better quickly."
+    },
+    {
+      "point": "koso",
+      "prompt": "A：よろしくお{願|ねが}いします。　B：こちら（　）、よろしくお{願|ねが}いします。",
+      "options": [
+        "だけ",
+        "こそ",
+        "さえ",
+        "しか"
+      ],
+      "answer": 1,
+      "explanation": "Set phrase: **こちらこそ** (likewise).",
+      "notes": [
+        "こちらだけ = 'only this side'.",
+        "",
+        "こちらさえ = 'even this side'.",
+        "しか needs a negative."
+      ],
+      "translation": "A: Nice to work with you. B: Likewise."
+    },
+    {
+      "point": "koso",
+      "prompt": "{去年|きょねん}は{失敗|しっぱい}したけど、{今年|ことし}（　）{合格|ごうかく}するぞ！",
+      "options": [
+        "さえ",
+        "ほど",
+        "こそ",
+        "しか"
+      ],
+      "answer": 2,
+      "explanation": "This time for sure: **今年こそ**.",
+      "notes": [
+        "今年さえ = 'even this year'.",
+        "今年ほど isn't emphatic here.",
+        "",
+        "しか needs a negative."
+      ],
+      "translation": "I failed last year, but this year I'll pass for sure!"
+    },
+    {
+      "point": "bakaridenaku",
+      "prompt": "{彼|かれ}は{英語|えいご}（　）、{中国語|ちゅうごくご}も{話|はな}せる。",
+      "options": [
+        "だけで",
+        "ばかりでなく",
+        "ばかりで",
+        "しかなく"
+      ],
+      "answer": 1,
+      "explanation": "Not only … but also: **ばかりでなく … も**.",
+      "notes": [
+        "だけで = 'just by' — missing なく.",
+        "",
+        "ばかりで = 'only' — missing なく.",
+        "しかなく isn't the pattern."
+      ],
+      "translation": "He can speak not only English but also Chinese."
+    },
+    {
+      "point": "bakaridenaku",
+      "prompt": "この{店|みせ}は{安|やす}い（　）、おいしい。",
+      "options": [
+        "ばかりなく",
+        "ばかりにない",
+        "ばかりでなく",
+        "ばかりでない"
+      ],
+      "answer": 2,
+      "explanation": "**ばかりでなく**.",
+      "notes": [
+        "で is missing.",
+        "ばかりにない isn't a form.",
+        "",
+        "ばかりでない ends a clause — it can't connect to the next part (でなく is needed)."
+      ],
+      "translation": "This shop is not only cheap but also tasty."
+    }
+  ]
+}

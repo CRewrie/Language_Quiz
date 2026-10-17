@@ -1,0 +1,357 @@
+{
+  "id": "n4-sou-rashii",
+  "category": "JLPT N4",
+  "title": "そうだ (hearsay vs. looks like) & らしい",
+  "description": "Two completely different そうだ (I heard vs. it looks like), their な/に forms, the よさそう/なさそう exceptions, and らしい (apparently / typical of).",
+  "level": "N4",
+  "points": [
+    {
+      "id": "souda-hearsay",
+      "title": "そうだ (1): I heard that, they say",
+      "summary": "Plain form + そうだ = reporting information you heard or read. Nouns and な-adjectives need だ: 雨だそうです. There's no past or negative form of this そう.",
+      "body": "**Hearsay そうだ** passes on information from another source (news, a friend, a forecast). It's often introduced by **〜によると** (according to) or **〜の話では**.\n\n**Formation:** attach to the **full plain form** of the sentence:\n- Verb: 降る**そうです**, 来ない**そうです**, 行った**そうです**\n- い-adjective: 寒い**そうです**\n- Noun / な-adjective: 雨**だそうです**, 有名**だそうです** (だ is required!)\n\n**Fixed form:** そうです / そうだ only. No そうでした, no そうな, no そうじゃない. Put the tense inside the clause instead: 結婚した**そうです** (I heard they got married).\n\n**Easy mix-up:** 降る**そう** (I heard it'll rain) vs 降り**そう** (it looks like rain). The form before そう tells you which one it is.",
+      "examples": [
+        [
+          "{天気予報|てんきよほう}によると、{明日|あした}は{雪|ゆき}が{降|ふ}るそうです。",
+          "According to the forecast, it's going to snow tomorrow."
+        ],
+        [
+          "{田中|たなか}さんは{来月|らいげつ}{結婚|けっこん}するそうです。",
+          "I heard Mr. Tanaka is getting married next month."
+        ],
+        [
+          "あの{店|みせ}のラーメンは{有名|ゆうめい}だそうです。",
+          "I hear that shop's ramen is famous."
+        ]
+      ]
+    },
+    {
+      "id": "souda-looks",
+      "title": "そうだ (2): looks like, seems about to",
+      "summary": "ます-stem / adjective stem + そうだ = 'looks …' (your own visual impression) or 'about to happen'. Exceptions: いい → よさそう, ない → なさそう.",
+      "body": "**Appearance そうだ** is your **own impression from what you see**, or that something **looks about to happen**.\n\n**Formation (it attaches to the stem):**\n- Verb: ます-stem + そう: 降り**そう** (looks like it'll rain), 落ち**そう** (about to fall)\n- い-adjective: drop い: おいし**そう**, 高**そう**\n- な-adjective: stem: 元気**そう**, 便利**そう**\n\n**Exceptions:**\n- いい → **よさそう**\n- ない / 〜くない → **なさそう**: 面白く**なさそう** (doesn't look interesting)\n\n**Not used for:**\n- Nouns (学生そう ✗; use 学生みたい / 学生らしい)\n- Things obvious at a glance (きれいそう for a clearly beautiful person ✗, 赤そう ✗)\n\nIt conjugates like a な-adjective: そう**な** + noun, そう**に** + verb (see the next point).",
+      "examples": [
+        [
+          "{空|そら}が{暗|くら}いですね。{雨|あめ}が{降|ふ}りそうです。",
+          "The sky is dark. It looks like it's going to rain."
+        ],
+        [
+          "このケーキ、おいしそう！",
+          "This cake looks delicious!"
+        ],
+        [
+          "この{映画|えいが}はあまり{面白|おもしろ}くなさそうです。",
+          "This movie doesn't look very interesting."
+        ]
+      ]
+    },
+    {
+      "id": "souna-souni",
+      "title": "そうな / そうに: …-looking / in a … way",
+      "summary": "Appearance そう works like a な-adjective: そうな + noun (おいしそうなケーキ) and そうに + verb (楽しそうに遊ぶ).",
+      "body": "Because 'looks like' そう behaves like a **な-adjective**, it has these forms:\n- **そうな + noun**: おいし**そうな**ケーキ (a delicious-looking cake), 悲し**そうな**顔 (a sad-looking face)\n- **そうに + verb** (adverb): 楽し**そうに**遊んでいる (playing happily, as it seems), 眠**そうに**している\n- **そうです** at the end: 楽しそうです\n- Negative (formal): 〜そうではない, or more naturally the stem + なさそう\n\n**Only appearance そう has these forms.** Hearsay そうだ never becomes そうな or そうに.",
+      "examples": [
+        [
+          "おいしそうなケーキですね。",
+          "That's a delicious-looking cake."
+        ],
+        [
+          "{子供|こども}たちが{楽|たの}しそうに{遊|あそ}んでいます。",
+          "The children are playing happily."
+        ],
+        [
+          "{彼女|かのじょ}は{悲|かな}しそうな{顔|かお}をしていました。",
+          "She had a sad look on her face."
+        ]
+      ]
+    },
+    {
+      "id": "rashii",
+      "title": "らしい: apparently / typical of",
+      "summary": "(1) Plain form + らしい = 'apparently, it seems' (based on what you heard or indirect evidence). (2) Noun + らしい = 'typical of, befitting' (男らしい, 春らしい).",
+      "body": "**1. Apparently / I gather** (plain form + らしい):\n- あの二人は付き合っている**らしい** (apparently those two are dating).\n- 犯人はあの男**らしい** (it seems the culprit is that man). Nouns attach **directly, with no だ**.\n\nIt's based on something you heard or indirect evidence. It's a bit less certain and more distant than hearsay そうだ, and common in conversation.\n\n**2. Typical of / befitting** (noun + らしい):\n- 男**らしい** (manly), 子供**らしい** (childlike, as a child should be), 春**らしい**天気 (proper spring-like weather), あなた**らしくない** (that's not like you).\n\n**Conjugation:** らしい is an い-adjective: らしく, らしくない, らしかった, らしい + noun.\n\n**Context tells you which meaning:** 彼は男らしい can mean 'apparently he's a man' or 'he's manly'. Usually it's the second.",
+      "examples": [
+        [
+          "{噂|うわさ}によると、あの{二人|ふたり}は{付|つ}き{合|あ}っているらしい。",
+          "Rumour has it those two are going out."
+        ],
+        [
+          "{今日|きょう}は{春|はる}らしい{暖|あたた}かい{日|ひ}ですね。",
+          "Today is a warm, really spring-like day."
+        ],
+        [
+          "そんなことを{言|い}うなんて、あなたらしくないですね。",
+          "Saying something like that isn't like you."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "souda-hearsay",
+      "prompt": "{天気予報|てんきよほう}によると、{明日|あした}は{雨|あめ}が（　）です。",
+      "options": [
+        "{降|ふ}りそう",
+        "{降|ふ}るそう",
+        "{降|ふ}りそうな",
+        "{降|ふ}るそうな"
+      ],
+      "answer": 1,
+      "explanation": "によると (according to) + **plain form + そうです** = hearsay.",
+      "notes": [
+        "降りそう = 'looks like rain', your own impression, which doesn't fit 'according to the forecast'.",
+        "",
+        "そうな must be followed by a noun, and it's the appearance meaning.",
+        "Hearsay そう has no な-form."
+      ],
+      "translation": "According to the forecast, it's going to rain tomorrow."
+    },
+    {
+      "point": "souda-hearsay",
+      "prompt": "{田中|たなか}さんは{来月|らいげつ}{結婚|けっこん}する（　）。",
+      "options": [
+        "そうでした",
+        "そうがです",
+        "そうなです",
+        "そうです"
+      ],
+      "answer": 3,
+      "explanation": "Hearsay そう only has the form **そうです/そうだ**.",
+      "notes": [
+        "Hearsay そう doesn't take a past form. Put the tense in the verb instead (結婚したそうです).",
+        "そうがです isn't grammatical.",
+        "そうなです isn't a form.",
+        ""
+      ],
+      "translation": "I heard Mr. Tanaka is getting married next month."
+    },
+    {
+      "point": "souda-hearsay",
+      "prompt": "あの{店|みせ}のラーメンはとても{有名|ゆうめい}（　）そうです。",
+      "options": [
+        "の",
+        "で",
+        "だ",
+        "な"
+      ],
+      "answer": 2,
+      "explanation": "Hearsay: な-adjective/noun + **だ** + そうです.",
+      "notes": [
+        "のそう isn't a form.",
+        "でそう isn't a form.",
+        "",
+        "有名なそう isn't a form. 有名そう without だ would be 'looks famous', the appearance meaning."
+      ],
+      "translation": "I hear the ramen at that shop is very famous."
+    },
+    {
+      "point": "souda-looks",
+      "prompt": "{空|そら}が{暗|くら}いですね。{雨|あめ}が{降|ふ}り（　）です。",
+      "options": [
+        "らしい",
+        "みたい",
+        "よう",
+        "そう"
+      ],
+      "answer": 3,
+      "explanation": "Your own visual impression: **ます-stem + そう** ('looks like it'll rain').",
+      "notes": [
+        "らしい needs the full form (降るらしい).",
+        "みたい needs the full form (降るみたい).",
+        "よう needs the full form (降るようです), not the stem.",
+        ""
+      ],
+      "translation": "The sky is dark. It looks like it's going to rain."
+    },
+    {
+      "point": "souda-looks",
+      "prompt": "この{映画|えいが}はあまり{面白|おもしろ}く（　）ですね。",
+      "options": [
+        "なそう",
+        "なかそう",
+        "なさそう",
+        "なしそう"
+      ],
+      "answer": 2,
+      "explanation": "〜くない + appearance そう → **〜くなさそう** (irregular).",
+      "notes": [
+        "なそう isn't a form. ない becomes なさ before そう.",
+        "なかそう isn't a form.",
+        "",
+        "なしそう isn't a form."
+      ],
+      "translation": "This movie doesn't look very interesting."
+    },
+    {
+      "point": "souda-looks",
+      "prompt": "{明日|あした}は{天気|てんき}が（　）ですね。",
+      "options": [
+        "いそう",
+        "よそう",
+        "いさそう",
+        "よさそう"
+      ],
+      "answer": 3,
+      "explanation": "いい → **よさそう** (irregular).",
+      "notes": [
+        "いそう would come from いる ('seems to be there').",
+        "よそう isn't the appearance form of いい.",
+        "いさそう isn't a form.",
+        ""
+      ],
+      "translation": "The weather looks like it'll be nice tomorrow."
+    },
+    {
+      "point": "souda-looks",
+      "prompt": "あ、{棚|たな}の{上|うえ}の{箱|はこ}が{落|お}ち（　）！",
+      "options": [
+        "たそう",
+        "そう",
+        "るそう",
+        "そうだそう"
+      ],
+      "answer": 1,
+      "explanation": "About to happen: ます-stem + **そう** (落ちそう = 'about to fall').",
+      "notes": [
+        "落ちたそう = 'I heard it fell'.",
+        "",
+        "落ちるそう = 'I heard it will fall', which is hearsay and wrong here.",
+        "そうだそう isn't a form."
+      ],
+      "translation": "Oh, the box on the shelf is about to fall!"
+    },
+    {
+      "point": "souna-souni",
+      "prompt": "{子供|こども}たちが{楽|たの}し（　）{遊|あそ}んでいます。",
+      "options": [
+        "そう",
+        "そうで",
+        "そうに",
+        "そうな"
+      ],
+      "answer": 2,
+      "explanation": "そう before a **verb** becomes **そうに** (adverb).",
+      "notes": [
+        "楽しそう遊んで is missing に.",
+        "そうで means 'looks … and', a connective that doesn't modify 遊ぶ.",
+        "",
+        "そうな must be followed by a noun."
+      ],
+      "translation": "The children are playing happily."
+    },
+    {
+      "point": "souna-souni",
+      "prompt": "わあ、おいし（　）ケーキですね。",
+      "options": [
+        "そうに",
+        "そうな",
+        "そうの",
+        "そう"
+      ],
+      "answer": 1,
+      "explanation": "そう before a **noun** becomes **そうな**.",
+      "notes": [
+        "そうに modifies verbs, not nouns.",
+        "",
+        "そうの isn't a form.",
+        "おいしそうケーキ is missing な."
+      ],
+      "translation": "Wow, what a delicious-looking cake."
+    },
+    {
+      "point": "souna-souni",
+      "prompt": "{彼女|かのじょ}は{悲|かな}し（　）{顔|かお}をしていました。",
+      "options": [
+        "そうで",
+        "そうだ",
+        "そうに",
+        "そうな"
+      ],
+      "answer": 3,
+      "explanation": "Modifying the noun 顔: **そうな**.",
+      "notes": [
+        "そうで connects clauses and can't modify a noun.",
+        "そうだ ends a sentence and can't modify 顔 here.",
+        "そうに modifies verbs.",
+        ""
+      ],
+      "translation": "She had a sad-looking face."
+    },
+    {
+      "point": "rashii",
+      "prompt": "{今日|きょう}は{春|はる}（　）{暖|あたた}かい{日|ひ}ですね。",
+      "options": [
+        "のそうな",
+        "らしい",
+        "そうな",
+        "ような"
+      ],
+      "answer": 1,
+      "explanation": "Noun + **らしい** = 'typical of, befitting' (a proper spring day).",
+      "notes": [
+        "のそうな isn't a form.",
+        "",
+        "Appearance そう can't attach to nouns (春そう ✗).",
+        "With nouns, ような needs の (春のような)."
+      ],
+      "translation": "Today is a warm, really spring-like day."
+    },
+    {
+      "point": "rashii",
+      "prompt": "What does 「{彼|かれ}はとても{男|おとこ}らしい{人|ひと}です」 most likely mean?",
+      "options": [
+        "He looks like a man but isn't.",
+        "He wants to be a man.",
+        "He is a very manly person.",
+        "I heard he is a man."
+      ],
+      "answer": 2,
+      "explanation": "Noun + らしい with とても = **'typical of / having the qualities of'**: manly.",
+      "notes": [
+        "'Looks like but isn't' is closer to みたい / よう.",
+        "'Wants to be' would be なりたい.",
+        "",
+        "With とても, it's clearly the 'typical of' meaning, not hearsay."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "rashii",
+      "prompt": "{警察|けいさつ}の{話|はなし}では、{犯人|はんにん}はあの{男|おとこ}（　）。",
+      "options": [
+        "ならしい",
+        "らしい",
+        "だらしい",
+        "のらしい"
+      ],
+      "answer": 1,
+      "explanation": "'Apparently' with a noun: noun + **らしい**, with no だ.",
+      "notes": [
+        "ならしい isn't a form.",
+        "",
+        "だらしい isn't a form (and だらしない means 'sloppy').",
+        "のらしい isn't a form."
+      ],
+      "translation": "According to the police, the culprit is apparently that man."
+    },
+    {
+      "point": "rashii",
+      "prompt": "そんなことを{言|い}うなんて、あなた（　）ですね。",
+      "options": [
+        "らしいじゃない",
+        "らしいない",
+        "らしいくない",
+        "らしくない"
+      ],
+      "answer": 3,
+      "explanation": "らしい is an い-adjective, so its negative is **らしくない** ('not like you').",
+      "notes": [
+        "じゃない is for nouns and な-adjectives.",
+        "い-adjectives don't add ない directly. い → くない.",
+        "Keep い out: drop it before くない (らしい → らしくない).",
+        ""
+      ],
+      "translation": "Saying something like that isn't like you."
+    }
+  ]
+}

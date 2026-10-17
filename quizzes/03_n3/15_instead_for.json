@@ -1,0 +1,318 @@
+{
+  "id": "n3-instead-for",
+  "category": "JLPT N3",
+  "title": "Instead & For: 代わりに, に代わって, 向き, 向け, だけ",
+  "description": "Instead of / in exchange for, on behalf of, suitable for vs. made for, and だけ meaning 'as much as'.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "kawarini",
+      "title": "〜代わりに: instead of; in exchange for",
+      "summary": "Noun + の + 代わりに / verb + 代わりに = instead of A; or 'in return for A'.",
+      "body": "- 肉**の代わりに**、魚を食べよう (fish instead of meat).\n- 英語を教える**代わりに**、日本語を教えてもらった (in exchange for teaching English).",
+      "examples": [
+        [
+          "{今日|きょう}は{肉|にく}の{代|か}わりに、{魚|さかな}を{食|た}べよう。",
+          "Let's have fish instead of meat today."
+        ]
+      ]
+    },
+    {
+      "id": "nikawatte",
+      "title": "〜に代わって: on behalf of, in place of",
+      "summary": "Person + に代わって = acting for someone (formal). Kanji: 代わる (substitute), not 変わる (change).",
+      "body": "- 社長**に代わって**、部長が挨拶をした.\n- 母**に代わって**私が料理を作った.\n\n代わる = substitute; 変わる = change (a different verb!).",
+      "examples": [
+        [
+          "{社長|しゃちょう}に{代|か}わって、{部長|ぶちょう}が{挨拶|あいさつ}をした。",
+          "The department head gave the speech on behalf of the president."
+        ]
+      ]
+    },
+    {
+      "id": "muki",
+      "title": "〜向き: suitable for; facing",
+      "summary": "Noun + 向き = suited to (naturally fits); also direction: 南向き (south-facing). Verb: 向いている = be suited.",
+      "body": "- 南**向き**の部屋 (a south-facing room).\n- この仕事は私には**向いていない** (this job isn't suited to me).\n\n**向き vs 向け:** 向き = happens to suit; 向け = made/designed for (a target group).",
+      "examples": [
+        [
+          "{南|みなみ}{向|む}きの{部屋|へや}は{明|あか}るい。",
+          "South-facing rooms are bright."
+        ]
+      ]
+    },
+    {
+      "id": "muke",
+      "title": "〜向け: aimed at, designed for",
+      "summary": "Noun + 向け = made for a target group: 子供向けの本, 外国人向けの雑誌.",
+      "body": "- これは子供**向け**に作られた本だ.\n- 外国人**向け**の日本語の雑誌.",
+      "examples": [
+        [
+          "これは{子供|こども}{向|む}けに{作|つく}られた{本|ほん}だ。",
+          "This is a book made for children."
+        ]
+      ]
+    },
+    {
+      "id": "dake2",
+      "title": "〜だけ (2): as much as",
+      "summary": "Verb (dictionary/potential) / な-adj + だけ = as much as possible / as much as you like: 好きなだけ, できるだけ.",
+      "body": "- 好きな**だけ**食べてください (eat as much as you like).\n- できる**だけ**早く来てください (as early as possible).",
+      "examples": [
+        [
+          "{好|す}きなだけ{食|た}べてください。",
+          "Please eat as much as you like."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "kawarini",
+      "prompt": "{今日|きょう}は{肉|にく}の（　）、{魚|さかな}を{食|た}べよう。",
+      "options": [
+        "{代|か}わりに",
+        "{代|か}わって",
+        "{代|か}わり",
+        "{代|か}わる"
+      ],
+      "answer": 0,
+      "explanation": "Instead of: **の代わりに**.",
+      "notes": [
+        "",
+        "の代わって isn't grammatical.",
+        "Without に, it can't connect to the clause.",
+        "の代わる isn't grammatical."
+      ],
+      "translation": "Let's have fish instead of meat today."
+    },
+    {
+      "point": "kawarini",
+      "prompt": "{英語|えいご}を{教|おし}える（　）、{日本語|にほんご}を{教|おし}えてもらった。",
+      "options": [
+        "うちに",
+        "とおり",
+        "ために",
+        "{代|か}わりに"
+      ],
+      "answer": 3,
+      "explanation": "In exchange for: **代わりに**.",
+      "notes": [
+        "うちに = 'while'.",
+        "とおり = 'as'.",
+        "ために = 'in order to / because' — doesn't express an exchange.",
+        ""
+      ],
+      "translation": "In exchange for teaching English, I was taught Japanese."
+    },
+    {
+      "point": "nikawatte",
+      "prompt": "{社長|しゃちょう}（　）、{部長|ぶちょう}が{挨拶|あいさつ}をした。",
+      "options": [
+        "を{代|か}わって",
+        "に{代|か}わって",
+        "が{代|か}わって",
+        "に{変|か}わって"
+      ],
+      "answer": 1,
+      "explanation": "On behalf of: **に代わって** (代 = substitute).",
+      "notes": [
+        "を代わって isn't the pattern.",
+        "",
+        "が代わって would make the president the one substituting.",
+        "変わる means 'to change' — wrong kanji/verb."
+      ],
+      "translation": "The department head gave the speech on behalf of the president."
+    },
+    {
+      "point": "nikawatte",
+      "prompt": "{今日|きょう}は{母|はは}（　）、{私|わたし}が{料理|りょうり}を{作|つく}った。",
+      "options": [
+        "によって",
+        "について",
+        "にとって",
+        "に{代|か}わって"
+      ],
+      "answer": 3,
+      "explanation": "In place of: **に代わって**.",
+      "notes": [
+        "によって = 'by / depending on'.",
+        "について = 'about'.",
+        "にとって = 'for (someone)'.",
+        ""
+      ],
+      "translation": "Today I cooked in place of my mother."
+    },
+    {
+      "point": "muki",
+      "prompt": "{南|みなみ}（　）の{部屋|へや}は{明|あか}るい。",
+      "options": [
+        "{向|む}こう",
+        "{向|む}き",
+        "{向|む}かい",
+        "{向|む}け"
+      ],
+      "answer": 1,
+      "explanation": "Facing: **南向き**.",
+      "notes": [
+        "向こう = 'over there'.",
+        "",
+        "南向かい isn't the word for facing.",
+        "南向け would mean 'made for the south'."
+      ],
+      "translation": "South-facing rooms are bright."
+    },
+    {
+      "point": "muki",
+      "prompt": "{細|こま}かい{作業|さぎょう}は{私|わたし}には（　）。",
+      "options": [
+        "{向|む}きていない",
+        "{向|む}けていない",
+        "{向|む}いていない",
+        "{向|む}かっていない"
+      ],
+      "answer": 2,
+      "explanation": "Not suited: 向く → **向いていない**.",
+      "notes": [
+        "向きていない isn't a form.",
+        "向ける = 'point (something) at' — wrong verb.",
+        "",
+        "向かっていない = 'not heading toward'."
+      ],
+      "translation": "Detailed work isn't suited to me."
+    },
+    {
+      "point": "muke",
+      "prompt": "これは{子供|こども}（　）に{作|つく}られた{本|ほん}だ。",
+      "options": [
+        "{向|む}かって",
+        "{向|む}かい",
+        "{向|む}こう",
+        "{向|む}け"
+      ],
+      "answer": 3,
+      "explanation": "Designed for (a target group): **向け**.",
+      "notes": [
+        "向かって = 'facing / toward'.",
+        "向かい = 'opposite'.",
+        "向こう = 'over there'.",
+        ""
+      ],
+      "translation": "This is a book made for children."
+    },
+    {
+      "point": "muke",
+      "prompt": "{外国人|がいこくじん}（　）の{日本語|にほんご}の{雑誌|ざっし}",
+      "options": [
+        "{向|む}かう",
+        "{向|む}け",
+        "{向|む}けて",
+        "{向|む}く"
+      ],
+      "answer": 1,
+      "explanation": "Noun + **向けの** + noun.",
+      "notes": [
+        "向かうの isn't grammatical.",
+        "",
+        "向けての is used in formal titles but not standard here.",
+        "向くの isn't grammatical."
+      ],
+      "translation": "a Japanese-language magazine for foreigners"
+    },
+    {
+      "point": "dake2",
+      "prompt": "{好|す}きな（　）{食|た}べてください。",
+      "options": [
+        "まで",
+        "しか",
+        "ばかり",
+        "だけ"
+      ],
+      "answer": 3,
+      "explanation": "As much as you like: **好きなだけ**.",
+      "notes": [
+        "好きなまで isn't grammatical.",
+        "しか needs a negative.",
+        "好きなばかり isn't a phrase.",
+        ""
+      ],
+      "translation": "Please eat as much as you like."
+    },
+    {
+      "point": "dake2",
+      "prompt": "できる（　）{早|はや}く{来|き}てください。",
+      "options": [
+        "しか",
+        "だけ",
+        "ほど",
+        "ばかり"
+      ],
+      "answer": 1,
+      "explanation": "As … as possible: **できるだけ**.",
+      "notes": [
+        "できるしか isn't a phrase.",
+        "",
+        "できるほど isn't the fixed phrase.",
+        "できるばかり isn't a phrase."
+      ],
+      "translation": "Please come as early as possible."
+    },
+    {
+      "point": "kawarini",
+      "prompt": "{父|ちち}が{忙|いそが}しいので、{代|か}わり（　）{私|わたし}が{行|い}きます。",
+      "options": [
+        "を",
+        "で",
+        "が",
+        "に"
+      ],
+      "answer": 3,
+      "explanation": "Instead: **代わりに**.",
+      "notes": [
+        "代わりを = 'a substitute (object)' — e.g. お代わりをください.",
+        "代わりで isn't standard.",
+        "代わりが isn't the pattern.",
+        ""
+      ],
+      "translation": "My father is busy, so I'll go instead."
+    },
+    {
+      "point": "muke",
+      "prompt": "この{番組|ばんぐみ}は{大人|おとな}（　）だ。",
+      "options": [
+        "{向|む}け",
+        "{向|む}かい",
+        "{向|む}こう",
+        "{向|む}かって"
+      ],
+      "answer": 0,
+      "explanation": "Aimed at adults: **大人向け**.",
+      "notes": [
+        "",
+        "向かい = 'opposite'.",
+        "向こう = 'over there'.",
+        "向かって = 'toward'."
+      ],
+      "translation": "This programme is aimed at adults."
+    },
+    {
+      "point": "dake2",
+      "prompt": "{食|た}べられる（　）{食|た}べてください。",
+      "options": [
+        "まで",
+        "だけ",
+        "しか",
+        "ばかり"
+      ],
+      "answer": 1,
+      "explanation": "As much as possible: **〜られるだけ**.",
+      "notes": [
+        "食べられるまで = 'until you can eat'.",
+        "",
+        "しか needs a negative.",
+        "食べられるばかり isn't a phrase."
+      ],
+      "translation": "Please eat as much as you can."
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "id": "n2-just-because",
+  "category": "JLPT N2",
+  "title": "Just Because & Conditions: からといって, ことにはならない, 限り, に限って, というものでもない, 次第だ",
+  "description": "Just because … doesn't mean, as long as, (annoyingly) only when, not necessarily, and depending on.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "karatoitte",
+      "title": "〜からといって: just because",
+      "summary": "Plain form + からといって + (negative / とは限らない) = just because A, it doesn't mean B.",
+      "body": "- 日本人だ**からといって**、敬語が上手とは限らない.\n- お金がある**からといって**、幸せだとは言えない.",
+      "examples": [
+        [
+          "{日本人|にほんじん}だからといって、{敬語|けいご}が{上手|じょうず}とは{限|かぎ}らない。",
+          "Just because someone is Japanese doesn't mean they're good at honorifics."
+        ]
+      ]
+    },
+    {
+      "id": "kotoniwanaranai",
+      "title": "〜ことにはならない: doesn't mean that",
+      "summary": "Plain form + ことにはならない = A doesn't count as / doesn't mean B. Often with からといって / だけで.",
+      "body": "- 一度失敗したからといって、才能がない**ことにはならない**.",
+      "examples": [
+        [
+          "{一度|いちど}{失敗|しっぱい}したからといって、{才能|さいのう}がないことにはならない。",
+          "Failing once doesn't mean you have no talent."
+        ]
+      ]
+    },
+    {
+      "id": "kagiri",
+      "title": "〜限り: as long as; as far as",
+      "summary": "Plain form + 限り = as long as A holds (condition) / as far as (knowledge): 私の知っている限り.",
+      "body": "- 雨が降らない**限り**、試合は行われる.\n- 私の知っている**限り**、彼は正直な人だ.",
+      "examples": [
+        [
+          "{雨|あめ}が{降|ふ}らない{限|かぎ}り、{試合|しあい}は{行|おこな}われる。",
+          "As long as it doesn't rain, the match will go ahead."
+        ]
+      ]
+    },
+    {
+      "id": "nikagitte",
+      "title": "〜に限って: (of all times) only when; (X) of all people wouldn't",
+      "summary": "Noun + に限って = (annoyingly) precisely when A …; or strong trust: うちの子に限って.",
+      "body": "- 急いでいる時**に限って**、電車が遅れる.\n- うちの子**に限って**、そんなことをするはずがない.",
+      "examples": [
+        [
+          "{急|いそ}いでいる{時|とき}に{限|かぎ}って、{電車|でんしゃ}が{遅|おく}れる。",
+          "The train is always late precisely when I'm in a hurry."
+        ]
+      ]
+    },
+    {
+      "id": "toiumonodemonai",
+      "title": "〜というものでもない: it's not necessarily the case that",
+      "summary": "Plain form + というものでもない = it doesn't simply follow that ….",
+      "body": "- お金さえあれば幸せになれる**というものでもない**.\n- 高ければいい**というものでもない**.",
+      "examples": [
+        [
+          "{高|たか}ければいいというものでもない。",
+          "Expensive doesn't automatically mean good."
+        ]
+      ]
+    },
+    {
+      "id": "shidaida",
+      "title": "〜次第だ / 次第で: depending on",
+      "summary": "Noun + 次第だ / 次第で = it all depends on A.",
+      "body": "- 合格できるかどうかは、あなたの努力**次第だ**.\n- 天気**次第で**、予定を変えるかもしれない.",
+      "examples": [
+        [
+          "{合格|ごうかく}できるかどうかは、あなたの{努力|どりょく}{次第|しだい}だ。",
+          "Whether you pass depends on your effort."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "karatoitte",
+      "prompt": "{日本人|にほんじん}だ（　）、{敬語|けいご}が{上手|じょうず}とは{限|かぎ}らない。",
+      "options": [
+        "からして",
+        "からといって",
+        "からには",
+        "からこそ"
+      ],
+      "answer": 1,
+      "explanation": "Just because: **からといって … とは限らない**.",
+      "notes": [
+        "からして = 'judging from'.",
+        "",
+        "からには = 'now that'.",
+        "からこそ = 'precisely because'."
+      ],
+      "translation": "Just because someone is Japanese doesn't mean they're good at honorifics."
+    },
+    {
+      "point": "karatoitte",
+      "prompt": "お{金|かね}がある（　）、{幸|しあわ}せだとは{言|い}えない。",
+      "options": [
+        "からといって",
+        "からこそ",
+        "からして",
+        "からには"
+      ],
+      "answer": 0,
+      "explanation": "**からといって** + negative.",
+      "notes": [
+        "",
+        "からこそ = 'precisely because'.",
+        "からして = 'judging from'.",
+        "からには = 'now that'."
+      ],
+      "translation": "Having money doesn't mean you're happy."
+    },
+    {
+      "point": "kotoniwanaranai",
+      "prompt": "{一度|いちど}{失敗|しっぱい}したからといって、{才能|さいのう}がない（　）。",
+      "options": [
+        "ことになる",
+        "ことではない",
+        "ことにはならない",
+        "ことにはなる"
+      ],
+      "answer": 2,
+      "explanation": "Doesn't mean: **ことにはならない**.",
+      "notes": [
+        "ことになる = 'it means' — contradicts からといって.",
+        "ことではない isn't the pattern.",
+        "",
+        "The pattern is negative."
+      ],
+      "translation": "Failing once doesn't mean you have no talent."
+    },
+    {
+      "point": "kotoniwanaranai",
+      "prompt": "{謝|あやま}ったからといって、{許|ゆる}された（　）。",
+      "options": [
+        "ことにはならない",
+        "ことにはなる",
+        "ことがならない",
+        "ことをならない"
+      ],
+      "answer": 0,
+      "explanation": "**ことにはならない**.",
+      "notes": [
+        "",
+        "The pattern is negative.",
+        "ことがならない isn't grammatical.",
+        "ことをならない isn't grammatical."
+      ],
+      "translation": "Apologising doesn't mean you've been forgiven."
+    },
+    {
+      "point": "kagiri",
+      "prompt": "{雨|あめ}が{降|ふ}らない（　）、{試合|しあい}は{行|おこな}われる。",
+      "options": [
+        "{限|かぎ}らず",
+        "{限|かぎ}る",
+        "{限|かぎ}って",
+        "{限|かぎ}り"
+      ],
+      "answer": 3,
+      "explanation": "As long as: **限り**.",
+      "notes": [
+        "限らず = 'not only'.",
+        "限る = 'nothing beats'.",
+        "限って = 'only when (annoyingly)'.",
+        ""
+      ],
+      "translation": "As long as it doesn't rain, the match will go ahead."
+    },
+    {
+      "point": "kagiri",
+      "prompt": "{私|わたし}の{知|し}っている（　）、{彼|かれ}は{正直|しょうじき}な{人|ひと}だ。",
+      "options": [
+        "{限|かぎ}って",
+        "{限|かぎ}る",
+        "{限|かぎ}り",
+        "{限|かぎ}らず"
+      ],
+      "answer": 2,
+      "explanation": "As far as I know: **知っている限り**.",
+      "notes": [
+        "限って doesn't fit.",
+        "限る = 'nothing beats'.",
+        "",
+        "限らず = 'not only'."
+      ],
+      "translation": "As far as I know, he's an honest person."
+    },
+    {
+      "point": "nikagitte",
+      "prompt": "{急|いそ}いでいる{時|とき}（　）、{電車|でんしゃ}が{遅|おく}れる。",
+      "options": [
+        "に{限|かぎ}って",
+        "に{限|かぎ}る",
+        "に{限|かぎ}らず",
+        "に{限|かぎ}り"
+      ],
+      "answer": 0,
+      "explanation": "Annoyingly precisely when: **に限って**.",
+      "notes": [
+        "",
+        "に限る = 'nothing beats'.",
+        "に限らず = 'not only'.",
+        "に限り = 'limited to'."
+      ],
+      "translation": "The train is always late precisely when I'm in a hurry."
+    },
+    {
+      "point": "nikagitte",
+      "prompt": "うちの{子|こ}（　）、そんなことをするはずがない。",
+      "options": [
+        "に{限|かぎ}り",
+        "に{限|かぎ}って",
+        "に{限|かぎ}る",
+        "に{限|かぎ}らず"
+      ],
+      "answer": 1,
+      "explanation": "Strong trust: **に限って**.",
+      "notes": [
+        "に限り = 'limited to'.",
+        "",
+        "に限る = 'nothing beats'.",
+        "に限らず = 'not only'."
+      ],
+      "translation": "My child, of all people, would never do such a thing."
+    },
+    {
+      "point": "toiumonodemonai",
+      "prompt": "（not necessarily）お{金|かね}さえあれば{幸|しあわ}せになれる（　）。",
+      "options": [
+        "というわけだ",
+        "というものだ",
+        "ということだ",
+        "というものでもない"
+      ],
+      "answer": 3,
+      "explanation": "Not necessarily: **というものでもない**.",
+      "notes": [
+        "というわけだ = 'that's why'.",
+        "というものだ = 'that's what … is' — the opposite.",
+        "ということだ = 'I hear / that means'.",
+        ""
+      ],
+      "translation": "It's not as if money alone makes you happy."
+    },
+    {
+      "point": "toiumonodemonai",
+      "prompt": "{値段|ねだん}が{高|たか}ければいい（　）。",
+      "options": [
+        "というものがない",
+        "というもののない",
+        "というものでもない",
+        "というものもない"
+      ],
+      "answer": 2,
+      "explanation": "**というものでもない**.",
+      "notes": [
+        "ものがない = 'there's no such thing'.",
+        "もののない isn't grammatical.",
+        "",
+        "でも is needed: ものでもない."
+      ],
+      "translation": "Expensive doesn't automatically mean good."
+    },
+    {
+      "point": "shidaida",
+      "prompt": "{合格|ごうかく}できるかどうかは、あなたの{努力|どりょく}（　）だ。",
+      "options": [
+        "{次第|しだい}",
+        "{次|つぎ}",
+        "{次第|しだい}に",
+        "{次第|しだい}で"
+      ],
+      "answer": 0,
+      "explanation": "Depends on: **次第だ**.",
+      "notes": [
+        "",
+        "努力次だ isn't a word.",
+        "次第にだ isn't grammatical.",
+        "次第でだ isn't grammatical."
+      ],
+      "translation": "Whether you pass depends on your effort."
+    },
+    {
+      "point": "shidaida",
+      "prompt": "{天気|てんき}（　）、{予定|よてい}を{変|か}えるかもしれない。",
+      "options": [
+        "{次第|しだい}に",
+        "{次第|しだい}を",
+        "{次|つぎ}で",
+        "{次第|しだい}で"
+      ],
+      "answer": 3,
+      "explanation": "Depending on: **次第で**.",
+      "notes": [
+        "次第に = 'gradually'.",
+        "次第を isn't the pattern.",
+        "次で isn't the pattern.",
+        ""
+      ],
+      "translation": "We might change our plans depending on the weather."
+    }
+  ]
+}

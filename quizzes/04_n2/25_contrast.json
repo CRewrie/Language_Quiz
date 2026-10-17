@@ -1,0 +1,318 @@
+{
+  "id": "n2-contrast",
+  "category": "JLPT N2",
+  "title": "Which One? につけ/につき, 限り/に限って, ことだから/ことから, かねる/かねない, からといって/からには",
+  "description": "Contrast practice for the N2 look-alikes that differ by one kana.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "nitsuke-vs-nitsuki",
+      "title": "につけ vs につき",
+      "summary": "につけ = whenever (a feeling arises). につき = due to (notices) / per (unit).",
+      "body": "- この歌を聞く**につけ**、昔を思い出す (whenever).\n- 定休日**につき**休業 (due to — signs).\n- 一人**につき**500円 (per).\n\nTip: につき follows nouns in formal notices or prices; につけ follows verbs of perceiving (見る・聞く).",
+      "examples": [
+        [
+          "{本日|ほんじつ}は{定休日|ていきゅうび}につき、お{休|やす}みです。",
+          "We're closed today (regular holiday)."
+        ]
+      ]
+    },
+    {
+      "id": "kagiri-family",
+      "title": "限り vs に限って vs に限らず",
+      "summary": "限り = as long as. に限って = (annoyingly) precisely when / X of all people. に限らず = not only.",
+      "body": "- 元気な**限り**働きたい (as long as).\n- 傘がない日**に限って**雨が降る (precisely then).\n- 若者**に限らず**人気がある (not only).",
+      "examples": [
+        [
+          "{傘|かさ}を{持|も}っていない{日|ひ}に{限|かぎ}って、{雨|あめ}が{降|ふ}る。",
+          "It always rains precisely on the days I don't have an umbrella."
+        ]
+      ]
+    },
+    {
+      "id": "kotodakara-vs-kotokara",
+      "title": "ことだから vs ことから",
+      "summary": "person の ことだから = knowing what they're like (→ guess). ことから = from the fact that (→ name / conclusion).",
+      "body": "- 几帳面な彼女の**ことだから**、もう準備してあるだろう.\n- 星に似ている**ことから**、スターフルーツと呼ばれる.",
+      "examples": [
+        [
+          "{形|かたち}が{星|ほし}に{似|に}ていることから、スターフルーツと{呼|よ}ばれている。",
+          "It's called star fruit because its shape resembles a star."
+        ]
+      ]
+    },
+    {
+      "id": "kaneru-vs-kanenai",
+      "title": "かねる vs かねない",
+      "summary": "かねます = I can't (polite refusal). かねない = might well (something bad).",
+      "body": "- お答えし**かねます** (I'm afraid I can't answer).\n- 体を壊し**かねない** (you could well ruin your health).\n\nThe negative-looking one is the 'positive' risk!",
+      "examples": [
+        [
+          "そんなに{飲|の}んだら、{体|からだ}を{壊|こわ}しかねないよ。",
+          "If you drink that much, you could well ruin your health."
+        ]
+      ]
+    },
+    {
+      "id": "kara-family",
+      "title": "からといって vs からには vs からこそ",
+      "summary": "からといって = just because (… doesn't mean). からには = now that (resolve/obligation). からこそ = precisely because.",
+      "body": "- 高い**からといって**、品質がいいとは限らない.\n- 留学する**からには**、しっかり学びたい.\n- 失敗した**からこそ**、学べることもある.",
+      "examples": [
+        [
+          "{高|たか}いからといって、{品質|ひんしつ}がいいとは{限|かぎ}らない。",
+          "Just because it's expensive doesn't mean the quality is good."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nitsuke-vs-nitsuki",
+      "prompt": "{本日|ほんじつ}は{定休日|ていきゅうび}（　）、お{休|やす}みさせていただきます。",
+      "options": [
+        "につき",
+        "について",
+        "にとって",
+        "につけ"
+      ],
+      "answer": 0,
+      "explanation": "Notice 'due to': **につき**.",
+      "notes": [
+        "",
+        "について = 'about'.",
+        "にとって = 'for'.",
+        "につけ = 'whenever'."
+      ],
+      "translation": "We are closed today for our regular holiday."
+    },
+    {
+      "point": "nitsuke-vs-nitsuki",
+      "prompt": "この{歌|うた}を{聞|き}く（　）、{学生時代|がくせいじだい}を{思|おも}い{出|だ}す。",
+      "options": [
+        "について",
+        "につき",
+        "につけ",
+        "にとって"
+      ],
+      "answer": 2,
+      "explanation": "Whenever: **につけ**.",
+      "notes": [
+        "について = 'about'.",
+        "につき = 'due to / per'.",
+        "",
+        "にとって = 'for'."
+      ],
+      "translation": "Whenever I hear this song, I remember my student days."
+    },
+    {
+      "point": "nitsuke-vs-nitsuki",
+      "prompt": "{入場料|にゅうじょうりょう}は{子供|こども}{一人|ひとり}（　）500{円|えん}です。",
+      "options": [
+        "にとって",
+        "につけ",
+        "によって",
+        "につき"
+      ],
+      "answer": 3,
+      "explanation": "Per: **につき**.",
+      "notes": [
+        "にとって = 'for (viewpoint)'.",
+        "につけ = 'whenever'.",
+        "によって = 'by / depending on'.",
+        ""
+      ],
+      "translation": "Admission is 500 yen per child."
+    },
+    {
+      "point": "kagiri-family",
+      "prompt": "{体|からだ}が{元気|げんき}な（　）、{働|はたら}き{続|つづ}けたい。",
+      "options": [
+        "{限|かぎ}り",
+        "に{限|かぎ}る",
+        "に{限|かぎ}って",
+        "に{限|かぎ}らず"
+      ],
+      "answer": 0,
+      "explanation": "As long as: **限り**.",
+      "notes": [
+        "",
+        "に限る = 'nothing beats'.",
+        "に限って = 'precisely when'.",
+        "に限らず = 'not only'."
+      ],
+      "translation": "As long as I'm healthy, I want to keep working."
+    },
+    {
+      "point": "kagiri-family",
+      "prompt": "{傘|かさ}を{持|も}っていない{日|ひ}（　）、{雨|あめ}が{降|ふ}る。",
+      "options": [
+        "に{限|かぎ}らず",
+        "{限|かぎ}り",
+        "に{限|かぎ}って",
+        "に{限|かぎ}る"
+      ],
+      "answer": 2,
+      "explanation": "Annoyingly precisely then: **に限って**.",
+      "notes": [
+        "に限らず = 'not only'.",
+        "限り = 'as long as' — needs a verb/adjective before it.",
+        "",
+        "に限る = 'nothing beats'."
+      ],
+      "translation": "It always rains precisely on the days I don't have an umbrella."
+    },
+    {
+      "point": "kagiri-family",
+      "prompt": "この{店|みせ}は{若者|わかもの}（　）、お{年寄|としよ}りにも{人気|にんき}がある。",
+      "options": [
+        "に{限|かぎ}らず",
+        "に{限|かぎ}る",
+        "{限|かぎ}り",
+        "に{限|かぎ}って"
+      ],
+      "answer": 0,
+      "explanation": "Not only: **に限らず … にも**.",
+      "notes": [
+        "",
+        "に限る = 'nothing beats'.",
+        "限り = 'as long as'.",
+        "に限って = 'precisely when'."
+      ],
+      "translation": "This shop is popular not only with young people but with the elderly too."
+    },
+    {
+      "point": "kotodakara-vs-kotokara",
+      "prompt": "{几帳面|きちょうめん}な{彼女|かのじょ}の（　）、{書類|しょるい}はもう{準備|じゅんび}してあるだろう。",
+      "options": [
+        "ことなく",
+        "ことだから",
+        "ことには",
+        "ことから"
+      ],
+      "answer": 1,
+      "explanation": "Knowing her: **のことだから**.",
+      "notes": [
+        "ことなく = 'without'.",
+        "",
+        "ことには = 'unless'.",
+        "ことから = 'from the fact that' — not about a person's character."
+      ],
+      "translation": "Knowing how meticulous she is, the documents are probably already prepared."
+    },
+    {
+      "point": "kotodakara-vs-kotokara",
+      "prompt": "{形|かたち}が{星|ほし}に{似|に}ている（　）、「スターフルーツ」と{呼|よ}ばれている。",
+      "options": [
+        "ことだから",
+        "ことに",
+        "ことから",
+        "ことなく"
+      ],
+      "answer": 2,
+      "explanation": "Reason for a name: **ことから**.",
+      "notes": [
+        "ことだから is about a person's character.",
+        "ことに = 'to my (surprise etc.)'.",
+        "",
+        "ことなく = 'without'."
+      ],
+      "translation": "It's called star fruit because its shape resembles a star."
+    },
+    {
+      "point": "kaneru-vs-kanenai",
+      "prompt": "{申|もう}し{訳|わけ}ございませんが、その{質問|しつもん}にはお{答|こた}えし（　）。",
+      "options": [
+        "かねます",
+        "かねて",
+        "かねない",
+        "かねません"
+      ],
+      "answer": 0,
+      "explanation": "Polite refusal: **かねます**.",
+      "notes": [
+        "",
+        "かねて can't end the sentence.",
+        "かねない = 'might well' — and too casual here.",
+        "かねません = 'might well (answer)' — the opposite."
+      ],
+      "translation": "I'm very sorry, but I'm unable to answer that question."
+    },
+    {
+      "point": "kaneru-vs-kanenai",
+      "prompt": "そんなに{飲|の}んだら、{体|からだ}を{壊|こわ}し（　）よ。",
+      "options": [
+        "かねて",
+        "かねる",
+        "かねます",
+        "かねない"
+      ],
+      "answer": 3,
+      "explanation": "Risk: **かねない**.",
+      "notes": [
+        "かねて can't end the sentence.",
+        "かねる = 'can't (bring myself to)'.",
+        "かねます = polite 'I can't'.",
+        ""
+      ],
+      "translation": "If you drink that much, you could well ruin your health."
+    },
+    {
+      "point": "kara-family",
+      "prompt": "{高|たか}い（　）、{品質|ひんしつ}がいいとは{限|かぎ}らない。",
+      "options": [
+        "からといって",
+        "からこそ",
+        "からして",
+        "からには"
+      ],
+      "answer": 0,
+      "explanation": "Just because … not necessarily: **からといって**.",
+      "notes": [
+        "",
+        "からこそ = 'precisely because' — clashes with とは限らない.",
+        "からして = 'judging from'.",
+        "からには = 'now that' — doesn't pair with とは限らない."
+      ],
+      "translation": "Just because it's expensive doesn't mean the quality is good."
+    },
+    {
+      "point": "kara-family",
+      "prompt": "{留学|りゅうがく}する（　）、{現地|げんち}の{言葉|ことば}をしっかり{学|まな}びたい。",
+      "options": [
+        "からして",
+        "からには",
+        "から{見|み}て",
+        "からといって"
+      ],
+      "answer": 1,
+      "explanation": "Now that (resolve): **からには**.",
+      "notes": [
+        "からして = 'judging from'.",
+        "",
+        "から見て = 'seen from'.",
+        "からといって needs a negative conclusion."
+      ],
+      "translation": "Since I'm going to study abroad, I want to learn the local language properly."
+    },
+    {
+      "point": "kara-family",
+      "prompt": "{失敗|しっぱい}した（　）、{学|まな}べることもある。",
+      "options": [
+        "からこそ",
+        "からといって",
+        "からして",
+        "からには"
+      ],
+      "answer": 0,
+      "explanation": "Precisely because: **からこそ**.",
+      "notes": [
+        "",
+        "からといって needs a negative conclusion.",
+        "からして = 'judging from'.",
+        "からには = 'now that' — needs resolve/obligation."
+      ],
+      "translation": "There are things you can learn precisely because you failed."
+    }
+  ]
+}

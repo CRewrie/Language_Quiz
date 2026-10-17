@@ -1,0 +1,250 @@
+{
+  "id": "zh-b2-even-if",
+  "category": "Mandarin B2",
+  "language": "zh",
+  "title": "Even If & No Matter: 即使 / 就算 / 哪怕…也, 不管 / 无论…都, 任何, 一个也不",
+  "description": "Concessions that hold even in the worst case, 'whatever / however', any, and 'not even one'.",
+  "level": "B2",
+  "points": [
+    {
+      "id": "jishi",
+      "title": "即使 / 就算 / 哪怕 … 也 …: even if",
+      "summary": "Three ways to say 'even if' — all pair with 也. 就算 is spoken, 即使 neutral, 哪怕 emphasises an extreme.",
+      "body": "- **即使**明天下雨，我**也**要去.\n- **哪怕**再忙，你**也**要吃饭.",
+      "examples": [
+        [
+          "{就算|jiùsuàn}{失败|shībài}，{我|wǒ}{也|yě}{要|yào}{试试|shìshi}。",
+          "Even if I fail, I want to try."
+        ]
+      ]
+    },
+    {
+      "id": "buguan",
+      "title": "不管 / 无论 … 都 / 也 …: no matter",
+      "summary": "不管 / 无论 + a question element (怎么, 多, 谁, A不A, 还是) + 都 / 也. Unlike 即使, it needs an open alternative.",
+      "body": "- **不管**天气怎么样，他**都**去跑步.\n- **无论**多难，我**都**要学下去.",
+      "examples": [
+        [
+          "{不管|bùguǎn}{你|nǐ}{去|qù}{不|bu}{去|qù}，{我|wǒ}{都|dōu}{去|qù}。",
+          "Whether you go or not, I'm going."
+        ]
+      ]
+    },
+    {
+      "id": "renhe",
+      "title": "任何 + noun + 都 / 也: any",
+      "summary": "任何 (rènhé) + noun (+ 都 / 也) = any …; in negatives 'not any'.",
+      "body": "- 这里**任何**人**都**可以参加.\n- 我没有**任何**问题.",
+      "examples": [
+        [
+          "{我|wǒ}{没有|méiyǒu}{任何|rènhé}{问题|wèntí}。",
+          "I don't have any questions."
+        ]
+      ]
+    },
+    {
+      "id": "yiye",
+      "title": "一 + MW (+ noun) + 也 / 都 + 不 / 没: not a single one",
+      "summary": "Strong negation: 一个人也不认识 (don't know a single person).",
+      "body": "- 我**一个人也不**认识.\n- 他**一口也没**喝.",
+      "examples": [
+        [
+          "{我|wǒ}{一|yí}{个|ge}{人|rén}{也|yě}{不|bú}{认识|rènshi}。",
+          "I don't know a single person."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "jishi",
+      "prompt": "{即使|jíshǐ}{明天|míngtiān}{下雨|xià yǔ}，{我|wǒ}（　）{要|yào}{去|qù}。",
+      "options": [
+        "{也|yě}",
+        "{又|yòu}",
+        "{才|cái}",
+        "{就|jiù}"
+      ],
+      "answer": 0,
+      "explanation": "Even if: **即使…也**.",
+      "notes": [
+        "",
+        "又 = 'again'.",
+        "才 = 'only then'.",
+        "即使 pairs with 也, not 就."
+      ],
+      "translation": "Even if it rains tomorrow, I'm going."
+    },
+    {
+      "point": "jishi",
+      "prompt": "（　）{再|zài}{忙|máng}，{你|nǐ}{也|yě}{要|yào}{按时|ànshí}{吃饭|chīfàn}。",
+      "options": [
+        "{只要|zhǐyào}",
+        "{因为|yīnwèi}",
+        "{哪怕|nǎpà}",
+        "{除非|chúfēi}"
+      ],
+      "answer": 2,
+      "explanation": "Even if (extreme): **哪怕…也**.",
+      "notes": [
+        "只要 pairs with 就.",
+        "因为 = 'because'.",
+        "",
+        "除非 = 'unless'."
+      ],
+      "translation": "However busy you are, you must eat on time."
+    },
+    {
+      "point": "jishi",
+      "prompt": "Which one means 'Even if I fail, I'll try'?",
+      "options": [
+        "{就算|jiùsuàn}{失败|shībài}，{我|wǒ}{也|yě}{要|yào}{试试|shìshi}。",
+        "{因为|yīnwèi}{失败|shībài}，{我|wǒ}{也|yě}{要|yào}{试试|shìshi}。",
+        "{除非|chúfēi}{失败|shībài}，{我|wǒ}{才|cái}{试试|shìshi}。",
+        "{只要|zhǐyào}{失败|shībài}，{我|wǒ}{就|jiù}{要|yào}{试试|shìshi}。"
+      ],
+      "answer": 0,
+      "explanation": "**就算…也**.",
+      "notes": [
+        "",
+        "= 'Because I fail …' — not a concession.",
+        "= 'Only if I fail will I try'.",
+        "= 'As long as I fail, I'll try' — illogical."
+      ],
+      "translation": "Even if I fail, I want to try."
+    },
+    {
+      "point": "buguan",
+      "prompt": "{不管|bùguǎn}{天气|tiānqì}{怎么样|zěnmeyàng}，{他|tā}（　）{去|qù}{跑步|pǎobù}。",
+      "options": [
+        "{却|què}",
+        "{都|dōu}",
+        "{才|cái}",
+        "{再|zài}"
+      ],
+      "answer": 1,
+      "explanation": "No matter: **不管…都**.",
+      "notes": [
+        "却 = 'however' — no contrast here.",
+        "",
+        "不管 pairs with 都 / 也.",
+        "再 = 'again'."
+      ],
+      "translation": "Whatever the weather, he goes running."
+    },
+    {
+      "point": "buguan",
+      "prompt": "（　）{你|nǐ}{去|qù}{不|bu}{去|qù}，{我|wǒ}{都|dōu}{去|qù}。",
+      "options": [
+        "{不管|bùguǎn}",
+        "{只要|zhǐyào}",
+        "{即使|jíshǐ}",
+        "{虽然|suīrán}"
+      ],
+      "answer": 0,
+      "explanation": "With an alternative: **不管**.",
+      "notes": [
+        "",
+        "只要 pairs with 就.",
+        "即使 needs one condition, not an alternative.",
+        "虽然 states one fact — it can't take 去不去."
+      ],
+      "translation": "Whether you go or not, I'm going."
+    },
+    {
+      "point": "buguan",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{无论|wúlùn}{多|duō}{难|nán}，{我|wǒ}{就|jiù}{要|yào}{学|xué}{下去|xiàqù}。",
+        "{无论|wúlùn}{很|hěn}{难|nán}，{我|wǒ}{都|dōu}{要|yào}{学|xué}{下去|xiàqù}。",
+        "{虽然|suīrán}{多|duō}{难|nán}，{我|wǒ}{都|dōu}{要|yào}{学|xué}{下去|xiàqù}。",
+        "{无论|wúlùn}{多|duō}{难|nán}，{我|wǒ}{都|dōu}{要|yào}{学|xué}{下去|xiàqù}。"
+      ],
+      "answer": 3,
+      "explanation": "**无论 + 多 + adj，都**.",
+      "notes": [
+        "无论 pairs with 都 / 也.",
+        "无论 needs a question element (多难, not 很难).",
+        "虽然 doesn't take 多 + adj or 都.",
+        ""
+      ],
+      "translation": "However hard it is, I'll keep learning."
+    },
+    {
+      "point": "renhe",
+      "prompt": "What does 「{这里|zhèlǐ}{任何|rènhé}{人|rén}{都|dōu}{可以|kěyǐ}{参加|cānjiā}。」 mean?",
+      "options": [
+        "Onlysomepeopleherecantakepart.",
+        "Anyoneherecantakepart.",
+        "Nobodyherecantakepart.",
+        "Everyoneheremusttakepart."
+      ],
+      "answer": 1,
+      "explanation": "任何 = **any**.",
+      "notes": [
+        "任何 = any at all.",
+        "",
+        "There's no negation.",
+        "可以 = may, not must."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "renhe",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{没有|méiyǒu}{问题|wèntí}{任何|rènhé}。",
+        "{任何|rènhé}{我|wǒ}{没有|méiyǒu}{问题|wèntí}。",
+        "{我|wǒ}{任何|rènhé}{没有|méiyǒu}{问题|wèntí}。",
+        "{我|wǒ}{没有|méiyǒu}{任何|rènhé}{问题|wèntí}。"
+      ],
+      "answer": 3,
+      "explanation": "**任何 + noun**.",
+      "notes": [
+        "任何 goes before the noun.",
+        "任何 goes before the noun.",
+        "任何 goes before the noun.",
+        ""
+      ],
+      "translation": "I don't have any questions."
+    },
+    {
+      "point": "yiye",
+      "prompt": "{我|wǒ}{刚|gāng}{来|lái}{这|zhè}{个|ge}{城市|chéngshì}，{一|yí}{个|ge}{人|rén}（　）{不|bú}{认识|rènshi}。",
+      "options": [
+        "{也|yě}",
+        "{还|hái}",
+        "{就|jiù}",
+        "{才|cái}"
+      ],
+      "answer": 0,
+      "explanation": "Not a single one: **一…也不**.",
+      "notes": [
+        "",
+        "还不认识 = 'still don't know'.",
+        "一个人就不认识 isn't the pattern.",
+        "才 doesn't fit."
+      ],
+      "translation": "I've just arrived in this city and don't know a single person."
+    },
+    {
+      "point": "yiye",
+      "prompt": "Which one means 'He didn't drink a single sip'?",
+      "options": [
+        "{他|tā}{一|yì}{口|kǒu}{也|yě}{喝|hē}{了|le}。",
+        "{他|tā}{没|méi}{一|yì}{口|kǒu}{也|yě}{喝|hē}。",
+        "{他|tā}{一|yì}{口|kǒu}{也|yě}{没|méi}{喝|hē}。",
+        "{他|tā}{一|yì}{口|kǒu}{喝|hē}{也|yě}{没|méi}。"
+      ],
+      "answer": 2,
+      "explanation": "**一口也没喝**.",
+      "notes": [
+        "The pattern needs a negative.",
+        "没 goes after 也.",
+        "",
+        "Order is broken."
+      ],
+      "translation": "He didn't drink a single sip."
+    }
+  ]
+}

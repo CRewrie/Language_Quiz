@@ -1,0 +1,261 @@
+{
+  "id": "plain-form-quoting",
+  "category": "Mixed practice (N5–N4)",
+  "title": "Plain Form: Thoughts, Quotes & Plans",
+  "description": "と思う, と言っていました, つもり, でしょう, かもしれない, んです, そうです (hearsay), ことがある, ことができる.",
+  "level": "N5–N4",
+  "questions": [
+    {
+      "prompt": "{明日|あした}は{雨|あめ}が{降|ふ}る（　）{思|おも}います。",
+      "options": [
+        "を",
+        "が",
+        "と",
+        "に"
+      ],
+      "answer": 2,
+      "explanation": "**Plain form + と思います** = 'I think that …'. と is the quotation particle that marks the content of the thought.",
+      "notes": [
+        "を marks a noun object (母を思う, 'think of mother'). A whole clause needs と.",
+        "が can't mark the content of a thought.",
+        "",
+        "に doesn't quote. 思う uses と."
+      ],
+      "translation": "I think it will rain tomorrow."
+    },
+    {
+      "prompt": "あの{人|ひと}は{先生|せんせい}（　）と{思|おも}います。",
+      "options": [
+        "です",
+        "の",
+        "な",
+        "だ"
+      ],
+      "answer": 3,
+      "explanation": "Before と思う the clause must be in **plain form**. For nouns and な-adjectives, that means adding **だ**: 先生だと思います, 元気だと思います.",
+      "notes": [
+        "Polite です isn't used inside と思います. The politeness goes at the end (思います).",
+        "の can't end a quoted noun clause here.",
+        "な is only used before a noun (元気な人). Before と you need だ.",
+        ""
+      ],
+      "translation": "I think that person is a teacher."
+    },
+    {
+      "prompt": "{先週|せんしゅう}、{彼|かれ}は{元気|げんき}（　）。",
+      "options": [
+        "だったと{思|おも}います",
+        "と{思|おも}います",
+        "ですと{思|おも}いました",
+        "でしたと{思|おも}います"
+      ],
+      "answer": 0,
+      "explanation": "The thought is about the past (先週), so the quoted clause is **plain past**: 元気だった + と思います.",
+      "notes": [
+        "",
+        "元気と思います drops だ. A な-adjective needs だ (or だった) before と.",
+        "です is polite and non-past, but the thought is about last week. 思いました also changes the meaning to 'I thought (back then)'.",
+        "でした is polite. The quoted part before と思う should be plain (だった)."
+      ],
+      "translation": "I think he was well last week."
+    },
+    {
+      "prompt": "{田中|たなか}さんは{明日|あした}{来|こ}ない（　）。",
+      "options": [
+        "を{言|い}っていました",
+        "と{言|い}っていました",
+        "に{言|い}っていました",
+        "と{言|い}ってでした"
+      ],
+      "answer": 1,
+      "explanation": "**〜と言っていました** = '(someone) said that …'. It's used to pass on what a third person said.",
+      "notes": [
+        "を marks a noun object (名前を言う). A quoted clause needs と.",
+        "",
+        "に marks the listener (私に言いました), not the content.",
+        "〜てでした isn't a valid form. Use 言っていました or 言いました."
+      ],
+      "translation": "Mr. Tanaka said that he won't come tomorrow."
+    },
+    {
+      "prompt": "{子供|こども}のとき、{野菜|やさい}が{嫌|きら}い（　）。",
+      "options": [
+        "くなかった",
+        "かった",
+        "だたった",
+        "だった"
+      ],
+      "answer": 3,
+      "explanation": "嫌い is a **な-adjective**, even though it ends in い. Its plain past is **嫌いだった**.",
+      "notes": [
+        "嫌くなかった would be a negative い-adjective form, and 嫌い isn't one.",
+        "嫌かった treats 嫌い as an い-adjective, but it's a な-adjective (嫌いな食べ物).",
+        "だたった isn't a word. It's だった.",
+        ""
+      ],
+      "translation": "When I was a child, I hated vegetables."
+    },
+    {
+      "prompt": "{冬休|ふゆやす}みに{北海道|ほっかいどう}へ{行|い}く（　）です。",
+      "options": [
+        "つもり",
+        "ほしい",
+        "ましょう",
+        "たい"
+      ],
+      "answer": 0,
+      "explanation": "**Dictionary form + つもりです** = 'I intend/plan to …'.",
+      "notes": [
+        "",
+        "ほしい follows a noun (車がほしい) or て-form (行ってほしい), not the dictionary form.",
+        "ましょう attaches to the ます-stem (行きましょう) and can't be followed by です.",
+        "たい attaches to the ます-stem (行きたい), not the dictionary form (行くたい)."
+      ],
+      "translation": "I'm planning to go to Hokkaido over winter break."
+    },
+    {
+      "prompt": "{天気予報|てんきよほう}によると、{明日|あした}は{晴|は}れる（　）。",
+      "options": [
+        "ください",
+        "でしょう",
+        "ません",
+        "ましょう"
+      ],
+      "answer": 1,
+      "explanation": "**Plain form + でしょう** = 'probably / it will likely …'. It's the classic weather-forecast phrasing.",
+      "notes": [
+        "ください follows a て-form (晴れてください). Here it would be ungrammatical.",
+        "",
+        "ません attaches to ます-stems (晴れません), not the dictionary form.",
+        "ましょう ('let's') attaches to ます-stems, and weather can't be invited to do anything."
+      ],
+      "translation": "According to the forecast, it will probably be sunny tomorrow."
+    },
+    {
+      "prompt": "{電話|でんわ}に{出|で}ませんね。{山田|やまだ}さんは{忙|いそが}しい（　）しれません。",
+      "options": [
+        "だろう",
+        "かな",
+        "のに",
+        "かも"
+      ],
+      "answer": 3,
+      "explanation": "**〜かもしれません** = 'might / maybe'. It attaches to plain forms. For nouns and な-adjectives, drop だ: 学生かもしれません.",
+      "notes": [
+        "だろう already means 'probably' and can't be followed by しれません.",
+        "かな ('I wonder') is a sentence ending and can't be followed by しれません.",
+        "のに means 'even though' and doesn't combine with しれません.",
+        ""
+      ],
+      "translation": "He's not answering. Mr. Yamada might be busy."
+    },
+    {
+      "prompt": "{元気|げんき}がないですね。どうした（　）。",
+      "options": [
+        "んですか",
+        "ますか",
+        "ですか",
+        "んますか"
+      ],
+      "answer": 0,
+      "explanation": "**〜んですか** asks for an explanation of a situation you've noticed ('What happened?'). It attaches to plain forms: どうしたんですか.",
+      "notes": [
+        "",
+        "ます attaches to ます-stems, not to the plain past した.",
+        "Plain past した + ですか (したですか) is ungrammatical. You need ん/の in between.",
+        "ん must be followed by です, not ます."
+      ],
+      "translation": "You don't look well. What's wrong?"
+    },
+    {
+      "prompt": "{天気予報|てんきよほう}によると、{明日|あした}は{雪|ゆき}（　）。",
+      "options": [
+        "のそうです",
+        "だそうです",
+        "ですそうです",
+        "そうです"
+      ],
+      "answer": 1,
+      "explanation": "Hearsay **そうです** ('I heard that …') attaches to the **plain form**. A noun needs だ: 雪だそうです.",
+      "notes": [
+        "の doesn't go between a noun and そうです.",
+        "",
+        "です is polite, but the part before そうです must be plain: だ.",
+        "雪そうです isn't grammatical. Hearsay そう needs a full plain form, and nouns need だ. (The 'looks like' そう can't attach to nouns either.)"
+      ],
+      "translation": "According to the forecast, I hear it will snow tomorrow."
+    },
+    {
+      "prompt": "{富士山|ふじさん}に{登|のぼ}った（　）がありますか。",
+      "options": [
+        "ところ",
+        "の",
+        "こと",
+        "もの"
+      ],
+      "answer": 2,
+      "explanation": "**Plain past (た) + ことがある** = 'have (ever) done …' (experience).",
+      "notes": [
+        "登ったところ means 'just climbed'. ところがある doesn't express experience.",
+        "The experience pattern requires こと, not の.",
+        "",
+        "ものがある means 'there is a thing', not an experience."
+      ],
+      "translation": "Have you ever climbed Mt. Fuji?"
+    },
+    {
+      "prompt": "{姉|あね}はピアノを{弾|ひ}く（　）ができます。",
+      "options": [
+        "こと",
+        "もの",
+        "ところ",
+        "の"
+      ],
+      "answer": 0,
+      "explanation": "**Dictionary form + ことができる** = 'can / be able to …'. こと turns the verb into a noun.",
+      "notes": [
+        "",
+        "ものができる means 'a thing gets made', not an ability.",
+        "ところ refers to a place or moment, not an ability.",
+        "のができる isn't used for ability. The set phrase is ことができる."
+      ],
+      "translation": "My older sister can play the piano."
+    },
+    {
+      "prompt": "{顔色|かおいろ}が{悪|わる}いですよ。{早|はや}く{帰|かえ}った（　）がいいですよ。",
+      "options": [
+        "もの",
+        "より",
+        "こと",
+        "ほう"
+      ],
+      "answer": 3,
+      "explanation": "**Plain past + ほうがいい** = 'you'd better …' (advice). The た-form is standard even though the advice is about the future.",
+      "notes": [
+        "ものがいい isn't the advice pattern.",
+        "より is used for comparisons (AよりB), not with がいい like this.",
+        "ことがいい isn't the advice pattern.",
+        ""
+      ],
+      "translation": "You look pale. You'd better go home early."
+    },
+    {
+      "prompt": "{日本語|にほんご}を{勉強|べんきょう}する（　）、{日本|にほん}に{来|き}ました。",
+      "options": [
+        "まで",
+        "ために",
+        "ながら",
+        "けど"
+      ],
+      "answer": 1,
+      "explanation": "**Dictionary form + ために** = 'in order to …', for a purpose you control (a volitional verb).",
+      "notes": [
+        "まで ('until') would mean 'came to Japan until studying', which doesn't make sense.",
+        "",
+        "ながら attaches to the ます-stem (勉強しながら) and means 'while doing'.",
+        "けど means 'but'. 'I study Japanese, but I came to Japan' is illogical."
+      ],
+      "translation": "I came to Japan in order to study Japanese."
+    }
+  ]
+}

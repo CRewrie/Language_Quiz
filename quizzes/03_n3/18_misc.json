@@ -1,0 +1,411 @@
+{
+  "id": "n3-misc",
+  "category": "JLPT N3",
+  "title": "Expressions: てごらん, てもかまわない, ついでに, そうもない, ばよかった, をはじめ, を中心に, にかけて",
+  "description": "Try it (to children), don't mind if, while you're at it, unlikely to, I should have, starting with, centred on, and from … through ….",
+  "level": "N3",
+  "points": [
+    {
+      "id": "tegoran",
+      "title": "〜てごらん: try (doing) — to a child/junior",
+      "summary": "て-form + ごらん(なさい) = 'try …, have a look' — said by parents/teachers to children.",
+      "body": "- この本、面白いから読んで**ごらん**.\n\nIt comes from ご覧 (honorific 'look'), but as an expression it's used downward (adult → child).",
+      "examples": [
+        [
+          "この{本|ほん}、{面白|おもしろ}いから{読|よ}んでごらん。",
+          "This book's fun — give it a try."
+        ]
+      ]
+    },
+    {
+      "id": "temokamawanai",
+      "title": "〜てもかまわない: it's fine if, I don't mind",
+      "summary": "て-form + もかまわない/かまいません = it's OK to (more formal than てもいい).",
+      "body": "- 明日は来なく**てもかまいません**.\n- どこに座っ**てもかまいません**.",
+      "examples": [
+        [
+          "{明日|あした}は{来|こ}なくてもかまいません。",
+          "You don't have to come tomorrow."
+        ]
+      ]
+    },
+    {
+      "id": "tsuideni",
+      "title": "〜ついでに: while (doing), on the occasion of",
+      "summary": "Verb / noun + の + ついでに = while doing A anyway, also do B.",
+      "body": "- 郵便局へ行く**ついでに**、この手紙も出してくれない？\n- 買い物**のついでに**、本屋に寄った.",
+      "examples": [
+        [
+          "{郵便局|ゆうびんきょく}へ{行|い}くついでに、この{手紙|てがみ}も{出|だ}してくれない？",
+          "Since you're going to the post office, could you mail this letter too?"
+        ]
+      ]
+    },
+    {
+      "id": "soumonai",
+      "title": "〜そうもない: very unlikely to",
+      "summary": "ます-stem + そうもない(そうにない) = shows no sign of …, unlikely.",
+      "body": "- この雨はやみ**そうもない** (this rain shows no sign of stopping).\n- 今日中に終わり**そうもない**.",
+      "examples": [
+        [
+          "この{雨|あめ}はやみそうもない。",
+          "This rain doesn't look like it'll stop."
+        ]
+      ]
+    },
+    {
+      "id": "bayokatta",
+      "title": "〜ばよかった: I should have",
+      "summary": "ば-form + よかった = regret ('if only I had …').",
+      "body": "- もっと早く家を出れ**ばよかった**.\n- 言わなけれ**ばよかった** (I shouldn't have said it).",
+      "examples": [
+        [
+          "もっと{早|はや}く{家|いえ}を{出|で}ればよかった。",
+          "I should have left home earlier."
+        ]
+      ]
+    },
+    {
+      "id": "ohajime",
+      "title": "〜をはじめ(として): starting with, including",
+      "summary": "Noun + をはじめ = A (the main example) and others.",
+      "body": "- 東京**をはじめ**、日本の大都市を回った.\n- 社長**をはじめとして**、社員全員が参加した.",
+      "examples": [
+        [
+          "{東京|とうきょう}をはじめ、{日本|にほん}の{大都市|だいとし}を{回|まわ}った。",
+          "I toured Japan's big cities, starting with Tokyo."
+        ]
+      ]
+    },
+    {
+      "id": "ochuushinni",
+      "title": "〜を中心に: centred on, focusing on",
+      "summary": "Noun + を中心に(して) = with A at the centre.",
+      "body": "- この町は駅**を中心に**発展した.\n- 若者**を中心に**人気がある.",
+      "examples": [
+        [
+          "この{町|まち}は{駅|えき}を{中心|ちゅうしん}に{発展|はってん}した。",
+          "This town developed around the station."
+        ]
+      ]
+    },
+    {
+      "id": "nikakete",
+      "title": "〜から〜にかけて: from … through …",
+      "summary": "A から B にかけて = over the span from A to B (time or area), roughly.",
+      "body": "- 夕方から夜**にかけて**、雨が降るでしょう.\n- 関東から東北**にかけて**.\n\nLess precise than から〜まで.",
+      "examples": [
+        [
+          "{夕方|ゆうがた}から{夜|よる}にかけて、{雨|あめ}が{降|ふ}るでしょう。",
+          "It will rain from the evening into the night."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tegoran",
+      "prompt": "（Parent to child）この{本|ほん}、{面白|おもしろ}いから{読|よ}んで（　）。",
+      "options": [
+        "ごらん",
+        "ごらる",
+        "ごらい",
+        "ごろん"
+      ],
+      "answer": 0,
+      "explanation": "Try it: **てごらん**.",
+      "notes": [
+        "",
+        "ごらる isn't a word.",
+        "ごらい isn't a word.",
+        "ごろん is the sound of rolling over."
+      ],
+      "translation": "This book's fun — give it a try."
+    },
+    {
+      "point": "tegoran",
+      "prompt": "Who would naturally say 「やってごらん」?",
+      "options": [
+        "An employee to the boss",
+        "A parent to a child",
+        "A clerk to a customer",
+        "A student to a teacher"
+      ],
+      "answer": 1,
+      "explanation": "てごらん is used **downward** (parent/teacher → child).",
+      "notes": [
+        "Too familiar toward a boss.",
+        "",
+        "Clerks use お〜ください.",
+        "Too familiar toward a teacher."
+      ],
+      "translation": "Give it a try."
+    },
+    {
+      "point": "temokamawanai",
+      "prompt": "{明日|あした}は{来|こ}なくて（　）。",
+      "options": [
+        "もかまえません",
+        "をかまいません",
+        "もかまりません",
+        "もかまいません"
+      ],
+      "answer": 3,
+      "explanation": "Don't have to: **なくてもかまいません**.",
+      "notes": [
+        "かまえる is a different verb (to set up).",
+        "をかまいません isn't the pattern.",
+        "かまりません isn't a form.",
+        ""
+      ],
+      "translation": "You don't have to come tomorrow."
+    },
+    {
+      "point": "temokamawanai",
+      "prompt": "What does 「どこに{座|すわ}ってもかまいません」 mean?",
+      "options": [
+        "You may sit anywhere.",
+        "Please sit somewhere specific.",
+        "I don't know where to sit.",
+        "You must not sit anywhere."
+      ],
+      "answer": 0,
+      "explanation": "てもかまわない = **it's fine to**.",
+      "notes": [
+        "",
+        "That would be ここに座ってください.",
+        "That would be どこに座ればいいかわかりません.",
+        "That would be 座ってはいけません."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tsuideni",
+      "prompt": "{郵便局|ゆうびんきょく}へ{行|い}く（　）、この{手紙|てがみ}も{出|だ}してくれない？",
+      "options": [
+        "ついて",
+        "ついでに",
+        "ついに",
+        "つい"
+      ],
+      "answer": 1,
+      "explanation": "While you're at it: **ついでに**.",
+      "notes": [
+        "ついて = 'about / arriving'.",
+        "",
+        "ついに = 'finally'.",
+        "つい = 'unintentionally'."
+      ],
+      "translation": "Since you're going to the post office, could you mail this letter too?"
+    },
+    {
+      "point": "soumonai",
+      "prompt": "この{雨|あめ}はやみ（　）。",
+      "options": [
+        "そうもない",
+        "そうもなく",
+        "そうもいない",
+        "そうもある"
+      ],
+      "answer": 0,
+      "explanation": "Unlikely: **そうもない**.",
+      "notes": [
+        "",
+        "そうもなく can't end the sentence.",
+        "そうもいない isn't a form.",
+        "そうもある isn't used."
+      ],
+      "translation": "This rain doesn't look like it'll stop."
+    },
+    {
+      "point": "bayokatta",
+      "prompt": "もっと{早|はや}く{家|いえ}を{出|で}れ（　）よかった。",
+      "options": [
+        "に",
+        "ば",
+        "で",
+        "も"
+      ],
+      "answer": 1,
+      "explanation": "Regret: **ばよかった**.",
+      "notes": [
+        "出れによかった isn't grammatical.",
+        "",
+        "出れでよかった isn't a form.",
+        "出れもよかった isn't grammatical."
+      ],
+      "translation": "I should have left home earlier."
+    },
+    {
+      "point": "ohajime",
+      "prompt": "{東京|とうきょう}を（　）、{日本|にほん}の{大都市|だいとし}を{回|まわ}った。",
+      "options": [
+        "はじめに",
+        "{始|はじ}まり",
+        "{初|はじ}めて",
+        "はじめ"
+      ],
+      "answer": 3,
+      "explanation": "Starting with: **をはじめ**.",
+      "notes": [
+        "をはじめに isn't the pattern.",
+        "をはじまり isn't grammatical.",
+        "初めて = 'for the first time'.",
+        ""
+      ],
+      "translation": "I toured Japan's big cities, starting with Tokyo."
+    },
+    {
+      "point": "ochuushinni",
+      "prompt": "この{町|まち}は{駅|えき}を（　）{発展|はってん}した。",
+      "options": [
+        "{中間|ちゅうかん}に",
+        "{中心|ちゅうしん}に",
+        "{中身|なかみ}に",
+        "{中央|ちゅうおう}に"
+      ],
+      "answer": 1,
+      "explanation": "Centred on: **を中心に**.",
+      "notes": [
+        "中間 = 'between'.",
+        "",
+        "中身 = 'contents'.",
+        "中央 = 'the middle' (place) — not the pattern."
+      ],
+      "translation": "This town developed around the station."
+    },
+    {
+      "point": "nikakete",
+      "prompt": "{夕方|ゆうがた}から{夜|よる}（　）、{雨|あめ}が{降|ふ}るでしょう。",
+      "options": [
+        "にかけて",
+        "について",
+        "までに",
+        "にとって"
+      ],
+      "answer": 0,
+      "explanation": "From … through: **から〜にかけて**.",
+      "notes": [
+        "",
+        "について = 'about'.",
+        "までに = 'by (a deadline)'.",
+        "にとって = 'for (someone)'."
+      ],
+      "translation": "It will rain from the evening into the night."
+    },
+    {
+      "point": "tsuideni",
+      "prompt": "{買|か}い{物|もの}の（　）、{本屋|ほんや}に{寄|よ}った。",
+      "options": [
+        "ついに",
+        "ついて",
+        "ついでに",
+        "つい"
+      ],
+      "answer": 2,
+      "explanation": "While (I was out anyway): **ついでに**.",
+      "notes": [
+        "ついに = 'finally'.",
+        "ついて = 'about'.",
+        "",
+        "つい = 'unintentionally'."
+      ],
+      "translation": "While I was out shopping, I dropped by the bookshop."
+    },
+    {
+      "point": "soumonai",
+      "prompt": "What does 「{間|ま}に{合|あ}いそうもない」 mean?",
+      "options": [
+        "We'll definitely make it.",
+        "We almost made it.",
+        "I heard we'll make it.",
+        "It doesn't look like we'll make it."
+      ],
+      "answer": 3,
+      "explanation": "そうもない = very **unlikely**.",
+      "notes": [
+        "That would be 必ず間に合う.",
+        "That would be もう少しで間に合った.",
+        "That would be 間に合うそうだ.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "bayokatta",
+      "prompt": "あんなことを{言|い}わなけれ（　）よかった。",
+      "options": [
+        "ば",
+        "と",
+        "て",
+        "たら"
+      ],
+      "answer": 0,
+      "explanation": "I shouldn't have: **なければよかった**.",
+      "notes": [
+        "",
+        "言わなけれと isn't a form.",
+        "言わなけれて isn't a form.",
+        "言わなけれたら isn't a form."
+      ],
+      "translation": "I shouldn't have said something like that."
+    },
+    {
+      "point": "ohajime",
+      "prompt": "{社長|しゃちょう}をはじめ（　）、{社員|しゃいん}{全員|ぜんいん}が{参加|さんか}した。",
+      "options": [
+        "にして",
+        "とした",
+        "として",
+        "にした"
+      ],
+      "answer": 2,
+      "explanation": "**をはじめとして** = starting with.",
+      "notes": [
+        "にして isn't the pattern.",
+        "とした can't connect here.",
+        "",
+        "にした isn't the pattern."
+      ],
+      "translation": "Everyone in the company took part, starting with the president."
+    },
+    {
+      "point": "ochuushinni",
+      "prompt": "このアニメは{若者|わかもの}を（　）{人気|にんき}がある。",
+      "options": [
+        "{中間|ちゅうかん}に",
+        "{中央|ちゅうおう}に",
+        "{中身|なかみ}に",
+        "{中心|ちゅうしん}に"
+      ],
+      "answer": 3,
+      "explanation": "Mainly among: **を中心に**.",
+      "notes": [
+        "中間 = 'between'.",
+        "中央 = the middle (place).",
+        "中身 = 'contents'.",
+        ""
+      ],
+      "translation": "This anime is popular mainly among young people."
+    },
+    {
+      "point": "nikakete",
+      "prompt": "{関東|かんとう}から{東北|とうほく}（　）、{大雨|おおあめ}が{降|ふ}った。",
+      "options": [
+        "までに",
+        "について",
+        "にかけて",
+        "にとって"
+      ],
+      "answer": 2,
+      "explanation": "Over an area: **から〜にかけて**.",
+      "notes": [
+        "までに = 'by (deadline)'.",
+        "について = 'about'.",
+        "",
+        "にとって = 'for'."
+      ],
+      "translation": "Heavy rain fell from Kanto through Tohoku."
+    }
+  ]
+}

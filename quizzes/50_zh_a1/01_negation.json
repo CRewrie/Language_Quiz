@@ -1,0 +1,254 @@
+{
+  "id": "zh-a1-negation",
+  "category": "Mandarin A1",
+  "language": "zh",
+  "title": "Negation: 不 vs 没(有), 不要",
+  "description": "Which negative goes where: 不 for habits, plans and adjectives; 没(有) for the past and for 有; 不要 for 'don't!'.",
+  "level": "A1",
+  "points": [
+    {
+      "id": "bu",
+      "title": "不 + verb / adjective",
+      "summary": "不 (bù) negates the present, habits, future plans, wishes and adjectives. Before a 4th tone it becomes bú.",
+      "body": "- Habits / general facts: 我**不**喝咖啡 (I don't drink coffee).\n- Plans: 明天我**不**去 (I'm not going tomorrow).\n- Adjectives: 不贵, 不冷.\n- 是 and 在 are negated with 不: 不是, 不在.\n- **Never** 不有 — 有 only takes 没.",
+      "examples": [
+        [
+          "{我|wǒ}{不|bù}{喝|hē}{咖啡|kāfēi}。",
+          "I don't drink coffee."
+        ],
+        [
+          "{这|zhè}{件|jiàn}{衣服|yīfu}{不|bú}{贵|guì}。",
+          "This piece of clothing isn't expensive."
+        ]
+      ]
+    },
+    {
+      "id": "mei",
+      "title": "没(有) + verb: didn't / haven't",
+      "summary": "没 / 没有 (méi / méiyǒu) negates something that happened (or hasn't happened yet). The verb takes no 了.",
+      "body": "- 昨天我**没**去 (I didn't go yesterday).\n- 我还**没(有)**吃饭 (I haven't eaten yet).\n- After 没, drop 了: ~~我没去了~~ → 我没去.\n\nTip: Was it an event in the past? → 没. A habit or a decision? → 不.",
+      "examples": [
+        [
+          "{昨天|zuótiān}{我|wǒ}{没|méi}{去|qù}{超市|chāoshì}。",
+          "I didn't go to the supermarket yesterday."
+        ]
+      ]
+    },
+    {
+      "id": "meiyou",
+      "title": "没有: don't have / there isn't",
+      "summary": "有 (have / there is) is always negated with 没: 没有. 不有 doesn't exist.",
+      "body": "- 我**没有**车 (I don't have a car).\n- 房间里**没有**人 (There's nobody in the room).",
+      "examples": [
+        [
+          "{我|wǒ}{没有|méiyǒu}{车|chē}。",
+          "I don't have a car."
+        ]
+      ]
+    },
+    {
+      "id": "buyao",
+      "title": "不要 + verb: don't …!",
+      "summary": "不要 (búyào) + verb = a negative command or request ('don't …').",
+      "body": "- **不要**说话! (Don't talk!)\n- 你**不要**担心 (Don't worry).\n\n别 (bié) means the same and is a bit more colloquial.",
+      "examples": [
+        [
+          "{不要|búyào}{在|zài}{这儿|zhèr}{抽烟|chōuyān}。",
+          "Don't smoke here."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "bu",
+      "prompt": "{我|wǒ}{明天|míngtiān}（　）{去|qù}{学校|xuéxiào}。",
+      "options": [
+        "{不|bù}",
+        "{没|méi}",
+        "{别|bié}",
+        "{没有|méiyǒu}"
+      ],
+      "answer": 0,
+      "explanation": "A future plan is negated with **不**.",
+      "notes": [
+        "",
+        "没 is for the past — 明天 is a plan.",
+        "别 is a command ('don't') — not a statement about yourself.",
+        "没有 is for the past or for 有."
+      ],
+      "translation": "I'm not going to school tomorrow."
+    },
+    {
+      "point": "bu",
+      "prompt": "{这|zhè}{件|jiàn}{衣服|yīfu}（　）{贵|guì}。",
+      "options": [
+        "{没|méi}",
+        "{没有|méiyǒu}",
+        "{不要|búyào}",
+        "{不|bú}"
+      ],
+      "answer": 3,
+      "explanation": "Adjectives take **不**.",
+      "notes": [
+        "Adjectives are negated with 不, not 没.",
+        "没有 + adjective would mean 'hasn't become …'.",
+        "不要 = 'don't (do)!'.",
+        ""
+      ],
+      "translation": "This piece of clothing isn't expensive."
+    },
+    {
+      "point": "bu",
+      "prompt": "{他|tā}（　）{是|shì}{老师|lǎoshī}，{他|tā}{是|shì}{医生|yīshēng}。",
+      "options": [
+        "{不|bú}",
+        "{别|bié}",
+        "{没有|méiyǒu}",
+        "{没|méi}"
+      ],
+      "answer": 0,
+      "explanation": "是 → **不是**.",
+      "notes": [
+        "",
+        "别 is a command.",
+        "是 is never negated with 没有.",
+        "是 is never negated with 没."
+      ],
+      "translation": "He isn't a teacher, he's a doctor."
+    },
+    {
+      "point": "mei",
+      "prompt": "{昨天|zuótiān}{我|wǒ}（　）{去|qù}{超市|chāoshì}。",
+      "options": [
+        "{别|bié}",
+        "{没|méi}",
+        "{不|bù}",
+        "{不要|búyào}"
+      ],
+      "answer": 1,
+      "explanation": "A past event is negated with **没**.",
+      "notes": [
+        "别 is a command.",
+        "",
+        "不去 = 'won't go / don't go' — but 昨天 is the past.",
+        "不要 is a command."
+      ],
+      "translation": "I didn't go to the supermarket yesterday."
+    },
+    {
+      "point": "mei",
+      "prompt": "{我|wǒ}{还|hái}（　）{吃|chī}{早饭|zǎofàn}{呢|ne}。",
+      "options": [
+        "{别|bié}",
+        "{没|méi}",
+        "{不|bù}",
+        "{不是|búshì}"
+      ],
+      "answer": 1,
+      "explanation": "Haven't … yet: **还没**.",
+      "notes": [
+        "别 is a command.",
+        "",
+        "还不吃 = 'still not going to eat' — not 'haven't eaten yet'.",
+        "不是 negates nouns."
+      ],
+      "translation": "I haven't had breakfast yet."
+    },
+    {
+      "point": "mei",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{昨天|zuótiān}{没|méi}{看|kàn}{电视|diànshì}。",
+        "{我|wǒ}{昨天|zuótiān}{没|méi}{看|kàn}{电视|diànshì}{了|le}。",
+        "{我|wǒ}{昨天|zuótiān}{不|bú}{看|kàn}{了|le}{电视|diànshì}。",
+        "{我|wǒ}{没|méi}{昨天|zuótiān}{看|kàn}{电视|diànshì}。"
+      ],
+      "answer": 0,
+      "explanation": "没 + verb, **no 了**.",
+      "notes": [
+        "",
+        "No 了 after a verb negated with 没.",
+        "A finished past event takes 没, not 不 + 了.",
+        "Time words come before 没."
+      ],
+      "translation": "I didn't watch TV yesterday."
+    },
+    {
+      "point": "meiyou",
+      "prompt": "{我|wǒ}（　）{哥哥|gēge}，{只有|zhǐyǒu}{一个|yí ge}{姐姐|jiějie}。",
+      "options": [
+        "{不是|bú shì}",
+        "{没有|méiyǒu}",
+        "{没是|méi shì}",
+        "{不有|bù yǒu}"
+      ],
+      "answer": 1,
+      "explanation": "有 → **没有**.",
+      "notes": [
+        "不是哥哥 = 'am not an older brother'.",
+        "",
+        "没是 doesn't exist.",
+        "不有 doesn't exist."
+      ],
+      "translation": "I don't have an older brother, only an older sister."
+    },
+    {
+      "point": "meiyou",
+      "prompt": "{教室|jiàoshì}{里|lǐ}（　）{人|rén}。",
+      "options": [
+        "{不有|bù yǒu}",
+        "{没有|méiyǒu}",
+        "{不在|bú zài}",
+        "{没在|méi zài}"
+      ],
+      "answer": 1,
+      "explanation": "There isn't: **没有**.",
+      "notes": [
+        "不有 doesn't exist.",
+        "",
+        "Place + 不在 + person doesn't work — 在 needs the person first.",
+        "没在 doesn't fit here."
+      ],
+      "translation": "There's nobody in the classroom."
+    },
+    {
+      "point": "buyao",
+      "prompt": "（　）{在|zài}{这儿|zhèr}{抽烟|chōuyān}！",
+      "options": [
+        "{不要|búyào}",
+        "{没要|méi yào}",
+        "{没有|méiyǒu}",
+        "{不是|búshì}"
+      ],
+      "answer": 0,
+      "explanation": "Negative command: **不要**.",
+      "notes": [
+        "",
+        "没要 = 'didn't want'.",
+        "没有 = 'didn't' — not a command.",
+        "不是 negates nouns."
+      ],
+      "translation": "Don't smoke here!"
+    },
+    {
+      "point": "buyao",
+      "prompt": "{你|nǐ}（　）{担心|dānxīn}，{我|wǒ}{没事|méishì}。",
+      "options": [
+        "{不要|búyào}",
+        "{没|méi}",
+        "{不是|búshì}",
+        "{不有|bù yǒu}"
+      ],
+      "answer": 0,
+      "explanation": "Don't …: **不要**.",
+      "notes": [
+        "",
+        "你没担心 = 'you didn't worry'.",
+        "不是 negates nouns.",
+        "不有 doesn't exist."
+      ],
+      "translation": "Don't worry, I'm fine."
+    }
+  ]
+}

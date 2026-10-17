@@ -1,0 +1,311 @@
+{
+  "id": "n2-feelings",
+  "category": "JLPT N2",
+  "title": "Extremely & Naturally: てならない, てしょうがない, てたまらない, て当然だ, のも当然だ, のももっともだ",
+  "description": "Can't stop feeling, unbearably, it's only natural, and no wonder.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "tenaranai",
+      "title": "〜てならない: can't help feeling (spontaneous)",
+      "summary": "Feeling verb/adjective て-form + ならない = a feeling wells up uncontrollably. Formal; for emotions/senses (気になる, 思われる, 懐かしい).",
+      "body": "- 試験の結果が気になって**ならない**.\n- 故郷が懐かしく思われて**ならない**.",
+      "examples": [
+        [
+          "{試験|しけん}の{結果|けっか}が{気|き}になってならない。",
+          "I can't stop worrying about the exam results."
+        ]
+      ]
+    },
+    {
+      "id": "teshouganai",
+      "title": "〜てしょうがない: unbearably (casual)",
+      "summary": "て-form + しょうがない = extremely, can't stand it (conversational).",
+      "body": "- 暑くて**しょうがない**.\n- 眠くて**しょうがない**.",
+      "examples": [
+        [
+          "{暑|あつ}くてしょうがない。",
+          "It's unbearably hot."
+        ]
+      ]
+    },
+    {
+      "id": "tetamaranai",
+      "title": "〜てたまらない: can't bear, desperately",
+      "summary": "て-form + たまらない = an intense feeling/sensation (want, pain, joy).",
+      "body": "- 会いたくて**たまらない**.\n- 歯が痛くて**たまらない**.",
+      "examples": [
+        [
+          "{会|あ}いたくてたまらない。",
+          "I'm dying to see you."
+        ]
+      ]
+    },
+    {
+      "id": "tetouzen",
+      "title": "〜て当然だ: it's natural that",
+      "summary": "て-form + 当然だ = it's only natural / to be expected.",
+      "body": "- あんなことを言われたら、怒って**当然だ**.\n- 約束を破ったのだから、謝って**当然だ**.",
+      "examples": [
+        [
+          "あんなことを{言|い}われたら、{怒|おこ}って{当然|とうぜん}だ。",
+          "After being told that, it's natural to get angry."
+        ]
+      ]
+    },
+    {
+      "id": "nomotouzen",
+      "title": "〜のも当然だ: no wonder, it's natural that",
+      "summary": "Plain form + のも当然だ = it's no surprise that (given the circumstances).",
+      "body": "- 毎日遅くまで働いていたら、病気になる**のも当然だ**.",
+      "examples": [
+        [
+          "{毎日|まいにち}{遅|おそ}くまで{働|はたら}いていたら、{病気|びょうき}になるのも{当然|とうぜん}だ。",
+          "If you work late every day, it's no wonder you get sick."
+        ]
+      ]
+    },
+    {
+      "id": "nomomottomo",
+      "title": "〜のももっともだ: it's understandable that",
+      "summary": "Plain form + のももっともだ = it's reasonable / understandable (sympathy).",
+      "body": "- あんなことをされたら、彼女が怒る**のももっともだ**.",
+      "examples": [
+        [
+          "あんなことをされたら、{彼女|かのじょ}が{怒|おこ}るのももっともだ。",
+          "After what was done to her, it's understandable she's angry."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tenaranai",
+      "prompt": "{試験|しけん}の{結果|けっか}が{気|き}になって（　）。",
+      "options": [
+        "ならず",
+        "なれない",
+        "ならない",
+        "ならなく"
+      ],
+      "answer": 2,
+      "explanation": "Can't help feeling: **てならない**.",
+      "notes": [
+        "ならず can't end the sentence here.",
+        "なれない = 'can't become'.",
+        "",
+        "ならなく can't end the sentence."
+      ],
+      "translation": "I can't stop worrying about the exam results."
+    },
+    {
+      "point": "tenaranai",
+      "prompt": "{故郷|ふるさと}が{懐|なつ}かしく{思|おも}われて（　）。",
+      "options": [
+        "なれない",
+        "ならない",
+        "ならなく",
+        "いけない"
+      ],
+      "answer": 1,
+      "explanation": "Spontaneous feeling: **てならない**.",
+      "notes": [
+        "なれない = 'can't become'.",
+        "",
+        "ならなく can't end the sentence.",
+        "思われていけない isn't the pattern."
+      ],
+      "translation": "I can't help feeling nostalgic for my hometown."
+    },
+    {
+      "point": "teshouganai",
+      "prompt": "{今日|きょう}は{暑|あつ}くて（　）。",
+      "options": [
+        "しょがない",
+        "しょうなく",
+        "しょうがない",
+        "しょうがある"
+      ],
+      "answer": 2,
+      "explanation": "Unbearably: **てしょうがない**.",
+      "notes": [
+        "It's しょう (long vowel): しょうがない.",
+        "しょうなく isn't a form.",
+        "",
+        "The pattern is negative."
+      ],
+      "translation": "It's unbearably hot today."
+    },
+    {
+      "point": "teshouganai",
+      "prompt": "{昨日|きのう}{寝|ね}ていないので、{眠|ねむ}くて（　）ない。",
+      "options": [
+        "しょうを",
+        "しようと",
+        "しょうに",
+        "しょうが"
+      ],
+      "answer": 3,
+      "explanation": "**しょうがない**.",
+      "notes": [
+        "しょうをない isn't grammatical.",
+        "しようとない isn't grammatical.",
+        "しょうにない isn't grammatical.",
+        ""
+      ],
+      "translation": "I didn't sleep yesterday, so I'm terribly sleepy."
+    },
+    {
+      "point": "tetamaranai",
+      "prompt": "{家族|かぞく}に{会|あ}いたくて（　）。",
+      "options": [
+        "たまる",
+        "たまない",
+        "たまらない",
+        "たまらなく"
+      ],
+      "answer": 2,
+      "explanation": "Desperately: **てたまらない**.",
+      "notes": [
+        "The pattern is negative.",
+        "たまない isn't a form.",
+        "",
+        "たまらなく can't end the sentence."
+      ],
+      "translation": "I'm dying to see my family."
+    },
+    {
+      "point": "tetamaranai",
+      "prompt": "{歯|は}が{痛|いた}くて（　）。",
+      "options": [
+        "たまない",
+        "たまらない",
+        "たまれない",
+        "たまらず"
+      ],
+      "answer": 1,
+      "explanation": "Unbearable pain: **てたまらない**.",
+      "notes": [
+        "たまない isn't a form.",
+        "",
+        "たまれない isn't a form.",
+        "たまらず can't end the sentence."
+      ],
+      "translation": "My tooth hurts unbearably."
+    },
+    {
+      "point": "tetouzen",
+      "prompt": "あんなことを{言|い}われたら、{怒|おこ}って（　）。",
+      "options": [
+        "{当然|とうぜん}な",
+        "{当然|とうぜん}の",
+        "{当然|とうぜん}に",
+        "{当然|とうぜん}だ"
+      ],
+      "answer": 3,
+      "explanation": "Natural: **て当然だ**.",
+      "notes": [
+        "当然な must modify a noun.",
+        "当然の must modify a noun.",
+        "当然に can't end the sentence.",
+        ""
+      ],
+      "translation": "After being told that, it's natural to get angry."
+    },
+    {
+      "point": "tetouzen",
+      "prompt": "{約束|やくそく}を{破|やぶ}ったのだから、{謝|あやま}って（　）だ。",
+      "options": [
+        "{当然|とうぜん}の",
+        "{当然|とうぜん}な",
+        "{当然|とうぜん}",
+        "{当然|とうぜん}に"
+      ],
+      "answer": 2,
+      "explanation": "**て当然だ**.",
+      "notes": [
+        "当然のだ isn't grammatical.",
+        "当然なだ isn't grammatical.",
+        "",
+        "当然にだ isn't grammatical."
+      ],
+      "translation": "You broke your promise, so naturally you should apologise."
+    },
+    {
+      "point": "nomotouzen",
+      "prompt": "{毎日|まいにち}{遅|おそ}くまで{働|はたら}いていたら、{病気|びょうき}になる（　）{当然|とうぜん}だ。",
+      "options": [
+        "のを",
+        "ので",
+        "のに",
+        "のも"
+      ],
+      "answer": 3,
+      "explanation": "No wonder: **のも当然だ**.",
+      "notes": [
+        "のを当然だ isn't grammatical.",
+        "ので = 'because'.",
+        "のに = 'even though'.",
+        ""
+      ],
+      "translation": "If you work late every day, it's no wonder you get sick."
+    },
+    {
+      "point": "nomotouzen",
+      "prompt": "あれだけ{練習|れんしゅう}したのだから、{優勝|ゆうしょう}した（　）。",
+      "options": [
+        "のを{当然|とうぜん}だ",
+        "のも{当然|とうぜん}だ",
+        "のも{当然|とうぜん}に",
+        "のに{当然|とうぜん}だ"
+      ],
+      "answer": 1,
+      "explanation": "**のも当然だ**.",
+      "notes": [
+        "The particle is も.",
+        "",
+        "当然に can't end the sentence.",
+        "のに = 'even though'."
+      ],
+      "translation": "After all that practice, it's no surprise they won."
+    },
+    {
+      "point": "nomomottomo",
+      "prompt": "あんなことをされたら、{彼女|かのじょ}が{怒|おこ}る（　）もっともだ。",
+      "options": [
+        "のも",
+        "のに",
+        "もの",
+        "のを"
+      ],
+      "answer": 0,
+      "explanation": "Understandable: **のももっともだ**.",
+      "notes": [
+        "",
+        "のに = 'even though'.",
+        "ものもっともだ isn't grammatical.",
+        "のをもっともだ isn't grammatical."
+      ],
+      "translation": "After what was done to her, it's understandable she's angry."
+    },
+    {
+      "point": "nomomottomo",
+      "prompt": "What does 「{彼|かれ}が{怒|おこ}るのももっともだ」 mean?",
+      "options": [
+        "He shouldn't be angry.",
+        "It's understandable that he's angry.",
+        "He's the angriest.",
+        "He's angry more and more."
+      ],
+      "answer": 1,
+      "explanation": "のももっともだ = **understandable / reasonable**.",
+      "notes": [
+        "That would be 怒るべきではない.",
+        "",
+        "もっとも here isn't 'most'.",
+        "That would be ますます怒る."
+      ],
+      "translation": ""
+    }
+  ]
+}

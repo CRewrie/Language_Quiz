@@ -1,0 +1,231 @@
+{
+  "id": "zh-b1-cai-jiu",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Late or Early: 才 vs 就, 才 + small number, 都…了, 一…就…",
+  "description": "才 = later / less than expected (no 了), 就 = earlier / sooner (with 了), 'only five', 'already twelve o'clock', and 'as soon as'.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "cai_jiu",
+      "title": "Time + 才 vs 就",
+      "summary": "Time + 才 + verb = not until (late, more than expected) — no 了. Time + 就 + verb + 了 = as early as (sooner than expected).",
+      "body": "- 他十点**才**起床 (He didn't get up until ten).\n- 他六点**就**起床**了** (He got up as early as six).",
+      "examples": [
+        [
+          "{我|wǒ}{八|bā}{点|diǎn}{才|cái}{到|dào}。",
+          "I didn't get here until eight."
+        ]
+      ]
+    },
+    {
+      "id": "cai_num",
+      "title": "才 + number: only",
+      "summary": "才 + number = only (fewer / younger / cheaper than you'd think).",
+      "body": "- 他**才**十八岁.\n- 这个班**才**五个学生.",
+      "examples": [
+        [
+          "{他|tā}{才|cái}{十八|shíbā}{岁|suì}。",
+          "He's only eighteen."
+        ]
+      ]
+    },
+    {
+      "id": "doule",
+      "title": "都 + time + 了: already",
+      "summary": "都 … 了 = already (and that's a lot / late).",
+      "body": "- **都**十二点**了**，你怎么还不睡?",
+      "examples": [
+        [
+          "{都|dōu}{十二|shí'èr}{点|diǎn}{了|le}，{你|nǐ}{怎么|zěnme}{还|hái}{不|bú}{睡|shuì}？",
+          "It's already midnight — how come you're still up?"
+        ]
+      ]
+    },
+    {
+      "id": "yijiu",
+      "title": "一 A 就 B: as soon as",
+      "summary": "Subject + 一 + A，就 + B = as soon as A, B (or: every time A, B).",
+      "body": "- 我**一**到家**就**给你打电话.\n- 他**一**喝酒**就**脸红.",
+      "examples": [
+        [
+          "{我|wǒ}{一|yí}{到|dào}{家|jiā}{就|jiù}{给|gěi}{你|nǐ}{打|dǎ}{电话|diànhuà}。",
+          "I'll call you as soon as I get home."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "cai_jiu",
+      "prompt": "{他|tā}{十|shí}{点|diǎn}（　）{起床|qǐchuáng}，{太|tài}{晚|wǎn}{了|le}。",
+      "options": [
+        "{才|cái}",
+        "{都|dōu}",
+        "{还|hái}",
+        "{就|jiù}"
+      ],
+      "answer": 0,
+      "explanation": "Not until (late): **才**.",
+      "notes": [
+        "",
+        "都 needs 了 and a plural sense.",
+        "还起床 isn't grammatical.",
+        "就 = early — clashes with 太晚了."
+      ],
+      "translation": "He didn't get up until ten — far too late."
+    },
+    {
+      "point": "cai_jiu",
+      "prompt": "{他|tā}{六|liù}{点|diǎn}（　）{起床|qǐchuáng}{了|le}，{比|bǐ}{大家|dàjiā}{都|dōu}{早|zǎo}。",
+      "options": [
+        "{还|hái}",
+        "{再|zài}",
+        "{就|jiù}",
+        "{才|cái}"
+      ],
+      "answer": 2,
+      "explanation": "As early as: **就…了**.",
+      "notes": [
+        "还起床了 isn't grammatical.",
+        "再 = 'again (later)'.",
+        "",
+        "才 doesn't take 了 — and it means late."
+      ],
+      "translation": "He got up at six — earlier than everyone."
+    },
+    {
+      "point": "cai_jiu",
+      "prompt": "What does 「{我|wǒ}{八|bā}{点|diǎn}{才|cái}{到|dào}。」 mean?",
+      "options": [
+        "I'llarriveateight.",
+        "Ididn'tarriveuntileight(late).",
+        "Ionlystayedeightminutes.",
+        "Iarrivedasearlyaseight."
+      ],
+      "answer": 1,
+      "explanation": "Time + 才 = **not until**.",
+      "notes": [
+        "That would be 会 / 要.",
+        "",
+        "That would need 分钟.",
+        "That's 八点就到了."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "cai_num",
+      "prompt": "{他|tā}（　）{十八|shíbā}{岁|suì}，{就|jiù}{上|shàng}{大学|dàxué}{了|le}。",
+      "options": [
+        "{都|dōu}",
+        "{还|hái}",
+        "{才|cái}",
+        "{再|zài}"
+      ],
+      "answer": 2,
+      "explanation": "Only: **才** + number.",
+      "notes": [
+        "都十八岁 would need 了 ('already eighteen').",
+        "还十八岁 isn't natural.",
+        "",
+        "再 = 'again'."
+      ],
+      "translation": "He was only eighteen when he started university."
+    },
+    {
+      "point": "cai_num",
+      "prompt": "{这个|zhège}{班|bān}（　）{五|wǔ}{个|ge}{学生|xuésheng}，{老师|lǎoshī}{很|hěn}{轻松|qīngsōng}。",
+      "options": [
+        "{还|hái}",
+        "{才|cái}",
+        "{又|yòu}",
+        "{都|dōu}"
+      ],
+      "answer": 1,
+      "explanation": "Only five: **才**.",
+      "notes": [
+        "还五个 = 'still five' — needs 有.",
+        "",
+        "又 = 'again'.",
+        "都五个 would need 了."
+      ],
+      "translation": "This class only has five students — easy for the teacher."
+    },
+    {
+      "point": "doule",
+      "prompt": "（　）{十二|shí'èr}{点|diǎn}{了|le}，{你|nǐ}{怎么|zěnme}{还|hái}{不|bú}{睡|shuì}？",
+      "options": [
+        "{就|jiù}",
+        "{又|yòu}",
+        "{都|dōu}",
+        "{才|cái}"
+      ],
+      "answer": 2,
+      "explanation": "Already (late): **都…了**.",
+      "notes": [
+        "就十二点了 = 'it'll soon be twelve' — doesn't fit the reproach.",
+        "又 = 'again'.",
+        "",
+        "才…了 doesn't go together."
+      ],
+      "translation": "It's already midnight — how come you're still up?"
+    },
+    {
+      "point": "doule",
+      "prompt": "（　）{三|sān}{个|ge}{月|yuè}{了|le}，{他|tā}{还|hái}{没|méi}{给|gěi}{我|wǒ}{回|huí}{信|xìn}。",
+      "options": [
+        "{都|dōu}",
+        "{才|cái}",
+        "{就|jiù}",
+        "{刚|gāng}"
+      ],
+      "answer": 0,
+      "explanation": "**都…了**.",
+      "notes": [
+        "",
+        "才…了 doesn't go together.",
+        "就三个月了 doesn't fit 还没.",
+        "刚三个月了 isn't grammatical."
+      ],
+      "translation": "It's been three months already, and he still hasn't written back."
+    },
+    {
+      "point": "yijiu",
+      "prompt": "{我|wǒ}{一|yí}{到|dào}{家|jiā}（　）{给|gěi}{你|nǐ}{打|dǎ}{电话|diànhuà}。",
+      "options": [
+        "{都|dōu}",
+        "{也|yě}",
+        "{才|cái}",
+        "{就|jiù}"
+      ],
+      "answer": 3,
+      "explanation": "As soon as: **一…就**.",
+      "notes": [
+        "The pair is 一…就.",
+        "The pair is 一…就.",
+        "The pair is 一…就.",
+        ""
+      ],
+      "translation": "I'll call you as soon as I get home."
+    },
+    {
+      "point": "yijiu",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{喝|hē}{酒|jiǔ}{一|yí}{就|jiù}{脸|liǎn}{红|hóng}。",
+        "{他|tā}{一|yì}{喝|hē}{酒|jiǔ}{就|jiù}{脸|liǎn}{红|hóng}。",
+        "{一|yì}{他|tā}{喝|hē}{酒|jiǔ}{就|jiù}{脸|liǎn}{红|hóng}。",
+        "{他|tā}{一|yì}{喝|hē}{酒|jiǔ}{脸|liǎn}{红|hóng}{就|jiù}。"
+      ],
+      "answer": 1,
+      "explanation": "Subject + **一** + A + **就** + B.",
+      "notes": [
+        "一 goes before the first verb.",
+        "",
+        "The subject comes before 一.",
+        "就 goes before the second event."
+      ],
+      "translation": "His face goes red as soon as he drinks."
+    }
+  ]
+}

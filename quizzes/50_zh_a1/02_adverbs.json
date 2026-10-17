@@ -1,0 +1,254 @@
+{
+  "id": "zh-a1-adverbs",
+  "category": "Mandarin A1",
+  "language": "zh",
+  "title": "Adverb Position: 也, 都, 很, 太…了",
+  "description": "Chinese adverbs sit after the subject and before the verb or adjective. Plus 也都, 不都 vs 都不, and why 很 is (almost) always there.",
+  "level": "A1",
+  "points": [
+    {
+      "id": "ye",
+      "title": "也: also, too",
+      "summary": "也 (yě) goes **after the subject, before the verb** — never at the start or end of the sentence.",
+      "body": "- 我**也**是学生 (I'm a student too).\n- 他**也**喜欢喝茶.\n- With 都: **也都** (也 comes first).\n- Not ~~也我~~ or ~~…学生也~~.",
+      "examples": [
+        [
+          "{我|wǒ}{也|yě}{是|shì}{学生|xuésheng}。",
+          "I'm a student too."
+        ]
+      ]
+    },
+    {
+      "id": "dou",
+      "title": "都: all, both",
+      "summary": "都 (dōu) sums up the subject before it and goes **before the verb**. 都不 = none; 不都 = not all.",
+      "body": "- 他们**都**喜欢吃饺子 (They all like dumplings).\n- 我们**都不**是老师 (None of us is a teacher).\n- 我们**不都**是老师 (Not all of us are teachers).",
+      "examples": [
+        [
+          "{他们|tāmen}{都|dōu}{喜欢|xǐhuan}{吃|chī}{饺子|jiǎozi}。",
+          "They all like eating dumplings."
+        ]
+      ]
+    },
+    {
+      "id": "hen",
+      "title": "Noun + 很 + adjective",
+      "summary": "Adjectives don't take 是. A plain statement uses 很 (hěn), which here barely means 'very'.",
+      "body": "- 她**很**漂亮 (She's pretty).\n- ~~她是漂亮~~ ✗\n- Without 很 it sounds like a comparison: 今天冷 (today's cold — [unlike yesterday]).",
+      "examples": [
+        [
+          "{今天|jīntiān}{很|hěn}{冷|lěng}。",
+          "It's cold today."
+        ]
+      ]
+    },
+    {
+      "id": "tai",
+      "title": "太 + adjective + 了: too …",
+      "summary": "太 (tài) + adj + 了 = too … (excessive), or exclaiming 'so …!'. The 了 belongs to the pattern.",
+      "body": "- 这个手机**太**贵**了** (This phone is too expensive).\n- **太**好**了**! (Great!)\n- Negative: 不太 + adj = not very (no 了): 不太好.",
+      "examples": [
+        [
+          "{太|tài}{好|hǎo}{了|le}！",
+          "Great!"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "ye",
+      "prompt": "Where does **{也|yě}** go?\n［A］{我|wǒ}［B］{喜欢|xǐhuan}［C］{喝|hē}［D］{茶|chá}。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "Subject + **也** + verb: 我也喜欢喝茶。",
+      "notes": [
+        "也 can't come before the subject.",
+        "",
+        "也 must come before the verb 喜欢, not inside the verb phrase.",
+        "也 can't split 喝 and 茶."
+      ],
+      "translation": "I like drinking tea too.",
+      "fixed_order": true
+    },
+    {
+      "point": "ye",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{是|shì}{也|yě}{学生|xuésheng}。",
+        "{我|wǒ}{是|shì}{学生|xuésheng}{也|yě}。",
+        "{也|yě}{我|wǒ}{是|shì}{学生|xuésheng}。",
+        "{我|wǒ}{也|yě}{是|shì}{学生|xuésheng}。"
+      ],
+      "answer": 3,
+      "explanation": "**也** goes before the verb.",
+      "notes": [
+        "也 goes before 是, not after.",
+        "也 can't end the sentence (that's English 'too').",
+        "也 can't start the sentence.",
+        ""
+      ],
+      "translation": "I'm a student too."
+    },
+    {
+      "point": "ye",
+      "prompt": "Where does **{也|yě}** go?\n{我们|wǒmen}［A］{都|dōu}［B］{是|shì}［C］{中国人|Zhōngguórén}［D］。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "Both adverbs: **也都**.",
+      "notes": [
+        "",
+        "The order is 也都, not 都也.",
+        "也 must come before 是.",
+        "也 can't end the sentence."
+      ],
+      "translation": "We're all Chinese too.",
+      "fixed_order": true
+    },
+    {
+      "point": "dou",
+      "prompt": "Where does **{都|dōu}** go?\n［A］{他们|tāmen}［B］{喜欢|xǐhuan}［C］{吃|chī}［D］{饺子|jiǎozi}。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "Subject + **都** + verb.",
+      "notes": [
+        "都 refers back to the subject, so it comes after it.",
+        "",
+        "都 must come before the verb 喜欢.",
+        "都 can't split 吃 and 饺子."
+      ],
+      "translation": "They all like eating dumplings.",
+      "fixed_order": true
+    },
+    {
+      "point": "dou",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{都|dōu}{我们|wǒmen}{不是|búshì}{老师|lǎoshī}。",
+        "{我们|wǒmen}{是|shì}{都|dōu}{老师|lǎoshī}。",
+        "{我们|wǒmen}{都|dōu}{不是|búshì}{老师|lǎoshī}。",
+        "{我们|wǒmen}{不是|búshì}{老师|lǎoshī}{都|dōu}。"
+      ],
+      "answer": 2,
+      "explanation": "Subject + **都** + verb.",
+      "notes": [
+        "都 can't come before the subject.",
+        "都 goes before the verb 是.",
+        "",
+        "都 can't end the sentence."
+      ],
+      "translation": "None of us are teachers."
+    },
+    {
+      "point": "dou",
+      "prompt": "Which sentence means 'None of them are students'?",
+      "options": [
+        "{他们|tāmen}{是|shì}{不|bù}{都|dōu}{学生|xuésheng}。",
+        "{他们|tāmen}{不|bù}{都|dōu}{是|shì}{学生|xuésheng}。",
+        "{他们|tāmen}{都|dōu}{不是|búshì}{学生|xuésheng}。",
+        "{他们|tāmen}{都|dōu}{是|shì}{学生|xuésheng}。"
+      ],
+      "answer": 2,
+      "explanation": "**都不** = none; 不都 = not all.",
+      "notes": [
+        "Not grammatical.",
+        "不都 = 'not all' (some are, some aren't).",
+        "",
+        "That's 'they are all students'."
+      ],
+      "translation": "None of them are students."
+    },
+    {
+      "point": "hen",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{她|tā}{很|hěn}{漂亮|piàoliang}。",
+        "{她|tā}{漂亮|piàoliang}{很|hěn}。",
+        "{她|tā}{是|shì}{漂亮|piàoliang}。",
+        "{很|hěn}{她|tā}{漂亮|piàoliang}。"
+      ],
+      "answer": 0,
+      "explanation": "Noun + **很** + adjective.",
+      "notes": [
+        "",
+        "很 goes before the adjective.",
+        "Adjectives don't take 是.",
+        "很 goes after the subject."
+      ],
+      "translation": "She's pretty."
+    },
+    {
+      "point": "hen",
+      "prompt": "{今天|jīntiān}（　）{冷|lěng}。",
+      "options": [
+        "{是|shì}",
+        "{很|hěn}",
+        "{有|yǒu}",
+        "{在|zài}"
+      ],
+      "answer": 1,
+      "explanation": "Adjective predicate: **很冷**.",
+      "notes": [
+        "Adjectives don't take 是.",
+        "",
+        "有 + adjective isn't grammatical.",
+        "在 = 'be at'."
+      ],
+      "translation": "It's cold today."
+    },
+    {
+      "point": "tai",
+      "prompt": "{这个|zhège}{手机|shǒujī}{太|tài}{贵|guì}（　）！",
+      "options": [
+        "{吗|ma}",
+        "{的|de}",
+        "{呢|ne}",
+        "{了|le}"
+      ],
+      "answer": 3,
+      "explanation": "Too …: **太 + adj + 了**.",
+      "notes": [
+        "吗 makes a question — the sentence ends with ！.",
+        "太…的 isn't the pattern.",
+        "呢 isn't the pattern.",
+        ""
+      ],
+      "translation": "This phone is too expensive!"
+    },
+    {
+      "point": "tai",
+      "prompt": "Where does **{太|tài}** go?\n{这|zhè}{件|jiàn}{衣服|yīfu}［A］{大|dà}［B］{了|le}［C］，{我|wǒ}［D］{不能|bù néng}{穿|chuān}。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "**太** + adjective + 了.",
+      "notes": [
+        "",
+        "太 comes before the adjective, not after it.",
+        "太 can't come after 了.",
+        "太 doesn't fit before 不能 here."
+      ],
+      "translation": "This piece of clothing is too big, I can't wear it.",
+      "fixed_order": true
+    }
+  ]
+}

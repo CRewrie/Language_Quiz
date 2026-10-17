@@ -1,0 +1,381 @@
+{
+  "id": "zh-a2-quantities",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "Counting: measure words, 几, 每, 半, 万, money, 有的 / 一些, 什么都",
+  "description": "The common measure words, 'several' with 几, every (每), half (半), ten thousand (万), prices, 'some', and 'anything / everything'.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "mw",
+      "title": "Measure words",
+      "summary": "Number / 这 / 那 + measure word + noun. Common ones: 本 (books), 张 (flat things), 件 (clothes, matters), 杯 (cups of), 条 (long things: roads, trousers, fish), {只|zhī} (animals).",
+      "body": "- 两**件**衣服, 三**张**纸, 一**杯**咖啡, 一**条**裤子.",
+      "examples": [
+        [
+          "{我|wǒ}{买|mǎi}{了|le}{两|liǎng}{件|jiàn}{衣服|yīfu}。",
+          "I bought two pieces of clothing."
+        ]
+      ]
+    },
+    {
+      "id": "ji",
+      "title": "几 + measure word: several",
+      "summary": "In a statement, 几 + measure word = a few, several.",
+      "body": "- 我买了**几**本书.",
+      "examples": [
+        [
+          "{我|wǒ}{买|mǎi}{了|le}{几|jǐ}{本|běn}{书|shū}。",
+          "I bought a few books."
+        ]
+      ]
+    },
+    {
+      "id": "mei",
+      "title": "每 + measure word (+ 都): every",
+      "summary": "每 + (measure word) + noun, usually with 都 before the verb.",
+      "body": "- 我**每**天**都**跑步.",
+      "examples": [
+        [
+          "{我|wǒ}{每|měi}{天|tiān}{都|dōu}{跑步|pǎobù}。",
+          "I run every day."
+        ]
+      ]
+    },
+    {
+      "id": "ban",
+      "title": "半: half",
+      "summary": "半 + measure word = half a …; number + measure word + 半 = … and a half (一个半小时).",
+      "body": "- **半**个小时 (half an hour), 一个**半**小时 (an hour and a half).",
+      "examples": [
+        [
+          "{我|wǒ}{等|děng}{了|le}{一个|yí ge}{半|bàn}{小时|xiǎoshí}。",
+          "I waited an hour and a half."
+        ]
+      ]
+    },
+    {
+      "id": "wan",
+      "title": "万: ten thousand; money",
+      "summary": "Chinese counts in 万 (10,000): 五万 = 50,000. Money: 块 (spoken) / 元 (written) + 毛 (0.1). 三块五 = ¥3.50.",
+      "body": "- 一**万** = 10,000, 十**万** = 100,000.\n- 三**块**五(毛) = ¥3.50.",
+      "examples": [
+        [
+          "{这个|zhège}{手机|shǒujī}{三千|sānqiān}{五|wǔ}{百|bǎi}{块|kuài}。",
+          "This phone costs 3,500 yuan."
+        ]
+      ]
+    },
+    {
+      "id": "youde",
+      "title": "有的 vs 一些: some",
+      "summary": "有的 + noun = some (of a group), often contrasted: 有的…，有的…. 一些 + noun = some, a few (amount).",
+      "body": "- **有的**人喜欢茶，**有的**人喜欢咖啡.\n- 我想买**一些**水果.",
+      "examples": [
+        [
+          "{有的|yǒude}{人|rén}{喜欢|xǐhuan}{茶|chá}，{有的|yǒude}{人|rén}{喜欢|xǐhuan}{咖啡|kāfēi}。",
+          "Some people like tea, some like coffee."
+        ]
+      ]
+    },
+    {
+      "id": "shenmedou",
+      "title": "什么 / 谁 / 哪儿 + 都: everything / everyone / everywhere",
+      "summary": "Question word + 都 (+ 不) = every- / (not) any-.",
+      "body": "- 我**什么都**不想做.\n- 他**谁都**认识.",
+      "examples": [
+        [
+          "{我|wǒ}{什么|shénme}{都|dōu}{不|bù}{想|xiǎng}{做|zuò}。",
+          "I don't feel like doing anything."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "mw",
+      "prompt": "{我|wǒ}{买|mǎi}{了|le}{两|liǎng}（　）{衣服|yīfu}。",
+      "options": [
+        "{件|jiàn}",
+        "{张|zhāng}",
+        "{本|běn}",
+        "{条|tiáo}"
+      ],
+      "answer": 0,
+      "explanation": "Clothes: **件**.",
+      "notes": [
+        "",
+        "张 is for flat things like paper.",
+        "本 is for books.",
+        "条 is for trousers, not clothes in general."
+      ],
+      "translation": "I bought two pieces of clothing."
+    },
+    {
+      "point": "mw",
+      "prompt": "{桌子|zhuōzi}{上|shang}{有|yǒu}{三|sān}（　）{纸|zhǐ}。",
+      "options": [
+        "{本|běn}",
+        "{件|jiàn}",
+        "{只|zhī}",
+        "{张|zhāng}"
+      ],
+      "answer": 3,
+      "explanation": "Flat things: **张**.",
+      "notes": [
+        "本 is for books.",
+        "件 is for clothes and matters.",
+        "{只|zhī} is for animals.",
+        ""
+      ],
+      "translation": "There are three sheets of paper on the table."
+    },
+    {
+      "point": "mw",
+      "prompt": "{服务员|fúwùyuán}，{我|wǒ}{要|yào}{一|yì}（　）{咖啡|kāfēi}。",
+      "options": [
+        "{本|běn}",
+        "{杯|bēi}",
+        "{条|tiáo}",
+        "{张|zhāng}"
+      ],
+      "answer": 1,
+      "explanation": "A cup of: **杯**.",
+      "notes": [
+        "本 is for books.",
+        "",
+        "条 is for long things.",
+        "张 is for flat things."
+      ],
+      "translation": "Waiter, a cup of coffee, please."
+    },
+    {
+      "point": "ji",
+      "prompt": "{我|wǒ}{买|mǎi}{了|le}（　）{本|běn}{书|shū}，{都|dōu}{很|hěn}{有意思|yǒu yìsi}。",
+      "options": [
+        "{什么|shénme}",
+        "{有的|yǒude}",
+        "{几|jǐ}",
+        "{一些|yìxiē}"
+      ],
+      "answer": 2,
+      "explanation": "Several: **几 + measure word**.",
+      "notes": [
+        "什么本书 isn't grammatical.",
+        "有的 doesn't take a measure word.",
+        "",
+        "一些 doesn't take a measure word: 一些书."
+      ],
+      "translation": "I bought a few books — they're all interesting."
+    },
+    {
+      "point": "ji",
+      "prompt": "In 「{我|wǒ}{有|yǒu}{几|jǐ}{个|ge}{中国|Zhōngguó}{朋友|péngyou}。」, what does 几 mean?",
+      "options": [
+        "howmany?",
+        "onlyone",
+        "alotof",
+        "afew,several"
+      ],
+      "answer": 3,
+      "explanation": "In a statement: 几 = **several**.",
+      "notes": [
+        "In a statement (。), 几 isn't a question.",
+        "That's 只有一个.",
+        "That's 很多.",
+        ""
+      ],
+      "translation": "I have a few Chinese friends."
+    },
+    {
+      "point": "mei",
+      "prompt": "{我|wǒ}（　）{天|tiān}{都|dōu}{跑步|pǎobù}。",
+      "options": [
+        "{每|měi}",
+        "{有|yǒu}",
+        "{各|gè}",
+        "{都|dōu}"
+      ],
+      "answer": 0,
+      "explanation": "Every: **每…都**.",
+      "notes": [
+        "",
+        "有天 = 'one day'.",
+        "各天 isn't used.",
+        "都天 isn't grammatical."
+      ],
+      "translation": "I run every day."
+    },
+    {
+      "point": "mei",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我们|wǒmen}{每|měi}{人|rén}{个|ge}{都|dōu}{有|yǒu}{一|yì}{本|běn}{书|shū}。",
+        "{我们|wǒmen}{每|měi}{个|ge}{人|rén}{都|dōu}{有|yǒu}{一|yì}{本|běn}{书|shū}。",
+        "{我们|wǒmen}{都|dōu}{每|měi}{个|ge}{人|rén}{有|yǒu}{一|yì}{本|běn}{书|shū}。",
+        "{我们|wǒmen}{每|měi}{个|ge}{人|rén}{有|yǒu}{都|dōu}{一|yì}{本|běn}{书|shū}。"
+      ],
+      "answer": 1,
+      "explanation": "每 + MW + noun + **都** + verb.",
+      "notes": [
+        "The order is 每个人.",
+        "",
+        "都 comes after the 每 phrase.",
+        "都 goes before the verb."
+      ],
+      "translation": "Each of us has a book."
+    },
+    {
+      "point": "ban",
+      "prompt": "{我|wǒ}{在|zài}{这儿|zhèr}{等|děng}{了|le}{一个|yí ge}（　）{小时|xiǎoshí}。",
+      "options": [
+        "{两|liǎng}",
+        "{一半|yíbàn}",
+        "{半个|bàn ge}",
+        "{半|bàn}"
+      ],
+      "answer": 3,
+      "explanation": "And a half: **一个半小时**.",
+      "notes": [
+        "一个两小时 isn't grammatical.",
+        "一半 = 'one half (of something)'.",
+        "一个半个 has one 个 too many.",
+        ""
+      ],
+      "translation": "I've been waiting here for an hour and a half."
+    },
+    {
+      "point": "ban",
+      "prompt": "How do you say 'half an hour'?",
+      "options": [
+        "{半|bàn}{小时|xiǎoshí}{个|ge}",
+        "{一|yí}{半|bàn}{小时|xiǎoshí}",
+        "{半|bàn}{个|ge}{小时|xiǎoshí}",
+        "{小时|xiǎoshí}{半|bàn}"
+      ],
+      "answer": 2,
+      "explanation": "**半个小时**.",
+      "notes": [
+        "个 goes before the noun.",
+        "一半 = 'a half (portion)', not before a measure.",
+        "",
+        "半 goes before."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "wan",
+      "prompt": "How do you say 50,000 yuan?",
+      "options": [
+        "{五十千|wǔshí qiān}{块|kuài}",
+        "{五百万|wǔbǎi wàn}{块|kuài}",
+        "{五千|wǔqiān}{块|kuài}",
+        "{五万|wǔwàn}{块|kuài}"
+      ],
+      "answer": 3,
+      "explanation": "50,000 = **五万**.",
+      "notes": [
+        "Chinese doesn't count in 'fifty thousands'.",
+        "五百万 = 5,000,000.",
+        "五千 = 5,000.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "wan",
+      "prompt": "How do you say ¥3.50 in everyday speech?",
+      "options": [
+        "{五|wǔ}{块|kuài}{三|sān}",
+        "{三|sān}{块|kuài}{五|wǔ}",
+        "{三|sān}{毛|máo}{五|wǔ}",
+        "{三|sān}{块|kuài}{五十|wǔshí}"
+      ],
+      "answer": 1,
+      "explanation": "**三块五(毛)**.",
+      "notes": [
+        "That's ¥5.30.",
+        "",
+        "三毛五 = ¥0.35.",
+        "Prices aren't said like that — 五 after 块 already means 5 毛 (50 fen)."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "youde",
+      "prompt": "（　）{人|rén}{喜欢|xǐhuan}{喝|hē}{茶|chá}，{有的|yǒude}{人|rén}{喜欢|xǐhuan}{喝|hē}{咖啡|kāfēi}。",
+      "options": [
+        "{都|dōu}",
+        "{每|měi}",
+        "{一些|yìxiē}",
+        "{有的|yǒude}"
+      ],
+      "answer": 3,
+      "explanation": "Some …, some …: **有的…有的…**.",
+      "notes": [
+        "都人 isn't grammatical.",
+        "每人 contradicts 有的人.",
+        "The contrast pattern is 有的…，有的….",
+        ""
+      ],
+      "translation": "Some people like tea, some like coffee."
+    },
+    {
+      "point": "youde",
+      "prompt": "{我|wǒ}{想|xiǎng}{去|qù}{超市|chāoshì}{买|mǎi}（　）{水果|shuǐguǒ}。",
+      "options": [
+        "{有的|yǒude}",
+        "{一些|yìxiē}",
+        "{几|jǐ}",
+        "{每|měi}"
+      ],
+      "answer": 1,
+      "explanation": "Some (amount): **一些**.",
+      "notes": [
+        "有的 picks some out of a group — not an amount to buy.",
+        "",
+        "几 needs a measure word.",
+        "每水果 isn't grammatical."
+      ],
+      "translation": "I want to go to the supermarket to buy some fruit."
+    },
+    {
+      "point": "shenmedou",
+      "prompt": "{我|wǒ}{太|tài}{累|lèi}{了|le}，（　）{都|dōu}{不|bù}{想|xiǎng}{做|zuò}。",
+      "options": [
+        "{哪|nǎ}",
+        "{怎么|zěnme}",
+        "{谁|shéi}",
+        "{什么|shénme}"
+      ],
+      "answer": 3,
+      "explanation": "Anything: **什么都**.",
+      "notes": [
+        "哪 needs a measure word / 儿.",
+        "怎么都不想做 = 'no matter how, I don't want to' — not 'anything'.",
+        "谁 = 'anyone' — but 做 needs a thing.",
+        ""
+      ],
+      "translation": "I'm so tired, I don't feel like doing anything."
+    },
+    {
+      "point": "shenmedou",
+      "prompt": "{他|tā}{朋友|péngyou}{很|hěn}{多|duō}，{学校|xuéxiào}{里|lǐ}（　）{都|dōu}{认识|rènshi}{他|tā}。",
+      "options": [
+        "{怎么|zěnme}",
+        "{谁|shéi}",
+        "{什么|shénme}",
+        "{哪儿|nǎr}"
+      ],
+      "answer": 1,
+      "explanation": "Everyone: **谁都**.",
+      "notes": [
+        "怎么 = 'however'.",
+        "",
+        "什么 = 'anything' — people know him, not things.",
+        "哪儿 = 'everywhere'."
+      ],
+      "translation": "He has lots of friends — everyone at school knows him."
+    }
+  ]
+}

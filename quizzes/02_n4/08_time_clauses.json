@@ -1,0 +1,361 @@
+{
+  "id": "n4-time-clauses",
+  "category": "JLPT N4",
+  "title": "Time: あとで, までに, とき, ながら & おきに",
+  "description": "After, by (a deadline), when (and the tense trap 行くとき vs 行ったとき), while doing, and 'every other'.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "atode",
+      "title": "〜あとで: after",
+      "summary": "た-form + あとで / noun + の + あとで = 'after …'. The verb before あとで is always past (た).",
+      "body": "**Formation:**\n- Verb: **た-form** + あとで: 食べ**た**あとで, 勉強し**た**あとで\n- Noun: noun + **の** + あとで: 授業**の**あとで\n\nThe verb is always in the た-form, even when the main sentence is about the future: 明日、仕事が終わ**った**あとで電話します.\n\n**あとで vs あとに:** both mean 'after'. あとで focuses on *where in the sequence* the action happens; あとに is used more for one-off events and in writing. At N4, あとで is the safe default.\n\n**あとで vs てから:** てから stresses the **order** ('only after A, then B'); あとで is a simple 'after'.\n\nAlone, **あとで** = 'later': あとで電話します.",
+      "examples": [
+        [
+          "ご{飯|はん}を{食|た}べたあとで、{散歩|さんぽ}します。",
+          "I'll take a walk after eating."
+        ],
+        [
+          "{授業|じゅぎょう}のあとで、{図書館|としょかん}に{行|い}きます。",
+          "I'll go to the library after class."
+        ]
+      ]
+    },
+    {
+      "id": "madeni",
+      "title": "〜までに: by (deadline)",
+      "summary": "Time / dictionary form + までに = 'by …, no later than …'. For one-time actions with a deadline — not for continuing actions (that's まで).",
+      "body": "**Formation:**\n- Time noun + までに: 金曜日**までに**, 5時**までに**\n- Verb (dictionary form) + までに: 母が帰る**までに** (by the time mother gets back)\n\n**までに vs まで** (very common test point):\n- **までに** → a single action that must happen *before* the deadline: レポートを金曜日**までに**出す.\n- **まで** → an action or state that *continues up to* that point: 5時**まで**働く.\n\nQuick test: 'by' → までに; 'until' → まで.",
+      "examples": [
+        [
+          "{明日|あした}の{朝|あさ}までにメールを{送|おく}ってください。",
+          "Please send the email by tomorrow morning."
+        ],
+        [
+          "{母|はは}が{帰|かえ}るまでに、{部屋|へや}を{片付|かたづ}けます。",
+          "I'll tidy my room before (by the time) my mother comes home."
+        ]
+      ]
+    },
+    {
+      "id": "toki",
+      "title": "〜とき: when, at the time",
+      "summary": "Plain form / な-adj + な / noun + の + とき = 'when …'. The tense inside the とき-clause shows whether A happens before or after B.",
+      "body": "**Formation:**\n- Verb: plain form: 行く**とき**, 行った**とき**\n- い-adjective: 寒い**とき**\n- な-adjective: 暇**な**とき\n- Noun: 子供**の**とき\n\n**The tense trap (N4 favourite):** the verb before とき is about the timing *relative to the main action*:\n- **行くとき** = when (on the way / before) going → the main action happens **before arriving**: 日本へ**行く**とき、空港でカメラを買った (bought it at the airport before leaving).\n- **行ったとき** = when (after) having gone → the main action happens **there, after arriving**: 日本へ**行った**とき、富士山に登った.\n\nSame with 寝る/寝たとき, 来る/来たとき, etc.",
+      "examples": [
+        [
+          "{日本|にほん}へ{行|い}くとき、{空港|くうこう}でカメラを{買|か}いました。",
+          "When I was going to Japan, I bought a camera at the airport (before leaving)."
+        ],
+        [
+          "{日本|にほん}へ{行|い}ったとき、{富士山|ふじさん}に{登|のぼ}りました。",
+          "When I went to Japan, I climbed Mt. Fuji (there)."
+        ],
+        [
+          "{暇|ひま}なとき、{何|なに}をしますか。",
+          "What do you do when you're free?"
+        ]
+      ]
+    },
+    {
+      "id": "nagara",
+      "title": "〜ながら: while (doing)",
+      "summary": "ます-stem + ながら + main verb = doing two things at the same time. Same subject; the main action comes last.",
+      "body": "**Formation:** ます-stem + ながら: 聞き**ながら**, 食べ**ながら**, し**ながら**.\n\n**Rules:**\n- **One subject** does both actions. ✗ 私が歌いながら、妹がピアノを弾く (two people → use 間に / とき).\n- The **main** action is the second one: 音楽を聞きながら勉強する = 'studying (main) while listening to music'.\n- Tense and politeness are carried by the final verb.\n\n(At N3 you'll meet ながら(も) = 'although': 狭いながらも楽しい家.)",
+      "examples": [
+        [
+          "{音楽|おんがく}を{聞|き}きながら{勉強|べんきょう}します。",
+          "I study while listening to music."
+        ],
+        [
+          "{歩|ある}きながらスマホを{見|み}ないでください。",
+          "Please don't look at your phone while walking."
+        ]
+      ]
+    },
+    {
+      "id": "okini",
+      "title": "〜おきに: every (other), at intervals of",
+      "summary": "Number + counter + おきに = at intervals of …. With days, 一日おき = every other day (one day skipped).",
+      "body": "**Formation:** quantity + **おきに**: 10分**おきに**, 2メートル**おきに**, 一日**おきに**.\n\n**Meaning:** something repeats with a gap of that size.\n- 10分おきにバスが来る → a bus every 10 minutes.\n- **一日おき** → every **other** day (Mon, Wed, Fri …): one full day is skipped in between.\n\n**おきに vs ごとに:** for days/weeks they differ — 一日**ごとに** = every single day, 一日**おきに** = every other day. For minutes/hours both usually mean the same.\n\nDon't confuse with **ずつ** ('each, per'): 一人に三つ**ずつ** (three each).",
+      "examples": [
+        [
+          "このバスは10{分|ぷん}おきに{来|き}ます。",
+          "This bus comes every 10 minutes."
+        ],
+        [
+          "{一日|いちにち}おきに{運動|うんどう}しています。",
+          "I exercise every other day."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "atode",
+      "prompt": "ご{飯|はん}を{食|た}べた（　）、{散歩|さんぽ}します。",
+      "options": [
+        "まえに",
+        "あとで",
+        "までに",
+        "ながら"
+      ],
+      "answer": 1,
+      "explanation": "た-form + **あとで** = after.",
+      "notes": [
+        "まえに needs the dictionary form (食べるまえに).",
+        "",
+        "までに follows the dictionary form or a noun, not the た-form.",
+        "ながら needs the ます-stem (食べながら)."
+      ],
+      "translation": "I'll take a walk after eating."
+    },
+    {
+      "point": "atode",
+      "prompt": "ご{飯|はん}を（　）あとで、{歯|は}を{磨|みが}きます。",
+      "options": [
+        "{食|た}べる",
+        "{食|た}べ",
+        "{食|た}べた",
+        "{食|た}べて"
+      ],
+      "answer": 2,
+      "explanation": "The verb before あとで is always the **た-form**.",
+      "notes": [
+        "The dictionary form goes with まえに, not あとで.",
+        "The ます-stem can't come before あとで.",
+        "",
+        "The て-form can't come before あとで."
+      ],
+      "translation": "I brush my teeth after eating."
+    },
+    {
+      "point": "atode",
+      "prompt": "{授業|じゅぎょう}（　）あとで、{図書館|としょかん}に{行|い}きます。",
+      "options": [
+        "が",
+        "な",
+        "を",
+        "の"
+      ],
+      "answer": 3,
+      "explanation": "Noun + **の** + あとで.",
+      "notes": [
+        "授業があとで isn't grammatical.",
+        "な is for な-adjectives, not nouns.",
+        "授業をあとで would mean 'postpone class until later'.",
+        ""
+      ],
+      "translation": "I'll go to the library after class."
+    },
+    {
+      "point": "madeni",
+      "prompt": "{明日|あした}の{朝|あさ}（　）メールを{送|おく}ってください。",
+      "options": [
+        "からに",
+        "まで",
+        "までに",
+        "までと"
+      ],
+      "answer": 2,
+      "explanation": "Deadline for a one-time action → **までに**.",
+      "notes": [
+        "からに isn't a form.",
+        "まで = keep sending until tomorrow morning — sending is a one-time action.",
+        "",
+        "までと isn't a deadline pattern."
+      ],
+      "translation": "Please send the email by tomorrow morning."
+    },
+    {
+      "point": "madeni",
+      "prompt": "{金曜日|きんようび}（　）に{返事|へんじ}をください。",
+      "options": [
+        "あと",
+        "から",
+        "まえ",
+        "まで"
+      ],
+      "answer": 3,
+      "explanation": "金曜日**までに** = by Friday.",
+      "notes": [
+        "Nouns need の before あと, and 'after Friday' isn't a deadline.",
+        "からに isn't grammatical.",
+        "Nouns need の before まえ: 金曜日のまえに.",
+        ""
+      ],
+      "translation": "Please give me your answer by Friday."
+    },
+    {
+      "point": "toki",
+      "prompt": "（I bought it at the airport before leaving.）{日本|にほん}へ（　）とき、{空港|くうこう}でカメラを{買|か}いました。",
+      "options": [
+        "{行|い}く",
+        "{行|い}って",
+        "{行|い}き",
+        "{行|い}った"
+      ],
+      "answer": 0,
+      "explanation": "The purchase happened **before arriving** → dictionary form: **行くとき**.",
+      "notes": [
+        "",
+        "The て-form can't modify とき.",
+        "The ます-stem can't modify とき.",
+        "行ったとき = after arriving in Japan — but the airport is at home, before the trip."
+      ],
+      "translation": "When I was going to Japan, I bought a camera at the airport."
+    },
+    {
+      "point": "toki",
+      "prompt": "{日本|にほん}へ（　）とき、{富士山|ふじさん}に{登|のぼ}りました。",
+      "options": [
+        "{行|い}く",
+        "{行|い}って",
+        "{行|い}った",
+        "{行|い}き"
+      ],
+      "answer": 2,
+      "explanation": "Climbing Fuji happened **in Japan, after arriving** → **行ったとき**.",
+      "notes": [
+        "行くとき = on the way / before arriving — you can't climb Fuji before you're in Japan.",
+        "The て-form can't modify とき.",
+        "",
+        "The ます-stem can't modify とき."
+      ],
+      "translation": "When I went to Japan, I climbed Mt. Fuji."
+    },
+    {
+      "point": "toki",
+      "prompt": "{暇|ひま}（　）とき、{何|なに}をしますか。",
+      "options": [
+        "に",
+        "な",
+        "の",
+        "だ"
+      ],
+      "answer": 1,
+      "explanation": "な-adjective + **な** + とき.",
+      "notes": [
+        "に makes an adverb.",
+        "",
+        "の is for nouns (子供のとき); 暇 is a な-adjective.",
+        "だ can't modify a noun like とき."
+      ],
+      "translation": "What do you do when you're free?"
+    },
+    {
+      "point": "nagara",
+      "prompt": "{歩|ある}き（　）スマホを{見|み}ないでください。",
+      "options": [
+        "ないで",
+        "ましょう",
+        "ながら",
+        "ながらに"
+      ],
+      "answer": 2,
+      "explanation": "ます-stem + **ながら** = while.",
+      "notes": [
+        "歩きないで isn't a form (歩かないで).",
+        "歩きましょう ends a sentence.",
+        "",
+        "ながらに is a fixed literary form (生まれながらに) — not 'while doing'."
+      ],
+      "translation": "Please don't look at your phone while walking."
+    },
+    {
+      "point": "nagara",
+      "prompt": "テレビを（　）ながら、ご{飯|はん}を{食|た}べます。",
+      "options": [
+        "{見|み}る",
+        "{見|み}",
+        "{見|み}た",
+        "{見|み}て"
+      ],
+      "answer": 1,
+      "explanation": "ながら attaches to the **ます-stem**: 見ながら.",
+      "notes": [
+        "The dictionary form doesn't take ながら.",
+        "",
+        "The past form doesn't take ながら.",
+        "The て-form doesn't take ながら."
+      ],
+      "translation": "I eat while watching TV."
+    },
+    {
+      "point": "nagara",
+      "prompt": "Which sentence is **unnatural**?",
+      "options": [
+        "{音楽|おんがく}を{聞|き}きながら{走|はし}ります。",
+        "コーヒーを{飲|の}みながら{話|はな}しましょう。",
+        "{私|わたし}が{歌|うた}いながら、{妹|いもうと}がピアノを{弾|ひ}きます。",
+        "{彼|かれ}は{笑|わら}いながら{答|こた}えました。"
+      ],
+      "answer": 2,
+      "explanation": "ながら needs **one subject** for both actions. Two people → 私が歌っている間に / 私が歌うとき.",
+      "notes": [
+        "Natural — one person does both.",
+        "Natural — the same people do both.",
+        "",
+        "Natural — he laughed and answered."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "okini",
+      "prompt": "このバスは10{分|ぷん}（　）{来|き}ます。",
+      "options": [
+        "ずつ",
+        "までに",
+        "ごろに",
+        "おきに"
+      ],
+      "answer": 3,
+      "explanation": "Intervals: number + **おきに**.",
+      "notes": [
+        "ずつ means 'each' (三つずつ) — not intervals.",
+        "までに = by — 'comes by 10 minutes' makes no sense.",
+        "ごろ is for points in time, not durations.",
+        ""
+      ],
+      "translation": "This bus comes every 10 minutes."
+    },
+    {
+      "point": "okini",
+      "prompt": "What does 「{一日|いちにち}おきに{運動|うんどう}します」 mean?",
+      "options": [
+        "I exercise for one day.",
+        "I exercise every day.",
+        "I exercise every other day.",
+        "I exercise once a day."
+      ],
+      "answer": 2,
+      "explanation": "一日**おき** = with one day skipped in between → every other day.",
+      "notes": [
+        "For one day is 一日だけ.",
+        "Every day is 毎日 / 一日ごとに.",
+        "",
+        "Once a day is 一日に一回."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "okini",
+      "prompt": "この{薬|くすり}は6{時間|じかん}（　）{飲|の}んでください。",
+      "options": [
+        "おきに",
+        "までに",
+        "ずつ",
+        "あいだ"
+      ],
+      "answer": 0,
+      "explanation": "Every 6 hours → 6時間**おきに**.",
+      "notes": [
+        "",
+        "6時間までに = by 6 hours — not repeating.",
+        "ずつ = 'each' — not an interval.",
+        "6時間あいだ isn't grammatical (6時間の間)."
+      ],
+      "translation": "Please take this medicine every 6 hours."
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "id": "zh-a2-hsk-reading",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "HSK Reading: 判断对错 & 阅读理解",
+  "description": "HSK-style reading: decide whether the ★ statement is true, or answer the ★ question about a short text. Everything hinges on the A2 grammar.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "panduan",
+      "title": "判断对错: true or false?",
+      "summary": "Read the passage, then decide if the ★ statement matches it.",
+      "body": "Grammar traps to watch for:\n- **不…了** (not anymore) vs **没** (didn't).\n- **还没** = not yet; **已经…了** = already.\n- **过** = has ever done.\n- **比 / 没有 / 一样** comparisons — work out who is taller/older.\n- **快…了** = not yet, but soon.",
+      "examples": [
+        [
+          "{我|wǒ}{以前|yǐqián}{喜欢|xǐhuan}{喝|hē}{咖啡|kāfēi}，{现在|xiànzài}{不|bù}{喝|hē}{了|le}。",
+          "I used to like coffee, but I don't drink it anymore."
+        ]
+      ]
+    },
+    {
+      "id": "yuedu",
+      "title": "阅读理解: answer the ★ question",
+      "summary": "Read the short passage and pick the answer it supports. Often one detail — a time, a comparison, a reason with 因为 — decides it.",
+      "body": "- Look for the connector: 因为 / 所以 / 但是.\n- Do the arithmetic with times and ages.\n- Wrong options often repeat words from the text but change their meaning.",
+      "examples": [
+        [
+          "{因为|yīnwèi}{路|lù}{上|shang}{车|chē}{很|hěn}{多|duō}，{我|wǒ}{晚|wǎn}{到|dào}{了|le}。",
+          "There was a lot of traffic, so I arrived late."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "panduan",
+      "prompt": "{我|wǒ}{以前|yǐqián}{很|hěn}{喜欢|xǐhuan}{喝|hē}{咖啡|kāfēi}，{每天|měitiān}{喝|hē}{三|sān}{杯|bēi}，{可是|kěshì}{现在|xiànzài}{不|bù}{喝|hē}{了|le}。\n\n★ {他|tā}{现在|xiànzài}{不|bù}{喝|hē}{咖啡|kāfēi}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "不…了 = **not anymore**.",
+      "notes": [
+        "",
+        "不喝了 = he doesn't drink it anymore — so the statement is true."
+      ],
+      "translation": "I used to love coffee and drank three cups a day, but now I don't drink it anymore. ★ He doesn't drink coffee now.",
+      "fixed_order": true
+    },
+    {
+      "point": "panduan",
+      "prompt": "{我|wǒ}{来|lái}{中国|Zhōngguó}{三|sān}{年|nián}{了|le}，{去|qù}{过|guo}{很|hěn}{多|duō}{地方|dìfang}，{可是|kěshì}{还|hái}{没|méi}{去|qù}{过|guo}{上海|Shànghǎi}。\n\n★ {他|tā}{去|qù}{过|guo}{上海|Shànghǎi}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "还没…过 = **has never yet**.",
+      "notes": [
+        "还没去过上海 = he hasn't been to Shanghai yet.",
+        ""
+      ],
+      "translation": "I've been in China for three years and have been to many places, but I haven't been to Shanghai yet. ★ He has been to Shanghai.",
+      "fixed_order": true
+    },
+    {
+      "point": "panduan",
+      "prompt": "{哥哥|gēge}{比|bǐ}{我|wǒ}{大|dà}{两|liǎng}{岁|suì}，{我|wǒ}{今年|jīnnián}{十八|shíbā}{岁|suì}。\n\n★ {哥哥|gēge}{今年|jīnnián}{二十|èrshí}{岁|suì}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "比 + adj + **amount**: two years older.",
+      "notes": [
+        "",
+        "18 + 2 = 20 — the statement is true."
+      ],
+      "translation": "My older brother is two years older than me; I'm eighteen this year. ★ My brother is twenty this year.",
+      "fixed_order": true
+    },
+    {
+      "point": "panduan",
+      "prompt": "{电影|diànyǐng}{七|qī}{点|diǎn}{半|bàn}{开始|kāishǐ}，{现在|xiànzài}{已经|yǐjīng}{七|qī}{点|diǎn}{四十|sìshí}{了|le}，{我们|wǒmen}{快|kuài}{点儿|diǎnr}{走|zǒu}{吧|ba}！\n\n★ {电影|diànyǐng}{还|hái}{没|méi}{开始|kāishǐ}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "Work out the time: **已经** 7:40.",
+      "notes": [
+        "It started at 7:30 and it's already 7:40 — so it has started.",
+        ""
+      ],
+      "translation": "The film starts at 7:30 and it's already 7:40 — let's hurry! ★ The film hasn't started yet.",
+      "fixed_order": true
+    },
+    {
+      "point": "panduan",
+      "prompt": "{小王|Xiǎo Wáng}{跟|gēn}{小李|Xiǎo Lǐ}{一样|yíyàng}{高|gāo}，{小李|Xiǎo Lǐ}{比|bǐ}{小张|Xiǎo Zhāng}{高|gāo}。\n\n★ {小张|Xiǎo Zhāng}{比|bǐ}{小王|Xiǎo Wáng}{高|gāo}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "Chain the comparisons: **一样** and **比**.",
+      "notes": [
+        "Wang = Li, and Li is taller than Zhang — so Wang is taller than Zhang, not the other way round.",
+        ""
+      ],
+      "translation": "Xiao Wang is as tall as Xiao Li, and Xiao Li is taller than Xiao Zhang. ★ Xiao Zhang is taller than Xiao Wang.",
+      "fixed_order": true
+    },
+    {
+      "point": "panduan",
+      "prompt": "{这|zhè}{家|jiā}{店|diàn}{的|de}{东西|dōngxi}{又|yòu}{便宜|piányi}{又|yòu}{好|hǎo}，{所以|suǒyǐ}{每天|měitiān}{都|dōu}{有|yǒu}{很|hěn}{多|duō}{人|rén}。\n\n★ {这|zhè}{家|jiā}{店|diàn}{的|de}{东西|dōngxi}{不|bú}{贵|guì}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "**又…又** = both … and.",
+      "notes": [
+        "",
+        "又便宜又好 — cheap means not expensive, so it's true."
+      ],
+      "translation": "The things in this shop are cheap and good, so it's busy every day. ★ The things in this shop aren't expensive.",
+      "fixed_order": true
+    },
+    {
+      "point": "panduan",
+      "prompt": "{我|wǒ}{刚|gāng}{到|dào}{家|jiā}，{还|hái}{没|méi}{吃饭|chīfàn}{呢|ne}，{你|nǐ}{等|děng}{我|wǒ}{一下|yíxià}。\n\n★ {他|tā}{已经|yǐjīng}{吃|chī}{了|le}{饭|fàn}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "**还没…呢** = not yet.",
+      "notes": [
+        "还没吃饭呢 = he hasn't eaten yet.",
+        ""
+      ],
+      "translation": "I've only just got home and haven't eaten yet — wait for me a moment. ★ He has already eaten.",
+      "fixed_order": true
+    },
+    {
+      "point": "yuedu",
+      "prompt": "{今天|jīntiān}{我|wǒ}{起床|qǐchuáng}{起|qǐ}{得|de}{太|tài}{晚|wǎn}{了|le}，{路|lù}{上|shang}{车|chē}{又|yòu}{很|hěn}{多|duō}，{九|jiǔ}{点|diǎn}{半|bàn}{到|dào}{公司|gōngsī}，{比|bǐ}{平时|píngshí}{晚|wǎn}{了|le}{一个|yí ge}{小时|xiǎoshí}。\n\n★ {他|tā}{平时|píngshí}{几|jǐ}{点|diǎn}{到|dào}{公司|gōngsī}？",
+      "options": [
+        "{九|jiǔ}{点|diǎn}",
+        "{十|shí}{点|diǎn}{半|bàn}",
+        "{八|bā}{点|diǎn}{半|bàn}",
+        "{九|jiǔ}{点|diǎn}{半|bàn}"
+      ],
+      "answer": 2,
+      "explanation": "9:30 − 1 hour = **8:30**.",
+      "notes": [
+        "比平时晚了一个小时 = an hour, not half an hour.",
+        "That would be an hour later, not earlier.",
+        "",
+        "9:30 is when he arrived today."
+      ],
+      "translation": "I got up too late today and there was lots of traffic, so I got to the office at 9:30 — an hour later than usual. ★ When does he usually get to the office?"
+    },
+    {
+      "point": "yuedu",
+      "prompt": "{我|wǒ}{有|yǒu}{两|liǎng}{个|ge}{姐姐|jiějie}。{大姐|dàjiě}{是|shì}{医生|yīshēng}，{二姐|èrjiě}{是|shì}{老师|lǎoshī}。{二姐|èrjiě}{没有|méiyǒu}{大姐|dàjiě}{忙|máng}，{可是|kěshì}{比|bǐ}{大姐|dàjiě}{累|lèi}。\n\n★ {关于|guānyú}{二姐|èrjiě}，{可以|kěyǐ}{知道|zhīdào}：",
+      "options": [
+        "{比|bǐ}{大姐|dàjiě}{忙|máng}",
+        "{比|bǐ}{大姐|dàjiě}{累|lèi}",
+        "{没有|méiyǒu}{工作|gōngzuò}",
+        "{是|shì}{医生|yīshēng}"
+      ],
+      "answer": 1,
+      "explanation": "**没有 … 忙** but **比 … 累**.",
+      "notes": [
+        "没有大姐忙 = she's NOT as busy.",
+        "",
+        "She's a teacher.",
+        "The doctor is the eldest sister."
+      ],
+      "translation": "I have two older sisters. The eldest is a doctor, the second a teacher. The second isn't as busy as the eldest, but she's more tired. ★ What do we know about the second sister?"
+    },
+    {
+      "point": "yuedu",
+      "prompt": "{我|wǒ}{学|xué}{了|le}{一|yì}{年|nián}{汉语|Hànyǔ}{了|le}。{我|wǒ}{能|néng}{看|kàn}{懂|dǒng}{简单|jiǎndān}{的|de}{书|shū}，{可是|kěshì}{听|tīng}{不|bu}{懂|dǒng}{中国人|Zhōngguórén}{说话|shuōhuà}，{因为|yīnwèi}{他们|tāmen}{说|shuō}{得|de}{太|tài}{快|kuài}{了|le}。\n\n★ {他|tā}{为什么|wèishénme}{听|tīng}{不|bu}{懂|dǒng}？",
+      "options": [
+        "{他|tā}{没|méi}{学|xué}{过|guo}{汉语|Hànyǔ}",
+        "{书|shū}{太|tài}{难|nán}{了|le}",
+        "{他|tā}{听|tīng}{不|bu}{见|jiàn}",
+        "{中国人|Zhōngguórén}{说|shuō}{得|de}{太|tài}{快|kuài}"
+      ],
+      "answer": 3,
+      "explanation": "The reason follows **因为**.",
+      "notes": [
+        "He has studied for a year.",
+        "He can read simple books.",
+        "听不见 = can't hear — it's about speed, not volume.",
+        ""
+      ],
+      "translation": "I've been learning Chinese for a year. I can read simple books, but I can't understand Chinese people talking because they speak too fast. ★ Why can't he understand?"
+    },
+    {
+      "point": "yuedu",
+      "prompt": "{小明|Xiǎo Míng}{每天|měitiān}{早上|zǎoshang}{一边|yìbiān}{吃|chī}{早饭|zǎofàn}{一边|yìbiān}{看|kàn}{手机|shǒujī}，{妈妈|māma}{总是|zǒngshì}{说|shuō}：“{别|bié}{看|kàn}{了|le}！”\n\n★ {妈妈|māma}{希望|xīwàng}{小明|Xiǎo Míng}：",
+      "options": [
+        "{吃饭|chīfàn}{的|de}{时候|shíhou}{不|bú}{看|kàn}{手机|shǒujī}",
+        "{早|zǎo}{点儿|diǎnr}{起床|qǐchuáng}",
+        "{多|duō}{看|kàn}{手机|shǒujī}",
+        "{不|bù}{吃|chī}{早饭|zǎofàn}"
+      ],
+      "answer": 0,
+      "explanation": "**别…了** = stop doing it.",
+      "notes": [
+        "",
+        "Getting up isn't mentioned.",
+        "别看了 = stop looking.",
+        "She objects to the phone, not to breakfast."
+      ],
+      "translation": "Every morning Xiao Ming looks at his phone while eating breakfast, and his mum always says: 'Stop looking at it!' ★ What does his mum want?"
+    }
+  ]
+}

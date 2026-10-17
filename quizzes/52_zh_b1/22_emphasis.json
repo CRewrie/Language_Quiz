@@ -1,0 +1,362 @@
+{
+  "id": "zh-b1-emphasis",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Particles & Emphasis: 嘛, 吧 (weighing options), …的, 正…着呢, 又不 / 又没, 就是, 三天没…了",
+  "description": "That's obvious (嘛), weighing two options (吧), certainty (的), in the middle of (正…着呢), emphatic negation (又不), stubborn 就是, and how long since.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "ma_obvious",
+      "title": "…嘛: it's obvious",
+      "summary": "嘛 (ma) at the end = 'come on, that's obvious'. Not a question.",
+      "body": "- 他是你哥哥**嘛**，当然会帮你.\n- 有问题就问老师**嘛**.",
+      "examples": [
+        [
+          "{有|yǒu}{问题|wèntí}{就|jiù}{问|wèn}{老师|lǎoshī}{嘛|ma}。",
+          "If you have a question, just ask the teacher — simple."
+        ]
+      ]
+    },
+    {
+      "id": "ba_options",
+      "title": "A 吧，…；B 吧，…: weighing options",
+      "summary": "Option 1 + 吧，problem; option 2 + 吧，problem = I can't decide.",
+      "body": "- 去**吧**，太远；不去**吧**，又不太好.",
+      "examples": [
+        [
+          "{去|qù}{吧|ba}，{太|tài}{远|yuǎn}；{不|bú}{去|qù}{吧|ba}，{又|yòu}{不|bú}{太|tài}{好|hǎo}。",
+          "If I go, it's too far; if I don't, it's not very nice either."
+        ]
+      ]
+    },
+    {
+      "id": "de_modal",
+      "title": "…的: certainty",
+      "summary": "的 at the end adds 'definitely, you can count on it', often with 会.",
+      "body": "- 别担心，他会来**的**.",
+      "examples": [
+        [
+          "{你|nǐ}{放心|fàngxīn}，{我|wǒ}{不|bú}{会|huì}{告诉|gàosu}{别人|biérén}{的|de}。",
+          "Don't worry, I won't tell anyone."
+        ]
+      ]
+    },
+    {
+      "id": "zhengzhe",
+      "title": "正(在) + verb + 着 + 呢",
+      "summary": "The full progressive: 正 / 正在 + verb + 着 + (object) + 呢.",
+      "body": "- 外面**正**下**着**雨**呢**.",
+      "examples": [
+        [
+          "{外面|wàimiàn}{正|zhèng}{下|xià}{着|zhe}{雨|yǔ}{呢|ne}。",
+          "It's raining outside right now."
+        ]
+      ]
+    },
+    {
+      "id": "youbu",
+      "title": "又不 / 又没: (but) it's not as if",
+      "summary": "又 + 不 / 没 strengthens a negative rebuttal: 'it's not like …'.",
+      "body": "- 我**又不**是小孩子.\n- 你**又没**去过，怎么知道不好玩?",
+      "examples": [
+        [
+          "{我|wǒ}{又|yòu}{不|bú}{是|shì}{小孩子|xiǎo háizi}！",
+          "It's not as if I'm a child!"
+        ]
+      ]
+    },
+    {
+      "id": "jiushi",
+      "title": "就是 + verb: just (won't)",
+      "summary": "就是 before a verb = stubbornly, simply (就是不想去).",
+      "body": "- 不管我怎么说，他**就是**不听.",
+      "examples": [
+        [
+          "{我|wǒ}{就是|jiùshì}{不|bù}{想|xiǎng}{去|qù}。",
+          "I just don't want to go."
+        ]
+      ]
+    },
+    {
+      "id": "durmei",
+      "title": "Duration + 没 + verb + 了",
+      "summary": "How long something hasn't happened: 三天没吃饭了 (haven't eaten for three days).",
+      "body": "- 我**一年没**见他**了**.",
+      "examples": [
+        [
+          "{我|wǒ}{一|yì}{年|nián}{没|méi}{见|jiàn}{他|tā}{了|le}。",
+          "I haven't seen him for a year."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "ma_obvious",
+      "prompt": "What does 嘛 add in 「{他|tā}{是|shì}{你|nǐ}{哥哥|gēge}{嘛|ma}，{当然|dāngrán}{会|huì}{帮|bāng}{你|nǐ}。」?",
+      "options": [
+        "'That'sobvious'—ofcourse,he'syourbrother.",
+        "Itmakesitaquestion.",
+        "Itmakesitasuggestion.",
+        "Itexpressessurprise."
+      ],
+      "answer": 0,
+      "explanation": "嘛 = **obviously**.",
+      "notes": [
+        "",
+        "嘛 isn't 吗.",
+        "That would be 吧.",
+        "That would be 啊 / 呀."
+      ],
+      "translation": "He's your brother — of course he'll help you."
+    },
+    {
+      "point": "ma_obvious",
+      "prompt": "{有|yǒu}{问题|wèntí}{就|jiù}{问|wèn}{老师|lǎoshī}（　），{别|bié}{不好意思|bù hǎoyìsi}。",
+      "options": [
+        "{吗|ma}",
+        "{嘛|ma}",
+        "{呢|ne}",
+        "{了|le}"
+      ],
+      "answer": 1,
+      "explanation": "Obviously: **嘛**.",
+      "notes": [
+        "吗 would make it a question.",
+        "",
+        "呢 doesn't fit advice.",
+        "问老师了 = 'asked the teacher (already)'."
+      ],
+      "translation": "If you have a question, just ask the teacher — don't be shy."
+    },
+    {
+      "point": "ba_options",
+      "prompt": "{去|qù}（　），{太|tài}{远|yuǎn}；{不|bú}{去|qù}（　），{又|yòu}{不|bú}{太|tài}{好|hǎo}。",
+      "options": [
+        "{了|le}",
+        "{吗|ma}",
+        "{的|de}",
+        "{吧|ba}"
+      ],
+      "answer": 3,
+      "explanation": "Weighing options: **A吧，…；B吧，…**.",
+      "notes": [
+        "去了 = 'went'.",
+        "吗 makes questions.",
+        "去的 isn't the pattern.",
+        ""
+      ],
+      "translation": "If I go, it's too far; if I don't, it's not very nice either."
+    },
+    {
+      "point": "ba_options",
+      "prompt": "What is the speaker doing in 「{买|mǎi}{吧|ba}，{太|tài}{贵|guì}；{不|bù}{买|mǎi}{吧|ba}，{又|yòu}{很|hěn}{喜欢|xǐhuan}。」?",
+      "options": [
+        "Tellingsomeonetobuyit.",
+        "Sayingtheyalreadyboughtit.",
+        "Weighingtwooptions,bothwithadownside.",
+        "Askingwhethertobuyit."
+      ],
+      "answer": 2,
+      "explanation": "Option 吧，… ; option 吧，… = **can't decide**.",
+      "notes": [
+        "吧 here isn't a suggestion.",
+        "Nothing has been bought.",
+        "",
+        "There's no question."
+      ],
+      "translation": "If I buy it, it's too expensive; if I don't, I really like it."
+    },
+    {
+      "point": "de_modal",
+      "prompt": "{别|bié}{担心|dānxīn}，{他|tā}{会|huì}{来|lái}（　）。",
+      "options": [
+        "{过|guo}",
+        "{的|de}",
+        "{了|le}",
+        "{着|zhe}"
+      ],
+      "answer": 1,
+      "explanation": "Certainty: **会…的**.",
+      "notes": [
+        "来过 = 'has come before'.",
+        "",
+        "会来了 isn't the pattern.",
+        "来着 = 'was coming' (past)."
+      ],
+      "translation": "Don't worry, he'll come."
+    },
+    {
+      "point": "de_modal",
+      "prompt": "{你|nǐ}{放心|fàngxīn}，{我|wǒ}{不|bú}{会|huì}{告诉|gàosu}{别人|biérén}（　）。",
+      "options": [
+        "{着|zhe}",
+        "{了|le}",
+        "{的|de}",
+        "{吗|ma}"
+      ],
+      "answer": 2,
+      "explanation": "**不会…的**.",
+      "notes": [
+        "着 doesn't fit.",
+        "不会…了 = 'won't anymore'.",
+        "",
+        "吗 makes it a question."
+      ],
+      "translation": "Don't worry, I won't tell anyone."
+    },
+    {
+      "point": "zhengzhe",
+      "prompt": "{你|nǐ}{现在|xiànzài}{别|bié}{找|zhǎo}{他|tā}，{他|tā}{正在|zhèngzài}{开|kāi}（　）{会|huì}{呢|ne}。",
+      "options": [
+        "{过|guo}",
+        "{完|wán}",
+        "{了|le}",
+        "{着|zhe}"
+      ],
+      "answer": 3,
+      "explanation": "**正在 + V着 + 呢**.",
+      "notes": [
+        "过 = experience.",
+        "开完 = finished.",
+        "正在…了 isn't the pattern.",
+        ""
+      ],
+      "translation": "Don't look for him now — he's in a meeting."
+    },
+    {
+      "point": "zhengzhe",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{外面|wàimiàn}{正|zhèng}{着|zhe}{下|xià}{雨|yǔ}{呢|ne}。",
+        "{外面|wàimiàn}{正|zhèng}{下|xià}{着|zhe}{雨|yǔ}{呢|ne}。",
+        "{外面|wàimiàn}{正|zhèng}{下|xià}{了|le}{雨|yǔ}{呢|ne}。",
+        "{外面|wàimiàn}{下|xià}{着|zhe}{正|zhèng}{雨|yǔ}{呢|ne}。"
+      ],
+      "answer": 1,
+      "explanation": "**正 + V + 着 + O + 呢**.",
+      "notes": [
+        "着 follows the verb.",
+        "",
+        "正 doesn't go with 了.",
+        "正 goes before the verb."
+      ],
+      "translation": "It's raining outside right now."
+    },
+    {
+      "point": "youbu",
+      "prompt": "{我|wǒ}（　）{不|bú}{是|shì}{小孩子|xiǎo háizi}，{你|nǐ}{别|bié}{管|guǎn}{我|wǒ}！",
+      "options": [
+        "{又|yòu}",
+        "{刚|gāng}",
+        "{很|hěn}",
+        "{再|zài}"
+      ],
+      "answer": 0,
+      "explanation": "Emphatic negation: **又不**.",
+      "notes": [
+        "",
+        "刚不是 isn't grammatical.",
+        "很不是 isn't grammatical.",
+        "再不 = 'if … not again'."
+      ],
+      "translation": "It's not as if I'm a child — stop bossing me around!"
+    },
+    {
+      "point": "youbu",
+      "prompt": "What does 「{你|nǐ}{又|yòu}{没|méi}{去|qù}{过|guo}，{怎么|zěnme}{知道|zhīdào}{不|bù}{好玩|hǎowán}？」 mean?",
+      "options": [
+        "You'vebeenthere,soyouknowit'snofun.",
+        "Youwentagainanditwasnofun.",
+        "Youhaven'tevenbeenthere—howwouldyouknowit'snofun?",
+        "Youdidn'tgoagain—whyisitnofun?"
+      ],
+      "answer": 2,
+      "explanation": "又没 = **it's not as if**.",
+      "notes": [
+        "没去过 = has never been.",
+        "Nobody went.",
+        "",
+        "又没 here isn't 'again'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "jiushi",
+      "prompt": "{我|wǒ}（　）{不|bù}{想|xiǎng}{去|qù}，{你|nǐ}{别|bié}{再|zài}{说|shuō}{了|le}。",
+      "options": [
+        "{于是|yúshì}",
+        "{就要|jiùyào}",
+        "{但是|dànshì}",
+        "{就是|jiùshì}"
+      ],
+      "answer": 3,
+      "explanation": "Stubborn: **就是不**.",
+      "notes": [
+        "于是 = 'and so'.",
+        "就要不想 isn't grammatical.",
+        "但是 needs a contrast before it.",
+        ""
+      ],
+      "translation": "I just don't want to go — stop going on about it."
+    },
+    {
+      "point": "jiushi",
+      "prompt": "{不管|bùguǎn}{我|wǒ}{怎么|zěnme}{说|shuō}，{他|tā}（　）{不|bù}{听|tīng}。",
+      "options": [
+        "{就是|jiùshì}",
+        "{但是|dànshì}",
+        "{就要|jiùyào}",
+        "{于是|yúshì}"
+      ],
+      "answer": 0,
+      "explanation": "**就是不**.",
+      "notes": [
+        "",
+        "但是 can't follow the subject here.",
+        "就要不听 isn't grammatical.",
+        "于是 = 'and so'."
+      ],
+      "translation": "No matter what I say, he simply won't listen."
+    },
+    {
+      "point": "durmei",
+      "prompt": "{他|tā}{病|bìng}{了|le}，{已经|yǐjīng}{三|sān}{天|tiān}（　）{吃|chī}{东西|dōngxi}{了|le}。",
+      "options": [
+        "{别|bié}",
+        "{没|méi}",
+        "{不是|búshì}",
+        "{没有了|méiyǒu le}"
+      ],
+      "answer": 1,
+      "explanation": "**Duration + 没 + verb + 了**.",
+      "notes": [
+        "别 is a command.",
+        "",
+        "不是 negates nouns.",
+        "没有了 can't go before a verb like this."
+      ],
+      "translation": "He's ill — he hasn't eaten for three days."
+    },
+    {
+      "point": "durmei",
+      "prompt": "Which one means 'I haven't seen him for a year'?",
+      "options": [
+        "{我|wǒ}{没|méi}{一|yì}{年|nián}{见|jiàn}{他|tā}{了|le}。",
+        "{我|wǒ}{一|yì}{年|nián}{见|jiàn}{他|tā}{了|le}{没|méi}。",
+        "{我|wǒ}{一|yì}{年|nián}{没|méi}{见|jiàn}{他|tā}{了|le}。",
+        "{我|wǒ}{见|jiàn}{他|tā}{一|yì}{年|nián}{没|méi}{了|le}。"
+      ],
+      "answer": 2,
+      "explanation": "**一年没见他了**.",
+      "notes": [
+        "The duration comes before 没.",
+        "没 goes before the verb.",
+        "",
+        "The duration comes before 没."
+      ],
+      "translation": "I haven't seen him for a year."
+    }
+  ]
+}

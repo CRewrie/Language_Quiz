@@ -1,0 +1,243 @@
+{
+  "id": "passive-causative",
+  "category": "Mixed practice (N5–N4)",
+  "title": "Transitivity, Passive & Causative",
+  "description": "開ける/開く pairs, てある/ておく/てしまう, passive られる, causative させる, causative-passive させられる.",
+  "level": "N4",
+  "questions": [
+    {
+      "prompt": "{暑|あつ}いですね。{窓|まど}を（　）。",
+      "options": [
+        "{開|あ}きます",
+        "{開|あ}くます",
+        "{開|あ}けます",
+        "{開|あ}こます"
+      ],
+      "answer": 2,
+      "explanation": "**開ける** (transitive) = someone opens something, with the object marked by を. **開く** (intransitive) = something opens by itself, with が.",
+      "notes": [
+        "開く is intransitive and can't take an object with を. You'd say 窓が開きます.",
+        "The ます-form of 開く is 開きます. You can't attach ます to the dictionary form.",
+        "",
+        "開こます isn't a form. 開こう is the volitional, which doesn't take ます."
+      ],
+      "translation": "It's hot, isn't it? I'll open the window."
+    },
+    {
+      "prompt": "{風|かぜ}で{窓|まど}が（　）います。",
+      "options": [
+        "{開|あ}いて",
+        "{開|あ}いって",
+        "{開|あ}けて",
+        "{開|あ}くて"
+      ],
+      "answer": 0,
+      "explanation": "**Intransitive verb + ている** describes a resulting state: 窓が開いている = 'the window is open'.",
+      "notes": [
+        "",
+        "There's no small っ. く-verbs become 〜いて.",
+        "開ける is transitive (it needs を and a person doing it). For a resulting state you'd say 窓が開けてある.",
+        "開くて isn't a form. The て-form of 開く is 開いて."
+      ],
+      "translation": "The window is open because of the wind."
+    },
+    {
+      "prompt": "{部屋|へや}の{電気|でんき}が（　）います。",
+      "options": [
+        "{消|け}して",
+        "{消|き}えて",
+        "{消|け}しって",
+        "{消|き}えって"
+      ],
+      "answer": 1,
+      "explanation": "**消える** (intransitive, 'go out') vs **消す** (transitive, 'turn off'). With が + ている for a state, use the intransitive: 電気が消えている.",
+      "notes": [
+        "消す is transitive. 電気が消している would mean the light is turning something off.",
+        "",
+        "消す becomes 消して. There's no small っ, and it's the wrong verb anyway.",
+        "消える is ichidan, so its て-form is 消えて (no っ)."
+      ],
+      "translation": "The light in the room is off."
+    },
+    {
+      "prompt": "{壁|かべ}にカレンダーが{掛|か}けて（　）。",
+      "options": [
+        "あります",
+        "います",
+        "しまいます",
+        "おきます"
+      ],
+      "answer": 0,
+      "explanation": "**Transitive verb + てある** = 'has been done (by someone, on purpose) and stays that way'. The object becomes the subject with が: カレンダーが掛けてある.",
+      "notes": [
+        "",
+        "With が, 掛けている would make the calendar the one doing the hanging. For the state of a thing someone deliberately hung, use てある (or the intransitive: カレンダーが掛かっている).",
+        "〜てしまう ('end up doing / regret') doesn't fit a neutral description of a state.",
+        "〜ておく ('do in advance') needs を and a person doing it: カレンダーを掛けておきます."
+      ],
+      "translation": "A calendar has been hung on the wall."
+    },
+    {
+      "prompt": "パーティーの{前|まえ}に、ビールを{買|か}って（　）。",
+      "options": [
+        "なります",
+        "おきます",
+        "あります",
+        "います"
+      ],
+      "answer": 1,
+      "explanation": "**〜ておく** = 'do … in advance / in preparation'. 'Before the party' signals preparation.",
+      "notes": [
+        "なる doesn't follow the て-form.",
+        "",
+        "〜てある takes が (ビールが買ってある) and describes a state, not an action you'll do.",
+        "買っています would mean 'am buying (right now)' or 'regularly buy'. It doesn't fit 'before the party'."
+      ],
+      "translation": "I'll buy beer before the party (in preparation)."
+    },
+    {
+      "prompt": "あっ、{財布|さいふ}を{家|いえ}に{忘|わす}れて（　）。",
+      "options": [
+        "おきました",
+        "ありました",
+        "みました",
+        "しまいました"
+      ],
+      "answer": 3,
+      "explanation": "**〜てしまう** = 'end up doing / do (unfortunately)'. It expresses regret or that something happened by accident.",
+      "notes": [
+        "〜ておく implies doing it on purpose, in preparation. Nobody forgets a wallet on purpose.",
+        "〜てある needs が and a deliberate action. 財布を…忘れてありました is ungrammatical.",
+        "〜てみる means 'try doing'. You can't try to forget.",
+        ""
+      ],
+      "translation": "Oh no, I left my wallet at home."
+    },
+    {
+      "prompt": "{電車|でんしゃ}の{中|なか}で{足|あし}を{踏|ふ}ま（　）。",
+      "options": [
+        "れました",
+        "られました",
+        "せました",
+        "させました"
+      ],
+      "answer": 0,
+      "explanation": "**Passive of godan verbs**: change the final u-sound to a and add **れる**: 踏む → 踏まれる. This is the 'suffering' passive: something unpleasant happened to me.",
+      "notes": [
+        "",
+        "られる is the passive ending for ichidan verbs (食べられる). Godan verbs take れる after the あ-stem.",
+        "踏ませました is causative ('I made someone step on…').",
+        "させる is the causative ending for ichidan verbs, so this is wrong in both form and meaning."
+      ],
+      "translation": "Someone stepped on my foot on the train."
+    },
+    {
+      "prompt": "{先生|せんせい}に{褒|ほ}め（　）。",
+      "options": [
+        "させました",
+        "れました",
+        "られました",
+        "らせました"
+      ],
+      "answer": 2,
+      "explanation": "**Passive of ichidan verbs**: drop る and add **られる**: 褒める → 褒められる ('be praised').",
+      "notes": [
+        "褒めさせました is causative ('made someone praise').",
+        "褒めれました is a shortened form (ら-nuki) that doesn't exist for the passive and is generally considered incorrect.",
+        "",
+        "らせる isn't a conjugation ending."
+      ],
+      "translation": "I was praised by my teacher."
+    },
+    {
+      "prompt": "{泥棒|どろぼう}にカバンを{盗|ぬす}ま（　）。",
+      "options": [
+        "られました",
+        "れました",
+        "りました",
+        "せました"
+      ],
+      "answer": 1,
+      "explanation": "盗む is godan: 盗む → 盗ま + **れる**. In this passive, the victim is the (unstated) subject, and the doer is marked with に.",
+      "notes": [
+        "られる is for ichidan verbs. Godan verbs take れる.",
+        "",
+        "盗まりました isn't a form.",
+        "盗ませました is causative: 'I made the thief steal my bag'."
+      ],
+      "translation": "My bag was stolen by a thief."
+    },
+    {
+      "prompt": "{母|はは}は{弟|おとうと}に{野菜|やさい}を{食|た}べ（　）。",
+      "options": [
+        "させました",
+        "らせました",
+        "られました",
+        "さられました"
+      ],
+      "answer": 0,
+      "explanation": "**Causative of ichidan verbs**: drop る and add **させる**: 食べる → 食べさせる ('make/let someone eat'). The person made to act is marked with に.",
+      "notes": [
+        "",
+        "らせる isn't a form for ichidan verbs.",
+        "食べられました is passive or potential, so the mother would be the one affected, not the one causing.",
+        "さられる isn't a form."
+      ],
+      "translation": "My mother made my younger brother eat his vegetables."
+    },
+    {
+      "prompt": "{先生|せんせい}は{学生|がくせい}に{作文|さくぶん}を（　）。",
+      "options": [
+        "{書|か}かれました",
+        "{書|か}かせました",
+        "{書|か}かさせました",
+        "{書|か}きさせました"
+      ],
+      "answer": 1,
+      "explanation": "**Causative of godan verbs**: change the final u-sound to a and add **せる**: 書く → 書かせる.",
+      "notes": [
+        "書かれました is passive, which flips the meaning ('the teacher was written…').",
+        "",
+        "させる is only for ichidan verbs. Godan verbs take せる after the あ-stem.",
+        "The ます-stem (書き) doesn't take させる."
+      ],
+      "translation": "The teacher had the students write an essay."
+    },
+    {
+      "prompt": "{子供|こども}のとき、{母|はは}にピアノを{習|なら}わ（　）ました。",
+      "options": [
+        "せれ",
+        "れ",
+        "させ",
+        "され"
+      ],
+      "answer": 3,
+      "explanation": "**Causative-passive** = 'be made to do (against your will)'. For godan verbs: 習う → 習わ**される** (short form of 習わせられる).",
+      "notes": [
+        "せれる isn't a form. It's either される or せられる.",
+        "習われました is plain passive. It doesn't express being forced.",
+        "習わせました is plain causative ('I made someone learn'), which flips who was forced.",
+        ""
+      ],
+      "translation": "When I was a child, my mother made me take piano lessons."
+    },
+    {
+      "prompt": "この{本|ほん}は{世界中|せかいじゅう}の{人|ひと}に{読|よ}ま（　）います。",
+      "options": [
+        "られて",
+        "れて",
+        "して",
+        "せて"
+      ],
+      "answer": 1,
+      "explanation": "Passive + ている = 'is being (widely) …': 読まれている = 'is read (by people)'. 読む is godan → 読まれる.",
+      "notes": [
+        "られる is for ichidan verbs. 読む is godan.",
+        "",
+        "読まして is a colloquial causative and doesn't express the passive.",
+        "読ませている = 'is making someone read'. That's causative and doesn't fit 'this book'."
+      ],
+      "translation": "This book is read by people all over the world."
+    }
+  ]
+}

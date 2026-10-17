@@ -1,0 +1,334 @@
+{
+  "id": "n3-toiu-family",
+  "category": "JLPT N3",
+  "title": "The という Family: という, ということだ, というのは, というと, というより, とおり",
+  "description": "As many as, I heard that, means / is, speaking of, rather than — plus doing things exactly as (とおり / どおり).",
+  "level": "N3",
+  "points": [
+    {
+      "id": "toiu",
+      "title": "〜という: as many as (emphasis on amount)",
+      "summary": "Number + という + noun = as many as (surprising amount): 何千という人.",
+      "body": "- **何千という**人が集まった (thousands of people gathered).\n- 100万円**という**お金.\n\nN4: という also means 'called' (トトロという映画).",
+      "examples": [
+        [
+          "{何千|なんぜん}という{人|ひと}が{集|あつ}まった。",
+          "Thousands of people gathered."
+        ]
+      ]
+    },
+    {
+      "id": "toiukotoda",
+      "title": "〜ということだ: I hear that, they say",
+      "summary": "Plain form + ということだ = reported information (hearsay), a bit more formal than そうだ.",
+      "body": "- 天気予報によると、明日は雪だ**ということだ**.\n- 部長は今日休みだ**ということです**.\n\nNouns/な-adj keep だ before という.",
+      "examples": [
+        [
+          "{部長|ぶちょう}は{今日|きょう}{休|やす}みだということです。",
+          "I hear the manager is off today."
+        ]
+      ]
+    },
+    {
+      "id": "toiunowa",
+      "title": "〜というのは: (X) means …, the reason is",
+      "summary": "X というのは Y (ということ/のこと)だ = defining or explaining a word/term.",
+      "body": "- 「積ん読」**というのは**、本を買っても読まないことです.\n- 'というのは' at the start of a sentence can also mean 'the reason is'.",
+      "examples": [
+        [
+          "「{積|つ}ん{読|どく}」というのは、{本|ほん}を{買|か}っても{読|よ}まないことです。",
+          "'Tsundoku' means buying books and not reading them."
+        ]
+      ]
+    },
+    {
+      "id": "toiuto",
+      "title": "〜というと: speaking of, when it comes to",
+      "summary": "Noun + というと = what comes to mind when you think of X.",
+      "body": "- 日本の夏**というと**、やっぱり花火ですね.\n\nVariants: といえば, といったら.",
+      "examples": [
+        [
+          "{日本|にほん}の{夏|なつ}というと、やっぱり{花火|はなび}ですね。",
+          "When it comes to Japanese summers, it's fireworks."
+        ]
+      ]
+    },
+    {
+      "id": "toiuyori",
+      "title": "〜というより: rather than (A, more like B)",
+      "summary": "Plain / noun + というより = it's more accurate to say B than A.",
+      "body": "- 今日は暖かい**というより**、暑いぐらいだ.\n- 彼は友達**というより**家族だ.",
+      "examples": [
+        [
+          "{今日|きょう}は{暖|あたた}かいというより、{暑|あつ}いぐらいだ。",
+          "Today isn't so much warm as hot."
+        ]
+      ]
+    },
+    {
+      "id": "toori",
+      "title": "〜とおり(に) / 〜どおり(に): exactly as",
+      "summary": "Verb + とおり(に) / noun + の + とおり / noun + どおり = in the same way as.",
+      "body": "- 先生が言った**とおり**に書いてください.\n- 説明書**の**とおりに作った.\n- 予定**どおり**に進んでいる (directly after a noun → voiced どおり).\n\nSpelling: とおり (not とうり).",
+      "examples": [
+        [
+          "{先生|せんせい}が{言|い}ったとおりに{書|か}いてください。",
+          "Please write it exactly as the teacher said."
+        ],
+        [
+          "{計画|けいかく}は{予定|よてい}どおりに{進|すす}んでいる。",
+          "The plan is progressing on schedule."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "toiu",
+      "prompt": "コンサートには{何千|なんぜん}（　）{人|ひと}が{集|あつ}まった。",
+      "options": [
+        "といった",
+        "という",
+        "とする",
+        "として"
+      ],
+      "answer": 1,
+      "explanation": "Emphasising a large number: **何千という**.",
+      "notes": [
+        "といった = 'such as'.",
+        "",
+        "とする can't modify 人 here.",
+        "として = 'as (a role)'."
+      ],
+      "translation": "Thousands of people came to the concert."
+    },
+    {
+      "point": "toiukotoda",
+      "prompt": "{天気予報|てんきよほう}によると、{明日|あした}は{雪|ゆき}だ（　）。",
+      "options": [
+        "ということだ",
+        "というように",
+        "といってだ",
+        "ということに"
+      ],
+      "answer": 0,
+      "explanation": "Hearsay: **ということだ**.",
+      "notes": [
+        "",
+        "というように = 'in such a way as'.",
+        "といってだ isn't grammatical.",
+        "ということに can't end the sentence."
+      ],
+      "translation": "According to the forecast, it will snow tomorrow."
+    },
+    {
+      "point": "toiukotoda",
+      "prompt": "What does 「{部長|ぶちょう}は{今日|きょう}{休|やす}みだということです」 mean?",
+      "options": [
+        "The manager says I should rest.",
+        "The manager is not resting today.",
+        "The manager decided to take a day off.",
+        "I hear the manager is off today."
+      ],
+      "answer": 3,
+      "explanation": "ということだ = **hearsay**.",
+      "notes": [
+        "That would be 休めと言った.",
+        "It says the manager *is* off.",
+        "That would be 休むことにした.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "toiunowa",
+      "prompt": "「{積|つ}ん{読|どく}」（　）、{本|ほん}を{買|か}っても{読|よ}まないことです。",
+      "options": [
+        "といっても",
+        "というと",
+        "というのは",
+        "というより"
+      ],
+      "answer": 2,
+      "explanation": "Defining a word: **というのは … ことです**.",
+      "notes": [
+        "といっても = 'although I say'.",
+        "というと = 'speaking of'.",
+        "",
+        "というより = 'rather than'."
+      ],
+      "translation": "'Tsundoku' means buying books and not reading them."
+    },
+    {
+      "point": "toiuto",
+      "prompt": "{日本|にほん}の{夏|なつ}（　）、やっぱり{花火|はなび}ですね。",
+      "options": [
+        "といっても",
+        "ということ",
+        "というより",
+        "というと"
+      ],
+      "answer": 3,
+      "explanation": "Speaking of: **というと**.",
+      "notes": [
+        "といっても = 'although'.",
+        "ということ = 'the fact that'.",
+        "というより = 'rather than'.",
+        ""
+      ],
+      "translation": "When it comes to Japanese summers, it's fireworks."
+    },
+    {
+      "point": "toiuyori",
+      "prompt": "{今日|きょう}は{暖|あたた}かい（　）、{暑|あつ}いぐらいだ。",
+      "options": [
+        "ということ",
+        "というより",
+        "といっても",
+        "というと"
+      ],
+      "answer": 1,
+      "explanation": "Rather than: **というより**.",
+      "notes": [
+        "ということ = 'the fact that'.",
+        "",
+        "といっても = 'although I say'.",
+        "というと = 'speaking of'."
+      ],
+      "translation": "Today isn't so much warm as hot."
+    },
+    {
+      "point": "toiuyori",
+      "prompt": "{彼|かれ}は{友達|ともだち}（　）{家族|かぞく}のような{存在|そんざい}だ。",
+      "options": [
+        "というより",
+        "といって",
+        "という",
+        "というと"
+      ],
+      "answer": 0,
+      "explanation": "More like B than A: **というより**.",
+      "notes": [
+        "",
+        "といって = 'saying'.",
+        "友達という家族 = 'a family called friend'.",
+        "というと = 'speaking of'."
+      ],
+      "translation": "He's less a friend and more like family."
+    },
+    {
+      "point": "toori",
+      "prompt": "{先生|せんせい}が{言|い}った（　）に{書|か}いてください。",
+      "options": [
+        "とおる",
+        "とおけ",
+        "とうり",
+        "とおり"
+      ],
+      "answer": 3,
+      "explanation": "Exactly as: **とおり(に)** (spelled とおり).",
+      "notes": [
+        "とおる is the verb 'pass'.",
+        "とおけ isn't a word.",
+        "とうり is a common misspelling.",
+        ""
+      ],
+      "translation": "Please write it exactly as the teacher said."
+    },
+    {
+      "point": "toori",
+      "prompt": "{計画|けいかく}は{予定|よてい}（　）に{進|すす}んでいる。",
+      "options": [
+        "とおり",
+        "どうり",
+        "どおり",
+        "とおる"
+      ],
+      "answer": 2,
+      "explanation": "Directly after a noun: **どおり** (voiced).",
+      "notes": [
+        "Without の, the noun takes どおり: 予定どおり (or 予定のとおり).",
+        "どうり is a misspelling.",
+        "",
+        "とおる is a verb."
+      ],
+      "translation": "The plan is progressing on schedule."
+    },
+    {
+      "point": "toiu",
+      "prompt": "100{万円|まんえん}（　）お{金|かね}を{落|お}としてしまった。",
+      "options": [
+        "とする",
+        "といった",
+        "として",
+        "という"
+      ],
+      "answer": 3,
+      "explanation": "Emphasising an amount: **という**.",
+      "notes": [
+        "とする can't modify お金 here.",
+        "といった = 'such as'.",
+        "として = 'as (a role)'.",
+        ""
+      ],
+      "translation": "I lost a whole million yen."
+    },
+    {
+      "point": "toiunowa",
+      "prompt": "{彼|かれ}は{来|こ}なかった。（　）、{熱|ねつ}があったからだ。",
+      "options": [
+        "といっても",
+        "というと",
+        "というのは",
+        "というより"
+      ],
+      "answer": 2,
+      "explanation": "Sentence-initial **というのは** = the reason is.",
+      "notes": [
+        "といっても = 'although'.",
+        "というと = 'speaking of'.",
+        "",
+        "というより = 'rather than'."
+      ],
+      "translation": "He didn't come. That's because he had a fever."
+    },
+    {
+      "point": "toiuto",
+      "prompt": "{京都|きょうと}（　）、{何|なに}を{思|おも}い{浮|う}かべますか。",
+      "options": [
+        "といっても",
+        "というより",
+        "ということ",
+        "というと"
+      ],
+      "answer": 3,
+      "explanation": "Speaking of: **というと**.",
+      "notes": [
+        "といっても = 'although'.",
+        "というより = 'rather than'.",
+        "ということ = 'the fact that'.",
+        ""
+      ],
+      "translation": "When you think of Kyoto, what comes to mind?"
+    },
+    {
+      "point": "toori",
+      "prompt": "{説明書|せつめいしょ}の（　）に{組|く}み{立|た}ててください。",
+      "options": [
+        "とおり",
+        "どおり",
+        "とうり",
+        "とおる"
+      ],
+      "answer": 0,
+      "explanation": "Noun + の + **とおり**.",
+      "notes": [
+        "",
+        "After の, use とおり (どおり attaches directly to a noun).",
+        "とうり is a misspelling.",
+        "とおる is a verb."
+      ],
+      "translation": "Please assemble it as shown in the manual."
+    }
+  ]
+}

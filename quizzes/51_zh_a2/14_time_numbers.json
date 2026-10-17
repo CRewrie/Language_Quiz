@@ -1,0 +1,262 @@
+{
+  "id": "zh-a2-time-numbers",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "Clock Times, Rough Numbers & 'Already': 点…分, 差, 三四个, 亿, 以前 / 以后, 过了",
+  "description": "Minutes and 'to the hour', approximate numbers, a hundred million, 'in the past / in future' on their own, and 吃过了.",
+  "level": "A2",
+  "points": [
+    {
+      "id": "fen",
+      "title": "点 + 分 / 差 + 分",
+      "summary": "8:15 = 八点十五(分) / 八点一刻. 差五分九点 = five to nine (8:55).",
+      "body": "- 八点十五分, 两点半, 差五分九点.",
+      "examples": [
+        [
+          "{现在|xiànzài}{差|chà}{五|wǔ}{分|fēn}{九|jiǔ}{点|diǎn}。",
+          "It's five to nine."
+        ]
+      ]
+    },
+    {
+      "id": "approx",
+      "title": "Two neighbouring numbers: about",
+      "summary": "Two consecutive numbers = roughly: 三四天 (three or four days), 二三十个 (twenty or thirty). Smaller first.",
+      "body": "- 我等了**三四**天.\n- 班里有**二三十**个学生.",
+      "examples": [
+        [
+          "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{了|le}{三四|sān sì}{天|tiān}。",
+          "I stayed in Beijing for three or four days."
+        ]
+      ]
+    },
+    {
+      "id": "yi",
+      "title": "亿: a hundred million",
+      "summary": "万 = 10,000, 亿 (yì) = 100,000,000. 十四亿 = 1.4 billion.",
+      "body": "- 中国有十四**亿**人.",
+      "examples": [
+        [
+          "{中国|Zhōngguó}{有|yǒu}{十四|shísì}{亿|yì}{人|rén}。",
+          "China has 1.4 billion people."
+        ]
+      ]
+    },
+    {
+      "id": "yiqianhou2",
+      "title": "以前，… / 以后，…: in the past / in future",
+      "summary": "On their own at the start, 以前 = 'in the past, used to' and 以后 = 'in future, later on'.",
+      "body": "- **以前**，我住在上海.\n- 我**以后**想当医生.",
+      "examples": [
+        [
+          "{以前|yǐqián}，{我|wǒ}{住|zhù}{在|zài}{上海|Shànghǎi}。",
+          "I used to live in Shanghai."
+        ]
+      ]
+    },
+    {
+      "id": "guole",
+      "title": "Verb + 过 + 了: already done",
+      "summary": "吃过了 / 看过了 = I've already done it (so no need now).",
+      "body": "- A: 一起吃饭吧! B: 我已经吃**过了**.",
+      "examples": [
+        [
+          "{我|wǒ}{已经|yǐjīng}{吃|chī}{过|guo}{了|le}。",
+          "I've already eaten."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "fen",
+      "prompt": "Which one means 8:15?",
+      "options": [
+        "{八|bā}{点|diǎn}{十五|shíwǔ}{个|ge}",
+        "{十五|shíwǔ}{分|fēn}{八|bā}{点|diǎn}",
+        "{八|bā}{点|diǎn}{十五|shíwǔ}{分|fēn}",
+        "{八十五|bāshíwǔ}{点|diǎn}"
+      ],
+      "answer": 2,
+      "explanation": "Hour + 点 + minutes + **分**.",
+      "notes": [
+        "Minutes are 分, not 个.",
+        "Hours come before minutes.",
+        "",
+        "That's '85 o'clock'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "fen",
+      "prompt": "What time is 「{差|chà}{五|wǔ}{分|fēn}{九|jiǔ}{点|diǎn}」?",
+      "options": [
+        "9:05",
+        "9:55",
+        "5:09",
+        "8:55"
+      ],
+      "answer": 3,
+      "explanation": "差 = **to (the hour)**.",
+      "notes": [
+        "差 = 'short of' — five minutes before nine.",
+        "差 = minus, not plus.",
+        "The hour is 九.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "approx",
+      "prompt": "What does 「{班|bān}{里|lǐ}{有|yǒu}{二三十|èr-sānshí}{个|ge}{学生|xuésheng}。」 mean?",
+      "options": [
+        "Thereare230students.",
+        "Thereare2or3students.",
+        "Thereare20or30studentsintheclass.",
+        "Thereare23students."
+      ],
+      "answer": 2,
+      "explanation": "Neighbouring numbers = **roughly**.",
+      "notes": [
+        "That would be 二百三十.",
+        "That would be 两三个.",
+        "",
+        "That would be 二十三."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "approx",
+      "prompt": "How do you say 'three or four days'?",
+      "options": [
+        "{四三|sì sān}{天|tiān}",
+        "{三四|sān sì}{天|tiān}",
+        "{三十四|sānshísì}{天|tiān}",
+        "{三|sān}{天|tiān}{四|sì}{天|tiān}"
+      ],
+      "answer": 1,
+      "explanation": "**三四天**.",
+      "notes": [
+        "The smaller number comes first.",
+        "",
+        "That's 34 days.",
+        "Not repeated like that."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yi",
+      "prompt": "{中国|Zhōngguó}{有|yǒu}{十四|shísì}（　）{人|rén}。",
+      "options": [
+        "{百|bǎi}",
+        "{千|qiān}",
+        "{亿|yì}",
+        "{万|wàn}"
+      ],
+      "answer": 2,
+      "explanation": "1.4 billion = **十四亿**.",
+      "notes": [
+        "十四百 isn't how Chinese counts.",
+        "十四千 isn't how Chinese counts (that's 一万四千).",
+        "",
+        "十四万 = 140,000."
+      ],
+      "translation": "China has 1.4 billion people."
+    },
+    {
+      "point": "yi",
+      "prompt": "How much is 「{一|yí}{亿|yì}」?",
+      "options": [
+        "1,000,000",
+        "1,000,000,000",
+        "10,000",
+        "100,000,000"
+      ],
+      "answer": 3,
+      "explanation": "亿 = **10⁸**.",
+      "notes": [
+        "That's 一百万.",
+        "That's 十亿.",
+        "That's 一万.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yiqianhou2",
+      "prompt": "（　），{我|wǒ}{住|zhù}{在|zài}{上海|Shànghǎi}，{现在|xiànzài}{住|zhù}{在|zài}{北京|Běijīng}。",
+      "options": [
+        "{刚才|gāngcái}",
+        "{后来|hòulái}",
+        "{以前|yǐqián}",
+        "{以后|yǐhòu}"
+      ],
+      "answer": 2,
+      "explanation": "In the past: **以前**.",
+      "notes": [
+        "刚才 = 'a moment ago'.",
+        "后来 = 'afterwards' — it would need an earlier event.",
+        "",
+        "以后 = 'in future' — clashes with 现在 being the later state."
+      ],
+      "translation": "I used to live in Shanghai; now I live in Beijing."
+    },
+    {
+      "point": "yiqianhou2",
+      "prompt": "{我|wǒ}（　）{想|xiǎng}{当|dāng}{医生|yīshēng}，{所以|suǒyǐ}{现在|xiànzài}{好好|hǎohǎo}{学习|xuéxí}。",
+      "options": [
+        "{以前|yǐqián}",
+        "{以后|yǐhòu}",
+        "{已经|yǐjīng}",
+        "{刚才|gāngcái}"
+      ],
+      "answer": 1,
+      "explanation": "In future: **以后**.",
+      "notes": [
+        "以前想 = 'used to want' — but you're studying for it now.",
+        "",
+        "已经想 isn't natural here.",
+        "刚才 = 'a moment ago'."
+      ],
+      "translation": "I want to be a doctor in future, so I'm studying hard now."
+    },
+    {
+      "point": "guole",
+      "prompt": "A：{一起|yìqǐ}{吃饭|chīfàn}{吧|ba}！\nB：{谢谢|xièxie}，{我|wǒ}{已经|yǐjīng}{吃|chī}（　）{了|le}。",
+      "options": [
+        "{过|guo}",
+        "{在|zài}",
+        "{着|zhe}",
+        "{到|dào}"
+      ],
+      "answer": 0,
+      "explanation": "Already done: **吃过了**.",
+      "notes": [
+        "",
+        "吃在了 isn't grammatical.",
+        "吃着了 isn't grammatical.",
+        "吃到了 = 'managed to get to eat (something)'."
+      ],
+      "translation": "A: Let's eat together! B: Thanks, but I've already eaten."
+    },
+    {
+      "point": "guole",
+      "prompt": "A：{这个|zhège}{电影|diànyǐng}{很|hěn}{好看|hǎokàn}，{你|nǐ}{去|qù}{看|kàn}{吧|ba}。\nB：{我|wǒ}{看|kàn}{过|guo}{了|le}。\nWhat does B mean?",
+      "options": [
+        "Ihaven'tseenit.",
+        "I'mwatchingitnow.",
+        "I'vealreadyseenit.",
+        "I'llwatchit."
+      ],
+      "answer": 2,
+      "explanation": "过了 = **already done**.",
+      "notes": [
+        "That's 我没看过.",
+        "That's 我在看.",
+        "",
+        "That's 我会去看."
+      ],
+      "translation": ""
+    }
+  ]
+}

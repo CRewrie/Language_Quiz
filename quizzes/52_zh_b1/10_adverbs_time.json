@@ -1,0 +1,331 @@
+{
+  "id": "zh-b1-adverbs-time",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Adverbs (1): 再 vs 又, 终于, 差点, 原来, 一下子, 正好",
+  "description": "Again (future vs past), finally, almost (but not), so it turns out, all at once, and just right.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "zai_you",
+      "title": "再 vs 又: again",
+      "summary": "再 (zài) = again **in the future / not yet happened** (再说一遍, 明天再来). 又 (yòu) = again **already happened** (又迟到了).",
+      "body": "- 我明天想**再**看一次.\n- 他今天**又**迟到了.",
+      "examples": [
+        [
+          "{请|qǐng}{再|zài}{说|shuō}{一|yí}{遍|biàn}。",
+          "Please say it again."
+        ]
+      ]
+    },
+    {
+      "id": "zhongyu",
+      "title": "终于 … 了: finally",
+      "summary": "终于 (zhōngyú) + verb + 了 = finally, after a long wait or effort.",
+      "body": "- 等了一个小时，公共汽车**终于**来**了**.",
+      "examples": [
+        [
+          "{我|wǒ}{终于|zhōngyú}{找|zhǎo}{到|dào}{工作|gōngzuò}{了|le}。",
+          "I've finally found a job."
+        ]
+      ]
+    },
+    {
+      "id": "chadian",
+      "title": "差点(儿): almost (but didn't)",
+      "summary": "差点(儿) (chàdiǎnr) + verb = it almost happened — but in the end it didn't.",
+      "body": "- 路上车太多，我**差点**迟到了.\n- 我**差点儿**忘了 (I almost forgot).",
+      "examples": [
+        [
+          "{我|wǒ}{差点儿|chàdiǎnr}{忘|wàng}{了|le}。",
+          "I almost forgot."
+        ]
+      ]
+    },
+    {
+      "id": "yuanlai",
+      "title": "原来: so it turns out",
+      "summary": "原来 (yuánlái) = 'so that's how it is' — discovering the real situation (often after 以为).",
+      "body": "- 我以为他是日本人，**原来**他是韩国人.\n- 难怪这么冷，**原来**窗户开着.",
+      "examples": [
+        [
+          "{原来|yuánlái}{他|tā}{是|shì}{韩国人|Hánguórén}。",
+          "So it turns out he's Korean."
+        ]
+      ]
+    },
+    {
+      "id": "yixiazi",
+      "title": "一下子: all at once, suddenly",
+      "summary": "一下子 + verb (+ 了) = suddenly / in one go.",
+      "body": "- 听到这个消息，她**一下子**哭了.\n- 他**一下子**就吃完了三碗饭.",
+      "examples": [
+        [
+          "{他|tā}{一下子|yíxiàzi}{就|jiù}{吃|chī}{完|wán}{了|le}。",
+          "He finished eating in no time."
+        ]
+      ]
+    },
+    {
+      "id": "zhenghao",
+      "title": "正好: just right, as it happens",
+      "summary": "正好 (zhènghǎo) = just at the right moment / just the right size or amount.",
+      "body": "- 我正要给你打电话，你**正好**来了.\n- 这件衣服**正好**，不大也不小.",
+      "examples": [
+        [
+          "{这|zhè}{件|jiàn}{衣服|yīfu}{正好|zhènghǎo}。",
+          "This piece of clothing fits just right."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "zai_you",
+      "prompt": "{这个|zhège}{电影|diànyǐng}{太|tài}{好看|hǎokàn}{了|le}，{我|wǒ}{明天|míngtiān}{想|xiǎng}（　）{看|kàn}{一|yí}{次|cì}。",
+      "options": [
+        "{再|zài}",
+        "{又|yòu}",
+        "{就|jiù}",
+        "{才|cái}"
+      ],
+      "answer": 0,
+      "explanation": "Again (future): **再**.",
+      "notes": [
+        "",
+        "又 is for repetitions that already happened.",
+        "就 = 'right away'.",
+        "才 = 'not until'."
+      ],
+      "translation": "This film is great — I want to see it again tomorrow."
+    },
+    {
+      "point": "zai_you",
+      "prompt": "{他|tā}{昨天|zuótiān}{迟到|chídào}{了|le}，{今天|jīntiān}（　）{迟到|chídào}{了|le}。",
+      "options": [
+        "{还|hái}",
+        "{才|cái}",
+        "{又|yòu}",
+        "{再|zài}"
+      ],
+      "answer": 2,
+      "explanation": "Again (already happened): **又**.",
+      "notes": [
+        "还迟到了 isn't natural.",
+        "才 doesn't take 了.",
+        "",
+        "再 is for the future."
+      ],
+      "translation": "He was late yesterday, and he's late again today."
+    },
+    {
+      "point": "zai_you",
+      "prompt": "Which one means 'Please say it again'?",
+      "options": [
+        "{请|qǐng}{再|zài}{说|shuō}{一|yí}{遍|biàn}。",
+        "{请|qǐng}{说|shuō}{一|yí}{遍|biàn}{又|yòu}。",
+        "{请|qǐng}{又|yòu}{说|shuō}{一|yí}{遍|biàn}。",
+        "{请|qǐng}{说|shuō}{再|zài}{一|yí}{遍|biàn}。"
+      ],
+      "answer": 0,
+      "explanation": "Request (future): **再 + verb**.",
+      "notes": [
+        "",
+        "又 can't end the sentence.",
+        "又 is for the past.",
+        "再 goes before the verb."
+      ],
+      "translation": "Please say it again."
+    },
+    {
+      "point": "zhongyu",
+      "prompt": "{等|děng}{了|le}{一个|yí ge}{小时|xiǎoshí}，{公共汽车|gōnggòng qìchē}（　）{来|lái}{了|le}。",
+      "options": [
+        "{正好|zhènghǎo}",
+        "{终于|zhōngyú}",
+        "{原来|yuánlái}",
+        "{差点|chàdiǎn}"
+      ],
+      "answer": 1,
+      "explanation": "Finally: **终于…了**.",
+      "notes": [
+        "正好 = 'just at the right time' — not after an hour.",
+        "",
+        "原来来了 isn't natural.",
+        "差点来了 = 'almost came' — but it came."
+      ],
+      "translation": "After waiting an hour, the bus finally came."
+    },
+    {
+      "point": "zhongyu",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{终于|zhōngyú}{找|zhǎo}{到|dào}{工作|gōngzuò}{过|guo}。",
+        "{我|wǒ}{找|zhǎo}{到|dào}{工作|gōngzuò}{终于|zhōngyú}{了|le}。",
+        "{我|wǒ}{终于|zhōngyú}{了|le}{找|zhǎo}{到|dào}{工作|gōngzuò}。",
+        "{我|wǒ}{终于|zhōngyú}{找|zhǎo}{到|dào}{工作|gōngzuò}{了|le}。"
+      ],
+      "answer": 3,
+      "explanation": "**终于** + verb + 了.",
+      "notes": [
+        "过 doesn't fit 'finally'.",
+        "终于 goes before the verb.",
+        "了 goes after the verb phrase.",
+        ""
+      ],
+      "translation": "I've finally found a job."
+    },
+    {
+      "point": "chadian",
+      "prompt": "{路|lù}{上|shang}{车|chē}{太|tài}{多|duō}，{我|wǒ}（　）{迟到|chídào}{了|le}。",
+      "options": [
+        "{差点|chàdiǎn}",
+        "{原来|yuánlái}",
+        "{差不多|chàbuduō}",
+        "{终于|zhōngyú}"
+      ],
+      "answer": 0,
+      "explanation": "Almost (but didn't): **差点**.",
+      "notes": [
+        "",
+        "原来 = 'so it turns out'.",
+        "差不多 = 'about the same'.",
+        "终于迟到了 = 'finally got to be late' — odd."
+      ],
+      "translation": "There was so much traffic that I was almost late."
+    },
+    {
+      "point": "chadian",
+      "prompt": "What does 「{我|wǒ}{差点儿|chàdiǎnr}{忘|wàng}{了|le}。」 mean?",
+      "options": [
+        "Iforgotcompletely.",
+        "Iforgotalittle.",
+        "I'llforgetsoon.",
+        "Ialmostforgot(butdidn't)."
+      ],
+      "answer": 3,
+      "explanation": "差点 = **almost**.",
+      "notes": [
+        "差点 = it didn't happen.",
+        "差点 isn't 'a little'.",
+        "That's 快忘了.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yuanlai",
+      "prompt": "{我|wǒ}{以为|yǐwéi}{他|tā}{是|shì}{日本人|Rìběnrén}，（　）{他|tā}{是|shì}{韩国人|Hánguórén}。",
+      "options": [
+        "{原来|yuánlái}",
+        "{终于|zhōngyú}",
+        "{差点|chàdiǎn}",
+        "{正好|zhènghǎo}"
+      ],
+      "answer": 0,
+      "explanation": "So it turns out: **原来**.",
+      "notes": [
+        "",
+        "终于 = 'finally'.",
+        "差点 = 'almost'.",
+        "正好 = 'just right'."
+      ],
+      "translation": "I thought he was Japanese — turns out he's Korean."
+    },
+    {
+      "point": "yuanlai",
+      "prompt": "{怪不得|guàibude}{这么|zhème}{冷|lěng}，（　）{窗户|chuānghu}{开|kāi}{着|zhe}。",
+      "options": [
+        "{终于|zhōngyú}",
+        "{差点|chàdiǎn}",
+        "{一下子|yíxiàzi}",
+        "{原来|yuánlái}"
+      ],
+      "answer": 3,
+      "explanation": "Discovering the reason: **原来**.",
+      "notes": [
+        "终于开着 doesn't fit.",
+        "差点 = 'almost'.",
+        "一下子 = 'all at once'.",
+        ""
+      ],
+      "translation": "No wonder it's so cold — the window's open!"
+    },
+    {
+      "point": "yixiazi",
+      "prompt": "{听|tīng}{到|dào}{这个|zhège}{消息|xiāoxi}，{她|tā}（　）{哭|kū}{了|le}。",
+      "options": [
+        "{一下|yíxià}",
+        "{一点|yìdiǎn}",
+        "{一下子|yíxiàzi}",
+        "{一些|yìxiē}"
+      ],
+      "answer": 2,
+      "explanation": "Suddenly: **一下子**.",
+      "notes": [
+        "一下 goes after a verb.",
+        "一点 goes after adjectives.",
+        "",
+        "一些 goes before nouns."
+      ],
+      "translation": "When she heard the news, she burst into tears."
+    },
+    {
+      "point": "yixiazi",
+      "prompt": "{他|tā}{太|tài}{饿|è}{了|le}，（　）{就|jiù}{吃|chī}{完|wán}{了|le}{三|sān}{碗|wǎn}{饭|fàn}。",
+      "options": [
+        "{一边|yìbiān}",
+        "{一起|yìqǐ}",
+        "{一下|yíxià}",
+        "{一下子|yíxiàzi}"
+      ],
+      "answer": 3,
+      "explanation": "In no time: **一下子**.",
+      "notes": [
+        "一边 needs a second 一边.",
+        "一起 = 'together'.",
+        "一下 goes after a verb.",
+        ""
+      ],
+      "translation": "He was so hungry he wolfed down three bowls of rice."
+    },
+    {
+      "point": "zhenghao",
+      "prompt": "{我|wǒ}{正|zhèng}{要|yào}{给|gěi}{你|nǐ}{打|dǎ}{电话|diànhuà}，{你|nǐ}（　）{来|lái}{了|le}。",
+      "options": [
+        "{差点|chàdiǎn}",
+        "{正好|zhènghǎo}",
+        "{原来|yuánlái}",
+        "{正在|zhèngzài}"
+      ],
+      "answer": 1,
+      "explanation": "As it happens: **正好**.",
+      "notes": [
+        "差点来了 = 'almost came'.",
+        "",
+        "原来来了 isn't natural.",
+        "正在来了 isn't grammatical."
+      ],
+      "translation": "I was just about to call you — and here you are."
+    },
+    {
+      "point": "zhenghao",
+      "prompt": "{这|zhè}{件|jiàn}{衣服|yīfu}{大小|dàxiǎo}（　），{不|bú}{大|dà}{也|yě}{不|bù}{小|xiǎo}。",
+      "options": [
+        "{差点|chàdiǎn}",
+        "{原来|yuánlái}",
+        "{终于|zhōngyú}",
+        "{正好|zhènghǎo}"
+      ],
+      "answer": 3,
+      "explanation": "Just right: **正好**.",
+      "notes": [
+        "差点 needs a verb.",
+        "原来 doesn't fit.",
+        "终于 needs a verb + 了.",
+        ""
+      ],
+      "translation": "This piece of clothing is just the right size — neither too big nor too small."
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": "zh-a2-aspect",
+  "category": "Mandarin A2",
+  "language": "zh",
+  "title": "Experience & Progress: 过, 正在, 一直, 刚 / 刚才, 从来",
+  "description": "Have you ever (过), in the middle of (正在…呢), all along (一直), just (刚 vs 刚才) and never (从来不 / 从来没).",
+  "level": "A2",
+  "points": [
+    {
+      "id": "guo",
+      "title": "Verb + 过: have (ever) done",
+      "summary": "过 (guo) marks an experience — something you've done at least once. Negative: 没 + verb + 过.",
+      "body": "- 我吃**过**饺子 (I've had dumplings before).\n- 我没去**过**上海 (I've never been to Shanghai).\n- 了 = a specific finished event; 过 = 'ever'.",
+      "examples": [
+        [
+          "{我|wǒ}{没|méi}{去|qù}{过|guo}{上海|Shànghǎi}。",
+          "I've never been to Shanghai."
+        ]
+      ]
+    },
+    {
+      "id": "zhengzai",
+      "title": "(正)在 + verb (+ 呢): in progress",
+      "summary": "正在 / 在 + verb = be doing right now. 呢 at the end is common.",
+      "body": "- 我**正在**做饭**呢**.\n- 他们**在**开会.",
+      "examples": [
+        [
+          "{我|wǒ}{正在|zhèngzài}{做饭|zuòfàn}{呢|ne}。",
+          "I'm cooking right now."
+        ]
+      ]
+    },
+    {
+      "id": "yizhi",
+      "title": "一直: all along, continuously",
+      "summary": "一直 (yìzhí) + verb = has been / kept doing all along.",
+      "body": "- 雨**一直**下了三天.\n- 我**一直**想去中国.",
+      "examples": [
+        [
+          "{我|wǒ}{一直|yìzhí}{想|xiǎng}{去|qù}{中国|Zhōngguó}。",
+          "I've always wanted to go to China."
+        ]
+      ]
+    },
+    {
+      "id": "gang",
+      "title": "刚 vs 刚才: just / just now",
+      "summary": "刚 (gāng) is an adverb: subject + 刚 + verb, can take a duration (刚来了一个月). 刚才 (gāngcái) is a time noun = a moment ago; it can start the sentence and go with 没/不.",
+      "body": "- 我**刚**到家.\n- **刚才**你去哪儿了?\n- 他**刚**来了一个月 — not ~~刚才来了一个月~~.",
+      "examples": [
+        [
+          "{刚才|gāngcái}{你|nǐ}{去|qù}{哪儿|nǎr}{了|le}？",
+          "Where did you go just now?"
+        ]
+      ]
+    },
+    {
+      "id": "conglai",
+      "title": "从来 + 不 / 没(有): never",
+      "summary": "从来不 = never (habit / principle). 从来没(有) + verb + 过 = have never (experience).",
+      "body": "- 他**从来不**喝酒.\n- 我**从来没**吃**过**北京烤鸭.",
+      "examples": [
+        [
+          "{他|tā}{从来|cónglái}{不|bù}{喝|hē}{酒|jiǔ}。",
+          "He never drinks."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "guo",
+      "prompt": "What does 「{我|wǒ}{吃|chī}{过|guo}{饺子|jiǎozi}。」 mean?",
+      "options": [
+        "I'meatingdumplings.",
+        "I'vehaddumplingsbefore.",
+        "I'vejusteatendumplings.",
+        "Iatetoomanydumplings."
+      ],
+      "answer": 1,
+      "explanation": "过 = **experience**.",
+      "notes": [
+        "That's 我在吃饺子.",
+        "",
+        "That's 我刚吃了饺子.",
+        "That's 吃得太多了."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "guo",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{没|méi}{去|qù}{上海|Shànghǎi}{过|guo}。",
+        "{我|wǒ}{不|bú}{去|qù}{过|guo}{上海|Shànghǎi}。",
+        "{我|wǒ}{没|méi}{去|qù}{过|guo}{上海|Shànghǎi}。",
+        "{我|wǒ}{没|méi}{去|qù}{了|le}{上海|Shànghǎi}。"
+      ],
+      "answer": 2,
+      "explanation": "**没 + verb + 过**.",
+      "notes": [
+        "过 goes right after the verb.",
+        "Experience is negated with 没, not 不.",
+        "",
+        "No 了 after 没."
+      ],
+      "translation": "I've never been to Shanghai."
+    },
+    {
+      "point": "zhengzai",
+      "prompt": "A：{你|nǐ}{在|zài}{做|zuò}{什么|shénme}？\nB：{我|wǒ}（　）{做饭|zuòfàn}{呢|ne}。",
+      "options": [
+        "{正在|zhèngzài}",
+        "{就|jiù}",
+        "{刚|gāng}",
+        "{已经|yǐjīng}"
+      ],
+      "answer": 0,
+      "explanation": "In progress: **正在…呢**.",
+      "notes": [
+        "",
+        "就 doesn't express 'in progress'.",
+        "刚做饭呢 isn't natural.",
+        "已经做饭呢 doesn't fit — 已经 needs 了."
+      ],
+      "translation": "A: What are you doing? B: I'm cooking."
+    },
+    {
+      "point": "zhengzai",
+      "prompt": "{别|bié}{进去|jìnqù}，{他们|tāmen}{正在|zhèngzài}{开会|kāihuì}（　）。",
+      "options": [
+        "{过|guo}",
+        "{了|le}",
+        "{呢|ne}",
+        "{吗|ma}"
+      ],
+      "answer": 2,
+      "explanation": "**正在…呢**.",
+      "notes": [
+        "正在 and 过 don't go together.",
+        "正在…了 isn't the pattern.",
+        "",
+        "吗 makes a question."
+      ],
+      "translation": "Don't go in — they're in a meeting."
+    },
+    {
+      "point": "yizhi",
+      "prompt": "{雨|yǔ}（　）{下|xià}{了|le}{三|sān}{天|tiān}，{还|hái}{没|méi}{停|tíng}。",
+      "options": [
+        "{一直|yìzhí}",
+        "{刚|gāng}",
+        "{从来|cónglái}",
+        "{正在|zhèngzài}"
+      ],
+      "answer": 0,
+      "explanation": "All along: **一直**.",
+      "notes": [
+        "",
+        "刚 + three days of rain doesn't fit 还没停.",
+        "从来 needs a negative.",
+        "正在 doesn't combine with 了 + duration."
+      ],
+      "translation": "It's been raining for three days without stopping."
+    },
+    {
+      "point": "yizhi",
+      "prompt": "{我|wǒ}（　）{想|xiǎng}{去|qù}{中国|Zhōngguó}{留学|liúxué}，{明年|míngnián}{终于|zhōngyú}{可以|kěyǐ}{去|qù}{了|le}。",
+      "options": [
+        "{刚才|gāngcái}",
+        "{马上|mǎshàng}",
+        "{一直|yìzhí}",
+        "{刚|gāng}"
+      ],
+      "answer": 2,
+      "explanation": "Always (wanted): **一直**.",
+      "notes": [
+        "刚才 = 'a moment ago'.",
+        "马上 = 'right away'.",
+        "",
+        "刚想 = 'just thought of'."
+      ],
+      "translation": "I've always wanted to study in China — next year I finally can."
+    },
+    {
+      "point": "gang",
+      "prompt": "（　）{你|nǐ}{去|qù}{哪儿|nǎr}{了|le}？{我|wǒ}{找|zhǎo}{了|le}{你|nǐ}{半天|bàntiān}。",
+      "options": [
+        "{刚才|gāngcái}",
+        "{一直|yìzhí}",
+        "{刚|gāng}",
+        "{已经|yǐjīng}"
+      ],
+      "answer": 0,
+      "explanation": "A moment ago (sentence start): **刚才**.",
+      "notes": [
+        "",
+        "一直 can't start the sentence like this.",
+        "刚 is an adverb — it can't start the sentence.",
+        "已经 can't start the sentence like this."
+      ],
+      "translation": "Where did you go just now? I've been looking for you for ages."
+    },
+    {
+      "point": "gang",
+      "prompt": "{他|tā}（　）{来|lái}{了|le}{一个|yí ge}{月|yuè}，{还|hái}{不|bú}{太|tài}{习惯|xíguàn}。",
+      "options": [
+        "{一直|yìzhí}",
+        "{刚|gāng}",
+        "{刚才|gāngcái}",
+        "{从来|cónglái}"
+      ],
+      "answer": 1,
+      "explanation": "Just (+ duration): **刚**.",
+      "notes": [
+        "一直来了 isn't grammatical.",
+        "",
+        "刚才 can't go with a duration like 一个月.",
+        "从来 needs a negative."
+      ],
+      "translation": "He came only a month ago and isn't used to it yet."
+    },
+    {
+      "point": "conglai",
+      "prompt": "{我|wǒ}{从来|cónglái}{没|méi}{吃|chī}（　）{北京|Běijīng}{烤鸭|kǎoyā}。",
+      "options": [
+        "{着|zhe}",
+        "{在|zài}",
+        "{了|le}",
+        "{过|guo}"
+      ],
+      "answer": 3,
+      "explanation": "Never (experience): **从来没…过**.",
+      "notes": [
+        "着 doesn't fit.",
+        "在 goes before the verb.",
+        "No 了 after 没.",
+        ""
+      ],
+      "translation": "I've never had Peking duck."
+    },
+    {
+      "point": "conglai",
+      "prompt": "{他|tā}（　）{不|bù}{喝|hē}{酒|jiǔ}，{也|yě}{不|bù}{抽烟|chōuyān}。",
+      "options": [
+        "{已经|yǐjīng}",
+        "{从来|cónglái}",
+        "{正在|zhèngzài}",
+        "{刚|gāng}"
+      ],
+      "answer": 1,
+      "explanation": "Never (habit): **从来不**.",
+      "notes": [
+        "已经不 would need 了 at the end.",
+        "",
+        "正在不 isn't grammatical.",
+        "刚不 isn't grammatical."
+      ],
+      "translation": "He never drinks or smokes."
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "id": "n2-rules-purpose",
+  "category": "JLPT N2",
+  "title": "Rules & Aims: てはならない, には, つもりで, お〜願う, たまえ, を〜として, かいがある",
+  "description": "Must not (formal), in order to, as if / with the intention of, polite requests, commands from superiors, treating as, and being worth the effort.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "tewanaranai",
+      "title": "〜てはならない: must not (formal)",
+      "summary": "て-form + はならない = must not (rules, moral statements). Formal てはいけない.",
+      "body": "- 人の命を軽く考えて**はならない**.\n- ここに車を止めて**はならない**.",
+      "examples": [
+        [
+          "{人|ひと}の{命|いのち}を{軽|かる}く{考|かんが}えてはならない。",
+          "Human life must never be taken lightly."
+        ]
+      ]
+    },
+    {
+      "id": "niwa",
+      "title": "〜には: in order to, for (doing)",
+      "summary": "Dictionary form + には + (必要だ / いい / 〜ばいい) = for the purpose of doing.",
+      "body": "- 合格する**には**、もっと勉強が必要だ.\n- 駅へ行く**には**、どのバスに乗ればいいですか.",
+      "examples": [
+        [
+          "{合格|ごうかく}するには、もっと{勉強|べんきょう}が{必要|ひつよう}だ。",
+          "To pass, you need to study more."
+        ]
+      ]
+    },
+    {
+      "id": "tsumoride",
+      "title": "〜つもりで: with the intention / as if",
+      "summary": "Dictionary / た-form + つもりで = with the mindset of (doing / having done).",
+      "body": "- 死んだ**つもりで**頑張る (work as if your life depended on it).\n- 旅行に行った**つもりで**、そのお金を貯金した (pretended I'd gone and saved the money).",
+      "examples": [
+        [
+          "{旅行|りょこう}に{行|い}ったつもりで、そのお{金|かね}を{貯金|ちょきん}した。",
+          "I saved the money, as if I'd spent it on a trip."
+        ]
+      ]
+    },
+    {
+      "id": "onegau",
+      "title": "お〜願う: please (business-polite request)",
+      "summary": "お + stem + 願います / ご + する-noun + 願います = a formal request (announcements, business).",
+      "body": "- 少々お待ち**願います**.\n- 書類をご確認**願います**.",
+      "examples": [
+        [
+          "{少々|しょうしょう}お{待|ま}ち{願|ねが}います。",
+          "Please wait a moment."
+        ]
+      ]
+    },
+    {
+      "id": "tamae",
+      "title": "〜たまえ: do (command from a superior)",
+      "summary": "ます-stem + たまえ = a command used by (older, male) superiors to subordinates.",
+      "body": "- 早く来**たまえ**.\n- これを読み**たまえ**.\n\nOld-fashioned; you'll meet it in novels, dramas, or from a boss.",
+      "examples": [
+        [
+          "これを{読|よ}みたまえ。",
+          "Read this."
+        ]
+      ]
+    },
+    {
+      "id": "wotoshite",
+      "title": "AをBとして: treating A as B",
+      "summary": "Noun A + を + noun B + として = with A as B (role/position).",
+      "body": "- 子供の健康を第一**として**考える.\n- 田中さんをリーダー**として**、チームを作った.",
+      "examples": [
+        [
+          "{田中|たなか}さんをリーダーとして、チームを{作|つく}った。",
+          "We formed a team with Tanaka as leader."
+        ]
+      ]
+    },
+    {
+      "id": "kaigaaru",
+      "title": "〜かいがある: worth the effort",
+      "summary": "た-form / noun + の + かい(甲斐)がある = it paid off. Negative: かいがない.",
+      "body": "- 頑張った**かいがあった**.\n- 苦労して作った**かいがあって**、みんな喜んでくれた.",
+      "examples": [
+        [
+          "{頑張|がんば}ったかいがあった。",
+          "My hard work paid off."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tewanaranai",
+      "prompt": "{人|ひと}の{命|いのち}を{軽|かる}く{考|かんが}えて（　）。",
+      "options": [
+        "はならなく",
+        "もならない",
+        "はならない",
+        "はなる"
+      ],
+      "answer": 2,
+      "explanation": "Must not: **てはならない**.",
+      "notes": [
+        "ならなく can't end the sentence.",
+        "てもならない isn't the pattern.",
+        "",
+        "The pattern is negative."
+      ],
+      "translation": "Human life must never be taken lightly."
+    },
+    {
+      "point": "tewanaranai",
+      "prompt": "（Notice）ここに{車|くるま}を{止|と}めては（　）。",
+      "options": [
+        "なれない",
+        "ならない",
+        "ならず",
+        "なりない"
+      ],
+      "answer": 1,
+      "explanation": "**てはならない**.",
+      "notes": [
+        "なれない = 'can't become'.",
+        "",
+        "ならず can't end the sentence here.",
+        "なりない isn't a form."
+      ],
+      "translation": "Parking here is prohibited."
+    },
+    {
+      "point": "niwa",
+      "prompt": "{合格|ごうかく}する（　）、もっと{勉強|べんきょう}が{必要|ひつよう}だ。",
+      "options": [
+        "にも",
+        "では",
+        "のは",
+        "には"
+      ],
+      "answer": 3,
+      "explanation": "In order to: **には**.",
+      "notes": [
+        "にも = 'also for'.",
+        "では isn't the pattern.",
+        "のは = 'the fact of' — doesn't fit 必要.",
+        ""
+      ],
+      "translation": "To pass, you need to study more."
+    },
+    {
+      "point": "niwa",
+      "prompt": "{駅|えき}へ{行|い}く（　）、どのバスに{乗|の}ればいいですか。",
+      "options": [
+        "にも",
+        "では",
+        "には",
+        "とは"
+      ],
+      "answer": 2,
+      "explanation": "To get to: **には**.",
+      "notes": [
+        "にも = 'also'.",
+        "では isn't the pattern.",
+        "",
+        "とは = 'as for (definition)'."
+      ],
+      "translation": "To get to the station, which bus should I take?"
+    },
+    {
+      "point": "tsumoride",
+      "prompt": "{死|し}んだ（　）{頑張|がんば}れば、できないことはない。",
+      "options": [
+        "つもりで",
+        "つもりに",
+        "つもりを",
+        "つもりが"
+      ],
+      "answer": 0,
+      "explanation": "With the mindset: **つもりで**.",
+      "notes": [
+        "",
+        "つもりに isn't the pattern.",
+        "つもりを isn't the pattern.",
+        "つもりが = 'the intention (was)'."
+      ],
+      "translation": "If you work as if your life depended on it, nothing is impossible."
+    },
+    {
+      "point": "tsumoride",
+      "prompt": "{旅行|りょこう}に{行|い}った（　）、そのお{金|かね}を{貯金|ちょきん}した。",
+      "options": [
+        "つもりに",
+        "つもりを",
+        "つもりで",
+        "つもりが"
+      ],
+      "answer": 2,
+      "explanation": "As if (I had): **たつもりで**.",
+      "notes": [
+        "つもりに isn't the pattern.",
+        "つもりを isn't the pattern.",
+        "",
+        "つもりが = 'meant to, but'."
+      ],
+      "translation": "I saved the money, as if I'd spent it on a trip."
+    },
+    {
+      "point": "onegau",
+      "prompt": "（Announcement）{少々|しょうしょう}お{待|ま}ち（　）。",
+      "options": [
+        "{願|ねが}いなさい",
+        "{願|ねが}います",
+        "{願|ねが}いします",
+        "{願|ねが}われます"
+      ],
+      "answer": 1,
+      "explanation": "Formal request: **お〜願います**.",
+      "notes": [
+        "願いなさい isn't a polite request.",
+        "",
+        "願いします isn't a form.",
+        "願われます = passive."
+      ],
+      "translation": "Please wait a moment."
+    },
+    {
+      "point": "onegau",
+      "prompt": "{書類|しょるい}をご{確認|かくにん}（　）。",
+      "options": [
+        "{願|ねが}われます",
+        "{願|ねが}いなさい",
+        "{願|ねが}いします",
+        "{願|ねが}います"
+      ],
+      "answer": 3,
+      "explanation": "**ご〜願います**.",
+      "notes": [
+        "Passive.",
+        "Not polite.",
+        "Not a form.",
+        ""
+      ],
+      "translation": "Please check the documents."
+    },
+    {
+      "point": "tamae",
+      "prompt": "（Boss to subordinate）{早|はや}く{来|き}（　）。",
+      "options": [
+        "たまい",
+        "たまえ",
+        "たまう",
+        "たまれ"
+      ],
+      "answer": 1,
+      "explanation": "Command: **たまえ**.",
+      "notes": [
+        "たまい isn't a command.",
+        "",
+        "たまう is archaic honorific.",
+        "たまれ isn't a form."
+      ],
+      "translation": "Come here quickly."
+    },
+    {
+      "point": "tamae",
+      "prompt": "きみ、これを{読|よ}み（　）。",
+      "options": [
+        "たまえ",
+        "たまい",
+        "たまう",
+        "たまえる"
+      ],
+      "answer": 0,
+      "explanation": "**たまえ**.",
+      "notes": [
+        "",
+        "たまい isn't a command.",
+        "たまう isn't a command.",
+        "たまえる isn't the form."
+      ],
+      "translation": "You there, read this."
+    },
+    {
+      "point": "wotoshite",
+      "prompt": "{子供|こども}の{健康|けんこう}を{第一|だいいち}（　）{考|かんが}える。",
+      "options": [
+        "にして",
+        "として",
+        "とする",
+        "とした"
+      ],
+      "answer": 1,
+      "explanation": "Treating as: **を〜として**.",
+      "notes": [
+        "にして isn't the pattern here.",
+        "",
+        "とする can't connect to 考える.",
+        "とした must modify a noun."
+      ],
+      "translation": "We put the children's health first."
+    },
+    {
+      "point": "wotoshite",
+      "prompt": "{田中|たなか}さんをリーダー（　）、チームを{作|つく}った。",
+      "options": [
+        "について",
+        "にとって",
+        "によって",
+        "として"
+      ],
+      "answer": 3,
+      "explanation": "With A as B: **AをBとして**.",
+      "notes": [
+        "について = 'about'.",
+        "にとって = 'for'.",
+        "によって = 'by'.",
+        ""
+      ],
+      "translation": "We formed a team with Tanaka as leader."
+    },
+    {
+      "point": "kaigaaru",
+      "prompt": "{試験|しけん}に{合格|ごうかく}した。{頑張|がんば}った（　）があった。",
+      "options": [
+        "かい",
+        "かう",
+        "かお",
+        "かえ"
+      ],
+      "answer": 0,
+      "explanation": "Worth it: **かいがある**.",
+      "notes": [
+        "",
+        "かう = 'buy'.",
+        "かお = 'face'.",
+        "かえ isn't the word."
+      ],
+      "translation": "I passed the exam. My hard work paid off."
+    },
+    {
+      "point": "kaigaaru",
+      "prompt": "{苦労|くろう}して{作|つく}った（　）、みんな{喜|よろこ}んでくれた。",
+      "options": [
+        "かいから",
+        "かいがあって",
+        "かいでも",
+        "かいがない"
+      ],
+      "answer": 1,
+      "explanation": "**かいがあって**.",
+      "notes": [
+        "かいから isn't the pattern.",
+        "",
+        "かいでも isn't the pattern.",
+        "かいがない = 'not worth it' — contradicts 喜んでくれた."
+      ],
+      "translation": "All the effort I put into it paid off — everyone was delighted."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+/target
+/site
+
+# Reference material and screenshots: not ours to publish (a GitHub Pages repo is public).
+/Top‑Rated Japanese Language School in Japan _ Meiji Academy.html
+/Top‑Rated Japanese Language School in Japan _ Meiji Academy_files/
+/Course JLPT Cover.xlsx
+/IMG_*.jpg
+__pycache__/

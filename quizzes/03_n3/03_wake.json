@@ -1,0 +1,291 @@
+{
+  "id": "n3-wake",
+  "category": "JLPT N3",
+  "title": "The わけ Family: わけだ, わけではない, わけがない, わけにはいかない",
+  "description": "Four look-alike patterns with very different meanings: no wonder, it's not that, no way, and can't afford to.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "wakeda",
+      "title": "〜わけだ: no wonder, that's why",
+      "summary": "Plain form + わけだ = a logical conclusion: 'so that's why / no wonder'. Nouns take の/な (学生なわけだ), な-adj take な.",
+      "body": "わけ means 'reason, logic'. **わけだ** draws the natural conclusion from facts you just learned:\n- 毎日3時間も練習しているのか。上手な**わけだ** (No wonder he's good.)\n- 10年もアメリカにいた。英語がペラペラな**わけだ**.\n\n**Attachment:** plain form; な-adj + な; nouns + な/の (学生な**わけ**).\n\n**わけだ vs はずだ:** はずだ predicts what *should* be true; わけだ explains something you *already see* ('that explains it').",
+      "examples": [
+        [
+          "{毎日|まいにち}3{時間|じかん}も{練習|れんしゅう}しているのか。{上手|じょうず}なわけだ。",
+          "He practises 3 hours a day? No wonder he's good."
+        ]
+      ]
+    },
+    {
+      "id": "wakedewanai",
+      "title": "〜わけではない: it's not that …, it doesn't mean that",
+      "summary": "Plain form + わけではない = partial denial: 'it's not (exactly) that …'.",
+      "body": "- 日本料理が嫌いな**わけではない**が、今日は食べたくない (It's not that I dislike Japanese food, but…).\n- お金がない**わけではない** (it's not that I have no money).\n\nOften with **別に** / **必ずしも** and followed by が/けど. Casual: わけじゃない.",
+      "examples": [
+        [
+          "{日本料理|にほんりょうり}が{嫌|きら}いなわけではないが、{今日|きょう}は{食|た}べたくない。",
+          "It's not that I dislike Japanese food, but I don't want it today."
+        ]
+      ]
+    },
+    {
+      "id": "wakeganai",
+      "title": "〜わけがない: there's no way that …",
+      "summary": "Plain form + わけがない = strong denial: 'impossible, can't be'. Casual: わけない.",
+      "body": "- あんなに練習したんだから、負ける**わけがない** (there's no way we'll lose).\n- 彼が嘘をつく**わけがない**.\n\nVery similar to **はずがない**; わけがない sounds a bit more emotional/colloquial.",
+      "examples": [
+        [
+          "{彼|かれ}が{嘘|うそ}をつくわけがない。",
+          "There's no way he would lie."
+        ]
+      ]
+    },
+    {
+      "id": "wakeniwaikanai",
+      "title": "〜わけにはいかない: can't (afford to), must not",
+      "summary": "Dictionary form + わけにはいかない = can't do it because of social/moral reasons. ない-form + わけにはいかない = must do.",
+      "body": "- 明日は大事な試験があるから、休む**わけにはいかない** (I can't afford to take a day off).\n- 友達の結婚式だから、行か**ないわけにはいかない** (I can't *not* go → I must go).\n\nThe 'can't' comes from circumstances or obligation, not from physical inability (that would be 〜られない).",
+      "examples": [
+        [
+          "{明日|あした}は{大事|だいじ}な{試験|しけん}があるから、{休|やす}むわけにはいかない。",
+          "I have an important exam tomorrow, so I can't afford to skip."
+        ],
+        [
+          "{友達|ともだち}の{結婚式|けっこんしき}だから、{行|い}かないわけにはいかない。",
+          "It's my friend's wedding, so I have to go."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "wakeda",
+      "prompt": "{毎日|まいにち}3{時間|じかん}も{練習|れんしゅう}しているのか。{上手|じょうず}な（　）だ。",
+      "options": [
+        "わけで",
+        "わけが",
+        "わけに",
+        "わけ"
+      ],
+      "answer": 3,
+      "explanation": "'No wonder': **わけだ**.",
+      "notes": [
+        "わけでだ isn't grammatical.",
+        "わけがだ isn't grammatical.",
+        "わけにだ isn't grammatical.",
+        ""
+      ],
+      "translation": "He practises 3 hours a day? No wonder he's good."
+    },
+    {
+      "point": "wakeda",
+      "prompt": "{彼|かれ}は10{年|ねん}もアメリカにいた。{英語|えいご}がペラペラな（　）。",
+      "options": [
+        "わけではない",
+        "わけがない",
+        "わけだ",
+        "わけにはいかない"
+      ],
+      "answer": 2,
+      "explanation": "Ten years in America → the logical conclusion: **わけだ**.",
+      "notes": [
+        "わけではない ('it's not that …') denies the obvious conclusion.",
+        "わけがない ('no way') contradicts ten years in America.",
+        "",
+        "わけにはいかない ('can't afford to') makes no sense here."
+      ],
+      "translation": "He lived in America for 10 years — no wonder his English is fluent."
+    },
+    {
+      "point": "wakedewanai",
+      "prompt": "{日本料理|にほんりょうり}が{嫌|きら}いな（　）が、{今日|きょう}は{食|た}べたくない。",
+      "options": [
+        "わけがない",
+        "わけにはいかない",
+        "わけだ",
+        "わけではない"
+      ],
+      "answer": 3,
+      "explanation": "Partial denial + が: **わけではない**.",
+      "notes": [
+        "わけがない ('no way I dislike it') + が is odd here.",
+        "わけにはいかない doesn't fit 嫌い.",
+        "わけだ ('that's why I dislike it') contradicts the が-clause.",
+        ""
+      ],
+      "translation": "It's not that I dislike Japanese food, but I don't want it today."
+    },
+    {
+      "point": "wakedewanai",
+      "prompt": "What does 「お{金|かね}がないわけではない」 mean?",
+      "options": [
+        "There's no way I have no money.",
+        "It's not that I don't have money.",
+        "No wonder I have no money.",
+        "I can't afford to have no money."
+      ],
+      "answer": 1,
+      "explanation": "わけではない = partial denial.",
+      "notes": [
+        "That's ないわけがない.",
+        "",
+        "That's ないわけだ.",
+        "That's ないわけにはいかない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "wakeganai",
+      "prompt": "あんなに{練習|れんしゅう}したんだから、{負|ま}ける（　）。",
+      "options": [
+        "わけではない",
+        "わけだ",
+        "わけがない",
+        "わけで"
+      ],
+      "answer": 2,
+      "explanation": "'There's no way' → **わけがない**.",
+      "notes": [
+        "わけではない = 'it's not that we'll lose' — not the strong denial.",
+        "わけだ = 'no wonder we lose' — contradicts all that practice.",
+        "",
+        "わけで leaves the sentence unfinished."
+      ],
+      "translation": "We practised so much — there's no way we'll lose."
+    },
+    {
+      "point": "wakeganai",
+      "prompt": "{彼|かれ}が{嘘|うそ}をつく（　）。",
+      "options": [
+        "わけがある",
+        "わけがない",
+        "わけはなく",
+        "わけをない"
+      ],
+      "answer": 1,
+      "explanation": "**わけがない** = no way.",
+      "notes": [
+        "わけがある = 'there's a reason' — not a denial.",
+        "",
+        "わけはなく can't end the sentence.",
+        "わけをない isn't grammatical."
+      ],
+      "translation": "There's no way he would lie."
+    },
+    {
+      "point": "wakeniwaikanai",
+      "prompt": "{明日|あした}は{大事|だいじ}な{試験|しけん}があるから、{休|やす}む（　）。",
+      "options": [
+        "わけにいかなく",
+        "わけではいかない",
+        "わけにはいかない",
+        "わけにはいる"
+      ],
+      "answer": 2,
+      "explanation": "Can't afford to: **わけにはいかない**.",
+      "notes": [
+        "いかなく can't end the sentence.",
+        "The particle is に, not で.",
+        "",
+        "いる isn't part of the pattern."
+      ],
+      "translation": "I have an important exam tomorrow, so I can't afford to skip."
+    },
+    {
+      "point": "wakeniwaikanai",
+      "prompt": "（I have to go.）{友達|ともだち}の{結婚式|けっこんしき}だから、{行|い}か（　）。",
+      "options": [
+        "なくわけにはいかない",
+        "ないわけにはいく",
+        "ないわけにいかなく",
+        "ないわけにはいかない"
+      ],
+      "answer": 3,
+      "explanation": "ない + わけにはいかない = can't *not* do → must.",
+      "notes": [
+        "なく isn't the right form — use ない.",
+        "いく — the pattern is negative: いかない.",
+        "いかなく can't end the sentence.",
+        ""
+      ],
+      "translation": "It's my friend's wedding, so I have to go."
+    },
+    {
+      "point": "wakeda",
+      "prompt": "{寝坊|ねぼう}したのか。それで{遅刻|ちこく}した（　）。",
+      "options": [
+        "わけにはいかない",
+        "わけだ",
+        "わけではない",
+        "わけがない"
+      ],
+      "answer": 1,
+      "explanation": "Explaining what you see: **わけだ** (so that's why).",
+      "notes": [
+        "わけにはいかない ('can't afford to') doesn't fit.",
+        "",
+        "わけではない ('it's not that…') doesn't fit.",
+        "わけがない ('no way') contradicts the oversleeping."
+      ],
+      "translation": "You overslept? So that's why you were late."
+    },
+    {
+      "point": "wakedewanai",
+      "prompt": "{嫌|きら}いな（　）けど、あまり{行|い}きたくない。",
+      "options": [
+        "わけだ",
+        "わけにはいかない",
+        "わけがない",
+        "わけじゃない"
+      ],
+      "answer": 3,
+      "explanation": "Partial denial (casual): **わけじゃない**.",
+      "notes": [
+        "わけだけど contradicts the second half.",
+        "わけにはいかない doesn't go with 嫌い.",
+        "わけがないけど = 'there's no way I dislike it, but' — odd.",
+        ""
+      ],
+      "translation": "It's not that I dislike it, but I don't really want to go."
+    },
+    {
+      "point": "wakeganai",
+      "prompt": "こんな{難|むずか}しい{問題|もんだい}、{子供|こども}に{解|と}ける（　）。",
+      "options": [
+        "わけがない",
+        "わけで",
+        "わけに",
+        "わけだ"
+      ],
+      "answer": 0,
+      "explanation": "No way: **わけがない**.",
+      "notes": [
+        "",
+        "わけで can't end the sentence.",
+        "わけに can't end the sentence.",
+        "わけだ = 'no wonder a child can solve it' — contradicts 難しい."
+      ],
+      "translation": "There's no way a child could solve such a hard problem."
+    },
+    {
+      "point": "wakeniwaikanai",
+      "prompt": "{先生|せんせい}に{頼|たの}まれたので、{断|ことわ}る（　）。",
+      "options": [
+        "わけにはいかなく",
+        "わけにはいる",
+        "わけではいかない",
+        "わけにはいかない"
+      ],
+      "answer": 3,
+      "explanation": "Can't refuse (social reasons): **わけにはいかない**.",
+      "notes": [
+        "いかなく can't end the sentence.",
+        "いる isn't part of the pattern.",
+        "The particle is に, not で.",
+        ""
+      ],
+      "translation": "My teacher asked me, so I can't really refuse."
+    }
+  ]
+}

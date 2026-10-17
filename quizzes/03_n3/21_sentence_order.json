@@ -1,0 +1,251 @@
+{
+  "id": "n3-sentence-order",
+  "category": "JLPT N3",
+  "title": "★ Sentence Building N3 (並べ替え)",
+  "description": "JLPT-style ordering with N3 grammar: put the four pieces in order and choose the one in the ★ slot.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "narabekae-n3",
+      "title": "Solving N3 ★ questions",
+      "summary": "Find the fixed patterns first (〜わけだ, 〜せいで, 〜ばかりでなく, 〜にとって …), glue them to their partners, then fill the gaps.",
+      "body": "N3 ordering questions are built around the compound patterns you've learned. Strategy:\n- **Spot the pattern pieces**: せいで, にとって, くせに, うちに, とたん, さえ, ほど … Each needs a specific form before it (noun + の + せいで, た-form + とたん, dictionary form + うちに …).\n- **Look at the last given word** (だ, です, ください, いる, a noun) — the 4th piece must connect to it.\n- **Particles stay with their nouns** (答えを, 部長が).\n- When two pieces could swap, the ★ is placed so that it's still unambiguous.",
+      "examples": [
+        [
+          "{雨|あめ}の せいで {試合|しあい}が {中止|ちゅうし}に なった。",
+          "Because of the rain, the match was cancelled."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "narabekae-n3",
+      "prompt": "{彼|かれ}は　＿＿　＿＿　★　＿＿　だ。\n（{上手|じょうず}な・{練習|れんしゅう}している・から・わけ）",
+      "options": [
+        "から",
+        "{練習|れんしゅう}している",
+        "{上手|じょうず}な",
+        "わけ"
+      ],
+      "answer": 2,
+      "explanation": "彼は **練習している から 上手な わけ** だ。",
+      "notes": [
+        "から follows the reason — slot 2.",
+        "練習している comes first — slot 1.",
+        "",
+        "わけ comes right before だ — slot 4."
+      ],
+      "translation": "He practises, so no wonder he's good."
+    },
+    {
+      "point": "narabekae-n3",
+      "prompt": "{雨|あめ}の　＿＿　＿＿　★　＿＿。\n（{中止|ちゅうし}に・せいで・なった・{試合|しあい}が）",
+      "options": [
+        "なった",
+        "{試合|しあい}が",
+        "せいで",
+        "{中止|ちゅうし}に"
+      ],
+      "answer": 3,
+      "explanation": "雨の **せいで 試合が 中止に なった**。",
+      "notes": [
+        "なった ends the sentence — slot 4.",
+        "試合が is the subject — slot 2.",
+        "せいで follows 雨の — slot 1.",
+        ""
+      ],
+      "translation": "Because of the rain, the match was cancelled."
+    },
+    {
+      "point": "narabekae-n3",
+      "prompt": "{日本語|にほんご}が　＿＿　★　＿＿　＿＿　います。\n（ように・{話|はな}せる・{練習|れんしゅう}して・{一生懸命|いっしょうけんめい}）",
+      "options": [
+        "{一生懸命|いっしょうけんめい}",
+        "ように",
+        "{話|はな}せる",
+        "{練習|れんしゅう}して"
+      ],
+      "answer": 1,
+      "explanation": "日本語が **話せる ように 一生懸命 練習して** います。",
+      "notes": [
+        "一生懸命 modifies 練習して — slot 3 (it can't describe 話せる).",
+        "",
+        "話せる follows 日本語が — slot 1.",
+        "練習して comes right before います — slot 4."
+      ],
+      "translation": "I practise hard so that I can speak Japanese."
+    },
+    {
+      "point": "narabekae-n3",
+      "prompt": "{家|いえ}を　＿＿　★　＿＿　＿＿　{降|ふ}り{出|だ}した。\n（{雨|あめ}が・とたん・{出|で}た・{急|きゅう}に）",
+      "options": [
+        "{急|きゅう}に",
+        "{雨|あめ}が",
+        "{出|で}た",
+        "とたん"
+      ],
+      "answer": 3,
+      "explanation": "家を **出た とたん 急に 雨が** 降り出した。 (急に and 雨が can swap — とたん is always 2nd.)",
+      "notes": [
+        "急に goes in slot 3 or 4.",
+        "雨が goes in slot 3 or 4.",
+        "出た follows 家を — slot 1.",
+        ""
+      ],
+      "translation": "The moment I left the house, it suddenly started raining."
+    },
+    {
+      "point": "narabekae-n3",
+      "prompt": "{若|わか}い　＿＿　＿＿　★　＿＿　おきたい。\n（いろいろな・うちに・{国|くに}へ・{行|い}って）",
+      "options": [
+        "いろいろな",
+        "うちに",
+        "{国|くに}へ",
+        "{行|い}って"
+      ],
+      "answer": 2,
+      "explanation": "若い **うちに いろいろな 国へ 行って** おきたい。",
+      "notes": [
+        "いろいろな modifies 国 — slot 2.",
+        "うちに follows 若い — slot 1.",
+        "",
+        "行って comes before おきたい — slot 4."
+      ],
+      "translation": "I want to visit lots of countries while I'm young."
+    },
+    {
+      "point": "narabekae-n3",
+      "prompt": "この{本|ほん}は　＿＿　＿＿　★　＿＿　{本|ほん}です。\n（{向|む}け・に・{書|か}かれた・{子供|こども}）",
+      "options": [
+        "{書|か}かれた",
+        "に",
+        "{向|む}け",
+        "{子供|こども}"
+      ],
+      "answer": 1,
+      "explanation": "この本は **子供 向け に 書かれた** 本です。",
+      "notes": [
+        "書かれた modifies 本 — slot 4.",
+        "",
+        "向け follows 子供 — slot 2.",
+        "子供 comes first — slot 1."
+      ],
+      "translation": "This is a book written for children."
+    },
+    {
+      "point": "narabekae-n3",
+      "prompt": "{彼|かれ}は　＿＿　＿＿　★　＿＿　、{教|おし}えてくれない。\n（{知|し}っている・{答|こた}えを・くせに・{本当|ほんとう}は）",
+      "options": [
+        "くせに",
+        "{本当|ほんとう}は",
+        "{答|こた}えを",
+        "{知|し}っている"
+      ],
+      "answer": 3,
+      "explanation": "彼は **本当は 答えを 知っている くせに**、教えてくれない。 (本当は and 答えを can swap — 知っている is always 3rd.)",
+      "notes": [
+        "くせに comes last — slot 4.",
+        "本当は goes in slot 1 or 2.",
+        "答えを goes in slot 1 or 2.",
+        ""
+      ],
+      "translation": "He actually knows the answer, but he won't tell me."
+    },
+    {
+      "point": "narabekae-n3",
+      "prompt": "{練習|れんしゅう}すれ　＿＿　＿＿　★　＿＿　なる。\n（ほど・{練習|れんしゅう}する・{上手|じょうず}に・ば）",
+      "options": [
+        "ほど",
+        "{上手|じょうず}に",
+        "ば",
+        "{練習|れんしゅう}する"
+      ],
+      "answer": 0,
+      "explanation": "練習すれ **ば 練習する ほど 上手に** なる。",
+      "notes": [
+        "",
+        "上手に comes right before なる — slot 4.",
+        "ば completes すれば — slot 1.",
+        "練習する is the repeated verb — slot 2."
+      ],
+      "translation": "The more you practise, the better you get."
+    },
+    {
+      "point": "narabekae-n3",
+      "prompt": "{忙|いそが}しくて、　＿＿　＿＿　★　＿＿。\n（さえ・ない・{時間|じかん}・{寝|ね}る）",
+      "options": [
+        "ない",
+        "さえ",
+        "{寝|ね}る",
+        "{時間|じかん}"
+      ],
+      "answer": 1,
+      "explanation": "忙しくて、**寝る 時間 さえ ない**。",
+      "notes": [
+        "ない ends the sentence — slot 4.",
+        "",
+        "寝る comes first — slot 1.",
+        "時間 is modified by 寝る — slot 2."
+      ],
+      "translation": "I'm so busy I don't even have time to sleep."
+    },
+    {
+      "point": "narabekae-n3",
+      "prompt": "{社長|しゃちょう}　＿＿　★　＿＿　＿＿　{挨拶|あいさつ}した。\n（{部長|ぶちょう}が・に・{代|か}わって・{会議|かいぎ}で）",
+      "options": [
+        "{部長|ぶちょう}が",
+        "{会議|かいぎ}で",
+        "{代|か}わって",
+        "に"
+      ],
+      "answer": 2,
+      "explanation": "社長 **に 代わって 部長が 会議で** 挨拶した。 (部長が and 会議で can swap — 代わって is always 2nd.)",
+      "notes": [
+        "部長が goes in slot 3 or 4.",
+        "会議で goes in slot 3 or 4.",
+        "",
+        "に follows 社長 — slot 1."
+      ],
+      "translation": "The department head gave the speech at the meeting on behalf of the president."
+    },
+    {
+      "point": "narabekae-n3",
+      "prompt": "{天気予報|てんきよほう}　＿＿　＿＿　★　＿＿。\n（{雪|ゆき}だ・によると・{明日|あした}は・そうだ）",
+      "options": [
+        "そうだ",
+        "によると",
+        "{明日|あした}は",
+        "{雪|ゆき}だ"
+      ],
+      "answer": 3,
+      "explanation": "天気予報 **によると 明日は 雪だ そうだ**。",
+      "notes": [
+        "そうだ ends the sentence — slot 4.",
+        "によると follows 天気予報 — slot 1.",
+        "明日は is the topic — slot 2.",
+        ""
+      ],
+      "translation": "According to the forecast, it will snow tomorrow."
+    },
+    {
+      "point": "narabekae-n3",
+      "prompt": "この{問題|もんだい}は　＿＿　＿＿　★　＿＿。\n（{難|むずか}しすぎる・にとって・{子供|こども}・{小|ちい}さい）",
+      "options": [
+        "{子供|こども}",
+        "{難|むずか}しすぎる",
+        "にとって",
+        "{小|ちい}さい"
+      ],
+      "answer": 2,
+      "explanation": "この問題は **小さい 子供 にとって 難しすぎる**。",
+      "notes": [
+        "子供 is modified by 小さい — slot 2.",
+        "難しすぎる ends the sentence — slot 4.",
+        "",
+        "小さい modifies 子供 — slot 1."
+      ],
+      "translation": "This problem is too difficult for small children."
+    }
+  ]
+}

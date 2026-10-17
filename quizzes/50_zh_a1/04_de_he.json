@@ -1,0 +1,154 @@
+{
+  "id": "zh-a1-de-he",
+  "category": "Mandarin A1",
+  "language": "zh",
+  "title": "的 and 和: possession and 'and'",
+  "description": "Possession with 的 (and when it can be dropped), and why 和 only connects nouns.",
+  "level": "A1",
+  "points": [
+    {
+      "id": "de",
+      "title": "Noun 1 + 的 + noun 2: possession",
+      "summary": "的 (de) = 's / of. With close people and places after a pronoun it's usually dropped: 我妈妈, 我们学校.",
+      "body": "- 老师**的**车 (the teacher's car).\n- 我**的**书 (my book).\n- 我妈妈, 你家, 我们公司 — no 的 needed.\n- Don't confuse with 得 / 地 (same sound, other grammar).",
+      "examples": [
+        [
+          "{这|zhè}{是|shì}{老师|lǎoshī}{的|de}{车|chē}。",
+          "This is the teacher's car."
+        ],
+        [
+          "{我|wǒ}{妈妈|māma}{是|shì}{医生|yīshēng}。",
+          "My mum is a doctor."
+        ]
+      ]
+    },
+    {
+      "id": "he",
+      "title": "Noun 1 + 和 + noun 2",
+      "summary": "和 (hé) = 'and' between **nouns** (or pronouns) only. To link verbs, adjectives or clauses use 也, 还, 又….",
+      "body": "- 我**和**我妹妹 (my sister and I).\n- ~~他很高和很帅~~ ✗ → 他很高，也很帅.",
+      "examples": [
+        [
+          "{我|wǒ}{和|hé}{我|wǒ}{妹妹|mèimei}{都|dōu}{喜欢|xǐhuan}{猫|māo}。",
+          "My little sister and I both like cats."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "de",
+      "prompt": "{这|zhè}{是|shì}{我|wǒ}（　）{书|shū}。",
+      "options": [
+        "{得|de}",
+        "{了|le}",
+        "{的|de}",
+        "{地|de}"
+      ],
+      "answer": 2,
+      "explanation": "Possession: **的**.",
+      "notes": [
+        "得 links a verb with how well it's done.",
+        "了 marks completion.",
+        "",
+        "地 turns an adjective into an adverb."
+      ],
+      "translation": "This is my book."
+    },
+    {
+      "point": "de",
+      "prompt": "{老师|lǎoshī}（　）{车|chē}{是|shì}{红色|hóngsè}{的|de}。",
+      "options": [
+        "{地|de}",
+        "{和|hé}",
+        "{得|de}",
+        "{的|de}"
+      ],
+      "answer": 3,
+      "explanation": "Possession: **的**.",
+      "notes": [
+        "地 comes before verbs.",
+        "和 = 'and' — 'the teacher and the car' doesn't fit.",
+        "得 follows verbs.",
+        ""
+      ],
+      "translation": "The teacher's car is red."
+    },
+    {
+      "point": "de",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{妈妈|māma}{的|de}{是|shì}{医生|yīshēng}。",
+        "{我|wǒ}{妈妈|māma}{是|shì}{医生|yīshēng}。",
+        "{妈妈|māma}{我|wǒ}{是|shì}{医生|yīshēng}。",
+        "{我|wǒ}{的|de}{是|shì}{妈妈|māma}{医生|yīshēng}。"
+      ],
+      "answer": 1,
+      "explanation": "Close relation: **我妈妈** (的 optional).",
+      "notes": [
+        "的 needs a noun after it.",
+        "",
+        "The owner comes first: 我妈妈.",
+        "Word order is broken."
+      ],
+      "translation": "My mum is a doctor."
+    },
+    {
+      "point": "he",
+      "prompt": "{我|wǒ}（　）{我|wǒ}{妹妹|mèimei}{都|dōu}{喜欢|xǐhuan}{猫|māo}。",
+      "options": [
+        "{也|yě}",
+        "{都|dōu}",
+        "{和|hé}",
+        "{还|hái}"
+      ],
+      "answer": 2,
+      "explanation": "Noun **和** noun.",
+      "notes": [
+        "也 goes before the verb, not between nouns.",
+        "都 is already there before 喜欢.",
+        "",
+        "还 = 'still / also' before verbs."
+      ],
+      "translation": "My little sister and I both like cats."
+    },
+    {
+      "point": "he",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{很|hěn}{高|gāo}，{也|yě}{很|hěn}{帅|shuài}。",
+        "{他|tā}{很|hěn}{高|gāo}{和|hé}{帅|shuài}。",
+        "{他|tā}{和|hé}{很|hěn}{高|gāo}{很|hěn}{帅|shuài}。",
+        "{他|tā}{很|hěn}{高|gāo}{和|hé}{很|hěn}{帅|shuài}。"
+      ],
+      "answer": 0,
+      "explanation": "和 only links nouns; for adjectives use **也**.",
+      "notes": [
+        "",
+        "和 can't link adjectives.",
+        "和 can't link a pronoun and an adjective.",
+        "和 can't link adjectives."
+      ],
+      "translation": "He's tall and handsome too."
+    },
+    {
+      "point": "he",
+      "prompt": "{我|wǒ}{买|mǎi}{了|le}{苹果|píngguǒ}（　）{香蕉|xiāngjiāo}。",
+      "options": [
+        "{都|dōu}",
+        "{和|hé}",
+        "{也|yě}",
+        "{还是|háishi}"
+      ],
+      "answer": 1,
+      "explanation": "Two nouns: **和**.",
+      "notes": [
+        "都 must come before a verb.",
+        "",
+        "也 must come before a verb.",
+        "还是 = 'or' in questions."
+      ],
+      "translation": "I bought apples and bananas."
+    }
+  ]
+}

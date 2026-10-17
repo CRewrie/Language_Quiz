@@ -1,0 +1,411 @@
+{
+  "id": "n4-obligation-permission",
+  "category": "JLPT N4",
+  "title": "Must, Don't Have To, Without & なさい",
+  "description": "なければならない / なくてはいけない (must), なくてもいい (don't have to), ないで (without doing), and commands with なさい.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "nakereba",
+      "title": "〜なければいけない / ならない: must, have to",
+      "summary": "ない-form → drop い + ければ + いけない/ならない. Literally 'if you don't, it won't do'. Casual: 〜なきゃ.",
+      "body": "**Formation:** ない-form, drop い, add **ければ** + いけない / ならない:\n- 行かない → 行か**なければ**いけません\n- 食べない → 食べ**なければ**なりません\n- しない → し**なければ**…, 来ない → 来**なければ**…\n\n**いけない vs ならない:**\n- **いけない**: more personal or situational, common in speech ('I have to').\n- **ならない**: more formal and general (rules, laws, social obligations), common in writing.\n\nIn practice they're often interchangeable.\n\n**Casual forms:**\n- 〜**なきゃ**（いけない）: 行かなきゃ！ (The ending is often dropped.)\n- 〜**ないと**（いけない）: 行かないと.\n\nDon't confuse it with **〜なくてもいい** = 'don't have to'.",
+      "examples": [
+        [
+          "{明日|あした}までにレポートを{出|だ}さなければなりません。",
+          "I have to hand in the report by tomorrow."
+        ],
+        [
+          "{毎日|まいにち}{薬|くすり}を{飲|の}まなければいけません。",
+          "I must take medicine every day."
+        ],
+        [
+          "もう{帰|かえ}らなきゃ。",
+          "I've got to go home now."
+        ]
+      ]
+    },
+    {
+      "id": "nakutewa",
+      "title": "〜なくてはいけない / ならない: must, have to",
+      "summary": "ない-form → drop い + くては + いけない/ならない. It means the same as なければ. Casual: 〜なくちゃ.",
+      "body": "**Formation:** ない-form, drop い, add **くては** + いけない / ならない:\n- 行かない → 行か**なくては**いけません\n- 勉強しない → 勉強し**なくては**なりません\n\nThe meaning is the same as 〜なければいけない. Some speakers feel なくては is slightly more conversational or personal, but they're interchangeable at N4.\n\n**Casual form:** 〜**なくちゃ**（いけない）: もう寝なくちゃ (I've got to sleep). This is the contraction of なくては, just as 〜ちゃ is of 〜ては.\n\n**Structure check:** なくて + は + いけない. Leaving out は (なくていけない) is wrong.",
+      "examples": [
+        [
+          "{毎日|まいにち}{練習|れんしゅう}しなくてはいけません。",
+          "You have to practise every day."
+        ],
+        [
+          "{宿題|しゅくだい}をしなくてはなりません。",
+          "I must do my homework."
+        ],
+        [
+          "もう{行|い}かなくちゃ。",
+          "I have to go now."
+        ]
+      ]
+    },
+    {
+      "id": "nakutemoii",
+      "title": "〜なくてもいい: don't have to",
+      "summary": "ない-form → drop い + くてもいい(です) = 'it's okay not to …'. It's the answer to 'must I?' when the answer is no. Formal: なくてもかまいません.",
+      "body": "**Formation:** ない-form, drop い, add **くてもいい**:\n- 来ない → 来**なくてもいい**です (you don't have to come)\n- 書かない → 書か**なくてもかまいません** (more formal)\n\nIt literally means 'even if you don't …, it's fine'.\n\n**Typical exchange:**\n- A: 全部食べなければいけませんか。 (Must I eat it all?)\n- B: いいえ、食べ**なくてもいいです**よ。 (No, you don't have to.)\n\n**Contrast:**\n- 〜てもいい = may (permission)\n- 〜なくてもいい = don't have to (no obligation)\n- 〜てはいけない = must not\n- 〜なければいけない = must",
+      "examples": [
+        [
+          "{明日|あした}は{休|やす}みだから、{早|はや}く{起|お}きなくてもいいです。",
+          "Tomorrow's a holiday, so I don't have to get up early."
+        ],
+        [
+          "{名前|なまえ}は{書|か}かなくてもかまいません。",
+          "You don't have to write your name."
+        ]
+      ]
+    },
+    {
+      "id": "naide",
+      "title": "〜ないで: without doing / instead of",
+      "summary": "ない-form + で = 'without doing A, (do) B'. It's different from なくて, which gives a reason.",
+      "body": "**ない-form + で** links two actions: B is done **without doing A**:\n- 朝ご飯を食べ**ないで**学校に行きました (I went to school without eating breakfast).\n- 辞書を使わ**ないで**読んでください (please read it without using a dictionary).\n\nIt also means **'instead of'**: バスに乗ら**ないで**、歩いて行きました (I walked instead of taking the bus).\n\n**ないで vs なくて (a common trap):**\n- **ないで** = without / instead of. It describes the manner of the action.\n- **なくて** = because … not. It gives a **reason**: 宿題が終わら**なくて**、寝られませんでした (I couldn't sleep because I hadn't finished my homework).\n\nAt the end of a request it forms ないでください ('please don't', N5).",
+      "examples": [
+        [
+          "{朝|あさ}ご{飯|はん}を{食|た}べないで{学校|がっこう}に{行|い}きました。",
+          "I went to school without eating breakfast."
+        ],
+        [
+          "{傘|かさ}を{持|も}たないで{出|で}かけました。",
+          "I went out without an umbrella."
+        ],
+        [
+          "バスに{乗|の}らないで、{歩|ある}いて{帰|かえ}りました。",
+          "Instead of taking the bus, I walked home."
+        ]
+      ]
+    },
+    {
+      "id": "nasai",
+      "title": "〜なさい: do it! (command)",
+      "summary": "ます-stem + なさい is a firm but not rude command. It's used from parents to children, teachers to students, and in test instructions.",
+      "body": "**Formation:** ます-stem + **なさい**: 寝**なさい**, 食べ**なさい**, 勉強し**なさい**, 来 (き) **なさい**.\n\n**Who uses it:** people with clear authority over the listener, such as parents to children, teachers to students, and **exam instructions** (正しいものを選び**なさい**: choose the correct one).\n\n**Never** use it toward superiors or strangers. It sounds bossy. Politely, use 〜てください.\n\nIn casual speech, なさい is sometimes shortened to **な**: 早く寝**な** (ます-stem + な). Don't confuse that with the blunt prohibition 'dictionary form + な' (寝る**な** = don't sleep!).\n\nIt comes from the honorific verb なさる ('to do'), but as a command it's not respectful at all.",
+      "examples": [
+        [
+          "{早|はや}く{寝|ね}なさい。",
+          "Go to bed now."
+        ],
+        [
+          "{宿題|しゅくだい}をしなさい。",
+          "Do your homework."
+        ],
+        [
+          "{正|ただ}しいものを{一|ひと}つ{選|えら}びなさい。",
+          "Choose the one correct answer. (exam instruction)"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nakereba",
+      "prompt": "{明日|あした}までにレポートを{出|だ}さ（　）なりません。",
+      "options": [
+        "なくれば",
+        "なくても",
+        "なけば",
+        "なければ"
+      ],
+      "answer": 3,
+      "explanation": "Obligation: 〜**なければ**なりません.",
+      "notes": [
+        "なくれば isn't a form.",
+        "なくてもなりません is contradictory. なくてもいい = 'don't have to'.",
+        "The い of ない changes to ければ: なければ, not なけば.",
+        ""
+      ],
+      "translation": "I have to hand in the report by tomorrow."
+    },
+    {
+      "point": "nakereba",
+      "prompt": "{毎日|まいにち}この{薬|くすり}を{飲|の}ま（　）いけません。",
+      "options": [
+        "なくれば",
+        "なくても",
+        "なければ",
+        "ないければ"
+      ],
+      "answer": 2,
+      "explanation": "飲まない → 飲ま**なければ**いけません ('must take').",
+      "notes": [
+        "なくれば isn't a form.",
+        "なくてもいけません isn't a pattern. なくてもいい = 'don't have to'.",
+        "",
+        "Drop the い of ない before ければ: なければ."
+      ],
+      "translation": "I have to take this medicine every day."
+    },
+    {
+      "point": "nakereba",
+      "prompt": "あ、もう9{時|じ}だ！{早|はや}く{帰|かえ}ら（　）。",
+      "options": [
+        "ないじゃ",
+        "ないで",
+        "なくて",
+        "なきゃ"
+      ],
+      "answer": 3,
+      "explanation": "Casual 'must': **なきゃ** (short for なければ).",
+      "notes": [
+        "ないじゃ isn't a form.",
+        "ないで alone means 'don't (do it)' as a request, the opposite meaning.",
+        "なくて alone leaves the sentence unfinished and doesn't mean 'must'.",
+        ""
+      ],
+      "translation": "Oh, it's already 9! I've got to hurry home."
+    },
+    {
+      "point": "nakereba",
+      "prompt": "{会社|かいしゃ}のルールで、{社員|しゃいん}は{全員|ぜんいん}{名札|なふだ}をつけなければ（　）。",
+      "options": [
+        "いりません",
+        "なりません",
+        "できません",
+        "ありません"
+      ],
+      "answer": 1,
+      "explanation": "Formal rules: 〜なければ**なりません**.",
+      "notes": [
+        "なければいりません isn't a pattern. いる means 'need'.",
+        "",
+        "なければできません ('can't unless…') is a different meaning.",
+        "なければありません isn't grammatical."
+      ],
+      "translation": "Under company rules, all employees must wear name tags."
+    },
+    {
+      "point": "nakutewa",
+      "prompt": "{試合|しあい}に{勝|か}つために、{毎日|まいにち}{練習|れんしゅう}しなくては（　）。",
+      "options": [
+        "いいです",
+        "かまいません",
+        "ください",
+        "いけません"
+      ],
+      "answer": 3,
+      "explanation": "〜なくては**いけません** = 'must'.",
+      "notes": [
+        "なくてはいいです isn't a pattern.",
+        "なくてはかまいません isn't a pattern. なくてもかまいません means 'don't have to'.",
+        "なくてはください isn't grammatical.",
+        ""
+      ],
+      "translation": "To win the match, we have to practise every day."
+    },
+    {
+      "point": "nakutewa",
+      "prompt": "{宿題|しゅくだい}をし（　）はいけません。",
+      "options": [
+        "なければ",
+        "なくて",
+        "なくても",
+        "ないで"
+      ],
+      "answer": 1,
+      "explanation": "**なくて + は + いけません** = 'must'.",
+      "notes": [
+        "なければは is a double particle and ungrammatical.",
+        "",
+        "なくてもは isn't grammatical.",
+        "ないではいけません isn't the obligation pattern."
+      ],
+      "translation": "I have to do my homework."
+    },
+    {
+      "point": "nakutewa",
+      "prompt": "もう11{時|じ}だ。{寝|ね}（　）。",
+      "options": [
+        "なくじゃ",
+        "なけちゃ",
+        "なくちゃ",
+        "ないちゃ"
+      ],
+      "answer": 2,
+      "explanation": "Casual 'must': **なくちゃ** (from なくては).",
+      "notes": [
+        "なくじゃ isn't a form. ちゃ comes from ては.",
+        "なけちゃ isn't a form.",
+        "",
+        "ないちゃ isn't a form."
+      ],
+      "translation": "It's already 11. I've got to go to bed."
+    },
+    {
+      "point": "nakutemoii",
+      "prompt": "{明日|あした}は{休|やす}みだから、{早|はや}く{起|お}き（　）いいです。",
+      "options": [
+        "なかった",
+        "なくても",
+        "なくては",
+        "なければ"
+      ],
+      "answer": 1,
+      "explanation": "'Don't have to': **なくてもいい**.",
+      "notes": [
+        "起きなかったいい isn't grammatical.",
+        "",
+        "なくてはいい isn't a pattern.",
+        "なければいい means 'it's good if you don't', and it misses the 'don't have to' sense."
+      ],
+      "translation": "Tomorrow's a holiday, so I don't have to get up early."
+    },
+    {
+      "point": "nakutemoii",
+      "prompt": "A：{全部|ぜんぶ}{食|た}べなければいけませんか。　B：いいえ、{全部|ぜんぶ}（　）よ。",
+      "options": [
+        "{食|た}べなければなりません",
+        "{食|た}べてはいけません",
+        "{食|た}べなくてはいけません",
+        "{食|た}べなくてもいいです"
+      ],
+      "answer": 3,
+      "explanation": "'No (you don't have to)': **なくてもいいです**.",
+      "notes": [
+        "なければなりません ('must') contradicts いいえ.",
+        "てはいけません means 'must not eat', which is stronger than the question asked.",
+        "なくてはいけません means 'must', which contradicts いいえ.",
+        ""
+      ],
+      "translation": "A: Do I have to eat all of it? B: No, you don't have to."
+    },
+    {
+      "point": "nakutemoii",
+      "prompt": "このアンケートには{名前|なまえ}を{書|か}か（　）かまいません。",
+      "options": [
+        "なければ",
+        "なくても",
+        "なくては",
+        "ないで"
+      ],
+      "answer": 1,
+      "explanation": "Formal 'don't have to': **なくてもかまいません**.",
+      "notes": [
+        "なければかまいません isn't a pattern.",
+        "",
+        "なくてはかまいません isn't a pattern.",
+        "ないでかまいません isn't the standard pattern."
+      ],
+      "translation": "You don't have to write your name on this survey."
+    },
+    {
+      "point": "naide",
+      "prompt": "{朝|あさ}ご{飯|はん}を{食|た}べ（　）{学校|がっこう}に{行|い}きました。",
+      "options": [
+        "なかった",
+        "ないと",
+        "なくて",
+        "ないで"
+      ],
+      "answer": 3,
+      "explanation": "'Without doing': **ないで**.",
+      "notes": [
+        "なかった ends a clause and can't connect to the next verb.",
+        "ないと ('if you don't') is conditional.",
+        "なくて gives a reason ('because I didn't eat…'), but not eating isn't why you went to school.",
+        ""
+      ],
+      "translation": "I went to school without eating breakfast."
+    },
+    {
+      "point": "naide",
+      "prompt": "{傘|かさ}を{持|も}た（　）{出|で}かけて、{雨|あめ}に{降|ふ}られました。",
+      "options": [
+        "ずで",
+        "なくて",
+        "ないで",
+        "ないて"
+      ],
+      "answer": 2,
+      "explanation": "Went out **without** an umbrella: 持たないで.",
+      "notes": [
+        "ずで isn't a form. The literary equivalent is ずに.",
+        "なくて would make 'not having an umbrella' the reason for going out.",
+        "",
+        "ないて isn't a form."
+      ],
+      "translation": "I went out without an umbrella and got caught in the rain."
+    },
+    {
+      "point": "naide",
+      "prompt": "{宿題|しゅくだい}が{終|お}わら（　）、{寝|ね}られませんでした。",
+      "options": [
+        "なくても",
+        "なくて",
+        "なければ",
+        "ないで"
+      ],
+      "answer": 1,
+      "explanation": "A **reason** ('because it didn't finish') takes **なくて**, not ないで.",
+      "notes": [
+        "なくても ('even if it doesn't finish') is illogical.",
+        "",
+        "なければ ('if it doesn't finish') doesn't fit a past fact.",
+        "ないで means 'without doing', but you can't 'not finish' as a manner of sleeping. You need the reason form."
+      ],
+      "translation": "My homework wasn't finished, so I couldn't sleep."
+    },
+    {
+      "point": "nasai",
+      "prompt": "（Mother to child）もう10{時|じ}よ。{早|はや}く{寝|ね}（　）。",
+      "options": [
+        "るなさい",
+        "ないさい",
+        "なさる",
+        "なさい"
+      ],
+      "answer": 3,
+      "explanation": "ます-stem + **なさい** (寝る → 寝なさい).",
+      "notes": [
+        "なさい attaches to the stem (寝), not the dictionary form.",
+        "ないさい isn't a form.",
+        "なさる is the honorific verb 'to do', not a command ending.",
+        ""
+      ],
+      "translation": "It's already 10. Go to bed now."
+    },
+    {
+      "point": "nasai",
+      "prompt": "Who would naturally say 「{宿題|しゅくだい}をしなさい」?",
+      "options": [
+        "An employee to the boss",
+        "A parent to a child",
+        "A student to a teacher",
+        "A shop clerk to a customer"
+      ],
+      "answer": 1,
+      "explanation": "〜なさい comes from someone with authority: a parent or teacher.",
+      "notes": [
+        "Ordering your boss around with なさい would be very rude.",
+        "",
+        "Toward a teacher it's far too bossy. Use 〜てください or more polite forms.",
+        "Clerks use お〜ください toward customers."
+      ],
+      "translation": "Do your homework."
+    },
+    {
+      "point": "nasai",
+      "prompt": "（Exam instruction）{正|ただ}しいものを{一|ひと}つ{選|えら}び（　）。",
+      "options": [
+        "たい",
+        "ましょう",
+        "なさい",
+        "ください"
+      ],
+      "answer": 2,
+      "explanation": "Test instructions use **ます-stem + なさい**.",
+      "notes": [
+        "選びたい means 'I want to choose'.",
+        "選びましょう ('let's choose') isn't the standard exam instruction.",
+        "",
+        "ください needs the て-form (選んでください)."
+      ],
+      "translation": "Choose the one correct answer."
+    }
+  ]
+}

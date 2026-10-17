@@ -1,0 +1,162 @@
+{
+  "id": "zh-b1-zhe",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "The Lasting State: 着",
+  "description": "Verb + 着 for a state that continues (门开着, 穿着), doing one thing while doing another (笑着说), and 'there is … lying / hanging' (墙上挂着).",
+  "level": "B1",
+  "points": [
+    {
+      "id": "zhe_state",
+      "title": "Verb + 着: lasting state",
+      "summary": "着 (zhe) shows a state that continues: the door is (standing) open, she's wearing ….",
+      "body": "- 门一直开**着**.\n- 她穿**着**一件红色的衣服.",
+      "examples": [
+        [
+          "{她|tā}{穿|chuān}{着|zhe}{一|yí}{件|jiàn}{红色|hóngsè}{的|de}{衣服|yīfu}。",
+          "She's wearing red."
+        ]
+      ]
+    },
+    {
+      "id": "zhe_while",
+      "title": "V1 + 着 + V2: while / in a … way",
+      "summary": "V1着 describes how the main action is done: 笑着说 (said smiling), 走着去 (go on foot).",
+      "body": "- 他笑**着**说: '没关系.'\n- 我们走**着**去吧.",
+      "examples": [
+        [
+          "{他|tā}{笑|xiào}{着|zhe}{说|shuō}：“{没关系|méi guānxi}。”",
+          "He said with a smile: 'Never mind.'"
+        ]
+      ]
+    },
+    {
+      "id": "zhe_exist",
+      "title": "Place + verb + 着 + thing",
+      "summary": "Describes what is (lying / hanging / sitting) somewhere: 墙上挂着一张地图.",
+      "body": "- 墙上挂**着**一张地图.\n- 桌子上放**着**一本书.",
+      "examples": [
+        [
+          "{墙|qiáng}{上|shang}{挂|guà}{着|zhe}{一|yì}{张|zhāng}{地图|dìtú}。",
+          "There's a map hanging on the wall."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "zhe_state",
+      "prompt": "{教室|jiàoshì}{的|de}{门|mén}{一直|yìzhí}{开|kāi}（　），{谁|shéi}{也|yě}{没|méi}{关|guān}。",
+      "options": [
+        "{了|le}",
+        "{着|zhe}",
+        "{完|wán}",
+        "{过|guo}"
+      ],
+      "answer": 1,
+      "explanation": "Lasting state: **着**.",
+      "notes": [
+        "一直开了 isn't grammatical — 一直 needs a lasting state.",
+        "",
+        "开完 = 'finished opening'.",
+        "开过 = 'has been opened before'."
+      ],
+      "translation": "The classroom door has been open the whole time — nobody closed it."
+    },
+    {
+      "point": "zhe_state",
+      "prompt": "{她|tā}{穿|chuān}（　）{一|yí}{件|jiàn}{红色|hóngsè}{的|de}{衣服|yīfu}，{很|hěn}{好看|hǎokàn}。",
+      "options": [
+        "{到|dào}",
+        "{过|guo}",
+        "{在|zài}",
+        "{着|zhe}"
+      ],
+      "answer": 3,
+      "explanation": "Wearing: **穿着**.",
+      "notes": [
+        "穿到 = 'wear until'.",
+        "穿过 = 'has worn before'.",
+        "穿在 needs a place.",
+        ""
+      ],
+      "translation": "She's wearing red — it looks lovely."
+    },
+    {
+      "point": "zhe_while",
+      "prompt": "{他|tā}{笑|xiào}（　）{说|shuō}：“{没关系|méi guānxi}。”",
+      "options": [
+        "{着|zhe}",
+        "{了|le}",
+        "{过|guo}",
+        "{得|de}"
+      ],
+      "answer": 0,
+      "explanation": "In a … way: **V1着 V2**.",
+      "notes": [
+        "",
+        "笑了说 isn't natural.",
+        "笑过说 isn't grammatical.",
+        "笑得说 isn't grammatical."
+      ],
+      "translation": "He said with a smile: 'Never mind.'"
+    },
+    {
+      "point": "zhe_while",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我们|wǒmen}{着|zhe}{走|zǒu}{去|qù}{吧|ba}，{不|bù}{远|yuǎn}。",
+        "{我们|wǒmen}{走|zǒu}{去|qù}{着|zhe}{吧|ba}，{不|bù}{远|yuǎn}。",
+        "{我们|wǒmen}{去|qù}{走|zǒu}{着|zhe}{吧|ba}，{不|bù}{远|yuǎn}。",
+        "{我们|wǒmen}{走|zǒu}{着|zhe}{去|qù}{吧|ba}，{不|bù}{远|yuǎn}。"
+      ],
+      "answer": 3,
+      "explanation": "**走着去** = go on foot.",
+      "notes": [
+        "着 can't come before a verb.",
+        "着 follows the first verb (走).",
+        "The manner (走着) comes first.",
+        ""
+      ],
+      "translation": "Let's walk there — it isn't far."
+    },
+    {
+      "point": "zhe_exist",
+      "prompt": "{墙|qiáng}{上|shang}{挂|guà}（　）{一|yì}{张|zhāng}{中国|Zhōngguó}{地图|dìtú}。",
+      "options": [
+        "{过|guo}",
+        "{着|zhe}",
+        "{得|de}",
+        "{在|zài}"
+      ],
+      "answer": 1,
+      "explanation": "There's … hanging: **挂着**.",
+      "notes": [
+        "挂过 = 'has hung before'.",
+        "",
+        "挂得 needs a description.",
+        "挂在 needs a place after it."
+      ],
+      "translation": "There's a map of China hanging on the wall."
+    },
+    {
+      "point": "zhe_exist",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{一|yì}{本|běn}{书|shū}{放|fàng}{着|zhe}{桌子|zhuōzi}{上|shang}。",
+        "{桌子|zhuōzi}{上|shang}{着|zhe}{放|fàng}{一|yì}{本|běn}{书|shū}。",
+        "{桌子|zhuōzi}{上|shang}{放|fàng}{着|zhe}{一|yì}{本|běn}{书|shū}。",
+        "{桌子|zhuōzi}{放|fàng}{着|zhe}{上|shang}{一|yì}{本|běn}{书|shū}。"
+      ],
+      "answer": 2,
+      "explanation": "**Place + verb + 着 + thing**.",
+      "notes": [
+        "In this pattern the place comes first.",
+        "着 follows the verb.",
+        "",
+        "上 belongs with 桌子."
+      ],
+      "translation": "There's a book on the table."
+    }
+  ]
+}

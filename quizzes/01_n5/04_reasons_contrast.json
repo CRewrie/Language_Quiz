@@ -1,0 +1,395 @@
+{
+  "id": "n5-reasons-contrast",
+  "category": "JLPT N5",
+  "title": "Reasons & Contrast: から, ので, が, けれども",
+  "description": "Giving reasons with から and ので (and how each attaches), saying 'but' with が and けれども/けど.",
+  "level": "N5",
+  "points": [
+    {
+      "id": "kara-because",
+      "title": "から (1): because, since",
+      "summary": "Clause + から = 'because …'. The reason comes first. It attaches to plain or polite forms; nouns and な-adjectives take だ.",
+      "body": "**[reason]から、[result]**: the reason always comes **before** から.\n\nIt attaches to plain or polite forms:\n- Verb: 雨が降っている**から** / 降っています**から**\n- い-adjective: 暑い**から**\n- Noun / な-adjective: 学生**だから**, 静か**だから** (don't drop だ!)\n\nから can end a sentence when answering 'why?': どうして来なかったの？—忙しかった**から**。\n\nから sounds more **subjective and direct** (my reason). It's natural with requests, opinions and invitations: 暑いから、窓を開けてください.\n\nDon't confuse it with **noun + から = from** (東京から) and **て-form + から = after** (食べてから).",
+      "examples": [
+        [
+          "{雨|あめ}が{降|ふ}っているから、{傘|かさ}を{持|も}って{行|い}きます。",
+          "It's raining, so I'll take an umbrella."
+        ],
+        [
+          "{明日|あした}は{休|やす}みだから、{遅|おそ}くまで{寝|ね}ます。",
+          "Tomorrow's a day off, so I'll sleep in."
+        ],
+        [
+          "どうして{食|た}べないの？—おなかがいっぱいだから。",
+          "Why aren't you eating? — Because I'm full."
+        ]
+      ]
+    },
+    {
+      "id": "node",
+      "title": "ので: because (softer, more objective)",
+      "summary": "Clause + ので = 'because / so'. Softer and more polite than から. Nouns and な-adjectives take な: 学生なので.",
+      "body": "**ので** also gives a reason, but it presents it as a **natural, objective cause**, so it sounds softer and more polite. It's the usual choice for excuses and explanations to superiors: 頭が痛い**ので**、早く帰ってもいいですか.\n\n**How it attaches (the big difference from から):**\n- Verb / い-adjective: plain form, as with から: 降る**ので**, 高い**ので**.\n- Noun / な-adjective: **な** instead of だ: 学生**なので**, 静か**なので**. 学生だので is wrong.\n\nIn casual speech it often becomes **んで**: 忙しいんで.\n\nUnlike から, ので normally **doesn't end a sentence** as a bare answer to 'why?'.",
+      "examples": [
+        [
+          "{明日|あした}は{試験|しけん}があるので、{今日|きょう}は{早|はや}く{寝|ね}ます。",
+          "I have an exam tomorrow, so I'll go to bed early tonight."
+        ],
+        [
+          "この{部屋|へや}は{静|しず}かなので、よく{眠|ねむ}れます。",
+          "This room is quiet, so I can sleep well."
+        ],
+        [
+          "{子供|こども}なので、まだ{一人|ひとり}で{行|い}けません。",
+          "They're a child, so they can't go alone yet."
+        ]
+      ]
+    },
+    {
+      "id": "ga-but",
+      "title": "が (2): but, however",
+      "summary": "Clause + が, clause = 'but'. Also used to soften an opening (すみませんが…).",
+      "body": "After a **complete clause** (usually polite), が means 'but':\n- 日本語は難しいです**が**、面白いです。\n\nIt's slightly formal and very common in polite speech and writing. Casual equivalents: けど / けれど / けれども.\n\nIt's also used as a **softener** that introduces a request or question without real contrast:\n- すみません**が**、駅はどこですか。\n- 失礼です**が**、お名前は？\n\nHow to tell it apart from **subject が**: subject が follows a **noun** (雨**が**降る). 'But' が follows a full clause ending in a verb, adjective or です (降ります**が**).",
+      "examples": [
+        [
+          "{日本語|にほんご}は{難|むずか}しいですが、{面白|おもしろ}いです。",
+          "Japanese is difficult, but it's interesting."
+        ],
+        [
+          "すみませんが、ちょっと{手伝|てつだ}ってください。",
+          "Sorry, but could you help me a bit?"
+        ],
+        [
+          "{高|たか}かったですが、{買|か}いました。",
+          "It was expensive, but I bought it."
+        ]
+      ]
+    },
+    {
+      "id": "keredomo",
+      "title": "けれども / けれど / けど: but, although",
+      "summary": "Clause + けれども = 'but / although'. From most formal to most casual: けれども → けれど → けど.",
+      "body": "**けれども** means the same as 'but' が. Its shorter forms are progressively more casual:\n- **けれども**: polite or written\n- **けれど**: neutral\n- **けど**: everyday conversation\n\nIt attaches to plain or polite forms: 高い**けど**, 高いです**けれども**, 学生**だけど** (keep だ with nouns and な-adjectives).\n\nLike が, it can **soften** a statement or trail off politely, leaving the conclusion unsaid: ちょっと用事があるんですけど… (I have something to do, so… i.e. I can't).\n\nUnlike のに ('even though', N4), けれども can be followed by any kind of clause, including requests and intentions.",
+      "examples": [
+        [
+          "{天気|てんき}はいいけれども、{寒|さむ}いです。",
+          "The weather is nice, but it's cold."
+        ],
+        [
+          "{薬|くすり}を{飲|の}んだけど、まだ{頭|あたま}が{痛|いた}い。",
+          "I took medicine, but my head still hurts."
+        ],
+        [
+          "{行|い}きたいんですけど、{時間|じかん}がなくて…",
+          "I'd like to go, but I don't have time…"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "kara-because",
+      "prompt": "{暑|あつ}い（　）、{窓|まど}を{開|あ}けてください。",
+      "options": [
+        "のから",
+        "なから",
+        "から",
+        "だから"
+      ],
+      "answer": 2,
+      "explanation": "い-adjective + **から** directly (no だ): 暑いから.",
+      "notes": [
+        "のから isn't a form.",
+        "な belongs with ので (静かなので), never with から.",
+        "",
+        "い-adjectives attach directly to から. だ is only for nouns and な-adjectives (静かだから)."
+      ],
+      "translation": "It's hot, so please open the window."
+    },
+    {
+      "point": "kara-because",
+      "prompt": "A：どうして{食|た}べないの？　B：おなかがいっぱいだ（　）。",
+      "options": [
+        "ので",
+        "から",
+        "のから",
+        "なので"
+      ],
+      "answer": 1,
+      "explanation": "Answering 'why?' with a bare reason uses **から**, and it follows だ.",
+      "notes": [
+        "ので doesn't attach to だ. It would be いっぱいなので, and even then a bare ので answer sounds unfinished.",
+        "",
+        "のから isn't a form.",
+        "Since だ is already there, だなので would double the copula."
+      ],
+      "translation": "A: Why aren't you eating? B: Because I'm full."
+    },
+    {
+      "point": "kara-because",
+      "prompt": "{明日|あした}は{休|やす}み（　）、{遅|おそ}くまで{寝|ね}ます。",
+      "options": [
+        "のから",
+        "から",
+        "なから",
+        "だから"
+      ],
+      "answer": 3,
+      "explanation": "A noun before から needs **だ**: 休みだから. (休みから would mean 'from the holiday'.)",
+      "notes": [
+        "のから isn't a form.",
+        "休みから means 'from the day off', not 'because'.",
+        "な is for ので (休みなので), not から.",
+        ""
+      ],
+      "translation": "Tomorrow's a day off, so I'll sleep late."
+    },
+    {
+      "point": "node",
+      "prompt": "この{部屋|へや}は{静|しず}か（　）ので、よく{眠|ねむ}れます。",
+      "options": [
+        "の",
+        "な",
+        "だ",
+        "で"
+      ],
+      "answer": 1,
+      "explanation": "な-adjectives and nouns take **な** before ので: 静かなので.",
+      "notes": [
+        "静かのので isn't a form.",
+        "",
+        "だので is wrong. だ is used before から (静かだから), not ので.",
+        "静かでので isn't a form."
+      ],
+      "translation": "This room is quiet, so I sleep well."
+    },
+    {
+      "point": "node",
+      "prompt": "（To your boss）すみません、{頭|あたま}が{痛|いた}い（　）、{早|はや}く{帰|かえ}ってもいいですか。",
+      "options": [
+        "だので",
+        "なので",
+        "のに",
+        "ので"
+      ],
+      "answer": 3,
+      "explanation": "**ので** gives the reason softly and politely, which is ideal when asking a superior for permission.",
+      "notes": [
+        "だので is never correct.",
+        "い-adjectives attach to ので directly. なので is only for nouns and な-adjectives.",
+        "のに means 'even though'. 'My head hurts, even though…' makes no sense and can't be followed by a request.",
+        ""
+      ],
+      "translation": "Excuse me, I have a headache, so may I go home early?"
+    },
+    {
+      "point": "node",
+      "prompt": "{弟|おとうと}はまだ{子供|こども}（　）、{一人|ひとり}で{行|い}けません。",
+      "options": [
+        "のので",
+        "なので",
+        "だので",
+        "ので"
+      ],
+      "answer": 1,
+      "explanation": "Noun + **なので**.",
+      "notes": [
+        "のので isn't a form.",
+        "",
+        "だので is a common mistake. ので needs な after nouns.",
+        "子供ので is missing な."
+      ],
+      "translation": "My little brother is still a child, so he can't go alone."
+    },
+    {
+      "point": "ga-but",
+      "prompt": "{日本語|にほんご}は{難|むずか}しいです（　）、{面白|おもしろ}いです。",
+      "options": [
+        "ので",
+        "から",
+        "と",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "Contrast between 'difficult' and 'interesting': **が** = 'but'.",
+      "notes": [
+        "ので has the same problem as から.",
+        "から ('because') would mean 'it's interesting because it's difficult', which isn't the intended contrast.",
+        "と after です doesn't connect clauses like this.",
+        ""
+      ],
+      "translation": "Japanese is difficult, but interesting."
+    },
+    {
+      "point": "ga-but",
+      "prompt": "すみません（　）、{駅|えき}はどこですか。",
+      "options": [
+        "と",
+        "が",
+        "ので",
+        "から"
+      ],
+      "answer": 1,
+      "explanation": "**が** softens an opening before a question, with no real contrast.",
+      "notes": [
+        "すみませんと isn't used to introduce a question.",
+        "",
+        "すみませんので has the same problem.",
+        "すみませんから would mean 'because I'm sorry', which is illogical."
+      ],
+      "translation": "Excuse me, where is the station?"
+    },
+    {
+      "point": "ga-but",
+      "prompt": "{高|たか}かったです（　）、{買|か}いました。",
+      "options": [
+        "まで",
+        "ので",
+        "が",
+        "から"
+      ],
+      "answer": 2,
+      "explanation": "Expensive vs. bought anyway: **が** ('but').",
+      "notes": [
+        "まで can't follow です.",
+        "ので would mean you bought it because it was expensive, which is odd.",
+        "",
+        "から has the same problem as ので."
+      ],
+      "translation": "It was expensive, but I bought it."
+    },
+    {
+      "point": "keredomo",
+      "prompt": "{天気|てんき}は（　）けれども、{寒|さむ}いです。",
+      "options": [
+        "いいな",
+        "いい",
+        "よく",
+        "いいだ"
+      ],
+      "answer": 1,
+      "explanation": "い-adjective (plain) + **けれども** directly: いいけれども.",
+      "notes": [
+        "な is only used before nouns, and いい isn't a な-adjective.",
+        "",
+        "よく is the adverb form, which can't end a clause before けれども.",
+        "い-adjectives attach to けれども directly. だ is only for nouns and な-adjectives."
+      ],
+      "translation": "The weather is nice, but it's cold."
+    },
+    {
+      "point": "keredomo",
+      "prompt": "{薬|くすり}を{飲|の}んだ（　）、まだ{頭|あたま}が{痛|いた}いです。",
+      "options": [
+        "ので",
+        "まで",
+        "けれども",
+        "から"
+      ],
+      "answer": 2,
+      "explanation": "Took medicine, but it still hurts: **けれども**.",
+      "notes": [
+        "ので has the same problem.",
+        "飲んだまで isn't a natural form here.",
+        "",
+        "から would make the medicine the cause of the headache."
+      ],
+      "translation": "I took medicine, but my head still hurts."
+    },
+    {
+      "point": "keredomo",
+      "prompt": "Which is the **most casual** way to say 'but' in conversation?",
+      "options": [
+        "けれども",
+        "けど",
+        "が",
+        "けれど"
+      ],
+      "answer": 1,
+      "explanation": "Register from formal to casual: けれども → けれど → **けど**. 'But' が is fairly formal.",
+      "notes": [
+        "けれども is the most formal of the family.",
+        "",
+        "が ('but') is polite/formal, typical after です/ます.",
+        "けれど is neutral, between けれども and けど."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kara-because",
+      "prompt": "ここは{静|しず}か（　）から、ここで{勉強|べんきょう}しましょう。",
+      "options": [
+        "な",
+        "の",
+        "だ",
+        "で"
+      ],
+      "answer": 2,
+      "explanation": "な-adjective + **だ** + から.",
+      "notes": [
+        "な goes with ので (静かなので), not から.",
+        "のから isn't a form.",
+        "",
+        "でから isn't a form."
+      ],
+      "translation": "It's quiet here, so let's study here."
+    },
+    {
+      "point": "node",
+      "prompt": "{雨|あめ}が{降|ふ}っている（　）、{試合|しあい}は{中止|ちゅうし}になりました。",
+      "options": [
+        "なので",
+        "だので",
+        "のに",
+        "ので"
+      ],
+      "answer": 3,
+      "explanation": "Verb (plain) + **ので**.",
+      "notes": [
+        "Verbs attach to ので directly — なので is only for nouns/な-adjectives.",
+        "だので is never correct.",
+        "のに ('even though') is illogical: the rain is the reason.",
+        ""
+      ],
+      "translation": "Because it's raining, the match was cancelled."
+    },
+    {
+      "point": "ga-but",
+      "prompt": "{漢字|かんじ}は{難|むずか}しい（　）、{面白|おもしろ}いです。",
+      "options": [
+        "ですが",
+        "だが",
+        "なが",
+        "のが"
+      ],
+      "answer": 0,
+      "explanation": "Polite い-adjective + **ですが** = 'but'.",
+      "notes": [
+        "",
+        "い-adjectives never take だ — 難しいだが is wrong.",
+        "なが isn't a form.",
+        "難しいのが would make 'being difficult' a noun subject."
+      ],
+      "translation": "Kanji are difficult, but interesting."
+    },
+    {
+      "point": "keredomo",
+      "prompt": "{学生|がくせい}（　）けど、お{金|かね}がありません。",
+      "options": [
+        "の",
+        "な",
+        "で",
+        "だ"
+      ],
+      "answer": 3,
+      "explanation": "Noun + **だ** + けど (casual) — or です + けど (polite).",
+      "notes": [
+        "のけど isn't a form.",
+        "な before けど is wrong (it's for ので / のに).",
+        "でけど isn't a form.",
+        ""
+      ],
+      "translation": "I'm a student, but I don't have any money."
+    }
+  ]
+}

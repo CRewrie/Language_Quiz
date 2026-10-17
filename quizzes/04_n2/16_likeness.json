@@ -1,0 +1,311 @@
+{
+  "id": "n2-likeness",
+  "category": "JLPT N2",
+  "title": "As If & Ways: かのよう, げ, ふうに, というふうに, 気, といった",
+  "description": "As if (pretend or exaggerate), looking …(げ), in this/that way, in a pattern like, (not) feel like doing, and examples such as.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "kanoyou",
+      "title": "〜かのようだ: as if (it were)",
+      "summary": "Plain form + かのよう(に/な/だ) = as if (but actually not). Stronger 'unreal' feel than ようだ.",
+      "body": "- 彼は何も知らない**かのような**顔をしていた.\n- まるで夏が来た**かのような**暑さだ.",
+      "examples": [
+        [
+          "まるで{夏|なつ}が{来|き}たかのような{暑|あつ}さだ。",
+          "It's as hot as if summer had come."
+        ]
+      ]
+    },
+    {
+      "id": "ge",
+      "title": "〜げ: seeming, -looking",
+      "summary": "い-adj stem / な-adj / ありげ + げ(な/に) = showing signs of (written style).",
+      "body": "- 寂し**げ**な顔.\n- 自信あり**げ**な態度 (a confident-looking attitude).\n- 意味あり**げ**な笑顔 (a meaningful smile).",
+      "examples": [
+        [
+          "{彼女|かのじょ}は{意味|いみ}ありげな{笑顔|えがお}を{見|み}せた。",
+          "She gave a meaningful smile."
+        ]
+      ]
+    },
+    {
+      "id": "fuuni",
+      "title": "〜ふうに: in a … way",
+      "summary": "こんな/そんな/あんな/どんな + ふうに = in this/that/what way. Also どういうふうに.",
+      "body": "- どういう**ふうに**書けばいいですか.\n- こんな**ふうに**料理すれば、おいしくなる.",
+      "examples": [
+        [
+          "どういうふうに{書|か}けばいいですか。",
+          "How should I write it?"
+        ]
+      ]
+    },
+    {
+      "id": "toiufuuni",
+      "title": "〜というふうに: in such a way, like (pattern)",
+      "summary": "Examples + というふうに = in a pattern like A, B ….",
+      "body": "- 月曜は英語、火曜は数学**というふうに**、毎日違う科目を勉強している.",
+      "examples": [
+        [
+          "{月曜|げつよう}は{英語|えいご}、{火曜|かよう}は{数学|すうがく}というふうに、{毎日|まいにち}{違|ちが}う{科目|かもく}を{勉強|べんきょう}している。",
+          "I study a different subject every day — English on Monday, maths on Tuesday, and so on."
+        ]
+      ]
+    },
+    {
+      "id": "ki",
+      "title": "〜気がしない / 気になれない: (not) feel like",
+      "summary": "Dictionary form + 気がしない / 気にならない = don't feel like doing. 気 (き) = mood, intention.",
+      "body": "- 疲れていて、料理をする**気がしない**.\n- 今日は何もする**気になれない**.",
+      "examples": [
+        [
+          "{疲|つか}れていて、{料理|りょうり}をする{気|き}がしない。",
+          "I'm tired, so I don't feel like cooking."
+        ]
+      ]
+    },
+    {
+      "id": "toitta",
+      "title": "〜といった: such as (examples)",
+      "summary": "A、B といった + noun = nouns such as A and B (examples of a category).",
+      "body": "- 寿司や天ぷら**といった**日本料理.\n- 京都、奈良**といった**古い町.",
+      "examples": [
+        [
+          "{京都|きょうと}、{奈良|なら}といった{古|ふる}い{町|まち}が{好|す}きだ。",
+          "I like old cities like Kyoto and Nara."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "kanoyou",
+      "prompt": "{彼|かれ}は{何|なに}も{知|し}らない（　）{顔|かお}をしていた。",
+      "options": [
+        "かのようで",
+        "かのような",
+        "かのようが",
+        "かのように"
+      ],
+      "answer": 1,
+      "explanation": "Before a noun: **かのような**.",
+      "notes": [
+        "かのようで connects clauses.",
+        "",
+        "かのようが isn't grammatical.",
+        "かのように modifies verbs, not 顔."
+      ],
+      "translation": "He looked as if he knew nothing."
+    },
+    {
+      "point": "kanoyou",
+      "prompt": "まるで{夏|なつ}が{来|き}た（　）{暑|あつ}さだ。",
+      "options": [
+        "かのようで",
+        "かのように",
+        "かのような",
+        "かようだ"
+      ],
+      "answer": 2,
+      "explanation": "Before a noun: **かのような**.",
+      "notes": [
+        "かのようで can't modify 暑さ.",
+        "かのように can't modify 暑さ.",
+        "",
+        "かようだ isn't the pattern."
+      ],
+      "translation": "It's as hot as if summer had come."
+    },
+    {
+      "point": "ge",
+      "prompt": "{彼|かれ}は{自信|じしん}あり（　）な{態度|たいど}で{話|はな}した。",
+      "options": [
+        "けい",
+        "け",
+        "げい",
+        "げ"
+      ],
+      "answer": 3,
+      "explanation": "Seeming: **ありげ**.",
+      "notes": [
+        "けい isn't the suffix.",
+        "け isn't the suffix.",
+        "げい = 'art / gay' — not a suffix here.",
+        ""
+      ],
+      "translation": "He spoke with a confident air."
+    },
+    {
+      "point": "ge",
+      "prompt": "What does 「{意味|いみ}ありげな{笑顔|えがお}」 mean?",
+      "options": [
+        "a smile with a reason given",
+        "a forced smile",
+        "a meaningful (suggestive) smile",
+        "a meaningless smile"
+      ],
+      "answer": 2,
+      "explanation": "〜げ = **seeming to have**.",
+      "notes": [
+        "げ is an impression, not a stated reason.",
+        "That would be 作り笑い.",
+        "",
+        "The opposite."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "fuuni",
+      "prompt": "どういう（　）に{書|か}けばいいですか。",
+      "options": [
+        "ふう",
+        "そう",
+        "ほう",
+        "こう"
+      ],
+      "answer": 0,
+      "explanation": "In what way: **どういうふうに**.",
+      "notes": [
+        "",
+        "どういうそうに isn't grammatical.",
+        "どういうほうに = 'in which direction'.",
+        "どういうこうに isn't grammatical."
+      ],
+      "translation": "How should I write it?"
+    },
+    {
+      "point": "fuuni",
+      "prompt": "こんな（　）に{料理|りょうり}すれば、おいしくなるよ。",
+      "options": [
+        "まま",
+        "そう",
+        "ふう",
+        "ほう"
+      ],
+      "answer": 2,
+      "explanation": "Like this: **こんなふうに**.",
+      "notes": [
+        "こんなままに isn't grammatical.",
+        "こんなそうに isn't grammatical.",
+        "",
+        "こんなほうに isn't the pattern."
+      ],
+      "translation": "If you cook it like this, it'll taste good."
+    },
+    {
+      "point": "toiufuuni",
+      "prompt": "{月曜|げつよう}は{英語|えいご}、{火曜|かよう}は{数学|すうがく}（　）、{毎日|まいにち}{違|ちが}う{科目|かもく}を{勉強|べんきょう}している。",
+      "options": [
+        "というふうに",
+        "ということに",
+        "といっても",
+        "というより"
+      ],
+      "answer": 0,
+      "explanation": "Pattern like: **というふうに**.",
+      "notes": [
+        "",
+        "ということに isn't this pattern.",
+        "といっても = 'although'.",
+        "というより = 'rather than'."
+      ],
+      "translation": "I study a different subject every day — English on Monday, maths on Tuesday, and so on."
+    },
+    {
+      "point": "toiufuuni",
+      "prompt": "{朝|あさ}は{走|はし}る、{夜|よる}は{泳|およ}ぐ（　）、{毎日|まいにち}{運動|うんどう}している。",
+      "options": [
+        "というふうで",
+        "というふうな",
+        "というふうに",
+        "というふうだ"
+      ],
+      "answer": 2,
+      "explanation": "Connecting to a verb: **というふうに**.",
+      "notes": [
+        "ふうで connects clauses but isn't the pattern here.",
+        "ふうな must modify a noun.",
+        "",
+        "ふうだ ends a sentence."
+      ],
+      "translation": "I exercise every day — running in the morning, swimming at night."
+    },
+    {
+      "point": "ki",
+      "prompt": "{疲|つか}れていて、{料理|りょうり}をする（　）がしない。",
+      "options": [
+        "{器|き}",
+        "{機|き}",
+        "{木|き}",
+        "{気|き}"
+      ],
+      "answer": 3,
+      "explanation": "Don't feel like: **気がしない** (気).",
+      "notes": [
+        "器 = 'vessel'.",
+        "機 = 'machine'.",
+        "木 = 'tree'.",
+        ""
+      ],
+      "translation": "I'm tired, so I don't feel like cooking."
+    },
+    {
+      "point": "ki",
+      "prompt": "{今日|きょう}は{何|なに}もする（　）になれない。",
+      "options": [
+        "{気|き}",
+        "{来|き}",
+        "{木|き}",
+        "{着|き}"
+      ],
+      "answer": 0,
+      "explanation": "**気になれない** = can't bring myself to.",
+      "notes": [
+        "",
+        "来 = 'come'.",
+        "木 = 'tree'.",
+        "着 = 'wear'."
+      ],
+      "translation": "Today I can't bring myself to do anything."
+    },
+    {
+      "point": "toitta",
+      "prompt": "{寿司|すし}や{天|てん}ぷら（　）{日本料理|にほんりょうり}が{好|す}きだ。",
+      "options": [
+        "といって",
+        "とした",
+        "といった",
+        "として"
+      ],
+      "answer": 2,
+      "explanation": "Such as: **といった** + noun.",
+      "notes": [
+        "といって can't modify a noun.",
+        "とした can't modify like this.",
+        "",
+        "として = 'as'."
+      ],
+      "translation": "I like Japanese food such as sushi and tempura."
+    },
+    {
+      "point": "toitta",
+      "prompt": "{京都|きょうと}、{奈良|なら}（　）{古|ふる}い{町|まち}を{旅行|りょこう}した。",
+      "options": [
+        "とした",
+        "といった",
+        "といって",
+        "として"
+      ],
+      "answer": 1,
+      "explanation": "**といった** + noun.",
+      "notes": [
+        "とした can't modify like this.",
+        "",
+        "といって can't modify a noun.",
+        "として = 'as'."
+      ],
+      "translation": "I travelled to old cities such as Kyoto and Nara."
+    }
+  ]
+}

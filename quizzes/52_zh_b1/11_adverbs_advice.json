@@ -1,0 +1,312 @@
+{
+  "id": "zh-b1-adverbs-advice",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Adverbs (2): 最好, 还是 (had better), 先…再, 老是, 互相, 够",
+  "description": "Giving advice, choosing the better option, first … then, complaining about 'always', each other, and enough.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "zuihao",
+      "title": "最好 + verb: you'd better",
+      "summary": "最好 (zuìhǎo) + verb = it's best to / you'd better.",
+      "body": "- 外面在下雨，你**最好**带把伞.",
+      "examples": [
+        [
+          "{你|nǐ}{最好|zuìhǎo}{早|zǎo}{点儿|diǎnr}{睡觉|shuìjiào}。",
+          "You'd better go to bed early."
+        ]
+      ]
+    },
+    {
+      "id": "haishi2",
+      "title": "还是 + verb (+ 吧): had better, let's … instead",
+      "summary": "还是 + verb = after thinking about it, this is the better option.",
+      "body": "- 太晚了，我们**还是**坐出租车回去吧.\n- 我们**还是**明天去吧.",
+      "examples": [
+        [
+          "{我们|wǒmen}{还是|háishi}{明天|míngtiān}{去|qù}{吧|ba}。",
+          "Let's go tomorrow instead."
+        ]
+      ]
+    },
+    {
+      "id": "xianzai",
+      "title": "先 A，再 B: first A, then B",
+      "summary": "先 (xiān) + A，再 (zài) + B = first A, then B.",
+      "body": "- 我们**先**吃饭，**再**去看电影.",
+      "examples": [
+        [
+          "{你|nǐ}{先|xiān}{做|zuò}{作业|zuòyè}，{再|zài}{玩儿|wánr}{游戏|yóuxì}。",
+          "Do your homework first, then play games."
+        ]
+      ]
+    },
+    {
+      "id": "laoshi",
+      "title": "老(是) + verb: always (complaint)",
+      "summary": "老 / 老是 (lǎoshì) = always, again and again — usually annoyed.",
+      "body": "- 你怎么**老是**忘带钥匙?",
+      "examples": [
+        [
+          "{他|tā}{老是|lǎoshì}{迟到|chídào}。",
+          "He's always late."
+        ]
+      ]
+    },
+    {
+      "id": "huxiang",
+      "title": "互相 + verb: each other",
+      "summary": "互相 (hùxiāng) goes **before** the verb.",
+      "body": "- 我们常常**互相**帮助.",
+      "examples": [
+        [
+          "{他们|tāmen}{互相|hùxiāng}{认识|rènshi}。",
+          "They know each other."
+        ]
+      ]
+    },
+    {
+      "id": "gou",
+      "title": "够: enough",
+      "summary": "够 (gòu) + verb / noun = enough to …; verb + 够 = have had enough.",
+      "body": "- 这些钱**够**买一台电脑吗?\n- 我吃**够**了.",
+      "examples": [
+        [
+          "{这些|zhèxiē}{钱|qián}{够|gòu}{买|mǎi}{一|yì}{台|tái}{电脑|diànnǎo}{吗|ma}？",
+          "Is this enough money to buy a computer?"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "zuihao",
+      "prompt": "{外面|wàimiàn}{在|zài}{下雨|xià yǔ}，{你|nǐ}（　）{带|dài}{把|bǎ}{伞|sǎn}。",
+      "options": [
+        "{最好|zuìhǎo}",
+        "{最多|zuìduō}",
+        "{最后|zuìhòu}",
+        "{最近|zuìjìn}"
+      ],
+      "answer": 0,
+      "explanation": "You'd better: **最好**.",
+      "notes": [
+        "",
+        "最多 = 'at most'.",
+        "最后 = 'finally, last'.",
+        "最近 = 'recently'."
+      ],
+      "translation": "It's raining outside — you'd better take an umbrella."
+    },
+    {
+      "point": "zuihao",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{你|nǐ}{早|zǎo}{点儿|diǎnr}{最好|zuìhǎo}{睡觉|shuìjiào}。",
+        "{你|nǐ}{最好|zuìhǎo}{睡觉|shuìjiào}{早|zǎo}{点儿|diǎnr}。",
+        "{你|nǐ}{最好|zuìhǎo}{的|de}{早|zǎo}{点儿|diǎnr}{睡觉|shuìjiào}。",
+        "{你|nǐ}{最好|zuìhǎo}{早|zǎo}{点儿|diǎnr}{睡觉|shuìjiào}。"
+      ],
+      "answer": 3,
+      "explanation": "**最好** + verb phrase.",
+      "notes": [
+        "最好 comes before the whole verb phrase.",
+        "早点儿 goes before the verb.",
+        "No 的 after 最好 here.",
+        ""
+      ],
+      "translation": "You'd better go to bed early."
+    },
+    {
+      "point": "haishi2",
+      "prompt": "{太|tài}{晚|wǎn}{了|le}，{没有|méiyǒu}{公共汽车|gōnggòng qìchē}{了|le}，{我们|wǒmen}（　）{坐|zuò}{出租车|chūzūchē}{回去|huíqù}{吧|ba}。",
+      "options": [
+        "{还有|háiyǒu}",
+        "{还是|háishi}",
+        "{要是|yàoshi}",
+        "{虽然|suīrán}"
+      ],
+      "answer": 1,
+      "explanation": "Better option: **还是…吧**.",
+      "notes": [
+        "还有 = 'there's also'.",
+        "",
+        "要是 = 'if'.",
+        "虽然 = 'although'."
+      ],
+      "translation": "It's too late, there are no buses — we'd better take a taxi back."
+    },
+    {
+      "point": "haishi2",
+      "prompt": "What does 「{我们|wǒmen}{还是|háishi}{明天|míngtiān}{去|qù}{吧|ba}。」 mean?",
+      "options": [
+        "Wewenttomorrow.",
+        "We'realsogoingtomorrow.",
+        "Let'sgotomorrowinstead.",
+        "Arewegoingtodayortomorrow?"
+      ],
+      "answer": 2,
+      "explanation": "还是…吧 = **better option**.",
+      "notes": [
+        "Not possible.",
+        "That's 我们明天也去.",
+        "",
+        "That would need a question with 还是 between two options."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "xianzai",
+      "prompt": "{我们|wǒmen}{先|xiān}{吃饭|chīfàn}，（　）{去|qù}{看|kàn}{电影|diànyǐng}。",
+      "options": [
+        "{才|cái}",
+        "{再|zài}",
+        "{又|yòu}",
+        "{就|jiù}"
+      ],
+      "answer": 1,
+      "explanation": "First … then: **先…再**.",
+      "notes": [
+        "才去 = 'only then go' — the pair is 先…再.",
+        "",
+        "又 is for things that already happened.",
+        "先…就 isn't the pattern."
+      ],
+      "translation": "Let's eat first, then go to the cinema."
+    },
+    {
+      "point": "xianzai",
+      "prompt": "Which one means 'Do your homework first, then play games'?",
+      "options": [
+        "{你|nǐ}{又|yòu}{做|zuò}{作业|zuòyè}，{又|yòu}{玩儿|wánr}{游戏|yóuxì}。",
+        "{你|nǐ}{做|zuò}{作业|zuòyè}{先|xiān}，{玩儿|wánr}{游戏|yóuxì}{再|zài}。",
+        "{你|nǐ}{先|xiān}{做|zuò}{作业|zuòyè}，{再|zài}{玩儿|wánr}{游戏|yóuxì}。",
+        "{你|nǐ}{先|xiān}{玩儿|wánr}{游戏|yóuxì}，{再|zài}{做|zuò}{作业|zuòyè}。"
+      ],
+      "answer": 2,
+      "explanation": "**先** A，**再** B.",
+      "notes": [
+        "又…又 = 'both … and'.",
+        "先 and 再 go before the verbs.",
+        "",
+        "That's the other way round."
+      ],
+      "translation": "Do your homework first, then play games."
+    },
+    {
+      "point": "laoshi",
+      "prompt": "{他|tā}（　）{迟到|chídào}，{老师|lǎoshī}{很|hěn}{生气|shēngqì}。",
+      "options": [
+        "{老师|lǎoshī}",
+        "{老是|lǎoshì}",
+        "{已经|yǐjīng}",
+        "{老人|lǎorén}"
+      ],
+      "answer": 1,
+      "explanation": "Always (complaint): **老是**.",
+      "notes": [
+        "老师 = 'teacher' (same sound, different tone).",
+        "",
+        "已经迟到 would need 了.",
+        "老人 = 'old person'."
+      ],
+      "translation": "He's always late, and the teacher is angry."
+    },
+    {
+      "point": "laoshi",
+      "prompt": "What does 「{你|nǐ}{怎么|zěnme}{老是|lǎoshì}{忘|wàng}{带|dài}{钥匙|yàoshi}？」 mean?",
+      "options": [
+        "Whydidtheteacherforgetthekeys?",
+        "Whydoyouforgetyouroldkeys?",
+        "Whydoyoualwaysforgetyourkeys?",
+        "Whereareyourkeys?"
+      ],
+      "answer": 2,
+      "explanation": "老是 = **always (annoyed)**.",
+      "notes": [
+        "老是 here isn't 老师 (teacher).",
+        "老 isn't 'old' here.",
+        "",
+        "That's 你的钥匙在哪儿."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "huxiang",
+      "prompt": "{我们|wǒmen}{是|shì}{好|hǎo}{朋友|péngyou}，{常常|chángcháng}（　）{帮助|bāngzhù}。",
+      "options": [
+        "{同样|tóngyàng}",
+        "{互相|hùxiāng}",
+        "{一样|yíyàng}",
+        "{一下|yíxià}"
+      ],
+      "answer": 1,
+      "explanation": "Each other: **互相**.",
+      "notes": [
+        "同样帮助 = 'help in the same way'.",
+        "",
+        "一样帮助 isn't natural.",
+        "一下 goes after a verb."
+      ],
+      "translation": "We're good friends and often help each other."
+    },
+    {
+      "point": "huxiang",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他们|tāmen}{互相|hùxiāng}{认识|rènshi}。",
+        "{他们|tāmen}{认识|rènshi}{互相|hùxiāng}。",
+        "{互相|hùxiāng}{他们|tāmen}{认识|rènshi}。",
+        "{他们|tāmen}{互相|hùxiāng}{认识|rènshi}{互相|hùxiāng}。"
+      ],
+      "answer": 0,
+      "explanation": "**互相** + verb.",
+      "notes": [
+        "",
+        "互相 goes before the verb (not like English 'each other').",
+        "The subject comes first.",
+        "Only one 互相."
+      ],
+      "translation": "They know each other."
+    },
+    {
+      "point": "gou",
+      "prompt": "{这些|zhèxiē}{钱|qián}（　）{买|mǎi}{一|yì}{台|tái}{电脑|diànnǎo}{吗|ma}？",
+      "options": [
+        "{很|hěn}",
+        "{够|gòu}",
+        "{多|duō}",
+        "{少|shǎo}"
+      ],
+      "answer": 1,
+      "explanation": "Enough to: **够**.",
+      "notes": [
+        "很买 isn't grammatical.",
+        "",
+        "多买 = 'buy more'.",
+        "少买 = 'buy less'."
+      ],
+      "translation": "Is this enough money to buy a computer?"
+    },
+    {
+      "point": "gou",
+      "prompt": "{我|wǒ}{已经|yǐjīng}{吃|chī}（　）{了|le}，{一点儿|yìdiǎnr}{也|yě}{吃|chī}{不|bú}{下|xià}{了|le}。",
+      "options": [
+        "{够|gòu}",
+        "{少|shǎo}",
+        "{见|jiàn}",
+        "{到|dào}"
+      ],
+      "answer": 0,
+      "explanation": "Had enough: **吃够了**.",
+      "notes": [
+        "",
+        "吃少了 = 'ate too little' — contradicts 吃不下.",
+        "吃见 isn't a word.",
+        "吃到 = 'got to eat'."
+      ],
+      "translation": "I've had enough — I can't eat another bite."
+    }
+  ]
+}

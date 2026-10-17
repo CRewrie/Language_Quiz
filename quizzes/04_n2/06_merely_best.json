@@ -1,0 +1,361 @@
+{
+  "id": "n2-merely-best",
+  "category": "JLPT N2",
+  "title": "Merely, Nothing But & Best: に過ぎない, でしかない, にほかならない, に越したことはない, に限る, に決まっている, に相違ない",
+  "description": "Downplaying (just, merely), insisting (none other than), recommending (it's best to, nothing beats), and certainty (surely, without doubt).",
+  "level": "N2",
+  "points": [
+    {
+      "id": "nisuginai",
+      "title": "〜に過ぎない: merely, no more than",
+      "summary": "Noun / plain + に過ぎない = it's just … (nothing more).",
+      "body": "- それは噂**に過ぎない**.\n- 私は一社員**に過ぎない**.",
+      "examples": [
+        [
+          "それは{噂|うわさ}に{過|す}ぎない。",
+          "That's just a rumour."
+        ]
+      ]
+    },
+    {
+      "id": "deshikanai",
+      "title": "〜でしかない: nothing but, merely",
+      "summary": "Noun + でしかない = is nothing more than (often with a negative evaluation).",
+      "body": "- 彼にとって、私はただの友達**でしかない**.",
+      "examples": [
+        [
+          "{彼|かれ}にとって、{私|わたし}はただの{友達|ともだち}でしかない。",
+          "To him, I'm nothing more than a friend."
+        ]
+      ]
+    },
+    {
+      "id": "nihokanaranai",
+      "title": "〜にほかならない: nothing other than, precisely",
+      "summary": "Noun + にほかならない = it is none other than A (strong assertion).",
+      "body": "- 成功は努力の結果**にほかならない**.",
+      "examples": [
+        [
+          "{成功|せいこう}は{努力|どりょく}の{結果|けっか}にほかならない。",
+          "Success is nothing other than the result of effort."
+        ]
+      ]
+    },
+    {
+      "id": "nikoshitakotowanai",
+      "title": "〜に越したことはない: it's best to, nothing is better than",
+      "summary": "Dictionary form / noun + に越したことはない = it would be ideal (though not essential). Kanji: 越 (こ).",
+      "body": "- 健康には気をつける**に越したことはない**.\n- 安い**に越したことはない**.",
+      "examples": [
+        [
+          "{健康|けんこう}には{気|き}をつけるに{越|こ}したことはない。",
+          "It's best to take care of your health."
+        ]
+      ]
+    },
+    {
+      "id": "nikagiru",
+      "title": "〜に限る: nothing beats, the best is",
+      "summary": "Dictionary form / noun + に限る = the best (personal opinion).",
+      "body": "- 疲れた時は、寝る**に限る**.\n- 夏はビール**に限る**.",
+      "examples": [
+        [
+          "{疲|つか}れた{時|とき}は、{寝|ね}るに{限|かぎ}る。",
+          "When you're tired, nothing beats sleep."
+        ]
+      ]
+    },
+    {
+      "id": "nikimatteiru",
+      "title": "〜に決まっている: surely, definitely",
+      "summary": "Plain form / noun + に決まっている = I'm sure (strong, often subjective).",
+      "body": "- そんなの、嘘**に決まっている**.\n- 彼が勝つ**に決まっている**.",
+      "examples": [
+        [
+          "そんなの、{嘘|うそ}に{決|き}まっている。",
+          "That's obviously a lie."
+        ]
+      ]
+    },
+    {
+      "id": "nisouinai",
+      "title": "〜に相違ない: without doubt (formal)",
+      "summary": "Plain form / noun + に相違ない = undoubtedly (written equivalent of にちがいない).",
+      "body": "- 犯人はあの男**に相違ない**.",
+      "examples": [
+        [
+          "{犯人|はんにん}はあの{男|おとこ}に{相違|そうい}ない。",
+          "The culprit is undoubtedly that man."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nisuginai",
+      "prompt": "それはただの{噂|うわさ}（　）。",
+      "options": [
+        "に{過|す}ぎる",
+        "を{過|す}ぎない",
+        "が{過|す}ぎない",
+        "に{過|す}ぎない"
+      ],
+      "answer": 3,
+      "explanation": "Merely: **に過ぎない**.",
+      "notes": [
+        "に過ぎる isn't the pattern.",
+        "The particle is に.",
+        "The particle is に.",
+        ""
+      ],
+      "translation": "That's just a rumour."
+    },
+    {
+      "point": "deshikanai",
+      "prompt": "{彼|かれ}にとって、{私|わたし}はただの{友達|ともだち}（　）。",
+      "options": [
+        "でしかある",
+        "だしかない",
+        "でしかない",
+        "しかない"
+      ],
+      "answer": 2,
+      "explanation": "Nothing more than: **でしかない**.",
+      "notes": [
+        "The pattern is negative.",
+        "だしかない isn't a form.",
+        "",
+        "友達しかない = 'have only friends' — different."
+      ],
+      "translation": "To him, I'm nothing more than a friend."
+    },
+    {
+      "point": "nihokanaranai",
+      "prompt": "{成功|せいこう}は{努力|どりょく}の{結果|けっか}（　）。",
+      "options": [
+        "をほかならない",
+        "にほかない",
+        "がほかならない",
+        "にほかならない"
+      ],
+      "answer": 3,
+      "explanation": "None other than: **にほかならない**.",
+      "notes": [
+        "The particle is に.",
+        "ほかない = 'no choice but'.",
+        "The particle is に.",
+        ""
+      ],
+      "translation": "Success is nothing other than the result of effort."
+    },
+    {
+      "point": "nikoshitakotowanai",
+      "prompt": "{健康|けんこう}には{気|き}をつける（　）。",
+      "options": [
+        "に{超|こ}したことはない",
+        "を{越|こ}したことはない",
+        "に{越|こ}したことはない",
+        "に{越|こ}すことはない"
+      ],
+      "answer": 2,
+      "explanation": "It's best to: **に越したことはない**.",
+      "notes": [
+        "超 is a different kanji (exceed a limit).",
+        "The particle is に.",
+        "",
+        "越す — the pattern uses the past 越した."
+      ],
+      "translation": "It's best to take care of your health."
+    },
+    {
+      "point": "nikagiru",
+      "prompt": "{疲|つか}れた{時|とき}は、{寝|ね}る（　）。",
+      "options": [
+        "に{限|かぎ}る",
+        "に{限|かぎ}って",
+        "に{限|かぎ}り",
+        "に{限|かぎ}らず"
+      ],
+      "answer": 0,
+      "explanation": "Nothing beats: **に限る**.",
+      "notes": [
+        "",
+        "に限って = 'only when (unfortunately)'.",
+        "に限り = 'limited to'.",
+        "に限らず = 'not only'."
+      ],
+      "translation": "When you're tired, nothing beats sleep."
+    },
+    {
+      "point": "nikimatteiru",
+      "prompt": "そんなの、{嘘|うそ}（　）。",
+      "options": [
+        "に{決|き}めている",
+        "に{決|き}まっている",
+        "が{決|き}まっている",
+        "を{決|き}めている"
+      ],
+      "answer": 1,
+      "explanation": "Surely: **に決まっている**.",
+      "notes": [
+        "に決めている = 'has chosen'.",
+        "",
+        "が決まっている = 'is decided'.",
+        "を決めている = 'has decided on'."
+      ],
+      "translation": "That's obviously a lie."
+    },
+    {
+      "point": "nisouinai",
+      "prompt": "{犯人|はんにん}はあの{男|おとこ}（　）。",
+      "options": [
+        "が{相違|そうい}ない",
+        "に{相違|そうい}する",
+        "を{相違|そうい}ない",
+        "に{相違|そうい}ない"
+      ],
+      "answer": 3,
+      "explanation": "Undoubtedly: **に相違ない**.",
+      "notes": [
+        "The particle is に.",
+        "相違する = 'differ'.",
+        "The particle is に.",
+        ""
+      ],
+      "translation": "The culprit is undoubtedly that man."
+    },
+    {
+      "point": "nisuginai",
+      "prompt": "{私|わたし}は{一社員|いちしゃいん}（　）ので、{決|き}められません。",
+      "options": [
+        "に{過|す}ぎない",
+        "に{過|す}ぎる",
+        "が{過|す}ぎない",
+        "を{過|す}ぎない"
+      ],
+      "answer": 0,
+      "explanation": "Merely: **に過ぎない**.",
+      "notes": [
+        "",
+        "過ぎる isn't the pattern.",
+        "The particle is に.",
+        "The particle is に."
+      ],
+      "translation": "I'm just an ordinary employee, so I can't decide."
+    },
+    {
+      "point": "deshikanai",
+      "prompt": "それは{言|い}い{訳|わけ}（　）。",
+      "options": [
+        "でしかある",
+        "でしかない",
+        "しかない",
+        "だしかない"
+      ],
+      "answer": 1,
+      "explanation": "Nothing but: **でしかない**.",
+      "notes": [
+        "The pattern is negative.",
+        "",
+        "言い訳しかない = 'there are only excuses' — different.",
+        "だしかない isn't a form."
+      ],
+      "translation": "That's nothing but an excuse."
+    },
+    {
+      "point": "nihokanaranai",
+      "prompt": "{彼|かれ}が{怒|おこ}ったのは、あなたを{心配|しんぱい}しているから（　）。",
+      "options": [
+        "にほかならない",
+        "がほかならない",
+        "をほかならない",
+        "にほかない"
+      ],
+      "answer": 0,
+      "explanation": "Precisely: **にほかならない**.",
+      "notes": [
+        "",
+        "The particle is に.",
+        "The particle is に.",
+        "ほかない = 'no choice but'."
+      ],
+      "translation": "He got angry precisely because he's worried about you."
+    },
+    {
+      "point": "nikoshitakotowanai",
+      "prompt": "{家賃|やちん}は{安|やす}い（　）。",
+      "options": [
+        "を{越|こ}したことはない",
+        "に{越|こ}したことはない",
+        "に{超|こ}したことはない",
+        "に{越|こ}すことはない"
+      ],
+      "answer": 1,
+      "explanation": "It's best if: **に越したことはない**.",
+      "notes": [
+        "The particle is に.",
+        "",
+        "超 is the wrong kanji.",
+        "The pattern uses 越した."
+      ],
+      "translation": "The cheaper the rent, the better."
+    },
+    {
+      "point": "nikagiru",
+      "prompt": "{夏|なつ}は{冷|つめ}たいビール（　）。",
+      "options": [
+        "に{限|かぎ}らず",
+        "に{限|かぎ}り",
+        "に{限|かぎ}る",
+        "に{限|かぎ}って"
+      ],
+      "answer": 2,
+      "explanation": "Nothing beats: **に限る**.",
+      "notes": [
+        "に限らず = 'not only'.",
+        "に限り = 'limited to'.",
+        "",
+        "に限って = 'only (unfortunately)'."
+      ],
+      "translation": "In summer, nothing beats a cold beer."
+    },
+    {
+      "point": "nikimatteiru",
+      "prompt": "あんなに{練習|れんしゅう}したんだから、{勝|か}つ（　）。",
+      "options": [
+        "に{決|き}まっている",
+        "を{決|き}めている",
+        "に{決|き}めている",
+        "が{決|き}まっている"
+      ],
+      "answer": 0,
+      "explanation": "Surely: **に決まっている**.",
+      "notes": [
+        "",
+        "を決めている = 'has decided on'.",
+        "に決めている = 'has chosen'.",
+        "が決まっている = 'is decided'."
+      ],
+      "translation": "We practised so much — of course we'll win."
+    },
+    {
+      "point": "nisouinai",
+      "prompt": "これは{彼|かれ}の{仕業|しわざ}（　）。",
+      "options": [
+        "に{相違|そうい}する",
+        "に{相違|そうい}ない",
+        "を{相違|そうい}ない",
+        "が{相違|そうい}ない"
+      ],
+      "answer": 1,
+      "explanation": "Undoubtedly: **に相違ない**.",
+      "notes": [
+        "相違する = 'differ'.",
+        "",
+        "The particle is に.",
+        "The particle is に."
+      ],
+      "translation": "This is undoubtedly his doing."
+    }
+  ]
+}

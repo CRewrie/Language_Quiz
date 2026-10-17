@@ -1,0 +1,373 @@
+{
+  "id": "n3-degree",
+  "category": "JLPT N3",
+  "title": "Degree: ほど, くらい, あまり(に), ば〜ほど, ほど〜ない, につれて, 一方だ",
+  "description": "To the extent that, at least, so … that, the more … the more, not as … as, as … changes, and 'keeps getting more'.",
+  "level": "N3",
+  "points": [
+    {
+      "id": "hodo",
+      "title": "〜ほど: to the extent that, so … that",
+      "summary": "Verb/noun + ほど + predicate = to such a degree that. Often exaggerated: 死ぬほど, 山ほど.",
+      "body": "- 死ぬ**ほど**疲れた (so tired I could die).\n- 山**ほど**宿題がある (a mountain of homework).\n- 涙が出る**ほど**笑った.\n\nほど expresses a high degree. **くらい** can often replace it, but ほど sounds stronger and is used for exaggeration.",
+      "examples": [
+        [
+          "{死|し}ぬほど{疲|つか}れた。",
+          "I'm dead tired."
+        ],
+        [
+          "{山|やま}ほど{宿題|しゅくだい}がある。",
+          "I have tons of homework."
+        ]
+      ]
+    },
+    {
+      "id": "kurai",
+      "title": "〜くらい / ぐらい: at least, to the extent of (minimum)",
+      "summary": "Noun + くらい = 'at least …' (a minimum that's easy): 挨拶くらいしなさい. Also degree like ほど, but more modest.",
+      "body": "- せめて挨拶**くらい**してください (at least say hello).\n- 自分のこと**くらい**自分でやりなさい (do at least your own things yourself).\n\nThe 'at least / something as small as' meaning belongs to くらい — ほど can't do this.",
+      "examples": [
+        [
+          "せめて{挨拶|あいさつ}くらいしてください。",
+          "At least say hello."
+        ],
+        [
+          "{自分|じぶん}のことくらい{自分|じぶん}でやりなさい。",
+          "At least do your own things yourself."
+        ]
+      ]
+    },
+    {
+      "id": "amarini",
+      "title": "あまりに(も) / 〜のあまり: so (much) … that",
+      "summary": "あまりに + adjective + て = so … that (a bad result). Noun + のあまり = out of (excessive) ….",
+      "body": "- **あまりに**忙しくて、昼ご飯を食べる時間もなかった.\n- 驚き**のあまり**、声も出なかった (I was so surprised I couldn't speak).\n\nDon't confuse with **あまり〜ない** (not very) from N4.",
+      "examples": [
+        [
+          "あまりに{忙|いそが}しくて、{昼|ひる}ご{飯|はん}を{食|た}べる{時間|じかん}もなかった。",
+          "I was so busy I didn't even have time for lunch."
+        ],
+        [
+          "{驚|おどろ}きのあまり、{声|こえ}も{出|で}なかった。",
+          "I was so surprised I couldn't make a sound."
+        ]
+      ]
+    },
+    {
+      "id": "bahodo",
+      "title": "〜ば〜ほど: the more … the more",
+      "summary": "ば-form + same word (dictionary form) + ほど = the more A, the more B.",
+      "body": "- 練習すれ**ば**練習する**ほど**、上手になる.\n- 考えれ**ば**考える**ほど**、わからなくなる.\n- 安けれ**ば**安い**ほど**いい.\n\nThe same verb/adjective is repeated: ば-form first, then dictionary form + ほど. な-adj: 静か**なら**静かな**ほど**.",
+      "examples": [
+        [
+          "{練習|れんしゅう}すればするほど、{上手|じょうず}になる。",
+          "The more you practise, the better you get."
+        ]
+      ]
+    },
+    {
+      "id": "hodonai",
+      "title": "AはBほど〜ない: A is not as … as B",
+      "summary": "Noun + ほど + negative = not as … as. Used to say something is *less* than the comparison.",
+      "body": "- 今年の夏は去年**ほど**暑く**ない** (this summer isn't as hot as last year).\n- 私は兄**ほど**背が高く**ない**.\n\nAlways negative. (より works in positive comparisons: 去年より暑い.)",
+      "examples": [
+        [
+          "{今年|ことし}の{夏|なつ}は{去年|きょねん}ほど{暑|あつ}くない。",
+          "This summer isn't as hot as last year."
+        ]
+      ]
+    },
+    {
+      "id": "nitsurete",
+      "title": "〜につれて: as … (changes), so …",
+      "summary": "Dictionary form / noun + につれて = as A changes, B changes along with it.",
+      "body": "- 年をとる**につれて**、体が弱くなる.\n- 時間がたつ**につれて**、町の様子が変わっていった.\n\nBoth A and B are gradual changes. Similar: 〜とともに, 〜に従って.",
+      "examples": [
+        [
+          "{年|とし}をとるにつれて、{体|からだ}が{弱|よわ}くなる。",
+          "As you get older, your body gets weaker."
+        ]
+      ]
+    },
+    {
+      "id": "ippouda",
+      "title": "〜一方だ: keeps getting more and more",
+      "summary": "Dictionary form + 一方だ = a trend that keeps going in one direction (usually negative).",
+      "body": "- 最近、物価は上がる**一方だ** (prices keep going up).\n- 人口は減る**一方だ**.\n\nNot to be confused with **一方で** ('on the other hand').",
+      "examples": [
+        [
+          "{最近|さいきん}、{物価|ぶっか}は{上|あ}がる{一方|いっぽう}だ。",
+          "Lately prices just keep rising."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "hodo",
+      "prompt": "{昨日|きのう}は{死|し}ぬ（　）{疲|つか}れた。",
+      "options": [
+        "まで",
+        "ほど",
+        "ばかり",
+        "だけ"
+      ],
+      "answer": 1,
+      "explanation": "Extreme degree: **ほど**.",
+      "notes": [
+        "死ぬまで = 'until I die'.",
+        "",
+        "死ぬばかり isn't a degree expression.",
+        "死ぬだけ = 'only die'."
+      ],
+      "translation": "I was dead tired yesterday."
+    },
+    {
+      "point": "hodo",
+      "prompt": "{今週|こんしゅう}は{山|やま}（　）{宿題|しゅくだい}がある。",
+      "options": [
+        "しか",
+        "だけ",
+        "ほど",
+        "さえ"
+      ],
+      "answer": 2,
+      "explanation": "Idiom **山ほど** = tons of.",
+      "notes": [
+        "しか needs a negative verb.",
+        "山だけ = 'only a mountain'.",
+        "",
+        "山さえ = 'even a mountain'."
+      ],
+      "translation": "I have tons of homework this week."
+    },
+    {
+      "point": "kurai",
+      "prompt": "{忙|いそが}しくても、せめて{挨拶|あいさつ}（　）してください。",
+      "options": [
+        "ほど",
+        "まで",
+        "ばかり",
+        "くらい"
+      ],
+      "answer": 3,
+      "explanation": "Minimum ('at least'): **くらい**.",
+      "notes": [
+        "ほど can't express 'at least'.",
+        "まで = 'even / until'.",
+        "ばかり = 'nothing but'.",
+        ""
+      ],
+      "translation": "Even if you're busy, at least say hello."
+    },
+    {
+      "point": "kurai",
+      "prompt": "{自分|じぶん}のこと（　）{自分|じぶん}でやりなさい。",
+      "options": [
+        "くらい",
+        "ばかり",
+        "まで",
+        "ほど"
+      ],
+      "answer": 0,
+      "explanation": "'At least (something this simple)': **くらい**.",
+      "notes": [
+        "",
+        "ばかり = 'nothing but'.",
+        "まで = 'even' — sounds like an extreme.",
+        "ほど can't mean 'at least'."
+      ],
+      "translation": "At least do your own things yourself."
+    },
+    {
+      "point": "amarini",
+      "prompt": "（　）{忙|いそが}しくて、{昼|ひる}ご{飯|はん}を{食|た}べる{時間|じかん}もなかった。",
+      "options": [
+        "あまり",
+        "あまりに",
+        "めったに",
+        "ちっとも"
+      ],
+      "answer": 1,
+      "explanation": "So … that (bad result): **あまりに** + adjective + て.",
+      "notes": [
+        "あまり alone needs a negative (あまり忙しくない).",
+        "",
+        "めったに needs a negative.",
+        "ちっとも needs a negative."
+      ],
+      "translation": "I was so busy I didn't even have time for lunch."
+    },
+    {
+      "point": "amarini",
+      "prompt": "{驚|おどろ}きの（　）、{声|こえ}も{出|で}なかった。",
+      "options": [
+        "くらい",
+        "あまりに",
+        "ほど",
+        "あまり"
+      ],
+      "answer": 3,
+      "explanation": "Noun + **のあまり** = out of (excessive) ….",
+      "notes": [
+        "驚きのくらい isn't grammatical.",
+        "のあまりに isn't the standard pattern.",
+        "驚きのほど isn't idiomatic here.",
+        ""
+      ],
+      "translation": "I was so surprised I couldn't make a sound."
+    },
+    {
+      "point": "bahodo",
+      "prompt": "{練習|れんしゅう}すれ（　）{練習|れんしゅう}する（　）、{上手|じょうず}になる。",
+      "options": [
+        "たら／ほど",
+        "ば／ほど",
+        "ば／まで",
+        "と／ほど"
+      ],
+      "answer": 1,
+      "explanation": "**〜ば〜ほど** = the more … the more.",
+      "notes": [
+        "すれたら isn't a form.",
+        "",
+        "ば…まで isn't the pattern.",
+        "すれと isn't a form."
+      ],
+      "translation": "The more you practise, the better you get."
+    },
+    {
+      "point": "bahodo",
+      "prompt": "{考|かんが}えれば（　）ほど、わからなくなる。",
+      "options": [
+        "{考|かんが}えて",
+        "{考|かんが}え",
+        "{考|かんが}える",
+        "{考|かんが}えた"
+      ],
+      "answer": 2,
+      "explanation": "The second part is the **dictionary form** + ほど.",
+      "notes": [
+        "The て-form doesn't fit.",
+        "The stem doesn't fit.",
+        "",
+        "The past form doesn't fit."
+      ],
+      "translation": "The more I think about it, the less I understand."
+    },
+    {
+      "point": "hodonai",
+      "prompt": "{今年|ことし}の{夏|なつ}は{去年|きょねん}（　）{暑|あつ}くない。",
+      "options": [
+        "だけ",
+        "まで",
+        "ばかり",
+        "ほど"
+      ],
+      "answer": 3,
+      "explanation": "Not as … as: **ほど〜ない**.",
+      "notes": [
+        "だけ = 'only'.",
+        "まで = 'until'.",
+        "ばかり = 'nothing but'.",
+        ""
+      ],
+      "translation": "This summer isn't as hot as last year."
+    },
+    {
+      "point": "hodonai",
+      "prompt": "What does 「このかばんはあのかばんほど{高|たか}くない」 mean?",
+      "options": [
+        "Both bags cost the same.",
+        "That bag isn't expensive.",
+        "This bag is cheaper than that bag.",
+        "This bag is more expensive than that bag."
+      ],
+      "answer": 2,
+      "explanation": "AはBほど〜ない = A is **less** … than B.",
+      "notes": [
+        "ほど〜ない says they're not the same.",
+        "It says nothing about whether *that* bag is expensive — only that this one is less so.",
+        "",
+        "The opposite."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nitsurete",
+      "prompt": "{年|とし}をとる（　）、{体|からだ}が{弱|よわ}くなる。",
+      "options": [
+        "にとって",
+        "につれて",
+        "について",
+        "によって"
+      ],
+      "answer": 1,
+      "explanation": "Change alongside change: **につれて**.",
+      "notes": [
+        "にとって = 'for (someone)'.",
+        "",
+        "について = 'about'.",
+        "によって = 'by / depending on'."
+      ],
+      "translation": "As you get older, your body gets weaker."
+    },
+    {
+      "point": "nitsurete",
+      "prompt": "{時間|じかん}がたつ（　）、{町|まち}の{様子|ようす}が{変|か}わっていった。",
+      "options": [
+        "につれた",
+        "につれない",
+        "につれる",
+        "につれて"
+      ],
+      "answer": 3,
+      "explanation": "Connecting form: **につれて**.",
+      "notes": [
+        "につれた can't connect here.",
+        "につれない isn't the pattern.",
+        "につれる can't connect to the next clause.",
+        ""
+      ],
+      "translation": "As time passed, the town changed."
+    },
+    {
+      "point": "ippouda",
+      "prompt": "{最近|さいきん}、{物価|ぶっか}は{上|あ}がる（　）だ。",
+      "options": [
+        "{一方|いっぽう}が",
+        "{一方|いっぽう}で",
+        "{一方|いっぽう}",
+        "{一方|いっぽう}に"
+      ],
+      "answer": 2,
+      "explanation": "Keeps going up: **一方だ**.",
+      "notes": [
+        "一方がだ isn't grammatical.",
+        "一方で = 'on the other hand' — can't end with だ.",
+        "",
+        "一方にだ isn't grammatical."
+      ],
+      "translation": "Lately prices just keep rising."
+    },
+    {
+      "point": "ippouda",
+      "prompt": "What does 「{人口|じんこう}は{減|へ}る{一方|いっぽう}だ」 mean?",
+      "options": [
+        "The population decreased once.",
+        "The population keeps decreasing.",
+        "The population might decrease.",
+        "On the other hand, the population decreases."
+      ],
+      "answer": 1,
+      "explanation": "一方だ = a continuing one-way trend.",
+      "notes": [
+        "That would be 一度減った.",
+        "",
+        "That would be 減るかもしれない.",
+        "That's 一方で (contrast)."
+      ],
+      "translation": ""
+    }
+  ]
+}

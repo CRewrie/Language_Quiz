@@ -1,0 +1,181 @@
+{
+  "id": "zh-b1-contrast2",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Which One? 常常 vs 经常, 会 / 能 / 可以 (B1), 次 vs 遍",
+  "description": "More B1 look-alikes: how to negate 'often', three kinds of 'can' in harder contexts, and counting times.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "changjing",
+      "title": "常常 vs 经常",
+      "summary": "Both mean 'often'. Negative: 不常 (not ~~不常常~~). 经常 can also be an adjective: 经常的 (frequent).",
+      "body": "- 我**不常**去.\n- 这是**经常**的事.",
+      "examples": [
+        [
+          "{我|wǒ}{不|bù}{常|cháng}{去|qù}{那儿|nàr}。",
+          "I don't go there often."
+        ]
+      ]
+    },
+    {
+      "id": "hnk",
+      "title": "会 / 能 / 可以 at B1",
+      "summary": "会 = likely, will (天黑了，会下雨). 能 = able (physically / circumstances: 我感冒了，不能来). 可以 = allowed, or a suggestion (你可以试试).",
+      "body": "- 一会儿**会**下雨.\n- 我感冒了，明天不**能**来上课了.\n- 你**可以**试试这件.",
+      "examples": [
+        [
+          "{你|nǐ}{可以|kěyǐ}{试试|shìshi}{这|zhè}{件|jiàn}。",
+          "You could try this one."
+        ]
+      ]
+    },
+    {
+      "id": "cibian",
+      "title": "次 vs 遍",
+      "summary": "次 = an occurrence (go, visit, meet). 遍 = once through from start to finish (read, listen, say). Places and visits only take 次.",
+      "body": "- 我去过三**次**上海.\n- 请再说一**遍**.",
+      "examples": [
+        [
+          "{我|wǒ}{去|qù}{过|guo}{三|sān}{次|cì}{上海|Shànghǎi}。",
+          "I've been to Shanghai three times."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "changjing",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{不|bù}{常|cháng}{去|qù}{那儿|nàr}。",
+        "{我|wǒ}{不|bù}{常常|chángcháng}{去|qù}{那儿|nàr}。",
+        "{我|wǒ}{常|cháng}{不|bù}{去|qù}{常|cháng}{那儿|nàr}。",
+        "{我|wǒ}{常常|chángcháng}{不|bù}{常|cháng}{去|qù}{那儿|nàr}。"
+      ],
+      "answer": 0,
+      "explanation": "Negative: **不常**.",
+      "notes": [
+        "",
+        "The negative is 不常, not 不常常.",
+        "Order is broken.",
+        "Contradictory."
+      ],
+      "translation": "I don't go there often."
+    },
+    {
+      "point": "changjing",
+      "prompt": "{别|bié}{担心|dānxīn}，{这|zhè}{是|shì}（　）{的|de}{问题|wèntí}，{很|hěn}{容易|róngyì}{解决|jiějué}。",
+      "options": [
+        "{常常|chángcháng}",
+        "{常时|chángshí}",
+        "{常|cháng}",
+        "{经常|jīngcháng}"
+      ],
+      "answer": 3,
+      "explanation": "Adjective use: **经常的**.",
+      "notes": [
+        "常常 is only an adverb — no 常常的.",
+        "常时 isn't a word.",
+        "常的 isn't used.",
+        ""
+      ],
+      "translation": "Don't worry, this is a common problem — easy to solve."
+    },
+    {
+      "point": "hnk",
+      "prompt": "{天|tiān}{这么|zhème}{黑|hēi}，{一会儿|yíhuìr}{可能|kěnéng}（　）{下雨|xià yǔ}。",
+      "options": [
+        "{会|huì}",
+        "{想|xiǎng}",
+        "{能|néng}",
+        "{可以|kěyǐ}"
+      ],
+      "answer": 0,
+      "explanation": "Likely: **会**.",
+      "notes": [
+        "",
+        "想 = 'want'.",
+        "能 = 'be able'.",
+        "可以 = 'be allowed'."
+      ],
+      "translation": "It's so dark — it might rain soon."
+    },
+    {
+      "point": "hnk",
+      "prompt": "{这|zhè}{件|jiàn}{有点儿|yǒudiǎnr}{小|xiǎo}，{你|nǐ}（　）{试试|shìshi}{那|nà}{件|jiàn}。",
+      "options": [
+        "{要是|yàoshi}",
+        "{得到|dédào}",
+        "{可以|kěyǐ}",
+        "{会|huì}"
+      ],
+      "answer": 2,
+      "explanation": "Suggestion: **可以**.",
+      "notes": [
+        "要是 = 'if'.",
+        "得到 = 'obtain'.",
+        "",
+        "会试试 isn't a suggestion."
+      ],
+      "translation": "This one's a bit small — you could try that one."
+    },
+    {
+      "point": "hnk",
+      "prompt": "{我|wǒ}{发烧|fāshāo}{了|le}，{明天|míngtiān}{不|bù}（　）{来|lái}{上课|shàngkè}{了|le}。",
+      "options": [
+        "{能|néng}",
+        "{就是|jiùshì}",
+        "{还是|háishi}",
+        "{要是|yàoshi}"
+      ],
+      "answer": 0,
+      "explanation": "Unable (circumstances): **不能**.",
+      "notes": [
+        "",
+        "不就是 = 'isn't it just …?' — doesn't fit.",
+        "不还是 isn't grammatical.",
+        "不要是 isn't grammatical."
+      ],
+      "translation": "I've got a fever — I can't come to class tomorrow."
+    },
+    {
+      "point": "cibian",
+      "prompt": "{我|wǒ}{去|qù}{过|guo}{三|sān}（　）{上海|Shànghǎi}，{每|měi}{次|cì}{都|dōu}{很|hěn}{喜欢|xǐhuan}。",
+      "options": [
+        "{个|ge}",
+        "{遍|biàn}",
+        "{本|běn}",
+        "{次|cì}"
+      ],
+      "answer": 3,
+      "explanation": "Visits: **次**.",
+      "notes": [
+        "个 doesn't count visits.",
+        "遍 is for doing something from start to finish — not for visits.",
+        "本 is for books.",
+        ""
+      ],
+      "translation": "I've been to Shanghai three times and loved it each time."
+    },
+    {
+      "point": "cibian",
+      "prompt": "Which word means 'once through, from beginning to end'?",
+      "options": [
+        "{次|cì}",
+        "{趟|tàng}",
+        "{遍|biàn}",
+        "{下|xià}"
+      ],
+      "answer": 2,
+      "explanation": "**遍** = start to finish.",
+      "notes": [
+        "次 counts occurrences, not completeness.",
+        "趟 = a trip.",
+        "",
+        "下 = briefly."
+      ],
+      "translation": ""
+    }
+  ]
+}

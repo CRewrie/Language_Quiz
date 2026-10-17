@@ -1,0 +1,288 @@
+{
+  "id": "n4-expectation",
+  "category": "JLPT N4",
+  "title": "Should, Can't Be & Might: はず, かもしれない, と思う",
+  "description": "Confident expectations (はずだ), impossibility (はずがない), maybe (かもしれない), and stating opinions with と思う — with the noun/な-adjective traps.",
+  "level": "N4",
+  "points": [
+    {
+      "id": "hazu",
+      "title": "〜はずだ: should be, is expected to",
+      "summary": "Plain form + はずだ = a confident expectation based on facts. Nouns take の, な-adjectives take な.",
+      "body": "**Meaning:** 'Given what I know, it should be so.' — a logical conclusion, stronger than でしょう.\n- 10年も日本に住んでいたから、日本語が上手な**はずです**.\n- 荷物は昨日送ったので、今日着く**はずです**.\n\n**Formation:**\n- Verb / い-adjective: 着く**はず**, 高い**はず**\n- な-adjective: 上手**な**はず\n- Noun: 休み**の**はず\n\n**Past:** 来る**はずだった** = was supposed to come (but didn't).\n\n**はず vs つもり:** はず = expectation about facts; つもり = a person's intention.",
+      "examples": [
+        [
+          "{荷物|にもつ}は{昨日|きのう}{送|おく}ったので、{今日|きょう}{着|つ}くはずです。",
+          "I sent the package yesterday, so it should arrive today."
+        ],
+        [
+          "{明日|あした}は{祝日|しゅくじつ}なので、{銀行|ぎんこう}は{休|やす}みのはずです。",
+          "Tomorrow's a holiday, so the bank should be closed."
+        ]
+      ]
+    },
+    {
+      "id": "hazuganai",
+      "title": "〜はずがない: there's no way that …",
+      "summary": "Plain form + はずがない = 'it can't possibly be'. A strong denial based on reasoning.",
+      "body": "- あんなに練習したんだから、負ける**はずがない** (there's no way we'll lose).\n- 彼が嘘をつく**はずがありません** (there's no way he'd lie).\n\nAttachment is the same as はずだ (な-adj + な, noun + の).\n\nCasual speech often drops が: はずない.\n\n**はずがない vs ないはずだ:**\n- 来る**はずがない** = no way he'll come (strong denial).\n- 来ない**はずだ** = he's not expected to come (neutral expectation).",
+      "examples": [
+        [
+          "あんなに{練習|れんしゅう}したんだから、{負|ま}けるはずがない。",
+          "We practised so much — there's no way we'll lose."
+        ],
+        [
+          "{彼|かれ}が{嘘|うそ}をつくはずがありません。",
+          "There's no way he would lie."
+        ]
+      ]
+    },
+    {
+      "id": "kamoshirenai",
+      "title": "〜かもしれない: might, maybe",
+      "summary": "Plain form + かもしれない (polite: かもしれません). Nouns and な-adjectives attach DIRECTLY — no だ.",
+      "body": "**Meaning:** possibility, roughly 50% or less — weaker than でしょう and はず.\n\n**Formation:**\n- Verb / い-adjective: 降る**かもしれない**, 高い**かもしれない**\n- Noun: 雨**かもしれない** (✗ 雨だかもしれない)\n- な-adjective: 有名**かもしれない** (✗ 有名なかもしれない)\n\nCasual: 〜かも. Past possibility: 〜た**かもしれない** (might have …).",
+      "examples": [
+        [
+          "{雨|あめ}が{降|ふ}るかもしれないから、{傘|かさ}を{持|も}って{行|い}こう。",
+          "It might rain, so let's take an umbrella."
+        ],
+        [
+          "{明日|あした}は{雨|あめ}かもしれません。",
+          "It might rain tomorrow."
+        ]
+      ]
+    },
+    {
+      "id": "toomou",
+      "title": "〜と思う: I think (that)",
+      "summary": "Plain form + と思う. Nouns and な-adjectives need だ before と. For other people's thoughts use と思っている.",
+      "body": "**Formation:** the quoted part is always **plain form**:\n- Verb / い-adjective: 帰った**と思います**, 高い**と思います**\n- Noun / な-adjective: **だ** + と思う: 有名**だと**思います (✗ 有名と思います, ✗ 有名ですと思います)\n\n**Whose thought?**\n- **思う / 思います** → the speaker's own opinion.\n- **思っている / 思っています** → someone else's opinion, or a long-held thought: 田中さんは会社を辞めたいと**思っています**.\n  (✗ 田中さんは…と思います — that would sound like *you* think it.)",
+      "examples": [
+        [
+          "{田中|たなか}さんはもう{帰|かえ}ったと{思|おも}います。",
+          "I think Tanaka has already gone home."
+        ],
+        [
+          "この{店|みせ}は{有名|ゆうめい}だと{思|おも}います。",
+          "I think this shop is famous."
+        ],
+        [
+          "{田中|たなか}さんは{会社|かいしゃ}を{辞|や}めたいと{思|おも}っています。",
+          "Tanaka is thinking of quitting the company."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "hazu",
+      "prompt": "{彼|かれ}は10{年|ねん}も{日本|にほん}に{住|す}んでいたから、{日本語|にほんご}が{上手|じょうず}な（　）です。",
+      "options": [
+        "はず",
+        "はずが",
+        "のはず",
+        "ほうはず"
+      ],
+      "answer": 0,
+      "explanation": "な-adjective + な + **はずです**.",
+      "notes": [
+        "",
+        "はずがです isn't grammatical — はずが needs ない after it.",
+        "上手なのはず — after な, no extra の.",
+        "ほうはず isn't a form."
+      ],
+      "translation": "He lived in Japan for 10 years, so his Japanese should be good."
+    },
+    {
+      "point": "hazu",
+      "prompt": "{明日|あした}は{祝日|しゅくじつ}なので、{銀行|ぎんこう}は{休|やす}み（　）はずです。",
+      "options": [
+        "で",
+        "の",
+        "な",
+        "だ"
+      ],
+      "answer": 1,
+      "explanation": "Noun + **の** + はず.",
+      "notes": [
+        "で can't come before はず.",
+        "",
+        "な is for な-adjectives; 休み is a noun.",
+        "だ can't come before はず."
+      ],
+      "translation": "Tomorrow's a holiday, so the bank should be closed."
+    },
+    {
+      "point": "hazu",
+      "prompt": "{荷物|にもつ}は{昨日|きのう}{送|おく}ったので、{今日|きょう}{着|つ}く（　）。",
+      "options": [
+        "はずです",
+        "のはずです",
+        "はずのです",
+        "はずだです"
+      ],
+      "answer": 0,
+      "explanation": "Verb (plain) + **はずです**.",
+      "notes": [
+        "",
+        "Verbs attach to はず directly — no の.",
+        "はずのです isn't grammatical.",
+        "だ and です can't be stacked."
+      ],
+      "translation": "I sent the package yesterday, so it should arrive today."
+    },
+    {
+      "point": "hazuganai",
+      "prompt": "あんなに{練習|れんしゅう}したんだから、{負|ま}ける（　）。",
+      "options": [
+        "はずだ",
+        "はずがある",
+        "はずにない",
+        "はずがない"
+      ],
+      "answer": 3,
+      "explanation": "'There's no way' → **はずがない**.",
+      "notes": [
+        "負けるはずだ = 'we should lose' — contradicts all that practice.",
+        "はずがある isn't used as the opposite.",
+        "はずにない isn't grammatical.",
+        ""
+      ],
+      "translation": "We practised so much — there's no way we'll lose."
+    },
+    {
+      "point": "hazuganai",
+      "prompt": "What does 「{彼|かれ}が{嘘|うそ}をつくはずがない」 mean?",
+      "options": [
+        "He should lie.",
+        "There's no way he would lie.",
+        "He might lie.",
+        "He didn't lie yesterday."
+      ],
+      "answer": 1,
+      "explanation": "はずがない = strong denial ('can't possibly').",
+      "notes": [
+        "That would be 嘘をつくはずだ.",
+        "",
+        "That would be 嘘をつくかもしれない.",
+        "That would be 昨日嘘をつかなかった."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kamoshirenai",
+      "prompt": "{雨|あめ}が{降|ふ}る（　）しれないから、{傘|かさ}を{持|も}って{行|い}こう。",
+      "options": [
+        "かな",
+        "かと",
+        "かも",
+        "か"
+      ],
+      "answer": 2,
+      "explanation": "**かもしれない** = might.",
+      "notes": [
+        "かな ('I wonder') can't be followed by しれない.",
+        "かと + しれない isn't a pattern.",
+        "",
+        "か alone + しれない is ungrammatical."
+      ],
+      "translation": "It might rain, so let's take an umbrella."
+    },
+    {
+      "point": "kamoshirenai",
+      "prompt": "{明日|あした}は（　）かもしれません。",
+      "options": [
+        "{雨|あめ}な",
+        "{雨|あめ}だ",
+        "{雨|あめ}の",
+        "{雨|あめ}"
+      ],
+      "answer": 3,
+      "explanation": "Noun + かもしれない **directly** (no だ).",
+      "notes": [
+        "な is never used here.",
+        "だ disappears before かもしれない.",
+        "の is never used here.",
+        ""
+      ],
+      "translation": "It might rain tomorrow."
+    },
+    {
+      "point": "kamoshirenai",
+      "prompt": "その{店|みせ}は（　）かもしれないね。",
+      "options": [
+        "{有名|ゆうめい}の",
+        "{有名|ゆうめい}な",
+        "{有名|ゆうめい}",
+        "{有名|ゆうめい}だ"
+      ],
+      "answer": 2,
+      "explanation": "な-adjective + かもしれない **directly**.",
+      "notes": [
+        "の is for nouns before some patterns — not here.",
+        "な is only used before nouns.",
+        "",
+        "だ disappears before かもしれない."
+      ],
+      "translation": "That shop might be famous."
+    },
+    {
+      "point": "toomou",
+      "prompt": "{田中|たなか}さんはもう{帰|かえ}った（　）{思|おも}います。",
+      "options": [
+        "を",
+        "が",
+        "に",
+        "と"
+      ],
+      "answer": 3,
+      "explanation": "Quote of a thought: **と思う**.",
+      "notes": [
+        "を marks a noun object (母を思う) — not a clause.",
+        "が can't mark the content of a thought.",
+        "に isn't used with 思う for content.",
+        ""
+      ],
+      "translation": "I think Tanaka has already gone home."
+    },
+    {
+      "point": "toomou",
+      "prompt": "この{店|みせ}は{安|やす}くて{有名|ゆうめい}（　）と{思|おも}います。",
+      "options": [
+        "です",
+        "な",
+        "だ",
+        "の"
+      ],
+      "answer": 2,
+      "explanation": "な-adjective + **だ** + と思う.",
+      "notes": [
+        "Polite です isn't used inside と思う.",
+        "な can't come before と.",
+        "",
+        "の isn't used here."
+      ],
+      "translation": "I think this shop is cheap and famous."
+    },
+    {
+      "point": "toomou",
+      "prompt": "{田中|たなか}さんは{会社|かいしゃ}を{辞|や}めたいと（　）。",
+      "options": [
+        "{思|おも}っています",
+        "{思|おも}います",
+        "{思|おも}うです",
+        "{思|おも}いたいです"
+      ],
+      "answer": 0,
+      "explanation": "Someone else's thought → **思っています**.",
+      "notes": [
+        "",
+        "思います states *your own* opinion — it sounds like you want to quit.",
+        "思うです isn't grammatical.",
+        "思いたい = 'want to think' — wrong meaning."
+      ],
+      "translation": "Tanaka is thinking of quitting the company."
+    }
+  ]
+}

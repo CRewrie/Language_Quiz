@@ -1,0 +1,269 @@
+{
+  "id": "zh-a1-numbers-time",
+  "category": "Mandarin A1",
+  "language": "zh",
+  "title": "Numbers & Time: 二/两, 个, 岁, 点, 星期, dates",
+  "description": "二 vs 两, the measure word 个, age, clock times, days of the week and big-to-small date order.",
+  "level": "A1",
+  "points": [
+    {
+      "id": "liang",
+      "title": "二 vs 两",
+      "summary": "二 (èr) is for counting, digits and ordinals (十二, 第二). 两 (liǎng) is 'two of something' before a measure word, and 2 o'clock.",
+      "body": "- **两**个人, **两**本书, **两**点.\n- 十**二**, **二**月, 第**二**, 二十**二**个.\n- 俩 (liǎ) already contains 个: 我们俩.",
+      "examples": [
+        [
+          "{我|wǒ}{有|yǒu}{两|liǎng}{个|ge}{妹妹|mèimei}。",
+          "I have two younger sisters."
+        ]
+      ]
+    },
+    {
+      "id": "ge",
+      "title": "Number + 个 + noun",
+      "summary": "Chinese needs a measure word between number and noun. 个 (ge) is the general one.",
+      "body": "- 三**个**学生, 一**个**苹果.\n- ~~三学生~~ ✗",
+      "examples": [
+        [
+          "{我们|wǒmen}{班|bān}{有|yǒu}{二十|èrshí}{个|ge}{学生|xuésheng}。",
+          "There are twenty students in our class."
+        ]
+      ]
+    },
+    {
+      "id": "sui",
+      "title": "Age: number + 岁",
+      "summary": "Age = number + 岁 (suì), usually without 是 and never with 有.",
+      "body": "- 我妹妹八**岁** (My sister is eight).\n- ~~他有二十岁~~ ✗",
+      "examples": [
+        [
+          "{我|wǒ}{妹妹|mèimei}{今年|jīnnián}{八|bā}{岁|suì}。",
+          "My little sister is eight this year."
+        ]
+      ]
+    },
+    {
+      "id": "time",
+      "title": "Times and dates: 点, 星期, 年月日",
+      "summary": "Clock: number + 点 (+ 半 / 分). Weekday: 星期 + 1–6, 星期天. Dates go from big to small: 年 → 月 → 日/号.",
+      "body": "- 两**点半** (2:30), 七**点** (7:00).\n- **星期三** (Wednesday).\n- 2024**年**5**月**15**日**.",
+      "examples": [
+        [
+          "{我|wǒ}{每天|měitiān}{七|qī}{点|diǎn}{起床|qǐchuáng}。",
+          "I get up at seven every day."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "liang",
+      "prompt": "{我|wǒ}{有|yǒu}（　）{个|ge}{妹妹|mèimei}。",
+      "options": [
+        "{两|liǎng}",
+        "{俩|liǎ}",
+        "{双|shuāng}",
+        "{二|èr}"
+      ],
+      "answer": 0,
+      "explanation": "Two + measure word: **两**.",
+      "notes": [
+        "",
+        "俩 already includes 个 — 俩个 is wrong.",
+        "双 = 'a pair'.",
+        "二 isn't used before a measure word."
+      ],
+      "translation": "I have two younger sisters."
+    },
+    {
+      "point": "liang",
+      "prompt": "{今天|jīntiān}{是|shì}{十|shí}（　）{号|hào}。",
+      "options": [
+        "{俩|liǎ}",
+        "{二|èr}",
+        "{第二|dì-èr}",
+        "{两|liǎng}"
+      ],
+      "answer": 1,
+      "explanation": "Inside numbers: **十二**.",
+      "notes": [
+        "俩 = 'two people'.",
+        "",
+        "十第二 isn't a number.",
+        "In numbers like 12, use 二."
+      ],
+      "translation": "Today is the 12th."
+    },
+    {
+      "point": "liang",
+      "prompt": "{现在|xiànzài}（　）{点|diǎn}。",
+      "options": [
+        "{两|liǎng}",
+        "{第二|dì-èr}",
+        "{二|èr}",
+        "{俩|liǎ}"
+      ],
+      "answer": 0,
+      "explanation": "2 o'clock: **两点**.",
+      "notes": [
+        "",
+        "第二点 = 'the second point'.",
+        "2 o'clock is 两点, not 二点.",
+        "俩 = 'two people'."
+      ],
+      "translation": "It's two o'clock now."
+    },
+    {
+      "point": "ge",
+      "prompt": "{我们|wǒmen}{班|bān}{有|yǒu}{二十|èrshí}（　）{学生|xuésheng}。",
+      "options": [
+        "{号|hào}",
+        "{次|cì}",
+        "{个|ge}",
+        "{岁|suì}"
+      ],
+      "answer": 2,
+      "explanation": "Measure word for people: **个**.",
+      "notes": [
+        "号 = date / number.",
+        "次 = times (occurrences).",
+        "",
+        "岁 = years of age."
+      ],
+      "translation": "There are twenty students in our class."
+    },
+    {
+      "point": "ge",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{有|yǒu}{朋友|péngyou}{三|sān}{个|ge}。",
+        "{我|wǒ}{有|yǒu}{三|sān}{个|ge}{朋友|péngyou}。",
+        "{我|wǒ}{三|sān}{个|ge}{有|yǒu}{朋友|péngyou}。",
+        "{我|wǒ}{有|yǒu}{三|sān}{朋友|péngyou}。"
+      ],
+      "answer": 1,
+      "explanation": "Number + **个** + noun.",
+      "notes": [
+        "Number + measure word come before the noun.",
+        "",
+        "The verb 有 comes before the number.",
+        "A number needs a measure word before the noun."
+      ],
+      "translation": "I have three friends."
+    },
+    {
+      "point": "sui",
+      "prompt": "{我|wǒ}{妹妹|mèimei}{今年|jīnnián}{八|bā}（　）。",
+      "options": [
+        "{号|hào}",
+        "{岁|suì}",
+        "{年|nián}",
+        "{个|ge}"
+      ],
+      "answer": 1,
+      "explanation": "Age: **岁**.",
+      "notes": [
+        "八号 = 'the 8th'.",
+        "",
+        "八年 = 'eight years (duration)'.",
+        "八个 needs a noun."
+      ],
+      "translation": "My little sister is eight this year."
+    },
+    {
+      "point": "sui",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{二十|èrshí}{个|ge}{岁|suì}。",
+        "{他|tā}{有|yǒu}{二十|èrshí}{岁|suì}。",
+        "{他|tā}{二十|èrshí}{岁|suì}。",
+        "{他|tā}{岁|suì}{二十|èrshí}。"
+      ],
+      "answer": 2,
+      "explanation": "Age: number + **岁**.",
+      "notes": [
+        "岁 is itself the measure word — no 个.",
+        "Age doesn't take 有.",
+        "",
+        "The number comes before 岁."
+      ],
+      "translation": "He's twenty."
+    },
+    {
+      "point": "time",
+      "prompt": "Which date is in the correct order? ('15 May 2024')",
+      "options": [
+        "{十五日|shíwǔ rì}{五月|wǔyuè}{二〇二四年|èr líng èr sì nián}",
+        "{二〇二四年|èr líng èr sì nián}{五月|wǔyuè}{十五日|shíwǔ rì}",
+        "{五月|wǔyuè}{十五日|shíwǔ rì}{二〇二四年|èr líng èr sì nián}",
+        "{二〇二四年|èr líng èr sì nián}{十五日|shíwǔ rì}{五月|wǔyuè}"
+      ],
+      "answer": 1,
+      "explanation": "Big → small: **年 → 月 → 日**.",
+      "notes": [
+        "Chinese goes big → small, not small → big.",
+        "",
+        "The year comes first.",
+        "Month before day."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "time",
+      "prompt": "Which means 2:30?",
+      "options": [
+        "{两半点|liǎng bàn diǎn}",
+        "{二点半|èr diǎn bàn}",
+        "{两点半|liǎng diǎn bàn}",
+        "{半两点|bàn liǎng diǎn}"
+      ],
+      "answer": 2,
+      "explanation": "**两点半**.",
+      "notes": [
+        "半 comes after 点.",
+        "2 o'clock is 两点.",
+        "",
+        "半 comes after 点."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "time",
+      "prompt": "{我|wǒ}{每天|měitiān}{早上|zǎoshang}{七|qī}（　）{起床|qǐchuáng}。",
+      "options": [
+        "{个|ge}",
+        "{点|diǎn}",
+        "{号|hào}",
+        "{岁|suì}"
+      ],
+      "answer": 1,
+      "explanation": "O'clock: **点**.",
+      "notes": [
+        "七个 needs a noun.",
+        "",
+        "号 = date.",
+        "岁 = age."
+      ],
+      "translation": "I get up at seven every morning."
+    },
+    {
+      "point": "time",
+      "prompt": "A：{今天|jīntiān}{星期|xīngqī}{几|jǐ}？\nB：{今天|jīntiān}（　）。",
+      "options": [
+        "{第三星期|dì-sān xīngqī}",
+        "{三号星期|sān hào xīngqī}",
+        "{星期三|xīngqīsān}",
+        "{三星期|sān xīngqī}"
+      ],
+      "answer": 2,
+      "explanation": "Weekday: **星期 + number**.",
+      "notes": [
+        "第三星期 = 'the third week'.",
+        "Not a weekday.",
+        "",
+        "三星期 = 'three weeks'."
+      ],
+      "translation": "A: What day is it today? B: It's Wednesday."
+    }
+  ]
+}

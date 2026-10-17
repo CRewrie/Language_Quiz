@@ -1,0 +1,362 @@
+{
+  "id": "zh-b1-verbs",
+  "category": "Mandarin B1",
+  "language": "zh",
+  "title": "Verbs: 好像, 以为, 算, 不用, 得 (děi), 来自, 要看",
+  "description": "It seems, mistakenly thought, count as, no need to, must, come from, and 'it depends'.",
+  "level": "B1",
+  "points": [
+    {
+      "id": "haoxiang",
+      "title": "好像: it seems",
+      "summary": "好像 (hǎoxiàng) = it seems / looks like (an impression).",
+      "body": "- 他**好像**不太高兴.\n- 外面**好像**下雨了.",
+      "examples": [
+        [
+          "{外面|wàimiàn}{好像|hǎoxiàng}{下雨|xià yǔ}{了|le}。",
+          "It looks like it's raining outside."
+        ]
+      ]
+    },
+    {
+      "id": "yiwei",
+      "title": "以为: (wrongly) thought",
+      "summary": "以为 (yǐwéi) = thought / assumed — and it turned out wrong. Different from 觉得 / 认为 (simply think).",
+      "body": "- 我**以为**他是老师，原来他是学生.",
+      "examples": [
+        [
+          "{我|wǒ}{以为|yǐwéi}{今天|jīntiān}{是|shì}{星期六|xīngqīliù}。",
+          "I thought today was Saturday."
+        ]
+      ]
+    },
+    {
+      "id": "suan",
+      "title": "算: count as, be considered",
+      "summary": "算 (suàn) + adj (+ 的) = it counts as / is fairly …; 还算 = reasonably.",
+      "body": "- 这次考试**算**简单的.\n- 他的中文还**算**不错.",
+      "examples": [
+        [
+          "{这|zhè}{次|cì}{考试|kǎoshì}{算|suàn}{简单|jiǎndān}{的|de}。",
+          "This exam was fairly easy."
+        ]
+      ]
+    },
+    {
+      "id": "buyong",
+      "title": "不用: no need to",
+      "summary": "不用 (búyòng) + verb = don't need to. (不要 = don't!)",
+      "body": "- **不用**，我自己可以.\n- 明天是周末，你**不用**早起.",
+      "examples": [
+        [
+          "{明天|míngtiān}{是|shì}{周末|zhōumò}，{你|nǐ}{不用|búyòng}{早|zǎo}{起|qǐ}。",
+          "Tomorrow's the weekend — you don't need to get up early."
+        ]
+      ]
+    },
+    {
+      "id": "dei",
+      "title": "得 (děi) + verb: must, have to",
+      "summary": "得 read děi = have to (spoken). Negative: 不用 (not ~~不得~~).",
+      "body": "- 太晚了，我**得**走了.\n- 你**得**多喝水.",
+      "examples": [
+        [
+          "{太|tài}{晚|wǎn}{了|le}，{我|wǒ}{得|děi}{走|zǒu}{了|le}。",
+          "It's late — I have to go."
+        ]
+      ]
+    },
+    {
+      "id": "laizi",
+      "title": "来自 + place: come from",
+      "summary": "来自 (láizì) + place = come from (a bit formal).",
+      "body": "- 我**来自**德国.",
+      "examples": [
+        [
+          "{她|tā}{来自|láizì}{日本|Rìběn}。",
+          "She comes from Japan."
+        ]
+      ]
+    },
+    {
+      "id": "yaokan",
+      "title": "这要看 … / 这得看 …: it depends on",
+      "summary": "这 / 那 + 要看 / 得看 + factor = it depends on ….",
+      "body": "- 去不去？——这**要看**天气.",
+      "examples": [
+        [
+          "{这|zhè}{要|yào}{看|kàn}{天气|tiānqì}。",
+          "That depends on the weather."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "haoxiang",
+      "prompt": "{他|tā}（　）{不|bú}{太|tài}{高兴|gāoxìng}，{发生|fāshēng}{什么|shénme}{事|shì}{了|le}？",
+      "options": [
+        "{以为|yǐwéi}",
+        "{希望|xīwàng}",
+        "{好像|hǎoxiàng}",
+        "{打算|dǎsuàn}"
+      ],
+      "answer": 2,
+      "explanation": "It seems: **好像**.",
+      "notes": [
+        "以为 needs a thought after it — 他以为不太高兴 isn't grammatical.",
+        "希望 = 'hope'.",
+        "",
+        "打算 = 'plan'."
+      ],
+      "translation": "He doesn't seem very happy — what happened?"
+    },
+    {
+      "point": "haoxiang",
+      "prompt": "{外面|wàimiàn}（　）{下雨|xià yǔ}{了|le}，{你|nǐ}{听|tīng}。",
+      "options": [
+        "{算|suàn}",
+        "{得|děi}",
+        "{以为|yǐwéi}",
+        "{好像|hǎoxiàng}"
+      ],
+      "answer": 3,
+      "explanation": "**好像**.",
+      "notes": [
+        "算 = 'count as'.",
+        "得 = 'must'.",
+        "以为 needs a subject who thinks.",
+        ""
+      ],
+      "translation": "It sounds like it's raining outside — listen."
+    },
+    {
+      "point": "yiwei",
+      "prompt": "{我|wǒ}（　）{他|tā}{是|shì}{老师|lǎoshī}，{原来|yuánlái}{他|tā}{是|shì}{学生|xuésheng}。",
+      "options": [
+        "{希望|xīwàng}",
+        "{以为|yǐwéi}",
+        "{好像|hǎoxiàng}",
+        "{知道|zhīdào}"
+      ],
+      "answer": 1,
+      "explanation": "Wrongly thought: **以为**.",
+      "notes": [
+        "希望 = 'hope'.",
+        "",
+        "我好像他是老师 isn't grammatical.",
+        "知道 = 'know' — contradicts 原来."
+      ],
+      "translation": "I thought he was a teacher — turns out he's a student."
+    },
+    {
+      "point": "yiwei",
+      "prompt": "What does 「{我|wǒ}{以为|yǐwéi}{今天|jīntiān}{是|shì}{星期六|xīngqīliù}。」 mean?",
+      "options": [
+        "Ithinkit'sSaturday.",
+        "Iknowit'sSaturday.",
+        "Ihopeit'sSaturday.",
+        "IthoughtitwasSaturday(butitisn't)."
+      ],
+      "answer": 3,
+      "explanation": "以为 = **mistakenly thought**.",
+      "notes": [
+        "以为 implies you were wrong.",
+        "That's 知道.",
+        "That's 希望.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "suan",
+      "prompt": "{这|zhè}{次|cì}{考试|kǎoshì}（　）{简单|jiǎndān}{的|de}，{大家|dàjiā}{都|dōu}{考|kǎo}{得|de}{不错|búcuò}。",
+      "options": [
+        "{让|ràng}",
+        "{对|duì}",
+        "{算|suàn}",
+        "{好像|hǎoxiàng}"
+      ],
+      "answer": 2,
+      "explanation": "Counts as: **算…的**.",
+      "notes": [
+        "让 = 'make'.",
+        "对简单的 isn't grammatical.",
+        "",
+        "好像简单的 isn't natural."
+      ],
+      "translation": "This exam was fairly easy — everyone did well."
+    },
+    {
+      "point": "suan",
+      "prompt": "What does 「{他|tā}{的|de}{中文|Zhōngwén}{还|hái}{算|suàn}{不错|búcuò}。」 mean?",
+      "options": [
+        "HisChineseisreasonablygood.",
+        "HisChinesemathsisgood.",
+        "HisChineseisstillbad.",
+        "HecountsinChinese."
+      ],
+      "answer": 0,
+      "explanation": "还算 = **reasonably**.",
+      "notes": [
+        "",
+        "算 here isn't 'calculate'.",
+        "不错 = good.",
+        "算 here means 'count as'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "buyong",
+      "prompt": "A：{要|yào}{我|wǒ}{帮忙|bāngmáng}{吗|ma}？\nB：（　），{我|wǒ}{自己|zìjǐ}{可以|kěyǐ}。",
+      "options": [
+        "{没用|méi yòng}",
+        "{不能|bù néng}",
+        "{别用|bié yòng}",
+        "{不用|búyòng}"
+      ],
+      "answer": 3,
+      "explanation": "No need: **不用**.",
+      "notes": [
+        "没用 = 'useless'.",
+        "不能 = 'can't'.",
+        "别用 = 'don't use'.",
+        ""
+      ],
+      "translation": "A: Do you need help? B: No need, I can manage."
+    },
+    {
+      "point": "buyong",
+      "prompt": "{明天|míngtiān}{是|shì}{周末|zhōumò}，{你|nǐ}（　）{早|zǎo}{起|qǐ}。",
+      "options": [
+        "{不用|búyòng}",
+        "{别用|bié yòng}",
+        "{没用|méi yòng}",
+        "{不是|búshì}"
+      ],
+      "answer": 0,
+      "explanation": "Don't need to: **不用**.",
+      "notes": [
+        "",
+        "别用 = 'don't use'.",
+        "没用 = 'useless'.",
+        "不是早起 isn't grammatical."
+      ],
+      "translation": "Tomorrow's the weekend — you don't need to get up early."
+    },
+    {
+      "point": "dei",
+      "prompt": "{太|tài}{晚|wǎn}{了|le}，{我|wǒ}（　）{走|zǒu}{了|le}，{明天|míngtiān}{还|hái}{要|yào}{上班|shàngbān}。",
+      "options": [
+        "{地|de}",
+        "{得|děi}",
+        "{在|zài}",
+        "{的|de}"
+      ],
+      "answer": 1,
+      "explanation": "Must: **得** (děi).",
+      "notes": [
+        "地 needs an adverb before it.",
+        "",
+        "在走了 isn't grammatical.",
+        "的 can't come before a verb like this."
+      ],
+      "translation": "It's late — I have to go, I've got work tomorrow."
+    },
+    {
+      "point": "dei",
+      "prompt": "What does 「{你|nǐ}{得|děi}{多|duō}{喝|hē}{水|shuǐ}。」 mean?",
+      "options": [
+        "Youcandrinkmorewater.",
+        "Youdrankalotofwater.",
+        "Youmustdrinkmorewater.",
+        "Yougotmorewater."
+      ],
+      "answer": 2,
+      "explanation": "得 (děi) = **must**.",
+      "notes": [
+        "That's 可以.",
+        "得 (děi) isn't a past marker.",
+        "",
+        "That's 得到 (dédào)."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "laizi",
+      "prompt": "{我|wǒ}{叫|jiào}{安娜|Ānnà}，（　）{德国|Déguó}。",
+      "options": [
+        "{来了|lái le}",
+        "{来自|láizì}",
+        "{自己|zìjǐ}",
+        "{从来|cónglái}"
+      ],
+      "answer": 1,
+      "explanation": "Come from: **来自**.",
+      "notes": [
+        "来了德国 isn't natural.",
+        "",
+        "自己 = 'oneself'.",
+        "从来 = 'always / never'."
+      ],
+      "translation": "My name's Anna, I'm from Germany."
+    },
+    {
+      "point": "laizi",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{她|tā}{来自|láizì}{日本|Rìběn}。",
+        "{她|tā}{自|zì}{来|lái}{日本|Rìběn}。",
+        "{日本|Rìběn}{她|tā}{来自|láizì}。",
+        "{她|tā}{来|lái}{日本|Rìběn}{自|zì}。"
+      ],
+      "answer": 0,
+      "explanation": "**来自** + place.",
+      "notes": [
+        "",
+        "The order is 来自.",
+        "The subject comes first.",
+        "自 can't follow the place."
+      ],
+      "translation": "She comes from Japan."
+    },
+    {
+      "point": "yaokan",
+      "prompt": "A：{明天|míngtiān}{去|qù}{不|bu}{去|qù}{爬山|páshān}？\nB：{这|zhè}（　）{天气|tiānqì}。",
+      "options": [
+        "{看看|kànkan}",
+        "{要|yào}{看|kàn}",
+        "{好看|hǎokàn}",
+        "{看见|kànjiàn}"
+      ],
+      "answer": 1,
+      "explanation": "It depends on: **要看**.",
+      "notes": [
+        "看看 = 'have a look'.",
+        "",
+        "好看 = 'good-looking'.",
+        "看见 = 'see'."
+      ],
+      "translation": "A: Are we going hiking tomorrow? B: That depends on the weather."
+    },
+    {
+      "point": "yaokan",
+      "prompt": "What does 「{这|zhè}{得|děi}{看|kàn}{你|nǐ}{自己|zìjǐ}。」 mean?",
+      "options": [
+        "Thatdependsonyou.",
+        "Youhavetolookatyourself.",
+        "That'suptome.",
+        "Thatlookslikeyou."
+      ],
+      "answer": 0,
+      "explanation": "得看 = **depends on**.",
+      "notes": [
+        "",
+        "看 here = 'depend on', not 'look'.",
+        "It's about 你, not 我.",
+        "That's 像你."
+      ],
+      "translation": ""
+    }
+  ]
+}

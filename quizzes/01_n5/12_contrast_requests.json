@@ -1,0 +1,272 @@
+{
+  "id": "n5-contrast-requests",
+  "category": "JLPT N5",
+  "title": "Which One? たい/ほしい, ませんか/ましょう, may/must not",
+  "description": "Contrast practice: wanting to do vs. wanting things, inviting vs. suggesting, and permission vs. prohibition.",
+  "level": "N5",
+  "points": [
+    {
+      "id": "tai-vs-hoshii",
+      "title": "〜たい vs ほしい",
+      "summary": "ます-stem + たい = want to DO. Noun + が + ほしい = want a THING. Both are only for your own wishes.",
+      "body": "- **〜たい** attaches to a **verb**: 行き**たい**, 食べ**たい**, 買い**たい**.\n- **ほしい** follows a **noun + が**: 車**が**ほしい, 時間**が**ほしい.\n\nWrong mixes: ✗ 行くたい (dictionary form), ✗ 行きほしい, ✗ 車をほしい.\n\nBoth conjugate like い-adjectives: 行きたくない / ほしくない, 行きたかった / ほしかった.\n\nFor someone else's wishes, Japanese adds 〜がっている (N4): 弟はゲームをほし**がっています**.",
+      "examples": [
+        [
+          "{日本|にほん}へ{行|い}きたいです。",
+          "I want to go to Japan."
+        ],
+        [
+          "{新|あたら}しいかばんがほしいです。",
+          "I want a new bag."
+        ]
+      ]
+    },
+    {
+      "id": "masenka-vs-mashou",
+      "title": "〜ませんか vs 〜ましょう(か)",
+      "summary": "ませんか = inviting the listener ('would you like to…?'). ましょう = 'let's' (accepting / proposing). ましょうか = 'shall I/we…?' (offer / suggestion).",
+      "body": "- **ませんか**: polite invitation, leaves the choice to the listener — 一緒に行き**ませんか**。\n- **ましょう**: 'let's' — often the *answer* to ませんか: いいですね、行き**ましょう**。\n- **ましょうか**: 'shall we…?' (planning together: 何を食べ**ましょうか**) or 'shall I…?' (offering help: 窓を開け**ましょうか**).\n\nTypical dialogue: A: 〜ませんか。 B: いいですね。〜ましょう。 A: 何時に会い**ましょうか**。",
+      "examples": [
+        [
+          "{今晩|こんばん}、{一緒|いっしょ}に{食事|しょくじ}しませんか。—いいですね。しましょう。",
+          "Want to have dinner together tonight? — Sounds good, let's."
+        ],
+        [
+          "{暑|あつ}いですね。{窓|まど}を{開|あ}けましょうか。",
+          "It's hot, isn't it? Shall I open the window?"
+        ]
+      ]
+    },
+    {
+      "id": "permission-trio",
+      "title": "てもいい / てはいけない / ないでください",
+      "summary": "てもいい = may (permission). てはいけない = must not (firm rule). ないでください = please don't (polite request). Answering 'no' to てもいいですか: すみません、ちょっと… / 〜ないでください / 〜てはいけません.",
+      "body": "- **〜てもいい(ですか)** — permission: 写真を撮っ**てもいいですか**。\n- **〜てはいけません** — must not (rules, strong): ここで泳い**ではいけません**。\n- **〜ないでください** — please don't (polite, personal): ここで写真を撮ら**ないでください**。\n\nForm check:\n- て-form ending in で → **でも / では**: 読ん**でも**いい, 読ん**では**いけない.\n- ない-form: 撮る → 撮**ら**ない, 書く → 書**か**ない, 吸う → 吸**わ**ない.",
+      "examples": [
+        [
+          "ここに{座|すわ}ってもいいですか。—はい、どうぞ。",
+          "May I sit here? — Yes, go ahead."
+        ],
+        [
+          "{図書館|としょかん}の{本|ほん}に{書|か}いてはいけません。",
+          "You must not write in library books."
+        ],
+        [
+          "ここでは{写真|しゃしん}を{撮|と}らないでください。",
+          "Please don't take photos here."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tai-vs-hoshii",
+      "prompt": "{新|あたら}しいかばん（　）。",
+      "options": [
+        "がほしでした",
+        "がほしいたいです",
+        "をほしいです",
+        "がほしいです"
+      ],
+      "answer": 3,
+      "explanation": "Thing + **がほしい**.",
+      "notes": [
+        "ほしでした isn't a form — the past is ほしかったです.",
+        "ほしい and たい can't be combined.",
+        "ほしい takes が, not を.",
+        ""
+      ],
+      "translation": "I want a new bag."
+    },
+    {
+      "point": "tai-vs-hoshii",
+      "prompt": "{夏休|なつやす}みに{日本|にほん}へ（　）です。",
+      "options": [
+        "{行|い}ってほしい",
+        "{行|い}きたい",
+        "{行|い}くたい",
+        "{行|い}きほしい"
+      ],
+      "answer": 1,
+      "explanation": "Want to **do** → ます-stem + **たい**.",
+      "notes": [
+        "行ってほしい = 'I want *someone else* to go' (N4) — not your own wish.",
+        "",
+        "たい attaches to the ます-stem, not the dictionary form.",
+        "ほしい can't attach to a verb stem."
+      ],
+      "translation": "I want to go to Japan over summer vacation."
+    },
+    {
+      "point": "tai-vs-hoshii",
+      "prompt": "{今日|きょう}は{疲|つか}れたので、どこへも（　）です。",
+      "options": [
+        "{行|い}きたくない",
+        "{行|い}きたいない",
+        "{行|い}かないたい",
+        "{行|い}きほしくない"
+      ],
+      "answer": 0,
+      "explanation": "たい → **たくない** (い-adjective negative).",
+      "notes": [
+        "",
+        "たいない isn't a form — drop い and add くない.",
+        "ないたい isn't a form.",
+        "ほしい can't attach to a verb stem."
+      ],
+      "translation": "I'm tired today, so I don't want to go anywhere."
+    },
+    {
+      "point": "masenka-vs-mashou",
+      "prompt": "A：{今晩|こんばん}、{一緒|いっしょ}に{食事|しょくじ}し（　）。　B：いいですね。{何|なに}を{食|た}べ（　）か。",
+      "options": [
+        "ましょう／ませんか",
+        "ませんか／ましょう",
+        "ましたか／ましょう",
+        "ませんか／ません"
+      ],
+      "answer": 1,
+      "explanation": "A invites (**ませんか**), B accepts and plans together (**ましょうか**).",
+      "notes": [
+        "何を食べませんか = 'what won't you eat?' — not planning together.",
+        "",
+        "しましたか is past — but it's about tonight.",
+        "何を食べませんか = 'what won't you eat?'."
+      ],
+      "translation": "A: Would you like to have dinner together tonight? B: Sounds good. What shall we eat?"
+    },
+    {
+      "point": "masenka-vs-mashou",
+      "prompt": "{暑|あつ}いですね。{窓|まど}を{開|あ}け（　）。",
+      "options": [
+        "ましょうか",
+        "ませんでしたか",
+        "ましたか",
+        "でしょうか"
+      ],
+      "answer": 0,
+      "explanation": "Offering to do something → **ましょうか** ('Shall I…?').",
+      "notes": [
+        "",
+        "Past negative question — not an offer.",
+        "開けましたか = 'did you open it?' — not an offer.",
+        "でしょうか doesn't attach to the ます-stem."
+      ],
+      "translation": "It's hot, isn't it? Shall I open the window?"
+    },
+    {
+      "point": "masenka-vs-mashou",
+      "prompt": "A：{明日|あした}、{山|やま}に{行|い}きませんか。　B：ええ、（　）。",
+      "options": [
+        "{行|い}きません",
+        "{行|い}きませんか",
+        "{行|い}きましたか",
+        "{行|い}きましょう"
+      ],
+      "answer": 3,
+      "explanation": "Accepting an invitation → **〜ましょう**.",
+      "notes": [
+        "行きません contradicts ええ.",
+        "Repeating the invitation back doesn't accept it.",
+        "Past question — doesn't fit tomorrow.",
+        ""
+      ],
+      "translation": "A: Would you like to go to the mountains tomorrow? B: Yes, let's go."
+    },
+    {
+      "point": "permission-trio",
+      "prompt": "A：ここで{写真|しゃしん}を{撮|と}ってもいいですか。　B：すみません、ここでは（　）。",
+      "options": [
+        "{撮|と}ってください",
+        "{撮|と}ってもいいです",
+        "{撮|と}らないでください",
+        "{撮|と}りないでください"
+      ],
+      "answer": 2,
+      "explanation": "Politely refusing → **〜ないでください**.",
+      "notes": [
+        "撮ってください asks them to take photos.",
+        "撮ってもいいです grants permission — contradicts すみません.",
+        "",
+        "撮る is godan — its ない-form is 撮らない, not 撮りない."
+      ],
+      "translation": "A: May I take photos here? B: Sorry, please don't take photos here."
+    },
+    {
+      "point": "permission-trio",
+      "prompt": "{図書館|としょかん}の{本|ほん}に{書|か}い（　）いけません。",
+      "options": [
+        "でも",
+        "ては",
+        "ても",
+        "では"
+      ],
+      "answer": 1,
+      "explanation": "Prohibition: **ては**いけません. 書く → 書いて (て, not で).",
+      "notes": [
+        "書く's て-form ends in て, not で — and でも is permission anyway.",
+        "",
+        "ても is for permission (てもいい) — てもいけません isn't a pattern.",
+        "書く's て-form ends in て — では is for verbs like 読んで / 泳いで."
+      ],
+      "translation": "You must not write in library books."
+    },
+    {
+      "point": "permission-trio",
+      "prompt": "A：{入|はい}ってもいいですか。　B：はい、{入|はい}っ（　）いいですよ。",
+      "options": [
+        "ては",
+        "では",
+        "ても",
+        "でも"
+      ],
+      "answer": 2,
+      "explanation": "Granting permission: **てもいい**.",
+      "notes": [
+        "てはいいです isn't a pattern — ては goes with いけない.",
+        "では is the voiced form and goes with いけない.",
+        "",
+        "入る's て-form is 入って (て, not で)."
+      ],
+      "translation": "A: May I come in? B: Yes, you may."
+    },
+    {
+      "point": "permission-trio",
+      "prompt": "この{本|ほん}、{読|よ}ん（　）いいですか。",
+      "options": [
+        "だも",
+        "でも",
+        "ても",
+        "では"
+      ],
+      "answer": 1,
+      "explanation": "読む → 読んで → **でも**いい.",
+      "notes": [
+        "だも isn't a form.",
+        "",
+        "読む's て-form ends in で, so ても becomes でも.",
+        "では is prohibition (読んではいけない)."
+      ],
+      "translation": "May I read this book?"
+    },
+    {
+      "point": "permission-trio",
+      "prompt": "Which is the **most polite** way to tell someone not to touch something?",
+      "options": [
+        "{触|さわ}っちゃだめ。",
+        "{触|さわ}らないで。",
+        "{触|さわ}らないでください。",
+        "{触|さわ}るな。"
+      ],
+      "answer": 2,
+      "explanation": "**〜ないでください** is the polite form.",
+      "notes": [
+        "ちゃだめ is casual, like talking to a child.",
+        "ないで alone is casual (friends, family).",
+        "",
+        "〜な is a blunt command — very rude in conversation."
+      ],
+      "translation": "Please don't touch."
+    }
+  ]
+}

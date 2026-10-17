@@ -1,0 +1,411 @@
+{
+  "id": "n2-because",
+  "category": "JLPT N2",
+  "title": "Because (N2): ばかりに, だけに, だけあって, だけのことはある, ものだから, 以上, からには, からこそ",
+  "description": "Just because (regret), precisely because, as you'd expect from, no wonder, excuses with ものだから, and 'now that / since' (以上・からには), plus からこそ.",
+  "level": "N2",
+  "points": [
+    {
+      "id": "bakarini",
+      "title": "〜ばかりに: just because (with a bad result)",
+      "summary": "Plain form + ばかりに = simply because of A, an unfortunate B happened (regret).",
+      "body": "- 一言余計なことを言った**ばかりに**、彼女を怒らせてしまった.\n\nB is always negative/regrettable.",
+      "examples": [
+        [
+          "{一言|ひとこと}{余計|よけい}なことを{言|い}ったばかりに、{彼女|かのじょ}を{怒|おこ}らせてしまった。",
+          "Just because I said one word too many, I made her angry."
+        ]
+      ]
+    },
+    {
+      "id": "dakeni",
+      "title": "〜だけに: precisely because (as expected, all the more)",
+      "summary": "Plain form / noun + だけに = because of A, B is all the more so (good or bad).",
+      "body": "- 期待していた**だけに**、負けたのは残念だ (all the more disappointing because I had high hopes).\n- ベテラン**だけに**、仕事が速い.",
+      "examples": [
+        [
+          "{期待|きたい}していただけに、{負|ま}けたのは{残念|ざんねん}だ。",
+          "Because I'd had high hopes, losing was all the more disappointing."
+        ]
+      ]
+    },
+    {
+      "id": "dakeatte",
+      "title": "〜だけあって: as you'd expect from",
+      "summary": "Plain / noun + だけあって = B lives up to A (positive evaluation). Often with さすが.",
+      "body": "- さすがプロ**だけあって**、上手だ.\n- 高い**だけあって**、品質がいい.",
+      "examples": [
+        [
+          "さすがプロだけあって、{上手|じょうず}だ。",
+          "As you'd expect from a pro, they're good."
+        ]
+      ]
+    },
+    {
+      "id": "dakenokotowaaru",
+      "title": "〜だけのことはある: no wonder, it's worth …",
+      "summary": "Plain + だけのことはある = the result is worthy of A (praise). Mid-sentence: だけのことはあって.",
+      "body": "- この店は高い**だけのことはある** (it's worth the price).\n- 毎日練習している**だけのことはあって**、上手だ.",
+      "examples": [
+        [
+          "この{店|みせ}は{高|たか}いだけのことはあって、とてもおいしい。",
+          "This shop is expensive, but it's worth it — it's very tasty."
+        ]
+      ]
+    },
+    {
+      "id": "monodakara",
+      "title": "〜ものだから: because (excuse)",
+      "summary": "Plain form + ものだから = giving a personal reason/excuse. Casual: もんだから.",
+      "body": "- 電車が遅れた**ものだから**、遅刻してしまいました.\n\nSounds like an explanation/excuse; can't be followed by requests/commands.",
+      "examples": [
+        [
+          "{電車|でんしゃ}が{遅|おく}れたものだから、{遅刻|ちこく}してしまいました。",
+          "The train was late, so I ended up being late."
+        ]
+      ]
+    },
+    {
+      "id": "ijou",
+      "title": "〜以上(は): now that, since (obligation follows)",
+      "summary": "Plain form + 以上(は) = since A is the case, naturally B (must/should).",
+      "body": "- 約束した**以上**、守らなければならない.\n- 引き受けた**以上は**、最後までやる.",
+      "examples": [
+        [
+          "{約束|やくそく}した{以上|いじょう}、{守|まも}らなければならない。",
+          "Now that I've promised, I have to keep it."
+        ]
+      ]
+    },
+    {
+      "id": "karaniwa",
+      "title": "〜からには: now that, since (determination)",
+      "summary": "Plain form + からには = since A, (I'm determined / you should) B.",
+      "body": "- 日本に来た**からには**、日本語を話せるようになりたい.\n\nVery close to 以上は; からには often expresses strong resolve.",
+      "examples": [
+        [
+          "{日本|にほん}に{来|き}たからには、{日本語|にほんご}を{話|はな}せるようになりたい。",
+          "Now that I've come to Japan, I want to be able to speak Japanese."
+        ]
+      ]
+    },
+    {
+      "id": "karakoso",
+      "title": "〜からこそ: precisely because",
+      "summary": "Plain form + からこそ = it's exactly because of A (emphasised reason).",
+      "body": "- あなたのことを思っている**からこそ**、厳しく言うのです.\n\nOften ends with のだ/のです.",
+      "examples": [
+        [
+          "あなたのことを{思|おも}っているからこそ、{厳|きび}しく{言|い}うのです。",
+          "It's precisely because I care about you that I'm being strict."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "bakarini",
+      "prompt": "{一言|ひとこと}{余計|よけい}なことを{言|い}った（　）、{彼女|かのじょ}を{怒|おこ}らせてしまった。",
+      "options": [
+        "ばかりに",
+        "おかげで",
+        "だけあって",
+        "からこそ"
+      ],
+      "answer": 0,
+      "explanation": "Just because (regret): **ばかりに**.",
+      "notes": [
+        "",
+        "おかげで = 'thanks to' — wrong for a bad result.",
+        "だけあって = 'as expected' (praise).",
+        "からこそ = 'precisely because' — no sense of regret."
+      ],
+      "translation": "Just because I said one word too many, I made her angry."
+    },
+    {
+      "point": "bakarini",
+      "prompt": "お{金|かね}がない（　）、{大学|だいがく}に{行|い}けなかった。",
+      "options": [
+        "ばかりか",
+        "ばかりを",
+        "ばかりで",
+        "ばかりに"
+      ],
+      "answer": 3,
+      "explanation": "Because of (regret): **ばかりに**.",
+      "notes": [
+        "ばかりか = 'not only'.",
+        "ばかりを isn't grammatical.",
+        "ばかりで isn't this pattern.",
+        ""
+      ],
+      "translation": "Just because I had no money, I couldn't go to university."
+    },
+    {
+      "point": "dakeni",
+      "prompt": "{期待|きたい}していた（　）、{負|ま}けたのは{残念|ざんねん}だ。",
+      "options": [
+        "だけに",
+        "だけは",
+        "だけで",
+        "だけを"
+      ],
+      "answer": 0,
+      "explanation": "All the more because: **だけに**.",
+      "notes": [
+        "",
+        "だけは = 'at least'.",
+        "だけで = 'just by'.",
+        "だけを isn't the pattern."
+      ],
+      "translation": "Because I'd had high hopes, losing was all the more disappointing."
+    },
+    {
+      "point": "dakeatte",
+      "prompt": "さすがプロ（　）、{上手|じょうず}だ。",
+      "options": [
+        "わりに",
+        "だけあって",
+        "ばかりに",
+        "くせに"
+      ],
+      "answer": 1,
+      "explanation": "As expected from (praise): **だけあって**.",
+      "notes": [
+        "プロのわりに = 'for a pro' — doesn't fit さすが.",
+        "",
+        "ばかりに = 'just because (bad)'.",
+        "くせに = criticism."
+      ],
+      "translation": "As you'd expect from a pro, they're good."
+    },
+    {
+      "point": "dakeatte",
+      "prompt": "{高|たか}い（　）、このかばんは{丈夫|じょうぶ}だ。",
+      "options": [
+        "だけあるで",
+        "だけかって",
+        "だけなくて",
+        "だけあって"
+      ],
+      "answer": 3,
+      "explanation": "**だけあって**.",
+      "notes": [
+        "だけあるで isn't a form.",
+        "だけかって isn't a form.",
+        "だけなくて isn't a form.",
+        ""
+      ],
+      "translation": "It's expensive, but as you'd expect, this bag is sturdy."
+    },
+    {
+      "point": "dakenokotowaaru",
+      "prompt": "この{店|みせ}は{高|たか}いだけの（　）、とてもおいしい。",
+      "options": [
+        "ものがあって",
+        "ことはあって",
+        "ことがあって",
+        "わけがあって"
+      ],
+      "answer": 1,
+      "explanation": "Worth it: **だけのことはある**.",
+      "notes": [
+        "ものがある is a different pattern.",
+        "",
+        "ことがある = 'sometimes'.",
+        "わけがある = 'there's a reason'."
+      ],
+      "translation": "This shop is expensive, but it's worth it — it's very tasty."
+    },
+    {
+      "point": "monodakara",
+      "prompt": "{電車|でんしゃ}が{遅|おく}れた（　）、{遅刻|ちこく}してしまいました。",
+      "options": [
+        "ものの",
+        "ものか",
+        "ものだから",
+        "ものなら"
+      ],
+      "answer": 2,
+      "explanation": "Excuse: **ものだから**.",
+      "notes": [
+        "ものの = 'although'.",
+        "ものか = 'as if!'.",
+        "",
+        "ものなら = 'if (one could)'."
+      ],
+      "translation": "The train was late, so I ended up being late."
+    },
+    {
+      "point": "ijou",
+      "prompt": "{約束|やくそく}した（　）、{守|まも}らなければならない。",
+      "options": [
+        "{以上|いじょう}",
+        "{以外|いがい}",
+        "{以内|いない}",
+        "{以下|いか}"
+      ],
+      "answer": 0,
+      "explanation": "Now that: **以上**.",
+      "notes": [
+        "",
+        "以外 = 'except'.",
+        "以内 = 'within'.",
+        "以下 = 'below'."
+      ],
+      "translation": "Now that I've promised, I have to keep it."
+    },
+    {
+      "point": "karaniwa",
+      "prompt": "{日本|にほん}に{来|き}た（　）、{日本語|にほんご}を{話|はな}せるようになりたい。",
+      "options": [
+        "からと",
+        "からには",
+        "からでは",
+        "からして"
+      ],
+      "answer": 1,
+      "explanation": "Now that (resolve): **からには**.",
+      "notes": [
+        "からと isn't the pattern.",
+        "",
+        "からでは isn't the pattern.",
+        "からして = 'judging from'."
+      ],
+      "translation": "Now that I've come to Japan, I want to be able to speak Japanese."
+    },
+    {
+      "point": "karakoso",
+      "prompt": "あなたのことを{思|おも}っている（　）、{厳|きび}しく{言|い}うのです。",
+      "options": [
+        "からといって",
+        "からして",
+        "からこそ",
+        "からには"
+      ],
+      "answer": 2,
+      "explanation": "Precisely because: **からこそ**.",
+      "notes": [
+        "からといって = 'just because… (doesn't mean)'.",
+        "からして = 'judging from'.",
+        "",
+        "からには = 'now that' — doesn't fit."
+      ],
+      "translation": "It's precisely because I care about you that I'm being strict."
+    },
+    {
+      "point": "dakeni",
+      "prompt": "{有名|ゆうめい}な{店|みせ}（　）、いつも{混|こ}んでいる。",
+      "options": [
+        "だけは",
+        "だけに",
+        "だけを",
+        "だけで"
+      ],
+      "answer": 1,
+      "explanation": "Precisely because: **だけに**.",
+      "notes": [
+        "だけは = 'at least'.",
+        "",
+        "だけを isn't the pattern.",
+        "だけで = 'just by'."
+      ],
+      "translation": "Being a famous shop, it's always crowded."
+    },
+    {
+      "point": "dakenokotowaaru",
+      "prompt": "さすが{一流|いちりゅう}ホテルだ。{高|たか}い（　）。",
+      "options": [
+        "だけのものはある",
+        "だけのことがない",
+        "だけのことはある",
+        "だけのわけはある"
+      ],
+      "answer": 2,
+      "explanation": "Worth it: **だけのことはある**.",
+      "notes": [
+        "ものはある isn't this pattern.",
+        "The pattern is positive: ある.",
+        "",
+        "わけはある isn't this pattern."
+      ],
+      "translation": "As expected of a first-class hotel — it's worth the price."
+    },
+    {
+      "point": "monodakara",
+      "prompt": "あまりに{眠|ねむ}かった（　）、{授業中|じゅぎょうちゅう}に{寝|ね}てしまった。",
+      "options": [
+        "ものだから",
+        "ものなら",
+        "ものか",
+        "ものの"
+      ],
+      "answer": 0,
+      "explanation": "Excuse: **ものだから**.",
+      "notes": [
+        "",
+        "ものなら = 'if (one could)'.",
+        "ものか = 'as if!'.",
+        "ものの = 'although'."
+      ],
+      "translation": "I was so sleepy that I fell asleep in class."
+    },
+    {
+      "point": "ijou",
+      "prompt": "{引|ひ}き{受|う}けた（　）は、{最後|さいご}までやります。",
+      "options": [
+        "{以外|いがい}",
+        "{以下|いか}",
+        "{以内|いない}",
+        "{以上|いじょう}"
+      ],
+      "answer": 3,
+      "explanation": "Now that: **以上は**.",
+      "notes": [
+        "以外 = 'except'.",
+        "以下 = 'below'.",
+        "以内 = 'within'.",
+        ""
+      ],
+      "translation": "Now that I've taken it on, I'll see it through."
+    },
+    {
+      "point": "karaniwa",
+      "prompt": "{試合|しあい}に{出|で}る（　）、{絶対|ぜったい}に{勝|か}ちたい。",
+      "options": [
+        "からでは",
+        "からには",
+        "からして",
+        "からと"
+      ],
+      "answer": 1,
+      "explanation": "Now that (resolve): **からには**.",
+      "notes": [
+        "からでは isn't the pattern.",
+        "",
+        "からして = 'judging from'.",
+        "からと isn't the pattern."
+      ],
+      "translation": "Now that I'm in the match, I absolutely want to win."
+    },
+    {
+      "point": "karakoso",
+      "prompt": "{苦労|くろう}した（　）、{成功|せいこう}の{喜|よろこ}びが{大|おお}きいのだ。",
+      "options": [
+        "からこそ",
+        "からには",
+        "からして",
+        "からといって"
+      ],
+      "answer": 0,
+      "explanation": "Precisely because: **からこそ**.",
+      "notes": [
+        "",
+        "からには = 'now that'.",
+        "からして = 'judging from'.",
+        "からといって = 'just because… doesn't mean'."
+      ],
+      "translation": "It's precisely because you struggled that success feels so good."
+    }
+  ]
+}
