@@ -1,0 +1,361 @@
+{
+  "id": "n1-reasons",
+  "category": "JLPT N1",
+  "title": "Reasons & Purposes: ゆえに, とあって, こととて, ばこそ, んがため, べく, とあれば",
+  "description": "Formal 'because' (with its nuances: special occasion, apology, the very reason), formal 'in order to', and 'if it's for …'.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "yueni",
+      "title": "〜ゆえ(に) / ゆえの: because of (formal)",
+      "summary": "Noun / plain form + ゆえ(に) = because of; ゆえの + noun = … caused by.",
+      "body": "- 貧しさ**ゆえに**、学校に行けなかった.\n- 若さ**ゆえの**過ち.",
+      "examples": [
+        [
+          "{若|わか}さゆえの{過|あやま}ちだった。",
+          "It was a mistake of youth."
+        ]
+      ]
+    },
+    {
+      "id": "toatte",
+      "title": "〜とあって: since (it's a special situation)",
+      "summary": "Plain form / noun + とあって = because of this (unusual) circumstance, what we see is …. Describes others / the scene.",
+      "body": "- 連休**とあって**、行楽地はどこも混雑している.",
+      "examples": [
+        [
+          "{人気|にんき}{歌手|かしゅ}が{来|く}るとあって、{会場|かいじょう}は{満員|まんいん}だった。",
+          "With a popular singer coming, the venue was packed."
+        ]
+      ]
+    },
+    {
+      "id": "kototote",
+      "title": "〜こととて: because (apologising)",
+      "summary": "Plain form + こととて = since it was … (so please excuse it). Formal, old-fashioned.",
+      "body": "- 慣れぬ**こととて**、ご迷惑をおかけしました.",
+      "examples": [
+        [
+          "{子供|こども}のしたこととて、お{許|ゆる}しください。",
+          "It was done by a child — please forgive it."
+        ]
+      ]
+    },
+    {
+      "id": "bakoso",
+      "title": "〜ばこそ: precisely because",
+      "summary": "ば-form + こそ = it's exactly because A (often a good motive behind something unwelcome).",
+      "body": "- 君のことを思え**ばこそ**、厳しく言うのだ.",
+      "examples": [
+        [
+          "{健康|けんこう}であればこそ、{仕事|しごと}もできる。",
+          "It's precisely because you're healthy that you can work."
+        ]
+      ]
+    },
+    {
+      "id": "ngatame",
+      "title": "〜んがため(に): in order to (at all costs)",
+      "summary": "ない-stem + んがため (する → せんがため) = with the strong aim of.",
+      "body": "- 勝た**んがため**、彼は毎日練習した.",
+      "examples": [
+        [
+          "{生|い}きんがために{働|はたら}く。",
+          "One works in order to live."
+        ]
+      ]
+    },
+    {
+      "id": "beku",
+      "title": "〜べく: in order to (formal)",
+      "summary": "Dictionary form + べく (する → すべく) = with the intention of.",
+      "body": "- 留学す**べく**、貯金を始めた.\n- Don't confuse with べき (should) / べからず (must not).",
+      "examples": [
+        [
+          "{問題|もんだい}を{解決|かいけつ}すべく、{会議|かいぎ}が{開|ひら}かれた。",
+          "A meeting was held to solve the problem."
+        ]
+      ]
+    },
+    {
+      "id": "toareba",
+      "title": "〜とあれば: if it's (for) …",
+      "summary": "Noun / plain form + とあれば = if that's the case / if it's for that, (I'll do anything).",
+      "body": "- 子供のため**とあれば**、どんな苦労もいとわない.",
+      "examples": [
+        [
+          "{社長|しゃちょう}の{命令|めいれい}とあれば、{従|したが}うしかない。",
+          "If it's the president's order, I have no choice but to obey."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "yueni",
+      "prompt": "{貧|まず}しさ（　）、{彼|かれ}は{学校|がっこう}に{行|い}けなかった。",
+      "options": [
+        "ゆえの",
+        "ゆえに",
+        "とあって",
+        "ばこそ"
+      ],
+      "answer": 1,
+      "explanation": "Because of: **ゆえに**.",
+      "notes": [
+        "ゆえの needs a noun after it.",
+        "",
+        "とあって describes a special occasion and the scene it causes.",
+        "ばこそ follows a ば-form."
+      ],
+      "translation": "Because of poverty, he couldn't go to school."
+    },
+    {
+      "point": "yueni",
+      "prompt": "あれは{若|わか}さ（　）{過|あやま}ちだった。",
+      "options": [
+        "ゆえの",
+        "ばかりの",
+        "ゆえに",
+        "ながらの"
+      ],
+      "answer": 0,
+      "explanation": "Before a noun: **ゆえの**.",
+      "notes": [
+        "",
+        "若さばかりの isn't natural.",
+        "ゆえに can't modify a noun.",
+        "若さながらの isn't a phrase."
+      ],
+      "translation": "That was a mistake born of youth."
+    },
+    {
+      "point": "toatte",
+      "prompt": "{連休|れんきゅう}（　）、{行楽地|こうらくち}はどこも{混雑|こんざつ}している。",
+      "options": [
+        "とあれば",
+        "とはいえ",
+        "とあって",
+        "としたら"
+      ],
+      "answer": 2,
+      "explanation": "Since (special occasion): **とあって**.",
+      "notes": [
+        "とあれば = 'if it's for' — the holiday is a fact, not a condition.",
+        "とはいえ = 'although' — crowds are the expected result.",
+        "",
+        "としたら = 'supposing'."
+      ],
+      "translation": "With the long weekend, every holiday spot is packed."
+    },
+    {
+      "point": "toatte",
+      "prompt": "What does 「{人気|にんき}{歌手|かしゅ}が{来|く}るとあって、{会場|かいじょう}は{満員|まんいん}だった。」 mean?",
+      "options": [
+        "With a popular singer coming, the venue was packed.",
+        "If a popular singer comes, the venue will be full.",
+        "Although a popular singer came, the venue was full.",
+        "The venue was full, so the singer came."
+      ],
+      "answer": 0,
+      "explanation": "とあって = **because of this special situation**.",
+      "notes": [
+        "",
+        "とあって is a fact, not a condition.",
+        "No contrast.",
+        "The cause is the singer."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kototote",
+      "prompt": "{慣|な}れぬ（　）、ご{迷惑|めいわく}をおかけしました。",
+      "options": [
+        "ことには",
+        "ことだし",
+        "ことなく",
+        "こととて"
+      ],
+      "answer": 3,
+      "explanation": "Because (apology): **こととて**.",
+      "notes": [
+        "ことには = 'unless'.",
+        "ことだし = 'since (casual)'.",
+        "ことなく = 'without'.",
+        ""
+      ],
+      "translation": "Being new to this, I'm afraid I caused you trouble."
+    },
+    {
+      "point": "kototote",
+      "prompt": "What does 「{子供|こども}のしたこととて、お{許|ゆる}しください。」 mean?",
+      "options": [
+        "The child asked for forgiveness.",
+        "It was done by a child — please forgive it.",
+        "Children shouldn't be forgiven.",
+        "Please forgive the child for what it will do."
+      ],
+      "answer": 1,
+      "explanation": "こととて = **since (please excuse)**.",
+      "notes": [
+        "The speaker asks.",
+        "",
+        "The opposite.",
+        "したこと = already done."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "bakoso",
+      "prompt": "{君|きみ}のことを{思|おも}え（　）、{厳|きび}しく{言|い}うのだ。",
+      "options": [
+        "ばそれまで",
+        "ばいい",
+        "ばかりか",
+        "ばこそ"
+      ],
+      "answer": 3,
+      "explanation": "Precisely because: **ばこそ**.",
+      "notes": [
+        "ばそれまで = 'if …, that's the end'.",
+        "思えばいい = 'you just have to think'.",
+        "ばかりか = 'not only'.",
+        ""
+      ],
+      "translation": "It's precisely because I care about you that I'm being strict."
+    },
+    {
+      "point": "bakoso",
+      "prompt": "What does 「{健康|けんこう}であればこそ、{仕事|しごと}もできる。」 mean?",
+      "options": [
+        "It's precisely because you're healthy that you can work.",
+        "If you're healthy, you don't need to work.",
+        "Work makes you healthy.",
+        "Even if you're healthy, you can't work."
+      ],
+      "answer": 0,
+      "explanation": "ばこそ = **precisely because**.",
+      "notes": [
+        "",
+        "こそ emphasises the reason.",
+        "Wrong direction.",
+        "No concession."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "ngatame",
+      "prompt": "{勝|か}た（　）、{彼|かれ}は{毎日|まいにち}{厳|きび}しい{練習|れんしゅう}を{続|つづ}けた。",
+      "options": [
+        "んばかりに",
+        "ずにはおかない",
+        "んがため",
+        "ずじまい"
+      ],
+      "answer": 2,
+      "explanation": "In order to (strong): **んがため**.",
+      "notes": [
+        "んばかりに = 'as if about to'.",
+        "ずにはおかない ends a sentence.",
+        "",
+        "ずじまい = 'ended up not doing'."
+      ],
+      "translation": "Determined to win, he kept up hard training every day."
+    },
+    {
+      "point": "ngatame",
+      "prompt": "What does 「{生|い}きんがために{働|はたら}く。」 mean?",
+      "options": [
+        "One lives in order to work.",
+        "One works while living.",
+        "One stops working to live.",
+        "One works in order to live."
+      ],
+      "answer": 3,
+      "explanation": "んがため = **for the sake of**.",
+      "notes": [
+        "んがため marks the goal (living).",
+        "No simultaneity.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "beku",
+      "prompt": "{留学|りゅうがく}す（　）、{貯金|ちょきん}を{始|はじ}めた。",
+      "options": [
+        "べく",
+        "べからず",
+        "べき",
+        "べくもない"
+      ],
+      "answer": 0,
+      "explanation": "In order to: **すべく**.",
+      "notes": [
+        "",
+        "べからず = 'must not'.",
+        "べき = 'should' — must modify a noun or end the sentence.",
+        "べくもない = 'there's no way'."
+      ],
+      "translation": "I started saving so that I could study abroad."
+    },
+    {
+      "point": "beku",
+      "prompt": "{問題|もんだい}を{解決|かいけつ}す（　）、{緊急|きんきゅう}{会議|かいぎ}が{開|ひら}かれた。",
+      "options": [
+        "べし",
+        "べき",
+        "べからず",
+        "べく"
+      ],
+      "answer": 3,
+      "explanation": "**べく**.",
+      "notes": [
+        "べし = 'should' (ends a sentence).",
+        "べき can't link clauses.",
+        "べからず = 'must not'.",
+        ""
+      ],
+      "translation": "An emergency meeting was held to solve the problem."
+    },
+    {
+      "point": "toareba",
+      "prompt": "{子供|こども}のため（　）、どんな{苦労|くろう}もいとわない。",
+      "options": [
+        "とあれば",
+        "とはいえ",
+        "とあって",
+        "といえども"
+      ],
+      "answer": 0,
+      "explanation": "If it's for: **とあれば**.",
+      "notes": [
+        "",
+        "とはいえ = 'although'.",
+        "とあって = 'because (special occasion)' — this is a condition.",
+        "といえども = 'even though'."
+      ],
+      "translation": "If it's for my children, I'll put up with any hardship."
+    },
+    {
+      "point": "toareba",
+      "prompt": "What does 「{社長|しゃちょう}の{命令|めいれい}とあれば、{従|したが}うしかない。」 mean?",
+      "options": [
+        "Even the president's orders can be ignored.",
+        "Because the president ordered it, I disobeyed.",
+        "The president has to obey.",
+        "If it's the president's order, I have no choice but to obey."
+      ],
+      "answer": 3,
+      "explanation": "とあれば = **if it's (for) …**.",
+      "notes": [
+        "The opposite.",
+        "従う = obey.",
+        "The speaker obeys.",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}

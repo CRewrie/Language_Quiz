@@ -1,0 +1,361 @@
+{
+  "id": "n1-outcomes",
+  "category": "JLPT N1",
+  "title": "Unexpected Outcomes: と思いきや, が最後, ばそれまでだ, (よ)うものなら, ためしがない, ずじまい, ものを",
+  "description": "I thought …, but; once you …, it's over; if you dared to; never once; ended up never; and if only.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "toomoikiya",
+      "title": "〜と思いきや: I thought …, but",
+      "summary": "Plain form + と思いきや = I expected A, but surprisingly not.",
+      "body": "- 晴れる**と思いきや**、急に雨が降り出した.",
+      "examples": [
+        [
+          "{簡単|かんたん}だと{思|おも}いきや、{意外|いがい}に{難|むずか}しかった。",
+          "I thought it'd be easy, but it was surprisingly hard."
+        ]
+      ]
+    },
+    {
+      "id": "gasaigo",
+      "title": "〜が最後 / たら最後: once (… no going back)",
+      "summary": "た-form + が最後 = once A happens, B (bad, unstoppable) follows.",
+      "body": "- 彼は話し始めた**が最後**、二時間は止まらない.",
+      "examples": [
+        [
+          "この{森|もり}に{入|はい}ったが{最後|さいご}、{二度|にど}と{出|で}られない。",
+          "Once you enter this forest, you can never get out."
+        ]
+      ]
+    },
+    {
+      "id": "basoremade",
+      "title": "〜ばそれまでだ: if …, that's the end",
+      "summary": "ば-form + それまでだ = if A happens, everything is over / pointless.",
+      "body": "- いくらお金があっても、死んでしまえ**ばそれまでだ**.",
+      "examples": [
+        [
+          "{一度|いちど}{信用|しんよう}を{失|うしな}えばそれまでだ。",
+          "Once you lose people's trust, it's all over."
+        ]
+      ]
+    },
+    {
+      "id": "youmononara",
+      "title": "(よ)うものなら: if you dared to (… disaster)",
+      "summary": "Volitional + ものなら = if you were to do A, something terrible would happen.",
+      "body": "- 父に反対しよう**ものなら**、家を追い出されるだろう.",
+      "examples": [
+        [
+          "{一分|いっぷん}でも{遅刻|ちこく}しようものなら、{先生|せんせい}に{叱|しか}られる。",
+          "If you're even a minute late, the teacher will tell you off."
+        ]
+      ]
+    },
+    {
+      "id": "tameshiganai",
+      "title": "〜ためしがない: never once",
+      "summary": "た-form + ためしがない = there's never been a single case of A (complaint).",
+      "body": "- 彼が約束を守った**ためしがない**.",
+      "examples": [
+        [
+          "{兄|あに}は{時間|じかん}{通|どお}りに{来|き}たためしがない。",
+          "My brother has never once arrived on time."
+        ]
+      ]
+    },
+    {
+      "id": "zujimai",
+      "title": "〜ずじまい: ended up never",
+      "summary": "ない-stem + ずじまい = in the end, A never happened (regret).",
+      "body": "- 忙しくて、あの映画は見**ずじまい**だった.",
+      "examples": [
+        [
+          "{名前|なまえ}を{聞|き}かずじまいだった。",
+          "I never did ask their name."
+        ]
+      ]
+    },
+    {
+      "id": "monowo",
+      "title": "〜ものを: if only (regret / reproach)",
+      "summary": "Plain form + ものを = it would have been fine if …, but (you didn't).",
+      "body": "- 早く言ってくれれば手伝った**ものを**.",
+      "examples": [
+        [
+          "{薬|くすり}を{飲|の}めば{治|なお}るものを、{彼|かれ}は{飲|の}もうとしない。",
+          "If he'd just take the medicine he'd get better — yet he won't."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "toomoikiya",
+      "prompt": "{晴|は}れると（　）、{急|きゅう}に{雨|あめ}が{降|ふ}り{出|だ}した。",
+      "options": [
+        "{思|おも}いきや",
+        "{思|おも}うまま",
+        "{思|おも}わず",
+        "{思|おも}いつつ"
+      ],
+      "answer": 0,
+      "explanation": "I thought …, but: **と思いきや**.",
+      "notes": [
+        "",
+        "思うまま = 'as one likes'.",
+        "思わず = 'involuntarily'.",
+        "思いつつ = 'while thinking'."
+      ],
+      "translation": "I thought it would clear up, but suddenly it started to rain."
+    },
+    {
+      "point": "toomoikiya",
+      "prompt": "What does 「{簡単|かんたん}だと{思|おも}いきや、{意外|いがい}に{難|むずか}しかった。」 mean?",
+      "options": [
+        "It was easy, as expected.",
+        "I decided it was easy.",
+        "I thought it was hard, and it was.",
+        "I thought it'd be easy, but it was surprisingly hard."
+      ],
+      "answer": 3,
+      "explanation": "と思いきや = **contrary to expectation**.",
+      "notes": [
+        "The opposite.",
+        "思いきる = decide (not this).",
+        "と思いきや = expectation broken.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "gasaigo",
+      "prompt": "{彼|かれ}は{話|はな}し{始|はじ}めた（　）、{二時間|にじかん}は{止|と}まらない。",
+      "options": [
+        "が{最後|さいご}",
+        "が{最初|さいしょ}",
+        "が{早|はや}いか",
+        "がてら"
+      ],
+      "answer": 0,
+      "explanation": "Once (no stopping): **が最後**.",
+      "notes": [
+        "",
+        "が最初 isn't a pattern.",
+        "が早いか is for a single past event, not a habit like this.",
+        "がてら = 'while also'."
+      ],
+      "translation": "Once he starts talking, he won't stop for two hours."
+    },
+    {
+      "point": "gasaigo",
+      "prompt": "What does 「この{森|もり}に{入|はい}ったが{最後|さいご}、{二度|にど}と{出|で}られない。」 mean?",
+      "options": [
+        "The last person to enter the forest never came out.",
+        "Once you enter this forest, you can never get out.",
+        "Enter the forest last.",
+        "This is the last time you can enter the forest."
+      ],
+      "answer": 1,
+      "explanation": "が最後 = **once …, there's no return**.",
+      "notes": [
+        "最後 here isn't 'the last person'.",
+        "",
+        "No.",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "basoremade",
+      "prompt": "いくらお{金|かね}があっても、{死|し}んでしまえ（　）。",
+      "options": [
+        "ばいいのに",
+        "ばこそだ",
+        "ばかりだ",
+        "ばそれまでだ"
+      ],
+      "answer": 3,
+      "explanation": "If …, that's the end: **ばそれまでだ**.",
+      "notes": [
+        "ばいいのに = 'I wish'.",
+        "ばこそ = 'precisely because'.",
+        "ばかりだ = 'only getting worse'.",
+        ""
+      ],
+      "translation": "No matter how rich you are, once you're dead, that's it."
+    },
+    {
+      "point": "basoremade",
+      "prompt": "What does 「{一度|いちど}{信用|しんよう}を{失|うしな}えばそれまでだ。」 mean?",
+      "options": [
+        "Trust is lost over time.",
+        "Lose trust until then.",
+        "Once you lose people's trust, it's all over.",
+        "You lose trust only once."
+      ],
+      "answer": 2,
+      "explanation": "ばそれまでだ = **then it's over**.",
+      "notes": [
+        "No.",
+        "No.",
+        "",
+        "それまで = the end of it."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "youmononara",
+      "prompt": "{父|ちち}に{反対|はんたい}しよう（　）、{家|いえ}を{追|お}い{出|だ}されるだろう。",
+      "options": [
+        "もので",
+        "ものなら",
+        "ものを",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "If you dared to: **(よ)うものなら**.",
+      "notes": [
+        "もので = 'because'.",
+        "",
+        "ものを = 'if only'.",
+        "ものの = 'although'."
+      ],
+      "translation": "If I were to stand up to my father, he'd throw me out."
+    },
+    {
+      "point": "youmononara",
+      "prompt": "What does 「{一分|いっぷん}でも{遅刻|ちこく}しようものなら、{先生|せんせい}に{叱|しか}られる。」 mean?",
+      "options": [
+        "The teacher is a minute late.",
+        "Try to be a minute late.",
+        "Because I was a minute late, I got told off.",
+        "If you're even a minute late, the teacher will tell you off."
+      ],
+      "answer": 3,
+      "explanation": "うものなら = **if you dared to**.",
+      "notes": [
+        "No.",
+        "No.",
+        "It's a condition, not a past event.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tameshiganai",
+      "prompt": "{彼|かれ}が{約束|やくそく}を{守|まも}った（　）。",
+      "options": [
+        "ためしがない",
+        "ためらわない",
+        "ためにならない",
+        "ためいきだ"
+      ],
+      "answer": 0,
+      "explanation": "Never once: **ためしがない**.",
+      "notes": [
+        "",
+        "ためらわない = 'doesn't hesitate'.",
+        "ためにならない = 'does no good'.",
+        "ためいき = 'sigh'."
+      ],
+      "translation": "He has never once kept a promise."
+    },
+    {
+      "point": "tameshiganai",
+      "prompt": "What does 「{兄|あに}は{時間|じかん}{通|どお}りに{来|き}たためしがない。」 mean?",
+      "options": [
+        "My brother tried coming on time.",
+        "My brother has never once arrived on time.",
+        "My brother always comes on time.",
+        "My brother came on time as a test."
+      ],
+      "answer": 1,
+      "explanation": "ためしがない = **never once**.",
+      "notes": [
+        "ためし here isn't 'trial'.",
+        "",
+        "The opposite.",
+        "No test."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "zujimai",
+      "prompt": "{忙|いそが}しくて、{結局|けっきょく}あの{映画|えいが}は{見|み}ず（　）だった。",
+      "options": [
+        "じまい",
+        "くめ",
+        "には",
+        "とも"
+      ],
+      "answer": 0,
+      "explanation": "Ended up never: **ずじまい**.",
+      "notes": [
+        "",
+        "Not a form.",
+        "見ずには needs a verb after it.",
+        "見ずとも = 'even without seeing'."
+      ],
+      "translation": "I was so busy that I never ended up seeing that film."
+    },
+    {
+      "point": "zujimai",
+      "prompt": "What does 「{名前|なまえ}を{聞|き}かずじまいだった。」 mean?",
+      "options": [
+        "I asked without saying my name.",
+        "I asked their name at the end.",
+        "I didn't hear the name clearly.",
+        "I never did ask their name."
+      ],
+      "answer": 3,
+      "explanation": "ずじまい = **ended up not**.",
+      "notes": [
+        "No.",
+        "じまい = never happened.",
+        "聞く here = ask.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "monowo",
+      "prompt": "{早|はや}く{言|い}ってくれれば{手伝|てつだ}った（　）。",
+      "options": [
+        "ものか",
+        "ものを",
+        "もので",
+        "ものの"
+      ],
+      "answer": 1,
+      "explanation": "If only (reproach): **ものを**.",
+      "notes": [
+        "ものか = 'as if!'.",
+        "",
+        "もので = 'because'.",
+        "ものの = 'although'."
+      ],
+      "translation": "If only you'd told me sooner, I'd have helped."
+    },
+    {
+      "point": "monowo",
+      "prompt": "What does 「{薬|くすり}を{飲|の}めば{治|なお}るものを、{彼|かれ}は{飲|の}もうとしない。」 mean?",
+      "options": [
+        "If he'd just take the medicine he'd get better — yet he won't.",
+        "The medicine doesn't work, so he won't take it.",
+        "He drinks instead of taking medicine.",
+        "He takes medicine, so he's better."
+      ],
+      "answer": 0,
+      "explanation": "ものを = **it would have been fine, but**.",
+      "notes": [
+        "",
+        "The medicine would work.",
+        "No.",
+        "He refuses."
+      ],
+      "translation": ""
+    }
+  ]
+}

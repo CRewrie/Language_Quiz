@@ -1,0 +1,361 @@
+{
+  "id": "n1-standards",
+  "category": "JLPT N1",
+  "title": "Standards & Contrast: にひきかえ, をおいて, はさておき, いかんで(は), いかんによらず, に即して / に則って, に照らして",
+  "description": "In contrast to, no one but, setting aside, depending on, regardless of, in line with (facts / rules), and in light of.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "nihikikae",
+      "title": "〜にひきかえ: in contrast to",
+      "summary": "Noun / の + にひきかえ = unlike A (with a judgement: one good, one bad).",
+      "body": "- 勤勉な兄**にひきかえ**、弟は怠け者だ.",
+      "examples": [
+        [
+          "{去年|きょねん}にひきかえ、{今年|ことし}の{夏|なつ}は{涼|すず}しい。",
+          "Unlike last year, this summer is cool."
+        ]
+      ]
+    },
+    {
+      "id": "woite",
+      "title": "〜をおいて(ほかに)〜ない: no one but",
+      "summary": "Noun + をおいてほかにない / いない = only A will do.",
+      "body": "- この仕事を任せられるのは、彼**をおいて**ほかにいない.",
+      "examples": [
+        [
+          "{日本一|にほんいち}の{料理人|りょうりにん}といえば、{彼|かれ}をおいてほかにいない。",
+          "If anyone is Japan's best chef, it's him."
+        ]
+      ]
+    },
+    {
+      "id": "hasateoki",
+      "title": "〜はさておき: setting aside",
+      "summary": "Noun + はさておき = leaving A aside (for now), B.",
+      "body": "- 冗談**はさておき**、本題に入りましょう.",
+      "examples": [
+        [
+          "{結果|けっか}はさておき、よく{頑張|がんば}った。",
+          "Whatever the result, you did really well."
+        ]
+      ]
+    },
+    {
+      "id": "ikande",
+      "title": "〜いかんで(は) / いかんによって(は): depending on",
+      "summary": "Noun + (の) + いかんで = depending on (how) A (turns out).",
+      "body": "- 試験の結果**いかんでは**、卒業できないこともある.",
+      "examples": [
+        [
+          "{参加者|さんかしゃ}の{数|かず}いかんによっては、{中止|ちゅうし}します。",
+          "Depending on the number of participants, it may be cancelled."
+        ]
+      ]
+    },
+    {
+      "id": "ikanniyorazu",
+      "title": "〜いかんによらず / いかんを問わず: regardless of",
+      "summary": "Noun + の + いかんによらず = no matter what A is.",
+      "body": "- 理由の**いかんによらず**、遅刻は認めない.",
+      "examples": [
+        [
+          "{国籍|こくせき}のいかんを{問|と}わず、{誰|だれ}でも{応募|おうぼ}できる。",
+          "Anyone can apply, regardless of nationality."
+        ]
+      ]
+    },
+    {
+      "id": "sokushite",
+      "title": "〜に即して vs 〜に則って",
+      "summary": "に即して (そくして) = in line with facts / the actual situation. に則って (のっとって) = in accordance with rules, laws, traditions.",
+      "body": "- 事実**に即して**報告する.\n- 法律**に則って**処理する.",
+      "examples": [
+        [
+          "{法律|ほうりつ}に{則|のっと}って{処理|しょり}する。",
+          "We'll deal with it in accordance with the law."
+        ]
+      ]
+    },
+    {
+      "id": "niterashite",
+      "title": "〜に照らして: in light of",
+      "summary": "Noun + に照らして = judging by (rules, past examples).",
+      "body": "- 規則**に照らして**判断すると、これは違反だ.",
+      "examples": [
+        [
+          "{過去|かこ}の{例|れい}に{照|て}らして{考|かんが}えると、{成功|せいこう}は{難|むずか}しい。",
+          "Judging by past cases, success will be difficult."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nihikikae",
+      "prompt": "{勤勉|きんべん}な{兄|あに}（　）、{弟|おとうと}は{怠|なま}け{者|もの}だ。",
+      "options": [
+        "にかけて",
+        "に{加|くわ}えて",
+        "にひきかえ",
+        "に{沿|そ}って"
+      ],
+      "answer": 2,
+      "explanation": "In contrast to: **にひきかえ**.",
+      "notes": [
+        "にかけて = 'when it comes to / over (a period)'.",
+        "に加えて = 'in addition to'.",
+        "",
+        "に沿って = 'along / in line with'."
+      ],
+      "translation": "Unlike his hard-working older brother, the younger one is lazy."
+    },
+    {
+      "point": "nihikikae",
+      "prompt": "What does 「{去年|きょねん}にひきかえ、{今年|ことし}の{夏|なつ}は{涼|すず}しい。」 mean?",
+      "options": [
+        "Because of last year, this summer is cool.",
+        "This summer is cooler than it will be next year.",
+        "Like last year, this summer is cool.",
+        "Unlike last year, this summer is cool."
+      ],
+      "answer": 3,
+      "explanation": "にひきかえ = **in contrast to**.",
+      "notes": [
+        "No cause.",
+        "It's about last year.",
+        "ひきかえ = contrast.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "woite",
+      "prompt": "この{仕事|しごと}を{任|まか}せられるのは、{彼|かれ}（　）ほかにいない。",
+      "options": [
+        "を{通|つう}じて",
+        "をめぐって",
+        "をおいて",
+        "をもって"
+      ],
+      "answer": 2,
+      "explanation": "No one but: **をおいてほかにいない**.",
+      "notes": [
+        "を通じて = 'through'.",
+        "をめぐって = 'concerning (a dispute)'.",
+        "",
+        "をもって = 'by means of / as of'."
+      ],
+      "translation": "There's no one but him I could entrust this job to."
+    },
+    {
+      "point": "woite",
+      "prompt": "What does 「{日本一|にほんいち}の{料理人|りょうりにん}といえば、{彼|かれ}をおいてほかにいない。」 mean?",
+      "options": [
+        "Apart from him, there are many top chefs.",
+        "If anyone is Japan's best chef, it's him.",
+        "He left Japan's best chef behind.",
+        "He isn't Japan's best chef."
+      ],
+      "answer": 1,
+      "explanation": "をおいて…ない = **only**.",
+      "notes": [
+        "をおいてほかにいない = only him.",
+        "",
+        "おいて isn't 'leave behind' here.",
+        "The opposite."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "hasateoki",
+      "prompt": "{冗談|じょうだん}（　）、そろそろ{本題|ほんだい}に{入|はい}りましょう。",
+      "options": [
+        "をよそに",
+        "にひきかえ",
+        "はさておき",
+        "はおろか"
+      ],
+      "answer": 2,
+      "explanation": "Setting aside: **はさておき**.",
+      "notes": [
+        "をよそに = 'ignoring (others' worries)'.",
+        "にひきかえ = 'in contrast to'.",
+        "",
+        "はおろか = 'let alone'."
+      ],
+      "translation": "Joking aside, let's get down to business."
+    },
+    {
+      "point": "hasateoki",
+      "prompt": "What does 「{結果|けっか}はさておき、よく{頑張|がんば}った。」 mean?",
+      "options": [
+        "Whatever the result, you did really well.",
+        "You worked hard, but the result was bad.",
+        "The result was good because you worked hard.",
+        "Leave the result to me."
+      ],
+      "answer": 0,
+      "explanation": "はさておき = **setting aside**.",
+      "notes": [
+        "",
+        "The result isn't judged.",
+        "さておき = setting aside.",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "ikande",
+      "prompt": "{試験|しけん}の{結果|けっか}（　）、{卒業|そつぎょう}できないこともある。",
+      "options": [
+        "いかなる",
+        "いかにも",
+        "いかんによらず",
+        "いかんでは"
+      ],
+      "answer": 3,
+      "explanation": "Depending on: **いかんでは**.",
+      "notes": [
+        "いかなる needs a noun after it.",
+        "いかにも = 'truly'.",
+        "いかんによらず = 'regardless of' — the opposite.",
+        ""
+      ],
+      "translation": "Depending on the exam results, you may not be able to graduate."
+    },
+    {
+      "point": "ikande",
+      "prompt": "What does 「{参加者|さんかしゃ}の{数|かず}いかんによっては、{中止|ちゅうし}します。」 mean?",
+      "options": [
+        "It's cancelled because of too many participants.",
+        "How many participants were cancelled?",
+        "Depending on the number of participants, it may be cancelled.",
+        "Regardless of the number of participants, it's cancelled."
+      ],
+      "answer": 2,
+      "explanation": "いかんによっては = **depending on**.",
+      "notes": [
+        "It's conditional.",
+        "Not a question.",
+        "",
+        "That would be いかんによらず."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "ikanniyorazu",
+      "prompt": "{理由|りゆう}の（　）、{遅刻|ちこく}は{認|みと}めない。",
+      "options": [
+        "いかんによらず",
+        "いかに",
+        "いかんでは",
+        "いかにも"
+      ],
+      "answer": 0,
+      "explanation": "Regardless of: **いかんによらず**.",
+      "notes": [
+        "",
+        "いかに = 'how'.",
+        "いかんでは = 'depending on' — clashes with 認めない for all cases.",
+        "いかにも = 'truly'."
+      ],
+      "translation": "Whatever the reason, lateness won't be accepted."
+    },
+    {
+      "point": "ikanniyorazu",
+      "prompt": "What does 「{国籍|こくせき}のいかんを{問|と}わず、{誰|だれ}でも{応募|おうぼ}できる。」 mean?",
+      "options": [
+        "Your nationality decides whether you can apply.",
+        "Only certain nationalities can apply.",
+        "They ask about your nationality before you apply.",
+        "Anyone can apply, regardless of nationality."
+      ],
+      "answer": 3,
+      "explanation": "いかんを問わず = **regardless of**.",
+      "notes": [
+        "問わず = regardless.",
+        "誰でも = anyone.",
+        "問わず ≠ ask.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "sokushite",
+      "prompt": "{推測|すいそく}ではなく、{事実|じじつ}（　）{報告|ほうこく}してください。",
+      "options": [
+        "に{即|そく}して",
+        "に{則|のっと}って",
+        "に{至|いた}って",
+        "に{先駆|さきが}けて"
+      ],
+      "answer": 0,
+      "explanation": "In line with facts: **に即して**.",
+      "notes": [
+        "",
+        "に則って is for rules and laws, not facts.",
+        "に至って = 'when it came to'.",
+        "に先駆けて = 'ahead of'."
+      ],
+      "translation": "Please report based on the facts, not guesses."
+    },
+    {
+      "point": "sokushite",
+      "prompt": "この{件|けん}は{法律|ほうりつ}（　）{処理|しょり}します。",
+      "options": [
+        "に{即|そく}して",
+        "に{先駆|さきが}けて",
+        "にひきかえ",
+        "に{則|のっと}って"
+      ],
+      "answer": 3,
+      "explanation": "In accordance with rules: **に則って**.",
+      "notes": [
+        "に即して is for facts and situations, not laws.",
+        "に先駆けて = 'ahead of'.",
+        "にひきかえ = 'in contrast to'.",
+        ""
+      ],
+      "translation": "This matter will be dealt with in accordance with the law."
+    },
+    {
+      "point": "niterashite",
+      "prompt": "{規則|きそく}（　）{判断|はんだん}すると、この{行為|こうい}は{違反|いはん}だ。",
+      "options": [
+        "に{照|て}らして",
+        "に{照|て}れて",
+        "に{至|いた}って",
+        "に{晴|は}らして"
+      ],
+      "answer": 0,
+      "explanation": "In light of: **に照らして**.",
+      "notes": [
+        "",
+        "照れる = 'be embarrassed'.",
+        "に至って = 'when it came to'.",
+        "晴らす = 'clear (doubts)'."
+      ],
+      "translation": "Judged by the rules, this act is a violation."
+    },
+    {
+      "point": "niterashite",
+      "prompt": "What does 「{過去|かこ}の{例|れい}に{照|て}らして{考|かんが}えると、{成功|せいこう}は{難|むずか}しい。」 mean?",
+      "options": [
+        "We should forget the past to succeed.",
+        "Judging by past cases, success will be difficult.",
+        "Past examples shine a light on success.",
+        "Success was difficult in the past."
+      ],
+      "answer": 1,
+      "explanation": "に照らして = **in light of**.",
+      "notes": [
+        "No.",
+        "",
+        "照らして = compare against.",
+        "It's about the future."
+      ],
+      "translation": ""
+    }
+  ]
+}

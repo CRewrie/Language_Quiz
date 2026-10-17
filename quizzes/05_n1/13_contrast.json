@@ -1,0 +1,261 @@
+{
+  "id": "n1-contrast",
+  "category": "JLPT N1",
+  "title": "Which One? N1 Look-alikes",
+  "description": "Contrast practice: そばから / なり, をものともせず / をよそに, にたえる / に足りない, を機に / を皮切りに, といえども / たところで.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "instant",
+      "title": "そばから vs なり",
+      "summary": "そばから = again and again, as fast as A, B undoes it. なり = one time: as soon as A, the same person did B.",
+      "body": "- 干す**そばから**雨が降ってくる (every time).\n- 受話器を置く**なり**泣き崩れた (once).",
+      "examples": [
+        [
+          "{受話器|じゅわき}を{置|お}くなり、{彼女|かのじょ}は{泣|な}き{崩|くず}れた。",
+          "As soon as she put the phone down, she broke down in tears."
+        ]
+      ]
+    },
+    {
+      "id": "defiance",
+      "title": "をものともせず vs をよそに",
+      "summary": "をものともせず = undaunted by a hardship or obstacle (praise). をよそに = ignoring other people's worries or objections.",
+      "body": "- けが**をものともせず**走り抜いた.\n- 家族の心配**をよそに**山に登った.",
+      "examples": [
+        [
+          "{家族|かぞく}の{心配|しんぱい}をよそに、{彼|かれ}は{冬山|ふゆやま}に{登|のぼ}った。",
+          "Ignoring his family's worries, he climbed the mountain in winter."
+        ]
+      ]
+    },
+    {
+      "id": "worth",
+      "title": "にたえる vs に足りない",
+      "summary": "鑑賞にたえる = good enough to be appreciated. 取るに足りない = too trivial to bother with.",
+      "body": "- 鑑賞**にたえる**水準.\n- 取る**に足りない**問題.",
+      "examples": [
+        [
+          "{取|と}るに{足|た}りない{問題|もんだい}だ。",
+          "It's a trivial problem."
+        ]
+      ]
+    },
+    {
+      "id": "start",
+      "title": "を機に vs を皮切りに",
+      "summary": "を機に = a turning point that prompts a change. を皮切りに = the first of a series.",
+      "body": "- 結婚**を機に**仕事を辞めた.\n- 大阪**を皮切りに**全国に店を広げた.",
+      "examples": [
+        [
+          "{大阪|おおさか}を{皮切|かわき}りに、{全国|ぜんこく}に{店|みせ}を{広|ひろ}げた。",
+          "Starting in Osaka, they opened shops all over the country."
+        ]
+      ]
+    },
+    {
+      "id": "concede",
+      "title": "といえども vs たところで",
+      "summary": "Noun + といえども = even (someone you'd expect better from). た-form + ところで = even if you do it, it's pointless.",
+      "body": "- 名医**といえども**治せない.\n- 頼んだ**ところで**聞いてくれない.",
+      "examples": [
+        [
+          "いくら{頼|たの}んだところで、{彼|かれ}は{聞|き}いてくれないだろう。",
+          "However much you ask, he won't listen."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "instant",
+      "prompt": "いつも{洗濯物|せんたくもの}を{干|ほ}す（　）、{雨|あめ}が{降|ふ}ってくる。",
+      "options": [
+        "が{最後|さいご}",
+        "とみるや",
+        "そばから",
+        "なり"
+      ],
+      "answer": 2,
+      "explanation": "Again and again: **そばから**.",
+      "notes": [
+        "が最後 = 'once …, no going back'.",
+        "とみるや = 'on judging that' — a one-off reaction.",
+        "",
+        "なり is for a one-off event by the same person."
+      ],
+      "translation": "Every time I hang the washing out, it starts raining."
+    },
+    {
+      "point": "instant",
+      "prompt": "{受話器|じゅわき}を{置|お}く（　）、{彼女|かのじょ}は{泣|な}き{崩|くず}れた。",
+      "options": [
+        "なり",
+        "ばかりに",
+        "そばから",
+        "がてら"
+      ],
+      "answer": 0,
+      "explanation": "As soon as (once): **なり**.",
+      "notes": [
+        "",
+        "ばかりに = 'just because'.",
+        "そばから is for repeated cycles.",
+        "がてら = 'while also'."
+      ],
+      "translation": "As soon as she put the phone down, she broke down in tears."
+    },
+    {
+      "point": "defiance",
+      "prompt": "{足|あし}のけが（　）、{彼|かれ}は{決勝|けっしょう}に{出場|しゅつじょう}した。",
+      "options": [
+        "をいいことに",
+        "をものともせず",
+        "をおいて",
+        "をよそに"
+      ],
+      "answer": 1,
+      "explanation": "Undaunted by a hardship: **をものともせず**.",
+      "notes": [
+        "をいいことに = 'taking (bad) advantage of'.",
+        "",
+        "をおいて = 'apart from'.",
+        "をよそに is for other people's worries, not your own injury."
+      ],
+      "translation": "Despite his injured leg, he competed in the final."
+    },
+    {
+      "point": "defiance",
+      "prompt": "{家族|かぞく}の{心配|しんぱい}（　）、{彼|かれ}は{冬山|ふゆやま}に{登|のぼ}った。",
+      "options": [
+        "をおいて",
+        "をものともせず",
+        "をよそに",
+        "をいいことに"
+      ],
+      "answer": 2,
+      "explanation": "Ignoring others' worries: **をよそに**.",
+      "notes": [
+        "をおいて = 'apart from'.",
+        "をものともせず is for hardships and dangers — here it's the family's worry.",
+        "",
+        "をいいことに = 'taking advantage of'."
+      ],
+      "translation": "Ignoring his family's worries, he climbed the mountain in winter."
+    },
+    {
+      "point": "worth",
+      "prompt": "{彼|かれ}の{作品|さくひん}は、プロの{鑑賞|かんしょう}（　）{水準|すいじゅん}に{達|たっ}している。",
+      "options": [
+        "を{禁|きん}じ{得|え}ない",
+        "にたえる",
+        "にあたらない",
+        "には{及|およ}ばない"
+      ],
+      "answer": 1,
+      "explanation": "Good enough for: **にたえる**.",
+      "notes": [
+        "を禁じ得ない is for emotions.",
+        "",
+        "にあたらない = 'no need to'.",
+        "には及ばない = 'no need / not a match'."
+      ],
+      "translation": "His work has reached a level worth a professional's appreciation."
+    },
+    {
+      "point": "worth",
+      "prompt": "{取|と}る（　）{問題|もんだい}だから、{気|き}にしなくていい。",
+      "options": [
+        "に{難|かた}くない",
+        "に{値|あたい}する",
+        "にたえる",
+        "に{足|た}りない"
+      ],
+      "answer": 3,
+      "explanation": "Trivial: **取るに足りない**.",
+      "notes": [
+        "に難くない = 'easy to (imagine)'.",
+        "取るに値する isn't the idiom.",
+        "取るにたえる isn't the idiom.",
+        ""
+      ],
+      "translation": "It's a trivial problem — no need to worry about it."
+    },
+    {
+      "point": "start",
+      "prompt": "{結婚|けっこん}（　）、{彼女|かのじょ}は{仕事|しごと}を{辞|や}めた。",
+      "options": [
+        "を{限|かぎ}りに",
+        "を{皮切|かわき}りに",
+        "を{機|き}に",
+        "を{経|へ}て"
+      ],
+      "answer": 2,
+      "explanation": "Turning point: **を機に**.",
+      "notes": [
+        "を限りに takes a time noun (今日を限りに).",
+        "を皮切りに = the first of a series.",
+        "",
+        "を経て = 'via / after going through'."
+      ],
+      "translation": "She quit her job when she got married."
+    },
+    {
+      "point": "start",
+      "prompt": "{大阪|おおさか}（　）、{全国|ぜんこく}に{店|みせ}を{広|ひろ}げた。",
+      "options": [
+        "を{機|き}に",
+        "を{限|かぎ}りに",
+        "をよそに",
+        "を{皮切|かわき}りに"
+      ],
+      "answer": 3,
+      "explanation": "First of a series: **を皮切りに**.",
+      "notes": [
+        "を機に = a turning point that prompts a change, not the first of many.",
+        "を限りに = 'as of (the end)'.",
+        "をよそに = 'ignoring'.",
+        ""
+      ],
+      "translation": "Starting in Osaka, they opened shops all over the country."
+    },
+    {
+      "point": "concede",
+      "prompt": "{名医|めいい}（　）、この{病気|びょうき}は{治|なお}せない。",
+      "options": [
+        "といえども",
+        "とあれば",
+        "たところで",
+        "とあって"
+      ],
+      "answer": 0,
+      "explanation": "Even (an expert): **といえども**.",
+      "notes": [
+        "",
+        "とあれば = 'if it's for'.",
+        "たところで follows a verb (た-form).",
+        "とあって = 'because (special situation)'."
+      ],
+      "translation": "Even a great doctor can't cure this illness."
+    },
+    {
+      "point": "concede",
+      "prompt": "いくら{頼|たの}んだ（　）、{彼|かれ}は{聞|き}いてくれないだろう。",
+      "options": [
+        "といえども",
+        "ところで",
+        "とあって",
+        "とあれば"
+      ],
+      "answer": 1,
+      "explanation": "Even if (pointless): **たところで**.",
+      "notes": [
+        "といえども follows a noun.",
+        "",
+        "とあって = 'because (special situation)'.",
+        "とあれば = 'if it's for'."
+      ],
+      "translation": "However much you ask, he won't listen."
+    }
+  ]
+}

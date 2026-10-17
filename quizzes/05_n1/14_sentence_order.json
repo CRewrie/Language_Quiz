@@ -1,0 +1,175 @@
+{
+  "id": "n1-sentence-order",
+  "category": "JLPT N1",
+  "title": "★ Sentence Building N1 (並べ替え)",
+  "description": "JLPT-style ordering with N1 grammar: put the four pieces in order and choose the one in the ★ slot.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "narabekae-n1",
+      "title": "Solving N1 ★ questions",
+      "summary": "Anchor the N1 pattern first (が早いか, を顧みず, なくして, からというもの …), check what it attaches to, then fill in the rest.",
+      "body": "- **What comes before the pattern?** た-form + が最後, noun + を顧みず, dictionary form + が早いか, て-form + からというもの.\n- **What follows the last blank?** It must connect to the given ending (出られない, 助けた, 降り出した …).\n- Particles stay with their nouns (危険を, 森に).",
+      "examples": [
+        [
+          "この{森|もり}に{入|はい}ったが{最後|さいご}、{二度|にど}と{出|で}られない。",
+          "Once you enter this forest, you can never get out."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "narabekae-n1",
+      "prompt": "ベルが　＿＿　　＿＿　　★　　＿＿　{飛|と}び{出|だ}した。\n（{教室|きょうしつ}を・{鳴|な}る・{生徒|せいと}たちは・が{早|はや}いか）",
+      "options": [
+        "{生徒|せいと}たちは",
+        "が{早|はや}いか",
+        "{鳴|な}る",
+        "{教室|きょうしつ}を"
+      ],
+      "answer": 0,
+      "explanation": "ベルが **鳴る が早いか 生徒たちは 教室を** 飛び出した。",
+      "notes": [
+        "",
+        "が早いか follows 鳴る — slot 2.",
+        "鳴る follows ベルが — slot 1.",
+        "教室を goes right before 飛び出した — slot 4."
+      ],
+      "translation": "No sooner had the bell rung than the students dashed out of the classroom."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{彼|かれ}は　＿＿　　＿＿　　★　　＿＿　{助|たす}けた。\n（{子供|こども}を・{危険|きけん}を・{顧|かえり}みず・{自分|じぶん}の）",
+      "options": [
+        "{危険|きけん}を",
+        "{子供|こども}を",
+        "{自分|じぶん}の",
+        "{顧|かえり}みず"
+      ],
+      "answer": 3,
+      "explanation": "彼は **自分の 危険を 顧みず 子供を** 助けた。",
+      "notes": [
+        "危険を is the object of 顧みず — slot 2.",
+        "子供を is the object of 助けた — slot 4.",
+        "自分の modifies 危険 — slot 1.",
+        ""
+      ],
+      "translation": "With no thought for his own safety, he saved the child."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{努力|どりょく}　＿＿　　＿＿　　★　　＿＿　。\n（{得|え}ない・あり・{成功|せいこう}は・なくして）",
+      "options": [
+        "{成功|せいこう}は",
+        "{得|え}ない",
+        "あり",
+        "なくして"
+      ],
+      "answer": 2,
+      "explanation": "努力 **なくして 成功は あり 得ない**。",
+      "notes": [
+        "成功は is the topic — slot 2.",
+        "得ない completes あり得ない — slot 4.",
+        "",
+        "なくして follows 努力 — slot 1."
+      ],
+      "translation": "There's no success without effort."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{子供|こども}が　＿＿　　＿＿　　★　　＿＿　{一変|いっぺん}した。\n（{生活|せいかつ}は・からというもの・{私|わたし}たちの・{生|う}まれて）",
+      "options": [
+        "からというもの",
+        "{生|う}まれて",
+        "{生活|せいかつ}は",
+        "{私|わたし}たちの"
+      ],
+      "answer": 3,
+      "explanation": "子供が **生まれて からというもの 私たちの 生活は** 一変した。",
+      "notes": [
+        "からというもの follows the て-form — slot 2.",
+        "生まれて follows 子供が — slot 1.",
+        "生活は is the subject of 一変した — slot 4.",
+        ""
+      ],
+      "translation": "Ever since our child was born, our life has changed completely."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{彼|かれ}の　＿＿　　＿＿　　★　　＿＿　。\n（{値|あたい}する・に・{勇気|ゆうき}は・{称賛|しょうさん}）",
+      "options": [
+        "{称賛|しょうさん}",
+        "に",
+        "{値|あたい}する",
+        "{勇気|ゆうき}は"
+      ],
+      "answer": 1,
+      "explanation": "彼の **勇気は 称賛 に 値する**。",
+      "notes": [
+        "称賛 comes before に — slot 2.",
+        "",
+        "値する ends the sentence — slot 4.",
+        "勇気は follows 彼の — slot 1."
+      ],
+      "translation": "His courage deserves praise."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "いくら　＿＿　　＿＿　　★　　＿＿　{間|ま}に{合|あ}わない。\n（もう・ところで・{今|いま}から・{急|いそ}いだ）",
+      "options": [
+        "ところで",
+        "もう",
+        "{急|いそ}いだ",
+        "{今|いま}から"
+      ],
+      "answer": 0,
+      "explanation": "いくら **今から 急いだ ところで もう** 間に合わない。",
+      "notes": [
+        "",
+        "もう goes with 間に合わない — slot 4.",
+        "急いだ comes before ところで — slot 2.",
+        "今から comes first — slot 1."
+      ],
+      "translation": "However much we hurry now, we won't make it."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "　＿＿　　＿＿　　★　　＿＿　{雨|あめ}が{降|ふ}り{出|だ}した。\n（{急|きゅう}に・と・{晴|は}れる・{思|おも}いきや）",
+      "options": [
+        "と",
+        "{思|おも}いきや",
+        "{急|きゅう}に",
+        "{晴|は}れる"
+      ],
+      "answer": 1,
+      "explanation": "**晴れる と 思いきや 急に** 雨が降り出した。",
+      "notes": [
+        "と follows 晴れる — slot 2.",
+        "",
+        "急に goes with 降り出した — slot 4.",
+        "晴れる comes first — slot 1."
+      ],
+      "translation": "I thought it would clear up, but suddenly it started to rain."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "この　＿＿　　＿＿　　★　　＿＿　{出|で}られない。\n（{二度|にど}と・が{最後|さいご}・{入|はい}った・{森|もり}に）",
+      "options": [
+        "が{最後|さいご}",
+        "{入|はい}った",
+        "{森|もり}に",
+        "{二度|にど}と"
+      ],
+      "answer": 0,
+      "explanation": "この **森に 入った が最後 二度と** 出られない。",
+      "notes": [
+        "",
+        "入った comes before が最後 — slot 2.",
+        "森に follows この — slot 1.",
+        "二度と goes with 出られない — slot 4."
+      ],
+      "translation": "Once you enter this forest, you can never get out."
+    }
+  ]
+}

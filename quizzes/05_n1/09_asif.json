@@ -1,0 +1,361 @@
+{
+  "id": "n1-asif",
+  "category": "JLPT N1",
+  "title": "As If & Seeming: んばかり, とばかりに, ごとく / ごとき, めく, じみた, ぶる, ながらに",
+  "description": "As if about to, as if to say, like (literary), showing signs of, smacking of, acting as if, and as one is (from birth / in tears).",
+  "level": "N1",
+  "points": [
+    {
+      "id": "nbakari",
+      "title": "〜んばかりに / んばかりの: as if about to",
+      "summary": "ない-stem + んばかり = so much that it seems A is about to happen (泣き出さんばかり, 割れんばかりの拍手).",
+      "body": "- 彼女は泣き出さ**んばかりの**顔をしていた.",
+      "examples": [
+        [
+          "{会場|かいじょう}は{割|わ}れんばかりの{拍手|はくしゅ}に{包|つつ}まれた。",
+          "The hall was filled with thunderous applause."
+        ]
+      ]
+    },
+    {
+      "id": "tobakarini",
+      "title": "「…」とばかりに: as if to say",
+      "summary": "Quote + とばかりに = acting as if saying it (without actually saying it).",
+      "body": "- 「早くしろ」**とばかりに**、彼は時計を指さした.",
+      "examples": [
+        [
+          "{待|ま}ってましたとばかりに、{彼|かれ}は{話|はな}し{始|はじ}めた。",
+          "As if he'd been waiting for this, he started talking."
+        ]
+      ]
+    },
+    {
+      "id": "gotoku",
+      "title": "〜ごとく / ごとき / ごとし: like (literary)",
+      "summary": "かの / の + ごとく (adverb), ごとき + noun, ごとし (end). 私ごとき = humble 'the likes of me'.",
+      "body": "- 何もなかったかの**ごとく**振る舞った.\n- 私**ごとき**者には無理です.",
+      "examples": [
+        [
+          "{彼|かれ}は{何|なに}もなかったかのごとく{振|ふ}る{舞|ま}った。",
+          "He acted as if nothing had happened."
+        ]
+      ]
+    },
+    {
+      "id": "meku",
+      "title": "〜めく / めいた: show signs of",
+      "summary": "Noun + めく = take on the air of (春めく). めいた + noun: 皮肉めいた言い方.",
+      "body": "- 日ざしも春**めいて**きた.",
+      "examples": [
+        [
+          "{皮肉|ひにく}めいた{言|い}い{方|かた}をする。",
+          "He has a sarcastic way of putting things."
+        ]
+      ]
+    },
+    {
+      "id": "jimita",
+      "title": "〜じみた: smacking of (negative)",
+      "summary": "Noun + じみた = has the (unwelcome) quality of: 子供じみた, 年寄りじみた.",
+      "body": "- 大人なのに子供**じみた**ことを言うな.",
+      "examples": [
+        [
+          "{大人|おとな}なのに{子供|こども}じみたことを{言|い}うな。",
+          "You're an adult — stop saying such childish things."
+        ]
+      ]
+    },
+    {
+      "id": "buru",
+      "title": "〜ぶる: act as if, put on airs",
+      "summary": "Adjective stem / noun + ぶる = pretend to be (上品ぶる, 偉ぶる, 知ったかぶり).",
+      "body": "- 彼女はいつも上品**ぶって**いる.",
+      "examples": [
+        [
+          "{彼|かれ}はすぐ{偉|えら}ぶる。",
+          "He's quick to act self-important."
+        ]
+      ]
+    },
+    {
+      "id": "nagarani",
+      "title": "〜ながらに / ながらの: as (it is)",
+      "summary": "Fixed phrases: 生まれながらに (from birth), 涙ながらに (in tears), 昔ながらの (as of old).",
+      "body": "- 生まれ**ながらに**才能に恵まれていた.\n- 涙**ながらに**語った.",
+      "examples": [
+        [
+          "{彼女|かのじょ}は{涙|なみだ}ながらに{事情|じじょう}を{語|かた}った。",
+          "She told the story in tears."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nbakari",
+      "prompt": "{彼女|かのじょ}は{今|いま}にも{泣|な}き{出|だ}さ（　）{顔|かお}をしていた。",
+      "options": [
+        "んばかりに",
+        "んばかりの",
+        "ばかりの",
+        "んがための"
+      ],
+      "answer": 1,
+      "explanation": "As if about to (+ noun): **んばかりの**.",
+      "notes": [
+        "んばかりに can't modify a noun.",
+        "",
+        "泣き出さばかり isn't a form.",
+        "んがための = 'for the purpose of'."
+      ],
+      "translation": "She looked as though she might burst into tears at any moment."
+    },
+    {
+      "point": "nbakari",
+      "prompt": "{彼|かれ}は「{帰|かえ}れ」と{言|い}わ（　）、ドアを{開|あ}けた。",
+      "options": [
+        "ばかりに",
+        "んがために",
+        "んばかりに",
+        "んばかりの"
+      ],
+      "answer": 2,
+      "explanation": "**んばかりに** (adverbial).",
+      "notes": [
+        "言わばかりに isn't a form.",
+        "んがために = 'in order to'.",
+        "",
+        "んばかりの needs a noun after it."
+      ],
+      "translation": "He opened the door as if to say 'get out'."
+    },
+    {
+      "point": "tobakarini",
+      "prompt": "「{早|はや}くしろ」（　）、{彼|かれ}は{時計|とけい}を{指|ゆび}さした。",
+      "options": [
+        "ことなく",
+        "とばかりに",
+        "ものとして",
+        "ばかりに"
+      ],
+      "answer": 1,
+      "explanation": "As if to say: **とばかりに**.",
+      "notes": [
+        "ことなく = 'without'.",
+        "",
+        "ものとして = 'assuming'.",
+        "ばかりに = 'just because (bad result)'."
+      ],
+      "translation": "He pointed at his watch as if to say 'hurry up'."
+    },
+    {
+      "point": "tobakarini",
+      "prompt": "What does 「{待|ま}ってましたとばかりに、{彼|かれ}は{話|はな}し{始|はじ}めた。」 mean?",
+      "options": [
+        "As if he'd been waiting for this, he started talking.",
+        "He said he'd been waiting, then started talking.",
+        "He only started talking after waiting.",
+        "He waited instead of talking."
+      ],
+      "answer": 0,
+      "explanation": "とばかりに = **as if to say**.",
+      "notes": [
+        "",
+        "とばかりに = as if (he didn't actually say it).",
+        "No.",
+        "He did talk."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "gotoku",
+      "prompt": "{彼|かれ}は{何|なに}もなかったかの（　）{振|ふ}る{舞|ま}った。",
+      "options": [
+        "ごとに",
+        "ごとく",
+        "ごとき",
+        "ごとし"
+      ],
+      "answer": 1,
+      "explanation": "Adverbial: **かのごとく**.",
+      "notes": [
+        "ごとに = 'every'.",
+        "",
+        "ごとき modifies a noun.",
+        "ごとし ends a sentence."
+      ],
+      "translation": "He acted as if nothing had happened."
+    },
+    {
+      "point": "gotoku",
+      "prompt": "{私|わたし}（　）{者|もの}には、とてもできません。",
+      "options": [
+        "ごとく",
+        "ごとに",
+        "ごとし",
+        "ごとき"
+      ],
+      "answer": 3,
+      "explanation": "Humble 'the likes of me': **ごとき**.",
+      "notes": [
+        "ごとく can't modify a noun.",
+        "ごとに = 'every'.",
+        "ごとし ends a sentence.",
+        ""
+      ],
+      "translation": "Someone like me could never do it."
+    },
+    {
+      "point": "meku",
+      "prompt": "{日|ひ}ざしもだんだん{春|はる}（　）きた。",
+      "options": [
+        "めきて",
+        "めかして",
+        "めいて",
+        "めって"
+      ],
+      "answer": 2,
+      "explanation": "Showing signs of: **春めいてきた**.",
+      "notes": [
+        "Not a form.",
+        "めかす = 'dress up'.",
+        "",
+        "Not a form."
+      ],
+      "translation": "The sunshine is gradually starting to feel like spring."
+    },
+    {
+      "point": "meku",
+      "prompt": "{彼|かれ}はいつも{皮肉|ひにく}（　）{言|い}い{方|かた}をする。",
+      "options": [
+        "めいた",
+        "めいて",
+        "めかした",
+        "めたい"
+      ],
+      "answer": 0,
+      "explanation": "Before a noun: **めいた**.",
+      "notes": [
+        "",
+        "めいて can't modify a noun.",
+        "めかした = 'dressed up'.",
+        "Not a form."
+      ],
+      "translation": "He always has a sarcastic way of putting things."
+    },
+    {
+      "point": "jimita",
+      "prompt": "{大人|おとな}なのに{子供|こども}（　）ことを{言|い}うな。",
+      "options": [
+        "まみれの",
+        "じみた",
+        "ずくめの",
+        "じまいの"
+      ],
+      "answer": 1,
+      "explanation": "Smacking of: **じみた**.",
+      "notes": [
+        "まみれ = 'covered in'.",
+        "",
+        "ずくめ = 'nothing but'.",
+        "じまい = 'ended up not doing'."
+      ],
+      "translation": "You're an adult — stop saying such childish things."
+    },
+    {
+      "point": "jimita",
+      "prompt": "What does 「{年寄|としよ}りじみた{服|ふく}」 mean?",
+      "options": [
+        "clothes that make you look like an old person",
+        "clothes for elderly people",
+        "clothes an old person gave you",
+        "old, worn-out clothes"
+      ],
+      "answer": 0,
+      "explanation": "じみた = **smacks of**.",
+      "notes": [
+        "",
+        "じみた is a (negative) impression, not a target group.",
+        "No.",
+        "じみた isn't about wear."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "buru",
+      "prompt": "{彼女|かのじょ}はいつも{上品|じょうひん}（　）いるが、{本当|ほんとう}は{口|くち}が{悪|わる}い。",
+      "options": [
+        "ぶりに",
+        "ぶって",
+        "ぶりで",
+        "ぶれて"
+      ],
+      "answer": 1,
+      "explanation": "Acting as if: **ぶって**.",
+      "notes": [
+        "ぶりに = 'for the first time in'.",
+        "",
+        "ぶりで isn't the verb form.",
+        "ぶれる = 'blur / waver'."
+      ],
+      "translation": "She always acts refined, but actually she has a foul mouth."
+    },
+    {
+      "point": "buru",
+      "prompt": "What does 「{彼|かれ}はすぐ{偉|えら}ぶる。」 mean?",
+      "options": [
+        "He's quick to act self-important.",
+        "He quickly became important.",
+        "He quickly praises others.",
+        "He's truly great."
+      ],
+      "answer": 0,
+      "explanation": "ぶる = **put on airs**.",
+      "notes": [
+        "",
+        "ぶる = pretend.",
+        "Not about others.",
+        "ぶる = only an act."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nagarani",
+      "prompt": "{彼|かれ}は{生|う}まれ（　）{才能|さいのう}に{恵|めぐ}まれていた。",
+      "options": [
+        "なりに",
+        "ばかりに",
+        "ながらに",
+        "ながらも"
+      ],
+      "answer": 2,
+      "explanation": "From birth: **生まれながらに**.",
+      "notes": [
+        "なりに = 'in one's own way'.",
+        "ばかりに = 'just because'.",
+        "",
+        "ながらも = 'although'."
+      ],
+      "translation": "He was gifted with talent from birth."
+    },
+    {
+      "point": "nagarani",
+      "prompt": "{彼女|かのじょ}は{涙|なみだ}（　）{事情|じじょう}を{語|かた}った。",
+      "options": [
+        "ずくめに",
+        "ながらに",
+        "まみれに",
+        "ながらも"
+      ],
+      "answer": 1,
+      "explanation": "In tears: **涙ながらに**.",
+      "notes": [
+        "ずくめ = 'nothing but'.",
+        "",
+        "まみれ = 'covered in (dirt / blood)'.",
+        "涙ながらも isn't the phrase."
+      ],
+      "translation": "She told the story in tears."
+    }
+  ]
+}

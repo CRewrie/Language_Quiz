@@ -1,0 +1,361 @@
+{
+  "id": "n1-rhetoric",
+  "category": "JLPT N1",
+  "title": "Rhetoric & Strong Feelings: でなくてなんだろう, ではあるまいか, ないものか, ないとも限らない, ないものでもない, にもほどがある, といったらない",
+  "description": "If not X, what?; isn't it perhaps; can't something be done?; it might happen; not impossible; there's a limit; and indescribably.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "denakute",
+      "title": "〜でなくてなんだろう: if this isn't X, what is?",
+      "summary": "Noun + でなくてなんだろう = this is X, without doubt (literary emphasis).",
+      "body": "- これが愛**でなくてなんだろう**.",
+      "examples": [
+        [
+          "これが{奇跡|きせき}でなくてなんだろう。",
+          "If this isn't a miracle, what is?"
+        ]
+      ]
+    },
+    {
+      "id": "dehaarumaika",
+      "title": "〜(の)ではあるまいか: isn't it perhaps …?",
+      "summary": "Plain form + のではあるまいか = I suspect that … (formal ではないだろうか).",
+      "body": "- 彼は何か隠しているのでは**あるまいか**.",
+      "examples": [
+        [
+          "それは{間違|まちが}いではあるまいか。",
+          "Isn't that perhaps a mistake?"
+        ]
+      ]
+    },
+    {
+      "id": "naimonoka",
+      "title": "〜ないものか / ないものだろうか: can't … somehow?",
+      "summary": "ない-form + ものか = I wish it could be done somehow.",
+      "body": "- なんとか彼を助ける方法は**ないものか**.",
+      "examples": [
+        [
+          "もう{少|すこ}し{安|やす}くならないものか。",
+          "Can't it get a bit cheaper somehow?"
+        ]
+      ]
+    },
+    {
+      "id": "naitomo",
+      "title": "〜ないとも限らない: it might (just) happen",
+      "summary": "ない-form + とも限らない = you can't rule out that A happens.",
+      "body": "- 事故が起き**ないとも限らない**から、気をつけて.",
+      "examples": [
+        [
+          "{彼|かれ}が{来|こ}ないとも{限|かぎ}らない。",
+          "It's possible he won't come."
+        ]
+      ]
+    },
+    {
+      "id": "naimonodemo",
+      "title": "〜ないものでもない: it's not impossible to",
+      "summary": "ない-form + ものでもない = I could (under certain conditions).",
+      "body": "- 条件によっては、引き受け**ないものでもない**.",
+      "examples": [
+        [
+          "{急|いそ}げば{間|ま}に{合|あ}わないものでもない。",
+          "If we hurry, we might just make it."
+        ]
+      ]
+    },
+    {
+      "id": "nimohodo",
+      "title": "〜にもほどがある: there's a limit to",
+      "summary": "Noun / dictionary form + にもほどがある = this goes too far.",
+      "body": "- 冗談**にもほどがある**.",
+      "examples": [
+        [
+          "{人|ひと}をばかにするにもほどがある。",
+          "That's taking mockery way too far."
+        ]
+      ]
+    },
+    {
+      "id": "toittaranai",
+      "title": "〜といったらない: indescribably",
+      "summary": "Noun / adjective + といったら(ありゃし)ない = so … it can't be put into words.",
+      "body": "- 店員の態度の悪さ**といったらない**.",
+      "examples": [
+        [
+          "{初|はじ}めて{富士山|ふじさん}に{登|のぼ}った{時|とき}の{感動|かんどう}といったらなかった。",
+          "The thrill of climbing Mt Fuji for the first time was beyond words."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "denakute",
+      "prompt": "これが{愛|あい}（　）なんだろう。",
+      "options": [
+        "でありながら",
+        "であって",
+        "であるから",
+        "でなくて"
+      ],
+      "answer": 3,
+      "explanation": "If not X, what is?: **でなくてなんだろう**.",
+      "notes": [
+        "でありながら = 'although'.",
+        "であって = 'and (it is)'.",
+        "であるから = 'because'.",
+        ""
+      ],
+      "translation": "If this isn't love, what is?"
+    },
+    {
+      "point": "denakute",
+      "prompt": "What does 「これが{奇跡|きせき}でなくてなんだろう。」 mean?",
+      "options": [
+        "This isn't a miracle.",
+        "What kind of miracle is this?",
+        "If this isn't a miracle, what is?",
+        "This might not be a miracle."
+      ],
+      "answer": 2,
+      "explanation": "でなくてなんだろう = **it truly is**.",
+      "notes": [
+        "It strongly affirms it.",
+        "Not a real question.",
+        "",
+        "No doubt is expressed."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "dehaarumaika",
+      "prompt": "{彼|かれ}は{何|なに}か{隠|かく}しているのでは（　）。",
+      "options": [
+        "あるまいと",
+        "あるまいか",
+        "あるまいし",
+        "あらまいか"
+      ],
+      "answer": 1,
+      "explanation": "I suspect: **ではあるまいか**.",
+      "notes": [
+        "Not the form.",
+        "",
+        "あるまいし = 'it's not as if'.",
+        "Not a form."
+      ],
+      "translation": "Isn't he perhaps hiding something?"
+    },
+    {
+      "point": "dehaarumaika",
+      "prompt": "What does 「それは{間違|まちが}いではあるまいか。」 mean?",
+      "options": [
+        "It's not as if it's a mistake.",
+        "Was that a mistake? I'm asking.",
+        "That's certainly not a mistake.",
+        "Isn't that perhaps a mistake? (I suspect it is.)"
+      ],
+      "answer": 3,
+      "explanation": "ではあるまいか = **I suspect that**.",
+      "notes": [
+        "That's ではあるまいし.",
+        "It's not a neutral question.",
+        "The speaker suspects it IS.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "naimonoka",
+      "prompt": "なんとか{彼|かれ}を{助|たす}ける{方法|ほうほう}は（　）。",
+      "options": [
+        "ないものの",
+        "ないものか",
+        "ないことか",
+        "ないものだ"
+      ],
+      "answer": 1,
+      "explanation": "Can't something be done?: **ないものか**.",
+      "notes": [
+        "ないものの = 'although there isn't'.",
+        "",
+        "Not a pattern.",
+        "ないものだ = 'there's no such thing (general)'."
+      ],
+      "translation": "Isn't there some way to help him?"
+    },
+    {
+      "point": "naimonoka",
+      "prompt": "What does 「もう{少|すこ}し{安|やす}くならないものか。」 mean?",
+      "options": [
+        "Don't make it cheaper.",
+        "It's a little cheaper, isn't it?",
+        "It won't get any cheaper.",
+        "Can't it get a bit cheaper somehow?"
+      ],
+      "answer": 3,
+      "explanation": "ないものか = **I wish it could**.",
+      "notes": [
+        "The opposite.",
+        "No.",
+        "It's a wish, not a statement.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "naitomo",
+      "prompt": "{事故|じこ}が{起|お}き（　）から、{気|き}をつけて。",
+      "options": [
+        "ないわけがない",
+        "ないとも{限|かぎ}らない",
+        "ないに{限|かぎ}る",
+        "ないに{決|き}まっている"
+      ],
+      "answer": 1,
+      "explanation": "Might happen: **ないとも限らない**.",
+      "notes": [
+        "ないわけがない = 'it's certain to' — too strong.",
+        "",
+        "ないに限る = 'it's best not to'.",
+        "ないに決まっている = 'certainly won't' — then why be careful?"
+      ],
+      "translation": "Accidents can happen, so be careful."
+    },
+    {
+      "point": "naitomo",
+      "prompt": "What does 「{彼|かれ}が{来|こ}ないとも{限|かぎ}らない。」 mean?",
+      "options": [
+        "He'll definitely come.",
+        "He definitely won't come.",
+        "He doesn't come only.",
+        "It's possible he won't come."
+      ],
+      "answer": 3,
+      "explanation": "ないとも限らない = **can't rule out**.",
+      "notes": [
+        "No.",
+        "Not certain.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "naimonodemo",
+      "prompt": "{条件|じょうけん}によっては、{引|ひ}き{受|う}け（　）。",
+      "options": [
+        "ないではおかない",
+        "ないものでもない",
+        "ないではすまない",
+        "ないものか"
+      ],
+      "answer": 1,
+      "explanation": "Not impossible: **ないものでもない**.",
+      "notes": [
+        "ないではおかない = 'will definitely'.",
+        "",
+        "ないではすまない = 'have to'.",
+        "ないものか = 'I wish'."
+      ],
+      "translation": "Depending on the conditions, I might take it on."
+    },
+    {
+      "point": "naimonodemo",
+      "prompt": "What does 「{急|いそ}げば{間|ま}に{合|あ}わないものでもない。」 mean?",
+      "options": [
+        "If we hurry, we might just make it.",
+        "Even if we hurry, we won't make it.",
+        "If we hurry, we'll definitely make it.",
+        "We shouldn't hurry."
+      ],
+      "answer": 0,
+      "explanation": "ないものでもない = **not impossible**.",
+      "notes": [
+        "",
+        "It's a possibility.",
+        "Not certain.",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nimohodo",
+      "prompt": "そんなひどいことを{言|い}うなんて、{冗談|じょうだん}（　）。",
+      "options": [
+        "にほどがない",
+        "にもほどがある",
+        "にもほどだ",
+        "もほどがない"
+      ],
+      "answer": 1,
+      "explanation": "There's a limit: **にもほどがある**.",
+      "notes": [
+        "Not the phrase.",
+        "",
+        "Not the phrase.",
+        "Not the phrase."
+      ],
+      "translation": "Saying something that awful — that's no joke anymore."
+    },
+    {
+      "point": "nimohodo",
+      "prompt": "What does 「{人|ひと}をばかにするにもほどがある。」 mean?",
+      "options": [
+        "There's a degree of foolishness in everyone.",
+        "It's fine to tease people a bit.",
+        "That's taking mockery way too far.",
+        "Don't be fooled by people."
+      ],
+      "answer": 2,
+      "explanation": "にもほどがある = **that's too much**.",
+      "notes": [
+        "No.",
+        "It's a protest.",
+        "",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "toittaranai",
+      "prompt": "{初|はじ}めて{富士山|ふじさん}の{頂上|ちょうじょう}に{立|た}った{時|とき}の{感動|かんどう}（　）。",
+      "options": [
+        "というものだ",
+        "といったらなかった",
+        "といったところだ",
+        "といっても"
+      ],
+      "answer": 1,
+      "explanation": "Indescribably: **といったらない**.",
+      "notes": [
+        "というものだ = 'that's what … is'.",
+        "",
+        "といったところだ = 'about (that much), roughly'.",
+        "といっても = 'although'."
+      ],
+      "translation": "The thrill of standing on the top of Mt Fuji for the first time was beyond words."
+    },
+    {
+      "point": "toittaranai",
+      "prompt": "What does 「あの{店員|てんいん}の{態度|たいど}の{悪|わる}さといったらない。」 mean?",
+      "options": [
+        "His attitude wasn't that bad.",
+        "If you mention his bad attitude, he'll deny it.",
+        "That shop assistant's attitude was unbelievably bad.",
+        "The shop assistant didn't say anything bad."
+      ],
+      "answer": 2,
+      "explanation": "といったらない = **unbelievably**.",
+      "notes": [
+        "The opposite.",
+        "No.",
+        "",
+        "といったらない = beyond words."
+      ],
+      "translation": ""
+    }
+  ]
+}
