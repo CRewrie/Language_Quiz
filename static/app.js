@@ -438,7 +438,7 @@ const KINDS = [
   ["typed", "⌨️", "Type the form"],
 ];
 function quizKind(q) {
-  if (/^verbs-/.test(q.id)) return "typed";
+  if (q.category === "Verb Lab") return "typed";
   if (/contrast/.test(q.id)) return "contrast";
   if (/sentence-order|word-order|hsk-order/.test(q.id)) return "order";
   if (/bunsho|hsk/.test(q.id)) return "reading";
