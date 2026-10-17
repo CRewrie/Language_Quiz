@@ -343,64 +343,152 @@ function groupByCategory(quizzes) {
   return groups;
 }
 
+// Quiz kinds, recognised from the id, so the quiz files don't need an extra field.
+const KINDS = [
+  ["grammar", "📚", "Grammar topics"],
+  ["contrast", "⚖️", "Which one? (contrast)"],
+  ["order", "★", "Sentence building"],
+  ["reading", "📖", "Reading & exam practice"],
+];
+function quizKind(q) {
+  if (/contrast/.test(q.id)) return "contrast";
+  if (/sentence-order|word-order|hsk-order/.test(q.id)) return "order";
+  if (/bunsho|hsk/.test(q.id)) return "reading";
+  return "grammar";
+}
+
+const plainText = t => String(t || "").replace(/\{([^|{}]+)\|[^{}]+\}/g, "$1").replace(/\*\*/g, "");
+const levelLabel = category => /mix/i.test(category) ? "Mix" : (category.match(/\b([NABC][1-5])\b/) || [])[1] || category;
+// "Particles: が, に, で" → "Particles", "Which One? A/B, …" → "Which One?"; the points are listed separately.
+const shortTitle = title => {
+  const m = title.match(/^(.+?)(: |\? )/);
+  return m ? m[1] + (m[2] === "? " ? "?" : "") : title;
+};
+
+function quizStatus(q, best, saved) {
+  if (saved && (saved.key === `quiz:${q.id}` || saved.key === `retry|quiz:${q.id}`)) return "progress";
+  if (best[q.id] == null) return "new";
+  return best[q.id] >= 80 ? "done" : "weak";
+}
+const STATUS_LABEL = { new: "Not started", progress: "In progress", weak: "Below 80% — worth repeating", done: "80% or more" };
+
 function bestBadge(best, id) {
-  return best[id] != null ? `<span class="best">Best ${best[id]}%</span>` : "";
+  return best[id] != null ? `<span class="best">${best[id]}%</span>` : "";
 }
 
-function cardsHtml(list, best, category) {
-  const total = list.reduce((n, q) => n + q.count, 0);
-  return `<div class="grid">${list.map(q => `
-    <a class="quiz-card" href="#/quiz/${encodeURIComponent(q.id)}">
-      <h3>${render(q.title)}</h3>
-      <p>${render(q.description)}</p>
-      <div class="meta">
-        <span class="pill">${escapeHtml(q.level)}</span>
-        <span>${q.count} questions${q.points.length ? ` · ${q.points.length} points` : ""}</span>
-        ${bestBadge(best, q.id)}
-      </div>
-    </a>`).join("")}
-    <a class="quiz-card mix-card" href="#/mix/${encodeURIComponent(category)}">
-      <h3>Random mix 🎲</h3>
-      <p>20 random questions from all ${total} in this section.</p>
-      <div class="meta"><span>20 questions</span></div>
-    </a>
-  </div>`;
+function pointsLine(q) {
+  return q.points.length ? q.points.map(p => render(shortTitle(p))).join(" · ") : render(q.description);
 }
 
-function listHtml(list, best, category) {
-  return `<div class="list">${list.map((q, i) => `
+function quizItemHtml(q, best, saved, view, showLevel = false) {
+  const st = quizStatus(q, best, saved);
+  const href = `#/quiz/${encodeURIComponent(q.id)}`;
+  const level = showLevel ? `<span class="pill">${escapeHtml(levelLabel(q.category))}</span>` : "";
+  if (view === "list") {
+    return `
     <div class="list-row">
-      <span class="list-num">${i + 1}</span>
+      <span class="dot ${st}" title="${STATUS_LABEL[st]}"></span>
       <div class="list-main">
-        <a class="list-title" href="#/quiz/${encodeURIComponent(q.id)}">${render(q.title)}</a>
-        <div class="list-points">${q.points.length ? q.points.map(p => `<span class="chip">${render(p)}</span>`).join("") : `<span class="muted">${render(q.description)}</span>`}</div>
+        <a class="list-title" href="${href}">${level}${render(shortTitle(q.title))}</a>
+        <div class="list-points">${pointsLine(q)}</div>
       </div>
       <div class="list-side">
         <span class="muted">${q.count} Q</span>
         ${bestBadge(best, q.id)}
-        <a class="btn small" href="#/quiz/${encodeURIComponent(q.id)}/start">Start</a>
+        <a class="btn small" href="${href}/start">Start</a>
       </div>
-    </div>`).join("")}
-    <div class="list-row mix-row">
-      <span class="list-num">🎲</span>
-      <div class="list-main"><a class="list-title" href="#/mix/${encodeURIComponent(category)}">Random mix</a>
-        <div class="list-points"><span class="muted">20 random questions from this section</span></div></div>
-      <div class="list-side"><a class="btn small" href="#/mix/${encodeURIComponent(category)}">Start</a></div>
+    </div>`;
+  }
+  return `
+    <a class="quiz-card" href="${href}">
+      <div class="qc-head"><span class="dot ${st}" title="${STATUS_LABEL[st]}"></span><h3>${level}${render(shortTitle(q.title))}</h3></div>
+      <p>${pointsLine(q)}</p>
+      <div class="meta"><span>${q.count} questions</span>${bestBadge(best, q.id)}</div>
+    </a>`;
+}
+
+function itemsHtml(list, best, saved, view, showLevel) {
+  const inner = list.map(q => quizItemHtml(q, best, saved, view, showLevel)).join("");
+  return view === "list" ? `<div class="list">${inner}</div>` : `<div class="grid">${inner}</div>`;
+}
+
+function levelStats(list, best) {
+  const done = list.filter(q => (best[q.id] ?? -1) >= 80).length;
+  const started = list.filter(q => best[q.id] != null).length;
+  return { done, started, total: list.length, pct: list.length ? Math.round((done / list.length) * 100) : 0 };
+}
+
+const FILTERS = { all: "All", open: "Open", weak: "Below 70%" };
+function passesFilter(q, best, filter) {
+  if (filter === "open") return (best[q.id] ?? -1) < 80;
+  if (filter === "weak") return best[q.id] != null && best[q.id] < 70;
+  return true;
+}
+
+function levelBodyHtml(category, list, best, saved, view, filter) {
+  const stats = levelStats(list, best);
+  const total = list.reduce((n, q) => n + q.count, 0);
+  const shown = list.filter(q => passesFilter(q, best, filter));
+  const collapsed = store.get("collapsed", {});
+  const groups = KINDS.map(([kind, icon, label]) => {
+    const items = shown.filter(q => quizKind(q) === kind);
+    if (!items.length) return "";
+    return `
+      <details class="qgroup" data-kind="${kind}"${collapsed[kind] ? "" : " open"}>
+        <summary><span>${icon} ${label}</span><span class="muted">${items.length}</span></summary>
+        ${itemsHtml(items, best, saved, view)}
+      </details>`;
+  }).join("");
+  return `
+    <div class="level-head">
+      <div>
+        <h2>${escapeHtml(category)}</h2>
+        <div class="muted">${stats.done} of ${stats.total} quizzes at 80%+ · ${stats.started} started</div>
+        <div class="bar"><span style="width:${stats.pct}%"></span></div>
+      </div>
+      <div class="segmented mini filters" role="group" aria-label="Filter">
+        ${Object.entries(FILTERS).map(([k, v]) => `<button data-filter="${k}" class="${k === filter ? "active" : ""}">${v}</button>`).join("")}
+      </div>
     </div>
-  </div>`;
+    <a class="mix-banner" href="#/mix/${encodeURIComponent(category)}">
+      <span>🎲 <strong>Random mix</strong> — 20 questions from all ${total} in ${escapeHtml(levelLabel(category))}</span>
+      <span class="btn small">Start</span>
+    </a>
+    ${groups || `<p class="muted empty">Nothing here with this filter — well done, or try “All”.</p>`}`;
+}
+
+function searchHtml(query, quizzes, best, saved, view) {
+  const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+  const hits = quizzes.filter(q => {
+    const hay = plainText([q.title, q.description, ...q.points].join(" ")).toLowerCase();
+    return words.every(w => hay.includes(w));
+  });
+  if (!hits.length) return `<p class="muted empty">No quiz matches “${escapeHtml(query)}”.</p>`;
+  return `<div class="level-head"><div><h2>Search</h2><div class="muted">${hits.length} quiz${hits.length === 1 ? "" : "zes"} for “${escapeHtml(query)}”</div></div></div>
+    ${itemsHtml(hits, best, saved, view, true)}`;
 }
 
 async function showHome() {
   session = null;
+  document.body.classList.add("home");
   const quizzes = (await api("/api/quizzes")).filter(q => (q.language || "ja") === lang);
   const best = store.get("best", {});
   const view = store.get("view", "cards");
-  const sections = [...groupByCategory(quizzes)].map(([category, list]) => `
-    <section>
-      <h2 class="section-title">${escapeHtml(category)}</h2>
-      ${view === "list" ? listHtml(list, best, category) : cardsHtml(list, best, category)}
-    </section>`).join("");
+  const filter = FILTERS[store.get("filter", "all")] ? store.get("filter", "all") : "all";
   const saved = loadProgress();
+  const groups = [...groupByCategory(quizzes)];
+  let level = store.get(`level:${lang}`, null);
+  if (!groups.some(([c]) => c === level)) level = groups[0]?.[0];
+
+  const levelNav = groups.map(([category, list]) => {
+    const st = levelStats(list, best);
+    return `<button class="level${category === level ? " active" : ""}" data-level="${escapeHtml(category)}">
+      <span class="lv">${escapeHtml(levelLabel(category))}</span>
+      <span class="lv-count">${st.done}/${st.total}</span>
+      <span class="bar"><span style="width:${st.pct}%"></span></span>
+    </button>`;
+  }).join("");
+
   const resume = saved ? `
     <div class="resume-banner">
       <div><strong>Continue where you left off</strong><span class="muted">${render(saved.title)} · ${progressLabel(saved)}</span></div>
@@ -409,26 +497,58 @@ async function showHome() {
         <button class="btn small secondary" id="discard">Discard</button>
       </div>
     </div>` : "";
+
   app.innerHTML = `
     ${resume}
     <div class="home-head">
       <div>
         <h1>Choose a quiz</h1>
-        <p class="sub">Open a quiz to read its grammar guide first, or jump straight in. Wrong answers come with an explanation.</p>
+        <p class="sub">Pick a level, open a quiz to read its guide, or jump straight in.</p>
       </div>
       <div class="home-controls">
-      <div class="segmented" role="group" aria-label="Language">
-        ${Object.entries(LANGS).map(([k, v]) => `<button data-lang="${k}" class="${k === lang ? "active" : ""}">${v.label}</button>`).join("")}
-      </div>
-      <div class="segmented" role="group" aria-label="View">
-        <button data-view="cards" class="${view === "cards" ? "active" : ""}">Cards</button>
-        <button data-view="list" class="${view === "list" ? "active" : ""}">List</button>
-      </div>
+        <div class="segmented" role="group" aria-label="Language">
+          ${Object.entries(LANGS).map(([k, v]) => `<button data-lang="${k}" class="${k === lang ? "active" : ""}">${v.label}</button>`).join("")}
+        </div>
+        <div class="segmented" role="group" aria-label="View">
+          <button data-view="cards" class="${view === "cards" ? "active" : ""}">Cards</button>
+          <button data-view="list" class="${view === "list" ? "active" : ""}">List</button>
+        </div>
       </div>
     </div>
-    ${sections}`;
+    <div class="home-layout">
+      <nav class="levels" aria-label="Levels">${levelNav}</nav>
+      <div class="level-main">
+        <div class="search"><input id="search" type="search" placeholder="Search grammar — e.g. ${lang === "zh" ? "把, 了, even" : "ものの, ように, even if"}" autocomplete="off"></div>
+        <div id="level-body"></div>
+      </div>
+    </div>`;
+
+  const body = document.getElementById("level-body");
+  const levelList = new Map(groups);
+  const renderBody = () => {
+    const query = document.getElementById("search").value.trim();
+    body.innerHTML = query ? searchHtml(query, quizzes, best, saved, view)
+      : levelBodyHtml(level, levelList.get(level) || [], best, saved, view, filter);
+    body.querySelectorAll("[data-filter]").forEach(b => b.addEventListener("click", () => {
+      store.set("filter", b.dataset.filter);
+      showHome();
+    }));
+    body.querySelectorAll("details.qgroup").forEach(d => d.addEventListener("toggle", () => {
+      const collapsed = store.get("collapsed", {});
+      collapsed[d.dataset.kind] = !d.open;
+      store.set("collapsed", collapsed);
+    }));
+  };
+  renderBody();
+  document.getElementById("search").addEventListener("input", renderBody);
+
   const discard = document.getElementById("discard");
   if (discard) discard.addEventListener("click", () => { clearProgress(); showHome(); });
+  app.querySelectorAll("[data-level]").forEach(b => b.addEventListener("click", () => {
+    store.set(`level:${lang}`, b.dataset.level);
+    showHome();
+  }));
+  app.querySelector(".level.active")?.scrollIntoView({ block: "nearest", inline: "center" });
   app.querySelectorAll("[data-view]").forEach(b => b.addEventListener("click", () => {
     store.set("view", b.dataset.view);
     showHome();
@@ -692,6 +812,7 @@ function restart(key) {
 
 async function route() {
   const hash = location.hash;
+  document.body.classList.remove("home");
   let m;
   try {
     if ((m = hash.match(/^#\/quiz\/([^/]+)\/start$/))) await startQuiz(decodeURIComponent(m[1]));
