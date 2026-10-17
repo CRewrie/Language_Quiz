@@ -1,0 +1,266 @@
+{
+  "id": "verbs-te",
+  "category": "Verb Lab",
+  "title": "て-Form: Directions, Recipes & Requests",
+  "description": "Sequences, requests, ongoing actions, permission and prohibition — the て-form at work.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "te",
+      "title": "て-form",
+      "summary": "て-form: The connector for sequences, requests, permissions and ongoing actions.",
+      "body": "- る-verbs: 食べ**て**.\n- う・つ・る → **って** (買って, 待って, 帰って)\n- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n- **行く → 行って** (exception)\n- Then: てください (please), ている (-ing / state), てもいい (may), てはいけない (must not).",
+      "examples": [
+        [
+          "{次|つぎ}の{角|かど}を{右|みぎ}に曲がって、まっすぐ{行|い}ってください。",
+          "Turn right at the next corner and go straight on."
+        ]
+      ]
+    },
+    {
+      "id": "tekudasai",
+      "title": "Please do … (てください)",
+      "summary": "て-form: The connector for sequences, requests, permissions and ongoing actions.",
+      "body": "- る-verbs: 食べ**て**.\n- う・つ・る → **って** (買って, 待って, 帰って)\n- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n- **行く → 行って** (exception)\n- Then: てください (please), ている (-ing / state), てもいい (may), てはいけない (must not).",
+      "examples": [
+        [
+          "すみません、もう{少|すこ}しゆっくり話してください。",
+          "Excuse me, could you speak a little more slowly, please?"
+        ]
+      ]
+    },
+    {
+      "id": "teimasu",
+      "title": "て-form + います",
+      "summary": "て-form: The connector for sequences, requests, permissions and ongoing actions.",
+      "body": "- る-verbs: 食べ**て**.\n- う・つ・る → **って** (買って, 待って, 帰って)\n- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n- **行く → 行って** (exception)\n- Then: てください (please), ている (-ing / state), てもいい (may), てはいけない (must not).",
+      "examples": [
+        [
+          "{今|いま}、{駅|えき}の{前|まえ}で{友達|ともだち}を待っています。",
+          "I'm waiting for a friend in front of the station right now."
+        ]
+      ]
+    },
+    {
+      "id": "temoii",
+      "title": "May … (てもいい)",
+      "summary": "て-form: The connector for sequences, requests, permissions and ongoing actions.",
+      "body": "- る-verbs: 食べ**て**.\n- う・つ・る → **って** (買って, 待って, 帰って)\n- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n- **行く → 行って** (exception)\n- Then: てください (please), ている (-ing / state), てもいい (may), てはいけない (must not).",
+      "examples": [
+        [
+          "ここで{写真|しゃしん}を撮ってもいいですか。",
+          "May I take photos here?"
+        ]
+      ]
+    },
+    {
+      "id": "tewaikenai",
+      "title": "Must not … (てはいけない)",
+      "summary": "て-form: The connector for sequences, requests, permissions and ongoing actions.",
+      "body": "- る-verbs: 食べ**て**.\n- う・つ・る → **って** (買って, 待って, 帰って)\n- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n- **行く → 行って** (exception)\n- Then: てください (please), ている (-ing / state), てもいい (may), てはいけない (must not).",
+      "examples": [
+        [
+          "{美術館|びじゅつかん}の{中|なか}では、{写真|しゃしん}を撮ってはいけない。",
+          "You mustn't take photos inside the museum."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "te",
+      "prompt": "{次|つぎ}の{角|かど}を{右|みぎ}に（　）、まっすぐ{行|い}ってください。\n→ {曲|ま}がる · て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "曲がって",
+        "まがって"
+      ],
+      "hint": "ま…",
+      "explanation": "{曲|ま}がる is an う-verb (godan): う・つ・る → って → **曲がって**.",
+      "notes": [],
+      "translation": "Turn right at the next corner and go straight on."
+    },
+    {
+      "point": "te",
+      "prompt": "{野菜|やさい}を（　）、{鍋|なべ}に{入|い}れます。\n→ {切|き}る · て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "切って",
+        "きって"
+      ],
+      "hint": "き…",
+      "explanation": "{切|き}る is an う-verb (godan): う・つ・る → って (切る looks like a る-verb but is an う-verb) → **切って**.",
+      "notes": [],
+      "translation": "Cut the vegetables and put them in the pot."
+    },
+    {
+      "point": "te",
+      "prompt": "{卵|たまご}を（　）、よく{混|ま}ぜてください。\n→ {割|わ}る · て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "割って",
+        "わって"
+      ],
+      "hint": "わ…",
+      "explanation": "{割|わ}る is an う-verb (godan): う・つ・る → って → **割って**.",
+      "notes": [],
+      "translation": "Crack the eggs and mix them well."
+    },
+    {
+      "point": "tekudasai",
+      "prompt": "すみません、もう{少|すこ}しゆっくり（　）。\n→ {話|はな}す · please do … (てください)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "話してください",
+        "はなしてください"
+      ],
+      "hint": "は…",
+      "explanation": "{話|はな}す is an う-verb (godan): す → して + ください → **話してください**.",
+      "notes": [],
+      "translation": "Excuse me, could you speak a little more slowly, please?"
+    },
+    {
+      "point": "tekudasai",
+      "prompt": "ここに{名前|なまえ}を（　）。\n→ {書|か}く · please do … (てください)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書いてください",
+        "かいてください"
+      ],
+      "hint": "か…",
+      "explanation": "{書|か}く is an う-verb (godan): く → いて + ください → **書いてください**.",
+      "notes": [],
+      "translation": "Please write your name here."
+    },
+    {
+      "point": "tekudasai",
+      "prompt": "ちょっと（　）。すぐ{戻|もど}ります。\n→ {待|ま}つ · please do … (てください)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "待ってください",
+        "まってください"
+      ],
+      "hint": "ま…",
+      "explanation": "{待|ま}つ is an う-verb (godan): う・つ・る → って + ください → **待ってください**.",
+      "notes": [],
+      "translation": "Please wait a moment — I'll be right back."
+    },
+    {
+      "point": "teimasu",
+      "prompt": "{今|いま}、{駅|えき}の{前|まえ}で{友達|ともだち}を（　）。\n→ {待|ま}つ · て-form + います",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "待っています",
+        "まっています"
+      ],
+      "hint": "ま…",
+      "explanation": "{待|ま}つ is an う-verb (godan): う・つ・る → って + います → **待っています**.",
+      "notes": [],
+      "translation": "I'm waiting for a friend in front of the station right now."
+    },
+    {
+      "point": "teimasu",
+      "prompt": "{姉|あね}は{東京|とうきょう}の{銀行|ぎんこう}で（　）。\n→ {働|はたら}く · て-form + います",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "働いています",
+        "はたらいています"
+      ],
+      "hint": "は…",
+      "explanation": "{働|はたら}く is an う-verb (godan): く → いて + います → **働いています**.",
+      "notes": [],
+      "translation": "My older sister works at a bank in Tokyo."
+    },
+    {
+      "point": "temoii",
+      "prompt": "ここで{写真|しゃしん}を（　）ですか。\n→ {撮|と}る · may … (てもいい)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "撮ってもいい",
+        "とってもいい"
+      ],
+      "hint": "と…",
+      "explanation": "{撮|と}る is an う-verb (godan): う・つ・る → って + もいい → **撮ってもいい**.",
+      "notes": [],
+      "translation": "May I take photos here?"
+    },
+    {
+      "point": "temoii",
+      "prompt": "{疲|つか}れたら、{少|すこ}し（　）よ。\n→ {休|やす}む · may … (てもいい)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "休んでもいい",
+        "やすんでもいい"
+      ],
+      "hint": "や…",
+      "explanation": "{休|やす}む is an う-verb (godan): ぬ・ぶ・む → んで + もいい → **休んでもいい**.",
+      "notes": [],
+      "translation": "If you're tired, you can take a short break."
+    },
+    {
+      "point": "tewaikenai",
+      "prompt": "{美術館|びじゅつかん}の{中|なか}では、{写真|しゃしん}を（　）。\n→ {撮|と}る · must not … (てはいけない)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "撮ってはいけない",
+        "とってはいけない"
+      ],
+      "hint": "と…",
+      "explanation": "{撮|と}る is an う-verb (godan): う・つ・る → って + はいけない → **撮ってはいけない**.",
+      "notes": [],
+      "translation": "You mustn't take photos inside the museum."
+    },
+    {
+      "point": "tewaikenai",
+      "prompt": "このボタンは{絶対|ぜったい}に（　）。\n→ {押|お}す · must not … (てはいけない)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "押してはいけない",
+        "おしてはいけない"
+      ],
+      "hint": "お…",
+      "explanation": "{押|お}す is an う-verb (godan): す → して + はいけない → **押してはいけない**.",
+      "notes": [],
+      "translation": "You must never press this button."
+    },
+    {
+      "point": "tekudasai",
+      "prompt": "{駅|えき}に{着|つ}いたら、{電話|でんわ}を（　）。\n→ する · please do … (てください)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "してください"
+      ],
+      "hint": "し…",
+      "explanation": "する is irregular (する): する → し + ending → **してください**.",
+      "notes": [],
+      "translation": "Please call me when you get to the station."
+    },
+    {
+      "point": "teimasu",
+      "prompt": "{子供|こども}たちは{公園|こうえん}で（　）。\n→ {遊|あそ}ぶ · て-form + います",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "遊んでいます",
+        "あそんでいます"
+      ],
+      "hint": "あ…",
+      "explanation": "{遊|あそ}ぶ is an う-verb (godan): ぬ・ぶ・む → んで + います → **遊んでいます**.",
+      "notes": [],
+      "translation": "The children are playing in the park."
+    }
+  ]
+}

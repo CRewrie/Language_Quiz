@@ -1,0 +1,259 @@
+{
+  "id": "verbs-voice",
+  "category": "Verb Lab",
+  "title": "Passive & Causative: Stories from School and Work",
+  "description": "Things that happened to you, things you made others do, and things you were made to do.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "passive_ta",
+      "title": "Passive, past",
+      "summary": "Passive & causative: Something is done to you (passive), you make / let someone do it (causative), and you're made to do it (causative-passive).",
+      "body": "- **Passive**: る-verbs + られる; う-verbs → あ-row + れる (踏まれる); する → される.\n- **Causative**: る-verbs + させる; う-verbs → あ-row + せる (書かせる); する → させる.\n- **Causative-passive**: る-verbs + させられる; う-verbs → あ-row + される (飲まされる; せられる also works; す-verbs only せられる); する → させられる.",
+      "examples": [
+        [
+          "{電車|でんしゃ}の{中|なか}で{足|あし}を踏まれた。",
+          "Someone stepped on my foot on the train."
+        ]
+      ]
+    },
+    {
+      "id": "passive_teiru",
+      "title": "Passive + ている",
+      "summary": "Passive & causative: Something is done to you (passive), you make / let someone do it (causative), and you're made to do it (causative-passive).",
+      "body": "- **Passive**: る-verbs + られる; う-verbs → あ-row + れる (踏まれる); する → される.\n- **Causative**: る-verbs + させる; う-verbs → あ-row + せる (書かせる); する → させる.\n- **Causative-passive**: る-verbs + させられる; う-verbs → あ-row + される (飲まされる; せられる also works; す-verbs only せられる); する → させられる.",
+      "examples": [
+        [
+          "この{本|ほん}は{世界中|せかいじゅう}で読まれている。",
+          "This book is read all over the world."
+        ]
+      ]
+    },
+    {
+      "id": "causative_ta",
+      "title": "Causative (make / let), past",
+      "summary": "Passive & causative: Something is done to you (passive), you make / let someone do it (causative), and you're made to do it (causative-passive).",
+      "body": "- **Passive**: る-verbs + られる; う-verbs → あ-row + れる (踏まれる); する → される.\n- **Causative**: る-verbs + させる; う-verbs → あ-row + せる (書かせる); する → させる.\n- **Causative-passive**: る-verbs + させられる; う-verbs → あ-row + される (飲まされる; せられる also works; す-verbs only せられる); する → させられる.",
+      "examples": [
+        [
+          "{母|はは}は{弟|おとうと}に{部屋|へや}を掃除させた。",
+          "Mum made my little brother clean his room."
+        ]
+      ]
+    },
+    {
+      "id": "caus_pass_ta",
+      "title": "Causative-passive (was made to), past",
+      "summary": "Passive & causative: Something is done to you (passive), you make / let someone do it (causative), and you're made to do it (causative-passive).",
+      "body": "- **Passive**: る-verbs + られる; う-verbs → あ-row + れる (踏まれる); する → される.\n- **Causative**: る-verbs + させる; う-verbs → あ-row + せる (書かせる); する → させる.\n- **Causative-passive**: る-verbs + させられる; う-verbs → あ-row + される (飲まされる; せられる also works; す-verbs only せられる); する → させられる.",
+      "examples": [
+        [
+          "{子供|こども}のころ、{毎日|まいにち}ピアノを練習させられた。",
+          "As a child I was made to practise the piano every day."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "passive_ta",
+      "prompt": "{電車|でんしゃ}の{中|なか}で{足|あし}を（　）。\n→ {踏|ふ}む · passive, past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "踏まれた",
+        "ふまれた"
+      ],
+      "hint": "ふ…",
+      "explanation": "Passive: {踏|ふ}む is an う-verb (godan): む → ま (あ-row) + れる → **踏まれた**.",
+      "notes": [],
+      "translation": "Someone stepped on my foot on the train."
+    },
+    {
+      "point": "passive_ta",
+      "prompt": "{遅刻|ちこく}して、{先生|せんせい}に（　）。\n→ {叱|しか}る · passive, past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "叱られた",
+        "しかられた"
+      ],
+      "hint": "し…",
+      "explanation": "Passive: {叱|しか}る is an う-verb (godan): る → ら (あ-row) + れる → **叱られた**.",
+      "notes": [],
+      "translation": "I was late and got told off by the teacher."
+    },
+    {
+      "point": "passive_ta",
+      "prompt": "{駅|えき}で{財布|さいふ}を（　）。\n→ {盗|ぬす}む · passive, past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "盗まれた",
+        "ぬすまれた"
+      ],
+      "hint": "ぬ…",
+      "explanation": "Passive: {盗|ぬす}む is an う-verb (godan): む → ま (あ-row) + れる → **盗まれた**.",
+      "notes": [],
+      "translation": "My wallet was stolen at the station."
+    },
+    {
+      "point": "passive_ta",
+      "prompt": "このお{寺|てら}は800{年前|ねんまえ}に（　）。\n→ {建|た}てる · passive, past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "建てられた",
+        "たてられた"
+      ],
+      "hint": "た…",
+      "explanation": "Passive: {建|た}てる is a る-verb (ichidan): drop る + られる → **建てられた**.",
+      "notes": [],
+      "translation": "This temple was built 800 years ago."
+    },
+    {
+      "point": "passive_teiru",
+      "prompt": "この{本|ほん}は{世界中|せかいじゅう}で（　）。\n→ {読|よ}む · passive + ている",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "読まれている",
+        "よまれている"
+      ],
+      "hint": "よ…",
+      "explanation": "Passive: {読|よ}む is an う-verb (godan): む → ま (あ-row) + れる → **読まれている**.",
+      "notes": [],
+      "translation": "This book is read all over the world."
+    },
+    {
+      "point": "passive_teiru",
+      "prompt": "この{歌|うた}は{今|いま}も{多|おお}くの{人|ひと}に（　）。\n→ {歌|うた}う · passive + ている",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "歌われている",
+        "うたわれている"
+      ],
+      "hint": "う…",
+      "explanation": "Passive: {歌|うた}う is an う-verb (godan): う → わ (あ-row) + れる → **歌われている**.",
+      "notes": [],
+      "translation": "This song is still sung by many people."
+    },
+    {
+      "point": "causative_ta",
+      "prompt": "{母|はは}は{弟|おとうと}に{部屋|へや}を（　）。\n→ {掃除|そうじ}する · causative (make / let), past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "掃除させた",
+        "そうじさせた"
+      ],
+      "hint": "そ…",
+      "explanation": "{掃除|そうじ}する is irregular (する): する → させた → **掃除させた**.",
+      "notes": [],
+      "translation": "Mum made my little brother clean his room."
+    },
+    {
+      "point": "causative_ta",
+      "prompt": "{先生|せんせい}は{学生|がくせい}に{作文|さくぶん}を（　）。\n→ {書|か}く · causative (make / let), past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書かせた",
+        "かかせた"
+      ],
+      "hint": "か…",
+      "explanation": "Causative: {書|か}く is an う-verb (godan): く → か (あ-row) + せる, past → **書かせた**.",
+      "notes": [],
+      "translation": "The teacher had the students write an essay."
+    },
+    {
+      "point": "causative_ta",
+      "prompt": "{誕生日|たんじょうび}は、{子供|こども}に{好|す}きなものを（　）。\n→ {食|た}べる · causative (make / let), past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べさせた",
+        "たべさせた"
+      ],
+      "hint": "た…",
+      "explanation": "Causative: {食|た}べる is a る-verb (ichidan): drop る + させる, past → **食べさせた**.",
+      "notes": [],
+      "translation": "On their birthday, we let the kids eat whatever they liked."
+    },
+    {
+      "point": "causative_ta",
+      "prompt": "{部長|ぶちょう}は{私|わたし}を{一時間|いちじかん}も（　）。\n→ {待|ま}つ · causative (make / let), past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "待たせた",
+        "またせた"
+      ],
+      "hint": "ま…",
+      "explanation": "Causative: {待|ま}つ is an う-verb (godan): つ → た (あ-row) + せる, past → **待たせた**.",
+      "notes": [],
+      "translation": "My manager kept me waiting for a whole hour."
+    },
+    {
+      "point": "caus_pass_ta",
+      "prompt": "{子供|こども}のころ、{毎日|まいにち}ピアノを（　）。\n→ {練習|れんしゅう}する · causative-passive (was made to), past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "練習させられた",
+        "れんしゅうさせられた"
+      ],
+      "hint": "れ…",
+      "explanation": "{練習|れんしゅう}する is irregular (する): する → させられた → **練習させられた**.",
+      "notes": [],
+      "translation": "As a child I was made to practise the piano every day."
+    },
+    {
+      "point": "caus_pass_ta",
+      "prompt": "{飲|の}み{会|かい}で、{先輩|せんぱい}にお{酒|さけ}を（　）。\n→ {飲|の}む · causative-passive (was made to), past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "飲まされた",
+        "のまされた",
+        "飲ませられた",
+        "のませられた"
+      ],
+      "hint": "の…",
+      "explanation": "Causative-passive: {飲|の}む is an う-verb (godan): む → ま (あ-row) + される (short form; せられる also works), past → **飲まされた**.",
+      "notes": [],
+      "translation": "At the party my senior made me drink."
+    },
+    {
+      "point": "caus_pass_ta",
+      "prompt": "{昨日|きのう}、{駅|えき}で{一時間|いちじかん}も（　）。\n→ {待|ま}つ · causative-passive (was made to), past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "待たされた",
+        "またされた",
+        "待たせられた",
+        "またせられた"
+      ],
+      "hint": "ま…",
+      "explanation": "Causative-passive: {待|ま}つ is an う-verb (godan): つ → た (あ-row) + される (short form; せられる also works), past → **待たされた**.",
+      "notes": [],
+      "translation": "Yesterday I was kept waiting at the station for a whole hour."
+    },
+    {
+      "point": "caus_pass_ta",
+      "prompt": "{給食|きゅうしょく}で、{嫌|きら}いな{野菜|やさい}を（　）。\n→ {食|た}べる · causative-passive (was made to), past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べさせられた",
+        "たべさせられた"
+      ],
+      "hint": "た…",
+      "explanation": "Causative-passive: {食|た}べる is a る-verb (ichidan): drop る + させられる, past → **食べさせられた**.",
+      "notes": [],
+      "translation": "At school lunch I was made to eat vegetables I hated."
+    }
+  ]
+}

@@ -74,6 +74,7 @@ const baseKey = key => key.replace(/^retry\|/, "");
 
 function hrefFor(key) {
   const k = baseKey(key);
+  if (k === "review") return "#/review";
   if (k.startsWith("quiz:")) return `#/quiz/${encodeURIComponent(k.slice(5))}/start`;
   const cat = k.slice(4);
   return cat ? `#/mix/${encodeURIComponent(cat)}` : "#/mix";
@@ -115,6 +116,87 @@ async function api(path, body) {
   return res.json();
 }
 
+// ---------- typed answers ----------
+
+// Romaji → hiragana, so typed answers work without a Japanese keyboard (tabemashita → たべました).
+const ROMAJI = (() => {
+  const t = {};
+  const rows = { "": "あいうえお", k: "かきくけこ", s: "さしすせそ", t: "たちつてと", n: "なにぬねの", h: "はひふへほ",
+    m: "まみむめも", y: "や-ゆ-よ", r: "らりるれろ", w: "わ---を", g: "がぎぐげご", z: "ざじずぜぞ", d: "だぢづでど",
+    b: "ばびぶべぼ", p: "ぱぴぷぺぽ" };
+  for (const [c, kana] of Object.entries(rows)) [..."aiueo"].forEach((v, i) => { if (kana[i] !== "-") t[c + v] = kana[i]; });
+  Object.assign(t, { shi: "し", chi: "ち", tsu: "つ", fu: "ふ", ji: "じ", si: "し", ti: "ち", tu: "つ", hu: "ふ", zi: "じ", di: "ぢ", du: "づ",
+    wo: "を", "-": "ー", xtsu: "っ", ltsu: "っ", xa: "ぁ", xi: "ぃ", xu: "ぅ", xe: "ぇ", xo: "ぉ", xya: "ゃ", xyu: "ゅ", xyo: "ょ" });
+  const youon = { ky: "き", sh: "し", ch: "ち", ny: "に", hy: "ひ", my: "み", ry: "り", gy: "ぎ", j: "じ", by: "び", py: "ぴ", dy: "ぢ", cy: "ち", sy: "し", zy: "じ", ty: "ち", jy: "じ" };
+  for (const [c, base] of Object.entries(youon)) { t[c + "a"] = base + "ゃ"; t[c + "u"] = base + "ゅ"; t[c + "o"] = base + "ょ"; }
+  t.she = "しぇ"; t.che = "ちぇ"; t.je = "じぇ";
+  return t;
+})();
+
+function romajiToKana(text) {
+  const s = text.toLowerCase();
+  let out = "", i = 0;
+  while (i < s.length) {
+    const c = s[i], next = s[i + 1];
+    if (!/[a-z'-]/.test(c)) { out += c; i++; continue; }
+    if (c === "n" && next === "'") { out += "ん"; i += 2; continue; }
+    // "nn" before a vowel is ん + な-row (annai → あんない); otherwise "nn" is just ん (konnnichiha).
+    if (c === "n" && next === "n") { out += "ん"; i += /[aiueoy]/.test(s[i + 2] || "") ? 1 : 2; continue; }
+    if (c === "n" && (next === undefined || !/[aiueoy]/.test(next))) { out += "ん"; i++; continue; }
+    if (c === next && /[bcdfghjkmpqrstvwxz]/.test(c)) { out += "っ"; i++; continue; }
+    const len = [4, 3, 2, 1].find(n => ROMAJI[s.slice(i, i + n)]);
+    if (len) { out += ROMAJI[s.slice(i, i + len)]; i += len; } else { out += c; i++; }
+  }
+  return out;
+}
+const hasLatin = text => /[a-z]/i.test(text);
+
+// Same rules as normalize_answer() on the server.
+function normalizeAnswer(text) {
+  return [...String(text)].filter(c => !/\s/.test(c) && !"。、．，.,!?！？「」『』（）()…".includes(c))
+    .map(c => { const cp = c.codePointAt(0); return cp >= 0x30a1 && cp <= 0x30f6 ? String.fromCodePoint(cp - 0x60) : c.toLowerCase(); })
+    .join("");
+}
+
+// ---------- spaced repetition (Leitner boxes) ----------
+// Every first answer moves a question between boxes; a box decides when it is due again.
+
+const DAY = 24 * 60 * 60 * 1000;
+const SRS_DAYS = [0, 1, 3, 7, 14, 30];
+function srsUpdate(q, correct, helped) {
+  const srs = store.get("srs", {});
+  const key = `${q.quiz_id}#${q.index}`;
+  const p = srs[key] || { box: 0 };
+  if (!correct) { p.box = 0; p.due = Date.now(); }
+  else if (helped) { p.due = Date.now() + DAY; }
+  else { p.box = Math.min(p.box + 1, SRS_DAYS.length - 1); p.due = Date.now() + SRS_DAYS[p.box] * DAY; }
+  srs[key] = p;
+  store.set("srs", srs);
+}
+function dueItems(quizIds) {
+  const now = Date.now();
+  return Object.entries(store.get("srs", {}))
+    .filter(([k, p]) => p.due <= now && quizIds.has(k.split("#")[0]))
+    .sort((a, b) => a[1].box - b[1].box || a[1].due - b[1].due)
+    .map(([k]) => ({ quiz_id: k.split("#")[0], index: Number(k.split("#")[1]) }));
+}
+
+async function startReview(fresh = false) {
+  const saved = !fresh && loadProgress("review", "retry|review");
+  if (saved) return resumeSession(saved);
+  const quizzes = (await api("/api/quizzes")).filter(q => (q.language || "ja") === lang);
+  const picked = dueItems(new Set(quizzes.map(q => q.id))).slice(0, 20);
+  if (!picked.length) { location.hash = "#/"; return; }
+  const byQuiz = new Map();
+  for (const it of picked) byQuiz.set(it.quiz_id, [...(byQuiz.get(it.quiz_id) || []), it.index]);
+  const questions = [];
+  for (const [id, indexes] of byQuiz) {
+    const quiz = await api(`/api/quizzes/${encodeURIComponent(id)}`);
+    questions.push(...quiz.questions.filter(q => indexes.includes(q.index)));
+  }
+  startSession({ id: "review", title: "Review: due questions" }, shuffled(questions), "review");
+}
+
 // ---------- static mode (GitHub Pages) ----------
 // The exported site has no server: the same API is answered here from the JSON files
 // under data/ (written by `japanese_quiz export`). Mirrors the server in src/main.rs.
@@ -143,9 +225,10 @@ async function staticQuiz(id, sc) {
 
 function publicQuestions(quiz) {
   return quiz.questions.map((q, index) => ({
-    quiz_id: quiz.id, index, prompt: q.prompt, options: q.options,
+    quiz_id: quiz.id, index, prompt: q.prompt, options: q.options || [],
     ...(q.fixed_order ? { fixed_order: true } : {}),
-    answerText: q.options[q.answer], point: q.point || null,
+    ...(q.accept?.length ? { input: true, ...(q.hint ? { hint: q.hint } : {}) } : {}),
+    answerText: q.accept?.length ? q.accept[0] : q.options[q.answer], point: q.point || null,
   }));
 }
 
@@ -190,10 +273,13 @@ async function staticApi(path, body) {
     const quiz = await staticQuiz(body.quiz_id, body.script);
     const q = quiz.questions[body.index];
     if (!q) throw new Error("question not found");
-    const correct = body.choice === q.answer;
-    const note = !correct && body.choice !== null ? (q.notes?.[body.choice] || null) : null;
+    const typed = q.accept?.length > 0;
+    const given = normalizeAnswer(body.text || "");
+    const correct = typed ? given !== "" && q.accept.some(a => normalizeAnswer(a) === given) : body.choice === q.answer;
+    const note = !typed && !correct && body.choice !== null ? (q.notes?.[body.choice] || null) : null;
     return {
-      correct, answer: q.answer, explanation: q.explanation, note, notes: q.notes || [],
+      correct, answer: q.answer || 0, explanation: q.explanation, note, notes: q.notes || [],
+      ...(typed ? { accepted: q.accept } : {}),
       translation: q.translation || "", point: quiz.points?.find(p => p.id === q.point) || null,
     };
   }
@@ -349,8 +435,10 @@ const KINDS = [
   ["contrast", "⚖️", "Which one? (contrast)"],
   ["order", "★", "Sentence building"],
   ["reading", "📖", "Reading & exam practice"],
+  ["typed", "⌨️", "Type the form"],
 ];
 function quizKind(q) {
+  if (/^verbs-/.test(q.id)) return "typed";
   if (/contrast/.test(q.id)) return "contrast";
   if (/sentence-order|word-order|hsk-order/.test(q.id)) return "order";
   if (/bunsho|hsk/.test(q.id)) return "reading";
@@ -489,6 +577,12 @@ async function showHome() {
     </button>`;
   }).join("");
 
+  const due = dueItems(new Set(quizzes.map(q => q.id))).length;
+  const reviewBanner = due ? `
+    <a class="review-banner" href="#/review">
+      <span>🔁 <strong>Review</strong> — ${due} question${due === 1 ? " is" : "s are"} due again (spaced repetition)</span>
+      <span class="btn small">Start</span>
+    </a>` : "";
   const resume = saved ? `
     <div class="resume-banner">
       <div><strong>Continue where you left off</strong><span class="muted">${render(saved.title)} · ${progressLabel(saved)}</span></div>
@@ -500,6 +594,7 @@ async function showHome() {
 
   app.innerHTML = `
     ${resume}
+    ${reviewBanner}
     <div class="home-head">
       <div>
         <h1>Choose a quiz</h1>
@@ -620,10 +715,50 @@ function resumeSession(saved) {
   }
 }
 
+function typedHtml(q) {
+  return `
+    <div class="typed">
+      <input id="typed" type="text" lang="ja" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false"
+        placeholder="Type the answer — kana, kanji or romaji" aria-label="Your answer">
+      <div class="kana-preview muted" id="preview"></div>
+      <div class="typed-actions">
+        <button class="btn" id="check">Check</button>
+        ${q.hint ? `<button class="btn secondary" id="hint-btn" title="Shows the first kana — the answer then counts as 'with hint'">Hint</button>` : ""}
+        <button class="btn secondary" id="dunno-btn">${LANGS[lang].dunno}</button>
+      </div>
+      <div class="hint-box" id="hint-box" hidden></div>
+    </div>`;
+}
+
+function wireTyped(q) {
+  const input = document.getElementById("typed");
+  const preview = document.getElementById("preview");
+  const submit = () => {
+    const raw = input.value.trim();
+    if (!raw) { input.focus(); return; }
+    answer("typed", hasLatin(raw) ? romajiToKana(raw) : raw);
+  };
+  input.addEventListener("input", () => {
+    preview.textContent = hasLatin(input.value) ? `→ ${romajiToKana(input.value)}` : "";
+  });
+  input.addEventListener("keydown", e => { if (e.key === "Enter" && !e.isComposing) { e.preventDefault(); e.stopPropagation(); submit(); } });
+  document.getElementById("check").addEventListener("click", submit);
+  document.getElementById("dunno-btn").addEventListener("click", () => answer(null));
+  document.getElementById("hint-btn")?.addEventListener("click", () => {
+    session.hinted = true;
+    const box = document.getElementById("hint-box");
+    box.innerHTML = `Starts with <strong>${render(q.hint)}</strong> — this answer will count as 'with hint'.`;
+    box.hidden = false;
+    input.focus();
+  });
+  input.focus({ preventScroll: true });
+}
+
 function showQuestion() {
   const s = session;
   const q = s.questions[s.pos];
   s.answered = false;
+  s.hinted = false;
   const correctSoFar = s.results.filter(r => r.correct).length;
   const options = q.order.map((orig, i) => `
     <button class="option" data-choice="${orig}">
@@ -635,34 +770,38 @@ function showQuestion() {
     <div class="progress"><div style="width:${(s.pos / s.questions.length) * 100}%"></div></div>
     <div class="question">
       <p class="prompt">${render(q.prompt)}</p>
-      <div class="options">
+      ${q.input ? typedHtml(q) : `<div class="options">
         ${options}
         <button class="option dunno" data-choice="none"><span class="key">?</span><span>${LANGS[lang].dunno} (I don't know)</span></button>
-      </div>
+      </div>`}
       <div id="feedback"></div>
     </div>
-    <p class="hint">Keys: A–D or 1–4 to answer (afterwards: show why) · 0 for ${LANGS[lang].dunno} · Enter for next</p>`;
+    <p class="hint">${q.input ? "Enter to check · romaji is converted to kana · Enter again for next"
+      : `Keys: A–D or 1–4 to answer (afterwards: show why) · 0 for ${LANGS[lang].dunno} · Enter for next`}</p>`;
+  if (q.input) wireTyped(q);
   app.querySelectorAll(".option").forEach(btn =>
     btn.addEventListener("click", () => answer(btn.dataset.choice === "none" ? null : Number(btn.dataset.choice))));
   window.scrollTo(0, 0);
 }
 
-async function answer(choice) {
+async function answer(choice, text = null) {
   const s = session;
   if (!s) return;
-  if (s.answered) return inspect(choice);
+  if (s.answered) return choice === "typed" ? undefined : inspect(choice);
   s.answered = true;
   sound.play("click");
   const q = s.questions[s.pos];
   let resp;
   try {
-    resp = await api("/api/check", { quiz_id: q.quiz_id, index: q.index, choice });
+    resp = await api("/api/check", { quiz_id: q.quiz_id, index: q.index, choice: choice === "typed" ? null : choice, text });
   } catch (e) {
     s.answered = false;
     alert("Could not reach the server: " + e.message);
     return;
   }
-  s.results.push({ q, choice, ...resp });
+  const helped = !!s.hinted;
+  s.results.push({ q, choice: choice === "typed" ? "typed" : choice, typed: text, helped, ...resp });
+  srsUpdate(q, resp.correct, helped);
   sound.play(resp.correct ? "correct" : "wrong");
   saveProgress();
   renderAnswer(s.results[s.results.length - 1]);
@@ -671,6 +810,18 @@ async function answer(choice) {
 // Shows the marked options and feedback for an answered question (also used when resuming).
 function renderAnswer(r) {
   const s = session;
+  if (r.q.input) {
+    const input = document.getElementById("typed");
+    if (input) { input.value = r.typed || ""; input.disabled = true; input.classList.add(r.correct ? "correct" : "wrong"); }
+    app.querySelectorAll(".typed-actions button").forEach(b => { b.disabled = true; });
+    const last = s.pos === s.questions.length - 1;
+    document.getElementById("feedback").innerHTML = feedbackHtml(r.q, r.choice, r) + `
+      <div class="actions"><button class="btn" id="next">${last ? "See results" : "Next →"}</button></div>`;
+    const next = document.getElementById("next");
+    next.addEventListener("click", advance);
+    next.focus({ preventScroll: true });
+    return;
+  }
   app.querySelector(".options").classList.add("answered");
   app.querySelectorAll(".option").forEach(btn => {
     const c = btn.dataset.choice === "none" ? null : Number(btn.dataset.choice);
@@ -714,7 +865,23 @@ function inspect(orig) {
   sound.play("click");
 }
 
+function typedFeedbackHtml(q, resp) {
+  const right = resp.accepted || [];
+  const also = right.slice(1).filter(a => normalizeAnswer(a) !== normalizeAnswer(right[0]));
+  let html = resp.correct
+    ? `<div class="feedback good"><h4>${LANGS[lang].correct} Correct${resp.helped ? " (with hint)" : ""}</h4>`
+    : `<div class="feedback bad"><h4>The answer is 「${render(right[0] || "")}」</h4>`;
+  if (!resp.correct && resp.typed) html += `<div class="why-wrong">You wrote 「${escapeHtml(resp.typed)}」.</div>`;
+  if (also.length) html += `<p class="muted">Also accepted: ${also.map(a => `「${render(a)}」`).join(" ")}</p>`;
+  html += `<span class="label">How it's formed</span><p>${render(resp.explanation)}</p>`;
+  if (resp.translation) html += `<p class="translation">“${render(resp.translation)}”</p>`;
+  html += `</div>`;
+  if (resp.point) html += guideHtml(resp.point);
+  return html;
+}
+
 function feedbackHtml(q, choice, resp) {
+  if (q.input) return typedFeedbackHtml(q, resp);
   const correctText = render(q.options[resp.answer]);
   let html;
   if (resp.correct) {
@@ -749,7 +916,7 @@ function showResults() {
   const correct = s.results.filter(r => r.correct).length;
   const pct = Math.round((correct / s.results.length) * 100);
   if (pct >= 70) sound.play("finish");
-  if (s.quizId !== "mix" && s.quizId !== "retry") {
+  if (!["mix", "retry", "review"].includes(s.quizId)) {
     const best = store.get("best", {});
     best[s.quizId] = Math.max(best[s.quizId] || 0, pct);
     store.set("best", best);
@@ -758,8 +925,8 @@ function showResults() {
   const review = mistakes.map(r => `
     <div class="review-item">
       <p class="prompt">${render(r.q.prompt)}</p>
-      <p class="ans yours">✗ Your answer: ${r.choice === null ? LANGS[lang].dunno : render(r.q.options[r.choice])}</p>
-      <p class="ans right">✓ Correct: ${render(r.q.options[r.answer])}</p>
+      <p class="ans yours">✗ Your answer: ${r.choice === null ? LANGS[lang].dunno : r.q.input ? escapeHtml(r.typed || "") : render(r.q.options[r.choice])}</p>
+      <p class="ans right">✓ Correct: ${render(r.q.input ? (r.accepted || [""])[0] : r.q.options[r.answer])}</p>
       ${r.note ? `<div class="why-wrong"><strong>Why yours is wrong:</strong> ${render(r.note)}</div>` : ""}
       <p>${render(r.explanation)}</p>
       ${r.translation ? `<p class="translation">“${render(r.translation)}”</p>` : ""}
@@ -806,7 +973,8 @@ async function startMix(category, fresh = false) {
 
 function restart(key) {
   clearProgress();
-  if (key.startsWith("quiz:")) startQuiz(key.slice(5), true);
+  if (key === "review") startReview(true);
+  else if (key.startsWith("quiz:")) startQuiz(key.slice(5), true);
   else startMix(key.slice(4), true);
 }
 
@@ -818,6 +986,7 @@ async function route() {
     if ((m = hash.match(/^#\/quiz\/([^/]+)\/start$/))) await startQuiz(decodeURIComponent(m[1]));
     else if ((m = hash.match(/^#\/quiz\/([^/]+)$/))) await showIntro(decodeURIComponent(m[1]));
     else if ((m = hash.match(/^#\/mix(?:\/(.+))?$/))) await startMix(m[1] ? decodeURIComponent(m[1]) : "");
+    else if (hash === "#/review") await startReview();
     else await showHome();
   } catch (e) {
     app.innerHTML = `<p>Something went wrong: ${escapeHtml(e.message)}</p><p><a href="#/">Back to quizzes</a></p>`;
@@ -832,8 +1001,11 @@ document.addEventListener("keydown", e => {
   if (!session || e.metaKey || e.ctrlKey || e.altKey) return;
   const s = session;
   if (!document.querySelector(".question")) return;
+  if (e.target.matches?.("input, textarea") && !s.answered) return;
+  if (s.questions[s.pos].input && !s.answered) return;
   const order = s.questions[s.pos].order;
   if (s.answered) {
+    if (s.results.length <= s.pos) return; // still waiting for /api/check
     if (e.key === "Enter" || e.key === "ArrowRight") { e.preventDefault(); advance(); return; }
     const k = e.key.toUpperCase();
     let i = LETTERS.indexOf(k);

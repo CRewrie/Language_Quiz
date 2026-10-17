@@ -35,6 +35,8 @@ The difference from the server is that the answers are in the JSON files, so any
 - Answer order is shuffled each time; furigana can be toggled on and off
 - Results page lists your mistakes, with a **Retry my mistakes** button; best scores are saved in the browser
 - Keyboard: `A`–`D` / `1`–`4` to answer, `0` for わかりません, `Enter` for next
+- **Verb Lab**: typed answers. You type the verb form yourself (kana, kanji or romaji, which turns into hiragana as you type). A **Hint** shows the first kana, and the answer then counts as "with hint".
+- **Review (spaced repetition)**: every first answer moves the question between Leitner boxes (due again after 0, 1, 3, 7, 14 or 30 days). Wrong answers and answers given with a hint start over. When questions are due, the home page offers a review session of up to 20 of them.
 
 ## Adding quizzes
 
@@ -77,5 +79,7 @@ Drop a JSON file anywhere under `quizzes/`. Subfolders are allowed, and files lo
 - `category` groups quizzes into sections on the home page.
 - `language` is `"ja"` (the default) or `"zh"`. The home page shows one language at a time, and for Mandarin the reading aid becomes pinyin: `{汉字|hànzì}`.
 - `"fixed_order": true` on a question keeps its options in the given order. Use it for position questions whose options are the markers A–D in the sentence.
+- **Typed questions**: leave `options` empty and list every accepted spelling in `"accept": ["起きます", "おきます"]`. The optional `"hint"` is shown on request. Answers are compared after removing spaces and punctuation, with katakana treated as hiragana.
+- `tools/gen_ja_verbs.py` generates the Verb Lab (`quizzes/06_verbs/`). It has a small conjugation engine covering る/う-verbs, する and 来る, keigo special verbs and the regular お〜になる / お〜する patterns. The accepted answers, hints and "how it's formed" explanations are all derived from it.
 - Write Mandarin quizzes in simplified characters. The server converts them to traditional at startup (crate `zhconv`), and the 简/繁 switch picks the version through `script=simp|trad`.
 - `tools/gen_zh_a1.py`, `gen_zh_a2.py`, `gen_zh_b1.py` and `gen_zh_b2.py` generate the Mandarin quizzes from a compact `汉字/pīnyīn` notation, using the helpers in `tools/zhquiz.py`. The helpers include HSK formats (true/false, reading, A/B/C ordering). Run them from the repo root.

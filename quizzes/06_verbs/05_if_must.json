@@ -1,0 +1,259 @@
+{
+  "id": "verbs-if-must",
+  "category": "Verb Lab",
+  "title": "If & Must: Rules and Advice",
+  "description": "ば and たら conditionals, and なければならない for things you have to do.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "ba",
+      "title": "If … (ば-form)",
+      "summary": "Conditionals & must: ば (general if), たら (if / once), なければならない (must).",
+      "body": "- **ば**: る-verbs → れば (食べれば); う-verbs → え-row + ば (飲めば); する → すれば; 来る → くれば; ある → あれば.\n- **たら**: た-form + ら (着いたら) — also for 'once / when'.\n- **must**: ない-form → なければならない (いけない / なくてはいけない also work).",
+      "examples": [
+        [
+          "この{薬|くすり}を飲めば、すぐ{治|なお}りますよ。",
+          "If you take this medicine, you'll soon get better."
+        ]
+      ]
+    },
+    {
+      "id": "tara",
+      "title": "If / when … (たら)",
+      "summary": "Conditionals & must: ば (general if), たら (if / once), なければならない (must).",
+      "body": "- **ば**: る-verbs → れば (食べれば); う-verbs → え-row + ば (飲めば); する → すれば; 来る → くれば; ある → あれば.\n- **たら**: た-form + ら (着いたら) — also for 'once / when'.\n- **must**: ない-form → なければならない (いけない / なくてはいけない also work).",
+      "examples": [
+        [
+          "{駅|えき}に着いたら、{電話|でんわ}してください。",
+          "Call me when you get to the station."
+        ]
+      ]
+    },
+    {
+      "id": "nakereba",
+      "title": "Must … (なければならない)",
+      "summary": "Conditionals & must: ば (general if), たら (if / once), なければならない (must).",
+      "body": "- **ば**: る-verbs → れば (食べれば); う-verbs → え-row + ば (飲めば); する → すれば; 来る → くれば; ある → あれば.\n- **たら**: た-form + ら (着いたら) — also for 'once / when'.\n- **must**: ない-form → なければならない (いけない / なくてはいけない also work).",
+      "examples": [
+        [
+          "{明日|あした}は{試験|しけん}だから、{今夜|こんや}は勉強しなければならない。",
+          "There's an exam tomorrow, so I have to study tonight."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "ba",
+      "prompt": "この{薬|くすり}を（　）、すぐ{治|なお}りますよ。\n→ {飲|の}む · if … (ば-form)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "飲めば",
+        "のめば"
+      ],
+      "hint": "の…",
+      "explanation": "{飲|の}む is an う-verb (godan): む → め (え-row) + ば → **飲めば**.",
+      "notes": [],
+      "translation": "If you take this medicine, you'll soon get better."
+    },
+    {
+      "point": "ba",
+      "prompt": "わからないことがあれば、{先生|せんせい}に（　）いいですよ。\n→ {聞|き}く · if … (ば-form)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "聞けば",
+        "きけば"
+      ],
+      "hint": "き…",
+      "explanation": "{聞|き}く is an う-verb (godan): く → け (え-row) + ば → **聞けば**.",
+      "notes": [],
+      "translation": "If there's anything you don't understand, just ask the teacher."
+    },
+    {
+      "point": "ba",
+      "prompt": "もっと{早|はや}く（　）、{間|ま}に{合|あ}ったのに。\n→ {出|で}る · if … (ば-form)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "出れば",
+        "でれば"
+      ],
+      "hint": "で…",
+      "explanation": "{出|で}る is a る-verb (ichidan): drop る + れば → **出れば**.",
+      "notes": [],
+      "translation": "If we'd left earlier, we'd have made it."
+    },
+    {
+      "point": "tara",
+      "prompt": "{駅|えき}に（　）、{電話|でんわ}してください。\n→ {着|つ}く · if / when … (たら)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "着いたら",
+        "ついたら"
+      ],
+      "hint": "つ…",
+      "explanation": "{着|つ}く is an う-verb (godan): く → いて (た-form) + ら → **着いたら**.",
+      "notes": [],
+      "translation": "Call me when you get to the station."
+    },
+    {
+      "point": "tara",
+      "prompt": "{雨|あめ}が（　）、{試合|しあい}は{中止|ちゅうし}です。\n→ {降|ふ}る · if / when … (たら)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "降ったら",
+        "ふったら"
+      ],
+      "hint": "ふ…",
+      "explanation": "{降|ふ}る is an う-verb (godan): う・つ・る → って (た-form) + ら → **降ったら**.",
+      "notes": [],
+      "translation": "If it rains, the match is off."
+    },
+    {
+      "point": "tara",
+      "prompt": "{宝|たから}くじが（　）、{何|なに}を{買|か}いますか。\n→ {当|あ}たる · if / when … (たら)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "当たったら",
+        "あたったら"
+      ],
+      "hint": "あ…",
+      "explanation": "{当|あ}たる is an う-verb (godan): う・つ・る → って (た-form) + ら → **当たったら**.",
+      "notes": [],
+      "translation": "If you won the lottery, what would you buy?"
+    },
+    {
+      "point": "nakereba",
+      "prompt": "{明日|あした}は{試験|しけん}だから、{今夜|こんや}は（　）。\n→ {勉強|べんきょう}する · must … (なければならない)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "勉強しなければならない",
+        "べんきょうしなければならない",
+        "勉強しなければいけない",
+        "べんきょうしなければいけない",
+        "勉強しなくてはならない",
+        "べんきょうしなくてはならない",
+        "勉強しなくてはいけない",
+        "べんきょうしなくてはいけない",
+        "勉強しないといけない",
+        "べんきょうしないといけない"
+      ],
+      "hint": "べ…",
+      "explanation": "{勉強|べんきょう}する is irregular (する): する → し + ending → **勉強しなければならない**.",
+      "notes": [],
+      "translation": "There's an exam tomorrow, so I have to study tonight."
+    },
+    {
+      "point": "nakereba",
+      "prompt": "9{時|じ}までに{会社|かいしゃ}に（　）。\n→ {行|い}く · must … (なければならない)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "行かなければならない",
+        "いかなければならない",
+        "行かなければいけない",
+        "いかなければいけない",
+        "行かなくてはならない",
+        "いかなくてはならない",
+        "行かなくてはいけない",
+        "いかなくてはいけない",
+        "行かないといけない",
+        "いかないといけない"
+      ],
+      "hint": "い…",
+      "explanation": "{行|い}く is an う-verb (godan) — with one exception: く → か (あ-row) + なければならない → **行かなければならない**.",
+      "notes": [],
+      "translation": "I have to be at the office by nine."
+    },
+    {
+      "point": "nakereba",
+      "prompt": "{図書館|としょかん}の{本|ほん}は{来週|らいしゅう}までに（　）。\n→ {返|かえ}す · must … (なければならない)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "返さなければならない",
+        "かえさなければならない",
+        "返さなければいけない",
+        "かえさなければいけない",
+        "返さなくてはならない",
+        "かえさなくてはならない",
+        "返さなくてはいけない",
+        "かえさなくてはいけない",
+        "返さないといけない",
+        "かえさないといけない"
+      ],
+      "hint": "か…",
+      "explanation": "{返|かえ}す is an う-verb (godan): す → さ (あ-row) + なければならない → **返さなければならない**.",
+      "notes": [],
+      "translation": "I have to return the library books by next week."
+    },
+    {
+      "point": "ba",
+      "prompt": "お{金|かね}が（　）、{世界中|せかいじゅう}を{旅行|りょこう}したい。\n→ ある · if … (ば-form)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "あれば"
+      ],
+      "hint": "あ…",
+      "explanation": "ある is an う-verb (godan) with an irregular negative: る → れ (え-row) + ば → **あれば**.",
+      "notes": [],
+      "translation": "If I had the money, I'd like to travel around the world."
+    },
+    {
+      "point": "ba",
+      "prompt": "{時間|じかん}が（　）、また{来|き}てください。\n→ ある · if … (ば-form)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "あれば"
+      ],
+      "hint": "あ…",
+      "explanation": "ある is an う-verb (godan) with an irregular negative: る → れ (え-row) + ば → **あれば**.",
+      "notes": [],
+      "translation": "If you have time, please come again."
+    },
+    {
+      "point": "tara",
+      "prompt": "{家|いえ}に（　）、すぐ{手|て}を{洗|あら}いなさい。\n→ {帰|かえ}る · if / when … (たら)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "帰ったら",
+        "かえったら"
+      ],
+      "hint": "か…",
+      "explanation": "{帰|かえ}る is an う-verb (godan): う・つ・る → って (た-form) + ら → **帰ったら**.",
+      "notes": [],
+      "translation": "Wash your hands as soon as you get home."
+    },
+    {
+      "point": "nakereba",
+      "prompt": "この{薬|くすり}は{毎日|まいにち}（　）。\n→ {飲|の}む · must … (なければならない)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "飲まなければならない",
+        "のまなければならない",
+        "飲まなければいけない",
+        "のまなければいけない",
+        "飲まなくてはならない",
+        "のまなくてはならない",
+        "飲まなくてはいけない",
+        "のまなくてはいけない",
+        "飲まないといけない",
+        "のまないといけない"
+      ],
+      "hint": "の…",
+      "explanation": "{飲|の}む is an う-verb (godan): む → ま (あ-row) + なければならない → **飲まなければならない**.",
+      "notes": [],
+      "translation": "You have to take this medicine every day."
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "verbs-plain",
+  "category": "Verb Lab",
+  "title": "Plain Forms: Chatting with Friends",
+  "description": "Dictionary, ない, た and なかった forms — how you actually talk to friends.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "dict",
+      "title": "Plain present",
+      "summary": "Plain (casual) forms: Dictionary form, ない-form, た-form, なかった-form — how you talk to friends and family.",
+      "body": "- **ない**: る-verbs drop る (食べない); う-verbs go to the あ-row (書かない, 言う → 言**わ**ない); する → しない, 来る → こない, ある → **ない**.\n- **た**: same as the て-form with た (食べた, 書いた, 読んだ).\n- **なかった**: ない → なかった.",
+      "examples": [
+        [
+          "{明日|あした}、{何時|なんじ}に起きる？",
+          "What time are you getting up tomorrow?"
+        ]
+      ]
+    },
+    {
+      "id": "nai",
+      "title": "Plain negative",
+      "summary": "Plain (casual) forms: Dictionary form, ない-form, た-form, なかった-form — how you talk to friends and family.",
+      "body": "- **ない**: る-verbs drop る (食べない); う-verbs go to the あ-row (書かない, 言う → 言**わ**ない); する → しない, 来る → こない, ある → **ない**.\n- **た**: same as the て-form with た (食べた, 書いた, 読んだ).\n- **なかった**: ない → なかった.",
+      "examples": [
+        [
+          "{今日|きょう}は{疲|つか}れたから、どこにも行かない。",
+          "I'm tired today, so I'm not going anywhere."
+        ]
+      ]
+    },
+    {
+      "id": "ta",
+      "title": "Plain past",
+      "summary": "Plain (casual) forms: Dictionary form, ない-form, た-form, なかった-form — how you talk to friends and family.",
+      "body": "- **ない**: る-verbs drop る (食べない); う-verbs go to the あ-row (書かない, 言う → 言**わ**ない); する → しない, 来る → こない, ある → **ない**.\n- **た**: same as the て-form with た (食べた, 書いた, 読んだ).\n- **なかった**: ない → なかった.",
+      "examples": [
+        [
+          "{昨日|きのう}、{駅|えき}で{田中|たなか}さんに会ったよ。",
+          "I bumped into Tanaka at the station yesterday."
+        ]
+      ]
+    },
+    {
+      "id": "nakatta",
+      "title": "Plain past negative",
+      "summary": "Plain (casual) forms: Dictionary form, ない-form, た-form, なかった-form — how you talk to friends and family.",
+      "body": "- **ない**: る-verbs drop る (食べない); う-verbs go to the あ-row (書かない, 言う → 言**わ**ない); する → しない, 来る → こない, ある → **ない**.\n- **た**: same as the て-form with た (食べた, 書いた, 読んだ).\n- **なかった**: ない → なかった.",
+      "examples": [
+        [
+          "{昨日|きのう}のパーティー、どうして来なかったの？",
+          "Why didn't you come to the party yesterday?"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "dict",
+      "prompt": "{明日|あした}、{何時|なんじ}に（　）？\n→ {起|お}きる · plain present",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "起きる",
+        "おきる"
+      ],
+      "hint": "お…",
+      "explanation": "Plain present = the dictionary form itself: **起きる**. Casual speech just drops ます.",
+      "notes": [],
+      "translation": "What time are you getting up tomorrow?"
+    },
+    {
+      "point": "nai",
+      "prompt": "{今日|きょう}は{疲|つか}れたから、どこにも（　）。\n→ {行|い}く · plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "行かない",
+        "いかない"
+      ],
+      "hint": "い…",
+      "explanation": "{行|い}く is an う-verb (godan) — with one exception: く → か (あ-row) + ない → **行かない**.",
+      "notes": [],
+      "translation": "I'm tired today, so I'm not going anywhere."
+    },
+    {
+      "point": "ta",
+      "prompt": "{昨日|きのう}、{駅|えき}で{田中|たなか}さんに（　）よ。\n→ {会|あ}う · plain past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "会った",
+        "あった"
+      ],
+      "hint": "あ…",
+      "explanation": "{会|あ}う is an う-verb (godan): う・つ・る → って → **会った**.",
+      "notes": [],
+      "translation": "I bumped into Tanaka at the station yesterday."
+    },
+    {
+      "point": "nakatta",
+      "prompt": "{昨日|きのう}のパーティー、どうして（　）の？\n→ {来|く}る · plain past negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来なかった",
+        "こなかった"
+      ],
+      "hint": "こ…",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来なかった**.",
+      "notes": [],
+      "translation": "Why didn't you come to the party yesterday?"
+    },
+    {
+      "point": "dict",
+      "prompt": "{週末|しゅうまつ}は{家|いえ}でゆっくり（　）つもり。\n→ {休|やす}む · plain present",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "休む",
+        "やすむ"
+      ],
+      "hint": "や…",
+      "explanation": "Plain present = the dictionary form itself: **休む**. Casual speech just drops ます.",
+      "notes": [],
+      "translation": "I'm planning to take it easy at home this weekend."
+    },
+    {
+      "point": "nai",
+      "prompt": "{辛|から}い{物|もの}はあまり（　）んだ。\n→ {食|た}べる · plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べない",
+        "たべない"
+      ],
+      "hint": "た…",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + ない → **食べない**.",
+      "notes": [],
+      "translation": "I don't really eat spicy food."
+    },
+    {
+      "point": "ta",
+      "prompt": "{昨日|きのう}の{夜|よる}、{何|なに}を（　）？\n→ {食|た}べる · plain past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べた",
+        "たべた"
+      ],
+      "hint": "た…",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べた**.",
+      "notes": [],
+      "translation": "What did you eat last night?"
+    },
+    {
+      "point": "nakatta",
+      "prompt": "{宿題|しゅくだい}、{全然|ぜんぜん}（　）。どうしよう。\n→ する · plain past negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "しなかった"
+      ],
+      "hint": "し…",
+      "explanation": "する is irregular (する): する → し + ending → **しなかった**.",
+      "notes": [],
+      "translation": "I didn't do the homework at all. What do I do?"
+    },
+    {
+      "point": "dict",
+      "prompt": "{毎朝|まいあさ}コーヒーを（　）？\n→ {飲|の}む · plain present",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "飲む",
+        "のむ"
+      ],
+      "hint": "の…",
+      "explanation": "Plain present = the dictionary form itself: **飲む**. Casual speech just drops ます.",
+      "notes": [],
+      "translation": "Do you drink coffee every morning?"
+    },
+    {
+      "point": "nakatta",
+      "prompt": "{電話|でんわ}したけど、{彼|かれ}は（　）。\n→ {出|で}る · plain past negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "出なかった",
+        "でなかった"
+      ],
+      "hint": "で…",
+      "explanation": "{出|で}る is a る-verb (ichidan): drop る + なかった → **出なかった**.",
+      "notes": [],
+      "translation": "I called, but he didn't pick up."
+    },
+    {
+      "point": "dict",
+      "prompt": "{来週|らいしゅう}、{京都|きょうと}に（　）んだ。\n→ {行|い}く · plain present",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "行く",
+        "いく"
+      ],
+      "hint": "い…",
+      "explanation": "Plain present = the dictionary form itself: **行く**. Casual speech just drops ます.",
+      "notes": [],
+      "translation": "I'm going to Kyoto next week."
+    },
+    {
+      "point": "ta",
+      "prompt": "{彼女|かのじょ}はもう（　）よ。さっき{出|で}ていった。\n→ {帰|かえ}る · plain past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "帰った",
+        "かえった"
+      ],
+      "hint": "か…",
+      "explanation": "{帰|かえ}る is an う-verb (godan): う・つ・る → って → **帰った**.",
+      "notes": [],
+      "translation": "She's already gone home — she left a moment ago."
+    },
+    {
+      "point": "nai",
+      "prompt": "{心配|しんぱい}しないで。{誰|だれ}にも（　）から。\n→ {言|い}う · plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "言わない",
+        "いわない"
+      ],
+      "hint": "い…",
+      "explanation": "{言|い}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **言わない**.",
+      "notes": [],
+      "translation": "Don't worry, I won't tell anyone."
+    },
+    {
+      "point": "nakatta",
+      "prompt": "{子供|こども}のころ、{野菜|やさい}を{全然|ぜんぜん}（　）。\n→ {食|た}べる · plain past negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べなかった",
+        "たべなかった"
+      ],
+      "hint": "た…",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + なかった → **食べなかった**.",
+      "notes": [],
+      "translation": "As a kid I didn't eat vegetables at all."
+    }
+  ]
+}

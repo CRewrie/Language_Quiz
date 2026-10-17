@@ -1,0 +1,249 @@
+{
+  "id": "verbs-mixed",
+  "category": "Verb Lab",
+  "title": "Mixed Review: All Forms",
+  "description": "Every form, shuffled. You have to work out which form each situation needs — the best practice for real conversations.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "mixed",
+      "title": "Mixed review",
+      "summary": "All forms, shuffled — the most effective way to make them stick.",
+      "body": "**Why mixed practice works**\nRecalling a form yourself (instead of choosing it) and having to work out *which* form a situation needs are the two things that make grammar stick. Mixing the forms forces exactly that.\n\n- Read the cue (→ polite past, → humble …) and the situation.\n- Say the sentence aloud before you type.\n- Use the hint only when stuck — it counts as 'with hint' and the question comes back sooner.",
+      "examples": []
+    }
+  ],
+  "questions": [
+    {
+      "point": "mixed",
+      "prompt": "{毎朝|まいあさ}ジョギングを（　）。\n→ する · polite present",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "します"
+      ],
+      "hint": "し…",
+      "explanation": "する is irregular (する): する → し + ending → **します**.",
+      "notes": [],
+      "translation": "I go jogging every morning."
+    },
+    {
+      "point": "mixed",
+      "prompt": "{昨日|きのう}、レストランで{寿司|すし}を（　）よ。\n→ {食|た}べる · plain past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べた",
+        "たべた"
+      ],
+      "hint": "た…",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べた**.",
+      "notes": [],
+      "translation": "I had sushi at a restaurant yesterday."
+    },
+    {
+      "point": "mixed",
+      "prompt": "{暑|あつ}いですね。{窓|まど}を（　）もいいですか。\n→ {開|あ}ける · て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "開けて",
+        "あけて"
+      ],
+      "hint": "あ…",
+      "explanation": "{開|あ}ける is a る-verb (ichidan): drop る + て / た → **開けて**.",
+      "notes": [],
+      "translation": "It's hot, isn't it? May I open the window?"
+    },
+    {
+      "point": "mixed",
+      "prompt": "{漢字|かんじ}はまだ{全然|ぜんぜん}（　）。\n→ {読|よ}む · can't … (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "読めません",
+        "よめません"
+      ],
+      "hint": "よ…",
+      "explanation": "{読|よ}む is an う-verb (godan): む → め (え-row) + る, then conjugate like a る-verb → **読めません**.",
+      "notes": [],
+      "translation": "I still can't read kanji at all."
+    },
+    {
+      "point": "mixed",
+      "prompt": "{週末|しゅうまつ}、{一緒|いっしょ}に{海|うみ}へ（　）よ。\n→ {行|い}く · let's / I'll … (plain volitional)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "行こう",
+        "いこう"
+      ],
+      "hint": "い…",
+      "explanation": "{行|い}く is an う-verb (godan) — with one exception: く → こ (お-row) + う → **行こう**.",
+      "notes": [],
+      "translation": "Let's go to the beach together at the weekend."
+    },
+    {
+      "point": "mixed",
+      "prompt": "{授業中|じゅぎょうちゅう}、{先生|せんせい}に{名前|なまえ}を（　）。\n→ {呼|よ}ぶ · passive, past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "呼ばれた",
+        "よばれた"
+      ],
+      "hint": "よ…",
+      "explanation": "Passive: {呼|よ}ぶ is an う-verb (godan): ぶ → ば (あ-row) + れる → **呼ばれた**.",
+      "notes": [],
+      "translation": "My name was called by the teacher in class."
+    },
+    {
+      "point": "mixed",
+      "prompt": "{早|はや}く（　）、{間|ま}に{合|あ}うよ。\n→ {出|で}る · if … (ば-form)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "出れば",
+        "でれば"
+      ],
+      "hint": "で…",
+      "explanation": "{出|で}る is a る-verb (ichidan): drop る + れば → **出れば**.",
+      "notes": [],
+      "translation": "If you leave now, you'll make it."
+    },
+    {
+      "point": "mixed",
+      "prompt": "{会議|かいぎ}の{前|まえ}に{資料|しりょう}を（　）。\n→ {読|よ}む · must … (なければならない)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "読まなければならない",
+        "よまなければならない",
+        "読まなければいけない",
+        "よまなければいけない",
+        "読まなくてはならない",
+        "よまなくてはならない",
+        "読まなくてはいけない",
+        "よまなくてはいけない",
+        "読まないといけない",
+        "よまないといけない"
+      ],
+      "hint": "よ…",
+      "explanation": "{読|よ}む is an う-verb (godan): む → ま (あ-row) + なければならない → **読まなければならない**.",
+      "notes": [],
+      "translation": "I have to read the materials before the meeting."
+    },
+    {
+      "point": "mixed",
+      "prompt": "{部長|ぶちょう}、どちらへ（　）か。\n→ {行|い}く · honorific (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "いらっしゃいます",
+        "おいでになります"
+      ],
+      "hint": "い…",
+      "explanation": "{行|い}く has a special honorific verb: **いらっしゃいます**. (おいでになります also work.)",
+      "notes": [],
+      "translation": "Where are you going, sir?"
+    },
+    {
+      "point": "mixed",
+      "prompt": "{子供|こども}のころ、{母|はは}によく{手伝|てつだ}いを（　）。\n→ する · causative-passive (was made to), past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "させられた"
+      ],
+      "hint": "さ…",
+      "explanation": "する is irregular (する): する → させられた → **させられた**.",
+      "notes": [],
+      "translation": "As a child, my mum often made me help out."
+    },
+    {
+      "point": "mixed",
+      "prompt": "{雨|あめ}が（　）、{出|で}かけましょう。\n→ {止|や}む · if / when … (たら)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "止んだら",
+        "やんだら"
+      ],
+      "hint": "や…",
+      "explanation": "{止|や}む is an う-verb (godan): ぬ・ぶ・む → んで (た-form) + ら → **止んだら**.",
+      "notes": [],
+      "translation": "Let's go out once the rain stops."
+    },
+    {
+      "point": "mixed",
+      "prompt": "{昨日|きのう}は{頭|あたま}が{痛|いた}くて、{何|なに}も（　）。\n→ {食|た}べる · polite past negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べませんでした",
+        "たべませんでした"
+      ],
+      "hint": "た…",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **食べませんでした**.",
+      "notes": [],
+      "translation": "I had a headache yesterday and didn't eat anything."
+    },
+    {
+      "point": "mixed",
+      "prompt": "{今|いま}、{何|なに}を（　）の？\n→ する · て-form + いる",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "している"
+      ],
+      "hint": "し…",
+      "explanation": "する is irregular (する): する → し + ending → **している**.",
+      "notes": [],
+      "translation": "What are you doing right now?"
+    },
+    {
+      "point": "mixed",
+      "prompt": "{明日|あした}は{彼|かれ}、（　）よ。{用事|ようじ}があるって。\n→ {来|く}る · plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来ない",
+        "こない"
+      ],
+      "hint": "こ…",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来ない**.",
+      "notes": [],
+      "translation": "He's not coming tomorrow — he says he's got something on."
+    },
+    {
+      "point": "mixed",
+      "prompt": "{彼女|かのじょ}に{好|す}きだと（　）と{思|おも}う。\n→ {言|い}う · let's / I'll … (plain volitional)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "言おう",
+        "いおう"
+      ],
+      "hint": "い…",
+      "explanation": "{言|い}う is an う-verb (godan): う → お (お-row) + う → **言おう**.",
+      "notes": [],
+      "translation": "I think I'll tell her I like her."
+    },
+    {
+      "point": "mixed",
+      "prompt": "お{客様|きゃくさま}、お{荷物|にもつ}は{私|わたし}が（　）。\n→ {持|も}つ · humble (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "お持ちします",
+        "おもちします",
+        "お持ちいたします",
+        "おもちいたします"
+      ],
+      "hint": "お…",
+      "explanation": "Regular humble: **お + ます-stem (持ち) + します** (more humble: いたします).",
+      "notes": [],
+      "translation": "Sir, I'll carry your luggage."
+    }
+  ]
+}

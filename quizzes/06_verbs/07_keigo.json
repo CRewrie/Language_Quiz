@@ -1,0 +1,261 @@
+{
+  "id": "verbs-keigo",
+  "category": "Verb Lab",
+  "title": "Keigo: At a Hotel and in Business",
+  "description": "Honorific verbs for other people's actions, humble verbs for your own — special verbs and the regular patterns.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "hon",
+      "title": "Honorific (polite)",
+      "summary": "Keigo: honorific & humble: Honorific raises the other person's actions; humble lowers your own.",
+      "body": "- **Special verbs** — honorific: いらっしゃる (行く・来る・いる), 召し上がる (食べる・飲む), おっしゃる (言う), ご覧になる (見る), なさる (する).\n- Humble: 参る (行く・来る), 伺う (行く・聞く), 申す (言う), 拝見する (見る), いたす (する), いただく (食べる・飲む・もらう), お目にかかる (会う), おる (いる).\n- **Regular**: honorific お + ます-stem + になる (お読みになる); humble お + ます-stem + する (お持ちする), する-nouns ご + noun + する (ご案内する).",
+      "examples": [
+        [
+          "{社長|しゃちょう}は{何時|なんじ}にいらっしゃいますか。",
+          "What time will the president arrive?"
+        ]
+      ]
+    },
+    {
+      "id": "hon_ta",
+      "title": "Honorific, past",
+      "summary": "Keigo: honorific & humble: Honorific raises the other person's actions; humble lowers your own.",
+      "body": "- **Special verbs** — honorific: いらっしゃる (行く・来る・いる), 召し上がる (食べる・飲む), おっしゃる (言う), ご覧になる (見る), なさる (する).\n- Humble: 参る (行く・来る), 伺う (行く・聞く), 申す (言う), 拝見する (見る), いたす (する), いただく (食べる・飲む・もらう), お目にかかる (会う), おる (いる).\n- **Regular**: honorific お + ます-stem + になる (お読みになる); humble お + ます-stem + する (お持ちする), する-nouns ご + noun + する (ご案内する).",
+      "examples": [
+        [
+          "{部長|ぶちょう}は{明日|あした}の{会議|かいぎ}について{何|なん}とおっしゃいましたか。",
+          "What did the manager say about tomorrow's meeting?"
+        ]
+      ]
+    },
+    {
+      "id": "hum",
+      "title": "Humble (polite)",
+      "summary": "Keigo: honorific & humble: Honorific raises the other person's actions; humble lowers your own.",
+      "body": "- **Special verbs** — honorific: いらっしゃる (行く・来る・いる), 召し上がる (食べる・飲む), おっしゃる (言う), ご覧になる (見る), なさる (する).\n- Humble: 参る (行く・来る), 伺う (行く・聞く), 申す (言う), 拝見する (見る), いたす (する), いただく (食べる・飲む・もらう), お目にかかる (会う), おる (いる).\n- **Regular**: honorific お + ます-stem + になる (お読みになる); humble お + ます-stem + する (お持ちする), する-nouns ご + noun + する (ご案内する).",
+      "examples": [
+        [
+          "{明日|あした}、こちらから{御社|おんしゃ}に参ります。",
+          "Tomorrow we'll come to your company."
+        ]
+      ]
+    },
+    {
+      "id": "hum_ta",
+      "title": "Humble, past",
+      "summary": "Keigo: honorific & humble: Honorific raises the other person's actions; humble lowers your own.",
+      "body": "- **Special verbs** — honorific: いらっしゃる (行く・来る・いる), 召し上がる (食べる・飲む), おっしゃる (言う), ご覧になる (見る), なさる (する).\n- Humble: 参る (行く・来る), 伺う (行く・聞く), 申す (言う), 拝見する (見る), いたす (する), いただく (食べる・飲む・もらう), お目にかかる (会う), おる (いる).\n- **Regular**: honorific お + ます-stem + になる (お読みになる); humble お + ます-stem + する (お持ちする), する-nouns ご + noun + する (ご案内する).",
+      "examples": [
+        [
+          "{先週|せんしゅう}の{資料|しりょう}を拝見しました。",
+          "I've looked over last week's materials."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "hon",
+      "prompt": "{社長|しゃちょう}は{何時|なんじ}に（　）か。\n→ {来|く}る · honorific (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "いらっしゃいます",
+        "お見えになります",
+        "おみえになります",
+        "おいでになります"
+      ],
+      "hint": "い…",
+      "explanation": "{来|く}る has a special honorific verb: **いらっしゃいます**. (お見えになります / おいでになります also work.)",
+      "notes": [],
+      "translation": "What time will the president arrive?"
+    },
+    {
+      "point": "hon",
+      "prompt": "{先生|せんせい}、お{飲|の}み{物|もの}は{何|なに}を（　）か。\n→ {飲|の}む · honorific (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "召し上がります",
+        "めしあがります"
+      ],
+      "hint": "め…",
+      "explanation": "{飲|の}む has a special honorific verb: **召し上がります**.",
+      "notes": [],
+      "translation": "Professor, what would you like to drink?"
+    },
+    {
+      "point": "hon",
+      "prompt": "{社長|しゃちょう}は{今|いま}、{会議室|かいぎしつ}に（　）。\n→ いる · honorific (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "いらっしゃいます"
+      ],
+      "hint": "い…",
+      "explanation": "いる has a special honorific verb: **いらっしゃいます**.",
+      "notes": [],
+      "translation": "The president is in the meeting room at the moment."
+    },
+    {
+      "point": "hon_ta",
+      "prompt": "{部長|ぶちょう}は{明日|あした}の{会議|かいぎ}について{何|なん}と（　）か。\n→ {言|い}う · honorific, past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "おっしゃいました"
+      ],
+      "hint": "お…",
+      "explanation": "{言|い}う has a special honorific verb: **おっしゃいました**.",
+      "notes": [],
+      "translation": "What did the manager say about tomorrow's meeting?"
+    },
+    {
+      "point": "hon",
+      "prompt": "{先生|せんせい}は{毎朝|まいあさ}{新聞|しんぶん}を（　）。\n→ {読|よ}む · honorific (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "お読みになります",
+        "およみになります"
+      ],
+      "hint": "お…",
+      "explanation": "Regular honorific: **お + ます-stem (読み) + になります**.",
+      "notes": [],
+      "translation": "The professor reads the newspaper every morning."
+    },
+    {
+      "point": "hon_ta",
+      "prompt": "お{客様|きゃくさま}はもうホテルに（　）。\n→ {着|つ}く · honorific, past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "お着きになりました",
+        "おつきになりました"
+      ],
+      "hint": "お…",
+      "explanation": "Regular honorific: **お + ます-stem (着き) + になります**.",
+      "notes": [],
+      "translation": "The guest has already arrived at the hotel."
+    },
+    {
+      "point": "hon",
+      "prompt": "{社長|しゃちょう}は{週末|しゅうまつ}によくゴルフを（　）。\n→ する · honorific (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "なさいます"
+      ],
+      "hint": "な…",
+      "explanation": "する has a special honorific verb: **なさいます**.",
+      "notes": [],
+      "translation": "The president often plays golf at the weekend."
+    },
+    {
+      "point": "hum",
+      "prompt": "{明日|あした}、こちらから{御社|おんしゃ}に（　）。\n→ {行|い}く · humble (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "参ります",
+        "まいります",
+        "伺います",
+        "うかがいます"
+      ],
+      "hint": "ま…",
+      "explanation": "{行|い}く has a special humble verb: **参ります**. (伺います also work.)",
+      "notes": [],
+      "translation": "Tomorrow we'll come to your company."
+    },
+    {
+      "point": "hum",
+      "prompt": "はじめまして。{田中|たなか}と（　）。\n→ {言|い}う · humble (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "申します",
+        "もうします"
+      ],
+      "hint": "も…",
+      "explanation": "{言|い}う has a special humble verb: **申します**.",
+      "notes": [],
+      "translation": "How do you do? My name is Tanaka."
+    },
+    {
+      "point": "hum_ta",
+      "prompt": "{先週|せんしゅう}の{資料|しりょう}を（　）。\n→ {見|み}る · humble, past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "拝見しました",
+        "はいけんしました"
+      ],
+      "hint": "は…",
+      "explanation": "{見|み}る has a special humble verb: **拝見しました**.",
+      "notes": [],
+      "translation": "I've looked over last week's materials."
+    },
+    {
+      "point": "hum",
+      "prompt": "{私|わたし}がお{客様|きゃくさま}を{会議室|かいぎしつ}まで（　）。\n→ {案内|あんない}する · humble (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "ご案内します",
+        "ごあんないします",
+        "ご案内いたします",
+        "ごあんないいたします"
+      ],
+      "hint": "ご…",
+      "explanation": "する-noun, humble: **ご + 案内 + します** (more humble: いたします).",
+      "notes": [],
+      "translation": "I'll show the guest to the meeting room."
+    },
+    {
+      "point": "hum",
+      "prompt": "{重|おも}そうですね。お{荷物|にもつ}を（　）。\n→ {持|も}つ · humble (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "お持ちします",
+        "おもちします",
+        "お持ちいたします",
+        "おもちいたします"
+      ],
+      "hint": "お…",
+      "explanation": "Regular humble: **お + ます-stem (持ち) + します** (more humble: いたします).",
+      "notes": [],
+      "translation": "That looks heavy — let me carry your luggage."
+    },
+    {
+      "point": "hum",
+      "prompt": "{明日|あした}、またお{電話|でんわ}を（　）。\n→ する · humble (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "いたします"
+      ],
+      "hint": "い…",
+      "explanation": "する has a special humble verb: **いたします**.",
+      "notes": [],
+      "translation": "I'll call you again tomorrow."
+    },
+    {
+      "point": "hum_ta",
+      "prompt": "{昨日|きのう}のパーティーで、{社長|しゃちょう}の{奥様|おくさま}に（　）。\n→ {会|あ}う · humble, past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "お目にかかりました",
+        "おめにかかりました",
+        "お会いしました",
+        "おあいしました"
+      ],
+      "hint": "お…",
+      "explanation": "{会|あ}う has a special humble verb: **お目にかかりました**. (お会いしました also work.)",
+      "notes": [],
+      "translation": "At yesterday's party I met the president's wife."
+    }
+  ]
+}

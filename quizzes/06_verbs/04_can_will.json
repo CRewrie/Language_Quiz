@@ -1,0 +1,214 @@
+{
+  "id": "verbs-can-will",
+  "category": "Verb Lab",
+  "title": "Can & Will: Plans and Abilities",
+  "description": "What you can do (potential) and what you're going to do (volitional + と思う).",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "potential",
+      "title": "Can … (plain)",
+      "summary": "Potential & volitional: Can do it (potential) and let's / I'll do it (volitional).",
+      "body": "- **Potential**: る-verbs + られる (食べられる); う-verbs → え-row + る (読める); する → **できる**; 来る → 来(こ)られる.\n- **Volitional**: る-verbs + よう (食べよう); う-verbs → お-row + う (行こう); する → しよう; 来る → 来(こ)よう. With と思う = 'I'm thinking of …'.",
+      "examples": [
+        [
+          "{弟|おとうと}はまだ5{歳|さい}なのに、ひらがなが読める。",
+          "My little brother is only five, but he can read hiragana."
+        ]
+      ]
+    },
+    {
+      "id": "potential_masu",
+      "title": "Can … (polite)",
+      "summary": "Potential & volitional: Can do it (potential) and let's / I'll do it (volitional).",
+      "body": "- **Potential**: る-verbs + られる (食べられる); う-verbs → え-row + る (読める); する → **できる**; 来る → 来(こ)られる.\n- **Volitional**: る-verbs + よう (食べよう); う-verbs → お-row + う (行こう); する → しよう; 来る → 来(こ)よう. With と思う = 'I'm thinking of …'.",
+      "examples": [
+        [
+          "このお{店|みせ}では、カードが使えますか。",
+          "Can I pay by card in this shop?"
+        ]
+      ]
+    },
+    {
+      "id": "volitional",
+      "title": "Let's / I'll … (plain volitional)",
+      "summary": "Potential & volitional: Can do it (potential) and let's / I'll do it (volitional).",
+      "body": "- **Potential**: る-verbs + られる (食べられる); う-verbs → え-row + る (読める); する → **できる**; 来る → 来(こ)られる.\n- **Volitional**: る-verbs + よう (食べよう); う-verbs → お-row + う (行こう); する → しよう; 来る → 来(こ)よう. With と思う = 'I'm thinking of …'.",
+      "examples": [
+        [
+          "{明日|あした}は{早|はや}いので、{今日|きょう}は{早|はや}く寝ようと{思|おも}います。",
+          "I've got an early start tomorrow, so I think I'll go to bed early tonight."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "potential",
+      "prompt": "{弟|おとうと}はまだ5{歳|さい}なのに、ひらがなが（　）。\n→ {読|よ}む · can … (plain)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "読める",
+        "よめる"
+      ],
+      "hint": "よ…",
+      "explanation": "{読|よ}む is an う-verb (godan): む → め (え-row) + る, then conjugate like a る-verb → **読める**.",
+      "notes": [],
+      "translation": "My little brother is only five, but he can read hiragana."
+    },
+    {
+      "point": "potential",
+      "prompt": "{日本語|にほんご}で{電話|でんわ}が（　）ようになりました。\n→ する · can … (plain)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "できる"
+      ],
+      "hint": "で…",
+      "explanation": "する is irregular (する): する → できる → **できる**.",
+      "notes": [],
+      "translation": "I've become able to make phone calls in Japanese."
+    },
+    {
+      "point": "potential_masu",
+      "prompt": "このお{店|みせ}では、カードが（　）か。\n→ {使|つか}う · can … (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "使えます",
+        "つかえます"
+      ],
+      "hint": "つ…",
+      "explanation": "{使|つか}う is an う-verb (godan): う → え (え-row) + る, then conjugate like a る-verb → **使えます**.",
+      "notes": [],
+      "translation": "Can I pay by card in this shop?"
+    },
+    {
+      "point": "potential_masu",
+      "prompt": "{明日|あした}は{何時|なんじ}に（　）か。\n→ {来|く}る · can … (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来られます",
+        "こられます"
+      ],
+      "hint": "こ…",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来られます**.",
+      "notes": [],
+      "translation": "What time can you come tomorrow?"
+    },
+    {
+      "point": "potential",
+      "prompt": "{彼女|かのじょ}は100メートルを12{秒|びょう}で（　）。\n→ {走|はし}る · can … (plain)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "走れる",
+        "はしれる"
+      ],
+      "hint": "は…",
+      "explanation": "{走|はし}る is an う-verb (godan): る → れ (え-row) + る, then conjugate like a る-verb → **走れる**.",
+      "notes": [],
+      "translation": "She can run 100 metres in 12 seconds."
+    },
+    {
+      "point": "volitional",
+      "prompt": "{明日|あした}は{早|はや}いので、{今日|きょう}は{早|はや}く（　）と{思|おも}います。\n→ {寝|ね}る · let's / I'll … (plain volitional)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "寝よう",
+        "ねよう"
+      ],
+      "hint": "ね…",
+      "explanation": "{寝|ね}る is a る-verb (ichidan): drop る + よう → **寝よう**.",
+      "notes": [],
+      "translation": "I've got an early start tomorrow, so I think I'll go to bed early tonight."
+    },
+    {
+      "point": "volitional",
+      "prompt": "{夏休|なつやす}みに{北海道|ほっかいどう}へ（　）と{思|おも}っています。\n→ {行|い}く · let's / I'll … (plain volitional)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "行こう",
+        "いこう"
+      ],
+      "hint": "い…",
+      "explanation": "{行|い}く is an う-verb (godan) — with one exception: く → こ (お-row) + う → **行こう**.",
+      "notes": [],
+      "translation": "I'm thinking of going to Hokkaido in the summer holidays."
+    },
+    {
+      "point": "volitional",
+      "prompt": "{疲|つか}れたね。{少|すこ}し（　）か。\n→ {休|やす}む · let's / I'll … (plain volitional)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "休もう",
+        "やすもう"
+      ],
+      "hint": "や…",
+      "explanation": "{休|やす}む is an う-verb (godan): む → も (お-row) + う → **休もう**.",
+      "notes": [],
+      "translation": "We're tired — shall we take a break?"
+    },
+    {
+      "point": "volitional",
+      "prompt": "{来年|らいねん}から{毎日|まいにち}{日記|にっき}を（　）と{思|おも}う。\n→ {書|か}く · let's / I'll … (plain volitional)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書こう",
+        "かこう"
+      ],
+      "hint": "か…",
+      "explanation": "{書|か}く is an う-verb (godan): く → こ (お-row) + う → **書こう**.",
+      "notes": [],
+      "translation": "From next year I'm going to write a diary every day."
+    },
+    {
+      "point": "potential_masu",
+      "prompt": "このアパートではペットが（　）。\n→ {飼|か}う · can … (polite)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "飼えます",
+        "かえます"
+      ],
+      "hint": "か…",
+      "explanation": "{飼|か}う is an う-verb (godan): う → え (え-row) + る, then conjugate like a る-verb → **飼えます**.",
+      "notes": [],
+      "translation": "You can keep pets in this flat."
+    },
+    {
+      "point": "volitional",
+      "prompt": "{一緒|いっしょ}に{晩|ばん}ご{飯|はん}を（　）よ。\n→ {作|つく}る · let's / I'll … (plain volitional)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "作ろう",
+        "つくろう"
+      ],
+      "hint": "つ…",
+      "explanation": "{作|つく}る is an う-verb (godan): る → ろ (お-row) + う → **作ろう**.",
+      "notes": [],
+      "translation": "Let's cook dinner together."
+    },
+    {
+      "point": "potential",
+      "prompt": "{上手|じょうず}に（　）ように、{毎日|まいにち}{練習|れんしゅう}しています。\n→ {泳|およ}ぐ · can … (plain)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "泳げる",
+        "およげる"
+      ],
+      "hint": "お…",
+      "explanation": "{泳|およ}ぐ is an う-verb (godan): ぐ → げ (え-row) + る, then conjugate like a る-verb → **泳げる**.",
+      "notes": [],
+      "translation": "I practise every day so that I can swim well."
+    }
+  ]
+}

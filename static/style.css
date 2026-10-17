@@ -292,3 +292,22 @@ details.qgroup > summary > span:first-child { flex: 1; }
   body.home .sub { display: none; }
   body.home h1 { font-size: 1.3rem; }
 }
+
+/* ---------- typed answers ---------- */
+.typed { display: grid; gap: 8px; margin-top: 8px; }
+.typed input {
+  font: inherit; font-size: 1.25rem; color: var(--text); background: var(--card);
+  border: 2px solid var(--border); border-radius: 12px; padding: 12px 14px; width: 100%;
+}
+.typed input:focus { outline: none; border-color: var(--accent); }
+.typed input.correct { border-color: var(--good); background: var(--good-soft); }
+.typed input.wrong { border-color: var(--bad); background: var(--bad-soft); }
+.kana-preview { min-height: 1.2em; font-size: 1rem; }
+.typed-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.hint-box { background: var(--note-soft); color: var(--note); border-radius: 10px; padding: 8px 12px; font-size: 0.95rem; }
+
+.review-banner {
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  background: var(--good-soft); border: 1.5px solid var(--good); border-radius: 12px;
+  padding: 10px 14px; color: var(--text); text-decoration: none; margin-bottom: 12px;
+}

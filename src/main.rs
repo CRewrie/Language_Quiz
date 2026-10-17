@@ -70,8 +70,16 @@ struct Point {
 #[derive(Deserialize, Serialize, Clone)]
 struct Question {
     prompt: String,
+    #[serde(default)]
     options: Vec<String>,
+    #[serde(default)]
     answer: usize,
+    /// Typed-answer question: every accepted spelling (e.g. kanji and kana). Options stay empty.
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    accept: Vec<String>,
+    /// Optional hint for typed answers (e.g. the first kana), shown on request.
+    #[serde(default, skip_serializing_if = "String::is_empty")]
+    hint: String,
     /// The grammar point behind the correct answer.
     explanation: String,
     /// One note per option: why that option is wrong (empty for the correct one).
@@ -183,6 +191,8 @@ fn to_traditional(quiz: &Quiz) -> Quiz {
         question.options = question.options.iter().map(|o| t(o)).collect();
         question.explanation = t(&question.explanation);
         question.notes = question.notes.iter().map(|n| t(n)).collect();
+        question.accept = question.accept.iter().map(|a| t(a)).collect();
+        question.hint = t(&question.hint);
     }
     q
 }
@@ -209,6 +219,11 @@ struct PublicQuestion<'a> {
     options: &'a [String],
     #[serde(skip_serializing_if = "std::ops::Not::not")]
     fixed_order: bool,
+    /// The answer is typed rather than chosen.
+    #[serde(skip_serializing_if = "std::ops::Not::not")]
+    input: bool,
+    #[serde(skip_serializing_if = "str::is_empty")]
+    hint: &'a str,
     /// Used only to order questions; never sent to the browser.
     #[serde(skip)]
     answer_text: &'a str,
@@ -233,6 +248,9 @@ struct CheckRequest {
     index: usize,
     /// `None` means "わかりません".
     choice: Option<usize>,
+    /// The typed answer, for questions with `accept`.
+    #[serde(default)]
+    text: Option<String>,
     #[serde(default)]
     script: Script,
 }
@@ -246,8 +264,23 @@ struct CheckResponse<'a> {
     note: Option<&'a str>,
     /// One note per option (empty for the correct one), so every option can be reviewed afterwards.
     notes: &'a [String],
+    /// Accepted answers of a typed question (to show the right one afterwards).
+    #[serde(skip_serializing_if = "<[String]>::is_empty")]
+    accepted: &'a [String],
     translation: &'a str,
     point: Option<&'a Point>,
+}
+
+/// Lenient comparison for typed answers: ignores spaces, punctuation and case, and treats
+/// katakana like hiragana. The browser converts romaji to kana before sending.
+fn normalize_answer(text: &str) -> String {
+    text.chars()
+        .filter(|c| !c.is_whitespace() && !"。、．，.,!?！？「」『』（）()…".contains(*c))
+        .map(|c| match c {
+            'ァ'..='ヶ' => char::from_u32(c as u32 - 0x60).unwrap_or(c),
+            _ => c.to_lowercase().next().unwrap_or(c),
+        })
+        .collect()
 }
 
 #[derive(Deserialize)]
@@ -269,7 +302,9 @@ fn public_questions(quiz: &Quiz) -> Vec<PublicQuestion<'_>> {
             prompt: &q.prompt,
             options: &q.options,
             fixed_order: q.fixed_order,
-            answer_text: &q.options[q.answer],
+            input: !q.accept.is_empty(),
+            hint: &q.hint,
+            answer_text: q.accept.first().unwrap_or_else(|| &q.options[q.answer]),
             point: q.point.as_deref(),
         })
         .collect()
@@ -437,7 +472,12 @@ async fn check(State(state): State<Shared>, Json(req): Json<CheckRequest>) -> Re
     let Some(q) = quiz.questions.get(req.index) else {
         return (StatusCode::NOT_FOUND, "question not found").into_response();
     };
-    let correct = req.choice == Some(q.answer);
+    let correct = if q.accept.is_empty() {
+        req.choice == Some(q.answer)
+    } else {
+        let given = req.text.as_deref().map(normalize_answer).unwrap_or_default();
+        !given.is_empty() && q.accept.iter().any(|a| normalize_answer(a) == given)
+    };
     let note = match req.choice {
         Some(c) if !correct => q.notes.get(c).map(String::as_str).filter(|n| !n.is_empty()),
         _ => None,
@@ -448,6 +488,7 @@ async fn check(State(state): State<Shared>, Json(req): Json<CheckRequest>) -> Re
         explanation: &q.explanation,
         note,
         notes: &q.notes,
+        accepted: &q.accept,
         translation: &q.translation,
         point: quiz.point(q.point.as_deref()),
     })
@@ -490,7 +531,7 @@ fn load_quizzes(dir: &Path) -> Result<Vec<Quiz>, String> {
         let quiz: Quiz =
             serde_json::from_str(&text).map_err(|e| format!("{}: {e}", path.display()))?;
         for (i, q) in quiz.questions.iter().enumerate() {
-            if q.answer >= q.options.len() {
+            if q.accept.is_empty() && q.answer >= q.options.len() {
                 return Err(format!("{}: question {} has an out-of-range answer", path.display(), i + 1));
             }
             if !q.notes.is_empty() && q.notes.len() != q.options.len() {
