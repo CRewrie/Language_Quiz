@@ -124,7 +124,7 @@
       "options": [
         "{非常|fēicháng}",
         "{更|gèng}",
-        "{太|tài}",
+        "{最|zuì}",
         "{很|hěn}"
       ],
       "answer": 1,
@@ -132,7 +132,7 @@
       "notes": [
         "非常 can't be used with 比.",
         "",
-        "太 can't be used with 比.",
+        "最 can't be used with 比.",
         "很 can't be used with 比."
       ],
       "translation": "Today is even colder than yesterday."
@@ -160,7 +160,7 @@
       "point": "meiyou_comp",
       "prompt": "{北京|Běijīng}{的|de}{冬天|dōngtiān}（　）{哈尔滨|Hā'ěrbīn}{冷|lěng}。",
       "options": [
-        "{不要|búyào}",
+        "{跟|gēn}",
         "{没有|méiyǒu}",
         "{不是|búshì}",
         "{不有|bù yǒu}"
@@ -168,7 +168,7 @@
       "answer": 1,
       "explanation": "Not as … as: **没有**.",
       "notes": [
-        "不要 = 'don't'.",
+        "跟 needs 一样 to compare (跟…一样冷).",
         "",
         "不是 doesn't make comparisons.",
         "不有 doesn't exist."
@@ -255,7 +255,7 @@
       "point": "duo",
       "prompt": "A：{你|nǐ}（　）{高|gāo}？\nB：{一|yì}{米|mǐ}{八|bā}。",
       "options": [
-        "{什么|shénme}",
+        "{比|bǐ}",
         "{几|jǐ}",
         "{怎么|zěnme}",
         "{多|duō}"
@@ -263,7 +263,7 @@
       "answer": 3,
       "explanation": "How + adj: **多**.",
       "notes": [
-        "什么高 isn't grammatical.",
+        "比 needs a second noun (比他高).",
         "几高 isn't grammatical.",
         "怎么高 = 'how come (you're) tall'.",
         ""
@@ -275,7 +275,7 @@
       "prompt": "{长城|Chángchéng}{有|yǒu}（　）{长|cháng}？",
       "options": [
         "{怎么|zěnme}",
-        "{哪|nǎ}",
+        "{比|bǐ}",
         "{多|duō}",
         "{几|jǐ}"
       ],
@@ -283,7 +283,7 @@
       "explanation": "**有多 + adj**?",
       "notes": [
         "怎么长 = 'how does it grow'.",
-        "哪长 isn't grammatical.",
+        "比 needs a second noun.",
         "",
         "几长 isn't grammatical."
       ],

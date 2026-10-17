@@ -136,7 +136,7 @@
         "といい",
         "といって",
         "といえば",
-        "としても"
+        "といわず"
       ],
       "answer": 0,
       "explanation": "Both A and B: **といい…といい**.",
@@ -144,7 +144,7 @@
         "",
         "といって = 'saying'.",
         "といえば = 'speaking of'.",
-        "としても = 'even if'."
+        "といわず pairs with といわず, not with といい."
       ],
       "translation": "The taste, the price — this place is the best."
     },
@@ -212,7 +212,7 @@
         "だの",
         "やら",
         "とか",
-        "なり"
+        "といい"
       ],
       "answer": 0,
       "explanation": "Grumbling list: **だの…だの**.",
@@ -220,7 +220,7 @@
         "",
         "やら pairs with やら.",
         "とか pairs with とか.",
-        "なり pairs with なり."
+        "といい pairs with といい and gives praise or criticism — not a list of complaints."
       ],
       "translation": "She's always complaining — she's busy, she's tired …"
     },

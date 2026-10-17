@@ -110,7 +110,7 @@
         "からこそ",
         "からすると",
         "からには",
-        "からといって"
+        "としては"
       ],
       "answer": 1,
       "explanation": "Judging from evidence: **からすると**.",
@@ -118,7 +118,7 @@
         "からこそ = 'precisely because'.",
         "",
         "からには = 'now that'.",
-        "からといって = 'just because'."
+        "としては = 'speaking as (someone)' — not a guess based on evidence."
       ],
       "translation": "Judging from the way he talks, he's probably from Kansai."
     },
@@ -129,7 +129,7 @@
         "から{見|み}ると",
         "から{聞|き}くと",
         "から{出|で}ると",
-        "から{来|く}ると"
+        "にしたら"
       ],
       "answer": 0,
       "explanation": "Seen from: **から見ると**.",
@@ -137,7 +137,7 @@
         "",
         "から聞くと = 'when hearing from'.",
         "から出ると = 'when leaving'.",
-        "から来ると = 'coming from'."
+        "子供の目にしたら isn't natural — にしたら follows a person, not 目."
       ],
       "translation": "From a child's point of view, the adult world is strange."
     },
@@ -148,7 +148,7 @@
         "からこそ",
         "からには",
         "からして",
-        "からといって"
+        "{上|じょう}"
       ],
       "answer": 2,
       "explanation": "Judging even from: **からして**.",
@@ -156,7 +156,7 @@
         "からこそ = 'precisely because'.",
         "からには = 'now that'.",
         "",
-        "からといって = 'just because'."
+        "上 (じょう) = 'in terms of' (健康上) — it doesn't give evidence for a guess."
       ],
       "translation": "Even from the title, it looks like an interesting book."
     },
@@ -260,7 +260,7 @@
       "prompt": "{親|おや}（　）、{子供|こども}の{安全|あんぜん}が{一番|いちばん}{大事|だいじ}だ。",
       "options": [
         "からといって",
-        "からには",
+        "からして",
         "からこそ",
         "からすれば"
       ],
@@ -268,7 +268,7 @@
       "explanation": "From the standpoint of: **からすれば**.",
       "notes": [
         "からといって = 'just because'.",
-        "からには = 'now that'.",
+        "からして = 'judging from / to begin with' — not 'from someone's standpoint'.",
         "からこそ = 'precisely because'.",
         ""
       ],
@@ -300,7 +300,7 @@
         "からといって",
         "からして",
         "からこそ",
-        "からには"
+        "{上|じょう}"
       ],
       "answer": 1,
       "explanation": "Even judging from: **からして**.",
@@ -308,7 +308,7 @@
         "からといって = 'just because'.",
         "",
         "からこそ = 'precisely because'.",
-        "からには = 'now that'."
+        "服装上 isn't natural — 上 (じょう) is for areas like 健康上, 仕事上."
       ],
       "translation": "Even just from his clothes, that guy looks suspicious."
     },

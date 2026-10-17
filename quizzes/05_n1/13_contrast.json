@@ -147,7 +147,7 @@
       "point": "worth",
       "prompt": "{彼|かれ}の{作品|さくひん}は、プロの{鑑賞|かんしょう}（　）{水準|すいじゅん}に{達|たっ}している。",
       "options": [
-        "を{禁|きん}じ{得|え}ない",
+        "に{足|た}りない",
         "にたえる",
         "にあたらない",
         "には{及|およ}ばない"
@@ -155,7 +155,7 @@
       "answer": 1,
       "explanation": "Good enough for: **にたえる**.",
       "notes": [
-        "を禁じ得ない is for emotions.",
+        "鑑賞に足りない would contradict 'has reached a professional level'.",
         "",
         "にあたらない = 'no need to'.",
         "には及ばない = 'no need / not a match'."

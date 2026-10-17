@@ -217,7 +217,7 @@
         "{以来|いらい}",
         "{以内|いない}",
         "{以前|いぜん}",
-        "{以上|いじょう}"
+        "{上|うえ}で"
       ],
       "answer": 0,
       "explanation": "Ever since: **て以来**.",
@@ -225,7 +225,7 @@
         "",
         "以内 = 'within'.",
         "以前 = 'before'.",
-        "以上 = 'more than / now that'."
+        "上で follows the た-form ({来|き}た上で) and means 'after (doing it properly)'."
       ],
       "translation": "Since coming to Japan, I haven't been home once."
     },
@@ -388,7 +388,7 @@
         "{以来|いらい}",
         "{以前|いぜん}",
         "{以内|いない}",
-        "{以上|いじょう}"
+        "{上|うえ}で"
       ],
       "answer": 0,
       "explanation": "Ever since: **て以来**.",
@@ -396,7 +396,7 @@
         "",
         "以前 = 'before'.",
         "以内 = 'within'.",
-        "以上 = 'now that / more than'."
+        "上で follows the た-form and means 'after (doing it properly)' — not 'ever since'."
       ],
       "translation": "I haven't seen him since we graduated."
     },

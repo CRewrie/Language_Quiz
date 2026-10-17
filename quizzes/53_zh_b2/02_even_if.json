@@ -80,7 +80,7 @@
       "prompt": "（　）{再|zài}{忙|máng}，{你|nǐ}{也|yě}{要|yào}{按时|ànshí}{吃饭|chīfàn}。",
       "options": [
         "{只要|zhǐyào}",
-        "{因为|yīnwèi}",
+        "{任何|rènhé}",
         "{哪怕|nǎpà}",
         "{除非|chúfēi}"
       ],
@@ -88,7 +88,7 @@
       "explanation": "Even if (extreme): **哪怕…也**.",
       "notes": [
         "只要 pairs with 就.",
-        "因为 = 'because'.",
+        "任何 must come before a noun (任何人).",
         "",
         "除非 = 'unless'."
       ],

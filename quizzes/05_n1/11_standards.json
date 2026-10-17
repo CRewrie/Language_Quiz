@@ -98,7 +98,7 @@
         "にかけて",
         "に{加|くわ}えて",
         "にひきかえ",
-        "に{沿|そ}って"
+        "に{即|そく}して"
       ],
       "answer": 2,
       "explanation": "In contrast to: **にひきかえ**.",
@@ -106,7 +106,7 @@
         "にかけて = 'when it comes to / over (a period)'.",
         "に加えて = 'in addition to'.",
         "",
-        "に沿って = 'along / in line with'."
+        "に即して = 'in line with (facts)' — it doesn't contrast two people."
       ],
       "translation": "Unlike his hard-working older brother, the younger one is lazy."
     },
@@ -134,7 +134,7 @@
       "prompt": "この{仕事|しごと}を{任|まか}せられるのは、{彼|かれ}（　）ほかにいない。",
       "options": [
         "を{通|つう}じて",
-        "をめぐって",
+        "はさておき",
         "をおいて",
         "をもって"
       ],
@@ -142,7 +142,7 @@
       "explanation": "No one but: **をおいてほかにいない**.",
       "notes": [
         "を通じて = 'through'.",
-        "をめぐって = 'concerning (a dispute)'.",
+        "はさておき = 'setting aside' — it can't combine with ほかにいない.",
         "",
         "をもって = 'by means of / as of'."
       ],

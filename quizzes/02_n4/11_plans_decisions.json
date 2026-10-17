@@ -411,7 +411,7 @@
         "{予定|よてい}",
         "つもり",
         "ため",
-        "ほう"
+        "こと"
       ],
       "answer": 0,
       "explanation": "A schedule for a thing (a train) → **予定**.",
@@ -419,7 +419,7 @@
         "",
         "つもり is a *person's* intention — trains don't intend.",
         "ため ('for / because') doesn't fit.",
-        "ほうです isn't the schedule pattern."
+        "{着|つ}くことです = 'it's arriving (that matters)' — not a timetable."
       ],
       "translation": "The train is scheduled to arrive at 10."
     }

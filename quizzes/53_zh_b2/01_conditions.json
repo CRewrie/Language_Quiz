@@ -162,7 +162,7 @@
       "options": [
         "{所以|suǒyǐ}",
         "{而且|érqiě}",
-        "{因为|yīnwèi}",
+        "{才|cái}",
         "{否则|fǒuzé}"
       ],
       "answer": 3,
@@ -170,7 +170,7 @@
       "notes": [
         "所以 = 'so'.",
         "而且 = 'moreover'.",
-        "因为 = 'because'.",
+        "才 goes after the subject (我们才…) and pairs with 除非 for 'only if'.",
         ""
       ],
       "translation": "Unless it pours, we're definitely going tomorrow."

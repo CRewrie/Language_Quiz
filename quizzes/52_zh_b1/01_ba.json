@@ -62,7 +62,7 @@
       "options": [
         "{把|bǎ}",
         "{被|bèi}",
-        "{对|duì}",
+        "{没|méi}",
         "{让|ràng}"
       ],
       "answer": 0,
@@ -70,7 +70,7 @@
       "notes": [
         "",
         "被 makes it passive: 'please be closed by the door'.",
-        "对门 = 'towards the door / opposite'.",
+        "没 goes before 把 in a negative — but this is a request.",
         "让门关上 = 'let the door close'."
       ],
       "translation": "Please close the door."

@@ -251,7 +251,7 @@
         "{把|bǎ}",
         "{使|shǐ}",
         "{被|bèi}",
-        "{对|duì}"
+        "{请|qǐng}"
       ],
       "answer": 1,
       "explanation": "Cause: **使**.",
@@ -259,7 +259,7 @@
         "把大家都很高兴 isn't grammatical (no action verb).",
         "",
         "被 = passive — the news didn't suffer.",
-        "对大家都很高兴 isn't grammatical."
+        "请 = 'invite / please' — news can't invite people."
       ],
       "translation": "This good news made everyone very happy."
     },

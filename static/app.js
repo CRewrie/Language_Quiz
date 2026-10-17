@@ -259,7 +259,7 @@ async function setScript(sc) {
   s.results.forEach(r => update(r.q));
   if (s.key.startsWith("quiz:") || s.key.startsWith("retry|quiz:")) {
     const quiz = quizzes.get(ids[0]);
-    s.title = s.key.startsWith("retry|") ? `${quiz.title} (mistakes)` : quiz.title;
+    s.title = s.key.startsWith("retry|") ? `${shortTitle(quiz.title)} (mistakes)` : quiz.title;
   }
   const answered = s.results.length > s.pos;
   if (answered) {
@@ -630,7 +630,7 @@ function showQuestion() {
       <span class="key">${LETTERS[i]}</span><span>${render(q.options[orig])}</span>
     </button>`).join("");
   app.innerHTML = `
-    <h1>${render(s.title)}</h1>
+    <h1>${render(shortTitle(s.title))}</h1>
     <div class="progress-label"><span>Question ${s.pos + 1} / ${s.questions.length}</span><span>${correctSoFar} correct</span></div>
     <div class="progress"><div style="width:${(s.pos / s.questions.length) * 100}%"></div></div>
     <div class="question">
@@ -766,7 +766,7 @@ function showResults() {
       ${r.point ? guideHtml(r.point) : ""}
     </div>`).join("");
   app.innerHTML = `
-    <h1>${render(s.title)}: results</h1>
+    <h1>${render(shortTitle(s.title))}: results</h1>
     <p class="score-big">${correct} / ${s.results.length}</p>
     <p class="sub">${pct}% · ${pct === 100 ? "完璧！ Perfect score." : pct >= 80 ? "よくできました！ Well done." : pct >= 50 ? "もう少し！ Getting there." : "がんばって！ Review the points below and try again."}</p>
     <div class="actions" style="justify-content:flex-start">
@@ -777,7 +777,7 @@ function showResults() {
     ${mistakes.length ? `<h2 class="section-title">Review</h2>${review}` : ""}`;
   const retry = document.getElementById("retry");
   if (retry) retry.addEventListener("click", () =>
-    startSession({ id: "retry", title: `${s.title} (mistakes)` }, shuffled(mistakes.map(r => r.q)), `retry|${baseKey(s.key)}`));
+    startSession({ id: "retry", title: `${shortTitle(s.title)} (mistakes)` }, shuffled(mistakes.map(r => r.q)), `retry|${baseKey(s.key)}`));
   document.getElementById("again").addEventListener("click", () => restart(baseKey(s.key)));
   window.scrollTo(0, 0);
 }

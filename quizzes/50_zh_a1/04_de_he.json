@@ -41,7 +41,7 @@
       "prompt": "{这|zhè}{是|shì}{我|wǒ}（　）{书|shū}。",
       "options": [
         "{得|de}",
-        "{了|le}",
+        "{和|hé}",
         "{的|de}",
         "{地|de}"
       ],
@@ -49,7 +49,7 @@
       "explanation": "Possession: **的**.",
       "notes": [
         "得 links a verb with how well it's done.",
-        "了 marks completion.",
+        "和 links two nouns — 我和书 isn't 'my book'.",
         "",
         "地 turns an adjective into an adverb."
       ],
@@ -100,7 +100,7 @@
         "{也|yě}",
         "{都|dōu}",
         "{和|hé}",
-        "{还|hái}"
+        "{的|de}"
       ],
       "answer": 2,
       "explanation": "Noun **和** noun.",
@@ -108,7 +108,7 @@
         "也 goes before the verb, not between nouns.",
         "都 is already there before 喜欢.",
         "",
-        "还 = 'still / also' before verbs."
+        "我的我妹妹 isn't grammatical — 的 shows possession."
       ],
       "translation": "My little sister and I both like cats."
     },

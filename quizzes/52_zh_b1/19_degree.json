@@ -122,7 +122,7 @@
       "point": "ting",
       "prompt": "{这|zhè}{件|jiàn}{衣服|yīfu}（　）{漂亮|piàoliang}{的|de}，{你|nǐ}{穿|chuān}{上|shang}{试试|shìshi}。",
       "options": [
-        "{最|zuì}",
+        "{极了|jí le}",
         "{挺|tǐng}",
         "{更|gèng}",
         "{太|tài}"
@@ -130,7 +130,7 @@
       "answer": 1,
       "explanation": "Quite: **挺…的**.",
       "notes": [
-        "最漂亮的 would need 是.",
+        "极了 goes after the adjective (漂亮极了).",
         "",
         "更 needs a comparison.",
         "太…的 isn't the pattern (太…了)."
@@ -239,7 +239,7 @@
         "{都|dōu}",
         "{很|hěn}",
         "{全|quán}",
-        "{太|tài}"
+        "{比较|bǐjiào}"
       ],
       "answer": 2,
       "explanation": "The whole: **全**.",
@@ -247,7 +247,7 @@
         "都 goes before the verb, not the noun.",
         "很 can't modify 家人.",
         "",
-        "太 can't modify 家人."
+        "比较 goes before adjectives / verbs, not before 家人."
       ],
       "translation": "The whole family loves this puppy."
     },
@@ -255,7 +255,7 @@
       "point": "quan",
       "prompt": "{老师|lǎoshī}{把|bǎ}（　）{班|bān}{的|de}{作业|zuòyè}{都|dōu}{改|gǎi}{完|wán}{了|le}。",
       "options": [
-        "{最|zuì}",
+        "{比较|bǐjiào}",
         "{全|quán}",
         "{很|hěn}",
         "{都|dōu}"
@@ -263,7 +263,7 @@
       "answer": 1,
       "explanation": "The whole class: **全班**.",
       "notes": [
-        "最班 isn't grammatical.",
+        "比较 goes before adjectives / verbs, not before 班.",
         "",
         "很班 isn't grammatical.",
         "都 goes before the verb."

@@ -144,7 +144,7 @@
       "prompt": "{这个|zhège}{问题|wèntí}{太|tài}{简单|jiǎndān}{了|le}，{连|lián}{小孩子|xiǎo háizi}（　）{知道|zhīdào}。",
       "options": [
         "{就|jiù}",
-        "{还|hái}",
+        "{是|shì}",
         "{才|cái}",
         "{都|dōu}"
       ],
@@ -152,7 +152,7 @@
       "explanation": "Even: **连…都**.",
       "notes": [
         "The pair is 连…都 / 也.",
-        "The pair is 连…都 / 也.",
+        "连 pairs with 都 / 也, not 是.",
         "The pair is 连…都 / 也.",
         ""
       ],
@@ -162,7 +162,7 @@
       "point": "liandou",
       "prompt": "{他|tā}{今天|jīntiān}{忙|máng}{得|de}{连|lián}{饭|fàn}（　）{没|méi}{吃|chī}。",
       "options": [
-        "{又|yòu}",
+        "{是|shì}",
         "{才|cái}",
         "{都|dōu}",
         "{就|jiù}"
@@ -170,7 +170,7 @@
       "answer": 2,
       "explanation": "**连…都没**.",
       "notes": [
-        "又没吃 = 'didn't eat again'.",
+        "连 pairs with 都 / 也, not 是.",
         "连…才 isn't the pattern.",
         "",
         "连…就 isn't the pattern."

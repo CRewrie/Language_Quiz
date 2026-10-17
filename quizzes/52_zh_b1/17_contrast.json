@@ -120,7 +120,7 @@
         "{以后|yǐhòu}",
         "{以前|yǐqián}",
         "{后来|hòulái}",
-        "{时间|shíjiān}"
+        "{中间|zhōngjiān}"
       ],
       "answer": 0,
       "explanation": "After (完成): **了…以后**.",
@@ -128,7 +128,7 @@
         "",
         "Before arriving you can't report arriving.",
         "后来 can't follow a verb.",
-        "时间 = 'time' (a noun)."
+        "中间 = 'middle (position)' — not 'after'."
       ],
       "translation": "Text me after you get to Beijing."
     },

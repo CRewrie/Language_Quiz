@@ -24,8 +24,25 @@ def quiz(fname, id, title, description, points, questions):
                  "level": "N1", "points": points, "questions": questions}
 
 
+def apply_fixes(d):
+    """tools/distractor_fixes.json: swap a wrong option for another point of the same quiz."""
+    import os, re
+    plain = lambda t: re.sub(r"\{([^|{}]+)\|[^{}]+\}", r"\1", t)
+    fixes = json.load(open(os.path.join(os.path.dirname(__file__), "distractor_fixes.json"), encoding="utf-8"))["fixes"]
+    for f in fixes:
+        if f["quiz"] != d["id"]:
+            continue
+        q = d["questions"][f["i"]]
+        opts = [plain(o) for o in q["options"]]
+        j = opts.index(f["old"])
+        assert j != q["answer"] and plain(f["new"]) not in opts, (d["id"], f)
+        q["options"][j], q["notes"][j] = f["new"], f["note"]
+
+
 def write(folder, seed):
     random.seed(seed)
+    for d in QZ.values():
+        apply_fixes(d)
     for fname, d in QZ.items():
         ids = {p["id"] for p in d["points"]}
         cnt = collections.Counter(q["point"] for q in d["questions"])

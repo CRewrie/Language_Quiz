@@ -212,7 +212,7 @@
         "だけ",
         "まで",
         "ばかり",
-        "から"
+        "くらいなら"
       ],
       "answer": 1,
       "explanation": "Go so far as to: **てまで**.",
@@ -220,7 +220,7 @@
         "借金をしてだけ isn't grammatical.",
         "",
         "借金をしてばかり = 'always borrowing'.",
-        "借金をしてから = 'after taking a loan'."
+        "くらいなら follows the dictionary form (借金するくらいなら), not the て-form."
       ],
       "translation": "There's no need to go into debt just to buy a car."
     },

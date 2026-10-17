@@ -91,7 +91,7 @@
       "prompt": "{英語|えいご}を{教|おし}える（　）、{日本語|にほんご}を{教|おし}えてもらった。",
       "options": [
         "うちに",
-        "とおり",
+        "{向|む}けに",
         "ために",
         "{代|か}わりに"
       ],
@@ -99,7 +99,7 @@
       "explanation": "In exchange for: **代わりに**.",
       "notes": [
         "うちに = 'while'.",
-        "とおり = 'as'.",
+        "向け follows a noun ({子供|こども}{向|む}け), not a verb.",
         "ために = 'in order to / because' — doesn't express an exchange.",
         ""
       ],
@@ -129,7 +129,7 @@
       "prompt": "{今日|きょう}は{母|はは}（　）、{私|わたし}が{料理|りょうり}を{作|つく}った。",
       "options": [
         "によって",
-        "について",
+        "だけ",
         "にとって",
         "に{代|か}わって"
       ],
@@ -137,7 +137,7 @@
       "explanation": "In place of: **に代わって**.",
       "notes": [
         "によって = 'by / depending on'.",
-        "について = 'about'.",
+        "{母|はは}だけ = 'only mother' — it clashes with {私|わたし}が.",
         "にとって = 'for (someone)'.",
         ""
       ],
@@ -187,7 +187,7 @@
       "options": [
         "{向|む}かって",
         "{向|む}かい",
-        "{向|む}こう",
+        "{代|か}わり",
         "{向|む}け"
       ],
       "answer": 3,
@@ -195,7 +195,7 @@
       "notes": [
         "向かって = 'facing / toward'.",
         "向かい = 'opposite'.",
-        "向こう = 'over there'.",
+        "代わりに needs の ({子供|こども}の代わりに) and means 'instead of'.",
         ""
       ],
       "translation": "This is a book made for children."
@@ -223,7 +223,7 @@
       "point": "dake2",
       "prompt": "{好|す}きな（　）{食|た}べてください。",
       "options": [
-        "まで",
+        "{向|む}け",
         "しか",
         "ばかり",
         "だけ"
@@ -231,7 +231,7 @@
       "answer": 3,
       "explanation": "As much as you like: **好きなだけ**.",
       "notes": [
-        "好きなまで isn't grammatical.",
+        "向け follows a noun ({大人|おとな}{向|む}け).",
         "しか needs a negative.",
         "好きなばかり isn't a phrase.",
         ""
@@ -244,7 +244,7 @@
       "options": [
         "しか",
         "だけ",
-        "ほど",
+        "{代|か}わりに",
         "ばかり"
       ],
       "answer": 1,
@@ -252,7 +252,7 @@
       "notes": [
         "できるしか isn't a phrase.",
         "",
-        "できるほど isn't the fixed phrase.",
+        "できる代わりに = 'in exchange for being able' — not 'as … as possible'.",
         "できるばかり isn't a phrase."
       ],
       "translation": "Please come as early as possible."
@@ -282,7 +282,7 @@
       "options": [
         "{向|む}け",
         "{向|む}かい",
-        "{向|む}こう",
+        "{代|か}わり",
         "{向|む}かって"
       ],
       "answer": 0,
@@ -290,7 +290,7 @@
       "notes": [
         "",
         "向かい = 'opposite'.",
-        "向こう = 'over there'.",
+        "大人代わり isn't a phrase — 代わり means 'instead of'.",
         "向かって = 'toward'."
       ],
       "translation": "This programme is aimed at adults."
@@ -299,7 +299,7 @@
       "point": "dake2",
       "prompt": "{食|た}べられる（　）{食|た}べてください。",
       "options": [
-        "まで",
+        "{向|む}け",
         "だけ",
         "しか",
         "ばかり"
@@ -307,7 +307,7 @@
       "answer": 1,
       "explanation": "As much as possible: **〜られるだけ**.",
       "notes": [
-        "食べられるまで = 'until you can eat'.",
+        "向け follows a noun, not a verb.",
         "",
         "しか needs a negative.",
         "食べられるばかり isn't a phrase."

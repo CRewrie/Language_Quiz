@@ -89,7 +89,7 @@
       "options": [
         "といった",
         "という",
-        "とする",
+        "というと",
         "として"
       ],
       "answer": 1,
@@ -97,7 +97,7 @@
       "notes": [
         "といった = 'such as'.",
         "",
-        "とする can't modify 人 here.",
+        "というと = 'speaking of' — it can't link 何千 to 人.",
         "として = 'as (a role)'."
       ],
       "translation": "Thousands of people came to the concert."
@@ -258,7 +258,7 @@
       "point": "toiu",
       "prompt": "100{万円|まんえん}（　）お{金|かね}を{落|お}としてしまった。",
       "options": [
-        "とする",
+        "というより",
         "といった",
         "として",
         "という"
@@ -266,7 +266,7 @@
       "answer": 3,
       "explanation": "Emphasising an amount: **という**.",
       "notes": [
-        "とする can't modify お金 here.",
+        "というより = 'rather than' — it can't link a sum to お{金|かね}.",
         "といった = 'such as'.",
         "として = 'as (a role)'.",
         ""

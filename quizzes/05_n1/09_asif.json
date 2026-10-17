@@ -250,7 +250,7 @@
         "まみれの",
         "じみた",
         "ずくめの",
-        "じまいの"
+        "ごとき"
       ],
       "answer": 1,
       "explanation": "Smacking of: **じみた**.",
@@ -258,7 +258,7 @@
         "まみれ = 'covered in'.",
         "",
         "ずくめ = 'nothing but'.",
-        "じまい = 'ended up not doing'."
+        "ごとき = 'like / the likes of' — 子供ごとき isn't 'childish'."
       ],
       "translation": "You're an adult — stop saying such childish things."
     },
@@ -342,7 +342,7 @@
       "point": "nagarani",
       "prompt": "{彼女|かのじょ}は{涙|なみだ}（　）{事情|じじょう}を{語|かた}った。",
       "options": [
-        "ずくめに",
+        "とばかりに",
         "ながらに",
         "まみれに",
         "ながらも"
@@ -350,7 +350,7 @@
       "answer": 1,
       "explanation": "In tears: **涙ながらに**.",
       "notes": [
-        "ずくめ = 'nothing but'.",
+        "とばかりに follows a quote ('…' とばかりに), not 涙.",
         "",
         "まみれ = 'covered in (dirt / blood)'.",
         "涙ながらも isn't the phrase."

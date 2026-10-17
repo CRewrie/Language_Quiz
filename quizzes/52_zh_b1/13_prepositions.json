@@ -325,7 +325,7 @@
       "prompt": "{直到|zhídào}{十二|shí'èr}{点|diǎn}，{他|tā}（　）{回|huí}{家|jiā}。",
       "options": [
         "{才|cái}",
-        "{又|yòu}",
+        "{对|duì}",
         "{就|jiù}",
         "{都|dōu}"
       ],
@@ -333,7 +333,7 @@
       "explanation": "Not until: **直到…才**.",
       "notes": [
         "",
-        "又 = 'again'.",
+        "对 is a preposition — 他对回家 isn't grammatical.",
         "直到 pairs with 才.",
         "都 doesn't fit."
       ],

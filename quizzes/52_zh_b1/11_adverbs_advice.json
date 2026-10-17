@@ -160,7 +160,7 @@
       "point": "xianzai",
       "prompt": "{我们|wǒmen}{先|xiān}{吃饭|chīfàn}，（　）{去|qù}{看|kàn}{电影|diànyǐng}。",
       "options": [
-        "{才|cái}",
+        "{先|xiān}",
         "{再|zài}",
         "{又|yòu}",
         "{就|jiù}"
@@ -168,7 +168,7 @@
       "answer": 1,
       "explanation": "First … then: **先…再**.",
       "notes": [
-        "才去 = 'only then go' — the pair is 先…再.",
+        "先 marks the first step — the second step takes 再.",
         "",
         "又 is for things that already happened.",
         "先…就 isn't the pattern."
@@ -239,7 +239,7 @@
         "{同样|tóngyàng}",
         "{互相|hùxiāng}",
         "{一样|yíyàng}",
-        "{一下|yíxià}"
+        "{够|gòu}"
       ],
       "answer": 1,
       "explanation": "Each other: **互相**.",
@@ -247,7 +247,7 @@
         "同样帮助 = 'help in the same way'.",
         "",
         "一样帮助 isn't natural.",
-        "一下 goes after a verb."
+        "够 = 'enough' — it doesn't mean 'each other'."
       ],
       "translation": "We're good friends and often help each other."
     },
@@ -274,7 +274,7 @@
       "point": "gou",
       "prompt": "{这些|zhèxiē}{钱|qián}（　）{买|mǎi}{一|yì}{台|tái}{电脑|diànnǎo}{吗|ma}？",
       "options": [
-        "{很|hěn}",
+        "{互相|hùxiāng}",
         "{够|gòu}",
         "{多|duō}",
         "{少|shǎo}"
@@ -282,7 +282,7 @@
       "answer": 1,
       "explanation": "Enough to: **够**.",
       "notes": [
-        "很买 isn't grammatical.",
+        "互相 = 'each other' — money can't do that.",
         "",
         "多买 = 'buy more'.",
         "少买 = 'buy less'."

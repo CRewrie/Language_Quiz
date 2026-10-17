@@ -392,7 +392,7 @@
       "point": "nasai",
       "prompt": "（Exam instruction）{正|ただ}しいものを{一|ひと}つ{選|えら}び（　）。",
       "options": [
-        "たい",
+        "ないで",
         "ましょう",
         "なさい",
         "ください"
@@ -400,7 +400,7 @@
       "answer": 2,
       "explanation": "Test instructions use **ます-stem + なさい**.",
       "notes": [
-        "選びたい means 'I want to choose'.",
+        "ないで follows the ない-form ({選|えら}ばないで), not the ます-stem.",
         "選びましょう ('let's choose') isn't the standard exam instruction.",
         "",
         "ください needs the て-form (選んでください)."

@@ -265,7 +265,7 @@
         "{从|cóng}",
         "{在|zài}",
         "{到|dào}",
-        "{离|lí}"
+        "{给|gěi}"
       ],
       "answer": 2,
       "explanation": "Until: **verb + 到 + time**.",
@@ -273,7 +273,7 @@
         "从 needs 到.",
         "学习在十二点 isn't grammatical.",
         "",
-        "离 = distance."
+        "给 = 'for / to (someone)' — it doesn't mean 'until'."
       ],
       "translation": "There's an exam tomorrow — I studied until midnight yesterday."
     },

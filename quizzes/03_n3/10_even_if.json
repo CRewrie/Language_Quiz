@@ -116,7 +116,7 @@
       "options": [
         "ば",
         "ても",
-        "たら",
+        "ながらも",
         "でも"
       ],
       "answer": 1,
@@ -124,7 +124,7 @@
       "notes": [
         "高くば isn't standard.",
         "",
-        "高くたら isn't a form.",
+        "ながらも follows the dictionary form or stem ({高|たか}いながらも), not 高く.",
         "い-adjectives take くても, not でも."
       ],
       "translation": "No matter how expensive it is, I'll buy this watch."
@@ -230,7 +230,7 @@
       "options": [
         "から",
         "ので",
-        "ために",
+        "ながらも",
         "くせに"
       ],
       "answer": 3,
@@ -238,7 +238,7 @@
       "notes": [
         "から = 'because' — illogical.",
         "ので = 'because' — illogical.",
-        "ために = 'because / in order to' — illogical.",
+        "ながらも attaches to the stem ({知|し}っていながらも), not 知っている.",
         ""
       ],
       "translation": "He knows, but he won't tell me."
@@ -305,7 +305,7 @@
       "prompt": "{初|はじ}めて{作|つく}った（　）、よくできている。",
       "options": [
         "として",
-        "について",
+        "くせに",
         "にしても",
         "にしては"
       ],
@@ -313,7 +313,7 @@
       "explanation": "For a (first attempt): **にしては**.",
       "notes": [
         "として = 'as (a role)'.",
-        "について = 'about'.",
+        "くせに blames someone — it doesn't fit praise like よくできている.",
         "にしても = 'even if' — doesn't fit a positive surprise.",
         ""
       ],
@@ -323,7 +323,7 @@
       "point": "nishitewa",
       "prompt": "{日本|にほん}に10{年|ねん}も{住|す}んでいる（　）、{日本語|にほんご}が{下手|へた}だ。",
       "options": [
-        "によって",
+        "ながらも",
         "にしては",
         "にとって",
         "として"
@@ -331,7 +331,7 @@
       "answer": 1,
       "explanation": "Unexpected given the fact: **にしては**.",
       "notes": [
-        "によって = 'by / depending on'.",
+        "ながらも attaches to the stem ({住|す}んでいながらも), not 住んでいる.",
         "",
         "にとって = 'for (someone)'.",
         "として = 'as'."

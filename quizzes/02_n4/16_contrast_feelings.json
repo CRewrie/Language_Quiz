@@ -172,7 +172,7 @@
         "のに",
         "ので",
         "のを",
-        "のは"
+        "ても"
       ],
       "answer": 0,
       "explanation": "Unexpected result → **のに** (even though).",
@@ -180,7 +180,7 @@
         "",
         "ので = 'because' — taking medicine isn't why the fever stays.",
         "のを can't connect clauses here.",
-        "飲んだのは = 'the fact that I took…' — sentence wouldn't work."
+        "ても attaches to the て-form ({飲|の}んでも), not 飲んだ."
       ],
       "translation": "Even though I took medicine, my fever still hasn't gone down."
     },

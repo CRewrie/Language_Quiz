@@ -96,7 +96,7 @@
       "point": "buguo",
       "prompt": "{这|zhè}{家|jiā}{饭馆|fànguǎn}{的|de}{菜|cài}{很|hěn}{好吃|hǎochī}，（　）{有点儿|yǒudiǎnr}{贵|guì}。",
       "options": [
-        "{因为|yīnwèi}",
+        "{结果|jiéguǒ}",
         "{所以|suǒyǐ}",
         "{而且|érqiě}",
         "{不过|búguò}"
@@ -104,7 +104,7 @@
       "answer": 3,
       "explanation": "Softer but: **不过**.",
       "notes": [
-        "因为 = 'because'.",
+        "结果 = 'as a result' — the price isn't caused by the taste.",
         "所以 = 'so' — not a contrast.",
         "而且 = 'and also' — 有点儿贵 is a drawback.",
         ""
@@ -249,7 +249,7 @@
       "prompt": "{我们|wǒmen}{上|shàng}{大学|dàxué}{的|de}{时候|shíhou}{是|shì}{好|hǎo}{朋友|péngyou}，（　）{他|tā}{去|qù}{了|le}{美国|Měiguó}，{就|jiù}{不|bù}{常|cháng}{联系|liánxì}{了|le}。",
       "options": [
         "{以前|yǐqián}",
-        "{最近|zuìjìn}",
+        "{以来|yǐlái}",
         "{后来|hòulái}",
         "{刚才|gāngcái}"
       ],
@@ -257,7 +257,7 @@
       "explanation": "Later on (past): **后来**.",
       "notes": [
         "以前 = 'before' — but this happened after university.",
-        "最近 = 'recently' — doesn't fit the story.",
+        "以来 follows a time or event (来中国以来) — it can't start a clause.",
         "",
         "刚才 = 'a moment ago' — not years later."
       ],

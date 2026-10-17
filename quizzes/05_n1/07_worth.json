@@ -97,7 +97,7 @@
       "options": [
         "に{値|あたい}する",
         "に{関|かん}する",
-        "に{際|さい}する",
+        "までもない",
         "に{至|いた}る"
       ],
       "answer": 0,
@@ -105,7 +105,7 @@
       "notes": [
         "",
         "に関する = 'concerning' — must modify a noun.",
-        "に際する = 'on the occasion of'.",
+        "までもない follows a verb (言うまでもない).",
         "に至る = 'reach (a point)'."
       ],
       "translation": "His brave action deserves praise."

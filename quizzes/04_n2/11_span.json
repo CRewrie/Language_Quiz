@@ -243,7 +243,7 @@
         "に{従|したが}って",
         "について",
         "によって",
-        "にとって"
+        "のもとで"
       ],
       "answer": 0,
       "explanation": "As (change): verb + **に従って**.",
@@ -251,7 +251,7 @@
         "",
         "について = 'about'.",
         "によって = 'by / depending on'.",
-        "にとって = 'for'."
+        "のもとで = 'under (guidance)' and follows a noun."
       ],
       "translation": "The further north you go, the colder it gets."
     },
@@ -278,7 +278,7 @@
       "point": "todoujini",
       "prompt": "{彼|かれ}は{医者|いしゃ}である（　）、{作家|さっか}でもある。",
       "options": [
-        "と{一緒|いっしょ}に",
+        "を{通|つう}じて",
         "と{同時|どうじ}に",
         "と{同時|どうじ}で",
         "と{同|おな}じに"
@@ -286,7 +286,7 @@
       "answer": 1,
       "explanation": "While also being: **であると同時に**.",
       "notes": [
-        "と一緒に = 'together with (someone)'.",
+        "を通じて follows a noun (友人を通じて) — not a clause like 医者である.",
         "",
         "同時で isn't the pattern.",
         "と同じに isn't idiomatic."

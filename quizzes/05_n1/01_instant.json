@@ -86,7 +86,7 @@
         "がてら",
         "が{最後|さいご}",
         "が{早|はや}いか",
-        "が{限|かぎ}り"
+        "なり"
       ],
       "answer": 2,
       "explanation": "No sooner than: **が早いか**.",
@@ -94,7 +94,7 @@
         "がてら = 'while also (doing)' — needs a noun like 散歩.",
         "が最後 = 'once …, (there's no stopping it)' — for the start of something irreversible.",
         "",
-        "が限り isn't a pattern (限り follows without が)."
+        "なり needs the same subject in both parts — here the bell rings and the students run."
       ],
       "translation": "No sooner had the bell rung than the students dashed out of the classroom."
     },
@@ -104,7 +104,7 @@
       "options": [
         "がてら",
         "が{早|はや}いか",
-        "ものの",
+        "そばから",
         "が{最後|さいご}"
       ],
       "answer": 1,
@@ -112,7 +112,7 @@
       "notes": [
         "帰りがてら = 'on the way home' — the noun form, and no instant sequence.",
         "",
-        "ものの = 'although'.",
+        "そばから is for a repeated cycle ('as fast as …'), not a single event.",
         "が最後 needs something that can't be stopped afterwards."
       ],
       "translation": "The second he got home, he collapsed onto the bed."
@@ -122,7 +122,7 @@
       "prompt": "{電車|でんしゃ}のドアが{開|ひら}く（　）、{乗客|じょうきゃく}が{一斉|いっせい}に{降|お}りてきた。",
       "options": [
         "や{否|いな}や",
-        "やら",
+        "なり",
         "か{否|いな}か",
         "ものなら"
       ],
@@ -130,7 +130,7 @@
       "explanation": "The moment: **や否や**.",
       "notes": [
         "",
-        "やら = listing ('what with …').",
+        "なり needs the same subject in both parts — here the doors open and the passengers get off.",
         "か否か = 'whether or not'.",
         "ものなら = 'if (one could)'."
       ],
@@ -197,7 +197,7 @@
       "point": "sobakara",
       "prompt": "{片付|かたづ}ける（　）、{子供|こども}が{散|ち}らかしていく。",
       "options": [
-        "からして",
+        "{拍子|ひょうし}に",
         "そばに",
         "そばから",
         "ところから"
@@ -205,7 +205,7 @@
       "answer": 2,
       "explanation": "No sooner … than (repeatedly): **そばから**.",
       "notes": [
-        "からして = 'judging from / to begin with'.",
+        "拍子に follows the た-form and is for an accident in a sudden movement.",
         "そばに = 'next to'.",
         "",
         "ところから = 'from the fact that'."

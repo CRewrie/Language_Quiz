@@ -247,7 +247,7 @@
       "point": "tekoso",
       "prompt": "{健康|けんこう}であって（　）、{仕事|しごと}ができる。",
       "options": [
-        "ほど",
+        "つつ",
         "しか",
         "さえ",
         "こそ"
@@ -255,7 +255,7 @@
       "answer": 3,
       "explanation": "Only when: **てこそ**.",
       "notes": [
-        "ほど doesn't fit.",
+        "つつ attaches to the ます-stem (ありつつ) — not to であって.",
         "しか needs a negative.",
         "てさえ isn't the pattern here.",
         ""
@@ -268,7 +268,7 @@
       "options": [
         "こそ",
         "だけ",
-        "まで",
+        "からでないと",
         "さえ"
       ],
       "answer": 0,
@@ -276,7 +276,7 @@
       "notes": [
         "",
         "てだけ isn't natural.",
-        "てまで = 'going so far as'.",
+        "からでないと needs a negative ending (…わからない) — here the sentence is positive.",
         "てさえ = 'even doing'."
       ],
       "translation": "Only by trying it yourself do you understand how hard it is."

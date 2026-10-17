@@ -162,7 +162,7 @@
         "ふう",
         "そう",
         "ほう",
-        "こう"
+        "げ"
       ],
       "answer": 0,
       "explanation": "In what way: **どういうふうに**.",
@@ -170,7 +170,7 @@
         "",
         "どういうそうに isn't grammatical.",
         "どういうほうに = 'in which direction'.",
-        "どういうこうに isn't grammatical."
+        "げ attaches to adjective stems ({寂|さび}しげ) — not to どういう."
       ],
       "translation": "How should I write it?"
     },
@@ -178,7 +178,7 @@
       "point": "fuuni",
       "prompt": "こんな（　）に{料理|りょうり}すれば、おいしくなるよ。",
       "options": [
-        "まま",
+        "げ",
         "そう",
         "ふう",
         "ほう"
@@ -186,7 +186,7 @@
       "answer": 2,
       "explanation": "Like this: **こんなふうに**.",
       "notes": [
-        "こんなままに isn't grammatical.",
+        "げ attaches to adjective stems — not to こんな.",
         "こんなそうに isn't grammatical.",
         "",
         "こんなほうに isn't the pattern."
@@ -200,7 +200,7 @@
         "というふうに",
         "ということに",
         "といっても",
-        "というより"
+        "といった"
       ],
       "answer": 0,
       "explanation": "Pattern like: **というふうに**.",
@@ -208,7 +208,7 @@
         "",
         "ということに isn't this pattern.",
         "といっても = 'although'.",
-        "というより = 'rather than'."
+        "といった must be followed by a noun (…といった{科目|かもく})."
       ],
       "translation": "I study a different subject every day — English on Monday, maths on Tuesday, and so on."
     },
@@ -276,7 +276,7 @@
         "といって",
         "とした",
         "といった",
-        "として"
+        "というふうに"
       ],
       "answer": 2,
       "explanation": "Such as: **といった** + noun.",
@@ -284,7 +284,7 @@
         "といって can't modify a noun.",
         "とした can't modify like this.",
         "",
-        "として = 'as'."
+        "というふうに describes a pattern of actions — it can't modify a noun."
       ],
       "translation": "I like Japanese food such as sushi and tempura."
     },
@@ -295,7 +295,7 @@
         "とした",
         "といった",
         "といって",
-        "として"
+        "というふうに"
       ],
       "answer": 1,
       "explanation": "**といった** + noun.",
@@ -303,7 +303,7 @@
         "とした can't modify like this.",
         "",
         "といって can't modify a noun.",
-        "として = 'as'."
+        "というふうに describes a pattern of actions — it can't modify 町."
       ],
       "translation": "I travelled to old cities such as Kyoto and Nara."
     }

@@ -247,7 +247,7 @@
       "point": "marukkiri",
       "prompt": "{彼|かれ}の{話|はなし}は（　）{意味|いみ}がわからない。",
       "options": [
-        "まるい",
+        "さぞ",
         "まるごと",
         "まさか",
         "まるっきり"
@@ -255,7 +255,7 @@
       "answer": 3,
       "explanation": "(Not) at all: **まるっきり**.",
       "notes": [
-        "まるい = 'round'.",
+        "さぞ needs だろう and is for imagining someone else's feelings.",
         "まるごと = 'whole'.",
         "まさか = 'surely not'.",
         ""
@@ -285,7 +285,7 @@
       "point": "nari",
       "prompt": "{高|たか}い{店|みせ}には（　）の{理由|りゆう}がある。",
       "options": [
-        "それゆえ",
+        "さも",
         "それほど",
         "それでも",
         "それなり"
@@ -293,7 +293,7 @@
       "answer": 3,
       "explanation": "Appropriate to it: **それなりの**.",
       "notes": [
-        "それゆえ = 'therefore'.",
+        "さも = 'as if' — さもの isn't grammatical.",
         "それほど = 'that much'.",
         "それでも = 'even so'.",
         ""
@@ -325,7 +325,7 @@
       "options": [
         "までに",
         "ままの",
-        "まみれ",
+        "とっさに",
         "ままに"
       ],
       "answer": 3,
@@ -333,7 +333,7 @@
       "notes": [
         "までに = 'by (a deadline)'.",
         "ままの needs a noun.",
-        "まみれ = 'covered in'.",
+        "とっさに = 'on the spur of the moment' — it can't follow 向く.",
         ""
       ],
       "translation": "During the holidays I travelled wherever my fancy took me."

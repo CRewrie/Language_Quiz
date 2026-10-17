@@ -136,7 +136,7 @@
         "が{最後|さいご}",
         "が{最初|さいしょ}",
         "が{早|はや}いか",
-        "がてら"
+        "ものを"
       ],
       "answer": 0,
       "explanation": "Once (no stopping): **が最後**.",
@@ -144,7 +144,7 @@
         "",
         "が最初 isn't a pattern.",
         "が早いか is for a single past event, not a habit like this.",
-        "がてら = 'while also'."
+        "ものを = 'if only (regret)' — it doesn't describe what happens once he starts."
       ],
       "translation": "Once he starts talking, he won't stop for two hours."
     },
@@ -250,7 +250,7 @@
         "ためしがない",
         "ためらわない",
         "ためにならない",
-        "ためいきだ"
+        "ずじまいだ"
       ],
       "answer": 0,
       "explanation": "Never once: **ためしがない**.",
@@ -258,7 +258,7 @@
         "",
         "ためらわない = 'doesn't hesitate'.",
         "ためにならない = 'does no good'.",
-        "ためいき = 'sigh'."
+        "ずじまい follows the ない-stem ({守|まも}らずじまい) — not 守った."
       ],
       "translation": "He has never once kept a promise."
     },
@@ -323,7 +323,7 @@
       "point": "monowo",
       "prompt": "{早|はや}く{言|い}ってくれれば{手伝|てつだ}った（　）。",
       "options": [
-        "ものか",
+        "が{最後|さいご}",
         "ものを",
         "もので",
         "ものの"
@@ -331,7 +331,7 @@
       "answer": 1,
       "explanation": "If only (reproach): **ものを**.",
       "notes": [
-        "ものか = 'as if!'.",
+        "が最後 = 'once …, there's no going back' — not regret.",
         "",
         "もので = 'because'.",
         "ものの = 'although'."

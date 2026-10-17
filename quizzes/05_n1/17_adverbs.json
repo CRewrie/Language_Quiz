@@ -172,7 +172,7 @@
       "prompt": "{彼|かれ}の{予想|よそう}は（　）{外|はず}れた。",
       "options": [
         "こともなく",
-        "ことに",
+        "いまだに",
         "ことごとく",
         "ことさら"
       ],
@@ -180,7 +180,7 @@
       "explanation": "Every single one: **ことごとく**.",
       "notes": [
         "こともなく = 'without'.",
-        "ことに = 'especially'.",
+        "いまだに = 'still (even now)' — it doesn't fit a completed result like 外れた.",
         "",
         "ことさら = 'deliberately / especially'."
       ],
@@ -326,7 +326,7 @@
         "かえって",
         "あえて",
         "たえて",
-        "まして"
+        "もはや"
       ],
       "answer": 1,
       "explanation": "Dare to: **あえて**.",
@@ -334,7 +334,7 @@
         "かえって = 'on the contrary'.",
         "",
         "たえて = 'never (literary)'.",
-        "まして = 'let alone'."
+        "もはや = 'no longer / by now' — it doesn't describe a deliberate choice."
       ],
       "translation": "I knew I'd be opposed, but I deliberately spoke my mind."
     },

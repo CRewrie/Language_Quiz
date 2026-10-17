@@ -297,7 +297,7 @@
       "prompt": "{毎日|まいにち}{練習|れんしゅう}した。（　）、{試合|しあい}に{勝|か}てた。",
       "options": [
         "その{一方|いっぽう}で",
-        "その{代|か}わりに",
+        "なぜなら",
         "その{結果|けっか}",
         "それなのに"
       ],
@@ -305,7 +305,7 @@
       "explanation": "Result connector: **その結果**.",
       "notes": [
         "その一方で = 'on the other hand'.",
-        "その代わりに = 'instead'.",
+        "なぜなら gives a reason and needs 〜からだ at the end.",
         "",
         "それなのに = 'despite that' — contradicts winning after practice."
       ],
@@ -318,7 +318,7 @@
         "なぜなら",
         "それで",
         "だから",
-        "すると"
+        "その{結果|けっか}"
       ],
       "answer": 0,
       "explanation": "Reason follows: **なぜなら … からです**.",
@@ -326,7 +326,7 @@
         "",
         "それで introduces a result.",
         "だから introduces a result, not a reason.",
-        "すると = 'then / thereupon'."
+        "その結果 introduces a result — but 〜からです gives a reason."
       ],
       "translation": "I can't go tomorrow. That's because I have work."
     },

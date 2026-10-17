@@ -269,7 +269,7 @@
         "そう",
         "よう",
         "らしい",
-        "ほど"
+        "っぽい"
       ],
       "answer": 1,
       "explanation": "まるで + **ようだ**.",
@@ -277,7 +277,7 @@
         "見ているそうだ = 'I heard he's dreaming'.",
         "",
         "らしいだ isn't grammatical.",
-        "ほどだ means 'to that extent' — doesn't fit まるで."
+        "っぽい follows a noun or stem and doesn't take だ like this."
       ],
       "translation": "It's just like a dream."
     },

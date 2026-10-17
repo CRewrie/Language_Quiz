@@ -114,7 +114,7 @@
       "point": "taritomo",
       "prompt": "{試験|しけん}まであと{一週間|いっしゅうかん}。{一日|いちにち}（　）{休|やす}んではいられない。",
       "options": [
-        "ずくめ",
+        "ならでは",
         "たりとも",
         "まみれ",
         "ごとき"
@@ -122,7 +122,7 @@
       "answer": 1,
       "explanation": "**一日たりとも**.",
       "notes": [
-        "ずくめ = 'nothing but (good things)'.",
+        "ならでは = 'unique to' — it doesn't go with a single day and a negative.",
         "",
         "まみれ = 'covered in'.",
         "ごとき = 'the likes of'."
@@ -248,7 +248,7 @@
       "prompt": "その{問題|もんだい}は{一企業|いちきぎょう}（　）、{業界全体|ぎょうかいぜんたい}に{影響|えいきょう}を{与|あた}えた。",
       "options": [
         "にとどまらず",
-        "にあたらず",
+        "はおろか",
         "にかかわらず",
         "にたえず"
       ],
@@ -256,7 +256,7 @@
       "explanation": "Not limited to: **にとどまらず**.",
       "notes": [
         "",
-        "にあたらず isn't the pattern.",
+        "はおろか = 'let alone' (usually negative) — here the effect spreads outward.",
         "にかかわらず = 'regardless of'.",
         "にたえず isn't the pattern."
       ],
@@ -267,7 +267,7 @@
       "prompt": "{彼|かれ}の{人気|にんき}は{国内|こくない}（　）、{海外|かいがい}にまで{広|ひろ}がっている。",
       "options": [
         "に{先駆|さきが}けて",
-        "に{至|いた}って",
+        "ならでは",
         "にとどまらず",
         "に{限|かぎ}って"
       ],
@@ -275,7 +275,7 @@
       "explanation": "**にとどまらず**.",
       "notes": [
         "に先駆けて = 'ahead of'.",
-        "に至って = 'when it came to (the point of)'.",
+        "ならでは = 'unique to' — it needs の + noun after it.",
         "",
         "に限って = 'of all (times/people)'."
       ],
@@ -287,7 +287,7 @@
       "options": [
         "さえ",
         "こそ",
-        "すら",
+        "たりとも",
         "のみ"
       ],
       "answer": 3,
@@ -295,7 +295,7 @@
       "notes": [
         "さえ = 'even'.",
         "こそ = 'precisely'.",
-        "すら = 'even'.",
+        "たりとも follows 一 + counter and needs a negative.",
         ""
       ],
       "translation": "I've done everything I had to — now all that's left is to wait for the results."
@@ -325,7 +325,7 @@
       "options": [
         "ならいざしらず",
         "ならでは",
-        "ながらの",
+        "だに",
         "なりの"
       ],
       "answer": 1,
@@ -333,7 +333,7 @@
       "notes": [
         "ならいざしらず = 'maybe for A, but …'.",
         "",
-        "京都ながらの isn't a phrase.",
+        "だに is for 'not even (imagine)' — 京都だにの isn't grammatical.",
         "京都なりの = 'Kyoto's own (modest) way'."
       ],
       "translation": "This is a view you can only get in Kyoto."

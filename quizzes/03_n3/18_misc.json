@@ -261,7 +261,7 @@
       "options": [
         "{中間|ちゅうかん}に",
         "{中心|ちゅうしん}に",
-        "{中身|なかみ}に",
+        "はじめ",
         "{中央|ちゅうおう}に"
       ],
       "answer": 1,
@@ -269,7 +269,7 @@
       "notes": [
         "中間 = 'between'.",
         "",
-        "中身 = 'contents'.",
+        "をはじめ lists examples (A をはじめ B も) — it doesn't mean 'centred on'.",
         "中央 = 'the middle' (place) — not the pattern."
       ],
       "translation": "This town developed around the station."
@@ -281,7 +281,7 @@
         "にかけて",
         "について",
         "までに",
-        "にとって"
+        "ついでに"
       ],
       "answer": 0,
       "explanation": "From … through: **から〜にかけて**.",
@@ -289,7 +289,7 @@
         "",
         "について = 'about'.",
         "までに = 'by (a deadline)'.",
-        "にとって = 'for (someone)'."
+        "ついでに = 'while you're at it' — it can't follow a time noun like this."
       ],
       "translation": "It will rain from the evening into the night."
     },
@@ -395,7 +395,7 @@
         "までに",
         "について",
         "にかけて",
-        "にとって"
+        "ついでに"
       ],
       "answer": 2,
       "explanation": "Over an area: **から〜にかけて**.",
@@ -403,7 +403,7 @@
         "までに = 'by (deadline)'.",
         "について = 'about'.",
         "",
-        "にとって = 'for'."
+        "ついでに = 'while you're at it' — it can't mark a range."
       ],
       "translation": "Heavy rain fell from Kanto through Tohoku."
     }

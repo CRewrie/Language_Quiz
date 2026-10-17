@@ -110,7 +110,7 @@
         "まで",
         "ほど",
         "ばかり",
-        "だけ"
+        "のあまり"
       ],
       "answer": 1,
       "explanation": "Extreme degree: **ほど**.",
@@ -118,7 +118,7 @@
         "死ぬまで = 'until I die'.",
         "",
         "死ぬばかり isn't a degree expression.",
-        "死ぬだけ = 'only die'."
+        "のあまり follows a noun ({心配|しんぱい}のあまり), not a verb like 死ぬ."
       ],
       "translation": "I was dead tired yesterday."
     },
@@ -129,7 +129,7 @@
         "しか",
         "だけ",
         "ほど",
-        "さえ"
+        "につれて"
       ],
       "answer": 2,
       "explanation": "Idiom **山ほど** = tons of.",
@@ -137,7 +137,7 @@
         "しか needs a negative verb.",
         "山だけ = 'only a mountain'.",
         "",
-        "山さえ = 'even a mountain'."
+        "につれて follows a verb of change ({増|ふ}えるにつれて)."
       ],
       "translation": "I have tons of homework this week."
     },
@@ -261,7 +261,7 @@
       "options": [
         "だけ",
         "まで",
-        "ばかり",
+        "につれて",
         "ほど"
       ],
       "answer": 3,
@@ -269,7 +269,7 @@
       "notes": [
         "だけ = 'only'.",
         "まで = 'until'.",
-        "ばかり = 'nothing but'.",
+        "につれて follows a verb of change, not a time noun.",
         ""
       ],
       "translation": "This summer isn't as hot as last year."

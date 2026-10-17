@@ -83,7 +83,7 @@
       "point": "karatoitte",
       "prompt": "{日本人|にほんじん}だ（　）、{敬語|けいご}が{上手|じょうず}とは{限|かぎ}らない。",
       "options": [
-        "からして",
+        "{限|かぎ}り",
         "からといって",
         "からには",
         "からこそ"
@@ -91,7 +91,7 @@
       "answer": 1,
       "explanation": "Just because: **からといって … とは限らない**.",
       "notes": [
-        "からして = 'judging from'.",
+        "限り needs である after a noun (日本人である限り) and means 'as long as'.",
         "",
         "からには = 'now that'.",
         "からこそ = 'precisely because'."
@@ -104,7 +104,7 @@
       "options": [
         "からといって",
         "からこそ",
-        "からして",
+        "{次第|しだい}で",
         "からには"
       ],
       "answer": 0,
@@ -112,7 +112,7 @@
       "notes": [
         "",
         "からこそ = 'precisely because'.",
-        "からして = 'judging from'.",
+        "次第で follows a noun (天気次第で), not a verb like ある.",
         "からには = 'now that'."
       ],
       "translation": "Having money doesn't mean you're happy."

@@ -213,7 +213,7 @@
       "options": [
         "{从来|cónglái}",
         "{总是|zǒngshì}",
-        "{刚|gāng}",
+        "{一边|yìbiān}",
         "{已经|yǐjīng}"
       ],
       "answer": 1,
@@ -221,7 +221,7 @@
       "notes": [
         "从来 needs a negative.",
         "",
-        "刚迟到 doesn't explain an angry teacher well.",
+        "一边 needs a second 一边 + verb.",
         "已经 needs 了."
       ],
       "translation": "He's always late, and the teacher is angry."
@@ -230,7 +230,7 @@
       "point": "zongshi",
       "prompt": "{我|wǒ}{妈妈|māma}（　）{说|shuō}{我|wǒ}{太|tài}{瘦|shòu}{了|le}。",
       "options": [
-        "{快|kuài}",
+        "{一边|yìbiān}",
         "{从来|cónglái}",
         "{已经|yǐjīng}",
         "{总是|zǒngshì}"
@@ -238,7 +238,7 @@
       "answer": 3,
       "explanation": "Always: **总是**.",
       "notes": [
-        "快说 = 'say it quickly!'.",
+        "一边 needs a second 一边 + verb.",
         "从来 needs a negative.",
         "已经说 doesn't fit a repeated comment.",
         ""
@@ -249,7 +249,7 @@
       "point": "bie",
       "prompt": "（　）{说话|shuōhuà}{了|le}，{电影|diànyǐng}{开始|kāishǐ}{了|le}！",
       "options": [
-        "{不是|búshì}",
+        "{只|zhǐ}",
         "{没有|méiyǒu}",
         "{别|bié}",
         "{没|méi}"
@@ -257,7 +257,7 @@
       "answer": 2,
       "explanation": "Stop doing: **别…了**.",
       "notes": [
-        "不是 negates nouns.",
+        "只说话了 isn't natural — this is a command to stop.",
         "没有说话了 isn't grammatical.",
         "",
         "没说话了 isn't grammatical."
@@ -268,7 +268,7 @@
       "point": "bie",
       "prompt": "{外面|wàimiàn}{很|hěn}{冷|lěng}，{你|nǐ}（　）{出去|chūqù}{了|le}。",
       "options": [
-        "{不是|búshì}",
+        "{一边|yìbiān}",
         "{没|méi}",
         "{没有|méiyǒu}",
         "{别|bié}"
@@ -276,7 +276,7 @@
       "answer": 3,
       "explanation": "Don't (anymore): **别…了**.",
       "notes": [
-        "不是出去 doesn't fit.",
+        "一边 needs a second 一边 + verb.",
         "你没出去了 isn't grammatical.",
         "没有出去了 isn't grammatical.",
         ""
@@ -287,7 +287,7 @@
       "point": "yibian",
       "prompt": "{他|tā}{一边|yìbiān}{吃饭|chīfàn}，（　）{看|kàn}{电视|diànshì}。",
       "options": [
-        "{一点|yìdiǎn}",
+        "{又|yòu}",
         "{一边|yìbiān}",
         "{一样|yíyàng}",
         "{一起|yìqǐ}"
@@ -295,7 +295,7 @@
       "answer": 1,
       "explanation": "**一边…一边**.",
       "notes": [
-        "一点 = 'a little'.",
+        "The pair is 一边…一边 — 又 pairs with 又.",
         "",
         "一样 = 'the same'.",
         "一起 = 'together'."

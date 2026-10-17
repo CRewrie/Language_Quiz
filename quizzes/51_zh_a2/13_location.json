@@ -227,7 +227,7 @@
         "{跟|gēn}",
         "{对|duì}",
         "{给|gěi}",
-        "{比|bǐ}"
+        "{在|zài}"
       ],
       "answer": 0,
       "explanation": "With: **跟…一起**.",
@@ -235,7 +235,7 @@
         "",
         "对 = 'towards'.",
         "给 = 'for / to'.",
-        "比 compares."
+        "在 marks a place — 在你一起 isn't grammatical."
       ],
       "translation": "I'd like to go hiking with you at the weekend."
     },

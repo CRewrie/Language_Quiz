@@ -172,7 +172,7 @@
       "prompt": "お{客様|きゃくさま}（　）{商売|しょうばい}だ。",
       "options": [
         "ならではの",
-        "きっての",
+        "いかなる",
         "あっての",
         "ゆえの"
       ],
@@ -180,7 +180,7 @@
       "explanation": "Only possible thanks to: **あっての**.",
       "notes": [
         "ならではの = 'unique to'.",
-        "きっての = 'the best in'.",
+        "いかなる must come before the noun (いかなる客).",
         "",
         "ゆえの = 'caused by'."
       ],

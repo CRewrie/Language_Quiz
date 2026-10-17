@@ -124,7 +124,7 @@
         "ことだし",
         "ことなしに",
         "ことにして",
-        "ことから"
+        "なくして"
       ],
       "answer": 1,
       "explanation": "Without doing: **ことなしに**.",
@@ -132,7 +132,7 @@
         "ことだし = 'since (it's the case that)'.",
         "",
         "ことにして = 'pretending that'.",
-        "ことから = 'from the fact that'."
+        "なくして follows a noun ({努力|どりょく}なくして), not a verb."
       ],
       "translation": "No one can live without relying on someone."
     },
@@ -160,7 +160,7 @@
       "prompt": "{親|おや}の{心配|しんぱい}（　）、{彼|かれ}は{一人|ひとり}で{旅|たび}に{出|で}た。",
       "options": [
         "をよそに",
-        "を{問|と}わず",
+        "をいいことに",
         "を{通|とお}して",
         "をもとに"
       ],
@@ -168,7 +168,7 @@
       "explanation": "Ignoring: **をよそに**.",
       "notes": [
         "",
-        "を問わず = 'regardless of (age, gender …)' — not someone's worry.",
+        "をいいことに = taking (bad) advantage of — the parents' worry isn't an opportunity.",
         "を通して = 'through'.",
         "をもとに = 'based on'."
       ],
@@ -180,7 +180,7 @@
       "options": [
         "をもとに",
         "をめぐって",
-        "を{機|き}に",
+        "をいいことに",
         "をよそに"
       ],
       "answer": 3,
@@ -188,7 +188,7 @@
       "notes": [
         "をもとに = 'based on'.",
         "をめぐって = 'concerning (a dispute)'.",
-        "を機に = 'taking the opportunity of'.",
+        "をいいことに = taking (bad) advantage of — objections aren't an opportunity.",
         ""
       ],
       "translation": "Ignoring everyone's objections, the two got married."
@@ -257,7 +257,7 @@
         "を{省|かえり}みず",
         "をおいて",
         "を{顧|かえり}みず",
-        "をもって"
+        "をいいことに"
       ],
       "answer": 2,
       "explanation": "**を顧みず**.",
@@ -265,7 +265,7 @@
         "省みる = reflect on yourself — not on your family.",
         "をおいて = 'apart from'.",
         "",
-        "をもって = 'by means of'."
+        "をいいことに = taking advantage of — 家族をいいことに makes no sense here."
       ],
       "translation": "My father, who neglected his family and only worked, now regrets it."
     },

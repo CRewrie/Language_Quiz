@@ -226,7 +226,7 @@
       "prompt": "{冷|つめ}たい{水|みず}が{飲|の}み（　）です。",
       "options": [
         "たく",
-        "ます",
+        "つもり",
         "たい",
         "ほしい"
       ],
@@ -234,7 +234,7 @@
       "explanation": "Wanting to **do** something: ます-stem + **たい**.",
       "notes": [
         "たく needs ない or て after it.",
-        "ます can't be followed by です (飲みますです ✗).",
+        "つもり follows the dictionary form ({飲|の}むつもり), not the ます-stem.",
         "",
         "ほしい is for wanting **things** (水がほしい) and doesn't attach to a verb stem."
       ],

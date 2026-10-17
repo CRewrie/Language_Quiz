@@ -137,7 +137,7 @@
         "まいる",
         "いらっしゃる",
         "うかがう",
-        "おる"
+        "いたす"
       ],
       "answer": 1,
       "explanation": "A superior's going → honorific **いらっしゃる**.",
@@ -145,7 +145,7 @@
         "まいる is humble (your own going) — it would lower the teacher.",
         "",
         "うかがう is humble 'visit/ask' — for yourself only.",
-        "おる is humble いる — wrong verb and wrong direction."
+        "いたす is humble する — it doesn't mean 'go', and it isn't used for a teacher."
       ],
       "translation": "I hear the teacher is going to Osaka tomorrow."
     },

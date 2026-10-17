@@ -222,7 +222,7 @@
       "prompt": "{電車|でんしゃ}が{遅|おく}れた（　）、{遅刻|ちこく}してしまいました。",
       "options": [
         "ものの",
-        "ものか",
+        "からには",
         "ものだから",
         "ものなら"
       ],
@@ -230,7 +230,7 @@
       "explanation": "Excuse: **ものだから**.",
       "notes": [
         "ものの = 'although'.",
-        "ものか = 'as if!'.",
+        "からには = 'now that' — it needs a resolve or duty after it, not an excuse.",
         "",
         "ものなら = 'if (one could)'."
       ],
@@ -337,7 +337,7 @@
       "options": [
         "ものだから",
         "ものなら",
-        "ものか",
+        "{以上|いじょう}",
         "ものの"
       ],
       "answer": 0,
@@ -345,7 +345,7 @@
       "notes": [
         "",
         "ものなら = 'if (one could)'.",
-        "ものか = 'as if!'.",
+        "以上 = 'now that' — it needs a resolve or duty after it.",
         "ものの = 'although'."
       ],
       "translation": "I was so sleepy that I fell asleep in class."

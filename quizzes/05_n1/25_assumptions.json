@@ -96,7 +96,7 @@
       "prompt": "{言|い}わ（　）、{彼|かれ}の{気持|きも}ちはわかる。",
       "options": [
         "ずじまい",
-        "ずくめ",
+        "もしないで",
         "ずとも",
         "ずには"
       ],
@@ -104,7 +104,7 @@
       "explanation": "Even without: **ずとも**.",
       "notes": [
         "ずじまい = 'ended up never'.",
-        "ずくめ = 'nothing but'.",
+        "もしないで attaches to the ます-stem (言いもしないで), not 言わ.",
         "",
         "ずには needs おかない / いられない."
       ],
@@ -212,7 +212,7 @@
         "ものなら",
         "ものとして",
         "ものだから",
-        "ものの"
+        "なりとも"
       ],
       "answer": 1,
       "explanation": "Assuming: **ものとして**.",
@@ -220,7 +220,7 @@
         "ものなら = 'if (one could)'.",
         "",
         "ものだから = 'because' (excuse).",
-        "ものの = 'although'."
+        "なりとも = 'at least (a little)' and follows an amount."
       ],
       "translation": "We'll proceed on the assumption that everyone agrees."
     },
@@ -324,7 +324,7 @@
       "prompt": "{忙|いそが}しいと、（　）{食事|しょくじ}がおろそかになる。",
       "options": [
         "ともかく",
-        "ともに",
+        "ずとも",
         "ともすれば",
         "ともなく"
       ],
@@ -332,7 +332,7 @@
       "explanation": "Apt to: **ともすれば**.",
       "notes": [
         "ともかく = 'anyway'.",
-        "ともに = 'together'.",
+        "ずとも follows the ない-stem (言わずとも) — it can't start a clause.",
         "",
         "ともなく = 'without really meaning to'."
       ],

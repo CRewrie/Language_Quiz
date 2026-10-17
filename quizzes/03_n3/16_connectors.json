@@ -179,7 +179,7 @@
       "prompt": "もし{宝|たから}くじが{当|あ}たった（　）、{何|なに}を{買|か}いますか。",
       "options": [
         "としたら",
-        "としても",
+        "と{共|とも}に",
         "とする",
         "として"
       ],
@@ -187,7 +187,7 @@
       "explanation": "Supposing: **としたら**.",
       "notes": [
         "",
-        "としても = 'even if' — doesn't fit 'what would you buy?'.",
+        "と共に = 'together with / as' — it doesn't make a condition.",
         "とする can't connect to the question.",
         "として = 'as (a role)'."
       ],
@@ -312,7 +312,7 @@
       "prompt": "{仮|かり}に{明日|あした}{雨|あめ}だ（　）、{試合|しあい}はどうなりますか。",
       "options": [
         "としては",
-        "として",
+        "ところで",
         "とする",
         "としたら"
       ],
@@ -320,7 +320,7 @@
       "explanation": "Supposing: **としたら**.",
       "notes": [
         "としては = 'for (someone's part)'.",
-        "として = 'as'.",
+        "ところで = 'by the way' — it can't follow a clause like this.",
         "とする can't connect to the question.",
         ""
       ],

@@ -286,7 +286,7 @@
       "prompt": "この{店|みせ}は{安|やす}くておいしい（　）、いつも{混|こ}んでいる。",
       "options": [
         "ときているから",
-        "としても",
+        "{始末|しまつ}だから",
         "とあれば",
         "ときたら"
       ],
@@ -294,7 +294,7 @@
       "explanation": "On top of that (so): **ときている**.",
       "notes": [
         "",
-        "としても = 'even if'.",
+        "始末だ is for a bad result — not for cheap, tasty food.",
         "とあれば = 'if it's for'.",
         "ときたら = 'when it comes to (complaint)'."
       ],

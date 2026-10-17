@@ -122,7 +122,7 @@
       "point": "haigeng",
       "prompt": "{哥哥|gēge}{已经|yǐjīng}{很|hěn}{高|gāo}{了|le}，{可是|kěshì}{弟弟|dìdi}{比|bǐ}{哥哥|gēge}（　）{高|gāo}。",
       "options": [
-        "{最|zuì}",
+        "{越来越|yuè lái yuè}",
         "{很|hěn}",
         "{还|hái}",
         "{非常|fēicháng}"
@@ -130,7 +130,7 @@
       "answer": 2,
       "explanation": "Even more: **比…还**.",
       "notes": [
-        "最 can't be used with 比.",
+        "越来越 doesn't go with 比.",
         "很 can't be used with 比.",
         "",
         "非常 can't be used with 比."
@@ -141,7 +141,7 @@
       "point": "haigeng",
       "prompt": "{今天|jīntiān}{比|bǐ}{昨天|zuótiān}（　）{热|rè}，{已经|yǐjīng}{三十八|sānshíbā}{度|dù}{了|le}。",
       "options": [
-        "{真|zhēn}",
+        "{那么|nàme}",
         "{太|tài}",
         "{很|hěn}",
         "{更|gèng}"
@@ -149,7 +149,7 @@
       "answer": 3,
       "explanation": "Even more: **比…更**.",
       "notes": [
-        "真 can't be used with 比.",
+        "那么 goes with 有 / 没有 comparisons, not with 比.",
         "太 can't be used with 比.",
         "很 can't be used with 比.",
         ""
@@ -162,7 +162,7 @@
       "options": [
         "{很|hěn}",
         "{那么|nàme}",
-        "{最|zuì}",
+        "{更|gèng}",
         "{非常|fēicháng}"
       ],
       "answer": 1,
@@ -170,7 +170,7 @@
       "notes": [
         "有 … 很高 isn't a comparison.",
         "",
-        "最 can't be used here.",
+        "更 goes with 比, not with 有…吗.",
         "非常 can't be used here."
       ],
       "translation": "Are you as tall as your brother?"

@@ -229,7 +229,7 @@
       "prompt": "あの{人|ひと}、{名前|なまえ}は{何|なん}だった（　）。",
       "options": [
         "っぽい",
-        "っぱなし",
+        "ものだ",
         "っきり",
         "っけ"
       ],
@@ -237,7 +237,7 @@
       "explanation": "What was it again?: **っけ**.",
       "notes": [
         "っぽい = '-ish'.",
-        "っぱなし = 'left as is'.",
+        "ものだ = 'that's how it is / used to' — it doesn't make a question.",
         "っきり = 'only'.",
         ""
       ],

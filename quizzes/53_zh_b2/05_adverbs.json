@@ -121,7 +121,7 @@
       "prompt": "{他|tā}（　）{每天|měitiān}{都|dōu}{去|qù}{图书馆|túshūguǎn}，{很|hěn}{少|shǎo}{休息|xiūxi}。",
       "options": [
         "{几个|jǐ ge}",
-        "{几时|jǐshí}",
+        "{白|bái}",
         "{差点|chàdiǎn}",
         "{几乎|jīhū}"
       ],
@@ -129,7 +129,7 @@
       "explanation": "Almost: **几乎**.",
       "notes": [
         "几个每天 isn't grammatical.",
-        "几时 = 'when'.",
+        "白 = 'in vain' — it doesn't mean 'almost'.",
         "差点 = 'almost happened (but didn't)'.",
         ""
       ],
@@ -161,7 +161,7 @@
         "{至于|zhìyú}",
         "{直到|zhídào}",
         "{甚至|shènzhì}",
-        "{于是|yúshì}"
+        "{顺便|shùnbiàn}"
       ],
       "answer": 2,
       "explanation": "Even: **甚至**.",
@@ -169,7 +169,7 @@
         "至于 = 'as for'.",
         "直到 = 'until'.",
         "",
-        "于是 = 'and so'."
+        "顺便 = 'while you're at it' — it doesn't add an extreme."
       ],
       "translation": "He's so busy he has no time to eat — or even to sleep."
     },
@@ -180,7 +180,7 @@
         "{尽管|jǐnguǎn}",
         "{甚至|shènzhì}",
         "{至于|zhìyú}",
-        "{不管|bùguǎn}"
+        "{顺便|shùnbiàn}"
       ],
       "answer": 1,
       "explanation": "**甚至连…都**.",
@@ -188,7 +188,7 @@
         "尽管 = 'although'.",
         "",
         "至于 = 'as for'.",
-        "不管 = 'no matter'."
+        "顺便 = 'while you're at it' — it doesn't add an extreme."
       ],
       "translation": "This question is so easy that even a child knows it."
     },
@@ -312,7 +312,7 @@
       "options": [
         "{本来|běnlái}",
         "{将来|jiānglái}",
-        "{未来|wèilái}",
+        "{曾经|céngjīng}",
         "{后来|hòulái}"
       ],
       "answer": 0,
@@ -320,7 +320,7 @@
       "notes": [
         "",
         "将来 = 'in the future'.",
-        "未来 = 'the future'.",
+        "曾经 = 'once (in the past)' — it clashes with 今天.",
         "后来 = 'later on'."
       ],
       "translation": "I'd originally planned to go today, but it rained."
@@ -331,7 +331,7 @@
       "options": [
         "{后来|hòulái}",
         "{将来|jiānglái}",
-        "{以后|yǐhòu}",
+        "{几乎|jīhū}",
         "{本来|běnlái}"
       ],
       "answer": 3,
@@ -339,7 +339,7 @@
       "notes": [
         "后来 = 'later on'.",
         "将来 = 'in the future'.",
-        "以后 = 'after(wards)'.",
+        "几乎 = 'almost' — 几乎就很简单 isn't natural.",
         ""
       ],
       "translation": "This question is simple to begin with — you're overthinking it."

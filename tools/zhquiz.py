@@ -72,8 +72,25 @@ def order3(point, parts, correct, wrong, notes_wrong, explanation, translation):
     return Q(point, prompt, opts, notes, explanation, translation, answer=opts.index(correct), fixed=True, raw_opts=True)
 
 
+def apply_fixes(d):
+    """tools/distractor_fixes.json: swap a wrong option for another point of the same quiz."""
+    import os
+    plain = lambda t: re.sub(r"\{([^|{}]+)\|[^{}]+\}", r"\1", t)
+    fixes = json.load(open(os.path.join(os.path.dirname(__file__), "distractor_fixes.json"), encoding="utf-8"))["fixes"]
+    for f in fixes:
+        if f["quiz"] != d["id"]:
+            continue
+        q = d["questions"][f["i"]]
+        opts = [plain(o).replace(" ", "") for o in q["options"]]
+        j = opts.index(f["old"])
+        assert j != q["answer"] and plain(f["new"]) not in opts, (d["id"], f)
+        q["options"][j], q["notes"][j] = f["new"], f["note"]
+
+
 def write(quizzes, folder, category, level, seed):
     random.seed(seed)
+    for d in quizzes.values():
+        apply_fixes(d)
     for fname, d in quizzes.items():
         d = {"id": d["id"], "category": category, "language": "zh", "title": d["title"],
              "description": d["description"], "level": level, "points": d["points"], "questions": d["questions"]}

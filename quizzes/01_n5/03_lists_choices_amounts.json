@@ -89,7 +89,7 @@
       "options": [
         "の",
         "や",
-        "を",
+        "か",
         "も"
       ],
       "answer": 1,
@@ -97,7 +97,7 @@
       "notes": [
         "本のペン would mean 'the book's pen'.",
         "",
-        "を marks an object, but ある has none.",
+        "か = 'or' — but など lists things that are all there.",
         "本もペンなど is ungrammatical. も means 'also' and doesn't make a list with など."
       ],
       "translation": "In the bag there are books, pens and so on."
@@ -125,7 +125,7 @@
       "point": "ya",
       "prompt": "{休|やす}みの{日|ひ}は{掃除|そうじ}（　）{洗濯|せんたく}などをします。",
       "options": [
-        "を",
+        "だけ",
         "や",
         "が",
         "も"
@@ -133,7 +133,7 @@
       "answer": 1,
       "explanation": "**や…など** = 'things like A and B'.",
       "notes": [
-        "を marks the object. It belongs after など, not between the two nouns.",
+        "だけ = 'only' — it doesn't link two nouns in a list.",
         "",
         "が would make cleaning the subject.",
         "掃除も洗濯など doesn't work. も doesn't build a list with など."
@@ -164,7 +164,7 @@
       "prompt": "ペン（　）{鉛筆|えんぴつ}で{書|か}いてください。",
       "options": [
         "も",
-        "が",
+        "だけ",
         "の",
         "か"
       ],
@@ -172,7 +172,7 @@
       "explanation": "**か** = 'or'. Use one of the two to write.",
       "notes": [
         "ペンも鉛筆で is ungrammatical. も would need to follow both nouns.",
-        "ペンが鉛筆で would make the pen the subject.",
+        "ペンだけ{鉛筆|えんぴつ}で isn't grammatical — だけ doesn't link two nouns.",
         "ペンの鉛筆 means 'the pen's pencil'.",
         ""
       ],
@@ -335,7 +335,7 @@
       "prompt": "{何|なに}（　）{飲|の}みますか。—はい、お{茶|ちゃ}をください。",
       "options": [
         "が",
-        "の",
+        "や",
         "も",
         "か"
       ],
@@ -343,7 +343,7 @@
       "explanation": "**なにか** = something. The はい answer shows it's a yes/no question.",
       "notes": [
         "何が飲みますか isn't grammatical — the drinker isn't 'what'.",
-        "何の飲みます isn't grammatical.",
+        "や lists nouns — 何や doesn't make a question.",
         "何も needs a negative verb.",
         ""
       ],

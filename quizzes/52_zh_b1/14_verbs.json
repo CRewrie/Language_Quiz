@@ -211,7 +211,7 @@
       "prompt": "A：{要|yào}{我|wǒ}{帮忙|bāngmáng}{吗|ma}？\nB：（　），{我|wǒ}{自己|zìjǐ}{可以|kěyǐ}。",
       "options": [
         "{没用|méi yòng}",
-        "{不能|bù néng}",
+        "{好像|hǎoxiàng}",
         "{别用|bié yòng}",
         "{不用|búyòng}"
       ],
@@ -219,7 +219,7 @@
       "explanation": "No need: **不用**.",
       "notes": [
         "没用 = 'useless'.",
-        "不能 = 'can't'.",
+        "好像 = 'it seems' — it isn't an answer to an offer.",
         "别用 = 'don't use'.",
         ""
       ],
@@ -232,7 +232,7 @@
         "{不用|búyòng}",
         "{别用|bié yòng}",
         "{没用|méi yòng}",
-        "{不是|búshì}"
+        "{以为|yǐwéi}"
       ],
       "answer": 0,
       "explanation": "Don't need to: **不用**.",
@@ -240,7 +240,7 @@
         "",
         "别用 = 'don't use'.",
         "没用 = 'useless'.",
-        "不是早起 isn't grammatical."
+        "以为 = 'mistakenly thought' — 你以为早起 isn't advice."
       ],
       "translation": "Tomorrow's the weekend — you don't need to get up early."
     },
@@ -250,7 +250,7 @@
       "options": [
         "{地|de}",
         "{得|děi}",
-        "{在|zài}",
+        "{算|suàn}",
         "{的|de}"
       ],
       "answer": 1,
@@ -258,7 +258,7 @@
       "notes": [
         "地 needs an adverb before it.",
         "",
-        "在走了 isn't grammatical.",
+        "算 = 'count as' — 我算走了 isn't 'I must go'.",
         "的 can't come before a verb like this."
       ],
       "translation": "It's late — I have to go, I've got work tomorrow."
@@ -288,7 +288,7 @@
       "options": [
         "{来了|lái le}",
         "{来自|láizì}",
-        "{自己|zìjǐ}",
+        "{以为|yǐwéi}",
         "{从来|cónglái}"
       ],
       "answer": 1,
@@ -296,7 +296,7 @@
       "notes": [
         "来了德国 isn't natural.",
         "",
-        "自己 = 'oneself'.",
+        "以为 = 'thought (wrongly)' — it doesn't say where you're from.",
         "从来 = 'always / never'."
       ],
       "translation": "My name's Anna, I'm from Germany."
@@ -327,7 +327,7 @@
         "{看看|kànkan}",
         "{要|yào}{看|kàn}",
         "{好看|hǎokàn}",
-        "{看见|kànjiàn}"
+        "{不用|búyòng}"
       ],
       "answer": 1,
       "explanation": "It depends on: **要看**.",
@@ -335,7 +335,7 @@
         "看看 = 'have a look'.",
         "",
         "好看 = 'good-looking'.",
-        "看见 = 'see'."
+        "不用 = 'no need' — 这不用天气 isn't grammatical."
       ],
       "translation": "A: Are we going hiking tomorrow? B: That depends on the weather."
     },

@@ -110,7 +110,7 @@
         "ちょうど",
         "{必|かなら}ず",
         "{決|けっ}して",
-        "もうすぐ"
+        "なるべく"
       ],
       "answer": 2,
       "explanation": "Never (+ negative): **決して**.",
@@ -118,7 +118,7 @@
         "ちょうど = 'exactly'.",
         "必ず only goes with positive statements.",
         "",
-        "もうすぐ = 'soon'."
+        "なるべく = 'as … as possible' — it goes with requests and efforts, not a promise."
       ],
       "translation": "I will never forget this kindness."
     },
@@ -299,7 +299,7 @@
       "options": [
         "なかなか",
         "なるべく",
-        "なるまで",
+        "ふと",
         "なるほど"
       ],
       "answer": 1,
@@ -307,7 +307,7 @@
       "notes": [
         "なかなか = 'quite / not easily'.",
         "",
-        "なるまで = 'until it becomes'.",
+        "ふと = 'suddenly, by chance' — it doesn't go with a request.",
         "なるほど = 'I see'."
       ],
       "translation": "Please come as early as possible tomorrow."
@@ -317,7 +317,7 @@
       "prompt": "（　）{気|き}がつくと、もう{夜|よる}だった。",
       "options": [
         "ほっと",
-        "ほぼ",
+        "なるべく",
         "ふと",
         "ふたたび"
       ],
@@ -325,7 +325,7 @@
       "explanation": "Suddenly noticing: **ふと**.",
       "notes": [
         "ほっと = 'relieved' (ほっとする).",
-        "ほぼ = 'almost'.",
+        "なるべく = 'as … as possible' — it doesn't describe a sudden realisation.",
         "",
         "ふたたび = 'again'."
       ],
@@ -394,7 +394,7 @@
       "options": [
         "なるべく",
         "なるほど",
-        "なおさら",
+        "めったに",
         "なかなか"
       ],
       "answer": 0,
@@ -402,7 +402,7 @@
       "notes": [
         "",
         "なるほど = 'I see'.",
-        "なおさら = 'all the more'.",
+        "めったに needs a negative (めったに{食|た}べない).",
         "なかなか = 'quite / not easily'."
       ],
       "translation": "For my health, I try to eat vegetables as much as possible."

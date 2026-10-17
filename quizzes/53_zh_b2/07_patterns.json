@@ -275,7 +275,7 @@
       "prompt": "{他|tā}{不但|búdàn}{会|huì}{说|shuō}{汉语|Hànyǔ}，（　）{还|hái}{会|huì}{写|xiě}{书法|shūfǎ}。",
       "options": [
         "{至于|zhìyú}",
-        "{直到|zhídào}",
+        "{宁可|nìngkě}",
         "{以至|yǐzhì}",
         "{甚至|shènzhì}"
       ],
@@ -283,7 +283,7 @@
       "explanation": "Not only … even: **不但…甚至**.",
       "notes": [
         "至于 = 'as for'.",
-        "直到 = 'until'.",
+        "宁可 = 'would rather' and pairs with 也.",
         "以至 = 'to the extent that' (result).",
         ""
       ],

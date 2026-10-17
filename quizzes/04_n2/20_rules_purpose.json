@@ -306,7 +306,7 @@
       "options": [
         "について",
         "にとって",
-        "によって",
+        "つもりで",
         "として"
       ],
       "answer": 3,
@@ -314,7 +314,7 @@
       "notes": [
         "について = 'about'.",
         "にとって = 'for'.",
-        "によって = 'by'.",
+        "つもりで follows a verb (行ったつもりで) — not a noun like リーダー.",
         ""
       ],
       "translation": "We formed a team with Tanaka as leader."

@@ -96,7 +96,7 @@
       "point": "weile",
       "prompt": "（　）{学|xué}{好|hǎo}{中文|Zhōngwén}，{他|tā}{每天|měitiān}{都|dōu}{练习|liànxí}。",
       "options": [
-        "{关于|guānyú}",
+        "{每次|měi cì}",
         "{所以|suǒyǐ}",
         "{因为|yīnwèi}",
         "{为了|wèile}"
@@ -104,7 +104,7 @@
       "answer": 3,
       "explanation": "In order to: **为了**.",
       "notes": [
-        "关于 = 'about'.",
+        "每次 = 'every time' — it doesn't give a purpose.",
         "所以 introduces a result.",
         "因为 gives a reason, not a goal.",
         ""
@@ -136,7 +136,7 @@
       "options": [
         "{为|wèi}",
         "{给|gěi}",
-        "{跟|gēn}",
+        "{为了|wèile}",
         "{对|duì}"
       ],
       "answer": 3,
@@ -144,7 +144,7 @@
       "notes": [
         "The pattern is 对…来说.",
         "The pattern is 对…来说.",
-        "The pattern is 对…来说.",
+        "为了 gives a purpose — the pattern is 对…来说.",
         ""
       ],
       "translation": "For me, learning characters is the hardest part."
@@ -213,7 +213,7 @@
         "{差点|chàdiǎn}",
         "{怪不得|guàibude}",
         "{虽然|suīrán}",
-        "{要不|yàobù}"
+        "{不然|bùrán}"
       ],
       "answer": 1,
       "explanation": "No wonder: **怪不得**.",
@@ -221,7 +221,7 @@
         "差点 = 'almost'.",
         "",
         "虽然 needs 但是 — and there's no contrast.",
-        "要不 = 'how about'."
+        "不然 = 'otherwise' — it needs a condition before it."
       ],
       "translation": "He's lived in China for ten years — no wonder his Chinese is so good."
     },
@@ -269,7 +269,7 @@
       "options": [
         "{所以|suǒyǐ}",
         "{然后|ránhòu}",
-        "{虽然|suīrán}",
+        "{怪不得|guàibude}",
         "{不然|bùrán}"
       ],
       "answer": 3,
@@ -277,7 +277,7 @@
       "notes": [
         "所以 = 'so' — you didn't forget.",
         "然后 = 'then, afterwards'.",
-        "虽然 = 'although'.",
+        "怪不得 = 'no wonder' — here something was avoided.",
         ""
       ],
       "translation": "Good thing you reminded me — otherwise I'd have forgotten."

@@ -1,0 +1,1384 @@
+{
+  "_about": "Distractors swapped for another grammar point of the same quiz (wrong in that slot), so the quiz title can't be used to rule options out. Applied by tools/apply_distractor_fixes.py (hand-written quizzes) and by the generators (N1, Mandarin). 'old' is the option's plain text, 'new' uses furigana markup.",
+  "fixes": [
+    {
+      "quiz": "n5-place-time-existence",
+      "i": 1,
+      "old": "を",
+      "new": "で",
+      "note": "で marks a place or means — どれ here is the subject of the question."
+    },
+    {
+      "quiz": "n5-place-time-existence",
+      "i": 18,
+      "old": "を",
+      "new": "で",
+      "note": "で marks a place or means — だれ here is the subject."
+    },
+    {
+      "quiz": "n5-lists-choices-amounts",
+      "i": 0,
+      "old": "を",
+      "new": "か",
+      "note": "か = 'or' — but など lists things that are all there."
+    },
+    {
+      "quiz": "n5-lists-choices-amounts",
+      "i": 2,
+      "old": "を",
+      "new": "だけ",
+      "note": "だけ = 'only' — it doesn't link two nouns in a list."
+    },
+    {
+      "quiz": "n5-lists-choices-amounts",
+      "i": 4,
+      "old": "が",
+      "new": "だけ",
+      "note": "ペンだけ{鉛筆|えんぴつ}で isn't grammatical — だけ doesn't link two nouns."
+    },
+    {
+      "quiz": "n5-lists-choices-amounts",
+      "i": 13,
+      "old": "の",
+      "new": "や",
+      "note": "や lists nouns — 何や doesn't make a question."
+    },
+    {
+      "quiz": "n5-invitations-wishes",
+      "i": 6,
+      "old": "ます",
+      "new": "つもり",
+      "note": "つもり follows the dictionary form ({飲|の}むつもり), not the ます-stem."
+    },
+    {
+      "quiz": "n5-sequence-progressive",
+      "i": 0,
+      "old": "が",
+      "new": "まえに",
+      "note": "まえに follows the dictionary form ({洗|あら}うまえに), not the て-form."
+    },
+    {
+      "quiz": "n4-conditionals",
+      "i": 15,
+      "old": "具合",
+      "new": "なら",
+      "note": "なら follows the noun directly ({火事|かじ}なら) and doesn't take の…は."
+    },
+    {
+      "quiz": "n4-conditionals",
+      "i": 16,
+      "old": "具合",
+      "new": "たら",
+      "note": "たら attaches to the た-form ({遅|おく}れたら) and doesn't take は."
+    },
+    {
+      "quiz": "n4-obligation-permission",
+      "i": 15,
+      "old": "たい",
+      "new": "ないで",
+      "note": "ないで follows the ない-form ({選|えら}ばないで), not the ます-stem."
+    },
+    {
+      "quiz": "n4-keigo",
+      "i": 1,
+      "old": "おる",
+      "new": "いたす",
+      "note": "いたす is humble する — it doesn't mean 'go', and it isn't used for a teacher."
+    },
+    {
+      "quiz": "n4-plans-decisions",
+      "i": 15,
+      "old": "ほう",
+      "new": "こと",
+      "note": "{着|つ}くことです = 'it's arriving (that matters)' — not a timetable."
+    },
+    {
+      "quiz": "n4-limits-lists",
+      "i": 8,
+      "old": "ほど",
+      "new": "しか",
+      "note": "しか needs a negative verb (しか{行|い}きませんでした) and can't take に like this."
+    },
+    {
+      "quiz": "n4-limits-lists",
+      "i": 9,
+      "old": "と",
+      "new": "たり",
+      "note": "たり attaches to the た-form ({安|やす}かったり) and comes in pairs."
+    },
+    {
+      "quiz": "n4-contrast-feelings",
+      "i": 2,
+      "old": "のは",
+      "new": "ても",
+      "note": "ても attaches to the て-form ({飲|の}んでも), not 飲んだ."
+    },
+    {
+      "quiz": "n3-cause-result",
+      "i": 11,
+      "old": "その代わりに",
+      "new": "なぜなら",
+      "note": "なぜなら gives a reason and needs 〜からだ at the end."
+    },
+    {
+      "quiz": "n3-cause-result",
+      "i": 12,
+      "old": "すると",
+      "new": "その{結果|けっか}",
+      "note": "その結果 introduces a result — but 〜からです gives a reason."
+    },
+    {
+      "quiz": "n3-degree",
+      "i": 0,
+      "old": "だけ",
+      "new": "のあまり",
+      "note": "のあまり follows a noun ({心配|しんぱい}のあまり), not a verb like 死ぬ."
+    },
+    {
+      "quiz": "n3-degree",
+      "i": 1,
+      "old": "さえ",
+      "new": "につれて",
+      "note": "につれて follows a verb of change ({増|ふ}えるにつれて)."
+    },
+    {
+      "quiz": "n3-degree",
+      "i": 8,
+      "old": "ばかり",
+      "new": "につれて",
+      "note": "につれて follows a verb of change, not a time noun."
+    },
+    {
+      "quiz": "n3-tendencies",
+      "i": 9,
+      "old": "ほど",
+      "new": "っぽい",
+      "note": "っぽい follows a noun or stem and doesn't take だ like this."
+    },
+    {
+      "quiz": "n3-even-if",
+      "i": 1,
+      "old": "たら",
+      "new": "ながらも",
+      "note": "ながらも follows the dictionary form or stem ({高|たか}いながらも), not 高く."
+    },
+    {
+      "quiz": "n3-even-if",
+      "i": 7,
+      "old": "ために",
+      "new": "ながらも",
+      "note": "ながらも attaches to the stem ({知|し}っていながらも), not 知っている."
+    },
+    {
+      "quiz": "n3-even-if",
+      "i": 11,
+      "old": "について",
+      "new": "くせに",
+      "note": "くせに blames someone — it doesn't fit praise like よくできている."
+    },
+    {
+      "quiz": "n3-even-if",
+      "i": 12,
+      "old": "によって",
+      "new": "ながらも",
+      "note": "ながらも attaches to the stem ({住|す}んでいながらも), not 住んでいる."
+    },
+    {
+      "quiz": "n3-emphasis",
+      "i": 0,
+      "old": "によっても",
+      "new": "こそ",
+      "note": "こそ emphasises ('precisely a joke') — it doesn't fit 'even if it's a joke'."
+    },
+    {
+      "quiz": "n3-emphasis",
+      "i": 2,
+      "old": "というと",
+      "new": "どころか",
+      "note": "どころか = 'far from' — it would need the opposite after it."
+    },
+    {
+      "quiz": "n3-adverbs",
+      "i": 0,
+      "old": "もうすぐ",
+      "new": "なるべく",
+      "note": "なるべく = 'as … as possible' — it goes with requests and efforts, not a promise."
+    },
+    {
+      "quiz": "n3-adverbs",
+      "i": 10,
+      "old": "なるまで",
+      "new": "ふと",
+      "note": "ふと = 'suddenly, by chance' — it doesn't go with a request."
+    },
+    {
+      "quiz": "n3-adverbs",
+      "i": 11,
+      "old": "ほぼ",
+      "new": "なるべく",
+      "note": "なるべく = 'as … as possible' — it doesn't describe a sudden realisation."
+    },
+    {
+      "quiz": "n3-adverbs",
+      "i": 15,
+      "old": "なおさら",
+      "new": "めったに",
+      "note": "めったに needs a negative (めったに{食|た}べない)."
+    },
+    {
+      "quiz": "n3-toiu-family",
+      "i": 0,
+      "old": "とする",
+      "new": "というと",
+      "note": "というと = 'speaking of' — it can't link 何千 to 人."
+    },
+    {
+      "quiz": "n3-toiu-family",
+      "i": 9,
+      "old": "とする",
+      "new": "というより",
+      "note": "というより = 'rather than' — it can't link a sum to お{金|かね}."
+    },
+    {
+      "quiz": "n3-instead-for",
+      "i": 1,
+      "old": "とおり",
+      "new": "{向|む}けに",
+      "note": "向け follows a noun ({子供|こども}{向|む}け), not a verb."
+    },
+    {
+      "quiz": "n3-instead-for",
+      "i": 3,
+      "old": "について",
+      "new": "だけ",
+      "note": "{母|はは}だけ = 'only mother' — it clashes with {私|わたし}が."
+    },
+    {
+      "quiz": "n3-instead-for",
+      "i": 6,
+      "old": "向こう",
+      "new": "{代|か}わり",
+      "note": "代わりに needs の ({子供|こども}の代わりに) and means 'instead of'."
+    },
+    {
+      "quiz": "n3-instead-for",
+      "i": 8,
+      "old": "まで",
+      "new": "{向|む}け",
+      "note": "向け follows a noun ({大人|おとな}{向|む}け)."
+    },
+    {
+      "quiz": "n3-instead-for",
+      "i": 9,
+      "old": "ほど",
+      "new": "{代|か}わりに",
+      "note": "できる代わりに = 'in exchange for being able' — not 'as … as possible'."
+    },
+    {
+      "quiz": "n3-instead-for",
+      "i": 11,
+      "old": "向こう",
+      "new": "{代|か}わり",
+      "note": "大人代わり isn't a phrase — 代わり means 'instead of'."
+    },
+    {
+      "quiz": "n3-instead-for",
+      "i": 12,
+      "old": "まで",
+      "new": "{向|む}け",
+      "note": "向け follows a noun, not a verb."
+    },
+    {
+      "quiz": "n3-connectors",
+      "i": 5,
+      "old": "としても",
+      "new": "と{共|とも}に",
+      "note": "と共に = 'together with / as' — it doesn't make a condition."
+    },
+    {
+      "quiz": "n3-connectors",
+      "i": 12,
+      "old": "として",
+      "new": "ところで",
+      "note": "ところで = 'by the way' — it can't follow a clause like this."
+    },
+    {
+      "quiz": "n3-koto-mono",
+      "i": 7,
+      "old": "っぱなし",
+      "new": "ものだ",
+      "note": "ものだ = 'that's how it is / used to' — it doesn't make a question."
+    },
+    {
+      "quiz": "n3-misc",
+      "i": 8,
+      "old": "中身に",
+      "new": "はじめ",
+      "note": "をはじめ lists examples (A をはじめ B も) — it doesn't mean 'centred on'."
+    },
+    {
+      "quiz": "n3-misc",
+      "i": 9,
+      "old": "にとって",
+      "new": "ついでに",
+      "note": "ついでに = 'while you're at it' — it can't follow a time noun like this."
+    },
+    {
+      "quiz": "n3-misc",
+      "i": 15,
+      "old": "にとって",
+      "new": "ついでに",
+      "note": "ついでに = 'while you're at it' — it can't mark a range."
+    },
+    {
+      "quiz": "n2-because",
+      "i": 6,
+      "old": "ものか",
+      "new": "からには",
+      "note": "からには = 'now that' — it needs a resolve or duty after it, not an excuse."
+    },
+    {
+      "quiz": "n2-because",
+      "i": 12,
+      "old": "ものか",
+      "new": "{以上|いじょう}",
+      "note": "以上 = 'now that' — it needs a resolve or duty after it."
+    },
+    {
+      "quiz": "n2-judging",
+      "i": 0,
+      "old": "からといって",
+      "new": "としては",
+      "note": "としては = 'speaking as (someone)' — not a guess based on evidence."
+    },
+    {
+      "quiz": "n2-judging",
+      "i": 1,
+      "old": "から来ると",
+      "new": "にしたら",
+      "note": "子供の目にしたら isn't natural — にしたら follows a person, not 目."
+    },
+    {
+      "quiz": "n2-judging",
+      "i": 2,
+      "old": "からといって",
+      "new": "{上|じょう}",
+      "note": "上 (じょう) = 'in terms of' (健康上) — it doesn't give evidence for a guess."
+    },
+    {
+      "quiz": "n2-judging",
+      "i": 8,
+      "old": "からには",
+      "new": "からして",
+      "note": "からして = 'judging from / to begin with' — not 'from someone's standpoint'."
+    },
+    {
+      "quiz": "n2-judging",
+      "i": 10,
+      "old": "からには",
+      "new": "{上|じょう}",
+      "note": "服装上 isn't natural — 上 (じょう) is for areas like 健康上, 仕事上."
+    },
+    {
+      "quiz": "n2-occasion",
+      "i": 5,
+      "old": "以上",
+      "new": "{上|うえ}で",
+      "note": "上で follows the た-form ({来|き}た上で) and means 'after (doing it properly)'."
+    },
+    {
+      "quiz": "n2-occasion",
+      "i": 14,
+      "old": "以上",
+      "new": "{上|うえ}で",
+      "note": "上で follows the た-form and means 'after (doing it properly)' — not 'ever since'."
+    },
+    {
+      "quiz": "n2-span",
+      "i": 7,
+      "old": "にとって",
+      "new": "のもとで",
+      "note": "のもとで = 'under (guidance)' and follows a noun."
+    },
+    {
+      "quiz": "n2-span",
+      "i": 9,
+      "old": "と一緒に",
+      "new": "を{通|つう}じて",
+      "note": "を通じて follows a noun (友人を通じて) — not a clause like 医者である."
+    },
+    {
+      "quiz": "n2-addition",
+      "i": 8,
+      "old": "おかげに",
+      "new": "{上|うえ}に",
+      "note": "上に follows a clause (なくした上に) — it can't start a sentence."
+    },
+    {
+      "quiz": "n2-addition",
+      "i": 9,
+      "old": "おまけを",
+      "new": "{上|うえ}に",
+      "note": "上に follows a clause — it can't start a sentence."
+    },
+    {
+      "quiz": "n2-process",
+      "i": 8,
+      "old": "ほど",
+      "new": "つつ",
+      "note": "つつ attaches to the ます-stem (ありつつ) — not to であって."
+    },
+    {
+      "quiz": "n2-process",
+      "i": 9,
+      "old": "まで",
+      "new": "からでないと",
+      "note": "からでないと needs a negative ending (…わからない) — here the sentence is positive."
+    },
+    {
+      "quiz": "n2-likeness",
+      "i": 4,
+      "old": "こう",
+      "new": "げ",
+      "note": "げ attaches to adjective stems ({寂|さび}しげ) — not to どういう."
+    },
+    {
+      "quiz": "n2-likeness",
+      "i": 5,
+      "old": "まま",
+      "new": "げ",
+      "note": "げ attaches to adjective stems — not to こんな."
+    },
+    {
+      "quiz": "n2-likeness",
+      "i": 6,
+      "old": "というより",
+      "new": "といった",
+      "note": "といった must be followed by a noun (…といった{科目|かもく})."
+    },
+    {
+      "quiz": "n2-likeness",
+      "i": 10,
+      "old": "として",
+      "new": "というふうに",
+      "note": "というふうに describes a pattern of actions — it can't modify a noun."
+    },
+    {
+      "quiz": "n2-likeness",
+      "i": 11,
+      "old": "として",
+      "new": "というふうに",
+      "note": "というふうに describes a pattern of actions — it can't modify 町."
+    },
+    {
+      "quiz": "n2-just-because",
+      "i": 0,
+      "old": "からして",
+      "new": "{限|かぎ}り",
+      "note": "限り needs である after a noun (日本人である限り) and means 'as long as'."
+    },
+    {
+      "quiz": "n2-just-because",
+      "i": 1,
+      "old": "からして",
+      "new": "{次第|しだい}で",
+      "note": "次第で follows a noun (天気次第で), not a verb like ある."
+    },
+    {
+      "quiz": "n2-frequency",
+      "i": 1,
+      "old": "おきに",
+      "new": "につけ",
+      "note": "につけ = 'whenever (a feeling arises)' and follows a verb like 見る."
+    },
+    {
+      "quiz": "n2-rules-purpose",
+      "i": 11,
+      "old": "によって",
+      "new": "つもりで",
+      "note": "つもりで follows a verb (行ったつもりで) — not a noun like リーダー."
+    },
+    {
+      "quiz": "n2-adverbs",
+      "i": 1,
+      "old": "どうか",
+      "new": "いわゆる",
+      "note": "いわゆる = 'so-called' and modifies a noun."
+    },
+    {
+      "quiz": "n2-adverbs",
+      "i": 4,
+      "old": "さっそく",
+      "new": "いわゆる",
+      "note": "いわゆる = 'so-called' and modifies a noun."
+    },
+    {
+      "quiz": "n2-adverbs",
+      "i": 7,
+      "old": "もしも",
+      "new": "かえって",
+      "note": "かえって is for an action that backfires — not for a better description."
+    },
+    {
+      "quiz": "n2-adverbs",
+      "i": 8,
+      "old": "いちいち",
+      "new": "いわゆる",
+      "note": "いわゆる = 'so-called' and modifies a noun."
+    },
+    {
+      "quiz": "n2-adverbs",
+      "i": 11,
+      "old": "ぜひ",
+      "new": "どうやら",
+      "note": "どうやら = 'it seems' — it doesn't go with かどうか."
+    },
+    {
+      "quiz": "n2-connectors",
+      "i": 0,
+      "old": "反応",
+      "new": "{逆|ぎゃく}に",
+      "note": "逆に is an adverb — it can't follow a clause like 給料がいい."
+    },
+    {
+      "quiz": "n2-connectors",
+      "i": 1,
+      "old": "裏面",
+      "new": "{以上|いじょう}に",
+      "note": "以上に = 'more than' — 便利な以上に isn't grammatical."
+    },
+    {
+      "quiz": "n2-connectors",
+      "i": 3,
+      "old": "それとも",
+      "new": "なお",
+      "note": "なお adds a note in announcements — it doesn't sum up."
+    },
+    {
+      "quiz": "n2-connectors",
+      "i": 5,
+      "old": "ただし",
+      "new": "あるいは",
+      "note": "あるいは = 'or' — but they're the same person."
+    },
+    {
+      "quiz": "n2-connectors",
+      "i": 6,
+      "old": "だから",
+      "new": "{要|よう}するに",
+      "note": "要するに sums up — here a new piece of information is added."
+    },
+    {
+      "quiz": "n2-connectors",
+      "i": 9,
+      "old": "そのうえ",
+      "new": "すなわち",
+      "note": "すなわち = 'namely' — rain and snow aren't the same thing."
+    },
+    {
+      "quiz": "n2-lists-hedges",
+      "i": 4,
+      "old": "なり",
+      "new": "か",
+      "note": "か goes with 何か ('or something') — it can't pair with やら."
+    },
+    {
+      "quiz": "n1-instant",
+      "i": 0,
+      "old": "が限り",
+      "new": "なり",
+      "note": "なり needs the same subject in both parts — here the bell rings and the students run."
+    },
+    {
+      "quiz": "n1-instant",
+      "i": 1,
+      "old": "ものの",
+      "new": "そばから",
+      "note": "そばから is for a repeated cycle ('as fast as …'), not a single event."
+    },
+    {
+      "quiz": "n1-instant",
+      "i": 2,
+      "old": "やら",
+      "new": "なり",
+      "note": "なり needs the same subject in both parts — here the doors open and the passengers get off."
+    },
+    {
+      "quiz": "n1-instant",
+      "i": 6,
+      "old": "からして",
+      "new": "{拍子|ひょうし}に",
+      "note": "拍子に follows the た-form and is for an accident in a sudden movement."
+    },
+    {
+      "quiz": "n1-extreme",
+      "i": 1,
+      "old": "ずくめ",
+      "new": "ならでは",
+      "note": "ならでは = 'unique to' — it doesn't go with a single day and a negative."
+    },
+    {
+      "quiz": "n1-extreme",
+      "i": 8,
+      "old": "にあたらず",
+      "new": "はおろか",
+      "note": "はおろか = 'let alone' (usually negative) — here the effect spreads outward."
+    },
+    {
+      "quiz": "n1-extreme",
+      "i": 9,
+      "old": "に至って",
+      "new": "ならでは",
+      "note": "ならでは = 'unique to' — it needs の + noun after it."
+    },
+    {
+      "quiz": "n1-extreme",
+      "i": 10,
+      "old": "すら",
+      "new": "たりとも",
+      "note": "たりとも follows 一 + counter and needs a negative."
+    },
+    {
+      "quiz": "n1-extreme",
+      "i": 12,
+      "old": "ながらの",
+      "new": "だに",
+      "note": "だに is for 'not even (imagine)' — 京都だにの isn't grammatical."
+    },
+    {
+      "quiz": "n1-without",
+      "i": 2,
+      "old": "ことから",
+      "new": "なくして",
+      "note": "なくして follows a noun ({努力|どりょく}なくして), not a verb."
+    },
+    {
+      "quiz": "n1-without",
+      "i": 4,
+      "old": "を問わず",
+      "new": "をいいことに",
+      "note": "をいいことに = taking (bad) advantage of — the parents' worry isn't an opportunity."
+    },
+    {
+      "quiz": "n1-without",
+      "i": 5,
+      "old": "を機に",
+      "new": "をいいことに",
+      "note": "をいいことに = taking (bad) advantage of — objections aren't an opportunity."
+    },
+    {
+      "quiz": "n1-without",
+      "i": 9,
+      "old": "をもって",
+      "new": "をいいことに",
+      "note": "をいいことに = taking advantage of — 家族をいいことに makes no sense here."
+    },
+    {
+      "quiz": "n1-concession",
+      "i": 7,
+      "old": "とみるや",
+      "new": "ならいざしらず",
+      "note": "ならいざしらず = 'A maybe, but not B' — it would excuse the expert."
+    },
+    {
+      "quiz": "n1-concession",
+      "i": 8,
+      "old": "とみるや",
+      "new": "であれ",
+      "note": "であれ follows a noun (たとえ子供であれ), not a clause like 春になった."
+    },
+    {
+      "quiz": "n1-concession",
+      "i": 10,
+      "old": "ながらも",
+      "new": "であれ",
+      "note": "であれ = 'whether / even if (it's) N' — it doesn't contrast a child with an adult."
+    },
+    {
+      "quiz": "n1-occasion",
+      "i": 6,
+      "old": "を通って",
+      "new": "を{皮切|かわき}りに",
+      "note": "を皮切りに = the first of a series — a debate isn't the start of several conclusions."
+    },
+    {
+      "quiz": "n1-worth",
+      "i": 0,
+      "old": "に際する",
+      "new": "までもない",
+      "note": "までもない follows a verb (言うまでもない)."
+    },
+    {
+      "quiz": "n1-asif",
+      "i": 8,
+      "old": "じまいの",
+      "new": "ごとき",
+      "note": "ごとき = 'like / the likes of' — 子供ごとき isn't 'childish'."
+    },
+    {
+      "quiz": "n1-asif",
+      "i": 13,
+      "old": "ずくめに",
+      "new": "とばかりに",
+      "note": "とばかりに follows a quote ('…' とばかりに), not 涙."
+    },
+    {
+      "quiz": "n1-outcomes",
+      "i": 2,
+      "old": "がてら",
+      "new": "ものを",
+      "note": "ものを = 'if only (regret)' — it doesn't describe what happens once he starts."
+    },
+    {
+      "quiz": "n1-outcomes",
+      "i": 8,
+      "old": "ためいきだ",
+      "new": "ずじまいだ",
+      "note": "ずじまい follows the ない-stem ({守|まも}らずじまい) — not 守った."
+    },
+    {
+      "quiz": "n1-outcomes",
+      "i": 12,
+      "old": "ものか",
+      "new": "が{最後|さいご}",
+      "note": "が最後 = 'once …, there's no going back' — not regret."
+    },
+    {
+      "quiz": "n1-standards",
+      "i": 0,
+      "old": "に沿って",
+      "new": "に{即|そく}して",
+      "note": "に即して = 'in line with (facts)' — it doesn't contrast two people."
+    },
+    {
+      "quiz": "n1-standards",
+      "i": 2,
+      "old": "をめぐって",
+      "new": "はさておき",
+      "note": "はさておき = 'setting aside' — it can't combine with ほかにいない."
+    },
+    {
+      "quiz": "n1-contrast",
+      "i": 4,
+      "old": "を禁じ得ない",
+      "new": "に{足|た}りない",
+      "note": "鑑賞に足りない would contradict 'has reached a professional level'."
+    },
+    {
+      "quiz": "n1-alongside",
+      "i": 12,
+      "old": "とか",
+      "new": "つ",
+      "note": "つ pairs two verbs (抜きつ抜かれつ), not nouns."
+    },
+    {
+      "quiz": "n1-adverbs",
+      "i": 4,
+      "old": "ことに",
+      "new": "いまだに",
+      "note": "いまだに = 'still (even now)' — it doesn't fit a completed result like 外れた."
+    },
+    {
+      "quiz": "n1-adverbs",
+      "i": 12,
+      "old": "まして",
+      "new": "もはや",
+      "note": "もはや = 'no longer / by now' — it doesn't describe a deliberate choice."
+    },
+    {
+      "quiz": "n1-relations",
+      "i": 2,
+      "old": "にあたる",
+      "new": "に{先駆|さきが}けて",
+      "note": "に先駆けて = 'ahead of' — it can't modify 伝説."
+    },
+    {
+      "quiz": "n1-relations",
+      "i": 4,
+      "old": "に至って",
+      "new": "にもまして",
+      "note": "にもまして = 'even more than' — it doesn't mean 'ahead of'."
+    },
+    {
+      "quiz": "n1-relations",
+      "i": 6,
+      "old": "をめぐって",
+      "new": "を{踏|ふ}まえて",
+      "note": "を踏まえて = 'building on' — 本日を踏まえて makes no sense."
+    },
+    {
+      "quiz": "n1-relations",
+      "i": 7,
+      "old": "を経て",
+      "new": "と{相|あい}まって",
+      "note": "と相まって = 'combined with' — it doesn't mean 'by means of'."
+    },
+    {
+      "quiz": "n1-relations",
+      "i": 12,
+      "old": "をおいて",
+      "new": "にまつわる",
+      "note": "にまつわる must modify a noun (…にまつわる話)."
+    },
+    {
+      "quiz": "n1-levels",
+      "i": 6,
+      "old": "から",
+      "new": "くらいなら",
+      "note": "くらいなら follows the dictionary form (借金するくらいなら), not the て-form."
+    },
+    {
+      "quiz": "n1-attitude",
+      "i": 2,
+      "old": "としても",
+      "new": "といわず",
+      "note": "といわず pairs with といわず, not with といい."
+    },
+    {
+      "quiz": "n1-attitude",
+      "i": 6,
+      "old": "なり",
+      "new": "といい",
+      "note": "といい pairs with といい and gives praise or criticism — not a list of complaints."
+    },
+    {
+      "quiz": "n1-should",
+      "i": 8,
+      "old": "ことから",
+      "new": "べからず",
+      "note": "べからず ends a sentence ('must not') — it can't link to 注意してください."
+    },
+    {
+      "quiz": "n1-tendencies",
+      "i": 10,
+      "old": "としても",
+      "new": "{始末|しまつ}だから",
+      "note": "始末だ is for a bad result — not for cheap, tasty food."
+    },
+    {
+      "quiz": "n1-assumptions",
+      "i": 0,
+      "old": "ずくめ",
+      "new": "もしないで",
+      "note": "もしないで attaches to the ます-stem (言いもしないで), not 言わ."
+    },
+    {
+      "quiz": "n1-assumptions",
+      "i": 6,
+      "old": "ものの",
+      "new": "なりとも",
+      "note": "なりとも = 'at least (a little)' and follows an amount."
+    },
+    {
+      "quiz": "n1-assumptions",
+      "i": 12,
+      "old": "ともに",
+      "new": "ずとも",
+      "note": "ずとも follows the ない-stem (言わずとも) — it can't start a clause."
+    },
+    {
+      "quiz": "n1-spoken",
+      "i": 2,
+      "old": "っぽい",
+      "new": "やしない",
+      "note": "やしない follows the ます-stem (信じやしない) — not わかった."
+    },
+    {
+      "quiz": "n1-spoken",
+      "i": 8,
+      "old": "おく",
+      "new": "かなわない",
+      "note": "てかなわない = 'unbearable' — it doesn't express determination."
+    },
+    {
+      "quiz": "n1-formal",
+      "i": 4,
+      "old": "きっての",
+      "new": "いかなる",
+      "note": "いかなる must come before the noun (いかなる客)."
+    },
+    {
+      "quiz": "n1-adverbs2",
+      "i": 8,
+      "old": "まるい",
+      "new": "さぞ",
+      "note": "さぞ needs だろう and is for imagining someone else's feelings."
+    },
+    {
+      "quiz": "n1-adverbs2",
+      "i": 10,
+      "old": "それゆえ",
+      "new": "さも",
+      "note": "さも = 'as if' — さもの isn't grammatical."
+    },
+    {
+      "quiz": "n1-adverbs2",
+      "i": 12,
+      "old": "まみれ",
+      "new": "とっさに",
+      "note": "とっさに = 'on the spur of the moment' — it can't follow 向く."
+    },
+    {
+      "quiz": "n1-misc",
+      "i": 0,
+      "old": "ものか",
+      "new": "ようによっては",
+      "note": "ようによっては follows the ます-stem (考えようによっては)."
+    },
+    {
+      "quiz": "n1-misc",
+      "i": 2,
+      "old": "ことなく",
+      "new": "{瞬間|しゅんかん}に",
+      "note": "瞬間に = 'the instant' — it doesn't fit そろそろ ('soon')."
+    },
+    {
+      "quiz": "n1-misc",
+      "i": 10,
+      "old": "というと",
+      "new": "というわけではない",
+      "note": "というわけではない ends a clause — it can't be followed by 、まだ…."
+    },
+    {
+      "quiz": "zh-a1-adverbs",
+      "i": 8,
+      "old": "呢",
+      "new": "{很|hěn}",
+      "note": "很 goes before the adjective, never after it."
+    },
+    {
+      "quiz": "zh-a1-questions",
+      "i": 13,
+      "old": "也",
+      "new": "{吗|ma}",
+      "note": "吗 goes at the end, and never with 还是."
+    },
+    {
+      "quiz": "zh-a1-de-he",
+      "i": 0,
+      "old": "了",
+      "new": "{和|hé}",
+      "note": "和 links two nouns — 我和书 isn't 'my book'."
+    },
+    {
+      "quiz": "zh-a1-de-he",
+      "i": 3,
+      "old": "还",
+      "new": "{的|de}",
+      "note": "我的我妹妹 isn't grammatical — 的 shows possession."
+    },
+    {
+      "quiz": "zh-a2-le",
+      "i": 0,
+      "old": "在",
+      "new": "{吗|ma}",
+      "note": "吗 goes at the end of a question."
+    },
+    {
+      "quiz": "zh-a2-le",
+      "i": 2,
+      "old": "的",
+      "new": "{吗|ma}",
+      "note": "吗 asks a question — the sentence ends with ！."
+    },
+    {
+      "quiz": "zh-a2-le",
+      "i": 7,
+      "old": "正在",
+      "new": "{还没|hái méi}",
+      "note": "还没 = 'not yet' — it doesn't go with 了."
+    },
+    {
+      "quiz": "zh-a2-le",
+      "i": 8,
+      "old": "在",
+      "new": "{吗|ma}",
+      "note": "吗 goes at the end of a question."
+    },
+    {
+      "quiz": "zh-a2-comparisons",
+      "i": 2,
+      "old": "太",
+      "new": "{最|zuì}",
+      "note": "最 can't be used with 比."
+    },
+    {
+      "quiz": "zh-a2-comparisons",
+      "i": 4,
+      "old": "不要",
+      "new": "{跟|gēn}",
+      "note": "跟 needs 一样 to compare (跟…一样冷)."
+    },
+    {
+      "quiz": "zh-a2-comparisons",
+      "i": 9,
+      "old": "什么",
+      "new": "{比|bǐ}",
+      "note": "比 needs a second noun (比他高)."
+    },
+    {
+      "quiz": "zh-a2-comparisons",
+      "i": 10,
+      "old": "哪",
+      "new": "{比|bǐ}",
+      "note": "比 needs a second noun."
+    },
+    {
+      "quiz": "zh-a2-adverbs",
+      "i": 6,
+      "old": "刚",
+      "new": "{一边|yìbiān}",
+      "note": "一边 needs a second 一边 + verb."
+    },
+    {
+      "quiz": "zh-a2-adverbs",
+      "i": 7,
+      "old": "快",
+      "new": "{一边|yìbiān}",
+      "note": "一边 needs a second 一边 + verb."
+    },
+    {
+      "quiz": "zh-a2-adverbs",
+      "i": 8,
+      "old": "不是",
+      "new": "{只|zhǐ}",
+      "note": "只说话了 isn't natural — this is a command to stop."
+    },
+    {
+      "quiz": "zh-a2-adverbs",
+      "i": 9,
+      "old": "不是",
+      "new": "{一边|yìbiān}",
+      "note": "一边 needs a second 一边 + verb."
+    },
+    {
+      "quiz": "zh-a2-adverbs",
+      "i": 10,
+      "old": "一点",
+      "new": "{又|yòu}",
+      "note": "The pair is 一边…一边 — 又 pairs with 又."
+    },
+    {
+      "quiz": "zh-a2-degree",
+      "i": 8,
+      "old": "才",
+      "new": "{差不多|chàbuduō}",
+      "note": "差不多 = 'about the same / almost' — it doesn't sum up 很多人."
+    },
+    {
+      "quiz": "zh-a2-modifiers",
+      "i": 0,
+      "old": "了",
+      "new": "{第|dì}",
+      "note": "第 goes before a number (第一)."
+    },
+    {
+      "quiz": "zh-a2-modifiers",
+      "i": 3,
+      "old": "了",
+      "new": "{第|dì}",
+      "note": "第 goes before a number (第一)."
+    },
+    {
+      "quiz": "zh-a2-modifiers",
+      "i": 5,
+      "old": "在",
+      "new": "{第|dì}",
+      "note": "第 goes before a number (第一)."
+    },
+    {
+      "quiz": "zh-a2-modifiers",
+      "i": 6,
+      "old": "几",
+      "new": "{的|de}",
+      "note": "我的一次 isn't the ordinal — 第 makes 'first'."
+    },
+    {
+      "quiz": "zh-a2-location",
+      "i": 8,
+      "old": "比",
+      "new": "{在|zài}",
+      "note": "在 marks a place — 在你一起 isn't grammatical."
+    },
+    {
+      "quiz": "zh-a2-particles",
+      "i": 5,
+      "old": "的",
+      "new": "{怎么样|zěnmeyàng}",
+      "note": "怎么样 asks for an opinion — B is answering."
+    },
+    {
+      "quiz": "zh-b1-ba",
+      "i": 0,
+      "old": "对",
+      "new": "{没|méi}",
+      "note": "没 goes before 把 in a negative — but this is a request."
+    },
+    {
+      "quiz": "zh-b1-comparisons",
+      "i": 2,
+      "old": "最",
+      "new": "{越来越|yuè lái yuè}",
+      "note": "越来越 doesn't go with 比."
+    },
+    {
+      "quiz": "zh-b1-comparisons",
+      "i": 3,
+      "old": "真",
+      "new": "{那么|nàme}",
+      "note": "那么 goes with 有 / 没有 comparisons, not with 比."
+    },
+    {
+      "quiz": "zh-b1-comparisons",
+      "i": 4,
+      "old": "最",
+      "new": "{更|gèng}",
+      "note": "更 goes with 比, not with 有…吗."
+    },
+    {
+      "quiz": "zh-b1-shide",
+      "i": 5,
+      "old": "还",
+      "new": "{是|shì}",
+      "note": "连 pairs with 都 / 也, not 是."
+    },
+    {
+      "quiz": "zh-b1-shide",
+      "i": 6,
+      "old": "又",
+      "new": "{是|shì}",
+      "note": "连 pairs with 都 / 也, not 是."
+    },
+    {
+      "quiz": "zh-b1-adverbs-advice",
+      "i": 4,
+      "old": "才",
+      "new": "{先|xiān}",
+      "note": "先 marks the first step — the second step takes 再."
+    },
+    {
+      "quiz": "zh-b1-adverbs-advice",
+      "i": 8,
+      "old": "一下",
+      "new": "{够|gòu}",
+      "note": "够 = 'enough' — it doesn't mean 'each other'."
+    },
+    {
+      "quiz": "zh-b1-adverbs-advice",
+      "i": 10,
+      "old": "很",
+      "new": "{互相|hùxiāng}",
+      "note": "互相 = 'each other' — money can't do that."
+    },
+    {
+      "quiz": "zh-b1-connectors",
+      "i": 0,
+      "old": "因为",
+      "new": "{结果|jiéguǒ}",
+      "note": "结果 = 'as a result' — the price isn't caused by the taste."
+    },
+    {
+      "quiz": "zh-b1-connectors",
+      "i": 8,
+      "old": "最近",
+      "new": "{以来|yǐlái}",
+      "note": "以来 follows a time or event (来中国以来) — it can't start a clause."
+    },
+    {
+      "quiz": "zh-b1-prepositions",
+      "i": 12,
+      "old": "又",
+      "new": "{对|duì}",
+      "note": "对 is a preposition — 他对回家 isn't grammatical."
+    },
+    {
+      "quiz": "zh-b1-verbs",
+      "i": 6,
+      "old": "不能",
+      "new": "{好像|hǎoxiàng}",
+      "note": "好像 = 'it seems' — it isn't an answer to an offer."
+    },
+    {
+      "quiz": "zh-b1-verbs",
+      "i": 7,
+      "old": "不是",
+      "new": "{以为|yǐwéi}",
+      "note": "以为 = 'mistakenly thought' — 你以为早起 isn't advice."
+    },
+    {
+      "quiz": "zh-b1-verbs",
+      "i": 8,
+      "old": "在",
+      "new": "{算|suàn}",
+      "note": "算 = 'count as' — 我算走了 isn't 'I must go'."
+    },
+    {
+      "quiz": "zh-b1-verbs",
+      "i": 10,
+      "old": "自己",
+      "new": "{以为|yǐwéi}",
+      "note": "以为 = 'thought (wrongly)' — it doesn't say where you're from."
+    },
+    {
+      "quiz": "zh-b1-verbs",
+      "i": 12,
+      "old": "看见",
+      "new": "{不用|búyòng}",
+      "note": "不用 = 'no need' — 这不用天气 isn't grammatical."
+    },
+    {
+      "quiz": "zh-b1-patterns",
+      "i": 0,
+      "old": "关于",
+      "new": "{每次|měi cì}",
+      "note": "每次 = 'every time' — it doesn't give a purpose."
+    },
+    {
+      "quiz": "zh-b1-patterns",
+      "i": 2,
+      "old": "跟",
+      "new": "{为了|wèile}",
+      "note": "为了 gives a purpose — the pattern is 对…来说."
+    },
+    {
+      "quiz": "zh-b1-patterns",
+      "i": 6,
+      "old": "要不",
+      "new": "{不然|bùrán}",
+      "note": "不然 = 'otherwise' — it needs a condition before it."
+    },
+    {
+      "quiz": "zh-b1-patterns",
+      "i": 9,
+      "old": "虽然",
+      "new": "{怪不得|guàibude}",
+      "note": "怪不得 = 'no wonder' — here something was avoided."
+    },
+    {
+      "quiz": "zh-b1-numbers-lists",
+      "i": 6,
+      "old": "没有了",
+      "new": "{之一|zhīyī}",
+      "note": "之一 = 'one of' and follows a group."
+    },
+    {
+      "quiz": "zh-b1-numbers-lists",
+      "i": 10,
+      "old": "一些",
+      "new": "{所有|suǒyǒu}",
+      "note": "所有 goes before the noun (所有的地方)."
+    },
+    {
+      "quiz": "zh-b1-contrast",
+      "i": 3,
+      "old": "时间",
+      "new": "{中间|zhōngjiān}",
+      "note": "中间 = 'middle (position)' — not 'after'."
+    },
+    {
+      "quiz": "zh-b1-degree",
+      "i": 2,
+      "old": "最",
+      "new": "{极了|jí le}",
+      "note": "极了 goes after the adjective (漂亮极了)."
+    },
+    {
+      "quiz": "zh-b1-degree",
+      "i": 8,
+      "old": "太",
+      "new": "{比较|bǐjiào}",
+      "note": "比较 goes before adjectives / verbs, not before 家人."
+    },
+    {
+      "quiz": "zh-b1-degree",
+      "i": 9,
+      "old": "最",
+      "new": "{比较|bǐjiào}",
+      "note": "比较 goes before adjectives / verbs, not before 班."
+    },
+    {
+      "quiz": "zh-b1-verb-structures",
+      "i": 10,
+      "old": "离",
+      "new": "{给|gěi}",
+      "note": "给 = 'for / to (someone)' — it doesn't mean 'until'."
+    },
+    {
+      "quiz": "zh-b1-misc",
+      "i": 8,
+      "old": "对",
+      "new": "{请|qǐng}",
+      "note": "请 = 'invite / please' — news can't invite people."
+    },
+    {
+      "quiz": "zh-b2-conditions",
+      "i": 4,
+      "old": "因为",
+      "new": "{才|cái}",
+      "note": "才 goes after the subject (我们才…) and pairs with 除非 for 'only if'."
+    },
+    {
+      "quiz": "zh-b2-even-if",
+      "i": 1,
+      "old": "因为",
+      "new": "{任何|rènhé}",
+      "note": "任何 must come before a noun (任何人)."
+    },
+    {
+      "quiz": "zh-b2-cause-contrast",
+      "i": 14,
+      "old": "且",
+      "new": "{却|què}",
+      "note": "却 goes after the subject (北方人却…), not at the start."
+    },
+    {
+      "quiz": "zh-b2-adverbs",
+      "i": 0,
+      "old": "几时",
+      "new": "{白|bái}",
+      "note": "白 = 'in vain' — it doesn't mean 'almost'."
+    },
+    {
+      "quiz": "zh-b2-adverbs",
+      "i": 2,
+      "old": "于是",
+      "new": "{顺便|shùnbiàn}",
+      "note": "顺便 = 'while you're at it' — it doesn't add an extreme."
+    },
+    {
+      "quiz": "zh-b2-adverbs",
+      "i": 3,
+      "old": "不管",
+      "new": "{顺便|shùnbiàn}",
+      "note": "顺便 = 'while you're at it' — it doesn't add an extreme."
+    },
+    {
+      "quiz": "zh-b2-adverbs",
+      "i": 10,
+      "old": "未来",
+      "new": "{曾经|céngjīng}",
+      "note": "曾经 = 'once (in the past)' — it clashes with 今天."
+    },
+    {
+      "quiz": "zh-b2-adverbs",
+      "i": 11,
+      "old": "以后",
+      "new": "{几乎|jīhū}",
+      "note": "几乎 = 'almost' — 几乎就很简单 isn't natural."
+    },
+    {
+      "quiz": "zh-b2-patterns",
+      "i": 10,
+      "old": "直到",
+      "new": "{宁可|nìngkě}",
+      "note": "宁可 = 'would rather' and pairs with 也."
+    },
+    {
+      "quiz": "zh-b2-prepositions",
+      "i": 12,
+      "old": "由于",
+      "new": "{随着|suízhe}",
+      "note": "随着 = 'along with (a change)' — it doesn't introduce a topic."
+    }
+  ]
+}

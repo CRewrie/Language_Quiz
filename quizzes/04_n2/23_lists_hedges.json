@@ -162,7 +162,7 @@
         "やら",
         "だの",
         "とか",
-        "なり"
+        "か"
       ],
       "answer": 0,
       "explanation": "**やら〜やら** — the pair must match.",
@@ -170,7 +170,7 @@
         "",
         "だの pairs with だの.",
         "とか pairs with とか.",
-        "なり pairs with なり (and means 'either… or')."
+        "か goes with 何か ('or something') — it can't pair with やら."
       ],
       "translation": "What with preparing for the move and work, I'm busy."
     },

@@ -97,7 +97,7 @@
       "options": [
         "や{否|いな}や",
         "か{何|なに}か",
-        "ものか",
+        "ようによっては",
         "か{否|いな}か"
       ],
       "answer": 3,
@@ -105,7 +105,7 @@
       "notes": [
         "や否や = 'as soon as'.",
         "か何か = 'or something'.",
-        "ものか = 'as if!'.",
+        "ようによっては follows the ます-stem (考えようによっては).",
         ""
       ],
       "translation": "Please let us know this week whether you'll take part."
@@ -134,7 +134,7 @@
       "prompt": "{雨|あめ}も{止|や}んだ（　）、そろそろ{出|で}かけようか。",
       "options": [
         "ことだし",
-        "ことなく",
+        "{瞬間|しゅんかん}に",
         "ことから",
         "こととて"
       ],
@@ -142,7 +142,7 @@
       "explanation": "Since (casual): **ことだし**.",
       "notes": [
         "",
-        "ことなく = 'without'.",
+        "瞬間に = 'the instant' — it doesn't fit そろそろ ('soon').",
         "ことから = 'from the fact that' (formal basis).",
         "こととて = 'because (apology)'."
       ],
@@ -288,7 +288,7 @@
         "とはいえば",
         "とはいうものの",
         "というより",
-        "というと"
+        "というわけではない"
       ],
       "answer": 1,
       "explanation": "Although: **とはいうものの**.",
@@ -296,7 +296,7 @@
         "Not a pattern.",
         "",
         "というより = 'rather than'.",
-        "というと = 'speaking of'."
+        "というわけではない ends a clause — it can't be followed by 、まだ…."
       ],
       "translation": "It may be spring by the calendar, but the cold days continue."
     },

@@ -114,7 +114,7 @@
       "point": "gotoni",
       "prompt": "{会|あ}う{人|ひと}（　）{同|おな}じ{質問|しつもん}をされた。",
       "options": [
-        "おきに",
+        "につけ",
         "ごとで",
         "ずつ",
         "ごとに"
@@ -122,7 +122,7 @@
       "answer": 3,
       "explanation": "Each person: **ごとに**.",
       "notes": [
-        "おきに = 'every other'.",
+        "につけ = 'whenever (a feeling arises)' and follows a verb like 見る.",
         "ごとで isn't the pattern.",
         "ずつ = 'each (amount)'.",
         ""

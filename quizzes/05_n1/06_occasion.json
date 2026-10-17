@@ -211,7 +211,7 @@
       "options": [
         "を{越|こ}えて",
         "を{過|す}ぎて",
-        "を{通|とお}って",
+        "を{皮切|かわき}りに",
         "を{経|へ}て"
       ],
       "answer": 3,
@@ -219,7 +219,7 @@
       "notes": [
         "越えて = 'going beyond'.",
         "過ぎて = 'passing (time / a place)'.",
-        "通って = 'passing along (a road)'.",
+        "を皮切りに = the first of a series — a debate isn't the start of several conclusions.",
         ""
       ],
       "translation": "After a long debate, a conclusion was finally reached."

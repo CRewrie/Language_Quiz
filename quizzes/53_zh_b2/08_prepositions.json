@@ -351,7 +351,7 @@
         "{甚至|shènzhì}",
         "{终于|zhōngyú}",
         "{至于|zhìyú}",
-        "{由于|yóuyú}"
+        "{随着|suízhe}"
       ],
       "answer": 2,
       "explanation": "As for: **至于**.",
@@ -359,7 +359,7 @@
         "甚至 = 'even'.",
         "终于 = 'finally'.",
         "",
-        "由于 = 'due to'."
+        "随着 = 'along with (a change)' — it doesn't introduce a topic."
       ],
       "translation": "Let's finish the work first — as for how to celebrate, we'll talk about it later."
     },

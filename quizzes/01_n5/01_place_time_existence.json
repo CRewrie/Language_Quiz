@@ -130,7 +130,7 @@
       "point": "ga-subject",
       "prompt": "どれ（　）あなたの{傘|かさ}ですか。",
       "options": [
-        "を",
+        "で",
         "も",
         "が",
         "は"
@@ -138,7 +138,7 @@
       "answer": 2,
       "explanation": "A question word as subject always takes **が**.",
       "notes": [
-        "を marks an object, but there's no action verb here.",
+        "で marks a place or means — どれ here is the subject of the question.",
         "どれも means 'every one' and doesn't make a question.",
         "",
         "Question words can't be the topic. どれは is always wrong."
@@ -454,7 +454,7 @@
       "prompt": "この{中|なか}で、だれ（　）{一番|いちばん}{若|わか}いですか。",
       "options": [
         "が",
-        "を",
+        "で",
         "の",
         "は"
       ],
@@ -462,7 +462,7 @@
       "explanation": "Question-word subject → **が**: だれが.",
       "notes": [
         "",
-        "を marks an object, but 若い is an adjective.",
+        "で marks a place or means — だれ here is the subject.",
         "だれの一番 isn't grammatical here.",
         "Question words can never take は. だれは is always wrong."
       ],

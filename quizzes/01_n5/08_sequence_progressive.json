@@ -94,7 +94,7 @@
         "ので",
         "から",
         "まで",
-        "が"
+        "まえに"
       ],
       "answer": 1,
       "explanation": "て-form + **から** = 'after doing'.",
@@ -102,7 +102,7 @@
         "ので follows plain forms (洗うので), not the て-form.",
         "",
         "まで can't follow the て-form.",
-        "が can't follow the て-form."
+        "まえに follows the dictionary form ({洗|あら}うまえに), not the て-form."
       ],
       "translation": "Please wash your hands before you eat. (lit. after washing, eat)"
     },

@@ -415,6 +415,10 @@ quiz("08_word_order", "zh-a1-word-order", "★ Word Order (连词成句)",
 
 # ---------------------------------------------------------------- write
 random.seed(5001)
+sys.path.insert(0, __import__("os").path.dirname(__file__))
+from zhquiz import apply_fixes
+for d in QUIZZES.values():
+    apply_fixes(d)
 for fname, d in QUIZZES.items():
     ids = {p["id"] for p in d["points"]}
     cnt = collections.Counter(q["point"] for q in d["questions"])

@@ -377,7 +377,7 @@
       "options": [
         "{与|yǔ}",
         "{而|ér}",
-        "{且|qiě}",
+        "{却|què}",
         "{和|hé}"
       ],
       "answer": 1,
@@ -385,7 +385,7 @@
       "notes": [
         "与 links nouns.",
         "",
-        "且 alone doesn't link clauses like this.",
+        "却 goes after the subject (北方人却…), not at the start.",
         "和 links nouns, not clauses."
       ],
       "translation": "Southerners like rice, whereas northerners like wheat-based food."

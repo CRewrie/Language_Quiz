@@ -156,7 +156,7 @@
       "prompt": "A：{你|nǐ}{去|qù}{不|bu}{去|qù}？\nB：{去|qù}（　）！{当然|dāngrán}{去|qù}！",
       "options": [
         "{吗|ma}",
-        "{的|de}",
+        "{怎么样|zěnmeyàng}",
         "{呢|ne}",
         "{啊|a}"
       ],
@@ -164,7 +164,7 @@
       "explanation": "Enthusiasm: **啊**.",
       "notes": [
         "吗 makes it a question.",
-        "去的 isn't natural.",
+        "怎么样 asks for an opinion — B is answering.",
         "呢 doesn't fit an enthusiastic answer.",
         ""
       ],

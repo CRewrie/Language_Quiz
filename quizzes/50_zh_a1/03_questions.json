@@ -358,7 +358,7 @@
         "{还是|háishi}",
         "{和|hé}",
         "{或者|huòzhě}",
-        "{也|yě}"
+        "{吗|ma}"
       ],
       "answer": 0,
       "explanation": "Either-or question: **还是**.",
@@ -366,7 +366,7 @@
         "",
         "和 links nouns — 'tea and drink coffee' doesn't work.",
         "或者 is 'or' in statements, not in either-or questions.",
-        "也 = 'also'."
+        "吗 goes at the end, and never with 还是."
       ],
       "translation": "Will you have tea or coffee?"
     },

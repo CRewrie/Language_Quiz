@@ -287,7 +287,7 @@
       "point": "nado",
       "prompt": "{夏休|なつやす}みは{京都|きょうと}や{奈良|なら}（　）に{行|い}きました。",
       "options": [
-        "ほど",
+        "しか",
         "なんど",
         "まで",
         "など"
@@ -295,7 +295,7 @@
       "answer": 3,
       "explanation": "AやB**など** = places like A and B.",
       "notes": [
-        "ほど = 'extent'.",
+        "しか needs a negative verb (しか{行|い}きませんでした) and can't take に like this.",
         "なんど means 'how many times'.",
         "まで = 'until/as far as'.",
         ""
@@ -306,7 +306,7 @@
       "point": "shi",
       "prompt": "この{店|みせ}は{安|やす}い（　）、おいしいし、よく{来|き}ます。",
       "options": [
-        "と",
+        "たり",
         "し",
         "が",
         "て"
@@ -314,7 +314,7 @@
       "answer": 1,
       "explanation": "Listing reasons: **〜し、〜し**.",
       "notes": [
-        "安いと = 'if/when it's cheap'.",
+        "たり attaches to the た-form ({安|やす}かったり) and comes in pairs.",
         "",
         "安いが = 'cheap, but…' — contradicts the second positive reason.",
         "い-adjectives connect with くて, not て."

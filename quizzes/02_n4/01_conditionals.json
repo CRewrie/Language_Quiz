@@ -410,7 +410,7 @@
       "options": [
         "{場面|ばめん}",
         "{場所|ばしょ}",
-        "{具合|ぐあい}",
+        "なら",
         "{場合|ばあい}"
       ],
       "answer": 3,
@@ -418,7 +418,7 @@
       "notes": [
         "場面 means 'scene' (in a film or story).",
         "場所 means 'place'. 火事の場所 is where the fire is.",
-        "具合 means 'condition' (体の具合), not 'in case of'.",
+        "なら follows the noun directly ({火事|かじ}なら) and doesn't take の…は.",
         ""
       ],
       "translation": "In case of fire, do not use the elevator."
@@ -429,7 +429,7 @@
       "options": [
         "{場所|ばしょ}",
         "{場合|ばあい}",
-        "{具合|ぐあい}",
+        "たら",
         "{場面|ばめん}"
       ],
       "answer": 1,
@@ -437,7 +437,7 @@
       "notes": [
         "場所 means 'place'.",
         "",
-        "具合 means 'condition / state'.",
+        "たら attaches to the た-form ({遅|おく}れたら) and doesn't take は.",
         "場面 means 'scene'."
       ],
       "translation": "If you're going to be late for class, be sure to let us know."

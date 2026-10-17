@@ -134,7 +134,7 @@
       "prompt": "もう、わかった（　）！ {何度|なんど}も{言|い}わないで。",
       "options": [
         "かしら",
-        "っぽい",
+        "やしない",
         "ってば",
         "っけ"
       ],
@@ -142,7 +142,7 @@
       "explanation": "Impatient: **ってば**.",
       "notes": [
         "かしら = 'I wonder'.",
-        "っぽい = '-ish'.",
+        "やしない follows the ます-stem (信じやしない) — not わかった.",
         "",
         "っけ = 'was it?' (recalling)."
       ],
@@ -250,7 +250,7 @@
         "しまう",
         "いる",
         "みせる",
-        "おく"
+        "かなわない"
       ],
       "answer": 2,
       "explanation": "I'll show you: **てみせる**.",
@@ -258,7 +258,7 @@
         "勝ってしまう = 'end up winning'.",
         "勝っている = 'is winning'.",
         "",
-        "勝っておく = 'win in advance'."
+        "てかなわない = 'unbearable' — it doesn't express determination."
       ],
       "translation": "Next match, I'm going to win — just watch."
     },

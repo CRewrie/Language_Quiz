@@ -85,7 +85,7 @@
       "prompt": "{我|wǒ}{昨天|zuótiān}{买|mǎi}（　）{一|yì}{本|běn}{书|shū}，{今天|jīntiān}{已经|yǐjīng}{看|kàn}{完|wán}{了|le}。",
       "options": [
         "{着|zhe}",
-        "{在|zài}",
+        "{吗|ma}",
         "{的|de}",
         "{了|le}"
       ],
@@ -93,7 +93,7 @@
       "explanation": "Completed action: **verb + 了**.",
       "notes": [
         "着 marks a lasting state, not a finished purchase.",
-        "在 goes before the verb.",
+        "吗 goes at the end of a question.",
         "买的一本书 would need a noun after it in a different structure.",
         ""
       ],
@@ -125,7 +125,7 @@
         "{着|zhe}",
         "{了|le}",
         "{过|guo}",
-        "{的|de}"
+        "{吗|ma}"
       ],
       "answer": 1,
       "explanation": "New situation: sentence + **了**.",
@@ -133,7 +133,7 @@
         "下雨着 isn't natural.",
         "",
         "下雨过 = 'it has rained before' — not a new situation.",
-        "的 doesn't mark a change."
+        "吗 asks a question — the sentence ends with ！."
       ],
       "translation": "It's started raining! Let's hurry home."
     },
@@ -218,7 +218,7 @@
       "prompt": "{他|tā}（　）{走|zǒu}{了|le}，{你|nǐ}{明天|míngtiān}{再|zài}{来|lái}{吧|ba}。",
       "options": [
         "{一直|yìzhí}",
-        "{正在|zhèngzài}",
+        "{还没|hái méi}",
         "{从来|cónglái}",
         "{已经|yǐjīng}"
       ],
@@ -226,7 +226,7 @@
       "explanation": "**已经…了**.",
       "notes": [
         "一直走 = 'go straight / keep walking'.",
-        "正在走了 isn't grammatical.",
+        "还没 = 'not yet' — it doesn't go with 了.",
         "从来 needs a negative.",
         ""
       ],
@@ -239,7 +239,7 @@
         "{的|de}",
         "{着|zhe}",
         "{了|le}",
-        "{在|zài}"
+        "{吗|ma}"
       ],
       "answer": 2,
       "explanation": "Duration: **verb + 了 + time**.",
@@ -247,7 +247,7 @@
         "学的两年 isn't the pattern.",
         "着 doesn't take a duration like this.",
         "",
-        "在 goes before the verb."
+        "吗 goes at the end of a question."
       ],
       "translation": "I studied Chinese for two years and can now understand a little."
     },

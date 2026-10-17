@@ -136,7 +136,7 @@
         "にかかわらず",
         "にまつわる",
         "にわたる",
-        "にあたる"
+        "に{先駆|さきが}けて"
       ],
       "answer": 1,
       "explanation": "Connected with: **にまつわる**.",
@@ -144,7 +144,7 @@
         "にかかわらず = 'regardless of'.",
         "",
         "にわたる = 'spanning'.",
-        "にあたる = 'corresponds to'."
+        "に先駆けて = 'ahead of' — it can't modify 伝説."
       ],
       "translation": "Have you heard the legend about this temple?"
     },
@@ -172,7 +172,7 @@
       "prompt": "{新製品|しんせいひん}は{一般|いっぱん}{発売|はつばい}（　）、{会員|かいいん}に{公開|こうかい}された。",
       "options": [
         "に{引|ひ}き{換|か}えて",
-        "に{至|いた}って",
+        "にもまして",
         "に{先駆|さきが}けて",
         "に{照|て}らして"
       ],
@@ -180,7 +180,7 @@
       "explanation": "Ahead of: **に先駆けて**.",
       "notes": [
         "に引き換えて = 'in exchange for'.",
-        "に至って = 'when it came to'.",
+        "にもまして = 'even more than' — it doesn't mean 'ahead of'.",
         "",
         "に照らして = 'in light of'."
       ],
@@ -212,7 +212,7 @@
         "をもとに",
         "をもって",
         "をよそに",
-        "をめぐって"
+        "を{踏|ふ}まえて"
       ],
       "answer": 1,
       "explanation": "As of (formal): **をもって**.",
@@ -220,7 +220,7 @@
         "をもとに = 'based on'.",
         "",
         "をよそに = 'ignoring'.",
-        "をめぐって = 'concerning (a dispute)'."
+        "を踏まえて = 'building on' — 本日を踏まえて makes no sense."
       ],
       "translation": "Registration closes as of today."
     },
@@ -228,7 +228,7 @@
       "point": "womotte",
       "prompt": "{試験|しけん}の{結果|けっか}は{書面|しょめん}（　）お{知|し}らせします。",
       "options": [
-        "を{経|へ}て",
+        "と{相|あい}まって",
         "をよそに",
         "をもとに",
         "をもって"
@@ -236,7 +236,7 @@
       "answer": 3,
       "explanation": "By means of: **をもって**.",
       "notes": [
-        "を経て = 'via'.",
+        "と相まって = 'combined with' — it doesn't mean 'by means of'.",
         "をよそに = 'ignoring'.",
         "をもとに = 'based on'.",
         ""
@@ -324,7 +324,7 @@
       "prompt": "{今年|ことし}の{夏|なつ}は{去年|きょねん}（　）{暑|あつ}い。",
       "options": [
         "に{至|いた}って",
-        "をおいて",
+        "にまつわる",
         "にとどまらず",
         "にもまして"
       ],
@@ -332,7 +332,7 @@
       "explanation": "Even more than: **にもまして**.",
       "notes": [
         "に至って = 'when it came to'.",
-        "をおいて = 'apart from'.",
+        "にまつわる must modify a noun (…にまつわる話).",
         "にとどまらず = 'not limited to'.",
         ""
       ],

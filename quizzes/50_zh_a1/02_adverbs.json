@@ -217,7 +217,7 @@
       "options": [
         "{吗|ma}",
         "{的|de}",
-        "{呢|ne}",
+        "{很|hěn}",
         "{了|le}"
       ],
       "answer": 3,
@@ -225,7 +225,7 @@
       "notes": [
         "吗 makes a question — the sentence ends with ！.",
         "太…的 isn't the pattern.",
-        "呢 isn't the pattern.",
+        "很 goes before the adjective, never after it.",
         ""
       ],
       "translation": "This phone is too expensive!"

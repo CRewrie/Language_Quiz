@@ -97,7 +97,7 @@
       "options": [
         "{反省|はんせい}",
         "{反対|はんたい}",
-        "{反応|はんのう}",
+        "{逆|ぎゃく}に",
         "{反面|はんめん}"
       ],
       "answer": 3,
@@ -105,7 +105,7 @@
       "notes": [
         "反省 = 'reflection'.",
         "反対 = 'opposite / opposition'.",
-        "反応 = 'reaction'.",
+        "逆に is an adverb — it can't follow a clause like 給料がいい.",
         ""
       ],
       "translation": "This job pays well, but on the other hand there are few days off."
@@ -117,7 +117,7 @@
         "{反面|はんめん}",
         "{正面|しょうめん}",
         "{表面|ひょうめん}",
-        "{裏面|りめん}"
+        "{以上|いじょう}に"
       ],
       "answer": 0,
       "explanation": "**な反面**.",
@@ -125,7 +125,7 @@
         "",
         "正面 = 'front'.",
         "表面 = 'surface'.",
-        "裏面 = 'reverse side (of paper)'."
+        "以上に = 'more than' — 便利な以上に isn't grammatical."
       ],
       "translation": "City life is convenient, but on the other hand it's stressful."
     },
@@ -154,7 +154,7 @@
       "options": [
         "{要|よう}するに",
         "ところで",
-        "それとも",
+        "なお",
         "ところが"
       ],
       "answer": 0,
@@ -162,7 +162,7 @@
       "notes": [
         "",
         "ところで = 'by the way'.",
-        "それとも = 'or (in questions)'.",
+        "なお adds a note in announcements — it doesn't sum up.",
         "ところが = 'however'."
       ],
       "translation": "A: I'm busy, it's far, and the weather's bad… B: Basically, you don't want to go, right?"
@@ -191,7 +191,7 @@
       "prompt": "{彼|かれ}は{父|ちち}の{弟|おとうと}、（　）{私|わたし}の{叔父|おじ}だ。",
       "options": [
         "しかも",
-        "ただし",
+        "あるいは",
         "おまけに",
         "すなわち"
       ],
@@ -199,7 +199,7 @@
       "explanation": "Same thing restated: **すなわち**.",
       "notes": [
         "しかも = 'moreover' — adds something new, not a restatement.",
-        "ただし = 'however'.",
+        "あるいは = 'or' — but they're the same person.",
         "おまけに = 'on top of that'.",
         ""
       ],
@@ -212,7 +212,7 @@
         "なお",
         "それで",
         "しかし",
-        "だから"
+        "{要|よう}するに"
       ],
       "answer": 0,
       "explanation": "Additional note: **なお**.",
@@ -220,7 +220,7 @@
         "",
         "それで = 'and so'.",
         "しかし = 'however' — nothing is contradicted.",
-        "だから = 'therefore'."
+        "要するに sums up — here a new piece of information is added."
       ],
       "translation": "The meeting is from 3. Please note that the materials will be handed out on the day."
     },
@@ -269,7 +269,7 @@
         "ただし",
         "あるいは",
         "しかも",
-        "そのうえ"
+        "すなわち"
       ],
       "answer": 1,
       "explanation": "**あるいは** (one or the other).",
@@ -277,7 +277,7 @@
         "ただし = 'however'.",
         "",
         "しかも = 'moreover'.",
-        "そのうえ = 'on top of that'."
+        "すなわち = 'namely' — rain and snow aren't the same thing."
       ],
       "translation": "Tomorrow there'll be rain, or possibly snow."
     },

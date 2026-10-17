@@ -248,7 +248,7 @@
       "prompt": "{財布|さいふ}をなくした。（　）、{携帯|けいたい}も{壊|こわ}れた。",
       "options": [
         "おまけで",
-        "おかげに",
+        "{上|うえ}に",
         "おまけに",
         "おかげで"
       ],
@@ -256,7 +256,7 @@
       "explanation": "To make matters worse: **おまけに**.",
       "notes": [
         "おまけで = 'as a freebie'.",
-        "おかげに isn't a form.",
+        "上に follows a clause (なくした上に) — it can't start a sentence.",
         "",
         "おかげで = 'thanks to'."
       ],
@@ -269,7 +269,7 @@
         "おまけは",
         "おまけに",
         "おまけで",
-        "おまけを"
+        "{上|うえ}に"
       ],
       "answer": 1,
       "explanation": "On top of that: **おまけに**.",
@@ -277,7 +277,7 @@
         "おまけは isn't a connector.",
         "",
         "おまけで = 'as a bonus'.",
-        "おまけを isn't a connector."
+        "上に follows a clause — it can't start a sentence."
       ],
       "translation": "It's cold today. On top of that, it's started to snow."
     },

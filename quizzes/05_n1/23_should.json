@@ -248,7 +248,7 @@
       "prompt": "{二度|にど}と{同|おな}じ{失敗|しっぱい}をする（　）、{注意|ちゅうい}してください。",
       "options": [
         "ことのないで",
-        "ことから",
+        "べからず",
         "ことだし",
         "ことのないよう"
       ],
@@ -256,7 +256,7 @@
       "explanation": "So as not to: **ことのないよう**.",
       "notes": [
         "Not a pattern.",
-        "ことから = 'from the fact that'.",
+        "べからず ends a sentence ('must not') — it can't link to 注意してください.",
         "ことだし = 'since'.",
         ""
       ],

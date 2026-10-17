@@ -323,7 +323,7 @@
       "point": "narinari",
       "prompt": "わからないことがあったら、{先生|せんせい}（　）{先輩|せんぱい}なりに{聞|き}きなさい。",
       "options": [
-        "とか",
+        "つ",
         "だの",
         "やら",
         "なり"
@@ -331,7 +331,7 @@
       "answer": 3,
       "explanation": "A or B: **なり…なり**.",
       "notes": [
-        "とか pairs with とか.",
+        "つ pairs two verbs (抜きつ抜かれつ), not nouns.",
         "だの pairs with だの.",
         "やら pairs with やら.",
         ""

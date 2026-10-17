@@ -50,7 +50,7 @@
       "options": [
         "{得|de}",
         "{地|de}",
-        "{了|le}",
+        "{第|dì}",
         "{的|de}"
       ],
       "answer": 3,
@@ -58,7 +58,7 @@
       "notes": [
         "得 follows a verb.",
         "地 comes before a verb.",
-        "了 doesn't link to a noun.",
+        "第 goes before a number (第一).",
         ""
       ],
       "translation": "She's a very clever child."
@@ -106,7 +106,7 @@
       "prompt": "{在|zài}{那儿|nàr}{工作|gōngzuò}（　）{人|rén}{都|dōu}{很|hěn}{年轻|niánqīng}。",
       "options": [
         "{得|de}",
-        "{了|le}",
+        "{第|dì}",
         "{的|de}",
         "{地|de}"
       ],
@@ -114,7 +114,7 @@
       "explanation": "Clause + **的** + noun.",
       "notes": [
         "得 needs a description after it.",
-        "工作了人 isn't grammatical.",
+        "第 goes before a number (第一).",
         "",
         "地 comes before a verb."
       ],
@@ -146,7 +146,7 @@
         "{得|de}",
         "{地|de}",
         "{的|de}",
-        "{在|zài}"
+        "{第|dì}"
       ],
       "answer": 2,
       "explanation": "**Clause + 的** + noun.",
@@ -154,7 +154,7 @@
         "得 needs a description after it.",
         "地 comes before a verb.",
         "",
-        "说话在那个人 isn't grammatical."
+        "第 goes before a number (第一)."
       ],
       "translation": "I don't know the person who was talking to you."
     },
@@ -163,7 +163,7 @@
       "prompt": "{这|zhè}{是|shì}{我|wǒ}（　）{一|yī}{次|cì}{来|lái}{中国|Zhōngguó}。",
       "options": [
         "{第|dì}",
-        "{几|jǐ}",
+        "{的|de}",
         "{每|měi}",
         "{这|zhè}"
       ],
@@ -171,7 +171,7 @@
       "explanation": "Ordinal: **第**.",
       "notes": [
         "",
-        "几一次 isn't grammatical.",
+        "我的一次 isn't the ordinal — 第 makes 'first'.",
         "每一次 = 'every time' — 这是我每一次… isn't grammatical.",
         "这一次 = 'this time' — 这是我这一次 isn't grammatical."
       ],

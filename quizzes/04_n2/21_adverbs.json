@@ -117,7 +117,7 @@
         "どうせ",
         "せっかく",
         "せめて",
-        "どうか"
+        "いわゆる"
       ],
       "answer": 0,
       "explanation": "Resignation: **どうせ**.",
@@ -125,7 +125,7 @@
         "",
         "せっかく = 'specially, with effort'.",
         "せめて = 'at least'.",
-        "どうか = 'please'."
+        "いわゆる = 'so-called' and modifies a noun."
       ],
       "translation": "Even if I practise, it's impossible for me anyway."
     },
@@ -174,7 +174,7 @@
         "かえって",
         "ようやく",
         "やはり",
-        "さっそく"
+        "いわゆる"
       ],
       "answer": 0,
       "explanation": "Backfired: **かえって**.",
@@ -182,7 +182,7 @@
         "",
         "ようやく = 'finally (after waiting)'.",
         "やはり = 'as expected' — taking medicine isn't expected to make you worse.",
-        "さっそく = 'right away'."
+        "いわゆる = 'so-called' and modifies a noun."
       ],
       "translation": "I took the medicine, and it actually made me feel worse."
     },
@@ -231,7 +231,7 @@
         "まさに",
         "むしろ",
         "まるで",
-        "もしも"
+        "かえって"
       ],
       "answer": 1,
       "explanation": "**というよりむしろ**.",
@@ -239,7 +239,7 @@
         "まさに = 'exactly' — doesn't pair with というより.",
         "",
         "まるで = 'just like'.",
-        "もしも = 'if by any chance'."
+        "かえって is for an action that backfires — not for a better description."
       ],
       "translation": "He's famous as an actor rather than as a singer."
     },
@@ -248,7 +248,7 @@
       "prompt": "（　）{明日|あした}から{夏休|なつやす}みだ。",
       "options": [
         "いよいよ",
-        "いちいち",
+        "いわゆる",
         "ますます",
         "いろいろ"
       ],
@@ -256,7 +256,7 @@
       "explanation": "At last (the moment comes): **いよいよ**.",
       "notes": [
         "",
-        "いちいち = 'one by one, every single time'.",
+        "いわゆる = 'so-called' and modifies a noun.",
         "ますます = 'more and more'.",
         "いろいろ = 'various'."
       ],
@@ -306,7 +306,7 @@
       "options": [
         "きっと",
         "{果|は}たして",
-        "ぜひ",
+        "どうやら",
         "{必|かなら}ず"
       ],
       "answer": 1,
@@ -314,7 +314,7 @@
       "notes": [
         "きっと = 'surely' — clashes with かどうか.",
         "",
-        "ぜひ = 'by all means'.",
+        "どうやら = 'it seems' — it doesn't go with かどうか.",
         "必ず = 'certainly' — clashes with かどうか."
       ],
       "translation": "Whether it will really succeed, nobody knows yet."

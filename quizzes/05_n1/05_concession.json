@@ -228,7 +228,7 @@
       "point": "toiedomo",
       "prompt": "{専門家|せんもんか}（　）、{間違|まちが}えることはある。",
       "options": [
-        "とみるや",
+        "ならいざしらず",
         "といえども",
         "とあれば",
         "ともなると"
@@ -236,7 +236,7 @@
       "answer": 1,
       "explanation": "**といえども**.",
       "notes": [
-        "とみるや = 'on seeing that'.",
+        "ならいざしらず = 'A maybe, but not B' — it would excuse the expert.",
         "",
         "とあれば = 'if it's for'.",
         "ともなると = 'once you become' — expects more skill, not mistakes."
@@ -247,7 +247,7 @@
       "point": "tohaie",
       "prompt": "{春|はる}になった（　）、まだ{寒|さむ}い{日|ひ}が{続|つづ}いている。",
       "options": [
-        "とみるや",
+        "であれ",
         "とあって",
         "とはいえ",
         "とすれば"
@@ -255,7 +255,7 @@
       "answer": 2,
       "explanation": "Admittedly: **とはいえ**.",
       "notes": [
-        "とみるや = 'on seeing that'.",
+        "であれ follows a noun (たとえ子供であれ), not a clause like 春になった.",
         "とあって = 'because (special situation)'.",
         "",
         "とすれば = 'if so'."
@@ -285,7 +285,7 @@
       "point": "naraizashirazu",
       "prompt": "{子供|こども}（　）、{大人|おとな}がそんなことも{知|し}らないとは{驚|おどろ}いた。",
       "options": [
-        "ながらも",
+        "であれ",
         "なりとも",
         "ならいざしらず",
         "ならでは"
@@ -293,7 +293,7 @@
       "answer": 2,
       "explanation": "A maybe, but B: **ならいざしらず**.",
       "notes": [
-        "ながらも = 'although'.",
+        "であれ = 'whether / even if (it's) N' — it doesn't contrast a child with an adult.",
         "なりとも = 'even a little'.",
         "",
         "ならでは = 'unique to'."

@@ -213,7 +213,7 @@
         "{不过|búguò}",
         "{不到|búdào}",
         "{差点|chàdiǎn}",
-        "{没有了|méiyǒu le}"
+        "{之一|zhīyī}"
       ],
       "answer": 1,
       "explanation": "Under: **不到**.",
@@ -221,7 +221,7 @@
         "不过 = 'but'.",
         "",
         "差点 = 'almost (happened)'.",
-        "没有了 = 'none left'."
+        "之一 = 'one of' and follows a group."
       ],
       "translation": "Our class is small — fewer than twenty students."
     },
@@ -286,7 +286,7 @@
       "point": "zhiyi",
       "prompt": "{长城|Chángchéng}{是|shì}{中国|Zhōngguó}{最|zuì}{有名|yǒumíng}{的|de}{地方|dìfang}（　）。",
       "options": [
-        "{一些|yìxiē}",
+        "{所有|suǒyǒu}",
         "{第一|dì-yī}",
         "{一个|yí ge}",
         "{之一|zhīyī}"
@@ -294,7 +294,7 @@
       "answer": 3,
       "explanation": "One of: **之一**.",
       "notes": [
-        "一些 goes before the noun.",
+        "所有 goes before the noun (所有的地方).",
         "第一 goes before the noun.",
         "一个 goes before the noun.",
         ""
