@@ -1,0 +1,361 @@
+{
+  "id": "n1-fullof",
+  "category": "JLPT N1",
+  "title": "Full Of & The Utmost: ずくめ, まみれ, ぐるみ, きっての, 極まりない, の極み, の至り",
+  "description": "Nothing but, covered in, the whole …, the best in, extremely (formal), the height of, and the utmost (honour / folly).",
+  "level": "N1",
+  "points": [
+    {
+      "id": "zukume",
+      "title": "〜ずくめ: nothing but",
+      "summary": "Noun + ずくめ = entirely (often good things, or a colour: 黒ずくめ).",
+      "body": "- いいこと**ずくめ**の一年.",
+      "examples": [
+        [
+          "{彼|かれ}はいつも{黒|くろ}ずくめの{服装|ふくそう}だ。",
+          "He always dresses entirely in black."
+        ]
+      ]
+    },
+    {
+      "id": "mamire",
+      "title": "〜まみれ: covered in",
+      "summary": "Noun (泥, 汗, 血, ほこり) + まみれ = smeared all over with.",
+      "body": "- 泥**まみれ**になって遊ぶ.",
+      "examples": [
+        [
+          "{汗|あせ}まみれになって{働|はたら}く。",
+          "Working drenched in sweat."
+        ]
+      ]
+    },
+    {
+      "id": "gurumi",
+      "title": "〜ぐるみ: the whole …",
+      "summary": "Noun (家族, 町, 会社) + ぐるみ = all together, including everyone.",
+      "body": "- 家族**ぐるみ**の付き合い.",
+      "examples": [
+        [
+          "{町|まち}ぐるみで{祭|まつ}りを{準備|じゅんび}した。",
+          "The whole town got together to prepare the festival."
+        ]
+      ]
+    },
+    {
+      "id": "kitteno",
+      "title": "〜きっての: the best in",
+      "summary": "Place / group + きっての + noun = the most … in.",
+      "body": "- 社内**きっての**秀才.",
+      "examples": [
+        [
+          "{日本|にほん}きっての{名医|めいい}だ。",
+          "He's the finest doctor in Japan."
+        ]
+      ]
+    },
+    {
+      "id": "kiwamarinai",
+      "title": "〜極まりない / 極まる: extremely",
+      "summary": "な-adjective + 極まりない / 極まる = utterly (usually negative, formal).",
+      "body": "- 失礼**極まりない**態度.",
+      "examples": [
+        [
+          "{危険|きけん}{極|きわ}まりない{運転|うんてん}だ。",
+          "That's extremely dangerous driving."
+        ]
+      ]
+    },
+    {
+      "id": "nokiwami",
+      "title": "〜の極み: the height of",
+      "summary": "Noun + の極み = the very height of (贅沢, 疲労, 感激).",
+      "body": "- 贅沢**の極み**.",
+      "examples": [
+        [
+          "{疲労|ひろう}の{極|きわ}みに{達|たっ}した。",
+          "I reached the height of exhaustion."
+        ]
+      ]
+    },
+    {
+      "id": "noitari",
+      "title": "〜の至り: the utmost",
+      "summary": "Fixed: 光栄の至り (deeply honoured), 若気の至り (youthful folly), 感激の至り.",
+      "body": "- 光栄**の至り**です.",
+      "examples": [
+        [
+          "{若気|わかげ}の{至|いた}りでした。",
+          "It was youthful folly."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "zukume",
+      "prompt": "{今年|ことし}はいいこと（　）の{一年|いちねん}だった。",
+      "options": [
+        "まみれ",
+        "じみた",
+        "ぐるみ",
+        "ずくめ"
+      ],
+      "answer": 3,
+      "explanation": "Nothing but: **ずくめ**.",
+      "notes": [
+        "まみれ = covered in (dirt, sweat).",
+        "じみた = 'smacking of'.",
+        "ぐるみ = 'the whole (family, town)'.",
+        ""
+      ],
+      "translation": "This year was full of good things."
+    },
+    {
+      "point": "zukume",
+      "prompt": "{彼|かれ}はいつも{黒|くろ}（　）の{服装|ふくそう}だ。",
+      "options": [
+        "ぐるみ",
+        "まみれ",
+        "ずくめ",
+        "めいた"
+      ],
+      "answer": 2,
+      "explanation": "Entirely in: **黒ずくめ**.",
+      "notes": [
+        "黒ぐるみ isn't a phrase.",
+        "黒まみれ = smeared with black.",
+        "",
+        "黒めいた = 'blackish'."
+      ],
+      "translation": "He always dresses entirely in black."
+    },
+    {
+      "point": "mamire",
+      "prompt": "{子供|こども}たちは{泥|どろ}（　）になって{遊|あそ}んでいた。",
+      "options": [
+        "まみれ",
+        "ぐるみ",
+        "がてら",
+        "ずくめ"
+      ],
+      "answer": 0,
+      "explanation": "Covered in: **まみれ**.",
+      "notes": [
+        "",
+        "ぐるみ = the whole group.",
+        "がてら = 'while out for'.",
+        "ずくめ = nothing but (not dirt)."
+      ],
+      "translation": "The children were playing, covered in mud."
+    },
+    {
+      "point": "mamire",
+      "prompt": "{汗|あせ}（　）になって{働|はたら}く。",
+      "options": [
+        "ずくめ",
+        "ごとき",
+        "ぐるみ",
+        "まみれ"
+      ],
+      "answer": 3,
+      "explanation": "**汗まみれ**.",
+      "notes": [
+        "ずくめ isn't for sweat.",
+        "ごとき = 'like'.",
+        "ぐるみ = the whole group.",
+        ""
+      ],
+      "translation": "Working drenched in sweat."
+    },
+    {
+      "point": "gurumi",
+      "prompt": "{彼|かれ}とは{家族|かぞく}（　）の{付|つ}き{合|あ}いをしている。",
+      "options": [
+        "まみれ",
+        "ずくめ",
+        "ぐるみ",
+        "きって"
+      ],
+      "answer": 2,
+      "explanation": "The whole (family): **家族ぐるみ**.",
+      "notes": [
+        "まみれ = covered in.",
+        "ずくめ = nothing but.",
+        "",
+        "家族きって isn't a phrase."
+      ],
+      "translation": "Our families are close friends."
+    },
+    {
+      "point": "gurumi",
+      "prompt": "What does 「{町|まち}ぐるみで{祭|まつ}りを{準備|じゅんび}した。」 mean?",
+      "options": [
+        "Only part of the town prepared the festival.",
+        "The festival was prepared around the town.",
+        "The town was wrapped up for the festival.",
+        "The whole town got together to prepare the festival."
+      ],
+      "answer": 3,
+      "explanation": "ぐるみ = **all together**.",
+      "notes": [
+        "The whole town.",
+        "ぐるみ = everyone included.",
+        "Not physical wrapping.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kitteno",
+      "prompt": "{彼|かれ}は{社内|しゃない}（　）{秀才|しゅうさい}だ。",
+      "options": [
+        "きっての",
+        "まみれの",
+        "かぎりの",
+        "ずくめの"
+      ],
+      "answer": 0,
+      "explanation": "The best in: **きっての**.",
+      "notes": [
+        "",
+        "まみれ = covered in.",
+        "社内かぎりの = 'internal only'.",
+        "ずくめ = nothing but."
+      ],
+      "translation": "He's the brightest person in the company."
+    },
+    {
+      "point": "kitteno",
+      "prompt": "What does 「{日本|にほん}きっての{名医|めいい}」 mean?",
+      "options": [
+        "a famous doctor who left Japan",
+        "a doctor who cuts things in Japan",
+        "a doctor only in Japan",
+        "the finest doctor in Japan"
+      ],
+      "answer": 3,
+      "explanation": "きっての = **the best in**.",
+      "notes": [
+        "きって isn't 'leaving'.",
+        "きって isn't 切って.",
+        "It's a superlative.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kiwamarinai",
+      "prompt": "{彼|かれ}の{態度|たいど}は{失礼|しつれい}（　）。",
+      "options": [
+        "{極|きわ}まりない",
+        "{極|きわ}めない",
+        "{極|きわ}まりある",
+        "{極|きわ}まらない"
+      ],
+      "answer": 0,
+      "explanation": "Extremely: **極まりない**.",
+      "notes": [
+        "",
+        "極めない = 'doesn't master'.",
+        "Not the phrase.",
+        "Not the phrase (極まりない is fixed)."
+      ],
+      "translation": "His attitude is extremely rude."
+    },
+    {
+      "point": "kiwamarinai",
+      "prompt": "What does 「{危険|きけん}{極|きわ}まりない{運転|うんてん}」 mean?",
+      "options": [
+        "driving with no danger at all",
+        "driving that isn't dangerous yet",
+        "driving to the limit safely",
+        "extremely dangerous driving"
+      ],
+      "answer": 3,
+      "explanation": "極まりない = **extremely**.",
+      "notes": [
+        "ない here doesn't negate the danger.",
+        "No.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nokiwami",
+      "prompt": "{一流|いちりゅう}ホテルでの{食事|しょくじ}は{贅沢|ぜいたく}（　）だった。",
+      "options": [
+        "のきわ",
+        "{極|きわ}まりない",
+        "の{極|きわ}み",
+        "の{至|いた}り"
+      ],
+      "answer": 2,
+      "explanation": "The height of: **の極み**.",
+      "notes": [
+        "Not the phrase.",
+        "贅沢極まりない sounds like criticism.",
+        "",
+        "の至り is for fixed phrases (光栄, 若気)."
+      ],
+      "translation": "Dinner at a top-class hotel was the height of luxury."
+    },
+    {
+      "point": "nokiwami",
+      "prompt": "What does 「{疲労|ひろう}の{極|きわ}みに{達|たっ}した。」 mean?",
+      "options": [
+        "I reached the height of exhaustion.",
+        "I recovered from exhaustion.",
+        "I was slightly tired.",
+        "I reached the summit despite being tired."
+      ],
+      "answer": 0,
+      "explanation": "の極み = **the height of**.",
+      "notes": [
+        "",
+        "No.",
+        "It's extreme.",
+        "極み isn't a mountain top."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "noitari",
+      "prompt": "このような{賞|しょう}をいただき、{光栄|こうえい}（　）です。",
+      "options": [
+        "の{至|いた}って",
+        "{至|いた}りの",
+        "に{至|いた}り",
+        "の{至|いた}り"
+      ],
+      "answer": 3,
+      "explanation": "The utmost: **光栄の至り**.",
+      "notes": [
+        "Not the phrase.",
+        "Not the phrase.",
+        "に至り = 'reaching'.",
+        ""
+      ],
+      "translation": "I'm deeply honoured to receive such an award."
+    },
+    {
+      "point": "noitari",
+      "prompt": "What does 「{若気|わかげ}の{至|いた}りでした。」 mean?",
+      "options": [
+        "It was youthful folly.",
+        "I arrived when I was young.",
+        "It was a young person's achievement.",
+        "It was the peak of my youth."
+      ],
+      "answer": 0,
+      "explanation": "若気の至り = **youthful folly**.",
+      "notes": [
+        "",
+        "No.",
+        "Not an achievement.",
+        "若気の至り = a mistake from youth."
+      ],
+      "translation": ""
+    }
+  ]
+}

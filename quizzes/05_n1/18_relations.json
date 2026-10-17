@@ -1,0 +1,361 @@
+{
+  "id": "n1-relations",
+  "category": "JLPT N1",
+  "title": "Relations: にかかっている, にまつわる, に先駆けて, をもって, と相まって, を踏まえて, にもまして",
+  "description": "Depends on, connected with, ahead of, by means of / as of, combined with, building on, and even more than.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "nikakatte",
+      "title": "〜にかかっている: depends on",
+      "summary": "Noun + にかかっている = everything hinges on A.",
+      "body": "- 合格できるかどうかは、君の努力**にかかっている**.",
+      "examples": [
+        [
+          "{会社|かいしゃ}の{未来|みらい}は{若手|わかて}にかかっている。",
+          "The company's future depends on its young staff."
+        ]
+      ]
+    },
+    {
+      "id": "nimatsuwaru",
+      "title": "〜にまつわる: connected with",
+      "summary": "Noun + にまつわる + noun = stories / legends / trouble surrounding A.",
+      "body": "- この寺**にまつわる**伝説.",
+      "examples": [
+        [
+          "お{金|かね}にまつわるトラブルが{絶|た}えない。",
+          "There's never an end to money-related trouble."
+        ]
+      ]
+    },
+    {
+      "id": "sakigakete",
+      "title": "〜に先駆けて: ahead of",
+      "summary": "Noun + に先駆けて = before others / first.",
+      "body": "- 一般発売**に先駆けて**、会員に公開された.",
+      "examples": [
+        [
+          "{世界|せかい}に{先駆|さきが}けて{開発|かいはつ}された{技術|ぎじゅつ}だ。",
+          "It's technology developed ahead of the rest of the world."
+        ]
+      ]
+    },
+    {
+      "id": "womotte",
+      "title": "〜をもって: by means of; as of",
+      "summary": "1) Noun + をもって = by means of (書面をもって). 2) Time + をもって = as of (formal close).",
+      "body": "- 本日**をもって**受付を終了いたします.",
+      "examples": [
+        [
+          "{試験|しけん}の{結果|けっか}は{書面|しょめん}をもってお{知|し}らせします。",
+          "Exam results will be notified in writing."
+        ]
+      ]
+    },
+    {
+      "id": "aimatte",
+      "title": "〜と相まって: combined with",
+      "summary": "A と相まって B = A and B together produce an effect.",
+      "body": "- 美しい景色**と相まって**、料理がいっそうおいしく感じられた.",
+      "examples": [
+        [
+          "{才能|さいのう}と{努力|どりょく}が{相|あい}まって、{彼|かれ}は{成功|せいこう}した。",
+          "Talent and effort together brought him success."
+        ]
+      ]
+    },
+    {
+      "id": "fumaete",
+      "title": "〜を踏まえて: building on, in light of",
+      "summary": "Noun + を踏まえて = taking A as the basis.",
+      "body": "- 前回の反省**を踏まえて**、計画を立て直した.",
+      "examples": [
+        [
+          "{調査|ちょうさ}{結果|けっか}を{踏|ふ}まえて{判断|はんだん}する。",
+          "We'll decide in light of the survey results."
+        ]
+      ]
+    },
+    {
+      "id": "nimomashite",
+      "title": "〜にもまして: even more than",
+      "summary": "Noun + にもまして = more than A (which was already a lot). 何にもまして = above all.",
+      "body": "- 今年の夏は去年**にもまして**暑い.",
+      "examples": [
+        [
+          "{何|なに}にもまして{健康|けんこう}が{大切|たいせつ}だ。",
+          "Health matters above all."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nikakatte",
+      "prompt": "{合格|ごうかく}できるかどうかは、{君|きみ}の{努力|どりょく}（　）。",
+      "options": [
+        "にかまわない",
+        "にかかっている",
+        "にかけている",
+        "にかかわる"
+      ],
+      "answer": 1,
+      "explanation": "Depends on: **にかかっている**.",
+      "notes": [
+        "にかまわない isn't a phrase.",
+        "",
+        "にかけている = 'is betting on / lacking'.",
+        "にかかわる = 'relates to' — doesn't say it depends."
+      ],
+      "translation": "Whether you pass depends on your effort."
+    },
+    {
+      "point": "nikakatte",
+      "prompt": "What does 「{会社|かいしゃ}の{未来|みらい}は{若手|わかて}にかかっている。」 mean?",
+      "options": [
+        "Young staff worry about the future.",
+        "The company spends money on young staff.",
+        "The company's future depends on its young staff.",
+        "The young staff are hanging around the company."
+      ],
+      "answer": 2,
+      "explanation": "にかかっている = **depends on**.",
+      "notes": [
+        "No.",
+        "Not about money.",
+        "",
+        "かかっている isn't 'hanging'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nimatsuwaru",
+      "prompt": "この{寺|てら}（　）{伝説|でんせつ}を{聞|き}いたことがありますか。",
+      "options": [
+        "にかかわらず",
+        "にまつわる",
+        "にわたる",
+        "にあたる"
+      ],
+      "answer": 1,
+      "explanation": "Connected with: **にまつわる**.",
+      "notes": [
+        "にかかわらず = 'regardless of'.",
+        "",
+        "にわたる = 'spanning'.",
+        "にあたる = 'corresponds to'."
+      ],
+      "translation": "Have you heard the legend about this temple?"
+    },
+    {
+      "point": "nimatsuwaru",
+      "prompt": "お{金|かね}（　）トラブルが{絶|た}えない。",
+      "options": [
+        "にひきかえ",
+        "に{照|て}らして",
+        "に{先駆|さきが}けて",
+        "にまつわる"
+      ],
+      "answer": 3,
+      "explanation": "**にまつわる**.",
+      "notes": [
+        "にひきかえ = 'in contrast to'.",
+        "に照らして = 'in light of'.",
+        "に先駆けて = 'ahead of'.",
+        ""
+      ],
+      "translation": "There's never an end to money-related trouble."
+    },
+    {
+      "point": "sakigakete",
+      "prompt": "{新製品|しんせいひん}は{一般|いっぱん}{発売|はつばい}（　）、{会員|かいいん}に{公開|こうかい}された。",
+      "options": [
+        "に{引|ひ}き{換|か}えて",
+        "に{至|いた}って",
+        "に{先駆|さきが}けて",
+        "に{照|て}らして"
+      ],
+      "answer": 2,
+      "explanation": "Ahead of: **に先駆けて**.",
+      "notes": [
+        "に引き換えて = 'in exchange for'.",
+        "に至って = 'when it came to'.",
+        "",
+        "に照らして = 'in light of'."
+      ],
+      "translation": "The new product was shown to members ahead of its general release."
+    },
+    {
+      "point": "sakigakete",
+      "prompt": "What does 「{世界|せかい}に{先駆|さきが}けて{開発|かいはつ}された{技術|ぎじゅつ}」 mean?",
+      "options": [
+        "technology developed ahead of the rest of the world",
+        "technology developed after other countries",
+        "technology developed for the world",
+        "technology that spread around the world"
+      ],
+      "answer": 0,
+      "explanation": "に先駆けて = **ahead of**.",
+      "notes": [
+        "",
+        "The opposite.",
+        "No.",
+        "It's about being first."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "womotte",
+      "prompt": "{本日|ほんじつ}（　）{受付|うけつけ}を{終了|しゅうりょう}いたします。",
+      "options": [
+        "をもとに",
+        "をもって",
+        "をよそに",
+        "をめぐって"
+      ],
+      "answer": 1,
+      "explanation": "As of (formal): **をもって**.",
+      "notes": [
+        "をもとに = 'based on'.",
+        "",
+        "をよそに = 'ignoring'.",
+        "をめぐって = 'concerning (a dispute)'."
+      ],
+      "translation": "Registration closes as of today."
+    },
+    {
+      "point": "womotte",
+      "prompt": "{試験|しけん}の{結果|けっか}は{書面|しょめん}（　）お{知|し}らせします。",
+      "options": [
+        "を{経|へ}て",
+        "をよそに",
+        "をもとに",
+        "をもって"
+      ],
+      "answer": 3,
+      "explanation": "By means of: **をもって**.",
+      "notes": [
+        "を経て = 'via'.",
+        "をよそに = 'ignoring'.",
+        "をもとに = 'based on'.",
+        ""
+      ],
+      "translation": "Exam results will be notified in writing."
+    },
+    {
+      "point": "aimatte",
+      "prompt": "{美|うつく}しい{景色|けしき}（　）、{料理|りょうり}がいっそうおいしく{感|かん}じられた。",
+      "options": [
+        "と{相談|そうだん}して",
+        "と{合|あ}って",
+        "と{相|あい}まって",
+        "とあいにく"
+      ],
+      "answer": 2,
+      "explanation": "Combined with: **と相まって**.",
+      "notes": [
+        "相談 = 'consultation'.",
+        "と合って = 'matching'.",
+        "",
+        "あいにく = 'unfortunately'."
+      ],
+      "translation": "Together with the beautiful view, the food tasted even better."
+    },
+    {
+      "point": "aimatte",
+      "prompt": "What does 「{才能|さいのう}と{努力|どりょく}が{相|あい}まって、{彼|かれ}は{成功|せいこう}した。」 mean?",
+      "options": [
+        "Talent and effort fought each other.",
+        "He was talented but didn't try.",
+        "He succeeded through talent instead of effort.",
+        "Talent and effort together brought him success."
+      ],
+      "answer": 3,
+      "explanation": "と相まって = **combined with**.",
+      "notes": [
+        "No conflict.",
+        "No.",
+        "Both work together.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "fumaete",
+      "prompt": "{前回|ぜんかい}の{反省|はんせい}（　）、{計画|けいかく}を{立|た}て{直|なお}した。",
+      "options": [
+        "を{踏|ふ}み{出|だ}して",
+        "を{踏|ふ}み{切|き}って",
+        "を{踏|ふ}まえて",
+        "を{踏|ふ}んで"
+      ],
+      "answer": 2,
+      "explanation": "Building on: **を踏まえて**.",
+      "notes": [
+        "踏み出して = 'stepping out'.",
+        "踏み切って = 'taking the plunge'.",
+        "",
+        "踏んで = 'stepping on'."
+      ],
+      "translation": "Building on the lessons from last time, we redrew the plan."
+    },
+    {
+      "point": "fumaete",
+      "prompt": "What does 「{調査|ちょうさ}{結果|けっか}を{踏|ふ}まえて{判断|はんだん}する。」 mean?",
+      "options": [
+        "We'll ignore the survey results.",
+        "We'll decide in light of the survey results.",
+        "We'll decide before the survey.",
+        "We'll decide by stepping on the results."
+      ],
+      "answer": 1,
+      "explanation": "を踏まえて = **based on**.",
+      "notes": [
+        "The opposite.",
+        "",
+        "No.",
+        "Not literal."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nimomashite",
+      "prompt": "{今年|ことし}の{夏|なつ}は{去年|きょねん}（　）{暑|あつ}い。",
+      "options": [
+        "に{至|いた}って",
+        "をおいて",
+        "にとどまらず",
+        "にもまして"
+      ],
+      "answer": 3,
+      "explanation": "Even more than: **にもまして**.",
+      "notes": [
+        "に至って = 'when it came to'.",
+        "をおいて = 'apart from'.",
+        "にとどまらず = 'not limited to'.",
+        ""
+      ],
+      "translation": "This summer is even hotter than last year's."
+    },
+    {
+      "point": "nimomashite",
+      "prompt": "What does 「{何|なに}にもまして{健康|けんこう}が{大切|たいせつ}だ。」 mean?",
+      "options": [
+        "Health is no longer important.",
+        "Nothing is more important than money.",
+        "Health matters above all.",
+        "Health matters, among other things."
+      ],
+      "answer": 2,
+      "explanation": "何にもまして = **above all**.",
+      "notes": [
+        "No.",
+        "It's about health.",
+        "",
+        "It's the top priority."
+      ],
+      "translation": ""
+    }
+  ]
+}

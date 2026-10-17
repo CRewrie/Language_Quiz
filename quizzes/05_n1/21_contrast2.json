@@ -1,0 +1,211 @@
+{
+  "id": "n1-contrast2",
+  "category": "JLPT N1",
+  "title": "Which One? N1 Look-alikes (2)",
+  "description": "ずくめ vs まみれ, いまだに vs もはや, かたわら vs がてら, てっきり vs 案の定.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "zukume_mamire",
+      "title": "ずくめ vs まみれ",
+      "summary": "ずくめ = nothing but (things, colours, often good). まみれ = smeared all over with (dirt, sweat, blood).",
+      "body": "- いいこと**ずくめ** / 黒**ずくめ**.\n- 泥**まみれ** / 血**まみれ**.",
+      "examples": [
+        [
+          "{血|ち}まみれになって{倒|たお}れていた。",
+          "He lay there covered in blood."
+        ]
+      ]
+    },
+    {
+      "id": "imadani_mohaya",
+      "title": "いまだに vs もはや",
+      "summary": "いまだに = still (it hasn't changed). もはや = already, no longer (it has changed).",
+      "body": "- **いまだに**返事を待っている.\n- **もはや**間に合わない.",
+      "examples": [
+        [
+          "{締|し}め{切|き}りは{昨日|きのう}だった。もはや{間|ま}に{合|あ}わない。",
+          "The deadline was yesterday. It's too late now."
+        ]
+      ]
+    },
+    {
+      "id": "katawara_gatera",
+      "title": "かたわら vs がてら",
+      "summary": "かたわら = alongside a long-term main activity (job, studies). がてら = while out doing something (one occasion).",
+      "body": "- 本業の**かたわら**カフェを経営する.\n- 買い物**がてら**散歩した.",
+      "examples": [
+        [
+          "{本業|ほんぎょう}のかたわら、{週末|しゅうまつ}はカフェを{経営|けいえい}している。",
+          "Alongside his main job, he runs a café at weekends."
+        ]
+      ]
+    },
+    {
+      "id": "tekkiri_annojou",
+      "title": "てっきり vs 案の定",
+      "summary": "てっきり = I was sure — and I was wrong. 案の定 = just as I feared — and I was right.",
+      "body": "- **てっきり**晴れると思っていた (but it rained).\n- **案の定**渋滞に巻き込まれた (as feared).",
+      "examples": [
+        [
+          "{心配|しんぱい}していたとおり、{案|あん}の{定|じょう}{渋滞|じゅうたい}に{巻|ま}き{込|こ}まれた。",
+          "Just as I'd feared, we got stuck in traffic."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "zukume_mamire",
+      "prompt": "{毎日|まいにち}いいこと（　）で、{本当|ほんとう}に{幸|しあわ}せだ。",
+      "options": [
+        "まみれ",
+        "ぐるみ",
+        "ずくめ",
+        "がらみ"
+      ],
+      "answer": 2,
+      "explanation": "Nothing but: **ずくめ**.",
+      "notes": [
+        "まみれ is for dirt, sweat, blood.",
+        "ぐるみ = 'the whole (group)'.",
+        "",
+        "がらみ = 'involving' (about age / issues)."
+      ],
+      "translation": "Every day is full of good things — I'm really happy."
+    },
+    {
+      "point": "zukume_mamire",
+      "prompt": "{男|おとこ}は{血|ち}（　）になって{倒|たお}れていた。",
+      "options": [
+        "まみれ",
+        "ずくめ",
+        "ぐるみ",
+        "きって"
+      ],
+      "answer": 0,
+      "explanation": "Covered in: **まみれ**.",
+      "notes": [
+        "",
+        "ずくめ isn't for blood.",
+        "ぐるみ = the whole group.",
+        "きって = 'the best in'."
+      ],
+      "translation": "The man lay there covered in blood."
+    },
+    {
+      "point": "imadani_mohaya",
+      "prompt": "{十年|じゅうねん}{経|た}った{今|いま}も、{彼女|かのじょ}は（　）{彼|かれ}の{返事|へんじ}を{待|ま}っている。",
+      "options": [
+        "かつて",
+        "いまだに",
+        "もはや",
+        "あえて"
+      ],
+      "answer": 1,
+      "explanation": "Still: **いまだに**.",
+      "notes": [
+        "かつて = 'once (in the past)'.",
+        "",
+        "もはや means things have changed — she's still waiting.",
+        "あえて = 'deliberately'."
+      ],
+      "translation": "Even now, ten years on, she's still waiting for his reply."
+    },
+    {
+      "point": "imadani_mohaya",
+      "prompt": "{締|し}め{切|き}りは{昨日|きのう}だった。（　）{間|ま}に{合|あ}わない。",
+      "options": [
+        "いまだに",
+        "かつて",
+        "てっきり",
+        "もはや"
+      ],
+      "answer": 3,
+      "explanation": "No longer: **もはや**.",
+      "notes": [
+        "いまだに = 'still' — doesn't fit 'too late now'.",
+        "かつて = 'once'.",
+        "てっきり = 'I was sure (wrongly)'.",
+        ""
+      ],
+      "translation": "The deadline was yesterday. It's too late now."
+    },
+    {
+      "point": "katawara_gatera",
+      "prompt": "{本業|ほんぎょう}の（　）、{週末|しゅうまつ}はカフェを{経営|けいえい}している。",
+      "options": [
+        "つつ",
+        "かたがた",
+        "かたわら",
+        "がてら"
+      ],
+      "answer": 2,
+      "explanation": "Alongside (main work): **かたわら**.",
+      "notes": [
+        "本業のつつ isn't grammatical.",
+        "かたがた is for formal visits.",
+        "",
+        "がてら is for one outing, not a long-term job."
+      ],
+      "translation": "Alongside his main job, he runs a café at weekends."
+    },
+    {
+      "point": "katawara_gatera",
+      "prompt": "{買|か}い{物|もの}（　）、{近|ちか}くの{公園|こうえん}を{散歩|さんぽ}した。",
+      "options": [
+        "かたわら",
+        "がてら",
+        "かたがた",
+        "ずくめ"
+      ],
+      "answer": 1,
+      "explanation": "While out: **がてら**.",
+      "notes": [
+        "かたわら is for long-term activities.",
+        "",
+        "かたがた is formal (お礼かたがた).",
+        "ずくめ = 'nothing but'."
+      ],
+      "translation": "While out shopping, I took a walk in the nearby park."
+    },
+    {
+      "point": "tekkiri_annojou",
+      "prompt": "（　）{晴|は}れると{思|おも}っていたのに、{雨|あめ}だった。",
+      "options": [
+        "あえて",
+        "もはや",
+        "てっきり",
+        "{案|あん}の{定|じょう}"
+      ],
+      "answer": 2,
+      "explanation": "Sure, but wrong: **てっきり**.",
+      "notes": [
+        "あえて = 'deliberately'.",
+        "もはや = 'no longer'.",
+        "",
+        "案の定 = the fear came true — but here the expectation was wrong."
+      ],
+      "translation": "I was sure it would be sunny, but it rained."
+    },
+    {
+      "point": "tekkiri_annojou",
+      "prompt": "{心配|しんぱい}していたとおり、（　）{渋滞|じゅうたい}に{巻|ま}き{込|こ}まれた。",
+      "options": [
+        "あえて",
+        "{案|あん}の{定|じょう}",
+        "てっきり",
+        "もはや"
+      ],
+      "answer": 1,
+      "explanation": "Just as feared: **案の定**.",
+      "notes": [
+        "あえて = 'deliberately'.",
+        "",
+        "てっきり needs と思う and a wrong belief.",
+        "もはや = 'no longer'."
+      ],
+      "translation": "Just as I'd feared, we got stuck in traffic."
+    }
+  ]
+}

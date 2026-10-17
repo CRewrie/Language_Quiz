@@ -1,0 +1,361 @@
+{
+  "id": "n1-alongside",
+  "category": "JLPT N1",
+  "title": "Side by Side: かたわら, がてら, かたがた, つつ(も), つ…つ, ともなく, なり…なり",
+  "description": "Doing one thing alongside another (main job, outing, formal visit), while / although, back and forth, without really meaning to, and 'A or B or something'.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "katawara",
+      "title": "〜かたわら: alongside (one's main work)",
+      "summary": "Dictionary form / Nの + かたわら = while doing A as one's main activity, also doing B (long-term).",
+      "body": "- 会社に勤める**かたわら**、小説を書いている.",
+      "examples": [
+        [
+          "{彼女|かのじょ}は{子育|こそだ}てのかたわら、{大学|だいがく}で{勉強|べんきょう}している。",
+          "While raising children, she also studies at university."
+        ]
+      ]
+    },
+    {
+      "id": "gatera",
+      "title": "〜がてら: while (going out), also",
+      "summary": "Noun (散歩, 買い物) / ます-stem + がてら = on the occasion of going out for A, also do B.",
+      "body": "- 散歩**がてら**、郵便局に寄った.",
+      "examples": [
+        [
+          "{駅|えき}まで{送|おく}りがてら、{買|か}い{物|もの}をしてきた。",
+          "I dropped them at the station and did some shopping on the way."
+        ]
+      ]
+    },
+    {
+      "id": "katagata",
+      "title": "〜かたがた: combining (formal)",
+      "summary": "Formal noun (お礼, ご報告, ご挨拶) + かたがた = with the purpose of A as well.",
+      "body": "- お礼**かたがた**、ご挨拶に伺いました.",
+      "examples": [
+        [
+          "ご{報告|ほうこく}かたがた、お{見舞|みま}いに{参|まい}りました。",
+          "I've come to see how you are, and also to report back."
+        ]
+      ]
+    },
+    {
+      "id": "tsutsu",
+      "title": "〜つつ / つつも: while / although",
+      "summary": "ます-stem + つつ = while (formal ながら); つつも = although (knowing …).",
+      "body": "- 悪いと知り**つつも**、うそをついてしまった.\n- 景色を楽しみ**つつ**、歩いた.",
+      "examples": [
+        [
+          "{悪|わる}いと{知|し}りつつも、ついうそをついてしまった。",
+          "I knew it was wrong, but I ended up lying."
+        ]
+      ]
+    },
+    {
+      "id": "tsutsu2",
+      "title": "A つ B つ: back and forth",
+      "summary": "Paired verbs: 抜きつ抜かれつ (overtaking each other), 持ちつ持たれつ (give and take), 行きつ戻りつ.",
+      "body": "- 抜き**つ**抜かれ**つ**のレース.",
+      "examples": [
+        [
+          "{世|よ}の{中|なか}は{持|も}ちつ{持|も}たれつだ。",
+          "Life is all about give and take."
+        ]
+      ]
+    },
+    {
+      "id": "tomonaku",
+      "title": "〜ともなく: without really meaning to",
+      "summary": "Dictionary form + ともなく = doing A absent-mindedly. QW + からともなく = from somewhere or other.",
+      "body": "- 見る**ともなく**テレビを見ていた.",
+      "examples": [
+        [
+          "どこからともなく{音楽|おんがく}が{聞|き}こえてきた。",
+          "Music drifted in from somewhere."
+        ]
+      ]
+    },
+    {
+      "id": "narinari",
+      "title": "A なり B なり: A or B (or something)",
+      "summary": "Suggests options: do A, do B — whatever, just do something.",
+      "body": "- 先生**なり**先輩**なり**に聞きなさい.",
+      "examples": [
+        [
+          "{電話|でんわ}するなりメールするなり、{連絡|れんらく}してください。",
+          "Call or email — just get in touch somehow."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "katawara",
+      "prompt": "{彼|かれ}は{会社|かいしゃ}に{勤|つと}める（　）、{小説|しょうせつ}を{書|か}いている。",
+      "options": [
+        "かたわら",
+        "がてら",
+        "かたがた",
+        "ついで"
+      ],
+      "answer": 0,
+      "explanation": "Alongside (main work): **かたわら**.",
+      "notes": [
+        "",
+        "がてら is for an outing (散歩がてら), not a main job.",
+        "かたがた is for formal visits (お礼かたがた).",
+        "ついで needs に and is a one-off ('while I'm at it')."
+      ],
+      "translation": "He writes novels alongside his office job."
+    },
+    {
+      "point": "katawara",
+      "prompt": "What does 「{彼女|かのじょ}は{子育|こそだ}てのかたわら、{大学|だいがく}で{勉強|べんきょう}している。」 mean?",
+      "options": [
+        "She stopped raising children to study.",
+        "She studies child-rearing at university.",
+        "While raising children, she also studies at university.",
+        "She studies at university next to the nursery."
+      ],
+      "answer": 2,
+      "explanation": "かたわら = **alongside**.",
+      "notes": [
+        "Both happen.",
+        "No.",
+        "",
+        "かたわら here isn't 'beside (a place)'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "gatera",
+      "prompt": "{散歩|さんぽ}（　）、{郵便局|ゆうびんきょく}に{寄|よ}った。",
+      "options": [
+        "かたわら",
+        "がてら",
+        "かたがた",
+        "ついで"
+      ],
+      "answer": 1,
+      "explanation": "While out for: **がてら**.",
+      "notes": [
+        "かたわら is for a long-term main activity.",
+        "",
+        "かたがた is for formal purposes (お礼, ご挨拶).",
+        "散歩ついで needs に."
+      ],
+      "translation": "I dropped by the post office while out for a walk."
+    },
+    {
+      "point": "gatera",
+      "prompt": "{駅|えき}まで{客|きゃく}を{送|おく}り（　）、{買|か}い{物|もの}をしてきた。",
+      "options": [
+        "かたわら",
+        "ずくめ",
+        "がてら",
+        "ながらも"
+      ],
+      "answer": 2,
+      "explanation": "**がてら**.",
+      "notes": [
+        "送りかたわら isn't natural — かたわら is for ongoing work.",
+        "ずくめ = 'nothing but'.",
+        "",
+        "ながらも = 'although'."
+      ],
+      "translation": "I took our guest to the station and did some shopping on the way."
+    },
+    {
+      "point": "katagata",
+      "prompt": "お{礼|れい}（　）、ご{挨拶|あいさつ}に{伺|うかが}いました。",
+      "options": [
+        "かたがた",
+        "ついで",
+        "ながら",
+        "かたわら"
+      ],
+      "answer": 0,
+      "explanation": "Combining (formal): **かたがた**.",
+      "notes": [
+        "",
+        "お礼ついで isn't natural.",
+        "お礼ながら isn't a phrase.",
+        "かたわら is for ongoing work."
+      ],
+      "translation": "I've come to thank you and to pay my respects."
+    },
+    {
+      "point": "katagata",
+      "prompt": "What does 「ご{報告|ほうこく}かたがた、お{見舞|みま}いに{参|まい}りました。」 mean?",
+      "options": [
+        "I came only to report.",
+        "I reported on the way to the hospital.",
+        "I've come to see how you are, and also to report back.",
+        "I came instead of reporting."
+      ],
+      "answer": 2,
+      "explanation": "かたがた = **also with the purpose of**.",
+      "notes": [
+        "Both purposes.",
+        "No.",
+        "",
+        "Not instead."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tsutsu",
+      "prompt": "{悪|わる}いと{知|し}り（　）、ついうそをついてしまった。",
+      "options": [
+        "がてら",
+        "つつも",
+        "ながらに",
+        "かたわら"
+      ],
+      "answer": 1,
+      "explanation": "Although: **つつも**.",
+      "notes": [
+        "がてら = while out for.",
+        "",
+        "ながらに is for set phrases (生まれながらに).",
+        "かたわら = alongside work."
+      ],
+      "translation": "I knew it was wrong, but I ended up lying."
+    },
+    {
+      "point": "tsutsu",
+      "prompt": "{美|うつく}しい{景色|けしき}を{楽|たの}しみ（　）、ゆっくり{歩|ある}いた。",
+      "options": [
+        "つつ",
+        "ずくめ",
+        "かたわら",
+        "がてら"
+      ],
+      "answer": 0,
+      "explanation": "While (formal): **つつ**.",
+      "notes": [
+        "",
+        "ずくめ = 'nothing but'.",
+        "かたわら is for ongoing work.",
+        "楽しみがてら isn't natural."
+      ],
+      "translation": "I walked slowly, enjoying the beautiful scenery."
+    },
+    {
+      "point": "tsutsu2",
+      "prompt": "{二台|にだい}の{車|くるま}は{抜|ぬ}きつ{抜|ぬ}かれ（　）のレースを{続|つづ}けた。",
+      "options": [
+        "て",
+        "たり",
+        "つ",
+        "ず"
+      ],
+      "answer": 2,
+      "explanation": "Back and forth: **つ…つ**.",
+      "notes": [
+        "抜かれて breaks the pair.",
+        "つ…たり can't be mixed.",
+        "",
+        "抜かれず = 'without being overtaken'."
+      ],
+      "translation": "The two cars kept overtaking each other."
+    },
+    {
+      "point": "tsutsu2",
+      "prompt": "What does 「{世|よ}の{中|なか}は{持|も}ちつ{持|も}たれつだ。」 mean?",
+      "options": [
+        "The world holds on to people.",
+        "Life is all about give and take.",
+        "Everything in the world can be carried.",
+        "People keep holding things."
+      ],
+      "answer": 1,
+      "explanation": "つ…つ = **back and forth / mutually**.",
+      "notes": [
+        "持ちつ持たれつ = mutual help.",
+        "",
+        "No.",
+        "No."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tomonaku",
+      "prompt": "{見|み}る（　）テレビを{見|み}ていたら、{懐|なつ}かしい{顔|かお}が{映|うつ}った。",
+      "options": [
+        "までもなく",
+        "となく",
+        "ともなく",
+        "ことなく"
+      ],
+      "answer": 2,
+      "explanation": "Without really meaning to: **ともなく**.",
+      "notes": [
+        "までもなく = 'needless to'.",
+        "Not the form.",
+        "",
+        "見ることなく見ていた is a contradiction."
+      ],
+      "translation": "I was half-watching TV when a familiar face appeared."
+    },
+    {
+      "point": "tomonaku",
+      "prompt": "What does 「どこからともなく{音楽|おんがく}が{聞|き}こえてきた。」 mean?",
+      "options": [
+        "Music drifted in from somewhere.",
+        "Music came from nowhere at all.",
+        "Where did the music come from?",
+        "Music came from everywhere."
+      ],
+      "answer": 0,
+      "explanation": "QW からともなく = **from somewhere**.",
+      "notes": [
+        "",
+        "It's real music, source unclear.",
+        "Not a question.",
+        "From one unknown place."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "narinari",
+      "prompt": "わからないことがあったら、{先生|せんせい}（　）{先輩|せんぱい}なりに{聞|き}きなさい。",
+      "options": [
+        "とか",
+        "だの",
+        "やら",
+        "なり"
+      ],
+      "answer": 3,
+      "explanation": "A or B: **なり…なり**.",
+      "notes": [
+        "とか pairs with とか.",
+        "だの pairs with だの.",
+        "やら pairs with やら.",
+        ""
+      ],
+      "translation": "If there's anything you don't understand, ask a teacher or an older student."
+    },
+    {
+      "point": "narinari",
+      "prompt": "What does 「{電話|でんわ}するなりメールするなり、{連絡|れんらく}してください。」 mean?",
+      "options": [
+        "Call or email — just get in touch somehow.",
+        "Call as soon as you've emailed.",
+        "Don't call or email.",
+        "Call and email at the same time."
+      ],
+      "answer": 0,
+      "explanation": "なり…なり = **A or B, whichever**.",
+      "notes": [
+        "",
+        "This なり isn't 'as soon as'.",
+        "No.",
+        "Either one."
+      ],
+      "translation": ""
+    }
+  ]
+}

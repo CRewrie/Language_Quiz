@@ -1,0 +1,361 @@
+{
+  "id": "n1-levels",
+  "category": "JLPT N1",
+  "title": "Levels & Limits: ともなると, に至っては, に至るまで, てまで, にして, までだ, くらいなら",
+  "description": "Once you reach (that level), as for (the worst case), even down to, go so far as to, only at, I'll simply …, and rather than.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "tomonaruto",
+      "title": "〜ともなると / ともなれば: once it comes to",
+      "summary": "Noun / dictionary form + ともなると = at that (higher) level, naturally ….",
+      "body": "- 大学生**ともなれば**、自分のことは自分でするべきだ.",
+      "examples": [
+        [
+          "{社長|しゃちょう}ともなると、{忙|いそが}しさが{違|ちが}う。",
+          "Once you're the president, you're on a different level of busy."
+        ]
+      ]
+    },
+    {
+      "id": "niitattewa",
+      "title": "〜に至っては: as for (the most extreme)",
+      "summary": "Noun + に至っては = and the most extreme case of all is A.",
+      "body": "- 家族は皆反対した。父**に至っては**、口もきいてくれない.",
+      "examples": [
+        [
+          "{成績|せいせき}が{悪|わる}い。{数学|すうがく}に{至|いた}っては{零点|れいてん}だ。",
+          "My grades are bad — in maths I even got zero."
+        ]
+      ]
+    },
+    {
+      "id": "niitarumade",
+      "title": "〜に至るまで: even down to",
+      "summary": "A から B に至るまで = everything from A right down to B.",
+      "body": "- 服から靴**に至るまで**、すべてブランド品だ.",
+      "examples": [
+        [
+          "{子供|こども}から{大人|おとな}に{至|いた}るまで、みんなこの{歌|うた}を{知|し}っている。",
+          "Everyone from children to adults knows this song."
+        ]
+      ]
+    },
+    {
+      "id": "temade",
+      "title": "〜てまで: go so far as to",
+      "summary": "て-form + まで = even going as far as A (usually criticised).",
+      "body": "- 借金をして**まで**車を買う必要はない.",
+      "examples": [
+        [
+          "{友達|ともだち}にうそをついてまで{行|い}きたくない。",
+          "I don't want to go if it means lying to my friends."
+        ]
+      ]
+    },
+    {
+      "id": "nishite",
+      "title": "〜にして: at (the point of); only",
+      "summary": "Noun + にして = at that age / level, (only then / even). Fixed: この親にしてこの子あり.",
+      "body": "- 四十歳**にして**初めて結婚した.",
+      "examples": [
+        [
+          "この{親|おや}にしてこの{子|こ}あり。",
+          "Like parent, like child."
+        ]
+      ]
+    },
+    {
+      "id": "madeda",
+      "title": "〜までだ / までのことだ: I'll simply …; only",
+      "summary": "Dictionary form + までだ = if that fails, I'll just do A. た-form + までだ = I only did A (no other reason).",
+      "body": "- 断られたら、別の店を探す**までだ**.\n- 聞かれたから答えた**までです**.",
+      "examples": [
+        [
+          "{聞|き}かれたから{答|こた}えたまでです。",
+          "I only answered because I was asked."
+        ]
+      ]
+    },
+    {
+      "id": "kurainara",
+      "title": "〜くらいなら: rather than (I'd rather)",
+      "summary": "Dictionary form + くらいなら, B (ほうがましだ) = rather than do A, B is better.",
+      "body": "- あんな人に頼む**くらいなら**、自分でやったほうがましだ.",
+      "examples": [
+        [
+          "{途中|とちゅう}でやめるくらいなら、{最初|さいしょ}から{始|はじ}めないほうがいい。",
+          "If you're going to quit halfway, better not to start at all."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tomonaruto",
+      "prompt": "{大学生|だいがくせい}（　）、{自分|じぶん}のことは{自分|じぶん}でするべきだ。",
+      "options": [
+        "ともなく",
+        "とばかりに",
+        "ともなれば",
+        "ときたら"
+      ],
+      "answer": 2,
+      "explanation": "Once it comes to: **ともなれば**.",
+      "notes": [
+        "ともなく = 'without really meaning to'.",
+        "とばかりに = 'as if to say'.",
+        "",
+        "ときたら = 'when it comes to (complaint)' — doesn't lead into 'should'."
+      ],
+      "translation": "Once you're a university student, you should look after yourself."
+    },
+    {
+      "point": "tomonaruto",
+      "prompt": "What does 「{社長|しゃちょう}ともなると、{忙|いそが}しさが{違|ちが}う。」 mean?",
+      "options": [
+        "Being busy makes you president.",
+        "Even without a president, it's busy.",
+        "The president is busy, but not very.",
+        "Once you're the president, you're on a different level of busy."
+      ],
+      "answer": 3,
+      "explanation": "ともなると = **at that level**.",
+      "notes": [
+        "No.",
+        "No.",
+        "It's much busier.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "niitattewa",
+      "prompt": "{家族|かぞく}は{皆|みな}{反対|はんたい}した。{父|ちち}（　）、{口|くち}もきいてくれない。",
+      "options": [
+        "に{至|いた}って",
+        "に{至|いた}っては",
+        "に{至|いた}るまで",
+        "に{至|いた}り"
+      ],
+      "answer": 1,
+      "explanation": "As for (the extreme case): **に至っては**.",
+      "notes": [
+        "に至って = 'when it reached the point of'.",
+        "",
+        "に至るまで = 'even down to'.",
+        "に至り = 'reaching'."
+      ],
+      "translation": "My whole family opposed it. My father won't even speak to me."
+    },
+    {
+      "point": "niitattewa",
+      "prompt": "{成績|せいせき}が{悪|わる}い。{数学|すうがく}（　）{零点|れいてん}だ。",
+      "options": [
+        "に{至|いた}るまで",
+        "にあって",
+        "に{至|いた}っては",
+        "に{際|さい}して"
+      ],
+      "answer": 2,
+      "explanation": "**に至っては**.",
+      "notes": [
+        "に至るまで = 'even down to'.",
+        "にあって = 'in (a situation)'.",
+        "",
+        "に際して = 'on the occasion of'."
+      ],
+      "translation": "My grades are bad — in maths I even got zero."
+    },
+    {
+      "point": "niitarumade",
+      "prompt": "{彼|かれ}は{服|ふく}から{靴|くつ}（　）、すべてブランド{品|ひん}だ。",
+      "options": [
+        "に{至|いた}っては",
+        "に{至|いた}るまで",
+        "に{際|さい}して",
+        "にあたって"
+      ],
+      "answer": 1,
+      "explanation": "Even down to: **に至るまで**.",
+      "notes": [
+        "に至っては singles out an extreme case.",
+        "",
+        "に際して = 'on the occasion of'.",
+        "にあたって = 'on the occasion of'."
+      ],
+      "translation": "Everything he wears, from clothes right down to shoes, is designer."
+    },
+    {
+      "point": "niitarumade",
+      "prompt": "What does 「{子供|こども}から{大人|おとな}に{至|いた}るまで、みんなこの{歌|うた}を{知|し}っている。」 mean?",
+      "options": [
+        "Children grow into adults with this song.",
+        "Only adults know this song.",
+        "Children know it until they're adults.",
+        "Everyone from children to adults knows this song."
+      ],
+      "answer": 3,
+      "explanation": "に至るまで = **all the way to**.",
+      "notes": [
+        "It's a range, not growth.",
+        "Everyone.",
+        "No time limit.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "temade",
+      "prompt": "{借金|しゃっきん}をして（　）{車|くるま}を{買|か}う{必要|ひつよう}はない。",
+      "options": [
+        "だけ",
+        "まで",
+        "ばかり",
+        "から"
+      ],
+      "answer": 1,
+      "explanation": "Go so far as to: **てまで**.",
+      "notes": [
+        "借金をしてだけ isn't grammatical.",
+        "",
+        "借金をしてばかり = 'always borrowing'.",
+        "借金をしてから = 'after taking a loan'."
+      ],
+      "translation": "There's no need to go into debt just to buy a car."
+    },
+    {
+      "point": "temade",
+      "prompt": "What does 「{友達|ともだち}にうそをついてまで{行|い}きたくない。」 mean?",
+      "options": [
+        "I don't want to lie until I go.",
+        "I lied to my friends until I went.",
+        "My friends lied so I wouldn't go.",
+        "I don't want to go if it means lying to my friends."
+      ],
+      "answer": 3,
+      "explanation": "てまで = **going as far as**.",
+      "notes": [
+        "No.",
+        "まで here isn't 'until'.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nishite",
+      "prompt": "{彼|かれ}は{四十歳|よんじゅっさい}（　）{初|はじ}めて{結婚|けっこん}した。",
+      "options": [
+        "にしては",
+        "において",
+        "にして",
+        "にとって"
+      ],
+      "answer": 2,
+      "explanation": "At (that age): **にして**.",
+      "notes": [
+        "にしては = 'for (surprisingly)'.",
+        "において = 'in (a place)'.",
+        "",
+        "にとって = 'for (someone)'."
+      ],
+      "translation": "He married for the first time at forty."
+    },
+    {
+      "point": "nishite",
+      "prompt": "What does 「この{親|おや}にしてこの{子|こ}あり。」 mean?",
+      "options": [
+        "Parents should make their children.",
+        "This parent has no child.",
+        "The child became a parent.",
+        "Like parent, like child."
+      ],
+      "answer": 3,
+      "explanation": "にして = **(given) this**.",
+      "notes": [
+        "It's a proverb.",
+        "あり = exists.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "madeda",
+      "prompt": "{断|ことわ}られたら、{別|べつ}の{店|みせ}を{探|さが}す（　）。",
+      "options": [
+        "までだ",
+        "までもない",
+        "までも",
+        "までに"
+      ],
+      "answer": 0,
+      "explanation": "I'll simply: **までだ**.",
+      "notes": [
+        "",
+        "までもない = 'no need to'.",
+        "までも alone isn't complete.",
+        "までに = 'by (a deadline)'."
+      ],
+      "translation": "If they turn me down, I'll just find another shop."
+    },
+    {
+      "point": "madeda",
+      "prompt": "What does 「{聞|き}かれたから{答|こた}えたまでです。」 mean?",
+      "options": [
+        "I didn't answer even though I was asked.",
+        "I answered until they asked.",
+        "I only answered because I was asked.",
+        "I'll answer when I'm asked."
+      ],
+      "answer": 2,
+      "explanation": "たまでだ = **only did it**.",
+      "notes": [
+        "They did answer.",
+        "まで here isn't 'until'.",
+        "",
+        "It's past."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kurainara",
+      "prompt": "あんな{人|ひと}に{頼|たの}む（　）、{自分|じぶん}でやったほうがましだ。",
+      "options": [
+        "くらいに",
+        "くらいなら",
+        "くらいだ",
+        "くらいで"
+      ],
+      "answer": 1,
+      "explanation": "Rather than: **くらいなら**.",
+      "notes": [
+        "くらいに = 'to the degree that'.",
+        "",
+        "くらいだ = 'to the extent that'.",
+        "くらいで = 'just because of'."
+      ],
+      "translation": "I'd rather do it myself than ask someone like that."
+    },
+    {
+      "point": "kurainara",
+      "prompt": "What does 「{途中|とちゅう}でやめるくらいなら、{最初|さいしょ}から{始|はじ}めないほうがいい。」 mean?",
+      "options": [
+        "Start from the beginning if you quit.",
+        "Quit about halfway through.",
+        "If you're going to quit halfway, better not to start at all.",
+        "It's fine to quit halfway."
+      ],
+      "answer": 2,
+      "explanation": "くらいなら = **rather than**.",
+      "notes": [
+        "No.",
+        "くらい here isn't 'about'.",
+        "",
+        "The opposite."
+      ],
+      "translation": ""
+    }
+  ]
+}

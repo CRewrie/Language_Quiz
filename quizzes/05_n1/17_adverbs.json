@@ -1,0 +1,361 @@
+{
+  "id": "n1-adverbs",
+  "category": "JLPT N1",
+  "title": "Formal Adverbs: もはや, かつて, ことごとく, いまだに, てっきり, 案の定, あえて",
+  "description": "No longer, once (in the past), every single one, still, I was sure (but wrong), just as feared, and dare to.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "mohaya",
+      "title": "もはや: no longer, by now",
+      "summary": "もはや = it's already too late / things have changed (+ ない or a new state).",
+      "body": "- **もはや**後戻りはできない.",
+      "examples": [
+        [
+          "それはもはや{常識|じょうしき}だ。",
+          "That's common knowledge by now."
+        ]
+      ]
+    },
+    {
+      "id": "katsute",
+      "title": "かつて: once, formerly",
+      "summary": "かつて = at one time in the past. かつてない = unprecedented.",
+      "body": "- ここは**かつて**城があった場所だ.",
+      "examples": [
+        [
+          "かつてない{規模|きぼ}の{災害|さいがい}だ。",
+          "It's a disaster on an unprecedented scale."
+        ]
+      ]
+    },
+    {
+      "id": "kotogotoku",
+      "title": "ことごとく: every single one",
+      "summary": "ことごとく = all, without exception (often failure / rejection).",
+      "body": "- 予想は**ことごとく**外れた.",
+      "examples": [
+        [
+          "{提案|ていあん}はことごとく{却下|きゃっか}された。",
+          "Every single proposal was rejected."
+        ]
+      ]
+    },
+    {
+      "id": "imadani",
+      "title": "いまだに: still (even now)",
+      "summary": "いまだに = still, even after all this time (often with surprise or regret).",
+      "body": "- あの日のことは**いまだに**忘れられない.",
+      "examples": [
+        [
+          "{彼|かれ}はいまだに{独身|どくしん}だ。",
+          "He's still single, even now."
+        ]
+      ]
+    },
+    {
+      "id": "tekkiri",
+      "title": "てっきり: I was sure (but wrong)",
+      "summary": "てっきり + と思った = I took it for granted — and was mistaken.",
+      "body": "- **てっきり**休みだと思っていたのに、店は開いていた.",
+      "examples": [
+        [
+          "てっきり{彼|かれ}が{犯人|はんにん}だと{思|おも}った。",
+          "I was sure he was the culprit."
+        ]
+      ]
+    },
+    {
+      "id": "annojou",
+      "title": "案の定: just as feared",
+      "summary": "案の定 (あんのじょう) = sure enough, just as expected (usually bad).",
+      "body": "- 傘を持たずに出たら、**案の定**雨に降られた.",
+      "examples": [
+        [
+          "{心配|しんぱい}していたが、{案|あん}の{定|じょう}{失敗|しっぱい}した。",
+          "I'd been worried, and sure enough it failed."
+        ]
+      ]
+    },
+    {
+      "id": "aete",
+      "title": "あえて: dare to, deliberately",
+      "summary": "あえて = deliberately do something difficult / unwelcome.",
+      "body": "- 反対されるのはわかっていたが、**あえて**意見を言った.",
+      "examples": [
+        [
+          "あえて{言|い}わせてもらえば、この{計画|けいかく}は{無理|むり}だ。",
+          "If I may be so bold: this plan won't work."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "mohaya",
+      "prompt": "ここまで{来|き}たら、（　）{後戻|あともど}りはできない。",
+      "options": [
+        "もはや",
+        "かつて",
+        "いまだに",
+        "あえて"
+      ],
+      "answer": 0,
+      "explanation": "No longer: **もはや**.",
+      "notes": [
+        "",
+        "かつて = 'once (in the past)'.",
+        "いまだに = 'still' — doesn't fit 'no going back now'.",
+        "あえて = 'deliberately'."
+      ],
+      "translation": "Now that we've come this far, there's no turning back."
+    },
+    {
+      "point": "mohaya",
+      "prompt": "What does 「それはもはや{常識|じょうしき}だ。」 mean?",
+      "options": [
+        "That used to be common knowledge.",
+        "That's still not common knowledge.",
+        "That will never be common knowledge.",
+        "That's common knowledge by now."
+      ],
+      "answer": 3,
+      "explanation": "もはや = **by now**.",
+      "notes": [
+        "That's かつて.",
+        "That's いまだに…ない.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "katsute",
+      "prompt": "ここは（　）{大|おお}きな{城|しろ}があった{場所|ばしょ}だ。",
+      "options": [
+        "いまだに",
+        "かつて",
+        "もはや",
+        "てっきり"
+      ],
+      "answer": 1,
+      "explanation": "Once, formerly: **かつて**.",
+      "notes": [
+        "いまだに = 'still'.",
+        "",
+        "もはや = 'no longer / by now'.",
+        "てっきり = 'I was sure (wrongly)'."
+      ],
+      "translation": "There was once a great castle here."
+    },
+    {
+      "point": "katsute",
+      "prompt": "What does 「かつてない{規模|きぼ}の{災害|さいがい}」 mean?",
+      "options": [
+        "a disaster on an unprecedented scale",
+        "a disaster from long ago",
+        "a disaster that no longer exists",
+        "a disaster that didn't happen"
+      ],
+      "answer": 0,
+      "explanation": "かつてない = **unprecedented**.",
+      "notes": [
+        "",
+        "It's current.",
+        "かつてない = never before.",
+        "It happened."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kotogotoku",
+      "prompt": "{彼|かれ}の{予想|よそう}は（　）{外|はず}れた。",
+      "options": [
+        "こともなく",
+        "ことに",
+        "ことごとく",
+        "ことさら"
+      ],
+      "answer": 2,
+      "explanation": "Every single one: **ことごとく**.",
+      "notes": [
+        "こともなく = 'without'.",
+        "ことに = 'especially'.",
+        "",
+        "ことさら = 'deliberately / especially'."
+      ],
+      "translation": "Every one of his predictions was wrong."
+    },
+    {
+      "point": "kotogotoku",
+      "prompt": "{私|わたし}の{提案|ていあん}は（　）{却下|きゃっか}された。",
+      "options": [
+        "ことさら",
+        "ことごとく",
+        "かつて",
+        "てっきり"
+      ],
+      "answer": 1,
+      "explanation": "**ことごとく**.",
+      "notes": [
+        "ことさら = 'deliberately'.",
+        "",
+        "かつて = 'once'.",
+        "てっきり = 'I was sure'."
+      ],
+      "translation": "Every single one of my proposals was rejected."
+    },
+    {
+      "point": "imadani",
+      "prompt": "あの{日|ひ}のことは（　）{忘|わす}れられない。",
+      "options": [
+        "いまだに",
+        "もはや",
+        "かつて",
+        "あえて"
+      ],
+      "answer": 0,
+      "explanation": "Still: **いまだに**.",
+      "notes": [
+        "",
+        "もはや忘れられない isn't natural.",
+        "かつて = 'once'.",
+        "あえて = 'deliberately'."
+      ],
+      "translation": "I still can't forget that day."
+    },
+    {
+      "point": "imadani",
+      "prompt": "What does 「{彼|かれ}はいまだに{独身|どくしん}だ。」 mean?",
+      "options": [
+        "He was once single.",
+        "He's no longer single.",
+        "He'll be single from now on.",
+        "He's still single, even now."
+      ],
+      "answer": 3,
+      "explanation": "いまだに = **still**.",
+      "notes": [
+        "That's かつて.",
+        "That's もはや…ない.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tekkiri",
+      "prompt": "（　）{休|やす}みだと{思|おも}っていたのに、{店|みせ}は{開|あ}いていた。",
+      "options": [
+        "てっきり",
+        "すっかり",
+        "きっぱり",
+        "{案|あん}の{定|じょう}"
+      ],
+      "answer": 0,
+      "explanation": "I was sure (but wrong): **てっきり**.",
+      "notes": [
+        "",
+        "すっかり = 'completely' — but てっきり is the 'wrongly sure' word.",
+        "きっぱり = 'flatly'.",
+        "案の定 = 'just as expected' — but the expectation was wrong."
+      ],
+      "translation": "I was sure it was closed, but the shop was open."
+    },
+    {
+      "point": "tekkiri",
+      "prompt": "What does 「てっきり{彼|かれ}が{犯人|はんにん}だと{思|おも}った。」 mean?",
+      "options": [
+        "I knew all along he was the culprit.",
+        "I suspected he might be the culprit.",
+        "He confessed he was the culprit.",
+        "I was sure he was the culprit (but he wasn't)."
+      ],
+      "answer": 3,
+      "explanation": "てっきり = **wrongly sure**.",
+      "notes": [
+        "てっきり implies being wrong.",
+        "てっきり is certainty, not doubt.",
+        "No confession.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "annojou",
+      "prompt": "{傘|かさ}を{持|も}たずに{出|で}たら、（　）{雨|あめ}に{降|ふ}られた。",
+      "options": [
+        "てっきり",
+        "{案|あん}の{定|じょう}",
+        "もはや",
+        "あえて"
+      ],
+      "answer": 1,
+      "explanation": "Just as feared: **案の定**.",
+      "notes": [
+        "てっきり needs と思う.",
+        "",
+        "もはや = 'no longer'.",
+        "あえて = 'deliberately'."
+      ],
+      "translation": "I went out without an umbrella, and sure enough I got rained on."
+    },
+    {
+      "point": "annojou",
+      "prompt": "What does 「{心配|しんぱい}していたが、{案|あん}の{定|じょう}{失敗|しっぱい}した。」 mean?",
+      "options": [
+        "I'd been worried, and sure enough it failed.",
+        "It failed unexpectedly.",
+        "I was worried, but it worked.",
+        "I worried, so I made a plan."
+      ],
+      "answer": 0,
+      "explanation": "案の定 = **sure enough**.",
+      "notes": [
+        "",
+        "It was expected.",
+        "It failed.",
+        "案 isn't 'plan' here."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "aete",
+      "prompt": "{反対|はんたい}されるのはわかっていたが、（　）{意見|いけん}を{言|い}った。",
+      "options": [
+        "かえって",
+        "あえて",
+        "たえて",
+        "まして"
+      ],
+      "answer": 1,
+      "explanation": "Dare to: **あえて**.",
+      "notes": [
+        "かえって = 'on the contrary'.",
+        "",
+        "たえて = 'never (literary)'.",
+        "まして = 'let alone'."
+      ],
+      "translation": "I knew I'd be opposed, but I deliberately spoke my mind."
+    },
+    {
+      "point": "aete",
+      "prompt": "What does 「あえて{言|い}わせてもらえば、この{計画|けいかく}は{無理|むり}だ。」 mean?",
+      "options": [
+        "I won't say it, but the plan won't work.",
+        "I was forced to say this plan won't work.",
+        "If I may be so bold: this plan won't work.",
+        "Let me say again that the plan won't work."
+      ],
+      "answer": 2,
+      "explanation": "あえて = **dare to**.",
+      "notes": [
+        "They do say it.",
+        "あえて = by choice.",
+        "",
+        "Not 'again'."
+      ],
+      "translation": ""
+    }
+  ]
+}

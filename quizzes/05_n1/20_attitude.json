@@ -1,0 +1,361 @@
+{
+  "id": "n1-attitude",
+  "category": "JLPT N1",
+  "title": "The Speaker's Attitude: ときたら, といい…といい, といわず…といわず, だの…だの, に言わせれば, にしたって, といったところだ",
+  "description": "Complaining about someone, praising every aspect, everywhere without exception, grumbling lists, according to someone, even (casual), and 'about, at most'.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "tokitara",
+      "title": "〜ときたら: when it comes to (complaint)",
+      "summary": "Noun + ときたら = talking about A (with frustration).",
+      "body": "- うちの息子**ときたら**、毎日ゲームばかりしている.",
+      "examples": [
+        [
+          "この{部屋|へや}ときたら、{狭|せま}いし{暗|くら}いし……",
+          "This room, honestly — cramped and dark …"
+        ]
+      ]
+    },
+    {
+      "id": "toiitoii",
+      "title": "A といい B といい: both A and B",
+      "summary": "Picking examples to give one overall judgement (praise or criticism).",
+      "body": "- 味**といい**値段**といい**、この店は最高だ.",
+      "examples": [
+        [
+          "デザインといい{色|いろ}といい、{文句|もんく}なしだ。",
+          "The design, the colour — no complaints at all."
+        ]
+      ]
+    },
+    {
+      "id": "toiwazu",
+      "title": "A といわず B といわず: everywhere",
+      "summary": "A といわず B といわず = not just A or B — everywhere / all the time.",
+      "body": "- 昼**といわず**夜**といわず**働いている.",
+      "examples": [
+        [
+          "{手|て}といわず{足|あし}といわず、{泥|どろ}だらけだ。",
+          "Hands, feet, everywhere — covered in mud."
+        ]
+      ]
+    },
+    {
+      "id": "danoda",
+      "title": "A だの B だの: A and B and so on (grumbling)",
+      "summary": "Listing complaints or excuses. やれ A だの、やれ B だの.",
+      "body": "- 忙しい**だの**疲れた**だの**、文句ばかり言う.",
+      "examples": [
+        [
+          "やれ{仕事|しごと}だの、やれ{会議|かいぎ}だの、{休|やす}む{暇|ひま}もない。",
+          "What with work and meetings, there's no time to rest."
+        ]
+      ]
+    },
+    {
+      "id": "niiwasereba",
+      "title": "〜に言わせれば: if you ask (someone)",
+      "summary": "Person + に言わせれば = in that person's opinion.",
+      "body": "- 専門家**に言わせれば**、この計画には無理がある.",
+      "examples": [
+        [
+          "{母|はは}に{言|い}わせれば、{私|わたし}はまだ{子供|こども}だそうだ。",
+          "According to my mother, I'm still a child."
+        ]
+      ]
+    },
+    {
+      "id": "nishitatte",
+      "title": "〜にしたって: even (casual)",
+      "summary": "Noun + にしたって = casual にしても: even A ….",
+      "body": "- 先生**にしたって**、すべての答えを知っているわけではない.",
+      "examples": [
+        [
+          "{私|わたし}にしたって、{初|はじ}めはわからなかったよ。",
+          "Even I didn't get it at first."
+        ]
+      ]
+    },
+    {
+      "id": "toittatokoro",
+      "title": "〜といったところだ: about, at most",
+      "summary": "Number / noun + といったところだ = roughly, no more than.",
+      "body": "- 参加者は多くて三十人**といったところだ**.",
+      "examples": [
+        [
+          "{合格|ごうかく}の{可能性|かのうせい}は五{分|ぶ}五{分|ぶ}といったところだ。",
+          "The chance of passing is about fifty-fifty."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "tokitara",
+      "prompt": "うちの{息子|むすこ}（　）、{毎日|まいにち}ゲームばかりしている。",
+      "options": [
+        "ときたら",
+        "とすれば",
+        "としても",
+        "とあれば"
+      ],
+      "answer": 0,
+      "explanation": "When it comes to (complaint): **ときたら**.",
+      "notes": [
+        "",
+        "とすれば = 'if so'.",
+        "としても = 'even if'.",
+        "とあれば = 'if it's for'."
+      ],
+      "translation": "My son, honestly — all he does is play games."
+    },
+    {
+      "point": "tokitara",
+      "prompt": "What does 「この{部屋|へや}ときたら、{狭|せま}いし{暗|くら}いし……」 mean?",
+      "options": [
+        "When I came to this room, it was small.",
+        "This room is small but bright.",
+        "If this room were bigger …",
+        "This room, honestly — cramped and dark …"
+      ],
+      "answer": 3,
+      "explanation": "ときたら = **grumbling about**.",
+      "notes": [
+        "ときたら isn't 'when I came'.",
+        "It's dark too.",
+        "No condition.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "toiitoii",
+      "prompt": "{味|あじ}（　）{値段|ねだん}といい、この{店|みせ}は{最高|さいこう}だ。",
+      "options": [
+        "といい",
+        "といって",
+        "といえば",
+        "としても"
+      ],
+      "answer": 0,
+      "explanation": "Both A and B: **といい…といい**.",
+      "notes": [
+        "",
+        "といって = 'saying'.",
+        "といえば = 'speaking of'.",
+        "としても = 'even if'."
+      ],
+      "translation": "The taste, the price — this place is the best."
+    },
+    {
+      "point": "toiitoii",
+      "prompt": "What does 「デザインといい{色|いろ}といい、{文句|もんく}なしだ。」 mean?",
+      "options": [
+        "If the design and colour are good, there are no complaints.",
+        "The design, the colour — no complaints at all.",
+        "Say the design and colour, and nothing else.",
+        "Speaking of design and colour, I have complaints."
+      ],
+      "answer": 1,
+      "explanation": "といい…といい = **both … and (overall judgement)**.",
+      "notes": [
+        "It's a judgement, not a condition.",
+        "",
+        "No.",
+        "文句なし = no complaints."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "toiwazu",
+      "prompt": "{彼|かれ}は{昼|ひる}（　）{夜|よる}といわず{働|はたら}いている。",
+      "options": [
+        "といっても",
+        "というより",
+        "といった",
+        "といわず"
+      ],
+      "answer": 3,
+      "explanation": "Everywhere / all the time: **といわず…といわず**.",
+      "notes": [
+        "といっても = 'although'.",
+        "というより = 'rather than'.",
+        "といった = 'such as'.",
+        ""
+      ],
+      "translation": "He works day and night."
+    },
+    {
+      "point": "toiwazu",
+      "prompt": "What does 「{手|て}といわず{足|あし}といわず、{泥|どろ}だらけだ。」 mean?",
+      "options": [
+        "He didn't say hands or feet.",
+        "Hands, feet, everywhere — covered in mud.",
+        "Only his hands and feet are muddy.",
+        "Not his hands or feet, but the rest is muddy."
+      ],
+      "answer": 1,
+      "explanation": "といわず…といわず = **everywhere**.",
+      "notes": [
+        "Not about speaking.",
+        "",
+        "It's everywhere.",
+        "いわず here isn't a negation of mud."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "danoda",
+      "prompt": "{彼女|かのじょ}は{忙|いそが}しい（　）{疲|つか}れただの、{文句|もんく}ばかり{言|い}う。",
+      "options": [
+        "だの",
+        "やら",
+        "とか",
+        "なり"
+      ],
+      "answer": 0,
+      "explanation": "Grumbling list: **だの…だの**.",
+      "notes": [
+        "",
+        "やら pairs with やら.",
+        "とか pairs with とか.",
+        "なり pairs with なり."
+      ],
+      "translation": "She's always complaining — she's busy, she's tired …"
+    },
+    {
+      "point": "danoda",
+      "prompt": "やれ{仕事|しごと}（　）、やれ{会議|かいぎ}だの、{休|やす}む{暇|ひま}もない。",
+      "options": [
+        "なり",
+        "や",
+        "も",
+        "だの"
+      ],
+      "answer": 3,
+      "explanation": "**やれ…だの、やれ…だの**.",
+      "notes": [
+        "なり doesn't pair with だの.",
+        "や doesn't pair with だの.",
+        "も doesn't fit.",
+        ""
+      ],
+      "translation": "What with work and meetings, there's no time to rest."
+    },
+    {
+      "point": "niiwasereba",
+      "prompt": "{専門家|せんもんか}（　）、この{計画|けいかく}には{無理|むり}がある。",
+      "options": [
+        "に{言|い}わせれば",
+        "に{言|い}われれば",
+        "が{言|い}えば",
+        "を{言|い}わせて"
+      ],
+      "answer": 0,
+      "explanation": "In someone's opinion: **に言わせれば**.",
+      "notes": [
+        "",
+        "言われれば = 'if told'.",
+        "が言えば = 'if (the expert) says'.",
+        "を言わせて isn't the pattern."
+      ],
+      "translation": "According to the experts, this plan is unrealistic."
+    },
+    {
+      "point": "niiwasereba",
+      "prompt": "What does 「{母|はは}に{言|い}わせれば、{私|わたし}はまだ{子供|こども}だそうだ。」 mean?",
+      "options": [
+        "I told my mother I'm still a child.",
+        "My mother made me say I'm still a child.",
+        "My mother is still a child.",
+        "According to my mother, I'm still a child."
+      ],
+      "answer": 3,
+      "explanation": "に言わせれば = **in someone's view**.",
+      "notes": [
+        "No.",
+        "It's the mother's opinion.",
+        "No.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nishitatte",
+      "prompt": "{先生|せんせい}（　）、すべての{答|こた}えを{知|し}っているわけではない。",
+      "options": [
+        "にしては",
+        "にとって",
+        "にしたって",
+        "にあたって"
+      ],
+      "answer": 2,
+      "explanation": "Even (casual): **にしたって**.",
+      "notes": [
+        "にしては = 'for (surprisingly)'.",
+        "にとって = 'for (someone)'.",
+        "",
+        "にあたって = 'on the occasion of'."
+      ],
+      "translation": "Even teachers don't know all the answers."
+    },
+    {
+      "point": "nishitatte",
+      "prompt": "What does 「{私|わたし}にしたって、{初|はじ}めはわからなかったよ。」 mean?",
+      "options": [
+        "I made it so you didn't understand.",
+        "Even I didn't get it at first.",
+        "I'll understand at first.",
+        "For me, it was clear from the start."
+      ],
+      "answer": 1,
+      "explanation": "にしたって = **even (casual)**.",
+      "notes": [
+        "No.",
+        "",
+        "It's past.",
+        "わからなかった = didn't understand."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "toittatokoro",
+      "prompt": "{参加者|さんかしゃ}は{多|おお}くて{三十人|さんじゅうにん}（　）。",
+      "options": [
+        "といったところだ",
+        "というわけだ",
+        "ということだ",
+        "というものだ"
+      ],
+      "answer": 0,
+      "explanation": "About, at most: **といったところだ**.",
+      "notes": [
+        "",
+        "というわけだ = 'that's why'.",
+        "ということだ = 'I hear / that means'.",
+        "というものだ = 'that's what … is'."
+      ],
+      "translation": "There'll be thirty participants at most."
+    },
+    {
+      "point": "toittatokoro",
+      "prompt": "What does 「{合格|ごうかく}の{可能性|かのうせい}は五{分|ぶ}五{分|ぶ}といったところだ。」 mean?",
+      "options": [
+        "The chance of passing is exactly fifty percent.",
+        "They said the chance was fifty-fifty.",
+        "The chance of passing is about fifty-fifty.",
+        "There's no chance of passing."
+      ],
+      "answer": 2,
+      "explanation": "といったところだ = **roughly**.",
+      "notes": [
+        "It's a rough estimate.",
+        "Not a quote.",
+        "",
+        "No."
+      ],
+      "translation": ""
+    }
+  ]
+}
