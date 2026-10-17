@@ -1,0 +1,361 @@
+{
+  "id": "n1-extreme",
+  "category": "JLPT N1",
+  "title": "Not Even One & More Than: たりとも, だに, はおろか, もさることながら, にとどまらず, ただ…のみ, ならでは",
+  "description": "Not a single one, not even (imagine), let alone, not only … but even more, not limited to, nothing but, and unique to.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "taritomo",
+      "title": "一 + counter + たりとも + negative",
+      "summary": "たりとも = not even one (strong, formal).",
+      "body": "- 一円**たりとも**無駄にはできない.\n- 一日**たりとも**休めない.",
+      "examples": [
+        [
+          "{一円|いちえん}たりとも{無駄|むだ}にはできない。",
+          "I can't waste a single yen."
+        ]
+      ]
+    },
+    {
+      "id": "dani",
+      "title": "〜だに: not even (to think of)",
+      "summary": "Fixed: 想像だにしない, 夢にだに思わない, 考えるだに恐ろしい.",
+      "body": "- こんな結果になるとは、想像**だに**しなかった.",
+      "examples": [
+        [
+          "{夢|ゆめ}にだに{思|おも}わなかった。",
+          "I never even dreamed of it."
+        ]
+      ]
+    },
+    {
+      "id": "haoroka",
+      "title": "AはおろかBも: let alone A, (not) even B",
+      "summary": "A はおろか B も / さえ / まで = not to mention A, even B — usually in negative or surprising situations.",
+      "body": "- 漢字**はおろか**、ひらがなも書けない.",
+      "examples": [
+        [
+          "{貯金|ちょきん}はおろか、{明日|あした}の{食費|しょくひ}もない。",
+          "Never mind savings — I don't even have money for tomorrow's food."
+        ]
+      ]
+    },
+    {
+      "id": "mosaru",
+      "title": "AもさることながらBも: A, of course, but B even more",
+      "summary": "Positive: A is good, needless to say, but B is (even more) notable.",
+      "body": "- この店は味**もさることながら**、サービスも素晴らしい.\n- Compare はおろか: negative context.",
+      "examples": [
+        [
+          "この{店|みせ}は{味|あじ}もさることながら、サービスも{素晴|すば}らしい。",
+          "The food here is great, of course, but the service is wonderful too."
+        ]
+      ]
+    },
+    {
+      "id": "nitodomarazu",
+      "title": "〜にとどまらず: not limited to",
+      "summary": "Noun + にとどまらず = goes beyond A, reaching B.",
+      "body": "- 彼の人気は国内**にとどまらず**、海外にまで広がっている.",
+      "examples": [
+        [
+          "{彼|かれ}の{人気|にんき}は{国内|こくない}にとどまらず、{海外|かいがい}にまで{広|ひろ}がっている。",
+          "His popularity isn't limited to Japan — it has spread abroad."
+        ]
+      ]
+    },
+    {
+      "id": "tadanomi",
+      "title": "ただ〜のみ(だ): nothing but",
+      "summary": "ただ + verb / noun + のみ = only, all that's left (formal).",
+      "body": "- あとは**ただ**結果を待つ**のみ**だ.",
+      "examples": [
+        [
+          "あとはただ{祈|いの}るのみだ。",
+          "All we can do now is pray."
+        ]
+      ]
+    },
+    {
+      "id": "naradeha",
+      "title": "〜ならでは: unique to",
+      "summary": "Noun + ならではの + noun = only possible with / characteristic of N.",
+      "body": "- 京都**ならでは**の景色.\n- 手作り**ならでは**の温かみ.",
+      "examples": [
+        [
+          "これは{京都|きょうと}ならではの{景色|けしき}だ。",
+          "This is a view you can only get in Kyoto."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "taritomo",
+      "prompt": "{一円|いちえん}（　）{無駄|むだ}にはできない。",
+      "options": [
+        "なりとも",
+        "ばかりか",
+        "たりとも",
+        "ならでは"
+      ],
+      "answer": 2,
+      "explanation": "Not a single one: **たりとも + negative**.",
+      "notes": [
+        "なりとも = 'even a little (at least)' — used with positive wishes, not 一円…ない.",
+        "ばかりか = 'not only'.",
+        "",
+        "ならでは = 'unique to'."
+      ],
+      "translation": "I can't waste a single yen."
+    },
+    {
+      "point": "taritomo",
+      "prompt": "{試験|しけん}まであと{一週間|いっしゅうかん}。{一日|いちにち}（　）{休|やす}んではいられない。",
+      "options": [
+        "ずくめ",
+        "たりとも",
+        "まみれ",
+        "ごとき"
+      ],
+      "answer": 1,
+      "explanation": "**一日たりとも**.",
+      "notes": [
+        "ずくめ = 'nothing but (good things)'.",
+        "",
+        "まみれ = 'covered in'.",
+        "ごとき = 'the likes of'."
+      ],
+      "translation": "One week until the exam — I can't afford to take a single day off."
+    },
+    {
+      "point": "dani",
+      "prompt": "こんな{結果|けっか}になるとは、{想像|そうぞう}（　）しなかった。",
+      "options": [
+        "だの",
+        "だけ",
+        "ばかり",
+        "だに"
+      ],
+      "answer": 3,
+      "explanation": "Not even: **想像だにしない**.",
+      "notes": [
+        "だの = listing ('… and stuff').",
+        "想像だけしなかった = 'only didn't imagine' — illogical.",
+        "想像ばかり = 'nothing but imagining'.",
+        ""
+      ],
+      "translation": "I never even imagined it would turn out like this."
+    },
+    {
+      "point": "dani",
+      "prompt": "What does 「{夢|ゆめ}にだに{思|おも}わなかった。」 mean?",
+      "options": [
+        "I only thought about it in dreams.",
+        "I didn't think it was a dream.",
+        "I never even dreamed of it.",
+        "I dreamed about it every night."
+      ],
+      "answer": 2,
+      "explanation": "だに = **not even**.",
+      "notes": [
+        "だに = 'not even'.",
+        "It's about not imagining it at all.",
+        "",
+        "The opposite."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "haoroka",
+      "prompt": "{彼|かれ}は{漢字|かんじ}（　）、ひらがなも{書|か}けない。",
+      "options": [
+        "はおろか",
+        "もさることながら",
+        "にひきかえ",
+        "をおいて"
+      ],
+      "answer": 0,
+      "explanation": "Let alone: **はおろか**.",
+      "notes": [
+        "",
+        "もさることながら is for positive praise.",
+        "にひきかえ = 'in contrast to'.",
+        "をおいて = 'apart from (… no one else)'."
+      ],
+      "translation": "Never mind kanji — he can't even write hiragana."
+    },
+    {
+      "point": "haoroka",
+      "prompt": "{貯金|ちょきん}（　）、{明日|あした}の{食費|しょくひ}もない。",
+      "options": [
+        "をおいて",
+        "はおろか",
+        "にひきかえ",
+        "ならでは"
+      ],
+      "answer": 1,
+      "explanation": "**はおろか**.",
+      "notes": [
+        "をおいて = 'apart from'.",
+        "",
+        "にひきかえ = 'in contrast to'.",
+        "ならでは = 'unique to'."
+      ],
+      "translation": "Never mind savings — I don't even have money for tomorrow's food."
+    },
+    {
+      "point": "mosaru",
+      "prompt": "この{店|みせ}は{味|あじ}（　）、サービスも{素晴|すば}らしい。",
+      "options": [
+        "もさることながら",
+        "にひきかえ",
+        "はおろか",
+        "をよそに"
+      ],
+      "answer": 0,
+      "explanation": "A of course, B too (praise): **もさることながら**.",
+      "notes": [
+        "",
+        "にひきかえ = 'in contrast to'.",
+        "はおろか is for negative contexts ('let alone').",
+        "をよそに = 'ignoring'."
+      ],
+      "translation": "The food here is great, of course, but the service is wonderful too."
+    },
+    {
+      "point": "mosaru",
+      "prompt": "What does 「{彼|かれ}の{演技|えんぎ}は{技術|ぎじゅつ}もさることながら、{表現力|ひょうげんりょく}が{素晴|すば}らしい。」 mean?",
+      "options": [
+        "He has no technique, let alone expressiveness.",
+        "His technique is better than his expressiveness.",
+        "His technique is good, of course, but his expressiveness is even more impressive.",
+        "Leaving technique aside, he has no expressiveness."
+      ],
+      "answer": 2,
+      "explanation": "もさることながら = **A, and especially B**.",
+      "notes": [
+        "That would be はおろか.",
+        "The emphasis is on expressiveness.",
+        "",
+        "Both are praised."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nitodomarazu",
+      "prompt": "その{問題|もんだい}は{一企業|いちきぎょう}（　）、{業界全体|ぎょうかいぜんたい}に{影響|えいきょう}を{与|あた}えた。",
+      "options": [
+        "にとどまらず",
+        "にあたらず",
+        "にかかわらず",
+        "にたえず"
+      ],
+      "answer": 0,
+      "explanation": "Not limited to: **にとどまらず**.",
+      "notes": [
+        "",
+        "にあたらず isn't the pattern.",
+        "にかかわらず = 'regardless of'.",
+        "にたえず isn't the pattern."
+      ],
+      "translation": "The problem didn't stop at one company — it affected the whole industry."
+    },
+    {
+      "point": "nitodomarazu",
+      "prompt": "{彼|かれ}の{人気|にんき}は{国内|こくない}（　）、{海外|かいがい}にまで{広|ひろ}がっている。",
+      "options": [
+        "に{先駆|さきが}けて",
+        "に{至|いた}って",
+        "にとどまらず",
+        "に{限|かぎ}って"
+      ],
+      "answer": 2,
+      "explanation": "**にとどまらず**.",
+      "notes": [
+        "に先駆けて = 'ahead of'.",
+        "に至って = 'when it came to (the point of)'.",
+        "",
+        "に限って = 'of all (times/people)'."
+      ],
+      "translation": "His popularity isn't limited to Japan — it has spread abroad."
+    },
+    {
+      "point": "tadanomi",
+      "prompt": "やるべきことは{全部|ぜんぶ}やった。あとはただ{結果|けっか}を{待|ま}つ（　）だ。",
+      "options": [
+        "さえ",
+        "こそ",
+        "すら",
+        "のみ"
+      ],
+      "answer": 3,
+      "explanation": "Nothing but: **ただ…のみ**.",
+      "notes": [
+        "さえ = 'even'.",
+        "こそ = 'precisely'.",
+        "すら = 'even'.",
+        ""
+      ],
+      "translation": "I've done everything I had to — now all that's left is to wait for the results."
+    },
+    {
+      "point": "tadanomi",
+      "prompt": "What does 「あとはただ{祈|いの}るのみだ。」 mean?",
+      "options": [
+        "All we can do now is pray.",
+        "We shouldn't just pray.",
+        "We only pray afterwards.",
+        "We pray, and then it's over."
+      ],
+      "answer": 0,
+      "explanation": "ただ…のみ = **nothing else**.",
+      "notes": [
+        "",
+        "No negation.",
+        "あと here = 'what's left'.",
+        "のみ = only this."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "naradeha",
+      "prompt": "これは{京都|きょうと}（　）の{景色|けしき}だ。",
+      "options": [
+        "ならいざしらず",
+        "ならでは",
+        "ながらの",
+        "なりの"
+      ],
+      "answer": 1,
+      "explanation": "Unique to: **ならではの**.",
+      "notes": [
+        "ならいざしらず = 'maybe for A, but …'.",
+        "",
+        "京都ながらの isn't a phrase.",
+        "京都なりの = 'Kyoto's own (modest) way'."
+      ],
+      "translation": "This is a view you can only get in Kyoto."
+    },
+    {
+      "point": "naradeha",
+      "prompt": "このセーターには{手作|てづく}り（　）の{温|あたた}かみがある。",
+      "options": [
+        "ならには",
+        "ならでも",
+        "なりでは",
+        "ならでは"
+      ],
+      "answer": 3,
+      "explanation": "**ならでは**.",
+      "notes": [
+        "Not a form.",
+        "Not a form.",
+        "Not a form.",
+        ""
+      ],
+      "translation": "This jumper has the warmth only a handmade one can have."
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "id": "n1-without",
+  "category": "JLPT N1",
+  "title": "Without & Disregarding: なくして, ことなしに, をよそに, をものともせず, を顧みず, をいいことに",
+  "description": "Without (it's impossible), without doing, ignoring others, undaunted by, with no regard for, and taking advantage of.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "nakushite",
+      "title": "〜なくして(は): without (… impossible)",
+      "summary": "Noun + なくして(は) + negative = without N, (it wouldn't work).",
+      "body": "- 努力**なくして**成功はあり得ない.",
+      "examples": [
+        [
+          "{努力|どりょく}なくして{成功|せいこう}はあり{得|え}ない。",
+          "There's no success without effort."
+        ]
+      ]
+    },
+    {
+      "id": "kotonashini",
+      "title": "〜ことなしに: without doing",
+      "summary": "Dictionary form + ことなしに (+ negative) = without doing A, B can't happen.",
+      "body": "- 挑戦する**ことなしに**成長はない.",
+      "examples": [
+        [
+          "{挑戦|ちょうせん}することなしに{成長|せいちょう}はない。",
+          "There's no growth without taking on challenges."
+        ]
+      ]
+    },
+    {
+      "id": "woyosoni",
+      "title": "〜をよそに: ignoring (others' worries)",
+      "summary": "Noun + をよそに = paying no attention to others' concern / opposition / expectations.",
+      "body": "- 親の心配**をよそに**、彼は一人で旅に出た.",
+      "examples": [
+        [
+          "{周囲|しゅうい}の{反対|はんたい}をよそに、{二人|ふたり}は{結婚|けっこん}した。",
+          "Ignoring everyone's objections, the two got married."
+        ]
+      ]
+    },
+    {
+      "id": "womonotomosezu",
+      "title": "〜をものともせず: undaunted by",
+      "summary": "Noun + をものともせず = not letting a hardship stop you (praise).",
+      "body": "- 彼はけが**をものともせず**、最後まで走り抜いた.",
+      "examples": [
+        [
+          "{嵐|あらし}をものともせず、{船|ふね}は{出航|しゅっこう}した。",
+          "Undaunted by the storm, the ship set sail."
+        ]
+      ]
+    },
+    {
+      "id": "wokaerimizu",
+      "title": "〜を顧みず: with no regard for",
+      "summary": "Noun + を顧みず = disregarding (one's own safety, family …). 顧みる = look back on / care about; 省みる = reflect on oneself.",
+      "body": "- 自分の危険**を顧みず**、子供を助けた.",
+      "examples": [
+        [
+          "{彼|かれ}は{自分|じぶん}の{危険|きけん}を{顧|かえり}みず、{子供|こども}を{助|たす}けた。",
+          "With no thought for his own safety, he saved the child."
+        ]
+      ]
+    },
+    {
+      "id": "woiikotoni",
+      "title": "〜をいいことに: taking (bad) advantage of",
+      "summary": "Noun / plain form + の + をいいことに = using a situation as an excuse to do something wrong.",
+      "body": "- 先生がいないの**をいいことに**、生徒たちは騒ぎ始めた.",
+      "examples": [
+        [
+          "{親|おや}が{留守|るす}なのをいいことに、{彼|かれ}は{友達|ともだち}を{呼|よ}んで{騒|さわ}いだ。",
+          "Taking advantage of his parents being away, he had friends over and partied."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "nakushite",
+      "prompt": "{努力|どりょく}（　）、{成功|せいこう}はあり{得|え}ない。",
+      "options": [
+        "ともなく",
+        "なくして",
+        "ならでは",
+        "ながらに"
+      ],
+      "answer": 1,
+      "explanation": "Without: **なくして**.",
+      "notes": [
+        "ともなく = 'without really meaning to'.",
+        "",
+        "ならでは = 'unique to'.",
+        "ながらに = 'while / as (from birth)'."
+      ],
+      "translation": "There's no success without effort."
+    },
+    {
+      "point": "nakushite",
+      "prompt": "{皆様|みなさま}のご{協力|きょうりょく}（　）、このプロジェクトは{完成|かんせい}しなかったでしょう。",
+      "options": [
+        "なくしては",
+        "なくても",
+        "ないでは",
+        "なしにも"
+      ],
+      "answer": 0,
+      "explanation": "**なくしては** + negative.",
+      "notes": [
+        "",
+        "なくても = 'even without' — clashes with 完成しなかった.",
+        "協力ないでは isn't grammatical.",
+        "なしにも isn't the pattern."
+      ],
+      "translation": "Without your help, this project would never have been completed."
+    },
+    {
+      "point": "kotonashini",
+      "prompt": "{人|ひと}は{誰|だれ}にも{頼|たよ}る（　）{生|い}きていくことはできない。",
+      "options": [
+        "ことだし",
+        "ことなしに",
+        "ことにして",
+        "ことから"
+      ],
+      "answer": 1,
+      "explanation": "Without doing: **ことなしに**.",
+      "notes": [
+        "ことだし = 'since (it's the case that)'.",
+        "",
+        "ことにして = 'pretending that'.",
+        "ことから = 'from the fact that'."
+      ],
+      "translation": "No one can live without relying on someone."
+    },
+    {
+      "point": "kotonashini",
+      "prompt": "What does 「{挑戦|ちょうせん}することなしに{成長|せいちょう}はない。」 mean?",
+      "options": [
+        "Don't challenge yourself before you've grown.",
+        "Challenges have nothing to do with growth.",
+        "Growth comes without challenges.",
+        "There's no growth without taking on challenges."
+      ],
+      "answer": 3,
+      "explanation": "ことなしに = **without**.",
+      "notes": [
+        "No order of events.",
+        "ことなしに isn't 'unrelated'.",
+        "なしに + ない = without A, no B.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "woyosoni",
+      "prompt": "{親|おや}の{心配|しんぱい}（　）、{彼|かれ}は{一人|ひとり}で{旅|たび}に{出|で}た。",
+      "options": [
+        "をよそに",
+        "を{問|と}わず",
+        "を{通|とお}して",
+        "をもとに"
+      ],
+      "answer": 0,
+      "explanation": "Ignoring: **をよそに**.",
+      "notes": [
+        "",
+        "を問わず = 'regardless of (age, gender …)' — not someone's worry.",
+        "を通して = 'through'.",
+        "をもとに = 'based on'."
+      ],
+      "translation": "Ignoring his parents' worries, he set off travelling alone."
+    },
+    {
+      "point": "woyosoni",
+      "prompt": "{周囲|しゅうい}の{反対|はんたい}（　）、{二人|ふたり}は{結婚|けっこん}した。",
+      "options": [
+        "をもとに",
+        "をめぐって",
+        "を{機|き}に",
+        "をよそに"
+      ],
+      "answer": 3,
+      "explanation": "**をよそに**.",
+      "notes": [
+        "をもとに = 'based on'.",
+        "をめぐって = 'concerning (a dispute)'.",
+        "を機に = 'taking the opportunity of'.",
+        ""
+      ],
+      "translation": "Ignoring everyone's objections, the two got married."
+    },
+    {
+      "point": "womonotomosezu",
+      "prompt": "{彼|かれ}は{足|あし}のけが（　）、{最後|さいご}まで{走|はし}り{抜|ぬ}いた。",
+      "options": [
+        "をよそに",
+        "をもって",
+        "をものともせず",
+        "をおいて"
+      ],
+      "answer": 2,
+      "explanation": "Undaunted by: **をものともせず**.",
+      "notes": [
+        "をよそに is for others' feelings or situations, not your own hardship.",
+        "をもって = 'by means of / as of'.",
+        "",
+        "をおいて = 'apart from'."
+      ],
+      "translation": "Despite his injured leg, he ran all the way to the finish."
+    },
+    {
+      "point": "womonotomosezu",
+      "prompt": "What does 「{嵐|あらし}をものともせず、{船|ふね}は{出航|しゅっこう}した。」 mean?",
+      "options": [
+        "Because of the storm, the ship didn't sail.",
+        "The ship sailed into the storm by accident.",
+        "The ship sailed before the storm.",
+        "Undaunted by the storm, the ship set sail."
+      ],
+      "answer": 3,
+      "explanation": "をものともせず = **undaunted by**.",
+      "notes": [
+        "It did sail.",
+        "It was deliberate.",
+        "No timing.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "wokaerimizu",
+      "prompt": "{彼|かれ}は{自分|じぶん}の{危険|きけん}（　）、{川|かわ}に{飛|と}び{込|こ}んで{子供|こども}を{助|たす}けた。",
+      "options": [
+        "を{顧|かえり}みず",
+        "を{省|かえり}みず",
+        "を{振|ふ}り{返|かえ}らず",
+        "を{見|み}ず"
+      ],
+      "answer": 0,
+      "explanation": "With no regard for: **を顧みず**.",
+      "notes": [
+        "",
+        "省みる = reflect on (your own conduct) — same sound, different word.",
+        "振り返らず = 'without looking back'.",
+        "見ず = 'without looking'."
+      ],
+      "translation": "With no thought for his own safety, he jumped into the river and saved the child."
+    },
+    {
+      "point": "wokaerimizu",
+      "prompt": "{家族|かぞく}（　）{仕事|しごと}ばかりしていた{父|ちち}は、{今|いま}になって{後悔|こうかい}している。",
+      "options": [
+        "を{省|かえり}みず",
+        "をおいて",
+        "を{顧|かえり}みず",
+        "をもって"
+      ],
+      "answer": 2,
+      "explanation": "**を顧みず**.",
+      "notes": [
+        "省みる = reflect on yourself — not on your family.",
+        "をおいて = 'apart from'.",
+        "",
+        "をもって = 'by means of'."
+      ],
+      "translation": "My father, who neglected his family and only worked, now regrets it."
+    },
+    {
+      "point": "woiikotoni",
+      "prompt": "{先生|せんせい}がいないの（　）、{生徒|せいと}たちは{騒|さわ}ぎ{始|はじ}めた。",
+      "options": [
+        "をいいことに",
+        "をよそに",
+        "をもって",
+        "を{限|かぎ}りに"
+      ],
+      "answer": 0,
+      "explanation": "Taking advantage of: **をいいことに**.",
+      "notes": [
+        "",
+        "をよそに = ignoring someone's worry — the teacher isn't there to worry.",
+        "をもって = 'by means of / as of'.",
+        "を限りに = 'as of (the last time)'."
+      ],
+      "translation": "Taking advantage of the teacher's absence, the students started making a racket."
+    },
+    {
+      "point": "woiikotoni",
+      "prompt": "What does 「{親|おや}が{留守|るす}なのをいいことに、{彼|かれ}は{友達|ともだち}を{呼|よ}んで{騒|さわ}いだ。」 mean?",
+      "options": [
+        "Since his parents were away, it was good that he invited friends.",
+        "He invited friends so his parents wouldn't be lonely.",
+        "His parents were away, which was good for him.",
+        "Taking advantage of his parents being away, he had friends over and partied."
+      ],
+      "answer": 3,
+      "explanation": "をいいことに = **exploiting the situation**.",
+      "notes": [
+        "いいことに isn't praise — it's taking advantage.",
+        "The parents were away.",
+        "It's about what he did, not a judgement.",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}

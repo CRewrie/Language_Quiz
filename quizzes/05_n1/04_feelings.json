@@ -1,0 +1,361 @@
+{
+  "id": "n1-feelings",
+  "category": "JLPT N1",
+  "title": "Can't Help & Must: ずにはおかない, ずにはすまない, を禁じ得ない, を余儀なくされる, てやまない, に難くない, 限りだ",
+  "description": "Will inevitably cause, can't get away without, can't hold back, be forced to, never cease to, easy to imagine, and 'so very …'.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "zuniokanai",
+      "title": "〜ずにはおかない / ないではおかない",
+      "summary": "1) Something will inevitably cause a reaction (感動させずにはおかない). 2) Strong resolve: I'll definitely make it happen.",
+      "body": "- 彼の演説は聴衆を感動させ**ずにはおかない**.",
+      "examples": [
+        [
+          "この{映画|えいが}は{見|み}る{人|ひと}を{泣|な}かせないではおかない。",
+          "This film is bound to make people cry."
+        ]
+      ]
+    },
+    {
+      "id": "zunisumanai",
+      "title": "〜ずにはすまない / ないではすまない",
+      "summary": "It won't be settled without doing A — social obligation.",
+      "body": "- 人の物を壊したのだから、弁償せ**ずにはすまない**.",
+      "examples": [
+        [
+          "{謝|あやま}らないではすまない。",
+          "I'll have to apologise — there's no way around it."
+        ]
+      ]
+    },
+    {
+      "id": "kinjienai",
+      "title": "〜を禁じ得ない: can't help feeling",
+      "summary": "Emotion noun (同情, 怒り, 涙, 驚き) + を禁じ得ない = can't suppress it (formal).",
+      "body": "- 被害者の話を聞いて、同情**を禁じ得ない**.",
+      "examples": [
+        [
+          "その{判決|はんけつ}には{怒|いか}りを{禁|きん}じ{得|え}ない。",
+          "I can't help feeling angry at that verdict."
+        ]
+      ]
+    },
+    {
+      "id": "yoginaku",
+      "title": "〜を余儀なくされる: be forced to",
+      "summary": "Noun + を余儀なくされる = circumstances forced (someone) to …. Active: を余儀なくさせる.",
+      "body": "- 台風のため、試合は中止**を余儀なくされた**.",
+      "examples": [
+        [
+          "{不況|ふきょう}で、{多|おお}くの{会社|かいしゃ}が{倒産|とうさん}を{余儀|よぎ}なくされた。",
+          "The recession forced many companies into bankruptcy."
+        ]
+      ]
+    },
+    {
+      "id": "teyamanai",
+      "title": "〜てやまない: never cease to",
+      "summary": "て-form of hope / love / respect verbs + やまない = deeply and constantly (formal). Polite: やみません.",
+      "body": "- 皆様のご健康を願って**やみません**.",
+      "examples": [
+        [
+          "{彼|かれ}は{生涯|しょうがい}{故郷|こきょう}を{愛|あい}してやまなかった。",
+          "He never stopped loving his hometown all his life."
+        ]
+      ]
+    },
+    {
+      "id": "nikatakunai",
+      "title": "〜に難くない: it's easy to (imagine)",
+      "summary": "想像 / 察する + に難くない (かたくない) = it isn't hard to imagine.",
+      "body": "- 彼女がどれほど悲しんだかは想像**に難くない**.",
+      "examples": [
+        [
+          "{苦労|くろう}は{察|さっ}するに{難|かた}くない。",
+          "It's easy to imagine the hardship."
+        ]
+      ]
+    },
+    {
+      "id": "kagirida",
+      "title": "〜限りだ: so very (feeling)",
+      "summary": "Feeling adjective + 限りだ = the speaker feels extremely ….",
+      "body": "- 友達がみんな帰ってしまって、寂しい**限りだ**.",
+      "examples": [
+        [
+          "{優勝|ゆうしょう}できるなんて、{嬉|うれ}しい{限|かぎ}りです。",
+          "Winning the championship — I couldn't be happier."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "zuniokanai",
+      "prompt": "{彼|かれ}の{演説|えんぜつ}は{聴衆|ちょうしゅう}を{感動|かんどう}させ（　）。",
+      "options": [
+        "ずにはすまない",
+        "ずにはおかない",
+        "ずくめだ",
+        "ずじまいだ"
+      ],
+      "answer": 1,
+      "explanation": "Inevitably causes: **ずにはおかない**.",
+      "notes": [
+        "ずにはすまない = 'won't be settled without' — obligation, not effect.",
+        "",
+        "ずくめ = 'nothing but'.",
+        "ずじまい = 'ended up never doing'."
+      ],
+      "translation": "His speech is bound to move the audience."
+    },
+    {
+      "point": "zuniokanai",
+      "prompt": "この{映画|えいが}は{見|み}る{人|ひと}を{泣|な}かせ（　）。",
+      "options": [
+        "ないではすまない",
+        "ないことには",
+        "ないまでも",
+        "ないではおかない"
+      ],
+      "answer": 3,
+      "explanation": "**ないではおかない**.",
+      "notes": [
+        "ないではすまない = obligation.",
+        "ないことには = 'unless'.",
+        "ないまでも = 'even if not (fully)'.",
+        ""
+      ],
+      "translation": "This film is bound to make people cry."
+    },
+    {
+      "point": "zunisumanai",
+      "prompt": "{人|ひと}の{物|もの}を{壊|こわ}したのだから、{弁償|べんしょう}せず（　）だろう。",
+      "options": [
+        "にはすまない",
+        "にはおかない",
+        "じまい",
+        "くめ"
+      ],
+      "answer": 0,
+      "explanation": "Can't get away without: **ずにはすまない**.",
+      "notes": [
+        "",
+        "せずにはおかない = 'will inevitably cause' — not obligation.",
+        "せずじまい = 'ended up not doing'.",
+        "Not a form."
+      ],
+      "translation": "You broke someone's things, so you'll have to pay for them."
+    },
+    {
+      "point": "zunisumanai",
+      "prompt": "What does 「{謝|あやま}らないではすまない。」 mean?",
+      "options": [
+        "I can't help apologising.",
+        "I'll have to apologise — there's no way around it.",
+        "I won't apologise.",
+        "Apologising won't solve anything."
+      ],
+      "answer": 1,
+      "explanation": "ないではすまない = **unavoidable obligation**.",
+      "notes": [
+        "That's ないではいられない.",
+        "",
+        "The opposite.",
+        "すまない here = 'won't be settled'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kinjienai",
+      "prompt": "{被害者|ひがいしゃ}の{話|はなし}を{聞|き}いて、{同情|どうじょう}（　）。",
+      "options": [
+        "を{禁|きん}じ{得|え}ない",
+        "にあたらない",
+        "を{禁|きん}じる",
+        "を{余儀|よぎ}なくされた"
+      ],
+      "answer": 0,
+      "explanation": "Can't help feeling: **を禁じ得ない**.",
+      "notes": [
+        "",
+        "にあたらない = 'there's no need'.",
+        "同情を禁じる = 'forbid sympathy'.",
+        "余儀なくされる needs an action you're forced into."
+      ],
+      "translation": "Hearing the victim's story, I can't help feeling sympathy."
+    },
+    {
+      "point": "kinjienai",
+      "prompt": "その{不公平|ふこうへい}な{判決|はんけつ}には{怒|いか}り（　）。",
+      "options": [
+        "を{禁|きん}じない",
+        "を{禁|きん}じさせる",
+        "を{禁止|きんし}する",
+        "を{禁|きん}じ{得|え}ない"
+      ],
+      "answer": 3,
+      "explanation": "**を禁じ得ない**.",
+      "notes": [
+        "禁じない = 'don't forbid'.",
+        "禁じさせる = 'make someone forbid'.",
+        "禁止する = 'prohibit'.",
+        ""
+      ],
+      "translation": "I can't help feeling angry at that unfair verdict."
+    },
+    {
+      "point": "yoginaku",
+      "prompt": "{台風|たいふう}のため、{試合|しあい}は{中止|ちゅうし}（　）。",
+      "options": [
+        "を{余儀|よぎ}なくした",
+        "にたえなかった",
+        "を{余儀|よぎ}なくされた",
+        "を{禁|きん}じ{得|え}なかった"
+      ],
+      "answer": 2,
+      "explanation": "Forced to: **を余儀なくされる**.",
+      "notes": [
+        "余儀なくした isn't the form.",
+        "にたえない = 'unbearable'.",
+        "",
+        "禁じ得ない is for emotions."
+      ],
+      "translation": "The typhoon forced the match to be called off."
+    },
+    {
+      "point": "yoginaku",
+      "prompt": "{不況|ふきょう}で、{多|おお}くの{会社|かいしゃ}が{倒産|とうさん}を（　）。",
+      "options": [
+        "{余儀|よぎ}なくされた",
+        "{余儀|よぎ}にされた",
+        "{余儀|よぎ}なくさせた",
+        "{余儀|よぎ}なかった"
+      ],
+      "answer": 0,
+      "explanation": "**余儀なくされた**.",
+      "notes": [
+        "",
+        "Not a form.",
+        "させた = the companies forced (someone) — they're the victims.",
+        "Not a form."
+      ],
+      "translation": "The recession forced many companies into bankruptcy."
+    },
+    {
+      "point": "teyamanai",
+      "prompt": "{皆様|みなさま}のご{健康|けんこう}を{願|ねが}って（　）。",
+      "options": [
+        "やまれません",
+        "やめません",
+        "やまします",
+        "やみません"
+      ],
+      "answer": 3,
+      "explanation": "Never cease: **てやみません**.",
+      "notes": [
+        "Not the form.",
+        "やめません = 'won't quit' — not the set phrase.",
+        "Not a form.",
+        ""
+      ],
+      "translation": "I sincerely wish you all good health."
+    },
+    {
+      "point": "teyamanai",
+      "prompt": "What does 「{彼|かれ}は{生涯|しょうがい}{故郷|こきょう}を{愛|あい}してやまなかった。」 mean?",
+      "options": [
+        "He never stopped loving his hometown all his life.",
+        "He couldn't love his hometown.",
+        "He stopped loving his hometown.",
+        "He loved his hometown without stopping work."
+      ],
+      "answer": 0,
+      "explanation": "てやまない = **constantly, deeply**.",
+      "notes": [
+        "",
+        "It's about love lasting.",
+        "やまない = never stops.",
+        "やまない ≠ やめない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nikatakunai",
+      "prompt": "{彼女|かのじょ}がどれほど{悲|かな}しんだかは{想像|そうぞう}（　）。",
+      "options": [
+        "に{足|た}りない",
+        "に{固|かた}くない",
+        "に{難|かた}くない",
+        "に{難|むずか}しい"
+      ],
+      "answer": 2,
+      "explanation": "Easy to imagine: **想像に難くない**.",
+      "notes": [
+        "に足りない = 'not worth'.",
+        "固い = 'hard (material)' — wrong kanji.",
+        "",
+        "に難しい isn't the pattern (and means the opposite)."
+      ],
+      "translation": "It isn't hard to imagine how sad she was."
+    },
+    {
+      "point": "nikatakunai",
+      "prompt": "What does 「{苦労|くろう}は{察|さっ}するに{難|かた}くない。」 mean?",
+      "options": [
+        "It's hard to imagine the hardship.",
+        "The police investigated the hardship.",
+        "There was no hardship.",
+        "It's easy to imagine the hardship."
+      ],
+      "answer": 3,
+      "explanation": "に難くない = **easy to**.",
+      "notes": [
+        "難くない = NOT hard.",
+        "察する isn't 警察.",
+        "It assumes hardship.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "kagirida",
+      "prompt": "{友達|ともだち}がみんな{帰|かえ}ってしまって、{寂|さび}しい（　）。",
+      "options": [
+        "{限|かぎ}りだ",
+        "{限|かぎ}らない",
+        "に{限|かぎ}る",
+        "{限|かぎ}って"
+      ],
+      "answer": 0,
+      "explanation": "So very: **限りだ**.",
+      "notes": [
+        "",
+        "限らない = 'not necessarily'.",
+        "に限る = 'nothing beats'.",
+        "限って = 'of all times'."
+      ],
+      "translation": "All my friends have gone home — I'm so lonely."
+    },
+    {
+      "point": "kagirida",
+      "prompt": "{優勝|ゆうしょう}できるなんて、{嬉|うれ}しい（　）です。",
+      "options": [
+        "に{限|かぎ}る",
+        "{限|かぎ}らず",
+        "{限|かぎ}って",
+        "{限|かぎ}り"
+      ],
+      "answer": 3,
+      "explanation": "**嬉しい限り**.",
+      "notes": [
+        "に限るです isn't grammatical.",
+        "限らず = 'not only'.",
+        "限ってです isn't grammatical.",
+        ""
+      ],
+      "translation": "Winning the championship — I couldn't be happier."
+    }
+  ]
+}

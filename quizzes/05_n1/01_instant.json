@@ -1,0 +1,311 @@
+{
+  "id": "n1-instant",
+  "category": "JLPT N1",
+  "title": "The Instant After: が早いか, や否や, なり, そばから, とみるや, た拍子に",
+  "description": "Six ways to say 'the moment …' — and what each one can't do (no requests, no speaker's own plans, accidents only …).",
+  "level": "N1",
+  "points": [
+    {
+      "id": "gahayaika",
+      "title": "〜が早いか: no sooner than",
+      "summary": "Dictionary / た-form + が早いか = the instant A happened, B followed. Narrative only — no requests or intentions in B.",
+      "body": "- ベルが鳴る**が早いか**、生徒たちは教室を飛び出した.\n- Written, a little dramatic. B is something that actually happened.",
+      "examples": [
+        [
+          "ベルが{鳴|な}るが{早|はや}いか、{生徒|せいと}たちは{教室|きょうしつ}を{飛|と}び{出|だ}した。",
+          "No sooner had the bell rung than the students dashed out of the classroom."
+        ]
+      ]
+    },
+    {
+      "id": "yainaya",
+      "title": "〜や否や: the moment",
+      "summary": "Dictionary form + や否や (やいなや) = as soon as. Close to が早いか; also narrative only.",
+      "body": "- ドアが開く**や否や**、乗客が降りてきた.\n- Don't confuse with か否か (whether or not).",
+      "examples": [
+        [
+          "ドアが{開|ひら}くや{否|いな}や、{乗客|じょうきゃく}が{一斉|いっせい}に{降|お}りてきた。",
+          "The moment the doors opened, the passengers all poured out."
+        ]
+      ]
+    },
+    {
+      "id": "nari",
+      "title": "〜なり: as soon as (and then, unexpectedly)",
+      "summary": "Dictionary form + なり = as soon as A, the same person did B (often surprising). Third person; not for the speaker's own plans, requests or commands.",
+      "body": "- 彼は部屋に入る**なり**、窓を全部開けた.\n- ~~家に着くなり電話してください~~ ✗",
+      "examples": [
+        [
+          "{彼|かれ}は{部屋|へや}に{入|はい}るなり、{窓|まど}を{全部|ぜんぶ}{開|あ}けた。",
+          "As soon as he walked into the room, he opened all the windows."
+        ]
+      ]
+    },
+    {
+      "id": "sobakara",
+      "title": "〜そばから: no sooner … than (again and again)",
+      "summary": "Dictionary / た-form + そばから = right after A, B undoes it — a repeated, frustrating cycle.",
+      "body": "- 片付ける**そばから**、子供が散らかしていく.\n- 習った**そばから**忘れてしまう.",
+      "examples": [
+        [
+          "{習|なら}ったそばから{忘|わす}れてしまう。",
+          "I forget things as soon as I've learned them."
+        ]
+      ]
+    },
+    {
+      "id": "tomiruya",
+      "title": "〜とみるや: on seeing that, immediately",
+      "summary": "Plain form + と見るや = judging that A (from what you see), one immediately did B.",
+      "body": "- 形勢が不利だ**と見るや**、彼はすぐに作戦を変えた.",
+      "examples": [
+        [
+          "{形勢|けいせい}が{不利|ふり}だと{見|み}るや、{彼|かれ}はすぐに{作戦|さくせん}を{変|か}えた。",
+          "The moment he saw things were going badly, he changed his tactics."
+        ]
+      ]
+    },
+    {
+      "id": "tahyoushini",
+      "title": "〜た拍子に: in the instant (accidentally)",
+      "summary": "た-form + 拍子に = in the sudden movement of A, something unintended happened.",
+      "body": "- 転んだ**拍子に**眼鏡を落とした.\n- くしゃみをした**拍子に**腰を痛めた.",
+      "examples": [
+        [
+          "{転|ころ}んだ{拍子|ひょうし}に、{眼鏡|めがね}を{落|お}としてしまった。",
+          "When I fell, my glasses went flying."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "gahayaika",
+      "prompt": "ベルが{鳴|な}る（　）、{生徒|せいと}たちは{教室|きょうしつ}を{飛|と}び{出|だ}した。",
+      "options": [
+        "がてら",
+        "が{最後|さいご}",
+        "が{早|はや}いか",
+        "が{限|かぎ}り"
+      ],
+      "answer": 2,
+      "explanation": "No sooner than: **が早いか**.",
+      "notes": [
+        "がてら = 'while also (doing)' — needs a noun like 散歩.",
+        "が最後 = 'once …, (there's no stopping it)' — for the start of something irreversible.",
+        "",
+        "が限り isn't a pattern (限り follows without が)."
+      ],
+      "translation": "No sooner had the bell rung than the students dashed out of the classroom."
+    },
+    {
+      "point": "gahayaika",
+      "prompt": "{彼|かれ}は{家|いえ}に{帰|かえ}る（　）、ベッドに{倒|たお}れ{込|こ}んだ。",
+      "options": [
+        "がてら",
+        "が{早|はや}いか",
+        "ものの",
+        "が{最後|さいご}"
+      ],
+      "answer": 1,
+      "explanation": "**が早いか**.",
+      "notes": [
+        "帰りがてら = 'on the way home' — the noun form, and no instant sequence.",
+        "",
+        "ものの = 'although'.",
+        "が最後 needs something that can't be stopped afterwards."
+      ],
+      "translation": "The second he got home, he collapsed onto the bed."
+    },
+    {
+      "point": "yainaya",
+      "prompt": "{電車|でんしゃ}のドアが{開|ひら}く（　）、{乗客|じょうきゃく}が{一斉|いっせい}に{降|お}りてきた。",
+      "options": [
+        "や{否|いな}や",
+        "やら",
+        "か{否|いな}か",
+        "ものなら"
+      ],
+      "answer": 0,
+      "explanation": "The moment: **や否や**.",
+      "notes": [
+        "",
+        "やら = listing ('what with …').",
+        "か否か = 'whether or not'.",
+        "ものなら = 'if (one could)'."
+      ],
+      "translation": "The moment the train doors opened, the passengers all poured out."
+    },
+    {
+      "point": "yainaya",
+      "prompt": "What does 「{彼女|かのじょ}は{私|わたし}の{顔|かお}を{見|み}るや{否|いな}や、{泣|な}き{出|だ}した。」 mean?",
+      "options": [
+        "Whether or not she saw my face, she cried.",
+        "Before she saw my face, she was crying.",
+        "The moment she saw my face, she burst into tears.",
+        "Although she saw my face, she cried."
+      ],
+      "answer": 2,
+      "explanation": "や否や = **the moment**.",
+      "notes": [
+        "That would be か否か.",
+        "や否や = right after, not before.",
+        "",
+        "No concession here."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nari",
+      "prompt": "{彼|かれ}は{部屋|へや}に{入|はい}る（　）、{窓|まど}を{全部|ぜんぶ}{開|あ}けた。",
+      "options": [
+        "なりに",
+        "なりの",
+        "なりとも",
+        "なり"
+      ],
+      "answer": 3,
+      "explanation": "As soon as: **なり**.",
+      "notes": [
+        "なりに = 'in one's own way'.",
+        "なりの needs a noun after it.",
+        "なりとも = 'even a little'.",
+        ""
+      ],
+      "translation": "As soon as he walked into the room, he opened all the windows."
+    },
+    {
+      "point": "nari",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{家|いえ}に{着|つ}くなり、{電話|でんわ}してください。",
+        "{彼|かれ}は{電話|でんわ}を{切|き}るなり、{出|で}かけて{行|い}った。",
+        "{私|わたし}は{家|いえ}に{着|つ}くなり、すぐ{電話|でんわ}します。",
+        "{彼|かれ}は{電話|でんわ}を{切|き}るなりに、{出|で}かけて{行|い}った。"
+      ],
+      "answer": 1,
+      "explanation": "なり: **past fact, third person**.",
+      "notes": [
+        "なり can't be followed by a request.",
+        "",
+        "なり isn't used for the speaker's own plans.",
+        "なりに = 'in one's own way'."
+      ],
+      "translation": "As soon as he hung up, he went out."
+    },
+    {
+      "point": "sobakara",
+      "prompt": "{片付|かたづ}ける（　）、{子供|こども}が{散|ち}らかしていく。",
+      "options": [
+        "からして",
+        "そばに",
+        "そばから",
+        "ところから"
+      ],
+      "answer": 2,
+      "explanation": "No sooner … than (repeatedly): **そばから**.",
+      "notes": [
+        "からして = 'judging from / to begin with'.",
+        "そばに = 'next to'.",
+        "",
+        "ところから = 'from the fact that'."
+      ],
+      "translation": "As fast as I tidy up, the kids make a mess again."
+    },
+    {
+      "point": "sobakara",
+      "prompt": "What does 「{習|なら}ったそばから{忘|わす}れてしまう。」 mean?",
+      "options": [
+        "I learn things after I've forgotten them.",
+        "I forget things I learned next to someone.",
+        "I never forget what I've learned.",
+        "I forget things as soon as I've learned them."
+      ],
+      "answer": 3,
+      "explanation": "そばから = **right after, again and again**.",
+      "notes": [
+        "The order is learn → forget.",
+        "そば here isn't 'beside'.",
+        "The opposite.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "tomiruya",
+      "prompt": "{形勢|けいせい}が{不利|ふり}だと（　）、{彼|かれ}はすぐに{作戦|さくせん}を{変|か}えた。",
+      "options": [
+        "{見|み}るや",
+        "{見|み}ても",
+        "{見|み}るなら",
+        "{見|み}るから"
+      ],
+      "answer": 0,
+      "explanation": "On seeing that: **と見るや**.",
+      "notes": [
+        "",
+        "と見ても = 'even if one judges'.",
+        "と見るなら = 'if one judges' — but he already acted.",
+        "と見るから isn't a pattern."
+      ],
+      "translation": "The moment he saw things were going badly, he changed his tactics."
+    },
+    {
+      "point": "tomiruya",
+      "prompt": "{客|きゃく}が{来|き}たと（　）、{店員|てんいん}はさっと{笑顔|えがお}になった。",
+      "options": [
+        "{見|み}えて",
+        "{見|み}せて",
+        "{見|み}るに",
+        "{見|み}るや"
+      ],
+      "answer": 3,
+      "explanation": "**と見るや**.",
+      "notes": [
+        "見えて doesn't take と + clause this way.",
+        "見せて = 'showing'.",
+        "見るに = 'looking at it (judging)' — not an instant reaction.",
+        ""
+      ],
+      "translation": "The moment the shop assistant saw a customer coming, she broke into a smile."
+    },
+    {
+      "point": "tahyoushini",
+      "prompt": "{転|ころ}んだ（　）、{眼鏡|めがね}を{落|お}としてしまった。",
+      "options": [
+        "{拍子|ひょうし}に",
+        "{拍手|はくしゅ}に",
+        "{様子|ようす}に",
+        "{調子|ちょうし}に"
+      ],
+      "answer": 0,
+      "explanation": "In the instant: **た拍子に**.",
+      "notes": [
+        "",
+        "拍手 = 'applause'.",
+        "様子 = 'appearance'.",
+        "調子に乗る = 'get carried away' — not this."
+      ],
+      "translation": "When I fell, I dropped my glasses."
+    },
+    {
+      "point": "tahyoushini",
+      "prompt": "What does 「くしゃみをした{拍子|ひょうし}に、{腰|こし}を{痛|いた}めた。」 mean?",
+      "options": [
+        "I hurt my back, then sneezed.",
+        "I hurt my back when I sneezed.",
+        "I sneezed because my back hurt.",
+        "I sneezed rhythmically and hurt my back."
+      ],
+      "answer": 1,
+      "explanation": "た拍子に = **the sudden moment (accident)**.",
+      "notes": [
+        "The order is sneeze → injury.",
+        "",
+        "The sneeze caused it, not the other way round.",
+        "拍子 isn't rhythm here."
+      ],
+      "translation": ""
+    }
+  ]
+}

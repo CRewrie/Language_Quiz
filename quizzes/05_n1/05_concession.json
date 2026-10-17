@@ -1,0 +1,361 @@
+{
+  "id": "n1-concession",
+  "category": "JLPT N1",
+  "title": "Even If & Whether: であれ, (よ)うが…まいが, たところで, といえども, とはいえ, ならいざしらず, ではあるまいし",
+  "description": "Whether A or B, whether or not, even if (no use), even though (a person of rank), that said, A maybe but not B, and it's not as if.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "deare",
+      "title": "〜であれ: whether / even if (it's) N",
+      "summary": "AであれBであれ = whether A or B. たとえNであれ = even if it's N.",
+      "body": "- 大人**であれ**子供**であれ**、ルールは守るべきだ.",
+      "examples": [
+        [
+          "たとえ{社長|しゃちょう}であれ、{規則|きそく}には{従|したが}わなければならない。",
+          "Even the company president has to follow the rules."
+        ]
+      ]
+    },
+    {
+      "id": "yougamaiga",
+      "title": "(よ)うが〜まいが: whether or not",
+      "summary": "Volitional + が + dictionary form + まいが (or と…まいと) = whether you do or not, it makes no difference.",
+      "body": "- 雨が降ろう**が**降る**まいが**、試合は行われる.",
+      "examples": [
+        [
+          "{君|きみ}が{行|い}こうが{行|い}くまいが、{私|わたし}には{関係|かんけい}ない。",
+          "Whether you go or not has nothing to do with me."
+        ]
+      ]
+    },
+    {
+      "id": "tatokorode",
+      "title": "〜たところで: even if (it's no use)",
+      "summary": "た-form + ところで + negative / pointless result = even if you do A, it won't help.",
+      "body": "- 今から急いだ**ところで**、もう間に合わない.",
+      "examples": [
+        [
+          "{彼|かれ}に{謝|あやま}ったところで、{許|ゆる}してはくれないだろう。",
+          "Even if I apologise, he probably won't forgive me."
+        ]
+      ]
+    },
+    {
+      "id": "toiedomo",
+      "title": "〜といえども: even (if it is)",
+      "summary": "Noun + といえども = even N (whom you'd expect otherwise).",
+      "body": "- 子供**といえども**、人を傷つけていいわけではない.\n- 専門家**といえども**、間違えることはある.",
+      "examples": [
+        [
+          "{専門家|せんもんか}といえども、{間違|まちが}えることはある。",
+          "Even experts make mistakes."
+        ]
+      ]
+    },
+    {
+      "id": "tohaie",
+      "title": "〜とはいえ: that said, although",
+      "summary": "Clause + とはいえ / sentence-initial とはいえ = admittedly A, but B.",
+      "body": "- 春になった**とはいえ**、まだ寒い日が続いている.",
+      "examples": [
+        [
+          "{春|はる}になったとはいえ、まだ{寒|さむ}い{日|ひ}が{続|つづ}いている。",
+          "It may be spring, but the cold days continue."
+        ]
+      ]
+    },
+    {
+      "id": "naraizashirazu",
+      "title": "〜ならいざしらず: A maybe, but B …",
+      "summary": "AならいざしらずB = A might be excusable, but B certainly isn't.",
+      "body": "- 子供**ならいざしらず**、大人がそんなことも知らないとは.",
+      "examples": [
+        [
+          "{初心者|しょしんしゃ}ならいざしらず、プロがこんなミスをするなんて。",
+          "A beginner, maybe — but a pro making a mistake like this!"
+        ]
+      ]
+    },
+    {
+      "id": "dehaarumaishi",
+      "title": "〜ではあるまいし / じゃあるまいし: it's not as if",
+      "summary": "Noun + ではあるまいし = it's not as if (I were) N, so …. Spoken: じゃあるまいし.",
+      "body": "- 子供**じゃあるまいし**、一人で帰れるよ.",
+      "examples": [
+        [
+          "{神様|かみさま}ではあるまいし、{未来|みらい}のことなんてわからないよ。",
+          "I'm not God — how would I know the future?"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "deare",
+      "prompt": "{大人|おとな}（　）{子供|こども}であれ、ルールは{守|まも}るべきだ。",
+      "options": [
+        "であって",
+        "でありながら",
+        "であるから",
+        "であれ"
+      ],
+      "answer": 3,
+      "explanation": "Whether A or B: **であれ…であれ**.",
+      "notes": [
+        "であって = 'and (it is)'.",
+        "でありながら = 'although (it is)'.",
+        "であるから = 'because (it is)'.",
+        ""
+      ],
+      "translation": "Adults and children alike should follow the rules."
+    },
+    {
+      "point": "deare",
+      "prompt": "たとえ{社長|しゃちょう}（　）、{規則|きそく}には{従|したが}わなければならない。",
+      "options": [
+        "であれ",
+        "ならば",
+        "だから",
+        "であって"
+      ],
+      "answer": 0,
+      "explanation": "**たとえ…であれ**.",
+      "notes": [
+        "",
+        "たとえ…ならば doesn't pair (たとえ needs ても / であれ).",
+        "だから = 'because'.",
+        "たとえ needs a concession, not 'and'."
+      ],
+      "translation": "Even the company president has to follow the rules."
+    },
+    {
+      "point": "yougamaiga",
+      "prompt": "{君|きみ}が{行|い}こう（　）{行|い}くまいが、{私|わたし}には{関係|かんけい}ない。",
+      "options": [
+        "ても",
+        "たら",
+        "なら",
+        "が"
+      ],
+      "answer": 3,
+      "explanation": "Whether or not: **(よ)うが…まいが**.",
+      "notes": [
+        "行こうても isn't grammatical.",
+        "行こうたら isn't grammatical.",
+        "行こうなら isn't grammatical.",
+        ""
+      ],
+      "translation": "Whether you go or not has nothing to do with me."
+    },
+    {
+      "point": "yougamaiga",
+      "prompt": "{雨|あめ}が{降|ふ}ろうが（　）、{試合|しあい}は{行|おこな}われる。",
+      "options": [
+        "{降|ふ}るまいが",
+        "{降|ふ}らまいが",
+        "{降|ふ}りまいが",
+        "{降|ふ}らないが"
+      ],
+      "answer": 0,
+      "explanation": "Dictionary form + **まいが**.",
+      "notes": [
+        "",
+        "まい follows the dictionary form (降る), not 降ら.",
+        "まい follows the dictionary form, not 降り.",
+        "降らないが = 'it doesn't rain, but' — not the pattern."
+      ],
+      "translation": "Rain or shine, the match will go ahead."
+    },
+    {
+      "point": "tatokorode",
+      "prompt": "{今|いま}から{急|いそ}いだ（　）、もう{間|ま}に{合|あ}わない。",
+      "options": [
+        "ところが",
+        "ところに",
+        "ところを",
+        "ところで"
+      ],
+      "answer": 3,
+      "explanation": "Even if (no use): **たところで**.",
+      "notes": [
+        "ところが = 'however, (unexpectedly)'.",
+        "ところに = 'just when (something happened)'.",
+        "ところを = 'at the moment (caught …)'.",
+        ""
+      ],
+      "translation": "Even if we hurry now, we won't make it."
+    },
+    {
+      "point": "tatokorode",
+      "prompt": "What does 「{彼|かれ}に{謝|あやま}ったところで、{許|ゆる}してはくれないだろう。」 mean?",
+      "options": [
+        "When I apologised, he forgave me.",
+        "Only if I apologise will he forgive me.",
+        "Even if I apologise, he probably won't forgive me.",
+        "I apologised at his place."
+      ],
+      "answer": 2,
+      "explanation": "たところで = **even if (pointless)**.",
+      "notes": [
+        "It's hypothetical — and there's no forgiveness.",
+        "That would be てはじめて / ないことには.",
+        "",
+        "ところ isn't a place here."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "toiedomo",
+      "prompt": "{子供|こども}（　）、{人|ひと}を{傷|きず}つけていいわけではない。",
+      "options": [
+        "といえども",
+        "というより",
+        "といえば",
+        "といった"
+      ],
+      "answer": 0,
+      "explanation": "Even (a child): **といえども**.",
+      "notes": [
+        "",
+        "というより = 'rather than'.",
+        "といえば = 'speaking of'.",
+        "といった = 'such as'."
+      ],
+      "translation": "Even a child has no right to hurt people."
+    },
+    {
+      "point": "toiedomo",
+      "prompt": "{専門家|せんもんか}（　）、{間違|まちが}えることはある。",
+      "options": [
+        "とみるや",
+        "といえども",
+        "とあれば",
+        "ともなると"
+      ],
+      "answer": 1,
+      "explanation": "**といえども**.",
+      "notes": [
+        "とみるや = 'on seeing that'.",
+        "",
+        "とあれば = 'if it's for'.",
+        "ともなると = 'once you become' — expects more skill, not mistakes."
+      ],
+      "translation": "Even experts make mistakes."
+    },
+    {
+      "point": "tohaie",
+      "prompt": "{春|はる}になった（　）、まだ{寒|さむ}い{日|ひ}が{続|つづ}いている。",
+      "options": [
+        "とみるや",
+        "とあって",
+        "とはいえ",
+        "とすれば"
+      ],
+      "answer": 2,
+      "explanation": "Admittedly: **とはいえ**.",
+      "notes": [
+        "とみるや = 'on seeing that'.",
+        "とあって = 'because (special situation)'.",
+        "",
+        "とすれば = 'if so'."
+      ],
+      "translation": "It may be spring, but the cold days continue."
+    },
+    {
+      "point": "tohaie",
+      "prompt": "{生活|せいかつ}は{便利|べんり}になった。（　）、{問題|もんだい}がないわけではない。",
+      "options": [
+        "すなわち",
+        "それゆえ",
+        "したがって",
+        "とはいえ"
+      ],
+      "answer": 3,
+      "explanation": "That said: **とはいえ**.",
+      "notes": [
+        "すなわち = 'namely'.",
+        "それゆえ = 'therefore'.",
+        "したがって = 'therefore'.",
+        ""
+      ],
+      "translation": "Life has become more convenient. That said, it's not without problems."
+    },
+    {
+      "point": "naraizashirazu",
+      "prompt": "{子供|こども}（　）、{大人|おとな}がそんなことも{知|し}らないとは{驚|おどろ}いた。",
+      "options": [
+        "ながらも",
+        "なりとも",
+        "ならいざしらず",
+        "ならでは"
+      ],
+      "answer": 2,
+      "explanation": "A maybe, but B: **ならいざしらず**.",
+      "notes": [
+        "ながらも = 'although'.",
+        "なりとも = 'even a little'.",
+        "",
+        "ならでは = 'unique to'."
+      ],
+      "translation": "A child, maybe — but I'm amazed an adult doesn't know that."
+    },
+    {
+      "point": "naraizashirazu",
+      "prompt": "What does 「{初心者|しょしんしゃ}ならいざしらず、プロがこんなミスをするなんて。」 mean?",
+      "options": [
+        "Unlike beginners, pros never make mistakes.",
+        "A beginner, maybe — but a pro making a mistake like this!",
+        "If you're a beginner, you won't understand.",
+        "Beginners and pros make the same mistakes."
+      ],
+      "answer": 1,
+      "explanation": "ならいざしらず = **excusable for A, not for B**.",
+      "notes": [
+        "It's an expression of disbelief, not a rule.",
+        "",
+        "いざしらず isn't 'don't understand'.",
+        "It contrasts them."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "dehaarumaishi",
+      "prompt": "{子供|こども}（　）、{一人|ひとり}で{帰|かえ}れるよ。",
+      "options": [
+        "でもあるまい",
+        "であるまいと",
+        "じゃあるまいし",
+        "じゃあるまいか"
+      ],
+      "answer": 2,
+      "explanation": "It's not as if: **じゃあるまいし**.",
+      "notes": [
+        "でもあるまい = 'it's hardly …' — doesn't lead into a reason.",
+        "Not the pattern.",
+        "",
+        "じゃあるまいか = 'isn't it perhaps …?'."
+      ],
+      "translation": "I'm not a child — I can get home on my own."
+    },
+    {
+      "point": "dehaarumaishi",
+      "prompt": "What does 「{神様|かみさま}ではあるまいし、{未来|みらい}のことなんてわからないよ。」 mean?",
+      "options": [
+        "If I were God, I'd know the future.",
+        "God will show us the future.",
+        "Even God doesn't know the future.",
+        "I'm not God — how would I know the future?"
+      ],
+      "answer": 3,
+      "explanation": "ではあるまいし = **it's not as if**.",
+      "notes": [
+        "No hypothesis.",
+        "No.",
+        "It's about the speaker.",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}

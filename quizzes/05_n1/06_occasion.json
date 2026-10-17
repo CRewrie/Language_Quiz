@@ -1,0 +1,361 @@
+{
+  "id": "n1-occasion",
+  "category": "JLPT N1",
+  "title": "Starting Points & Occasions: を皮切りに, を機に, を限りに, を経て, てからというもの, にあって, 折に",
+  "description": "Starting with, taking the opportunity of, as of (the last time), by way of, ever since, in the midst of, and on the occasion of.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "kawakiri",
+      "title": "〜を皮切りに: starting with",
+      "summary": "Noun + を皮切りに = A was the first in a series that followed.",
+      "body": "- 東京公演**を皮切りに**、全国ツアーが始まった.",
+      "examples": [
+        [
+          "{東京|とうきょう}{公演|こうえん}を{皮切|かわき}りに、{全国|ぜんこく}ツアーが{始|はじ}まった。",
+          "Starting with the Tokyo show, the national tour began."
+        ]
+      ]
+    },
+    {
+      "id": "wokini",
+      "title": "〜を機に: taking the opportunity of",
+      "summary": "Noun + を機に = with A as the turning point (機 = opportunity).",
+      "body": "- 就職**を機に**、一人暮らしを始めた.",
+      "examples": [
+        [
+          "{病気|びょうき}を{機|き}に、{酒|さけ}をやめた。",
+          "My illness was the turning point — I quit drinking."
+        ]
+      ]
+    },
+    {
+      "id": "wokagirini",
+      "title": "〜を限りに: as of (… no more)",
+      "summary": "Time noun + を限りに = from then on, something ends.",
+      "body": "- 今日**を限りに**、たばこをやめます.",
+      "examples": [
+        [
+          "{本日|ほんじつ}を{限|かぎ}りに、{当店|とうてん}は{閉店|へいてん}いたします。",
+          "As of today, this shop is closing."
+        ]
+      ]
+    },
+    {
+      "id": "wohete",
+      "title": "〜を経て: via, after going through",
+      "summary": "Noun + を経て = by way of a place, or after a process.",
+      "body": "- 長い議論**を経て**、結論が出た.\n- 香港**を経て**バンコクへ行く.",
+      "examples": [
+        [
+          "{長|なが}い{議論|ぎろん}を{経|へ}て、ようやく{結論|けつろん}が{出|で}た。",
+          "After a long debate, a conclusion was finally reached."
+        ]
+      ]
+    },
+    {
+      "id": "tekaratoiumono",
+      "title": "〜てからというもの: ever since",
+      "summary": "て-form + からというもの = since A, things have changed completely.",
+      "body": "- 子供が生まれて**からというもの**、生活が一変した.",
+      "examples": [
+        [
+          "{彼女|かのじょ}に{出会|であ}ってからというもの、{毎日|まいにち}が{楽|たの}しい。",
+          "Ever since I met her, every day has been fun."
+        ]
+      ]
+    },
+    {
+      "id": "niatte",
+      "title": "〜にあって: in (a situation)",
+      "summary": "Noun + にあって = being in that (special) situation.",
+      "body": "- 厳しい状況**にあって**、彼は冷静さを失わなかった.",
+      "examples": [
+        [
+          "{異国|いこく}の{地|ち}にあって、{家族|かぞく}の{大切|たいせつ}さを{知|し}った。",
+          "Being in a foreign land, I learned how precious family is."
+        ]
+      ]
+    },
+    {
+      "id": "orini",
+      "title": "〜折(に): on the occasion",
+      "summary": "Plain form / noun + の + 折(に / には) = when (a good occasion), polite.",
+      "body": "- 京都へお越しの**折には**、ぜひお立ち寄りください.",
+      "examples": [
+        [
+          "{上京|じょうきょう}した{折|おり}に、{恩師|おんし}を{訪|たず}ねた。",
+          "When I went up to Tokyo, I visited my old teacher."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "kawakiri",
+      "prompt": "{東京公演|とうきょうこうえん}（　）、{全国|ぜんこく}ツアーが{始|はじ}まった。",
+      "options": [
+        "を{限|かぎ}りに",
+        "をよそに",
+        "を{経|へ}て",
+        "を{皮切|かわき}りに"
+      ],
+      "answer": 3,
+      "explanation": "Starting with: **を皮切りに**.",
+      "notes": [
+        "を限りに = 'as of (the end)'.",
+        "をよそに = 'ignoring'.",
+        "を経て = 'via' — it's the start of the tour, not a stop.",
+        ""
+      ],
+      "translation": "Starting with the Tokyo show, the national tour began."
+    },
+    {
+      "point": "kawakiri",
+      "prompt": "その{発言|はつげん}（　）、{次々|つぎつぎ}と{反対意見|はんたいいけん}が{出|で}た。",
+      "options": [
+        "を{皮切|かわき}りに",
+        "を{限|かぎ}りに",
+        "をもって",
+        "をよそに"
+      ],
+      "answer": 0,
+      "explanation": "**を皮切りに**.",
+      "notes": [
+        "",
+        "を限りに = 'as of (the end)'.",
+        "をもって = 'by means of / as of'.",
+        "をよそに = 'ignoring'."
+      ],
+      "translation": "That remark set off a string of objections."
+    },
+    {
+      "point": "wokini",
+      "prompt": "{就職|しゅうしょく}（　）、{一人暮|ひとりぐ}らしを{始|はじ}めた。",
+      "options": [
+        "を{気|き}に",
+        "を{期|き}に",
+        "を{木|き}に",
+        "を{機|き}に"
+      ],
+      "answer": 3,
+      "explanation": "Taking the opportunity: **を機に**.",
+      "notes": [
+        "気 = 'mind' (気にする = worry) — same sound.",
+        "期 = 'period' — not this word.",
+        "木 = 'tree'.",
+        ""
+      ],
+      "translation": "When I started work, I took the chance to start living on my own."
+    },
+    {
+      "point": "wokini",
+      "prompt": "What does 「{病気|びょうき}を{機|き}に、{酒|さけ}をやめた。」 mean?",
+      "options": [
+        "My illness was the turning point — I quit drinking.",
+        "I got ill after I quit drinking.",
+        "I quit drinking during my illness, then started again.",
+        "I quit drinking because I was worried I'd get ill."
+      ],
+      "answer": 0,
+      "explanation": "を機に = **turning point**.",
+      "notes": [
+        "",
+        "The illness came first.",
+        "No restart.",
+        "That would be 病気を気にして."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "wokagirini",
+      "prompt": "{今日|きょう}（　）、たばこをやめます。",
+      "options": [
+        "を{経|へ}て",
+        "をよそに",
+        "を{限|かぎ}りに",
+        "に{限|かぎ}って"
+      ],
+      "answer": 2,
+      "explanation": "As of (no more): **を限りに**.",
+      "notes": [
+        "を経て = 'via / after'.",
+        "をよそに = 'ignoring'.",
+        "",
+        "に限って = 'of all days'."
+      ],
+      "translation": "As of today, I'm quitting smoking."
+    },
+    {
+      "point": "wokagirini",
+      "prompt": "{本日|ほんじつ}（　）、{当店|とうてん}は{閉店|へいてん}いたします。{長|なが}い{間|あいだ}ありがとうございました。",
+      "options": [
+        "を{限|かぎ}りに",
+        "に{限|かぎ}って",
+        "を{機|き}に",
+        "を{経|へ}て"
+      ],
+      "answer": 0,
+      "explanation": "**を限りに**.",
+      "notes": [
+        "",
+        "に限って = 'of all days'.",
+        "を機に = 'as a turning point' — today isn't the cause.",
+        "を経て = 'via / after'."
+      ],
+      "translation": "As of today, this shop is closing. Thank you for all these years."
+    },
+    {
+      "point": "wohete",
+      "prompt": "{長|なが}い{議論|ぎろん}（　）、ようやく{結論|けつろん}が{出|で}た。",
+      "options": [
+        "を{越|こ}えて",
+        "を{過|す}ぎて",
+        "を{通|とお}って",
+        "を{経|へ}て"
+      ],
+      "answer": 3,
+      "explanation": "After going through: **を経て**.",
+      "notes": [
+        "越えて = 'going beyond'.",
+        "過ぎて = 'passing (time / a place)'.",
+        "通って = 'passing along (a road)'.",
+        ""
+      ],
+      "translation": "After a long debate, a conclusion was finally reached."
+    },
+    {
+      "point": "wohete",
+      "prompt": "この{飛行機|ひこうき}は{香港|ホンコン}（　）バンコクへ{行|い}く。",
+      "options": [
+        "を{経|へ}た",
+        "を{経|へ}る",
+        "を{経|へ}て",
+        "を{経|へ}って"
+      ],
+      "answer": 2,
+      "explanation": "Via: **を経て**.",
+      "notes": [
+        "経た modifies a noun.",
+        "経る can't link to 行く like this.",
+        "",
+        "経って isn't a form of 経る."
+      ],
+      "translation": "This plane goes to Bangkok via Hong Kong."
+    },
+    {
+      "point": "tekaratoiumono",
+      "prompt": "{子供|こども}が{生|う}まれて（　）、{生活|せいかつ}が{一変|いっぺん}した。",
+      "options": [
+        "からには",
+        "からというもの",
+        "からといって",
+        "からして"
+      ],
+      "answer": 1,
+      "explanation": "Ever since: **てからというもの**.",
+      "notes": [
+        "からには = 'now that'.",
+        "",
+        "からといって = 'just because'.",
+        "からして = 'judging from'."
+      ],
+      "translation": "Ever since our child was born, life has changed completely."
+    },
+    {
+      "point": "tekaratoiumono",
+      "prompt": "What does 「{彼女|かのじょ}に{出会|であ}ってからというもの、{毎日|まいにち}が{楽|たの}しい。」 mean?",
+      "options": [
+        "Ever since I met her, every day has been fun.",
+        "Before I met her, every day was fun.",
+        "After meeting her once, I had fun that day.",
+        "Just because I met her doesn't mean every day is fun."
+      ],
+      "answer": 0,
+      "explanation": "てからというもの = **ever since (lasting change)**.",
+      "notes": [
+        "",
+        "The change came after.",
+        "It's a lasting change.",
+        "That's からといって."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "niatte",
+      "prompt": "{厳|きび}しい{状況|じょうきょう}（　）、{彼|かれ}は{冷静|れいせい}さを{失|うしな}わなかった。",
+      "options": [
+        "にわたって",
+        "について",
+        "にとって",
+        "にあって"
+      ],
+      "answer": 3,
+      "explanation": "In (a situation): **にあって**.",
+      "notes": [
+        "にわたって = 'over (a span)'.",
+        "について = 'about'.",
+        "にとって = 'for (someone)'.",
+        ""
+      ],
+      "translation": "Even in a tough situation, he kept his cool."
+    },
+    {
+      "point": "niatte",
+      "prompt": "What does 「{異国|いこく}の{地|ち}にあって、{家族|かぞく}の{大切|たいせつ}さを{知|し}った。」 mean?",
+      "options": [
+        "I went abroad to meet my family.",
+        "Being in a foreign land, I learned how precious family is.",
+        "I learned about my family's land abroad.",
+        "My family taught me about foreign countries."
+      ],
+      "answer": 1,
+      "explanation": "にあって = **being in (a situation)**.",
+      "notes": [
+        "No purpose.",
+        "",
+        "にあって = being there.",
+        "Nobody taught."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "orini",
+      "prompt": "{今度|こんど}{京都|きょうと}へお{越|こ}しの（　）、ぜひお{立|た}ち{寄|よ}りください。",
+      "options": [
+        "{折|お}れて",
+        "{折|おり}から",
+        "{折|おり}には",
+        "{折|お}って"
+      ],
+      "answer": 2,
+      "explanation": "On the occasion: **折には**.",
+      "notes": [
+        "折れて = 'breaking (off)'.",
+        "折から = 'just then / since it's the season of' — not 'when you come'.",
+        "",
+        "折って = 'folding'."
+      ],
+      "translation": "Next time you come to Kyoto, please do drop by."
+    },
+    {
+      "point": "orini",
+      "prompt": "What does 「{上京|じょうきょう}した{折|おり}に、{恩師|おんし}を{訪|たず}ねた。」 mean?",
+      "options": [
+        "I visited Tokyo to look for a teacher.",
+        "My teacher folded up and went to Tokyo.",
+        "I left Tokyo after visiting my teacher.",
+        "When I went up to Tokyo, I visited my old teacher."
+      ],
+      "answer": 3,
+      "explanation": "折に = **on the occasion of**.",
+      "notes": [
+        "No search.",
+        "折 here isn't 'fold'.",
+        "上京 = going to the capital.",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}

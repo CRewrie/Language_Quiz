@@ -1,0 +1,361 @@
+{
+  "id": "n1-worth",
+  "category": "JLPT N1",
+  "title": "Worth It or Not: に値する, に足る / に足りない, にたえる / にたえない, にあたらない, には及ばない, までもない, ほどのことはない",
+  "description": "Deserving, (not) worth, fit for / unbearable, no need to (be surprised), no need (polite), needless to say, and nothing serious.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "niatai",
+      "title": "〜に値する: deserve, be worth",
+      "summary": "Noun / dictionary form + に値する = deserves (praise, reading, attention).",
+      "body": "- 彼の勇気は称賛**に値する**.",
+      "examples": [
+        [
+          "この{本|ほん}は{一読|いちどく}に{値|あたい}する。",
+          "This book is worth reading."
+        ]
+      ]
+    },
+    {
+      "id": "nitaru",
+      "title": "〜に足る / に足りない",
+      "summary": "Dictionary form / noun + に足る = worthy of (信頼に足る). 取るに足りない = trivial, not worth bothering with.",
+      "body": "- 彼は信頼**に足る**人物だ.\n- そんなことは取る**に足りない**ことだ.",
+      "examples": [
+        [
+          "{彼|かれ}は{信頼|しんらい}に{足|た}る{人物|じんぶつ}だ。",
+          "He's a man you can trust."
+        ]
+      ]
+    },
+    {
+      "id": "nitaeru",
+      "title": "〜にたえる / にたえない",
+      "summary": "鑑賞にたえる = good enough to be appreciated. 聞くにたえない / 見るにたえない = too awful to listen to / look at.",
+      "body": "- 鑑賞**にたえる**作品.\n- 聞く**にたえない**悪口.",
+      "examples": [
+        [
+          "{彼|かれ}の{話|はなし}は{聞|き}くにたえない{悪口|わるぐち}ばかりだった。",
+          "All he said was abuse too awful to listen to."
+        ]
+      ]
+    },
+    {
+      "id": "niataranai",
+      "title": "〜には当たらない: there's no need to",
+      "summary": "Dictionary form (驚く, 非難する …) + には当たらない = it's not something to …",
+      "body": "- 子供がよく転ぶのは当たり前で、驚く**にはあたらない**.",
+      "examples": [
+        [
+          "{彼|かれ}が{成功|せいこう}したのは{驚|おどろ}くにはあたらない。",
+          "It's no surprise that he succeeded."
+        ]
+      ]
+    },
+    {
+      "id": "nioyobanai",
+      "title": "〜には及ばない: no need; not a match for",
+      "summary": "1) Dictionary form + には及びません = no need (polite). 2) N には(遠く)及ばない = nowhere near as good as N.",
+      "body": "- わざわざ来ていただく**には及びません**.\n- 私の料理は母**には遠く及ばない**.",
+      "examples": [
+        [
+          "{私|わたし}の{料理|りょうり}の{腕|うで}は{母|はは}には{遠|とお}く{及|およ}ばない。",
+          "My cooking is nowhere near as good as my mother's."
+        ]
+      ]
+    },
+    {
+      "id": "mademonai",
+      "title": "〜までもない: no need to (it's obvious)",
+      "summary": "Dictionary form + までもない = it goes without saying / not even necessary.",
+      "body": "- 言う**までもない**ことだが、健康が一番大切だ.",
+      "examples": [
+        [
+          "{言|い}うまでもなく、{健康|けんこう}が{一番|いちばん}{大切|たいせつ}だ。",
+          "Needless to say, health matters most."
+        ]
+      ]
+    },
+    {
+      "id": "hodonokoto",
+      "title": "〜ほどのことはない: nothing so serious as to",
+      "summary": "Dictionary form + ほどのことはない = it's not serious enough to need A.",
+      "body": "- 小さな傷だから、病院に行く**ほどのことはない**.",
+      "examples": [
+        [
+          "{心配|しんぱい}するほどのことはないよ。",
+          "It's nothing to worry about."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "niatai",
+      "prompt": "{彼|かれ}の{勇気|ゆうき}ある{行動|こうどう}は{称賛|しょうさん}（　）。",
+      "options": [
+        "に{値|あたい}する",
+        "に{関|かん}する",
+        "に{際|さい}する",
+        "に{至|いた}る"
+      ],
+      "answer": 0,
+      "explanation": "Deserves: **に値する**.",
+      "notes": [
+        "",
+        "に関する = 'concerning' — must modify a noun.",
+        "に際する = 'on the occasion of'.",
+        "に至る = 'reach (a point)'."
+      ],
+      "translation": "His brave action deserves praise."
+    },
+    {
+      "point": "niatai",
+      "prompt": "この{本|ほん}は{一読|いちどく}（　）。ぜひ{読|よ}んでみてください。",
+      "options": [
+        "を{値|あたい}する",
+        "に{値|あたい}させる",
+        "に{値|あたい}する",
+        "に{値|あたい}しない"
+      ],
+      "answer": 2,
+      "explanation": "**に値する**.",
+      "notes": [
+        "The particle is に.",
+        "Not the form.",
+        "",
+        "値しない contradicts ぜひ読んで."
+      ],
+      "translation": "This book is worth reading — do give it a try."
+    },
+    {
+      "point": "nitaru",
+      "prompt": "{彼|かれ}は{信頼|しんらい}（　）{人物|じんぶつ}だ。",
+      "options": [
+        "を{足|た}る",
+        "が{足|た}る",
+        "に{足|た}して",
+        "に{足|た}る"
+      ],
+      "answer": 3,
+      "explanation": "Worthy of: **に足る**.",
+      "notes": [
+        "The particle is に.",
+        "The particle is に.",
+        "足して = 'adding'.",
+        ""
+      ],
+      "translation": "He's a man you can trust."
+    },
+    {
+      "point": "nitaru",
+      "prompt": "そんなことは{取|と}る（　）ことだ。{気|き}にするな。",
+      "options": [
+        "に{耐|た}える",
+        "に{値|あたい}する",
+        "に{足|た}りない",
+        "に{足|た}る"
+      ],
+      "answer": 2,
+      "explanation": "Trivial: **取るに足りない**.",
+      "notes": [
+        "取るに耐える isn't the idiom.",
+        "取るに値する isn't the idiom.",
+        "",
+        "取るに足る would mean 'worth bothering with' — clashes with 気にするな."
+      ],
+      "translation": "That's not worth bothering about. Don't let it get to you."
+    },
+    {
+      "point": "nitaeru",
+      "prompt": "{子供|こども}が{描|か}いたとは{思|おも}えないほど、{鑑賞|かんしょう}（　）{作品|さくひん}だ。",
+      "options": [
+        "にあたる",
+        "にたえる",
+        "に{至|いた}る",
+        "にたえない"
+      ],
+      "answer": 1,
+      "explanation": "Good enough for: **鑑賞にたえる**.",
+      "notes": [
+        "にあたる = 'corresponds to'.",
+        "",
+        "に至る = 'reach'.",
+        "にたえない = 'unbearable' — contradicts the praise."
+      ],
+      "translation": "It's a work worth appreciating — hard to believe a child painted it."
+    },
+    {
+      "point": "nitaeru",
+      "prompt": "{彼|かれ}の{話|はなし}は{聞|き}く（　）{悪口|わるぐち}ばかりだった。",
+      "options": [
+        "に{値|あたい}する",
+        "に{足|た}る",
+        "にたえる",
+        "にたえない"
+      ],
+      "answer": 3,
+      "explanation": "Too awful to: **聞くにたえない**.",
+      "notes": [
+        "聞くに値する = 'worth hearing'.",
+        "聞くに足る = 'worth listening to'.",
+        "聞くにたえる = 'worth hearing' — not for abuse.",
+        ""
+      ],
+      "translation": "All he said was abuse too awful to listen to."
+    },
+    {
+      "point": "niataranai",
+      "prompt": "{子供|こども}がよく{転|ころ}ぶのは{当|あ}たり{前|まえ}で、{驚|おどろ}く（　）。",
+      "options": [
+        "にはあたらない",
+        "に{決|き}まっている",
+        "にほかならない",
+        "に{越|こ}したことはない"
+      ],
+      "answer": 0,
+      "explanation": "No need to: **にはあたらない**.",
+      "notes": [
+        "",
+        "に決まっている = 'surely'.",
+        "にほかならない = 'is nothing but'.",
+        "に越したことはない = 'it's best to'."
+      ],
+      "translation": "It's normal for kids to fall over a lot — nothing to be surprised about."
+    },
+    {
+      "point": "niataranai",
+      "prompt": "What does 「{彼|かれ}が{成功|せいこう}したのは{驚|おどろ}くにはあたらない。」 mean?",
+      "options": [
+        "He didn't succeed, surprisingly.",
+        "It's no surprise that he succeeded.",
+        "We shouldn't be surprised if he fails.",
+        "His success hit me with surprise."
+      ],
+      "answer": 1,
+      "explanation": "にはあたらない = **no reason to**.",
+      "notes": [
+        "He did succeed.",
+        "",
+        "It's about success.",
+        "あたらない isn't 'hit'."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "nioyobanai",
+      "prompt": "わざわざ{来|き}ていただく（　）。{書類|しょるい}は{郵送|ゆうそう}いたします。",
+      "options": [
+        "に{及|およ}んで",
+        "を{及|およ}ぼしません",
+        "には{及|およ}びません",
+        "には{及|およ}びます"
+      ],
+      "answer": 2,
+      "explanation": "No need (polite): **には及びません**.",
+      "notes": [
+        "に及んで = 'when it came to'.",
+        "及ぼす = 'have an effect on'.",
+        "",
+        "及びます = the opposite."
+      ],
+      "translation": "There's no need for you to come in person — we'll post the documents."
+    },
+    {
+      "point": "nioyobanai",
+      "prompt": "What does 「{私|わたし}の{料理|りょうり}の{腕|うで}は{母|はは}には{遠|とお}く{及|およ}ばない。」 mean?",
+      "options": [
+        "My mother lives far away, so I can't cook for her.",
+        "My cooking is nowhere near as good as my mother's.",
+        "My cooking is far better than my mother's.",
+        "I don't need to cook like my mother."
+      ],
+      "answer": 1,
+      "explanation": "N には及ばない = **not as good as N**.",
+      "notes": [
+        "遠く isn't distance here.",
+        "",
+        "The opposite.",
+        "This 及ばない = not a match for."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "mademonai",
+      "prompt": "{言|い}う（　）ことだが、{健康|けんこう}が{一番|いちばん}{大切|たいせつ}だ。",
+      "options": [
+        "までだ",
+        "までに",
+        "まで",
+        "までもない"
+      ],
+      "answer": 3,
+      "explanation": "Needless to: **言うまでもない**.",
+      "notes": [
+        "までだ = 'I'll just …'.",
+        "までに = 'by (a deadline)'.",
+        "言うまで = 'until saying'.",
+        ""
+      ],
+      "translation": "It goes without saying, but health matters most."
+    },
+    {
+      "point": "mademonai",
+      "prompt": "そんな{簡単|かんたん}なことは、{先生|せんせい}に{聞|き}く（　）。{自分|じぶん}で{調|しら}べなさい。",
+      "options": [
+        "までもない",
+        "までも",
+        "までだ",
+        "までに"
+      ],
+      "answer": 0,
+      "explanation": "No need to: **までもない**.",
+      "notes": [
+        "",
+        "までも alone isn't complete.",
+        "聞くまでだ = 'I'll just ask' — clashes with 自分で調べなさい.",
+        "までに = 'by (a deadline)'."
+      ],
+      "translation": "Something that simple — no need to ask the teacher. Look it up yourself."
+    },
+    {
+      "point": "hodonokoto",
+      "prompt": "{小|ちい}さな{傷|きず}だから、{病院|びょういん}に{行|い}く（　）。",
+      "options": [
+        "ほどのことだ",
+        "ほどでもある",
+        "ほどがある",
+        "ほどのことはない"
+      ],
+      "answer": 3,
+      "explanation": "Nothing so serious: **ほどのことはない**.",
+      "notes": [
+        "ほどのことだ isn't the pattern.",
+        "Not the pattern.",
+        "ほどがある = 'there are limits (to …)'.",
+        ""
+      ],
+      "translation": "It's only a small cut — no need to go to hospital."
+    },
+    {
+      "point": "hodonokoto",
+      "prompt": "What does 「{心配|しんぱい}するほどのことはないよ。」 mean?",
+      "options": [
+        "There's a lot to worry about.",
+        "It's nothing to worry about.",
+        "It's only a little worrying.",
+        "You should worry more."
+      ],
+      "answer": 1,
+      "explanation": "ほどのことはない = **not serious enough to**.",
+      "notes": [
+        "The opposite.",
+        "",
+        "It's not worrying at all.",
+        "The opposite."
+      ],
+      "translation": ""
+    }
+  ]
+}
