@@ -1,0 +1,286 @@
+{
+  "id": "verbs-lookalikes",
+  "category": "Verb Lab",
+  "title": "Lookalike Verbs: 切る or 着る?",
+  "description": "Pairs that sound alike but conjugate differently — type the right form in context.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "lk-u",
+      "title": "う-verbs that look like る-verbs",
+      "summary": "Lookalike verbs: Verbs that sound the same (or almost) but belong to different types.",
+      "body": "- **切る** (cut) is an う-verb → 切って, 切らない — **着る** (wear) is a る-verb → 着て, 着ない.\n- **帰る** (go home) → 帰って, 帰らない — **変える** (change) → 変えて, 変えない.\n- **要る** (need) → 要らない — **いる** (be) → いない.\n- **入る** (enter) → 入って — **入れる** (put in) → 入れて.\n- **知る**, **走る**, **喋る**, **滑る**, **焦る**, **減る** look like る-verbs but are う-verbs.\n\nTip: learn each exception together with its ない-form (帰らない, 知らない) — that form gives the type away.",
+      "examples": [
+        [
+          "{美容院|びよういん}で{髪|かみ}を{短|みじか}く切りました。",
+          "I had my hair cut short at the salon."
+        ]
+      ]
+    },
+    {
+      "id": "lk-ru",
+      "title": "Real る-verbs (the lookalike partners)",
+      "summary": "Lookalike verbs: Verbs that sound the same (or almost) but belong to different types.",
+      "body": "- **切る** (cut) is an う-verb → 切って, 切らない — **着る** (wear) is a る-verb → 着て, 着ない.\n- **帰る** (go home) → 帰って, 帰らない — **変える** (change) → 変えて, 変えない.\n- **要る** (need) → 要らない — **いる** (be) → いない.\n- **入る** (enter) → 入って — **入れる** (put in) → 入れて.\n- **知る**, **走る**, **喋る**, **滑る**, **焦る**, **減る** look like る-verbs but are う-verbs.\n\nTip: learn each exception together with its ない-form (帰らない, 知らない) — that form gives the type away.",
+      "examples": [
+        [
+          "{寒|さむ}かったので、コートを着ました。",
+          "It was cold, so I wore a coat."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "lk-u",
+      "prompt": "{美容院|びよういん}で{髪|かみ}を{短|みじか}く（　）。\n→ {切|き}る (cut) · polite past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "切りました",
+        "きりました"
+      ],
+      "hint": "切り…",
+      "explanation": "{切|き}る is an う-verb (godan): る → り (い-row) for the ます-stem, then add the ending → **切りました**. ⚠ {切|き}る ends in -iる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "I had my hair cut short at the salon."
+    },
+    {
+      "point": "lk-ru",
+      "prompt": "{寒|さむ}かったので、コートを（　）。\n→ {着|き}る (wear) · polite past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "着ました",
+        "きました"
+      ],
+      "hint": "着ま…",
+      "explanation": "{着|き}る is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **着ました**.",
+      "notes": [],
+      "translation": "It was cold, so I wore a coat."
+    },
+    {
+      "point": "lk-u",
+      "prompt": "{玉|たま}ねぎを{細|こま}かく（　）ください。\n→ {切|き}る (cut) · please do … (てください)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "切ってください",
+        "きってください"
+      ],
+      "hint": "切っ…",
+      "explanation": "{切|き}る is an う-verb (godan): う・つ・る → って + ください → **切ってください**. ⚠ {切|き}る ends in -iる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "Please chop the onion finely."
+    },
+    {
+      "point": "lk-ru",
+      "prompt": "{結婚式|けっこんしき}で{着物|きもの}を（　）{写真|しゃしん}を{撮|と}った。\n→ {着|き}る (wear) · て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "着て",
+        "きて"
+      ],
+      "hint": "着…",
+      "explanation": "{着|き}る is a る-verb (ichidan): drop る + て / た → **着て**.",
+      "notes": [],
+      "translation": "I wore a kimono at the wedding and had photos taken."
+    },
+    {
+      "point": "lk-u",
+      "prompt": "{彼|かれ}はもう{家|いえ}に（　）よ。\n→ {帰|かえ}る (go home) · plain past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "帰った",
+        "かえった"
+      ],
+      "hint": "帰っ…",
+      "explanation": "{帰|かえ}る is an う-verb (godan): う・つ・る → って → **帰った**. ⚠ {帰|かえ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "He's already gone home."
+    },
+    {
+      "point": "lk-ru",
+      "prompt": "{髪|かみ}の{色|いろ}を{明|あか}るく（　）。\n→ {変|か}える (change) · plain past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "変えた",
+        "かえた"
+      ],
+      "hint": "変え…",
+      "explanation": "{変|か}える is a る-verb (ichidan): drop る + て / た → **変えた**.",
+      "notes": [],
+      "translation": "I changed my hair to a lighter colour."
+    },
+    {
+      "point": "lk-u",
+      "prompt": "{雨|あめ}は{降|ふ}らないから、{傘|かさ}は（　）よ。\n→ {要|い}る (need) · plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "要らない",
+        "いらない"
+      ],
+      "hint": "要ら…",
+      "explanation": "{要|い}る is an う-verb (godan): る → ら (あ-row) + ない → **要らない**. ⚠ {要|い}る ends in -iる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "It won't rain, so you don't need an umbrella."
+    },
+    {
+      "point": "lk-ru",
+      "prompt": "{兄|あに}は{今|いま}、{家|いえ}に（　）よ。\n→ いる (be (people)) · plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "いない"
+      ],
+      "hint": "いな…",
+      "explanation": "いる is a る-verb (ichidan): drop る + ない → **いない**.",
+      "notes": [],
+      "translation": "My brother isn't at home right now."
+    },
+    {
+      "point": "lk-u",
+      "prompt": "どうぞ、{中|なか}に（　）ください。\n→ {入|はい}る (enter) · please do … (てください)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "入ってください",
+        "はいってください"
+      ],
+      "hint": "入っ…",
+      "explanation": "{入|はい}る is an う-verb (godan): う・つ・る → って + ください → **入ってください**. ⚠ {入|はい}る ends in -iる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "Please come in."
+    },
+    {
+      "point": "lk-ru",
+      "prompt": "{牛乳|ぎゅうにゅう}を{冷蔵庫|れいぞうこ}に（　）ください。\n→ {入|い}れる (put in) · please do … (てください)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "入れてください",
+        "いれてください"
+      ],
+      "hint": "入れて…",
+      "explanation": "{入|い}れる is a る-verb (ichidan): drop る + て / た + ください → **入れてください**.",
+      "notes": [],
+      "translation": "Please put the milk in the fridge."
+    },
+    {
+      "point": "lk-u",
+      "prompt": "その{人|ひと}の{名前|なまえ}は（　）。\n→ {知|し}る (know) · plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "知らない",
+        "しらない"
+      ],
+      "hint": "知ら…",
+      "explanation": "{知|し}る is an う-verb (godan): る → ら (あ-row) + ない → **知らない**. ⚠ {知|し}る ends in -iる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "I don't know that person's name."
+    },
+    {
+      "point": "lk-u",
+      "prompt": "{毎朝|まいあさ}{公園|こうえん}を（　）。\n→ {走|はし}る (run) · polite present",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "走ります",
+        "はしります"
+      ],
+      "hint": "走り…",
+      "explanation": "{走|はし}る is an う-verb (godan): る → り (い-row) for the ます-stem, then add the ending → **走ります**. ⚠ {走|はし}る ends in -iる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "I run in the park every morning."
+    },
+    {
+      "point": "lk-ru",
+      "prompt": "{毎晩|まいばん}11{時|じ}に（　）。\n→ {寝|ね}る (sleep) · polite present",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "寝ます",
+        "ねます"
+      ],
+      "hint": "寝ま…",
+      "explanation": "{寝|ね}る is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **寝ます**.",
+      "notes": [],
+      "translation": "I go to bed at eleven every night."
+    },
+    {
+      "point": "lk-u",
+      "prompt": "{授業中|じゅぎょうちゅう}に（　）はいけません。\n→ {喋|しゃべ}る (chat) · て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "喋って",
+        "しゃべって"
+      ],
+      "hint": "喋っ…",
+      "explanation": "{喋|しゃべ}る is an う-verb (godan): う・つ・る → って → **喋って**. ⚠ {喋|しゃべ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "You mustn't chat during class."
+    },
+    {
+      "point": "lk-u",
+      "prompt": "{凍|こお}った{道|みち}で（　）、{転|ころ}んでしまった。\n→ {滑|すべ}る (slip) · て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "滑って",
+        "すべって"
+      ],
+      "hint": "滑っ…",
+      "explanation": "{滑|すべ}る is an う-verb (godan): う・つ・る → って → **滑って**. ⚠ {滑|すべ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "I slipped on the icy road and fell."
+    },
+    {
+      "point": "lk-u",
+      "prompt": "{時間|じかん}はあるから、（　）でゆっくりやって。\n→ {焦|あせ}る (rush, panic) · plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "焦らない",
+        "あせらない"
+      ],
+      "hint": "焦ら…",
+      "explanation": "{焦|あせ}る is an う-verb (godan): る → ら (あ-row) + ない → **焦らない**. ⚠ {焦|あせ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "There's time, so don't rush — take it slowly."
+    },
+    {
+      "point": "lk-u",
+      "prompt": "{先月|せんげつ}より{体重|たいじゅう}が2キロ（　）。\n→ {減|へ}る (decrease) · plain past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "減った",
+        "へった"
+      ],
+      "hint": "減っ…",
+      "explanation": "{減|へ}る is an う-verb (godan): う・つ・る → って → **減った**. ⚠ {減|へ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "I've lost two kilos since last month."
+    },
+    {
+      "point": "lk-ru",
+      "prompt": "{電車|でんしゃ}を（　）、{駅|えき}まで{歩|ある}いた。\n→ {降|お}りる (get off) · て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "降りて",
+        "おりて"
+      ],
+      "hint": "降り…",
+      "explanation": "{降|お}りる is a る-verb (ichidan): drop る + て / た → **降りて**.",
+      "notes": [],
+      "translation": "I got off the train and walked to the station."
+    }
+  ]
+}

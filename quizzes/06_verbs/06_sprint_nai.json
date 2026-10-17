@@ -1,0 +1,289 @@
+{
+  "id": "verbs-sprint-nai",
+  "category": "Verb Lab",
+  "title": "ない-Form Sprint",
+  "description": "18 verbs, one form — including う → わ and the ones that don't follow the rules.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "nai-u",
+      "title": "う-verbs: あ-row + ない",
+      "summary": "ない-form sprint: One form, many verbs in a row.",
+      "body": "- る-verbs: drop る + ない (食べない, 見ない)\n- う-verbs: last sound → あ-row + ない (書かない, 待たない)\n- **う → わ**: 買う → 買**わ**ない (not 買あない)\n- Irregular: する → しない, 来る → **こ**ない, ある → **ない**",
+      "examples": []
+    },
+    {
+      "id": "nai-ru",
+      "title": "る-verbs: drop る + ない",
+      "summary": "ない-form sprint: One form, many verbs in a row.",
+      "body": "- る-verbs: drop る + ない (食べない, 見ない)\n- う-verbs: last sound → あ-row + ない (書かない, 待たない)\n- **う → わ**: 買う → 買**わ**ない (not 買あない)\n- Irregular: する → しない, 来る → **こ**ない, ある → **ない**",
+      "examples": []
+    },
+    {
+      "id": "nai-wa",
+      "title": "う → わ + ない",
+      "summary": "ない-form sprint: One form, many verbs in a row.",
+      "body": "- る-verbs: drop る + ない (食べない, 見ない)\n- う-verbs: last sound → あ-row + ない (書かない, 待たない)\n- **う → わ**: 買う → 買**わ**ない (not 買あない)\n- Irregular: する → しない, 来る → **こ**ない, ある → **ない**",
+      "examples": []
+    },
+    {
+      "id": "nai-irr",
+      "title": "Irregular: する, 来る, ある",
+      "summary": "ない-form sprint: One form, many verbs in a row.",
+      "body": "- る-verbs: drop る + ない (食べない, 見ない)\n- う-verbs: last sound → あ-row + ない (書かない, 待たない)\n- **う → わ**: 買う → 買**わ**ない (not 買あない)\n- Irregular: する → しない, 来る → **こ**ない, ある → **ない**",
+      "examples": []
+    }
+  ],
+  "questions": [
+    {
+      "point": "nai-u",
+      "prompt": "{書|か}く → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書かない",
+        "かかない"
+      ],
+      "hint": "う-verbs: あ-row + ない",
+      "explanation": "{書|か}く is an う-verb (godan): く → か (あ-row) + ない → **書かない**.",
+      "notes": [],
+      "translation": "書く = to write"
+    },
+    {
+      "point": "nai-ru",
+      "prompt": "{食|た}べる → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べない",
+        "たべない"
+      ],
+      "hint": "る-verbs: drop る + ない",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + ない → **食べない**.",
+      "notes": [],
+      "translation": "食べる = to eat"
+    },
+    {
+      "point": "nai-wa",
+      "prompt": "{買|か}う → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "買わない",
+        "かわない"
+      ],
+      "hint": "う → わ + ない",
+      "explanation": "{買|か}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **買わない**.",
+      "notes": [],
+      "translation": "買う = to buy"
+    },
+    {
+      "point": "nai-u",
+      "prompt": "{帰|かえ}る → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "帰らない",
+        "かえらない"
+      ],
+      "hint": "う-verbs: あ-row + ない",
+      "explanation": "{帰|かえ}る is an う-verb (godan): る → ら (あ-row) + ない → **帰らない**. ⚠ {帰|かえ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "帰る = to go home"
+    },
+    {
+      "point": "nai-ru",
+      "prompt": "{見|み}る → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "見ない",
+        "みない"
+      ],
+      "hint": "る-verbs: drop る + ない",
+      "explanation": "{見|み}る is a る-verb (ichidan): drop る + ない → **見ない**.",
+      "notes": [],
+      "translation": "見る = to see"
+    },
+    {
+      "point": "nai-irr",
+      "prompt": "{来|く}る → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来ない",
+        "こない"
+      ],
+      "hint": "Irregular: する, 来る, ある",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来ない**.",
+      "notes": [],
+      "translation": "来る = to come"
+    },
+    {
+      "point": "nai-u",
+      "prompt": "{話|はな}す → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "話さない",
+        "はなさない"
+      ],
+      "hint": "う-verbs: あ-row + ない",
+      "explanation": "{話|はな}す is an う-verb (godan): す → さ (あ-row) + ない → **話さない**.",
+      "notes": [],
+      "translation": "話す = to speak"
+    },
+    {
+      "point": "nai-wa",
+      "prompt": "{会|あ}う → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "会わない",
+        "あわない"
+      ],
+      "hint": "う → わ + ない",
+      "explanation": "{会|あ}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **会わない**.",
+      "notes": [],
+      "translation": ""
+    },
+    {
+      "point": "nai-ru",
+      "prompt": "{着|き}る → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "着ない",
+        "きない"
+      ],
+      "hint": "る-verbs: drop る + ない",
+      "explanation": "{着|き}る is a る-verb (ichidan): drop る + ない → **着ない**.",
+      "notes": [],
+      "translation": "着る = to wear"
+    },
+    {
+      "point": "nai-irr",
+      "prompt": "ある → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "ない"
+      ],
+      "hint": "Irregular: する, 来る, ある",
+      "explanation": "ある is irregular in the negative: ない (not あらない) → **ない**.",
+      "notes": [],
+      "translation": "ある = to be (things)"
+    },
+    {
+      "point": "nai-u",
+      "prompt": "{待|ま}つ → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "待たない",
+        "またない"
+      ],
+      "hint": "う-verbs: あ-row + ない",
+      "explanation": "{待|ま}つ is an う-verb (godan): つ → た (あ-row) + ない → **待たない**.",
+      "notes": [],
+      "translation": "待つ = to wait"
+    },
+    {
+      "point": "nai-irr",
+      "prompt": "する → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "しない"
+      ],
+      "hint": "Irregular: する, 来る, ある",
+      "explanation": "する is irregular (する): する → し + ending → **しない**.",
+      "notes": [],
+      "translation": "する = to do"
+    },
+    {
+      "point": "nai-u",
+      "prompt": "{知|し}る → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "知らない",
+        "しらない"
+      ],
+      "hint": "う-verbs: あ-row + ない",
+      "explanation": "{知|し}る is an う-verb (godan): る → ら (あ-row) + ない → **知らない**. ⚠ {知|し}る ends in -iる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "知る = to know"
+    },
+    {
+      "point": "nai-ru",
+      "prompt": "{起|お}きる → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "起きない",
+        "おきない"
+      ],
+      "hint": "る-verbs: drop る + ない",
+      "explanation": "{起|お}きる is a る-verb (ichidan): drop る + ない → **起きない**.",
+      "notes": [],
+      "translation": "起きる = to get up"
+    },
+    {
+      "point": "nai-wa",
+      "prompt": "{言|い}う → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "言わない",
+        "いわない"
+      ],
+      "hint": "う → わ + ない",
+      "explanation": "{言|い}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **言わない**.",
+      "notes": [],
+      "translation": ""
+    },
+    {
+      "point": "nai-u",
+      "prompt": "{読|よ}む → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "読まない",
+        "よまない"
+      ],
+      "hint": "う-verbs: あ-row + ない",
+      "explanation": "{読|よ}む is an う-verb (godan): む → ま (あ-row) + ない → **読まない**.",
+      "notes": [],
+      "translation": "読む = to read"
+    },
+    {
+      "point": "nai-wa",
+      "prompt": "{洗|あら}う → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "洗わない",
+        "あらわない"
+      ],
+      "hint": "う → わ + ない",
+      "explanation": "{洗|あら}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **洗わない**.",
+      "notes": [],
+      "translation": "洗う = to wash"
+    },
+    {
+      "point": "nai-ru",
+      "prompt": "{忘|わす}れる → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "忘れない",
+        "わすれない"
+      ],
+      "hint": "る-verbs: drop る + ない",
+      "explanation": "{忘|わす}れる is a る-verb (ichidan): drop る + ない → **忘れない**.",
+      "notes": [],
+      "translation": "忘れる = to forget"
+    }
+  ]
+}

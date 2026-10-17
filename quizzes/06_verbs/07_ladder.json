@@ -1,0 +1,222 @@
+{
+  "id": "verbs-ladder",
+  "category": "Verb Lab",
+  "title": "Ladder 書く & 食べる: One Verb, All Forms",
+  "description": "One う-verb and one る-verb, each through seven forms in order — see the vowel rows at work.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "ladder-u",
+      "title": "う-verb ladder (書く)",
+      "summary": "Conjugation ladder: One verb through all its forms, in order.",
+      "body": "**う-verbs walk through the vowel rows** (書く):\n- **あ** 書か + ない / れる / せる\n- **い** 書き + ます\n- **う** 書く (dictionary)\n- **え** 書け + る (can) / ば (if)\n- **お** 書こ + う (let's)\n- て / た: 書いて, 書いた\n\n**る-verbs** never change their stem: 食べ + ない / ます / る / られる / れば / よう / て / た.\n\n**来る** changes its vowel (こ・き・く), **する** becomes し / さ / でき.",
+      "examples": []
+    },
+    {
+      "id": "ladder-ru",
+      "title": "る-verb ladder (食べる)",
+      "summary": "Conjugation ladder: One verb through all its forms, in order.",
+      "body": "**う-verbs walk through the vowel rows** (書く):\n- **あ** 書か + ない / れる / せる\n- **い** 書き + ます\n- **う** 書く (dictionary)\n- **え** 書け + る (can) / ば (if)\n- **お** 書こ + う (let's)\n- て / た: 書いて, 書いた\n\n**る-verbs** never change their stem: 食べ + ない / ます / る / られる / れば / よう / て / た.\n\n**来る** changes its vowel (こ・き・く), **する** becomes し / さ / でき.",
+      "examples": []
+    }
+  ],
+  "questions": [
+    {
+      "point": "ladder-u",
+      "prompt": "{書|か}く → （　）\n→ polite present",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書きます",
+        "かきます"
+      ],
+      "hint": "書き…",
+      "explanation": "{書|か}く is an う-verb (godan): く → き (い-row) for the ます-stem, then add the ending → **書きます**.",
+      "notes": [],
+      "translation": "書く = to write"
+    },
+    {
+      "point": "ladder-u",
+      "prompt": "{書|か}く → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書かない",
+        "かかない"
+      ],
+      "hint": "書か…",
+      "explanation": "{書|か}く is an う-verb (godan): く → か (あ-row) + ない → **書かない**.",
+      "notes": [],
+      "translation": "書く = to write"
+    },
+    {
+      "point": "ladder-u",
+      "prompt": "{書|か}く → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書いて",
+        "かいて"
+      ],
+      "hint": "書い…",
+      "explanation": "{書|か}く is an う-verb (godan): く → いて → **書いて**.",
+      "notes": [],
+      "translation": "書く = to write"
+    },
+    {
+      "point": "ladder-u",
+      "prompt": "{書|か}く → （　）\n→ plain past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書いた",
+        "かいた"
+      ],
+      "hint": "書い…",
+      "explanation": "{書|か}く is an う-verb (godan): く → いて → **書いた**.",
+      "notes": [],
+      "translation": "書く = to write"
+    },
+    {
+      "point": "ladder-u",
+      "prompt": "{書|か}く → （　）\n→ can … (plain)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書ける",
+        "かける"
+      ],
+      "hint": "書け…",
+      "explanation": "{書|か}く is an う-verb (godan): く → け (え-row) + る, then conjugate like a る-verb → **書ける**.",
+      "notes": [],
+      "translation": "書く = to write"
+    },
+    {
+      "point": "ladder-u",
+      "prompt": "{書|か}く → （　）\n→ let's / I'll … (plain volitional)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書こう",
+        "かこう"
+      ],
+      "hint": "書こ…",
+      "explanation": "{書|か}く is an う-verb (godan): く → こ (お-row) + う → **書こう**.",
+      "notes": [],
+      "translation": "書く = to write"
+    },
+    {
+      "point": "ladder-u",
+      "prompt": "{書|か}く → （　）\n→ if … (ば-form)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書けば",
+        "かけば"
+      ],
+      "hint": "書け…",
+      "explanation": "{書|か}く is an う-verb (godan): く → け (え-row) + ば → **書けば**.",
+      "notes": [],
+      "translation": "書く = to write"
+    },
+    {
+      "point": "ladder-ru",
+      "prompt": "{食|た}べる → （　）\n→ polite present",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べます",
+        "たべます"
+      ],
+      "hint": "食べま…",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **食べます**.",
+      "notes": [],
+      "translation": "食べる = to eat"
+    },
+    {
+      "point": "ladder-ru",
+      "prompt": "{食|た}べる → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べない",
+        "たべない"
+      ],
+      "hint": "食べな…",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + ない → **食べない**.",
+      "notes": [],
+      "translation": "食べる = to eat"
+    },
+    {
+      "point": "ladder-ru",
+      "prompt": "{食|た}べる → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べて",
+        "たべて"
+      ],
+      "hint": "食べ…",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べて**.",
+      "notes": [],
+      "translation": "食べる = to eat"
+    },
+    {
+      "point": "ladder-ru",
+      "prompt": "{食|た}べる → （　）\n→ plain past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べた",
+        "たべた"
+      ],
+      "hint": "食べ…",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べた**.",
+      "notes": [],
+      "translation": "食べる = to eat"
+    },
+    {
+      "point": "ladder-ru",
+      "prompt": "{食|た}べる → （　）\n→ can … (plain)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べられる",
+        "たべられる"
+      ],
+      "hint": "食べら…",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + られる, then conjugate like a る-verb → **食べられる**.",
+      "notes": [],
+      "translation": "食べる = to eat"
+    },
+    {
+      "point": "ladder-ru",
+      "prompt": "{食|た}べる → （　）\n→ let's / I'll … (plain volitional)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べよう",
+        "たべよう"
+      ],
+      "hint": "食べよ…",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + よう → **食べよう**.",
+      "notes": [],
+      "translation": "食べる = to eat"
+    },
+    {
+      "point": "ladder-ru",
+      "prompt": "{食|た}べる → （　）\n→ if … (ば-form)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べれば",
+        "たべれば"
+      ],
+      "hint": "食べれ…",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + れば → **食べれば**.",
+      "notes": [],
+      "translation": "食べる = to eat"
+    }
+  ],
+  "keep_order": true
+}

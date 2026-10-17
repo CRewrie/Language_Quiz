@@ -1,0 +1,312 @@
+{
+  "id": "verbs-back",
+  "category": "Verb Lab",
+  "title": "Back to the Dictionary Form",
+  "description": "See a form, find the verb: the skill you need when reading and listening.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "back-te",
+      "title": "From て / た",
+      "summary": "Back to the dictionary form: Reading or hearing a form, find the verb you'd look up.",
+      "body": "- **て / た**: って ← う・つ・る, んで ← ぬ・ぶ・む, いて ← く, いで ← ぐ, して ← す; a plain て after -i / -e → る-verb (+る).\n- **ない**: あ-row + ない → う-row (帰らない → 帰る, 買わない → 買う); no あ-row → る-verb (着ない → 着る).\n- **ます**: い-row + ます → う-row (書きます → 書く); otherwise る-verb (見ます → 見る).\n- Irregular: きて / こない → 来る, して / しない → する.",
+      "examples": []
+    },
+    {
+      "id": "back-nai",
+      "title": "From ない",
+      "summary": "Back to the dictionary form: Reading or hearing a form, find the verb you'd look up.",
+      "body": "- **て / た**: って ← う・つ・る, んで ← ぬ・ぶ・む, いて ← く, いで ← ぐ, して ← す; a plain て after -i / -e → る-verb (+る).\n- **ない**: あ-row + ない → う-row (帰らない → 帰る, 買わない → 買う); no あ-row → る-verb (着ない → 着る).\n- **ます**: い-row + ます → う-row (書きます → 書く); otherwise る-verb (見ます → 見る).\n- Irregular: きて / こない → 来る, して / しない → する.",
+      "examples": []
+    },
+    {
+      "id": "back-masu",
+      "title": "From ます",
+      "summary": "Back to the dictionary form: Reading or hearing a form, find the verb you'd look up.",
+      "body": "- **て / た**: って ← う・つ・る, んで ← ぬ・ぶ・む, いて ← く, いで ← ぐ, して ← す; a plain て after -i / -e → る-verb (+る).\n- **ない**: あ-row + ない → う-row (帰らない → 帰る, 買わない → 買う); no あ-row → る-verb (着ない → 着る).\n- **ます**: い-row + ます → う-row (書きます → 書く); otherwise る-verb (見ます → 見る).\n- Irregular: きて / こない → 来る, して / しない → する.",
+      "examples": []
+    }
+  ],
+  "questions": [
+    {
+      "point": "back-te",
+      "prompt": "{読|よ}んで → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "読む",
+        "よむ"
+      ],
+      "hint": "んで ← ぬ, ぶ or む",
+      "explanation": "読んで: んで ← ぬ, ぶ or む; with this kanji only 読む makes sense → **読む**.",
+      "notes": [],
+      "translation": "読む = to read"
+    },
+    {
+      "point": "back-te",
+      "prompt": "{買|か}って → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "買う",
+        "かう"
+      ],
+      "hint": "って ← う, つ or る",
+      "explanation": "買って: って ← う, つ or る; with this kanji only 買う makes sense → **買う**.",
+      "notes": [],
+      "translation": "買う = to buy"
+    },
+    {
+      "point": "back-te",
+      "prompt": "{待|ま}った → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "待つ",
+        "まつ"
+      ],
+      "hint": "って ← う, つ or る",
+      "explanation": "待った: って ← う, つ or る; with this kanji only 待つ makes sense → **待つ**.",
+      "notes": [],
+      "translation": "待つ = to wait"
+    },
+    {
+      "point": "back-te",
+      "prompt": "{帰|かえ}って → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "帰る",
+        "かえる"
+      ],
+      "hint": "って ← う, つ or る",
+      "explanation": "帰って: って ← う, つ or る; with this kanji only 帰る makes sense → **帰る**. ⚠ An う-verb that looks like a る-verb.",
+      "notes": [],
+      "translation": "帰る = to go home"
+    },
+    {
+      "point": "back-te",
+      "prompt": "{着|き}て → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "着る",
+        "きる"
+      ],
+      "hint": "Try a る-verb: is there a って / んで / いて?",
+      "explanation": "着て: a plain て / た after an -i / -e sound: a る-verb, so add る → **着る**.",
+      "notes": [],
+      "translation": "着る = to wear"
+    },
+    {
+      "point": "back-te",
+      "prompt": "{書|か}いた → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書く",
+        "かく"
+      ],
+      "hint": "いて ← く",
+      "explanation": "書いた: いて ← く; with this kanji only 書く makes sense → **書く**.",
+      "notes": [],
+      "translation": "書く = to write"
+    },
+    {
+      "point": "back-te",
+      "prompt": "{急|いそ}いで → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "急ぐ",
+        "いそぐ"
+      ],
+      "hint": "いで ← ぐ",
+      "explanation": "急いで: いで ← ぐ; with this kanji only 急ぐ makes sense → **急ぐ**.",
+      "notes": [],
+      "translation": "急ぐ = to hurry"
+    },
+    {
+      "point": "back-te",
+      "prompt": "{話|はな}した → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "話す",
+        "はなす"
+      ],
+      "hint": "して ← す",
+      "explanation": "話した: して ← す; with this kanji only 話す makes sense → **話す**.",
+      "notes": [],
+      "translation": "話す = to speak"
+    },
+    {
+      "point": "back-te",
+      "prompt": "{遊|あそ}んだ → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "遊ぶ",
+        "あそぶ"
+      ],
+      "hint": "んで ← ぬ, ぶ or む",
+      "explanation": "遊んだ: んで ← ぬ, ぶ or む; with this kanji only 遊ぶ makes sense → **遊ぶ**.",
+      "notes": [],
+      "translation": "遊ぶ = to play"
+    },
+    {
+      "point": "back-te",
+      "prompt": "{行|い}って → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "行く",
+        "いく"
+      ],
+      "hint": "って ← う, つ, る … or the exception 行く",
+      "explanation": "行って: 行って is the one irregular て-form: 行く → **行く**.",
+      "notes": [],
+      "translation": "行く = to go"
+    },
+    {
+      "point": "back-te",
+      "prompt": "{来|き}て → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来る",
+        "くる"
+      ],
+      "hint": "Irregular: き・こ・く",
+      "explanation": "来て: き / こ belong to the irregular 来る (きます, こない, きて) → **来る**.",
+      "notes": [],
+      "translation": "来る = to come"
+    },
+    {
+      "point": "back-nai",
+      "prompt": "{帰|かえ}らない → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "帰る",
+        "かえる"
+      ],
+      "hint": "ら is an あ-row sound",
+      "explanation": "帰らない: ら (あ-row) + ない → back to the う-row: ら → る → **帰る**. ⚠ An う-verb that looks like a る-verb.",
+      "notes": [],
+      "translation": "帰る = to go home"
+    },
+    {
+      "point": "back-nai",
+      "prompt": "{着|き}ない → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "着る",
+        "きる"
+      ],
+      "hint": "No あ-row sound before ない",
+      "explanation": "着ない: nothing but ない was added, so it's a る-verb: ない → る → **着る**.",
+      "notes": [],
+      "translation": "着る = to wear"
+    },
+    {
+      "point": "back-nai",
+      "prompt": "{知|し}らない → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "知る",
+        "しる"
+      ],
+      "hint": "ら is an あ-row sound",
+      "explanation": "知らない: ら (あ-row) + ない → back to the う-row: ら → る → **知る**. ⚠ An う-verb that looks like a る-verb.",
+      "notes": [],
+      "translation": "知る = to know"
+    },
+    {
+      "point": "back-nai",
+      "prompt": "{買|か}わない → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "買う",
+        "かう"
+      ],
+      "hint": "わ is an あ-row sound",
+      "explanation": "買わない: わ (あ-row) + ない → back to the う-row: わ → う → **買う**.",
+      "notes": [],
+      "translation": "買う = to buy"
+    },
+    {
+      "point": "back-nai",
+      "prompt": "{来|こ}ない → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来る",
+        "くる"
+      ],
+      "hint": "Irregular: き・こ・く",
+      "explanation": "来ない: き / こ belong to the irregular 来る (きます, こない, きて) → **来る**.",
+      "notes": [],
+      "translation": "来る = to come"
+    },
+    {
+      "point": "back-masu",
+      "prompt": "{見|み}ます → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "見る",
+        "みる"
+      ],
+      "hint": "-i sound before ます: る-verb (+る) or う-verb (i → u)?",
+      "explanation": "見ます: an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). You have to know the verb: here it's a る-verb, not 見む → **見る**.",
+      "notes": [],
+      "translation": "見る = to see"
+    },
+    {
+      "point": "back-masu",
+      "prompt": "{書|か}きます → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書く",
+        "かく"
+      ],
+      "hint": "-i sound before ます: る-verb (+る) or う-verb (i → u)?",
+      "explanation": "書きます: an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). You have to know the verb: here it's an う-verb, not 書きる → **書く**.",
+      "notes": [],
+      "translation": "書く = to write"
+    },
+    {
+      "point": "back-masu",
+      "prompt": "{借|か}ります → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "借りる",
+        "かりる"
+      ],
+      "hint": "-i sound before ます: る-verb (+る) or う-verb (i → u)?",
+      "explanation": "借ります: an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). You have to know the verb: here it's a る-verb, not 借る → **借りる**.",
+      "notes": [],
+      "translation": "借りる = to borrow"
+    },
+    {
+      "point": "back-masu",
+      "prompt": "{入|はい}ります → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "入る",
+        "はいる"
+      ],
+      "hint": "-i sound before ます: る-verb (+る) or う-verb (i → u)?",
+      "explanation": "入ります: an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). You have to know the verb: here it's an う-verb, not 入りる → **入る**. ⚠ An う-verb that looks like a る-verb.",
+      "notes": [],
+      "translation": "入る = to enter"
+    }
+  ]
+}

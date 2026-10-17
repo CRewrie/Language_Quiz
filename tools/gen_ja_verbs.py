@@ -27,7 +27,32 @@ VERBS = {k: v for k, v in {
     "勉強する": ("勉強する", "べんきょうする", "suru"), "掃除する": ("掃除する", "そうじする", "suru"),
     "練習する": ("練習する", "れんしゅうする", "suru"), "案内する": ("案内する", "あんないする", "suru"),
     "電話する": ("電話する", "でんわする", "suru"),
+    "着る": ("着る", "きる", "ru"), "変える": ("変える", "かえる", "ru"), "入れる": ("入れる", "いれる", "ru"),
+    "覚える": ("覚える", "おぼえる", "ru"), "教える": ("教える", "おしえる", "ru"), "借りる": ("借りる", "かりる", "ru"),
+    "降りる": ("降りる", "おりる", "ru"), "浴びる": ("浴びる", "あびる", "ru"), "忘れる": ("忘れる", "わすれる", "ru"),
+    "生きる": ("生きる", "いきる", "ru"), "信じる": ("信じる", "しんじる", "ru"), "見せる": ("見せる", "みせる", "ru"),
+    "閉める": ("閉める", "しめる", "ru"), "足りる": ("足りる", "たりる", "ru"),
+    "要る": ("要る", "いる", "u"), "入る": ("入る", "はいる", "u"), "知る": ("知る", "しる", "u"), "限る": ("限る", "かぎる", "u"),
+    "喋る": ("喋る", "しゃべる", "u"), "滑る": ("滑る", "すべる", "u"), "焦る": ("焦る", "あせる", "u"), "減る": ("減る", "へる", "u"),
+    "蹴る": ("蹴る", "ける", "u"), "握る": ("握る", "にぎる", "u"), "散る": ("散る", "ちる", "u"),
+    "分かる": ("分かる", "わかる", "u"), "乗る": ("乗る", "のる", "u"), "取る": ("取る", "とる", "u"), "座る": ("座る", "すわる", "u"),
+    "終わる": ("終わる", "おわる", "u"), "死ぬ": ("死ぬ", "しぬ", "u"), "買う": ("買う", "かう", "u"), "洗う": ("洗う", "あらう", "u"),
+    "立つ": ("立つ", "たつ", "u"), "急ぐ": ("急ぐ", "いそぐ", "u"), "貸す": ("貸す", "かす", "u"), "脱ぐ": ("脱ぐ", "ぬぐ", "u"),
+    "運転する": ("運転する", "うんてんする", "suru"),
 }.items()}
+
+GLOSS = {
+    "切る": "cut", "着る": "wear", "帰る": "go home", "変える": "change", "要る": "need", "いる": "be (people)",
+    "入る": "enter", "入れる": "put in", "知る": "know", "走る": "run", "寝る": "sleep", "喋る": "chat", "滑る": "slip",
+    "焦る": "rush, panic", "減る": "decrease", "蹴る": "kick", "握る": "grip", "限る": "limit", "散る": "scatter",
+    "降りる": "get off", "浴びる": "take (a shower)", "信じる": "believe", "生きる": "live", "借りる": "borrow",
+    "覚える": "remember", "教える": "teach", "忘れる": "forget", "見せる": "show", "閉める": "close", "足りる": "be enough",
+    "分かる": "understand", "乗る": "ride", "取る": "take", "座る": "sit", "作る": "make", "書く": "write", "話す": "speak",
+    "待つ": "wait", "死ぬ": "die", "遊ぶ": "play", "泳ぐ": "swim", "買う": "buy", "食べる": "eat", "見る": "see",
+    "起きる": "get up", "する": "do", "来る": "come", "勉強する": "study", "運転する": "drive", "ある": "be (things)",
+    "飲む": "drink", "読む": "read", "行く": "go", "終わる": "end", "洗う": "wash", "立つ": "stand", "急ぐ": "hurry",
+    "貸す": "lend", "脱ぐ": "take off", "出る": "leave", "開ける": "open",
+}
 
 ROW = {"う": "わいうえお", "く": "かきくけこ", "ぐ": "がぎぐげご", "す": "さしすせそ", "つ": "たちつてと",
        "ぬ": "なにぬねの", "ぶ": "ばびぶべぼ", "む": "まみむめも", "る": "らりるれろ"}
@@ -37,6 +62,16 @@ A, I, E, O = 0, 1, 3, 4
 def shift(r, col):
     """Godan: change the last kana to another row (書く → 書か / 書き / 書け / 書こ)."""
     return r[:-1] + ROW[r[-1]][col]
+
+
+VOWEL = {c: v for v, row in zip("aiueo", ["あかさたなはまやらわがざだばぱ", "いきしちにひみりぎじぢびぴ",
+         "うくすつぬふむゆるぐずづぶぷ", "えけせてねへめれげぜでべぺ", "おこそとのほもよろごぞどぼぽ"]) for c in row}
+
+
+def is_exception(key):
+    """う-verbs that look like る-verbs: -iる / -eる (帰る, 切る, 入る …)."""
+    _, r, cls = VERBS[key]
+    return cls == "u" and r[-1] == "る" and VOWEL[r[-2]] in "ie"
 
 
 def te(r, cls, ta=False):
@@ -191,6 +226,13 @@ CLASS_NAME = {"ru": "a る-verb (ichidan)", "u": "an う-verb (godan)", "iku": "
 
 
 def explain(key, form, answer):
+    why = _explain(key, form, answer)
+    if is_exception(key):
+        why += f" ⚠ {ruby(key)} ends in -{VOWEL[VERBS[key][1][-2]]}る like a る-verb, but it is one of the う-verb exceptions."
+    return why
+
+
+def _explain(key, form, answer):
     kanji, reading, cls = VERBS[key]
     v = ruby(key)
     ans = f"**{answer}**"
@@ -221,8 +263,6 @@ def explain(key, form, answer):
         else:
             how = {"う": "う・つ・る → って", "つ": "う・つ・る → って", "る": "う・つ・る → って", "ぬ": "ぬ・ぶ・む → んで",
                    "ぶ": "ぬ・ぶ・む → んで", "む": "ぬ・ぶ・む → んで", "く": "く → いて", "ぐ": "ぐ → いで", "す": "す → して"}[last]
-            if key == "切る":
-                how += " (切る looks like a る-verb but is an う-verb)"
         rest = {"teiru": " + いる", "teimasu": " + います", "tekudasai": " + ください", "temoii": " + もいい",
                 "tewaikenai": " + はいけない", "tara": " (た-form) + ら"}.get(form, "")
         return f"{v} is {CLASS_NAME[cls]}: {how}{rest} → {ans}."
@@ -297,15 +337,16 @@ GUIDE = {
 }
 
 
-def quiz(fname, id, title, description, guide, items):
+def quiz(fname, id, title, description, guide, items, pid_fn=None, titles=None):
     gt, gs, gb = GUIDE[guide]
     point_ids = []
     questions = []
     for sentence, key, form, en in items:
-        pid = guide if guide in ("mixed",) else form
+        pid = pid_fn(key, form) if pid_fn else guide if guide in ("mixed",) else form
         accept, why, hint = build(key, form)
+        gloss = f" ({GLOSS[key]})" if pid_fn and key in GLOSS else ""
         questions.append({
-            "point": pid, "prompt": f"{sentence}\n→ {ruby(key)} · {LABEL[form]}", "options": [], "answer": 0,
+            "point": pid, "prompt": f"{sentence}\n→ {ruby(key)}{gloss} · {LABEL[form]}", "options": [], "answer": 0,
             "accept": accept, "hint": hint, "explanation": why, "notes": [], "translation": en,
         })
         if pid not in point_ids:
@@ -317,13 +358,14 @@ def quiz(fname, id, title, description, guide, items):
         else:
             ex = next(q for q in questions if q["point"] == pid)
             filled = ex["prompt"].split("\n")[0].replace("（　）", ex["accept"][0])
-            points.append({"id": pid, "title": LABEL[pid][0].upper() + LABEL[pid][1:], "summary": f"{gt}: {gs}", "body": gb,
+            t = titles[pid] if titles else LABEL[pid][0].upper() + LABEL[pid][1:]
+            points.append({"id": pid, "title": t, "summary": f"{gt}: {gs}", "body": gb,
                            "examples": [[filled, ex["translation"]]]})
     QZ[fname] = {"id": id, "category": "Verb Lab", "title": title, "description": description,
                  "level": "Verbs", "points": points, "questions": questions}
 
 
-quiz("01_masu", "verbs-masu", "ます Forms: Meeting a New Colleague",
+quiz("11_masu", "verbs-masu", "ます Forms: Meeting a New Colleague",
      "Polite present, negative, past and 'let's' — small talk with someone you've just met at work.", "masu", [
     ("{毎朝|まいあさ}7{時|じ}に（　）。", "起きる", "masu", "I get up at seven every morning."),
     ("{私|わたし}はお{酒|さけ}をあまり（　）。", "飲む", "masen", "I don't drink much alcohol."),
@@ -341,7 +383,7 @@ quiz("01_masu", "verbs-masu", "ます Forms: Meeting a New Colleague",
     ("{昨日|きのう}は{雨|あめ}だったので、どこにも（　）。", "出かける", "masendeshita", "It rained yesterday, so I didn't go anywhere."),
 ])
 
-quiz("02_plain", "verbs-plain", "Plain Forms: Chatting with Friends",
+quiz("12_plain", "verbs-plain", "Plain Forms: Chatting with Friends",
      "Dictionary, ない, た and なかった forms — how you actually talk to friends.", "plain", [
     ("{明日|あした}、{何時|なんじ}に（　）？", "起きる", "dict", "What time are you getting up tomorrow?"),
     ("{今日|きょう}は{疲|つか}れたから、どこにも（　）。", "行く", "nai", "I'm tired today, so I'm not going anywhere."),
@@ -359,7 +401,7 @@ quiz("02_plain", "verbs-plain", "Plain Forms: Chatting with Friends",
     ("{子供|こども}のころ、{野菜|やさい}を{全然|ぜんぜん}（　）。", "食べる", "nakatta", "As a kid I didn't eat vegetables at all."),
 ])
 
-quiz("03_te", "verbs-te", "て-Form: Directions, Recipes & Requests",
+quiz("13_te", "verbs-te", "て-Form: Directions, Recipes & Requests",
      "Sequences, requests, ongoing actions, permission and prohibition — the て-form at work.", "te", [
     ("{次|つぎ}の{角|かど}を{右|みぎ}に（　）、まっすぐ{行|い}ってください。", "曲がる", "te", "Turn right at the next corner and go straight on."),
     ("{野菜|やさい}を（　）、{鍋|なべ}に{入|い}れます。", "切る", "te", "Cut the vegetables and put them in the pot."),
@@ -377,7 +419,7 @@ quiz("03_te", "verbs-te", "て-Form: Directions, Recipes & Requests",
     ("{子供|こども}たちは{公園|こうえん}で（　）。", "遊ぶ", "teimasu", "The children are playing in the park."),
 ])
 
-quiz("04_can_will", "verbs-can-will", "Can & Will: Plans and Abilities",
+quiz("14_can_will", "verbs-can-will", "Can & Will: Plans and Abilities",
      "What you can do (potential) and what you're going to do (volitional + と思う).", "potvol", [
     ("{弟|おとうと}はまだ5{歳|さい}なのに、ひらがなが（　）。", "読む", "potential", "My little brother is only five, but he can read hiragana."),
     ("{日本語|にほんご}で{電話|でんわ}が（　）ようになりました。", "する", "potential", "I've become able to make phone calls in Japanese."),
@@ -393,7 +435,7 @@ quiz("04_can_will", "verbs-can-will", "Can & Will: Plans and Abilities",
     ("{上手|じょうず}に（　）ように、{毎日|まいにち}{練習|れんしゅう}しています。", "泳ぐ", "potential", "I practise every day so that I can swim well."),
 ])
 
-quiz("05_if_must", "verbs-if-must", "If & Must: Rules and Advice",
+quiz("15_if_must", "verbs-if-must", "If & Must: Rules and Advice",
      "ば and たら conditionals, and なければならない for things you have to do.", "cond", [
     ("この{薬|くすり}を（　）、すぐ{治|なお}りますよ。", "飲む", "ba", "If you take this medicine, you'll soon get better."),
     ("わからないことがあれば、{先生|せんせい}に（　）いいですよ。", "聞く", "ba", "If there's anything you don't understand, just ask the teacher."),
@@ -410,7 +452,7 @@ quiz("05_if_must", "verbs-if-must", "If & Must: Rules and Advice",
     ("この{薬|くすり}は{毎日|まいにち}（　）。", "飲む", "nakereba", "You have to take this medicine every day."),
 ])
 
-quiz("06_voice", "verbs-voice", "Passive & Causative: Stories from School and Work",
+quiz("16_voice", "verbs-voice", "Passive & Causative: Stories from School and Work",
      "Things that happened to you, things you made others do, and things you were made to do.", "voice", [
     ("{電車|でんしゃ}の{中|なか}で{足|あし}を（　）。", "踏む", "passive_ta", "Someone stepped on my foot on the train."),
     ("{遅刻|ちこく}して、{先生|せんせい}に（　）。", "叱る", "passive_ta", "I was late and got told off by the teacher."),
@@ -428,7 +470,7 @@ quiz("06_voice", "verbs-voice", "Passive & Causative: Stories from School and Wo
     ("{給食|きゅうしょく}で、{嫌|きら}いな{野菜|やさい}を（　）。", "食べる", "caus_pass_ta", "At school lunch I was made to eat vegetables I hated."),
 ])
 
-quiz("07_keigo", "verbs-keigo", "Keigo: At a Hotel and in Business",
+quiz("17_keigo", "verbs-keigo", "Keigo: At a Hotel and in Business",
      "Honorific verbs for other people's actions, humble verbs for your own — special verbs and the regular patterns.", "keigo", [
     ("{社長|しゃちょう}は{何時|なんじ}に（　）か。", "来る", "hon", "What time will the president arrive?"),
     ("{先生|せんせい}、お{飲|の}み{物|もの}は{何|なに}を（　）か。", "飲む", "hon", "Professor, what would you like to drink?"),
@@ -446,7 +488,7 @@ quiz("07_keigo", "verbs-keigo", "Keigo: At a Hotel and in Business",
     ("{昨日|きのう}のパーティーで、{社長|しゃちょう}の{奥様|おくさま}に（　）。", "会う", "hum_ta", "At yesterday's party I met the president's wife."),
 ])
 
-quiz("08_mixed", "verbs-mixed", "Mixed Review: All Forms",
+quiz("18_mixed", "verbs-mixed", "Mixed Review: All Forms",
      "Every form, shuffled. You have to work out which form each situation needs — the best practice for real conversations.", "mixed", [
     ("{毎朝|まいあさ}ジョギングを（　）。", "する", "masu", "I go jogging every morning."),
     ("{昨日|きのう}、レストランで{寿司|すし}を（　）よ。", "食べる", "ta", "I had sushi at a restaurant yesterday."),
@@ -467,13 +509,283 @@ quiz("08_mixed", "verbs-mixed", "Mixed Review: All Forms",
 ])
 
 
+# ---------------------------------------------------------------- verb types & drills (learn these first)
+
+def kform(key, f):
+    kanji, r, cls = VERBS[key]
+    return to_kanji(forms(r, cls)[f][0], key)
+
+
+def ruby_form(kana, key):
+    """Conjugated form with furigana on the kanji: 読んで → {読|よ}んで."""
+    kanji, reading, cls = VERBS[key]
+    if kanji == reading:
+        return kana
+    if cls == "kuru":
+        return "{来|" + kana[0] + "}" + kana[1:]
+    n = okuri(kanji, reading)
+    kp, rp = kanji[:len(kanji) - n], reading[:len(reading) - n]
+    return "{" + kp + "|" + rp + "}" + kana[len(rp):]
+
+
+def type_point(key):
+    _, r, cls = VERBS[key]
+    if cls in ("suru", "kuru"):
+        return "irregular"
+    if r[-1] != "る":
+        return "not-ru"
+    if VOWEL[r[-2]] in "auo":
+        return "aou-ru"
+    return "ie-ru" if cls == "ru" else "exception"
+
+
+TYPE_OPTS = ["る-verb (ichidan)", "う-verb (godan)", "irregular (する / 来る)"]
+
+
+def type_q(key):
+    kanji, r, cls = VERBS[key]
+    v, p = ruby(key), type_point(key)
+    ans = 0 if cls == "ru" else 2 if cls in ("suru", "kuru") else 1
+    nai, masu, te_ = kform(key, "nai"), kform(key, "masu"), kform(key, "te")
+    fs = f"{nai}, {masu}, {te_}"
+    vw = VOWEL.get(r[-2], "") if len(r) > 1 else ""
+    if p == "irregular":
+        why = (f"{v} is noun + する, so it conjugates exactly like する: {fs}." if kanji != "する" and cls == "suru"
+               else f"する is one of only two irregular verbs: {fs}." if cls == "suru"
+               else f"来る is irregular — its vowel changes: {fs} (こない, きます, きて).")
+    elif p == "not-ru":
+        why = f"{v} ends in {r[-1]}, not る. Every verb that doesn't end in る is an う-verb: {fs}."
+    elif p == "aou-ru":
+        why = f"The sound before る is {r[-2]} (-{vw}). Verbs in -{vw}る are always う-verbs: {fs}."
+    elif p == "ie-ru":
+        why = f"The sound before る is {r[-2]} (-{vw}), and -iる / -eる verbs are normally る-verbs: just drop る → {fs}."
+    else:
+        why = (f"Exception! {v} ends in -{vw}る ({r[-2]}る) like a る-verb, but it's an う-verb: {fs} — "
+               f"not {to_kanji(r[:-1] + 'ない', key)}. Learn it with the exception list.")
+    if cls in ("suru", "kuru"):
+        n_ru = n_u = f"It doesn't follow the regular pattern: {fs}."
+    else:
+        n_ru = ("Only verbs ending in る can be る-verbs." if r[-1] != "る"
+                else f"A る-verb would just drop る: {to_kanji(r[:-1] + 'ない', key)} — but it's {nai}.")
+        n_u = f"An う-verb would turn る into ら: {to_kanji(r[:-1] + 'らない', key)} — but it's {nai}."
+    notes = [n_ru, n_u, "Only する (with noun + する verbs) and 来る are irregular."]
+    notes[ans] = ""
+    return {"point": p, "prompt": f"What type of verb is **{v}**?", "options": TYPE_OPTS, "answer": ans,
+            "fixed_order": True, "explanation": why, "notes": notes,
+            "translation": f"{kanji} = to {GLOSS[key]}" if key in GLOSS else ""}
+
+
+TYPE_POINTS = {
+    "not-ru": ("Doesn't end in る → う-verb", "書く, 話す, 待つ, 死ぬ, 遊ぶ, 読む, 泳ぐ, 買う: always う-verbs."),
+    "aou-ru": ("-aる / -uる / -oる → う-verb", "分かる, 作る, 乗る, 取る: the sound before る is not i or e, so it's an う-verb."),
+    "ie-ru": ("-iる / -eる → usually る-verb", "見る, 起きる, 食べる, 教える: drop る for every form."),
+    "exception": ("-iる / -eる う-verb exceptions", "帰る, 入る, 走る, 切る, 知る, 要る, 限る, 喋る, 滑る, 焦る, 減る, 蹴る, 握る, 散る."),
+    "irregular": ("Irregular: する and 来る", "する (and every noun + する) and 来る — learn their forms by heart."),
+}
+TYPES_BODY = """**How to tell the verb type** — look at the dictionary form:
+
+- Doesn't end in る (〜う, 〜く, 〜す, 〜つ …) → **う-verb**, always.
+- Ends in る, and the sound before it is **a / u / o** (分**か**る, 作**る**→つく**る**, 乗**る**) → **う-verb**, always.
+- Ends in **-iる / -eる** (見る, 起**き**る, 食**べ**る) → usually a **る-verb**.
+- …except a short list of common う-verbs: **帰る, 入る, 走る, 切る, 知る, 要る, 限る, 喋る, 滑る, 焦る, 減る, 蹴る, 握る, 散る**.
+- **する** and **来る** are irregular; 勉強する and other noun + する verbs conjugate like する.
+
+**Why it matters**
+- る-verbs drop る: 食べ**ない**, 食べ**ます**, 食べ**て**.
+- う-verbs change the last sound: 帰**ら**ない, 帰**り**ます, 帰**って**.
+
+**Check yourself:** if you know the ない-form, it tells you the type — 帰**ら**ない has an あ-row sound, so 帰る is an う-verb."""
+
+
+def mc_quiz(fname, id, title, description, keys, summary):
+    questions = [type_q(k) for k in keys]
+    pids = list(dict.fromkeys(q["point"] for q in questions))
+    points = [{"id": p, "title": TYPE_POINTS[p][0], "summary": TYPE_POINTS[p][1] + " " + summary, "body": TYPES_BODY,
+               "examples": []} for p in pids]
+    QZ[fname] = {"id": id, "category": "Verb Lab", "title": title, "description": description,
+                 "level": "Verbs", "points": points, "questions": questions}
+
+
+mc_quiz("01_types", "verbs-types", "Verb Types (る, う or Irregular?)",
+        "Learn to tell a verb's type from its dictionary form — the first step for every conjugation.",
+        ["書く", "食べる", "分かる", "する", "話す", "見る", "作る", "来る", "待つ", "起きる", "乗る", "勉強する",
+         "死ぬ", "教える", "取る", "遊ぶ", "借りる", "座る", "泳ぐ", "忘れる", "買う", "閉める"], "")
+mc_quiz("02_exceptions", "verbs-exceptions", "The Sneaky Exceptions: う-Verbs in Disguise",
+        "Verbs in -iる / -eる are usually る-verbs — except a short list you just have to know.",
+        ["帰る", "着る", "入る", "変える", "走る", "降りる", "切る", "浴びる", "知る", "信じる", "要る", "生きる",
+         "喋る", "見せる", "滑る", "足りる", "焦る", "覚える", "減る", "握る", "蹴る", "限る"], "")
+
+GUIDE["lookalike"] = ("Lookalike verbs", "Verbs that sound the same (or almost) but belong to different types.",
+                      "- **切る** (cut) is an う-verb → 切って, 切らない — **着る** (wear) is a る-verb → 着て, 着ない.\n"
+                      "- **帰る** (go home) → 帰って, 帰らない — **変える** (change) → 変えて, 変えない.\n"
+                      "- **要る** (need) → 要らない — **いる** (be) → いない.\n"
+                      "- **入る** (enter) → 入って — **入れる** (put in) → 入れて.\n"
+                      "- **知る**, **走る**, **喋る**, **滑る**, **焦る**, **減る** look like る-verbs but are う-verbs.\n\n"
+                      "Tip: learn each exception together with its ない-form (帰らない, 知らない) — that form gives the type away.")
+quiz("03_lookalikes", "verbs-lookalikes", "Lookalike Verbs: 切る or 着る?",
+     "Pairs that sound alike but conjugate differently — type the right form in context.", "lookalike", [
+    ("{美容院|びよういん}で{髪|かみ}を{短|みじか}く（　）。", "切る", "mashita", "I had my hair cut short at the salon."),
+    ("{寒|さむ}かったので、コートを（　）。", "着る", "mashita", "It was cold, so I wore a coat."),
+    ("{玉|たま}ねぎを{細|こま}かく（　）ください。", "切る", "tekudasai", "Please chop the onion finely."),
+    ("{結婚式|けっこんしき}で{着物|きもの}を（　）{写真|しゃしん}を{撮|と}った。", "着る", "te", "I wore a kimono at the wedding and had photos taken."),
+    ("{彼|かれ}はもう{家|いえ}に（　）よ。", "帰る", "ta", "He's already gone home."),
+    ("{髪|かみ}の{色|いろ}を{明|あか}るく（　）。", "変える", "ta", "I changed my hair to a lighter colour."),
+    ("{雨|あめ}は{降|ふ}らないから、{傘|かさ}は（　）よ。", "要る", "nai", "It won't rain, so you don't need an umbrella."),
+    ("{兄|あに}は{今|いま}、{家|いえ}に（　）よ。", "いる", "nai", "My brother isn't at home right now."),
+    ("どうぞ、{中|なか}に（　）ください。", "入る", "tekudasai", "Please come in."),
+    ("{牛乳|ぎゅうにゅう}を{冷蔵庫|れいぞうこ}に（　）ください。", "入れる", "tekudasai", "Please put the milk in the fridge."),
+    ("その{人|ひと}の{名前|なまえ}は（　）。", "知る", "nai", "I don't know that person's name."),
+    ("{毎朝|まいあさ}{公園|こうえん}を（　）。", "走る", "masu", "I run in the park every morning."),
+    ("{毎晩|まいばん}11{時|じ}に（　）。", "寝る", "masu", "I go to bed at eleven every night."),
+    ("{授業中|じゅぎょうちゅう}に（　）はいけません。", "喋る", "te", "You mustn't chat during class."),
+    ("{凍|こお}った{道|みち}で（　）、{転|ころ}んでしまった。", "滑る", "te", "I slipped on the icy road and fell."),
+    ("{時間|じかん}はあるから、（　）でゆっくりやって。", "焦る", "nai", "There's time, so don't rush — take it slowly."),
+    ("{先月|せんげつ}より{体重|たいじゅう}が2キロ（　）。", "減る", "ta", "I've lost two kilos since last month."),
+    ("{電車|でんしゃ}を（　）、{駅|えき}まで{歩|ある}いた。", "降りる", "te", "I got off the train and walked to the station."),
+], pid_fn=lambda key, form: "lk-u" if VERBS[key][2] == "u" else "lk-ru",
+   titles={"lk-u": "う-verbs that look like る-verbs", "lk-ru": "Real る-verbs (the lookalike partners)"})
+
+# --- back to the dictionary form
+TE_BACK = {"う": "って ← う, つ or る", "つ": "って ← う, つ or る", "る": "って ← う, つ or る", "ぬ": "んで ← ぬ, ぶ or む",
+           "ぶ": "んで ← ぬ, ぶ or む", "む": "んで ← ぬ, ぶ or む", "く": "いて ← く", "ぐ": "いで ← ぐ", "す": "して ← す"}
+
+
+def back_q(key, form, pid):
+    kanji, r, cls = VERBS[key]
+    src_kana = forms(r, cls)[form][0]
+    src = ruby_form(src_kana, key)
+    shown = to_kanji(src_kana, key)
+    if cls == "kuru":
+        hint, rule = "Irregular: き・こ・く", "き / こ belong to the irregular 来る (きます, こない, きて)"
+    elif cls == "suru":
+        hint, rule = "Irregular verb", "し + ending comes from する (します, しない, して)"
+    elif form in ("te", "ta"):
+        if cls == "ru":
+            hint, rule = "Try a る-verb: is there a って / んで / いて?", "a plain て / た after an -i / -e sound: a る-verb, so add る"
+        elif cls == "iku":
+            hint, rule = "って ← う, つ, る … or the exception 行く", "行って is the one irregular て-form: 行く"
+        else:
+            hint = TE_BACK[r[-1]]
+            rule = f"{hint}; with this kanji only {kanji} makes sense"
+    elif form in ("nai",):
+        if cls == "ru":
+            hint, rule = "No あ-row sound before ない", "nothing but ない was added, so it's a る-verb: ない → る"
+        else:
+            hint = f"{src_kana[-3]} is an あ-row sound"
+            rule = f"{src_kana[-3]} (あ-row) + ない → back to the う-row: {src_kana[-3]} → {r[-1]}"
+    else:  # masu: an -e stem is always a る-verb; an -i stem can be either
+        stem = src_kana[:-2]
+        if VOWEL[stem[-1]] == "e":
+            hint, rule = "-e sound before ます", "an -e sound before ます only happens with る-verbs: ます → る"
+        else:
+            hint = "-i sound before ます: る-verb (+る) or う-verb (i → u)?"
+            to_u = {row[I]: u for u, row in ROW.items()}
+            ks = shown[:-2]  # 見, 借り, 書き, 入り
+            other = ks + "る" if cls == "u" else (ks[:-1] if ks[-1] == stem[-1] else ks) + to_u[stem[-1]]
+            rule = (f"an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). "
+                    f"You have to know the verb: here it's {'a る-verb' if cls == 'ru' else 'an う-verb'}, not {other}")
+    exc = " ⚠ An う-verb that looks like a る-verb." if is_exception(key) else ""
+    return {"point": pid, "prompt": f"{src} → （　）\n→ dictionary form", "options": [], "answer": 0,
+            "accept": list(dict.fromkeys([kanji, r])), "hint": hint,
+            "explanation": f"{shown}: {rule} → **{kanji}**.{exc}", "notes": [],
+            "translation": f"{kanji} = to {GLOSS[key]}" if key in GLOSS else ""}
+
+
+def drill_quiz(fname, id, title, description, guide, items, titles, keep_order=False, maker=None, rule_hints=False):
+    gt, gs, gb = GUIDE[guide]
+    questions = []
+    for key, form, pid in items:
+        if maker:
+            questions.append(maker(key, form, pid))
+            continue
+        accept, why, hint = build(key, form)
+        if rule_hints:  # sprints: the group's rule, not the start of the answer
+            hint = titles[pid]
+        questions.append({"point": pid, "prompt": f"{ruby(key)} → （　）\n→ {LABEL[form]}", "options": [], "answer": 0,
+                          "accept": accept, "hint": hint, "explanation": why, "notes": [],
+                          "translation": f"{VERBS[key][0]} = to {GLOSS[key]}" if key in GLOSS else ""})
+    pids = list(dict.fromkeys(q["point"] for q in questions))
+    points = [{"id": p, "title": titles[p], "summary": f"{gt}: {gs}", "body": gb, "examples": []} for p in pids]
+    QZ[fname] = {"id": id, "category": "Verb Lab", "title": title, "description": description,
+                 "level": "Verbs", "points": points, "questions": questions}
+    if keep_order:
+        QZ[fname]["keep_order"] = True
+
+
+GUIDE["back"] = ("Back to the dictionary form", "Reading or hearing a form, find the verb you'd look up.",
+                 "- **て / た**: って ← う・つ・る, んで ← ぬ・ぶ・む, いて ← く, いで ← ぐ, して ← す; a plain て after -i / -e → る-verb (+る).\n"
+                 "- **ない**: あ-row + ない → う-row (帰らない → 帰る, 買わない → 買う); no あ-row → る-verb (着ない → 着る).\n"
+                 "- **ます**: い-row + ます → う-row (書きます → 書く); otherwise る-verb (見ます → 見る).\n"
+                 "- Irregular: きて / こない → 来る, して / しない → する.")
+drill_quiz("04_back", "verbs-back", "Back to the Dictionary Form",
+           "See a form, find the verb: the skill you need when reading and listening.", "back", [
+    ("読む", "te", "back-te"), ("買う", "te", "back-te"), ("待つ", "ta", "back-te"), ("帰る", "te", "back-te"),
+    ("着る", "te", "back-te"), ("書く", "ta", "back-te"), ("急ぐ", "te", "back-te"), ("話す", "ta", "back-te"),
+    ("遊ぶ", "ta", "back-te"), ("行く", "te", "back-te"), ("来る", "te", "back-te"),
+    ("帰る", "nai", "back-nai"), ("着る", "nai", "back-nai"), ("知る", "nai", "back-nai"), ("買う", "nai", "back-nai"),
+    ("来る", "nai", "back-nai"), ("見る", "masu", "back-masu"), ("書く", "masu", "back-masu"), ("借りる", "masu", "back-masu"),
+    ("入る", "masu", "back-masu"),
+], {"back-te": "From て / た", "back-nai": "From ない", "back-masu": "From ます"}, maker=back_q)
+
+GUIDE["sprint_te"] = ("て-form sprint", "One form, many verbs in a row — build the rule first, then mix it.",
+                      "- る-verbs: drop る + て (食べて, 見て)\n- う・つ・る → **って** (買って, 待って, 帰って)\n"
+                      "- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n"
+                      "- Irregular: 行く → **行って**, する → して, 来る → 来(き)て\n\n"
+                      "Say each group aloud as a chant: *う・つ・る って, ぬ・ぶ・む んで, く いて, ぐ いで, す して*.")
+TE_TITLES = {"te-ru": "る-verbs: drop る + て", "te-tte": "う・つ・る → って", "te-nde": "ぬ・ぶ・む → んで",
+             "te-ite": "く → いて, ぐ → いで", "te-shite": "す → して", "te-irr": "Irregular: 行く, する, 来る"}
+drill_quiz("05_sprint_te", "verbs-sprint-te", "て-Form Sprint",
+           "20 verbs, one form: get the て-form groups into your fingers.", "sprint_te", [
+    ("買う", "te", "te-tte"), ("食べる", "te", "te-ru"), ("書く", "te", "te-ite"), ("飲む", "te", "te-nde"),
+    ("待つ", "te", "te-tte"), ("話す", "te", "te-shite"), ("行く", "te", "te-irr"), ("見る", "te", "te-ru"),
+    ("遊ぶ", "te", "te-nde"), ("帰る", "te", "te-tte"), ("泳ぐ", "te", "te-ite"), ("する", "te", "te-irr"),
+    ("死ぬ", "te", "te-nde"), ("起きる", "te", "te-ru"), ("貸す", "te", "te-shite"), ("来る", "te", "te-irr"),
+    ("切る", "te", "te-tte"), ("急ぐ", "te", "te-ite"), ("洗う", "te", "te-tte"), ("着る", "te", "te-ru"),
+], TE_TITLES, rule_hints=True)
+
+GUIDE["sprint_nai"] = ("ない-form sprint", "One form, many verbs in a row.",
+                       "- る-verbs: drop る + ない (食べない, 見ない)\n- う-verbs: last sound → あ-row + ない (書かない, 待たない)\n"
+                       "- **う → わ**: 買う → 買**わ**ない (not 買あない)\n- Irregular: する → しない, 来る → **こ**ない, ある → **ない**")
+drill_quiz("06_sprint_nai", "verbs-sprint-nai", "ない-Form Sprint",
+           "18 verbs, one form — including う → わ and the ones that don't follow the rules.", "sprint_nai", [
+    ("書く", "nai", "nai-u"), ("食べる", "nai", "nai-ru"), ("買う", "nai", "nai-wa"), ("帰る", "nai", "nai-u"),
+    ("見る", "nai", "nai-ru"), ("来る", "nai", "nai-irr"), ("話す", "nai", "nai-u"), ("会う", "nai", "nai-wa"),
+    ("着る", "nai", "nai-ru"), ("ある", "nai", "nai-irr"), ("待つ", "nai", "nai-u"), ("する", "nai", "nai-irr"),
+    ("知る", "nai", "nai-u"), ("起きる", "nai", "nai-ru"), ("言う", "nai", "nai-wa"), ("読む", "nai", "nai-u"),
+    ("洗う", "nai", "nai-wa"), ("忘れる", "nai", "nai-ru"),
+], {"nai-ru": "る-verbs: drop る + ない", "nai-u": "う-verbs: あ-row + ない", "nai-wa": "う → わ + ない",
+    "nai-irr": "Irregular: する, 来る, ある"}, rule_hints=True)
+
+GUIDE["ladder"] = ("Conjugation ladder", "One verb through all its forms, in order.",
+                   "**う-verbs walk through the vowel rows** (書く):\n"
+                   "- **あ** 書か + ない / れる / せる\n- **い** 書き + ます\n- **う** 書く (dictionary)\n"
+                   "- **え** 書け + る (can) / ば (if)\n- **お** 書こ + う (let's)\n- て / た: 書いて, 書いた\n\n"
+                   "**る-verbs** never change their stem: 食べ + ない / ます / る / られる / れば / よう / て / た.\n\n"
+                   "**来る** changes its vowel (こ・き・く), **する** becomes し / さ / でき.")
+LADDER = ["masu", "nai", "te", "ta", "potential", "volitional", "ba"]
+drill_quiz("07_ladder", "verbs-ladder", "Ladder 書く & 食べる: One Verb, All Forms",
+           "One う-verb and one る-verb, each through seven forms in order — see the vowel rows at work.", "ladder",
+           [("書く", f, "ladder-u") for f in LADDER] + [("食べる", f, "ladder-ru") for f in LADDER],
+           {"ladder-u": "う-verb ladder (書く)", "ladder-ru": "る-verb ladder (食べる)"}, keep_order=True)
+drill_quiz("08_ladder_irregular", "verbs-ladder-irregular", "Ladder 来る & する: the Irregulars",
+           "The two irregular verbs through seven forms in order.", "ladder",
+           [("来る", f, "ladder-kuru") for f in LADDER] + [("する", f, "ladder-suru") for f in LADDER],
+           {"ladder-kuru": "来る ladder", "ladder-suru": "する ladder"}, keep_order=True)
+
+
 def write(folder):
     os.makedirs(folder, exist_ok=True)
-    for fname, d in QZ.items():
+    for f in os.listdir(folder):
+        if f.endswith(".json"):
+            os.remove(os.path.join(folder, f))
+    for fname, d in sorted(QZ.items()):
         cnt = collections.Counter(q["point"] for q in d["questions"])
         assert {p["id"] for p in d["points"]} == set(cnt) and (d["id"] == "verbs-mixed" or min(cnt.values()) >= 2), (fname, cnt)
         for q in d["questions"]:
-            assert q["accept"] and "（　）" in q["prompt"], q["prompt"]
+            if q["options"]:
+                assert q["notes"][q["answer"]] == "" and all(n for i, n in enumerate(q["notes"]) if i != q["answer"]), q["prompt"]
+            else:
+                assert q["accept"] and "（　）" in q["prompt"], q["prompt"]
         with open(f"{folder}/{fname}.json", "w", encoding="utf-8") as f:
             f.write(json.dumps(d, ensure_ascii=False, indent=2) + "\n")
         print(f"{fname:16} {len(d['points'])} pts {len(d['questions'])} Q")

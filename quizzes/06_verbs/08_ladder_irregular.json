@@ -1,0 +1,215 @@
+{
+  "id": "verbs-ladder-irregular",
+  "category": "Verb Lab",
+  "title": "Ladder 来る & する: the Irregulars",
+  "description": "The two irregular verbs through seven forms in order.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "ladder-kuru",
+      "title": "来る ladder",
+      "summary": "Conjugation ladder: One verb through all its forms, in order.",
+      "body": "**う-verbs walk through the vowel rows** (書く):\n- **あ** 書か + ない / れる / せる\n- **い** 書き + ます\n- **う** 書く (dictionary)\n- **え** 書け + る (can) / ば (if)\n- **お** 書こ + う (let's)\n- て / た: 書いて, 書いた\n\n**る-verbs** never change their stem: 食べ + ない / ます / る / られる / れば / よう / て / た.\n\n**来る** changes its vowel (こ・き・く), **する** becomes し / さ / でき.",
+      "examples": []
+    },
+    {
+      "id": "ladder-suru",
+      "title": "する ladder",
+      "summary": "Conjugation ladder: One verb through all its forms, in order.",
+      "body": "**う-verbs walk through the vowel rows** (書く):\n- **あ** 書か + ない / れる / せる\n- **い** 書き + ます\n- **う** 書く (dictionary)\n- **え** 書け + る (can) / ば (if)\n- **お** 書こ + う (let's)\n- て / た: 書いて, 書いた\n\n**る-verbs** never change their stem: 食べ + ない / ます / る / られる / れば / よう / て / た.\n\n**来る** changes its vowel (こ・き・く), **する** becomes し / さ / でき.",
+      "examples": []
+    }
+  ],
+  "questions": [
+    {
+      "point": "ladder-kuru",
+      "prompt": "{来|く}る → （　）\n→ polite present",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来ます",
+        "きます"
+      ],
+      "hint": "き…",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来ます**.",
+      "notes": [],
+      "translation": "来る = to come"
+    },
+    {
+      "point": "ladder-kuru",
+      "prompt": "{来|く}る → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来ない",
+        "こない"
+      ],
+      "hint": "こ…",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来ない**.",
+      "notes": [],
+      "translation": "来る = to come"
+    },
+    {
+      "point": "ladder-kuru",
+      "prompt": "{来|く}る → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来て",
+        "きて"
+      ],
+      "hint": "き…",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来て**.",
+      "notes": [],
+      "translation": "来る = to come"
+    },
+    {
+      "point": "ladder-kuru",
+      "prompt": "{来|く}る → （　）\n→ plain past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来た",
+        "きた"
+      ],
+      "hint": "き…",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来た**.",
+      "notes": [],
+      "translation": "来る = to come"
+    },
+    {
+      "point": "ladder-kuru",
+      "prompt": "{来|く}る → （　）\n→ can … (plain)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来られる",
+        "こられる"
+      ],
+      "hint": "こ…",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来られる**.",
+      "notes": [],
+      "translation": "来る = to come"
+    },
+    {
+      "point": "ladder-kuru",
+      "prompt": "{来|く}る → （　）\n→ let's / I'll … (plain volitional)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来よう",
+        "こよう"
+      ],
+      "hint": "こ…",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来よう**.",
+      "notes": [],
+      "translation": "来る = to come"
+    },
+    {
+      "point": "ladder-kuru",
+      "prompt": "{来|く}る → （　）\n→ if … (ば-form)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来れば",
+        "くれば"
+      ],
+      "hint": "来れ…",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来れば**.",
+      "notes": [],
+      "translation": "来る = to come"
+    },
+    {
+      "point": "ladder-suru",
+      "prompt": "する → （　）\n→ polite present",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "します"
+      ],
+      "hint": "し…",
+      "explanation": "する is irregular (する): する → し + ending → **します**.",
+      "notes": [],
+      "translation": "する = to do"
+    },
+    {
+      "point": "ladder-suru",
+      "prompt": "する → （　）\n→ plain negative",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "しない"
+      ],
+      "hint": "し…",
+      "explanation": "する is irregular (する): する → し + ending → **しない**.",
+      "notes": [],
+      "translation": "する = to do"
+    },
+    {
+      "point": "ladder-suru",
+      "prompt": "する → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "して"
+      ],
+      "hint": "し…",
+      "explanation": "する is irregular (する): する → し + ending → **して**.",
+      "notes": [],
+      "translation": "する = to do"
+    },
+    {
+      "point": "ladder-suru",
+      "prompt": "する → （　）\n→ plain past",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "した"
+      ],
+      "hint": "し…",
+      "explanation": "する is irregular (する): する → し + ending → **した**.",
+      "notes": [],
+      "translation": "する = to do"
+    },
+    {
+      "point": "ladder-suru",
+      "prompt": "する → （　）\n→ can … (plain)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "できる"
+      ],
+      "hint": "で…",
+      "explanation": "する is irregular (する): する → できる → **できる**.",
+      "notes": [],
+      "translation": "する = to do"
+    },
+    {
+      "point": "ladder-suru",
+      "prompt": "する → （　）\n→ let's / I'll … (plain volitional)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "しよう"
+      ],
+      "hint": "し…",
+      "explanation": "する is irregular (する): する → しよう → **しよう**.",
+      "notes": [],
+      "translation": "する = to do"
+    },
+    {
+      "point": "ladder-suru",
+      "prompt": "する → （　）\n→ if … (ば-form)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "すれば"
+      ],
+      "hint": "すれ…",
+      "explanation": "する is irregular (する): する → すれば → **すれば**.",
+      "notes": [],
+      "translation": "する = to do"
+    }
+  ],
+  "keep_order": true
+}

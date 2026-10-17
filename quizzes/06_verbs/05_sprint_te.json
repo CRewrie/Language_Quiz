@@ -1,0 +1,332 @@
+{
+  "id": "verbs-sprint-te",
+  "category": "Verb Lab",
+  "title": "て-Form Sprint",
+  "description": "20 verbs, one form: get the て-form groups into your fingers.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "te-tte",
+      "title": "う・つ・る → って",
+      "summary": "て-form sprint: One form, many verbs in a row — build the rule first, then mix it.",
+      "body": "- る-verbs: drop る + て (食べて, 見て)\n- う・つ・る → **って** (買って, 待って, 帰って)\n- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n- Irregular: 行く → **行って**, する → して, 来る → 来(き)て\n\nSay each group aloud as a chant: *う・つ・る って, ぬ・ぶ・む んで, く いて, ぐ いで, す して*.",
+      "examples": []
+    },
+    {
+      "id": "te-ru",
+      "title": "る-verbs: drop る + て",
+      "summary": "て-form sprint: One form, many verbs in a row — build the rule first, then mix it.",
+      "body": "- る-verbs: drop る + て (食べて, 見て)\n- う・つ・る → **って** (買って, 待って, 帰って)\n- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n- Irregular: 行く → **行って**, する → して, 来る → 来(き)て\n\nSay each group aloud as a chant: *う・つ・る って, ぬ・ぶ・む んで, く いて, ぐ いで, す して*.",
+      "examples": []
+    },
+    {
+      "id": "te-ite",
+      "title": "く → いて, ぐ → いで",
+      "summary": "て-form sprint: One form, many verbs in a row — build the rule first, then mix it.",
+      "body": "- る-verbs: drop る + て (食べて, 見て)\n- う・つ・る → **って** (買って, 待って, 帰って)\n- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n- Irregular: 行く → **行って**, する → して, 来る → 来(き)て\n\nSay each group aloud as a chant: *う・つ・る って, ぬ・ぶ・む んで, く いて, ぐ いで, す して*.",
+      "examples": []
+    },
+    {
+      "id": "te-nde",
+      "title": "ぬ・ぶ・む → んで",
+      "summary": "て-form sprint: One form, many verbs in a row — build the rule first, then mix it.",
+      "body": "- る-verbs: drop る + て (食べて, 見て)\n- う・つ・る → **って** (買って, 待って, 帰って)\n- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n- Irregular: 行く → **行って**, する → して, 来る → 来(き)て\n\nSay each group aloud as a chant: *う・つ・る って, ぬ・ぶ・む んで, く いて, ぐ いで, す して*.",
+      "examples": []
+    },
+    {
+      "id": "te-shite",
+      "title": "す → して",
+      "summary": "て-form sprint: One form, many verbs in a row — build the rule first, then mix it.",
+      "body": "- る-verbs: drop る + て (食べて, 見て)\n- う・つ・る → **って** (買って, 待って, 帰って)\n- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n- Irregular: 行く → **行って**, する → して, 来る → 来(き)て\n\nSay each group aloud as a chant: *う・つ・る って, ぬ・ぶ・む んで, く いて, ぐ いで, す して*.",
+      "examples": []
+    },
+    {
+      "id": "te-irr",
+      "title": "Irregular: 行く, する, 来る",
+      "summary": "て-form sprint: One form, many verbs in a row — build the rule first, then mix it.",
+      "body": "- る-verbs: drop る + て (食べて, 見て)\n- う・つ・る → **って** (買って, 待って, 帰って)\n- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n- Irregular: 行く → **行って**, する → して, 来る → 来(き)て\n\nSay each group aloud as a chant: *う・つ・る って, ぬ・ぶ・む んで, く いて, ぐ いで, す して*.",
+      "examples": []
+    }
+  ],
+  "questions": [
+    {
+      "point": "te-tte",
+      "prompt": "{買|か}う → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "買って",
+        "かって"
+      ],
+      "hint": "う・つ・る → って",
+      "explanation": "{買|か}う is an う-verb (godan): う・つ・る → って → **買って**.",
+      "notes": [],
+      "translation": "買う = to buy"
+    },
+    {
+      "point": "te-ru",
+      "prompt": "{食|た}べる → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べて",
+        "たべて"
+      ],
+      "hint": "る-verbs: drop る + て",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べて**.",
+      "notes": [],
+      "translation": "食べる = to eat"
+    },
+    {
+      "point": "te-ite",
+      "prompt": "{書|か}く → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "書いて",
+        "かいて"
+      ],
+      "hint": "く → いて, ぐ → いで",
+      "explanation": "{書|か}く is an う-verb (godan): く → いて → **書いて**.",
+      "notes": [],
+      "translation": "書く = to write"
+    },
+    {
+      "point": "te-nde",
+      "prompt": "{飲|の}む → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "飲んで",
+        "のんで"
+      ],
+      "hint": "ぬ・ぶ・む → んで",
+      "explanation": "{飲|の}む is an う-verb (godan): ぬ・ぶ・む → んで → **飲んで**.",
+      "notes": [],
+      "translation": "飲む = to drink"
+    },
+    {
+      "point": "te-tte",
+      "prompt": "{待|ま}つ → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "待って",
+        "まって"
+      ],
+      "hint": "う・つ・る → って",
+      "explanation": "{待|ま}つ is an う-verb (godan): う・つ・る → って → **待って**.",
+      "notes": [],
+      "translation": "待つ = to wait"
+    },
+    {
+      "point": "te-shite",
+      "prompt": "{話|はな}す → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "話して",
+        "はなして"
+      ],
+      "hint": "す → して",
+      "explanation": "{話|はな}す is an う-verb (godan): す → して → **話して**.",
+      "notes": [],
+      "translation": "話す = to speak"
+    },
+    {
+      "point": "te-irr",
+      "prompt": "{行|い}く → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "行って",
+        "いって"
+      ],
+      "hint": "Irregular: 行く, する, 来る",
+      "explanation": "{行|い}く is an う-verb (godan) — with one exception: 行く is the exception: 行って / 行った (not 行いて) → **行って**.",
+      "notes": [],
+      "translation": "行く = to go"
+    },
+    {
+      "point": "te-ru",
+      "prompt": "{見|み}る → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "見て",
+        "みて"
+      ],
+      "hint": "る-verbs: drop る + て",
+      "explanation": "{見|み}る is a る-verb (ichidan): drop る + て / た → **見て**.",
+      "notes": [],
+      "translation": "見る = to see"
+    },
+    {
+      "point": "te-nde",
+      "prompt": "{遊|あそ}ぶ → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "遊んで",
+        "あそんで"
+      ],
+      "hint": "ぬ・ぶ・む → んで",
+      "explanation": "{遊|あそ}ぶ is an う-verb (godan): ぬ・ぶ・む → んで → **遊んで**.",
+      "notes": [],
+      "translation": "遊ぶ = to play"
+    },
+    {
+      "point": "te-tte",
+      "prompt": "{帰|かえ}る → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "帰って",
+        "かえって"
+      ],
+      "hint": "う・つ・る → って",
+      "explanation": "{帰|かえ}る is an う-verb (godan): う・つ・る → って → **帰って**. ⚠ {帰|かえ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "帰る = to go home"
+    },
+    {
+      "point": "te-ite",
+      "prompt": "{泳|およ}ぐ → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "泳いで",
+        "およいで"
+      ],
+      "hint": "く → いて, ぐ → いで",
+      "explanation": "{泳|およ}ぐ is an う-verb (godan): ぐ → いで → **泳いで**.",
+      "notes": [],
+      "translation": "泳ぐ = to swim"
+    },
+    {
+      "point": "te-irr",
+      "prompt": "する → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "して"
+      ],
+      "hint": "Irregular: 行く, する, 来る",
+      "explanation": "する is irregular (する): する → し + ending → **して**.",
+      "notes": [],
+      "translation": "する = to do"
+    },
+    {
+      "point": "te-nde",
+      "prompt": "{死|し}ぬ → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "死んで",
+        "しんで"
+      ],
+      "hint": "ぬ・ぶ・む → んで",
+      "explanation": "{死|し}ぬ is an う-verb (godan): ぬ・ぶ・む → んで → **死んで**.",
+      "notes": [],
+      "translation": "死ぬ = to die"
+    },
+    {
+      "point": "te-ru",
+      "prompt": "{起|お}きる → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "起きて",
+        "おきて"
+      ],
+      "hint": "る-verbs: drop る + て",
+      "explanation": "{起|お}きる is a る-verb (ichidan): drop る + て / た → **起きて**.",
+      "notes": [],
+      "translation": "起きる = to get up"
+    },
+    {
+      "point": "te-shite",
+      "prompt": "{貸|か}す → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "貸して",
+        "かして"
+      ],
+      "hint": "す → して",
+      "explanation": "{貸|か}す is an う-verb (godan): す → して → **貸して**.",
+      "notes": [],
+      "translation": "貸す = to lend"
+    },
+    {
+      "point": "te-irr",
+      "prompt": "{来|く}る → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "来て",
+        "きて"
+      ],
+      "hint": "Irregular: 行く, する, 来る",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来て**.",
+      "notes": [],
+      "translation": "来る = to come"
+    },
+    {
+      "point": "te-tte",
+      "prompt": "{切|き}る → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "切って",
+        "きって"
+      ],
+      "hint": "う・つ・る → って",
+      "explanation": "{切|き}る is an う-verb (godan): う・つ・る → って → **切って**. ⚠ {切|き}る ends in -iる like a る-verb, but it is one of the う-verb exceptions.",
+      "notes": [],
+      "translation": "切る = to cut"
+    },
+    {
+      "point": "te-ite",
+      "prompt": "{急|いそ}ぐ → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "急いで",
+        "いそいで"
+      ],
+      "hint": "く → いて, ぐ → いで",
+      "explanation": "{急|いそ}ぐ is an う-verb (godan): ぐ → いで → **急いで**.",
+      "notes": [],
+      "translation": "急ぐ = to hurry"
+    },
+    {
+      "point": "te-tte",
+      "prompt": "{洗|あら}う → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "洗って",
+        "あらって"
+      ],
+      "hint": "う・つ・る → って",
+      "explanation": "{洗|あら}う is an う-verb (godan): う・つ・る → って → **洗って**.",
+      "notes": [],
+      "translation": "洗う = to wash"
+    },
+    {
+      "point": "te-ru",
+      "prompt": "{着|き}る → （　）\n→ て-form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "着て",
+        "きて"
+      ],
+      "hint": "る-verbs: drop る + て",
+      "explanation": "{着|き}る is a る-verb (ichidan): drop る + て / た → **着て**.",
+      "notes": [],
+      "translation": "着る = to wear"
+    }
+  ]
+}

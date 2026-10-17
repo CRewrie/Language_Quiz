@@ -290,7 +290,7 @@ async function staticApi(path, body) {
   if (m) {
     const quiz = await staticQuiz(decodeURIComponent(m[1]), sc);
     const { id, language, title, description, level, points } = quiz;
-    return { id, language, title, description, level, points, questions: stripPrivate(spreadQuestions(publicQuestions(quiz))) };
+    return { id, language, title, description, level, points, questions: stripPrivate(quiz.keep_order ? publicQuestions(quiz) : spreadQuestions(publicQuestions(quiz))) };
   }
   if (url.pathname.endsWith("/api/mix")) {
     const category = url.searchParams.get("category");
@@ -435,10 +435,16 @@ const KINDS = [
   ["contrast", "⚖️", "Which one? (contrast)"],
   ["order", "★", "Sentence building"],
   ["reading", "📖", "Reading & exam practice"],
-  ["typed", "⌨️", "Type the form"],
+  ["vtypes", "🔎", "Step 1 · Verb types"],
+  ["drill", "🏃", "Step 2 · Form drills"],
+  ["typed", "⌨️", "Step 3 · Forms in context"],
 ];
 function quizKind(q) {
-  if (q.category === "Verb Lab") return "typed";
+  if (q.category === "Verb Lab") {
+    if (/verbs-(types|exceptions|lookalikes)/.test(q.id)) return "vtypes";
+    if (/verbs-(back|sprint|ladder)/.test(q.id)) return "drill";
+    return "typed";
+  }
   if (/contrast/.test(q.id)) return "contrast";
   if (/sentence-order|word-order|hsk-order/.test(q.id)) return "order";
   if (/bunsho|hsk/.test(q.id)) return "reading";
@@ -747,7 +753,8 @@ function wireTyped(q) {
   document.getElementById("hint-btn")?.addEventListener("click", () => {
     session.hinted = true;
     const box = document.getElementById("hint-box");
-    box.innerHTML = `Starts with <strong>${render(q.hint)}</strong> — this answer will count as 'with hint'.`;
+    const what = q.hint.endsWith("…") ? `Starts with <strong>${render(q.hint)}</strong>` : `Hint: <strong>${render(q.hint)}</strong>`;
+    box.innerHTML = `${what} — this answer will count as 'with hint'.`;
     box.hidden = false;
     input.focus();
   });

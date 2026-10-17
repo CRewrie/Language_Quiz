@@ -1,0 +1,435 @@
+{
+  "id": "verbs-types",
+  "category": "Verb Lab",
+  "title": "Verb Types (る, う or Irregular?)",
+  "description": "Learn to tell a verb's type from its dictionary form — the first step for every conjugation.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "not-ru",
+      "title": "Doesn't end in る → う-verb",
+      "summary": "書く, 話す, 待つ, 死ぬ, 遊ぶ, 読む, 泳ぐ, 買う: always う-verbs. ",
+      "body": "**How to tell the verb type** — look at the dictionary form:\n\n- Doesn't end in る (〜う, 〜く, 〜す, 〜つ …) → **う-verb**, always.\n- Ends in る, and the sound before it is **a / u / o** (分**か**る, 作**る**→つく**る**, 乗**る**) → **う-verb**, always.\n- Ends in **-iる / -eる** (見る, 起**き**る, 食**べ**る) → usually a **る-verb**.\n- …except a short list of common う-verbs: **帰る, 入る, 走る, 切る, 知る, 要る, 限る, 喋る, 滑る, 焦る, 減る, 蹴る, 握る, 散る**.\n- **する** and **来る** are irregular; 勉強する and other noun + する verbs conjugate like する.\n\n**Why it matters**\n- る-verbs drop る: 食べ**ない**, 食べ**ます**, 食べ**て**.\n- う-verbs change the last sound: 帰**ら**ない, 帰**り**ます, 帰**って**.\n\n**Check yourself:** if you know the ない-form, it tells you the type — 帰**ら**ない has an あ-row sound, so 帰る is an う-verb.",
+      "examples": []
+    },
+    {
+      "id": "ie-ru",
+      "title": "-iる / -eる → usually る-verb",
+      "summary": "見る, 起きる, 食べる, 教える: drop る for every form. ",
+      "body": "**How to tell the verb type** — look at the dictionary form:\n\n- Doesn't end in る (〜う, 〜く, 〜す, 〜つ …) → **う-verb**, always.\n- Ends in る, and the sound before it is **a / u / o** (分**か**る, 作**る**→つく**る**, 乗**る**) → **う-verb**, always.\n- Ends in **-iる / -eる** (見る, 起**き**る, 食**べ**る) → usually a **る-verb**.\n- …except a short list of common う-verbs: **帰る, 入る, 走る, 切る, 知る, 要る, 限る, 喋る, 滑る, 焦る, 減る, 蹴る, 握る, 散る**.\n- **する** and **来る** are irregular; 勉強する and other noun + する verbs conjugate like する.\n\n**Why it matters**\n- る-verbs drop る: 食べ**ない**, 食べ**ます**, 食べ**て**.\n- う-verbs change the last sound: 帰**ら**ない, 帰**り**ます, 帰**って**.\n\n**Check yourself:** if you know the ない-form, it tells you the type — 帰**ら**ない has an あ-row sound, so 帰る is an う-verb.",
+      "examples": []
+    },
+    {
+      "id": "aou-ru",
+      "title": "-aる / -uる / -oる → う-verb",
+      "summary": "分かる, 作る, 乗る, 取る: the sound before る is not i or e, so it's an う-verb. ",
+      "body": "**How to tell the verb type** — look at the dictionary form:\n\n- Doesn't end in る (〜う, 〜く, 〜す, 〜つ …) → **う-verb**, always.\n- Ends in る, and the sound before it is **a / u / o** (分**か**る, 作**る**→つく**る**, 乗**る**) → **う-verb**, always.\n- Ends in **-iる / -eる** (見る, 起**き**る, 食**べ**る) → usually a **る-verb**.\n- …except a short list of common う-verbs: **帰る, 入る, 走る, 切る, 知る, 要る, 限る, 喋る, 滑る, 焦る, 減る, 蹴る, 握る, 散る**.\n- **する** and **来る** are irregular; 勉強する and other noun + する verbs conjugate like する.\n\n**Why it matters**\n- る-verbs drop る: 食べ**ない**, 食べ**ます**, 食べ**て**.\n- う-verbs change the last sound: 帰**ら**ない, 帰**り**ます, 帰**って**.\n\n**Check yourself:** if you know the ない-form, it tells you the type — 帰**ら**ない has an あ-row sound, so 帰る is an う-verb.",
+      "examples": []
+    },
+    {
+      "id": "irregular",
+      "title": "Irregular: する and 来る",
+      "summary": "する (and every noun + する) and 来る — learn their forms by heart. ",
+      "body": "**How to tell the verb type** — look at the dictionary form:\n\n- Doesn't end in る (〜う, 〜く, 〜す, 〜つ …) → **う-verb**, always.\n- Ends in る, and the sound before it is **a / u / o** (分**か**る, 作**る**→つく**る**, 乗**る**) → **う-verb**, always.\n- Ends in **-iる / -eる** (見る, 起**き**る, 食**べ**る) → usually a **る-verb**.\n- …except a short list of common う-verbs: **帰る, 入る, 走る, 切る, 知る, 要る, 限る, 喋る, 滑る, 焦る, 減る, 蹴る, 握る, 散る**.\n- **する** and **来る** are irregular; 勉強する and other noun + する verbs conjugate like する.\n\n**Why it matters**\n- る-verbs drop る: 食べ**ない**, 食べ**ます**, 食べ**て**.\n- う-verbs change the last sound: 帰**ら**ない, 帰**り**ます, 帰**って**.\n\n**Check yourself:** if you know the ない-form, it tells you the type — 帰**ら**ない has an あ-row sound, so 帰る is an う-verb.",
+      "examples": []
+    }
+  ],
+  "questions": [
+    {
+      "point": "not-ru",
+      "prompt": "What type of verb is **{書|か}く**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{書|か}く ends in く, not る. Every verb that doesn't end in る is an う-verb: 書かない, 書きます, 書いて.",
+      "notes": [
+        "Only verbs ending in る can be る-verbs.",
+        "",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "書く = to write"
+    },
+    {
+      "point": "ie-ru",
+      "prompt": "What type of verb is **{食|た}べる**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "The sound before る is べ (-e), and -iる / -eる verbs are normally る-verbs: just drop る → 食べない, 食べます, 食べて.",
+      "notes": [
+        "",
+        "An う-verb would turn る into ら: 食べらない — but it's 食べない.",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "食べる = to eat"
+    },
+    {
+      "point": "aou-ru",
+      "prompt": "What type of verb is **{分|わ}かる**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "The sound before る is か (-a). Verbs in -aる are always う-verbs: 分からない, 分かります, 分かって.",
+      "notes": [
+        "A る-verb would just drop る: 分かない — but it's 分からない.",
+        "",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "分かる = to understand"
+    },
+    {
+      "point": "irregular",
+      "prompt": "What type of verb is **する**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 2,
+      "fixed_order": true,
+      "explanation": "する is one of only two irregular verbs: しない, します, して.",
+      "notes": [
+        "It doesn't follow the regular pattern: しない, します, して.",
+        "It doesn't follow the regular pattern: しない, します, して.",
+        ""
+      ],
+      "translation": "する = to do"
+    },
+    {
+      "point": "not-ru",
+      "prompt": "What type of verb is **{話|はな}す**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{話|はな}す ends in す, not る. Every verb that doesn't end in る is an う-verb: 話さない, 話します, 話して.",
+      "notes": [
+        "Only verbs ending in る can be る-verbs.",
+        "",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "話す = to speak"
+    },
+    {
+      "point": "ie-ru",
+      "prompt": "What type of verb is **{見|み}る**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "The sound before る is み (-i), and -iる / -eる verbs are normally る-verbs: just drop る → 見ない, 見ます, 見て.",
+      "notes": [
+        "",
+        "An う-verb would turn る into ら: 見らない — but it's 見ない.",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "見る = to see"
+    },
+    {
+      "point": "aou-ru",
+      "prompt": "What type of verb is **{作|つく}る**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "The sound before る is く (-u). Verbs in -uる are always う-verbs: 作らない, 作ります, 作って.",
+      "notes": [
+        "A る-verb would just drop る: 作ない — but it's 作らない.",
+        "",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "作る = to make"
+    },
+    {
+      "point": "irregular",
+      "prompt": "What type of verb is **{来|く}る**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 2,
+      "fixed_order": true,
+      "explanation": "来る is irregular — its vowel changes: 来ない, 来ます, 来て (こない, きます, きて).",
+      "notes": [
+        "It doesn't follow the regular pattern: 来ない, 来ます, 来て.",
+        "It doesn't follow the regular pattern: 来ない, 来ます, 来て.",
+        ""
+      ],
+      "translation": "来る = to come"
+    },
+    {
+      "point": "not-ru",
+      "prompt": "What type of verb is **{待|ま}つ**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{待|ま}つ ends in つ, not る. Every verb that doesn't end in る is an う-verb: 待たない, 待ちます, 待って.",
+      "notes": [
+        "Only verbs ending in る can be る-verbs.",
+        "",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "待つ = to wait"
+    },
+    {
+      "point": "ie-ru",
+      "prompt": "What type of verb is **{起|お}きる**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "The sound before る is き (-i), and -iる / -eる verbs are normally る-verbs: just drop る → 起きない, 起きます, 起きて.",
+      "notes": [
+        "",
+        "An う-verb would turn る into ら: 起きらない — but it's 起きない.",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "起きる = to get up"
+    },
+    {
+      "point": "aou-ru",
+      "prompt": "What type of verb is **{乗|の}る**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "The sound before る is の (-o). Verbs in -oる are always う-verbs: 乗らない, 乗ります, 乗って.",
+      "notes": [
+        "A る-verb would just drop る: 乗ない — but it's 乗らない.",
+        "",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "乗る = to ride"
+    },
+    {
+      "point": "irregular",
+      "prompt": "What type of verb is **{勉強|べんきょう}する**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 2,
+      "fixed_order": true,
+      "explanation": "{勉強|べんきょう}する is noun + する, so it conjugates exactly like する: 勉強しない, 勉強します, 勉強して.",
+      "notes": [
+        "It doesn't follow the regular pattern: 勉強しない, 勉強します, 勉強して.",
+        "It doesn't follow the regular pattern: 勉強しない, 勉強します, 勉強して.",
+        ""
+      ],
+      "translation": "勉強する = to study"
+    },
+    {
+      "point": "not-ru",
+      "prompt": "What type of verb is **{死|し}ぬ**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{死|し}ぬ ends in ぬ, not る. Every verb that doesn't end in る is an う-verb: 死なない, 死にます, 死んで.",
+      "notes": [
+        "Only verbs ending in る can be る-verbs.",
+        "",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "死ぬ = to die"
+    },
+    {
+      "point": "ie-ru",
+      "prompt": "What type of verb is **{教|おし}える**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "The sound before る is え (-e), and -iる / -eる verbs are normally る-verbs: just drop る → 教えない, 教えます, 教えて.",
+      "notes": [
+        "",
+        "An う-verb would turn る into ら: 教えらない — but it's 教えない.",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "教える = to teach"
+    },
+    {
+      "point": "aou-ru",
+      "prompt": "What type of verb is **{取|と}る**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "The sound before る is と (-o). Verbs in -oる are always う-verbs: 取らない, 取ります, 取って.",
+      "notes": [
+        "A る-verb would just drop る: 取ない — but it's 取らない.",
+        "",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "取る = to take"
+    },
+    {
+      "point": "not-ru",
+      "prompt": "What type of verb is **{遊|あそ}ぶ**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{遊|あそ}ぶ ends in ぶ, not る. Every verb that doesn't end in る is an う-verb: 遊ばない, 遊びます, 遊んで.",
+      "notes": [
+        "Only verbs ending in る can be る-verbs.",
+        "",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "遊ぶ = to play"
+    },
+    {
+      "point": "ie-ru",
+      "prompt": "What type of verb is **{借|か}りる**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "The sound before る is り (-i), and -iる / -eる verbs are normally る-verbs: just drop る → 借りない, 借ります, 借りて.",
+      "notes": [
+        "",
+        "An う-verb would turn る into ら: 借りらない — but it's 借りない.",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "借りる = to borrow"
+    },
+    {
+      "point": "aou-ru",
+      "prompt": "What type of verb is **{座|すわ}る**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "The sound before る is わ (-a). Verbs in -aる are always う-verbs: 座らない, 座ります, 座って.",
+      "notes": [
+        "A る-verb would just drop る: 座ない — but it's 座らない.",
+        "",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "座る = to sit"
+    },
+    {
+      "point": "not-ru",
+      "prompt": "What type of verb is **{泳|およ}ぐ**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{泳|およ}ぐ ends in ぐ, not る. Every verb that doesn't end in る is an う-verb: 泳がない, 泳ぎます, 泳いで.",
+      "notes": [
+        "Only verbs ending in る can be る-verbs.",
+        "",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "泳ぐ = to swim"
+    },
+    {
+      "point": "ie-ru",
+      "prompt": "What type of verb is **{忘|わす}れる**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "The sound before る is れ (-e), and -iる / -eる verbs are normally る-verbs: just drop る → 忘れない, 忘れます, 忘れて.",
+      "notes": [
+        "",
+        "An う-verb would turn る into ら: 忘れらない — but it's 忘れない.",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "忘れる = to forget"
+    },
+    {
+      "point": "not-ru",
+      "prompt": "What type of verb is **{買|か}う**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{買|か}う ends in う, not る. Every verb that doesn't end in る is an う-verb: 買わない, 買います, 買って.",
+      "notes": [
+        "Only verbs ending in る can be る-verbs.",
+        "",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "買う = to buy"
+    },
+    {
+      "point": "ie-ru",
+      "prompt": "What type of verb is **{閉|し}める**?",
+      "options": [
+        "る-verb (ichidan)",
+        "う-verb (godan)",
+        "irregular (する / 来る)"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "The sound before る is め (-e), and -iる / -eる verbs are normally る-verbs: just drop る → 閉めない, 閉めます, 閉めて.",
+      "notes": [
+        "",
+        "An う-verb would turn る into ら: 閉めらない — but it's 閉めない.",
+        "Only する (with noun + する verbs) and 来る are irregular."
+      ],
+      "translation": "閉める = to close"
+    }
+  ]
+}

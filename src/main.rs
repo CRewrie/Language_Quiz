@@ -44,6 +44,9 @@ struct Quiz {
     #[serde(default)]
     points: Vec<Point>,
     questions: Vec<Question>,
+    /// Ask the questions in file order (e.g. one verb through all its forms) instead of shuffling.
+    #[serde(default, skip_serializing_if = "std::ops::Not::not")]
+    keep_order: bool,
 }
 
 fn default_category() -> String {
@@ -425,7 +428,9 @@ async fn get_quiz(
         return (StatusCode::NOT_FOUND, "quiz not found").into_response();
     };
     let mut questions = public_questions(quiz);
-    spread(&mut questions);
+    if !quiz.keep_order {
+        spread(&mut questions);
+    }
     Json(PublicQuiz {
         id: &quiz.id,
         language: &quiz.language,
