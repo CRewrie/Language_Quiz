@@ -1,0 +1,213 @@
+{
+  "id": "n1-sentence-order2",
+  "category": "JLPT N1",
+  "title": "★ Sentence Building N1 (2)",
+  "description": "More JLPT-style ordering with N1 grammar from the later quizzes: んがため, かのごとく, こととて, うものなら, にひきかえ, べくもない, 羽目, ままに, ながらに, ずとも.",
+  "level": "N1",
+  "points": [
+    {
+      "id": "narabekae-n1",
+      "title": "Solving N1 ★ questions",
+      "summary": "Anchor the N1 pattern first, check what it attaches to, then fill in the rest.",
+      "body": "- **What comes before the pattern?** ない-stem + んがため, かの + ごとく, volitional + ものなら, 涙 + ながらに.\n- **What follows the last blank?** It must connect to the given ending.\n- Fixed chunks stay together: 家を, 事故の様子を.",
+      "examples": [
+        [
+          "{彼|かれ}は{何|なに}もなかったかのごとく{平然|へいぜん}と{振|ふ}る{舞|ま}った。",
+          "He acted calmly, as if nothing had happened."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "narabekae-n1",
+      "prompt": "{彼|かれ}は　＿＿　　＿＿　　★　　＿＿　{練習|れんしゅう}を{続|つづ}けた。\n（{毎日|まいにち}・{厳|きび}しい・{勝|か}た・んがため）",
+      "options": [
+        "{厳|きび}しい",
+        "{勝|か}た",
+        "{毎日|まいにち}",
+        "んがため"
+      ],
+      "answer": 2,
+      "explanation": "彼は **勝た んがため 毎日 厳しい** 練習を続けた。",
+      "notes": [
+        "厳しい modifies 練習 — slot 4.",
+        "勝た comes first — slot 1.",
+        "",
+        "んがため follows 勝た — slot 2."
+      ],
+      "translation": "Determined to win, he kept up hard training every day."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{彼|かれ}は{何|なに}も　＿＿　　＿＿　　★　　＿＿　{振|ふ}る{舞|ま}った。\n（{平然|へいぜん}と・かの・なかった・ごとく）",
+      "options": [
+        "なかった",
+        "かの",
+        "{平然|へいぜん}と",
+        "ごとく"
+      ],
+      "answer": 3,
+      "explanation": "彼は何も **なかった かの ごとく 平然と** 振る舞った。",
+      "notes": [
+        "なかった follows 何も — slot 1.",
+        "かの follows the verb — slot 2.",
+        "平然と goes with 振る舞った — slot 4.",
+        ""
+      ],
+      "translation": "He acted calmly, as if nothing had happened."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{子供|こども}の　＿＿　　＿＿　　★　　＿＿　ください。\n（どうか・お{許|ゆる}し・した・こととて）",
+      "options": [
+        "した",
+        "どうか",
+        "こととて",
+        "お{許|ゆる}し"
+      ],
+      "answer": 1,
+      "explanation": "子供の **した こととて どうか お許し** ください。",
+      "notes": [
+        "した follows 子供の — slot 1.",
+        "",
+        "こととて follows した — slot 2.",
+        "お許し goes before ください — slot 4."
+      ],
+      "translation": "It was done by a child — please forgive it."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{父|ちち}に　＿＿　　＿＿　　★　　＿＿　{追|お}い{出|だ}されるだろう。\n（{家|いえ}を・ものなら・{反対|はんたい}・しよう）",
+      "options": [
+        "ものなら",
+        "{家|いえ}を",
+        "{反対|はんたい}",
+        "しよう"
+      ],
+      "answer": 0,
+      "explanation": "父に **反対 しよう ものなら 家を** 追い出されるだろう。",
+      "notes": [
+        "",
+        "家を is the object of 追い出される — slot 4.",
+        "反対 follows 父に — slot 1.",
+        "しよう comes before ものなら — slot 2."
+      ],
+      "translation": "If I stood up to my father, he'd throw me out."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{勤勉|きんべん}な　＿＿　　＿＿　　★　　＿＿　だ。\n（{怠|なま}け{者|もの}・にひきかえ・{弟|おとうと}は・{兄|あに}）",
+      "options": [
+        "{兄|あに}",
+        "{弟|おとうと}は",
+        "にひきかえ",
+        "{怠|なま}け{者|もの}"
+      ],
+      "answer": 1,
+      "explanation": "勤勉な **兄 にひきかえ 弟は 怠け者** だ。",
+      "notes": [
+        "兄 follows 勤勉な — slot 1.",
+        "",
+        "にひきかえ follows 兄 — slot 2.",
+        "怠け者 goes before だ — slot 4."
+      ],
+      "translation": "Unlike his hard-working older brother, the younger one is lazy."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{今|いま}の　＿＿　　＿＿　　★　　＿＿　{望|のぞ}むべくもない。\n（{買|か}う・など・{給料|きゅうりょう}では・{家|いえ}を）",
+      "options": [
+        "など",
+        "{給料|きゅうりょう}では",
+        "{家|いえ}を",
+        "{買|か}う"
+      ],
+      "answer": 3,
+      "explanation": "今の **給料では 家を 買う など** 望むべくもない。",
+      "notes": [
+        "など comes before 望む — slot 4.",
+        "給料では follows 今の — slot 1.",
+        "家を is the object of 買う — slot 2.",
+        ""
+      ],
+      "translation": "On my current salary, buying a house is out of the question."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{財布|さいふ}を　＿＿　　＿＿　　★　　＿＿　になった。\n（{羽目|はめ}・{家|いえ}まで・{歩|ある}いて{帰|かえ}る・{忘|わす}れて）",
+      "options": [
+        "{羽目|はめ}",
+        "{家|いえ}まで",
+        "{歩|ある}いて{帰|かえ}る",
+        "{忘|わす}れて"
+      ],
+      "answer": 2,
+      "explanation": "財布を **忘れて 家まで 歩いて帰る 羽目** になった。",
+      "notes": [
+        "羽目 goes right before になった — slot 4.",
+        "家まで comes before 歩いて帰る — slot 2.",
+        "",
+        "忘れて follows 財布を — slot 1."
+      ],
+      "translation": "I forgot my wallet and ended up having to walk home."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{言|い}われる　＿＿　　＿＿　　★　　＿＿　。\n（しまった・{契約書|けいやくしょ}に・サインして・ままに）",
+      "options": [
+        "サインして",
+        "ままに",
+        "しまった",
+        "{契約書|けいやくしょ}に"
+      ],
+      "answer": 0,
+      "explanation": "言われる **ままに 契約書に サインして しまった**。",
+      "notes": [
+        "",
+        "ままに follows 言われる — slot 1.",
+        "しまった ends the sentence — slot 4.",
+        "契約書に comes before サインして — slot 2."
+      ],
+      "translation": "I ended up signing the contract just as I was told."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{彼女|かのじょ}は　＿＿　　＿＿　　★　　＿＿　{語|かた}った。\n（{様子|ようす}を・ながらに・{事故|じこ}の・{涙|なみだ}）",
+      "options": [
+        "{涙|なみだ}",
+        "{事故|じこ}の",
+        "{様子|ようす}を",
+        "ながらに"
+      ],
+      "answer": 1,
+      "explanation": "彼女は **涙 ながらに 事故の 様子を** 語った。",
+      "notes": [
+        "涙 comes first — slot 1.",
+        "",
+        "様子を is the object of 語った — slot 4.",
+        "ながらに follows 涙 — slot 2."
+      ],
+      "translation": "In tears, she described what had happened in the accident."
+    },
+    {
+      "point": "narabekae-n1",
+      "prompt": "{言|い}わ　＿＿　　＿＿　　★　　＿＿　わかる。\n（よく・{気持|きも}ちは・{彼|かれ}の・ずとも）",
+      "options": [
+        "ずとも",
+        "{彼|かれ}の",
+        "{気持|きも}ちは",
+        "よく"
+      ],
+      "answer": 2,
+      "explanation": "言わ **ずとも 彼の 気持ちは よく** わかる。",
+      "notes": [
+        "ずとも follows 言わ — slot 1.",
+        "彼の modifies 気持ち — slot 2.",
+        "",
+        "よく goes with わかる — slot 4."
+      ],
+      "translation": "Even without him saying it, I understand very well how he feels."
+    }
+  ]
+}

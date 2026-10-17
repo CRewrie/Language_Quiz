@@ -1897,4 +1897,126 @@ quiz("29_misc", "n1-misc", "Odds & Ends: か否か, ことだし, もので, よ
         ["", "After seeing.", "That's not the point.", "No."],
         "た瞬間 = **the instant**.", "")])
 
+# ================================================================ batch 5: text grammar & ★ (2)
+
+# ---------------------------------------------------------------- 30 文章の文法
+def passage_q(point, text, n, options, notes, explanation, translation):
+    """One blank of a 文章の文法 passage. `text` marks blanks as （1）…（4）; blank n is highlighted."""
+    shown = text.replace(f"（{n}）", f"**（{n}）**")
+    return Q(point, f"Which fits blank **({n})**?\n\n{shown}", options, notes, explanation, translation)
+
+P1 = ("{近年|きんねん}、スマートフォンの{普及|ふきゅう}に{伴|ともな}い、{紙|かみ}の{本|ほん}を{読|よ}む{人|ひと}が{減|へ}っている（1）。"
+      "{電子書籍|でんししょせき}は{手軽|てがる}で{便利|べんり}だ。（2）、{画面|がめん}で{読|よ}んだ{内容|ないよう}は{記憶|きおく}に{残|のこ}りにくいという{研究|けんきゅう}もある。"
+      "{読書|どくしょ}の{形|かたち}は{変|か}わっても、{本|ほん}を{読|よ}むこと{自体|じたい}の{価値|かち}が{失|うしな}われる（3）。"
+      "むしろ、{情報|じょうほう}があふれる{時代|じだい}だから（4）、じっくり{一冊|いっさつ}の{本|ほん}と{向|む}き{合|あ}う{時間|じかん}が{大切|たいせつ}なのではないだろうか。")
+P2 = ("かつて{日本|にほん}では、{一|ひと}つの{会社|かいしゃ}で{定年|ていねん}まで{働|はたら}くのが{当|あ}たり{前|まえ}（1）。"
+      "しかし、{終身雇用|しゅうしんこよう}が{崩|くず}れつつある{今|いま}、{転職|てんしょく}はもはや{珍|めずら}しいことではない。"
+      "{転職|てんしょく}を{繰|く}り{返|かえ}す{人|ひと}を「{我慢|がまん}が{足|た}りない」と{批判|ひはん}する{声|こえ}もある（2）、{自分|じぶん}の{能力|のうりょく}を{生|い}かせる{場所|ばしょ}を{求|もと}めて{行動|こうどう}することは、{決|けっ}して{悪|わる}いことではない。"
+      "{大切|たいせつ}なのは、{会社|かいしゃ}に{頼|たよ}る（3）、{自|みずか}らキャリアを{築|きず}いていく{姿勢|しせい}だ。"
+      "{変化|へんか}の{激|はげ}しい{時代|じだい}（4）、{一人一人|ひとりひとり}が{主体的|しゅたいてき}に{生|い}き{方|かた}を{選|えら}ぶ{必要|ひつよう}がある。")
+P3 = ("{私|わたし}の{故郷|こきょう}の{町|まち}では、{毎年|まいとし}{夏|なつ}に{三百年|さんびゃくねん}{続|つづ}く{祭|まつ}りが{行|おこな}われる。"
+      "{過疎化|かそか}が{進|すす}み、{担|にな}い{手|て}が{不足|ふそく}している（1）、{町|まち}の{人々|ひとびと}は{祭|まつ}りを{守|まも}ろうと{努力|どりょく}を{続|つづ}けてきた。"
+      "{昨年|さくねん}は、{若者|わかもの}がSNSで{祭|まつ}りの{魅力|みりょく}を{発信|はっしん}したの（2）、{町外|ちょうがい}から{多|おお}くの{観光客|かんこうきゃく}が{訪|おとず}れた。"
+      "{祭|まつ}りは{単|たん}なる{行事|ぎょうじ}（3）、{地域|ちいき}の{人々|ひとびと}をつなぐ{大切|たいせつ}な{絆|きずな}なのだ。"
+      "この{伝統|でんとう}が{次|つぎ}の{世代|せだい}に{受|う}け{継|つ}がれていくことを{願|ねが}って（4）。")
+
+quiz("30_bunsho", "n1-bunsho", "文章の文法: Grammar in Context",
+     "JLPT-style text grammar: three short essays with four blanks each. The right answer depends on the flow of the whole text, not just the sentence.",
+     [P("bunsho1", "Text 1: Reading in the digital age", "Watch the logic: a concession (電子書籍は便利だ) is followed by a counterpoint; むしろ … だからこそ gives the conclusion.",
+        "**Strategy for 文章の文法**\n- Read the whole text first, then the sentence around the blank.\n- Connectors (とはいえ, したがって, むしろ) follow the logic between sentences.\n- Endings (わけではない, と言われている, ではないだろうか) show the writer's stance.",
+        [["{近年|きんねん}、スマートフォンの{普及|ふきゅう}に{伴|ともな}い、{紙|かみ}の{本|ほん}を{読|よ}む{人|ひと}が{減|へ}っていると{言|い}われている。{電子書籍|でんししょせき}は{手軽|てがる}で{便利|べんり}だ。とはいえ、{画面|がめん}で{読|よ}んだ{内容|ないよう}は{記憶|きおく}に{残|のこ}りにくいという{研究|けんきゅう}もある。{読書|どくしょ}の{形|かたち}は{変|か}わっても、{本|ほん}を{読|よ}むこと{自体|じたい}の{価値|かち}が{失|うしな}われるわけではない。むしろ、{情報|じょうほう}があふれる{時代|じだい}だからこそ、じっくり{一冊|いっさつ}の{本|ほん}と{向|む}き{合|あ}う{時間|じかん}が{大切|たいせつ}なのではないだろうか。",
+          "It is said that, with the spread of smartphones, fewer people read paper books. E-books are handy and convenient. That said, research suggests that what we read on screens is harder to remember. Even if the form of reading changes, the value of reading itself isn't lost. If anything, it's precisely because we're flooded with information that time spent quietly with a single book matters."]]),
+      P("bunsho2", "Text 2: Changing careers", "かつて signals the past; ものの concedes; ことなく contrasts relying on the company with building your own career.",
+        "- かつて … → a past tense ending.\n- 批判する声もある**ものの** = although there are critics.\n- 頼る**ことなく** = without relying on.",
+        [["かつて{日本|にほん}では、{一|ひと}つの{会社|かいしゃ}で{定年|ていねん}まで{働|はたら}くのが{当|あ}たり{前|まえ}とされていた。しかし、{終身雇用|しゅうしんこよう}が{崩|くず}れつつある{今|いま}、{転職|てんしょく}はもはや{珍|めずら}しいことではない。{転職|てんしょく}を{繰|く}り{返|かえ}す{人|ひと}を{批判|ひはん}する{声|こえ}もあるものの、{自分|じぶん}の{能力|のうりょく}を{生|い}かせる{場所|ばしょ}を{求|もと}めて{行動|こうどう}することは、{決|けっ}して{悪|わる}いことではない。{大切|たいせつ}なのは、{会社|かいしゃ}に{頼|たよ}ることなく、{自|みずか}らキャリアを{築|きず}いていく{姿勢|しせい}だ。{変化|へんか}の{激|はげ}しい{時代|じだい}にあって、{一人一人|ひとりひとり}が{主体的|しゅたいてき}に{生|い}き{方|かた}を{選|えら}ぶ{必要|ひつよう}がある。",
+          "In Japan it was once taken for granted that you'd work for one company until retirement. But now that lifetime employment is crumbling, changing jobs is no longer unusual. Although some criticise job-hoppers, seeking a place where you can use your abilities is by no means bad. What matters is building your own career without relying on a company. In an age of rapid change, each of us needs to choose our own way of life."]]),
+      P("bunsho3", "Text 3: The town festival", "にもかかわらず marks 'despite (the shortage)'; をきっかけに a trigger; にとどまらず 'more than just'; the essay ends with a wish (てやまない).",
+        "- 不足している**にもかかわらず** … 努力を続けてきた.\n- 発信したの**をきっかけに** … 訪れた.\n- 単なる行事**にとどまらず** … 絆なのだ.\n- 願って**やまない**.",
+        [["{私|わたし}の{故郷|こきょう}の{町|まち}では、{毎年|まいとし}{夏|なつ}に{三百年|さんびゃくねん}{続|つづ}く{祭|まつ}りが{行|おこな}われる。{担|にな}い{手|て}が{不足|ふそく}しているにもかかわらず、{町|まち}の{人々|ひとびと}は{祭|まつ}りを{守|まも}ろうと{努力|どりょく}を{続|つづ}けてきた。{昨年|さくねん}は、{若者|わかもの}がSNSで{祭|まつ}りの{魅力|みりょく}を{発信|はっしん}したのをきっかけに、{多|おお}くの{観光客|かんこうきゃく}が{訪|おとず}れた。{祭|まつ}りは{単|たん}なる{行事|ぎょうじ}にとどまらず、{地域|ちいき}の{人々|ひとびと}をつなぐ{大切|たいせつ}な{絆|きずな}なのだ。この{伝統|でんとう}が{次|つぎ}の{世代|せだい}に{受|う}け{継|つ}がれていくことを{願|ねが}ってやまない。",
+          "In my hometown, a festival with a 300-year history is held every summer. Despite a shortage of people to run it, the townspeople have kept working to preserve it. Last year, after young people promoted the festival on social media, many tourists came from outside. The festival is more than just an event — it's a precious bond connecting the community. I sincerely hope this tradition will be handed down to the next generation."]])],
+     [passage_q("bunsho1", P1, 1, ["と{言|い}われている", "と{言|い}わせている", "と{言|い}われかねない", "を{言|い}われている"],
+        ["", "言わせている = 'is making (someone) say'.", "言われかねない = 'might well be said (bad)' — odd for a neutral trend.", "The particle before 言う for a quote is と."],
+        "Reporting a general claim: **と言われている**.", "It is said that, with the spread of smartphones, fewer people read paper books."),
+      passage_q("bunsho1", P1, 2, ["とはいえ", "そのうえ", "したがって", "すなわち"],
+        ["", "そのうえ adds another merit — but a drawback follows.", "したがって = 'therefore' — the drawback isn't caused by convenience.", "すなわち = 'namely' — it's not a restatement."],
+        "Merit → drawback: **とはいえ**.", "E-books are handy and convenient. That said, research suggests what we read on screens is harder to remember."),
+      passage_q("bunsho1", P1, 3, ["わけではない", "わけにはいかない", "にほかならない", "までもない"],
+        ["", "わけにはいかない = 'can't (for social reasons)'.", "にほかならない would say the value IS lost — むしろ in the next sentence contradicts that.", "までもない = 'needless to'."],
+        "Denying the conclusion: **わけではない**.", "Even if the form changes, the value of reading itself isn't lost."),
+      passage_q("bunsho1", P1, 4, ["こそ", "さえ", "すら", "まで"],
+        ["", "さえ = 'even'.", "すら = 'even'.", "まで = 'even / until'."],
+        "Precisely because: **からこそ**.", "If anything, it's precisely because we're flooded with information that time with one book matters."),
+      passage_q("bunsho2", P2, 1, ["とされていた", "とされている", "とみられる", "とあって"],
+        ["", "かつて needs the past.", "とみられる = 'is estimated' — not a social norm, and not past.", "とあって = 'because (special situation)' — leaves the sentence unfinished."],
+        "Past norm: **とされていた**.", "In Japan it was once taken for granted that you'd work for one company until retirement."),
+      passage_q("bunsho2", P2, 2, ["ものの", "ものだから", "ものなら", "ものを"],
+        ["", "ものだから = 'because' — criticism isn't the reason it's not bad.", "ものなら = 'if (one could)'.", "ものを = 'if only'."],
+        "Conceding: **ものの**.", "Although some criticise job-hoppers, seeking a place to use your abilities is by no means bad."),
+      passage_q("bunsho2", P2, 3, ["ことなく", "ことから", "ことだし", "ことには"],
+        ["", "ことから = 'from the fact that'.", "ことだし = 'since (casual)'.", "ことには = 'unless'."],
+        "Without: **ことなく**.", "What matters is building your own career without relying on a company."),
+      passage_q("bunsho2", P2, 4, ["にあって", "にとって", "について", "にわたって"],
+        ["", "にとって = 'for (someone)'.", "について = 'about'.", "にわたって = 'over (a span)'."],
+        "In (an age of): **にあって**.", "In an age of rapid change, each of us needs to choose our own way of life."),
+      passage_q("bunsho3", P3, 1, ["にもかかわらず", "にかかわらず", "にかかわる", "にもまして"],
+        ["", "にかかわらず = 'regardless of (whether)' — needs alternatives.", "にかかわる = 'relating to'.", "にもまして = 'even more than'."],
+        "Despite: **にもかかわらず**.", "Despite the shortage of people, the townspeople kept working to preserve the festival."),
+      passage_q("bunsho3", P3, 2, ["をきっかけに", "をよそに", "をおいて", "をもって"],
+        ["", "をよそに = 'ignoring'.", "をおいて = 'apart from'.", "をもって = 'by means of / as of' — too formal and not 'triggered by'."],
+        "Trigger: **をきっかけに**.", "Last year, after young people promoted it on social media, many tourists came."),
+      passage_q("bunsho3", P3, 3, ["にとどまらず", "にあたらず", "に{限|かぎ}って", "に{至|いた}って"],
+        ["", "にあたらず isn't the pattern.", "に限って = 'of all (things)'.", "に至って = 'when it came to'."],
+        "More than just: **にとどまらず**.", "The festival is more than just an event — it's a precious bond."),
+      passage_q("bunsho3", P3, 4, ["やまない", "やめない", "やまれない", "やまる"],
+        ["", "願ってやめない isn't the phrase.", "Not the form.", "Not a form."],
+        "Heartfelt wish: **てやまない**.", "I sincerely hope this tradition will be handed down.")])
+
+# The study guide shows each text with its blanks filled in, built from the same source.
+for _pid, _text, _answers in [("bunsho1", P1, ["と{言|い}われている", "とはいえ", "わけではない", "こそ"]),
+                              ("bunsho2", P2, ["とされていた", "ものの", "ことなく", "にあって"]),
+                              ("bunsho3", P3, ["にもかかわらず", "をきっかけに", "にとどまらず", "やまない"])]:
+    _full = _text
+    for _i, _a in enumerate(_answers, 1):
+        _full = _full.replace(f"（{_i}）", _a)
+    for _p in QZ["30_bunsho"]["points"]:
+        if _p["id"] == _pid:
+            _p["examples"][0][0] = _full
+
+# ---------------------------------------------------------------- 31 ★ (2)
+quiz("31_sentence_order2", "n1-sentence-order2", "★ Sentence Building N1 (2)",
+     "More JLPT-style ordering with N1 grammar from the later quizzes: んがため, かのごとく, こととて, うものなら, にひきかえ, べくもない, 羽目, ままに, ながらに, ずとも.",
+     [P("narabekae-n1", "Solving N1 ★ questions", "Anchor the N1 pattern first, check what it attaches to, then fill in the rest.",
+        "- **What comes before the pattern?** ない-stem + んがため, かの + ごとく, volitional + ものなら, 涙 + ながらに.\n- **What follows the last blank?** It must connect to the given ending.\n- Fixed chunks stay together: 家を, 事故の様子を.",
+        [["{彼|かれ}は{何|なに}もなかったかのごとく{平然|へいぜん}と{振|ふ}る{舞|ま}った。", "He acted calmly, as if nothing had happened."]])],
+     [star("{彼|かれ}は＿＿★＿{練習|れんしゅう}を{続|つづ}けた。", ["{毎日|まいにち}", "{厳|きび}しい", "{勝|か}た", "んがため"], ["{毎日|まいにち}", "{勝|か}た", "んがため", "{厳|きび}しい"],
+           ["", "勝た comes first — slot 1.", "んがため follows 勝た — slot 2.", "厳しい modifies 練習 — slot 4."],
+           "彼は **勝た んがため 毎日 厳しい** 練習を続けた。", "Determined to win, he kept up hard training every day."),
+      star("{彼|かれ}は{何|なに}も＿＿★＿{振|ふ}る{舞|ま}った。", ["{平然|へいぜん}と", "かの", "なかった", "ごとく"], ["ごとく", "なかった", "かの", "{平然|へいぜん}と"],
+           ["", "なかった follows 何も — slot 1.", "かの follows the verb — slot 2.", "平然と goes with 振る舞った — slot 4."],
+           "彼は何も **なかった かの ごとく 平然と** 振る舞った。", "He acted calmly, as if nothing had happened."),
+      star("{子供|こども}の＿＿★＿ください。", ["どうか", "お{許|ゆる}し", "した", "こととて"], ["どうか", "した", "こととて", "お{許|ゆる}し"],
+           ["", "した follows 子供の — slot 1.", "こととて follows した — slot 2.", "お許し goes before ください — slot 4."],
+           "子供の **した こととて どうか お許し** ください。", "It was done by a child — please forgive it."),
+      star("{父|ちち}に＿＿★＿{追|お}い{出|だ}されるだろう。", ["{家|いえ}を", "ものなら", "{反対|はんたい}", "しよう"], ["ものなら", "{反対|はんたい}", "しよう", "{家|いえ}を"],
+           ["", "反対 follows 父に — slot 1.", "しよう comes before ものなら — slot 2.", "家を is the object of 追い出される — slot 4."],
+           "父に **反対 しよう ものなら 家を** 追い出されるだろう。", "If I stood up to my father, he'd throw me out."),
+      star("{勤勉|きんべん}な＿＿★＿だ。", ["{怠|なま}け{者|もの}", "にひきかえ", "{弟|おとうと}は", "{兄|あに}"], ["{弟|おとうと}は", "{兄|あに}", "にひきかえ", "{怠|なま}け{者|もの}"],
+           ["", "兄 follows 勤勉な — slot 1.", "にひきかえ follows 兄 — slot 2.", "怠け者 goes before だ — slot 4."],
+           "勤勉な **兄 にひきかえ 弟は 怠け者** だ。", "Unlike his hard-working older brother, the younger one is lazy."),
+      star("{今|いま}の＿＿★＿{望|のぞ}むべくもない。", ["{買|か}う", "など", "{給料|きゅうりょう}では", "{家|いえ}を"], ["{買|か}う", "{給料|きゅうりょう}では", "{家|いえ}を", "など"],
+           ["", "給料では follows 今の — slot 1.", "家を is the object of 買う — slot 2.", "など comes before 望む — slot 4."],
+           "今の **給料では 家を 買う など** 望むべくもない。", "On my current salary, buying a house is out of the question."),
+      star("{財布|さいふ}を＿＿★＿になった。", ["{羽目|はめ}", "{家|いえ}まで", "{歩|ある}いて{帰|かえ}る", "{忘|わす}れて"], ["{歩|ある}いて{帰|かえ}る", "{家|いえ}まで", "{羽目|はめ}", "{忘|わす}れて"],
+           ["", "家まで comes before 歩いて帰る — slot 2.", "羽目 goes right before になった — slot 4.", "忘れて follows 財布を — slot 1."],
+           "財布を **忘れて 家まで 歩いて帰る 羽目** になった。", "I forgot my wallet and ended up having to walk home."),
+      star("{言|い}われる＿＿★＿。", ["しまった", "{契約書|けいやくしょ}に", "サインして", "ままに"], ["サインして", "{契約書|けいやくしょ}に", "ままに", "しまった"],
+           ["", "契約書に comes before サインして — slot 2.", "ままに follows 言われる — slot 1.", "しまった ends the sentence — slot 4."],
+           "言われる **ままに 契約書に サインして しまった**。", "I ended up signing the contract just as I was told."),
+      star("{彼女|かのじょ}は＿＿★＿{語|かた}った。", ["{様子|ようす}を", "ながらに", "{事故|じこ}の", "{涙|なみだ}"], ["{事故|じこ}の", "ながらに", "{涙|なみだ}", "{様子|ようす}を"],
+           ["", "ながらに follows 涙 — slot 2.", "涙 comes first — slot 1.", "様子を is the object of 語った — slot 4."],
+           "彼女は **涙 ながらに 事故の 様子を** 語った。", "In tears, she described what had happened in the accident."),
+      star("{言|い}わ＿＿★＿わかる。", ["よく", "{気持|きも}ちは", "{彼|かれ}の", "ずとも"], ["{気持|きも}ちは", "ずとも", "{彼|かれ}の", "よく"],
+           ["", "ずとも follows 言わ — slot 1.", "彼の modifies 気持ち — slot 2.", "よく goes with わかる — slot 4."],
+           "言わ **ずとも 彼の 気持ちは よく** わかる。", "Even without him saying it, I understand very well how he feels.")])
+
 write("quizzes/05_n1", seed=7101)
