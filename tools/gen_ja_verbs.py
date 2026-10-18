@@ -266,25 +266,63 @@ def _explain(key, form, answer):
         rest = {"teiru": " + いる", "teimasu": " + います", "tekudasai": " + ください", "temoii": " + もいい",
                 "tewaikenai": " + はいけない", "tara": " (た-form) + ら"}.get(form, "")
         return f"{v} is {CLASS_NAME[cls]}: {how}{rest} → {ans}."
+    fk = forms(reading, cls)
+    step = lambda f, tail: to_kanji(fk[f][0][:-len(tail)] + "る", key) if tail else ""  # the derived verb's dictionary form
     if form.startswith("potential"):
         how = "drop る + られる" if cls == "ru" else f"{last} → {shift(reading, E)[-1]} (え-row) + る"
-        return f"{v} is {CLASS_NAME[cls]}: {how}, then conjugate like a る-verb → {ans}."
+        pot = to_kanji(fk["potential"][0], key)
+        then = {"potential": "", "potential_masu": " It's a る-verb now, so polite: drop る + ます",
+                "potential_masen": " It's a る-verb now, so polite negative: drop る + ません"}[form]
+        if not then:
+            return f"{v} is {CLASS_NAME[cls]}: {how} → {ans} ('can …'; it conjugates like a る-verb from here)."
+        return f"{v} is {CLASS_NAME[cls]}: {how} → {pot} ('can …').{then} → {ans}."
     if form == "volitional":
         how = "drop る + よう" if cls == "ru" else f"{last} → {shift(reading, O)[-1]} (お-row) + う"
-        return f"{v} is {CLASS_NAME[cls]}: {how} → {ans}."
+        return f"{v} is {CLASS_NAME[cls]}: {how} → {ans} (plain 'let's / I'll'; polite: ましょう)."
     if form == "ba":
         how = "drop る + れば" if cls == "ru" else f"{last} → {shift(reading, E)[-1]} (え-row) + ば"
         return f"{v} is {CLASS_NAME[cls]}: {how} → {ans}."
     if form.startswith("passive"):
         how = "drop る + られる" if cls == "ru" else f"{last} → {shift(reading, A)[-1]} (あ-row) + れる"
-        return f"Passive: {v} is {CLASS_NAME[cls]}: {how} → {ans}."
+        tail = "た" if form == "passive_ta" else "ている"
+        then = "past: drop る + た" if tail == "た" else "drop る + ている (ongoing / generally)"
+        return f"Passive: {v} is {CLASS_NAME[cls]}: {how} → {step(form, tail)}, then like a る-verb, {then} → {ans}."
     if form == "causative_ta":
         how = "drop る + させる" if cls == "ru" else f"{last} → {shift(reading, A)[-1]} (あ-row) + せる"
-        return f"Causative: {v} is {CLASS_NAME[cls]}: {how}, past → {ans}."
+        return f"Causative: {v} is {CLASS_NAME[cls]}: {how} → {step(form, 'た')}, then past: drop る + た → {ans}."
     if form == "caus_pass_ta":
         how = "drop る + させられる" if cls == "ru" else f"{last} → {shift(reading, A)[-1]} (あ-row) + される (short form; せられる also works)"
-        return f"Causative-passive: {v} is {CLASS_NAME[cls]}: {how}, past → {ans}."
+        return f"Causative-passive: {v} is {CLASS_NAME[cls]}: {how} → {step(form, 'た')}, then past: drop る + た → {ans}."
     raise ValueError(form)
+
+
+CONFUSABLE = ["dict", "nai", "ta", "nakatta", "te", "teiru", "masu", "masen", "mashita", "mashou", "potential",
+              "potential_masu", "volitional", "ba", "tara", "passive_ta", "causative_ta"]
+
+
+def wrong_forms(key, form, accept):
+    """Typed answers that are a real form of the verb, just not the asked one (or the wrong verb class's pattern),
+    mapped to a note: the server shows it after 'You wrote …'."""
+    kanji, r, cls = VERBS[key]
+    fk = forms(r, cls)
+    taken = set(accept)
+    labels = collections.defaultdict(list)
+    for f in CONFUSABLE:
+        if f != form and fk[f][0] not in taken:
+            labels[fk[f][0]].append(LABEL[f])
+    out = {}
+    for kana, names in labels.items():
+        note = f"that's the {' / '.join(names)} form of {kanji}, but the cue asks for {LABEL[form]}."
+        out[kana] = out[to_kanji(kana, key)] = note
+    # the other verb class's pattern: 帰ない for 帰る, 食べらない for 食べる
+    if form in fk and r.endswith("る") and cls in ("ru", "u"):
+        other = "u" if cls == "ru" else "ru"
+        for kana in forms(r, other)[form][:1]:
+            if kana not in taken and kana not in out:
+                note = (f"that's the う-verb pattern, but {kanji} is a る-verb: just drop る." if cls == "ru" else
+                        f"that's the る-verb pattern, but {kanji} is an う-verb" + (" (one of the -iる/-eる exceptions)." if is_exception(key) else "."))
+                out[kana] = out[to_kanji(kana, key)] = note
+    return out
 
 
 def build(key, form):
@@ -348,6 +386,7 @@ def quiz(fname, id, title, description, guide, items, pid_fn=None, titles=None):
         questions.append({
             "point": pid, "prompt": f"{sentence}\n→ {ruby(key)}{gloss} · {LABEL[form]}", "options": [], "answer": 0,
             "accept": accept, "hint": hint, "explanation": why, "notes": [], "translation": en,
+            "wrong_forms": wrong_forms(key, form, accept),
         })
         if pid not in point_ids:
             point_ids.append(pid)
@@ -703,6 +742,7 @@ def drill_quiz(fname, id, title, description, guide, items, titles, keep_order=F
             hint = titles[pid]
         questions.append({"point": pid, "prompt": f"{ruby(key)} → （　）\n→ {LABEL[form]}", "options": [], "answer": 0,
                           "accept": accept, "hint": hint, "explanation": why, "notes": [],
+                          "wrong_forms": wrong_forms(key, form, accept),
                           "translation": f"{VERBS[key][0]} = to {GLOSS[key]}" if key in GLOSS else ""})
     pids = list(dict.fromkeys(q["point"] for q in questions))
     points = [{"id": p, "title": titles[p], "summary": f"{gt}: {gs}", "body": gb, "examples": []} for p in pids]

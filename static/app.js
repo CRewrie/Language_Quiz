@@ -442,7 +442,9 @@ async function staticApi(path, body) {
     const typed = q.accept?.length > 0;
     const given = normalizeAnswer(body.text || "");
     const correct = typed ? given !== "" && q.accept.some(a => normalizeAnswer(a) === given) : body.choice === q.answer;
-    const note = !typed && !correct && body.choice !== null ? (q.notes?.[body.choice] || null) : null;
+    const formNote = typed && !correct
+      ? Object.entries(q.wrong_forms || {}).find(([form]) => normalizeAnswer(form) === given)?.[1] : null;
+    const note = !typed && !correct && body.choice !== null ? (q.notes?.[body.choice] || null) : formNote || null;
     return {
       correct, answer: q.answer || 0, explanation: q.explanation, note, notes: q.notes || [],
       ...(typed ? { accepted: q.accept } : {}),
@@ -1046,7 +1048,9 @@ function typedFeedbackHtml(q, resp) {
   let html = resp.correct
     ? `<div class="feedback good"><h4>${LANGS[lang].correct} Correct${resp.helped ? " (with hint)" : ""}</h4>`
     : `<div class="feedback bad"><h4>The answer is 「${render(right[0] || "")}」</h4>`;
-  if (!resp.correct && resp.typed) html += `<div class="why-wrong">You wrote 「${escapeHtml(resp.typed)}」.</div>`;
+  if (!resp.correct && resp.typed) {
+    html += `<div class="why-wrong">You wrote 「${escapeHtml(resp.typed)}」${resp.note ? ` — ${render(resp.note)}` : "."}</div>`;
+  }
   if (also.length) html += `<p class="muted">Also accepted: ${also.map(a => `「${render(a)}」`).join(" ")}</p>`;
   html += `<span class="label">How it's formed</span><p>${render(resp.explanation)}</p>`;
   if (resp.translation) html += `<p class="translation">“${render(resp.translation)}”</p>`;

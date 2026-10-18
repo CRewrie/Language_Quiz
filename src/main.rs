@@ -83,6 +83,10 @@ struct Question {
     /// Optional hint for typed answers (e.g. the first kana), shown on request.
     #[serde(default, skip_serializing_if = "String::is_empty")]
     hint: String,
+    /// Typed answers that are a real but different form (e.g. the volitional instead of the potential),
+    /// mapped to a note saying so. Never sent to the browser before answering.
+    #[serde(default, skip_serializing_if = "HashMap::is_empty")]
+    wrong_forms: HashMap<String, String>,
     /// The grammar point behind the correct answer.
     explanation: String,
     /// One note per option: why that option is wrong (empty for the correct one).
@@ -485,6 +489,10 @@ async fn check(State(state): State<Shared>, Json(req): Json<CheckRequest>) -> Re
     };
     let note = match req.choice {
         Some(c) if !correct => q.notes.get(c).map(String::as_str).filter(|n| !n.is_empty()),
+        None if !correct && !q.accept.is_empty() => {
+            let given = req.text.as_deref().map(normalize_answer).unwrap_or_default();
+            q.wrong_forms.iter().find(|(form, _)| normalize_answer(form) == given).map(|(_, n)| n.as_str())
+        }
         _ => None,
     };
     Json(CheckResponse {
