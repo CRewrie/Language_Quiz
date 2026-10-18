@@ -7,3 +7,9 @@
 /Course JLPT Cover.xlsx
 /IMG_*.jpg
 __pycache__/
+
+# API keys and other secrets
+*_Key.txt
+*.key
+.env
+.env.*
