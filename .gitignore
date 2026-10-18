@@ -13,3 +13,6 @@ __pycache__/
 *.key
 .env
 .env.*
+
+# private drafts
+Roborock_Anzeige_Entwurf.txt
