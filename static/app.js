@@ -33,9 +33,42 @@ function renderBlocks(text) {
   }).join("");
 }
 
+// ---------- audio (sentences voiced by tools/tts.py; optional) ----------
+const AUDIO_BASE = window.QUIZ_STATIC ? "audio/" : "/audio/";
+let audioManifest = { q: {}, t: {} };
+const audioReady = fetch(AUDIO_BASE + "manifest.json")
+  .then(r => (r.ok ? r.json() : null)).then(m => { if (m) audioManifest = m; }).catch(() => {});
+let playing = null;
+
+const listenBtn = file => file
+  ? `<button class="listen" type="button" data-audio="${escapeHtml(file)}" title="Listen" aria-label="Listen">🔈</button>` : "";
+
+function playAudio(btn) {
+  if (playing) { playing.audio.pause(); playing.btn.classList.remove("playing"); }
+  const audio = new Audio(AUDIO_BASE + btn.dataset.audio);
+  playing = { audio, btn };
+  btn.classList.add("playing");
+  audio.addEventListener("ended", () => btn.classList.remove("playing"));
+  audio.play().catch(() => btn.classList.remove("playing"));
+}
+document.addEventListener("click", e => {
+  const btn = e.target.closest?.(".listen");
+  if (!btn) return;
+  e.preventDefault();
+  e.stopPropagation();
+  playAudio(btn);
+});
+
+// After answering: the whole sentence, read aloud.
+function addListen(q) {
+  const file = audioManifest.q[`${q.quiz_id}#${q.index}`];
+  const head = document.querySelector("#feedback .feedback h4");
+  if (file && head) head.insertAdjacentHTML("beforeend", listenBtn(file));
+}
+
 function guideHtml(point, open = false) {
   const examples = (point.examples || []).map(([jp, en]) =>
-    `<li><span class="ex-jp">${render(jp)}</span><span class="ex-en">${render(en)}</span></li>`).join("");
+    `<li><span class="ex-jp">${render(jp)}${listenBtn(audioManifest.t[plainText(jp)])}</span><span class="ex-en">${render(en)}</span></li>`).join("");
   return `
     <details class="guide"${open ? " open" : ""}>
       <summary><span class="guide-title">📖 ${render(point.title)}</span><span class="guide-summary">${render(point.summary)}</span></summary>
@@ -957,6 +990,7 @@ function renderAnswer(r) {
     const last = s.pos === s.questions.length - 1;
     document.getElementById("feedback").innerHTML = feedbackHtml(r.q, r.choice, r) + `
       <div class="actions"><button class="btn" id="next">${last ? "See results" : "Next →"}</button></div>`;
+    addListen(r.q);
     const next = document.getElementById("next");
     next.addEventListener("click", advance);
     next.focus({ preventScroll: true });
@@ -975,6 +1009,7 @@ function renderAnswer(r) {
   const fb = document.getElementById("feedback");
   fb.innerHTML = feedbackHtml(r.q, r.choice, r) + `
     <div class="actions"><button class="btn" id="next">${last ? "See results" : "Next →"}</button></div>`;
+  addListen(r.q);
   const next = document.getElementById("next");
   next.addEventListener("click", advance);
   next.focus({ preventScroll: true });
@@ -1172,5 +1207,5 @@ document.addEventListener("click", e => {
   if (!panel.hidden && !e.target.closest("#account-panel")) panel.hidden = true;
 });
 
-route();
+Promise.race([audioReady, new Promise(r => setTimeout(r, 800))]).then(route);
 initSync();

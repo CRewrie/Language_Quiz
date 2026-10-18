@@ -46,6 +46,17 @@ Signing in (GitHub or an email link, through Supabase) syncs best scores, the re
 - The table and its row-level-security rules are in `supabase/schema.sql`; run it once in the Supabase SQL editor.
 - Merging: best scores keep the higher value, review items keep the most recent answer, and the newer unfinished quiz wins.
 
+## Audio (text-to-speech)
+
+After answering, 🔈 plays the whole sentence; guide examples have one too. The files are made once with Google Cloud Text-to-Speech and served as static files (`audio/`, copied by `export`):
+
+```sh
+python3 tools/tts.py build ja-JP-Chirp3-HD-Charon quizzes/01_n5 quizzes/06_verbs   # only new sentences are voiced
+python3 tools/tts.py usage                                                       # characters used vs. the free tier
+```
+
+The API key is read from `TTS_Key.txt` (git-ignored) or `$GOOGLE_TTS_KEY`. Each request is logged in `tools/tts_usage.jsonl`. Files are named by a hash of voice + text, so editing a sentence voices it again and unchanged ones are reused.
+
 ## Adding quizzes
 
 Drop a JSON file anywhere under `quizzes/`. Subfolders are allowed, and files load in path order (`01_n5/` before `90_mixed/`). Restart the server to pick up changes; no recompile is needed.
@@ -92,3 +103,32 @@ Drop a JSON file anywhere under `quizzes/`. Subfolders are allowed, and files lo
 - `tools/gen_ja_verbs.py` generates the Verb Lab (`quizzes/06_verbs/`). It has a small conjugation engine covering る/う-verbs, する and 来る, keigo special verbs and the regular お〜になる / お〜する patterns. Step 1 teaches how to recognise る-verbs, う-verbs and the irregular verbs, including the う-verb exceptions that end in -iる / -eる and lookalike pairs. Step 2 has drills: back to the dictionary form, て/ない sprints and ladders. Step 3 has forms in context. The accepted answers, hints and "how it's formed" explanations are all derived from it.
 - Write Mandarin quizzes in simplified characters. The server converts them to traditional at startup (crate `zhconv`), and the 简/繁 switch picks the version through `script=simp|trad`.
 - `tools/gen_zh_a1.py`, `gen_zh_a2.py`, `gen_zh_b1.py` and `gen_zh_b2.py` generate the Mandarin quizzes from a compact `汉字/pīnyīn` notation, using the helpers in `tools/zhquiz.py`. The helpers include HSK formats (true/false, reading, A/B/C ordering). Run them from the repo root.
+
+
+Roborock S8 MaxV Ultra Saugroboter + Zubehör
+
+Ich verkaufe meinen Roborock S8 MaxV Ultra Saug- und Wischroboter mit Absaug- und Reinigungsstation. Der Roboter wurde nur selten genutzt und funktioniert einwandfrei. Die Basisstation habe ich vor dem Verkauf gründlich gereinigt. Leichte, normale Gebrauchsspuren am Gehäuse (siehe Fotos).
+
+Zum Gerät:
+- Saug- und Wischroboter mit bis zu 10.000 Pa Saugkraft
+- Reactive AI: Kamera-Hinderniserkennung (z. B. Kabel, Socken)
+- DuoRoller-Hauptbürsten, ausfahrbare Seitenbürste und ausfahrbarer
+Randwischmopp für saubere Ecken und Kanten
+- Wischmopp hebt sich auf Teppich automatisch an
+- Integrierter Sprachassistent
+- RockDock-Station: entleert den Staubbehälter automatisch, wäscht und trocknet den Wischmopp, füllt Wasser nach und dosiert Reinigungsmittel automatisch (Auto Dispenser)
+- Steuerung per Roborock-App
+
+Lieferumfang:
+- Roboter Roborock S8 MaxV Ultra
+- Basisstation (RockDock) mit Netzkabel
+- Zubehör (siehe Foto):
+
+Neupreis (UVP): ca. 1.499 €
+
+Der Roboter wird vor der Übergabe auf Werkseinstellungen zurückgesetzt und aus meinem App-Konto entfernt. Gerne kann er bei Abholung vorgeführt werden.
+
+Abholung in der NÜrnberger Innenstadt
+
+Privatverkauf: Der Verkauf erfolgt unter Ausschluss jeglicher
+Sachmängelhaftung (Gewährleistung). Keine Garantie, keine Rücknahme.

@@ -575,6 +575,9 @@ fn export(out: &Path, quizzes: &[Quiz], traditional: &[Option<Quiz>]) -> std::io
     fs::write(out.join("apple-touch-icon.png"), TOUCH_ICON_PNG)?;
     // Serve files as they are (no Jekyll processing on GitHub Pages).
     fs::write(out.join(".nojekyll"), "")?;
+    if audio_dir().is_dir() {
+        copy_dir(&audio_dir(), &out.join("audio"))?;
+    }
 
     let summary = |q: &Quiz| {
         serde_json::to_value(QuizSummary {
@@ -605,6 +608,53 @@ fn export(out: &Path, quizzes: &[Quiz], traditional: &[Option<Quiz>]) -> std::io
 
 fn json<T: Serialize + ?Sized>(value: &T) -> String {
     serde_json::to_string(value).expect("serializes")
+}
+
+/// Voiced sentences (made by tools/tts.py): next to the quizzes folder, or $AUDIO_DIR.
+fn audio_dir() -> PathBuf {
+    if let Ok(dir) = env::var("AUDIO_DIR") {
+        return dir.into();
+    }
+    let local = PathBuf::from("audio");
+    if local.is_dir() {
+        local
+    } else {
+        Path::new(env!("CARGO_MANIFEST_DIR")).join("audio")
+    }
+}
+
+async fn audio_file(UrlPath(path): UrlPath<String>) -> Response {
+    let safe = !path.is_empty()
+        && path.chars().all(|c| c.is_ascii_alphanumeric() || "/._-".contains(c))
+        && path.split('/').all(|part| !part.is_empty() && !part.starts_with('.'));
+    let content_type = if path.ends_with(".mp3") {
+        "audio/mpeg"
+    } else if path.ends_with(".json") {
+        "application/json"
+    } else {
+        ""
+    };
+    if !safe || content_type.is_empty() {
+        return StatusCode::NOT_FOUND.into_response();
+    }
+    match fs::read(audio_dir().join(&path)) {
+        Ok(bytes) => ([(header::CONTENT_TYPE, content_type), (header::CACHE_CONTROL, "public, max-age=3600")], bytes).into_response(),
+        Err(_) => StatusCode::NOT_FOUND.into_response(),
+    }
+}
+
+fn copy_dir(from: &Path, to: &Path) -> std::io::Result<()> {
+    fs::create_dir_all(to)?;
+    for entry in fs::read_dir(from)? {
+        let entry = entry?;
+        let target = to.join(entry.file_name());
+        if entry.file_type()?.is_dir() {
+            copy_dir(&entry.path(), &target)?;
+        } else {
+            fs::copy(entry.path(), target)?;
+        }
+    }
+    Ok(())
 }
 
 fn static_file(content_type: &'static str, body: &'static str) -> impl IntoResponse {
@@ -656,6 +706,7 @@ async fn main() {
         .route("/api/quizzes/{id}", get(get_quiz))
         .route("/api/mix", get(random_mix))
         .route("/api/check", post(check))
+        .route("/audio/{*path}", get(audio_file))
         .with_state(state);
 
     let port: u16 = env::var("PORT").ok().and_then(|p| p.parse().ok()).unwrap_or(3000);
