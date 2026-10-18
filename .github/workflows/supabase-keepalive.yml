@@ -1,0 +1,26 @@
+# Free Supabase projects pause after a week without requests; this pings the sync database twice a week.
+# The request runs as an anonymous user, so it is answered with "permission denied" — that still counts
+# as activity and proves the project is awake. The job fails (and GitHub emails you) if it is paused.
+name: Keep Supabase awake
+
+on:
+  schedule:
+    - cron: "17 6 * * 1,4"  # Monday and Thursday, 06:17 UTC
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping the progress table
+        env:
+          URL: https://xtasadbmddoduhlgrmix.supabase.co/rest/v1/progress?select=key&limit=1
+          KEY: sb_publishable_P-75H9XhpJ1Iibv9AaliAQ_nC4foxHO  # public key, same as in static/app.js
+        run: |
+          body=$(curl -sS --max-time 30 -w '\n%{http_code}' "$URL" -H "apikey: $KEY")
+          code=$(echo "$body" | tail -n1)
+          echo "HTTP $code: $(echo "$body" | head -n1)"
+          # 200 or 401/403 (anonymous access refused by the database) mean the project is up.
+          case "$code" in 200|401|403) ;; *) echo "::error::Supabase did not answer normally — is the project paused?"; exit 1 ;; esac
