@@ -19,9 +19,12 @@
       </div>
       <button class="sound-toggle" id="sound-toggle" type="button" aria-label="Sound on" title="Sound on/off">🔊</button>
       <label class="toggle"><input type="checkbox" id="furigana-toggle" checked> <span id="ruby-label">Furigana</span></label>
+      <button class="account-btn" id="account-btn" type="button" hidden>👤</button>
     </div>
+    <div class="account-panel" id="account-panel" hidden></div>
   </header>
   <main id="app"></main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.115.0/dist/umd/supabase.js"></script>
   <script src="/app.js"></script>
 </body>
 </html>

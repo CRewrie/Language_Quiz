@@ -38,6 +38,14 @@ The difference from the server is that the answers are in the JSON files, so any
 - **Verb Lab**: typed answers. You type the verb form yourself (kana, kanji or romaji, which turns into hiragana as you type). A **Hint** shows the first kana, and the answer then counts as "with hint".
 - **Review (spaced repetition)**: every first answer moves the question between Leitner boxes (due again after 0, 1, 3, 7, 14 or 30 days). Wrong answers and answers given with a hint start over. When questions are due, the home page offers a review session of up to 20 of them.
 
+## Account & sync (optional)
+
+Signing in (GitHub or an email link, through Supabase) syncs best scores, the review schedule and an unfinished quiz across devices. Without signing in, everything stays in the browser's localStorage. The page talks to Supabase directly, so this works on GitHub Pages and with the Rust server alike.
+
+- Project URL and publishable key are at the top of the sync section in `static/app.js`. Both are public by design.
+- The table and its row-level-security rules are in `supabase/schema.sql`; run it once in the Supabase SQL editor.
+- Merging: best scores keep the higher value, review items keep the most recent answer, and the newer unfinished quiz wins.
+
 ## Adding quizzes
 
 Drop a JSON file anywhere under `quizzes/`. Subfolders are allowed, and files load in path order (`01_n5/` before `90_mixed/`). Restart the server to pick up changes; no recompile is needed.

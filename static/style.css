@@ -311,3 +311,27 @@ details.qgroup > summary > span:first-child { flex: 1; }
   background: var(--good-soft); border: 1.5px solid var(--good); border-radius: 12px;
   padding: 10px 14px; color: var(--text); text-decoration: none; margin-bottom: 12px;
 }
+
+/* Account & sync */
+.topbar { position: relative; }
+.account-btn {
+  display: inline-flex; align-items: center; gap: 6px; background: none; color: var(--muted);
+  border: 1px solid var(--border); border-radius: 999px; padding: 4px 10px; font: inherit; font-size: 0.9rem; cursor: pointer;
+}
+.account-btn:hover { color: var(--text); }
+.account-panel {
+  position: absolute; top: 100%; right: 16px; z-index: 20; width: min(340px, calc(100vw - 32px));
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+.account-panel h3 { margin: 0 0 8px; }
+.account-panel p { margin: 6px 0; }
+.account-panel .or { margin-top: 14px; }
+.account-panel .small { font-size: 0.85rem; }
+.account-panel .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.login-email { display: flex; gap: 8px; }
+.login-email input {
+  flex: 1; min-width: 0; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border);
+  background: var(--bg); color: var(--text); font: inherit;
+}
+@media (max-width: 600px) { .account-btn .label { display: none; } }

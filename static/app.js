@@ -59,8 +59,9 @@ const store = {
   get(key, fallback) {
     try { const v = localStorage.getItem(key); return v === null ? fallback : JSON.parse(v); } catch { return fallback; }
   },
-  set(key, value) {
+  set(key, value, fromSync = false) {
     try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* storage unavailable */ }
+    if (!fromSync && SYNC_KEYS.includes(key)) syncChanged(key);
   },
 };
 
@@ -94,8 +95,139 @@ function loadProgress(...keys) {
   return p;
 }
 
+// Keeps a dated marker instead of deleting, so a finished quiz also wins over an older copy on another device.
 function clearProgress() {
-  try { localStorage.removeItem(PROGRESS_KEY); } catch { /* storage unavailable */ }
+  store.set(PROGRESS_KEY, { cleared: true, savedAt: Date.now() });
+}
+
+// ---------- account & sync (Supabase, optional) ----------
+// Signed-in users get best scores, the review schedule and the unfinished quiz synced across devices.
+// The app keeps reading localStorage; sync merges it with the server copy in the background.
+
+const SUPABASE_URL = "https://xtasadbmddoduhlgrmix.supabase.co";
+// Publishable key: meant to be public. Row level security limits every user to their own rows.
+const SUPABASE_KEY = "sb_publishable_P-75H9XhpJ1Iibv9AaliAQ_nC4foxHO";
+const SYNC_KEYS = ["best", "srs", PROGRESS_KEY];
+const sync = { client: null, user: null, timers: {}, state: "idle", error: "" };
+
+function mergeValue(key, a, b) {
+  if (a == null) return b;
+  if (b == null) return a;
+  if (key === "best") {
+    const out = { ...a };
+    for (const [k, v] of Object.entries(b)) out[k] = Math.max(out[k] ?? 0, v);
+    return out;
+  }
+  if (key === "srs") {  // per question, the most recent answer wins
+    const out = { ...a };
+    for (const [k, v] of Object.entries(b)) if (!out[k] || (v.at || 0) > (out[k].at || 0)) out[k] = v;
+    return out;
+  }
+  return (b.savedAt || 0) > (a.savedAt || 0) ? b : a;  // unfinished quiz: the newer one
+}
+
+function syncChanged(key) {
+  if (!sync.user) return;
+  clearTimeout(sync.timers[key]);
+  sync.timers[key] = setTimeout(() => syncKey(key), 1500);
+}
+
+// Reads the server copy, merges it into localStorage and writes the result back.
+async function syncKey(key) {
+  setSyncState("syncing");
+  const { data, error } = await sync.client.from("progress").select("value").eq("key", key).maybeSingle();
+  if (error) return setSyncState("error", error.message);
+  const local = store.get(key, null);
+  const merged = mergeValue(key, local, data?.value ?? null);
+  if (merged == null) return setSyncState("ok");
+  if (JSON.stringify(merged) !== JSON.stringify(local)) store.set(key, merged, true);
+  if (JSON.stringify(merged) !== JSON.stringify(data?.value ?? null)) {
+    const { error: e } = await sync.client.from("progress")
+      .upsert({ user_id: sync.user.id, key, value: merged, updated_at: new Date().toISOString() });
+    if (e) return setSyncState("error", e.message);
+  }
+  setSyncState("ok");
+  return JSON.stringify(merged) !== JSON.stringify(local);
+}
+
+async function syncAll() {
+  let changed = false;
+  for (const key of SYNC_KEYS) changed = (await syncKey(key)) || changed;
+  if (changed && !session) route();  // show merged scores on the home page
+}
+
+function setSyncState(state, error = "") {
+  sync.state = state;
+  sync.error = error;
+  renderAccount();
+}
+
+function initSync() {
+  if (!window.supabase?.createClient) return;  // CDN blocked or offline: the app works as before
+  sync.client = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, { auth: { flowType: "pkce" } });
+  document.getElementById("account-btn").hidden = false;
+  sync.client.auth.onAuthStateChange((event, s) => {
+    const before = sync.user?.id;
+    sync.user = s?.user || null;
+    if (/[?&]code=/.test(location.search)) history.replaceState(null, "", location.pathname + location.hash);
+    renderAccount();
+    // Supabase calls must not run inside this callback.
+    if (sync.user && sync.user.id !== before) setTimeout(syncAll, 0);
+  });
+}
+
+function accountName() {
+  const m = sync.user?.user_metadata || {};
+  return m.user_name || m.full_name || m.name || sync.user?.email || "you";
+}
+
+function renderAccount() {
+  const btn = document.getElementById("account-btn");
+  const panel = document.getElementById("account-panel");
+  if (!btn) return;
+  const icon = !sync.user ? "👤" : sync.state === "error" ? "⚠️" : sync.state === "syncing" ? "🔄" : "☁️";
+  btn.innerHTML = `<span aria-hidden="true">${icon}</span><span class="label">${sync.user ? "Synced" : "Sign in"}</span>`;
+  btn.title = sync.user ? `Signed in as ${accountName()}` : "Sign in to sync your progress";
+  if (panel.hidden) return;
+  const back = location.origin + location.pathname;
+  if (!sync.user) {
+    panel.innerHTML = `
+      <h3>Sync your progress</h3>
+      <p class="muted">Sign in to keep best scores, your review schedule and an unfinished quiz in sync across devices.
+        Without an account everything stays in this browser, as before.</p>
+      <button class="btn" id="login-github">Continue with GitHub</button>
+      <p class="muted or">or get a sign-in link by email</p>
+      <form id="login-email" class="login-email">
+        <input type="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email">
+        <button class="btn secondary">Send link</button>
+      </form>
+      <p class="muted small" id="account-msg"></p>`;
+    panel.querySelector("#login-github").addEventListener("click", () =>
+      sync.client.auth.signInWithOAuth({ provider: "github", options: { redirectTo: back } }));
+    panel.querySelector("#login-email").addEventListener("submit", async e => {
+      e.preventDefault();
+      const email = e.target.querySelector("input").value.trim();
+      const msg = panel.querySelector("#account-msg");
+      msg.textContent = "Sending…";
+      const { error } = await sync.client.auth.signInWithOtp({ email, options: { emailRedirectTo: back } });
+      msg.textContent = error ? `Could not send the link: ${error.message}`
+        : "Check your inbox and open the link in this browser.";
+    });
+  } else {
+    const status = { syncing: "Syncing…", error: `Sync problem: ${escapeHtml(sync.error)}`, ok: "✓ Up to date", idle: "Connecting…" }[sync.state];
+    panel.innerHTML = `
+      <h3>Signed in</h3>
+      <p>${escapeHtml(accountName())}</p>
+      <p class="muted">${status}</p>
+      <div class="actions"><button class="btn secondary" id="sync-now">Sync now</button>
+        <button class="btn secondary" id="logout">Sign out</button></div>
+      <p class="muted small">Signing out keeps your progress in this browser.</p>`;
+    panel.querySelector("#sync-now").addEventListener("click", syncAll);
+    panel.querySelector("#logout").addEventListener("click", async () => {
+      await sync.client.auth.signOut();
+      panel.hidden = true;
+    });
+  }
 }
 
 function progressLabel(p) {
@@ -167,6 +299,7 @@ function srsUpdate(q, correct, helped) {
   const srs = store.get("srs", {});
   const key = `${q.quiz_id}#${q.index}`;
   const p = srs[key] || { box: 0 };
+  p.at = Date.now();
   if (!correct) { p.box = 0; p.due = Date.now(); }
   else if (helped) { p.due = Date.now() + DAY; }
   else { p.box = Math.min(p.box + 1, SRS_DAYS.length - 1); p.due = Date.now() + SRS_DAYS[p.box] * DAY; }
@@ -1005,6 +1138,7 @@ document.getElementById("home-link").addEventListener("click", e => { e.preventD
 window.addEventListener("hashchange", route);
 
 document.addEventListener("keydown", e => {
+  if (e.target.closest?.("#account-panel")) return;
   if (!session || e.metaKey || e.ctrlKey || e.altKey) return;
   const s = session;
   if (!document.querySelector(".question")) return;
@@ -1027,4 +1161,16 @@ document.addEventListener("keydown", e => {
   else if (k === "0" || k === "?") answer(null);
 });
 
+document.getElementById("account-btn").addEventListener("click", e => {
+  e.stopPropagation();
+  const panel = document.getElementById("account-panel");
+  panel.hidden = !panel.hidden;
+  renderAccount();
+});
+document.addEventListener("click", e => {
+  const panel = document.getElementById("account-panel");
+  if (!panel.hidden && !e.target.closest("#account-panel")) panel.hidden = true;
+});
+
 route();
+initSync();
