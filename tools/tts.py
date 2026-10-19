@@ -54,6 +54,10 @@ def synth(text, voice, out, rate=0.95):
                 time.sleep(min(60, 2 ** attempt * 2))
                 continue
             raise SystemExit(f"TTS error {e.code}: {e.read().decode()[:300]}")
+        except (TimeoutError, urllib.error.URLError, ConnectionError) as e:  # network hiccup: retry
+            if attempt == 7:
+                raise SystemExit(f"TTS network error: {e}")
+            time.sleep(min(60, 2 ** attempt * 2))
     os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
     with open(out, "wb") as f:
         f.write(audio)
