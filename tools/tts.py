@@ -8,11 +8,11 @@ shows how much of the monthly free tier has been used.
     python3 tools/tts.py usage               # characters used per month and voice tier
     python3 tools/tts.py build <voice> <quiz folder>...   # voice every sentence (skips files that exist)
 
-`build` writes audio/<lang>/<hash>.mp3 and audio/manifest.json:
-    {"q": {"<quiz id>#<question index>": file}, "t": {"<sentence as written>": file}}
+`build` writes audio/<lang>/<hash>.mp3 and audio/manifest.json, one section per voice:
+    {"voices": {"<voice>": {"q": {"<quiz id>#<question index>": file}, "t": {"<sentence as written>": file}}}}
 "q" voices a question's sentence with the answer filled in (played after answering); "t" covers guide examples.
 """
-import base64, collections, datetime, glob, hashlib, html, json, os, re, sys, urllib.request
+import base64, collections, concurrent.futures, datetime, glob, hashlib, html, json, os, re, sys, threading, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "tools", "tts_usage.jsonl")
@@ -32,6 +32,9 @@ def tier(voice):
     return next((t for t in FREE if f"-{t}" in voice), "other")
 
 
+LEDGER_LOCK = threading.Lock()
+
+
 def synth(text, voice, out, rate=0.95):
     """Writes an MP3 for text with the given voice (e.g. ja-JP-Neural2-B) and logs the billed characters."""
     lang = "-".join(voice.split("-")[:2])
@@ -41,15 +44,20 @@ def synth(text, voice, out, rate=0.95):
         del body["audioConfig"]["speakingRate"]
     req = urllib.request.Request(f"https://texttospeech.googleapis.com/v1/text:synthesize?key={key()}",
                                  data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            audio = base64.b64decode(json.load(r)["audioContent"])
-    except urllib.error.HTTPError as e:  # the message never contains the key
-        raise SystemExit(f"TTS error {e.code}: {e.read().decode()[:300]}")
+    for attempt in range(8):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                audio = base64.b64decode(json.load(r)["audioContent"])
+            break
+        except urllib.error.HTTPError as e:  # the message never contains the key
+            if e.code in (429, 500, 503) and attempt < 7:  # per-minute rate limit or a hiccup: wait and retry
+                time.sleep(min(60, 2 ** attempt * 2))
+                continue
+            raise SystemExit(f"TTS error {e.code}: {e.read().decode()[:300]}")
     os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
     with open(out, "wb") as f:
         f.write(audio)
-    with open(LEDGER, "a", encoding="utf-8") as f:
+    with LEDGER_LOCK, open(LEDGER, "a", encoding="utf-8") as f:
         f.write(json.dumps({"at": datetime.datetime.now().isoformat(timespec="seconds"), "voice": voice,
                             "tier": tier(voice), "chars": len(text), "file": os.path.relpath(out, ROOT)},
                            ensure_ascii=False) + "\n")
@@ -142,22 +150,25 @@ def question_sentence(q):
     return s or None
 
 
-def build(voice, folders):
+def load_manifest():
+    m = json.load(open(MANIFEST, encoding="utf-8")) if os.path.exists(MANIFEST) else {}
+    if "q" in m:  # first version had a single voice
+        m = {"voices": {"ja-JP-Chirp3-HD-Charon": m}}
+    m.setdefault("voices", {})
+    return m
+
+
+def build(voice, folders, workers=3):
     lang = voice.split("-")[0]
-    manifest = json.load(open(MANIFEST, encoding="utf-8")) if os.path.exists(MANIFEST) else {"q": {}, "t": {}}
-    made = reused = chars = 0
+    manifest = load_manifest()
+    section = manifest["voices"].setdefault(voice, {"q": {}, "t": {}})
+    todo = {}  # file → text, voiced in parallel below
 
     def file_for(text):
-        nonlocal made, reused, chars
         h = hashlib.sha1(f"{voice}|{text}".encode()).hexdigest()[:16]
         rel = f"{lang}/{h}.mp3"
-        if os.path.exists(os.path.join(AUDIO, rel)):
-            reused += 1
-        else:
-            chars += synth(text, voice, os.path.join(AUDIO, rel))
-            made += 1
-            if made % 50 == 0:
-                print(f"  … {made} new files, {chars:,} characters")
+        if not os.path.exists(os.path.join(AUDIO, rel)):
+            todo[rel] = text
         return rel
 
     for folder in folders:
@@ -168,15 +179,24 @@ def build(voice, folders):
             for i, q in enumerate(d["questions"]):
                 s = question_sentence(q)
                 if s:
-                    manifest["q"][f"{d['id']}#{i}"] = file_for(s)
+                    section["q"][f"{d['id']}#{i}"] = file_for(s)
             for p in d.get("points", []):
                 for ex in p.get("examples", []):
-                    manifest["t"][plain(ex[0])] = file_for(plain(ex[0]))
+                    section["t"][plain(ex[0])] = file_for(plain(ex[0]))
+    print(f"{voice}: {len(todo)} sentences to voice ({sum(map(len, todo.values())):,} characters)")
+    chars = done = 0
+    with concurrent.futures.ThreadPoolExecutor(workers) as pool:
+        jobs = [pool.submit(synth, text, voice, os.path.join(AUDIO, rel)) for rel, text in todo.items()]
+        for job in concurrent.futures.as_completed(jobs):
+            chars += job.result()
+            done += 1
+            if done % 100 == 0:
+                print(f"  … {done} of {len(todo)}")
     os.makedirs(AUDIO, exist_ok=True)
     with open(MANIFEST, "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=0, sort_keys=True)
-    print(f"{made} new files ({chars:,} characters), {reused} already there; "
-          f"manifest: {len(manifest['q'])} questions, {len(manifest['t'])} example sentences")
+    print(f"{done} new files ({chars:,} characters); {voice}: {len(section['q'])} questions, "
+          f"{len(section['t'])} example sentences")
 
 
 if __name__ == "__main__":

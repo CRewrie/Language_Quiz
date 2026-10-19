@@ -35,9 +35,31 @@ function renderBlocks(text) {
 
 // ---------- audio (sentences voiced by tools/tts.py; optional) ----------
 const AUDIO_BASE = window.QUIZ_STATIC ? "audio/" : "/audio/";
-let audioManifest = { q: {}, t: {} };
+// {"voices": {"ja-JP-Chirp3-HD-Charon": {"q": {...}, "t": {...}}, ...}}
+let audioManifest = { voices: {} };
 const audioReady = fetch(AUDIO_BASE + "manifest.json")
-  .then(r => (r.ok ? r.json() : null)).then(m => { if (m) audioManifest = m; }).catch(() => {});
+  .then(r => (r.ok ? r.json() : null))
+  .then(m => { if (m) audioManifest = m.q ? { voices: { "ja-JP-Chirp3-HD-Charon": m } } : m; })
+  .catch(() => {});
+const VOICE_LANG = { ja: "ja-JP", zh: "cmn-CN" };
+const voicesFor = l => Object.keys(audioManifest.voices).filter(v => v.startsWith(VOICE_LANG[l] + "-")).sort();
+const voiceName = v => v.split("-").pop();
+const VOICE_SEX = { Charon: "♂", Aoede: "♀" };
+const DEFAULT_VOICE = { ja: "ja-JP-Chirp3-HD-Charon" };
+function currentVoice() {
+  const all = voicesFor(lang);
+  const saved = store.get(`voice:${lang}`, null);
+  return [saved, DEFAULT_VOICE[lang]].find(v => all.includes(v)) || all[0];
+}
+// The chosen voice, or any other voice that has this sentence.
+function audioFile(kind, key) {
+  const order = [currentVoice(), ...voicesFor(lang)];
+  for (const v of order) {
+    const f = v && audioManifest.voices[v]?.[kind]?.[key];
+    if (f) return f;
+  }
+  return null;
+}
 let playing = null;
 
 const listenBtn = file => file
@@ -61,14 +83,14 @@ document.addEventListener("click", e => {
 
 // After answering: the whole sentence, read aloud.
 function addListen(q) {
-  const file = audioManifest.q[`${q.quiz_id}#${q.index}`];
+  const file = audioFile("q", `${q.quiz_id}#${q.index}`);
   const head = document.querySelector("#feedback .feedback h4");
   if (file && head) head.insertAdjacentHTML("beforeend", listenBtn(file));
 }
 
 function guideHtml(point, open = false) {
   const examples = (point.examples || []).map(([jp, en]) =>
-    `<li><span class="ex-jp">${render(jp)}${listenBtn(audioManifest.t[plainText(jp)])}</span><span class="ex-en">${render(en)}</span></li>`).join("");
+    `<li><span class="ex-jp">${render(jp)}${listenBtn(audioFile("t", plainText(jp)))}</span><span class="ex-en">${render(en)}</span></li>`).join("");
   return `
     <details class="guide"${open ? " open" : ""}>
       <summary><span class="guide-title">📖 ${render(point.title)}</span><span class="guide-summary">${render(point.summary)}</span></summary>
@@ -782,6 +804,9 @@ async function showHome() {
           <button data-view="cards" class="${view === "cards" ? "active" : ""}">Cards</button>
           <button data-view="list" class="${view === "list" ? "active" : ""}">List</button>
         </div>
+        ${voicesFor(lang).length > 1 ? `<div class="segmented" role="group" aria-label="Voice">
+          ${voicesFor(lang).map(v => `<button data-voice="${v}" class="${v === currentVoice() ? "active" : ""}" title="Read-aloud voice">🔈 ${voiceName(v)} ${VOICE_SEX[voiceName(v)] || ""}</button>`).join("")}
+        </div>` : ""}
       </div>
     </div>
     <div class="home-layout">
@@ -821,6 +846,17 @@ async function showHome() {
   app.querySelectorAll("[data-view]").forEach(b => b.addEventListener("click", () => {
     store.set("view", b.dataset.view);
     showHome();
+  }));
+  app.querySelectorAll("[data-voice]").forEach(b => b.addEventListener("click", () => {
+    store.set(`voice:${lang}`, b.dataset.voice);
+    showHome();
+    // a short preview in the new voice
+    const sample = Object.values(audioManifest.voices[b.dataset.voice]?.t || {})[0];
+    if (sample) {
+      const btn = app.querySelector(`[data-voice="${b.dataset.voice}"]`);
+      btn.dataset.audio = sample;
+      playAudio(btn);
+    }
   }));
   app.querySelectorAll("[data-lang]").forEach(b => b.addEventListener("click", () => {
     setLang(b.dataset.lang);
