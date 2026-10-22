@@ -54,6 +54,23 @@ GLOSS = {
     "貸す": "lend", "脱ぐ": "take off", "出る": "leave", "開ける": "open",
 }
 
+# Adjectives: (kanji, reading, kind) — kind: i, ii (いい and compounds), na
+ADJ = {
+    "高い": ("高い", "たかい", "i"), "安い": ("安い", "やすい", "i"), "新しい": ("新しい", "あたらしい", "i"),
+    "古い": ("古い", "ふるい", "i"), "暑い": ("暑い", "あつい", "i"), "寒い": ("寒い", "さむい", "i"),
+    "忙しい": ("忙しい", "いそがしい", "i"), "楽しい": ("楽しい", "たのしい", "i"), "難しい": ("難しい", "むずかしい", "i"),
+    "おいしい": ("おいしい", "おいしい", "i"), "大きい": ("大きい", "おおきい", "i"), "小さい": ("小さい", "ちいさい", "i"),
+    "面白い": ("面白い", "おもしろい", "i"), "暗い": ("暗い", "くらい", "i"), "優しい": ("優しい", "やさしい", "i"),
+    "眠い": ("眠い", "ねむい", "i"), "早い": ("早い", "はやい", "i"), "痛い": ("痛い", "いたい", "i"),
+    "いい": ("いい", "いい", "ii"), "かっこいい": ("かっこいい", "かっこいい", "ii"),
+    "静か": ("静か", "しずか", "na"), "きれい": ("きれい", "きれい", "na"), "有名": ("有名", "ゆうめい", "na"),
+    "便利": ("便利", "べんり", "na"), "元気": ("元気", "げんき", "na"), "好き": ("好き", "すき", "na"),
+    "嫌い": ("嫌い", "きらい", "na"), "大変": ("大変", "たいへん", "na"), "簡単": ("簡単", "かんたん", "na"),
+    "上手": ("上手", "じょうず", "na"), "下手": ("下手", "へた", "na"), "暇": ("暇", "ひま", "na"),
+    "親切": ("親切", "しんせつ", "na"), "丁寧": ("丁寧", "ていねい", "na"), "大切": ("大切", "たいせつ", "na"),
+}
+LEX = collections.ChainMap(VERBS, ADJ)
+
 ROW = {"う": "わいうえお", "く": "かきくけこ", "ぐ": "がぎぐげご", "す": "さしすせそ", "つ": "たちつてと",
        "ぬ": "なにぬねの", "ぶ": "ばびぶべぼ", "む": "まみむめも", "る": "らりるれろ"}
 A, I, E, O = 0, 1, 3, 4
@@ -114,7 +131,7 @@ def forms(r, cls):
         "dict": [r], "nai": [nai], "ta": [te(r, cls, True)], "nakatta": [nai[:-1] + "かった"],
         "te": [te(r, cls)], "teiru": [te(r, cls) + "いる"], "teimasu": [te(r, cls) + "います"],
         "tekudasai": [te(r, cls) + "ください"], "temoii": [te(r, cls) + "もいい"], "tewaikenai": [te(r, cls) + "はいけない"],
-        "tara": [te(r, cls, True) + "ら"],
+        "tara": [te(r, cls, True) + "ら"], "tearu": [te(r, cls) + "ある"],
     }
     if cls == "ru": pot, vol, ba, pas, cau = r[:-1] + "られる", r[:-1] + "よう", r[:-1] + "れば", r[:-1] + "られる", r[:-1] + "させる"
     elif cls == "suru": p = r[:-2]; pot, vol, ba, pas, cau = p + "できる", p + "しよう", p + "すれば", p + "される", p + "させる"
@@ -160,7 +177,7 @@ def okuri(kanji, reading):
 
 
 def to_kanji(kana, key):
-    kanji, reading, cls = VERBS[key]
+    kanji, reading, cls = LEX[key]
     if kanji == reading:
         return kana
     if cls == "kuru":
@@ -171,7 +188,7 @@ def to_kanji(kana, key):
 
 
 def ruby(key):
-    kanji, reading, _ = VERBS[key]
+    kanji, reading, _ = LEX[key]
     if kanji == reading:
         return kanji
     n = okuri(kanji, reading)
@@ -215,7 +232,7 @@ LABEL = {
     "nakatta": "plain past negative", "te": "て-form", "teiru": "て-form + いる", "teimasu": "て-form + います",
     "tekudasai": "please do … (てください)", "temoii": "may … (てもいい)", "tewaikenai": "must not … (てはいけない)",
     "potential": "can … (plain)", "potential_masu": "can … (polite)", "potential_masen": "can't … (polite)",
-    "volitional": "let's / I'll … (plain volitional)", "ba": "if … (ば-form)", "tara": "if / when … (たら)",
+    "tearu": "て-form + ある", "volitional": "let's / I'll … (plain volitional)", "ba": "if … (ば-form)", "tara": "if / when … (たら)",
     "nakereba": "must … (なければならない)", "passive_ta": "passive, past", "passive_teiru": "passive + ている",
     "causative_ta": "causative (make / let), past", "caus_pass_ta": "causative-passive (was made to), past",
     "hon": "honorific (polite)", "hon_ta": "honorific, past", "hum": "humble (polite)", "hum_ta": "humble, past",
@@ -255,7 +272,7 @@ def _explain(key, form, answer):
         how = "drop る" if cls == "ru" else f"{last} → {shift(reading, A)[-1]} (あ-row{', う becomes わ' if last == 'う' else ''})"
         tail = {"nai": "+ ない", "nakatta": "+ なかった", "nakereba": "+ なければならない"}[form]
         return f"{v} is {CLASS_NAME[cls]}: {how} {tail} → {ans}."
-    if form in ("te", "ta", "teiru", "teimasu", "tekudasai", "temoii", "tewaikenai", "tara"):
+    if form in ("te", "ta", "teiru", "teimasu", "tekudasai", "temoii", "tewaikenai", "tara", "tearu"):
         if cls == "ru":
             how = "drop る + て / た"
         elif cls == "iku":
@@ -264,7 +281,7 @@ def _explain(key, form, answer):
             how = {"う": "う・つ・る → って", "つ": "う・つ・る → って", "る": "う・つ・る → って", "ぬ": "ぬ・ぶ・む → んで",
                    "ぶ": "ぬ・ぶ・む → んで", "む": "ぬ・ぶ・む → んで", "く": "く → いて", "ぐ": "ぐ → いで", "す": "す → して"}[last]
         rest = {"teiru": " + いる", "teimasu": " + います", "tekudasai": " + ください", "temoii": " + もいい",
-                "tewaikenai": " + はいけない", "tara": " (た-form) + ら"}.get(form, "")
+                "tewaikenai": " + はいけない", "tara": " (た-form) + ら", "tearu": " + ある"}.get(form, "")
         return f"{v} is {CLASS_NAME[cls]}: {how}{rest} → {ans}."
     fk = forms(reading, cls)
     step = lambda f, tail: to_kanji(fk[f][0][:-len(tail)] + "る", key) if tail else ""  # the derived verb's dictionary form
@@ -303,6 +320,8 @@ CONFUSABLE = ["dict", "nai", "ta", "nakatta", "te", "teiru", "masu", "masen", "m
 def wrong_forms(key, form, accept):
     """Typed answers that are a real form of the verb, just not the asked one (or the wrong verb class's pattern),
     mapped to a note: the server shows it after 'You wrote …'."""
+    if form.startswith("a_"):
+        return adj_wrong_forms(key, form, accept)
     kanji, r, cls = VERBS[key]
     fk = forms(r, cls)
     taken = set(accept)
@@ -327,6 +346,8 @@ def wrong_forms(key, form, accept):
 
 def build(key, form):
     """(accepted answers, explanation, hint) for a verb and a target form."""
+    if form.startswith("a_"):
+        return adj_build(key, form)
     if form in ("hon", "hon_ta", "hum", "hum_ta"):
         accept, why = keigo(key, form)
         accept = list(dict.fromkeys(accept))
@@ -811,6 +832,393 @@ drill_quiz("08_ladder_irregular", "verbs-ladder-irregular", "Ladder 来る & す
            "The two irregular verbs through seven forms in order.", "ladder",
            [("来る", f, "ladder-kuru") for f in LADDER] + [("する", f, "ladder-suru") for f in LADDER],
            {"ladder-kuru": "来る ladder", "ladder-suru": "する ladder"}, keep_order=True)
+
+
+# ---------------------------------------------------------------- more verbs for the sprints
+
+VERBS.update({
+    "習う": ("習う", "ならう", "u"), "手伝う": ("手伝う", "てつだう", "u"), "払う": ("払う", "はらう", "u"),
+    "笑う": ("笑う", "わらう", "u"), "思う": ("思う", "おもう", "u"), "勝つ": ("勝つ", "かつ", "u"), "頼む": ("頼む", "たのむ", "u"),
+    "住む": ("住む", "すむ", "u"), "選ぶ": ("選ぶ", "えらぶ", "u"), "運ぶ": ("運ぶ", "はこぶ", "u"), "置く": ("置く", "おく", "u"),
+    "磨く": ("磨く", "みがく", "u"), "探す": ("探す", "さがす", "u"), "渡す": ("渡す", "わたす", "u"), "脱ぐ": ("脱ぐ", "ぬぐ", "u"),
+    "調べる": ("調べる", "しらべる", "ru"), "答える": ("答える", "こたえる", "ru"), "考える": ("考える", "かんがえる", "ru"),
+    "疲れる": ("疲れる", "つかれる", "ru"), "遅れる": ("遅れる", "おくれる", "ru"), "間違える": ("間違える", "まちがえる", "ru"),
+    "着替える": ("着替える", "きがえる", "ru"), "心配する": ("心配する", "しんぱいする", "suru"),
+    "結婚する": ("結婚する", "けっこんする", "suru"), "予約する": ("予約する", "よやくする", "suru"),
+    # transitive / intransitive pairs
+    "開く": ("開く", "あく", "u"), "閉まる": ("閉まる", "しまる", "u"), "始まる": ("始まる", "はじまる", "u"),
+    "始める": ("始める", "はじめる", "ru"), "壊れる": ("壊れる", "こわれる", "ru"), "壊す": ("壊す", "こわす", "u"),
+    "落ちる": ("落ちる", "おちる", "ru"), "落とす": ("落とす", "おとす", "u"), "つく": ("つく", "つく", "u"),
+    "つける": ("つける", "つける", "ru"), "消える": ("消える", "きえる", "ru"), "消す": ("消す", "けす", "u"),
+    "止まる": ("止まる", "とまる", "u"), "止める": ("止める", "とめる", "ru"), "決まる": ("決まる", "きまる", "u"),
+    "決める": ("決める", "きめる", "ru"), "集まる": ("集まる", "あつまる", "u"), "集める": ("集める", "あつめる", "ru"),
+    "見つかる": ("見つかる", "みつかる", "u"), "見つける": ("見つける", "みつける", "ru"), "割れる": ("割れる", "われる", "ru"),
+    "掛かる": ("掛かる", "かかる", "u"), "掛ける": ("掛ける", "かける", "ru"), "変わる": ("変わる", "かわる", "u"),
+    "並ぶ": ("並ぶ", "ならぶ", "u"), "並べる": ("並べる", "ならべる", "ru"),
+})
+GLOSS.update({
+    "習う": "learn", "手伝う": "help", "払う": "pay", "笑う": "laugh", "思う": "think", "勝つ": "win", "頼む": "ask for",
+    "住む": "live", "選ぶ": "choose", "運ぶ": "carry", "置く": "put", "磨く": "brush, polish", "探す": "look for",
+    "渡す": "hand over", "調べる": "look up", "答える": "answer", "考える": "think about", "疲れる": "get tired",
+    "遅れる": "be late", "間違える": "make a mistake", "着替える": "get changed", "心配する": "worry",
+    "結婚する": "marry", "予約する": "book", "開く": "open (by itself)", "開ける": "open (something)",
+    "閉まる": "close (by itself)", "閉める": "close (something)", "始まる": "begin", "始める": "begin (something)",
+    "壊れる": "break (by itself)", "壊す": "break (something)", "落ちる": "fall", "落とす": "drop (something)",
+    "つく": "come on (light)", "つける": "switch on", "消える": "go out (light)", "消す": "switch off",
+    "止まる": "stop (by itself)", "止める": "stop, park (something)", "決まる": "be decided", "決める": "decide",
+    "集まる": "gather", "集める": "collect", "見つかる": "be found", "見つける": "find", "割れる": "break (glass)",
+    "掛かる": "hang", "掛ける": "hang (something)", "変わる": "change (by itself)", "入れる": "put in", "入る": "enter",
+    "書く": "write", "作る": "make", "割る": "break (something)", "並ぶ": "line up", "並べる": "line up (something)",
+})
+
+GUIDE["sprint_ta"] = ("た-form sprint", "The た-form is the て-form with た instead of て (だ instead of で).",
+                      GUIDE["sprint_te"][2].replace("て-form", "た-form"))
+drill_quiz("09_sprint_ta", "verbs-sprint-ta", "た-Form Sprint: 20 More Verbs",
+           "The past tense follows the て-form groups exactly — now with verbs you haven't drilled yet.", "sprint_ta", [
+    ("習う", "ta", "te-tte"), ("調べる", "ta", "te-ru"), ("置く", "ta", "te-ite"), ("頼む", "ta", "te-nde"),
+    ("勝つ", "ta", "te-tte"), ("探す", "ta", "te-shite"), ("選ぶ", "ta", "te-nde"), ("答える", "ta", "te-ru"),
+    ("脱ぐ", "ta", "te-ite"), ("払う", "ta", "te-tte"), ("住む", "ta", "te-nde"), ("心配する", "ta", "te-irr"),
+    ("磨く", "ta", "te-ite"), ("渡す", "ta", "te-shite"), ("疲れる", "ta", "te-ru"), ("走る", "ta", "te-tte"),
+    ("運ぶ", "ta", "te-nde"), ("行く", "ta", "te-irr"), ("笑う", "ta", "te-tte"), ("来る", "ta", "te-irr"),
+], {**TE_TITLES, "te-irr": "Irregular: 行く → 行った, する → した, 来る → 来た"}, rule_hints=True)
+
+drill_quiz("10_sprint_mixed", "verbs-sprint-mixed", "Mixed Sprint: Any Verb, Any Form",
+           "24 verbs, each in a different form. Work out the type first, then the form — that's the real skill.", "mixed", [
+    ("手伝う", "nai", "mixed"), ("考える", "masu", "mixed"), ("運ぶ", "potential", "mixed"), ("遅れる", "ta", "mixed"),
+    ("結婚する", "volitional", "mixed"), ("渡す", "ba", "mixed"), ("間違える", "nakatta", "mixed"), ("習う", "volitional", "mixed"),
+    ("帰る", "potential", "mixed"), ("着替える", "te", "mixed"), ("頼む", "passive_ta", "mixed"), ("思う", "masen", "mixed"),
+    ("磨く", "causative_ta", "mixed"), ("知る", "te", "mixed"), ("答える", "ba", "mixed"), ("住む", "teiru", "mixed"),
+    ("来る", "potential", "mixed"), ("探す", "volitional", "mixed"), ("入る", "nai", "mixed"), ("選ぶ", "masu", "mixed"),
+    ("予約する", "ta", "mixed"), ("置く", "tara", "mixed"), ("笑う", "passive_ta", "mixed"), ("切る", "ba", "mixed"),
+], {"mixed": "Mixed review"})
+
+
+# ---------------------------------------------------------------- adjectives
+
+ADJ_LABEL = {
+    "a_plain": "plain present", "a_desu": "polite present", "a_neg": "plain negative", "a_neg_p": "polite negative",
+    "a_past": "plain past", "a_past_p": "polite past", "a_pastneg": "plain past negative",
+    "a_pastneg_p": "polite past negative", "a_te": "て-form (… and …)", "a_adv": "adverb (…ly / に・く)",
+    "a_naru_ta": "became … (なった)", "a_sou": "looks … (そう)", "a_sugiru": "too … (すぎる)", "a_noun": "before a noun",
+    "a_ba": "if … (ば / なら)",
+}
+LABEL.update(ADJ_LABEL)
+NA_TRAPS = {"きれい", "嫌い", "有名", "丁寧"}  # な-adjectives that end in an い sound
+
+
+def adj_forms(key):
+    kanji, r, kind = ADJ[key]
+    if kind == "na":
+        b = r
+        return {
+            "a_plain": [b + "だ"], "a_desu": [b + "です"],
+            "a_neg": [b + "じゃない", b + "ではない"],
+            "a_neg_p": [b + "じゃないです", b + "じゃありません", b + "ではありません", b + "ではないです"],
+            "a_past": [b + "だった"], "a_past_p": [b + "でした"],
+            "a_pastneg": [b + "じゃなかった", b + "ではなかった"],
+            "a_pastneg_p": [b + "じゃなかったです", b + "じゃありませんでした", b + "ではありませんでした", b + "ではなかったです"],
+            "a_te": [b + "で"], "a_adv": [b + "に"], "a_naru_ta": [b + "になった"], "a_sou": [b + "そう"],
+            "a_sugiru": [b + "すぎる"], "a_noun": [b + "な"], "a_ba": [b + "なら", b + "ならば", b + "であれば"],
+        }
+    stem = r[:-2] + "よ" if kind == "ii" else r[:-1]
+    return {
+        "a_plain": [r], "a_desu": [r + "です"], "a_neg": [stem + "くない"],
+        "a_neg_p": [stem + "くないです", stem + "くありません"], "a_past": [stem + "かった"], "a_past_p": [stem + "かったです"],
+        "a_pastneg": [stem + "くなかった"], "a_pastneg_p": [stem + "くなかったです", stem + "くありませんでした"],
+        "a_te": [stem + "くて"], "a_adv": [stem + "く"], "a_naru_ta": [stem + "くなった"],
+        "a_sou": [stem + ("さそう" if kind == "ii" else "そう")], "a_sugiru": [stem + "すぎる"], "a_noun": [r],
+        "a_ba": [stem + "ければ"],
+    }
+
+
+ADJ_ENDING_I = {"a_neg": "くない", "a_neg_p": "くないです / くありません", "a_past": "かった", "a_past_p": "かったです",
+                "a_pastneg": "くなかった", "a_pastneg_p": "くなかったです / くありませんでした", "a_te": "くて", "a_adv": "く",
+                "a_naru_ta": "くなった", "a_sou": "そう", "a_sugiru": "すぎる", "a_ba": "ければ"}
+ADJ_ENDING_NA = {"a_plain": "だ", "a_desu": "です", "a_neg": "じゃない (written: ではない)",
+                 "a_neg_p": "じゃありません / じゃないです", "a_past": "だった", "a_past_p": "でした",
+                 "a_pastneg": "じゃなかった", "a_pastneg_p": "じゃありませんでした / じゃなかったです", "a_te": "で",
+                 "a_adv": "に", "a_naru_ta": "になった", "a_sou": "そう", "a_sugiru": "すぎる", "a_noun": "な",
+                 "a_ba": "なら"}
+
+
+def adj_explain(key, form, ans):
+    kanji, r, kind = ADJ[key]
+    v, a = ruby(key), f"**{ans}**"
+    if kind == "na":
+        why = f"{v} is a な-adjective: {kanji} + {ADJ_ENDING_NA[form]} → {a}."
+        if key in NA_TRAPS:
+            why += f" ⚠ It ends in an い sound, but that い is part of the word — {kanji} is a な-adjective (not {to_kanji(r[:-1] + 'くない', key)})."
+        return why
+    if form in ("a_plain", "a_desu", "a_noun"):
+        return f"{v} is an い-adjective: {'it goes straight before a noun — no な' if form == 'a_noun' else 'the dictionary form'} → {a}."
+    if kind == "ii":
+        return f"{v} is irregular: every form except the present uses よ- instead of い- ({'かっこよ' if key != 'いい' else 'よ'} + {ADJ_ENDING_I[form]}) → {a}."
+    return f"{v} is an い-adjective: drop the last い → {to_kanji(r[:-1], key) or r[:-1]} + {ADJ_ENDING_I[form]} → {a}."
+
+
+def adj_accept(key, form):
+    out = []
+    for k in adj_forms(key)[form]:
+        for x in (to_kanji(k, key), k):
+            if x not in out:
+                out.append(x)
+    return out
+
+
+def adj_build(key, form):
+    accept = adj_accept(key, form)
+    kana = adj_forms(key)[form][0]
+    r = ADJ[key][1]
+    n = 0
+    while n < min(len(kana), len(r)) and kana[n] == r[n]:
+        n += 1
+    hint = kana[:max(1, min(n + 1, len(kana) - 1))]
+    return accept, adj_explain(key, form, accept[0]), (to_kanji(hint, key) if n else hint) + "…"
+
+
+def adj_wrong_forms(key, form, accept):
+    kanji, r, kind = ADJ[key]
+    taken = set(accept)
+    out = {}
+    for f, vals in adj_forms(key).items():
+        if f != form and vals[0] not in taken:
+            note = f"that's the {ADJ_LABEL[f]} form of {kanji}, but the cue asks for {ADJ_LABEL[form]}."
+            out.setdefault(vals[0], note)
+            out.setdefault(to_kanji(vals[0], key), note)
+    # the other adjective type's pattern
+    if form in ADJ_ENDING_I and form not in ("a_sou", "a_sugiru"):
+        if kind == "na":
+            base = r[:-1] if r.endswith("い") else r
+            ending = ADJ_ENDING_I[form].split(" / ")[0]
+            wrong = base + ending
+            note = f"that's the い-adjective pattern, but {kanji} is a な-adjective: {kanji} + {ADJ_ENDING_NA[form].split(' (')[0]}."
+        else:
+            ending = ADJ_ENDING_NA.get(form, "").split(" (")[0].split(" / ")[0]
+            wrong = r + ending
+            note = (f"いい changes to よ- in every form but the present: {accept[0]}." if kind == "ii" else
+                    f"that's the な-adjective pattern, but {kanji} is an い-adjective: drop い + {ADJ_ENDING_I[form].split(' / ')[0]}.")
+        if wrong not in taken:
+            out[wrong] = out[to_kanji(wrong, key)] = note
+    if kind == "ii":
+        wrong = r[:-1] + ADJ_ENDING_I.get(form, "").split(" / ")[0]
+        if form in ADJ_ENDING_I and wrong not in taken:
+            out[wrong] = f"いい is irregular: it uses よ- in every form except the present → {accept[0]}."
+    return out
+
+
+ADJ_TYPE_POINTS = {
+    "adj-i": ("い-adjectives", "End in い and conjugate themselves: 高い → 高くない, 高かった."),
+    "adj-na": ("な-adjectives", "Take な before a noun and だ / じゃない / だった after: 静かな町, 静かじゃない."),
+    "adj-trap": ("な-adjectives that end in い", "きれい, 嫌い, 有名, 丁寧: the い belongs to the word, so they're な-adjectives."),
+    "adj-ii": ("いい (and かっこいい)", "Irregular: よくない, よかった, よくて — every form except the present uses よ-."),
+}
+ADJ_BODY = """**Two kinds of adjectives**
+
+- **い-adjectives** (高い, 新しい, おいしい) change their ending: drop い → 高**くない**, 高**かった**, 高**くなかった**, 高**くて**, 高**く** (adverb).
+- **な-adjectives** (静か, 便利, 有名) never change; the words after them do: 静か**だ**, 静か**じゃない**, 静か**だった**, 静か**で**, 静か**に**, 静か**な**町.
+- **Traps:** きれい, 嫌い, 有名, 丁寧 end in an い sound but are **な-adjectives** → きれいじゃない (not きれくない).
+- **いい** is irregular: よくない, よかった, よくて, よさそう — only the present stays いい. かっこいい works the same way.
+
+**Quick check:** before a noun, a な-adjective needs な (静か**な**部屋), an い-adjective doesn't (高い部屋)."""
+
+
+def adj_type_q(key):
+    kanji, r, kind = ADJ[key]
+    v = ruby(key)
+    p = "adj-ii" if kind == "ii" else "adj-trap" if key in NA_TRAPS else "adj-na" if kind == "na" else "adj-i"
+    f = adj_forms(key)
+    k = lambda form: to_kanji(f[form][0], key)
+    shown = f"{k('a_neg')}, {k('a_past')}, {k('a_noun')}{'' if kind == 'na' else ''}"
+    if kind == "na":
+        ans = 1
+        why = f"{v} is a な-adjective: {k('a_neg')}, {k('a_past')}, {k('a_noun')} + noun."
+        if p == "adj-trap":
+            why = f"Trap! {v} ends in an い sound, but it's a な-adjective: {k('a_neg')} (not {to_kanji(r[:-1] + 'くない', key)}), {k('a_noun')} + noun."
+        notes = [f"An い-adjective would give {to_kanji((r[:-1] if r.endswith('い') else r) + 'くない', key)} — but it's {k('a_neg')}.", ""]
+    else:
+        ans = 0
+        why = (f"{v} is an い-adjective, and an irregular one: {k('a_neg')}, {k('a_past')} — every form but the present uses よ-."
+               if kind == "ii" else f"{v} is an い-adjective: drop い → {k('a_neg')}, {k('a_past')}; before a noun just {k('a_noun')} (no な).")
+        notes = ["", f"A な-adjective would give {to_kanji(r + 'じゃない', key)} and {to_kanji(r + 'な', key)} + noun — but it's {k('a_neg')}."]
+    return {"point": p, "prompt": f"い-adjective or な-adjective: **{v}**?",
+            "options": ["い-adjective", "な-adjective"], "answer": ans, "fixed_order": True,
+            "explanation": why, "notes": notes, "translation": ""}
+
+
+def adj_types_quiz(fname, id, title, description, keys):
+    questions = [adj_type_q(k) for k in keys]
+    pids = list(dict.fromkeys(q["point"] for q in questions))
+    points = [{"id": p, "title": ADJ_TYPE_POINTS[p][0], "summary": ADJ_TYPE_POINTS[p][1], "body": ADJ_BODY, "examples": []}
+              for p in pids]
+    QZ[fname] = {"id": id, "category": "Verb Lab", "title": title, "description": description,
+                 "level": "Verbs", "points": points, "questions": questions}
+
+
+adj_types_quiz("21_adj_types", "verbs-adj-types", "Adjective Types: い or な?",
+               "Tell the two adjective types apart — including the な-adjectives that end in い.",
+               ["高い", "静か", "きれい", "おいしい", "便利", "嫌い", "新しい", "有名", "いい", "元気", "楽しい", "丁寧",
+                "かっこいい", "簡単", "暗い", "好き", "優しい", "大変"])
+
+GUIDE["adj"] = ("Adjective forms", "い-adjectives change their ending; な-adjectives keep it and add だ / じゃない / な.", ADJ_BODY)
+ADJ_SPRINT_TITLES = {"adj-i": "い-adjectives: drop い + ending", "adj-na": "な-adjectives: add だ / じゃない / だった",
+                     "adj-ii": "いい → よ- (except the present)"}
+drill_quiz("22_adj_sprint", "verbs-adj-sprint", "Adjective Sprint: Negative & Past",
+           "18 adjectives, four forms: not …, was …, wasn't … — plain and polite.", "adj", [
+    ("高い", "a_neg", "adj-i"), ("静か", "a_neg", "adj-na"), ("いい", "a_neg", "adj-ii"), ("寒い", "a_past", "adj-i"),
+    ("便利", "a_past", "adj-na"), ("いい", "a_past", "adj-ii"), ("楽しい", "a_pastneg", "adj-i"), ("きれい", "a_neg", "adj-na"),
+    ("忙しい", "a_neg_p", "adj-i"), ("有名", "a_pastneg", "adj-na"), ("おいしい", "a_past_p", "adj-i"),
+    ("嫌い", "a_past", "adj-na"), ("かっこいい", "a_past", "adj-ii"), ("難しい", "a_pastneg_p", "adj-i"),
+    ("暇", "a_neg_p", "adj-na"), ("大きい", "a_te", "adj-i"), ("元気", "a_te", "adj-na"), ("いい", "a_te", "adj-ii"),
+], ADJ_SPRINT_TITLES, rule_hints=True)
+
+quiz("23_adj_context", "verbs-adj-context", "Adjectives in Use: Reviews, Trips & Small Talk",
+     "Joining (くて / で), adverbs (く / に), なる, そう, すぎる, before nouns — the adjective forms you use every day.", "adj", [
+    ("この{店|みせ}のラーメンは（　）、{安|やす}いです。", "おいしい", "a_te", "The ramen here is tasty and cheap."),
+    ("{昨日|きのう}の{試験|しけん}は{全然|ぜんぜん}（　）。", "難しい", "a_pastneg", "Yesterday's exam wasn't hard at all."),
+    ("{京都|きょうと}はとても（　）{町|まち}でした。", "きれい", "a_noun", "Kyoto was a really beautiful town."),
+    ("{掃除|そうじ}したので、{部屋|へや}が（　）なりました。", "きれい", "a_adv", "I cleaned, so the room is nice and tidy now."),
+    ("{明日|あした}、{天気|てんき}が（　）、{公園|こうえん}に{行|い}きませんか。", "いい", "a_ba", "If the weather's good tomorrow, shall we go to the park?"),
+    ("このケーキ、（　）ね！", "おいしい", "a_sou", "This cake looks delicious!"),
+    ("この{靴|くつ}は{私|わたし}には（　）。", "大きい", "a_sugiru", "These shoes are too big for me."),
+    ("{先週|せんしゅう}は{仕事|しごと}がとても（　）。", "忙しい", "a_past_p", "Work was very busy last week."),
+    ("{図書館|としょかん}では（　）してください。", "静か", "a_adv", "Please be quiet in the library."),
+    ("{冬|ふゆ}は5{時|じ}にはもう（　）なります。", "暗い", "a_adv", "In winter it's already dark by five."),
+    ("この{映画|えいが}はあまり（　）。", "面白い", "a_neg_p", "This film isn't very interesting."),
+    ("{田中|たなか}さんはとても（　）{人|ひと}です。", "親切", "a_noun", "Tanaka is a very kind person."),
+    ("{子供|こども}のころ、{野菜|やさい}が（　）。", "嫌い", "a_past", "As a child I hated vegetables."),
+    ("{旅行|りょこう}はどうでしたか。— とても（　）。", "いい", "a_past_p", "How was the trip? — It was great."),
+    ("{最近|さいきん}、{日本語|にほんご}が（　）ね。", "上手", "a_naru_ta", "Your Japanese has got really good lately."),
+    ("{去年|きょねん}より{野菜|やさい}の{値段|ねだん}が（　）。", "高い", "a_naru_ta", "Vegetables have got more expensive than last year."),
+    ("この{部屋|へや}は{駅|えき}に{近|ちか}くて、とても（　）。", "便利", "a_desu", "This flat is close to the station and very convenient."),
+    ("{昨日|きのう}は{頭|あたま}が（　）、{学校|がっこう}を{休|やす}みました。", "痛い", "a_te", "I had a headache yesterday, so I stayed home from school."),
+], pid_fn=lambda key, form: {"i": "ctx-i", "na": "ctx-na", "ii": "ctx-ii"}[ADJ[key][2]],
+   titles={"ctx-i": "い-adjectives in context", "ctx-na": "な-adjectives in context", "ctx-ii": "いい in context"})
+
+
+# ---------------------------------------------------------------- transitive / intransitive
+
+PAIR = {}
+for a, b in [("開く", "開ける"), ("閉まる", "閉める"), ("始まる", "始める"), ("壊れる", "壊す"), ("落ちる", "落とす"),
+             ("つく", "つける"), ("消える", "消す"), ("止まる", "止める"), ("決まる", "決める"), ("集まる", "集める"),
+             ("見つかる", "見つける"), ("入る", "入れる"), ("割れる", "割る"), ("掛かる", "掛ける"), ("変わる", "変える"), ("並ぶ", "並べる")]:
+    PAIR[a], PAIR[b] = b, a
+INTRANSITIVE = {"開く", "閉まる", "始まる", "壊れる", "落ちる", "つく", "消える", "止まる", "決まる", "集まる", "見つかる", "入る",
+                "割れる", "掛かる", "変わる", "並ぶ"}
+
+GUIDE["trans"] = ("Transitive & intransitive pairs", "Something happens (が + intransitive) or someone does it (を + transitive).",
+                  "- **Intransitive** (自動詞): the thing itself is the subject, nobody acts on it — ドア**が開く**, 電気**が消える**.\n"
+                  "- **Transitive** (他動詞): someone does it to something marked with を — ドア**を開ける**, 電気**を消す**.\n"
+                  "- Typical pairs: 開く / 開ける, 閉まる / 閉める, 始まる / 始める, 壊れる / 壊す, 落ちる / 落とす, つく / つける, "
+                  "消える / 消す, 止まる / 止める, 決まる / 決める, 集まる / 集める, 見つかる / 見つける, 入る / 入れる.\n"
+                  "- Patterns that help: -aru ↔ -eru (始まる / 始める), -reru ↔ -su (壊れる / 壊す), -eru ↔ -asu (消える / 消す).\n\n"
+                  "**Check:** is there a を? Then you need the transitive verb.")
+GUIDE["state"] = ("ている or てある", "Both describe a state — てある says someone did it on purpose.",
+                  "- **Intransitive + ている**: the state is just there — 窓**が開いている** (the window is open; maybe the wind did it).\n"
+                  "- **Transitive + てある**: someone did it deliberately, usually for a reason — 窓**が開けてある** (someone has opened it, e.g. to air the room).\n"
+                  "- てある only works with transitive verbs, and the thing becomes the subject with が.\n"
+                  "- Transitive + **ている** is different again: 窓を開けている = someone *is opening* it right now.\n\n"
+                  "**Look for clues** such as ために, もう, 準備, or 'nobody did it' (風で, いつの間にか).")
+
+
+def pair_note(key, form, typed_key, typed_form):
+    vi = key in INTRANSITIVE
+    if typed_key != key:
+        return (f"that's {typed_key} (transitive: someone does it to something with を). Here the subject just changes by itself, "
+                f"so use the intransitive {key}." if vi else
+                f"that's {typed_key} (intransitive: it happens by itself). Here someone does it to something, so use the transitive {key}.")
+    return None
+
+
+def pair_quiz(fname, id, title, description, guide, items, state=False):
+    gt, gs, gb = GUIDE[guide]
+    questions = []
+    for sentence, key, form, en in items:
+        accept, why, hint = build(key, form)
+        partner = PAIR.get(key)
+        cue = f"{ruby(key)} / {ruby(partner)}" if partner and (key in INTRANSITIVE) else (
+            f"{ruby(partner)} / {ruby(key)}" if partner else ruby(key))
+        label = "resulting state (ている or てある)" if state else LABEL[form]
+        wf = wrong_forms(key, form, accept)
+        if partner:
+            for k2, f2 in ([(partner, "tearu" if form == "teiru" else "teiru"), (partner, form)] if state else [(partner, form)]):
+                for kana in forms(VERBS[k2][1], VERBS[k2][2])[f2][:1]:
+                    if kana in accept:
+                        continue
+                    if state and form == "teiru":
+                        note = ("てある means someone did it on purpose — nothing suggests that here, so: intransitive + ている."
+                                if f2 == "tearu" else
+                                f"{to_kanji(kana, k2)} means someone is doing it right now; here the state is just there → intransitive {key} + ている.")
+                    elif state:
+                        note = ("てある only goes with transitive verbs." if f2 == "tearu" else
+                                f"{to_kanji(kana, k2)} just describes the state; the sentence gives a reason someone did it → transitive {key} + てある.")
+                    else:
+                        note = pair_note(key, form, k2, f2)
+                    wf[kana] = wf[to_kanji(kana, k2)] = note
+        if state:  # same verb, wrong auxiliary
+            other = "tearu" if form == "teiru" else "teiru"
+            kana = forms(VERBS[key][1], VERBS[key][2])[other][0]
+            note = ("てある only goes with transitive verbs." if form == "teiru" else
+                    f"{to_kanji(kana, key)} means someone is doing it right now; for a finished, deliberate state use てある.")
+            wf[kana] = wf[to_kanji(kana, key)] = note
+        vi = key in INTRANSITIVE
+        pid = (("state-teiru" if form == "teiru" else "state-tearu") if state else ("vi" if vi else "vt"))
+        kind = "intransitive (it happens by itself, が)" if vi else "transitive (someone does it, を)"
+        lead = (f"{ruby(key)} is {kind}. " if partner else "")
+        if state:
+            lead = (f"Nobody did this on purpose — the state is just there, so: intransitive {ruby(key)} + ている. "
+                    if form == "teiru" else
+                    f"The sentence gives a reason, so someone did it on purpose: transitive {ruby(key)} + てある. " if partner else
+                    f"{ruby(key)} has no intransitive partner, so the result of someone's action is always + てある (書いてある = it's written there). ")
+        questions.append({"point": pid, "prompt": f"{sentence}\n→ {cue} · {label}", "options": [], "answer": 0,
+                          "accept": accept, "hint": hint, "explanation": lead + why, "notes": [], "translation": en,
+                          "wrong_forms": wf})
+    titles = {"vi": "Intransitive: it happens (が)", "vt": "Transitive: someone does it (を)",
+              "state-teiru": "Intransitive + ている: the state is just there", "state-tearu": "Transitive + てある: done on purpose"}
+    pids = list(dict.fromkeys(q["point"] for q in questions))
+    points = [{"id": p, "title": titles[p], "summary": f"{gt}: {gs}", "body": gb, "examples": []} for p in pids]
+    QZ[fname] = {"id": id, "category": "Verb Lab", "title": title, "description": description,
+                 "level": "Verbs", "points": points, "questions": questions}
+
+
+pair_quiz("31_pairs", "verbs-pairs", "Transitive or Intransitive: 開く or 開ける?",
+          "Pick the right verb of the pair and put it in the right form — が and を are your clues.", "trans", [
+    ("{授業|じゅぎょう}は9{時|じ}に（　）。", "始まる", "masu", "Class starts at nine."),
+    ("{先生|せんせい}が{授業|じゅぎょう}を（　）。", "始める", "ta", "The teacher started the class."),
+    ("{風|かぜ}でドアが（　）。", "開く", "ta", "The door blew open in the wind."),
+    ("{暑|あつ}いので、{窓|まど}を（　）ください。", "開ける", "tekudasai", "It's hot — please open the window."),
+    ("{棚|たな}からコップが（　）。", "落ちる", "ta", "A glass fell off the shelf."),
+    ("{駅|えき}で{財布|さいふ}を（　）しまった。", "落とす", "te", "I dropped my wallet at the station."),
+    ("{急|きゅう}に{部屋|へや}の{電気|でんき}が（　）。", "消える", "ta", "Suddenly the light in the room went out."),
+    ("{寝|ね}る{前|まえ}に{電気|でんき}を（　）ください。", "消す", "tekudasai", "Please switch off the light before you go to bed."),
+    ("{古|ふる}いパソコンがとうとう（　）。", "壊れる", "ta", "The old computer finally broke."),
+    ("{弟|おとうと}が{私|わたし}のカメラを（　）。", "壊す", "ta", "My little brother broke my camera."),
+    ("{会議|かいぎ}の{日|ひ}がやっと（　）。", "決まる", "ta", "The date of the meeting has finally been decided."),
+    ("{旅行|りょこう}の{行|い}き{先|さき}を{一緒|いっしょ}に（　）。", "決める", "mashou", "Let's decide where to go on our trip together."),
+    ("{駅|えき}の{前|まえ}に{人|ひと}がたくさん（　）。", "集まる", "teiru", "Lots of people have gathered in front of the station."),
+    ("{趣味|しゅみ}は{切手|きって}を（　）ことです。", "集める", "dict", "My hobby is collecting stamps."),
+    ("なくした{鍵|かぎ}がやっと（　）。", "見つかる", "ta", "The key I lost has finally turned up."),
+    ("いいアパートを（　）のは{大変|たいへん}です。", "見つける", "dict", "Finding a good flat is hard work."),
+    ("{次|つぎ}の{駅|えき}で{電車|でんしゃ}が{少|すこ}し（　）。", "止まる", "masu", "The train stops briefly at the next station."),
+    ("ここに{車|くるま}を（　）はいけません。", "止める", "te", "You mustn't park here."),
+])
+
+pair_quiz("32_state", "verbs-state", "ている or てある: Describing a State",
+          "Is it just open, or has someone opened it on purpose? Choose the verb and the ending.", "state", [
+    ("{風|かぜ}で{窓|まど}が（　）。", "開く", "teiru", "The window is open — the wind blew it open."),
+    ("{空気|くうき}を{入|い}れ{替|か}えるために、{窓|まど}が（　）。", "開ける", "tearu", "The window has been opened to air the room."),
+    ("{誰|だれ}もいないのに、{電気|でんき}が（　）。", "つく", "teiru", "The light is on although nobody's there."),
+    ("{夜|よる}{遅|おそ}く{帰|かえ}る{子供|こども}のために、{玄関|げんかん}の{電気|でんき}が（　）。", "つける", "tearu", "The hall light has been left on for the child coming home late."),
+    ("パーティーのために、{飲|の}み{物|もの}が{冷蔵庫|れいぞうこ}に（　）。", "入れる", "tearu", "The drinks have been put in the fridge for the party."),
+    ("{箱|はこ}の{中|なか}に{何|なに}か（　）よ。", "入る", "teiru", "There's something in the box."),
+    ("{予定|よてい}を{忘|わす}れないように、{壁|かべ}にカレンダーが（　）。", "掛ける", "tearu", "A calendar has been hung on the wall so I don't forget my plans."),
+    ("{道|みち}が{混|こ}んでいて、{車|くるま}がたくさん（　）。", "止まる", "teiru", "The road is jammed and lots of cars are standing still."),
+    ("{店|みせ}の{前|まえ}に「{駐車禁止|ちゅうしゃきんし}」と（　）。", "書く", "tearu", "In front of the shop it says 'No parking'."),
+    ("コップが（　）から、{気|き}をつけて。", "割れる", "teiru", "The glass is broken, so be careful."),
+    ("{明日|あした}の{会議|かいぎ}のために、{資料|しりょう}がもう（　）。", "作る", "tearu", "The materials for tomorrow's meeting have already been prepared."),
+    ("{道|みち}に{財布|さいふ}が（　）。", "落ちる", "teiru", "There's a wallet lying on the road."),
+    ("{会議|かいぎ}のために、{椅子|いす}がきれいに（　）。", "並べる", "tearu", "The chairs have been set out neatly for the meeting."),
+    ("いつの{間|ま}にか{店|みせ}のドアが（　）。", "閉まる", "teiru", "Before we knew it, the shop door was shut."),
+], state=True)
 
 
 def write(folder):

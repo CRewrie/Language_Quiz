@@ -628,9 +628,13 @@ const KINDS = [
   ["vtypes", "🔎", "Step 1 · Verb types"],
   ["drill", "🏃", "Step 2 · Form drills"],
   ["typed", "⌨️", "Step 3 · Forms in context"],
+  ["trans", "⇄", "Transitive & intransitive"],
+  ["adj", "🎨", "Adjectives (い / な)"],
 ];
 function quizKind(q) {
   if (q.category === "Verb Lab") {
+    if (/verbs-adj-/.test(q.id)) return "adj";
+    if (/verbs-(pairs|state)/.test(q.id)) return "trans";
     if (/verbs-(types|exceptions|lookalikes)/.test(q.id)) return "vtypes";
     if (/verbs-(back|sprint|ladder)/.test(q.id)) return "drill";
     return "typed";

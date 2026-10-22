@@ -7,6 +7,7 @@ shows how much of the monthly free tier has been used.
     python3 tools/tts.py samples <out_dir>   # small comparison batch of voices (an index.html to listen)
     python3 tools/tts.py usage               # characters used per month and voice tier
     python3 tools/tts.py build <voice> <quiz folder>...   # voice every sentence (skips files that exist)
+    python3 tools/tts.py prune               # delete files no longer referenced by the manifest
 
 `build` writes audio/<lang>/<hash>.mp3 and audio/manifest.json, one section per voice:
     {"voices": {"<voice>": {"q": {"<quiz id>#<question index>": file}, "t": {"<sentence as written>": file}}}}
@@ -149,6 +150,8 @@ def question_sentence(q):
     lines = [l for l in q["prompt"].split("\n") if l.count("（　）") == 1]
     if len(lines) != 1 or "［" in lines[0]:
         return None
+    if lines[0].endswith("→ （　）"):  # drill ("書く → （　）"): just the form itself
+        return plain(ans).strip() or None
     s = plain(lines[0].replace("（　）", ans)).strip()
     s = re.sub(r"[AB]：", "", s).strip()  # dialogue: voice the speech without the speaker labels
     return s or None
@@ -203,11 +206,24 @@ def build(voice, folders, workers=3):
           f"{len(section['t'])} example sentences")
 
 
+def prune():
+    """Deletes audio files that no voice in the manifest refers to any more."""
+    used = {f for sec in load_manifest()["voices"].values() for part in sec.values() for f in part.values()}
+    gone = 0
+    for path in glob.glob(os.path.join(AUDIO, "*", "*.mp3")):
+        if os.path.relpath(path, AUDIO) not in used:
+            os.remove(path)
+            gone += 1
+    print(f"removed {gone} unused files, {len(used)} in use")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "usage"
     if cmd == "samples":
         samples(sys.argv[2])
     elif cmd == "build":
         build(sys.argv[2], sys.argv[3:])
+    elif cmd == "prune":
+        prune()
     else:
         usage()

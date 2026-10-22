@@ -1,0 +1,327 @@
+{
+  "id": "verbs-adj-types",
+  "category": "Verb Lab",
+  "title": "Adjective Types: い or な?",
+  "description": "Tell the two adjective types apart — including the な-adjectives that end in い.",
+  "level": "Verbs",
+  "points": [
+    {
+      "id": "adj-i",
+      "title": "い-adjectives",
+      "summary": "End in い and conjugate themselves: 高い → 高くない, 高かった.",
+      "body": "**Two kinds of adjectives**\n\n- **い-adjectives** (高い, 新しい, おいしい) change their ending: drop い → 高**くない**, 高**かった**, 高**くなかった**, 高**くて**, 高**く** (adverb).\n- **な-adjectives** (静か, 便利, 有名) never change; the words after them do: 静か**だ**, 静か**じゃない**, 静か**だった**, 静か**で**, 静か**に**, 静か**な**町.\n- **Traps:** きれい, 嫌い, 有名, 丁寧 end in an い sound but are **な-adjectives** → きれいじゃない (not きれくない).\n- **いい** is irregular: よくない, よかった, よくて, よさそう — only the present stays いい. かっこいい works the same way.\n\n**Quick check:** before a noun, a な-adjective needs な (静か**な**部屋), an い-adjective doesn't (高い部屋).",
+      "examples": []
+    },
+    {
+      "id": "adj-na",
+      "title": "な-adjectives",
+      "summary": "Take な before a noun and だ / じゃない / だった after: 静かな町, 静かじゃない.",
+      "body": "**Two kinds of adjectives**\n\n- **い-adjectives** (高い, 新しい, おいしい) change their ending: drop い → 高**くない**, 高**かった**, 高**くなかった**, 高**くて**, 高**く** (adverb).\n- **な-adjectives** (静か, 便利, 有名) never change; the words after them do: 静か**だ**, 静か**じゃない**, 静か**だった**, 静か**で**, 静か**に**, 静か**な**町.\n- **Traps:** きれい, 嫌い, 有名, 丁寧 end in an い sound but are **な-adjectives** → きれいじゃない (not きれくない).\n- **いい** is irregular: よくない, よかった, よくて, よさそう — only the present stays いい. かっこいい works the same way.\n\n**Quick check:** before a noun, a な-adjective needs な (静か**な**部屋), an い-adjective doesn't (高い部屋).",
+      "examples": []
+    },
+    {
+      "id": "adj-trap",
+      "title": "な-adjectives that end in い",
+      "summary": "きれい, 嫌い, 有名, 丁寧: the い belongs to the word, so they're な-adjectives.",
+      "body": "**Two kinds of adjectives**\n\n- **い-adjectives** (高い, 新しい, おいしい) change their ending: drop い → 高**くない**, 高**かった**, 高**くなかった**, 高**くて**, 高**く** (adverb).\n- **な-adjectives** (静か, 便利, 有名) never change; the words after them do: 静か**だ**, 静か**じゃない**, 静か**だった**, 静か**で**, 静か**に**, 静か**な**町.\n- **Traps:** きれい, 嫌い, 有名, 丁寧 end in an い sound but are **な-adjectives** → きれいじゃない (not きれくない).\n- **いい** is irregular: よくない, よかった, よくて, よさそう — only the present stays いい. かっこいい works the same way.\n\n**Quick check:** before a noun, a な-adjective needs な (静か**な**部屋), an い-adjective doesn't (高い部屋).",
+      "examples": []
+    },
+    {
+      "id": "adj-ii",
+      "title": "いい (and かっこいい)",
+      "summary": "Irregular: よくない, よかった, よくて — every form except the present uses よ-.",
+      "body": "**Two kinds of adjectives**\n\n- **い-adjectives** (高い, 新しい, おいしい) change their ending: drop い → 高**くない**, 高**かった**, 高**くなかった**, 高**くて**, 高**く** (adverb).\n- **な-adjectives** (静か, 便利, 有名) never change; the words after them do: 静か**だ**, 静か**じゃない**, 静か**だった**, 静か**で**, 静か**に**, 静か**な**町.\n- **Traps:** きれい, 嫌い, 有名, 丁寧 end in an い sound but are **な-adjectives** → きれいじゃない (not きれくない).\n- **いい** is irregular: よくない, よかった, よくて, よさそう — only the present stays いい. かっこいい works the same way.\n\n**Quick check:** before a noun, a な-adjective needs な (静か**な**部屋), an い-adjective doesn't (高い部屋).",
+      "examples": []
+    }
+  ],
+  "questions": [
+    {
+      "point": "adj-i",
+      "prompt": "い-adjective or な-adjective: **{高|たか}い**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "{高|たか}い is an い-adjective: drop い → 高くない, 高かった; before a noun just 高い (no な).",
+      "notes": [
+        "",
+        "A な-adjective would give 高いじゃない and 高いな + noun — but it's 高くない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-na",
+      "prompt": "い-adjective or な-adjective: **{静|しず}か**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{静|しず}か is a な-adjective: 静かじゃない, 静かだった, 静かな + noun.",
+      "notes": [
+        "An い-adjective would give 静かくない — but it's 静かじゃない.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-trap",
+      "prompt": "い-adjective or な-adjective: **きれい**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "Trap! きれい ends in an い sound, but it's a な-adjective: きれいじゃない (not きれくない), きれいな + noun.",
+      "notes": [
+        "An い-adjective would give きれくない — but it's きれいじゃない.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-i",
+      "prompt": "い-adjective or な-adjective: **おいしい**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "おいしい is an い-adjective: drop い → おいしくない, おいしかった; before a noun just おいしい (no な).",
+      "notes": [
+        "",
+        "A な-adjective would give おいしいじゃない and おいしいな + noun — but it's おいしくない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-na",
+      "prompt": "い-adjective or な-adjective: **{便利|べんり}**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{便利|べんり} is a な-adjective: 便利じゃない, 便利だった, 便利な + noun.",
+      "notes": [
+        "An い-adjective would give 便利くない — but it's 便利じゃない.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-trap",
+      "prompt": "い-adjective or な-adjective: **{嫌|きら}い**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "Trap! {嫌|きら}い ends in an い sound, but it's a な-adjective: 嫌いじゃない (not 嫌くない), 嫌いな + noun.",
+      "notes": [
+        "An い-adjective would give 嫌くない — but it's 嫌いじゃない.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-i",
+      "prompt": "い-adjective or な-adjective: **{新|あたら}しい**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "{新|あたら}しい is an い-adjective: drop い → 新しくない, 新しかった; before a noun just 新しい (no な).",
+      "notes": [
+        "",
+        "A な-adjective would give 新しいじゃない and 新しいな + noun — but it's 新しくない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-trap",
+      "prompt": "い-adjective or な-adjective: **{有名|ゆうめい}**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "Trap! {有名|ゆうめい} ends in an い sound, but it's a な-adjective: 有名じゃない (not ゆうめくない), 有名な + noun.",
+      "notes": [
+        "An い-adjective would give ゆうめくない — but it's 有名じゃない.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-ii",
+      "prompt": "い-adjective or な-adjective: **いい**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "いい is an い-adjective, and an irregular one: よくない, よかった — every form but the present uses よ-.",
+      "notes": [
+        "",
+        "A な-adjective would give いいじゃない and いいな + noun — but it's よくない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-na",
+      "prompt": "い-adjective or な-adjective: **{元気|げんき}**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{元気|げんき} is a な-adjective: 元気じゃない, 元気だった, 元気な + noun.",
+      "notes": [
+        "An い-adjective would give 元気くない — but it's 元気じゃない.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-i",
+      "prompt": "い-adjective or な-adjective: **{楽|たの}しい**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "{楽|たの}しい is an い-adjective: drop い → 楽しくない, 楽しかった; before a noun just 楽しい (no な).",
+      "notes": [
+        "",
+        "A な-adjective would give 楽しいじゃない and 楽しいな + noun — but it's 楽しくない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-trap",
+      "prompt": "い-adjective or な-adjective: **{丁寧|ていねい}**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "Trap! {丁寧|ていねい} ends in an い sound, but it's a な-adjective: 丁寧じゃない (not ていねくない), 丁寧な + noun.",
+      "notes": [
+        "An い-adjective would give ていねくない — but it's 丁寧じゃない.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-ii",
+      "prompt": "い-adjective or な-adjective: **かっこいい**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "かっこいい is an い-adjective, and an irregular one: かっこよくない, かっこよかった — every form but the present uses よ-.",
+      "notes": [
+        "",
+        "A な-adjective would give かっこいいじゃない and かっこいいな + noun — but it's かっこよくない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-na",
+      "prompt": "い-adjective or な-adjective: **{簡単|かんたん}**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{簡単|かんたん} is a な-adjective: 簡単じゃない, 簡単だった, 簡単な + noun.",
+      "notes": [
+        "An い-adjective would give 簡単くない — but it's 簡単じゃない.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-i",
+      "prompt": "い-adjective or な-adjective: **{暗|くら}い**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "{暗|くら}い is an い-adjective: drop い → 暗くない, 暗かった; before a noun just 暗い (no な).",
+      "notes": [
+        "",
+        "A な-adjective would give 暗いじゃない and 暗いな + noun — but it's 暗くない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-na",
+      "prompt": "い-adjective or な-adjective: **{好|す}き**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{好|す}き is a な-adjective: 好きじゃない, 好きだった, 好きな + noun.",
+      "notes": [
+        "An い-adjective would give 好きくない — but it's 好きじゃない.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-i",
+      "prompt": "い-adjective or な-adjective: **{優|やさ}しい**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "{優|やさ}しい is an い-adjective: drop い → 優しくない, 優しかった; before a noun just 優しい (no な).",
+      "notes": [
+        "",
+        "A な-adjective would give 優しいじゃない and 優しいな + noun — but it's 優しくない."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "adj-na",
+      "prompt": "い-adjective or な-adjective: **{大変|たいへん}**?",
+      "options": [
+        "い-adjective",
+        "な-adjective"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{大変|たいへん} is a な-adjective: 大変じゃない, 大変だった, 大変な + noun.",
+      "notes": [
+        "An い-adjective would give 大変くない — but it's 大変じゃない.",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}
