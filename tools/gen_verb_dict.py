@@ -79,7 +79,7 @@ def load():
     verbs, seen = [], set()
     for line in VERBS.strip().splitlines():
         kanji, reading, cls, level, gloss = line.split(" ", 4)
-        assert cls in CLASSES and level in ("N5", "N4", "N3") and (kanji, reading) not in seen, line
+        assert cls in CLASSES and level in ("N5", "N4", "N3", "N2", "N1") and (kanji, reading) not in seen, line
         assert all("ぁ" <= c <= "ゖ" or c == "ー" or "ァ" <= c <= "ヺ" for c in reading), line
         assert reading.endswith("る") or cls not in ("ru", "suru", "kuru"), line
         seen.add((kanji, reading))
@@ -122,6 +122,6 @@ if __name__ == "__main__":
     os.makedirs("static/verbs", exist_ok=True)
     with open("static/verbs/verbs.json", "w", encoding="utf-8") as f:
         f.write("[\n" + ",\n".join(json.dumps(v, ensure_ascii=False, separators=(",", ":")) for v in verbs) + "\n]\n")
-    levels = {n: sum(v["l"] == n for v in verbs) for n in (5, 4, 3)}
-    print(f"static/verbs/verbs.json: {len(verbs)} verbs (N5 {levels[5]}, N4 {levels[4]}, N3 {levels[3]})")
+    levels = ", ".join(f"N{n} {sum(v['l'] == n for v in verbs)}" for n in (5, 4, 3, 2, 1))
+    print(f"static/verbs/verbs.json: {len(verbs)} verbs ({levels})")
     check_engine(verbs)

@@ -108,7 +108,7 @@ footer a { color: inherit; }
   <div id="out"></div>
 </main>
 
-<footer>JLPT N5–N3 verbs, based on the JLPT lists of <a href="http://www.tanos.co.uk/jlpt/" target="_blank" rel="noopener">tanos.co.uk</a>
+<footer>JLPT N5–N1 verbs, based on the JLPT lists of <a href="http://www.tanos.co.uk/jlpt/" target="_blank" rel="noopener">tanos.co.uk</a>
   (via <a href="https://github.com/jamsinclair/open-anki-jlpt-decks" target="_blank" rel="noopener">open-anki-jlpt-decks</a>).
   Forms and example sentences are built from patterns, so a few combinations sound odd (e.g. “It was gone home by my friend”).</footer>
 
@@ -159,6 +159,8 @@ const clean = s => hira(s.trim().replace(/[\s　。、！？!?「」]/g, "").rep
 let VERBS = [], INDEX = new Map();
 const LABEL = { naide: "ないで (without …ing)" };
 for (const g of Conj.GROUPS) for (const f of g.forms) LABEL[f.id] = `${f.jp} — ${f.label}`;
+// Simpler forms first, so 励まされた is 励ます (passive) before 励む (causative-passive)
+const FORM_ORDER = [...Conj.GROUPS.flatMap(g => g.forms.map(f => f.id)), "naide"];
 
 function buildIndex() {
   VERBS.forEach((v, i) => {
@@ -189,7 +191,7 @@ function search(raw) {
     found.set(v, h);
   };
   for (const key of new Set([q, kana])) {
-    for (const { v, id } of INDEX.get(key) || []) add(v, id === "dict" ? null : id, id === "dict" ? 0 : 1);
+    for (const { v, id } of INDEX.get(key) || []) add(v, id === "dict" ? null : id, id === "dict" ? 0 : 1 + FORM_ORDER.indexOf(id) / 1000);
   }
   if (latin) { // English meaning
     const word = raw.trim().toLowerCase().replace(/^to /, "");
@@ -277,7 +279,8 @@ function verbHtml(hit) {
       if (!val) {
         if (!["hon", "hum", "potential", "potential_masu", "potential_nai"].includes(f.id)) return "";
         const why = f.id.startsWith("potential")
-          ? (Conj.NO_POTENTIAL.has(v.k) ? `${v.k} already means “can …” or is about things; it has no potential form.` : "not used with this verb.")
+          ? (Conj.NO_POTENTIAL.has(v.k) ? `${v.k} already means “can …” or is about things; it has no potential form.`
+            : Conj.oneKanjiSuru(v) ? `say ${v.k}ことができる (“can …”) instead.` : "not used with this verb.")
           : v.c === "honor" || /召し上がる|参る|申す|致す|いただく|差し上げる|おる|拝見する|申し上げる|うかがう/.test(v.k)
             ? "this verb is keigo already." : "no common keigo form for this verb.";
         return `<div class="form"><div class="lbl">${esc(f.label)}<small>${esc(f.jp)}</small></div><div class="none">${esc(why)}</div><div></div></div>`;
@@ -300,7 +303,7 @@ function verbHtml(hit) {
   return `<section class="card">
       <div class="verb-head"><div class="big">${head}</div>
         ${v.g ? `<div class="gloss">to ${esc(v.g)}</div>` : ""}</div>
-      <div class="badges">${v.l ? `<span class="badge lvl">JLPT N${v.l}</span>` : `<span class="badge">not in the N5–N3 list</span>`}
+      <div class="badges">${v.l ? `<span class="badge lvl">JLPT N${v.l}</span>` : `<span class="badge">not in the N5–N1 list</span>`}
         <span class="badge">${esc(info.name)}</span>${v.r !== v.k ? `<span class="badge">${esc(v.r)}</span>` : ""}</div>
       <p class="note">${esc(info.rule)}</p>
       ${info.warn ? `<p class="note warn">${esc(info.warn)}</p>` : ""}
@@ -314,12 +317,12 @@ function browseHtml() {
   const lvl = store.get("level", 5);
   const list = VERBS.filter(v => v.l === lvl).sort((a, b) => a.r.localeCompare(b.r, "ja"));
   return `<section class="card">
-      <p style="margin:0">Look up any JLPT N5–N3 verb and see all its forms, each with how it's built and an example sentence.
+      <p style="margin:0">Look up any JLPT N5–N1 verb and see all its forms, each with how it's built and an example sentence.
       Type in kanji, hiragana or romaji — or paste a conjugated form, and it finds the verb.</p>
       <div class="examples">Try: ${EXAMPLES.map(e => `<a href="#${encodeURIComponent(e)}">${esc(e)}</a>`).join(" ")}</div>
     </section>
     <section class="card browse">
-      <div class="tabs">${[5, 4, 3].map(n => `<button data-l="${n}" class="${n === lvl ? "on" : ""}">N${n} · ${VERBS.filter(v => v.l === n).length}</button>`).join("")}</div>
+      <div class="tabs">${[5, 4, 3, 2, 1].map(n => `<button data-l="${n}" class="${n === lvl ? "on" : ""}">N${n} · ${VERBS.filter(v => v.l === n).length}</button>`).join("")}</div>
       <div class="vlist">${list.map(v => `<a href="#${encodeURIComponent(v.k)}" title="${esc(v.r)} — ${esc(v.g)}">${esc(v.k)}<small>${esc(senses(v.g)[0])}</small></a>`).join("")}</div>
     </section>`;
 }
@@ -337,7 +340,7 @@ function render(pick) {
   }
   const all = extra ? [extra, ...hits] : hits;
   if (!all.length) {
-    out.innerHTML = `<section class="card"><p style="margin:0">No verb found for <b>${esc(raw)}</b>. The list has the JLPT N5–N3 verbs;
+    out.innerHTML = `<section class="card"><p style="margin:0">No verb found for <b>${esc(raw)}</b>. The list has the JLPT N5–N1 verbs;
       noun + する verbs not in it (e.g. 発明する) are conjugated anyway if you type them with する.</p></section>`;
     return;
   }

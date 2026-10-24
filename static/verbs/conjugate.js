@@ -12,6 +12,8 @@ const Conj = (() => {
   const NO_KEIGO = new Set(["いらっしゃる", "おっしゃる", "くださる", "なさる", "召し上がる", "参る", "申す", "致す", "いただく",
     "差し上げる", "おる", "拝見する", "申し上げる", "うかがう", "ある", "できる", "分かる", "見える", "聞こえる", "要る"]);
 
+  // 愛する, 接する …: the noun is a single kanji, so 愛できる / ご愛になる don't exist
+  const oneKanjiSuru = v => v.c === "suru" && v.k !== v.r && [...v.k].length === 3;
   const shift = (r, col) => r.slice(0, -1) + ROW[r.at(-1)][col];
   const drop = (s, n = 1) => s.slice(0, -n);
 
@@ -92,7 +94,7 @@ const Conj = (() => {
     const imp = c === "aru" ? null : pick([r === "くれる" ? "くれ" : drop(r) + "ろ"], [p + "しろ", p + "せよ"], ["こい"],
       [c === "honor" ? drop(r) + "い" : shift(r, E)]);
     f.imperative = imp;
-    if (!NO_POTENTIAL.has(v.k) && c !== "aru") {
+    if (!NO_POTENTIAL.has(v.k) && c !== "aru" && !oneKanjiSuru(v)) {
       const pot = pick(drop(r) + "られる", p + "できる", "こられる", shift(r, E) + "る");
       f.potential = [pot];
       f.potential_nai = [drop(pot) + "ない"];
@@ -138,7 +140,7 @@ const Conj = (() => {
 
   /** Honorific and humble (polite present): list of [kanji, kana], or null. */
   function keigo(v, humble) {
-    if (NO_KEIGO.has(v.k) || v.c === "honor" || (humble && v.k === "くれる")) return null;
+    if (NO_KEIGO.has(v.k) || v.c === "honor" || oneKanjiSuru(v) || (humble && v.k === "くれる")) return null;
     const own = (humble ? HUMBLE : HONORIFIC)[v.k];
     if (own) return Object.assign([...own], { own: true });
     if (v.c === "suru") {
@@ -272,6 +274,6 @@ const Conj = (() => {
     return out;
   }
 
-  return { conjugate, toKanji, keigo, table, how, GROUPS, NO_POTENTIAL };
+  return { conjugate, toKanji, keigo, table, how, GROUPS, NO_POTENTIAL, oneKanjiSuru };
 })();
 if (typeof module !== "undefined") module.exports = Conj;

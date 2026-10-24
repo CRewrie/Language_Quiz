@@ -570,7 +570,7 @@ const KANA_WRITE_HTML: &str = include_str!("../static/kana/write.html");
 const KANA_STROKES_JSON: &str = include_str!("../static/kana/strokes.json");
 /// Words, sentences and kana notes, made by tools/gen_kana.py.
 const KANA_CONTENT_JSON: &str = include_str!("../static/kana/content.json");
-/// Verb lookup (static/verbs): every form of a JLPT N5–N3 verb, conjugated in the browser.
+/// Verb lookup (static/verbs): every form of a JLPT N5–N1 verb, conjugated in the browser.
 const VERBS_INDEX_HTML: &str = include_str!("../static/verbs/index.html");
 const VERBS_CONJUGATE_JS: &str = include_str!("../static/verbs/conjugate.js");
 /// The verb list, made by tools/gen_verb_dict.py.

@@ -50,9 +50,9 @@ It needs no AI requests:
 
 ## Verb Lookup (`/verbs/`)
 
-A reference page for the JLPT N5–N3 verbs (about 740), linked from the Japanese home page. You type a verb in kanji, hiragana or romaji, or in English, and the page shows every form: polite and plain, て-form patterns, conditionals, wishes and commands, potential, passive and causative, and keigo. Each form comes with how it is built and an example sentence with an English translation. If you paste a conjugated form (飲みました, 待たされた), the page finds the verb and highlights that form. A noun + する verb that is not in the list is conjugated anyway.
+A reference page for the JLPT N5–N1 verbs (about 1,360), linked from the Japanese home page. You type a verb in kanji, hiragana or romaji, or in English, and the page shows every form: polite and plain, て-form patterns, conditionals, wishes and commands, potential, passive and causative, and keigo. Each form comes with how it is built and an example sentence with an English translation. If you paste a conjugated form (飲みました, 待たされた), the page finds the verb and highlights that form. A noun + する verb that is not in the list is conjugated anyway.
 
-- The verb list (dictionary form, reading, class, level, gloss) is in `tools/jlpt_verbs.py`. It is based on the tanos.co.uk JLPT lists via open-anki-jlpt-decks (MIT); the classes were checked by hand.
+- The verb list (dictionary form, reading, class, level, gloss) is in `tools/jlpt_verbs.py`. 〜ずる verbs are listed in their 〜じる form; one-kanji する verbs (愛する, 接する) get no できる potential and no keigo row. It is based on the tanos.co.uk JLPT lists via open-anki-jlpt-decks (MIT); the classes were checked by hand.
 - `python3 tools/gen_verb_dict.py` writes `static/verbs/verbs.json`, including the English verb forms used in the example sentences. If node is installed, it also checks the page's engine (`static/verbs/conjugate.js`) against the Verb Lab's engine.
 - Conjugation runs in the browser. The example sentences are patterns, so a few verb and sentence combinations sound odd.
 
