@@ -28,6 +28,8 @@ header h1 { font: 600 22px var(--jp); margin: 0; white-space: nowrap; }
 header h1 span { color: var(--accent); }
 .navlink { color: var(--muted); text-decoration: none; font-weight: 500; font-size: 14px; white-space: nowrap; }
 .navlink:hover { color: var(--ink); }
+.sync { font-size: 13px; color: var(--muted); white-space: nowrap; text-decoration: none; }
+a.sync:hover { color: var(--ink); }
 .progress { flex: 1; max-width: 340px; min-width: 180px; margin-left: auto; font-size: 13px; color: var(--muted); }
 .bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; margin-top: 4px; }
 .bar > div { height: 100%; background: var(--good); width: 0; transition: width .4s; }
@@ -120,6 +122,7 @@ footer a { color: inherit; }
   <h1><span>ひらがな</span> Dojo</h1>
   <a class="navlink" href="../">← Grammar quizzes</a>
   <a class="navlink" href="write.html">Writing drills →</a>
+  <a class="sync" id="syncBadge" href="../" title="Sign in on the quiz page to keep your progress on every device">☁️ Sign in to sync</a>
   <div class="progress"><span id="progText"></span><div class="bar"><div id="progBar"></div></div></div>
 </header>
 
@@ -172,6 +175,7 @@ footer a { color: inherit; }
 </div>
 <footer>Stroke-order data from <a href="https://kanjivg.tagaini.net" target="_blank" rel="noopener">KanjiVG</a> by Ulrich Apel, CC BY-SA 3.0. Writing is checked in your browser by comparing your strokes with this data.</footer>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.115.0/dist/umd/supabase.js"></script>
 <script>
 // ---------- characters ----------
 const BASE_STROKES = {
@@ -221,7 +225,72 @@ const MODE_HINTS = {
 // ---------- progress (per-browser) ----------
 let progress = { items: {}, kana: {}, path: { level: 0, unlocked: 0, cleared: {} } };
 try { Object.assign(progress, JSON.parse(localStorage.getItem("hiragana-words-progress") || "{}")); } catch {}
-function saveProgress() { try { localStorage.setItem("hiragana-words-progress", JSON.stringify(progress)); } catch {} }
+function saveProgress() {
+  try { localStorage.setItem("hiragana-words-progress", JSON.stringify(progress)); } catch {}
+  scheduleSync();
+}
+// Where the learner was (mode, lesson, word), so the dojo opens there again.
+const UI_KEY = "hiragana-dojo-ui";
+function saveUi() { try { localStorage.setItem(UI_KEY, JSON.stringify({ mode, lessonIdx, jp: current?.jp })); } catch {} }
+function loadUi() { try { return JSON.parse(localStorage.getItem(UI_KEY) || "null"); } catch { return null; } }
+
+// ---------- sync with the quiz account (Supabase), when signed in on the quiz page ----------
+// Same origin as the quiz, so the login session is shared. Progress is merged, never overwritten:
+// best stars per word / kana, every cleared path word, the highest unlocked level.
+const SUPABASE_URL = "https://xtasadbmddoduhlgrmix.supabase.co";
+const SUPABASE_KEY = "sb_publishable_P-75H9XhpJ1Iibv9AaliAQ_nC4foxHO";  // public; row level security protects the data
+let sb = null, sbUser = null, syncTimer = null;
+
+function mergeProgress(a, b) {
+  const max = (x, y) => { const o = { ...x }; for (const [k, v] of Object.entries(y || {})) o[k] = Math.max(o[k] || 0, v); return o; };
+  const ap = a.path || {}, bp = b.path || {};
+  return {
+    items: max(a.items || {}, b.items), kana: max(a.kana || {}, b.kana),
+    path: { level: Math.max(ap.level || 0, bp.level || 0), unlocked: Math.max(ap.unlocked || 0, bp.unlocked || 0),
+            cleared: { ...(bp.cleared || {}), ...(ap.cleared || {}) } },
+  };
+}
+
+function setSyncBadge(text, title) {
+  const el = document.getElementById("syncBadge");
+  el.textContent = text;
+  el.title = title;
+}
+
+function scheduleSync() {
+  if (!sbUser) return;
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(syncNow, 1500);
+}
+
+async function syncNow() {
+  if (!sbUser) return;
+  setSyncBadge("🔄 Syncing…", "Syncing your dojo progress");
+  const { data, error } = await sb.from("progress").select("value").eq("key", "kana").maybeSingle();
+  if (error) return setSyncBadge("⚠️ Sync off", error.message);
+  const remote = data?.value || {};
+  const merged = mergeProgress(progress, remote);
+  const changedLocal = JSON.stringify(merged) !== JSON.stringify(progress);
+  Object.assign(progress, merged);
+  try { localStorage.setItem("hiragana-words-progress", JSON.stringify(progress)); } catch {}
+  if (JSON.stringify(merged) !== JSON.stringify(remote)) {
+    const { error: e } = await sb.from("progress").upsert({ user_id: sbUser.id, key: "kana", value: merged, updated_at: new Date().toISOString() });
+    if (e) return setSyncBadge("⚠️ Sync off", e.message);
+  }
+  setSyncBadge("☁️ Synced", `Signed in — dojo progress is saved to your account`);
+  if (changedLocal && LESSONS.length) { renderLessons(); renderItems(); }
+}
+
+function initSync() {
+  if (!window.supabase?.createClient) return;
+  sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, { auth: { flowType: "pkce" } });
+  sb.auth.onAuthStateChange((event, session) => {
+    const before = sbUser?.id;
+    sbUser = session?.user || null;
+    if (!sbUser) setSyncBadge("☁️ Sign in to sync", "Sign in on the quiz page to keep your progress on every device");
+    else if (sbUser.id !== before) setTimeout(syncNow, 0);  // no Supabase calls inside this callback
+  });
+}
 const bestItem = jp => progress.items[jp] || 0;
 const bestKana = k => progress.kana[k] || 0;
 
@@ -279,6 +348,8 @@ function renderItems() {
 
 function select(it) {
   current = it;
+  if (mode === "trace" || mode === "recall") lessonIdx = LESSONS.findIndex(l => l.items.includes(it)) >= 0 ? LESSONS.findIndex(l => l.items.includes(it)) : lessonIdx;
+  saveUi();
   const hide = mode !== "trace";
   const newKana = mode === "review" ? "" : mode === "path" ? LESSONS[it.lesson]?.kana || "" : LESSONS[lessonIdx].kana;
   const jpHtml = [...it.jp].map(c => newKana.includes(c) ? `<span class="new">${c}</span>` : c).join("");
@@ -300,6 +371,7 @@ function select(it) {
 
 function setMode(m, pick = true) {
   mode = m;
+  saveUi();
   document.querySelectorAll("#modes button").forEach(b => b.classList.toggle("on", b.dataset.mode === m));
   document.getElementById("modeHint").textContent = MODE_HINTS[m];
   if (!pick) return;
@@ -833,11 +905,21 @@ document.getElementById("explainBtn").onclick = () => showGuide(current, true);
     ば:"ba",び:"bi",ぶ:"bu",べ:"be",ぼ:"bo",ぱ:"pa",ぴ:"pi",ぷ:"pu",ぺ:"pe",ぽ:"po",ゃ:"small ya",ゅ:"small yu",ょ:"small yo",っ:"small tsu"};
   Object.assign(ROMA, roma);
   buildLessons();
-  current = LESSONS[0].items[0];
   renderFaq();
-  setMode("trace", false);
-  select(current);
+  // Pick up where the learner left off.
+  const ui = loadUi();
+  lessonIdx = Math.min(Math.max(ui?.lessonIdx || 0, 0), LESSONS.length - 1);
+  current = LESSONS[lessonIdx].items.find(it => it.jp === ui?.jp) || LESSONS[lessonIdx].items[0];
+  if (ui?.mode === "path" || ui?.mode === "review") {
+    setMode(ui.mode, false);
+    const word = ALL_WORDS.find(w => w.jp === ui.jp);
+    word ? select(word) : setMode(ui.mode);
+  } else {
+    setMode(ui?.mode === "recall" ? "recall" : "trace", false);
+    select(current);
+  }
   loadGuide();
+  initSync();
 })();
 </script>
 </body>

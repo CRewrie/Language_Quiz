@@ -1,9 +1,9 @@
 -- Progress sync for signed-in users. Run once in the Supabase SQL editor.
--- One row per user and key ("best", "srs", "progress"); the page merges it with its localStorage.
+-- One row per user and key ("best", "srs", "progress", and "kana" for the Hiragana Dojo); the pages merge it with localStorage.
 
 create table if not exists public.progress (
   user_id    uuid        not null default auth.uid() references auth.users (id) on delete cascade,
-  key        text        not null check (key in ('best', 'srs', 'progress')),
+  key        text        not null check (key in ('best', 'srs', 'progress', 'kana')),
   value      jsonb       not null,
   updated_at timestamptz not null default now(),
   primary key (user_id, key)
@@ -25,3 +25,7 @@ create policy "own rows: insert" on public.progress for insert to authenticated 
 create policy "own rows: update" on public.progress for update to authenticated
   using ((select auth.uid()) = user_id) with check ((select auth.uid()) = user_id);
 create policy "own rows: delete" on public.progress for delete to authenticated using ((select auth.uid()) = user_id);
+
+-- Migration for projects created before the Hiragana Dojo synced (adds the "kana" key):
+-- alter table public.progress drop constraint progress_key_check;
+-- alter table public.progress add constraint progress_key_check check (key in ('best', 'srs', 'progress', 'kana'));
