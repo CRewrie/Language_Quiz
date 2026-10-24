@@ -8,6 +8,181 @@ and keep particles separate, so は / へ / を read as wa / e / o.
 """
 
 WORDS = """
+くき|stem
+きか|geometry
+しそ|shiso (perilla)
+さす|to point, to sting
+すす|soot
+ささ|bamboo grass
+たて|vertical
+てつ|iron
+つち|soil
+とち|land
+つつ|tube
+つた|ivy
+なな|seven
+ぬの|cloth
+ひふ|skin
+まま|as it is
+やや|slightly
+るり|lapis lazuli
+わ|ring, circle
+けさ|this morning
+くせ|habit
+こそこそ|sneakily
+さくさく|crispy
+せかす|to hurry someone
+さく|to bloom
+こす|to cross over
+しき|ceremony; the four seasons
+さき|ahead, tip
+てき|enemy
+たたく|to hit
+かたち|shape
+こたつ|kotatsu (heated table)
+ちくちく|prickly
+きつつき|woodpecker
+ちかく|nearby
+とく|gain, benefit
+つく|to arrive, to stick
+かつ|to win
+たかく|high (adverb)
+けち|stingy
+かつて|formerly
+こと|thing, matter
+こねこ|kitten
+きぬ|silk
+こな|powder
+かに|crab
+なかなか|quite, not easily
+のき|eaves
+のこのこ|nonchalantly
+ひかく|comparison
+ふかく|deeply
+はこ|box
+みかく|sense of taste
+まき|firewood
+こま|spinning top
+きみ|you (casual)
+くむ|to scoop, to assemble
+かゆ|rice porridge
+ゆく|to go (literary)
+くり|chestnut
+きり|fog
+くろ|black
+くるくる|round and round
+ころころ|rolling
+かれ|he, boyfriend
+かり|a loan
+きる|to wear
+くる|to come
+かるく|lightly
+わく|frame
+さて|well then
+すそ|hem
+たす|to add
+さつ|banknote
+すな|sand
+ぬし|master, owner
+ひさし|eaves, visor
+はす|lotus
+ほす|to dry (in the sun)
+ます|trout
+むす|to steam
+すり|pickpocket
+する|to do
+さら|plate
+しる|to know
+せり|Japanese parsley
+そり|sled
+すらすら|fluently
+さらさら|smoothly, silky
+わし|eagle
+さわ|mountain stream
+たね|seed
+つな|rope
+ほたて|scallop
+はと|pigeon
+つま|wife
+まと|target
+もち|rice cake
+やつ|guy, fellow
+たる|barrel
+つり|fishing
+とる|to take
+つる|crane (bird)
+たりる|to be enough
+ちる|to fall (petals)
+わた|cotton
+わたる|to cross
+はね|feather, wing
+なみ|wave
+まね|imitation
+のり|seaweed, glue
+なる|to become
+ねる|to sleep
+にる|to resemble
+のる|to ride
+なわ|rope
+ひま|free time
+はま|beach
+ふる|to fall (rain), to shake
+ほる|to dig
+はら|belly, field
+ゆみ|bow (weapon)
+まゆ|eyebrow
+もや|mist
+むら|village
+まる|circle
+みる|to see
+まり|ball
+まわる|to turn around
+ゆり|lily
+やる|to do, to give
+より|than, more
+よろよろ|staggering
+わる|to divide, to break
+ゆるす|to forgive
+ゆるい|loose
+よわい|weak
+やわらかい|soft
+わかれ|parting
+なわとび|skipping rope
+ふるさと|hometown
+ところ|place
+こころ|heart
+けむり|smoke
+まつり|festival
+ひかり|light
+からす|crow
+ほたる|firefly
+すわる|to sit
+かわく|to dry
+ことわる|to refuse
+せんたく|laundry
+たんす|chest of drawers
+なんか|something like
+みんな|everyone
+かんたん|easy
+にんにく|garlic
+さんかく|triangle
+しんせつ|kind
+てんさい|genius
+まんなか|middle
+みなと|harbour
+みやこ|capital (old)
+むすめ|daughter
+めかた|weight (old word)
+もめん|cotton cloth
+やくわり|role
+ゆかり|connection
+よみせ|night market
+らくらく|easily
+りかい|understanding
+るす|being out
+れきし|history
+ろうか|corridor
+わすれもの|something left behind
 あい|love
 いえ|house
 うえ|above, top

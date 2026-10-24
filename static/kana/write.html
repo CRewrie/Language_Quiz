@@ -135,6 +135,7 @@ button.primary:disabled { opacity: .5; cursor: wait; }
           <button data-v="words">Words</button>
           <button data-v="sentences">Sentences</button>
           <button data-v="mixed">Mixed</button>
+          <button data-v="kana" title="Random combinations of the selected kana — pure writing practice">Kana mix</button>
         </div>
         <div class="seg" id="count">
           <button data-v="6">6</button>
@@ -279,6 +280,31 @@ function renderList() {
   });
 }
 
+// Romaji for single kana, for the kana combinations below.
+const KANA_ROMA = {あ:"a",い:"i",う:"u",え:"e",お:"o",か:"ka",き:"ki",く:"ku",け:"ke",こ:"ko",さ:"sa",し:"shi",す:"su",せ:"se",そ:"so",
+  た:"ta",ち:"chi",つ:"tsu",て:"te",と:"to",な:"na",に:"ni",ぬ:"nu",ね:"ne",の:"no",は:"ha",ひ:"hi",ふ:"fu",へ:"he",ほ:"ho",
+  ま:"ma",み:"mi",む:"mu",め:"me",も:"mo",や:"ya",ゆ:"yu",よ:"yo",ら:"ra",り:"ri",る:"ru",れ:"re",ろ:"ro",わ:"wa",ん:"n",
+  が:"ga",ぎ:"gi",ぐ:"gu",げ:"ge",ご:"go",ざ:"za",じ:"ji",ず:"zu",ぜ:"ze",ぞ:"zo",だ:"da",ぢ:"ji",づ:"zu",で:"de",ど:"do",
+  ば:"ba",び:"bi",ぶ:"bu",べ:"be",ぼ:"bo",ぱ:"pa",ぴ:"pi",ぷ:"pu",ぺ:"pe",ぽ:"po"};
+
+// Random 2–4 kana strings from the selected rows (at least one from the newest row): writing practice that works
+// for any selection, also where Japanese has hardly any real words.
+function kanaStrings(n, focus, avoid) {
+  const pool = [...allowedKana()].filter(c => KANA_ROMA[c]);
+  const fpool = [...focus].filter(c => pool.includes(c));
+  const out = [];
+  for (let guard = 0; out.length < n && guard < 1000 && pool.length; guard++) {
+    const len = 2 + Math.floor(Math.random() * 3);
+    const cs = Array.from({ length: len }, () => pool[Math.floor(Math.random() * pool.length)]);
+    if (fpool.length && !cs.some(c => fpool.includes(c))) cs[Math.floor(Math.random() * len)] = fpool[Math.floor(Math.random() * fpool.length)];
+    if (cs[0] === "ん" || cs.join("").includes("んん")) continue;
+    const jp = cs.join("");
+    if (avoid.has(jp) || out.some(o => o.jp === jp)) continue;
+    out.push({ jp, romaji: cs.map(c => KANA_ROMA[c]).join("-"), en: "Kana practice (not a word)" });
+  }
+  return out;
+}
+
 // Picks a fresh set from the prepared words and sentences that use only the selected kana,
 // preferring ones with the newest row and avoiding what was shown recently.
 async function generate() {
@@ -297,11 +323,19 @@ async function generate() {
     .sort((a, b) => b.r - a.r).map(x => x.it);
   const n = state.count;
   let items;
-  if (state.kind === "words") items = rank(words).slice(0, n);
+  let filled = 0;
+  if (state.kind === "kana") items = kanaStrings(n, focus || allowedKana(), recent);
+  else if (state.kind === "words") items = rank(words).slice(0, n);
   else if (state.kind === "sentences") items = rank(sentences).slice(0, n);
   else {
     const s = rank(sentences).slice(0, Math.ceil(n / 2));
     items = [...s, ...rank(words).slice(0, n - s.length)].sort(() => Math.random() - 0.5);
+  }
+  // Few real words with these rows: fill up with kana combinations (words and mixed sets).
+  if (items.length < n && state.kind !== "sentences" && state.kind !== "kana") {
+    const extra = kanaStrings(n - items.length, focus || allowedKana(), new Set([...recent, ...items.map(it => it.jp)]));
+    filled = extra.length;
+    items = [...items, ...extra];
   }
   if (!items.length) {
     status.innerHTML = `<span class="err">No ${state.kind === "words" ? "words" : "sentences"} use only these rows yet — add the next row.</span>`;
@@ -310,8 +344,10 @@ async function generate() {
   Object.assign(state, { items, done: [], revealed: [], recent: [...items.map(it => it.jp), ...state.recent].slice(0, 80) });
   save(); renderList();
   const pool = state.kind === "words" ? words.length : state.kind === "sentences" ? sentences.length : words.length + sentences.length;
-  status.textContent = `${items.length} exercises · ${pool} available with these rows` +
-    (items.length < n ? " — add more rows for more variety" : "");
+  const noVowels = !state.rows.includes(0) ? " Tip: most words need the vowel row あいうえお." : "";
+  status.textContent = state.kind === "kana" ? `${items.length} kana combinations from your rows`
+    : `${items.length} exercises · ${pool} ${state.kind === "sentences" ? "sentence" : "real item"}${pool === 1 ? "" : "s"} with these rows` +
+      (filled ? ` — filled up with ${filled} kana combination${filled > 1 ? "s" : ""}.${noVowels}` : items.length < n ? ` — add more rows for more variety.${noVowels}` : "");
 }
 
 document.getElementById("genBtn").onclick = generate;
