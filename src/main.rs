@@ -570,6 +570,11 @@ const KANA_WRITE_HTML: &str = include_str!("../static/kana/write.html");
 const KANA_STROKES_JSON: &str = include_str!("../static/kana/strokes.json");
 /// Words, sentences and kana notes, made by tools/gen_kana.py.
 const KANA_CONTENT_JSON: &str = include_str!("../static/kana/content.json");
+/// Verb lookup (static/verbs): every form of a JLPT N5–N3 verb, conjugated in the browser.
+const VERBS_INDEX_HTML: &str = include_str!("../static/verbs/index.html");
+const VERBS_CONJUGATE_JS: &str = include_str!("../static/verbs/conjugate.js");
+/// The verb list, made by tools/gen_verb_dict.py.
+const VERBS_JSON: &str = include_str!("../static/verbs/verbs.json");
 
 /// Writes a static copy of the site: the pages (with relative links, so it works under a
 /// sub-path such as user.github.io/repo/) and every quiz as JSON under `data/`.
@@ -593,6 +598,11 @@ fn export(out: &Path, quizzes: &[Quiz], traditional: &[Option<Quiz>]) -> std::io
     fs::write(kana.join("write.html"), KANA_WRITE_HTML)?;
     fs::write(kana.join("strokes.json"), KANA_STROKES_JSON)?;
     fs::write(kana.join("content.json"), KANA_CONTENT_JSON)?;
+    let verbs = out.join("verbs");
+    fs::create_dir_all(&verbs)?;
+    fs::write(verbs.join("index.html"), VERBS_INDEX_HTML)?;
+    fs::write(verbs.join("conjugate.js"), VERBS_CONJUGATE_JS)?;
+    fs::write(verbs.join("verbs.json"), VERBS_JSON)?;
     // Serve files as they are (no Jekyll processing on GitHub Pages).
     fs::write(out.join(".nojekyll"), "")?;
     if audio_dir().is_dir() {
@@ -733,6 +743,11 @@ async fn main() {
         .route("/kana/write.html", get(|| async { Html(KANA_WRITE_HTML) }))
         .route("/kana/strokes.json", get(|| async { static_file("application/json", KANA_STROKES_JSON) }))
         .route("/kana/content.json", get(|| async { static_file("application/json", KANA_CONTENT_JSON) }))
+        .route("/verbs", get(|| async { Redirect::permanent("/verbs/") }))
+        .route("/verbs/", get(|| async { Html(VERBS_INDEX_HTML) }))
+        .route("/verbs/index.html", get(|| async { Html(VERBS_INDEX_HTML) }))
+        .route("/verbs/conjugate.js", get(|| async { static_file("text/javascript; charset=utf-8", VERBS_CONJUGATE_JS) }))
+        .route("/verbs/verbs.json", get(|| async { static_file("application/json", VERBS_JSON) }))
         .with_state(state);
 
     let port: u16 = env::var("PORT").ok().and_then(|p| p.parse().ok()).unwrap_or(3000);

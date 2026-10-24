@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verb Lookup</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f6f3ee; --panel: #ffffff; --ink: #1f1d1a; --muted: #6f6a62; --line: #e4ded4;
+  --accent: #c0392b; --accent-soft: #f6e3df; --good: #2e7d4f; --good-soft: #e1f1e7; --warn: #b7791f; --warn-soft: #f8edd9;
+  --jp: "Klee One", "Hiragino Mincho ProN", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #171614; --panel: #22201d; --ink: #f1ece4; --muted: #a59e93; --line: #36322d;
+    --accent: #e0675a; --accent-soft: #3a2421; --good: #5cc28a; --good-soft: #1d3327; --warn: #e0a84a; --warn-soft: #362a17;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 Inter, system-ui, sans-serif; }
+header { display: flex; align-items: center; gap: 16px; padding: 14px 24px; border-bottom: 1px solid var(--line); background: var(--panel); position: sticky; top: 0; z-index: 2; flex-wrap: wrap; }
+header h1 { font: 600 22px var(--jp); margin: 0; white-space: nowrap; }
+header h1 span { color: var(--accent); }
+.navlink { color: var(--muted); text-decoration: none; font-weight: 500; font-size: 14px; white-space: nowrap; }
+.navlink:hover { color: var(--ink); }
+main { max-width: 1040px; margin: 0 auto; padding: 24px; display: grid; gap: 18px; }
+.search { display: grid; gap: 6px; }
+.search input { width: 100%; font: 20px var(--jp); padding: 12px 14px; border: 2px solid var(--line); border-radius: 12px; background: var(--panel); color: var(--ink); }
+.search input:focus { outline: none; border-color: var(--accent); }
+.search .row { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+.search .preview { font: 16px var(--jp); color: var(--ink); }
+label.toggle { display: flex; gap: 6px; align-items: center; cursor: pointer; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+.muted { color: var(--muted); }
+.cands { display: flex; flex-wrap: wrap; gap: 6px; }
+.cand { border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 8px; padding: 5px 10px; cursor: pointer; font: 14px Inter, sans-serif; text-align: left; }
+.cand b { font: 600 17px var(--jp); margin-right: 6px; }
+.cand.on { border-color: var(--accent); background: var(--accent-soft); }
+.cand small { color: var(--muted); }
+.verb-head { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 6px 20px; }
+.verb-head .big { font: 600 44px/1.3 var(--jp); }
+.verb-head .big rt { font-size: 15px; color: var(--muted); }
+.verb-head .gloss { font-size: 20px; font-weight: 600; }
+.badges { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.badge { font-size: 12px; padding: 3px 9px; border-radius: 99px; background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+.badge.lvl { background: var(--good-soft); color: var(--good); border-color: transparent; font-weight: 600; }
+.note { margin: 12px 0 0; font-size: 14px; padding: 8px 12px; border-radius: 8px; background: var(--bg); }
+.note.warn { background: var(--warn-soft); }
+.note.found { background: var(--accent-soft); }
+.group h2 { font-size: 15px; margin: 0 0 4px; }
+.form { display: grid; grid-template-columns: 190px 230px 1fr; gap: 6px 18px; padding: 12px 0; border-top: 1px solid var(--line); align-items: start; }
+.form:first-of-type { border-top: 0; }
+.form.hit { background: var(--accent-soft); margin: 0 -12px; padding: 12px; border-radius: 8px; }
+.form .lbl { font-weight: 600; font-size: 14px; }
+.form .lbl small { display: block; color: var(--muted); font: 13px var(--jp); }
+.form .val { font: 600 21px/1.3 var(--jp); word-break: keep-all; overflow-wrap: anywhere; }
+.form .val .kana { display: block; font: 14px var(--jp); color: var(--muted); }
+.form .val .alt { display: block; font: 14px var(--jp); color: var(--muted); }
+.form .how { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+.form .ex { font: 18px/1.9 var(--jp); }
+.form .ex .v { color: var(--accent); font-weight: 600; }
+.form .ex rt { font: 11px var(--jp); color: var(--muted); }
+.form .en { font-size: 14px; }
+.form .none { color: var(--muted); font-size: 14px; font-style: italic; }
+body.nofuri rt { visibility: hidden; }
+.browse .tabs { display: flex; gap: 4px; margin-bottom: 12px; flex-wrap: wrap; }
+.browse .tabs button { border: 1px solid var(--line); background: var(--panel); color: var(--muted); padding: 6px 12px; border-radius: 8px; cursor: pointer; font: 500 14px Inter, sans-serif; }
+.browse .tabs button.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.vlist { display: flex; flex-wrap: wrap; gap: 6px; }
+.vlist a { text-decoration: none; color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 3px 9px; font: 16px var(--jp); background: var(--panel); }
+.vlist a:hover { border-color: var(--accent); }
+.vlist a small { font: 12px Inter, sans-serif; color: var(--muted); margin-left: 4px; }
+.examples { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.examples a { font: 15px var(--jp); color: var(--accent); text-decoration: none; border-bottom: 1px dashed var(--accent); }
+footer { text-align: center; color: var(--muted); font-size: 12px; padding: 0 16px 24px; }
+footer a { color: inherit; }
+@media (max-width: 860px) {
+  main { padding: 16px; }
+  header { padding: 12px 16px; }
+  .form { grid-template-columns: 1fr 1fr; }
+  .form .use { grid-column: 1 / -1; }
+}
+@media (max-width: 520px) {
+  .form { grid-template-columns: 1fr; }
+  .verb-head .big { font-size: 36px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1><span>動詞</span> Verb Lookup</h1>
+  <a class="navlink" href="../">← Grammar quizzes</a>
+  <a class="navlink" href="../kana/">Hiragana Dojo →</a>
+</header>
+
+<main>
+  <div class="search">
+    <input id="q" type="search" autocomplete="off" autocapitalize="off" spellcheck="false"
+      placeholder="Type a verb — 食べる, たべる, taberu, a form like 食べました, or English (eat)" aria-label="Verb">
+    <div class="row">
+      <span class="preview" id="preview"></span>
+      <label class="toggle"><input type="checkbox" id="furi" checked> Furigana</label>
+    </div>
+  </div>
+  <div id="out"></div>
+</main>
+
+<footer>JLPT N5–N3 verbs, based on the JLPT lists of <a href="http://www.tanos.co.uk/jlpt/" target="_blank" rel="noopener">tanos.co.uk</a>
+  (via <a href="https://github.com/jamsinclair/open-anki-jlpt-decks" target="_blank" rel="noopener">open-anki-jlpt-decks</a>).
+  Forms and example sentences are built from patterns, so a few combinations sound odd (e.g. “It was gone home by my friend”).</footer>
+
+<script src="conjugate.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const store = {
+  get(k, d) { try { const v = localStorage.getItem("verbs." + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem("verbs." + k, JSON.stringify(v)); } catch {} },
+};
+
+// ---------- input: romaji → hiragana, katakana → hiragana ----------
+const ROMAJI = (() => {
+  const t = {};
+  const rows = { "": "あいうえお", k: "かきくけこ", s: "さしすせそ", t: "たちつてと", n: "なにぬねの", h: "はひふへほ",
+    m: "まみむめも", y: "や-ゆ-よ", r: "らりるれろ", w: "わ---を", g: "がぎぐげご", z: "ざじずぜぞ", d: "だぢづでど",
+    b: "ばびぶべぼ", p: "ぱぴぷぺぽ" };
+  for (const [c, kana] of Object.entries(rows)) [..."aiueo"].forEach((v, i) => { if (kana[i] !== "-") t[c + v] = kana[i]; });
+  Object.assign(t, { shi: "し", chi: "ち", tsu: "つ", fu: "ふ", ji: "じ", si: "し", ti: "ち", tu: "つ", hu: "ふ", zi: "じ", di: "ぢ", du: "づ",
+    wo: "を", "-": "ー", xtsu: "っ", ltsu: "っ" });
+  const youon = { ky: "き", sh: "し", ch: "ち", ny: "に", hy: "ひ", my: "み", ry: "り", gy: "ぎ", j: "じ", by: "び", py: "ぴ", cy: "ち", sy: "し", zy: "じ", ty: "ち", jy: "じ" };
+  for (const [c, base] of Object.entries(youon)) { t[c + "a"] = base + "ゃ"; t[c + "u"] = base + "ゅ"; t[c + "o"] = base + "ょ"; }
+  return t;
+})();
+
+function romajiToKana(text) {
+  const s = text.toLowerCase();
+  let out = "", i = 0;
+  while (i < s.length) {
+    const c = s[i], next = s[i + 1];
+    if (!/[a-z'-]/.test(c)) { out += c; i++; continue; }
+    if (c === "n" && next === "'") { out += "ん"; i += 2; continue; }
+    if (c === "n" && next === "n") { out += "ん"; i += /[aiueoy]/.test(s[i + 2] || "") ? 1 : 2; continue; }
+    if (c === "n" && (next === undefined || !/[aiueoy]/.test(next))) { out += "ん"; i++; continue; }
+    if (c === next && /[bcdfghjkmpqrstvwxz]/.test(c)) { out += "っ"; i++; continue; }
+    const len = [3, 2, 1].find(n => ROMAJI[s.slice(i, i + n)]);
+    if (len) { out += ROMAJI[s.slice(i, i + len)]; i += len; } else { out += c; i++; }
+  }
+  return out;
+}
+const hira = s => s.replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60));
+// "put on (shoes, trousers), wear" → ["put on (shoes, trousers)", "wear"]
+const senses = g => g.split(/,(?![^(]*\))/).map(s => s.trim());
+const clean = s => hira(s.trim().replace(/[\s　。、！？!?「」]/g, "").replace(/^[～~]/, ""));
+
+// ---------- data ----------
+let VERBS = [], INDEX = new Map();
+const LABEL = { naide: "ないで (without …ing)" };
+for (const g of Conj.GROUPS) for (const f of g.forms) LABEL[f.id] = `${f.jp} — ${f.label}`;
+
+function buildIndex() {
+  VERBS.forEach((v, i) => {
+    v.i = i;
+    v.t = Conj.table(v);
+    for (const [id, f] of Object.entries(v.t)) {
+      for (const s of [...f.kana, ...f.kanji]) {
+        const key = hira(s);
+        if (!INDEX.has(key)) INDEX.set(key, []);
+        const list = INDEX.get(key);
+        if (!list.some(x => x.v === v && x.id === id)) list.push({ v, id });
+      }
+    }
+  });
+}
+
+/** Verbs for a query: [{ v, ids: [form ids the query matched] }], best first. */
+function search(raw) {
+  const q = clean(raw);
+  if (!q) return { hits: [] };
+  const latin = /[a-z]/i.test(q);
+  const kana = latin ? romajiToKana(q) : q;
+  const found = new Map();
+  const add = (v, id, rank) => {
+    const h = found.get(v) || { v, ids: [], rank: 9 };
+    if (id && !h.ids.includes(id)) h.ids.push(id);
+    h.rank = Math.min(h.rank, rank);
+    found.set(v, h);
+  };
+  for (const key of new Set([q, kana])) {
+    for (const { v, id } of INDEX.get(key) || []) add(v, id === "dict" ? null : id, id === "dict" ? 0 : 1);
+  }
+  if (latin) { // English meaning
+    const word = raw.trim().toLowerCase().replace(/^to /, "");
+    if (word.length > 1) for (const v of VERBS) {
+      const ss = senses(v.g.toLowerCase()).map(s => s.replace(/ \(.*?\)/g, ""));
+      if (ss.includes(word)) add(v, null, 2);
+      else if (ss.some(s => s.split(" ").includes(word.split(" ")[0]) && s.startsWith(word))) add(v, null, 3);
+    }
+  }
+  if (!found.size) { // start of a dictionary form
+    for (const v of VERBS) {
+      if ((hira(v.k).startsWith(kana) || v.r.startsWith(kana) || hira(v.k).startsWith(q)) && kana.length >= 1) add(v, null, 4);
+    }
+  }
+  const hits = [...found.values()].sort((a, b) => a.rank - b.rank || b.v.l - a.v.l || a.v.r.length - b.v.r.length).slice(0, 40);
+  // Not in the list but looks like noun + する: conjugate it anyway.
+  let extra = null;
+  const sk = raw.trim().replace(/[\s　]/g, "");
+  if (!hits.some(h => h.rank < 2) && /^[^a-z]+する$/i.test(sk) && sk.length > 2) {
+    const v = { k: sk, r: sk, c: "suru", l: 0, g: "", e: null, extra: true };
+    v.t = Conj.table(v);
+    extra = { v, ids: [] };
+  }
+  return { hits, extra, kana: latin ? kana : "" };
+}
+
+// ---------- rendering ----------
+const furi = s => esc(s).replace(/\{([^|}]+)\|([^}]+)\}/g, "<ruby>$1<rt>$2</rt></ruby>");
+
+// A verb form with furigana over the verb's kanji: 食べました → <ruby>食<rt>た</rt></ruby>べました
+function rubyForm(kanji, kana, v) {
+  if (kanji === kana) return esc(kana);
+  let i = 0;
+  while (i < kanji.length && i < kana.length && kanji.at(-1 - i) === kana.at(-1 - i)) i++;
+  const head = kanji.slice(0, kanji.length - i), tail = kanji.slice(kanji.length - i);
+  // split a head like 気に入 / きにい at shared kana so only the kanji get furigana
+  const parts = [];
+  let rk = head, rr = kana.slice(0, kana.length - i);
+  const m = rk.match(/^([^ぁ-ん]+)([ぁ-ん]+)(.+)$/);
+  if (m && rr.includes(m[2])) {
+    const at = rr.indexOf(m[2], 1);
+    if (at > 0) { parts.push([m[1], rr.slice(0, at)], [m[2], ""]); rk = m[3]; rr = rr.slice(at + m[2].length); }
+  }
+  parts.push([rk, rr]);
+  return parts.map(([k, r]) => r ? `<ruby>${esc(k)}<rt>${esc(r)}</rt></ruby>` : esc(k)).join("") + esc(tail);
+}
+
+function english(tpl, v) {
+  if (!v.e) return "";
+  const [V, Vd, Vn, Vg] = v.e;
+  const s = tpl.replace(/\{Vd\}/g, Vd).replace(/\{Vn\}/g, Vn).replace(/\{Vg\}/g, Vg).replace(/\{V\}/g, V);
+  return s[0].toUpperCase() + s.slice(1);
+}
+
+function classInfo(v) {
+  const r = v.r, c = v.c;
+  const vowelIE = /[いきしちにひみりぎじぢびぴえけせてねへめれげぜでべぺ]る$/.test(r);
+  const names = {
+    ru: ["る-verb (ichidan)", "Drop る and add the ending."],
+    u: ["う-verb (godan)", `The last sound (${r.at(-1)}) moves through the あ・い・え・お rows.`],
+    iku: ["う-verb (godan)", "Regular except for the て/た-form: 行って, 行った."],
+    aru: ["う-verb (godan)", "Regular except for the negative: ない (not あらない)."],
+    suru: ["irregular (する)", v.r === "する" ? "One of the two irregular verbs." : "Noun + する: only する changes, like する itself."],
+    kuru: ["irregular (来る)", "The vowel changes: き(ます), こ(ない), く(る)."],
+    honor: ["う-verb (godan), keigo", "Like a う-verb, but the ます-stem and the command end in い: いらっしゃいます, いらっしゃい."],
+    tou: ["う-verb (godan)", "Regular except for the て/た-form: 問うて, 問うた."],
+  };
+  const [name, rule] = names[c];
+  const warn = c === "u" && vowelIE
+    ? `⚠ Ends in -${{ い: "i", き: "i", し: "i", ち: "i", に: "i", ひ: "i", み: "i", り: "i", ぎ: "i", じ: "i", ぢ: "i", び: "i", ぴ: "i" }[r.at(-2)] || "e"}る like a る-verb, but it is one of the う-verb exceptions.`
+    : "";
+  return { name, rule, warn };
+}
+
+function verbHtml(hit) {
+  const { v, ids } = hit;
+  const t = v.t;
+  const info = classInfo(v);
+  const head = rubyForm(v.k, v.r, v);
+  const found = ids.length && !(ids.length === 1 && ids[0] === "dict")
+    ? `<p class="note found">You searched for a form of ${esc(v.k)}: ${ids.map(id => `<b>${esc(LABEL[id] || id)}</b>`).join(", ")} (highlighted below).</p>` : "";
+  const groups = Conj.GROUPS.map(g => {
+    const rows = g.forms.map(f => {
+      const val = t[f.id];
+      if (!val) {
+        if (!["hon", "hum", "potential", "potential_masu", "potential_nai"].includes(f.id)) return "";
+        const why = f.id.startsWith("potential")
+          ? (Conj.NO_POTENTIAL.has(v.k) ? `${v.k} already means “can …” or is about things; it has no potential form.` : "not used with this verb.")
+          : v.c === "honor" || /召し上がる|参る|申す|致す|いただく|差し上げる|おる|拝見する|申し上げる|うかがう/.test(v.k)
+            ? "this verb is keigo already." : "no common keigo form for this verb.";
+        return `<div class="form"><div class="lbl">${esc(f.label)}<small>${esc(f.jp)}</small></div><div class="none">${esc(why)}</div><div></div></div>`;
+      }
+      const main = rubyForm(val.kanji[0], val.kana[0], v);
+      const kanaLine = val.kanji[0] !== val.kana[0] ? `<span class="kana">${esc(val.kana[0])}</span>` : "";
+      const alts = val.kanji.slice(1).filter(a => a !== val.kanji[0]);
+      const altLine = alts.length ? `<span class="alt">also: ${alts.map(esc).join("、")}</span>` : "";
+      const how = (f.id === "hon" || f.id === "hum") && val.own ? "special keigo verb" : Conj.how(f.id, v);
+      const ex = f.ex.split("{F}").map(furi).join(`<span class="v">${main}</span>`);
+      const en = english(f.en, v);
+      return `<div class="form${ids.includes(f.id) ? " hit" : ""}" id="f-${f.id}">
+        <div class="lbl">${esc(f.label)}<small>${esc(f.jp)}</small></div>
+        <div class="val">${main}${kanaLine}${altLine}</div>
+        <div class="use">${how ? `<div class="how">${esc(how)}</div>` : ""}<div class="ex">${ex}</div>${en ? `<div class="en">${esc(en)}</div>` : ""}</div>
+      </div>`;
+    }).join("");
+    return rows ? `<section class="card group"><h2>${esc(g.title)}</h2>${rows}</section>` : "";
+  }).join("");
+  return `<section class="card">
+      <div class="verb-head"><div class="big">${head}</div>
+        ${v.g ? `<div class="gloss">to ${esc(v.g)}</div>` : ""}</div>
+      <div class="badges">${v.l ? `<span class="badge lvl">JLPT N${v.l}</span>` : `<span class="badge">not in the N5–N3 list</span>`}
+        <span class="badge">${esc(info.name)}</span>${v.r !== v.k ? `<span class="badge">${esc(v.r)}</span>` : ""}</div>
+      <p class="note">${esc(info.rule)}</p>
+      ${info.warn ? `<p class="note warn">${esc(info.warn)}</p>` : ""}
+      ${found}
+    </section>${groups}`;
+}
+
+const EXAMPLES = ["食べる", "いく", "来る", "勉強する", "帰る", "kaku", "飲みました", "待たされた", "見られない", "remember"];
+
+function browseHtml() {
+  const lvl = store.get("level", 5);
+  const list = VERBS.filter(v => v.l === lvl).sort((a, b) => a.r.localeCompare(b.r, "ja"));
+  return `<section class="card">
+      <p style="margin:0">Look up any JLPT N5–N3 verb and see all its forms, each with how it's built and an example sentence.
+      Type in kanji, hiragana or romaji — or paste a conjugated form, and it finds the verb.</p>
+      <div class="examples">Try: ${EXAMPLES.map(e => `<a href="#${encodeURIComponent(e)}">${esc(e)}</a>`).join(" ")}</div>
+    </section>
+    <section class="card browse">
+      <div class="tabs">${[5, 4, 3].map(n => `<button data-l="${n}" class="${n === lvl ? "on" : ""}">N${n} · ${VERBS.filter(v => v.l === n).length}</button>`).join("")}</div>
+      <div class="vlist">${list.map(v => `<a href="#${encodeURIComponent(v.k)}" title="${esc(v.r)} — ${esc(v.g)}">${esc(v.k)}<small>${esc(senses(v.g)[0])}</small></a>`).join("")}</div>
+    </section>`;
+}
+
+let current = null; // index of the shown verb among the hits
+function render(pick) {
+  const raw = $("q").value;
+  const { hits, extra, kana } = search(raw);
+  $("preview").textContent = kana && !/[a-z]/i.test(kana) ? "→ " + kana : "";
+  const out = $("out");
+  if (!raw.trim()) {
+    out.innerHTML = browseHtml();
+    out.querySelectorAll("[data-l]").forEach(b => b.addEventListener("click", () => { store.set("level", +b.dataset.l); render(); }));
+    return;
+  }
+  const all = extra ? [extra, ...hits] : hits;
+  if (!all.length) {
+    out.innerHTML = `<section class="card"><p style="margin:0">No verb found for <b>${esc(raw)}</b>. The list has the JLPT N5–N3 verbs;
+      noun + する verbs not in it (e.g. 発明する) are conjugated anyway if you type them with する.</p></section>`;
+    return;
+  }
+  if (pick !== undefined) current = pick;
+  if (current === null || current >= all.length) current = 0;
+  const cands = all.length > 1 ? `<section class="card"><div class="muted" style="font-size:13px;margin-bottom:8px">${all.length} matches — pick one:</div>
+      <div class="cands">${all.map((h, i) => `<button class="cand${i === current ? " on" : ""}" data-i="${i}"><b>${esc(h.v.k)}</b>${h.v.r !== h.v.k ? esc(h.v.r) + " · " : ""}<small>${esc(h.v.g || "noun + する")}${h.ids.length ? " · " + esc(LABEL[h.ids[0]] || "") : ""}</small></button>`).join("")}</div></section>` : "";
+  const extraNote = all[current].v.extra ? `<section class="card"><p style="margin:0" class="muted">${esc(all[current].v.k)} is not in the list; it is conjugated as noun + する.</p></section>` : "";
+  out.innerHTML = cands + extraNote + verbHtml(all[current]);
+  out.querySelectorAll(".cand").forEach(b => b.addEventListener("click", () => render(+b.dataset.i)));
+  const hit = out.querySelector(".form.hit");
+  if (hit && pick === undefined) hit.scrollIntoView({ block: "center", behavior: "smooth" });
+}
+
+function fromHash() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (h !== $("q").value) { $("q").value = h; current = null; render(); }
+}
+
+let timer;
+$("q").addEventListener("input", () => {
+  clearTimeout(timer);
+  current = null;
+  timer = setTimeout(() => {
+    history.replaceState(null, "", $("q").value ? "#" + encodeURIComponent($("q").value) : location.pathname + location.search);
+    render();
+  }, 150);
+});
+window.addEventListener("hashchange", fromHash);
+$("furi").checked = store.get("furigana", true);
+document.body.classList.toggle("nofuri", !$("furi").checked);
+$("furi").addEventListener("change", () => { store.set("furigana", $("furi").checked); document.body.classList.toggle("nofuri", !$("furi").checked); });
+
+fetch("verbs.json").then(r => r.json()).then(data => {
+  VERBS = data;
+  buildIndex();
+  $("q").value = decodeURIComponent(location.hash.slice(1));
+  render();
+  if (!$("q").value) $("q").focus();
+}).catch(e => { $("out").innerHTML = `<section class="card">Could not load the verb list: ${esc(e.message)}</section>`; });
+</script>
+</body>
+</html>
