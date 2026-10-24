@@ -24,7 +24,7 @@ use std::{
 use axum::{
     extract::{Path as UrlPath, Query, State},
     http::{header, StatusCode},
-    response::{Html, IntoResponse, Response},
+    response::{Html, IntoResponse, Redirect, Response},
     routing::{get, post},
     Json, Router,
 };
@@ -564,6 +564,12 @@ const APP_JS: &str = include_str!("../static/app.js");
 const STYLE_CSS: &str = include_str!("../static/style.css");
 const FAVICON_SVG: &str = include_str!("../static/favicon.svg");
 const TOUCH_ICON_PNG: &[u8] = include_bytes!("../static/apple-touch-icon.png");
+/// Hiragana Dojo (static/kana): writing practice, checked in the browser against KanjiVG stroke data.
+const KANA_INDEX_HTML: &str = include_str!("../static/kana/index.html");
+const KANA_WRITE_HTML: &str = include_str!("../static/kana/write.html");
+const KANA_STROKES_JSON: &str = include_str!("../static/kana/strokes.json");
+/// Words, sentences and kana notes, made by tools/gen_kana.py.
+const KANA_CONTENT_JSON: &str = include_str!("../static/kana/content.json");
 
 /// Writes a static copy of the site: the pages (with relative links, so it works under a
 /// sub-path such as user.github.io/repo/) and every quiz as JSON under `data/`.
@@ -581,6 +587,12 @@ fn export(out: &Path, quizzes: &[Quiz], traditional: &[Option<Quiz>]) -> std::io
     fs::write(out.join("style.css"), STYLE_CSS)?;
     fs::write(out.join("favicon.svg"), FAVICON_SVG)?;
     fs::write(out.join("apple-touch-icon.png"), TOUCH_ICON_PNG)?;
+    let kana = out.join("kana");
+    fs::create_dir_all(&kana)?;
+    fs::write(kana.join("index.html"), KANA_INDEX_HTML)?;
+    fs::write(kana.join("write.html"), KANA_WRITE_HTML)?;
+    fs::write(kana.join("strokes.json"), KANA_STROKES_JSON)?;
+    fs::write(kana.join("content.json"), KANA_CONTENT_JSON)?;
     // Serve files as they are (no Jekyll processing on GitHub Pages).
     fs::write(out.join(".nojekyll"), "")?;
     if audio_dir().is_dir() {
@@ -715,6 +727,12 @@ async fn main() {
         .route("/api/mix", get(random_mix))
         .route("/api/check", post(check))
         .route("/audio/{*path}", get(audio_file))
+        .route("/kana", get(|| async { Redirect::permanent("/kana/") }))
+        .route("/kana/", get(|| async { Html(KANA_INDEX_HTML) }))
+        .route("/kana/index.html", get(|| async { Html(KANA_INDEX_HTML) }))
+        .route("/kana/write.html", get(|| async { Html(KANA_WRITE_HTML) }))
+        .route("/kana/strokes.json", get(|| async { static_file("application/json", KANA_STROKES_JSON) }))
+        .route("/kana/content.json", get(|| async { static_file("application/json", KANA_CONTENT_JSON) }))
         .with_state(state);
 
     let port: u16 = env::var("PORT").ok().and_then(|p| p.parse().ok()).unwrap_or(3000);

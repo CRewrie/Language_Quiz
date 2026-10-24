@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hiragana Dojo</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f6f3ee; --panel: #ffffff; --ink: #1f1d1a; --muted: #6f6a62; --line: #e4ded4;
+  --accent: #c0392b; --accent-soft: #f6e3df; --good: #2e7d4f; --good-soft: #e1f1e7;
+  --warn: #b7791f; --ghost: rgba(31,29,26,.12); --guide: #d9cfc0; --next: rgba(192,57,43,.32);
+  --jp: "Klee One", "Hiragino Mincho ProN", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #171614; --panel: #22201d; --ink: #f1ece4; --muted: #a59e93; --line: #36322d;
+    --accent: #e0675a; --accent-soft: #3a2421; --good: #5cc28a; --good-soft: #1d3327;
+    --warn: #e0a84a; --ghost: rgba(241,236,228,.13); --guide: #4a443c; --next: rgba(224,103,90,.4);
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 Inter, system-ui, sans-serif; }
+header { display: flex; align-items: center; gap: 16px; padding: 14px 24px; border-bottom: 1px solid var(--line); background: var(--panel); position: sticky; top: 0; z-index: 2; flex-wrap: wrap; }
+header h1 { font: 600 22px var(--jp); margin: 0; white-space: nowrap; }
+header h1 span { color: var(--accent); }
+.navlink { color: var(--muted); text-decoration: none; font-weight: 500; font-size: 14px; white-space: nowrap; }
+.navlink:hover { color: var(--ink); }
+.progress { flex: 1; max-width: 340px; min-width: 180px; margin-left: auto; font-size: 13px; color: var(--muted); }
+.bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; margin-top: 4px; }
+.bar > div { height: 100%; background: var(--good); width: 0; transition: width .4s; }
+.layout { display: grid; grid-template-columns: 270px 1fr; gap: 24px; padding: 24px; max-width: 1200px; margin: 0 auto; }
+aside { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 10px; align-self: start; position: sticky; top: 84px; max-height: calc(100vh - 108px); overflow: auto; }
+.lesson { padding: 10px; border-radius: 8px; cursor: pointer; }
+.lesson:hover { background: var(--bg); }
+.lesson.active { background: var(--accent-soft); }
+.lesson .t { font-weight: 600; font-size: 13px; display: flex; justify-content: space-between; gap: 8px; }
+.lesson .t small { color: var(--muted); font-weight: 400; white-space: nowrap; }
+.lesson .kana { font: 20px var(--jp); letter-spacing: 2px; margin-top: 2px; word-break: break-all; }
+.lesson .mini { height: 4px; background: var(--line); border-radius: 2px; margin-top: 6px; overflow: hidden; }
+.lesson .mini > div { height: 100%; background: var(--good); }
+main { display: grid; gap: 18px; min-width: 0; }
+.topbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
+.lesson-title { font-weight: 600; font-size: 18px; }
+.lesson-title .sub { color: var(--muted); font-weight: 400; font-size: 14px; display: block; }
+.modes { display: flex; gap: 4px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 4px; flex-wrap: wrap; }
+.modes button { border: 0; background: none; padding: 7px 12px; border-radius: 7px; cursor: pointer; color: var(--muted); font: 500 14px Inter, sans-serif; }
+.modes button.on { background: var(--ink); color: var(--bg); }
+.mode-hint { color: var(--muted); font-size: 13px; margin-top: -8px; }
+.items { display: flex; flex-wrap: wrap; gap: 6px; }
+.item { font: 17px var(--jp); padding: 4px 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); cursor: pointer; }
+.item.kana-item { border-style: dashed; }
+.item.s3 { border-color: var(--warn); }
+.item.s4, .item.s5 { border-color: var(--good); background: var(--good-soft); }
+.item.current { outline: 2px solid var(--accent); outline-offset: 1px; }
+.item.locked { opacity: .4; cursor: not-allowed; }
+.levelup { margin-bottom: 12px; padding: 10px 12px; border-radius: 8px; background: var(--good-soft); color: var(--good); font-weight: 600; }
+.peeked { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+.prompt { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; }
+.prompt .kind { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); width: 100%; }
+.prompt .en { font-size: 26px; font-weight: 600; }
+.prompt .ro { font-size: 20px; color: var(--muted); letter-spacing: .04em; }
+.prompt .jp { font: 600 34px var(--jp); width: 100%; }
+.prompt .jp .new { color: var(--accent); }
+.prompt .jp.hidden { color: var(--muted); font-size: 16px; font-family: Inter, sans-serif; font-weight: 400; }
+.pad-wrap { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 16px; }
+canvas { width: 100%; border-radius: 10px; border: 2px solid var(--line); background: var(--panel); touch-action: none; cursor: crosshair; display: block; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; align-items: center; }
+button.b { border: 1px solid var(--line); background: var(--panel); color: var(--ink); padding: 8px 14px; border-radius: 8px; cursor: pointer; font: 500 14px Inter, sans-serif; }
+button.b:hover { border-color: var(--muted); }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+label.toggle { font-size: 13px; color: var(--muted); display: flex; gap: 6px; align-items: center; cursor: pointer; }
+.strokecount { font-size: 13px; color: var(--muted); }
+.feedback { display: none; }
+.feedback.show { display: block; }
+.fb-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.stars { font-size: 22px; letter-spacing: 2px; color: var(--warn); }
+.badge { font-size: 12px; padding: 3px 8px; border-radius: 99px; background: var(--bg); color: var(--muted); }
+.badge.ok { background: var(--good-soft); color: var(--good); }
+.badge.bad { background: var(--accent-soft); color: var(--accent); }
+.per-char { display: grid; gap: 8px; margin: 14px 0; }
+.pc { display: grid; grid-template-columns: 44px 1fr; gap: 10px; align-items: start; padding: 8px; border-radius: 8px; background: var(--bg); }
+.pc .g { font: 600 30px/1 var(--jp); text-align: center; padding-top: 2px; }
+.pc .g.bad { color: var(--accent); }
+.pc .n { font-size: 14px; }
+.pc .n small { color: var(--muted); display: block; }
+.fb-text { margin: 4px 0 8px; }
+.tip { font-size: 14px; color: var(--muted); border-left: 3px solid var(--accent); padding-left: 10px; }
+.err { color: var(--accent); }
+h2 { font-size: 15px; margin: 0 0 10px; }
+.guide-card .kn { display: grid; grid-template-columns: 54px 1fr; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); }
+.guide-card .kn:first-of-type { border-top: 0; }
+.guide-card .kn .g { font: 600 40px/1 var(--jp); text-align: center; }
+.guide-card .kn .g small { display: block; font: 12px Inter, sans-serif; color: var(--muted); margin-top: 4px; }
+.guide-card .kn p { margin: 0 0 4px; font-size: 14px; }
+.guide-card .kn .lbl { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+.examples { margin: 8px 0 0; padding-left: 18px; font-size: 14px; }
+.examples .jp { font: 18px var(--jp); }
+.examples .ro { color: var(--muted); }
+.faq { margin-top: 14px; }
+.faq input { width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; background: var(--bg); color: var(--ink); font: 14px Inter, sans-serif; }
+.faq details { border-top: 1px solid var(--line); padding: 8px 0; }
+.faq summary { cursor: pointer; font-weight: 500; font-size: 14px; }
+.faq details p { margin: 6px 0 0; font-size: 14px; color: var(--ink); }
+footer { text-align: center; color: var(--muted); font-size: 12px; padding: 0 16px 24px; }
+footer a { color: inherit; }
+@media (max-width: 860px) {
+  .layout { grid-template-columns: 1fr; padding: 16px; }
+  aside { position: static; max-height: 260px; }
+  header { padding: 12px 16px; }
+  .prompt .en { font-size: 22px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1><span>ひらがな</span> Dojo</h1>
+  <a class="navlink" href="../">← Grammar quizzes</a>
+  <a class="navlink" href="write.html">Writing drills →</a>
+  <div class="progress"><span id="progText"></span><div class="bar"><div id="progBar"></div></div></div>
+</header>
+
+<div class="layout">
+  <aside id="lessons"></aside>
+
+  <main>
+    <div class="topbar">
+      <div class="lesson-title" id="lessonTitle"></div>
+      <div class="modes" id="modes">
+        <button data-mode="trace" class="on">Trace</button>
+        <button data-mode="recall">From memory</button>
+        <button data-mode="review">Review</button>
+        <button data-mode="path">Word path</button>
+      </div>
+    </div>
+    <div class="mode-hint" id="modeHint"></div>
+    <div class="items" id="items"></div>
+
+    <div class="card">
+      <div class="prompt" id="prompt"></div>
+      <div class="pad-wrap">
+        <canvas id="pad"></canvas>
+        <div class="row">
+          <span class="strokecount" id="strokeCount"></span>
+          <label class="toggle"><input type="checkbox" id="ghostToggle" checked> Show guide</label>
+        </div>
+        <div class="row">
+          <button class="b" id="undoBtn">Undo</button>
+          <button class="b" id="clearBtn">Clear</button>
+          <button class="b" id="playBtn">▶ Stroke order</button>
+          <button class="b" id="explainBtn">Explain this word</button>
+          <button class="b primary" id="checkBtn">Check</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card feedback" id="feedback"></div>
+
+    <div class="card guide-card" id="guideCard">
+      <h2 id="guideTitle">Kana guide</h2>
+      <div id="guideBody"></div>
+      <div class="faq">
+        <h2>Questions learners often ask</h2>
+        <input id="faqSearch" type="search" placeholder="Search, e.g. ぬ め, small っ, long vowels" autocomplete="off">
+        <div id="faqList"></div>
+      </div>
+    </div>
+  </main>
+</div>
+<footer>Stroke-order data from <a href="https://kanjivg.tagaini.net" target="_blank" rel="noopener">KanjiVG</a> by Ulrich Apel, CC BY-SA 3.0. Writing is checked in your browser by comparing your strokes with this data.</footer>
+
+<script>
+// ---------- characters ----------
+const BASE_STROKES = {
+  あ:3,い:2,う:2,え:2,お:3, か:3,き:4,く:1,け:3,こ:2, さ:3,し:1,す:2,せ:3,そ:1,
+  た:4,ち:2,つ:1,て:1,と:2, な:4,に:3,ぬ:2,ね:2,の:1, は:3,ひ:1,ふ:4,へ:1,ほ:4,
+  ま:3,み:2,む:3,め:2,も:3, や:3,ゆ:2,よ:2, ら:2,り:2,る:1,れ:2,ろ:1, わ:2,を:3,ん:1,
+};
+const SMALL = "ゃゅょっ", HANDAKUTEN = "ぱぴぷぺぽ", DAKUTEN = "がぎぐげござじずぜぞだぢづでどばびぶべぼ";
+const shiftCh = (ch, d) => String.fromCodePoint(ch.codePointAt(0) + d);
+// Voiced kana are the base plus ゛ or ゜ (written last); small kana are the full-size base, half size, lower left.
+function baseOf(c) {
+  if (SMALL.includes(c)) return shiftCh(c, 1);
+  if (DAKUTEN.includes(c)) return shiftCh(c, -1);
+  if (HANDAKUTEN.includes(c)) return shiftCh(c, -2);
+  return c;
+}
+const strokeCount = c => (BASE_STROKES[baseOf(c)] || 0) + (DAKUTEN.includes(c) ? 2 : HANDAKUTEN.includes(c) ? 1 : 0);
+const isKana = c => /[ぁ-ん]/.test(c);
+
+let C = null;          // content.json: rows, words, sentences, kana notes, faq
+let LESSONS = [], ALL_WORDS = [];
+const CORE_WORDS = 14; // words shown in each lesson; the word path uses every word of the level
+
+function buildLessons() {
+  LESSONS = C.rows.map(([name, kana], i) => {
+    const words = C.words.filter(w => w[3] === i);
+    const core = words.slice(0, CORE_WORDS);
+    return {
+      name, kana, all: words,
+      items: [...kana].map(k => ({ jp: k, ro: romajiOf(k), en: "new character", kana: true }))
+        .concat(core.map(([jp, ro, en]) => ({ jp, ro, en, kana: false, lesson: i }))),
+    };
+  });
+  LESSONS.forEach((l, i) => l.words = l.items.filter(it => !it.kana));
+  ALL_WORDS = C.words.map(([jp, ro, en, lv]) => ({ jp, ro, en, kana: false, lesson: lv }));
+}
+const ROMA = {};
+function romajiOf(k) { return ROMA[k] || k; }
+
+const MODE_HINTS = {
+  trace: "Write over the guide: start each stroke at its numbered dot and finish at the arrow. The next stroke to write is highlighted.",
+  recall: "The hiragana is hidden. Write the word from the romaji and meaning, then check.",
+  review: "Random words from the lessons you've practised, weakest first. Written from memory.",
+  path: "Whole words from memory, getting harder level by level. Peeking at the guide is fine, but peeked words don't count toward the next level.",
+};
+
+// ---------- progress (per-browser) ----------
+let progress = { items: {}, kana: {}, path: { level: 0, unlocked: 0, cleared: {} } };
+try { Object.assign(progress, JSON.parse(localStorage.getItem("hiragana-words-progress") || "{}")); } catch {}
+function saveProgress() { try { localStorage.setItem("hiragana-words-progress", JSON.stringify(progress)); } catch {} }
+const bestItem = jp => progress.items[jp] || 0;
+const bestKana = k => progress.kana[k] || 0;
+
+let mode = "trace";
+const inLessons = () => mode === "trace" || mode === "recall";
+let lessonIdx = 0;
+let current = null;
+
+function lessonStats(l) {
+  const done = l.words.filter(w => bestItem(w.jp) >= 4).length;
+  return { done, total: l.words.length };
+}
+
+function renderLessons() {
+  const el = document.getElementById("lessons");
+  el.innerHTML = "";
+  LESSONS.forEach((l, i) => {
+    const { done, total } = lessonStats(l);
+    const div = document.createElement("div");
+    div.className = "lesson" + (i === lessonIdx && inLessons() ? " active" : "");
+    div.innerHTML = `<div class="t">${i + 1}. ${l.name}<small>${done}/${total} words</small></div>
+      <div class="kana">${l.kana}</div><div class="mini"><div style="width:${total ? 100 * done / total : 0}%"></div></div>`;
+    div.onclick = () => { lessonIdx = i; if (!inLessons()) setMode("trace", false); select(l.items[0]); };
+    el.appendChild(div);
+  });
+  const allKana = LESSONS.map(l => l.kana).join("");
+  const kanaDone = [...allKana].filter(k => bestKana(k) >= 4).length;
+  const lessonWords = LESSONS.flatMap(l => l.words);
+  const wordsDone = lessonWords.filter(w => bestItem(w.jp) >= 4).length;
+  document.getElementById("progText").textContent = `${wordsDone} / ${lessonWords.length} lesson words · ${kanaDone} / ${[...allKana].length} kana`;
+  document.getElementById("progBar").style.width = (100 * wordsDone / lessonWords.length) + "%";
+}
+
+function renderItems() {
+  const box = document.getElementById("items");
+  const title = document.getElementById("lessonTitle");
+  box.innerHTML = "";
+  if (mode === "review") {
+    title.innerHTML = `Review<span class="sub">Mixed words from practised lessons</span>`;
+    return;
+  }
+  if (mode === "path") return renderPath(box, title);
+  const l = LESSONS[lessonIdx];
+  const known = LESSONS.slice(0, lessonIdx).map(x => x.kana).join("");
+  title.innerHTML = `Lesson ${lessonIdx + 1} · ${l.name}<span class="sub">New: ${l.kana}${known ? ` · already known: ${[...known].length} kana` : ""} · ${l.all.length} words in this level</span>`;
+  l.items.forEach(it => {
+    const b = document.createElement("div");
+    b.className = `item${it.kana ? " kana-item" : ""} s${it.kana ? bestKana(it.jp) : bestItem(it.jp)}` + (it === current ? " current" : "");
+    b.textContent = it.jp;
+    b.title = `${it.ro} — ${it.en}`;
+    b.onclick = () => select(it);
+    box.appendChild(b);
+  });
+}
+
+function select(it) {
+  current = it;
+  const hide = mode !== "trace";
+  const newKana = mode === "review" ? "" : mode === "path" ? LESSONS[it.lesson]?.kana || "" : LESSONS[lessonIdx].kana;
+  const jpHtml = [...it.jp].map(c => newKana.includes(c) ? `<span class="new">${c}</span>` : c).join("");
+  document.getElementById("prompt").innerHTML = `
+    <div class="kind">${it.kana ? "New character" : "Write the word"} · ${[...it.jp].length} box${[...it.jp].length > 1 ? "es" : ""}</div>
+    ${it.kana ? "" : `<span class="en">${esc(it.en)}</span>`}
+    <span class="ro">${esc(it.ro)}</span>
+    <div class="jp ${hide ? "hidden" : ""}" id="jpLine">${hide ? "Hiragana hidden. Write it from memory." : jpHtml}</div>`;
+  document.getElementById("explainBtn").textContent = it.kana ? "How do I write this?" : "Explain this word";
+  document.getElementById("ghostToggle").checked = !hide;
+  peeked = false;
+  document.getElementById("feedback").className = "card feedback";
+  resizePad();
+  clearPad();
+  renderLessons();
+  renderItems();
+  showGuide(it, false);
+}
+
+function setMode(m, pick = true) {
+  mode = m;
+  document.querySelectorAll("#modes button").forEach(b => b.classList.toggle("on", b.dataset.mode === m));
+  document.getElementById("modeHint").textContent = MODE_HINTS[m];
+  if (!pick) return;
+  if (m === "review") nextReview(); else if (m === "path") nextPath(); else select(LESSONS[lessonIdx].items[0]);
+}
+document.querySelectorAll("#modes button").forEach(b => b.onclick = () => setMode(b.dataset.mode));
+
+function weighted(pool) {
+  let r = Math.random() * pool.reduce((s, [, w]) => s + w, 0);
+  for (const [x, w] of pool) if ((r -= w) <= 0) return x;
+  return pool[0][0];
+}
+
+function nextReview() {
+  let reach = 0;
+  LESSONS.forEach((l, i) => { if (l.items.some(it => (it.kana ? bestKana(it.jp) : bestItem(it.jp)) > 0)) reach = i; });
+  const pool = ALL_WORDS.filter(w => w.lesson <= reach && w.jp !== current?.jp).map(w => [w, 6 - bestItem(w.jp)]);
+  select(weighted(pool));
+}
+
+// ---------- word path: words only, one kana row per level ----------
+const PATH_GOAL = 6;
+let peeked = false;
+
+const pathWords = lvl => ALL_WORDS.filter(w => w.lesson === lvl);
+const pathCleared = lvl => pathWords(lvl).filter(w => progress.path.cleared[w.jp]).length;
+
+function renderPath(box, title) {
+  const P = progress.path, lvl = P.level, l = LESSONS[lvl];
+  const left = Math.max(0, PATH_GOAL - pathCleared(lvl));
+  const nextL = LESSONS[lvl + 1];
+  const sub = lvl < P.unlocked ? "Level cleared. Keep practising, or jump ahead."
+    : !nextL ? `${pathCleared(lvl)}/${pathWords(lvl).length} words cleared on the final level`
+    : `${PATH_GOAL - left}/${PATH_GOAL} words to unlock ${nextL.name}`;
+  title.innerHTML = `Word path · Level ${lvl + 1}: ${l.name}<span class="sub">${sub} · ${pathWords(lvl).length} words on this level</span>`;
+  LESSONS.forEach((L, i) => {
+    const b = document.createElement("div");
+    const locked = i > P.unlocked;
+    b.className = "item" + (locked ? " locked" : "") + (i === lvl ? " current" : "") + (i < P.unlocked ? " s4" : "");
+    b.textContent = `${locked ? "🔒 " : ""}${i + 1} · ${[...L.kana].slice(0, 5).join("")}${[...L.kana].length > 5 ? "…" : ""}`;
+    b.title = locked ? "Clear the previous level to unlock" : `${L.name}: ${pathCleared(i)}/${pathWords(i).length} words cleared`;
+    if (!locked) b.onclick = () => { P.level = i; saveProgress(); nextPath(); };
+    box.appendChild(b);
+  });
+}
+
+function nextPath() {
+  const lvl = progress.path.level;
+  const fresh = pathWords(lvl).filter(w => !progress.path.cleared[w.jp] && w.jp !== current?.jp)
+    .sort((a, b) => [...a.jp].length - [...b.jp].length);
+  const earlier = ALL_WORDS.filter(w => w.lesson < lvl && w.jp !== current?.jp);
+  if (earlier.length && (Math.random() < 0.25 || !fresh.length)) return select(weighted(earlier.map(w => [w, 6 - bestItem(w.jp)])));
+  const pick = fresh.length ? fresh.slice(0, 4) : pathWords(lvl).filter(w => w.jp !== current?.jp);
+  select(pick[Math.floor(Math.random() * pick.length)]);
+}
+
+function recordPath(item, g) {
+  if (mode !== "path" || peeked || !g.word_correct || g.score < 4) return "";
+  const P = progress.path;
+  P.cleared[item.jp] = true;
+  if (P.level === P.unlocked && P.unlocked < LESSONS.length - 1 && pathCleared(P.level) >= PATH_GOAL) {
+    P.unlocked = P.level = P.level + 1;
+    const L = LESSONS[P.level];
+    return `🎉 Level ${P.level + 1} unlocked: ${L.name}. Words now use ${L.kana}.`;
+  }
+  return "";
+}
+
+function next() {
+  if (mode === "review") return nextReview();
+  if (mode === "path") return nextPath();
+  const items = LESSONS[lessonIdx].items;
+  const i = items.indexOf(current);
+  if (i >= 0 && i < items.length - 1) return select(items[i + 1]);
+  lessonIdx = Math.min(lessonIdx + 1, LESSONS.length - 1);
+  select(LESSONS[lessonIdx].items[0]);
+}
+
+// ---------- drawing pad: one square box per character ----------
+const CELL = 360;
+const pad = document.getElementById("pad");
+const ctx = pad.getContext("2d");
+let strokes = [];
+let drawing = null;
+
+function cssVar(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+const nBoxes = () => current ? [...current.jp].length : 1;
+
+function resizePad() {
+  const n = nBoxes();
+  pad.width = n * CELL; pad.height = CELL;
+  pad.style.maxWidth = Math.min(n * 200, 1000) + "px";
+}
+
+function drawBoxes(g, scale, gridColor, borderColor) {
+  const c = CELL * scale, n = nBoxes();
+  g.save();
+  g.lineWidth = Math.max(1, 2 * scale); g.strokeStyle = borderColor;
+  for (let b = 1; b < n; b++) { g.beginPath(); g.moveTo(b * c, 0); g.lineTo(b * c, c); g.stroke(); }
+  g.strokeStyle = gridColor; g.lineWidth = Math.max(1, 1.5 * scale); g.setLineDash([6 * scale, 6 * scale]);
+  for (let b = 0; b < n; b++) {
+    g.beginPath();
+    g.moveTo(b * c + c / 2, 0); g.lineTo(b * c + c / 2, c);
+    g.moveTo(b * c, c / 2); g.lineTo(b * c + c, c / 2);
+    g.stroke();
+  }
+  g.restore();
+}
+
+function drawStrokes(g, scale, color) {
+  g.save();
+  g.strokeStyle = color; g.lineCap = "round"; g.lineJoin = "round"; g.lineWidth = 22 * scale;
+  for (const s of strokes) {
+    g.beginPath();
+    s.forEach(([x, y], i) => i ? g.lineTo(x * scale, y * scale) : g.moveTo(x * scale, y * scale));
+    if (s.length === 1) g.lineTo(s[0][0] * scale + .1, s[0][1] * scale);
+    g.stroke();
+  }
+  g.restore();
+}
+
+function boxOf(s) {
+  const xs = s.map(p => p[0]);
+  const mid = (Math.min(...xs) + Math.max(...xs)) / 2;
+  return Math.max(0, Math.min(nBoxes() - 1, Math.floor(mid / CELL)));
+}
+
+// ---------- stroke data (KanjiVG, 109×109 units per character) ----------
+const KVG = 109;
+let GUIDE = {};
+let anim = null;
+const STROKE_MS = 650, GAP_MS = 200;
+const DAKU_MARKS = ["M83,14c2.2,2.4,4,5.4,5,8.6", "M92,10c2.2,2.4,4,5.4,5,8.6"];
+const HANDAKU_MARK = ["M92,10c-3.6,0-6,2.6-6,6c0,3.4,2.6,6,6,6c3.4,0,6-2.6,6-6c0-3.4-2.6-6-6-6"];
+
+async function loadGuide() {
+  try {
+    const raw = await (await fetch("strokes.json")).json();
+    const NS = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(NS, "svg"), path = document.createElementNS(NS, "path");
+    svg.style.cssText = "position:absolute;width:0;height:0;visibility:hidden";
+    svg.appendChild(path); document.body.appendChild(svg);
+    const sample = d => {
+      path.setAttribute("d", d);
+      const len = path.getTotalLength(), n = Math.max(2, Math.ceil(len / 1.5));
+      return Array.from({ length: n + 1 }, (_, i) => { const q = path.getPointAtLength(len * i / n); return [q.x, q.y]; });
+    };
+    const base = {};
+    for (const [ch, ds] of Object.entries(raw)) base[ch] = ds.map(sample);
+    Object.assign(GUIDE, base);
+    const marks = { d: DAKU_MARKS.map(sample), h: HANDAKU_MARK.map(sample) };
+    for (const c of DAKUTEN) if (base[baseOf(c)]) GUIDE[c] = [...base[baseOf(c)], ...marks.d];
+    for (const c of HANDAKUTEN) if (base[baseOf(c)]) GUIDE[c] = [...base[baseOf(c)], ...marks.h];
+    for (const c of SMALL) if (base[baseOf(c)]) GUIDE[c] = base[baseOf(c)].map(s => s.map(([x, y]) => [x * 0.55 + 12, y * 0.55 + 44]));
+    svg.remove();
+  } catch (e) { console.warn("stroke guide unavailable", e); }
+  redraw();
+}
+
+function polyline(g, pts, frac = 1) {
+  const n = Math.max(1, Math.round((pts.length - 1) * frac));
+  g.beginPath(); g.moveTo(...pts[0]);
+  for (let i = 1; i <= n; i++) g.lineTo(...pts[i]);
+  g.stroke();
+}
+
+function arrowHead(g, pts, color) {
+  const [x, y] = pts.at(-1), [px, py] = pts[Math.max(0, pts.length - 4)];
+  const a = Math.atan2(y - py, x - px), s = 4.5;
+  g.save(); g.fillStyle = color; g.translate(x, y); g.rotate(a);
+  g.beginPath(); g.moveTo(s * 0.6, 0); g.lineTo(-s, -s * 0.75); g.lineTo(-s, s * 0.75); g.closePath(); g.fill();
+  g.restore();
+}
+
+function drawGuide(counts) {
+  const ghost = cssVar("--ghost"), next = cssVar("--next"), accent = cssVar("--accent"), muted = cssVar("--muted");
+  [...current.jp].forEach((ch, b) => {
+    const g = GUIDE[ch]; if (!g) return;
+    ctx.save(); ctx.translate(b * CELL, 0); ctx.scale(CELL / KVG, CELL / KVG);
+    ctx.lineCap = "round"; ctx.lineJoin = "round"; ctx.lineWidth = 6;
+    g.forEach((pts, i) => { ctx.strokeStyle = i === counts[b] ? next : ghost; polyline(ctx, pts); });
+    g.forEach((pts, i) => {
+      ctx.globalAlpha = i < counts[b] ? 0.3 : 1;
+      arrowHead(ctx, pts, i === counts[b] ? accent : muted);
+    });
+    ctx.font = "600 5.5px Inter, sans-serif"; ctx.textAlign = "center"; ctx.textBaseline = "middle";
+    g.forEach((pts, i) => {
+      ctx.globalAlpha = i < counts[b] ? 0.3 : 1;
+      ctx.fillStyle = i >= counts[b] ? accent : muted;
+      ctx.beginPath(); ctx.arc(pts[0][0], pts[0][1], 4.2, 0, 2 * Math.PI); ctx.fill();
+      ctx.fillStyle = "#fff"; ctx.fillText(String(i + 1), pts[0][0], pts[0][1] + 0.3);
+    });
+    ctx.restore();
+  });
+}
+
+function drawAnimation(now) {
+  const accent = cssVar("--accent"), per = STROKE_MS + GAP_MS;
+  const elapsed = now - anim.t0;
+  ctx.save(); ctx.lineCap = "round"; ctx.lineJoin = "round";
+  anim.seq.forEach(([b, i], k) => {
+    const frac = Math.min(1, Math.max(0, (elapsed - k * per) / STROKE_MS));
+    if (!frac) return;
+    const pts = GUIDE[[...current.jp][b]][i];
+    ctx.save(); ctx.translate(b * CELL, 0); ctx.scale(CELL / KVG, CELL / KVG);
+    ctx.strokeStyle = accent; ctx.lineWidth = 6; polyline(ctx, pts, frac);
+    ctx.fillStyle = accent; ctx.beginPath(); ctx.arc(pts[0][0], pts[0][1], 3, 0, 2 * Math.PI); ctx.fill();
+    ctx.restore();
+  });
+  ctx.restore();
+  return elapsed < anim.seq.length * per + 400;
+}
+
+function playStrokeOrder() {
+  const seq = [];
+  [...current.jp].forEach((ch, b) => (GUIDE[ch] || []).forEach((_, i) => seq.push([b, i])));
+  if (!seq.length) return;
+  anim = { seq, t0: performance.now() };
+  const tick = now => { if (!anim) return; redraw(now); if (anim) requestAnimationFrame(tick); };
+  requestAnimationFrame(tick);
+}
+
+function redraw(now) {
+  if (!current) return;
+  ctx.fillStyle = cssVar("--panel"); ctx.fillRect(0, 0, pad.width, pad.height);
+  drawBoxes(ctx, 1, cssVar("--guide"), cssVar("--line"));
+  const counts = Array(nBoxes()).fill(0);
+  strokes.forEach(s => counts[boxOf(s)]++);
+  if (anim) {
+    if (!drawAnimation(now ?? performance.now())) { anim = null; return redraw(); }
+  } else if (document.getElementById("ghostToggle").checked) {
+    drawGuide(counts);
+  }
+  drawStrokes(ctx, 1, cssVar("--ink"));
+  const expected = [...current.jp].map(strokeCount);
+  document.getElementById("strokeCount").textContent =
+    "Strokes: " + counts.map((c, i) => `${c}/${expected[i]}`).join(" · ");
+}
+
+function pos(e) {
+  const r = pad.getBoundingClientRect();
+  return [(e.clientX - r.left) * pad.width / r.width, (e.clientY - r.top) * pad.height / r.height];
+}
+pad.addEventListener("pointerdown", e => { anim = null; pad.setPointerCapture(e.pointerId); drawing = [pos(e)]; strokes.push(drawing); redraw(); });
+pad.addEventListener("pointermove", e => { if (!drawing) return; drawing.push(pos(e)); redraw(); });
+const end = () => { drawing = null; };
+pad.addEventListener("pointerup", end); pad.addEventListener("pointercancel", end);
+
+function clearPad() { strokes = []; anim = null; redraw(); }
+document.getElementById("clearBtn").onclick = clearPad;
+document.getElementById("undoBtn").onclick = () => { strokes.pop(); redraw(); };
+document.getElementById("ghostToggle").onchange = e => { if (e.target.checked) peeked = true; redraw(); };
+document.getElementById("playBtn").onclick = () => { peeked = true; playStrokeOrder(); };
+document.fonts && document.fonts.ready.then(() => redraw());
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => redraw());
+
+// ---------- checking the writing (in the browser, against the KanjiVG strokes) ----------
+// Each stroke is resampled to N points. Shape is compared after centring and scaling both characters to the
+// same size, so a slightly small or offset character still counts; size and position get their own notes.
+const N = 24;
+function resample(pts, n = N) {
+  if (pts.length < 2) return Array.from({ length: n }, () => pts[0].slice());
+  const d = [0];
+  for (let i = 1; i < pts.length; i++) d.push(d[i - 1] + Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]));
+  const L = d.at(-1) || 1, out = [];
+  let j = 0;
+  for (let k = 0; k < n; k++) {
+    const t = L * k / (n - 1);
+    while (j < d.length - 2 && d[j + 1] < t) j++;
+    const f = (t - d[j]) / ((d[j + 1] - d[j]) || 1);
+    out.push([pts[j][0] + (pts[j + 1][0] - pts[j][0]) * f, pts[j][1] + (pts[j + 1][1] - pts[j][1]) * f]);
+  }
+  return out;
+}
+const pathLen = pts => pts.reduce((s, p, i) => i ? s + Math.hypot(p[0] - pts[i - 1][0], p[1] - pts[i - 1][1]) : 0, 0);
+const meanDist = (a, b) => a.reduce((s, p, i) => s + Math.hypot(p[0] - b[i][0], p[1] - b[i][1]), 0) / a.length;
+
+function bbox(strokes) {
+  const all = strokes.flat();
+  const xs = all.map(p => p[0]), ys = all.map(p => p[1]);
+  const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+  return { x0, x1, y0, y1, cx: (x0 + x1) / 2, cy: (y0 + y1) / 2, size: Math.max(x1 - x0, y1 - y0, 8) };
+}
+// Centre on the bounding box and scale its longer side to 80 units.
+function normalise(strokes, box = bbox(strokes)) {
+  const k = 80 / box.size;
+  return strokes.map(s => s.map(([x, y]) => [(x - box.cx) * k, (y - box.cy) * k]));
+}
+// Order-free shape distance: average nearest-point distance, both ways.
+function cloudDist(a, b) {
+  const A = a.flat(), B = b.flat();
+  const one = (P, Q) => P.reduce((s, p) => s + Math.min(...Q.map(q => Math.hypot(p[0] - q[0], p[1] - q[1]))), 0) / P.length;
+  return (one(A, B) + one(B, A)) / 2;
+}
+
+const TEMPLATES = {};  // char → { raw, norm, box }
+function template(ch) {
+  if (!TEMPLATES[ch] && GUIDE[ch]) {
+    const raw = GUIDE[ch].map(s => resample(s));
+    const box = bbox(raw);
+    TEMPLATES[ch] = { raw, box, norm: normalise(raw, box) };
+  }
+  return TEMPLATES[ch];
+}
+
+function permutations(n) {
+  if (n > 6) return [[...Array(n).keys()]];
+  const out = [], a = [...Array(n).keys()];
+  const go = k => { if (k === n) return out.push(a.slice()); for (let i = k; i < n; i++) { [a[k], a[i]] = [a[i], a[k]]; go(k + 1); [a[k], a[i]] = [a[i], a[k]]; } };
+  go(0);
+  return out;
+}
+const ord = n => ["1st", "2nd", "3rd"][n - 1] || `${n}th`;
+const conf = ch => (C.kana[baseOf(ch)] || [])[2] || "";
+// Average per-stroke distance (in units of a 109-wide box after normalising) for 5, 4 and 3 stars.
+const STROKE_LIMITS = [3.5, 5.5, 8];
+
+function gradeChar(expected, drawnRaw) {
+  const res = { expected, recognized_as: "?", correct: false, score: 1, stroke_order_ok: false, notes: [] };
+  const t = template(expected);
+  if (!drawnRaw.length) { res.notes.push("Nothing written in this box yet."); return res; }
+  if (!t) { res.correct = true; res.score = 3; res.recognized_as = expected; res.notes.push("No stroke data for this character, so only the stroke count was checked."); return res; }
+  const drawn = drawnRaw.map(s => resample(s));
+  const dBox = bbox(drawn), dNorm = normalise(drawn, dBox);
+  const shape = cloudDist(dNorm, t.norm);
+
+  // Which character does it look most like? (compare with every character that has stroke data)
+  let best = expected, bestD = shape;
+  for (const ch of Object.keys(GUIDE)) {
+    if (ch === expected || SMALL.includes(ch)) continue;
+    const tt = template(ch);
+    const d = cloudDist(dNorm, tt.norm);
+    if (d < bestD) { best = ch; bestD = d; }
+  }
+  const lookalike = best !== expected && bestD < shape * 0.8 && baseOf(best) !== baseOf(expected);
+  // Total ink compared with the model: scribbles and half-written characters have far too much or too little.
+  const ink = drawn.reduce((s, x) => s + pathLen(x), 0) / dBox.size, tInk = t.raw.reduce((s, x) => s + pathLen(x), 0) / t.box.size;
+  const inkRatio = ink / tInk;
+  const want = t.raw.length, got = drawn.length;
+  const marksMissing = (DAKUTEN.includes(expected) && got === want - 2) || (HANDAKUTEN.includes(expected) && got === want - 1);
+  res.recognized_as = lookalike ? best : marksMissing ? baseOf(expected) : expected;
+  res.correct = !lookalike && !marksMissing && shape < 13 && inkRatio > 0.55 && inkRatio < 2.2 && Math.abs(got - want) <= 1;
+  let score = shape < 4.5 ? 5 : shape < 6.5 ? 4 : shape < 9 ? 3 : shape < 12 ? 2 : 1;
+  if (inkRatio > 2.2 || inkRatio < 0.55) score = Math.min(score, 2);
+
+  let orderOk = got === want;
+  if (marksMissing) {
+    res.notes.push(DAKUTEN.includes(expected)
+      ? `Don't forget the two ゛ ticks at the top right — without them it's ${baseOf(expected)}.`
+      : `Don't forget the little ゜ circle at the top right — without it it's ${baseOf(expected)}.`);
+  } else if (got !== want) {
+    res.notes.push(`${got} stroke${got > 1 ? "s" : ""} — ${expected} is written with ${want}. ${got < want ? "Lift the pen between strokes" : "Try to keep each stroke in one movement"}, following the numbered dots.`);
+    score = Math.min(score, 3);
+  }
+  if (lookalike) {
+    res.notes.push(`This reads more like ${best} than ${expected}.${conf(expected) ? ` Watch out — look-alikes: ${conf(expected)}.` : ""}`);
+  } else if (inkRatio > 2.2) {
+    res.notes.push(`There's much more ink than ${expected} needs — write each stroke once, cleanly.`);
+  }
+
+  if (got === want && !lookalike) {
+    const dn = dNorm, tn = t.norm;
+    const cost = (i, j) => meanDist(dn[i], tn[j]);
+
+    // stroke order: the best way to match drawn strokes to the model ones
+    let bestPerm = null, bestCost = Infinity;
+    for (const p of permutations(want)) {
+      const c = p.reduce((s, j, i) => s + Math.min(cost(i, j), meanDist([...dn[i]].reverse(), tn[j])), 0);
+      if (c < bestCost) { bestCost = c; bestPerm = p; }
+    }
+    const idCost = [...Array(want).keys()].reduce((s, i) => s + Math.min(cost(i, i), meanDist([...dn[i]].reverse(), tn[i])), 0);
+    // Stroke by stroke, each matched to its model stroke: stricter than the overall shape, so it sets the stars.
+    res.strokeAvg = bestCost / want;
+    score = Math.min(score, res.strokeAvg < STROKE_LIMITS[0] ? 5 : res.strokeAvg < STROKE_LIMITS[1] ? 4 : res.strokeAvg < STROKE_LIMITS[2] ? 3 : 2);
+    if (bestPerm.some((j, i) => j !== i) && bestCost < idCost - 3 * want) {
+      orderOk = false;
+      const wrong = bestPerm.map((j, i) => [i, j]).filter(([i, j]) => i !== j);
+      const [i, j] = wrong[0];
+      res.notes.push(`Stroke order: your ${ord(i + 1)} stroke is the model's ${ord(j + 1)}. Follow the numbered dots.`);
+      score -= 1;
+    } else {
+      // direction and the weakest stroke
+      let worst = -1, worstD = 0, reversed = [];
+      for (let i = 0; i < want; i++) {
+        const fwd = cost(i, i), rev = meanDist([...dn[i]].reverse(), tn[i]);
+        if (rev + 4 < fwd && pathLen(tn[i]) > 12) reversed.push(i);
+        if (fwd > worstD) { worstD = fwd; worst = i; }
+      }
+      if (reversed.length) {
+        orderOk = false;
+        res.notes.push(`Stroke ${reversed.map(i => i + 1).join(" and ")} ${reversed.length > 1 ? "go" : "goes"} the wrong way — start at the numbered dot and finish at the arrow.`);
+        score -= 1;
+      } else if (worstD > Math.max(6, 1.5 * res.strokeAvg)) {
+        const a = dn[worst], b = tn[worst];
+        const la = pathLen(a), lb = pathLen(b);
+        const dx = a[0][0] - b[0][0], dy = a[0][1] - b[0][1];
+        let hint = la < lb * 0.7 ? "it's too short" : la > lb * 1.4 ? "it's too long"
+          : Math.abs(dx) > Math.abs(dy) ? `it starts too far ${dx > 0 ? "right" : "left"}` : `it starts too ${dy > 0 ? "low" : "high"}`;
+        res.notes.push(`The ${ord(worst + 1)} stroke is a little off: ${hint}.`);
+      }
+    }
+  }
+
+  // size and position in the box, compared with the model
+  const ratio = dBox.size / t.box.size;
+  const ox = dBox.cx - t.box.cx, oy = dBox.cy - t.box.cy;
+  if (ratio < 0.6) { res.notes.push("Write it bigger — fill most of the box."); score -= 1; }
+  else if (ratio > 1.4) { res.notes.push("A little smaller — leave some space at the edges of the box."); score -= 1; }
+  else if (Math.hypot(ox, oy) > 20) res.notes.push(`It sits too far ${Math.abs(ox) > Math.abs(oy) ? (ox > 0 ? "right" : "left") : (oy > 0 ? "down" : "up")} in the box.`);
+
+  res.stroke_order_ok = orderOk;
+  res.score = Math.max(1, Math.min(5, score));
+  if (!res.correct) res.score = Math.min(res.score, 2);
+  if (!res.notes.length) res.notes.push(
+    res.score >= 5 ? "Textbook — clean shape and correct strokes."
+    : res.score === 4 ? "Good — readable and well balanced. Compare the proportions with the guide to make it perfect."
+    : "Readable, but the shape is loose. Watch ▶ Stroke order and copy the lengths and angles of each stroke.");
+  res.note = res.notes.slice(0, 2).join(" ");
+  res.size = dBox.size;
+  res.shape = shape;
+  return res;
+}
+
+function gradeWord(item) {
+  const chars = [...item.jp];
+  const perBox = chars.map((_, b) => strokes.filter(s => boxOf(s) === b)
+    .map(s => s.map(([x, y]) => [(x - b * CELL) / CELL * KVG, y / CELL * KVG])));
+  const characters = chars.map((ch, b) => gradeChar(ch, perBox[b]));
+  const word_correct = characters.every(c => c.correct);
+  const score = Math.max(1, Math.round(characters.reduce((s, c) => s + c.score, 0) / characters.length - (word_correct ? 0 : 0.5)));
+  const sizes = characters.filter(c => c.size && !SMALL.includes(c.expected)).map(c => c.size);
+  const uneven = sizes.length > 1 && Math.max(...sizes) / Math.min(...sizes) > 1.6;
+  const weakest = [...characters].sort((a, b) => a.score - b.score)[0];
+  let feedback;
+  if (word_correct && score >= 5) feedback = "Beautiful — every character is clear and the strokes are in order.";
+  else if (word_correct && score >= 4) feedback = `Correct and easy to read. ${weakest.score < 5 ? `To polish it: ${weakest.expected} — ${weakest.note}` : ""}`;
+  else if (word_correct) feedback = `Readable, but there's room to improve. Most important: ${weakest.expected} — ${weakest.note}`;
+  else feedback = `Not quite yet. Start with ${weakest.expected}: ${weakest.note}`;
+  if (uneven) feedback += " Try to keep all characters about the same size.";
+  const tipChar = baseOf(weakest.expected);
+  const tip = C.kana[tipChar] ? `${tipChar}: ${C.kana[tipChar][0]}` : "Little and often: a few minutes every day works best.";
+  return { characters, word_correct, score, feedback, tip };
+}
+
+// ---------- kana guide (written in advance) ----------
+const esc = s => String(s).replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]));
+const stars = n => "★".repeat(n) + "☆".repeat(5 - n);
+
+function kanaBlock(ch) {
+  const b = baseOf(ch), info = C.kana[b];
+  if (!info) return "";
+  const extra = DAKUTEN.includes(ch) ? `Write ${b}, then add the two ゛ ticks at the top right.`
+    : HANDAKUTEN.includes(ch) ? `Write ${b}, then add the little ゜ circle at the top right.`
+    : SMALL.includes(ch) ? `A small ${b}: same strokes, about half size, low in the box.` : "";
+  return `<div class="kn"><div class="g">${ch}<small>${esc(romajiOf(ch))} · ${strokeCount(ch)} stroke${strokeCount(ch) > 1 ? "s" : ""}</small></div><div>
+    ${extra ? `<p><strong>${esc(extra)}</strong></p>` : ""}
+    <p><span class="lbl">Remember</span><br>${esc(info[0])}</p>
+    <p><span class="lbl">How to write</span><br>${esc(info[1])}</p>
+    <p><span class="lbl">Don't confuse with</span><br>${esc(info[2])}</p></div></div>`;
+}
+
+function examplesFor(word) {
+  const hits = C.sentences.filter(s => s[0].split(/[ 。、！？]/).includes(word)).slice(0, 3);
+  return hits.length ? `<span class="lbl" style="color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em">In a sentence</span>
+    <ul class="examples">${hits.map(([jp, ro, en]) => `<li><span class="jp">${esc(jp)}</span><br><span class="ro">${esc(ro)}</span> — ${esc(en)}</li>`).join("")}</ul>` : "";
+}
+
+// open: also scroll to it (Explain button)
+function showGuide(it, open) {
+  const chars = [...new Set([...it.jp].filter(isKana))];
+  document.getElementById("guideTitle").textContent = it.kana ? `How to write ${it.jp}` : `${it.jp} · ${it.ro} · ${it.en}`;
+  document.getElementById("guideBody").innerHTML = (it.kana ? "" : examplesFor(it.jp)) + chars.map(kanaBlock).join("");
+  if (open) document.getElementById("guideCard").scrollIntoView({ behavior: "smooth" });
+}
+
+function renderFaq(q = "") {
+  const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+  const list = C.faq.filter(([qq, a]) => words.every(w => (qq + " " + a).toLowerCase().includes(w)));
+  document.getElementById("faqList").innerHTML = list.length
+    ? list.map(([qq, a]) => `<details${words.length ? " open" : ""}><summary>${esc(qq)}</summary><p>${esc(a)}</p></details>`).join("")
+    : `<p style="color:var(--muted);font-size:14px">Nothing matches — try a character, e.g. ぬ, or a word like "small".</p>`;
+}
+document.getElementById("faqSearch").addEventListener("input", e => renderFaq(e.target.value));
+
+// ---------- check button ----------
+document.getElementById("checkBtn").onclick = () => {
+  const fb = document.getElementById("feedback");
+  fb.className = "card feedback show";
+  if (!strokes.length) { fb.innerHTML = `<span class="err">Write the word first.</span>`; return; }
+  if (!Object.keys(GUIDE).length) { fb.innerHTML = `<span class="err">The stroke data hasn't loaded yet — try again in a moment.</span>`; return; }
+  const item = current, chars = [...item.jp];
+  const g = gradeWord(item);
+  if (g.word_correct) progress.items[item.jp] = Math.max(bestItem(item.jp), g.score);
+  g.characters.forEach((c, i) => { if (c.correct) progress.kana[chars[i]] = Math.max(bestKana(chars[i]), c.score); });
+  const levelUp = recordPath(item, g);
+  saveProgress();
+  const jpLine = document.getElementById("jpLine");
+  if (jpLine && mode !== "trace") { jpLine.className = "jp"; jpLine.textContent = item.jp; }
+  const perChar = chars.length > 1 || !g.characters[0].correct || g.characters[0].score < 5;
+  fb.innerHTML = `
+    ${levelUp ? `<div class="levelup">${esc(levelUp)}</div>` : ""}
+    <div class="fb-head">
+      <span class="stars">${stars(g.score)}</span>
+      <span class="badge ${g.word_correct ? "ok" : "bad"}">${g.word_correct ? "Correct" : "Not quite"}</span>
+    </div>
+    ${perChar ? `<div class="per-char">${g.characters.map(c => `
+      <div class="pc">
+        <div class="g ${c.correct ? "" : "bad"}">${esc(c.expected)}</div>
+        <div class="n"><small>${stars(c.score)} · ${c.correct ? "✓" : c.recognized_as === "?" ? "empty" : "read as " + esc(c.recognized_as)} · stroke order ${c.stroke_order_ok ? "✓" : "✗"}</small>${esc(c.note)}</div>
+      </div>`).join("")}</div>` : ""}
+    <p class="fb-text">${esc(g.feedback)}</p>
+    <div class="tip">💡 ${esc(g.tip)}</div>
+    ${mode === "path" && peeked ? `<div class="peeked">You peeked at the guide, so this one doesn't count toward the next level. Try it again from memory later.</div>` : ""}
+    <div class="row" style="justify-content:flex-start;margin-top:14px">
+      <button class="b" onclick="clearPad()">Try again</button>
+      <button class="b primary" onclick="next()">Next →</button>
+    </div>`;
+  renderLessons(); renderItems();
+};
+
+document.getElementById("explainBtn").onclick = () => showGuide(current, true);
+
+// ---------- start ----------
+(async () => {
+  C = await (await fetch("content.json")).json();
+  // romaji for single kana, from the words list's converter output
+  const roma = {あ:"a",い:"i",う:"u",え:"e",お:"o",か:"ka",き:"ki",く:"ku",け:"ke",こ:"ko",さ:"sa",し:"shi",す:"su",せ:"se",そ:"so",
+    た:"ta",ち:"chi",つ:"tsu",て:"te",と:"to",な:"na",に:"ni",ぬ:"nu",ね:"ne",の:"no",は:"ha",ひ:"hi",ふ:"fu",へ:"he",ほ:"ho",
+    ま:"ma",み:"mi",む:"mu",め:"me",も:"mo",や:"ya",ゆ:"yu",よ:"yo",ら:"ra",り:"ri",る:"ru",れ:"re",ろ:"ro",わ:"wa",を:"wo",ん:"n",
+    が:"ga",ぎ:"gi",ぐ:"gu",げ:"ge",ご:"go",ざ:"za",じ:"ji",ず:"zu",ぜ:"ze",ぞ:"zo",だ:"da",ぢ:"ji",づ:"zu",で:"de",ど:"do",
+    ば:"ba",び:"bi",ぶ:"bu",べ:"be",ぼ:"bo",ぱ:"pa",ぴ:"pi",ぷ:"pu",ぺ:"pe",ぽ:"po",ゃ:"small ya",ゅ:"small yu",ょ:"small yo",っ:"small tsu"};
+  Object.assign(ROMA, roma);
+  buildLessons();
+  current = LESSONS[0].items[0];
+  renderFaq();
+  setMode("trace", false);
+  select(current);
+  loadGuide();
+})();
+</script>
+</body>
+</html>

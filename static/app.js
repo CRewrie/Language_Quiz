@@ -813,6 +813,11 @@ async function showHome() {
         </div>` : ""}
       </div>
     </div>
+    ${lang === "ja" ? `
+    <a class="mix-banner dojo-banner" href="kana/">
+      <span>✍️ <strong>Hiragana Dojo</strong> — learn to write hiragana: trace, write from memory, instant feedback, printable drills</span>
+      <span class="btn small">Open</span>
+    </a>` : ""}
     <div class="home-layout">
       <nav class="levels" aria-label="Levels">${levelNav}</nav>
       <div class="level-main">

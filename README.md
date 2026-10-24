@@ -38,6 +38,16 @@ The difference from the server is that the answers are in the JSON files, so any
 - **Verb Lab**: typed answers. You type the verb form yourself (kana, kanji or romaji, which turns into hiragana as you type). A **Hint** shows the first kana, and the answer then counts as "with hint".
 - **Review (spaced repetition)**: every first answer moves the question between Leitner boxes (due again after 0, 1, 3, 7, 14 or 30 days). Wrong answers and answers given with a hint start over. When questions are due, the home page offers a review session of up to 20 of them.
 
+## Hiragana Dojo (`/kana/`)
+
+Writing practice for hiragana, linked from the Japanese home page:
+- **Lessons:** trace, write from memory, review and a word path, on a drawing pad with stroke-order guides.
+- **Writing drills:** printable sets of words and sentences that use only the kana rows you pick.
+
+It needs no AI requests:
+- **Checking the writing** happens in the browser. Your strokes are resampled and compared with the KanjiVG stroke data (`static/kana/strokes.json`, CC BY-SA 3.0) for shape, stroke count, order and direction, size and position. The checker also notices look-alikes such as ぬ/め or a missing ゛.
+- **Words, sentences, kana notes and the FAQ** are written in advance in `tools/kana_corpus.py`. `python3 tools/gen_kana.py` checks them, adds romaji, works out the earliest lesson each item fits, and writes `static/kana/content.json`.
+
 ## Account & sync (optional)
 
 Signing in (GitHub or an email link, through Supabase) syncs best scores, the review schedule and an unfinished quiz across devices. Without signing in, everything stays in the browser's localStorage. The page talks to Supabase directly, so this works on GitHub Pages and with the Rust server alike.

@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Writing Drills</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f6f3ee; --panel: #ffffff; --ink: #1f1d1a; --muted: #6f6a62; --line: #e4ded4;
+  --accent: #c0392b; --accent-soft: #f6e3df; --good: #2e7d4f; --good-soft: #e1f1e7;
+  --jp: "Klee One", "Hiragino Mincho ProN", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #171614; --panel: #22201d; --ink: #f1ece4; --muted: #a59e93; --line: #36322d;
+    --accent: #e0675a; --accent-soft: #3a2421; --good: #5cc28a; --good-soft: #1d3327;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 Inter, system-ui, sans-serif; }
+header { display: flex; align-items: center; gap: 16px; padding: 14px 24px; border-bottom: 1px solid var(--line); background: var(--panel); position: sticky; top: 0; z-index: 2; }
+header h1 { font: 600 22px var(--jp); margin: 0; white-space: nowrap; }
+header h1 span { color: var(--accent); }
+nav { margin-left: auto; display: flex; gap: 4px; }
+nav a { color: var(--muted); text-decoration: none; padding: 6px 12px; border-radius: 7px; font-weight: 500; font-size: 14px; }
+nav a:hover { color: var(--ink); }
+nav a.on { background: var(--ink); color: var(--bg); }
+main { max-width: 1100px; margin: 0 auto; padding: 24px; display: grid; gap: 18px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+.setting { display: grid; grid-template-columns: 110px 1fr; gap: 8px 16px; align-items: center; }
+.setting + .setting { margin-top: 14px; }
+.setting > label { font-size: 13px; color: var(--muted); font-weight: 500; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.chip { border: 1px solid var(--line); background: var(--panel); color: var(--ink); padding: 5px 10px; border-radius: 8px; cursor: pointer; font: 14px Inter, sans-serif; display: inline-flex; gap: 6px; align-items: baseline; }
+.chip .k { font: 17px var(--jp); letter-spacing: 1px; }
+.chip.on { background: var(--accent-soft); border-color: var(--accent); }
+.chip.on .k { color: var(--accent); }
+.chip.preset { color: var(--muted); font-size: 13px; border-style: dashed; }
+.seg { display: inline-flex; gap: 4px; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 3px; }
+.seg button { border: 0; background: none; padding: 6px 12px; border-radius: 7px; cursor: pointer; color: var(--muted); font: 500 14px Inter, sans-serif; }
+.seg button.on { background: var(--ink); color: var(--bg); }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
+.actions .spacer { flex: 1; }
+button.b { border: 1px solid var(--line); background: var(--panel); color: var(--ink); padding: 8px 14px; border-radius: 8px; cursor: pointer; font: 500 14px Inter, sans-serif; }
+button.b:hover { border-color: var(--muted); }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+button.primary:disabled { opacity: .5; cursor: wait; }
+.status { font-size: 13px; color: var(--muted); }
+.err { color: var(--accent); }
+.list { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.list.sentences { grid-template-columns: 1fr; }
+.ex { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 4px; position: relative; }
+.ex .num { position: absolute; top: 10px; right: 14px; font-size: 12px; color: var(--muted); }
+.ex .en { font-weight: 600; font-size: 16px; padding-right: 24px; }
+.ex .ro { color: var(--muted); letter-spacing: .03em; }
+.ex .jp { font: 600 30px/1.35 var(--jp); margin-top: 4px; word-break: break-all; }
+.ex .jp .new { color: var(--accent); }
+.ex .jp.hidden { font: 13px Inter, sans-serif; color: var(--muted); border: 1px dashed var(--line); border-radius: 8px; padding: 10px; cursor: pointer; text-align: center; }
+.ex .jp.hidden:hover { border-color: var(--muted); color: var(--ink); }
+.ex.done { opacity: .5; }
+.ex .tick { justify-self: start; margin-top: 6px; font-size: 12px; color: var(--muted); background: none; border: 0; padding: 0; cursor: pointer; }
+.ex.done .tick { color: var(--good); }
+.empty { text-align: center; color: var(--muted); padding: 40px 16px; }
+.empty .big { font: 600 40px var(--jp); color: var(--ink); opacity: .2; display: block; margin-bottom: 8px; }
+.ex .jp .ch { cursor: pointer; border-radius: 6px; transition: background .15s; }
+.ex .jp .ch:hover { background: var(--accent-soft); }
+.print-only { display: none; }
+.overlay { position: fixed; inset: 0; z-index: 10; background: rgba(0,0,0,.45); display: none; align-items: center; justify-content: center; padding: 16px; }
+.overlay.show { display: flex; }
+.sheet { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px 20px; width: 100%; max-width: 380px; display: grid; gap: 12px; justify-items: center; position: relative; }
+.sheet .close { position: absolute; top: 8px; right: 10px; border: 0; background: none; color: var(--muted); font-size: 22px; cursor: pointer; line-height: 1; padding: 4px; }
+.sheet .word { font: 600 26px var(--jp); letter-spacing: 2px; }
+.sheet .word span { cursor: pointer; padding: 0 2px; border-radius: 5px; }
+.sheet .word span.cur { background: var(--accent-soft); color: var(--accent); }
+.sheet .word span.off { cursor: default; }
+.sheet .meta { font-size: 13px; color: var(--muted); text-align: center; min-height: 20px; }
+.sheet svg { width: 100%; max-width: 300px; aspect-ratio: 1; border: 2px solid var(--line); border-radius: 10px; background: var(--panel); }
+.sheet .gridline { stroke: var(--line); stroke-width: .6; stroke-dasharray: 2 2; }
+.sheet .ghost { stroke: var(--line); stroke-width: 6; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.sheet .draw { stroke: var(--ink); stroke-width: 6; fill: none; stroke-linecap: round; stroke-linejoin: round;
+  stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw var(--dur) ease-in-out forwards; }
+.sheet .dot { opacity: 0; animation: pop .2s forwards; }
+.sheet .dot circle { fill: var(--accent); }
+.sheet .dot text { fill: #fff; font: 600 5.5px Inter, sans-serif; text-anchor: middle; dominant-baseline: central; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes pop { to { opacity: 1; } }
+.sheet .row { display: flex; gap: 8px; }
+@media (max-width: 700px) {
+  main { padding: 16px; }
+  header { padding: 12px 16px; flex-wrap: wrap; gap: 8px; }
+  nav { margin-left: 0; width: 100%; flex-wrap: wrap; }
+  nav a { padding: 5px 9px; }
+  .setting { grid-template-columns: 1fr; gap: 6px; }
+}
+@media print {
+  :root { --bg: #fff; --panel: #fff; --ink: #000; --muted: #555; --line: #bbb; --accent: #000; }
+  header, .card.settings, .tick, .status { display: none !important; }
+  main { padding: 0; max-width: none; }
+  .print-only { display: block; font: 600 18px var(--jp); margin-bottom: 8px; }
+  .list, .list.sentences { grid-template-columns: 1fr; gap: 0; }
+  .ex { border: 0; border-bottom: 1px solid #ddd; border-radius: 0; padding: 10px 0; break-inside: avoid; }
+  .ex.done { opacity: 1; }
+  .ex .jp.hidden { border: 0; padding: 0; text-align: left; visibility: hidden; height: 0; margin: 0; }
+  .boxes { display: flex !important; }
+}
+.boxes { display: none; flex-wrap: wrap; gap: 0; margin-top: 6px; }
+.boxes i { width: 13mm; height: 13mm; border: 1px solid #999; margin-left: -1px; margin-top: -1px;
+  background: linear-gradient(#ddd, #ddd) center/100% 1px no-repeat, linear-gradient(#ddd, #ddd) center/1px 100% no-repeat; }
+.boxes i.gap { border: 0; background: none; width: 5mm; }
+</style>
+</head>
+<body>
+<header>
+  <h1><span>ひらがな</span> Dojo</h1>
+  <nav><a href="../">Grammar quizzes</a><a href="./">Lessons</a><a href="write.html" class="on">Writing drills</a></nav>
+</header>
+
+<main>
+  <div class="card settings">
+    <div class="setting">
+      <label>Kana rows</label>
+      <div class="chips" id="rows"></div>
+    </div>
+    <div class="setting">
+      <label>Quick pick</label>
+      <div class="chips" id="presets"></div>
+    </div>
+    <div class="setting">
+      <label>Exercises</label>
+      <div class="chips">
+        <div class="seg" id="kind">
+          <button data-v="words">Words</button>
+          <button data-v="sentences">Sentences</button>
+          <button data-v="mixed">Mixed</button>
+        </div>
+        <div class="seg" id="count">
+          <button data-v="6">6</button>
+          <button data-v="12">12</button>
+          <button data-v="20">20</button>
+        </div>
+      </div>
+    </div>
+    <div class="setting">
+      <label>Show</label>
+      <div class="chips">
+        <div class="seg" id="show">
+          <button data-v="copy">Hiragana (copy it)</button>
+          <button data-v="recall">Romaji only (write from memory)</button>
+        </div>
+      </div>
+    </div>
+    <div class="actions">
+      <button class="b primary" id="genBtn">New set</button>
+      <span class="status" id="status"></span>
+      <span class="spacer"></span>
+      <button class="b" id="revealBtn">Reveal all</button>
+      <button class="b" id="printBtn">Print practice sheet</button>
+    </div>
+  </div>
+
+  <div class="print-only" id="printTitle"></div>
+  <div class="list" id="list"></div>
+</main>
+
+<div class="overlay" id="overlay">
+  <div class="sheet" role="dialog" aria-label="Stroke order">
+    <button class="close" id="ovClose" aria-label="Close">×</button>
+    <div class="word" id="ovWord"></div>
+    <svg viewBox="0 0 109 109" id="ovSvg"></svg>
+    <div class="meta" id="ovMeta"></div>
+    <div class="row">
+      <button class="b" id="ovPrev">← Prev</button>
+      <button class="b" id="ovPlay">▶ Replay</button>
+      <button class="b" id="ovNext">Next →</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Same rows as the lessons page. Extras are the voiced (゛゜) and small kana.
+const ROWS = [
+  ["Vowels", "あいうえお"], ["K", "かきくけこ"], ["S", "さしすせそ"], ["T", "たちつてと"], ["N", "なにぬねの"],
+  ["H", "はひふへほ"], ["M", "まみむめも"], ["Y", "やゆよ"], ["R", "らりるれろ"], ["W & ん", "わをん"],
+];
+// Words and sentences written in advance (tools/kana_corpus.py), each with the kana it needs.
+let CONTENT = null;
+const contentReady = fetch("content.json").then(r => r.json()).then(j => { CONTENT = j; }).catch(e => console.warn("content unavailable", e));
+const EXTRAS = { name: "゛゜ & small", kana: "がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽゃゅょっ" };
+
+const state = { rows: [0], extras: false, kind: "words", count: 12, show: "copy", items: [], done: [], revealed: [], recent: [] };
+try { Object.assign(state, JSON.parse(localStorage.getItem("hiragana-drills") || "{}")); } catch {}
+const save = () => { try { localStorage.setItem("hiragana-drills", JSON.stringify(state)); } catch {} };
+
+const esc = s => String(s).replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]));
+const allowedKana = () => state.rows.map(i => ROWS[i][1]).join("") + (state.extras ? EXTRAS.kana : "");
+const focusKana = () => state.rows.length ? ROWS[Math.max(...state.rows)][1] : "";
+
+function renderSettings() {
+  const rows = document.getElementById("rows");
+  rows.innerHTML = "";
+  ROWS.forEach(([name, kana], i) => {
+    const b = document.createElement("button");
+    b.className = "chip" + (state.rows.includes(i) ? " on" : "");
+    b.innerHTML = `<span class="k">${kana}</span>${name}`;
+    b.onclick = () => {
+      state.rows = state.rows.includes(i) ? state.rows.filter(r => r !== i) : [...state.rows, i].sort((a, b) => a - b);
+      save(); renderSettings();
+    };
+    rows.appendChild(b);
+  });
+  const ex = document.createElement("button");
+  ex.className = "chip" + (state.extras ? " on" : "");
+  ex.innerHTML = `<span class="k">がぱゃっ</span>${EXTRAS.name}`;
+  ex.onclick = () => { state.extras = !state.extras; save(); renderSettings(); };
+  rows.appendChild(ex);
+
+  const presets = document.getElementById("presets");
+  presets.innerHTML = "";
+  const add = (label, fn) => {
+    const b = document.createElement("button");
+    b.className = "chip preset"; b.textContent = label;
+    b.onclick = () => { fn(); save(); renderSettings(); };
+    presets.appendChild(b);
+  };
+  add("Vowels only", () => { state.rows = [0]; state.extras = false; });
+  ROWS.slice(1).forEach(([name], i) => add(`Up to ${name}`, () => { state.rows = ROWS.slice(0, i + 2).map((_, j) => j); }));
+  add("Everything", () => { state.rows = ROWS.map((_, j) => j); state.extras = true; });
+
+  for (const key of ["kind", "count", "show"])
+    document.querySelectorAll(`#${key} button`).forEach(b => b.classList.toggle("on", b.dataset.v === String(state[key])));
+  document.getElementById("genBtn").disabled = !state.rows.length;
+  document.getElementById("status").textContent = state.rows.length ? `${[...allowedKana()].length} kana selected` : "Pick at least one row";
+}
+
+for (const key of ["kind", "count", "show"]) {
+  document.querySelectorAll(`#${key} button`).forEach(b => b.onclick = () => {
+    state[key] = key === "count" ? Number(b.dataset.v) : b.dataset.v;
+    if (key === "show") state.revealed = [];
+    save(); renderSettings(); if (key === "show") renderList();
+  });
+}
+
+function renderList() {
+  const list = document.getElementById("list");
+  const focus = focusKana();
+  list.className = "list" + (state.items.some(it => it.jp.includes(" ") || it.jp.includes("。")) ? " sentences" : "");
+  if (!state.items.length) {
+    list.innerHTML = `<div class="card empty" style="grid-column:1/-1"><span class="big">あいうえお</span>Pick the rows you know, then generate a set of words or sentences to write by hand.</div>`;
+    return;
+  }
+  document.getElementById("printTitle").textContent = `Hiragana practice · ${state.rows.map(i => ROWS[i][1]).join(" ")}`;
+  list.innerHTML = "";
+  state.items.forEach((it, i) => {
+    const hidden = state.show === "recall" && !state.revealed.includes(i);
+    const jp = [...it.jp].map((c, k) => /[ぁ-ん]/.test(c)
+      ? `<span class="ch${focus.includes(c) ? " new" : ""}" data-k="${k}" title="Stroke order">${c}</span>` : esc(c)).join("");
+    const boxes = [...it.jp].map(c => c === " " ? `<i class="gap"></i>` : "<i></i>").join("");
+    const div = document.createElement("div");
+    div.className = "ex" + (state.done.includes(i) ? " done" : "");
+    div.innerHTML = `<span class="num">${i + 1}</span>
+      <div class="en">${esc(it.en)}</div>
+      <div class="ro">${esc(it.romaji)}</div>
+      <div class="jp${hidden ? " hidden" : ""}">${hidden ? "Write it, then click to check" : jp}</div>
+      <div class="boxes">${boxes}</div>
+      <button class="tick">${state.done.includes(i) ? "✓ Written" : "Mark as written"}</button>`;
+    div.querySelector(".jp").onclick = e => {
+      if (hidden) { state.revealed.push(i); save(); renderList(); return; }
+      const ch = e.target.closest(".ch");
+      if (ch) openStrokes(it.jp, Number(ch.dataset.k));
+    };
+    div.querySelector(".tick").onclick = () => {
+      state.done = state.done.includes(i) ? state.done.filter(d => d !== i) : [...state.done, i];
+      save(); renderList();
+    };
+    list.appendChild(div);
+  });
+}
+
+// Picks a fresh set from the prepared words and sentences that use only the selected kana,
+// preferring ones with the newest row and avoiding what was shown recently.
+async function generate() {
+  const status = document.getElementById("status");
+  await contentReady;
+  if (!CONTENT) { status.innerHTML = `<span class="err">Couldn't load the word list.</span>`; return; }
+  const allowed = new Set([...allowedKana(), " ", "　", "。", "、", "！", "？"]);
+  const fits = jp => [...jp].every(c => allowed.has(c));
+  const toItem = ([jp, romaji, en]) => ({ jp, romaji, en });
+  const words = CONTENT.words.filter(w => fits(w[0])).map(toItem);
+  const sentences = CONTENT.sentences.filter(s => fits(s[0])).map(toItem);
+  const focus = state.rows.length > 1 ? focusKana() : "";
+  const recent = new Set(state.recent);
+  const rank = list => list
+    .map(it => ({ it, r: Math.random() + (focus && [...it.jp].some(c => focus.includes(c)) ? 1 : 0) - (recent.has(it.jp) ? 2 : 0) }))
+    .sort((a, b) => b.r - a.r).map(x => x.it);
+  const n = state.count;
+  let items;
+  if (state.kind === "words") items = rank(words).slice(0, n);
+  else if (state.kind === "sentences") items = rank(sentences).slice(0, n);
+  else {
+    const s = rank(sentences).slice(0, Math.ceil(n / 2));
+    items = [...s, ...rank(words).slice(0, n - s.length)].sort(() => Math.random() - 0.5);
+  }
+  if (!items.length) {
+    status.innerHTML = `<span class="err">No ${state.kind === "words" ? "words" : "sentences"} use only these rows yet — add the next row.</span>`;
+    return;
+  }
+  Object.assign(state, { items, done: [], revealed: [], recent: [...items.map(it => it.jp), ...state.recent].slice(0, 80) });
+  save(); renderList();
+  const pool = state.kind === "words" ? words.length : state.kind === "sentences" ? sentences.length : words.length + sentences.length;
+  status.textContent = `${items.length} exercises · ${pool} available with these rows` +
+    (items.length < n ? " — add more rows for more variety" : "");
+}
+
+document.getElementById("genBtn").onclick = generate;
+document.getElementById("revealBtn").onclick = () => { state.revealed = state.items.map((_, i) => i); save(); renderList(); };
+document.getElementById("printBtn").onclick = () => window.print();
+
+// ---------- stroke-order overlay (KanjiVG paths, 109×109 units) ----------
+let GUIDE = {};
+fetch("strokes.json").then(r => r.json()).then(j => { GUIDE = j; }).catch(e => console.warn("stroke data unavailable", e));
+
+const SMALL = "ぁぃぅぇぉゃゅょっ", HANDAKUTEN = "ぱぴぷぺぽ", DAKUTEN = "がぎぐげござじずぜぞだぢづでどばびぶべぼ";
+// The data only covers the 46 basic kana: voiced kana are drawn as the base plus
+// ゛/゜ marks, small kana as their full-size base.
+function strokesFor(c) {
+  const shift = (ch, d) => String.fromCodePoint(ch.codePointAt(0) + d);
+  let base = c, marks = [], note = "";
+  if (SMALL.includes(c)) { base = shift(c, 1); note = `Small ${c}: write it like ${base}, about half size, in the lower left of the box.`; }
+  else if (DAKUTEN.includes(c)) {
+    base = shift(c, -1); note = `${base} plus the two ゛ ticks, written last.`;
+    marks = ["M83,14c2.2,2.4,4,5.4,5,8.6", "M92,10c2.2,2.4,4,5.4,5,8.6"];
+  } else if (HANDAKUTEN.includes(c)) {
+    base = shift(c, -2); note = `${base} plus the small ゜ circle, written last.`;
+    marks = ["M92,10c-3.6,0-6,2.6-6,6c0,3.4,2.6,6,6,6c3.4,0,6-2.6,6-6c0-3.4-2.6-6-6-6"];
+  }
+  const main = GUIDE[base];
+  return main ? { paths: [...main, ...marks], note, extra: marks.length } : null;
+}
+
+const ov = { word: "", chars: [], k: 0 };
+const kanaIdx = () => ov.chars.map((c, k) => /[ぁ-ん]/.test(c) ? k : -1).filter(k => k >= 0);
+
+function drawOverlay() {
+  const c = ov.chars[ov.k], s = strokesFor(c), svg = document.getElementById("ovSvg");
+  document.getElementById("ovWord").innerHTML = ov.chars.map((ch, k) =>
+    `<span class="${k === ov.k ? "cur" : /[ぁ-ん]/.test(ch) ? "" : "off"}" data-k="${k}">${esc(ch)}</span>`).join("");
+  const grid = `<line class="gridline" x1="54.5" y1="0" x2="54.5" y2="109"/><line class="gridline" x1="0" y1="54.5" x2="109" y2="54.5"/>`;
+  if (!s) {
+    svg.innerHTML = grid;
+    document.getElementById("ovMeta").textContent = Object.keys(GUIDE).length ? `No stroke data for ${c}.` : "Stroke data is still loading…";
+    return;
+  }
+  const per = 0.75, dur = 0.6;
+  const ghosts = s.paths.map(d => `<path class="ghost" d="${d}"/>`).join("");
+  const draws = s.paths.map((d, i) =>
+    `<path class="draw" d="${d}" pathLength="1" style="--dur:${dur}s;animation-delay:${i * per}s"/>`).join("");
+  const dots = s.paths.map((d, i) => {
+    const [x, y] = d.match(/^M\s*([\d.]+)[ ,]([\d.]+)/).slice(1).map(Number);
+    return `<g class="dot" style="animation-delay:${i * per}s"><circle cx="${x}" cy="${y}" r="4.2"/><text x="${x}" y="${y + .3}">${i + 1}</text></g>`;
+  }).join("");
+  svg.innerHTML = grid + ghosts + draws + dots;
+  const n = s.paths.length;
+  document.getElementById("ovMeta").textContent = `${c} · ${n} stroke${n > 1 ? "s" : ""}` + (s.note ? ` · ${s.note}` : "");
+  const ks = kanaIdx(), pos = ks.indexOf(ov.k);
+  document.getElementById("ovPrev").disabled = pos <= 0;
+  document.getElementById("ovNext").disabled = pos >= ks.length - 1;
+}
+
+function openStrokes(word, k) {
+  Object.assign(ov, { word, chars: [...word], k });
+  document.getElementById("overlay").classList.add("show");
+  drawOverlay();
+}
+const closeStrokes = () => document.getElementById("overlay").classList.remove("show");
+function stepStrokes(d) {
+  const ks = kanaIdx(), pos = ks.indexOf(ov.k) + d;
+  if (pos >= 0 && pos < ks.length) { ov.k = ks[pos]; drawOverlay(); }
+}
+
+document.getElementById("overlay").onclick = e => { if (e.target.id === "overlay") closeStrokes(); };
+document.getElementById("ovClose").onclick = closeStrokes;
+document.getElementById("ovPlay").onclick = drawOverlay;
+document.getElementById("ovPrev").onclick = () => stepStrokes(-1);
+document.getElementById("ovNext").onclick = () => stepStrokes(1);
+document.getElementById("ovWord").onclick = e => {
+  const sp = e.target.closest("span:not(.off)");
+  if (sp) { ov.k = Number(sp.dataset.k); drawOverlay(); }
+};
+document.addEventListener("keydown", e => {
+  if (!document.getElementById("overlay").classList.contains("show")) return;
+  if (e.key === "Escape") closeStrokes();
+  else if (e.key === "ArrowLeft") stepStrokes(-1);
+  else if (e.key === "ArrowRight") stepStrokes(1);
+  else if (e.key === " ") { e.preventDefault(); drawOverlay(); }
+});
+
+renderSettings();
+renderList();
+</script>
+</body>
+</html>
