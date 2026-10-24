@@ -21,14 +21,24 @@ function render(text) {
 // Block markup for guides: blank line = new paragraph, "- " lines = bullet list.
 function renderBlocks(text) {
   return (text || "").split(/\n{2,}/).map(par => {
-    let html = "", items = [], lines = [];
+    let html = "", items = [], lines = [], rows = [];
     const flushLines = () => { if (lines.length) html += `<p>${lines.map(render).join("<br>")}</p>`; lines = []; };
     const flushItems = () => { if (items.length) html += `<ul>${items.map(i => `<li>${render(i)}</li>`).join("")}</ul>`; items = []; };
+    // "| a | b |" rows make a table; the first row is the header, "|---|" rows are skipped
+    const flushRows = () => {
+      if (!rows.length) return;
+      const cells = r => r.replace(/^\||\|$/g, "").split("|").map(c => render(c.trim()));
+      const [head, ...body] = rows.filter(r => !/^\|[\s:|-]+\|$/.test(r));
+      html += `<div class="table-wrap"><table><thead><tr>${cells(head).map(c => `<th>${c}</th>`).join("")}</tr></thead><tbody>${
+        body.map(r => `<tr>${cells(r).map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+      rows = [];
+    };
     for (const line of par.split("\n")) {
-      if (line.startsWith("- ")) { flushLines(); items.push(line.slice(2)); }
-      else { flushItems(); lines.push(line); }
+      if (line.startsWith("|")) { flushLines(); flushItems(); rows.push(line.trim()); }
+      else if (line.startsWith("- ")) { flushLines(); flushRows(); items.push(line.slice(2)); }
+      else { flushItems(); flushRows(); lines.push(line); }
     }
-    flushLines(); flushItems();
+    flushLines(); flushItems(); flushRows();
     return html;
   }).join("");
 }
@@ -628,12 +638,14 @@ const KINDS = [
   ["vtypes", "🔎", "Step 1 · Verb types"],
   ["drill", "🏃", "Step 2 · Form drills"],
   ["typed", "⌨️", "Step 3 · Forms in context"],
+  ["deep", "🎯", "Deep dive · Can & will (potential / volitional), steps 1–6"],
   ["trans", "⇄", "Transitive & intransitive"],
   ["adj", "🎨", "Adjectives (い / な)"],
 ];
 function quizKind(q) {
   if (q.category === "Verb Lab") {
     if (/verbs-adj-/.test(q.id)) return "adj";
+    if (/verbs-(can|will)/.test(q.id)) return "deep";
     if (/verbs-(pairs|state)/.test(q.id)) return "trans";
     if (/verbs-(types|exceptions|lookalikes)/.test(q.id)) return "vtypes";
     if (/verbs-(back|sprint|ladder)/.test(q.id)) return "drill";

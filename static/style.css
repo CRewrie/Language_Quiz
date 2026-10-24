@@ -345,3 +345,9 @@ details.qgroup > summary > span:first-child { flex: 1; }
 
 /* Link to the Hiragana Dojo */
 .dojo-banner { border-style: solid; margin: 0 0 14px; }
+
+/* Tables in grammar guides */
+.table-wrap { overflow-x: auto; margin: 8px 0; }
+.table-wrap table { border-collapse: collapse; font-size: 0.95rem; }
+.table-wrap th, .table-wrap td { border: 1px solid var(--border); padding: 4px 10px; text-align: left; white-space: nowrap; }
+.table-wrap th { background: var(--bg); }

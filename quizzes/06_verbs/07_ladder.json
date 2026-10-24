@@ -567,7 +567,7 @@
         "たべられる"
       ],
       "hint": "食べら…",
-      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + られる → **食べられる** ('can …'; it conjugates like a る-verb from here).",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + られる → **食べられる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)",
       "notes": [],
       "wrong_forms": {
         "たべる": "that's the plain present form of 食べる, but the cue asks for can … (plain).",
@@ -602,8 +602,8 @@
         "食べられた": "that's the passive, past form of 食べる, but the cue asks for can … (plain).",
         "たべさせた": "that's the causative (make / let), past form of 食べる, but the cue asks for can … (plain).",
         "食べさせた": "that's the causative (make / let), past form of 食べる, but the cue asks for can … (plain).",
-        "たべれる": "that's the う-verb pattern, but 食べる is a る-verb: just drop る.",
-        "食べれる": "that's the う-verb pattern, but 食べる is a る-verb: just drop る."
+        "たべれる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 食べられる.",
+        "食べれる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 食べられる."
       },
       "translation": "食べる = to eat"
     },

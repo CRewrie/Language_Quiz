@@ -290,9 +290,10 @@ def _explain(key, form, answer):
         pot = to_kanji(fk["potential"][0], key)
         then = {"potential": "", "potential_masu": " It's a る-verb now, so polite: drop る + ます",
                 "potential_masen": " It's a る-verb now, so polite negative: drop る + ません"}[form]
+        same = " (For る-verbs this looks like the passive — context tells you which.)" if cls in ("ru", "kuru") else ""
         if not then:
-            return f"{v} is {CLASS_NAME[cls]}: {how} → {ans} ('can …'; it conjugates like a る-verb from here)."
-        return f"{v} is {CLASS_NAME[cls]}: {how} → {pot} ('can …').{then} → {ans}."
+            return f"{v} is {CLASS_NAME[cls]}: {how} → {ans} ('can …'; it conjugates like a る-verb from here).{same}"
+        return f"{v} is {CLASS_NAME[cls]}: {how} → {pot} ('can …').{then} → {ans}.{same}"
     if form == "volitional":
         how = "drop る + よう" if cls == "ru" else f"{last} → {shift(reading, O)[-1]} (お-row) + う"
         return f"{v} is {CLASS_NAME[cls]}: {how} → {ans} (plain 'let's / I'll'; polite: ましょう)."
@@ -333,6 +334,15 @@ def wrong_forms(key, form, accept):
     for kana, names in labels.items():
         note = f"that's the {' / '.join(names)} form of {kanji}, but the cue asks for {LABEL[form]}."
         out[kana] = out[to_kanji(kana, key)] = note
+    # ら-less potential (見れる, 来れる): common in speech, but not the standard form
+    if form.startswith("potential") and cls in ("ru", "kuru"):
+        stem = r[:-1] if cls == "ru" else "こ"
+        tail = {"potential": "れる", "potential_masu": "れます", "potential_masen": "れません"}[form]
+        kana = stem + tail
+        if kana not in taken:
+            note = (f"that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: "
+                    f"{accept[0]}.")
+            out[kana] = out[to_kanji(kana, key)] = note
     # the other verb class's pattern: 帰ない for 帰る, 食べらない for 食べる
     if form in fk and r.endswith("る") and cls in ("ru", "u"):
         other = "u" if cls == "ru" else "ru"
@@ -376,6 +386,39 @@ def build(key, form):
 # ---------------------------------------------------------------- quizzes
 QZ = {}
 
+# Focused explanation per grammar point: (summary, body). The guide's overview is appended below the body.
+POINT_BODY = {
+    "pot-u": ("う-verbs: the last sound moves to the え-row, then add る.",
+              "- 書く → 書**け**る, 読む → 読**め**る, 話す → 話**せ**る, 待つ → 待**て**る, 買う → 買**え**る\n- The exceptions that look like る-verbs work the same: 帰る → 帰**れ**る, 走る → 走**れ**る."),
+    "pot-ru": ("る-verbs: drop る and add られる.",
+               "- 食べる → 食べ**られる**, 見る → 見**られる**, 起きる → 起き**られる**\n- Same shape as the passive (食べられる = can eat / is eaten): the sentence tells you which.\n- Casual speech often drops the ら (食べれる). Understand it, but write 食べられる."),
+    "pot-irr": ("する → できる, 来る → 来(こ)られる.", "- 勉強する → 勉強**できる**, 運転する → 運転**できる**\n- 来る → **こ**られる (casual: これる)"),
+    "can-yes": ("Polite 'can': the potential is a る-verb, so drop る + ます.",
+                "- 話せる → 話せ**ます**, できる → でき**ます**, 来られる → 来られ**ます**\n- What you can do usually takes が: 日本語**が**話せます."),
+    "can-no": ("Polite 'can't': drop る + ません.",
+               "- 読める → 読め**ません**, 寝られる → 寝られ**ません**\n- Also for rules and impossibility: ここでは泳げません (you can't swim here), この水は飲めません."),
+    "vol-u": ("う-verbs: the last sound moves to the お-row, then add う.",
+              "- 書く → 書**こう**, 読む → 読**もう**, 話す → 話**そう**, 待つ → 待**とう**, 買う → 買**おう**, 行く → 行**こう**"),
+    "vol-ru": ("る-verbs: drop る and add よう.", "- 食べる → 食べ**よう**, 見る → 見**よう**, 寝る → 寝**よう**, 始める → 始め**よう**"),
+    "vol-irr": ("する → しよう, 来る → 来(こ)よう.", "- 散歩する → 散歩**しよう**, 勉強する → 勉強**しよう**\n- 来る → **こ**よう"),
+    "will-plain": ("The plain volitional: let's, I'll, I was about to.",
+                   "- **Let's / shall we?** 休もう(か), 一緒に見よう\n- **I think I'll …** 〜ようと思う · **I'm planning to …** 〜ようと思っている\n- **I was just about to / tried to …** 〜ようとしたら"),
+    "will-polite": ("ましょう = polite 'let's'; ましょうか = 'shall I / shall we?'",
+                    "- そろそろ帰り**ましょう** (let's head home)\n- 荷物を持ち**ましょうか** (shall I carry your bag?) — an offer of help."),
+    "can": ("Ability, possibility, rules → potential.",
+            "Signals: 〜ようになった (became able to), 〜ません (can't), でも (even), 何でも (anything), ここでは (rules)."),
+    "will": ("Plans, invitations, decisions → volitional.",
+             "Signals: さあ (come on), 〜と決めた (decided to), 〜としたら (was about to / tried to), 一緒に … よう."),
+}
+
+
+def point_entry(pid, title, guide, examples):
+    gt, gs, gb = GUIDE[guide]
+    if pid in POINT_BODY:
+        summary, body = POINT_BODY[pid]
+        return {"id": pid, "title": title, "summary": summary, "body": body + "\n\n" + gb, "examples": examples}
+    return {"id": pid, "title": title, "summary": f"{gt}: {gs}", "body": gb, "examples": examples}
+
 GUIDE = {
     "masu": ("ます-form (polite)", "ます-stem + ます / ません / ました / ませんでした / ましょう.",
              "- **る-verbs**: drop る → 食べ**ます**.\n- **う-verbs**: last sound to the い-row → 書く → 書**き**ます, 話す → 話**し**ます.\n- **する** → します, **来る** → 来(き)ます."),
@@ -383,8 +426,40 @@ GUIDE = {
               "- **ない**: る-verbs drop る (食べない); う-verbs go to the あ-row (書かない, 言う → 言**わ**ない); する → しない, 来る → こない, ある → **ない**.\n- **た**: same as the て-form with た (食べた, 書いた, 読んだ).\n- **なかった**: ない → なかった."),
     "te": ("て-form", "The connector for sequences, requests, permissions and ongoing actions.",
            "- る-verbs: 食べ**て**.\n- う・つ・る → **って** (買って, 待って, 帰って)\n- ぬ・ぶ・む → **んで** (死んで, 遊んで, 読んで)\n- く → **いて**, ぐ → **いで**, す → **して**\n- **行く → 行って** (exception)\n- Then: てください (please), ている (-ing / state), てもいい (may), てはいけない (must not)."),
-    "potvol": ("Potential & volitional", "Can do it (potential) and let's / I'll do it (volitional).",
-               "- **Potential**: る-verbs + られる (食べられる); う-verbs → え-row + る (読める); する → **できる**; 来る → 来(こ)られる.\n- **Volitional**: る-verbs + よう (食べよう); う-verbs → お-row + う (行こう); する → しよう; 来る → 来(こ)よう. With と思う = 'I'm thinking of …'."),
+    "potvol": ("Can & will (potential / volitional)", "Two verb forms that look alike but mean different things: 'can do' and 'let's / I'll do'.",
+               """**Two forms, two meanings**
+
+| | meaning | 書く | 食べる |
+|---|---|---|---|
+| **Potential** | can do | 書**ける** | 食べ**られる** |
+| **Volitional** | let's / I'll do | 書**こう** | 食べ**よう** |
+
+- Potential = ability or possibility: 漢字が**読める** (I can read kanji).
+- Volitional = intention or invitation: 一緒に**読もう** (let's read it together).
+
+**How to make the potential (can)**
+- **う-verbs:** last sound → **え-row**, then る: 書く → 書**け**る, 読む → 読**め**る, 話す → 話**せ**る, 買う → 買**え**る.
+- **る-verbs:** drop る → **られる**: 食べる → 食べ**られる**, 見る → 見**られる**.
+- **する → できる**, **来る → 来(こ)られる**.
+- The result is itself a る-verb: 書ける → 書け**ます** / 書け**ません** / 書け**ない**.
+- The thing you can do usually takes **が**: 日本語**が**話せます (を is also heard).
+- In casual speech る-verbs often drop the ら: 見れる, 来れる. Understand it, but write 見られる.
+
+**How to make the volitional (let's / I'll)**
+- **う-verbs:** last sound → **お-row**, then う: 書く → 書**こう**, 読む → 読**もう**, 行く → 行**こう**.
+- **る-verbs:** drop る → **よう**: 食べる → 食べ**よう**, 寝る → 寝**よう**.
+- **する → しよう**, **来る → 来(こ)よう**.
+- It's the plain version of **ましょう**: 行こう = 行きましょう.
+
+**What the volitional is used for**
+- **Let's … / Shall we …?** — 休もう(か), 一緒に帰ろう.
+- **I think I'll …** — 〜ようと思う; **I'm planning to …** — 〜ようと思っている.
+- **was just about to …** — 〜ようとしたら (寝ようとしたら電話が鳴った).
+- Polite offer: 〜ましょうか (荷物を持ちましょうか = shall I carry it?).
+
+**Can or will? Ask what the sentence is about**
+- ability, possibility, rules (〜ようになった, 〜ません, ここでは) → **potential**
+- plans, invitations, decisions (一緒に, 〜と思う, そろそろ) → **volitional**"""),
     "cond": ("Conditionals & must", "ば (general if), たら (if / once), なければならない (must).",
              "- **ば**: る-verbs → れば (食べれば); う-verbs → え-row + ば (飲めば); する → すれば; 来る → くれば; ある → あれば.\n- **たら**: た-form + ら (着いたら) — also for 'once / when'.\n- **must**: ない-form → なければならない (いけない / なくてはいけない also work)."),
     "voice": ("Passive & causative", "Something is done to you (passive), you make / let someone do it (causative), and you're made to do it (causative-passive).",
@@ -419,8 +494,7 @@ def quiz(fname, id, title, description, guide, items, pid_fn=None, titles=None):
             ex = next(q for q in questions if q["point"] == pid)
             filled = ex["prompt"].split("\n")[0].replace("（　）", ex["accept"][0])
             t = titles[pid] if titles else LABEL[pid][0].upper() + LABEL[pid][1:]
-            points.append({"id": pid, "title": t, "summary": f"{gt}: {gs}", "body": gb,
-                           "examples": [[filled, ex["translation"]]]})
+            points.append(point_entry(pid, t, guide, [[filled, ex["translation"]]]))
     QZ[fname] = {"id": id, "category": "Verb Lab", "title": title, "description": description,
                  "level": "Verbs", "points": points, "questions": questions}
 
@@ -479,8 +553,8 @@ quiz("13_te", "verbs-te", "て-Form: Directions, Recipes & Requests",
     ("{子供|こども}たちは{公園|こうえん}で（　）。", "遊ぶ", "teimasu", "The children are playing in the park."),
 ])
 
-quiz("14_can_will", "verbs-can-will", "Can & Will: Plans and Abilities",
-     "What you can do (potential) and what you're going to do (volitional + と思う).", "potvol", [
+quiz("14f_can_will", "verbs-can-will", "Step 6 · Can & will mixed review",
+     "Abilities and plans mixed — the review after steps 1–5.", "potvol", [
     ("{弟|おとうと}はまだ5{歳|さい}なのに、ひらがなが（　）。", "読む", "potential", "My little brother is only five, but he can read hiragana."),
     ("{日本語|にほんご}で{電話|でんわ}が（　）ようになりました。", "する", "potential", "I've become able to make phone calls in Japanese."),
     ("このお{店|みせ}では、カードが（　）か。", "使う", "potential_masu", "Can I pay by card in this shop?"),
@@ -766,7 +840,7 @@ def drill_quiz(fname, id, title, description, guide, items, titles, keep_order=F
                           "wrong_forms": wrong_forms(key, form, accept),
                           "translation": f"{VERBS[key][0]} = to {GLOSS[key]}" if key in GLOSS else ""})
     pids = list(dict.fromkeys(q["point"] for q in questions))
-    points = [{"id": p, "title": titles[p], "summary": f"{gt}: {gs}", "body": gb, "examples": []} for p in pids]
+    points = [point_entry(p, titles[p], guide, []) for p in pids]
     QZ[fname] = {"id": id, "category": "Verb Lab", "title": title, "description": description,
                  "level": "Verbs", "points": points, "questions": questions}
     if keep_order:
@@ -1219,6 +1293,120 @@ pair_quiz("32_state", "verbs-state", "ている or てある: Describing a State
     ("{会議|かいぎ}のために、{椅子|いす}がきれいに（　）。", "並べる", "tearu", "The chairs have been set out neatly for the meeting."),
     ("いつの{間|ま}にか{店|みせ}のドアが（　）。", "閉まる", "teiru", "Before we knew it, the shop door was shut."),
 ], state=True)
+
+
+# ---------------------------------------------------------------- deep dive: can (potential) & will (volitional)
+
+VERBS.update({"受ける": ("受ける", "うける", "ru"), "やる": ("やる", "やる", "u"), "頑張る": ("頑張る", "がんばる", "u"),
+              "散歩する": ("散歩する", "さんぽする", "suru")})
+GLOSS.update({"受ける": "take (an exam)", "やる": "do", "頑張る": "do one's best", "散歩する": "go for a walk"})
+
+POT_TITLES = {"pot-u": "う-verbs: え-row + る (書ける)", "pot-ru": "る-verbs: drop る + られる (食べられる)",
+              "pot-irr": "Irregular: する → できる, 来る → 来られる"}
+VOL_TITLES = {"vol-u": "う-verbs: お-row + う (書こう)", "vol-ru": "る-verbs: drop る + よう (食べよう)",
+              "vol-irr": "Irregular: する → しよう, 来る → 来よう"}
+
+
+def grp(key, prefix):
+    cls = VERBS[key][2]
+    return f"{prefix}-{'irr' if cls in ('suru', 'kuru') else 'ru' if cls == 'ru' else 'u'}"
+
+
+drill_quiz("14a_can_form", "verbs-can-form", "Step 1 · Making 'can' (読める)",
+           "Dictionary form → potential (読む → 読める). One rule per verb group — the hint shows it.", "potvol",
+           [(k, "potential", grp(k, "pot")) for k in
+            ["書く", "読む", "食べる", "話す", "見る", "する", "待つ", "起きる", "泳ぐ", "来る", "買う", "寝る",
+             "帰る", "着る", "遊ぶ", "勉強する"]], POT_TITLES, rule_hints=True)
+
+quiz("14b_can_polite", "verbs-can-polite", "Step 2 · I can / I can't (話せます)",
+     "Talking about abilities and rules politely: 話せます, 読めません.", "potvol", [
+    ("{私|わたし}は{日本語|にほんご}が{少|すこ}し（　）。", "話す", "potential_masu", "I can speak a little Japanese."),
+    ("{漢字|かんじ}はまだあまり（　）。", "読む", "potential_masen", "I can't read many kanji yet."),
+    ("この{川|かわ}では（　）。{危|あぶ}ないですから。", "泳ぐ", "potential_masen", "You can't swim in this river — it's dangerous."),
+    ("{明日|あした}のパーティーに（　）か。", "来る", "potential_masu", "Can you come to the party tomorrow?"),
+    ("{辛|から}い{物|もの}は（　）か。", "食べる", "potential_masu", "Can you eat spicy food?"),
+    ("{最近|さいきん}、{夜|よる}あまり（　）。", "寝る", "potential_masen", "Lately I can't sleep well at night."),
+    ("{車|くるま}の{運転|うんてん}が（　）か。", "する", "potential_masu", "Can you drive?"),
+    ("{一人|ひとり}で{着物|きもの}が（　）。", "着る", "potential_masu", "I can put on a kimono by myself."),
+    ("{今週|こんしゅう}は{忙|いそが}しくて、{会|あ}いに（　）。", "行く", "potential_masen", "I'm busy this week, so I can't come and see you."),
+    ("{明日|あした}、{朝|あさ}{六時|ろくじ}に（　）か。", "起きる", "potential_masu", "Can you get up at six tomorrow morning?"),
+    ("{自転車|じてんしゃ}に（　）か。", "乗る", "potential_masu", "Can you ride a bike?"),
+    ("この{水|みず}は（　）。", "飲む", "potential_masen", "You can't drink this water."),
+], pid_fn=lambda key, form: "can-yes" if form == "potential_masu" else "can-no",
+   titles={"can-yes": "Can (〜られます / 〜えます)", "can-no": "Can't (〜られません / 〜えません)"})
+
+drill_quiz("14c_will_form", "verbs-will-form", "Step 3 · Making 'let's / I'll' (読もう)",
+           "Dictionary form → volitional (読む → 読もう). The plain version of ましょう.", "potvol",
+           [(k, "volitional", grp(k, "vol")) for k in
+            ["行く", "食べる", "書く", "見る", "飲む", "する", "話す", "寝る", "待つ", "来る", "遊ぶ", "始める",
+             "帰る", "頑張る", "買う", "散歩する"]], VOL_TITLES, rule_hints=True)
+
+quiz("14d_will_uses", "verbs-will-uses", "Step 4 · Let's, I'll, I was about to",
+     "What the volitional does: invitations (休もうか), plans (〜ようと思う), 'was about to' (〜ようとしたら), offers (ましょうか).", "potvol", [
+    ("{疲|つか}れたね。ちょっと（　）か。", "休む", "volitional", "We're tired — shall we take a short break?"),
+    ("{週末|しゅうまつ}、{一緒|いっしょ}に{映画|えいが}を（　）よ。", "見る", "volitional", "Let's watch a film together at the weekend."),
+    ("{今年|ことし}こそ{日本語|にほんご}の{試験|しけん}を（　）と{思|おも}います。", "受ける", "volitional", "This year I think I'll finally take the Japanese exam."),
+    ("{来年|らいねん}から{日本|にほん}に（　）と{思|おも}っています。", "住む", "volitional", "I'm planning to live in Japan from next year."),
+    ("{新|あたら}しいパソコンを（　）と{思|おも}っている。", "買う", "volitional", "I'm thinking of buying a new computer."),
+    ("{家|いえ}を（　）としたら、{雨|あめ}が{降|ふ}ってきた。", "出る", "volitional", "Just as I was about to leave the house, it started to rain."),
+    ("{寝|ね}る{前|まえ}に{本|ほん}を（　）としたら、{電気|でんき}が{消|き}えた。", "読む", "volitional", "Just as I was about to read before bed, the lights went out."),
+    ("{重|おも}そうですね。{荷物|にもつ}を（　）か。", "持つ", "mashou", "That looks heavy — shall I carry your bag?"),
+    ("もう{遅|おそ}いですね。そろそろ（　）。", "帰る", "mashou", "It's late. Let's head home soon."),
+    ("{毎日|まいにち}{少|すこ}しずつ（　）。", "練習する", "volitional", "Let's practise a little every day."),
+    ("{明日|あした}は{試験|しけん}だから、{早|はや}く（　）。", "寝る", "volitional", "I've got an exam tomorrow, so I'll go to bed early."),
+    ("{今度|こんど}の{休|やす}みは{何|なに}を（　）かな。", "する", "volitional", "What shall I do next holiday?"),
+    ("{失敗|しっぱい}しても{大丈夫|だいじょうぶ}。もう{一度|いちど}（　）！", "やる", "volitional", "It's fine to fail. Let's try once more!"),
+    ("{来週|らいしゅう}、{田中|たなか}さんにもう{一度|いちど}（　）と{思|おも}います。", "会う", "volitional", "I think I'll meet Tanaka once more next week."),
+], pid_fn=lambda key, form: "will-polite" if form == "mashou" else "will-plain",
+   titles={"will-plain": "Volitional: let's / I'll / was about to", "will-polite": "Polite: ましょう / ましょうか"})
+
+
+def choice_quiz(fname, id, title, description, guide, items):
+    """The cue doesn't say which form: the sentence has to tell you whether it's 'can' or 'let's / I'll'."""
+    gt, gs, gb = GUIDE[guide]
+    questions = []
+    for sentence, key, form, en in items:
+        accept, why, hint = build(key, form)
+        can = form.startswith("potential")
+        wf = wrong_forms(key, form, accept)
+        fk = forms(VERBS[key][1], VERBS[key][2])
+        others = ["volitional", "mashou"] if can else ["potential", "potential_masu", "potential_masen"]
+        for f2 in others:
+            kana = fk[f2][0]
+            note = (f"that's the volitional ('let's / I'll'), but this sentence is about being able to → potential."
+                    if can else
+                    f"that's the potential ('can'), but this sentence is about a plan or an invitation → volitional.")
+            wf[kana] = wf[to_kanji(kana, key)] = note
+        lead = ("Ability / possibility → potential ('can'). " if can else "Plan / invitation → volitional ('let's / I'll'). ")
+        hint = "Ability, possibility, rules (ようになる, ません, でも) → can · plan, invitation, decision (さあ, と決めた, としたら) → let's / I'll"
+        questions.append({"point": "can" if can else "will",
+                          "prompt": f"{sentence}\n→ {ruby(key)} · can … or let's / I'll …? (the sentence decides)",
+                          "options": [], "answer": 0, "accept": accept, "hint": hint, "explanation": lead + why,
+                          "notes": [], "translation": en, "wrong_forms": wf})
+    titles = {"can": "Potential: ability, possibility, rules", "will": "Volitional: plans, invitations, decisions"}
+    pids = list(dict.fromkeys(q["point"] for q in questions))
+    points = [point_entry(p, titles[p], guide, []) for p in pids]
+    QZ[fname] = {"id": id, "category": "Verb Lab", "title": title, "description": description,
+                 "level": "Verbs", "points": points, "questions": questions}
+
+
+choice_quiz("14e_can_or_will", "verbs-can-or-will", "Step 5 · Can or let's? The sentence decides",
+            "The cue no longer tells you the form — read the sentence and decide: ability or plan?", "potvol", [
+    ("{漢字|かんじ}が{少|すこ}し（　）ようになりました。", "読む", "potential", "I've become able to read a few kanji."),
+    ("さあ、この{本|ほん}を{一緒|いっしょ}に（　）！", "読む", "volitional", "Come on, let's read this book together!"),
+    ("{明日|あした}は{試験|しけん}だから、{早|はや}く（　）と{決|き}めた。", "起きる", "volitional", "I've got an exam tomorrow, so I decided to get up early."),
+    ("{目覚|めざ}まし{時計|どけい}がなくても、{六時|ろくじ}に（　）か。", "起きる", "potential_masu", "Can you get up at six even without an alarm clock?"),
+    ("{疲|つか}れたね。さあ、（　）。", "帰る", "volitional", "We're tired. Come on, let's go home."),
+    ("{仕事|しごと}が{多|おお}くて、{今日|きょう}は{早|はや}く（　）。", "帰る", "potential_masen", "There's a lot of work, so I can't go home early today."),
+    ("さあ、{一緒|いっしょ}に{晩|ばん}ご{飯|はん}を（　）。", "作る", "volitional", "Come on, let's make dinner together."),
+    ("{彼女|かのじょ}は{料理|りょうり}が{上手|じょうず}で、{何|なん}でも（　）。", "作る", "potential", "She's a good cook — she can make anything."),
+    ("{暑|あつ}いね。さあ、{海|うみ}で（　）！", "泳ぐ", "volitional", "It's hot! Come on, let's swim in the sea!"),
+    ("{子供|こども}でも{簡単|かんたん}に（　）{歌|うた}です。", "歌う", "potential", "It's a song even children can sing easily."),
+    ("{歌|うた}を（　）としたら、{声|こえ}が{出|で}なかった。", "歌う", "volitional", "When I tried to sing, no sound came out."),
+    ("ここではタバコは（　）。", "吸う", "potential_masen", "You can't smoke here."),
+    ("{日本|にほん}では{日本語|にほんご}だけで（　）と{決|き}めています。", "話す", "volitional", "I've made up my mind to speak only Japanese in Japan."),
+    ("{日本語|にほんご}で{電話|でんわ}が（　）ようになった。", "する", "potential", "I've become able to make phone calls in Japanese."),
+])
 
 
 def write(folder):

@@ -1,15 +1,15 @@
 {
   "id": "verbs-can-will",
   "category": "Verb Lab",
-  "title": "Can & Will: Plans and Abilities",
-  "description": "What you can do (potential) and what you're going to do (volitional + と思う).",
+  "title": "Step 6 · Can & will mixed review",
+  "description": "Abilities and plans mixed — the review after steps 1–5.",
   "level": "Verbs",
   "points": [
     {
       "id": "potential",
       "title": "Can … (plain)",
-      "summary": "Potential & volitional: Can do it (potential) and let's / I'll do it (volitional).",
-      "body": "- **Potential**: る-verbs + られる (食べられる); う-verbs → え-row + る (読める); する → **できる**; 来る → 来(こ)られる.\n- **Volitional**: る-verbs + よう (食べよう); う-verbs → お-row + う (行こう); する → しよう; 来る → 来(こ)よう. With と思う = 'I'm thinking of …'.",
+      "summary": "Can & will (potential / volitional): Two verb forms that look alike but mean different things: 'can do' and 'let's / I'll do'.",
+      "body": "**Two forms, two meanings**\n\n| | meaning | 書く | 食べる |\n|---|---|---|---|\n| **Potential** | can do | 書**ける** | 食べ**られる** |\n| **Volitional** | let's / I'll do | 書**こう** | 食べ**よう** |\n\n- Potential = ability or possibility: 漢字が**読める** (I can read kanji).\n- Volitional = intention or invitation: 一緒に**読もう** (let's read it together).\n\n**How to make the potential (can)**\n- **う-verbs:** last sound → **え-row**, then る: 書く → 書**け**る, 読む → 読**め**る, 話す → 話**せ**る, 買う → 買**え**る.\n- **る-verbs:** drop る → **られる**: 食べる → 食べ**られる**, 見る → 見**られる**.\n- **する → できる**, **来る → 来(こ)られる**.\n- The result is itself a る-verb: 書ける → 書け**ます** / 書け**ません** / 書け**ない**.\n- The thing you can do usually takes **が**: 日本語**が**話せます (を is also heard).\n- In casual speech る-verbs often drop the ら: 見れる, 来れる. Understand it, but write 見られる.\n\n**How to make the volitional (let's / I'll)**\n- **う-verbs:** last sound → **お-row**, then う: 書く → 書**こう**, 読む → 読**もう**, 行く → 行**こう**.\n- **る-verbs:** drop る → **よう**: 食べる → 食べ**よう**, 寝る → 寝**よう**.\n- **する → しよう**, **来る → 来(こ)よう**.\n- It's the plain version of **ましょう**: 行こう = 行きましょう.\n\n**What the volitional is used for**\n- **Let's … / Shall we …?** — 休もう(か), 一緒に帰ろう.\n- **I think I'll …** — 〜ようと思う; **I'm planning to …** — 〜ようと思っている.\n- **was just about to …** — 〜ようとしたら (寝ようとしたら電話が鳴った).\n- Polite offer: 〜ましょうか (荷物を持ちましょうか = shall I carry it?).\n\n**Can or will? Ask what the sentence is about**\n- ability, possibility, rules (〜ようになった, 〜ません, ここでは) → **potential**\n- plans, invitations, decisions (一緒に, 〜と思う, そろそろ) → **volitional**",
       "examples": [
         [
           "{弟|おとうと}はまだ5{歳|さい}なのに、ひらがなが読める。",
@@ -20,8 +20,8 @@
     {
       "id": "potential_masu",
       "title": "Can … (polite)",
-      "summary": "Potential & volitional: Can do it (potential) and let's / I'll do it (volitional).",
-      "body": "- **Potential**: る-verbs + られる (食べられる); う-verbs → え-row + る (読める); する → **できる**; 来る → 来(こ)られる.\n- **Volitional**: る-verbs + よう (食べよう); う-verbs → お-row + う (行こう); する → しよう; 来る → 来(こ)よう. With と思う = 'I'm thinking of …'.",
+      "summary": "Can & will (potential / volitional): Two verb forms that look alike but mean different things: 'can do' and 'let's / I'll do'.",
+      "body": "**Two forms, two meanings**\n\n| | meaning | 書く | 食べる |\n|---|---|---|---|\n| **Potential** | can do | 書**ける** | 食べ**られる** |\n| **Volitional** | let's / I'll do | 書**こう** | 食べ**よう** |\n\n- Potential = ability or possibility: 漢字が**読める** (I can read kanji).\n- Volitional = intention or invitation: 一緒に**読もう** (let's read it together).\n\n**How to make the potential (can)**\n- **う-verbs:** last sound → **え-row**, then る: 書く → 書**け**る, 読む → 読**め**る, 話す → 話**せ**る, 買う → 買**え**る.\n- **る-verbs:** drop る → **られる**: 食べる → 食べ**られる**, 見る → 見**られる**.\n- **する → できる**, **来る → 来(こ)られる**.\n- The result is itself a る-verb: 書ける → 書け**ます** / 書け**ません** / 書け**ない**.\n- The thing you can do usually takes **が**: 日本語**が**話せます (を is also heard).\n- In casual speech る-verbs often drop the ら: 見れる, 来れる. Understand it, but write 見られる.\n\n**How to make the volitional (let's / I'll)**\n- **う-verbs:** last sound → **お-row**, then う: 書く → 書**こう**, 読む → 読**もう**, 行く → 行**こう**.\n- **る-verbs:** drop る → **よう**: 食べる → 食べ**よう**, 寝る → 寝**よう**.\n- **する → しよう**, **来る → 来(こ)よう**.\n- It's the plain version of **ましょう**: 行こう = 行きましょう.\n\n**What the volitional is used for**\n- **Let's … / Shall we …?** — 休もう(か), 一緒に帰ろう.\n- **I think I'll …** — 〜ようと思う; **I'm planning to …** — 〜ようと思っている.\n- **was just about to …** — 〜ようとしたら (寝ようとしたら電話が鳴った).\n- Polite offer: 〜ましょうか (荷物を持ちましょうか = shall I carry it?).\n\n**Can or will? Ask what the sentence is about**\n- ability, possibility, rules (〜ようになった, 〜ません, ここでは) → **potential**\n- plans, invitations, decisions (一緒に, 〜と思う, そろそろ) → **volitional**",
       "examples": [
         [
           "このお{店|みせ}では、カードが使えますか。",
@@ -32,8 +32,8 @@
     {
       "id": "volitional",
       "title": "Let's / I'll … (plain volitional)",
-      "summary": "Potential & volitional: Can do it (potential) and let's / I'll do it (volitional).",
-      "body": "- **Potential**: る-verbs + られる (食べられる); う-verbs → え-row + る (読める); する → **できる**; 来る → 来(こ)られる.\n- **Volitional**: る-verbs + よう (食べよう); う-verbs → お-row + う (行こう); する → しよう; 来る → 来(こ)よう. With と思う = 'I'm thinking of …'.",
+      "summary": "Can & will (potential / volitional): Two verb forms that look alike but mean different things: 'can do' and 'let's / I'll do'.",
+      "body": "**Two forms, two meanings**\n\n| | meaning | 書く | 食べる |\n|---|---|---|---|\n| **Potential** | can do | 書**ける** | 食べ**られる** |\n| **Volitional** | let's / I'll do | 書**こう** | 食べ**よう** |\n\n- Potential = ability or possibility: 漢字が**読める** (I can read kanji).\n- Volitional = intention or invitation: 一緒に**読もう** (let's read it together).\n\n**How to make the potential (can)**\n- **う-verbs:** last sound → **え-row**, then る: 書く → 書**け**る, 読む → 読**め**る, 話す → 話**せ**る, 買う → 買**え**る.\n- **る-verbs:** drop る → **られる**: 食べる → 食べ**られる**, 見る → 見**られる**.\n- **する → できる**, **来る → 来(こ)られる**.\n- The result is itself a る-verb: 書ける → 書け**ます** / 書け**ません** / 書け**ない**.\n- The thing you can do usually takes **が**: 日本語**が**話せます (を is also heard).\n- In casual speech る-verbs often drop the ら: 見れる, 来れる. Understand it, but write 見られる.\n\n**How to make the volitional (let's / I'll)**\n- **う-verbs:** last sound → **お-row**, then う: 書く → 書**こう**, 読む → 読**もう**, 行く → 行**こう**.\n- **る-verbs:** drop る → **よう**: 食べる → 食べ**よう**, 寝る → 寝**よう**.\n- **する → しよう**, **来る → 来(こ)よう**.\n- It's the plain version of **ましょう**: 行こう = 行きましょう.\n\n**What the volitional is used for**\n- **Let's … / Shall we …?** — 休もう(か), 一緒に帰ろう.\n- **I think I'll …** — 〜ようと思う; **I'm planning to …** — 〜ようと思っている.\n- **was just about to …** — 〜ようとしたら (寝ようとしたら電話が鳴った).\n- Polite offer: 〜ましょうか (荷物を持ちましょうか = shall I carry it?).\n\n**Can or will? Ask what the sentence is about**\n- ability, possibility, rules (〜ようになった, 〜ません, ここでは) → **potential**\n- plans, invitations, decisions (一緒に, 〜と思う, そろそろ) → **volitional**",
       "examples": [
         [
           "{明日|あした}は{早|はや}いので、{今日|きょう}は{早|はや}く寝ようと{思|おも}います。",
@@ -215,7 +215,9 @@
         "こられた": "that's the passive, past form of 来る, but the cue asks for can … (polite).",
         "来られた": "that's the passive, past form of 来る, but the cue asks for can … (polite).",
         "こさせた": "that's the causative (make / let), past form of 来る, but the cue asks for can … (polite).",
-        "来させた": "that's the causative (make / let), past form of 来る, but the cue asks for can … (polite)."
+        "来させた": "that's the causative (make / let), past form of 来る, but the cue asks for can … (polite).",
+        "これます": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 来られます.",
+        "来れます": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 来られます."
       }
     },
     {
