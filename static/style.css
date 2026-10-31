@@ -331,6 +331,10 @@ details.qgroup > summary > span:first-child { flex: 1; }
 .account-panel .small { font-size: 0.85rem; }
 .account-panel .actions { display: flex; gap: 8px; flex-wrap: wrap; }
 .login-email { display: flex; gap: 8px; }
+.login-password { display: grid; gap: 8px; }
+.login-password input { padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; }
+.set-password { margin-top: 12px; border-top: 1px solid var(--border); padding-top: 10px; }
+.set-password summary { cursor: pointer; font-weight: 500; }
 .login-email input {
   flex: 1; min-width: 0; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border);
   background: var(--bg); color: var(--text); font: inherit;

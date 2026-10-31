@@ -45,7 +45,7 @@ The exported site can be added to a phone's home screen. On iPhone, open it in S
 
 - `sw.js` (a service worker) keeps every page and quiz on the device, about 5 MB. `export` writes `offline.json`, which lists those files with a content hash, and fills in the worker's version. After a deploy, the app downloads only the files that changed.
 - Read-aloud audio is optional. Under each level's title, **Save audio for …** stores that level's sentences in the chosen voice (for example about 4 MB for N5), and **Remove** deletes them again.
-- Progress stays on the device as before and syncs once you're online again, if you're signed in. On iPhone the home-screen app keeps its own storage, separate from Safari. Email sign-in uses a code typed into the app, because on iPhone a link from Mail opens Safari, not the home-screen app. For the code to appear in the email, the Supabase **Magic Link** email template must contain `{{ .Token }}` (Authentication → Emails → Magic Link).
+- Progress stays on the device as before and syncs once you're online again, if you're signed in. On iPhone the home-screen app keeps its own storage, separate from Safari. Links from Mail and GitHub sign-in open Safari, not the home-screen app, so the app also offers **email + password**: sign in once anywhere, set a password under 👤 → *Password (for the iPhone app)*, then use it in the app. If the Supabase Magic Link template includes `{{ .Token }}` (needs custom SMTP), the email's code can also be typed in.
 - The offline mode is only active on the static site. The Rust server checks answers itself, so it needs a connection.
 
 ## Hiragana Dojo (`/kana/`)

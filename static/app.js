@@ -260,23 +260,40 @@ function renderAccount() {
       <h3>Sync your progress</h3>
       <p class="muted">Sign in to keep best scores, your review schedule and an unfinished quiz in sync across devices.
         Without an account everything stays in this browser, as before.</p>
-      <button class="btn" id="login-github">Continue with GitHub</button>
-      ${isStandalone ? `<p class="muted small">In the home-screen app GitHub may open Safari instead — the email code below always works.</p>` : ""}
-      <p class="muted or">or sign in with your email</p>
+      <form id="login-password" class="login-password">
+        <input type="email" required placeholder="you@example.com" autocomplete="username" aria-label="Email">
+        <input type="password" required placeholder="Password" autocomplete="current-password" aria-label="Password">
+        <button class="btn">Sign in</button>
+      </form>
+      <p class="muted small">No password yet? Sign in once with GitHub or an email link (e.g. in Safari), then set one under 👤.</p>
+      <p class="muted or">or</p>
+      <button class="btn secondary" id="login-github">Continue with GitHub</button>
       <form id="login-email" class="login-email">
         <input type="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email">
-        <button class="btn secondary">Send code</button>
+        <button class="btn secondary">Email me a link</button>
       </form>
       <form id="login-code" class="login-email" hidden>
         <input type="text" required inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,10}" maxlength="10"
-          placeholder="Code from the email" aria-label="Code from the email">
+          placeholder="Code from the email (if it has one)" aria-label="Code from the email">
         <button class="btn">Sign in</button>
       </form>
+      ${isStandalone ? `<p class="muted small">In the home-screen app, links (GitHub, email) open Safari — use your password here instead.</p>` : ""}
       <p class="muted small" id="account-msg"></p>`;
+    // Email + password works everywhere, including the iPhone home-screen app, where links from Mail
+    // and the GitHub sign-in open Safari instead of the app.
+    panel.querySelector("#login-password").addEventListener("submit", async e => {
+      e.preventDefault();
+      const [emailIn, pwIn] = e.target.querySelectorAll("input");
+      const msg = panel.querySelector("#account-msg");
+      msg.textContent = "Signing in…";
+      const { error } = await sync.client.auth.signInWithPassword({ email: emailIn.value.trim(), password: pwIn.value });
+      if (error) msg.textContent = /invalid/i.test(error.message)
+        ? "Email or password is wrong — or no password is set for this account yet."
+        : `Could not sign in: ${error.message}`;
+    });
     panel.querySelector("#login-github").addEventListener("click", () =>
       sync.client.auth.signInWithOAuth({ provider: "github", options: { redirectTo: back } }));
-    // The email has a code and a link. The code is typed here, so it also works in the home-screen app
-    // on iPhone, where links from Mail open in Safari instead of the app.
+    // The email has a link, and a code once the Supabase template includes {{ .Token }}.
     let email = "";
     panel.querySelector("#login-email").addEventListener("submit", async e => {
       e.preventDefault();
@@ -285,11 +302,8 @@ function renderAccount() {
       msg.textContent = "Sending…";
       const { error } = await sync.client.auth.signInWithOtp({ email, options: { emailRedirectTo: back } });
       if (error) { msg.textContent = `Could not send the email: ${error.message}`; return; }
-      const code = panel.querySelector("#login-code");
-      code.hidden = false;
-      code.querySelector("input").focus();
-      msg.textContent = isStandalone ? "Check your inbox and type the code from the email here."
-        : "Check your inbox: type the code here, or open the link in this browser.";
+      panel.querySelector("#login-code").hidden = false;
+      msg.textContent = "Check your inbox and open the link in this browser (or type the code, if the email has one).";
     });
     panel.querySelector("#login-code").addEventListener("submit", async e => {
       e.preventDefault();
@@ -307,7 +321,26 @@ function renderAccount() {
       <p class="muted">${status}</p>
       <div class="actions"><button class="btn secondary" id="sync-now">Sync now</button>
         <button class="btn secondary" id="logout">Sign out</button></div>
-      <p class="muted small">Signing out keeps your progress in this browser.</p>`;
+      <p class="muted small">Signing out keeps your progress in this browser.</p>
+      <details class="set-password"${sync.pwMsg ? " open" : ""}>
+        <summary>Password (for the iPhone app)</summary>
+        <p class="muted small">Set a password to sign in with email + password — handy in the home-screen app, where email links open Safari.</p>
+        <form id="set-password" class="login-email">
+          <input type="email" value="${escapeHtml(sync.user.email || "")}" autocomplete="username" hidden aria-hidden="true">
+          <input type="password" required minlength="8" placeholder="New password (8+ characters)" autocomplete="new-password" aria-label="New password">
+          <button class="btn secondary">Save</button>
+        </form>
+        <p class="muted small">${escapeHtml(sync.pwMsg || "")}</p>
+      </details>`;
+    panel.querySelector("#set-password").addEventListener("submit", async e => {
+      e.preventDefault();
+      const password = e.target.querySelector('input[type="password"]').value;
+      const { error } = await sync.client.auth.updateUser({ password });
+      // kept on sync so the message survives the re-render that the auth update triggers
+      sync.pwMsg = error ? `Could not save the password: ${error.message}`
+        : `✓ Password saved. Sign in with ${sync.user.email} and this password in the app.`;
+      renderAccount();
+    });
     panel.querySelector("#sync-now").addEventListener("click", syncAll);
     panel.querySelector("#logout").addEventListener("click", async () => {
       await sync.client.auth.signOut();
