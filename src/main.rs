@@ -10,7 +10,7 @@
 //! the same pages plus every quiz as JSON, with the checking done in the browser.
 
 use std::{
-    collections::HashMap,
+    collections::{BTreeMap, HashMap},
     env, fs,
     net::{IpAddr, SocketAddr},
     path::{Path, PathBuf},
@@ -85,8 +85,8 @@ struct Question {
     hint: String,
     /// Typed answers that are a real but different form (e.g. the volitional instead of the potential),
     /// mapped to a note saying so. Never sent to the browser before answering.
-    #[serde(default, skip_serializing_if = "HashMap::is_empty")]
-    wrong_forms: HashMap<String, String>,
+    #[serde(default, skip_serializing_if = "BTreeMap::is_empty")]
+    wrong_forms: BTreeMap<String, String>,
     /// The grammar point behind the correct answer.
     explanation: String,
     /// One note per option: why that option is wrong (empty for the correct one).
@@ -564,6 +564,11 @@ const APP_JS: &str = include_str!("../static/app.js");
 const STYLE_CSS: &str = include_str!("../static/style.css");
 const FAVICON_SVG: &str = include_str!("../static/favicon.svg");
 const TOUCH_ICON_PNG: &[u8] = include_bytes!("../static/apple-touch-icon.png");
+/// Installable app (add to home screen) with offline support: only registered on the static site.
+const MANIFEST: &str = include_str!("../static/manifest.webmanifest");
+const SERVICE_WORKER_JS: &str = include_str!("../static/sw.js");
+const ICON_192_PNG: &[u8] = include_bytes!("../static/icon-192.png");
+const ICON_512_PNG: &[u8] = include_bytes!("../static/icon-512.png");
 /// Hiragana Dojo (static/kana): writing practice, checked in the browser against KanjiVG stroke data.
 const KANA_INDEX_HTML: &str = include_str!("../static/kana/index.html");
 const KANA_WRITE_HTML: &str = include_str!("../static/kana/write.html");
@@ -592,6 +597,9 @@ fn export(out: &Path, quizzes: &[Quiz], traditional: &[Option<Quiz>]) -> std::io
     fs::write(out.join("style.css"), STYLE_CSS)?;
     fs::write(out.join("favicon.svg"), FAVICON_SVG)?;
     fs::write(out.join("apple-touch-icon.png"), TOUCH_ICON_PNG)?;
+    fs::write(out.join("manifest.webmanifest"), MANIFEST)?;
+    fs::write(out.join("icon-192.png"), ICON_192_PNG)?;
+    fs::write(out.join("icon-512.png"), ICON_512_PNG)?;
     let kana = out.join("kana");
     fs::create_dir_all(&kana)?;
     fs::write(kana.join("index.html"), KANA_INDEX_HTML)?;
@@ -633,7 +641,41 @@ fn export(out: &Path, quizzes: &[Quiz], traditional: &[Option<Quiz>]) -> std::io
             fs::write(quiz_dir.join(format!("{}.trad.json", quiz.id)), json(t))?;
         }
     }
-    Ok(())
+    write_offline_files(out)
+}
+
+/// offline.json lists every file the service worker keeps on the device (all but the audio, which is
+/// saved per level on request) with a hash of its content, and sw.js gets a version made from them:
+/// each deploy that changes something installs a new worker, which downloads only the changed files.
+fn write_offline_files(out: &Path) -> std::io::Result<()> {
+    fn walk(dir: &Path, root: &Path, files: &mut BTreeMap<String, String>) -> std::io::Result<()> {
+        for entry in fs::read_dir(dir)? {
+            let path = entry?.path();
+            let rel = path.strip_prefix(root).expect("inside root").to_string_lossy().replace('\\', "/");
+            if path.is_dir() {
+                if rel != "audio" {
+                    walk(&path, root, files)?;
+                }
+            } else if !matches!(rel.as_str(), ".nojekyll" | "offline.json" | "sw.js") {
+                files.insert(rel, format!("{:016x}", fnv1a(&fs::read(&path)?)));
+            }
+        }
+        Ok(())
+    }
+    let mut files = BTreeMap::new();
+    walk(out, out, &mut files)?;
+    let manifest = out.join("audio").join("manifest.json");
+    if manifest.is_file() {
+        files.insert("audio/manifest.json".into(), format!("{:016x}", fnv1a(&fs::read(manifest)?)));
+    }
+    let version = format!("{:016x}", fnv1a(json(&files).as_bytes()));
+    fs::write(out.join("offline.json"), json(&serde_json::json!({ "version": version, "files": files })))?;
+    fs::write(out.join("sw.js"), SERVICE_WORKER_JS.replace("__VERSION__", &version))
+}
+
+/// FNV-1a: a small, stable content hash (only used to notice changed files).
+fn fnv1a(bytes: &[u8]) -> u64 {
+    bytes.iter().fold(0xcbf29ce484222325, |h, b| (h ^ u64::from(*b)).wrapping_mul(0x100000001b3))
 }
 
 fn json<T: Serialize + ?Sized>(value: &T) -> String {
@@ -732,6 +774,9 @@ async fn main() {
         .route("/style.css", get(|| async { static_file("text/css; charset=utf-8", STYLE_CSS) }))
         .route("/favicon.svg", get(|| async { static_file("image/svg+xml", FAVICON_SVG) }))
         .route("/apple-touch-icon.png", get(|| async { ([(header::CONTENT_TYPE, "image/png")], TOUCH_ICON_PNG) }))
+        .route("/manifest.webmanifest", get(|| async { static_file("application/manifest+json", MANIFEST) }))
+        .route("/icon-192.png", get(|| async { ([(header::CONTENT_TYPE, "image/png")], ICON_192_PNG) }))
+        .route("/icon-512.png", get(|| async { ([(header::CONTENT_TYPE, "image/png")], ICON_512_PNG) }))
         .route("/api/quizzes", get(list_quizzes))
         .route("/api/quizzes/{id}", get(get_quiz))
         .route("/api/mix", get(random_mix))

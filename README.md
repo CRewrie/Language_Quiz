@@ -39,6 +39,15 @@ The difference from the server is that the answers are in the JSON files, so any
 - **Adjective Lab**: the same typed practice for い- and な-adjectives, with lessons that put verbs and adjectives side by side: くない / じゃない / ない, かったです / でした / ました, 好き and 欲しい (adjectives in Japanese, verbs in English), and 疲れている and 混んでいる (the other way round).
 - **Review (spaced repetition)**: every first answer moves the question between Leitner boxes (due again after 0, 1, 3, 7, 14 or 30 days). Wrong answers and answers given with a hint start over. When questions are due, the home page offers a review session of up to 20 of them.
 
+## Offline & app (static site)
+
+The exported site can be added to a phone's home screen. On iPhone, open it in Safari, tap Share and then **Add to Home Screen**. From then on it works without a connection:
+
+- `sw.js` (a service worker) keeps every page and quiz on the device, about 5 MB. `export` writes `offline.json`, which lists those files with a content hash, and fills in the worker's version. After a deploy, the app downloads only the files that changed.
+- Read-aloud audio is optional. Under each level's title, **Save audio for …** stores that level's sentences in the chosen voice (for example about 4 MB for N5), and **Remove** deletes them again.
+- Progress stays on the device as before and syncs once you're online again, if you're signed in. On iPhone the home-screen app keeps its own storage, separate from Safari.
+- The offline mode is only active on the static site. The Rust server checks answers itself, so it needs a connection.
+
 ## Hiragana Dojo (`/kana/`)
 
 Writing practice for hiragana, linked from the Japanese home page:

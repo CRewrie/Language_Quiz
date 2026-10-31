@@ -414,6 +414,126 @@ function fetchJSON(path) {
 
 const staticList = sc => fetchJSON(sc === "trad" ? "data/quizzes.trad.json" : "data/quizzes.json");
 
+// ---------- offline (GitHub Pages, or the app added to the home screen) ----------
+// sw.js keeps every page and quiz on the device. Read-aloud audio is saved per level on request,
+// into the "audio" cache that sw.js answers audio requests from.
+const AUDIO_CACHE = "audio";
+const AUDIO_AVG_KB = 14; // average size of one voiced sentence, for the size estimate
+const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+const isStandalone = navigator.standalone === true || window.matchMedia?.("(display-mode: standalone)").matches;
+const offline = { supported: STATIC && "serviceWorker" in navigator && "caches" in window, ready: false, progress: null };
+
+if (offline.supported) {
+  navigator.serviceWorker.register("sw.js").catch(() => { offline.supported = false; updateOfflineCard(); });
+  navigator.serviceWorker.addEventListener("message", e => {
+    if (e.data?.type === "offline-progress") offline.progress = e.data;
+    if (e.data?.type === "offline-ready") {
+      offline.ready = true;
+      offline.progress = null;
+      navigator.storage?.persist?.().catch(() => {}); // ask the browser not to clear it when space runs low
+    }
+    updateOfflineCard();
+  });
+  (async () => {
+    try {
+      const marker = new URL("__ready__", location.href).href;
+      for (const k of await caches.keys()) {
+        if (k.startsWith("quiz-") && await caches.match(marker, { cacheName: k })) offline.ready = true;
+      }
+    } catch {}
+    updateOfflineCard();
+  })();
+}
+
+function offlineCardHtml() {
+  if (!offline.supported) return "";
+  const p = offline.progress;
+  const status = offline.ready
+    ? `✈️ <strong>Offline ready</strong> — every lesson is saved on this device. Read-aloud audio can be saved per level (under the level title).`
+    : `⏳ <strong>Saving lessons for offline use…</strong>${p ? ` ${p.done} / ${p.total} files` : ""}`;
+  const tip = isIOS && !isStandalone
+    ? `<span class="muted">On iPhone: tap Share → <strong>Add to Home Screen</strong> and practise from that app — it works in flight mode, and iOS keeps its saved lessons.</span>`
+    : isStandalone && sync.client && !sync.user
+      ? `<span class="muted">This app keeps its own progress, separate from Safari. Sign in (👤) to share it between both.</span>`
+      : "";
+  return `<div class="offline-card" id="offline-card"><span>${status}</span>${tip}</div>`;
+}
+
+function updateOfflineCard() {
+  const el = document.getElementById("offline-card");
+  if (el) el.outerHTML = offlineCardHtml();
+}
+
+// Every audio file a level uses, in the chosen voice: questions and guide examples.
+async function levelAudioUrls(list) {
+  await audioReady;
+  const files = new Set();
+  for (const q of list) {
+    for (let i = 0; i < q.count; i++) {
+      const f = audioFile("q", `${q.id}#${i}`);
+      if (f) files.add(f);
+    }
+    try {
+      const quiz = await staticQuiz(q.id, script);
+      for (const p of quiz.points || []) {
+        for (const [jp] of p.examples || []) {
+          const f = audioFile("t", plainText(jp));
+          if (f) files.add(f);
+        }
+      }
+    } catch {}
+  }
+  return [...files].map(f => new URL(AUDIO_BASE + f, location.href).href);
+}
+
+async function showLevelAudio(category, list) {
+  const el = document.getElementById("audio-offline");
+  if (!el || !offline.supported) return;
+  const urls = await levelAudioUrls(list);
+  if (!el.isConnected || el.dataset.category !== category || !urls.length) return;
+  const cache = await caches.open(AUDIO_CACHE);
+  const have = new Set((await cache.keys()).map(r => r.url));
+  const saved = urls.filter(u => have.has(u)).length;
+  const mb = n => Math.max(1, Math.round((n * AUDIO_AVG_KB) / 1024));
+  const label = escapeHtml(levelLabel(category)), voice = escapeHtml(voiceName(currentVoice()));
+  el.hidden = false;
+  el.innerHTML = saved === urls.length
+    ? `<span>🔈 Read-aloud for ${label} is saved offline <span class="muted">(${voice}, ≈ ${mb(urls.length)} MB)</span></span>
+       <button class="btn small secondary" data-audio-remove>Remove</button>`
+    : `<span>🔈 Read-aloud offline: ${saved ? `${saved} of ${urls.length} sentences saved` : `${urls.length} sentences`}
+       <span class="muted">(${voice}, ≈ ${mb(urls.length - saved)} MB)</span></span>
+       <button class="btn small" data-audio-save>Save audio for ${label}</button>`;
+  el.querySelector("[data-audio-save]")?.addEventListener("click", e => saveLevelAudio(e.currentTarget, urls, category, list));
+  el.querySelector("[data-audio-remove]")?.addEventListener("click", async () => {
+    await Promise.all(urls.map(u => cache.delete(u)));
+    showLevelAudio(category, list);
+  });
+}
+
+async function saveLevelAudio(btn, urls, category, list) {
+  btn.disabled = true;
+  const cache = await caches.open(AUDIO_CACHE);
+  const have = new Set((await cache.keys()).map(r => r.url));
+  const todo = urls.filter(u => !have.has(u));
+  const total = todo.length;
+  let done = 0, failed = 0;
+  const worker = async () => {
+    while (todo.length) {
+      const u = todo.shift();
+      try {
+        const r = await fetch(u, { cache: "no-cache" });
+        if (r.ok) await cache.put(u, r); else failed++;
+      } catch { failed++; }
+      btn.textContent = `Saving… ${++done} / ${total}`;
+    }
+  };
+  await Promise.all(Array.from({ length: 6 }, worker));
+  navigator.storage?.persist?.().catch(() => {});
+  await showLevelAudio(category, list);
+  const el = document.getElementById("audio-offline");
+  if (failed && el) el.insertAdjacentHTML("beforeend", `<span class="err">${failed} files couldn't be downloaded — try again with a connection.</span>`);
+}
+
 async function staticQuiz(id, sc) {
   const entry = (await staticList("simp")).find(q => q.id === id);
   if (!entry) throw new Error("quiz not found");
@@ -753,6 +873,7 @@ function levelBodyHtml(category, list, best, saved, view, filter) {
         <h2>${escapeHtml(category)}</h2>
         <div class="muted">${stats.done} of ${stats.total} quizzes at 80%+ · ${stats.started} started</div>
         <div class="bar"><span style="width:${stats.pct}%"></span></div>
+        <div class="audio-offline" id="audio-offline" data-category="${escapeHtml(category)}" hidden></div>
       </div>
       <div class="segmented mini filters" role="group" aria-label="Filter">
         ${Object.entries(FILTERS).map(([k, v]) => `<button data-filter="${k}" class="${k === filter ? "active" : ""}">${v}</button>`).join("")}
@@ -842,6 +963,7 @@ async function showHome() {
       <span>📖 <strong>Verb Lookup</strong> — type a verb (kanji, kana or romaji) and see every form with example sentences</span>
       <span class="btn small">Open</span>
     </a>` : ""}
+    ${offlineCardHtml()}
     <div class="home-layout">
       <nav class="levels" aria-label="Levels">${levelNav}</nav>
       <div class="level-main">
@@ -856,6 +978,7 @@ async function showHome() {
     const query = document.getElementById("search").value.trim();
     body.innerHTML = query ? searchHtml(query, quizzes, best, saved, view)
       : levelBodyHtml(level, levelList.get(level) || [], best, saved, view, filter);
+    if (!query) showLevelAudio(level, levelList.get(level) || []);
     body.querySelectorAll("[data-filter]").forEach(b => b.addEventListener("click", () => {
       store.set("filter", b.dataset.filter);
       showHome();
