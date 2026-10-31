@@ -261,22 +261,43 @@ function renderAccount() {
       <p class="muted">Sign in to keep best scores, your review schedule and an unfinished quiz in sync across devices.
         Without an account everything stays in this browser, as before.</p>
       <button class="btn" id="login-github">Continue with GitHub</button>
-      <p class="muted or">or get a sign-in link by email</p>
+      ${isStandalone ? `<p class="muted small">In the home-screen app GitHub may open Safari instead — the email code below always works.</p>` : ""}
+      <p class="muted or">or sign in with your email</p>
       <form id="login-email" class="login-email">
         <input type="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email">
-        <button class="btn secondary">Send link</button>
+        <button class="btn secondary">Send code</button>
+      </form>
+      <form id="login-code" class="login-email" hidden>
+        <input type="text" required inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,10}" maxlength="10"
+          placeholder="Code from the email" aria-label="Code from the email">
+        <button class="btn">Sign in</button>
       </form>
       <p class="muted small" id="account-msg"></p>`;
     panel.querySelector("#login-github").addEventListener("click", () =>
       sync.client.auth.signInWithOAuth({ provider: "github", options: { redirectTo: back } }));
+    // The email has a code and a link. The code is typed here, so it also works in the home-screen app
+    // on iPhone, where links from Mail open in Safari instead of the app.
+    let email = "";
     panel.querySelector("#login-email").addEventListener("submit", async e => {
       e.preventDefault();
-      const email = e.target.querySelector("input").value.trim();
+      email = e.target.querySelector("input").value.trim();
       const msg = panel.querySelector("#account-msg");
       msg.textContent = "Sending…";
       const { error } = await sync.client.auth.signInWithOtp({ email, options: { emailRedirectTo: back } });
-      msg.textContent = error ? `Could not send the link: ${error.message}`
-        : "Check your inbox and open the link in this browser.";
+      if (error) { msg.textContent = `Could not send the email: ${error.message}`; return; }
+      const code = panel.querySelector("#login-code");
+      code.hidden = false;
+      code.querySelector("input").focus();
+      msg.textContent = isStandalone ? "Check your inbox and type the code from the email here."
+        : "Check your inbox: type the code here, or open the link in this browser.";
+    });
+    panel.querySelector("#login-code").addEventListener("submit", async e => {
+      e.preventDefault();
+      const token = e.target.querySelector("input").value.replace(/\s/g, "");
+      const msg = panel.querySelector("#account-msg");
+      msg.textContent = "Checking…";
+      const { error } = await sync.client.auth.verifyOtp({ email, token, type: "email" });
+      if (error) msg.textContent = `That didn't work: ${error.message}. Check the code, or send a new one.`;
     });
   } else {
     const status = { syncing: "Syncing…", error: `Sync problem: ${escapeHtml(sync.error)}`, ok: "✓ Up to date", idle: "Connecting…" }[sync.state];

@@ -327,6 +327,7 @@ details.qgroup > summary > span:first-child { flex: 1; }
 .account-panel h3 { margin: 0 0 8px; }
 .account-panel p { margin: 6px 0; }
 .account-panel .or { margin-top: 14px; }
+.account-panel .login-email + .login-email { margin-top: 8px; }
 .account-panel .small { font-size: 0.85rem; }
 .account-panel .actions { display: flex; gap: 8px; flex-wrap: wrap; }
 .login-email { display: flex; gap: 8px; }
