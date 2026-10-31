@@ -512,19 +512,98 @@ function offlineCardHtml() {
   if (!offline.supported) return "";
   const p = offline.progress;
   const status = offline.ready
-    ? `✈️ <strong>Offline ready</strong> — every lesson is saved on this device. Read-aloud audio can be saved per level (under the level title).`
+    ? `✈️ <strong>Offline ready</strong> — every lesson is saved on this device.`
     : `⏳ <strong>Saving lessons for offline use…</strong>${p ? ` ${p.done} / ${p.total} files` : ""}`;
   const tip = isIOS && !isStandalone
     ? `<span class="muted">On iPhone: tap Share → <strong>Add to Home Screen</strong> and practise from that app — it works in flight mode, and iOS keeps its saved lessons.</span>`
     : isStandalone && sync.client && !sync.user
       ? `<span class="muted">This app keeps its own progress, separate from Safari. Sign in (👤) to share it between both.</span>`
       : "";
-  return `<div class="offline-card" id="offline-card"><span>${status}</span>${tip}</div>`;
+  return `<div class="offline-card" id="offline-card"><span>${status}</span>${tip}
+    <div class="audio-summary" id="audio-summary" hidden></div></div>`;
 }
 
 function updateOfflineCard() {
   const el = document.getElementById("offline-card");
-  if (el) el.outerHTML = offlineCardHtml();
+  if (!el) return;
+  el.outerHTML = offlineCardHtml();
+  showAudioSummary();
+}
+
+// Saves audio files into the audio cache, 6 at a time. Returns how many failed.
+async function downloadAudio(urls, onProgress) {
+  const cache = await caches.open(AUDIO_CACHE);
+  const have = new Set((await cache.keys()).map(r => r.url));
+  const todo = [...new Set(urls)].filter(u => !have.has(u));
+  const total = todo.length;
+  let done = 0, failed = 0;
+  const worker = async () => {
+    while (todo.length) {
+      const u = todo.shift();
+      try {
+        const r = await fetch(u, { cache: "no-cache" });
+        if (r.ok) await cache.put(u, r); else failed++;
+      } catch { failed++; }
+      onProgress(++done, total);
+    }
+  };
+  await Promise.all(Array.from({ length: 6 }, worker));
+  navigator.storage?.persist?.().catch(() => {});
+  return failed;
+}
+
+// Per level (cached per voice): the audio URLs, so the summary doesn't re-read every quiz.
+const levelAudioCache = new Map();
+async function levelAudioUrlsCached(category, list) {
+  const key = currentVoice() + "|" + category;
+  if (!levelAudioCache.has(key)) levelAudioCache.set(key, levelAudioUrls(list));
+  return levelAudioCache.get(key);
+}
+
+// In the offline card: which levels have their read-aloud saved, and a button to save all of it.
+async function showAudioSummary() {
+  if (!offline.supported || !offline.levels || !offline.ready) return;
+  const el = document.getElementById("audio-summary");
+  if (!el) return;
+  const levels = [];
+  for (const [category, list] of offline.levels) {
+    const urls = await levelAudioUrlsCached(category, list);
+    if (urls.length) levels.push({ category, urls });
+  }
+  if (!el.isConnected || !levels.length) return;
+  const have = new Set((await (await caches.open(AUDIO_CACHE)).keys()).map(r => r.url));
+  const missing = [...new Set(levels.flatMap(l => l.urls.filter(u => !have.has(u))))];
+  const all = [...new Set(levels.flatMap(l => l.urls))];
+  const mb = n => Math.max(1, Math.round((n * AUDIO_AVG_KB) / 1024));
+  const mark = l => {
+    const n = l.urls.filter(u => have.has(u)).length;
+    return n === l.urls.length ? "✓" : n ? "½" : "–";
+  };
+  el.hidden = false;
+  el.innerHTML = `
+    <span>🔈 Read-aloud offline <span class="muted">(${escapeHtml(voiceName(currentVoice()))})</span>:
+      ${levels.map(l => `<span class="lv-mark">${escapeHtml(levelLabel(l.category))} ${mark(l)}</span>`).join(" ")}</span>
+    ${offline.audioProgress ? `<button class="btn small" disabled>Saving… ${offline.audioProgress}</button>`
+      : missing.length ? `<button class="btn small" id="audio-all">Save all audio (≈ ${mb(missing.length)} MB)</button>`
+      : `<button class="btn small secondary" id="audio-all-remove">Remove all audio (≈ ${mb(all.length)} MB)</button>`}`;
+  el.querySelector("#audio-all")?.addEventListener("click", async () => {
+    offline.audioProgress = "…";
+    showAudioSummary();
+    const failed = await downloadAudio(missing, (done, total) => {
+      offline.audioProgress = `${done} / ${total}`;
+      const btn = document.querySelector("#audio-summary button");
+      if (btn) btn.textContent = `Saving… ${offline.audioProgress}`;
+    });
+    offline.audioProgress = null;
+    route(); // refresh the summary and the level's audio line
+    if (failed) setTimeout(() => document.getElementById("audio-summary")?.insertAdjacentHTML("beforeend",
+      `<span class="err">${failed} files couldn't be downloaded — try again with a connection.</span>`), 300);
+  });
+  el.querySelector("#audio-all-remove")?.addEventListener("click", async () => {
+    const cache = await caches.open(AUDIO_CACHE);
+    await Promise.all(all.map(u => cache.delete(u)));
+    route();
+  });
 }
 
 // Every audio file a level uses, in the chosen voice: questions and guide examples.
@@ -570,29 +649,15 @@ async function showLevelAudio(category, list) {
   el.querySelector("[data-audio-remove]")?.addEventListener("click", async () => {
     await Promise.all(urls.map(u => cache.delete(u)));
     showLevelAudio(category, list);
+    showAudioSummary();
   });
 }
 
 async function saveLevelAudio(btn, urls, category, list) {
   btn.disabled = true;
-  const cache = await caches.open(AUDIO_CACHE);
-  const have = new Set((await cache.keys()).map(r => r.url));
-  const todo = urls.filter(u => !have.has(u));
-  const total = todo.length;
-  let done = 0, failed = 0;
-  const worker = async () => {
-    while (todo.length) {
-      const u = todo.shift();
-      try {
-        const r = await fetch(u, { cache: "no-cache" });
-        if (r.ok) await cache.put(u, r); else failed++;
-      } catch { failed++; }
-      btn.textContent = `Saving… ${++done} / ${total}`;
-    }
-  };
-  await Promise.all(Array.from({ length: 6 }, worker));
-  navigator.storage?.persist?.().catch(() => {});
+  const failed = await downloadAudio(urls, (done, total) => { btn.textContent = `Saving… ${done} / ${total}`; });
   await showLevelAudio(category, list);
+  showAudioSummary();
   const el = document.getElementById("audio-offline");
   if (failed && el) el.insertAdjacentHTML("beforeend", `<span class="err">${failed} files couldn't be downloaded — try again with a connection.</span>`);
 }
@@ -1035,6 +1100,8 @@ async function showHome() {
       </div>
     </div>`;
 
+  offline.levels = groups;
+  showAudioSummary();
   const body = document.getElementById("level-body");
   const levelList = new Map(groups);
   const renderBody = () => {

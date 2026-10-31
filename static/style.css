@@ -353,7 +353,9 @@ details.qgroup > summary > span:first-child { flex: 1; }
 .offline-card { display: flex; flex-direction: column; gap: 4px; margin: 0 0 14px; padding: 10px 14px; border: 1px dashed var(--border); border-radius: 12px; font-size: 0.9rem; }
 .offline-card .muted { font-size: 0.85rem; }
 .audio-offline { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin-top: 8px; font-size: 0.85rem; }
-.audio-offline .err { color: var(--bad); width: 100%; }
+.audio-offline .err, .audio-summary .err { color: var(--bad); width: 100%; }
+.audio-summary { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin-top: 4px; }
+.audio-summary .lv-mark { white-space: nowrap; margin-right: 4px; }
 
 /* Tables in grammar guides */
 .table-wrap { overflow-x: auto; margin: 8px 0; }
