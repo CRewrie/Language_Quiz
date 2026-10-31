@@ -199,9 +199,10 @@ function syncChanged(key) {
 
 // Reads the server copy, merges it into localStorage and writes the result back.
 async function syncKey(key) {
+  if (!navigator.onLine) return setSyncState("offline");  // saved locally; synced when back online
   setSyncState("syncing");
   const { data, error } = await sync.client.from("progress").select("value").eq("key", key).maybeSingle();
-  if (error) return setSyncState("error", error.message);
+  if (error) return setSyncState(/fetch|load failed|network/i.test(error.message) ? "offline" : "error", error.message);
   const local = store.get(key, null);
   const merged = mergeValue(key, local, data?.value ?? null);
   if (merged == null) return setSyncState("ok");
@@ -209,11 +210,18 @@ async function syncKey(key) {
   if (JSON.stringify(merged) !== JSON.stringify(data?.value ?? null)) {
     const { error: e } = await sync.client.from("progress")
       .upsert({ user_id: sync.user.id, key, value: merged, updated_at: new Date().toISOString() });
-    if (e) return setSyncState("error", e.message);
+    if (e) return setSyncState(/fetch|load failed|network/i.test(e.message) ? "offline" : "error", e.message);
   }
   setSyncState("ok");
   return JSON.stringify(merged) !== JSON.stringify(local);
 }
+
+// Back online, or the app reopened (iOS keeps home-screen apps suspended): catch up on what was
+// practised offline.
+window.addEventListener("online", () => { if (sync.user) syncAll(); });
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible" && sync.user && navigator.onLine && sync.state !== "syncing") syncAll();
+});
 
 async function syncAll() {
   let changed = false;
@@ -250,7 +258,7 @@ function renderAccount() {
   const btn = document.getElementById("account-btn");
   const panel = document.getElementById("account-panel");
   if (!btn) return;
-  const icon = !sync.user ? "👤" : sync.state === "error" ? "⚠️" : sync.state === "syncing" ? "🔄" : "☁️";
+  const icon = !sync.user ? "👤" : sync.state === "error" ? "⚠️" : sync.state === "syncing" ? "🔄" : sync.state === "offline" ? "✈️" : "☁️";
   btn.innerHTML = `<span aria-hidden="true">${icon}</span><span class="label">${sync.user ? "Synced" : "Sign in"}</span>`;
   btn.title = sync.user ? `Signed in as ${accountName()}` : "Sign in to sync your progress";
   if (panel.hidden) return;
@@ -314,7 +322,8 @@ function renderAccount() {
       if (error) msg.textContent = `That didn't work: ${error.message}. Check the code, or send a new one.`;
     });
   } else {
-    const status = { syncing: "Syncing…", error: `Sync problem: ${escapeHtml(sync.error)}`, ok: "✓ Up to date", idle: "Connecting…" }[sync.state];
+    const status = { syncing: "Syncing…", error: `Sync problem: ${escapeHtml(sync.error)}`, ok: "✓ Up to date", idle: "Connecting…",
+      offline: "✈️ Offline — progress is saved on this device and syncs when you're back online" }[sync.state];
     panel.innerHTML = `
       <h3>Signed in</h3>
       <p>${escapeHtml(accountName())}</p>
