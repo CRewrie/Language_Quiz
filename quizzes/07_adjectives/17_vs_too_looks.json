@@ -1,0 +1,506 @@
+{
+  "id": "adj-vs-too-looks",
+  "category": "Adjective Lab",
+  "title": "Too Much & Looks Like: すぎる and そう",
+  "description": "Too spicy, ate too much, looks tasty, looks like rain — the same endings on adjectives and verbs.",
+  "level": "Adjectives",
+  "points": [
+    {
+      "id": "too-adj",
+      "title": "Adjective + すぎる: too …",
+      "summary": "い → すぎる (辛すぎる), な + すぎる (静かすぎる).",
+      "body": "**Verb, い-adjective, な-adjective, noun — side by side**\n\n| | verb 書く | い-adj. 高い | な-adj. 静か | noun 学生 |\n|---|---|---|---|---|\n| present | 書く / 書きます | 高い / 高いです | 静かだ / 静かです | 学生だ / 学生です |\n| not | 書かない | 高**くない** | 静か**じゃない** | 学生じゃない |\n| past | 書いた | 高**かった** | 静か**だった** | 学生だった |\n| polite past | 書きました | 高かったです | 静かでした | 学生でした |\n| before a noun | 書く人 | 高い本 | 静か**な**部屋 | 学生**の**時 |\n| … and … | 書いて | 高**くて** | 静か**で** | 学生で |\n| become | 書けるようになる | 高**く**なる | 静か**に**なる | 学生になる |\n\n- **い-adjectives behave like verbs:** the word itself changes (高い → 高くない → 高かった). です only adds politeness: 高かったです, never 高いでした.\n- **な-adjectives behave like nouns:** the word stays, だ / です / じゃない / だった do the work. The only difference: な before a noun (静かな部屋) where a noun takes の (学生の時).\n- **Verbs have their own endings** (ない, ます, た) and never take です directly.\n\n**Watch out for words whose class differs from English or German**\n- English/German verb → Japanese adjective: 好き (like), 嫌い (hate), 欲しい (want), 上手・得意 (be good at), 怖い (be scared), 痛い (hurt).\n- English/German adjective → Japanese verb: 疲れている (tired), 混んでいる (crowded), 結婚している (married), 違う (different).",
+      "examples": [
+        [
+          "このカレーは辛すぎるよ。",
+          "This curry is too spicy."
+        ]
+      ]
+    },
+    {
+      "id": "too-verb",
+      "title": "Verb + すぎる: … too much",
+      "summary": "ます-stem + すぎる: 食べすぎる, 飲みすぎた, しすぎる.",
+      "body": "**Verb, い-adjective, な-adjective, noun — side by side**\n\n| | verb 書く | い-adj. 高い | な-adj. 静か | noun 学生 |\n|---|---|---|---|---|\n| present | 書く / 書きます | 高い / 高いです | 静かだ / 静かです | 学生だ / 学生です |\n| not | 書かない | 高**くない** | 静か**じゃない** | 学生じゃない |\n| past | 書いた | 高**かった** | 静か**だった** | 学生だった |\n| polite past | 書きました | 高かったです | 静かでした | 学生でした |\n| before a noun | 書く人 | 高い本 | 静か**な**部屋 | 学生**の**時 |\n| … and … | 書いて | 高**くて** | 静か**で** | 学生で |\n| become | 書けるようになる | 高**く**なる | 静か**に**なる | 学生になる |\n\n- **い-adjectives behave like verbs:** the word itself changes (高い → 高くない → 高かった). です only adds politeness: 高かったです, never 高いでした.\n- **な-adjectives behave like nouns:** the word stays, だ / です / じゃない / だった do the work. The only difference: な before a noun (静かな部屋) where a noun takes の (学生の時).\n- **Verbs have their own endings** (ない, ます, た) and never take です directly.\n\n**Watch out for words whose class differs from English or German**\n- English/German verb → Japanese adjective: 好き (like), 嫌い (hate), 欲しい (want), 上手・得意 (be good at), 怖い (be scared), 痛い (hurt).\n- English/German adjective → Japanese verb: 疲れている (tired), 混んでいる (crowded), 結婚している (married), 違う (different).",
+      "examples": [
+        [
+          "{昨日|きのう}の{夜|よる}、{少|すこ}し食べすぎた。",
+          "I ate a bit too much last night."
+        ]
+      ]
+    },
+    {
+      "id": "sou-adj",
+      "title": "Adjective + そう: looks …",
+      "summary": "おいしそう, 元気そう; いい → よさそう.",
+      "body": "**Verb, い-adjective, な-adjective, noun — side by side**\n\n| | verb 書く | い-adj. 高い | な-adj. 静か | noun 学生 |\n|---|---|---|---|---|\n| present | 書く / 書きます | 高い / 高いです | 静かだ / 静かです | 学生だ / 学生です |\n| not | 書かない | 高**くない** | 静か**じゃない** | 学生じゃない |\n| past | 書いた | 高**かった** | 静か**だった** | 学生だった |\n| polite past | 書きました | 高かったです | 静かでした | 学生でした |\n| before a noun | 書く人 | 高い本 | 静か**な**部屋 | 学生**の**時 |\n| … and … | 書いて | 高**くて** | 静か**で** | 学生で |\n| become | 書けるようになる | 高**く**なる | 静か**に**なる | 学生になる |\n\n- **い-adjectives behave like verbs:** the word itself changes (高い → 高くない → 高かった). です only adds politeness: 高かったです, never 高いでした.\n- **な-adjectives behave like nouns:** the word stays, だ / です / じゃない / だった do the work. The only difference: な before a noun (静かな部屋) where a noun takes の (学生の時).\n- **Verbs have their own endings** (ない, ます, た) and never take です directly.\n\n**Watch out for words whose class differs from English or German**\n- English/German verb → Japanese adjective: 好き (like), 嫌い (hate), 欲しい (want), 上手・得意 (be good at), 怖い (be scared), 痛い (hurt).\n- English/German adjective → Japanese verb: 疲れている (tired), 混んでいる (crowded), 結婚している (married), 違う (different).",
+      "examples": [
+        [
+          "{見|み}て、このパン、おいしそう！",
+          "Look, this bread looks delicious!"
+        ]
+      ]
+    },
+    {
+      "id": "sou-verb",
+      "title": "Verb + そう: looks like it's about to …",
+      "summary": "ます-stem + そう: 降りそう, 落ちそう, 泣きそう.",
+      "body": "**Verb, い-adjective, な-adjective, noun — side by side**\n\n| | verb 書く | い-adj. 高い | な-adj. 静か | noun 学生 |\n|---|---|---|---|---|\n| present | 書く / 書きます | 高い / 高いです | 静かだ / 静かです | 学生だ / 学生です |\n| not | 書かない | 高**くない** | 静か**じゃない** | 学生じゃない |\n| past | 書いた | 高**かった** | 静か**だった** | 学生だった |\n| polite past | 書きました | 高かったです | 静かでした | 学生でした |\n| before a noun | 書く人 | 高い本 | 静か**な**部屋 | 学生**の**時 |\n| … and … | 書いて | 高**くて** | 静か**で** | 学生で |\n| become | 書けるようになる | 高**く**なる | 静か**に**なる | 学生になる |\n\n- **い-adjectives behave like verbs:** the word itself changes (高い → 高くない → 高かった). です only adds politeness: 高かったです, never 高いでした.\n- **な-adjectives behave like nouns:** the word stays, だ / です / じゃない / だった do the work. The only difference: な before a noun (静かな部屋) where a noun takes の (学生の時).\n- **Verbs have their own endings** (ない, ます, た) and never take です directly.\n\n**Watch out for words whose class differs from English or German**\n- English/German verb → Japanese adjective: 好き (like), 嫌い (hate), 欲しい (want), 上手・得意 (be good at), 怖い (be scared), 痛い (hurt).\n- English/German adjective → Japanese verb: 疲れている (tired), 混んでいる (crowded), 結婚している (married), 違う (different).",
+      "examples": [
+        [
+          "{空|そら}が{暗|くら}い。{雨|あめ}が降りそう。",
+          "The sky's dark. It looks like it's going to rain."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "too-adj",
+      "prompt": "このカレーは（　）よ。\n→ {辛|から}い · too … (すぎる)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "辛すぎる",
+        "からすぎる"
+      ],
+      "hint": "辛す…",
+      "explanation": "{辛|から}い is an い-adjective: drop the last い → 辛 + すぎる → **辛すぎる**.",
+      "notes": [],
+      "translation": "This curry is too spicy.",
+      "wrong_forms": {
+        "からい": "that's the plain present form of 辛い, but the cue asks for too … (すぎる).",
+        "辛い": "that's the plain present form of 辛い, but the cue asks for too … (すぎる).",
+        "からいです": "that's the polite present form of 辛い, but the cue asks for too … (すぎる).",
+        "辛いです": "that's the polite present form of 辛い, but the cue asks for too … (すぎる).",
+        "からくない": "that's the plain negative form of 辛い, but the cue asks for too … (すぎる).",
+        "辛くない": "that's the plain negative form of 辛い, but the cue asks for too … (すぎる).",
+        "からくないです": "that's the polite negative form of 辛い, but the cue asks for too … (すぎる).",
+        "辛くないです": "that's the polite negative form of 辛い, but the cue asks for too … (すぎる).",
+        "からかった": "that's the plain past form of 辛い, but the cue asks for too … (すぎる).",
+        "辛かった": "that's the plain past form of 辛い, but the cue asks for too … (すぎる).",
+        "からかったです": "that's the polite past form of 辛い, but the cue asks for too … (すぎる).",
+        "辛かったです": "that's the polite past form of 辛い, but the cue asks for too … (すぎる).",
+        "からくなかった": "that's the plain past negative form of 辛い, but the cue asks for too … (すぎる).",
+        "辛くなかった": "that's the plain past negative form of 辛い, but the cue asks for too … (すぎる).",
+        "からくなかったです": "that's the polite past negative form of 辛い, but the cue asks for too … (すぎる).",
+        "辛くなかったです": "that's the polite past negative form of 辛い, but the cue asks for too … (すぎる).",
+        "からくて": "that's the て-form (… and …) form of 辛い, but the cue asks for too … (すぎる).",
+        "辛くて": "that's the て-form (… and …) form of 辛い, but the cue asks for too … (すぎる).",
+        "からく": "that's the adverb (…ly / に・く) form of 辛い, but the cue asks for too … (すぎる).",
+        "辛く": "that's the adverb (…ly / に・く) form of 辛い, but the cue asks for too … (すぎる).",
+        "からくなった": "that's the became … (なった) form of 辛い, but the cue asks for too … (すぎる).",
+        "辛くなった": "that's the became … (なった) form of 辛い, but the cue asks for too … (すぎる).",
+        "からそう": "that's the looks … (そう) form of 辛い, but the cue asks for too … (すぎる).",
+        "辛そう": "that's the looks … (そう) form of 辛い, but the cue asks for too … (すぎる).",
+        "からければ": "that's the if … (ば / なら) form of 辛い, but the cue asks for too … (すぎる).",
+        "辛ければ": "that's the if … (ば / なら) form of 辛い, but the cue asks for too … (すぎる).",
+        "からくなる": "that's the becomes … (なる) form of 辛い, but the cue asks for too … (すぎる).",
+        "辛くなる": "that's the becomes … (なる) form of 辛い, but the cue asks for too … (すぎる).",
+        "からかったら": "that's the if / when … (たら) form of 辛い, but the cue asks for too … (すぎる).",
+        "辛かったら": "that's the if / when … (たら) form of 辛い, but the cue asks for too … (すぎる)."
+      }
+    },
+    {
+      "point": "too-verb",
+      "prompt": "{昨日|きのう}の{夜|よる}、{少|すこ}し（　）。\n→ {食|た}べる · did too much (すぎた)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "食べすぎた",
+        "たべすぎた"
+      ],
+      "hint": "食べす…",
+      "explanation": "{食|た}べる is a verb: ます-stem (食べ) + すぎた → **食べすぎた**.",
+      "notes": [],
+      "translation": "I ate a bit too much last night.",
+      "wrong_forms": {
+        "たべるすぎた": "すぎた goes on the ます-stem, not the dictionary form: 食べすぎた.",
+        "食べるすぎた": "すぎた goes on the ます-stem, not the dictionary form: 食べすぎた."
+      }
+    },
+    {
+      "point": "too-adj",
+      "prompt": "この{問題|もんだい}は{私|わたし}には（　）。\n→ {難|むずか}しい · too … (すぎる)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "難しすぎる",
+        "むずかしすぎる"
+      ],
+      "hint": "難しす…",
+      "explanation": "{難|むずか}しい is an い-adjective: drop the last い → 難し + すぎる → **難しすぎる**.",
+      "notes": [],
+      "translation": "This problem is too hard for me.",
+      "wrong_forms": {
+        "むずかしい": "that's the plain present form of 難しい, but the cue asks for too … (すぎる).",
+        "難しい": "that's the plain present form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしいです": "that's the polite present form of 難しい, but the cue asks for too … (すぎる).",
+        "難しいです": "that's the polite present form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしくない": "that's the plain negative form of 難しい, but the cue asks for too … (すぎる).",
+        "難しくない": "that's the plain negative form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしくないです": "that's the polite negative form of 難しい, but the cue asks for too … (すぎる).",
+        "難しくないです": "that's the polite negative form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしかった": "that's the plain past form of 難しい, but the cue asks for too … (すぎる).",
+        "難しかった": "that's the plain past form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしかったです": "that's the polite past form of 難しい, but the cue asks for too … (すぎる).",
+        "難しかったです": "that's the polite past form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしくなかった": "that's the plain past negative form of 難しい, but the cue asks for too … (すぎる).",
+        "難しくなかった": "that's the plain past negative form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしくなかったです": "that's the polite past negative form of 難しい, but the cue asks for too … (すぎる).",
+        "難しくなかったです": "that's the polite past negative form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしくて": "that's the て-form (… and …) form of 難しい, but the cue asks for too … (すぎる).",
+        "難しくて": "that's the て-form (… and …) form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしく": "that's the adverb (…ly / に・く) form of 難しい, but the cue asks for too … (すぎる).",
+        "難しく": "that's the adverb (…ly / に・く) form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしくなった": "that's the became … (なった) form of 難しい, but the cue asks for too … (すぎる).",
+        "難しくなった": "that's the became … (なった) form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしそう": "that's the looks … (そう) form of 難しい, but the cue asks for too … (すぎる).",
+        "難しそう": "that's the looks … (そう) form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしければ": "that's the if … (ば / なら) form of 難しい, but the cue asks for too … (すぎる).",
+        "難しければ": "that's the if … (ば / なら) form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしくなる": "that's the becomes … (なる) form of 難しい, but the cue asks for too … (すぎる).",
+        "難しくなる": "that's the becomes … (なる) form of 難しい, but the cue asks for too … (すぎる).",
+        "むずかしかったら": "that's the if / when … (たら) form of 難しい, but the cue asks for too … (すぎる).",
+        "難しかったら": "that's the if / when … (たら) form of 難しい, but the cue asks for too … (すぎる)."
+      }
+    },
+    {
+      "point": "too-adj",
+      "prompt": "この{部屋|へや}は{一人|ひとり}だと（　）。\n→ {静|しず}か · too … (すぎる)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "静かすぎる",
+        "しずかすぎる"
+      ],
+      "hint": "静かす…",
+      "explanation": "{静|しず}か is a な-adjective: 静か + すぎる → **静かすぎる**.",
+      "notes": [],
+      "translation": "This room is too quiet when I'm on my own.",
+      "wrong_forms": {
+        "しずかだ": "that's the plain present form of 静か, but the cue asks for too … (すぎる).",
+        "静かだ": "that's the plain present form of 静か, but the cue asks for too … (すぎる).",
+        "しずかです": "that's the polite present form of 静か, but the cue asks for too … (すぎる).",
+        "静かです": "that's the polite present form of 静か, but the cue asks for too … (すぎる).",
+        "しずかじゃない": "that's the plain negative form of 静か, but the cue asks for too … (すぎる).",
+        "静かじゃない": "that's the plain negative form of 静か, but the cue asks for too … (すぎる).",
+        "しずかじゃないです": "that's the polite negative form of 静か, but the cue asks for too … (すぎる).",
+        "静かじゃないです": "that's the polite negative form of 静か, but the cue asks for too … (すぎる).",
+        "しずかだった": "that's the plain past form of 静か, but the cue asks for too … (すぎる).",
+        "静かだった": "that's the plain past form of 静か, but the cue asks for too … (すぎる).",
+        "しずかでした": "that's the polite past form of 静か, but the cue asks for too … (すぎる).",
+        "静かでした": "that's the polite past form of 静か, but the cue asks for too … (すぎる).",
+        "しずかじゃなかった": "that's the plain past negative form of 静か, but the cue asks for too … (すぎる).",
+        "静かじゃなかった": "that's the plain past negative form of 静か, but the cue asks for too … (すぎる).",
+        "しずかじゃなかったです": "that's the polite past negative form of 静か, but the cue asks for too … (すぎる).",
+        "静かじゃなかったです": "that's the polite past negative form of 静か, but the cue asks for too … (すぎる).",
+        "しずかで": "that's the て-form (… and …) form of 静か, but the cue asks for too … (すぎる).",
+        "静かで": "that's the て-form (… and …) form of 静か, but the cue asks for too … (すぎる).",
+        "しずかに": "that's the adverb (…ly / に・く) form of 静か, but the cue asks for too … (すぎる).",
+        "静かに": "that's the adverb (…ly / に・く) form of 静か, but the cue asks for too … (すぎる).",
+        "しずかになった": "that's the became … (なった) form of 静か, but the cue asks for too … (すぎる).",
+        "静かになった": "that's the became … (なった) form of 静か, but the cue asks for too … (すぎる).",
+        "しずかそう": "that's the looks … (そう) form of 静か, but the cue asks for too … (すぎる).",
+        "静かそう": "that's the looks … (そう) form of 静か, but the cue asks for too … (すぎる).",
+        "しずかな": "that's the before a noun form of 静か, but the cue asks for too … (すぎる).",
+        "静かな": "that's the before a noun form of 静か, but the cue asks for too … (すぎる).",
+        "しずかなら": "that's the if … (ば / なら) form of 静か, but the cue asks for too … (すぎる).",
+        "静かなら": "that's the if … (ば / なら) form of 静か, but the cue asks for too … (すぎる).",
+        "しずかになる": "that's the becomes … (なる) form of 静か, but the cue asks for too … (すぎる).",
+        "静かになる": "that's the becomes … (なる) form of 静か, but the cue asks for too … (すぎる).",
+        "しずかだったら": "that's the if / when … (たら) form of 静か, but the cue asks for too … (すぎる).",
+        "静かだったら": "that's the if / when … (たら) form of 静か, but the cue asks for too … (すぎる)."
+      }
+    },
+    {
+      "point": "too-verb",
+      "prompt": "{昨日|きのう}はお{酒|さけ}を（　）。\n→ {飲|の}む · did too much (すぎた)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "飲みすぎた",
+        "のみすぎた"
+      ],
+      "hint": "飲みす…",
+      "explanation": "{飲|の}む is a verb: ます-stem (飲み) + すぎた → **飲みすぎた**.",
+      "notes": [],
+      "translation": "I drank too much yesterday.",
+      "wrong_forms": {
+        "のむすぎた": "すぎた goes on the ます-stem, not the dictionary form: 飲みすぎた.",
+        "飲むすぎた": "すぎた goes on the ます-stem, not the dictionary form: 飲みすぎた."
+      }
+    },
+    {
+      "point": "too-verb",
+      "prompt": "{毎日|まいにち}ゲームを（　）のはよくないよ。\n→ する · too much (すぎる)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "しすぎる"
+      ],
+      "hint": "しす…",
+      "explanation": "する is a verb: ます-stem (し) + すぎる → **しすぎる**.",
+      "notes": [],
+      "translation": "Playing games too much every day isn't good.",
+      "wrong_forms": {
+        "するすぎる": "すぎる goes on the ます-stem, not the dictionary form: しすぎる."
+      }
+    },
+    {
+      "point": "sou-adj",
+      "prompt": "{見|み}て、このパン、（　）！\n→ おいしい · looks … (そう)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "おいしそう"
+      ],
+      "hint": "おいしそ…",
+      "explanation": "おいしい is an い-adjective: drop the last い → おいし + そう → **おいしそう**.",
+      "notes": [],
+      "translation": "Look, this bread looks delicious!",
+      "wrong_forms": {
+        "おいしい": "that's the plain present form of おいしい, but the cue asks for looks … (そう).",
+        "おいしいです": "that's the polite present form of おいしい, but the cue asks for looks … (そう).",
+        "おいしくない": "that's the plain negative form of おいしい, but the cue asks for looks … (そう).",
+        "おいしくないです": "that's the polite negative form of おいしい, but the cue asks for looks … (そう).",
+        "おいしかった": "that's the plain past form of おいしい, but the cue asks for looks … (そう).",
+        "おいしかったです": "that's the polite past form of おいしい, but the cue asks for looks … (そう).",
+        "おいしくなかった": "that's the plain past negative form of おいしい, but the cue asks for looks … (そう).",
+        "おいしくなかったです": "that's the polite past negative form of おいしい, but the cue asks for looks … (そう).",
+        "おいしくて": "that's the て-form (… and …) form of おいしい, but the cue asks for looks … (そう).",
+        "おいしく": "that's the adverb (…ly / に・く) form of おいしい, but the cue asks for looks … (そう).",
+        "おいしくなった": "that's the became … (なった) form of おいしい, but the cue asks for looks … (そう).",
+        "おいしすぎる": "that's the too … (すぎる) form of おいしい, but the cue asks for looks … (そう).",
+        "おいしければ": "that's the if … (ば / なら) form of おいしい, but the cue asks for looks … (そう).",
+        "おいしくなる": "that's the becomes … (なる) form of おいしい, but the cue asks for looks … (そう).",
+        "おいしかったら": "that's the if / when … (たら) form of おいしい, but the cue asks for looks … (そう)."
+      }
+    },
+    {
+      "point": "sou-verb",
+      "prompt": "{空|そら}が{暗|くら}い。{雨|あめ}が（　）。\n→ {降|ふ}る · looks like it's about to … (そう)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "降りそう",
+        "ふりそう"
+      ],
+      "hint": "降りそ…",
+      "explanation": "{降|ふ}る is a verb: ます-stem (降り) + そう → **降りそう**. With a verb, そう means 'looks like it's about to …'.",
+      "notes": [],
+      "translation": "The sky's dark. It looks like it's going to rain.",
+      "wrong_forms": {
+        "ふるそう": "そう goes on the ます-stem, not the dictionary form: 降りそう.",
+        "降るそう": "そう goes on the ます-stem, not the dictionary form: 降りそう."
+      }
+    },
+    {
+      "point": "sou-adj",
+      "prompt": "{田中|たなか}さん、{今日|きょう}は（　）ですね。\n→ {元気|げんき} · looks … (そう)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "元気そう",
+        "げんきそう"
+      ],
+      "hint": "元気そ…",
+      "explanation": "{元気|げんき} is a な-adjective: 元気 + そう → **元気そう**.",
+      "notes": [],
+      "translation": "You look well today, Tanaka.",
+      "wrong_forms": {
+        "げんきだ": "that's the plain present form of 元気, but the cue asks for looks … (そう).",
+        "元気だ": "that's the plain present form of 元気, but the cue asks for looks … (そう).",
+        "げんきです": "that's the polite present form of 元気, but the cue asks for looks … (そう).",
+        "元気です": "that's the polite present form of 元気, but the cue asks for looks … (そう).",
+        "げんきじゃない": "that's the plain negative form of 元気, but the cue asks for looks … (そう).",
+        "元気じゃない": "that's the plain negative form of 元気, but the cue asks for looks … (そう).",
+        "げんきじゃないです": "that's the polite negative form of 元気, but the cue asks for looks … (そう).",
+        "元気じゃないです": "that's the polite negative form of 元気, but the cue asks for looks … (そう).",
+        "げんきだった": "that's the plain past form of 元気, but the cue asks for looks … (そう).",
+        "元気だった": "that's the plain past form of 元気, but the cue asks for looks … (そう).",
+        "げんきでした": "that's the polite past form of 元気, but the cue asks for looks … (そう).",
+        "元気でした": "that's the polite past form of 元気, but the cue asks for looks … (そう).",
+        "げんきじゃなかった": "that's the plain past negative form of 元気, but the cue asks for looks … (そう).",
+        "元気じゃなかった": "that's the plain past negative form of 元気, but the cue asks for looks … (そう).",
+        "げんきじゃなかったです": "that's the polite past negative form of 元気, but the cue asks for looks … (そう).",
+        "元気じゃなかったです": "that's the polite past negative form of 元気, but the cue asks for looks … (そう).",
+        "げんきで": "that's the て-form (… and …) form of 元気, but the cue asks for looks … (そう).",
+        "元気で": "that's the て-form (… and …) form of 元気, but the cue asks for looks … (そう).",
+        "げんきに": "that's the adverb (…ly / に・く) form of 元気, but the cue asks for looks … (そう).",
+        "元気に": "that's the adverb (…ly / に・く) form of 元気, but the cue asks for looks … (そう).",
+        "げんきになった": "that's the became … (なった) form of 元気, but the cue asks for looks … (そう).",
+        "元気になった": "that's the became … (なった) form of 元気, but the cue asks for looks … (そう).",
+        "げんきすぎる": "that's the too … (すぎる) form of 元気, but the cue asks for looks … (そう).",
+        "元気すぎる": "that's the too … (すぎる) form of 元気, but the cue asks for looks … (そう).",
+        "げんきな": "that's the before a noun form of 元気, but the cue asks for looks … (そう).",
+        "元気な": "that's the before a noun form of 元気, but the cue asks for looks … (そう).",
+        "げんきなら": "that's the if … (ば / なら) form of 元気, but the cue asks for looks … (そう).",
+        "元気なら": "that's the if … (ば / なら) form of 元気, but the cue asks for looks … (そう).",
+        "げんきになる": "that's the becomes … (なる) form of 元気, but the cue asks for looks … (そう).",
+        "元気になる": "that's the becomes … (なる) form of 元気, but the cue asks for looks … (そう).",
+        "げんきだったら": "that's the if / when … (たら) form of 元気, but the cue asks for looks … (そう).",
+        "元気だったら": "that's the if / when … (たら) form of 元気, but the cue asks for looks … (そう)."
+      }
+    },
+    {
+      "point": "sou-adj",
+      "prompt": "この{本|ほん}、（　）ね。{貸|か}してくれる？\n→ {面白|おもしろ}い · looks … (そう)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "面白そう",
+        "おもしろそう"
+      ],
+      "hint": "面白そ…",
+      "explanation": "{面白|おもしろ}い is an い-adjective: drop the last い → 面白 + そう → **面白そう**.",
+      "notes": [],
+      "translation": "This book looks interesting. Could you lend it to me?",
+      "wrong_forms": {
+        "おもしろい": "that's the plain present form of 面白い, but the cue asks for looks … (そう).",
+        "面白い": "that's the plain present form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろいです": "that's the polite present form of 面白い, but the cue asks for looks … (そう).",
+        "面白いです": "that's the polite present form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろくない": "that's the plain negative form of 面白い, but the cue asks for looks … (そう).",
+        "面白くない": "that's the plain negative form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろくないです": "that's the polite negative form of 面白い, but the cue asks for looks … (そう).",
+        "面白くないです": "that's the polite negative form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろかった": "that's the plain past form of 面白い, but the cue asks for looks … (そう).",
+        "面白かった": "that's the plain past form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろかったです": "that's the polite past form of 面白い, but the cue asks for looks … (そう).",
+        "面白かったです": "that's the polite past form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろくなかった": "that's the plain past negative form of 面白い, but the cue asks for looks … (そう).",
+        "面白くなかった": "that's the plain past negative form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろくなかったです": "that's the polite past negative form of 面白い, but the cue asks for looks … (そう).",
+        "面白くなかったです": "that's the polite past negative form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろくて": "that's the て-form (… and …) form of 面白い, but the cue asks for looks … (そう).",
+        "面白くて": "that's the て-form (… and …) form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろく": "that's the adverb (…ly / に・く) form of 面白い, but the cue asks for looks … (そう).",
+        "面白く": "that's the adverb (…ly / に・く) form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろくなった": "that's the became … (なった) form of 面白い, but the cue asks for looks … (そう).",
+        "面白くなった": "that's the became … (なった) form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろすぎる": "that's the too … (すぎる) form of 面白い, but the cue asks for looks … (そう).",
+        "面白すぎる": "that's the too … (すぎる) form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろければ": "that's the if … (ば / なら) form of 面白い, but the cue asks for looks … (そう).",
+        "面白ければ": "that's the if … (ば / なら) form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろくなる": "that's the becomes … (なる) form of 面白い, but the cue asks for looks … (そう).",
+        "面白くなる": "that's the becomes … (なる) form of 面白い, but the cue asks for looks … (そう).",
+        "おもしろかったら": "that's the if / when … (たら) form of 面白い, but the cue asks for looks … (そう).",
+        "面白かったら": "that's the if / when … (たら) form of 面白い, but the cue asks for looks … (そう)."
+      }
+    },
+    {
+      "point": "sou-verb",
+      "prompt": "{棚|たな}の{上|うえ}の{箱|はこ}が（　）。\n→ {落|お}ちる · looks like it's about to … (そう)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "落ちそう",
+        "おちそう"
+      ],
+      "hint": "落ちそ…",
+      "explanation": "{落|お}ちる is a verb: ます-stem (落ち) + そう → **落ちそう**.",
+      "notes": [],
+      "translation": "The box on the shelf looks like it's about to fall.",
+      "wrong_forms": {
+        "おちるそう": "そう goes on the ます-stem, not the dictionary form: 落ちそう.",
+        "落ちるそう": "そう goes on the ます-stem, not the dictionary form: 落ちそう."
+      }
+    },
+    {
+      "point": "sou-adj",
+      "prompt": "{明日|あした}は{天気|てんき}が（　）ですね。\n→ いい · looks … (そう)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "よさそう"
+      ],
+      "hint": "よ…",
+      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + そう) → **よさそう**. いい → よさそう (irregular).",
+      "notes": [],
+      "translation": "Looks like the weather will be good tomorrow.",
+      "wrong_forms": {
+        "いい": "that's the plain present form of いい, but the cue asks for looks … (そう).",
+        "いいです": "that's the polite present form of いい, but the cue asks for looks … (そう).",
+        "よくない": "that's the plain negative form of いい, but the cue asks for looks … (そう).",
+        "よくないです": "that's the polite negative form of いい, but the cue asks for looks … (そう).",
+        "よかった": "that's the plain past form of いい, but the cue asks for looks … (そう).",
+        "よかったです": "that's the polite past form of いい, but the cue asks for looks … (そう).",
+        "よくなかった": "that's the plain past negative form of いい, but the cue asks for looks … (そう).",
+        "よくなかったです": "that's the polite past negative form of いい, but the cue asks for looks … (そう).",
+        "よくて": "that's the て-form (… and …) form of いい, but the cue asks for looks … (そう).",
+        "よく": "that's the adverb (…ly / に・く) form of いい, but the cue asks for looks … (そう).",
+        "よくなった": "that's the became … (なった) form of いい, but the cue asks for looks … (そう).",
+        "よすぎる": "that's the too … (すぎる) form of いい, but the cue asks for looks … (そう).",
+        "よければ": "that's the if … (ば / なら) form of いい, but the cue asks for looks … (そう).",
+        "よくなる": "that's the becomes … (なる) form of いい, but the cue asks for looks … (そう).",
+        "よかったら": "that's the if / when … (たら) form of いい, but the cue asks for looks … (そう).",
+        "いそう": "いい is irregular: it uses よ- in every form except the present → よさそう."
+      }
+    },
+    {
+      "point": "sou-verb",
+      "prompt": "{彼女|かのじょ}は{今|いま}にも（　）な{顔|かお}をしていた。\n→ {泣|な}く · looks like it's about to … (そう)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "泣きそう",
+        "なきそう"
+      ],
+      "hint": "泣きそ…",
+      "explanation": "{泣|な}く is a verb: ます-stem (泣き) + そう → **泣きそう**.",
+      "notes": [],
+      "translation": "She looked as if she was about to cry.",
+      "wrong_forms": {
+        "なくそう": "そう goes on the ます-stem, not the dictionary form: 泣きそう.",
+        "泣くそう": "そう goes on the ます-stem, not the dictionary form: 泣きそう."
+      }
+    },
+    {
+      "point": "sou-adj",
+      "prompt": "このかばんは（　）けど、{全然|ぜんぜん}{重|おも}くないよ。\n→ {重|おも}い · looks … (そう)",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "重そう",
+        "おもそう"
+      ],
+      "hint": "重そ…",
+      "explanation": "{重|おも}い is an い-adjective: drop the last い → 重 + そう → **重そう**.",
+      "notes": [],
+      "translation": "This bag looks heavy, but it isn't heavy at all.",
+      "wrong_forms": {
+        "おもい": "that's the plain present form of 重い, but the cue asks for looks … (そう).",
+        "重い": "that's the plain present form of 重い, but the cue asks for looks … (そう).",
+        "おもいです": "that's the polite present form of 重い, but the cue asks for looks … (そう).",
+        "重いです": "that's the polite present form of 重い, but the cue asks for looks … (そう).",
+        "おもくない": "that's the plain negative form of 重い, but the cue asks for looks … (そう).",
+        "重くない": "that's the plain negative form of 重い, but the cue asks for looks … (そう).",
+        "おもくないです": "that's the polite negative form of 重い, but the cue asks for looks … (そう).",
+        "重くないです": "that's the polite negative form of 重い, but the cue asks for looks … (そう).",
+        "おもかった": "that's the plain past form of 重い, but the cue asks for looks … (そう).",
+        "重かった": "that's the plain past form of 重い, but the cue asks for looks … (そう).",
+        "おもかったです": "that's the polite past form of 重い, but the cue asks for looks … (そう).",
+        "重かったです": "that's the polite past form of 重い, but the cue asks for looks … (そう).",
+        "おもくなかった": "that's the plain past negative form of 重い, but the cue asks for looks … (そう).",
+        "重くなかった": "that's the plain past negative form of 重い, but the cue asks for looks … (そう).",
+        "おもくなかったです": "that's the polite past negative form of 重い, but the cue asks for looks … (そう).",
+        "重くなかったです": "that's the polite past negative form of 重い, but the cue asks for looks … (そう).",
+        "おもくて": "that's the て-form (… and …) form of 重い, but the cue asks for looks … (そう).",
+        "重くて": "that's the て-form (… and …) form of 重い, but the cue asks for looks … (そう).",
+        "おもく": "that's the adverb (…ly / に・く) form of 重い, but the cue asks for looks … (そう).",
+        "重く": "that's the adverb (…ly / に・く) form of 重い, but the cue asks for looks … (そう).",
+        "おもくなった": "that's the became … (なった) form of 重い, but the cue asks for looks … (そう).",
+        "重くなった": "that's the became … (なった) form of 重い, but the cue asks for looks … (そう).",
+        "おもすぎる": "that's the too … (すぎる) form of 重い, but the cue asks for looks … (そう).",
+        "重すぎる": "that's the too … (すぎる) form of 重い, but the cue asks for looks … (そう).",
+        "おもければ": "that's the if … (ば / なら) form of 重い, but the cue asks for looks … (そう).",
+        "重ければ": "that's the if … (ば / なら) form of 重い, but the cue asks for looks … (そう).",
+        "おもくなる": "that's the becomes … (なる) form of 重い, but the cue asks for looks … (そう).",
+        "重くなる": "that's the becomes … (なる) form of 重い, but the cue asks for looks … (そう).",
+        "おもかったら": "that's the if / when … (たら) form of 重い, but the cue asks for looks … (そう).",
+        "重かったら": "that's the if / when … (たら) form of 重い, but the cue asks for looks … (そう)."
+      }
+    }
+  ]
+}

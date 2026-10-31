@@ -1,0 +1,479 @@
+{
+  "id": "adj-word-class",
+  "category": "Adjective Lab",
+  "title": "Verb, い, な or Noun? Word Classes",
+  "description": "The root of most mix-ups: which word class is it? Many differ from English and German (好き, 疲れる, 違う).",
+  "level": "Adjectives",
+  "points": [
+    {
+      "id": "cls-na",
+      "title": "な-adjectives",
+      "summary": "Stay the same and add だ / じゃない; な before a noun: 好きな人.",
+      "body": "**Verb, い-adjective, な-adjective, noun — side by side**\n\n| | verb 書く | い-adj. 高い | な-adj. 静か | noun 学生 |\n|---|---|---|---|---|\n| present | 書く / 書きます | 高い / 高いです | 静かだ / 静かです | 学生だ / 学生です |\n| not | 書かない | 高**くない** | 静か**じゃない** | 学生じゃない |\n| past | 書いた | 高**かった** | 静か**だった** | 学生だった |\n| polite past | 書きました | 高かったです | 静かでした | 学生でした |\n| before a noun | 書く人 | 高い本 | 静か**な**部屋 | 学生**の**時 |\n| … and … | 書いて | 高**くて** | 静か**で** | 学生で |\n| become | 書けるようになる | 高**く**なる | 静か**に**なる | 学生になる |\n\n- **い-adjectives behave like verbs:** the word itself changes (高い → 高くない → 高かった). です only adds politeness: 高かったです, never 高いでした.\n- **な-adjectives behave like nouns:** the word stays, だ / です / じゃない / だった do the work. The only difference: な before a noun (静かな部屋) where a noun takes の (学生の時).\n- **Verbs have their own endings** (ない, ます, た) and never take です directly.\n\n**Watch out for words whose class differs from English or German**\n- English/German verb → Japanese adjective: 好き (like), 嫌い (hate), 欲しい (want), 上手・得意 (be good at), 怖い (be scared), 痛い (hurt).\n- English/German adjective → Japanese verb: 疲れている (tired), 混んでいる (crowded), 結婚している (married), 違う (different).",
+      "examples": []
+    },
+    {
+      "id": "cls-v",
+      "title": "Verbs",
+      "summary": "End in an う-sound and conjugate with ない / ます / た: 分かる → 分からない, 分かります.",
+      "body": "**Verb, い-adjective, な-adjective, noun — side by side**\n\n| | verb 書く | い-adj. 高い | な-adj. 静か | noun 学生 |\n|---|---|---|---|---|\n| present | 書く / 書きます | 高い / 高いです | 静かだ / 静かです | 学生だ / 学生です |\n| not | 書かない | 高**くない** | 静か**じゃない** | 学生じゃない |\n| past | 書いた | 高**かった** | 静か**だった** | 学生だった |\n| polite past | 書きました | 高かったです | 静かでした | 学生でした |\n| before a noun | 書く人 | 高い本 | 静か**な**部屋 | 学生**の**時 |\n| … and … | 書いて | 高**くて** | 静か**で** | 学生で |\n| become | 書けるようになる | 高**く**なる | 静か**に**なる | 学生になる |\n\n- **い-adjectives behave like verbs:** the word itself changes (高い → 高くない → 高かった). です only adds politeness: 高かったです, never 高いでした.\n- **な-adjectives behave like nouns:** the word stays, だ / です / じゃない / だった do the work. The only difference: な before a noun (静かな部屋) where a noun takes の (学生の時).\n- **Verbs have their own endings** (ない, ます, た) and never take です directly.\n\n**Watch out for words whose class differs from English or German**\n- English/German verb → Japanese adjective: 好き (like), 嫌い (hate), 欲しい (want), 上手・得意 (be good at), 怖い (be scared), 痛い (hurt).\n- English/German adjective → Japanese verb: 疲れている (tired), 混んでいる (crowded), 結婚している (married), 違う (different).",
+      "examples": []
+    },
+    {
+      "id": "cls-i",
+      "title": "い-adjectives",
+      "summary": "End in い and change themselves: 眠い → 眠くない, 眠かった.",
+      "body": "**Verb, い-adjective, な-adjective, noun — side by side**\n\n| | verb 書く | い-adj. 高い | な-adj. 静か | noun 学生 |\n|---|---|---|---|---|\n| present | 書く / 書きます | 高い / 高いです | 静かだ / 静かです | 学生だ / 学生です |\n| not | 書かない | 高**くない** | 静か**じゃない** | 学生じゃない |\n| past | 書いた | 高**かった** | 静か**だった** | 学生だった |\n| polite past | 書きました | 高かったです | 静かでした | 学生でした |\n| before a noun | 書く人 | 高い本 | 静か**な**部屋 | 学生**の**時 |\n| … and … | 書いて | 高**くて** | 静か**で** | 学生で |\n| become | 書けるようになる | 高**く**なる | 静か**に**なる | 学生になる |\n\n- **い-adjectives behave like verbs:** the word itself changes (高い → 高くない → 高かった). です only adds politeness: 高かったです, never 高いでした.\n- **な-adjectives behave like nouns:** the word stays, だ / です / じゃない / だった do the work. The only difference: な before a noun (静かな部屋) where a noun takes の (学生の時).\n- **Verbs have their own endings** (ない, ます, た) and never take です directly.\n\n**Watch out for words whose class differs from English or German**\n- English/German verb → Japanese adjective: 好き (like), 嫌い (hate), 欲しい (want), 上手・得意 (be good at), 怖い (be scared), 痛い (hurt).\n- English/German adjective → Japanese verb: 疲れている (tired), 混んでいる (crowded), 結婚している (married), 違う (different).",
+      "examples": []
+    },
+    {
+      "id": "cls-n",
+      "title": "Nouns",
+      "summary": "Like な-adjectives, but の before a noun: 病気の人, 休みの日.",
+      "body": "**Verb, い-adjective, な-adjective, noun — side by side**\n\n| | verb 書く | い-adj. 高い | な-adj. 静か | noun 学生 |\n|---|---|---|---|---|\n| present | 書く / 書きます | 高い / 高いです | 静かだ / 静かです | 学生だ / 学生です |\n| not | 書かない | 高**くない** | 静か**じゃない** | 学生じゃない |\n| past | 書いた | 高**かった** | 静か**だった** | 学生だった |\n| polite past | 書きました | 高かったです | 静かでした | 学生でした |\n| before a noun | 書く人 | 高い本 | 静か**な**部屋 | 学生**の**時 |\n| … and … | 書いて | 高**くて** | 静か**で** | 学生で |\n| become | 書けるようになる | 高**く**なる | 静か**に**なる | 学生になる |\n\n- **い-adjectives behave like verbs:** the word itself changes (高い → 高くない → 高かった). です only adds politeness: 高かったです, never 高いでした.\n- **な-adjectives behave like nouns:** the word stays, だ / です / じゃない / だった do the work. The only difference: な before a noun (静かな部屋) where a noun takes の (学生の時).\n- **Verbs have their own endings** (ない, ます, た) and never take です directly.\n\n**Watch out for words whose class differs from English or German**\n- English/German verb → Japanese adjective: 好き (like), 嫌い (hate), 欲しい (want), 上手・得意 (be good at), 怖い (be scared), 痛い (hurt).\n- English/German adjective → Japanese verb: 疲れている (tired), 混んでいる (crowded), 結婚している (married), 違う (different).",
+      "examples": []
+    }
+  ],
+  "questions": [
+    {
+      "point": "cls-na",
+      "prompt": "Which word class is **{好|す}き**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 2,
+      "fixed_order": true,
+      "explanation": "{好|す}き is a な-adjective: 好きじゃない, 好きだった, 好きな + noun. English 'like' is a verb, but 好き is a な-adjective: 猫**が**好きです.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "An い-adjective would change its い (…くない, …かった).",
+        "",
+        "A noun takes の before another noun."
+      ],
+      "translation": "好き = liked"
+    },
+    {
+      "point": "cls-v",
+      "prompt": "Which word class is **{分|わ}かる**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "{分|わ}かる is a verb: 分からない, 分かります, 分かった. German can say 'das ist mir klar' (an adjective), but Japanese only has the verb 分かる; what you understand takes が.",
+      "notes": [
+        "",
+        "An い-adjective would change its い (…くない, …かった).",
+        "A な-adjective would add じゃない and take な before a noun.",
+        "A noun takes の before another noun."
+      ],
+      "translation": "分かる = to understand"
+    },
+    {
+      "point": "cls-i",
+      "prompt": "Which word class is **{欲|ほ}しい**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{欲|ほ}しい is an い-adjective: 欲しくない, 欲しかった. 'Want' is a verb in English, but 欲しい (want a thing) is an い-adjective; the thing takes が: 車が欲しい.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "",
+        "A な-adjective would add じゃない and take な before a noun.",
+        "A noun takes の before another noun."
+      ],
+      "translation": "欲しい = wanted"
+    },
+    {
+      "point": "cls-v",
+      "prompt": "Which word class is **{疲|つか}れる**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "{疲|つか}れる is a verb: 疲れない, 疲れます, 疲れた. 'tired' is an adjective in English, but Japanese uses this verb: 疲れた / 疲れている (I'm tired).",
+      "notes": [
+        "",
+        "An い-adjective would change its い (…くない, …かった).",
+        "A な-adjective would add じゃない and take な before a noun.",
+        "A noun takes の before another noun."
+      ],
+      "translation": "疲れる = to get tired"
+    },
+    {
+      "point": "cls-i",
+      "prompt": "Which word class is **{眠|ねむ}い**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{眠|ねむ}い is an い-adjective: 眠くない, 眠かった. Here English and Japanese agree: 'sleepy' is an adjective. 'To sleep' is the verb 寝る / 眠る.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "",
+        "A な-adjective would add じゃない and take な before a noun.",
+        "A noun takes の before another noun."
+      ],
+      "translation": "眠い = sleepy"
+    },
+    {
+      "point": "cls-na",
+      "prompt": "Which word class is **{上手|じょうず}**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 2,
+      "fixed_order": true,
+      "explanation": "{上手|じょうず} is a な-adjective: 上手じゃない, 上手だった, 上手な + noun. 'be good at' — 上手 is a な-adjective: 料理**が**上手です.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "An い-adjective would change its い (…くない, …かった).",
+        "",
+        "A noun takes の before another noun."
+      ],
+      "translation": "上手 = good at"
+    },
+    {
+      "point": "cls-na",
+      "prompt": "Which word class is **{元気|げんき}**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 2,
+      "fixed_order": true,
+      "explanation": "{元気|げんき} is a な-adjective: 元気じゃない, 元気だった, 元気な + noun.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "An い-adjective would change its い (…くない, …かった).",
+        "",
+        "A noun takes の before another noun."
+      ],
+      "translation": "元気 = well, lively"
+    },
+    {
+      "point": "cls-n",
+      "prompt": "Which word class is **{病気|びょうき}**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 3,
+      "fixed_order": true,
+      "explanation": "{病気|びょうき} is a noun: 病気じゃない, 病気の人 (with の, not な). 元気 is a な-adjective, but 病気 is a noun: 元気な人 vs 病気の人.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "An い-adjective would change its い (…くない, …かった).",
+        "A な-adjective would add じゃない and take な before a noun.",
+        ""
+      ],
+      "translation": "病気 = being ill"
+    },
+    {
+      "point": "cls-na",
+      "prompt": "Which word class is **{静|しず}か**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 2,
+      "fixed_order": true,
+      "explanation": "{静|しず}か is a な-adjective: 静かじゃない, 静かだった, 静かな + noun.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "An い-adjective would change its い (…くない, …かった).",
+        "",
+        "A noun takes の before another noun."
+      ],
+      "translation": "静か = quiet"
+    },
+    {
+      "point": "cls-i",
+      "prompt": "Which word class is **{寒|さむ}い**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{寒|さむ}い is an い-adjective: 寒くない, 寒かった.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "",
+        "A な-adjective would add じゃない and take な before a noun.",
+        "A noun takes の before another noun."
+      ],
+      "translation": "寒い = cold (weather)"
+    },
+    {
+      "point": "cls-na",
+      "prompt": "Which word class is **{嫌|きら}い**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 2,
+      "fixed_order": true,
+      "explanation": "{嫌|きら}い is a な-adjective: 嫌いじゃない, 嫌いだった, 嫌いな + noun. It ends in い, but the い is part of the word: 嫌いじゃない (not 嫌くない).",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "An い-adjective would change its い (…くない, …かった).",
+        "",
+        "A noun takes の before another noun."
+      ],
+      "translation": "嫌い = disliked"
+    },
+    {
+      "point": "cls-v",
+      "prompt": "Which word class is **{違|ちが}う**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "{違|ちが}う is a verb: 違わない, 違います, 違った. 'Different' and 'wrong' are adjectives in English, but 違う is a verb: 違います, 違わない.",
+      "notes": [
+        "",
+        "An い-adjective would change its い (…くない, …かった).",
+        "A な-adjective would add じゃない and take な before a noun.",
+        "A noun takes の before another noun."
+      ],
+      "translation": "違う = to differ"
+    },
+    {
+      "point": "cls-na",
+      "prompt": "Which word class is **きれい**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 2,
+      "fixed_order": true,
+      "explanation": "きれい is a な-adjective: きれいじゃない, きれいだった, きれいな + noun. It ends in い, but the い is part of the word: きれいじゃない (not きれくない).",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "An い-adjective would change its い (…くない, …かった).",
+        "",
+        "A noun takes の before another noun."
+      ],
+      "translation": "きれい = pretty, clean"
+    },
+    {
+      "point": "cls-v",
+      "prompt": "Which word class is **{困|こま}る**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "{困|こま}る is a verb: 困らない, 困ります, 困った. 'that's a problem / I'm in trouble' is a verb: 困ります, 困った.",
+      "notes": [
+        "",
+        "An い-adjective would change its い (…くない, …かった).",
+        "A な-adjective would add じゃない and take な before a noun.",
+        "A noun takes の before another noun."
+      ],
+      "translation": "困る = to be in trouble"
+    },
+    {
+      "point": "cls-i",
+      "prompt": "Which word class is **{怖|こわ}い**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{怖|こわ}い is an い-adjective: 怖くない, 怖かった. 'be scared' is an い-adjective: 犬が怖い, 怖かった.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "",
+        "A な-adjective would add じゃない and take な before a noun.",
+        "A noun takes の before another noun."
+      ],
+      "translation": "怖い = scary"
+    },
+    {
+      "point": "cls-n",
+      "prompt": "Which word class is **{休|やす}み**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 3,
+      "fixed_order": true,
+      "explanation": "{休|やす}み is a noun: 休みじゃない, 休みの日 (with の, not な). 'off / free (today)' is a noun: 明日は休みです, 休みの日.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "An い-adjective would change its い (…くない, …かった).",
+        "A な-adjective would add じゃない and take な before a noun.",
+        ""
+      ],
+      "translation": "休み = a day off"
+    },
+    {
+      "point": "cls-na",
+      "prompt": "Which word class is **{暇|ひま}**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 2,
+      "fixed_order": true,
+      "explanation": "{暇|ひま} is a な-adjective: 暇じゃない, 暇だった, 暇な + noun. 'free (have time)' is a な-adjective: 暇な日, 暇じゃない.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "An い-adjective would change its い (…くない, …かった).",
+        "",
+        "A noun takes の before another noun."
+      ],
+      "translation": "暇 = free (time)"
+    },
+    {
+      "point": "cls-v",
+      "prompt": "Which word class is **{混|こ}む**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 0,
+      "fixed_order": true,
+      "explanation": "{混|こ}む is a verb: 混まない, 混みます, 混んだ. 'crowded' is a verb: 混んでいる (has got crowded).",
+      "notes": [
+        "",
+        "An い-adjective would change its い (…くない, …かった).",
+        "A な-adjective would add じゃない and take な before a noun.",
+        "A noun takes の before another noun."
+      ],
+      "translation": "混む = to get crowded"
+    },
+    {
+      "point": "cls-na",
+      "prompt": "Which word class is **{有名|ゆうめい}**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 2,
+      "fixed_order": true,
+      "explanation": "{有名|ゆうめい} is a な-adjective: 有名じゃない, 有名だった, 有名な + noun. It ends in an い sound, but it's a な-adjective: 有名な店.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "An い-adjective would change its い (…くない, …かった).",
+        "",
+        "A noun takes の before another noun."
+      ],
+      "translation": "有名 = famous"
+    },
+    {
+      "point": "cls-i",
+      "prompt": "Which word class is **{痛|いた}い**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 1,
+      "fixed_order": true,
+      "explanation": "{痛|いた}い is an い-adjective: 痛くない, 痛かった. 'hurt' is a verb in English (wehtun), but 痛い is an い-adjective: 頭が痛い.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "",
+        "A な-adjective would add じゃない and take な before a noun.",
+        "A noun takes の before another noun."
+      ],
+      "translation": "痛い = painful"
+    },
+    {
+      "point": "cls-n",
+      "prompt": "Which word class is **{学生|がくせい}**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 3,
+      "fixed_order": true,
+      "explanation": "{学生|がくせい} is a noun: 学生じゃない, 学生の時 (with の, not な).",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "An い-adjective would change its い (…くない, …かった).",
+        "A な-adjective would add じゃない and take な before a noun.",
+        ""
+      ],
+      "translation": "学生 = a student"
+    },
+    {
+      "point": "cls-na",
+      "prompt": "Which word class is **{大丈夫|だいじょうぶ}**?",
+      "options": [
+        "verb",
+        "い-adjective",
+        "な-adjective",
+        "noun"
+      ],
+      "answer": 2,
+      "fixed_order": true,
+      "explanation": "{大丈夫|だいじょうぶ} is a な-adjective: 大丈夫じゃない, 大丈夫だった, 大丈夫な + noun. 'all right' — a な-adjective: 大丈夫じゃない.",
+      "notes": [
+        "A verb would have ない / ます / た forms of its own.",
+        "An い-adjective would change its い (…くない, …かった).",
+        "",
+        "A noun takes の before another noun."
+      ],
+      "translation": "大丈夫 = all right"
+    }
+  ]
+}

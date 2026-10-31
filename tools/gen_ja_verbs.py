@@ -1128,45 +1128,10 @@ def adj_types_quiz(fname, id, title, description, keys):
                  "level": "Verbs", "points": points, "questions": questions}
 
 
-adj_types_quiz("21_adj_types", "verbs-adj-types", "Adjective Types: い or な?",
-               "Tell the two adjective types apart — including the な-adjectives that end in い.",
-               ["高い", "静か", "きれい", "おいしい", "便利", "嫌い", "新しい", "有名", "いい", "元気", "楽しい", "丁寧",
-                "かっこいい", "簡単", "暗い", "好き", "優しい", "大変"])
-
 GUIDE["adj"] = ("Adjective forms", "い-adjectives change their ending; な-adjectives keep it and add だ / じゃない / な.", ADJ_BODY)
 ADJ_SPRINT_TITLES = {"adj-i": "い-adjectives: drop い + ending", "adj-na": "な-adjectives: add だ / じゃない / だった",
                      "adj-ii": "いい → よ- (except the present)"}
-drill_quiz("22_adj_sprint", "verbs-adj-sprint", "Adjective Sprint: Negative & Past",
-           "18 adjectives, four forms: not …, was …, wasn't … — plain and polite.", "adj", [
-    ("高い", "a_neg", "adj-i"), ("静か", "a_neg", "adj-na"), ("いい", "a_neg", "adj-ii"), ("寒い", "a_past", "adj-i"),
-    ("便利", "a_past", "adj-na"), ("いい", "a_past", "adj-ii"), ("楽しい", "a_pastneg", "adj-i"), ("きれい", "a_neg", "adj-na"),
-    ("忙しい", "a_neg_p", "adj-i"), ("有名", "a_pastneg", "adj-na"), ("おいしい", "a_past_p", "adj-i"),
-    ("嫌い", "a_past", "adj-na"), ("かっこいい", "a_past", "adj-ii"), ("難しい", "a_pastneg_p", "adj-i"),
-    ("暇", "a_neg_p", "adj-na"), ("大きい", "a_te", "adj-i"), ("元気", "a_te", "adj-na"), ("いい", "a_te", "adj-ii"),
-], ADJ_SPRINT_TITLES, rule_hints=True)
-
-quiz("23_adj_context", "verbs-adj-context", "Adjectives in Use: Reviews, Trips & Small Talk",
-     "Joining (くて / で), adverbs (く / に), なる, そう, すぎる, before nouns — the adjective forms you use every day.", "adj", [
-    ("この{店|みせ}のラーメンは（　）、{安|やす}いです。", "おいしい", "a_te", "The ramen here is tasty and cheap."),
-    ("{昨日|きのう}の{試験|しけん}は{全然|ぜんぜん}（　）。", "難しい", "a_pastneg", "Yesterday's exam wasn't hard at all."),
-    ("{京都|きょうと}はとても（　）{町|まち}でした。", "きれい", "a_noun", "Kyoto was a really beautiful town."),
-    ("{掃除|そうじ}したので、{部屋|へや}が（　）なりました。", "きれい", "a_adv", "I cleaned, so the room is nice and tidy now."),
-    ("{明日|あした}、{天気|てんき}が（　）、{公園|こうえん}に{行|い}きませんか。", "いい", "a_ba", "If the weather's good tomorrow, shall we go to the park?"),
-    ("このケーキ、（　）ね！", "おいしい", "a_sou", "This cake looks delicious!"),
-    ("この{靴|くつ}は{私|わたし}には（　）。", "大きい", "a_sugiru", "These shoes are too big for me."),
-    ("{先週|せんしゅう}は{仕事|しごと}がとても（　）。", "忙しい", "a_past_p", "Work was very busy last week."),
-    ("{図書館|としょかん}では（　）してください。", "静か", "a_adv", "Please be quiet in the library."),
-    ("{冬|ふゆ}は5{時|じ}にはもう（　）なります。", "暗い", "a_adv", "In winter it's already dark by five."),
-    ("この{映画|えいが}はあまり（　）。", "面白い", "a_neg_p", "This film isn't very interesting."),
-    ("{田中|たなか}さんはとても（　）{人|ひと}です。", "親切", "a_noun", "Tanaka is a very kind person."),
-    ("{子供|こども}のころ、{野菜|やさい}が（　）。", "嫌い", "a_past", "As a child I hated vegetables."),
-    ("{旅行|りょこう}はどうでしたか。— とても（　）。", "いい", "a_past_p", "How was the trip? — It was great."),
-    ("{最近|さいきん}、{日本語|にほんご}が（　）ね。", "上手", "a_naru_ta", "Your Japanese has got really good lately."),
-    ("{去年|きょねん}より{野菜|やさい}の{値段|ねだん}が（　）。", "高い", "a_naru_ta", "Vegetables have got more expensive than last year."),
-    ("この{部屋|へや}は{駅|えき}に{近|ちか}くて、とても（　）。", "便利", "a_desu", "This flat is close to the station and very convenient."),
-    ("{昨日|きのう}は{頭|あたま}が（　）、{学校|がっこう}を{休|やす}みました。", "痛い", "a_te", "I had a headache yesterday, so I stayed home from school."),
-], pid_fn=lambda key, form: {"i": "ctx-i", "na": "ctx-na", "ii": "ctx-ii"}[ADJ[key][2]],
-   titles={"ctx-i": "い-adjectives in context", "ctx-na": "な-adjectives in context", "ctx-ii": "いい in context"})
+# The adjective lessons are in the Adjective Lab (tools/gen_ja_adj.py), which reuses this engine.
 
 
 # ---------------------------------------------------------------- transitive / intransitive

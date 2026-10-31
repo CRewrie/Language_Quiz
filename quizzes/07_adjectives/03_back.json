@@ -1,0 +1,252 @@
+{
+  "id": "adj-back",
+  "category": "Adjective Lab",
+  "title": "Back to the Dictionary Form",
+  "description": "See an adjective form, find the word you'd look up: 高くなかった → 高い, 静かじゃない → 静か.",
+  "level": "Adjectives",
+  "points": [
+    {
+      "id": "back-i",
+      "title": "From an い-adjective form",
+      "summary": "く / かっ / けれ / そう / すぎる after the stem → put い back",
+      "body": "**Two kinds of adjectives**\n\n- **い-adjectives** (高い, 新しい, おいしい) change their ending: drop い → 高**くない**, 高**かった**, 高**くなかった**, 高**くて**, 高**く** (adverb).\n- **な-adjectives** (静か, 便利, 有名) never change; the words after them do: 静か**だ**, 静か**じゃない**, 静か**だった**, 静か**で**, 静か**に**, 静か**な**町.\n- **Traps:** きれい, 嫌い, 有名, 丁寧 end in an い sound but are **な-adjectives** → きれいじゃない (not きれくない).\n- **いい** is irregular: よくない, よかった, よくて, よさそう — only the present stays いい. かっこいい works the same way.\n\n**Quick check:** before a noun, a な-adjective needs な (静か**な**部屋), an い-adjective doesn't (高い部屋).",
+      "examples": []
+    },
+    {
+      "id": "back-na",
+      "title": "From a な-adjective form",
+      "summary": "じゃ / だ / で / な / に after the word → the word itself",
+      "body": "**Two kinds of adjectives**\n\n- **い-adjectives** (高い, 新しい, おいしい) change their ending: drop い → 高**くない**, 高**かった**, 高**くなかった**, 高**くて**, 高**く** (adverb).\n- **な-adjectives** (静か, 便利, 有名) never change; the words after them do: 静か**だ**, 静か**じゃない**, 静か**だった**, 静か**で**, 静か**に**, 静か**な**町.\n- **Traps:** きれい, 嫌い, 有名, 丁寧 end in an い sound but are **な-adjectives** → きれいじゃない (not きれくない).\n- **いい** is irregular: よくない, よかった, よくて, よさそう — only the present stays いい. かっこいい works the same way.\n\n**Quick check:** before a noun, a な-adjective needs な (静か**な**部屋), an い-adjective doesn't (高い部屋).",
+      "examples": []
+    },
+    {
+      "id": "back-ii",
+      "title": "From いい (よ-)",
+      "summary": "よ- forms come from いい",
+      "body": "**Two kinds of adjectives**\n\n- **い-adjectives** (高い, 新しい, おいしい) change their ending: drop い → 高**くない**, 高**かった**, 高**くなかった**, 高**くて**, 高**く** (adverb).\n- **な-adjectives** (静か, 便利, 有名) never change; the words after them do: 静か**だ**, 静か**じゃない**, 静か**だった**, 静か**で**, 静か**に**, 静か**な**町.\n- **Traps:** きれい, 嫌い, 有名, 丁寧 end in an い sound but are **な-adjectives** → きれいじゃない (not きれくない).\n- **いい** is irregular: よくない, よかった, よくて, よさそう — only the present stays いい. かっこいい works the same way.\n\n**Quick check:** before a noun, a な-adjective needs な (静か**な**部屋), an い-adjective doesn't (高い部屋).",
+      "examples": []
+    }
+  ],
+  "questions": [
+    {
+      "point": "back-i",
+      "prompt": "{高|たか}くなかった → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "高い",
+        "たかい"
+      ],
+      "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
+      "explanation": "高くなかった: an い-adjective: the い dropped for the ending, so add it back → **高い**.",
+      "notes": [],
+      "translation": "高い = expensive, high"
+    },
+    {
+      "point": "back-na",
+      "prompt": "{静|しず}かじゃない → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "静か",
+        "しずか"
+      ],
+      "hint": "じゃ / だ / で / な / に after the word → the word itself",
+      "explanation": "静かじゃない: a な-adjective: the word never changes, just drop what follows → **静か**.",
+      "notes": [],
+      "translation": "静か = quiet"
+    },
+    {
+      "point": "back-ii",
+      "prompt": "よかった → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "いい"
+      ],
+      "hint": "よ- forms come from いい",
+      "explanation": "よかった: よ- (よくない, よかった) is the irregular stem of いい → **いい**.",
+      "notes": [],
+      "translation": "いい = good"
+    },
+    {
+      "point": "back-i",
+      "prompt": "おいしそう → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "おいしい"
+      ],
+      "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
+      "explanation": "おいしそう: an い-adjective: the い dropped for the ending, so add it back → **おいしい**.",
+      "notes": [],
+      "translation": "おいしい = tasty"
+    },
+    {
+      "point": "back-na",
+      "prompt": "{便利|べんり}な → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "便利",
+        "べんり"
+      ],
+      "hint": "じゃ / だ / で / な / に after the word → the word itself",
+      "explanation": "便利な: a な-adjective: the word never changes, just drop what follows → **便利**.",
+      "notes": [],
+      "translation": "便利 = convenient"
+    },
+    {
+      "point": "back-i",
+      "prompt": "{寒|さむ}くて → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "寒い",
+        "さむい"
+      ],
+      "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
+      "explanation": "寒くて: an い-adjective: the い dropped for the ending, so add it back → **寒い**.",
+      "notes": [],
+      "translation": "寒い = cold (weather)"
+    },
+    {
+      "point": "back-na",
+      "prompt": "{元気|げんき}で → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "元気",
+        "げんき"
+      ],
+      "hint": "じゃ / だ / で / な / に after the word → the word itself",
+      "explanation": "元気で: a な-adjective: the word never changes, just drop what follows → **元気**.",
+      "notes": [],
+      "translation": "元気 = well, lively"
+    },
+    {
+      "point": "back-i",
+      "prompt": "{早|はや}く → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "早い",
+        "はやい"
+      ],
+      "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
+      "explanation": "早く: an い-adjective: the い dropped for the ending, so add it back → **早い**.",
+      "notes": [],
+      "translation": "早い = early"
+    },
+    {
+      "point": "back-na",
+      "prompt": "{上手|じょうず}に → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "上手",
+        "じょうず"
+      ],
+      "hint": "じゃ / だ / で / な / に after the word → the word itself",
+      "explanation": "上手に: a な-adjective: the word never changes, just drop what follows → **上手**.",
+      "notes": [],
+      "translation": "上手 = good at"
+    },
+    {
+      "point": "back-i",
+      "prompt": "{楽|たの}しかった → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "楽しい",
+        "たのしい"
+      ],
+      "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
+      "explanation": "楽しかった: an い-adjective: the い dropped for the ending, so add it back → **楽しい**.",
+      "notes": [],
+      "translation": "楽しい = fun"
+    },
+    {
+      "point": "back-na",
+      "prompt": "{有名|ゆうめい}だった → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "有名",
+        "ゆうめい"
+      ],
+      "hint": "じゃ / だ / で / な / に after the word → the word itself",
+      "explanation": "有名だった: a な-adjective: the word never changes, just drop what follows → **有名**. ⚠ The い of きれい / 嫌い / 有名 / 丁寧 belongs to the word — they're な-adjectives.",
+      "notes": [],
+      "translation": "有名 = famous"
+    },
+    {
+      "point": "back-ii",
+      "prompt": "かっこよくない → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "かっこいい"
+      ],
+      "hint": "よ- forms come from いい",
+      "explanation": "かっこよくない: よ- (よくない, よかった) is the irregular stem of いい → **かっこいい**.",
+      "notes": [],
+      "translation": "かっこいい = cool, good-looking"
+    },
+    {
+      "point": "back-na",
+      "prompt": "きれいじゃなかった → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "きれい"
+      ],
+      "hint": "じゃ / だ / で / な / に after the word → the word itself",
+      "explanation": "きれいじゃなかった: a な-adjective: the word never changes, just drop what follows → **きれい**. ⚠ The い of きれい / 嫌い / 有名 / 丁寧 belongs to the word — they're な-adjectives.",
+      "notes": [],
+      "translation": "きれい = pretty, clean"
+    },
+    {
+      "point": "back-i",
+      "prompt": "{難|むずか}しければ → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "難しい",
+        "むずかしい"
+      ],
+      "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
+      "explanation": "難しければ: an い-adjective: the い dropped for the ending, so add it back → **難しい**.",
+      "notes": [],
+      "translation": "難しい = difficult"
+    },
+    {
+      "point": "back-na",
+      "prompt": "{嫌|きら}いだった → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "嫌い",
+        "きらい"
+      ],
+      "hint": "じゃ / だ / で / な / に after the word → the word itself",
+      "explanation": "嫌いだった: a な-adjective: the word never changes, just drop what follows → **嫌い**. ⚠ The い of きれい / 嫌い / 有名 / 丁寧 belongs to the word — they're な-adjectives.",
+      "notes": [],
+      "translation": "嫌い = disliked"
+    },
+    {
+      "point": "back-i",
+      "prompt": "{大|おお}きすぎる → （　）\n→ dictionary form",
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "大きい",
+        "おおきい"
+      ],
+      "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
+      "explanation": "大きすぎる: an い-adjective: the い dropped for the ending, so add it back → **大きい**.",
+      "notes": [],
+      "translation": "大きい = big"
+    }
+  ]
+}

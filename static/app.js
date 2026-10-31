@@ -640,11 +640,19 @@ const KINDS = [
   ["typed", "⌨️", "Step 3 · Forms in context"],
   ["deep", "🎯", "Deep dive · Can & will (potential / volitional), steps 1–6"],
   ["trans", "⇄", "Transitive & intransitive"],
-  ["adj", "🎨", "Adjectives (い / な)"],
+  ["atypes", "🔎", "Step 1 · Word classes (い, な, verb or noun?)"],
+  ["adrill", "🏃", "Step 2 · Adjective form drills"],
+  ["atyped", "⌨️", "Step 3 · Adjectives in context"],
+  ["vsadj", "⚖️", "Verb or adjective? Side by side"],
 ];
 function quizKind(q) {
+  if (q.category === "Adjective Lab") {
+    if (/adj-(types|word-class)/.test(q.id)) return "atypes";
+    if (/adj-(back|sprint|ladder)/.test(q.id)) return "adrill";
+    if (/adj-vs-/.test(q.id)) return "vsadj";
+    return "atyped";
+  }
   if (q.category === "Verb Lab") {
-    if (/verbs-adj-/.test(q.id)) return "adj";
     if (/verbs-(can|will)/.test(q.id)) return "deep";
     if (/verbs-(pairs|state)/.test(q.id)) return "trans";
     if (/verbs-(types|exceptions|lookalikes)/.test(q.id)) return "vtypes";
