@@ -38,9 +38,9 @@
         "たかいです"
       ],
       "hint": "高いで…",
-      "explanation": "{高|たか}い is an い-adjective: the dictionary form → **高いです**.",
+      "explanation": "{高|たか}い is an い-adjective: the dictionary form → **高いです**.\n\nExample: {東京|とうきょう}は{家賃|やちん}が**{高|たか}いです**。",
       "notes": [],
-      "translation": "高い = expensive, high",
+      "translation": "Rent is high in Tokyo. (高い = expensive, high)",
       "wrong_forms": {
         "たかい": "that's the plain present form of 高い, but the cue asks for polite present.",
         "高い": "that's the plain present form of 高い, but the cue asks for polite present.",
@@ -84,9 +84,9 @@
         "たかくない"
       ],
       "hint": "高く…",
-      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + くない → **高くない**.",
+      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + くない → **高くない**.\n\nExample: この{店|みせ}は{思|おも}ったより**{高|たか}くない**。",
       "notes": [],
-      "translation": "高い = expensive, high",
+      "translation": "This shop isn't as expensive as I thought. (高い = expensive, high)",
       "wrong_forms": {
         "たかい": "that's the plain present form of 高い, but the cue asks for plain negative.",
         "高い": "that's the plain present form of 高い, but the cue asks for plain negative.",
@@ -132,9 +132,9 @@
         "たかかった"
       ],
       "hint": "高か…",
-      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + かった → **高かった**.",
+      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + かった → **高かった**.\n\nExample: {昨日|きのう}のレストランは**{高|たか}かった**。",
       "notes": [],
-      "translation": "高い = expensive, high",
+      "translation": "Yesterday's restaurant was expensive. (高い = expensive, high)",
       "wrong_forms": {
         "たかい": "that's the plain present form of 高い, but the cue asks for plain past.",
         "高い": "that's the plain present form of 高い, but the cue asks for plain past.",
@@ -180,9 +180,9 @@
         "たかくなかった"
       ],
       "hint": "高く…",
-      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + くなかった → **高くなかった**.",
+      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + くなかった → **高くなかった**.\n\nExample: その{時計|とけい}は**{高|たか}くなかった**。",
       "notes": [],
-      "translation": "高い = expensive, high",
+      "translation": "That watch wasn't expensive. (高い = expensive, high)",
       "wrong_forms": {
         "たかい": "that's the plain present form of 高い, but the cue asks for plain past negative.",
         "高い": "that's the plain present form of 高い, but the cue asks for plain past negative.",
@@ -228,9 +228,9 @@
         "たかくて"
       ],
       "hint": "高く…",
-      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + くて → **高くて**.",
+      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + くて → **高くて**.\n\nExample: このバッグは**{高|たか}くて**{買|か}えない。",
       "notes": [],
-      "translation": "高い = expensive, high",
+      "translation": "This bag is too expensive for me to buy. (高い = expensive, high)",
       "wrong_forms": {
         "たかい": "that's the plain present form of 高い, but the cue asks for て-form (… and …).",
         "高い": "that's the plain present form of 高い, but the cue asks for て-form (… and …).",
@@ -276,9 +276,9 @@
         "たかく"
       ],
       "hint": "高…",
-      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + く → **高く**.",
+      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + く → **高く**.\n\nExample: ボールを**{高|たか}く**{投|な}げた。",
       "notes": [],
-      "translation": "高い = expensive, high",
+      "translation": "I threw the ball high. (高い = expensive, high)",
       "wrong_forms": {
         "たかい": "that's the plain present form of 高い, but the cue asks for adverb (…ly / に・く).",
         "高い": "that's the plain present form of 高い, but the cue asks for adverb (…ly / に・く).",
@@ -324,9 +324,9 @@
         "たかい"
       ],
       "hint": "高…",
-      "explanation": "{高|たか}い is an い-adjective: it goes straight before a noun — no な → **高い**.",
+      "explanation": "{高|たか}い is an い-adjective: it goes straight before a noun — no な → **高い**.\n\nExample: {駅|えき}の{周|まわ}りに**{高|たか}い**ビルが{増|ふ}えた。",
       "notes": [],
-      "translation": "高い = expensive, high",
+      "translation": "There are more tall buildings around the station. (高い = expensive, high)",
       "wrong_forms": {
         "たかいです": "that's the polite present form of 高い, but the cue asks for before a noun.",
         "高いです": "that's the polite present form of 高い, but the cue asks for before a noun.",
@@ -370,9 +370,9 @@
         "たかければ"
       ],
       "hint": "高け…",
-      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + ければ → **高ければ**.",
+      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + ければ → **高ければ**.\n\nExample: **{高|たか}ければ**、{買|か}いません。",
       "notes": [],
-      "translation": "高い = expensive, high",
+      "translation": "If it's expensive, I won't buy it. (高い = expensive, high)",
       "wrong_forms": {
         "たかい": "that's the plain present form of 高い, but the cue asks for if … (ば / なら).",
         "高い": "that's the plain present form of 高い, but the cue asks for if … (ば / なら).",
@@ -418,9 +418,9 @@
         "しずかです"
       ],
       "hint": "静かで…",
-      "explanation": "{静|しず}か is a な-adjective: 静か + です → **静かです**.",
+      "explanation": "{静|しず}か is a な-adjective: 静か + です → **静かです**.\n\nExample: この{公園|こうえん}は{朝|あさ}がいちばん**{静|しず}かです**。",
       "notes": [],
-      "translation": "静か = quiet",
+      "translation": "This park is quietest in the morning. (静か = quiet)",
       "wrong_forms": {
         "しずかだ": "that's the plain present form of 静か, but the cue asks for polite present.",
         "静かだ": "that's the plain present form of 静か, but the cue asks for polite present.",
@@ -470,9 +470,9 @@
         "しずかではない"
       ],
       "hint": "静かじ…",
-      "explanation": "{静|しず}か is a な-adjective: 静か + じゃない (written: ではない) → **静かじゃない**.",
+      "explanation": "{静|しず}か is a な-adjective: 静か + じゃない (written: ではない) → **静かじゃない**.\n\nExample: この{辺|へん}は{夜|よる}も**{静|しず}かじゃない**。",
       "notes": [],
-      "translation": "静か = quiet",
+      "translation": "This area isn't quiet even at night. (静か = quiet)",
       "wrong_forms": {
         "しずかだ": "that's the plain present form of 静か, but the cue asks for plain negative.",
         "静かだ": "that's the plain present form of 静か, but the cue asks for plain negative.",
@@ -520,9 +520,9 @@
         "しずかだった"
       ],
       "hint": "静かだ…",
-      "explanation": "{静|しず}か is a な-adjective: 静か + だった → **静かだった**.",
+      "explanation": "{静|しず}か is a な-adjective: 静か + だった → **静かだった**.\n\nExample: {昨日|きのう}の{夜|よる}はとても**{静|しず}かだった**。",
       "notes": [],
-      "translation": "静か = quiet",
+      "translation": "Last night was very quiet. (静か = quiet)",
       "wrong_forms": {
         "しずかだ": "that's the plain present form of 静か, but the cue asks for plain past.",
         "静かだ": "that's the plain present form of 静か, but the cue asks for plain past.",
@@ -572,9 +572,9 @@
         "しずかではなかった"
       ],
       "hint": "静かじ…",
-      "explanation": "{静|しず}か is a な-adjective: 静か + じゃなかった → **静かじゃなかった**.",
+      "explanation": "{静|しず}か is a な-adjective: 静か + じゃなかった → **静かじゃなかった**.\n\nExample: {昨日|きのう}の{電車|でんしゃ}は**{静|しず}かじゃなかった**。",
       "notes": [],
-      "translation": "静か = quiet",
+      "translation": "The train yesterday wasn't quiet. (静か = quiet)",
       "wrong_forms": {
         "しずかだ": "that's the plain present form of 静か, but the cue asks for plain past negative.",
         "静かだ": "that's the plain present form of 静か, but the cue asks for plain past negative.",
@@ -622,9 +622,9 @@
         "しずかで"
       ],
       "hint": "静か…",
-      "explanation": "{静|しず}か is a な-adjective: 静か + で → **静かで**.",
+      "explanation": "{静|しず}か is a な-adjective: 静か + で → **静かで**.\n\nExample: この{町|まち}は**{静|しず}かで**{住|す}みやすい。",
       "notes": [],
-      "translation": "静か = quiet",
+      "translation": "This town is quiet and easy to live in. (静か = quiet)",
       "wrong_forms": {
         "しずかだ": "that's the plain present form of 静か, but the cue asks for て-form (… and …).",
         "静かだ": "that's the plain present form of 静か, but the cue asks for て-form (… and …).",
@@ -672,9 +672,9 @@
         "しずかに"
       ],
       "hint": "静か…",
-      "explanation": "{静|しず}か is a な-adjective: 静か + に → **静かに**.",
+      "explanation": "{静|しず}か is a な-adjective: 静か + に → **静かに**.\n\nExample: {図書館|としょかん}では**{静|しず}かに**{話|はな}してください。",
       "notes": [],
-      "translation": "静か = quiet",
+      "translation": "Please speak quietly in the library. (静か = quiet)",
       "wrong_forms": {
         "しずかだ": "that's the plain present form of 静か, but the cue asks for adverb (…ly / に・く).",
         "静かだ": "that's the plain present form of 静か, but the cue asks for adverb (…ly / に・く).",
@@ -722,9 +722,9 @@
         "しずかな"
       ],
       "hint": "静か…",
-      "explanation": "{静|しず}か is a な-adjective: 静か + な → **静かな**.",
+      "explanation": "{静|しず}か is a な-adjective: 静か + な → **静かな**.\n\nExample: **{静|しず}かな**{部屋|へや}で{勉強|べんきょう}したい。",
       "notes": [],
-      "translation": "静か = quiet",
+      "translation": "I want to study in a quiet room. (静か = quiet)",
       "wrong_forms": {
         "しずかだ": "that's the plain present form of 静か, but the cue asks for before a noun.",
         "静かだ": "that's the plain present form of 静か, but the cue asks for before a noun.",
@@ -774,9 +774,9 @@
         "しずかであれば"
       ],
       "hint": "静かな…",
-      "explanation": "{静|しず}か is a な-adjective: 静か + なら → **静かなら**.",
+      "explanation": "{静|しず}か is a な-adjective: 静か + なら → **静かなら**.\n\nExample: **{静|しず}かなら**、どこでもいいです。",
       "notes": [],
-      "translation": "静か = quiet",
+      "translation": "Anywhere is fine, as long as it's quiet. (静か = quiet)",
       "wrong_forms": {
         "しずかだ": "that's the plain present form of 静か, but the cue asks for if … (ば / なら).",
         "静かだ": "that's the plain present form of 静か, but the cue asks for if … (ば / なら).",
@@ -823,9 +823,9 @@
         "いいです"
       ],
       "hint": "いいで…",
-      "explanation": "いい is an い-adjective: the dictionary form → **いいです**.",
+      "explanation": "いい is an い-adjective: the dictionary form → **いいです**.\n\nExample: この{部屋|へや}は{景色|けしき}が**いいです**。",
       "notes": [],
-      "translation": "いい = good",
+      "translation": "The view from this room is nice. (いい = good)",
       "wrong_forms": {
         "いい": "that's the plain present form of いい, but the cue asks for polite present.",
         "よくない": "that's the plain negative form of いい, but the cue asks for polite present.",
@@ -853,9 +853,9 @@
         "よくない"
       ],
       "hint": "よ…",
-      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + くない) → **よくない**.",
+      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + くない) → **よくない**.\n\nExample: {夜更|よふ}かしは{体|からだ}に**よくない**。",
       "notes": [],
-      "translation": "いい = good",
+      "translation": "Staying up late isn't good for you. (いい = good)",
       "wrong_forms": {
         "いい": "that's the plain present form of いい, but the cue asks for plain negative.",
         "いいです": "that's the polite present form of いい, but the cue asks for plain negative.",
@@ -885,9 +885,9 @@
         "よかった"
       ],
       "hint": "よ…",
-      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + かった) → **よかった**.",
+      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + かった) → **よかった**.\n\nExample: {旅行|りょこう}の{間|あいだ}、ずっと{天気|てんき}が**よかった**。",
       "notes": [],
-      "translation": "いい = good",
+      "translation": "The weather was good throughout the trip. (いい = good)",
       "wrong_forms": {
         "いい": "that's the plain present form of いい, but the cue asks for plain past.",
         "いいです": "that's the polite present form of いい, but the cue asks for plain past.",
@@ -917,9 +917,9 @@
         "よくなかった"
       ],
       "hint": "よ…",
-      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + くなかった) → **よくなかった**.",
+      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + くなかった) → **よくなかった**.\n\nExample: {試験|しけん}の{結果|けっか}は**よくなかった**。",
       "notes": [],
-      "translation": "いい = good",
+      "translation": "The exam results weren't good. (いい = good)",
       "wrong_forms": {
         "いい": "that's the plain present form of いい, but the cue asks for plain past negative.",
         "いいです": "that's the polite present form of いい, but the cue asks for plain past negative.",
@@ -949,9 +949,9 @@
         "よくて"
       ],
       "hint": "よ…",
-      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + くて) → **よくて**.",
+      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + くて) → **よくて**.\n\nExample: {天気|てんき}が**よくて**、{気持|きも}ちがいい。",
       "notes": [],
-      "translation": "いい = good",
+      "translation": "The weather's good and it feels great. (いい = good)",
       "wrong_forms": {
         "いい": "that's the plain present form of いい, but the cue asks for て-form (… and …).",
         "いいです": "that's the polite present form of いい, but the cue asks for て-form (… and …).",
@@ -981,9 +981,9 @@
         "よく"
       ],
       "hint": "よ…",
-      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + く) → **よく**.",
+      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + く) → **よく**.\n\nExample: {先生|せんせい}の{説明|せつめい}は**よく**{分|わ}かった。",
       "notes": [],
-      "translation": "いい = good",
+      "translation": "I understood the teacher's explanation well. (いい = good)",
       "wrong_forms": {
         "いい": "that's the plain present form of いい, but the cue asks for adverb (…ly / に・く).",
         "いいです": "that's the polite present form of いい, but the cue asks for adverb (…ly / に・く).",
@@ -1013,9 +1013,9 @@
         "いい"
       ],
       "hint": "い…",
-      "explanation": "いい is an い-adjective: it goes straight before a noun — no な → **いい**.",
+      "explanation": "いい is an い-adjective: it goes straight before a noun — no な → **いい**.\n\nExample: {今日|きょう}は**いい**{天気|てんき}ですね。",
       "notes": [],
-      "translation": "いい = good",
+      "translation": "Lovely weather today, isn't it? (いい = good)",
       "wrong_forms": {
         "いいです": "that's the polite present form of いい, but the cue asks for before a noun.",
         "よくない": "that's the plain negative form of いい, but the cue asks for before a noun.",
@@ -1043,9 +1043,9 @@
         "よければ"
       ],
       "hint": "よ…",
-      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + ければ) → **よければ**.",
+      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + ければ) → **よければ**.\n\nExample: **よければ**、{一緒|いっしょ}に{来|き}ませんか。",
       "notes": [],
-      "translation": "いい = good",
+      "translation": "If you like, why not come along? (いい = good)",
       "wrong_forms": {
         "いい": "that's the plain present form of いい, but the cue asks for if … (ば / なら).",
         "いいです": "that's the polite present form of いい, but the cue asks for if … (ば / なら).",

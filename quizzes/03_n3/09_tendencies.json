@@ -120,14 +120,14 @@
         "forgot completely"
       ],
       "answer": 0,
-      "explanation": "がち = **tends to** happen.",
+      "explanation": "がち = **tends to** happen.\n\nExample: {最近|さいきん}、{約束|やくそく}を**{忘|わす}れがち**だ。",
       "notes": [
         "",
         "'Slightly' is ぎみ.",
         "'Looks …' is そう.",
         "'Completely' would be 忘れてしまった."
       ],
-      "translation": ""
+      "translation": "Lately I tend to forget appointments."
     },
     {
       "point": "gimi",

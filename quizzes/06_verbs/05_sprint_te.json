@@ -59,7 +59,7 @@
         "かって"
       ],
       "hint": "う・つ・る → って",
-      "explanation": "{買|か}う is an う-verb (godan): う・つ・る → って → **買って**.",
+      "explanation": "{買|か}う is an う-verb (godan): う・つ・る → って → **買って**.\n\nExample: パンを**{買|か}って**{帰|かえ}る。",
       "notes": [],
       "wrong_forms": {
         "かう": "that's the plain present form of 買う, but the cue asks for て-form.",
@@ -95,7 +95,7 @@
         "かわせた": "that's the causative (make / let), past form of 買う, but the cue asks for て-form.",
         "買わせた": "that's the causative (make / let), past form of 買う, but the cue asks for て-form."
       },
-      "translation": "買う = to buy"
+      "translation": "I'll buy some bread on the way home. (買う = to buy)"
     },
     {
       "point": "te-ru",
@@ -107,7 +107,7 @@
         "たべて"
       ],
       "hint": "る-verbs: drop る + て",
-      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べて**.",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べて**.\n\nExample: {冷|さ}めないうちに**{食|た}べて**ね。",
       "notes": [],
       "wrong_forms": {
         "たべる": "that's the plain present form of 食べる, but the cue asks for て-form.",
@@ -145,7 +145,7 @@
         "たべって": "that's the う-verb pattern, but 食べる is a る-verb: just drop る.",
         "食べって": "that's the う-verb pattern, but 食べる is a る-verb: just drop る."
       },
-      "translation": "食べる = to eat"
+      "translation": "Eat it before it gets cold. (食べる = to eat)"
     },
     {
       "point": "te-ite",
@@ -157,7 +157,7 @@
         "かいて"
       ],
       "hint": "く → いて, ぐ → いで",
-      "explanation": "{書|か}く is an う-verb (godan): く → いて → **書いて**.",
+      "explanation": "{書|か}く is an う-verb (godan): く → いて → **書いて**.\n\nExample: ここに{名前|なまえ}を**{書|か}いて**ください。",
       "notes": [],
       "wrong_forms": {
         "かく": "that's the plain present form of 書く, but the cue asks for て-form.",
@@ -193,7 +193,7 @@
         "かかせた": "that's the causative (make / let), past form of 書く, but the cue asks for て-form.",
         "書かせた": "that's the causative (make / let), past form of 書く, but the cue asks for て-form."
       },
-      "translation": "書く = to write"
+      "translation": "Please write your name here. (書く = to write)"
     },
     {
       "point": "te-nde",
@@ -205,7 +205,7 @@
         "のんで"
       ],
       "hint": "ぬ・ぶ・む → んで",
-      "explanation": "{飲|の}む is an う-verb (godan): ぬ・ぶ・む → んで → **飲んで**.",
+      "explanation": "{飲|の}む is an う-verb (godan): ぬ・ぶ・む → んで → **飲んで**.\n\nExample: {薬|くすり}を**{飲|の}んで**{寝|ね}た。",
       "notes": [],
       "wrong_forms": {
         "のむ": "that's the plain present form of 飲む, but the cue asks for て-form.",
@@ -241,7 +241,7 @@
         "のませた": "that's the causative (make / let), past form of 飲む, but the cue asks for て-form.",
         "飲ませた": "that's the causative (make / let), past form of 飲む, but the cue asks for て-form."
       },
-      "translation": "飲む = to drink"
+      "translation": "I took my medicine and went to bed. (飲む = to drink)"
     },
     {
       "point": "te-tte",
@@ -253,7 +253,7 @@
         "まって"
       ],
       "hint": "う・つ・る → って",
-      "explanation": "{待|ま}つ is an う-verb (godan): う・つ・る → って → **待って**.",
+      "explanation": "{待|ま}つ is an う-verb (godan): う・つ・る → って → **待って**.\n\nExample: ちょっと**{待|ま}って**ください。",
       "notes": [],
       "wrong_forms": {
         "まつ": "that's the plain present form of 待つ, but the cue asks for て-form.",
@@ -289,7 +289,7 @@
         "またせた": "that's the causative (make / let), past form of 待つ, but the cue asks for て-form.",
         "待たせた": "that's the causative (make / let), past form of 待つ, but the cue asks for て-form."
       },
-      "translation": "待つ = to wait"
+      "translation": "Please wait a moment. (待つ = to wait)"
     },
     {
       "point": "te-shite",
@@ -301,7 +301,7 @@
         "はなして"
       ],
       "hint": "す → して",
-      "explanation": "{話|はな}す is an う-verb (godan): す → して → **話して**.",
+      "explanation": "{話|はな}す is an う-verb (godan): す → して → **話して**.\n\nExample: もう{少|すこ}しゆっくり**{話|はな}して**ください。",
       "notes": [],
       "wrong_forms": {
         "はなす": "that's the plain present form of 話す, but the cue asks for て-form.",
@@ -337,7 +337,7 @@
         "はなさせた": "that's the causative (make / let), past form of 話す, but the cue asks for て-form.",
         "話させた": "that's the causative (make / let), past form of 話す, but the cue asks for て-form."
       },
-      "translation": "話す = to speak"
+      "translation": "Please speak a little more slowly. (話す = to speak)"
     },
     {
       "point": "te-irr",
@@ -349,7 +349,7 @@
         "いって"
       ],
       "hint": "Irregular: 行く, する, 来る",
-      "explanation": "{行|い}く is an う-verb (godan) — with one exception: 行く is the exception: 行って / 行った (not 行いて) → **行って**.",
+      "explanation": "{行|い}く is an う-verb (godan) — with one exception: 行く is the exception: 行って / 行った (not 行いて) → **行って**.\n\nExample: {駅|えき}まで**{行|い}って**、{電車|でんしゃ}に{乗|の}った。",
       "notes": [],
       "wrong_forms": {
         "いく": "that's the plain present form of 行く, but the cue asks for て-form.",
@@ -385,7 +385,7 @@
         "いかせた": "that's the causative (make / let), past form of 行く, but the cue asks for て-form.",
         "行かせた": "that's the causative (make / let), past form of 行く, but the cue asks for て-form."
       },
-      "translation": "行く = to go"
+      "translation": "I went to the station and got on the train. (行く = to go)"
     },
     {
       "point": "te-ru",
@@ -397,7 +397,7 @@
         "みて"
       ],
       "hint": "る-verbs: drop る + て",
-      "explanation": "{見|み}る is a る-verb (ichidan): drop る + て / た → **見て**.",
+      "explanation": "{見|み}る is a る-verb (ichidan): drop る + て / た → **見て**.\n\nExample: この{写真|しゃしん}を**{見|み}て**ください。",
       "notes": [],
       "wrong_forms": {
         "みる": "that's the plain present form of 見る, but the cue asks for て-form.",
@@ -435,7 +435,7 @@
         "みって": "that's the う-verb pattern, but 見る is a る-verb: just drop る.",
         "見って": "that's the う-verb pattern, but 見る is a る-verb: just drop る."
       },
-      "translation": "見る = to see"
+      "translation": "Please look at this photo. (見る = to see)"
     },
     {
       "point": "te-nde",
@@ -447,7 +447,7 @@
         "あそんで"
       ],
       "hint": "ぬ・ぶ・む → んで",
-      "explanation": "{遊|あそ}ぶ is an う-verb (godan): ぬ・ぶ・む → んで → **遊んで**.",
+      "explanation": "{遊|あそ}ぶ is an う-verb (godan): ぬ・ぶ・む → んで → **遊んで**.\n\nExample: **{遊|あそ}んで**ばかりいないで、{勉強|べんきょう}しなさい。",
       "notes": [],
       "wrong_forms": {
         "あそぶ": "that's the plain present form of 遊ぶ, but the cue asks for て-form.",
@@ -483,7 +483,7 @@
         "あそばせた": "that's the causative (make / let), past form of 遊ぶ, but the cue asks for て-form.",
         "遊ばせた": "that's the causative (make / let), past form of 遊ぶ, but the cue asks for て-form."
       },
-      "translation": "遊ぶ = to play"
+      "translation": "Stop playing all the time and study. (遊ぶ = to play)"
     },
     {
       "point": "te-tte",
@@ -495,7 +495,7 @@
         "かえって"
       ],
       "hint": "う・つ・る → って",
-      "explanation": "{帰|かえ}る is an う-verb (godan): う・つ・る → って → **帰って**. ⚠ {帰|かえ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.",
+      "explanation": "{帰|かえ}る is an う-verb (godan): う・つ・る → って → **帰って**. ⚠ {帰|かえ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.\n\nExample: {家|いえ}に**{帰|かえ}って**、すぐ{寝|ね}た。",
       "notes": [],
       "wrong_forms": {
         "かえる": "that's the plain present form of 帰る, but the cue asks for て-form.",
@@ -533,7 +533,7 @@
         "かえて": "that's the る-verb pattern, but 帰る is an う-verb (one of the -iる/-eる exceptions).",
         "帰て": "that's the る-verb pattern, but 帰る is an う-verb (one of the -iる/-eる exceptions)."
       },
-      "translation": "帰る = to go home"
+      "translation": "I went home and went straight to bed. (帰る = to go home)"
     },
     {
       "point": "te-ite",
@@ -545,7 +545,7 @@
         "およいで"
       ],
       "hint": "く → いて, ぐ → いで",
-      "explanation": "{泳|およ}ぐ is an う-verb (godan): ぐ → いで → **泳いで**.",
+      "explanation": "{泳|およ}ぐ is an う-verb (godan): ぐ → いで → **泳いで**.\n\nExample: {海|うみ}で**{泳|およ}いで**、{楽|たの}しかった。",
       "notes": [],
       "wrong_forms": {
         "およぐ": "that's the plain present form of 泳ぐ, but the cue asks for て-form.",
@@ -581,7 +581,7 @@
         "およがせた": "that's the causative (make / let), past form of 泳ぐ, but the cue asks for て-form.",
         "泳がせた": "that's the causative (make / let), past form of 泳ぐ, but the cue asks for て-form."
       },
-      "translation": "泳ぐ = to swim"
+      "translation": "We swam in the sea and had fun. (泳ぐ = to swim)"
     },
     {
       "point": "te-irr",
@@ -592,7 +592,7 @@
         "して"
       ],
       "hint": "Irregular: 行く, する, 来る",
-      "explanation": "する is irregular (する): する → し + ending → **して**.",
+      "explanation": "する is irregular (する): する → し + ending → **して**.\n\nExample: {宿題|しゅくだい}を**して**から{遊|あそ}ぶ。",
       "notes": [],
       "wrong_forms": {
         "する": "that's the plain present form of する, but the cue asks for て-form.",
@@ -612,7 +612,7 @@
         "された": "that's the passive, past form of する, but the cue asks for て-form.",
         "させた": "that's the causative (make / let), past form of する, but the cue asks for て-form."
       },
-      "translation": "する = to do"
+      "translation": "I'll play after I've done my homework. (する = to do)"
     },
     {
       "point": "te-nde",
@@ -624,7 +624,7 @@
         "しんで"
       ],
       "hint": "ぬ・ぶ・む → んで",
-      "explanation": "{死|し}ぬ is an う-verb (godan): ぬ・ぶ・む → んで → **死んで**.",
+      "explanation": "{死|し}ぬ is an う-verb (godan): ぬ・ぶ・む → んで → **死んで**.\n\nExample: {祖父|そふ}が**{死|し}んで**、もう5{年|ねん}になる。",
       "notes": [],
       "wrong_forms": {
         "しぬ": "that's the plain present form of 死ぬ, but the cue asks for て-form.",
@@ -660,7 +660,7 @@
         "しなせた": "that's the causative (make / let), past form of 死ぬ, but the cue asks for て-form.",
         "死なせた": "that's the causative (make / let), past form of 死ぬ, but the cue asks for て-form."
       },
-      "translation": "死ぬ = to die"
+      "translation": "It's been five years since my grandfather died. (死ぬ = to die)"
     },
     {
       "point": "te-ru",
@@ -672,7 +672,7 @@
         "おきて"
       ],
       "hint": "る-verbs: drop る + て",
-      "explanation": "{起|お}きる is a る-verb (ichidan): drop る + て / た → **起きて**.",
+      "explanation": "{起|お}きる is a る-verb (ichidan): drop る + て / た → **起きて**.\n\nExample: {朝|あさ}**{起|お}きて**、まずコーヒーを{飲|の}む。",
       "notes": [],
       "wrong_forms": {
         "おきる": "that's the plain present form of 起きる, but the cue asks for て-form.",
@@ -710,7 +710,7 @@
         "おきって": "that's the う-verb pattern, but 起きる is a る-verb: just drop る.",
         "起きって": "that's the う-verb pattern, but 起きる is a る-verb: just drop る."
       },
-      "translation": "起きる = to get up"
+      "translation": "When I get up in the morning, I have a coffee first. (起きる = to get up)"
     },
     {
       "point": "te-shite",
@@ -722,7 +722,7 @@
         "かして"
       ],
       "hint": "す → して",
-      "explanation": "{貸|か}す is an う-verb (godan): す → して → **貸して**.",
+      "explanation": "{貸|か}す is an う-verb (godan): す → して → **貸して**.\n\nExample: ペンを**{貸|か}して**ください。",
       "notes": [],
       "wrong_forms": {
         "かす": "that's the plain present form of 貸す, but the cue asks for て-form.",
@@ -758,7 +758,7 @@
         "かさせた": "that's the causative (make / let), past form of 貸す, but the cue asks for て-form.",
         "貸させた": "that's the causative (make / let), past form of 貸す, but the cue asks for て-form."
       },
-      "translation": "貸す = to lend"
+      "translation": "Could you lend me a pen? (貸す = to lend)"
     },
     {
       "point": "te-irr",
@@ -770,7 +770,7 @@
         "きて"
       ],
       "hint": "Irregular: 行く, する, 来る",
-      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来て**.",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来て**.\n\nExample: {明日|あした}も**{来|き}て**ください。",
       "notes": [],
       "wrong_forms": {
         "くる": "that's the plain present form of 来る, but the cue asks for て-form.",
@@ -806,7 +806,7 @@
         "こさせた": "that's the causative (make / let), past form of 来る, but the cue asks for て-form.",
         "来させた": "that's the causative (make / let), past form of 来る, but the cue asks for て-form."
       },
-      "translation": "来る = to come"
+      "translation": "Please come tomorrow too. (来る = to come)"
     },
     {
       "point": "te-tte",
@@ -818,7 +818,7 @@
         "きって"
       ],
       "hint": "う・つ・る → って",
-      "explanation": "{切|き}る is an う-verb (godan): う・つ・る → って → **切って**. ⚠ {切|き}る ends in -iる like a る-verb, but it is one of the う-verb exceptions.",
+      "explanation": "{切|き}る is an う-verb (godan): う・つ・る → って → **切って**. ⚠ {切|き}る ends in -iる like a る-verb, but it is one of the う-verb exceptions.\n\nExample: {野菜|やさい}を**{切|き}って**、{鍋|なべ}に{入|い}れてください。",
       "notes": [],
       "wrong_forms": {
         "きる": "that's the plain present form of 切る, but the cue asks for て-form.",
@@ -856,7 +856,7 @@
         "きて": "that's the る-verb pattern, but 切る is an う-verb (one of the -iる/-eる exceptions).",
         "切て": "that's the る-verb pattern, but 切る is an う-verb (one of the -iる/-eる exceptions)."
       },
-      "translation": "切る = to cut"
+      "translation": "Cut the vegetables and put them in the pot. (切る = to cut)"
     },
     {
       "point": "te-ite",
@@ -868,7 +868,7 @@
         "いそいで"
       ],
       "hint": "く → いて, ぐ → いで",
-      "explanation": "{急|いそ}ぐ is an う-verb (godan): ぐ → いで → **急いで**.",
+      "explanation": "{急|いそ}ぐ is an う-verb (godan): ぐ → いで → **急いで**.\n\nExample: **{急|いそ}いで**{駅|えき}まで{走|はし}った。",
       "notes": [],
       "wrong_forms": {
         "いそぐ": "that's the plain present form of 急ぐ, but the cue asks for て-form.",
@@ -904,7 +904,7 @@
         "いそがせた": "that's the causative (make / let), past form of 急ぐ, but the cue asks for て-form.",
         "急がせた": "that's the causative (make / let), past form of 急ぐ, but the cue asks for て-form."
       },
-      "translation": "急ぐ = to hurry"
+      "translation": "I hurried to the station. (急ぐ = to hurry)"
     },
     {
       "point": "te-tte",
@@ -916,7 +916,7 @@
         "あらって"
       ],
       "hint": "う・つ・る → って",
-      "explanation": "{洗|あら}う is an う-verb (godan): う・つ・る → って → **洗って**.",
+      "explanation": "{洗|あら}う is an う-verb (godan): う・つ・る → って → **洗って**.\n\nExample: {手|て}を**{洗|あら}って**から{食|た}べてね。",
       "notes": [],
       "wrong_forms": {
         "あらう": "that's the plain present form of 洗う, but the cue asks for て-form.",
@@ -952,7 +952,7 @@
         "あらわせた": "that's the causative (make / let), past form of 洗う, but the cue asks for て-form.",
         "洗わせた": "that's the causative (make / let), past form of 洗う, but the cue asks for て-form."
       },
-      "translation": "洗う = to wash"
+      "translation": "Wash your hands before you eat. (洗う = to wash)"
     },
     {
       "point": "te-ru",
@@ -964,7 +964,7 @@
         "きて"
       ],
       "hint": "る-verbs: drop る + て",
-      "explanation": "{着|き}る is a る-verb (ichidan): drop る + て / た → **着て**.",
+      "explanation": "{着|き}る is a る-verb (ichidan): drop る + て / た → **着て**.\n\nExample: {浴衣|ゆかた}を**{着|き}て**{祭|まつ}りに{行|い}った。",
       "notes": [],
       "wrong_forms": {
         "きる": "that's the plain present form of 着る, but the cue asks for て-form.",
@@ -1002,7 +1002,7 @@
         "きって": "that's the う-verb pattern, but 着る is a る-verb: just drop る.",
         "着って": "that's the う-verb pattern, but 着る is a る-verb: just drop る."
       },
-      "translation": "着る = to wear"
+      "translation": "I wore a yukata and went to the festival. (着る = to wear)"
     }
   ]
 }

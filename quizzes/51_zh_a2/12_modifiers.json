@@ -92,14 +92,14 @@
         "{一|yì}{本|běn}{书|shū}{新|xīn}"
       ],
       "answer": 0,
-      "explanation": "One-syllable adj + noun: **新书**.",
+      "explanation": "One-syllable adj + noun: **新书**.\n\nExample: {我|wǒ}{买|mǎi}{了|le}{一|yì}{本|běn}{新|xīn}{书|shū}。",
       "notes": [
         "",
         "很 must come before the adjective.",
         "With 很 you'd need 的: 很新的书.",
         "The adjective comes before the noun."
       ],
-      "translation": "a new book"
+      "translation": "I bought a new book."
     },
     {
       "point": "clausede",
@@ -130,14 +130,14 @@
         "{人|rén}{在|zài}{看|kàn}{书|shū}{的|de}"
       ],
       "answer": 1,
-      "explanation": "Description **before** the noun.",
+      "explanation": "Description **before** the noun.\n\nExample: {在|zài}{看|kàn}{书|shū}{的|de}{人|rén}{是|shì}{我|wǒ}{哥哥|gēge}。",
       "notes": [
         "在 goes before 看.",
         "",
         "的 joins the clause to the noun.",
         "The noun comes last."
       ],
-      "translation": "the person who is reading a book"
+      "translation": "The person reading a book is my older brother."
     },
     {
       "point": "clausede",

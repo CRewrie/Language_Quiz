@@ -38,9 +38,9 @@
         "よむ"
       ],
       "hint": "んで ← ぬ, ぶ or む",
-      "explanation": "読んで: んで ← ぬ, ぶ or む; with this kanji only 読む makes sense → **読む**.",
+      "explanation": "読んで: んで ← ぬ, ぶ or む; with this kanji only 読む makes sense → **読む**.\n\nExample: {毎晩|まいばん}{本|ほん}を**{読|よ}んで**から{寝|ね}る。",
       "notes": [],
-      "translation": "読む = to read"
+      "translation": "Every night I read before going to sleep. (読む = to read)"
     },
     {
       "point": "back-te",
@@ -52,9 +52,9 @@
         "かう"
       ],
       "hint": "って ← う, つ or る",
-      "explanation": "買って: って ← う, つ or る; with this kanji only 買う makes sense → **買う**.",
+      "explanation": "買って: って ← う, つ or る; with this kanji only 買う makes sense → **買う**.\n\nExample: パンを**{買|か}って**{帰|かえ}る。",
       "notes": [],
-      "translation": "買う = to buy"
+      "translation": "I'll buy some bread on the way home. (買う = to buy)"
     },
     {
       "point": "back-te",
@@ -66,9 +66,9 @@
         "まつ"
       ],
       "hint": "って ← う, つ or る",
-      "explanation": "待った: って ← う, つ or る; with this kanji only 待つ makes sense → **待つ**.",
+      "explanation": "待った: って ← う, つ or る; with this kanji only 待つ makes sense → **待つ**.\n\nExample: {駅|えき}で30{分|ぷん}も**{待|ま}った**。",
       "notes": [],
-      "translation": "待つ = to wait"
+      "translation": "I waited a whole thirty minutes at the station. (待つ = to wait)"
     },
     {
       "point": "back-te",
@@ -80,9 +80,9 @@
         "かえる"
       ],
       "hint": "って ← う, つ or る",
-      "explanation": "帰って: って ← う, つ or る; with this kanji only 帰る makes sense → **帰る**. ⚠ An う-verb that looks like a る-verb.",
+      "explanation": "帰って: って ← う, つ or る; with this kanji only 帰る makes sense → **帰る**. ⚠ An う-verb that looks like a る-verb.\n\nExample: {家|いえ}に**{帰|かえ}って**、すぐ{寝|ね}た。",
       "notes": [],
-      "translation": "帰る = to go home"
+      "translation": "I went home and went straight to bed. (帰る = to go home)"
     },
     {
       "point": "back-te",
@@ -94,9 +94,9 @@
         "きる"
       ],
       "hint": "Try a る-verb: is there a って / んで / いて?",
-      "explanation": "着て: a plain て / た after an -i / -e sound: a る-verb, so add る → **着る**.",
+      "explanation": "着て: a plain て / た after an -i / -e sound: a る-verb, so add る → **着る**.\n\nExample: {浴衣|ゆかた}を**{着|き}て**{祭|まつ}りに{行|い}った。",
       "notes": [],
-      "translation": "着る = to wear"
+      "translation": "I wore a yukata and went to the festival. (着る = to wear)"
     },
     {
       "point": "back-te",
@@ -108,9 +108,9 @@
         "かく"
       ],
       "hint": "いて ← く",
-      "explanation": "書いた: いて ← く; with this kanji only 書く makes sense → **書く**.",
+      "explanation": "書いた: いて ← く; with this kanji only 書く makes sense → **書く**.\n\nExample: {昨日|きのう}、{母|はは}に{手紙|てがみ}を**{書|か}いた**。",
       "notes": [],
-      "translation": "書く = to write"
+      "translation": "I wrote a letter to my mother yesterday. (書く = to write)"
     },
     {
       "point": "back-te",
@@ -122,9 +122,9 @@
         "いそぐ"
       ],
       "hint": "いで ← ぐ",
-      "explanation": "急いで: いで ← ぐ; with this kanji only 急ぐ makes sense → **急ぐ**.",
+      "explanation": "急いで: いで ← ぐ; with this kanji only 急ぐ makes sense → **急ぐ**.\n\nExample: **{急|いそ}いで**{駅|えき}まで{走|はし}った。",
       "notes": [],
-      "translation": "急ぐ = to hurry"
+      "translation": "I hurried to the station. (急ぐ = to hurry)"
     },
     {
       "point": "back-te",
@@ -136,9 +136,9 @@
         "はなす"
       ],
       "hint": "して ← す",
-      "explanation": "話した: して ← す; with this kanji only 話す makes sense → **話す**.",
+      "explanation": "話した: して ← す; with this kanji only 話す makes sense → **話す**.\n\nExample: {先生|せんせい}と{将来|しょうらい}について**{話|はな}した**。",
       "notes": [],
-      "translation": "話す = to speak"
+      "translation": "I talked with my teacher about the future. (話す = to speak)"
     },
     {
       "point": "back-te",
@@ -150,9 +150,9 @@
         "あそぶ"
       ],
       "hint": "んで ← ぬ, ぶ or む",
-      "explanation": "遊んだ: んで ← ぬ, ぶ or む; with this kanji only 遊ぶ makes sense → **遊ぶ**.",
+      "explanation": "遊んだ: んで ← ぬ, ぶ or む; with this kanji only 遊ぶ makes sense → **遊ぶ**.\n\nExample: {公園|こうえん}で{子供|こども}と**{遊|あそ}んだ**。",
       "notes": [],
-      "translation": "遊ぶ = to play"
+      "translation": "I played with the kids in the park. (遊ぶ = to play)"
     },
     {
       "point": "back-te",
@@ -164,9 +164,9 @@
         "いく"
       ],
       "hint": "って ← う, つ, る … or the exception 行く",
-      "explanation": "行って: 行って is the one irregular て-form: 行く → **行く**.",
+      "explanation": "行って: 行って is the one irregular て-form: 行く → **行く**.\n\nExample: {駅|えき}まで**{行|い}って**、{電車|でんしゃ}に{乗|の}った。",
       "notes": [],
-      "translation": "行く = to go"
+      "translation": "I went to the station and got on the train. (行く = to go)"
     },
     {
       "point": "back-te",
@@ -178,9 +178,9 @@
         "くる"
       ],
       "hint": "Irregular: き・こ・く",
-      "explanation": "来て: き / こ belong to the irregular 来る (きます, こない, きて) → **来る**.",
+      "explanation": "来て: き / こ belong to the irregular 来る (きます, こない, きて) → **来る**.\n\nExample: {明日|あした}も**{来|き}て**ください。",
       "notes": [],
-      "translation": "来る = to come"
+      "translation": "Please come tomorrow too. (来る = to come)"
     },
     {
       "point": "back-nai",
@@ -192,9 +192,9 @@
         "かえる"
       ],
       "hint": "ら is an あ-row sound",
-      "explanation": "帰らない: ら (あ-row) + ない → back to the う-row: ら → る → **帰る**. ⚠ An う-verb that looks like a る-verb.",
+      "explanation": "帰らない: ら (あ-row) + ない → back to the う-row: ら → る → **帰る**. ⚠ An う-verb that looks like a る-verb.\n\nExample: {今夜|こんや}は{家|いえ}に**{帰|かえ}らない**。",
       "notes": [],
-      "translation": "帰る = to go home"
+      "translation": "I'm not going home tonight. (帰る = to go home)"
     },
     {
       "point": "back-nai",
@@ -206,9 +206,9 @@
         "きる"
       ],
       "hint": "No あ-row sound before ない",
-      "explanation": "着ない: nothing but ない was added, so it's a る-verb: ない → る → **着る**.",
+      "explanation": "着ない: nothing but ない was added, so it's a る-verb: ない → る → **着る**.\n\nExample: {夏|なつ}はコートを**{着|き}ない**。",
       "notes": [],
-      "translation": "着る = to wear"
+      "translation": "I don't wear a coat in summer. (着る = to wear)"
     },
     {
       "point": "back-nai",
@@ -220,9 +220,9 @@
         "しる"
       ],
       "hint": "ら is an あ-row sound",
-      "explanation": "知らない: ら (あ-row) + ない → back to the う-row: ら → る → **知る**. ⚠ An う-verb that looks like a る-verb.",
+      "explanation": "知らない: ら (あ-row) + ない → back to the う-row: ら → る → **知る**. ⚠ An う-verb that looks like a る-verb.\n\nExample: その{話|はなし}は**{知|し}らない**。",
       "notes": [],
-      "translation": "知る = to know"
+      "translation": "I don't know that story. (知る = to know)"
     },
     {
       "point": "back-nai",
@@ -234,9 +234,9 @@
         "かう"
       ],
       "hint": "わ is an あ-row sound",
-      "explanation": "買わない: わ (あ-row) + ない → back to the う-row: わ → う → **買う**.",
+      "explanation": "買わない: わ (あ-row) + ない → back to the う-row: わ → う → **買う**.\n\nExample: {高|たか}いから**{買|か}わない**。",
       "notes": [],
-      "translation": "買う = to buy"
+      "translation": "It's expensive, so I won't buy it. (買う = to buy)"
     },
     {
       "point": "back-nai",
@@ -248,9 +248,9 @@
         "くる"
       ],
       "hint": "Irregular: き・こ・く",
-      "explanation": "来ない: き / こ belong to the irregular 来る (きます, こない, きて) → **来る**.",
+      "explanation": "来ない: き / こ belong to the irregular 来る (きます, こない, きて) → **来る**.\n\nExample: バスがなかなか**{来|こ}ない**。",
       "notes": [],
-      "translation": "来る = to come"
+      "translation": "The bus just isn't coming. (来る = to come)"
     },
     {
       "point": "back-masu",
@@ -262,9 +262,9 @@
         "みる"
       ],
       "hint": "-i sound before ます: る-verb (+る) or う-verb (i → u)?",
-      "explanation": "見ます: an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). You have to know the verb: here it's a る-verb, not 見む → **見る**.",
+      "explanation": "見ます: an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). You have to know the verb: here it's a る-verb, not 見む → **見る**.\n\nExample: {毎晩|まいばん}ニュースを**{見|み}ます**。",
       "notes": [],
-      "translation": "見る = to see"
+      "translation": "I watch the news every evening. (見る = to see)"
     },
     {
       "point": "back-masu",
@@ -276,9 +276,9 @@
         "かく"
       ],
       "hint": "-i sound before ます: る-verb (+る) or う-verb (i → u)?",
-      "explanation": "書きます: an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). You have to know the verb: here it's an う-verb, not 書きる → **書く**.",
+      "explanation": "書きます: an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). You have to know the verb: here it's an う-verb, not 書きる → **書く**.\n\nExample: {毎日|まいにち}{日記|にっき}を**{書|か}きます**。",
       "notes": [],
-      "translation": "書く = to write"
+      "translation": "I write in my diary every day. (書く = to write)"
     },
     {
       "point": "back-masu",
@@ -290,9 +290,9 @@
         "かりる"
       ],
       "hint": "-i sound before ます: る-verb (+る) or う-verb (i → u)?",
-      "explanation": "借ります: an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). You have to know the verb: here it's a る-verb, not 借る → **借りる**.",
+      "explanation": "借ります: an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). You have to know the verb: here it's a る-verb, not 借る → **借りる**.\n\nExample: {図書館|としょかん}で{本|ほん}を**{借|か}ります**。",
       "notes": [],
-      "translation": "借りる = to borrow"
+      "translation": "I borrow books from the library. (借りる = to borrow)"
     },
     {
       "point": "back-masu",
@@ -304,9 +304,9 @@
         "はいる"
       ],
       "hint": "-i sound before ます: る-verb (+る) or う-verb (i → u)?",
-      "explanation": "入ります: an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). You have to know the verb: here it's an う-verb, not 入りる → **入る**. ⚠ An う-verb that looks like a る-verb.",
+      "explanation": "入ります: an -i sound before ます can be a る-verb (+る) or an う-verb (い-row → う-row). You have to know the verb: here it's an う-verb, not 入りる → **入る**. ⚠ An う-verb that looks like a る-verb.\n\nExample: {毎晩|まいばん}お{風呂|ふろ}に**{入|はい}ります**。",
       "notes": [],
-      "translation": "入る = to enter"
+      "translation": "I take a bath every evening. (入る = to enter)"
     }
   ]
 }

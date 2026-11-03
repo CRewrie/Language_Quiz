@@ -218,14 +218,14 @@
         "{半两点|bàn liǎng diǎn}"
       ],
       "answer": 2,
-      "explanation": "**两点半**.",
+      "explanation": "**两点半**.\n\nExample: {我们|wǒmen}{下午|xiàwǔ}{两点半|liǎng diǎn bàn}{见|jiàn}。",
       "notes": [
         "半 comes after 点.",
         "2 o'clock is 两点.",
         "",
         "半 comes after 点."
       ],
-      "translation": ""
+      "translation": "Let's meet at half past two this afternoon."
     },
     {
       "point": "time",

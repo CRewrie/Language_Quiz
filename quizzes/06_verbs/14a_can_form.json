@@ -38,7 +38,7 @@
         "かける"
       ],
       "hint": "う-verbs: え-row + る (書ける)",
-      "explanation": "{書|か}く is an う-verb (godan): く → け (え-row) + る → **書ける** ('can …'; it conjugates like a る-verb from here).",
+      "explanation": "{書|か}く is an う-verb (godan): く → け (え-row) + る → **書ける** ('can …'; it conjugates like a る-verb from here).\n\nExample: ひらがなならもう**{書|か}ける**よ。",
       "notes": [],
       "wrong_forms": {
         "かく": "that's the plain present form of 書く, but the cue asks for can … (plain).",
@@ -74,7 +74,7 @@
         "かかせた": "that's the causative (make / let), past form of 書く, but the cue asks for can … (plain).",
         "書かせた": "that's the causative (make / let), past form of 書く, but the cue asks for can … (plain)."
       },
-      "translation": "書く = to write"
+      "translation": "I can already write hiragana. (書く = to write)"
     },
     {
       "point": "pot-u",
@@ -86,7 +86,7 @@
         "よめる"
       ],
       "hint": "う-verbs: え-row + る (書ける)",
-      "explanation": "{読|よ}む is an う-verb (godan): む → め (え-row) + る → **読める** ('can …'; it conjugates like a る-verb from here).",
+      "explanation": "{読|よ}む is an う-verb (godan): む → め (え-row) + る → **読める** ('can …'; it conjugates like a る-verb from here).\n\nExample: {日本語|にほんご}の{新聞|しんぶん}が**{読|よ}める**ようになった。",
       "notes": [],
       "wrong_forms": {
         "よむ": "that's the plain present form of 読む, but the cue asks for can … (plain).",
@@ -122,7 +122,7 @@
         "よませた": "that's the causative (make / let), past form of 読む, but the cue asks for can … (plain).",
         "読ませた": "that's the causative (make / let), past form of 読む, but the cue asks for can … (plain)."
       },
-      "translation": "読む = to read"
+      "translation": "I can now read Japanese newspapers. (読む = to read)"
     },
     {
       "point": "pot-ru",
@@ -134,7 +134,7 @@
         "たべられる"
       ],
       "hint": "る-verbs: drop る + られる (食べられる)",
-      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + られる → **食べられる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + られる → **食べられる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)\n\nExample: {辛|から}いものも**{食|た}べられる**よ。",
       "notes": [],
       "wrong_forms": {
         "たべる": "that's the plain present form of 食べる, but the cue asks for can … (plain).",
@@ -172,7 +172,7 @@
         "たべれる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 食べられる.",
         "食べれる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 食べられる."
       },
-      "translation": "食べる = to eat"
+      "translation": "I can eat spicy food too. (食べる = to eat)"
     },
     {
       "point": "pot-u",
@@ -184,7 +184,7 @@
         "はなせる"
       ],
       "hint": "う-verbs: え-row + る (書ける)",
-      "explanation": "{話|はな}す is an う-verb (godan): す → せ (え-row) + る → **話せる** ('can …'; it conjugates like a る-verb from here).",
+      "explanation": "{話|はな}す is an う-verb (godan): す → せ (え-row) + る → **話せる** ('can …'; it conjugates like a る-verb from here).\n\nExample: {姉|あね}は{英語|えいご}と{中国語|ちゅうごくご}が**{話|はな}せる**。",
       "notes": [],
       "wrong_forms": {
         "はなす": "that's the plain present form of 話す, but the cue asks for can … (plain).",
@@ -220,7 +220,7 @@
         "はなさせた": "that's the causative (make / let), past form of 話す, but the cue asks for can … (plain).",
         "話させた": "that's the causative (make / let), past form of 話す, but the cue asks for can … (plain)."
       },
-      "translation": "話す = to speak"
+      "translation": "My sister can speak English and Chinese. (話す = to speak)"
     },
     {
       "point": "pot-ru",
@@ -232,7 +232,7 @@
         "みられる"
       ],
       "hint": "る-verbs: drop る + られる (食べられる)",
-      "explanation": "{見|み}る is a る-verb (ichidan): drop る + られる → **見られる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)",
+      "explanation": "{見|み}る is a る-verb (ichidan): drop る + られる → **見られる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)\n\nExample: この{映画|えいが}はネットで**{見|み}られる**。",
       "notes": [],
       "wrong_forms": {
         "みる": "that's the plain present form of 見る, but the cue asks for can … (plain).",
@@ -270,7 +270,7 @@
         "みれる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 見られる.",
         "見れる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 見られる."
       },
-      "translation": "見る = to see"
+      "translation": "You can watch this film online. (見る = to see)"
     },
     {
       "point": "pot-irr",
@@ -281,7 +281,7 @@
         "できる"
       ],
       "hint": "Irregular: する → できる, 来る → 来られる",
-      "explanation": "する is irregular (する): する → できる → **できる**.",
+      "explanation": "する is irregular (する): する → できる → **できる**.\n\nExample: {日本語|にほんご}で{自己紹介|じこしょうかい}が**できる**ようになった。",
       "notes": [],
       "wrong_forms": {
         "する": "that's the plain present form of する, but the cue asks for can … (plain).",
@@ -301,7 +301,7 @@
         "された": "that's the passive, past form of する, but the cue asks for can … (plain).",
         "させた": "that's the causative (make / let), past form of する, but the cue asks for can … (plain)."
       },
-      "translation": "する = to do"
+      "translation": "I can now introduce myself in Japanese. (する = to do)"
     },
     {
       "point": "pot-u",
@@ -313,7 +313,7 @@
         "まてる"
       ],
       "hint": "う-verbs: え-row + る (書ける)",
-      "explanation": "{待|ま}つ is an う-verb (godan): つ → て (え-row) + る → **待てる** ('can …'; it conjugates like a る-verb from here).",
+      "explanation": "{待|ま}つ is an う-verb (godan): つ → て (え-row) + る → **待てる** ('can …'; it conjugates like a る-verb from here).\n\nExample: あと5{分|ふん}なら**{待|ま}てる**よ。",
       "notes": [],
       "wrong_forms": {
         "まつ": "that's the plain present form of 待つ, but the cue asks for can … (plain).",
@@ -349,7 +349,7 @@
         "またせた": "that's the causative (make / let), past form of 待つ, but the cue asks for can … (plain).",
         "待たせた": "that's the causative (make / let), past form of 待つ, but the cue asks for can … (plain)."
       },
-      "translation": "待つ = to wait"
+      "translation": "I can wait five more minutes. (待つ = to wait)"
     },
     {
       "point": "pot-ru",
@@ -361,7 +361,7 @@
         "おきられる"
       ],
       "hint": "る-verbs: drop る + られる (食べられる)",
-      "explanation": "{起|お}きる is a る-verb (ichidan): drop る + られる → **起きられる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)",
+      "explanation": "{起|お}きる is a る-verb (ichidan): drop る + られる → **起きられる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)\n\nExample: {明日|あした}、6{時|じ}に**{起|お}きられる**？",
       "notes": [],
       "wrong_forms": {
         "おきる": "that's the plain present form of 起きる, but the cue asks for can … (plain).",
@@ -399,7 +399,7 @@
         "おきれる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 起きられる.",
         "起きれる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 起きられる."
       },
-      "translation": "起きる = to get up"
+      "translation": "Can you get up at six tomorrow? (起きる = to get up)"
     },
     {
       "point": "pot-u",
@@ -411,7 +411,7 @@
         "およげる"
       ],
       "hint": "う-verbs: え-row + る (書ける)",
-      "explanation": "{泳|およ}ぐ is an う-verb (godan): ぐ → げ (え-row) + る → **泳げる** ('can …'; it conjugates like a る-verb from here).",
+      "explanation": "{泳|およ}ぐ is an う-verb (godan): ぐ → げ (え-row) + る → **泳げる** ('can …'; it conjugates like a る-verb from here).\n\nExample: {私|わたし}は1キロ**{泳|およ}げる**。",
       "notes": [],
       "wrong_forms": {
         "およぐ": "that's the plain present form of 泳ぐ, but the cue asks for can … (plain).",
@@ -447,7 +447,7 @@
         "およがせた": "that's the causative (make / let), past form of 泳ぐ, but the cue asks for can … (plain).",
         "泳がせた": "that's the causative (make / let), past form of 泳ぐ, but the cue asks for can … (plain)."
       },
-      "translation": "泳ぐ = to swim"
+      "translation": "I can swim a kilometre. (泳ぐ = to swim)"
     },
     {
       "point": "pot-irr",
@@ -459,7 +459,7 @@
         "こられる"
       ],
       "hint": "Irregular: する → できる, 来る → 来られる",
-      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来られる**.",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来られる**.\n\nExample: {明日|あした}のパーティー、**{来|こ}られる**？",
       "notes": [],
       "wrong_forms": {
         "くる": "that's the plain present form of 来る, but the cue asks for can … (plain).",
@@ -497,7 +497,7 @@
         "これる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 来られる.",
         "来れる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 来られる."
       },
-      "translation": "来る = to come"
+      "translation": "Can you come to the party tomorrow? (来る = to come)"
     },
     {
       "point": "pot-u",
@@ -509,7 +509,7 @@
         "かえる"
       ],
       "hint": "う-verbs: え-row + る (書ける)",
-      "explanation": "{買|か}う is an う-verb (godan): う → え (え-row) + る → **買える** ('can …'; it conjugates like a る-verb from here).",
+      "explanation": "{買|か}う is an う-verb (godan): う → え (え-row) + る → **買える** ('can …'; it conjugates like a る-verb from here).\n\nExample: この{店|みせ}なら{安|やす}く**{買|か}える**。",
       "notes": [],
       "wrong_forms": {
         "かう": "that's the plain present form of 買う, but the cue asks for can … (plain).",
@@ -545,7 +545,7 @@
         "かわせた": "that's the causative (make / let), past form of 買う, but the cue asks for can … (plain).",
         "買わせた": "that's the causative (make / let), past form of 買う, but the cue asks for can … (plain)."
       },
-      "translation": "買う = to buy"
+      "translation": "You can buy it cheaply at this shop. (買う = to buy)"
     },
     {
       "point": "pot-ru",
@@ -557,7 +557,7 @@
         "ねられる"
       ],
       "hint": "る-verbs: drop る + られる (食べられる)",
-      "explanation": "{寝|ね}る is a る-verb (ichidan): drop る + られる → **寝られる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)",
+      "explanation": "{寝|ね}る is a る-verb (ichidan): drop る + られる → **寝られる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)\n\nExample: どこでも**{寝|ね}られる**のが{私|わたし}の{特技|とくぎ}です。",
       "notes": [],
       "wrong_forms": {
         "ねる": "that's the plain present form of 寝る, but the cue asks for can … (plain).",
@@ -595,7 +595,7 @@
         "ねれる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 寝られる.",
         "寝れる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 寝られる."
       },
-      "translation": "寝る = to sleep"
+      "translation": "Being able to sleep anywhere is my special talent. (寝る = to sleep)"
     },
     {
       "point": "pot-u",
@@ -607,7 +607,7 @@
         "かえれる"
       ],
       "hint": "う-verbs: え-row + る (書ける)",
-      "explanation": "{帰|かえ}る is an う-verb (godan): る → れ (え-row) + る → **帰れる** ('can …'; it conjugates like a る-verb from here). ⚠ {帰|かえ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.",
+      "explanation": "{帰|かえ}る is an う-verb (godan): る → れ (え-row) + る → **帰れる** ('can …'; it conjugates like a る-verb from here). ⚠ {帰|かえ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.\n\nExample: {明日|あした}は{早|はや}く**{帰|かえ}れる**。",
       "notes": [],
       "wrong_forms": {
         "かえる": "that's the plain present form of 帰る, but the cue asks for can … (plain).",
@@ -645,7 +645,7 @@
         "かえられる": "that's the る-verb pattern, but 帰る is an う-verb (one of the -iる/-eる exceptions).",
         "帰られる": "that's the る-verb pattern, but 帰る is an う-verb (one of the -iる/-eる exceptions)."
       },
-      "translation": "帰る = to go home"
+      "translation": "I can go home early tomorrow. (帰る = to go home)"
     },
     {
       "point": "pot-ru",
@@ -657,7 +657,7 @@
         "きられる"
       ],
       "hint": "る-verbs: drop る + られる (食べられる)",
-      "explanation": "{着|き}る is a る-verb (ichidan): drop る + られる → **着られる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)",
+      "explanation": "{着|き}る is a る-verb (ichidan): drop る + られる → **着られる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)\n\nExample: この{服|ふく}はまだ**{着|き}られる**。",
       "notes": [],
       "wrong_forms": {
         "きる": "that's the plain present form of 着る, but the cue asks for can … (plain).",
@@ -695,7 +695,7 @@
         "きれる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 着られる.",
         "着れる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 着られる."
       },
-      "translation": "着る = to wear"
+      "translation": "These clothes can still be worn. (着る = to wear)"
     },
     {
       "point": "pot-u",
@@ -707,7 +707,7 @@
         "あそべる"
       ],
       "hint": "う-verbs: え-row + る (書ける)",
-      "explanation": "{遊|あそ}ぶ is an う-verb (godan): ぶ → べ (え-row) + る → **遊べる** ('can …'; it conjugates like a る-verb from here).",
+      "explanation": "{遊|あそ}ぶ is an う-verb (godan): ぶ → べ (え-row) + る → **遊べる** ('can …'; it conjugates like a る-verb from here).\n\nExample: この{公園|こうえん}なら{安全|あんぜん}に**{遊|あそ}べる**。",
       "notes": [],
       "wrong_forms": {
         "あそぶ": "that's the plain present form of 遊ぶ, but the cue asks for can … (plain).",
@@ -743,7 +743,7 @@
         "あそばせた": "that's the causative (make / let), past form of 遊ぶ, but the cue asks for can … (plain).",
         "遊ばせた": "that's the causative (make / let), past form of 遊ぶ, but the cue asks for can … (plain)."
       },
-      "translation": "遊ぶ = to play"
+      "translation": "Kids can play safely in this park. (遊ぶ = to play)"
     },
     {
       "point": "pot-irr",
@@ -755,7 +755,7 @@
         "べんきょうできる"
       ],
       "hint": "Irregular: する → できる, 来る → 来られる",
-      "explanation": "{勉強|べんきょう}する is irregular (する): する → できる → **勉強できる**.",
+      "explanation": "{勉強|べんきょう}する is irregular (する): する → できる → **勉強できる**.\n\nExample: {図書館|としょかん}なら{静|しず}かに**{勉強|べんきょう}できる**。",
       "notes": [],
       "wrong_forms": {
         "べんきょうする": "that's the plain present form of 勉強する, but the cue asks for can … (plain).",
@@ -791,7 +791,7 @@
         "べんきょうさせた": "that's the causative (make / let), past form of 勉強する, but the cue asks for can … (plain).",
         "勉強させた": "that's the causative (make / let), past form of 勉強する, but the cue asks for can … (plain)."
       },
-      "translation": "勉強する = to study"
+      "translation": "At the library I can study in peace. (勉強する = to study)"
     }
   ]
 }

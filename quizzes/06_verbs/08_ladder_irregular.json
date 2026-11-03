@@ -31,7 +31,7 @@
         "きます"
       ],
       "hint": "き…",
-      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来ます**.",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来ます**.\n\nExample: {先生|せんせい}は{毎週|まいしゅう}{火曜日|かようび}に**{来|き}ます**。",
       "notes": [],
       "wrong_forms": {
         "くる": "that's the plain present form of 来る, but the cue asks for polite present.",
@@ -67,7 +67,7 @@
         "こさせた": "that's the causative (make / let), past form of 来る, but the cue asks for polite present.",
         "来させた": "that's the causative (make / let), past form of 来る, but the cue asks for polite present."
       },
-      "translation": "来る = to come"
+      "translation": "The teacher comes every Tuesday. (来る = to come)"
     },
     {
       "point": "ladder-kuru",
@@ -79,7 +79,7 @@
         "こない"
       ],
       "hint": "こ…",
-      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来ない**.",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来ない**.\n\nExample: バスがなかなか**{来|こ}ない**。",
       "notes": [],
       "wrong_forms": {
         "くる": "that's the plain present form of 来る, but the cue asks for plain negative.",
@@ -115,7 +115,7 @@
         "こさせた": "that's the causative (make / let), past form of 来る, but the cue asks for plain negative.",
         "来させた": "that's the causative (make / let), past form of 来る, but the cue asks for plain negative."
       },
-      "translation": "来る = to come"
+      "translation": "The bus just isn't coming. (来る = to come)"
     },
     {
       "point": "ladder-kuru",
@@ -127,7 +127,7 @@
         "きて"
       ],
       "hint": "き…",
-      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来て**.",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来て**.\n\nExample: {明日|あした}も**{来|き}て**ください。",
       "notes": [],
       "wrong_forms": {
         "くる": "that's the plain present form of 来る, but the cue asks for て-form.",
@@ -163,7 +163,7 @@
         "こさせた": "that's the causative (make / let), past form of 来る, but the cue asks for て-form.",
         "来させた": "that's the causative (make / let), past form of 来る, but the cue asks for て-form."
       },
-      "translation": "来る = to come"
+      "translation": "Please come tomorrow too. (来る = to come)"
     },
     {
       "point": "ladder-kuru",
@@ -175,7 +175,7 @@
         "きた"
       ],
       "hint": "き…",
-      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来た**.",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来た**.\n\nExample: {昨日|きのう}、{友達|ともだち}が{家|いえ}に**{来|き}た**。",
       "notes": [],
       "wrong_forms": {
         "くる": "that's the plain present form of 来る, but the cue asks for plain past.",
@@ -211,7 +211,7 @@
         "こさせた": "that's the causative (make / let), past form of 来る, but the cue asks for plain past.",
         "来させた": "that's the causative (make / let), past form of 来る, but the cue asks for plain past."
       },
-      "translation": "来る = to come"
+      "translation": "A friend came to my place yesterday. (来る = to come)"
     },
     {
       "point": "ladder-kuru",
@@ -223,7 +223,7 @@
         "こられる"
       ],
       "hint": "こ…",
-      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来られる**.",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来られる**.\n\nExample: {明日|あした}のパーティー、**{来|こ}られる**？",
       "notes": [],
       "wrong_forms": {
         "くる": "that's the plain present form of 来る, but the cue asks for can … (plain).",
@@ -261,7 +261,7 @@
         "これる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 来られる.",
         "来れる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 来られる."
       },
-      "translation": "来る = to come"
+      "translation": "Can you come to the party tomorrow? (来る = to come)"
     },
     {
       "point": "ladder-kuru",
@@ -273,7 +273,7 @@
         "こよう"
       ],
       "hint": "こ…",
-      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来よう**.",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来よう**.\n\nExample: ここ、いい{店|みせ}だね。また**{来|こ}よう**。",
       "notes": [],
       "wrong_forms": {
         "くる": "that's the plain present form of 来る, but the cue asks for let's / I'll … (plain volitional).",
@@ -309,7 +309,7 @@
         "こさせた": "that's the causative (make / let), past form of 来る, but the cue asks for let's / I'll … (plain volitional).",
         "来させた": "that's the causative (make / let), past form of 来る, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "来る = to come"
+      "translation": "This is a nice place. Let's come again. (来る = to come)"
     },
     {
       "point": "ladder-kuru",
@@ -321,7 +321,7 @@
         "くれば"
       ],
       "hint": "来れ…",
-      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来れば**.",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来れば**.\n\nExample: {早|はや}く**{来|く}れば**、いい{席|せき}に{座|すわ}れるよ。",
       "notes": [],
       "wrong_forms": {
         "くる": "that's the plain present form of 来る, but the cue asks for if … (ば-form).",
@@ -357,7 +357,7 @@
         "こさせた": "that's the causative (make / let), past form of 来る, but the cue asks for if … (ば-form).",
         "来させた": "that's the causative (make / let), past form of 来る, but the cue asks for if … (ば-form)."
       },
-      "translation": "来る = to come"
+      "translation": "If you come early, you'll get a good seat. (来る = to come)"
     },
     {
       "point": "ladder-suru",
@@ -368,7 +368,7 @@
         "します"
       ],
       "hint": "し…",
-      "explanation": "する is irregular (する): する → し + ending → **します**.",
+      "explanation": "する is irregular (する): する → し + ending → **します**.\n\nExample: {毎朝|まいあさ}ジョギングを**します**。",
       "notes": [],
       "wrong_forms": {
         "する": "that's the plain present form of する, but the cue asks for polite present.",
@@ -388,7 +388,7 @@
         "された": "that's the passive, past form of する, but the cue asks for polite present.",
         "させた": "that's the causative (make / let), past form of する, but the cue asks for polite present."
       },
-      "translation": "する = to do"
+      "translation": "I go jogging every morning. (する = to do)"
     },
     {
       "point": "ladder-suru",
@@ -399,7 +399,7 @@
         "しない"
       ],
       "hint": "し…",
-      "explanation": "する is irregular (する): する → し + ending → **しない**.",
+      "explanation": "する is irregular (する): する → し + ending → **しない**.\n\nExample: {日曜日|にちようび}は{仕事|しごと}を**しない**。",
       "notes": [],
       "wrong_forms": {
         "する": "that's the plain present form of する, but the cue asks for plain negative.",
@@ -419,7 +419,7 @@
         "された": "that's the passive, past form of する, but the cue asks for plain negative.",
         "させた": "that's the causative (make / let), past form of する, but the cue asks for plain negative."
       },
-      "translation": "する = to do"
+      "translation": "I don't work on Sundays. (する = to do)"
     },
     {
       "point": "ladder-suru",
@@ -430,7 +430,7 @@
         "して"
       ],
       "hint": "し…",
-      "explanation": "する is irregular (する): する → し + ending → **して**.",
+      "explanation": "する is irregular (する): する → し + ending → **して**.\n\nExample: {宿題|しゅくだい}を**して**から{遊|あそ}ぶ。",
       "notes": [],
       "wrong_forms": {
         "する": "that's the plain present form of する, but the cue asks for て-form.",
@@ -450,7 +450,7 @@
         "された": "that's the passive, past form of する, but the cue asks for て-form.",
         "させた": "that's the causative (make / let), past form of する, but the cue asks for て-form."
       },
-      "translation": "する = to do"
+      "translation": "I'll play after I've done my homework. (する = to do)"
     },
     {
       "point": "ladder-suru",
@@ -461,7 +461,7 @@
         "した"
       ],
       "hint": "し…",
-      "explanation": "する is irregular (する): する → し + ending → **した**.",
+      "explanation": "する is irregular (する): する → し + ending → **した**.\n\nExample: {昨日|きのう}、{友達|ともだち}とテニスを**した**。",
       "notes": [],
       "wrong_forms": {
         "する": "that's the plain present form of する, but the cue asks for plain past.",
@@ -481,7 +481,7 @@
         "された": "that's the passive, past form of する, but the cue asks for plain past.",
         "させた": "that's the causative (make / let), past form of する, but the cue asks for plain past."
       },
-      "translation": "する = to do"
+      "translation": "I played tennis with a friend yesterday. (する = to do)"
     },
     {
       "point": "ladder-suru",
@@ -492,7 +492,7 @@
         "できる"
       ],
       "hint": "で…",
-      "explanation": "する is irregular (する): する → できる → **できる**.",
+      "explanation": "する is irregular (する): する → できる → **できる**.\n\nExample: {日本語|にほんご}で{自己紹介|じこしょうかい}が**できる**ようになった。",
       "notes": [],
       "wrong_forms": {
         "する": "that's the plain present form of する, but the cue asks for can … (plain).",
@@ -512,7 +512,7 @@
         "された": "that's the passive, past form of する, but the cue asks for can … (plain).",
         "させた": "that's the causative (make / let), past form of する, but the cue asks for can … (plain)."
       },
-      "translation": "する = to do"
+      "translation": "I can now introduce myself in Japanese. (する = to do)"
     },
     {
       "point": "ladder-suru",
@@ -523,7 +523,7 @@
         "しよう"
       ],
       "hint": "し…",
-      "explanation": "する is irregular (する): する → しよう → **しよう**.",
+      "explanation": "する is irregular (する): する → しよう → **しよう**.\n\nExample: {週末|しゅうまつ}は{何|なに}を**しよう**か。",
       "notes": [],
       "wrong_forms": {
         "する": "that's the plain present form of する, but the cue asks for let's / I'll … (plain volitional).",
@@ -543,7 +543,7 @@
         "された": "that's the passive, past form of する, but the cue asks for let's / I'll … (plain volitional).",
         "させた": "that's the causative (make / let), past form of する, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "する = to do"
+      "translation": "What shall we do at the weekend? (する = to do)"
     },
     {
       "point": "ladder-suru",
@@ -554,7 +554,7 @@
         "すれば"
       ],
       "hint": "すれ…",
-      "explanation": "する is irregular (する): する → すれば → **すれば**.",
+      "explanation": "する is irregular (する): する → すれば → **すれば**.\n\nExample: {毎日|まいにち}{練習|れんしゅう}**すれば**、{上手|じょうず}になるよ。",
       "notes": [],
       "wrong_forms": {
         "する": "that's the plain present form of する, but the cue asks for if … (ば-form).",
@@ -574,7 +574,7 @@
         "された": "that's the passive, past form of する, but the cue asks for if … (ば-form).",
         "させた": "that's the causative (make / let), past form of する, but the cue asks for if … (ば-form)."
       },
-      "translation": "する = to do"
+      "translation": "If you practise every day, you'll get good. (する = to do)"
     }
   ],
   "keep_order": true

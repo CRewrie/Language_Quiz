@@ -38,7 +38,7 @@
         "いこう"
       ],
       "hint": "う-verbs: お-row + う (書こう)",
-      "explanation": "{行|い}く is an う-verb (godan) — with one exception: く → こ (お-row) + う → **行こう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{行|い}く is an う-verb (godan) — with one exception: く → こ (お-row) + う → **行こう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: {週末|しゅうまつ}、{海|うみ}に**{行|い}こう**。",
       "notes": [],
       "wrong_forms": {
         "いく": "that's the plain present form of 行く, but the cue asks for let's / I'll … (plain volitional).",
@@ -74,7 +74,7 @@
         "いかせた": "that's the causative (make / let), past form of 行く, but the cue asks for let's / I'll … (plain volitional).",
         "行かせた": "that's the causative (make / let), past form of 行く, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "行く = to go"
+      "translation": "Let's go to the sea at the weekend. (行く = to go)"
     },
     {
       "point": "vol-ru",
@@ -86,7 +86,7 @@
         "たべよう"
       ],
       "hint": "る-verbs: drop る + よう (食べよう)",
-      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + よう → **食べよう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + よう → **食べよう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: お{昼|ひる}、{一緒|いっしょ}に**{食|た}べよう**。",
       "notes": [],
       "wrong_forms": {
         "たべる": "that's the plain present form of 食べる, but the cue asks for let's / I'll … (plain volitional).",
@@ -124,7 +124,7 @@
         "たべろう": "that's the う-verb pattern, but 食べる is a る-verb: just drop る.",
         "食べろう": "that's the う-verb pattern, but 食べる is a る-verb: just drop る."
       },
-      "translation": "食べる = to eat"
+      "translation": "Let's have lunch together. (食べる = to eat)"
     },
     {
       "point": "vol-u",
@@ -136,7 +136,7 @@
         "かこう"
       ],
       "hint": "う-verbs: お-row + う (書こう)",
-      "explanation": "{書|か}く is an う-verb (godan): く → こ (お-row) + う → **書こう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{書|か}く is an う-verb (godan): く → こ (お-row) + う → **書こう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: {先生|せんせい}にお{礼|れい}のメールを**{書|か}こう**。",
       "notes": [],
       "wrong_forms": {
         "かく": "that's the plain present form of 書く, but the cue asks for let's / I'll … (plain volitional).",
@@ -172,7 +172,7 @@
         "かかせた": "that's the causative (make / let), past form of 書く, but the cue asks for let's / I'll … (plain volitional).",
         "書かせた": "that's the causative (make / let), past form of 書く, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "書く = to write"
+      "translation": "I'll write my teacher a thank-you email. (書く = to write)"
     },
     {
       "point": "vol-ru",
@@ -184,7 +184,7 @@
         "みよう"
       ],
       "hint": "る-verbs: drop る + よう (食べよう)",
-      "explanation": "{見|み}る is a る-verb (ichidan): drop る + よう → **見よう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{見|み}る is a る-verb (ichidan): drop る + よう → **見よう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: {今夜|こんや}、{一緒|いっしょ}に{映画|えいが}を**{見|み}よう**。",
       "notes": [],
       "wrong_forms": {
         "みる": "that's the plain present form of 見る, but the cue asks for let's / I'll … (plain volitional).",
@@ -222,7 +222,7 @@
         "みろう": "that's the う-verb pattern, but 見る is a る-verb: just drop る.",
         "見ろう": "that's the う-verb pattern, but 見る is a る-verb: just drop る."
       },
-      "translation": "見る = to see"
+      "translation": "Let's watch a film together tonight. (見る = to see)"
     },
     {
       "point": "vol-u",
@@ -234,7 +234,7 @@
         "のもう"
       ],
       "hint": "う-verbs: お-row + う (書こう)",
-      "explanation": "{飲|の}む is an う-verb (godan): む → も (お-row) + う → **飲もう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{飲|の}む is an う-verb (godan): む → も (お-row) + う → **飲もう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: {仕事|しごと}が{終|お}わったら、{一杯|いっぱい}**{飲|の}もう**。",
       "notes": [],
       "wrong_forms": {
         "のむ": "that's the plain present form of 飲む, but the cue asks for let's / I'll … (plain volitional).",
@@ -270,7 +270,7 @@
         "のませた": "that's the causative (make / let), past form of 飲む, but the cue asks for let's / I'll … (plain volitional).",
         "飲ませた": "that's the causative (make / let), past form of 飲む, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "飲む = to drink"
+      "translation": "Let's have a drink when work's over. (飲む = to drink)"
     },
     {
       "point": "vol-irr",
@@ -281,7 +281,7 @@
         "しよう"
       ],
       "hint": "Irregular: する → しよう, 来る → 来よう",
-      "explanation": "する is irregular (する): する → しよう → **しよう**.",
+      "explanation": "する is irregular (する): する → しよう → **しよう**.\n\nExample: {週末|しゅうまつ}は{何|なに}を**しよう**か。",
       "notes": [],
       "wrong_forms": {
         "する": "that's the plain present form of する, but the cue asks for let's / I'll … (plain volitional).",
@@ -301,7 +301,7 @@
         "された": "that's the passive, past form of する, but the cue asks for let's / I'll … (plain volitional).",
         "させた": "that's the causative (make / let), past form of する, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "する = to do"
+      "translation": "What shall we do at the weekend? (する = to do)"
     },
     {
       "point": "vol-u",
@@ -313,7 +313,7 @@
         "はなそう"
       ],
       "hint": "う-verbs: お-row + う (書こう)",
-      "explanation": "{話|はな}す is an う-verb (godan): す → そ (お-row) + う → **話そう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{話|はな}す is an う-verb (godan): す → そ (お-row) + う → **話そう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: {後|あと}でゆっくり**{話|はな}そう**。",
       "notes": [],
       "wrong_forms": {
         "はなす": "that's the plain present form of 話す, but the cue asks for let's / I'll … (plain volitional).",
@@ -349,7 +349,7 @@
         "はなさせた": "that's the causative (make / let), past form of 話す, but the cue asks for let's / I'll … (plain volitional).",
         "話させた": "that's the causative (make / let), past form of 話す, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "話す = to speak"
+      "translation": "Let's have a proper talk later. (話す = to speak)"
     },
     {
       "point": "vol-ru",
@@ -361,7 +361,7 @@
         "ねよう"
       ],
       "hint": "る-verbs: drop る + よう (食べよう)",
-      "explanation": "{寝|ね}る is a る-verb (ichidan): drop る + よう → **寝よう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{寝|ね}る is a る-verb (ichidan): drop る + よう → **寝よう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: {明日|あした}は{早|はや}いから、もう**{寝|ね}よう**。",
       "notes": [],
       "wrong_forms": {
         "ねる": "that's the plain present form of 寝る, but the cue asks for let's / I'll … (plain volitional).",
@@ -399,7 +399,7 @@
         "ねろう": "that's the う-verb pattern, but 寝る is a る-verb: just drop る.",
         "寝ろう": "that's the う-verb pattern, but 寝る is a る-verb: just drop る."
       },
-      "translation": "寝る = to sleep"
+      "translation": "We have an early start tomorrow, so let's go to bed. (寝る = to sleep)"
     },
     {
       "point": "vol-u",
@@ -411,7 +411,7 @@
         "まとう"
       ],
       "hint": "う-verbs: お-row + う (書こう)",
-      "explanation": "{待|ま}つ is an う-verb (godan): つ → と (お-row) + う → **待とう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{待|ま}つ is an う-verb (godan): つ → と (お-row) + う → **待とう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: {雨|あめ}がやむまで**{待|ま}とう**。",
       "notes": [],
       "wrong_forms": {
         "まつ": "that's the plain present form of 待つ, but the cue asks for let's / I'll … (plain volitional).",
@@ -447,7 +447,7 @@
         "またせた": "that's the causative (make / let), past form of 待つ, but the cue asks for let's / I'll … (plain volitional).",
         "待たせた": "that's the causative (make / let), past form of 待つ, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "待つ = to wait"
+      "translation": "Let's wait until the rain stops. (待つ = to wait)"
     },
     {
       "point": "vol-irr",
@@ -459,7 +459,7 @@
         "こよう"
       ],
       "hint": "Irregular: する → しよう, 来る → 来よう",
-      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来よう**.",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来よう**.\n\nExample: ここ、いい{店|みせ}だね。また**{来|こ}よう**。",
       "notes": [],
       "wrong_forms": {
         "くる": "that's the plain present form of 来る, but the cue asks for let's / I'll … (plain volitional).",
@@ -495,7 +495,7 @@
         "こさせた": "that's the causative (make / let), past form of 来る, but the cue asks for let's / I'll … (plain volitional).",
         "来させた": "that's the causative (make / let), past form of 来る, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "来る = to come"
+      "translation": "This is a nice place. Let's come again. (来る = to come)"
     },
     {
       "point": "vol-u",
@@ -507,7 +507,7 @@
         "あそぼう"
       ],
       "hint": "う-verbs: お-row + う (書こう)",
-      "explanation": "{遊|あそ}ぶ is an う-verb (godan): ぶ → ぼ (お-row) + う → **遊ぼう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{遊|あそ}ぶ is an う-verb (godan): ぶ → ぼ (お-row) + う → **遊ぼう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: {放課後|ほうかご}、{一緒|いっしょ}に**{遊|あそ}ぼう**。",
       "notes": [],
       "wrong_forms": {
         "あそぶ": "that's the plain present form of 遊ぶ, but the cue asks for let's / I'll … (plain volitional).",
@@ -543,7 +543,7 @@
         "あそばせた": "that's the causative (make / let), past form of 遊ぶ, but the cue asks for let's / I'll … (plain volitional).",
         "遊ばせた": "that's the causative (make / let), past form of 遊ぶ, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "遊ぶ = to play"
+      "translation": "Let's hang out after school. (遊ぶ = to play)"
     },
     {
       "point": "vol-ru",
@@ -555,7 +555,7 @@
         "はじめよう"
       ],
       "hint": "る-verbs: drop る + よう (食べよう)",
-      "explanation": "{始|はじ}める is a る-verb (ichidan): drop る + よう → **始めよう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{始|はじ}める is a る-verb (ichidan): drop る + よう → **始めよう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: そろそろ{会議|かいぎ}を**{始|はじ}めよう**。",
       "notes": [],
       "wrong_forms": {
         "はじめる": "that's the plain present form of 始める, but the cue asks for let's / I'll … (plain volitional).",
@@ -593,7 +593,7 @@
         "はじめろう": "that's the う-verb pattern, but 始める is a る-verb: just drop る.",
         "始めろう": "that's the う-verb pattern, but 始める is a る-verb: just drop る."
       },
-      "translation": "始める = to begin (something)"
+      "translation": "Let's start the meeting. (始める = to begin (something))"
     },
     {
       "point": "vol-u",
@@ -605,7 +605,7 @@
         "かえろう"
       ],
       "hint": "う-verbs: お-row + う (書こう)",
-      "explanation": "{帰|かえ}る is an う-verb (godan): る → ろ (お-row) + う → **帰ろう** (plain 'let's / I'll'; polite: ましょう). ⚠ {帰|かえ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.",
+      "explanation": "{帰|かえ}る is an う-verb (godan): る → ろ (お-row) + う → **帰ろう** (plain 'let's / I'll'; polite: ましょう). ⚠ {帰|かえ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.\n\nExample: もう{遅|おそ}いから**{帰|かえ}ろう**。",
       "notes": [],
       "wrong_forms": {
         "かえる": "that's the plain present form of 帰る, but the cue asks for let's / I'll … (plain volitional).",
@@ -643,7 +643,7 @@
         "かえよう": "that's the る-verb pattern, but 帰る is an う-verb (one of the -iる/-eる exceptions).",
         "帰よう": "that's the る-verb pattern, but 帰る is an う-verb (one of the -iる/-eる exceptions)."
       },
-      "translation": "帰る = to go home"
+      "translation": "It's late, so let's go home. (帰る = to go home)"
     },
     {
       "point": "vol-u",
@@ -655,7 +655,7 @@
         "がんばろう"
       ],
       "hint": "う-verbs: お-row + う (書こう)",
-      "explanation": "{頑張|がんば}る is an う-verb (godan): る → ろ (お-row) + う → **頑張ろう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{頑張|がんば}る is an う-verb (godan): る → ろ (お-row) + う → **頑張ろう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: {試験|しけん}まであと{少|すこ}し。{一緒|いっしょ}に**{頑張|がんば}ろう**！",
       "notes": [],
       "wrong_forms": {
         "がんばる": "that's the plain present form of 頑張る, but the cue asks for let's / I'll … (plain volitional).",
@@ -693,7 +693,7 @@
         "がんばよう": "that's the る-verb pattern, but 頑張る is an う-verb.",
         "頑張よう": "that's the る-verb pattern, but 頑張る is an う-verb."
       },
-      "translation": "頑張る = to do one's best"
+      "translation": "The exam's nearly here. Let's keep going together! (頑張る = to do one's best)"
     },
     {
       "point": "vol-u",
@@ -705,7 +705,7 @@
         "かおう"
       ],
       "hint": "う-verbs: お-row + う (書こう)",
-      "explanation": "{買|か}う is an う-verb (godan): う → お (お-row) + う → **買おう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{買|か}う is an う-verb (godan): う → お (お-row) + う → **買おう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: {新|あたら}しい{靴|くつ}を**{買|か}おう**。",
       "notes": [],
       "wrong_forms": {
         "かう": "that's the plain present form of 買う, but the cue asks for let's / I'll … (plain volitional).",
@@ -741,7 +741,7 @@
         "かわせた": "that's the causative (make / let), past form of 買う, but the cue asks for let's / I'll … (plain volitional).",
         "買わせた": "that's the causative (make / let), past form of 買う, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "買う = to buy"
+      "translation": "I'll buy new shoes. (買う = to buy)"
     },
     {
       "point": "vol-irr",
@@ -753,7 +753,7 @@
         "さんぽしよう"
       ],
       "hint": "Irregular: する → しよう, 来る → 来よう",
-      "explanation": "{散歩|さんぽ}する is irregular (する): する → しよう → **散歩しよう**.",
+      "explanation": "{散歩|さんぽ}する is irregular (する): する → しよう → **散歩しよう**.\n\nExample: {天気|てんき}がいいから、{公園|こうえん}を**{散歩|さんぽ}しよう**。",
       "notes": [],
       "wrong_forms": {
         "さんぽする": "that's the plain present form of 散歩する, but the cue asks for let's / I'll … (plain volitional).",
@@ -789,7 +789,7 @@
         "さんぽさせた": "that's the causative (make / let), past form of 散歩する, but the cue asks for let's / I'll … (plain volitional).",
         "散歩させた": "that's the causative (make / let), past form of 散歩する, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "散歩する = to go for a walk"
+      "translation": "The weather's nice, so let's take a walk in the park. (散歩する = to go for a walk)"
     }
   ]
 }

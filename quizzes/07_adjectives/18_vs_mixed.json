@@ -24,9 +24,9 @@
         "たかくない"
       ],
       "hint": "高く…",
-      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + くない → **高くない**.",
+      "explanation": "{高|たか}い is an い-adjective: drop the last い → 高 + くない → **高くない**.\n\nExample: この{店|みせ}は{思|おも}ったより**{高|たか}くない**。",
       "notes": [],
-      "translation": "高い = expensive, high",
+      "translation": "This shop isn't as expensive as I thought. (高い = expensive, high)",
       "wrong_forms": {
         "たかい": "that's the plain present form of 高い, but the cue asks for plain negative.",
         "高い": "that's the plain present form of 高い, but the cue asks for plain negative.",
@@ -72,9 +72,9 @@
         "かかない"
       ],
       "hint": "書か…",
-      "explanation": "{書|か}く is an う-verb (godan): く → か (あ-row) + ない → **書かない**.",
+      "explanation": "{書|か}く is an う-verb (godan): く → か (あ-row) + ない → **書かない**.\n\nExample: {最近|さいきん}、{手紙|てがみ}はあまり**{書|か}かない**。",
       "notes": [],
-      "translation": "書く = to write",
+      "translation": "I don't write many letters these days. (書く = to write)",
       "wrong_forms": {
         "かく": "that's the plain present form of 書く, but the cue asks for plain negative.",
         "書く": "that's the plain present form of 書く, but the cue asks for plain negative.",
@@ -122,9 +122,9 @@
         "しずかではない"
       ],
       "hint": "静かじ…",
-      "explanation": "{静|しず}か is a な-adjective: 静か + じゃない (written: ではない) → **静かじゃない**.",
+      "explanation": "{静|しず}か is a な-adjective: 静か + じゃない (written: ではない) → **静かじゃない**.\n\nExample: この{辺|へん}は{夜|よる}も**{静|しず}かじゃない**。",
       "notes": [],
-      "translation": "静か = quiet",
+      "translation": "This area isn't quiet even at night. (静か = quiet)",
       "wrong_forms": {
         "しずかだ": "that's the plain present form of 静か, but the cue asks for plain negative.",
         "静かだ": "that's the plain present form of 静か, but the cue asks for plain negative.",
@@ -172,9 +172,9 @@
         "すきだった"
       ],
       "hint": "好きだ…",
-      "explanation": "{好|す}き is a な-adjective: 好き + だった → **好きだった**.",
+      "explanation": "{好|す}き is a な-adjective: 好き + だった → **好きだった**.\n\nExample: {子供|こども}のころ、{電車|でんしゃ}が**{好|す}きだった**。",
       "notes": [],
-      "translation": "好き = liked",
+      "translation": "As a child I loved trains. (好き = liked)",
       "wrong_forms": {
         "すきだ": "that's the plain present form of 好き, but the cue asks for plain past.",
         "好きだ": "that's the plain present form of 好き, but the cue asks for plain past.",
@@ -222,9 +222,9 @@
         "ねた"
       ],
       "hint": "寝…",
-      "explanation": "{寝|ね}る is a る-verb (ichidan): drop る + て / た → **寝た**.",
+      "explanation": "{寝|ね}る is a る-verb (ichidan): drop る + て / た → **寝た**.\n\nExample: {昨日|きのう}は11{時|じ}に**{寝|ね}た**。",
       "notes": [],
-      "translation": "寝る = to sleep",
+      "translation": "I went to bed at eleven yesterday. (寝る = to sleep)",
       "wrong_forms": {
         "ねる": "that's the plain present form of 寝る, but the cue asks for plain past.",
         "寝る": "that's the plain present form of 寝る, but the cue asks for plain past.",
@@ -272,9 +272,9 @@
         "ほしかった"
       ],
       "hint": "欲しか…",
-      "explanation": "{欲|ほ}しい is an い-adjective: drop the last い → 欲し + かった → **欲しかった**.",
+      "explanation": "{欲|ほ}しい is an い-adjective: drop the last い → 欲し + かった → **欲しかった**.\n\nExample: {子供|こども}のころ、ずっと{犬|いぬ}が**{欲|ほ}しかった**。",
       "notes": [],
-      "translation": "欲しい = wanted",
+      "translation": "As a child I always wanted a dog. (欲しい = wanted)",
       "wrong_forms": {
         "ほしい": "that's the plain present form of 欲しい, but the cue asks for plain past.",
         "欲しい": "that's the plain present form of 欲しい, but the cue asks for plain past.",
@@ -320,9 +320,9 @@
         "わからない"
       ],
       "hint": "分から…",
-      "explanation": "{分|わ}かる is an う-verb (godan): る → ら (あ-row) + ない → **分からない**.",
+      "explanation": "{分|わ}かる is an う-verb (godan): る → ら (あ-row) + ない → **分からない**.\n\nExample: この{漢字|かんじ}の{意味|いみ}が**{分|わ}からない**。",
       "notes": [],
-      "translation": "分かる = to understand",
+      "translation": "I don't understand this kanji. (分かる = to understand)",
       "wrong_forms": {
         "わかる": "that's the plain present form of 分かる, but the cue asks for plain negative.",
         "分かる": "that's the plain present form of 分かる, but the cue asks for plain negative.",
@@ -370,9 +370,9 @@
         "きれいではなかった"
       ],
       "hint": "きれいじ…",
-      "explanation": "きれい is a な-adjective: きれい + じゃなかった → **きれいじゃなかった**. ⚠ It ends in an い sound, but that い is part of the word — きれい is a な-adjective (not きれくない).",
+      "explanation": "きれい is a な-adjective: きれい + じゃなかった → **きれいじゃなかった**. ⚠ It ends in an い sound, but that い is part of the word — きれい is a な-adjective (not きれくない).\n\nExample: {昔|むかし}、この{川|かわ}は**きれいじゃなかった**。",
       "notes": [],
-      "translation": "きれい = pretty, clean",
+      "translation": "This river didn't use to be clean. (きれい = pretty, clean)",
       "wrong_forms": {
         "きれいだ": "that's the plain present form of きれい, but the cue asks for plain past negative.",
         "きれいです": "that's the polite present form of きれい, but the cue asks for plain past negative.",
@@ -403,9 +403,9 @@
         "いった"
       ],
       "hint": "行っ…",
-      "explanation": "{行|い}く is an う-verb (godan) — with one exception: 行く is the exception: 行って / 行った (not 行いて) → **行った**.",
+      "explanation": "{行|い}く is an う-verb (godan) — with one exception: 行く is the exception: 行って / 行った (not 行いて) → **行った**.\n\nExample: {去年|きょねん}、{京都|きょうと}に**{行|い}った**。",
       "notes": [],
-      "translation": "行く = to go",
+      "translation": "I went to Kyoto last year. (行く = to go)",
       "wrong_forms": {
         "いく": "that's the plain present form of 行く, but the cue asks for plain past.",
         "行く": "that's the plain present form of 行く, but the cue asks for plain past.",
@@ -450,9 +450,9 @@
         "よかった"
       ],
       "hint": "よ…",
-      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + かった) → **よかった**.",
+      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + かった) → **よかった**.\n\nExample: {旅行|りょこう}の{間|あいだ}、ずっと{天気|てんき}が**よかった**。",
       "notes": [],
-      "translation": "いい = good",
+      "translation": "The weather was good throughout the trip. (いい = good)",
       "wrong_forms": {
         "いい": "that's the plain present form of いい, but the cue asks for plain past.",
         "いいです": "that's the polite present form of いい, but the cue asks for plain past.",
@@ -483,9 +483,9 @@
         "ちがわない"
       ],
       "hint": "違わ…",
-      "explanation": "{違|ちが}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **違わない**.",
+      "explanation": "{違|ちが}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **違わない**.\n\nExample: {二人|ふたり}の{意見|いけん}はあまり**{違|ちが}わない**。",
       "notes": [],
-      "translation": "違う = to differ",
+      "translation": "Their opinions aren't very different. (違う = to differ)",
       "wrong_forms": {
         "ちがう": "that's the plain present form of 違う, but the cue asks for plain negative.",
         "違う": "that's the plain present form of 違う, but the cue asks for plain negative.",
@@ -531,9 +531,9 @@
         "べんりで"
       ],
       "hint": "便利…",
-      "explanation": "{便利|べんり} is a な-adjective: 便利 + で → **便利で**.",
+      "explanation": "{便利|べんり} is a な-adjective: 便利 + で → **便利で**.\n\nExample: スマホは**{便利|べんり}で**、もう{手放|てばな}せない。",
       "notes": [],
-      "translation": "便利 = convenient",
+      "translation": "Smartphones are so handy that I can't do without mine. (便利 = convenient)",
       "wrong_forms": {
         "べんりだ": "that's the plain present form of 便利, but the cue asks for て-form (… and …).",
         "便利だ": "that's the plain present form of 便利, but the cue asks for て-form (… and …).",
@@ -581,9 +581,9 @@
         "よんで"
       ],
       "hint": "読ん…",
-      "explanation": "{読|よ}む is an う-verb (godan): ぬ・ぶ・む → んで → **読んで**.",
+      "explanation": "{読|よ}む is an う-verb (godan): ぬ・ぶ・む → んで → **読んで**.\n\nExample: {毎晩|まいばん}{本|ほん}を**{読|よ}んで**から{寝|ね}る。",
       "notes": [],
-      "translation": "読む = to read",
+      "translation": "Every night I read before going to sleep. (読む = to read)",
       "wrong_forms": {
         "よむ": "that's the plain present form of 読む, but the cue asks for て-form.",
         "読む": "that's the plain present form of 読む, but the cue asks for て-form.",
@@ -629,9 +629,9 @@
         "さむくて"
       ],
       "hint": "寒く…",
-      "explanation": "{寒|さむ}い is an い-adjective: drop the last い → 寒 + くて → **寒くて**.",
+      "explanation": "{寒|さむ}い is an い-adjective: drop the last い → 寒 + くて → **寒くて**.\n\nExample: **{寒|さむ}くて**、{手|て}が{冷|つめ}たい。",
       "notes": [],
-      "translation": "寒い = cold (weather)",
+      "translation": "It's so cold my hands are freezing. (寒い = cold (weather))",
       "wrong_forms": {
         "さむい": "that's the plain present form of 寒い, but the cue asks for て-form (… and …).",
         "寒い": "that's the plain present form of 寒い, but the cue asks for て-form (… and …).",
@@ -683,9 +683,9 @@
         "きらいではないです"
       ],
       "hint": "嫌いじ…",
-      "explanation": "{嫌|きら}い is a な-adjective: 嫌い + じゃありません / じゃないです → **嫌いじゃないです**. ⚠ It ends in an い sound, but that い is part of the word — 嫌い is a な-adjective (not 嫌くない).",
+      "explanation": "{嫌|きら}い is a な-adjective: 嫌い + じゃありません / じゃないです → **嫌いじゃないです**. ⚠ It ends in an い sound, but that い is part of the word — 嫌い is a な-adjective (not 嫌くない).\n\nExample: {魚|さかな}は**{嫌|きら}いじゃないです**。",
       "notes": [],
-      "translation": "嫌い = disliked",
+      "translation": "I don't dislike fish. (嫌い = disliked)",
       "wrong_forms": {
         "きらいだ": "that's the plain present form of 嫌い, but the cue asks for polite negative.",
         "嫌いだ": "that's the plain present form of 嫌い, but the cue asks for polite negative.",
@@ -733,9 +733,9 @@
         "きません"
       ],
       "hint": "き…",
-      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来ません**.",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来ません**.\n\nExample: {田中|たなか}さんは{今日|きょう}**{来|き}ません**。",
       "notes": [],
-      "translation": "来る = to come",
+      "translation": "Tanaka isn't coming today. (来る = to come)",
       "wrong_forms": {
         "くる": "that's the plain present form of 来る, but the cue asks for polite negative.",
         "来る": "that's the plain present form of 来る, but the cue asks for polite negative.",
@@ -785,9 +785,9 @@
         "ゆうめいでした"
       ],
       "hint": "有名で…",
-      "explanation": "{有名|ゆうめい} is a な-adjective: 有名 + でした → **有名でした**. ⚠ It ends in an い sound, but that い is part of the word — 有名 is a な-adjective (not ゆうめくない).",
+      "explanation": "{有名|ゆうめい} is a な-adjective: 有名 + でした → **有名でした**. ⚠ It ends in an い sound, but that い is part of the word — 有名 is a な-adjective (not ゆうめくない).\n\nExample: その{店|みせ}は{昔|むかし}から**{有名|ゆうめい}でした**。",
       "notes": [],
-      "translation": "有名 = famous",
+      "translation": "That shop has long been famous. (有名 = famous)",
       "wrong_forms": {
         "ゆうめいだ": "that's the plain present form of 有名, but the cue asks for polite past.",
         "有名だ": "that's the plain present form of 有名, but the cue asks for polite past.",
@@ -836,9 +836,9 @@
         "たのしかったです"
       ],
       "hint": "楽しか…",
-      "explanation": "{楽|たの}しい is an い-adjective: drop the last い → 楽し + かったです → **楽しかったです**.",
+      "explanation": "{楽|たの}しい is an い-adjective: drop the last い → 楽し + かったです → **楽しかったです**.\n\nExample: {京都|きょうと}の{旅行|りょこう}はとても**{楽|たの}しかったです**。",
       "notes": [],
-      "translation": "楽しい = fun",
+      "translation": "The trip to Kyoto was a lot of fun. (楽しい = fun)",
       "wrong_forms": {
         "たのしい": "that's the plain present form of 楽しい, but the cue asks for polite past.",
         "楽しい": "that's the plain present form of 楽しい, but the cue asks for polite past.",
@@ -884,9 +884,9 @@
         "みました"
       ],
       "hint": "見ま…",
-      "explanation": "{見|み}る is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **見ました**.",
+      "explanation": "{見|み}る is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **見ました**.\n\nExample: {昨日|きのう}、{花火|はなび}を**{見|み}ました**。",
       "notes": [],
-      "translation": "見る = to see",
+      "translation": "I watched fireworks yesterday. (見る = to see)",
       "wrong_forms": {
         "みる": "that's the plain present form of 見る, but the cue asks for polite past.",
         "見る": "that's the plain present form of 見る, but the cue asks for polite past.",
@@ -940,9 +940,9 @@
         "げんきではない"
       ],
       "hint": "元気じ…",
-      "explanation": "{元気|げんき} is a な-adjective: 元気 + じゃない (written: ではない) → **元気じゃない**.",
+      "explanation": "{元気|げんき} is a な-adjective: 元気 + じゃない (written: ではない) → **元気じゃない**.\n\nExample: {今日|きょう}は{少|すこ}し**{元気|げんき}じゃない**。",
       "notes": [],
-      "translation": "元気 = well, lively",
+      "translation": "I'm not feeling very lively today. (元気 = well, lively)",
       "wrong_forms": {
         "げんきだ": "that's the plain present form of 元気, but the cue asks for plain negative.",
         "元気だ": "that's the plain present form of 元気, but the cue asks for plain negative.",
@@ -990,9 +990,9 @@
         "いたくない"
       ],
       "hint": "痛く…",
-      "explanation": "{痛|いた}い is an い-adjective: drop the last い → 痛 + くない → **痛くない**.",
+      "explanation": "{痛|いた}い is an い-adjective: drop the last い → 痛 + くない → **痛くない**.\n\nExample: {薬|くすり}を{飲|の}んだら、もう{頭|あたま}は**{痛|いた}くない**。",
       "notes": [],
-      "translation": "痛い = painful",
+      "translation": "I took some medicine and my head doesn't hurt any more. (痛い = painful)",
       "wrong_forms": {
         "いたい": "that's the plain present form of 痛い, but the cue asks for plain negative.",
         "痛い": "that's the plain present form of 痛い, but the cue asks for plain negative.",
@@ -1038,9 +1038,9 @@
         "つかれた"
       ],
       "hint": "疲れ…",
-      "explanation": "{疲|つか}れる is a る-verb (ichidan): drop る + て / た → **疲れた**.",
+      "explanation": "{疲|つか}れる is a る-verb (ichidan): drop る + て / た → **疲れた**.\n\nExample: {今日|きょう}は{本当|ほんとう}に**{疲|つか}れた**。",
       "notes": [],
-      "translation": "疲れる = to get tired",
+      "translation": "I'm really tired today. (疲れる = to get tired)",
       "wrong_forms": {
         "つかれる": "that's the plain present form of 疲れる, but the cue asks for plain past.",
         "疲れる": "that's the plain present form of 疲れる, but the cue asks for plain past.",
@@ -1088,9 +1088,9 @@
         "じょうずになった"
       ],
       "hint": "上手に…",
-      "explanation": "{上手|じょうず} is a な-adjective: 上手 + になった → **上手になった**.",
+      "explanation": "{上手|じょうず} is a な-adjective: 上手 + になった → **上手になった**.\n\nExample: {毎日|まいにち}{練習|れんしゅう}して、{料理|りょうり}が**{上手|じょうず}になった**。",
       "notes": [],
-      "translation": "上手 = good at",
+      "translation": "I practised every day and got good at cooking. (上手 = good at)",
       "wrong_forms": {
         "じょうずだ": "that's the plain present form of 上手, but the cue asks for became … (なった).",
         "上手だ": "that's the plain present form of 上手, but the cue asks for became … (なった).",
@@ -1137,9 +1137,9 @@
         "しなかった"
       ],
       "hint": "し…",
-      "explanation": "する is irregular (する): する → し + ending → **しなかった**.",
+      "explanation": "する is irregular (する): する → し + ending → **しなかった**.\n\nExample: {昨日|きのう}は{何|なに}も**しなかった**。",
       "notes": [],
-      "translation": "する = to do",
+      "translation": "I didn't do anything yesterday. (する = to do)",
       "wrong_forms": {
         "する": "that's the plain present form of する, but the cue asks for plain past negative.",
         "しない": "that's the plain negative form of する, but the cue asks for plain past negative.",

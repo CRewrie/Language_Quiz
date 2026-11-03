@@ -38,9 +38,9 @@
         "たかい"
       ],
       "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
-      "explanation": "高くなかった: an い-adjective: the い dropped for the ending, so add it back → **高い**.",
+      "explanation": "高くなかった: an い-adjective: the い dropped for the ending, so add it back → **高い**.\n\nExample: その{時計|とけい}は**{高|たか}くなかった**。",
       "notes": [],
-      "translation": "高い = expensive, high"
+      "translation": "That watch wasn't expensive. (高い = expensive, high)"
     },
     {
       "point": "back-na",
@@ -52,9 +52,9 @@
         "しずか"
       ],
       "hint": "じゃ / だ / で / な / に after the word → the word itself",
-      "explanation": "静かじゃない: a な-adjective: the word never changes, just drop what follows → **静か**.",
+      "explanation": "静かじゃない: a な-adjective: the word never changes, just drop what follows → **静か**.\n\nExample: この{辺|へん}は{夜|よる}も**{静|しず}かじゃない**。",
       "notes": [],
-      "translation": "静か = quiet"
+      "translation": "This area isn't quiet even at night. (静か = quiet)"
     },
     {
       "point": "back-ii",
@@ -65,9 +65,9 @@
         "いい"
       ],
       "hint": "よ- forms come from いい",
-      "explanation": "よかった: よ- (よくない, よかった) is the irregular stem of いい → **いい**.",
+      "explanation": "よかった: よ- (よくない, よかった) is the irregular stem of いい → **いい**.\n\nExample: {旅行|りょこう}の{間|あいだ}、ずっと{天気|てんき}が**よかった**。",
       "notes": [],
-      "translation": "いい = good"
+      "translation": "The weather was good throughout the trip. (いい = good)"
     },
     {
       "point": "back-i",
@@ -78,9 +78,9 @@
         "おいしい"
       ],
       "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
-      "explanation": "おいしそう: an い-adjective: the い dropped for the ending, so add it back → **おいしい**.",
+      "explanation": "おいしそう: an い-adjective: the い dropped for the ending, so add it back → **おいしい**.\n\nExample: このケーキ、**おいしそう**！",
       "notes": [],
-      "translation": "おいしい = tasty"
+      "translation": "This cake looks delicious! (おいしい = tasty)"
     },
     {
       "point": "back-na",
@@ -92,9 +92,9 @@
         "べんり"
       ],
       "hint": "じゃ / だ / で / な / に after the word → the word itself",
-      "explanation": "便利な: a な-adjective: the word never changes, just drop what follows → **便利**.",
+      "explanation": "便利な: a な-adjective: the word never changes, just drop what follows → **便利**.\n\nExample: **{便利|べんり}な**アプリを{見|み}つけた。",
       "notes": [],
-      "translation": "便利 = convenient"
+      "translation": "I found a handy app. (便利 = convenient)"
     },
     {
       "point": "back-i",
@@ -106,9 +106,9 @@
         "さむい"
       ],
       "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
-      "explanation": "寒くて: an い-adjective: the い dropped for the ending, so add it back → **寒い**.",
+      "explanation": "寒くて: an い-adjective: the い dropped for the ending, so add it back → **寒い**.\n\nExample: **{寒|さむ}くて**、{手|て}が{冷|つめ}たい。",
       "notes": [],
-      "translation": "寒い = cold (weather)"
+      "translation": "It's so cold my hands are freezing. (寒い = cold (weather))"
     },
     {
       "point": "back-na",
@@ -120,9 +120,9 @@
         "げんき"
       ],
       "hint": "じゃ / だ / で / な / に after the word → the word itself",
-      "explanation": "元気で: a な-adjective: the word never changes, just drop what follows → **元気**.",
+      "explanation": "元気で: a な-adjective: the word never changes, just drop what follows → **元気**.\n\nExample: {祖母|そぼ}は**{元気|げんき}で**、{毎日|まいにち}{散歩|さんぽ}している。",
       "notes": [],
-      "translation": "元気 = well, lively"
+      "translation": "My grandmother is in good health and takes a walk every day. (元気 = well, lively)"
     },
     {
       "point": "back-i",
@@ -134,9 +134,9 @@
         "はやい"
       ],
       "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
-      "explanation": "早く: an い-adjective: the い dropped for the ending, so add it back → **早い**.",
+      "explanation": "早く: an い-adjective: the い dropped for the ending, so add it back → **早い**.\n\nExample: {明日|あした}は**{早|はや}く**{起|お}きます。",
       "notes": [],
-      "translation": "早い = early"
+      "translation": "I'm getting up early tomorrow. (早い = early)"
     },
     {
       "point": "back-na",
@@ -148,9 +148,9 @@
         "じょうず"
       ],
       "hint": "じゃ / だ / で / な / に after the word → the word itself",
-      "explanation": "上手に: a な-adjective: the word never changes, just drop what follows → **上手**.",
+      "explanation": "上手に: a な-adjective: the word never changes, just drop what follows → **上手**.\n\nExample: {娘|むすめ}は**{上手|じょうず}に**{絵|え}を{描|か}く。",
       "notes": [],
-      "translation": "上手 = good at"
+      "translation": "My daughter draws well. (上手 = good at)"
     },
     {
       "point": "back-i",
@@ -162,9 +162,9 @@
         "たのしい"
       ],
       "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
-      "explanation": "楽しかった: an い-adjective: the い dropped for the ending, so add it back → **楽しい**.",
+      "explanation": "楽しかった: an い-adjective: the い dropped for the ending, so add it back → **楽しい**.\n\nExample: {友達|ともだち}と{話|はな}せて**{楽|たの}しかった**。",
       "notes": [],
-      "translation": "楽しい = fun"
+      "translation": "It was fun talking with my friends. (楽しい = fun)"
     },
     {
       "point": "back-na",
@@ -176,9 +176,9 @@
         "ゆうめい"
       ],
       "hint": "じゃ / だ / で / な / に after the word → the word itself",
-      "explanation": "有名だった: a な-adjective: the word never changes, just drop what follows → **有名**. ⚠ The い of きれい / 嫌い / 有名 / 丁寧 belongs to the word — they're な-adjectives.",
+      "explanation": "有名だった: a な-adjective: the word never changes, just drop what follows → **有名**. ⚠ The い of きれい / 嫌い / 有名 / 丁寧 belongs to the word — they're な-adjectives.\n\nExample: {祖父|そふ}は{村|むら}で**{有名|ゆうめい}だった**。",
       "notes": [],
-      "translation": "有名 = famous"
+      "translation": "My grandfather was well known in the village. (有名 = famous)"
     },
     {
       "point": "back-ii",
@@ -189,9 +189,9 @@
         "かっこいい"
       ],
       "hint": "よ- forms come from いい",
-      "explanation": "かっこよくない: よ- (よくない, よかった) is the irregular stem of いい → **かっこいい**.",
+      "explanation": "かっこよくない: よ- (よくない, よかった) is the irregular stem of いい → **かっこいい**.\n\nExample: その{髪型|かみがた}、あまり**かっこよくない**よ。",
       "notes": [],
-      "translation": "かっこいい = cool, good-looking"
+      "translation": "That hairstyle isn't very cool. (かっこいい = cool, good-looking)"
     },
     {
       "point": "back-na",
@@ -202,9 +202,9 @@
         "きれい"
       ],
       "hint": "じゃ / だ / で / な / に after the word → the word itself",
-      "explanation": "きれいじゃなかった: a な-adjective: the word never changes, just drop what follows → **きれい**. ⚠ The い of きれい / 嫌い / 有名 / 丁寧 belongs to the word — they're な-adjectives.",
+      "explanation": "きれいじゃなかった: a な-adjective: the word never changes, just drop what follows → **きれい**. ⚠ The い of きれい / 嫌い / 有名 / 丁寧 belongs to the word — they're な-adjectives.\n\nExample: {昔|むかし}、この{川|かわ}は**きれいじゃなかった**。",
       "notes": [],
-      "translation": "きれい = pretty, clean"
+      "translation": "This river didn't use to be clean. (きれい = pretty, clean)"
     },
     {
       "point": "back-i",
@@ -216,9 +216,9 @@
         "むずかしい"
       ],
       "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
-      "explanation": "難しければ: an い-adjective: the い dropped for the ending, so add it back → **難しい**.",
+      "explanation": "難しければ: an い-adjective: the い dropped for the ending, so add it back → **難しい**.\n\nExample: **{難|むずか}しければ**、{先生|せんせい}に{聞|き}いてください。",
       "notes": [],
-      "translation": "難しい = difficult"
+      "translation": "If it's difficult, ask the teacher. (難しい = difficult)"
     },
     {
       "point": "back-na",
@@ -230,9 +230,9 @@
         "きらい"
       ],
       "hint": "じゃ / だ / で / な / に after the word → the word itself",
-      "explanation": "嫌いだった: a な-adjective: the word never changes, just drop what follows → **嫌い**. ⚠ The い of きれい / 嫌い / 有名 / 丁寧 belongs to the word — they're な-adjectives.",
+      "explanation": "嫌いだった: a な-adjective: the word never changes, just drop what follows → **嫌い**. ⚠ The い of きれい / 嫌い / 有名 / 丁寧 belongs to the word — they're な-adjectives.\n\nExample: {昔|むかし}は{野菜|やさい}が**{嫌|きら}いだった**。",
       "notes": [],
-      "translation": "嫌い = disliked"
+      "translation": "I used to hate vegetables. (嫌い = disliked)"
     },
     {
       "point": "back-i",
@@ -244,9 +244,9 @@
         "おおきい"
       ],
       "hint": "く / かっ / けれ / そう / すぎる after the stem → put い back",
-      "explanation": "大きすぎる: an い-adjective: the い dropped for the ending, so add it back → **大きい**.",
+      "explanation": "大きすぎる: an い-adjective: the い dropped for the ending, so add it back → **大きい**.\n\nExample: このシャツは{私|わたし}には**{大|おお}きすぎる**。",
       "notes": [],
-      "translation": "大きい = big"
+      "translation": "This shirt is too big for me. (大きい = big)"
     }
   ]
 }

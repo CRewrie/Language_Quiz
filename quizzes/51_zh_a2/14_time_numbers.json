@@ -78,14 +78,14 @@
         "{八十五|bāshíwǔ}{点|diǎn}"
       ],
       "answer": 2,
-      "explanation": "Hour + 点 + minutes + **分**.",
+      "explanation": "Hour + 点 + minutes + **分**.\n\nExample: {我|wǒ}{每天|měitiān}{八|bā}{点|diǎn}{十五|shíwǔ}{分|fēn}{出门|chūmén}。",
       "notes": [
         "Minutes are 分, not 个.",
         "Hours come before minutes.",
         "",
         "That's '85 o'clock'."
       ],
-      "translation": ""
+      "translation": "I leave home at 8:15 every day."
     },
     {
       "point": "fen",
@@ -97,14 +97,14 @@
         "8:55"
       ],
       "answer": 3,
-      "explanation": "差 = **to (the hour)**.",
+      "explanation": "差 = **to (the hour)**.\n\nExample: {现在|xiànzài}{差|chà}{五|wǔ}{分|fēn}{九|jiǔ}{点|diǎn}，{快|kuài}{上课|shàngkè}{了|le}。",
       "notes": [
         "差 = 'short of' — five minutes before nine.",
         "差 = minus, not plus.",
         "The hour is 九.",
         ""
       ],
-      "translation": ""
+      "translation": "It's five to nine — class is about to start."
     },
     {
       "point": "approx",
@@ -135,14 +135,14 @@
         "{三|sān}{天|tiān}{四|sì}{天|tiān}"
       ],
       "answer": 1,
-      "explanation": "**三四天**.",
+      "explanation": "**三四天**.\n\nExample: {我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{了|le}{三四|sān sì}{天|tiān}。",
       "notes": [
         "The smaller number comes first.",
         "",
         "That's 34 days.",
         "Not repeated like that."
       ],
-      "translation": ""
+      "translation": "I stayed in Beijing for three or four days."
     },
     {
       "point": "yi",
@@ -173,14 +173,14 @@
         "100,000,000"
       ],
       "answer": 3,
-      "explanation": "亿 = **10⁸**.",
+      "explanation": "亿 = **10⁸**.\n\nExample: {这个|zhège}{城市|chéngshì}{花|huā}{了|le}{一|yí}{亿|yì}{元|yuán}{修|xiū}{路|lù}。",
       "notes": [
         "That's 一百万.",
         "That's 十亿.",
         "That's 一万.",
         ""
       ],
-      "translation": ""
+      "translation": "This city spent 100 million yuan on its roads."
     },
     {
       "point": "yiqianhou2",

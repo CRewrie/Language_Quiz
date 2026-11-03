@@ -52,9 +52,9 @@
         "やすくて"
       ],
       "hint": "い-adjectives: drop い + くて",
-      "explanation": "{安|やす}い is an い-adjective: drop the last い → 安 + くて → **安くて**.",
+      "explanation": "{安|やす}い is an い-adjective: drop the last い → 安 + くて → **安くて**.\n\nExample: この{店|みせ}は**{安|やす}くて**おいしい。",
       "notes": [],
-      "translation": "安い = cheap",
+      "translation": "This place is cheap and tasty. (安い = cheap)",
       "wrong_forms": {
         "やすい": "that's the plain present form of 安い, but the cue asks for て-form (… and …).",
         "安い": "that's the plain present form of 安い, but the cue asks for て-form (… and …).",
@@ -100,9 +100,9 @@
         "べんりで"
       ],
       "hint": "な-adjectives: + で",
-      "explanation": "{便利|べんり} is a な-adjective: 便利 + で → **便利で**.",
+      "explanation": "{便利|べんり} is a な-adjective: 便利 + で → **便利で**.\n\nExample: スマホは**{便利|べんり}で**、もう{手放|てばな}せない。",
       "notes": [],
-      "translation": "便利 = convenient",
+      "translation": "Smartphones are so handy that I can't do without mine. (便利 = convenient)",
       "wrong_forms": {
         "べんりだ": "that's the plain present form of 便利, but the cue asks for て-form (… and …).",
         "便利だ": "that's the plain present form of 便利, but the cue asks for て-form (… and …).",
@@ -150,9 +150,9 @@
         "はやく"
       ],
       "hint": "Adverb: drop い + く",
-      "explanation": "{早|はや}い is an い-adjective: drop the last い → 早 + く → **早く**.",
+      "explanation": "{早|はや}い is an い-adjective: drop the last い → 早 + く → **早く**.\n\nExample: {明日|あした}は**{早|はや}く**{起|お}きます。",
       "notes": [],
-      "translation": "早い = early",
+      "translation": "I'm getting up early tomorrow. (早い = early)",
       "wrong_forms": {
         "はやい": "that's the plain present form of 早い, but the cue asks for adverb (…ly / に・く).",
         "早い": "that's the plain present form of 早い, but the cue asks for adverb (…ly / に・く).",
@@ -198,9 +198,9 @@
         "しずかに"
       ],
       "hint": "Adverb: + に",
-      "explanation": "{静|しず}か is a な-adjective: 静か + に → **静かに**.",
+      "explanation": "{静|しず}か is a な-adjective: 静か + に → **静かに**.\n\nExample: {図書館|としょかん}では**{静|しず}かに**{話|はな}してください。",
       "notes": [],
-      "translation": "静か = quiet",
+      "translation": "Please speak quietly in the library. (静か = quiet)",
       "wrong_forms": {
         "しずかだ": "that's the plain present form of 静か, but the cue asks for adverb (…ly / に・く).",
         "静かだ": "that's the plain present form of 静か, but the cue asks for adverb (…ly / に・く).",
@@ -248,9 +248,9 @@
         "ひろくて"
       ],
       "hint": "い-adjectives: drop い + くて",
-      "explanation": "{広|ひろ}い is an い-adjective: drop the last い → 広 + くて → **広くて**.",
+      "explanation": "{広|ひろ}い is an い-adjective: drop the last い → 広 + くて → **広くて**.\n\nExample: {新|あたら}しい{部屋|へや}は**{広|ひろ}くて**{気持|きも}ちがいい。",
       "notes": [],
-      "translation": "広い = spacious",
+      "translation": "The new flat is spacious and pleasant. (広い = spacious)",
       "wrong_forms": {
         "ひろい": "that's the plain present form of 広い, but the cue asks for て-form (… and …).",
         "広い": "that's the plain present form of 広い, but the cue asks for て-form (… and …).",
@@ -295,9 +295,9 @@
         "よくて"
       ],
       "hint": "いい → よくて / よく",
-      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + くて) → **よくて**.",
+      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + くて) → **よくて**.\n\nExample: {天気|てんき}が**よくて**、{気持|きも}ちがいい。",
       "notes": [],
-      "translation": "いい = good",
+      "translation": "The weather's good and it feels great. (いい = good)",
       "wrong_forms": {
         "いい": "that's the plain present form of いい, but the cue asks for て-form (… and …).",
         "いいです": "that's the polite present form of いい, but the cue asks for て-form (… and …).",
@@ -327,9 +327,9 @@
         "きれいで"
       ],
       "hint": "な-adjectives: + で",
-      "explanation": "きれい is a な-adjective: きれい + で → **きれいで**. ⚠ It ends in an い sound, but that い is part of the word — きれい is a な-adjective (not きれくない).",
+      "explanation": "きれい is a な-adjective: きれい + で → **きれいで**. ⚠ It ends in an い sound, but that い is part of the word — きれい is a な-adjective (not きれくない).\n\nExample: この{町|まち}は**きれいで**、{静|しず}かです。",
       "notes": [],
-      "translation": "きれい = pretty, clean",
+      "translation": "This town is clean and quiet. (きれい = pretty, clean)",
       "wrong_forms": {
         "きれいだ": "that's the plain present form of きれい, but the cue asks for て-form (… and …).",
         "きれいです": "that's the polite present form of きれい, but the cue asks for て-form (… and …).",
@@ -360,9 +360,9 @@
         "じょうずに"
       ],
       "hint": "Adverb: + に",
-      "explanation": "{上手|じょうず} is a な-adjective: 上手 + に → **上手に**.",
+      "explanation": "{上手|じょうず} is a な-adjective: 上手 + に → **上手に**.\n\nExample: {娘|むすめ}は**{上手|じょうず}に**{絵|え}を{描|か}く。",
       "notes": [],
-      "translation": "上手 = good at",
+      "translation": "My daughter draws well. (上手 = good at)",
       "wrong_forms": {
         "じょうずだ": "that's the plain present form of 上手, but the cue asks for adverb (…ly / に・く).",
         "上手だ": "that's the plain present form of 上手, but the cue asks for adverb (…ly / に・く).",
@@ -410,9 +410,9 @@
         "みじかく"
       ],
       "hint": "Adverb: drop い + く",
-      "explanation": "{短|みじか}い is an い-adjective: drop the last い → 短 + く → **短く**.",
+      "explanation": "{短|みじか}い is an い-adjective: drop the last い → 短 + く → **短く**.\n\nExample: {夏|なつ}なので、{髪|かみ}を**{短|みじか}く**{切|き}った。",
       "notes": [],
-      "translation": "短い = short",
+      "translation": "It's summer, so I cut my hair short. (短い = short)",
       "wrong_forms": {
         "みじかい": "that's the plain present form of 短い, but the cue asks for adverb (…ly / に・く).",
         "短い": "that's the plain present form of 短い, but the cue asks for adverb (…ly / に・く).",
@@ -458,9 +458,9 @@
         "あかるくて"
       ],
       "hint": "い-adjectives: drop い + くて",
-      "explanation": "{明|あか}るい is an い-adjective: drop the last い → 明る + くて → **明るくて**.",
+      "explanation": "{明|あか}るい is an い-adjective: drop the last い → 明る + くて → **明るくて**.\n\nExample: この{部屋|へや}は**{明|あか}るくて**{暖|あたた}かい。",
       "notes": [],
-      "translation": "明るい = bright",
+      "translation": "This room is bright and warm. (明るい = bright)",
       "wrong_forms": {
         "あかるい": "that's the plain present form of 明るい, but the cue asks for て-form (… and …).",
         "明るい": "that's the plain present form of 明るい, but the cue asks for て-form (… and …).",
@@ -506,9 +506,9 @@
         "しんせつで"
       ],
       "hint": "な-adjectives: + で",
-      "explanation": "{親切|しんせつ} is a な-adjective: 親切 + で → **親切で**.",
+      "explanation": "{親切|しんせつ} is a な-adjective: 親切 + で → **親切で**.\n\nExample: {店員|てんいん}さんが**{親切|しんせつ}で**、{嬉|うれ}しかった。",
       "notes": [],
-      "translation": "親切 = kind",
+      "translation": "The staff were kind, and I was happy. (親切 = kind)",
       "wrong_forms": {
         "しんせつだ": "that's the plain present form of 親切, but the cue asks for て-form (… and …).",
         "親切だ": "that's the plain present form of 親切, but the cue asks for て-form (… and …).",
@@ -555,9 +555,9 @@
         "よく"
       ],
       "hint": "いい → よくて / よく",
-      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + く) → **よく**.",
+      "explanation": "いい is irregular: every form except the present uses よ- instead of い- (よ + く) → **よく**.\n\nExample: {先生|せんせい}の{説明|せつめい}は**よく**{分|わ}かった。",
       "notes": [],
-      "translation": "いい = good",
+      "translation": "I understood the teacher's explanation well. (いい = good)",
       "wrong_forms": {
         "いい": "that's the plain present form of いい, but the cue asks for adverb (…ly / に・く).",
         "いいです": "that's the polite present form of いい, but the cue asks for adverb (…ly / に・く).",
@@ -588,9 +588,9 @@
         "ていねいに"
       ],
       "hint": "Adverb: + に",
-      "explanation": "{丁寧|ていねい} is a な-adjective: 丁寧 + に → **丁寧に**. ⚠ It ends in an い sound, but that い is part of the word — 丁寧 is a な-adjective (not ていねくない).",
+      "explanation": "{丁寧|ていねい} is a な-adjective: 丁寧 + に → **丁寧に**. ⚠ It ends in an い sound, but that い is part of the word — 丁寧 is a な-adjective (not ていねくない).\n\nExample: {店員|てんいん}さんが**{丁寧|ていねい}に**{説明|せつめい}してくれた。",
       "notes": [],
-      "translation": "丁寧 = polite, careful",
+      "translation": "The shop assistant explained it carefully. (丁寧 = polite, careful)",
       "wrong_forms": {
         "ていねいだ": "that's the plain present form of 丁寧, but the cue asks for adverb (…ly / に・く).",
         "丁寧だ": "that's the plain present form of 丁寧, but the cue asks for adverb (…ly / に・く).",
@@ -637,9 +637,9 @@
         "つよく"
       ],
       "hint": "Adverb: drop い + く",
-      "explanation": "{強|つよ}い is an い-adjective: drop the last い → 強 + く → **強く**.",
+      "explanation": "{強|つよ}い is an い-adjective: drop the last い → 強 + く → **強く**.\n\nExample: ドアを**{強|つよ}く**{押|お}してください。",
       "notes": [],
-      "translation": "強い = strong",
+      "translation": "Push the door hard. (強い = strong)",
       "wrong_forms": {
         "つよい": "that's the plain present form of 強い, but the cue asks for adverb (…ly / に・く).",
         "強い": "that's the plain present form of 強い, but the cue asks for adverb (…ly / に・く).",
@@ -685,9 +685,9 @@
         "かんたんで"
       ],
       "hint": "な-adjectives: + で",
-      "explanation": "{簡単|かんたん} is a な-adjective: 簡単 + で → **簡単で**.",
+      "explanation": "{簡単|かんたん} is a な-adjective: 簡単 + で → **簡単で**.\n\nExample: この{料理|りょうり}は**{簡単|かんたん}で**おいしい。",
       "notes": [],
-      "translation": "簡単 = easy",
+      "translation": "This dish is easy and tasty. (簡単 = easy)",
       "wrong_forms": {
         "かんたんだ": "that's the plain present form of 簡単, but the cue asks for て-form (… and …).",
         "簡単だ": "that's the plain present form of 簡単, but the cue asks for て-form (… and …).",
@@ -735,9 +735,9 @@
         "あまくて"
       ],
       "hint": "い-adjectives: drop い + くて",
-      "explanation": "{甘|あま}い is an い-adjective: drop the last い → 甘 + くて → **甘くて**.",
+      "explanation": "{甘|あま}い is an い-adjective: drop the last い → 甘 + くて → **甘くて**.\n\nExample: このりんごは**{甘|あま}くて**おいしい。",
       "notes": [],
-      "translation": "甘い = sweet",
+      "translation": "This apple is sweet and tasty. (甘い = sweet)",
       "wrong_forms": {
         "あまい": "that's the plain present form of 甘い, but the cue asks for て-form (… and …).",
         "甘い": "that's the plain present form of 甘い, but the cue asks for て-form (… and …).",

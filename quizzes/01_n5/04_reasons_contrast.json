@@ -306,14 +306,14 @@
         "けれど"
       ],
       "answer": 1,
-      "explanation": "Register from formal to casual: けれども → けれど → **けど**. 'But' が is fairly formal.",
+      "explanation": "Register from formal to casual: けれども → けれど → **けど**. 'But' が is fairly formal.\n\nExample: {行|い}きたい**けど**、{時間|じかん}がない。",
       "notes": [
         "けれども is the most formal of the family.",
         "",
         "が ('but') is polite/formal, typical after です/ます.",
         "けれど is neutral, between けれども and けど."
       ],
-      "translation": ""
+      "translation": "I'd like to go, but I don't have time."
     },
     {
       "point": "kara-because",

@@ -544,7 +544,7 @@ quiz("08_prepositions", "zh-b2-prepositions", "Prepositions (B2): 随着, 自从
         "As for: **至于**.", "Let's finish the work first — as for how to celebrate, we'll talk about it later."),
       Q("zhiyu", "Which word introduces a new, related topic ('as for …')?", ["至于/zhìyú", "由于/yóuyú", "终于/zhōngyú", "甚至/shènzhì"],
         ["", "由于 introduces a reason.", "终于 = 'finally'.", "甚至 = 'even'."],
-        "**至于** = as for.", ""),
+        "**至于** = as for.\n\nExample: " + zh("我们/wǒmen 明天/míngtiān 出发/chūfā ， 至于/zhìyú 住/zhù 哪儿/nǎr ， 到/dào 了/le 再/zài 说/shuō 。"), "We leave tomorrow; as for where we'll stay, we'll sort that out when we get there."),
       Q("zainei", zh("包括/bāokuò 我/wǒ （　） ， 一共/yígòng 有/yǒu 十/shí 个/ge 人/rén 。"), ["在内/zài nèi", "在里/zài lǐ", "之内/zhī nèi", "以内/yǐ nèi"],
         ["", "Not the set phrase.", "之内 = 'within (a time/space)'.", "以内 = 'within (a limit)'."],
         "Including: **包括…在内**.", "Including me, there are ten people in total."),

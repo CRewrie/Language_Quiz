@@ -362,7 +362,7 @@ quiz("07_numbers_time", "zh-a1-numbers-time", "Numbers & Time: 二/两, 个, 岁
         "Big → small: **年 → 月 → 日**.", ""),
       Q("time", "Which means 2:30?", ["两点半/liǎng diǎn bàn", "二点半/èr diǎn bàn", "半两点/bàn liǎng diǎn", "两半点/liǎng bàn diǎn"],
         ["", "2 o'clock is 两点.", "半 comes after 点.", "半 comes after 点."],
-        "**两点半**.", ""),
+        "**两点半**.\n\nExample: " + zh("我们/wǒmen 下午/xiàwǔ 两点半/liǎng diǎn bàn 见/jiàn 。"), "Let's meet at half past two this afternoon."),
       Q("time", zh("我/wǒ 每天/měitiān 早上/zǎoshang 七/qī （　） 起床/qǐchuáng 。"), ["点/diǎn", "个/ge", "岁/suì", "号/hào"],
         ["", "七个 needs a noun.", "岁 = age.", "号 = date."],
         "O'clock: **点**.", "I get up at seven every morning."),

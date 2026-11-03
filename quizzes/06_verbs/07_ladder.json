@@ -31,7 +31,7 @@
         "かきます"
       ],
       "hint": "書き…",
-      "explanation": "{書|か}く is an う-verb (godan): く → き (い-row) for the ます-stem, then add the ending → **書きます**.",
+      "explanation": "{書|か}く is an う-verb (godan): く → き (い-row) for the ます-stem, then add the ending → **書きます**.\n\nExample: {毎日|まいにち}{日記|にっき}を**{書|か}きます**。",
       "notes": [],
       "wrong_forms": {
         "かく": "that's the plain present form of 書く, but the cue asks for polite present.",
@@ -67,7 +67,7 @@
         "かかせた": "that's the causative (make / let), past form of 書く, but the cue asks for polite present.",
         "書かせた": "that's the causative (make / let), past form of 書く, but the cue asks for polite present."
       },
-      "translation": "書く = to write"
+      "translation": "I write in my diary every day. (書く = to write)"
     },
     {
       "point": "ladder-u",
@@ -79,7 +79,7 @@
         "かかない"
       ],
       "hint": "書か…",
-      "explanation": "{書|か}く is an う-verb (godan): く → か (あ-row) + ない → **書かない**.",
+      "explanation": "{書|か}く is an う-verb (godan): く → か (あ-row) + ない → **書かない**.\n\nExample: {最近|さいきん}、{手紙|てがみ}はあまり**{書|か}かない**。",
       "notes": [],
       "wrong_forms": {
         "かく": "that's the plain present form of 書く, but the cue asks for plain negative.",
@@ -115,7 +115,7 @@
         "かかせた": "that's the causative (make / let), past form of 書く, but the cue asks for plain negative.",
         "書かせた": "that's the causative (make / let), past form of 書く, but the cue asks for plain negative."
       },
-      "translation": "書く = to write"
+      "translation": "I don't write many letters these days. (書く = to write)"
     },
     {
       "point": "ladder-u",
@@ -127,7 +127,7 @@
         "かいて"
       ],
       "hint": "書い…",
-      "explanation": "{書|か}く is an う-verb (godan): く → いて → **書いて**.",
+      "explanation": "{書|か}く is an う-verb (godan): く → いて → **書いて**.\n\nExample: ここに{名前|なまえ}を**{書|か}いて**ください。",
       "notes": [],
       "wrong_forms": {
         "かく": "that's the plain present form of 書く, but the cue asks for て-form.",
@@ -163,7 +163,7 @@
         "かかせた": "that's the causative (make / let), past form of 書く, but the cue asks for て-form.",
         "書かせた": "that's the causative (make / let), past form of 書く, but the cue asks for て-form."
       },
-      "translation": "書く = to write"
+      "translation": "Please write your name here. (書く = to write)"
     },
     {
       "point": "ladder-u",
@@ -175,7 +175,7 @@
         "かいた"
       ],
       "hint": "書い…",
-      "explanation": "{書|か}く is an う-verb (godan): く → いて → **書いた**.",
+      "explanation": "{書|か}く is an う-verb (godan): く → いて → **書いた**.\n\nExample: {昨日|きのう}、{母|はは}に{手紙|てがみ}を**{書|か}いた**。",
       "notes": [],
       "wrong_forms": {
         "かく": "that's the plain present form of 書く, but the cue asks for plain past.",
@@ -211,7 +211,7 @@
         "かかせた": "that's the causative (make / let), past form of 書く, but the cue asks for plain past.",
         "書かせた": "that's the causative (make / let), past form of 書く, but the cue asks for plain past."
       },
-      "translation": "書く = to write"
+      "translation": "I wrote a letter to my mother yesterday. (書く = to write)"
     },
     {
       "point": "ladder-u",
@@ -223,7 +223,7 @@
         "かける"
       ],
       "hint": "書け…",
-      "explanation": "{書|か}く is an う-verb (godan): く → け (え-row) + る → **書ける** ('can …'; it conjugates like a る-verb from here).",
+      "explanation": "{書|か}く is an う-verb (godan): く → け (え-row) + る → **書ける** ('can …'; it conjugates like a る-verb from here).\n\nExample: ひらがなならもう**{書|か}ける**よ。",
       "notes": [],
       "wrong_forms": {
         "かく": "that's the plain present form of 書く, but the cue asks for can … (plain).",
@@ -259,7 +259,7 @@
         "かかせた": "that's the causative (make / let), past form of 書く, but the cue asks for can … (plain).",
         "書かせた": "that's the causative (make / let), past form of 書く, but the cue asks for can … (plain)."
       },
-      "translation": "書く = to write"
+      "translation": "I can already write hiragana. (書く = to write)"
     },
     {
       "point": "ladder-u",
@@ -271,7 +271,7 @@
         "かこう"
       ],
       "hint": "書こ…",
-      "explanation": "{書|か}く is an う-verb (godan): く → こ (お-row) + う → **書こう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{書|か}く is an う-verb (godan): く → こ (お-row) + う → **書こう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: {先生|せんせい}にお{礼|れい}のメールを**{書|か}こう**。",
       "notes": [],
       "wrong_forms": {
         "かく": "that's the plain present form of 書く, but the cue asks for let's / I'll … (plain volitional).",
@@ -307,7 +307,7 @@
         "かかせた": "that's the causative (make / let), past form of 書く, but the cue asks for let's / I'll … (plain volitional).",
         "書かせた": "that's the causative (make / let), past form of 書く, but the cue asks for let's / I'll … (plain volitional)."
       },
-      "translation": "書く = to write"
+      "translation": "I'll write my teacher a thank-you email. (書く = to write)"
     },
     {
       "point": "ladder-u",
@@ -319,7 +319,7 @@
         "かけば"
       ],
       "hint": "書け…",
-      "explanation": "{書|か}く is an う-verb (godan): く → け (え-row) + ば → **書けば**.",
+      "explanation": "{書|か}く is an う-verb (godan): く → け (え-row) + ば → **書けば**.\n\nExample: {名前|なまえ}を**{書|か}けば**、{誰|だれ}のか{分|わ}かる。",
       "notes": [],
       "wrong_forms": {
         "かく": "that's the plain present form of 書く, but the cue asks for if … (ば-form).",
@@ -355,7 +355,7 @@
         "かかせた": "that's the causative (make / let), past form of 書く, but the cue asks for if … (ば-form).",
         "書かせた": "that's the causative (make / let), past form of 書く, but the cue asks for if … (ば-form)."
       },
-      "translation": "書く = to write"
+      "translation": "If you write your name on it, we'll know whose it is. (書く = to write)"
     },
     {
       "point": "ladder-ru",
@@ -367,7 +367,7 @@
         "たべます"
       ],
       "hint": "食べま…",
-      "explanation": "{食|た}べる is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **食べます**.",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る for the ます-stem, then add the ending → **食べます**.\n\nExample: {毎朝|まいあさ}パンを**{食|た}べます**。",
       "notes": [],
       "wrong_forms": {
         "たべる": "that's the plain present form of 食べる, but the cue asks for polite present.",
@@ -405,7 +405,7 @@
         "たべります": "that's the う-verb pattern, but 食べる is a る-verb: just drop る.",
         "食べります": "that's the う-verb pattern, but 食べる is a る-verb: just drop る."
       },
-      "translation": "食べる = to eat"
+      "translation": "I eat bread every morning. (食べる = to eat)"
     },
     {
       "point": "ladder-ru",
@@ -417,7 +417,7 @@
         "たべない"
       ],
       "hint": "食べな…",
-      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + ない → **食べない**.",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + ない → **食べない**.\n\nExample: {私|わたし}は{肉|にく}を**{食|た}べない**。",
       "notes": [],
       "wrong_forms": {
         "たべる": "that's the plain present form of 食べる, but the cue asks for plain negative.",
@@ -455,7 +455,7 @@
         "たべらない": "that's the う-verb pattern, but 食べる is a る-verb: just drop る.",
         "食べらない": "that's the う-verb pattern, but 食べる is a る-verb: just drop る."
       },
-      "translation": "食べる = to eat"
+      "translation": "I don't eat meat. (食べる = to eat)"
     },
     {
       "point": "ladder-ru",
@@ -467,7 +467,7 @@
         "たべて"
       ],
       "hint": "食べ…",
-      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べて**.",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べて**.\n\nExample: {冷|さ}めないうちに**{食|た}べて**ね。",
       "notes": [],
       "wrong_forms": {
         "たべる": "that's the plain present form of 食べる, but the cue asks for て-form.",
@@ -505,7 +505,7 @@
         "たべって": "that's the う-verb pattern, but 食べる is a る-verb: just drop る.",
         "食べって": "that's the う-verb pattern, but 食べる is a る-verb: just drop る."
       },
-      "translation": "食べる = to eat"
+      "translation": "Eat it before it gets cold. (食べる = to eat)"
     },
     {
       "point": "ladder-ru",
@@ -517,7 +517,7 @@
         "たべた"
       ],
       "hint": "食べ…",
-      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べた**.",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + て / た → **食べた**.\n\nExample: {昨日|きのう}、すしを**{食|た}べた**。",
       "notes": [],
       "wrong_forms": {
         "たべる": "that's the plain present form of 食べる, but the cue asks for plain past.",
@@ -555,7 +555,7 @@
         "たべった": "that's the う-verb pattern, but 食べる is a る-verb: just drop る.",
         "食べった": "that's the う-verb pattern, but 食べる is a る-verb: just drop る."
       },
-      "translation": "食べる = to eat"
+      "translation": "I ate sushi yesterday. (食べる = to eat)"
     },
     {
       "point": "ladder-ru",
@@ -567,7 +567,7 @@
         "たべられる"
       ],
       "hint": "食べら…",
-      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + られる → **食べられる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + られる → **食べられる** ('can …'; it conjugates like a る-verb from here). (For る-verbs this looks like the passive — context tells you which.)\n\nExample: {辛|から}いものも**{食|た}べられる**よ。",
       "notes": [],
       "wrong_forms": {
         "たべる": "that's the plain present form of 食べる, but the cue asks for can … (plain).",
@@ -605,7 +605,7 @@
         "たべれる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 食べられる.",
         "食べれる": "that's the casual 'ら-less' form — you'll hear it a lot, but the standard (and exam) form keeps ら: 食べられる."
       },
-      "translation": "食べる = to eat"
+      "translation": "I can eat spicy food too. (食べる = to eat)"
     },
     {
       "point": "ladder-ru",
@@ -617,7 +617,7 @@
         "たべよう"
       ],
       "hint": "食べよ…",
-      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + よう → **食べよう** (plain 'let's / I'll'; polite: ましょう).",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + よう → **食べよう** (plain 'let's / I'll'; polite: ましょう).\n\nExample: お{昼|ひる}、{一緒|いっしょ}に**{食|た}べよう**。",
       "notes": [],
       "wrong_forms": {
         "たべる": "that's the plain present form of 食べる, but the cue asks for let's / I'll … (plain volitional).",
@@ -655,7 +655,7 @@
         "たべろう": "that's the う-verb pattern, but 食べる is a る-verb: just drop る.",
         "食べろう": "that's the う-verb pattern, but 食べる is a る-verb: just drop る."
       },
-      "translation": "食べる = to eat"
+      "translation": "Let's have lunch together. (食べる = to eat)"
     },
     {
       "point": "ladder-ru",
@@ -667,7 +667,7 @@
         "たべれば"
       ],
       "hint": "食べれ…",
-      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + れば → **食べれば**.",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + れば → **食べれば**.\n\nExample: {朝|あさ}ご{飯|はん}を**{食|た}べれば**、{元気|げんき}が{出|で}るよ。",
       "notes": [],
       "wrong_forms": {
         "たべる": "that's the plain present form of 食べる, but the cue asks for if … (ば-form).",
@@ -703,7 +703,7 @@
         "たべさせた": "that's the causative (make / let), past form of 食べる, but the cue asks for if … (ば-form).",
         "食べさせた": "that's the causative (make / let), past form of 食べる, but the cue asks for if … (ば-form)."
       },
-      "translation": "食べる = to eat"
+      "translation": "If you eat breakfast, you'll have more energy. (食べる = to eat)"
     }
   ],
   "keep_order": true

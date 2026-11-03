@@ -46,14 +46,14 @@
       ],
       "answer": 2,
       "fixed_order": true,
-      "explanation": "{好|す}き is a な-adjective: 好きじゃない, 好きだった, 好きな + noun. English 'like' is a verb, but 好き is a な-adjective: 猫**が**好きです.",
+      "explanation": "{好|す}き is a な-adjective: 好きじゃない, 好きだった, 好きな + noun. English 'like' is a verb, but 好き is a な-adjective: 猫**が**好きです.\n\nExample: {私|わたし}は{猫|ねこ}が**{好|す}きです**。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "An い-adjective would change its い (…くない, …かった).",
         "",
         "A noun takes の before another noun."
       ],
-      "translation": "好き = liked"
+      "translation": "I like cats. (好き = liked)"
     },
     {
       "point": "cls-v",
@@ -66,14 +66,14 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "{分|わ}かる is a verb: 分からない, 分かります, 分かった. German can say 'das ist mir klar' (an adjective), but Japanese only has the verb 分かる; what you understand takes が.",
+      "explanation": "{分|わ}かる is a verb: 分からない, 分かります, 分かった. German can say 'das ist mir klar' (an adjective), but Japanese only has the verb 分かる; what you understand takes が.\n\nExample: すみません、よく**{分|わ}かりません**。",
       "notes": [
         "",
         "An い-adjective would change its い (…くない, …かった).",
         "A な-adjective would add じゃない and take な before a noun.",
         "A noun takes の before another noun."
       ],
-      "translation": "分かる = to understand"
+      "translation": "Sorry, I don't really understand. (分かる = to understand)"
     },
     {
       "point": "cls-i",
@@ -86,14 +86,14 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "{欲|ほ}しい is an い-adjective: 欲しくない, 欲しかった. 'Want' is a verb in English, but 欲しい (want a thing) is an い-adjective; the thing takes が: 車が欲しい.",
+      "explanation": "{欲|ほ}しい is an い-adjective: 欲しくない, 欲しかった. 'Want' is a verb in English, but 欲しい (want a thing) is an い-adjective; the thing takes が: 車が欲しい.\n\nExample: {新|あたら}しいパソコンが**{欲|ほ}しい**。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "",
         "A な-adjective would add じゃない and take な before a noun.",
         "A noun takes の before another noun."
       ],
-      "translation": "欲しい = wanted"
+      "translation": "I want a new computer. (欲しい = wanted)"
     },
     {
       "point": "cls-v",
@@ -106,14 +106,14 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "{疲|つか}れる is a verb: 疲れない, 疲れます, 疲れた. 'tired' is an adjective in English, but Japanese uses this verb: 疲れた / 疲れている (I'm tired).",
+      "explanation": "{疲|つか}れる is a verb: 疲れない, 疲れます, 疲れた. 'tired' is an adjective in English, but Japanese uses this verb: 疲れた / 疲れている (I'm tired).\n\nExample: {今日|きょう}はたくさん{歩|ある}いて**{疲|つか}れた**。",
       "notes": [
         "",
         "An い-adjective would change its い (…くない, …かった).",
         "A な-adjective would add じゃない and take な before a noun.",
         "A noun takes の before another noun."
       ],
-      "translation": "疲れる = to get tired"
+      "translation": "I walked a lot today and I'm tired. (疲れる = to get tired)"
     },
     {
       "point": "cls-i",
@@ -126,14 +126,14 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "{眠|ねむ}い is an い-adjective: 眠くない, 眠かった. Here English and Japanese agree: 'sleepy' is an adjective. 'To sleep' is the verb 寝る / 眠る.",
+      "explanation": "{眠|ねむ}い is an い-adjective: 眠くない, 眠かった. Here English and Japanese agree: 'sleepy' is an adjective. 'To sleep' is the verb 寝る / 眠る.\n\nExample: {昨日|きのう}あまり{寝|ね}なかったので、**{眠|ねむ}い**。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "",
         "A な-adjective would add じゃない and take な before a noun.",
         "A noun takes の before another noun."
       ],
-      "translation": "眠い = sleepy"
+      "translation": "I didn't sleep much last night, so I'm sleepy. (眠い = sleepy)"
     },
     {
       "point": "cls-na",
@@ -146,14 +146,14 @@
       ],
       "answer": 2,
       "fixed_order": true,
-      "explanation": "{上手|じょうず} is a な-adjective: 上手じゃない, 上手だった, 上手な + noun. 'be good at' — 上手 is a な-adjective: 料理**が**上手です.",
+      "explanation": "{上手|じょうず} is a な-adjective: 上手じゃない, 上手だった, 上手な + noun. 'be good at' — 上手 is a な-adjective: 料理**が**上手です.\n\nExample: {姉|あね}は{料理|りょうり}が**{上手|じょうず}です**。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "An い-adjective would change its い (…くない, …かった).",
         "",
         "A noun takes の before another noun."
       ],
-      "translation": "上手 = good at"
+      "translation": "My older sister is good at cooking. (上手 = good at)"
     },
     {
       "point": "cls-na",
@@ -166,14 +166,14 @@
       ],
       "answer": 2,
       "fixed_order": true,
-      "explanation": "{元気|げんき} is a な-adjective: 元気じゃない, 元気だった, 元気な + noun.",
+      "explanation": "{元気|げんき} is a な-adjective: 元気じゃない, 元気だった, 元気な + noun.\n\nExample: {子供|こども}たちはみんな**{元気|げんき}な**{声|こえ}で{歌|うた}った。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "An い-adjective would change its い (…くない, …かった).",
         "",
         "A noun takes の before another noun."
       ],
-      "translation": "元気 = well, lively"
+      "translation": "All the children sang in lively voices. (元気 = well, lively)"
     },
     {
       "point": "cls-n",
@@ -186,14 +186,14 @@
       ],
       "answer": 3,
       "fixed_order": true,
-      "explanation": "{病気|びょうき} is a noun: 病気じゃない, 病気の人 (with の, not な). 元気 is a な-adjective, but 病気 is a noun: 元気な人 vs 病気の人.",
+      "explanation": "{病気|びょうき} is a noun: 病気じゃない, 病気の人 (with の, not な). 元気 is a な-adjective, but 病気 is a noun: 元気な人 vs 病気の人.\n\nExample: {母|はは}は**{病気|びょうき}の**{祖母|そぼ}の{世話|せわ}をしている。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "An い-adjective would change its い (…くない, …かった).",
         "A な-adjective would add じゃない and take な before a noun.",
         ""
       ],
-      "translation": "病気 = being ill"
+      "translation": "My mother looks after my grandmother, who is ill. (病気 = being ill)"
     },
     {
       "point": "cls-na",
@@ -206,14 +206,14 @@
       ],
       "answer": 2,
       "fixed_order": true,
-      "explanation": "{静|しず}か is a な-adjective: 静かじゃない, 静かだった, 静かな + noun.",
+      "explanation": "{静|しず}か is a な-adjective: 静かじゃない, 静かだった, 静かな + noun.\n\nExample: この{辺|へん}は**{静|しず}かな**{町|まち}です。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "An い-adjective would change its い (…くない, …かった).",
         "",
         "A noun takes の before another noun."
       ],
-      "translation": "静か = quiet"
+      "translation": "This is a quiet town. (静か = quiet)"
     },
     {
       "point": "cls-i",
@@ -226,14 +226,14 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "{寒|さむ}い is an い-adjective: 寒くない, 寒かった.",
+      "explanation": "{寒|さむ}い is an い-adjective: 寒くない, 寒かった.\n\nExample: {今日|きょう}は**{寒|さむ}くない**ね。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "",
         "A な-adjective would add じゃない and take な before a noun.",
         "A noun takes の before another noun."
       ],
-      "translation": "寒い = cold (weather)"
+      "translation": "It isn't cold today, is it? (寒い = cold (weather))"
     },
     {
       "point": "cls-na",
@@ -246,14 +246,14 @@
       ],
       "answer": 2,
       "fixed_order": true,
-      "explanation": "{嫌|きら}い is a な-adjective: 嫌いじゃない, 嫌いだった, 嫌いな + noun. It ends in い, but the い is part of the word: 嫌いじゃない (not 嫌くない).",
+      "explanation": "{嫌|きら}い is a な-adjective: 嫌いじゃない, 嫌いだった, 嫌いな + noun. It ends in い, but the い is part of the word: 嫌いじゃない (not 嫌くない).\n\nExample: {私|わたし}は{雨|あめ}の{日|ひ}が**{嫌|きら}いじゃない**。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "An い-adjective would change its い (…くない, …かった).",
         "",
         "A noun takes の before another noun."
       ],
-      "translation": "嫌い = disliked"
+      "translation": "I don't mind rainy days. (嫌い = disliked)"
     },
     {
       "point": "cls-v",
@@ -266,14 +266,14 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "{違|ちが}う is a verb: 違わない, 違います, 違った. 'Different' and 'wrong' are adjectives in English, but 違う is a verb: 違います, 違わない.",
+      "explanation": "{違|ちが}う is a verb: 違わない, 違います, 違った. 'Different' and 'wrong' are adjectives in English, but 違う is a verb: 違います, 違わない.\n\nExample: すみません、{番号|ばんごう}が**{違|ちが}います**。",
       "notes": [
         "",
         "An い-adjective would change its い (…くない, …かった).",
         "A な-adjective would add じゃない and take な before a noun.",
         "A noun takes の before another noun."
       ],
-      "translation": "違う = to differ"
+      "translation": "Sorry, you have the wrong number. (違う = to differ)"
     },
     {
       "point": "cls-na",
@@ -286,14 +286,14 @@
       ],
       "answer": 2,
       "fixed_order": true,
-      "explanation": "きれい is a な-adjective: きれいじゃない, きれいだった, きれいな + noun. It ends in い, but the い is part of the word: きれいじゃない (not きれくない).",
+      "explanation": "きれい is a な-adjective: きれいじゃない, きれいだった, きれいな + noun. It ends in い, but the い is part of the word: きれいじゃない (not きれくない).\n\nExample: {部屋|へや}が**きれいじゃない**。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "An い-adjective would change its い (…くない, …かった).",
         "",
         "A noun takes の before another noun."
       ],
-      "translation": "きれい = pretty, clean"
+      "translation": "The room isn't tidy. (きれい = pretty, clean)"
     },
     {
       "point": "cls-v",
@@ -306,14 +306,14 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "{困|こま}る is a verb: 困らない, 困ります, 困った. 'that's a problem / I'm in trouble' is a verb: 困ります, 困った.",
+      "explanation": "{困|こま}る is a verb: 困らない, 困ります, 困った. 'that's a problem / I'm in trouble' is a verb: 困ります, 困った.\n\nExample: {財布|さいふ}をなくして**{困|こま}って**いる。",
       "notes": [
         "",
         "An い-adjective would change its い (…くない, …かった).",
         "A な-adjective would add じゃない and take な before a noun.",
         "A noun takes の before another noun."
       ],
-      "translation": "困る = to be in trouble"
+      "translation": "I've lost my wallet and I'm in trouble. (困る = to be in trouble)"
     },
     {
       "point": "cls-i",
@@ -326,14 +326,14 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "{怖|こわ}い is an い-adjective: 怖くない, 怖かった. 'be scared' is an い-adjective: 犬が怖い, 怖かった.",
+      "explanation": "{怖|こわ}い is an い-adjective: 怖くない, 怖かった. 'be scared' is an い-adjective: 犬が怖い, 怖かった.\n\nExample: {子供|こども}のころ、{犬|いぬ}が**{怖|こわ}かった**。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "",
         "A な-adjective would add じゃない and take な before a noun.",
         "A noun takes の before another noun."
       ],
-      "translation": "怖い = scary"
+      "translation": "As a child I was scared of dogs. (怖い = scary)"
     },
     {
       "point": "cls-n",
@@ -346,14 +346,14 @@
       ],
       "answer": 3,
       "fixed_order": true,
-      "explanation": "{休|やす}み is a noun: 休みじゃない, 休みの日 (with の, not な). 'off / free (today)' is a noun: 明日は休みです, 休みの日.",
+      "explanation": "{休|やす}み is a noun: 休みじゃない, 休みの日 (with の, not な). 'off / free (today)' is a noun: 明日は休みです, 休みの日.\n\nExample: {明日|あした}は**{休|やす}みの**{日|ひ}だから、ゆっくり{寝|ね}られる。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "An い-adjective would change its い (…くない, …かった).",
         "A な-adjective would add じゃない and take な before a noun.",
         ""
       ],
-      "translation": "休み = a day off"
+      "translation": "Tomorrow's a day off, so I can sleep in. (休み = a day off)"
     },
     {
       "point": "cls-na",
@@ -366,14 +366,14 @@
       ],
       "answer": 2,
       "fixed_order": true,
-      "explanation": "{暇|ひま} is a な-adjective: 暇じゃない, 暇だった, 暇な + noun. 'free (have time)' is a な-adjective: 暇な日, 暇じゃない.",
+      "explanation": "{暇|ひま} is a な-adjective: 暇じゃない, 暇だった, 暇な + noun. 'free (have time)' is a な-adjective: 暇な日, 暇じゃない.\n\nExample: **{暇|ひま}な**{時|とき}は{何|なに}をしていますか。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "An い-adjective would change its い (…くない, …かった).",
         "",
         "A noun takes の before another noun."
       ],
-      "translation": "暇 = free (time)"
+      "translation": "What do you do in your free time? (暇 = free (time))"
     },
     {
       "point": "cls-v",
@@ -386,14 +386,14 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "{混|こ}む is a verb: 混まない, 混みます, 混んだ. 'crowded' is a verb: 混んでいる (has got crowded).",
+      "explanation": "{混|こ}む is a verb: 混まない, 混みます, 混んだ. 'crowded' is a verb: 混んでいる (has got crowded).\n\nExample: {朝|あさ}の{電車|でんしゃ}はいつも**{混|こ}んで**いる。",
       "notes": [
         "",
         "An い-adjective would change its い (…くない, …かった).",
         "A な-adjective would add じゃない and take な before a noun.",
         "A noun takes の before another noun."
       ],
-      "translation": "混む = to get crowded"
+      "translation": "The morning trains are always crowded. (混む = to get crowded)"
     },
     {
       "point": "cls-na",
@@ -406,14 +406,14 @@
       ],
       "answer": 2,
       "fixed_order": true,
-      "explanation": "{有名|ゆうめい} is a な-adjective: 有名じゃない, 有名だった, 有名な + noun. It ends in an い sound, but it's a な-adjective: 有名な店.",
+      "explanation": "{有名|ゆうめい} is a な-adjective: 有名じゃない, 有名だった, 有名な + noun. It ends in an い sound, but it's a な-adjective: 有名な店.\n\nExample: ここは**{有名|ゆうめい}な**お{寺|てら}です。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "An い-adjective would change its い (…くない, …かった).",
         "",
         "A noun takes の before another noun."
       ],
-      "translation": "有名 = famous"
+      "translation": "This is a famous temple. (有名 = famous)"
     },
     {
       "point": "cls-i",
@@ -426,14 +426,14 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "{痛|いた}い is an い-adjective: 痛くない, 痛かった. 'hurt' is a verb in English (wehtun), but 痛い is an い-adjective: 頭が痛い.",
+      "explanation": "{痛|いた}い is an い-adjective: 痛くない, 痛かった. 'hurt' is a verb in English (wehtun), but 痛い is an い-adjective: 頭が痛い.\n\nExample: {歯|は}が**{痛|いた}くて**、{何|なに}も{食|た}べられない。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "",
         "A な-adjective would add じゃない and take な before a noun.",
         "A noun takes の before another noun."
       ],
-      "translation": "痛い = painful"
+      "translation": "My tooth hurts so much I can't eat anything. (痛い = painful)"
     },
     {
       "point": "cls-n",
@@ -446,14 +446,14 @@
       ],
       "answer": 3,
       "fixed_order": true,
-      "explanation": "{学生|がくせい} is a noun: 学生じゃない, 学生の時 (with の, not な).",
+      "explanation": "{学生|がくせい} is a noun: 学生じゃない, 学生の時 (with の, not な).\n\nExample: **{学生|がくせい}の**{時|とき}、よく{旅行|りょこう}した。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "An い-adjective would change its い (…くない, …かった).",
         "A な-adjective would add じゃない and take な before a noun.",
         ""
       ],
-      "translation": "学生 = a student"
+      "translation": "I travelled a lot when I was a student. (学生 = a student)"
     },
     {
       "point": "cls-na",
@@ -466,14 +466,14 @@
       ],
       "answer": 2,
       "fixed_order": true,
-      "explanation": "{大丈夫|だいじょうぶ} is a な-adjective: 大丈夫じゃない, 大丈夫だった, 大丈夫な + noun. 'all right' — a な-adjective: 大丈夫じゃない.",
+      "explanation": "{大丈夫|だいじょうぶ} is a な-adjective: 大丈夫じゃない, 大丈夫だった, 大丈夫な + noun. 'all right' — a な-adjective: 大丈夫じゃない.\n\nExample: {怪我|けが}は**{大丈夫|だいじょうぶ}じゃない**かもしれない。",
       "notes": [
         "A verb would have ない / ます / た forms of its own.",
         "An い-adjective would change its い (…くない, …かった).",
         "",
         "A noun takes の before another noun."
       ],
-      "translation": "大丈夫 = all right"
+      "translation": "The injury might not be all right. (大丈夫 = all right)"
     }
   ]
 }

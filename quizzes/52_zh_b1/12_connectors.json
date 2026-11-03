@@ -349,14 +349,14 @@
         "beforethisyear"
       ],
       "answer": 2,
-      "explanation": "以来 = **since (until now)**.",
+      "explanation": "以来 = **since (until now)**.\n\nExample: {今年|jīnnián}{以来|yǐlái}，{我|wǒ}{一直|yìzhí}{在|zài}{学|xué}{中文|Zhōngwén}。",
       "notes": [
         "That's 只有今年.",
         "That's 今年以后.",
         "",
         "That's 今年以前."
       ],
-      "translation": ""
+      "translation": "Since the start of this year I've been studying Chinese."
     }
   ]
 }

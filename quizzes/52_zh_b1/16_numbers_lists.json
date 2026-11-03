@@ -102,14 +102,14 @@
         "{一分之三|yī fēn zhī sān}"
       ],
       "answer": 2,
-      "explanation": "Denominator **分之** numerator.",
+      "explanation": "Denominator **分之** numerator.\n\nExample: {三分之一|sān fēn zhī yī}{的|de}{学生|xuésheng}{是|shì}{外国人|wàiguórén}。",
       "notes": [
         "Wrong order on both counts.",
         "The order is 分之.",
         "",
         "That's 3/1 — the denominator comes first."
       ],
-      "translation": ""
+      "translation": "A third of the students are from abroad."
     },
     {
       "point": "fenzhi",
@@ -121,14 +121,14 @@
         "80outof1000"
       ],
       "answer": 0,
-      "explanation": "百分之 = **percent**.",
+      "explanation": "百分之 = **percent**.\n\nExample: {百分之八十|bǎi fēn zhī bāshí}{的|de}{学生|xuésheng}{都|dōu}{通过|tōngguò}{了|le}。",
       "notes": [
         "",
         "That's 八十分之一.",
         "That's 百分之八.",
         "That's 千分之八十."
       ],
-      "translation": ""
+      "translation": "80% of the students passed."
     },
     {
       "point": "bei",
@@ -178,14 +178,14 @@
         "{十|shí}{多|duō}{个|ge}{人|rén}"
       ],
       "answer": 3,
-      "explanation": "**十多个**.",
+      "explanation": "**十多个**.\n\nExample: {教室|jiàoshì}{里|lǐ}{有|yǒu}{十|shí}{多|duō}{个|ge}{人|rén}。",
       "notes": [
         "With round numbers, 多 goes before the measure word.",
         "多 follows the number.",
         "多 can't end the phrase.",
         ""
       ],
-      "translation": "more than ten people"
+      "translation": "There are more than ten people in the classroom."
     },
     {
       "point": "duo",

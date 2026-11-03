@@ -223,6 +223,7 @@ def drill_quiz(fname, id, title, description, guide, items, titles, keep_order=F
     questions = []
     for key, form, pid in items:
         q = typed_q(f"{ruby(key)} → （　）\n→ {V.LABEL[form]}", key, form, pid, gloss(key))
+        V.attach_example(q, key, form)
         if rule_hints:
             q["hint"] = titles[pid][0]
         questions.append(q)
@@ -305,7 +306,7 @@ CLASS_ITEMS = [
     ("痛い", "'hurt' is a verb in English (wehtun), but 痛い is an い-adjective: 頭が痛い."),
     ("学生", ""), ("大丈夫", "'all right' — a な-adjective: 大丈夫じゃない."),
 ]
-questions = [class_q(k, n) for k, n in CLASS_ITEMS]
+questions = [V.attach_example(class_q(k, n), k) for k, n in CLASS_ITEMS]
 pids = list(dict.fromkeys(q["point"] for q in questions))
 save("02_word_class", "adj-word-class", "Verb, い, な or Noun? Word Classes",
      "The root of most mix-ups: which word class is it? Many differ from English and German (好き, 疲れる, 違う).",
@@ -343,7 +344,7 @@ BACK_ITEMS = [("高い", "a_pastneg"), ("静か", "a_neg"), ("いい", "a_past")
               ("寒い", "a_te"), ("元気", "a_te"), ("早い", "a_adv"), ("上手", "a_adv"), ("楽しい", "a_past"),
               ("有名", "a_past"), ("かっこいい", "a_neg"), ("きれい", "a_pastneg"), ("難しい", "a_ba"),
               ("嫌い", "a_past"), ("大きい", "a_sugiru")]
-qs = [back_q(k, f, "back-ii" if ADJ[k][2] == "ii" else "back-" + ADJ[k][2]) for k, f in BACK_ITEMS]
+qs = [V.attach_example(back_q(k, f, "back-ii" if ADJ[k][2] == "ii" else "back-" + ADJ[k][2]), k, f) for k, f in BACK_ITEMS]
 save("03_back", "adj-back", "Back to the Dictionary Form",
      "See an adjective form, find the word you'd look up: 高くなかった → 高い, 静かじゃない → 静か.",
      [point(p, t, s, "adj") for p, t, s in [("back-i", "From an い-adjective form", BACK["i"][0]),
@@ -625,6 +626,7 @@ drill_quiz("18_vs_mixed", "adj-vs-mixed", "Verb & Adjective Sprint: Same Cues, D
 
 
 def write(folder):
+    assert not V.MISSING_EXAMPLES, f"no example sentence in tools/lab_examples.py for: {V.MISSING_EXAMPLES}"
     os.makedirs(folder, exist_ok=True)
     for f in os.listdir(folder):
         if f.endswith(".json"):

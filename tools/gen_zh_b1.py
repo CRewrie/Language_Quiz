@@ -612,7 +612,7 @@ quiz("12_connectors", "zh-b1-connectors", "Connectors: 不过, 要不, 另外 / 
         "Since: **以来**.", "Since coming to China I've made lots of friends."),
       Q("yilai", "What does 「" + zh("今年/jīnnián 以来/yǐlái") + "」 mean?", ["since the start of this year", "after this year", "before this year", "only this year"],
         ["", "That's 今年以后.", "That's 今年以前.", "That's 只有今年."],
-        "以来 = **since (until now)**.", "")])
+        "以来 = **since (until now)**.\n\nExample: " + zh("今年/jīnnián 以来/yǐlái ， 我/wǒ 一直/yìzhí 在/zài 学/xué 中文/Zhōngwén 。"), "Since the start of this year I've been studying Chinese.")])
 
 # ---------------------------------------------------------------- 13 prepositions
 quiz("13_prepositions", "zh-b1-prepositions", "Prepositions: 对, 给, 为, 往 / 向, 关于, 通过, 直到",
@@ -841,10 +841,10 @@ quiz("16_numbers_lists", "zh-b1-numbers-lists", "Numbers & Lists: 分之, 倍, �
         [("所有/suǒyǒu 的/de 人/rén 都/dōu 来/lái 了/le 。", "Everyone came.")])],
      [Q("fenzhi", "How do you say 1/3?", ["三分之一/sān fēn zhī yī", "一分之三/yī fēn zhī sān", "三之分一/sān zhī fēn yī", "一之分三/yī zhī fēn sān"],
         ["", "That's 3/1 — the denominator comes first.", "The order is 分之.", "Wrong order on both counts."],
-        "Denominator **分之** numerator.", ""),
+        "Denominator **分之** numerator.\n\nExample: " + zh("三分之一/sān fēn zhī yī 的/de 学生/xuésheng 是/shì 外国人/wàiguórén 。"), "A third of the students are from abroad."),
       Q("fenzhi", "What does 「" + zh("百分之八十/bǎi fēn zhī bāshí") + "」 mean?", ["80%", "8%", "1/80", "80 out of 1000"],
         ["", "That's 百分之八.", "That's 八十分之一.", "That's 千分之八十."],
-        "百分之 = **percent**.", ""),
+        "百分之 = **percent**.\n\nExample: " + zh("百分之八十/bǎi fēn zhī bāshí 的/de 学生/xuésheng 都/dōu 通过/tōngguò 了/le 。"), "80% of the students passed."),
       Q("bei", zh("他/tā 的/de 工资/gōngzī 是/shì 我/wǒ 的/de 两/liǎng （　） 。"), ["倍/bèi", "次/cì", "遍/biàn", "个/ge"],
         ["", "次 = times (occurrences).", "遍 = times (from start to finish).", "两个 needs a noun."],
         "Times as much: **倍**.", "His salary is twice mine."),
@@ -853,7 +853,7 @@ quiz("16_numbers_lists", "zh-b1-numbers-lists", "Numbers & Lists: 分之, 倍, �
         "大一倍 = **twice as big**.", ""),
       Q("duo", "Which phrase means 'more than ten people'?", ["十/shí 多/duō 个/ge 人/rén", "十/shí 个/ge 多/duō 人/rén", "多/duō 十/shí 个/ge 人/rén", "十/shí 个/ge 人/rén 多/duō"],
         ["", "With round numbers, 多 goes before the measure word.", "多 follows the number.", "多 can't end the phrase."],
-        "**十多个**.", "more than ten people"),
+        "**十多个**.\n\nExample: " + zh("教室/jiàoshì 里/lǐ 有/yǒu 十/shí 多/duō 个/ge 人/rén 。"), "There are more than ten people in the classroom."),
       Q("duo", zh("车/chē 一直/yìzhí 不/bù 来/lái ， 我/wǒ 等/děng 了/le 一个/yí ge （　） 小时/xiǎoshí 。"), ["多/duō", "几/jǐ", "些/xiē", "点/diǎn"],
         ["", "一个几小时 isn't grammatical.", "一个些 isn't grammatical.", "一个点小时 isn't grammatical."],
         "Over an hour: **一个多小时**.", "The bus just didn't come — I waited over an hour."),
@@ -1327,7 +1327,7 @@ quiz("24_contrast2", "zh-b1-contrast2", "Which One? 常常 vs 经常, 会 / 能 
         "Visits: **次**.", "I've been to Shanghai three times and loved it each time."),
       Q("cibian", "Which word means 'once through, from beginning to end'?", ["遍/biàn", "次/cì", "趟/tàng", "下/xià"],
         ["", "次 counts occurrences, not completeness.", "趟 = a trip.", "下 = briefly."],
-        "**遍** = start to finish.", "")])
+        "**遍** = start to finish.\n\nExample: " + zh("请/qǐng 再/zài 读/dú 一/yí 遍/biàn 。"), "Please read it through once more.")])
 
 # ---------------------------------------------------------------- 25 HSK 3 (3)
 quiz("25_hsk3c", "zh-b1-hsk3c", "HSK 3 Practice 3",

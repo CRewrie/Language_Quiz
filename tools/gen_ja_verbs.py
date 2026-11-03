@@ -386,6 +386,45 @@ def build(key, form):
 # ---------------------------------------------------------------- quizzes
 QZ = {}
 
+import re, sys as _sys
+_sys.path.insert(0, os.path.dirname(__file__))
+from lab_examples import FORM_EX, WORD_EX
+
+MISSING_EXAMPLES = []
+
+
+def plain_text(s):
+    return re.sub(r"\{([^|}]+)\|[^}]+\}", r"\1", s).replace("**", "")
+
+
+def attach_example(q, key, form=None):
+    """Adds an example sentence (from tools/lab_examples.py) to a drill or type question's feedback,
+    after checking that the sentence really contains the form (or the word) it illustrates."""
+    ex = FORM_EX.get((key, form)) if form else None
+    lex = LEX[key] if key in LEX else None
+    if ex:
+        targets = build(key, form)[0]
+    else:
+        ex = WORD_EX.get(key)
+        if lex:
+            kanji, reading = lex[0], lex[1]
+            n = okuri(kanji, reading)
+            if kanji != reading:
+                targets = [kanji[:len(kanji) - n]]
+            else:  # kana-only word (する, いい, きれい): the start of any of its forms
+                fs = forms(reading, lex[2]) if key in VERBS else adj_forms(key)
+                targets = {f[0][:2] for f in fs.values()}
+        else:
+            targets = [key]
+    if not ex:
+        MISSING_EXAMPLES.append((key, form))
+        return q
+    sentence, en = ex
+    assert any(t in plain_text(sentence) for t in targets), (key, form, sentence, targets)
+    q["explanation"] += f"\n\nExample: {sentence}"
+    q["translation"] = f"{en} ({q['translation']})" if q.get("translation") else en
+    return q
+
 # Focused explanation per grammar point: (summary, body). The guide's overview is appended below the body.
 POINT_BODY = {
     "pot-u": ("う-verbs: the last sound moves to the え-row, then add る.",
@@ -732,7 +771,7 @@ TYPES_BODY = """**How to tell the verb type** — look at the dictionary form:
 
 
 def mc_quiz(fname, id, title, description, keys, summary):
-    questions = [type_q(k) for k in keys]
+    questions = [attach_example(type_q(k), k) for k in keys]
     pids = list(dict.fromkeys(q["point"] for q in questions))
     points = [{"id": p, "title": TYPE_POINTS[p][0], "summary": TYPE_POINTS[p][1] + " " + summary, "body": TYPES_BODY,
                "examples": []} for p in pids]
@@ -830,7 +869,7 @@ def drill_quiz(fname, id, title, description, guide, items, titles, keep_order=F
     questions = []
     for key, form, pid in items:
         if maker:
-            questions.append(maker(key, form, pid))
+            questions.append(attach_example(maker(key, form, pid), key, form))
             continue
         accept, why, hint = build(key, form)
         if rule_hints:  # sprints: the group's rule, not the start of the answer
@@ -839,6 +878,7 @@ def drill_quiz(fname, id, title, description, guide, items, titles, keep_order=F
                           "accept": accept, "hint": hint, "explanation": why, "notes": [],
                           "wrong_forms": wrong_forms(key, form, accept),
                           "translation": f"{VERBS[key][0]} = to {GLOSS[key]}" if key in GLOSS else ""})
+        attach_example(questions[-1], key, form)
     pids = list(dict.fromkeys(q["point"] for q in questions))
     points = [point_entry(p, titles[p], guide, []) for p in pids]
     QZ[fname] = {"id": id, "category": "Verb Lab", "title": title, "description": description,
@@ -1120,7 +1160,7 @@ def adj_type_q(key):
 
 
 def adj_types_quiz(fname, id, title, description, keys):
-    questions = [adj_type_q(k) for k in keys]
+    questions = [attach_example(adj_type_q(k), k) for k in keys]
     pids = list(dict.fromkeys(q["point"] for q in questions))
     points = [{"id": p, "title": ADJ_TYPE_POINTS[p][0], "summary": ADJ_TYPE_POINTS[p][1], "body": ADJ_BODY, "examples": []}
               for p in pids]
@@ -1375,6 +1415,7 @@ choice_quiz("14e_can_or_will", "verbs-can-or-will", "Step 5 · Can or let's? The
 
 
 def write(folder):
+    assert not MISSING_EXAMPLES, f"no example sentence in tools/lab_examples.py for: {MISSING_EXAMPLES}"
     os.makedirs(folder, exist_ok=True)
     for f in os.listdir(folder):
         if f.endswith(".json"):

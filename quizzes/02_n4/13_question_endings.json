@@ -192,14 +192,14 @@
         "だろう"
       ],
       "answer": 0,
-      "explanation": "**かしら** is traditionally used by women.",
+      "explanation": "**かしら** is traditionally used by women.\n\nExample: {明日|あした}は{晴|は}れる**かしら**。",
       "notes": [
         "",
         "かな is used by everyone.",
         "ぜ is a rough masculine sentence ending.",
         "だろう is plain 'probably' (often male in conversation)."
       ],
-      "translation": ""
+      "translation": "I wonder if it'll be sunny tomorrow."
     },
     {
       "point": "kashira",

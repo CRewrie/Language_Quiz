@@ -45,7 +45,7 @@
         "かかない"
       ],
       "hint": "う-verbs: あ-row + ない",
-      "explanation": "{書|か}く is an う-verb (godan): く → か (あ-row) + ない → **書かない**.",
+      "explanation": "{書|か}く is an う-verb (godan): く → か (あ-row) + ない → **書かない**.\n\nExample: {最近|さいきん}、{手紙|てがみ}はあまり**{書|か}かない**。",
       "notes": [],
       "wrong_forms": {
         "かく": "that's the plain present form of 書く, but the cue asks for plain negative.",
@@ -81,7 +81,7 @@
         "かかせた": "that's the causative (make / let), past form of 書く, but the cue asks for plain negative.",
         "書かせた": "that's the causative (make / let), past form of 書く, but the cue asks for plain negative."
       },
-      "translation": "書く = to write"
+      "translation": "I don't write many letters these days. (書く = to write)"
     },
     {
       "point": "nai-ru",
@@ -93,7 +93,7 @@
         "たべない"
       ],
       "hint": "る-verbs: drop る + ない",
-      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + ない → **食べない**.",
+      "explanation": "{食|た}べる is a る-verb (ichidan): drop る + ない → **食べない**.\n\nExample: {私|わたし}は{肉|にく}を**{食|た}べない**。",
       "notes": [],
       "wrong_forms": {
         "たべる": "that's the plain present form of 食べる, but the cue asks for plain negative.",
@@ -131,7 +131,7 @@
         "たべらない": "that's the う-verb pattern, but 食べる is a る-verb: just drop る.",
         "食べらない": "that's the う-verb pattern, but 食べる is a る-verb: just drop る."
       },
-      "translation": "食べる = to eat"
+      "translation": "I don't eat meat. (食べる = to eat)"
     },
     {
       "point": "nai-wa",
@@ -143,7 +143,7 @@
         "かわない"
       ],
       "hint": "う → わ + ない",
-      "explanation": "{買|か}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **買わない**.",
+      "explanation": "{買|か}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **買わない**.\n\nExample: {高|たか}いから**{買|か}わない**。",
       "notes": [],
       "wrong_forms": {
         "かう": "that's the plain present form of 買う, but the cue asks for plain negative.",
@@ -179,7 +179,7 @@
         "かわせた": "that's the causative (make / let), past form of 買う, but the cue asks for plain negative.",
         "買わせた": "that's the causative (make / let), past form of 買う, but the cue asks for plain negative."
       },
-      "translation": "買う = to buy"
+      "translation": "It's expensive, so I won't buy it. (買う = to buy)"
     },
     {
       "point": "nai-u",
@@ -191,7 +191,7 @@
         "かえらない"
       ],
       "hint": "う-verbs: あ-row + ない",
-      "explanation": "{帰|かえ}る is an う-verb (godan): る → ら (あ-row) + ない → **帰らない**. ⚠ {帰|かえ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.",
+      "explanation": "{帰|かえ}る is an う-verb (godan): る → ら (あ-row) + ない → **帰らない**. ⚠ {帰|かえ}る ends in -eる like a る-verb, but it is one of the う-verb exceptions.\n\nExample: {今夜|こんや}は{家|いえ}に**{帰|かえ}らない**。",
       "notes": [],
       "wrong_forms": {
         "かえる": "that's the plain present form of 帰る, but the cue asks for plain negative.",
@@ -229,7 +229,7 @@
         "かえない": "that's the る-verb pattern, but 帰る is an う-verb (one of the -iる/-eる exceptions).",
         "帰ない": "that's the る-verb pattern, but 帰る is an う-verb (one of the -iる/-eる exceptions)."
       },
-      "translation": "帰る = to go home"
+      "translation": "I'm not going home tonight. (帰る = to go home)"
     },
     {
       "point": "nai-ru",
@@ -241,7 +241,7 @@
         "みない"
       ],
       "hint": "る-verbs: drop る + ない",
-      "explanation": "{見|み}る is a る-verb (ichidan): drop る + ない → **見ない**.",
+      "explanation": "{見|み}る is a る-verb (ichidan): drop る + ない → **見ない**.\n\nExample: {最近|さいきん}テレビを**{見|み}ない**。",
       "notes": [],
       "wrong_forms": {
         "みる": "that's the plain present form of 見る, but the cue asks for plain negative.",
@@ -279,7 +279,7 @@
         "みらない": "that's the う-verb pattern, but 見る is a る-verb: just drop る.",
         "見らない": "that's the う-verb pattern, but 見る is a る-verb: just drop る."
       },
-      "translation": "見る = to see"
+      "translation": "I don't watch TV these days. (見る = to see)"
     },
     {
       "point": "nai-irr",
@@ -291,7 +291,7 @@
         "こない"
       ],
       "hint": "Irregular: する, 来る, ある",
-      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来ない**.",
+      "explanation": "{来|く}る is irregular (来る): the vowel changes — き(ます/て/た), こ(ない/よう/られる/させる), く(る/れば) → **来ない**.\n\nExample: バスがなかなか**{来|こ}ない**。",
       "notes": [],
       "wrong_forms": {
         "くる": "that's the plain present form of 来る, but the cue asks for plain negative.",
@@ -327,7 +327,7 @@
         "こさせた": "that's the causative (make / let), past form of 来る, but the cue asks for plain negative.",
         "来させた": "that's the causative (make / let), past form of 来る, but the cue asks for plain negative."
       },
-      "translation": "来る = to come"
+      "translation": "The bus just isn't coming. (来る = to come)"
     },
     {
       "point": "nai-u",
@@ -339,7 +339,7 @@
         "はなさない"
       ],
       "hint": "う-verbs: あ-row + ない",
-      "explanation": "{話|はな}す is an う-verb (godan): す → さ (あ-row) + ない → **話さない**.",
+      "explanation": "{話|はな}す is an う-verb (godan): す → さ (あ-row) + ない → **話さない**.\n\nExample: {彼|かれ}は{会議|かいぎ}であまり**{話|はな}さない**。",
       "notes": [],
       "wrong_forms": {
         "はなす": "that's the plain present form of 話す, but the cue asks for plain negative.",
@@ -375,7 +375,7 @@
         "はなさせた": "that's the causative (make / let), past form of 話す, but the cue asks for plain negative.",
         "話させた": "that's the causative (make / let), past form of 話す, but the cue asks for plain negative."
       },
-      "translation": "話す = to speak"
+      "translation": "He doesn't say much in meetings. (話す = to speak)"
     },
     {
       "point": "nai-wa",
@@ -387,7 +387,7 @@
         "あわない"
       ],
       "hint": "う → わ + ない",
-      "explanation": "{会|あ}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **会わない**.",
+      "explanation": "{会|あ}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **会わない**.\n\nExample: {日曜日|にちようび}は{誰|だれ}にも**{会|あ}わない**。",
       "notes": [],
       "wrong_forms": {
         "あう": "that's the plain present form of 会う, but the cue asks for plain negative.",
@@ -423,7 +423,7 @@
         "あわせた": "that's the causative (make / let), past form of 会う, but the cue asks for plain negative.",
         "会わせた": "that's the causative (make / let), past form of 会う, but the cue asks for plain negative."
       },
-      "translation": ""
+      "translation": "I'm not meeting anyone on Sunday."
     },
     {
       "point": "nai-ru",
@@ -435,7 +435,7 @@
         "きない"
       ],
       "hint": "る-verbs: drop る + ない",
-      "explanation": "{着|き}る is a る-verb (ichidan): drop る + ない → **着ない**.",
+      "explanation": "{着|き}る is a る-verb (ichidan): drop る + ない → **着ない**.\n\nExample: {夏|なつ}はコートを**{着|き}ない**。",
       "notes": [],
       "wrong_forms": {
         "きる": "that's the plain present form of 着る, but the cue asks for plain negative.",
@@ -473,7 +473,7 @@
         "きらない": "that's the う-verb pattern, but 着る is a る-verb: just drop る.",
         "着らない": "that's the う-verb pattern, but 着る is a る-verb: just drop る."
       },
-      "translation": "着る = to wear"
+      "translation": "I don't wear a coat in summer. (着る = to wear)"
     },
     {
       "point": "nai-irr",
@@ -484,7 +484,7 @@
         "ない"
       ],
       "hint": "Irregular: する, 来る, ある",
-      "explanation": "ある is irregular in the negative: ない (not あらない) → **ない**.",
+      "explanation": "ある is irregular in the negative: ない (not あらない) → **ない**.\n\nExample: {時間|じかん}が**ない**から、タクシーで{行|い}こう。",
       "notes": [],
       "wrong_forms": {
         "ある": "that's the plain present form of ある, but the cue asks for plain negative.",
@@ -504,7 +504,7 @@
         "あられた": "that's the passive, past form of ある, but the cue asks for plain negative.",
         "あらせた": "that's the causative (make / let), past form of ある, but the cue asks for plain negative."
       },
-      "translation": "ある = to be (things)"
+      "translation": "We don't have time, so let's take a taxi. (ある = to be (things))"
     },
     {
       "point": "nai-u",
@@ -516,7 +516,7 @@
         "またない"
       ],
       "hint": "う-verbs: あ-row + ない",
-      "explanation": "{待|ま}つ is an う-verb (godan): つ → た (あ-row) + ない → **待たない**.",
+      "explanation": "{待|ま}つ is an う-verb (godan): つ → た (あ-row) + ない → **待たない**.\n\nExample: もうこれ{以上|いじょう}**{待|ま}たない**。",
       "notes": [],
       "wrong_forms": {
         "まつ": "that's the plain present form of 待つ, but the cue asks for plain negative.",
@@ -552,7 +552,7 @@
         "またせた": "that's the causative (make / let), past form of 待つ, but the cue asks for plain negative.",
         "待たせた": "that's the causative (make / let), past form of 待つ, but the cue asks for plain negative."
       },
-      "translation": "待つ = to wait"
+      "translation": "I'm not waiting any longer. (待つ = to wait)"
     },
     {
       "point": "nai-irr",
@@ -563,7 +563,7 @@
         "しない"
       ],
       "hint": "Irregular: する, 来る, ある",
-      "explanation": "する is irregular (する): する → し + ending → **しない**.",
+      "explanation": "する is irregular (する): する → し + ending → **しない**.\n\nExample: {日曜日|にちようび}は{仕事|しごと}を**しない**。",
       "notes": [],
       "wrong_forms": {
         "する": "that's the plain present form of する, but the cue asks for plain negative.",
@@ -583,7 +583,7 @@
         "された": "that's the passive, past form of する, but the cue asks for plain negative.",
         "させた": "that's the causative (make / let), past form of する, but the cue asks for plain negative."
       },
-      "translation": "する = to do"
+      "translation": "I don't work on Sundays. (する = to do)"
     },
     {
       "point": "nai-u",
@@ -595,7 +595,7 @@
         "しらない"
       ],
       "hint": "う-verbs: あ-row + ない",
-      "explanation": "{知|し}る is an う-verb (godan): る → ら (あ-row) + ない → **知らない**. ⚠ {知|し}る ends in -iる like a る-verb, but it is one of the う-verb exceptions.",
+      "explanation": "{知|し}る is an う-verb (godan): る → ら (あ-row) + ない → **知らない**. ⚠ {知|し}る ends in -iる like a る-verb, but it is one of the う-verb exceptions.\n\nExample: その{話|はなし}は**{知|し}らない**。",
       "notes": [],
       "wrong_forms": {
         "しる": "that's the plain present form of 知る, but the cue asks for plain negative.",
@@ -633,7 +633,7 @@
         "しない": "that's the る-verb pattern, but 知る is an う-verb (one of the -iる/-eる exceptions).",
         "知ない": "that's the る-verb pattern, but 知る is an う-verb (one of the -iる/-eる exceptions)."
       },
-      "translation": "知る = to know"
+      "translation": "I don't know that story. (知る = to know)"
     },
     {
       "point": "nai-ru",
@@ -645,7 +645,7 @@
         "おきない"
       ],
       "hint": "る-verbs: drop る + ない",
-      "explanation": "{起|お}きる is a る-verb (ichidan): drop る + ない → **起きない**.",
+      "explanation": "{起|お}きる is a る-verb (ichidan): drop る + ない → **起きない**.\n\nExample: {休|やす}みの{日|ひ}は{昼|ひる}まで**{起|お}きない**。",
       "notes": [],
       "wrong_forms": {
         "おきる": "that's the plain present form of 起きる, but the cue asks for plain negative.",
@@ -683,7 +683,7 @@
         "おきらない": "that's the う-verb pattern, but 起きる is a る-verb: just drop る.",
         "起きらない": "that's the う-verb pattern, but 起きる is a る-verb: just drop る."
       },
-      "translation": "起きる = to get up"
+      "translation": "On my days off I don't get up until noon. (起きる = to get up)"
     },
     {
       "point": "nai-wa",
@@ -695,7 +695,7 @@
         "いわない"
       ],
       "hint": "う → わ + ない",
-      "explanation": "{言|い}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **言わない**.",
+      "explanation": "{言|い}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **言わない**.\n\nExample: {彼|かれ}は{本当|ほんとう}のことを**{言|い}わない**。",
       "notes": [],
       "wrong_forms": {
         "いう": "that's the plain present form of 言う, but the cue asks for plain negative.",
@@ -731,7 +731,7 @@
         "いわせた": "that's the causative (make / let), past form of 言う, but the cue asks for plain negative.",
         "言わせた": "that's the causative (make / let), past form of 言う, but the cue asks for plain negative."
       },
-      "translation": ""
+      "translation": "He doesn't tell the truth."
     },
     {
       "point": "nai-u",
@@ -743,7 +743,7 @@
         "よまない"
       ],
       "hint": "う-verbs: あ-row + ない",
-      "explanation": "{読|よ}む is an う-verb (godan): む → ま (あ-row) + ない → **読まない**.",
+      "explanation": "{読|よ}む is an う-verb (godan): む → ま (あ-row) + ない → **読まない**.\n\nExample: {最近|さいきん}、{本|ほん}を**{読|よ}まない**。",
       "notes": [],
       "wrong_forms": {
         "よむ": "that's the plain present form of 読む, but the cue asks for plain negative.",
@@ -779,7 +779,7 @@
         "よませた": "that's the causative (make / let), past form of 読む, but the cue asks for plain negative.",
         "読ませた": "that's the causative (make / let), past form of 読む, but the cue asks for plain negative."
       },
-      "translation": "読む = to read"
+      "translation": "I don't read books these days. (読む = to read)"
     },
     {
       "point": "nai-wa",
@@ -791,7 +791,7 @@
         "あらわない"
       ],
       "hint": "う → わ + ない",
-      "explanation": "{洗|あら}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **洗わない**.",
+      "explanation": "{洗|あら}う is an う-verb (godan): う → わ (あ-row, う becomes わ) + ない → **洗わない**.\n\nExample: この{服|ふく}は{家|いえ}で**{洗|あら}わない**ほうがいい。",
       "notes": [],
       "wrong_forms": {
         "あらう": "that's the plain present form of 洗う, but the cue asks for plain negative.",
@@ -827,7 +827,7 @@
         "あらわせた": "that's the causative (make / let), past form of 洗う, but the cue asks for plain negative.",
         "洗わせた": "that's the causative (make / let), past form of 洗う, but the cue asks for plain negative."
       },
-      "translation": "洗う = to wash"
+      "translation": "You'd better not wash these clothes at home. (洗う = to wash)"
     },
     {
       "point": "nai-ru",
@@ -839,7 +839,7 @@
         "わすれない"
       ],
       "hint": "る-verbs: drop る + ない",
-      "explanation": "{忘|わす}れる is a る-verb (ichidan): drop る + ない → **忘れない**.",
+      "explanation": "{忘|わす}れる is a る-verb (ichidan): drop る + ない → **忘れない**.\n\nExample: この{日|ひ}のことは{一生|いっしょう}**{忘|わす}れない**。",
       "notes": [],
       "wrong_forms": {
         "わすれる": "that's the plain present form of 忘れる, but the cue asks for plain negative.",
@@ -877,7 +877,7 @@
         "わすれらない": "that's the う-verb pattern, but 忘れる is a る-verb: just drop る.",
         "忘れらない": "that's the う-verb pattern, but 忘れる is a る-verb: just drop る."
       },
-      "translation": "忘れる = to forget"
+      "translation": "I'll never forget this day. (忘れる = to forget)"
     }
   ]
 }

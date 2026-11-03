@@ -254,14 +254,14 @@
         "{小时|xiǎoshí}{半|bàn}"
       ],
       "answer": 2,
-      "explanation": "**半个小时**.",
+      "explanation": "**半个小时**.\n\nExample: {我|wǒ}{每天|měitiān}{走|zǒu}{半|bàn}{个|ge}{小时|xiǎoshí}。",
       "notes": [
         "个 goes before the noun.",
         "一半 = 'a half (portion)', not before a measure.",
         "",
         "半 goes before."
       ],
-      "translation": ""
+      "translation": "I walk for half an hour every day."
     },
     {
       "point": "wan",
@@ -273,14 +273,14 @@
         "{五万|wǔwàn}{块|kuài}"
       ],
       "answer": 3,
-      "explanation": "50,000 = **五万**.",
+      "explanation": "50,000 = **五万**.\n\nExample: {这|zhè}{辆|liàng}{车|chē}{五万|wǔwàn}{块|kuài}。",
       "notes": [
         "Chinese doesn't count in 'fifty thousands'.",
         "五百万 = 5,000,000.",
         "五千 = 5,000.",
         ""
       ],
-      "translation": ""
+      "translation": "This car costs 50,000 yuan."
     },
     {
       "point": "wan",
@@ -292,14 +292,14 @@
         "{三|sān}{块|kuài}{五十|wǔshí}"
       ],
       "answer": 1,
-      "explanation": "**三块五(毛)**.",
+      "explanation": "**三块五(毛)**.\n\nExample: {一|yì}{杯|bēi}{咖啡|kāfēi}{三|sān}{块|kuài}{五|wǔ}。",
       "notes": [
         "That's ¥5.30.",
         "",
         "三毛五 = ¥0.35.",
         "Prices aren't said like that — 五 after 块 already means 5 毛 (50 fen)."
       ],
-      "translation": ""
+      "translation": "A cup of coffee is three fifty."
     },
     {
       "point": "youde",

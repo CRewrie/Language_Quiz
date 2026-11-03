@@ -44,12 +44,12 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "{高|たか}い is an い-adjective: drop い → 高くない, 高かった; before a noun just 高い (no な).",
+      "explanation": "{高|たか}い is an い-adjective: drop い → 高くない, 高かった; before a noun just 高い (no な).\n\nExample: この{時計|とけい}は**{高|たか}くない**。",
       "notes": [
         "",
         "A な-adjective would give 高いじゃない and 高いな + noun — but it's 高くない."
       ],
-      "translation": ""
+      "translation": "This watch isn't expensive."
     },
     {
       "point": "adj-na",
@@ -60,12 +60,12 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "{静|しず}か is a な-adjective: 静かじゃない, 静かだった, 静かな + noun.",
+      "explanation": "{静|しず}か is a な-adjective: 静かじゃない, 静かだった, 静かな + noun.\n\nExample: この{辺|へん}は**{静|しず}かな**{町|まち}です。",
       "notes": [
         "An い-adjective would give 静かくない — but it's 静かじゃない.",
         ""
       ],
-      "translation": ""
+      "translation": "This is a quiet town."
     },
     {
       "point": "adj-trap",
@@ -76,12 +76,12 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "Trap! きれい ends in an い sound, but it's a な-adjective: きれいじゃない (not きれくない), きれいな + noun.",
+      "explanation": "Trap! きれい ends in an い sound, but it's a な-adjective: きれいじゃない (not きれくない), きれいな + noun.\n\nExample: {部屋|へや}が**きれいじゃない**。",
       "notes": [
         "An い-adjective would give きれくない — but it's きれいじゃない.",
         ""
       ],
-      "translation": ""
+      "translation": "The room isn't tidy."
     },
     {
       "point": "adj-i",
@@ -92,12 +92,12 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "おいしい is an い-adjective: drop い → おいしくない, おいしかった; before a noun just おいしい (no な).",
+      "explanation": "おいしい is an い-adjective: drop い → おいしくない, おいしかった; before a noun just おいしい (no な).\n\nExample: この{店|みせ}のパンは**おいしくない**。",
       "notes": [
         "",
         "A な-adjective would give おいしいじゃない and おいしいな + noun — but it's おいしくない."
       ],
-      "translation": ""
+      "translation": "The bread at this shop isn't good."
     },
     {
       "point": "adj-na",
@@ -108,12 +108,12 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "{便利|べんり} is a な-adjective: 便利じゃない, 便利だった, 便利な + noun.",
+      "explanation": "{便利|べんり} is a な-adjective: 便利じゃない, 便利だった, 便利な + noun.\n\nExample: {駅|えき}に{近|ちか}くて**{便利|べんり}な**{家|いえ}です。",
       "notes": [
         "An い-adjective would give 便利くない — but it's 便利じゃない.",
         ""
       ],
-      "translation": ""
+      "translation": "It's a convenient house close to the station."
     },
     {
       "point": "adj-trap",
@@ -124,12 +124,12 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "Trap! {嫌|きら}い ends in an い sound, but it's a な-adjective: 嫌いじゃない (not 嫌くない), 嫌いな + noun.",
+      "explanation": "Trap! {嫌|きら}い ends in an い sound, but it's a な-adjective: 嫌いじゃない (not 嫌くない), 嫌いな + noun.\n\nExample: {私|わたし}は{雨|あめ}の{日|ひ}が**{嫌|きら}いじゃない**。",
       "notes": [
         "An い-adjective would give 嫌くない — but it's 嫌いじゃない.",
         ""
       ],
-      "translation": ""
+      "translation": "I don't mind rainy days."
     },
     {
       "point": "adj-i",
@@ -140,12 +140,12 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "{新|あたら}しい is an い-adjective: drop い → 新しくない, 新しかった; before a noun just 新しい (no な).",
+      "explanation": "{新|あたら}しい is an い-adjective: drop い → 新しくない, 新しかった; before a noun just 新しい (no な).\n\nExample: **{新|あたら}しい**{靴|くつ}を{買|か}った。",
       "notes": [
         "",
         "A な-adjective would give 新しいじゃない and 新しいな + noun — but it's 新しくない."
       ],
-      "translation": ""
+      "translation": "I bought new shoes."
     },
     {
       "point": "adj-trap",
@@ -156,12 +156,12 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "Trap! {有名|ゆうめい} ends in an い sound, but it's a な-adjective: 有名じゃない (not ゆうめくない), 有名な + noun.",
+      "explanation": "Trap! {有名|ゆうめい} ends in an い sound, but it's a な-adjective: 有名じゃない (not ゆうめくない), 有名な + noun.\n\nExample: ここは**{有名|ゆうめい}な**お{寺|てら}です。",
       "notes": [
         "An い-adjective would give ゆうめくない — but it's 有名じゃない.",
         ""
       ],
-      "translation": ""
+      "translation": "This is a famous temple."
     },
     {
       "point": "adj-ii",
@@ -172,12 +172,12 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "いい is an い-adjective, and an irregular one: よくない, よかった — every form but the present uses よ-.",
+      "explanation": "いい is an い-adjective, and an irregular one: よくない, よかった — every form but the present uses よ-.\n\nExample: {今日|きょう}は{天気|てんき}が**よくない**。",
       "notes": [
         "",
         "A な-adjective would give いいじゃない and いいな + noun — but it's よくない."
       ],
-      "translation": ""
+      "translation": "The weather isn't good today."
     },
     {
       "point": "adj-na",
@@ -188,12 +188,12 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "{元気|げんき} is a な-adjective: 元気じゃない, 元気だった, 元気な + noun.",
+      "explanation": "{元気|げんき} is a な-adjective: 元気じゃない, 元気だった, 元気な + noun.\n\nExample: {子供|こども}たちはみんな**{元気|げんき}な**{声|こえ}で{歌|うた}った。",
       "notes": [
         "An い-adjective would give 元気くない — but it's 元気じゃない.",
         ""
       ],
-      "translation": ""
+      "translation": "All the children sang in lively voices."
     },
     {
       "point": "adj-i",
@@ -204,12 +204,12 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "{楽|たの}しい is an い-adjective: drop い → 楽しくない, 楽しかった; before a noun just 楽しい (no な).",
+      "explanation": "{楽|たの}しい is an い-adjective: drop い → 楽しくない, 楽しかった; before a noun just 楽しい (no な).\n\nExample: {昨日|きのう}のパーティーは**{楽|たの}しかった**。",
       "notes": [
         "",
         "A な-adjective would give 楽しいじゃない and 楽しいな + noun — but it's 楽しくない."
       ],
-      "translation": ""
+      "translation": "Yesterday's party was fun."
     },
     {
       "point": "adj-trap",
@@ -220,12 +220,12 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "Trap! {丁寧|ていねい} ends in an い sound, but it's a な-adjective: 丁寧じゃない (not ていねくない), 丁寧な + noun.",
+      "explanation": "Trap! {丁寧|ていねい} ends in an い sound, but it's a な-adjective: 丁寧じゃない (not ていねくない), 丁寧な + noun.\n\nExample: {先生|せんせい}は**{丁寧|ていねい}な**{言葉|ことば}で{話|はな}す。",
       "notes": [
         "An い-adjective would give ていねくない — but it's 丁寧じゃない.",
         ""
       ],
-      "translation": ""
+      "translation": "The teacher speaks in polite language."
     },
     {
       "point": "adj-ii",
@@ -236,12 +236,12 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "かっこいい is an い-adjective, and an irregular one: かっこよくない, かっこよかった — every form but the present uses よ-.",
+      "explanation": "かっこいい is an い-adjective, and an irregular one: かっこよくない, かっこよかった — every form but the present uses よ-.\n\nExample: {彼|かれ}の{新|あたら}しい{車|くるま}、**かっこよかった**。",
       "notes": [
         "",
         "A な-adjective would give かっこいいじゃない and かっこいいな + noun — but it's かっこよくない."
       ],
-      "translation": ""
+      "translation": "His new car looked cool."
     },
     {
       "point": "adj-na",
@@ -252,12 +252,12 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "{簡単|かんたん} is a な-adjective: 簡単じゃない, 簡単だった, 簡単な + noun.",
+      "explanation": "{簡単|かんたん} is a な-adjective: 簡単じゃない, 簡単だった, 簡単な + noun.\n\nExample: この{問題|もんだい}は**{簡単|かんたん}じゃない**。",
       "notes": [
         "An い-adjective would give 簡単くない — but it's 簡単じゃない.",
         ""
       ],
-      "translation": ""
+      "translation": "This problem isn't easy."
     },
     {
       "point": "adj-i",
@@ -268,12 +268,12 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "{暗|くら}い is an い-adjective: drop い → 暗くない, 暗かった; before a noun just 暗い (no な).",
+      "explanation": "{暗|くら}い is an い-adjective: drop い → 暗くない, 暗かった; before a noun just 暗い (no な).\n\nExample: {冬|ふゆ}は5{時|じ}にもう**{暗|くら}くなる**。",
       "notes": [
         "",
         "A な-adjective would give 暗いじゃない and 暗いな + noun — but it's 暗くない."
       ],
-      "translation": ""
+      "translation": "In winter it's already dark by five."
     },
     {
       "point": "adj-na",
@@ -284,12 +284,12 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "{好|す}き is a な-adjective: 好きじゃない, 好きだった, 好きな + noun.",
+      "explanation": "{好|す}き is a な-adjective: 好きじゃない, 好きだった, 好きな + noun.\n\nExample: {私|わたし}は{猫|ねこ}が**{好|す}きです**。",
       "notes": [
         "An い-adjective would give 好きくない — but it's 好きじゃない.",
         ""
       ],
-      "translation": ""
+      "translation": "I like cats."
     },
     {
       "point": "adj-i",
@@ -300,12 +300,12 @@
       ],
       "answer": 0,
       "fixed_order": true,
-      "explanation": "{優|やさ}しい is an い-adjective: drop い → 優しくない, 優しかった; before a noun just 優しい (no な).",
+      "explanation": "{優|やさ}しい is an い-adjective: drop い → 優しくない, 優しかった; before a noun just 優しい (no な).\n\nExample: {田中|たなか}さんはとても**{優|やさ}しい**{人|ひと}だ。",
       "notes": [
         "",
         "A な-adjective would give 優しいじゃない and 優しいな + noun — but it's 優しくない."
       ],
-      "translation": ""
+      "translation": "Tanaka is a very kind person."
     },
     {
       "point": "adj-na",
@@ -316,12 +316,12 @@
       ],
       "answer": 1,
       "fixed_order": true,
-      "explanation": "{大変|たいへん} is a な-adjective: 大変じゃない, 大変だった, 大変な + noun.",
+      "explanation": "{大変|たいへん} is a な-adjective: 大変じゃない, 大変だった, 大変な + noun.\n\nExample: {引|ひ}っ{越|こ}しは**{大変|たいへん}だった**。",
       "notes": [
         "An い-adjective would give 大変くない — but it's 大変じゃない.",
         ""
       ],
-      "translation": ""
+      "translation": "The move was hard work."
     }
   ]
 }
