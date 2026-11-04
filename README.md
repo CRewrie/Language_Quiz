@@ -58,13 +58,18 @@ It needs no AI requests:
 - **Checking the writing** happens in the browser. Your strokes are resampled and compared with the KanjiVG stroke data (`static/kana/strokes.json`, CC BY-SA 3.0) for shape, stroke count, order and direction, size and position. The checker also notices look-alikes such as ぬ/め or a missing ゛.
 - **Words, sentences, kana notes and the FAQ** are written in advance in `tools/kana_corpus.py`. `python3 tools/gen_kana.py` checks them, adds romaji, works out the earliest lesson each item fits, and writes `static/kana/content.json`.
 
-## Verb Lookup (`/verbs/`)
+## Verb & Adjective Lookup (`/verbs/`)
 
-A reference page for the JLPT N5–N1 verbs (about 1,360), linked from the Japanese home page. You type a verb in kanji, hiragana or romaji, or in English, and the page shows every form: polite and plain, て-form patterns, conditionals, wishes and commands, potential, passive and causative, and keigo. Each form comes with how it is built and an example sentence with an English translation. If you paste a conjugated form (飲みました, 待たされた), the page finds the verb and highlights that form. A noun + する verb that is not in the list is conjugated anyway.
+A reference page for the JLPT N5–N1 verbs (about 1,360) and adjectives (about 520), linked from the Japanese home page. You type a word in kanji, hiragana or romaji, or in English, and the page shows every form:
+- **Verbs:** polite and plain, て-form patterns, conditionals, wishes and commands, potential, passive and causative, and keigo.
+- **Adjectives:** polite and plain, before a noun, くて / で, adverb, なる, そう, すぎる, ば / たら.
 
-- The verb list (dictionary form, reading, class, level, gloss) is in `tools/jlpt_verbs.py`. 〜ずる verbs are listed in their 〜じる form; one-kanji する verbs (愛する, 接する) get no できる potential and no keigo row. It is based on the tanos.co.uk JLPT lists via open-anki-jlpt-decks (MIT); the classes were checked by hand.
-- `python3 tools/gen_verb_dict.py` writes `static/verbs/verbs.json`, including the English verb forms used in the example sentences. If node is installed, it also checks the page's engine (`static/verbs/conjugate.js`) against the Verb Lab's engine.
-- Conjugation runs in the browser. The example sentences are patterns, so a few verb and sentence combinations sound odd.
+Each form comes with how it is built and an example sentence with an English translation. If you paste a conjugated form (飲みました, 待たされた, 静かじゃない), the page finds the word and highlights that form. A noun + する verb that is not in the list is conjugated anyway.
+
+- The verb list (dictionary form, reading, class, level, gloss) is in `tools/jlpt_verbs.py`. It is based on the tanos.co.uk JLPT lists via open-anki-jlpt-decks (MIT); the classes were checked by hand. 〜ずる verbs are listed in their 〜じる form; one-kanji する verbs (愛する, 接する) get no できる potential and no keigo row.
+- The adjective list is in `tools/jlpt_adjectives.py`: the same JLPT lists, with word classes and glosses from JMdict (EDRDG, CC BY-SA 4.0). な-words that are mainly nouns or adverbs in JMdict are left out, except a hand-picked few.
+- `python3 tools/gen_verb_dict.py` writes `static/verbs/verbs.json`, including the English forms used in the example sentences. If node is installed, it also checks the page's engine (`static/verbs/conjugate.js`) against the Verb Lab's and the Adjective Lab's engines.
+- Conjugation runs in the browser. The example sentences are patterns, so a few word and sentence combinations sound odd.
 
 ## Account & sync (optional)
 

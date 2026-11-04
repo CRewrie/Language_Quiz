@@ -1,4 +1,4 @@
-// Conjugation engine for the verb lookup. Works on kana (the reading); toKanji() puts the verb's kanji back.
+// Conjugation engine for the verb & adjective lookup. Works on kana (the reading); toKanji() puts the kanji back.
 // Verb: { k: kanji, r: reading, c: class } — class: ru, u, iku, aru, suru, kuru, honor (いらっしゃる …), tou (問う).
 // tools/gen_verb_dict.py checks it against the Verb Lab's engine (tools/gen_ja_verbs.py).
 const Conj = (() => {
@@ -261,12 +261,97 @@ const Conj = (() => {
     ] },
   ];
 
-  /** Every form of a verb: { id: { kanji: [...], kana: [...] } } (kanji = kana when the verb has no kanji). */
+  // ---------------------------------------------------------------- adjectives
+  // Class i (高い), ii (いい / 良い: よ- in every form but the present) or na (静か). Same forms as the Adjective Lab.
+  const isAdj = v => v.c === "i" || v.c === "ii" || v.c === "na";
+
+  function conjugateAdj(v) {
+    const r = v.r;
+    if (v.c === "na") {
+      return {
+        a_plain: [r + "だ"], a_desu: [r + "です"],
+        a_neg: [r + "じゃない", r + "ではない"],
+        a_neg_p: [r + "じゃないです", r + "じゃありません", r + "ではありません", r + "ではないです"],
+        a_past: [r + "だった"], a_past_p: [r + "でした"],
+        a_pastneg: [r + "じゃなかった", r + "ではなかった"],
+        a_pastneg_p: [r + "じゃなかったです", r + "じゃありませんでした", r + "ではありませんでした", r + "ではなかったです"],
+        a_te: [r + "で"], a_adv: [r + "に"], a_noun: [r + "な"],
+        a_naru: [r + "になる"], a_naru_ta: [r + "になった"], a_sou: [r + "そう"], a_sugiru: [r + "すぎる"],
+        a_ba: [r + "なら", r + "ならば", r + "であれば"], a_tara: [r + "だったら"],
+      };
+    }
+    const st = v.c === "ii" ? drop(r, 2) + "よ" : drop(r);
+    return {
+      a_plain: [r], a_desu: [r + "です"], a_neg: [st + "くない"],
+      a_neg_p: [st + "くないです", st + "くありません"], a_past: [st + "かった"], a_past_p: [st + "かったです"],
+      a_pastneg: [st + "くなかった"], a_pastneg_p: [st + "くなかったです", st + "くありませんでした"],
+      a_te: [st + "くて"], a_adv: [st + "く"], a_noun: [r],
+      a_naru: [st + "くなる"], a_naru_ta: [st + "くなった"], a_sou: [st + (v.c === "ii" ? "さそう" : "そう")],
+      a_sugiru: [st + "すぎる"], a_ba: [st + "ければ"], a_tara: [st + "かったら"],
+    };
+  }
+
+  function howAdj(id, v) {
+    if (v.c === "na") {
+      return {
+        a_plain: "+ だ (often dropped in speech)", a_desu: "+ です", a_neg: "+ じゃない (written: ではない)",
+        a_neg_p: "+ じゃありません / じゃないです", a_past: "+ だった", a_past_p: "+ でした", a_pastneg: "+ じゃなかった",
+        a_pastneg_p: "+ じゃありませんでした / じゃなかったです", a_te: "+ で", a_adv: "+ に", a_noun: "+ な before a noun",
+        a_naru: "+ になる", a_naru_ta: "+ になった", a_sou: "+ そう", a_sugiru: "+ すぎる", a_ba: "+ なら", a_tara: "+ だったら",
+      }[id] || "";
+    }
+    const d = v.c === "ii" ? "いい → よ (only the present keeps いい)" : "drop い";
+    return {
+      a_plain: "the dictionary form", a_desu: "+ です (the adjective itself doesn't change)",
+      a_neg: `${d} + くない`, a_neg_p: `${d} + くないです / くありません`, a_past: `${d} + かった`,
+      a_past_p: `${d} + かったです (not …いでした)`, a_pastneg: `${d} + くなかった`,
+      a_pastneg_p: `${d} + くなかったです / くありませんでした`, a_te: `${d} + くて`, a_adv: `${d} + く`,
+      a_noun: "as it is, straight before the noun (no な)", a_naru: `${d} + くなる`, a_naru_ta: `${d} + くなった`,
+      a_sou: v.c === "ii" ? "いい → よさそう (irregular)" : "drop い + そう", a_sugiru: `${d} + すぎる`,
+      a_ba: `${d} + ければ`, a_tara: `${d} + かったら`,
+    }[id] || "";
+  }
+
+  // en: {A} is the adjective's English meaning, {a} its article (a / an).
+  const ADJ_GROUPS = [
+    { title: "Polite (です)", forms: [
+      { id: "a_desu", label: "present", jp: "です", ex: "それは{F}。", en: "That's {A}." },
+      { id: "a_neg_p", label: "negative", jp: "ないです / ありません", ex: "それは{F}。", en: "That isn't {A}." },
+      { id: "a_past_p", label: "past", jp: "でした / かったです", ex: "それは{F}。", en: "That was {A}." },
+      { id: "a_pastneg_p", label: "past negative", jp: "なかったです", ex: "それは{F}。", en: "That wasn't {A}." },
+    ] },
+    { title: "Plain (casual)", forms: [
+      { id: "a_plain", label: "present", jp: "辞書形", ex: "それは{F}よ。", en: "That's {A}." },
+      { id: "a_neg", label: "negative", jp: "ない形", ex: "それは{F}よ。", en: "That isn't {A}." },
+      { id: "a_past", label: "past", jp: "た形", ex: "それは{F}よ。", en: "That was {A}." },
+      { id: "a_pastneg", label: "past negative", jp: "なかった", ex: "それは{F}よ。", en: "That wasn't {A}." },
+    ] },
+    { title: "Describing and joining", forms: [
+      { id: "a_noun", label: "before a noun", jp: "連体形", ex: "とても{F}{物|もの}です。", en: "It's a very {A} thing." },
+      { id: "a_te", label: "… and … / because …", jp: "て形", ex: "{F}、{少|すこ}し{驚|おどろ}きました。", en: "It was {A}, and I was a little surprised." },
+      { id: "a_adv", label: "adverb (…ly)", jp: "連用形", ex: "もっと{F}してください。", en: "Please make it more {A}." },
+    ] },
+    { title: "Becoming", forms: [
+      { id: "a_naru", label: "becomes …", jp: "なる", ex: "これから{F}。", en: "It's going to get {A}." },
+      { id: "a_naru_ta", label: "became …", jp: "なった", ex: "{最近|さいきん}、{F}。", en: "It has become {A} lately." },
+    ] },
+    { title: "Looks and too much", forms: [
+      { id: "a_sou", label: "looks …", jp: "そう", ex: "{F}ですね。", en: "It looks {A}." },
+      { id: "a_sugiru", label: "too …", jp: "すぎる", ex: "それは{F}よ。", en: "That's too {A}." },
+    ] },
+    { title: "If", forms: [
+      { id: "a_ba", label: "if … (ば / なら)", jp: "ば形", ex: "{F}、それでいいです。", en: "If it's {A}, that's fine." },
+      { id: "a_tara", label: "if / when … (たら)", jp: "たら", ex: "{F}、{教|おし}えてください。", en: "If it's {A}, let me know." },
+    ] },
+  ];
+
+  /** Every form of a verb or adjective: { id: { kanji: [...], kana: [...] } } (kanji = kana when it has no kanji). */
   function table(v) {
-    const f = conjugate(v), out = {};
+    const f = isAdj(v) ? conjugateAdj(v) : conjugate(v), out = {};
     for (const [id, kana] of Object.entries(f)) {
       if (kana) out[id] = { kana, kanji: kana.map(x => toKanji(x, v)) };
     }
+    if (isAdj(v)) return out;
     for (const [id, humble] of [["hon", false], ["hum", true]]) {
       const kg = keigo(v, humble);
       if (kg) out[id] = { kanji: kg.map(x => x[0]), kana: kg.map(x => x[1]), own: !!kg.own };
@@ -274,6 +359,10 @@ const Conj = (() => {
     return out;
   }
 
-  return { conjugate, toKanji, keigo, table, how, GROUPS, NO_POTENTIAL, oneKanjiSuru };
+  const groupsFor = v => isAdj(v) ? ADJ_GROUPS : GROUPS;
+  const howFor = (id, v) => isAdj(v) ? howAdj(id, v) : how(id, v);
+
+  return { conjugate, conjugateAdj, toKanji, keigo, table, how: howFor, GROUPS, ADJ_GROUPS, groupsFor, isAdj,
+    NO_POTENTIAL, oneKanjiSuru };
 })();
 if (typeof module !== "undefined") module.exports = Conj;

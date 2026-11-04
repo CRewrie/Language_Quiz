@@ -1088,7 +1088,7 @@ async function showHome() {
       <span class="btn small">Open</span>
     </a>
     <a class="mix-banner dojo-banner" href="verbs/">
-      <span>📖 <strong>Verb Lookup</strong> — type a verb (kanji, kana or romaji) and see every form with example sentences</span>
+      <span>📖 <strong>Verb & Adjective Lookup</strong> — type a verb or adjective (kanji, kana or romaji) and see every form with example sentences</span>
       <span class="btn small">Open</span>
     </a>` : ""}
     ${offlineCardHtml()}

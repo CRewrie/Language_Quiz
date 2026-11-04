@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Verb Lookup</title>
+<title>Verb & Adjective Lookup</title>
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -91,7 +91,7 @@ footer a { color: inherit; }
 </head>
 <body>
 <header>
-  <h1><span>動詞</span> Verb Lookup</h1>
+  <h1><span>活用</span> Verb & Adjective Lookup</h1>
   <a class="navlink" href="../">← Grammar quizzes</a>
   <a class="navlink" href="../kana/">Hiragana Dojo →</a>
 </header>
@@ -99,7 +99,7 @@ footer a { color: inherit; }
 <main>
   <div class="search">
     <input id="q" type="search" autocomplete="off" autocapitalize="off" spellcheck="false"
-      placeholder="Type a verb — 食べる, たべる, taberu, a form like 食べました, or English (eat)" aria-label="Verb">
+      placeholder="Type a verb or adjective — 食べる, たかい, taberu, 静かじゃない, or English (eat, quiet)" aria-label="Verb or adjective">
     <div class="row">
       <span class="preview" id="preview"></span>
       <label class="toggle"><input type="checkbox" id="furi" checked> Furigana</label>
@@ -108,8 +108,9 @@ footer a { color: inherit; }
   <div id="out"></div>
 </main>
 
-<footer>JLPT N5–N1 verbs, based on the JLPT lists of <a href="http://www.tanos.co.uk/jlpt/" target="_blank" rel="noopener">tanos.co.uk</a>
-  (via <a href="https://github.com/jamsinclair/open-anki-jlpt-decks" target="_blank" rel="noopener">open-anki-jlpt-decks</a>).
+<footer>JLPT N5–N1 verbs and adjectives, based on the JLPT lists of <a href="http://www.tanos.co.uk/jlpt/" target="_blank" rel="noopener">tanos.co.uk</a>
+  (via <a href="https://github.com/jamsinclair/open-anki-jlpt-decks" target="_blank" rel="noopener">open-anki-jlpt-decks</a>); adjective classes and glosses from
+  <a href="https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project" target="_blank" rel="noopener">JMdict</a> (EDRDG, CC BY-SA 4.0).
   Forms and example sentences are built from patterns, so a few combinations sound odd (e.g. “It was gone home by my friend”).</footer>
 
 <script src="conjugate.js"></script>
@@ -158,15 +159,18 @@ const clean = s => hira(s.trim().replace(/[\s　。、！？!?「」]/g, "").rep
 // ---------- data ----------
 let VERBS = [], INDEX = new Map();
 const LABEL = { naide: "ないで (without …ing)" };
-for (const g of Conj.GROUPS) for (const f of g.forms) LABEL[f.id] = `${f.jp} — ${f.label}`;
+const ALL_GROUPS = [...Conj.GROUPS, ...Conj.ADJ_GROUPS];
+for (const g of ALL_GROUPS) for (const f of g.forms) LABEL[f.id] = `${f.jp} — ${f.label}`;
 // Simpler forms first, so 励まされた is 励ます (passive) before 励む (causative-passive)
-const FORM_ORDER = [...Conj.GROUPS.flatMap(g => g.forms.map(f => f.id)), "naide"];
+const FORM_ORDER = [...ALL_GROUPS.flatMap(g => g.forms.map(f => f.id)), "naide"];
 
 function buildIndex() {
   VERBS.forEach((v, i) => {
     v.i = i;
     v.t = Conj.table(v);
-    for (const [id, f] of Object.entries(v.t)) {
+    // the word itself (a な-adjective's 静か has no form of its own in the table)
+    const own = Conj.isAdj(v) ? { dict: { kana: [v.r], kanji: [v.k] } } : {};
+    for (const [id, f] of Object.entries({ ...own, ...v.t })) {
       for (const s of [...f.kana, ...f.kanji]) {
         const key = hira(s);
         if (!INDEX.has(key)) INDEX.set(key, []);
@@ -177,7 +181,7 @@ function buildIndex() {
   });
 }
 
-/** Verbs for a query: [{ v, ids: [form ids the query matched] }], best first. */
+/** Verbs and adjectives for a query: [{ v, ids: [form ids the query matched] }], best first. */
 function search(raw) {
   const q = clean(raw);
   if (!q) return { hits: [] };
@@ -241,8 +245,9 @@ function rubyForm(kanji, kana, v) {
 
 function english(tpl, v) {
   if (!v.e) return "";
-  const [V, Vd, Vn, Vg] = v.e;
-  const s = tpl.replace(/\{Vd\}/g, Vd).replace(/\{Vn\}/g, Vn).replace(/\{Vg\}/g, Vg).replace(/\{V\}/g, V);
+  const [V, Vd, Vn, Vg] = v.e; // adjectives: just [meaning]
+  const s = Conj.isAdj(v) ? tpl.replace(/\{A\}/g, V)
+    : tpl.replace(/\{Vd\}/g, Vd).replace(/\{Vn\}/g, Vn).replace(/\{Vg\}/g, Vg).replace(/\{V\}/g, V);
   return s[0].toUpperCase() + s.slice(1);
 }
 
@@ -258,8 +263,14 @@ function classInfo(v) {
     kuru: ["irregular (来る)", "The vowel changes: き(ます), こ(ない), く(る)."],
     honor: ["う-verb (godan), keigo", "Like a う-verb, but the ます-stem and the command end in い: いらっしゃいます, いらっしゃい."],
     tou: ["う-verb (godan)", "Regular except for the て/た-form: 問うて, 問うた."],
+    i: ["い-adjective", "The final い changes: drop it and add くない, かった, くて …"],
+    ii: ["い-adjective (irregular)", "Every form except the present uses よ-: よくない, よかった, よくて."],
+    na: ["な-adjective", "The word never changes: add だ / です / じゃない / だった, and な before a noun."],
   };
   const [name, rule] = names[c];
+  if (c === "na" && /い$/.test(r)) {
+    return { name, rule, warn: `⚠ Ends in an い sound, but it's a な-adjective: ${v.k}じゃない, ${v.k}な + noun (not ${v.k.slice(0, -1)}くない).` };
+  }
   const warn = c === "u" && vowelIE
     ? `⚠ Ends in -${{ い: "i", き: "i", し: "i", ち: "i", に: "i", ひ: "i", み: "i", り: "i", ぎ: "i", じ: "i", ぢ: "i", び: "i", ぴ: "i" }[r.at(-2)] || "e"}る like a る-verb, but it is one of the う-verb exceptions.`
     : "";
@@ -273,7 +284,7 @@ function verbHtml(hit) {
   const head = rubyForm(v.k, v.r, v);
   const found = ids.length && !(ids.length === 1 && ids[0] === "dict")
     ? `<p class="note found">You searched for a form of ${esc(v.k)}: ${ids.map(id => `<b>${esc(LABEL[id] || id)}</b>`).join(", ")} (highlighted below).</p>` : "";
-  const groups = Conj.GROUPS.map(g => {
+  const groups = Conj.groupsFor(v).map(g => {
     const rows = g.forms.map(f => {
       const val = t[f.id];
       if (!val) {
@@ -302,7 +313,7 @@ function verbHtml(hit) {
   }).join("");
   return `<section class="card">
       <div class="verb-head"><div class="big">${head}</div>
-        ${v.g ? `<div class="gloss">to ${esc(v.g)}</div>` : ""}</div>
+        ${v.g ? `<div class="gloss">${Conj.isAdj(v) ? "" : "to "}${esc(v.g)}</div>` : ""}</div>
       <div class="badges">${v.l ? `<span class="badge lvl">JLPT N${v.l}</span>` : `<span class="badge">not in the N5–N1 list</span>`}
         <span class="badge">${esc(info.name)}</span>${v.r !== v.k ? `<span class="badge">${esc(v.r)}</span>` : ""}</div>
       <p class="note">${esc(info.rule)}</p>
@@ -311,18 +322,21 @@ function verbHtml(hit) {
     </section>${groups}`;
 }
 
-const EXAMPLES = ["食べる", "いく", "来る", "勉強する", "帰る", "kaku", "飲みました", "待たされた", "見られない", "remember"];
+const EXAMPLES = ["食べる", "いく", "来る", "帰る", "kaku", "飲みました", "待たされた", "高い", "しずか", "よかった", "きれいじゃない", "quiet"];
 
 function browseHtml() {
-  const lvl = store.get("level", 5);
-  const list = VERBS.filter(v => v.l === lvl).sort((a, b) => a.r.localeCompare(b.r, "ja"));
+  const lvl = store.get("level", 5), kind = store.get("kind", "verbs");
+  const words = VERBS.filter(v => Conj.isAdj(v) === (kind === "adjectives"));
+  const list = words.filter(v => v.l === lvl).sort((a, b) => a.r.localeCompare(b.r, "ja"));
   return `<section class="card">
-      <p style="margin:0">Look up any JLPT N5–N1 verb and see all its forms, each with how it's built and an example sentence.
-      Type in kanji, hiragana or romaji — or paste a conjugated form, and it finds the verb.</p>
+      <p style="margin:0">Look up any JLPT N5–N1 verb or adjective and see all its forms, each with how it's built and an example sentence.
+      Type in kanji, hiragana or romaji — or paste a conjugated form, and it finds the word.</p>
       <div class="examples">Try: ${EXAMPLES.map(e => `<a href="#${encodeURIComponent(e)}">${esc(e)}</a>`).join(" ")}</div>
     </section>
     <section class="card browse">
-      <div class="tabs">${[5, 4, 3, 2, 1].map(n => `<button data-l="${n}" class="${n === lvl ? "on" : ""}">N${n} · ${VERBS.filter(v => v.l === n).length}</button>`).join("")}</div>
+      <div class="tabs">${[["verbs", "Verbs"], ["adjectives", "Adjectives"]].map(([k, t]) =>
+        `<button data-kind="${k}" class="${k === kind ? "on" : ""}">${t} · ${VERBS.filter(v => Conj.isAdj(v) === (k === "adjectives")).length}</button>`).join("")}</div>
+      <div class="tabs">${[5, 4, 3, 2, 1].map(n => `<button data-l="${n}" class="${n === lvl ? "on" : ""}">N${n} · ${words.filter(v => v.l === n).length}</button>`).join("")}</div>
       <div class="vlist">${list.map(v => `<a href="#${encodeURIComponent(v.k)}" title="${esc(v.r)} — ${esc(v.g)}">${esc(v.k)}<small>${esc(senses(v.g)[0])}</small></a>`).join("")}</div>
     </section>`;
 }
@@ -336,11 +350,12 @@ function render(pick) {
   if (!raw.trim()) {
     out.innerHTML = browseHtml();
     out.querySelectorAll("[data-l]").forEach(b => b.addEventListener("click", () => { store.set("level", +b.dataset.l); render(); }));
+    out.querySelectorAll("[data-kind]").forEach(b => b.addEventListener("click", () => { store.set("kind", b.dataset.kind); render(); }));
     return;
   }
   const all = extra ? [extra, ...hits] : hits;
   if (!all.length) {
-    out.innerHTML = `<section class="card"><p style="margin:0">No verb found for <b>${esc(raw)}</b>. The list has the JLPT N5–N1 verbs;
+    out.innerHTML = `<section class="card"><p style="margin:0">Nothing found for <b>${esc(raw)}</b>. The list has the JLPT N5–N1 verbs and adjectives;
       noun + する verbs not in it (e.g. 発明する) are conjugated anyway if you type them with する.</p></section>`;
     return;
   }
@@ -380,7 +395,7 @@ fetch("verbs.json").then(r => r.json()).then(data => {
   $("q").value = decodeURIComponent(location.hash.slice(1));
   render();
   if (!$("q").value) $("q").focus();
-}).catch(e => { $("out").innerHTML = `<section class="card">Could not load the verb list: ${esc(e.message)}</section>`; });
+}).catch(e => { $("out").innerHTML = `<section class="card">Could not load the word list: ${esc(e.message)}</section>`; });
 </script>
 </body>
 </html>

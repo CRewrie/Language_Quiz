@@ -1,13 +1,16 @@
-"""Builds static/verbs/verbs.json for the verb lookup page from tools/jlpt_verbs.py.
+"""Builds static/verbs/verbs.json for the verb & adjective lookup page from tools/jlpt_verbs.py and
+tools/jlpt_adjectives.py.
 
-Each verb gets its English gloss in four shapes (base, past, past participle, -ing) for the example sentences.
-The conjugation itself happens in the browser (static/verbs/conjugate.js); if node is installed, this script also
-checks that engine against the Verb Lab's (gen_ja_verbs.forms) for every verb of both lists. Run from the repo root.
+Each verb gets its English gloss in four shapes (base, past, past participle, -ing) for the example sentences;
+each adjective its gloss without notes in brackets. The conjugation itself happens in the browser
+(static/verbs/conjugate.js); if node is installed, this script also checks that engine against the Verb Lab's
+(gen_ja_verbs.forms) and the Adjective Lab's (gen_ja_adj.adj_forms) for every word. Run from the repo root.
 """
 import json, os, re, shutil, subprocess, sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 from jlpt_verbs import VERBS
+from jlpt_adjectives import ADJECTIVES
 
 CLASSES = {"ru", "u", "iku", "aru", "suru", "kuru", "honor", "tou"}
 
@@ -87,6 +90,41 @@ def load():
     return verbs
 
 
+def load_adjectives():
+    adjs, seen = [], set()
+    for line in ADJECTIVES.strip().splitlines():
+        word, reading, cls, level, gloss = line.split(" ", 4)
+        assert cls in ("i", "ii", "na") and level in ("N5", "N4", "N3", "N2", "N1") and (word, reading) not in seen, line
+        assert cls == "na" or reading.endswith("い"), line
+        seen.add((word, reading))
+        first = re.sub(r"\s*\(.*?\)", "", gloss.split(",")[0]).strip()  # 'cold (weather), …' → 'cold'
+        adjs.append({"k": word, "r": reading, "c": cls, "l": int(level[1]), "g": gloss, "e": [first]})
+    return adjs
+
+
+def check_adjectives(adjs):
+    """Compares conjugate.js with the Adjective Lab's engine (tools/gen_ja_adj.py) on every adjective."""
+    if not shutil.which("node"):
+        return
+    import gen_ja_adj as lab
+    js = os.path.join(os.path.dirname(__file__), "..", "static", "verbs", "conjugate.js")
+    script = ("const C = require(process.argv[1]); const vs = JSON.parse(require('fs').readFileSync(0, 'utf8'));"
+              "console.log(JSON.stringify(vs.map(v => C.conjugateAdj(v))));")
+    out = subprocess.run(["node", "-e", script, os.path.abspath(js)], input=json.dumps(adjs), capture_output=True,
+                         text=True, check=True).stdout
+    bad = 0
+    for v, got in zip(adjs, json.loads(out)):
+        key = v["k"] + "#" + v["r"]  # own key: 辛い is both からい and つらい
+        lab.ADJ[key] = (v["k"], v["r"], v["c"])
+        want = lab.adj_forms(key)
+        for form, kana in want.items():
+            if got.get(form, [None])[0] != kana[0]:
+                bad += 1
+                print(f"  {v['k']} {form}: page {got.get(form)} ≠ Adjective Lab {kana[0]}")
+    assert not bad, f"{bad} forms differ from the Adjective Lab"
+    print(f"engine check: {len(adjs)} adjectives agree with the Adjective Lab")
+
+
 def check_engine(verbs):
     """Compares conjugate.js with the Verb Lab's engine (tools/gen_ja_verbs.py) on every verb either list has."""
     if not shutil.which("node"):
@@ -118,10 +156,12 @@ def check_engine(verbs):
 
 
 if __name__ == "__main__":
-    verbs = load()
+    verbs, adjs = load(), load_adjectives()
     os.makedirs("static/verbs", exist_ok=True)
     with open("static/verbs/verbs.json", "w", encoding="utf-8") as f:
-        f.write("[\n" + ",\n".join(json.dumps(v, ensure_ascii=False, separators=(",", ":")) for v in verbs) + "\n]\n")
-    levels = ", ".join(f"N{n} {sum(v['l'] == n for v in verbs)}" for n in (5, 4, 3, 2, 1))
-    print(f"static/verbs/verbs.json: {len(verbs)} verbs ({levels})")
+        f.write("[\n" + ",\n".join(json.dumps(v, ensure_ascii=False, separators=(",", ":")) for v in verbs + adjs) + "\n]\n")
+    for name, words in (("verbs", verbs), ("adjectives", adjs)):
+        levels = ", ".join(f"N{n} {sum(v['l'] == n for v in words)}" for n in (5, 4, 3, 2, 1))
+        print(f"static/verbs/verbs.json: {len(words)} {name} ({levels})")
     check_engine(verbs)
+    check_adjectives(adjs)
