@@ -1,0 +1,226 @@
+{
+  "id": "zh-dd-le-3",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "了 Step 3 · No 了 Here! Negation, Habits and States",
+  "description": "Not every past sentence takes 了: 没 + verb never does, past habits don't, and verbs like 是, 喜欢, 觉得 usually don't.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "l3_mei",
+      "title": "没 + verb: no 了",
+      "summary": "The negative of a completed action is 没(有) + verb — without 了.",
+      "body": "- 我吃**了**早饭。 → 我**没**吃早饭。 (never ~~我没吃了早饭~~)\n- 他来**了**吗？ — 他**没**来。\n- Careful: 不…了 (not any more) is fine — that's sentence-了 (step 2).\n\n**了 at a glance: done, or changed?**\n\n| | where | means | example |\n|---|---|---|---|\n| verb-了 | right after the verb | **done** (completed action) | 我买**了**三本书。 |\n| sentence-了 | end of the sentence | **changed** (new situation) | 下雨**了**。 我饿**了**。 |\n| both | after the verb + at the end | **so far, and still going** | 我学**了**三年中文**了**。 |\n\n**Where 了 does NOT go**\n- With 没: 我**没**吃早饭 — never ~~没吃了~~.\n- Habits and general states in the past: 我以前**常常**去, 他以前**是**老师, 我小时候**喜欢**画画.\n- Plain description: 昨天很冷 — no 了 needed.\n\n**Look-alikes:** 快 / 要 …了 = **about to** (快下雨了); 太…了 = **so / too** (太好了!) — no change involved.",
+      "examples": [
+        [
+          "{我|wǒ}{今天|jīntiān}{没|méi}{吃|chī}{早饭|zǎofàn}。",
+          "I didn't have breakfast today."
+        ]
+      ]
+    },
+    {
+      "id": "l3_habit",
+      "title": "Habits and states in the past: no 了",
+      "summary": "Things that were usual or true over a period — 常常, 每天, 以前是, 喜欢 — don't take 了.",
+      "body": "- 我以前**每天**跑步。 I used to run every day.\n- 他小时候**是**一个很安静的孩子。\n- 我以前**喜欢**吃辣的。\n- 昨天**很冷**。 (a description — no 了 needed)\n\n**了 at a glance: done, or changed?**\n\n| | where | means | example |\n|---|---|---|---|\n| verb-了 | right after the verb | **done** (completed action) | 我买**了**三本书。 |\n| sentence-了 | end of the sentence | **changed** (new situation) | 下雨**了**。 我饿**了**。 |\n| both | after the verb + at the end | **so far, and still going** | 我学**了**三年中文**了**。 |\n\n**Where 了 does NOT go**\n- With 没: 我**没**吃早饭 — never ~~没吃了~~.\n- Habits and general states in the past: 我以前**常常**去, 他以前**是**老师, 我小时候**喜欢**画画.\n- Plain description: 昨天很冷 — no 了 needed.\n\n**Look-alikes:** 快 / 要 …了 = **about to** (快下雨了); 太…了 = **so / too** (太好了!) — no change involved.",
+      "examples": [
+        [
+          "{我|wǒ}{以前|yǐqián}{每天|měitiān}{都|dōu}{去|qù}{游泳|yóuyǒng}。",
+          "I used to go swimming every day."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "l3_mei",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{我|wǒ}{没|méi}{吃|chī}{早饭|zǎofàn}{了|le}。",
+        "{我|wǒ}{没|méi}{吃|chī}{了|le}{早饭|zǎofàn}。",
+        "{我|wǒ}{没|méi}{吃|chī}{早饭|zǎofàn}。",
+        "{我|wǒ}{不|bù}{吃|chī}{了|le}{早饭|zǎofàn}。"
+      ],
+      "answer": 2,
+      "explanation": "没 + verb, **no 了**.",
+      "notes": [
+        "没…了 is wrong here.",
+        "没 + verb never takes 了.",
+        "",
+        "不 + 了 after the verb doesn't work."
+      ],
+      "translation": "I didn't have breakfast."
+    },
+    {
+      "point": "l3_mei",
+      "prompt": "A：{他|tā}{来|lái}{了|le}{吗|ma}？\nB：{他|tā}{还|hái}（　）。",
+      "options": [
+        "{不|bù}{来|lái}{了|le}",
+        "{没|méi}{来|lái}",
+        "{来|lái}{没|méi}{了|le}",
+        "{没|méi}{来|lái}{了|le}"
+      ],
+      "answer": 1,
+      "explanation": "Not yet: 还**没**来 (no 了).",
+      "notes": [
+        "不来了 = he's not coming any more — a change of plan, not 'not yet'.",
+        "",
+        "Word order is wrong.",
+        "没 doesn't take 了."
+      ],
+      "translation": "A: Has he come? B: Not yet."
+    },
+    {
+      "point": "l3_habit",
+      "prompt": "{我|wǒ}{上|shàng}{大学|dàxué}{的|de}{时候|shíhou}{每天|měitiān}{都|dōu}（　）。",
+      "options": [
+        "{跑步|pǎobù}",
+        "{跑|pǎo}{了|le}{步|bù}",
+        "{跑步|pǎobù}{了|le}{了|le}",
+        "{跑步|pǎobù}{过|guo}{了|le}"
+      ],
+      "answer": 0,
+      "explanation": "Past habit → **no 了**.",
+      "notes": [
+        "",
+        "A habit (每天) doesn't take 了.",
+        "Double 了 is wrong here.",
+        "过了 doesn't fit a habit."
+      ],
+      "translation": "When I was at university I ran every day."
+    },
+    {
+      "point": "l3_habit",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{小时候|xiǎoshíhou}{很|hěn}{喜欢|xǐhuan}{过|guo}{了|le}{画画|huà huà}。",
+        "{他|tā}{小时候|xiǎoshíhou}{很|hěn}{喜欢|xǐhuan}{画画|huà huà}。",
+        "{他|tā}{小时候|xiǎoshíhou}{很|hěn}{喜欢|xǐhuan}{了|le}{画画|huà huà}。",
+        "{他|tā}{小时候|xiǎoshíhou}{了|le}{很|hěn}{喜欢|xǐhuan}{画画|huà huà}。"
+      ],
+      "answer": 1,
+      "explanation": "States like 喜欢 in the past → **no 了**.",
+      "notes": [
+        "过了 is wrong.",
+        "",
+        "喜欢 (a lasting feeling) doesn't take verb-了 here.",
+        "了 doesn't go there."
+      ],
+      "translation": "As a child he loved drawing."
+    },
+    {
+      "point": "l3_habit",
+      "prompt": "{我|wǒ}{爸爸|bàba}{以前|yǐqián}（　）{老师|lǎoshī}，{现在|xiànzài}{退休|tuìxiū}{了|le}。",
+      "options": [
+        "{了|le}{是|shì}",
+        "{是|shì}{过|guo}{了|le}",
+        "{是|shì}",
+        "{是|shì}{了|le}"
+      ],
+      "answer": 2,
+      "explanation": "是 in the past → **no 了**. (退休了 = retired now — a change.)",
+      "notes": [
+        "了 doesn't go before 是.",
+        "过了 doesn't fit.",
+        "",
+        "是 doesn't take 了 in the past."
+      ],
+      "translation": "My dad used to be a teacher — he's retired now."
+    },
+    {
+      "point": "l3_habit",
+      "prompt": "{昨天|zuótiān}（　），{我|wǒ}{穿|chuān}{了|le}{两|liǎng}{件|jiàn}{毛衣|máoyī}。",
+      "options": [
+        "{很|hěn}{冷|lěng}",
+        "{很|hěn}{冷|lěng}{过|guo}",
+        "{冷|lěng}{了|le}{很|hěn}",
+        "{了|le}{很|hěn}{冷|lěng}"
+      ],
+      "answer": 0,
+      "explanation": "A description of the past: **很冷** — no 了 needed.",
+      "notes": [
+        "",
+        "过 doesn't fit.",
+        "Word order is wrong.",
+        "了 doesn't go there."
+      ],
+      "translation": "It was very cold yesterday — I wore two jumpers."
+    },
+    {
+      "point": "l3_mei",
+      "prompt": "「{我|wǒ}{没|méi}{去|qù}。」 vs 「{我|wǒ}{不|bú}{去|qù}{了|le}。」 — what's the difference?",
+      "options": [
+        "Both mean I'm not going any more.",
+        "没去 = I didn't go; 不去了 = I'm not going any more (changed my mind).",
+        "Both mean I didn't go.",
+        "没去 is future; 不去了 is past."
+      ],
+      "answer": 1,
+      "explanation": "**没** + verb = didn't; **不…了** = not any more.",
+      "notes": [
+        "没去 is about what happened.",
+        "",
+        "不去了 is a change of plan.",
+        "Swapped."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "l3_habit",
+      "prompt": "'I used to go swimming every day.' Which sentence says so?",
+      "options": [
+        "{我|wǒ}{以前|yǐqián}{每天|měitiān}{都|dōu}{去|qù}{了|le}{游泳|yóuyǒng}。",
+        "{我|wǒ}{以前|yǐqián}{每天|měitiān}{都|dōu}{去|qù}{游泳|yóuyǒng}{了|le}。",
+        "{我|wǒ}{以前|yǐqián}{每天|měitiān}{都|dōu}{去|qù}{游泳|yóuyǒng}。",
+        "{我|wǒ}{以前|yǐqián}{每天|měitiān}{都|dōu}{去|qù}{过|guo}{游泳|yóuyǒng}。"
+      ],
+      "answer": 2,
+      "explanation": "以前 + 每天 = a habit → **no 了**.",
+      "notes": [
+        "Habits don't take verb-了.",
+        "Sentence-了 would make it a new situation.",
+        "",
+        "过 = 'have ever' — not a habit."
+      ],
+      "translation": "I used to go swimming every day."
+    },
+    {
+      "point": "l3_mei",
+      "prompt": "Which is **wrong**?",
+      "options": [
+        "{他|tā}{昨天|zuótiān}{来|lái}{了|le}。",
+        "{他|tā}{昨天|zuótiān}{没|méi}{来|lái}{了|le}。",
+        "{他|tā}{今天|jīntiān}{不|bù}{来|lái}{了|le}。",
+        "{他|tā}{昨天|zuótiān}{没|méi}{来|lái}。"
+      ],
+      "answer": 1,
+      "explanation": "没 + verb never takes 了.",
+      "notes": [
+        "Correct.",
+        "",
+        "Correct: not coming after all.",
+        "Correct."
+      ],
+      "translation": "He didn't come yesterday."
+    },
+    {
+      "point": "l3_habit",
+      "prompt": "Why is there no 了 in 「{我|wǒ}{小时候|xiǎoshíhou}{住|zhù}{在|zài}{上海|Shànghǎi}。」?",
+      "options": [
+        "Because 了 is never used with 住.",
+        "Because it's a question.",
+        "It describes a situation over a period, not a single completed action.",
+        "Because 上海 is a city."
+      ],
+      "answer": 2,
+      "explanation": "A lasting situation in the past → no 了 needed.",
+      "notes": [
+        "住了三年 is fine — 了 is possible with 住.",
+        "It isn't a question.",
+        "",
+        "The place doesn't matter."
+      ],
+      "translation": "When I was little I lived in Shanghai."
+    }
+  ]
+}

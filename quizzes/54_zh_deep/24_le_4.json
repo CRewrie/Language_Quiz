@@ -1,0 +1,228 @@
+{
+  "id": "zh-dd-le-4",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "了 Step 4 · Still Going: Double 了",
+  "description": "我学了三年中文 vs 我学了三年中文了 — one 了 or two? The second 了 says it's still going on.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "l4_double",
+      "title": "Verb-了 + time + 了 = so far, and still going",
+      "summary": "Two 了 with a length of time: up to now, and continuing.",
+      "body": "- 我学**了**三年中文**了**。 I've been studying Chinese for three years (and I still am).\n- 我学**了**三年中文。 I studied Chinese for three years (maybe I stopped).\n- 我等**了**你半个小时**了**！ I've been waiting for you for half an hour!\n\n**了 at a glance: done, or changed?**\n\n| | where | means | example |\n|---|---|---|---|\n| verb-了 | right after the verb | **done** (completed action) | 我买**了**三本书。 |\n| sentence-了 | end of the sentence | **changed** (new situation) | 下雨**了**。 我饿**了**。 |\n| both | after the verb + at the end | **so far, and still going** | 我学**了**三年中文**了**。 |\n\n**Where 了 does NOT go**\n- With 没: 我**没**吃早饭 — never ~~没吃了~~.\n- Habits and general states in the past: 我以前**常常**去, 他以前**是**老师, 我小时候**喜欢**画画.\n- Plain description: 昨天很冷 — no 了 needed.\n\n**Look-alikes:** 快 / 要 …了 = **about to** (快下雨了); 太…了 = **so / too** (太好了!) — no change involved.",
+      "examples": [
+        [
+          "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{了|le}{五|wǔ}{年|nián}{了|le}。",
+          "I've been living in Beijing for five years (and still do)."
+        ]
+      ]
+    },
+    {
+      "id": "l4_count",
+      "title": "Counting so far: 已经…了",
+      "summary": "With a number of things done so far, the final 了 also says 'so far, and maybe more to come'.",
+      "body": "- 我**已经**喝了三杯咖啡**了**。 I've already had three coffees (so far today).\n- 这本书我看了一半**了**。 I'm halfway through this book.\n- 已经 often joins in: 已经…了.\n\n**了 at a glance: done, or changed?**\n\n| | where | means | example |\n|---|---|---|---|\n| verb-了 | right after the verb | **done** (completed action) | 我买**了**三本书。 |\n| sentence-了 | end of the sentence | **changed** (new situation) | 下雨**了**。 我饿**了**。 |\n| both | after the verb + at the end | **so far, and still going** | 我学**了**三年中文**了**。 |\n\n**Where 了 does NOT go**\n- With 没: 我**没**吃早饭 — never ~~没吃了~~.\n- Habits and general states in the past: 我以前**常常**去, 他以前**是**老师, 我小时候**喜欢**画画.\n- Plain description: 昨天很冷 — no 了 needed.\n\n**Look-alikes:** 快 / 要 …了 = **about to** (快下雨了); 太…了 = **so / too** (太好了!) — no change involved.",
+      "examples": [
+        [
+          "{我|wǒ}{已经|yǐjīng}{喝|hē}{了|le}{三|sān}{杯|bēi}{咖啡|kāfēi}{了|le}。",
+          "I've already had three coffees."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "l4_double",
+      "prompt": "「{我|wǒ}{学|xué}{了|le}{三|sān}{年|nián}{中文|Zhōngwén}{了|le}。」 — is the speaker still learning Chinese?",
+      "options": [
+        "Yes — three years so far, and still going.",
+        "No — they stopped after three years.",
+        "They're about to start.",
+        "They never learned Chinese."
+      ],
+      "answer": 0,
+      "explanation": "Double 了 = **still going**.",
+      "notes": [
+        "",
+        "That would be one 了: 我学了三年中文。",
+        "That would be 要开始学了.",
+        "They've learned it for three years."
+      ],
+      "translation": "I've been studying Chinese for three years.",
+      "fixed_order": true
+    },
+    {
+      "point": "l4_double",
+      "prompt": "「{我|wǒ}{学|xué}{了|le}{三|sān}{年|nián}{中文|Zhōngwén}。」 — which is most likely?",
+      "options": [
+        "The speaker studied for three years — maybe they've stopped.",
+        "The speaker definitely still studies.",
+        "The speaker will study for three years.",
+        "The speaker hasn't started."
+      ],
+      "answer": 0,
+      "explanation": "One 了: a completed stretch of time — not necessarily continuing.",
+      "notes": [
+        "",
+        "The final 了 is what says 'still going'.",
+        "That would be 要学三年.",
+        "They studied for three years."
+      ],
+      "translation": "I studied Chinese for three years.",
+      "fixed_order": true
+    },
+    {
+      "point": "l4_double",
+      "prompt": "{你|nǐ}{怎么|zěnme}{才|cái}{来|lái}？{我|wǒ}{等|děng}{了|le}{你|nǐ}{一个|yí ge}{小时|xiǎoshí}（　）！",
+      "options": [
+        "{着|zhe}",
+        "{过|guo}",
+        "{了|le}",
+        "{的|de}"
+      ],
+      "answer": 2,
+      "explanation": "Still waiting until now: 等了…**了**.",
+      "notes": [
+        "着 doesn't fit.",
+        "过 = experience.",
+        "",
+        "的 doesn't fit."
+      ],
+      "translation": "Why are you only coming now? I've been waiting for you for an hour!"
+    },
+    {
+      "point": "l4_count",
+      "prompt": "{我|wǒ}{今天|jīntiān}{已经|yǐjīng}{喝|hē}{了|le}{三|sān}{杯|bēi}{咖啡|kāfēi}（　），{不|bù}{能|néng}{再|zài}{喝|hē}{了|le}。",
+      "options": [
+        "{着|zhe}",
+        "{过|guo}",
+        "{呢|ne}",
+        "{了|le}"
+      ],
+      "answer": 3,
+      "explanation": "So far today: 已经…**了**.",
+      "notes": [
+        "着 doesn't fit.",
+        "过 = experience.",
+        "呢 doesn't fit.",
+        ""
+      ],
+      "translation": "I've already had three coffees today — I can't have any more."
+    },
+    {
+      "point": "l4_double",
+      "prompt": "'I've been living in Beijing for five years (and still do).' Which sentence says so?",
+      "options": [
+        "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{过|guo}{五|wǔ}{年|nián}。",
+        "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{五|wǔ}{年|nián}。",
+        "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{了|le}{五|wǔ}{年|nián}{了|le}。",
+        "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{了|le}{五|wǔ}{年|nián}。"
+      ],
+      "answer": 2,
+      "explanation": "Still living there → **double 了**.",
+      "notes": [
+        "过 = you lived there once (in the past).",
+        "No 了 — sounds like a plan.",
+        "",
+        "One 了 — you may have moved away."
+      ],
+      "translation": "I've been living in Beijing for five years."
+    },
+    {
+      "point": "l4_count",
+      "prompt": "What does 「{这|zhè}{本|běn}{书|shū}{我|wǒ}{看|kàn}{了|le}{一半|yíbàn}{了|le}。」 mean?",
+      "options": [
+        "I read half of this book and stopped.",
+        "I'm halfway through this book (and still reading).",
+        "I've never read this book.",
+        "I'll read half of this book."
+      ],
+      "answer": 1,
+      "explanation": "Double 了 = **so far, still going**.",
+      "notes": [
+        "Double 了 = still going.",
+        "",
+        "You've read half.",
+        "That's future."
+      ],
+      "translation": "I'm halfway through this book."
+    },
+    {
+      "point": "l4_double",
+      "prompt": "{我们|wǒmen}{认识|rènshi}（　）{十|shí}{年|nián}{了|le}。",
+      "options": [
+        "{的|de}",
+        "{着|zhe}",
+        "{了|le}",
+        "{过|guo}"
+      ],
+      "answer": 2,
+      "explanation": "认识**了**十年**了** = we've known each other for ten years.",
+      "notes": [
+        "的 doesn't fit.",
+        "着 doesn't fit.",
+        "",
+        "过 doesn't fit."
+      ],
+      "translation": "We've known each other for ten years."
+    },
+    {
+      "point": "l4_count",
+      "prompt": "Which sentence suggests the speaker might drink **more** today?",
+      "options": [
+        "{我|wǒ}{喝|hē}{了|le}{两|liǎng}{杯|bēi}。",
+        "{我|wǒ}{喝|hē}{了|le}{两|liǎng}{杯|bēi}{了|le}。",
+        "{我|wǒ}{喝|hē}{两|liǎng}{杯|bēi}。",
+        "{我|wǒ}{没|méi}{喝|hē}。"
+      ],
+      "answer": 1,
+      "explanation": "Double 了 = two **so far**.",
+      "notes": [
+        "One 了 just reports two cups.",
+        "",
+        "That's a plan or a habit.",
+        "They didn't drink."
+      ],
+      "translation": "I've had two cups so far."
+    },
+    {
+      "point": "l4_double",
+      "prompt": "Which is **wrong**?",
+      "options": [
+        "{我|wǒ}{学|xué}{了|le}{三|sān}{年|nián}{中文|Zhōngwén}。",
+        "{我|wǒ}{学|xué}{了|le}{三|sān}{年|nián}{中文|Zhōngwén}{了|le}。",
+        "{我|wǒ}{学|xué}{中文|Zhōngwén}{学|xué}{了|le}{三|sān}{年|nián}{了|le}。",
+        "{我|wǒ}{学|xué}{三|sān}{年|nián}{了|le}{了|le}{中文|Zhōngwén}。"
+      ],
+      "answer": 3,
+      "explanation": "First 了 after the verb, second at the **end**.",
+      "notes": [
+        "Correct: one 了.",
+        "Correct.",
+        "Correct: verb repeated with the duration.",
+        ""
+      ],
+      "translation": "I've been studying Chinese for three years."
+    },
+    {
+      "point": "l4_double",
+      "prompt": "Your friend arrives late. What do you say?",
+      "options": [
+        "{我|wǒ}{等|děng}{过|guo}{半|bàn}{个|ge}{小时|xiǎoshí}！",
+        "{我|wǒ}{都|dōu}{等|děng}{了|le}{半|bàn}{个|ge}{小时|xiǎoshí}{了|le}！",
+        "{我|wǒ}{等|děng}{半|bàn}{个|ge}{小时|xiǎoshí}！",
+        "{我|wǒ}{没|méi}{等|děng}{了|le}{半|bàn}{个|ge}{小时|xiǎoshí}！"
+      ],
+      "answer": 1,
+      "explanation": "Still waiting until now: **都…了…了**.",
+      "notes": [
+        "过 = experience.",
+        "",
+        "Sounds like a plan: I'll wait half an hour.",
+        "没 doesn't take 了."
+      ],
+      "translation": "I've been waiting half an hour already!"
+    }
+  ]
+}

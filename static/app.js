@@ -908,6 +908,7 @@ const KINDS = [
   // Mandarin deep dives: one group per grammar point (the id is zh-dd-<topic>-<step>)
   ["zhdd-chadian", "🎯", "差点 vs 差点没 — almost, or almost not? (steps 1–7)"],
   ["zhdd-yishang", "📏", "以上 / 以下 — upper and lower limits (steps 1–7)"],
+  ["zhdd-le", "✅", "了 — done, changed, still going or about to? (steps 1–7)"],
 ];
 function quizKind(q) {
   if (q.category === "Adjective Lab") {
