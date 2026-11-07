@@ -1,0 +1,249 @@
+{
+  "id": "zh-dd-yishang-3",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "以上 / 以下 Step 3 · Levels & Ranks: HSK四级以上, 本科以上",
+  "description": "级别: levels, grades, stars and job ranks. HSK四级以上, 本科以上学历, 三星级以上酒店, 经理以上 — and what counts as 'higher'.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "y3_levels",
+      "title": "Levels: HSK四级以上, 本科以上学历",
+      "summary": "With levels, 以上 = that level or higher, 以下 = that level or lower.",
+      "body": "- HSK**四级以上** — HSK level 4 or higher\n- **本科以上**学历 — a bachelor's degree or higher (本科 → 硕士 → 博士)\n- **三星级以上**的酒店 — three-star hotels or better\n- 地震**五级以下** — an earthquake of magnitude 5 or less\n\n**以上 / 以下 at a glance**\n\n| | 以上 | 以下 |\n|---|---|---|\n| numbers 数目 | 18岁以上: 18 and over | 1.2米以下: 1.2 m and under |\n| levels 级别 | HSK四级以上: level 4 or higher | 三星级以下: three stars or fewer |\n| order 次序 | 以上几点: the points above | 以下几点: the following points |\n\n**Three rules**\n1. **Position:** after the number + measure word (or the level): 三个小时**以上**, 本科**以上**. Before a noun add 的: 六十岁以上**的**老人.\n2. **Does the number count?** In rules and laws: **yes** (Chinese law says so: 以上、以下…包括本数). In everyday talk it's fuzzy, so notices often add **(含)** 'inclusive' or **(不含)**. For strictly more / less: **超过 / 高于** and **不到 / 不满 / 低于**.\n3. **Don't mix up:** 以前 / 以后 (time points: 三点以前), 左右 (about), 以内 (within: 三天以内), 多 (三十多个 = thirty-odd), **零下** (minus: 零下五度 = −5°).",
+      "examples": [
+        [
+          "{应聘者|yìngpìnzhě}{需要|xūyào}{本科|běnkē}{以上|yǐshàng}{学历|xuélì}。",
+          "Applicants need a bachelor's degree or higher."
+        ]
+      ]
+    },
+    {
+      "id": "y3_ranks",
+      "title": "Ranks: 经理以上, 科长以下",
+      "summary": "With job ranks, 以上 = that rank and the ranks above it.",
+      "body": "- **经理以上**的员工 — managers and above\n- **科长以下** — section chief and below\n- Think of a ladder: 以上 = this rung and higher, 以下 = this rung and lower.\n\n**以上 / 以下 at a glance**\n\n| | 以上 | 以下 |\n|---|---|---|\n| numbers 数目 | 18岁以上: 18 and over | 1.2米以下: 1.2 m and under |\n| levels 级别 | HSK四级以上: level 4 or higher | 三星级以下: three stars or fewer |\n| order 次序 | 以上几点: the points above | 以下几点: the following points |\n\n**Three rules**\n1. **Position:** after the number + measure word (or the level): 三个小时**以上**, 本科**以上**. Before a noun add 的: 六十岁以上**的**老人.\n2. **Does the number count?** In rules and laws: **yes** (Chinese law says so: 以上、以下…包括本数). In everyday talk it's fuzzy, so notices often add **(含)** 'inclusive' or **(不含)**. For strictly more / less: **超过 / 高于** and **不到 / 不满 / 低于**.\n3. **Don't mix up:** 以前 / 以后 (time points: 三点以前), 左右 (about), 以内 (within: 三天以内), 多 (三十多个 = thirty-odd), **零下** (minus: 零下五度 = −5°).",
+      "examples": [
+        [
+          "{经理|jīnglǐ}{以上|yǐshàng}{的|de}{员工|yuángōng}{明天|míngtiān}{开会|kāihuì}。",
+          "Managers and above have a meeting tomorrow."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "y3_levels",
+      "prompt": "「{应聘者|yìngpìnzhě}{需要|xūyào}{本科|běnkē}{以上|yǐshàng}{学历|xuélì}。」\nCan someone with a master's degree (硕士) apply?",
+      "options": [
+        "✔ Yes",
+        "✘ No"
+      ],
+      "answer": 0,
+      "explanation": "硕士 is above 本科 → 以上 covers it.",
+      "notes": [
+        "",
+        "硕士 is above 本科 → 以上 covers it."
+      ],
+      "translation": "Applicants need a bachelor's degree or higher.",
+      "fixed_order": true
+    },
+    {
+      "point": "y3_levels",
+      "prompt": "「{应聘者|yìngpìnzhě}{需要|xūyào}{本科|běnkē}{以上|yǐshàng}{学历|xuélì}。」\nCan someone with only a high-school diploma (高中) apply?",
+      "options": [
+        "✔ Yes",
+        "✘ No"
+      ],
+      "answer": 1,
+      "explanation": "高中 is below 本科 → not enough.",
+      "notes": [
+        "高中 is below 本科 → not enough.",
+        ""
+      ],
+      "translation": "Applicants need a bachelor's degree or higher.",
+      "fixed_order": true
+    },
+    {
+      "point": "y3_levels",
+      "prompt": "「{申请|shēnqǐng}{者|zhě}{需要|xūyào}{通过|tōngguò HSK}{四级|sì jí}{以上|yǐshàng}。」\nIs HSK level 5 enough?",
+      "options": [
+        "✔ Yes",
+        "✘ No"
+      ],
+      "answer": 0,
+      "explanation": "Level 5 is above level 4 → 以上 covers it.",
+      "notes": [
+        "",
+        "Level 5 is above level 4 → 以上 covers it."
+      ],
+      "translation": "Applicants need to have passed HSK level 4 or higher.",
+      "fixed_order": true
+    },
+    {
+      "point": "y3_levels",
+      "prompt": "What does 「{三|sān}{星级|xīngjí}{以上|yǐshàng}{的|de}{酒店|jiǔdiàn}」 mean?",
+      "options": [
+        "three hotels above us",
+        "hotels with three stars or more",
+        "hotels with fewer than three stars",
+        "about three hotels"
+      ],
+      "answer": 1,
+      "explanation": "Level + **以上** = that level or higher.",
+      "notes": [
+        "以上 here is about the star level, not position.",
+        "",
+        "That's 三星级以下.",
+        "That's 三家左右的酒店."
+      ],
+      "translation": "hotels of three stars or more"
+    },
+    {
+      "point": "y3_ranks",
+      "prompt": "{这|zhè}{个|ge}{会|huì}{只|zhǐ}{有|yǒu}{经理|jīnglǐ}（　）{的|de}{人|rén}{才|cái}{能|néng}{参加|cānjiā}。",
+      "options": [
+        "{以前|yǐqián}",
+        "{左右|zuǒyòu}",
+        "{以下|yǐxià}",
+        "{以上|yǐshàng}"
+      ],
+      "answer": 3,
+      "explanation": "Exclusive meeting → 经理**以上** (managers and up).",
+      "notes": [
+        "以前 is for time.",
+        "Ranks aren't 'about'.",
+        "以下 would let in everyone below manager — not exclusive.",
+        ""
+      ],
+      "translation": "Only people at manager level and above can attend this meeting."
+    },
+    {
+      "point": "y3_ranks",
+      "prompt": "「{科长|kēzhǎng}{以下|yǐxià}{的|de}{员工|yuángōng}」 — who is included?",
+      "options": [
+        "only the section chief",
+        "people who sit downstairs",
+        "section chiefs and everyone below them",
+        "only people above section chief"
+      ],
+      "answer": 2,
+      "explanation": "Rank + **以下** = this rank and lower.",
+      "notes": [
+        "以下 covers a whole range, not one person.",
+        "以下 here is about rank, not floors.",
+        "",
+        "That's 科长以上 (and it would include the chief too)."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "y3_levels",
+      "prompt": "{这|zhè}{个|ge}{班|bān}{是|shì}{给|gěi HSK}{二级|èr jí}（　）{的|de}{学生|xuésheng}{的|de}，{太|tài}{简单|jiǎndān}{了|le}，{你|nǐ}{不|bú}{用|yòng}{来|lái}。",
+      "options": [
+        "{以上|yǐshàng}",
+        "{以后|yǐhòu}",
+        "{之间|zhījiān}",
+        "{以下|yǐxià}"
+      ],
+      "answer": 3,
+      "explanation": "Too easy for you → a class for level 2 **以下**.",
+      "notes": [
+        "以上 would be for advanced students — not 'too easy'.",
+        "以后 is for time.",
+        "之间 needs two levels: 二级到三级之间.",
+        ""
+      ],
+      "translation": "This class is for students at HSK level 2 or below — it's too easy, you needn't come."
+    },
+    {
+      "point": "y3_levels",
+      "prompt": "Which phrase means 'magnitude 6 or above' (earthquakes)?",
+      "options": [
+        "{六|liù}{级|jí}{以上|yǐshàng}",
+        "{六|liù}{级|jí}{以下|yǐxià}",
+        "{六|liù}{以上|yǐshàng}{级|jí}",
+        "{以上|yǐshàng}{六|liù}{级|jí}"
+      ],
+      "answer": 0,
+      "explanation": "**六级以上** = magnitude 6 or more.",
+      "notes": [
+        "",
+        "以下 = 6 or below.",
+        "以上 comes after the whole 六级.",
+        "以上 comes after the level."
+      ],
+      "translation": "magnitude 6 or above"
+    },
+    {
+      "point": "y3_ranks",
+      "prompt": "「{经理|jīnglǐ}{以上|yǐshàng}{的|de}{员工|yuángōng}{明天|míngtiān}{开会|kāihuì}。」\nIs the managing director (总经理, above manager) in the meeting?",
+      "options": [
+        "✔ Yes",
+        "✘ No"
+      ],
+      "answer": 0,
+      "explanation": "总经理 is above 经理 → included.",
+      "notes": [
+        "",
+        "总经理 is above 经理 → included."
+      ],
+      "translation": "Managers and above have a meeting tomorrow.",
+      "fixed_order": true
+    },
+    {
+      "point": "y3_ranks",
+      "prompt": "「{经理|jīnglǐ}{以上|yǐshàng}{的|de}{员工|yuángōng}{明天|míngtiān}{开会|kāihuì}。」\nIs an ordinary employee (普通员工) in the meeting?",
+      "options": [
+        "✔ Yes",
+        "✘ No"
+      ],
+      "answer": 1,
+      "explanation": "普通员工 is below 经理 → not included.",
+      "notes": [
+        "普通员工 is below 经理 → not included.",
+        ""
+      ],
+      "translation": "Managers and above have a meeting tomorrow.",
+      "fixed_order": true
+    },
+    {
+      "point": "y3_levels",
+      "prompt": "'You need HSK level 5 or higher.' Which sentence says so?",
+      "options": [
+        "{你|nǐ}{需要|xūyào}{以上|yǐshàng HSK}{五级|wǔ jí}。",
+        "{你|nǐ}{需要|xūyào HSK}{五级|wǔ jí}{以下|yǐxià}。",
+        "{你|nǐ}{需要|xūyào HSK}{五级|wǔ jí}{以上|yǐshàng}。",
+        "{你|nǐ}{需要|xūyào HSK}{五级|wǔ jí}{左右|zuǒyòu}。"
+      ],
+      "answer": 2,
+      "explanation": "Level + **以上**.",
+      "notes": [
+        "以上 goes after the level.",
+        "以下 = level 5 or lower.",
+        "",
+        "左右 = about."
+      ],
+      "translation": "You need HSK level 5 or higher."
+    },
+    {
+      "point": "y3_ranks",
+      "prompt": "Which is **wrong**?",
+      "options": [
+        "{我|wǒ}{的|de}{中文|Zhōngwén}{是|shì}{四级|sì jí}{以上|yǐshàng}。",
+        "{他|tā}{是|shì}{经理|jīnglǐ}{以上|yǐshàng}{的|de}{级别|jíbié}。",
+        "{三|sān}{星级|xīngjí}{以上|yǐshàng}{的|de}{酒店|jiǔdiàn}{都|dōu}{有|yǒu}{早餐|zǎocān}。",
+        "{他|tā}{比|bǐ}{我|wǒ}{以上|yǐshàng}。"
+      ],
+      "answer": 3,
+      "explanation": "以上 follows a **number or level**, not a comparison with a person. For 'higher than me' say 他的级别比我高.",
+      "notes": [
+        "Correct: a level + 以上.",
+        "Correct: a rank + 以上.",
+        "Correct: a star level + 以上 + 的.",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}

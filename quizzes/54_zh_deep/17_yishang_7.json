@@ -1,0 +1,247 @@
+{
+  "id": "zh-dd-yishang-7",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "以上 / 以下 Step 7 · Boss Level: 小林 Reads the Fine Print",
+  "description": "A job ad, a theme park and a winter trip: read the notices HSK-style and decide who qualifies, who pays and what to pack.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "y7_read",
+      "title": "Reading notices for limits",
+      "summary": "Underline every number with 以上 / 以下 / 以内 / 超过 / 零下, and check each person against it.",
+      "body": "Work through one limit at a time — a person must pass **all** of them.\n\n**以上 / 以下 at a glance**\n\n| | 以上 | 以下 |\n|---|---|---|\n| numbers 数目 | 18岁以上: 18 and over | 1.2米以下: 1.2 m and under |\n| levels 级别 | HSK四级以上: level 4 or higher | 三星级以下: three stars or fewer |\n| order 次序 | 以上几点: the points above | 以下几点: the following points |\n\n**Three rules**\n1. **Position:** after the number + measure word (or the level): 三个小时**以上**, 本科**以上**. Before a noun add 的: 六十岁以上**的**老人.\n2. **Does the number count?** In rules and laws: **yes** (Chinese law says so: 以上、以下…包括本数). In everyday talk it's fuzzy, so notices often add **(含)** 'inclusive' or **(不含)**. For strictly more / less: **超过 / 高于** and **不到 / 不满 / 低于**.\n3. **Don't mix up:** 以前 / 以后 (time points: 三点以前), 左右 (about), 以内 (within: 三天以内), 多 (三十多个 = thirty-odd), **零下** (minus: 零下五度 = −5°).",
+      "examples": [
+        [
+          "{硕士|shuòshì}{以上|yǐshàng}{学历|xuélì}，{四十|sìshí}{岁|suì}{以下|yǐxià}。",
+          "A master's degree or higher, aged 40 or under."
+        ]
+      ]
+    },
+    {
+      "id": "y7_mixed",
+      "title": "Final mixed challenge",
+      "summary": "Numbers, levels, order and look-alikes — all together.",
+      "body": "If in doubt: amount or point in time? Before or after the number? Does the number count?\n\n**以上 / 以下 at a glance**\n\n| | 以上 | 以下 |\n|---|---|---|\n| numbers 数目 | 18岁以上: 18 and over | 1.2米以下: 1.2 m and under |\n| levels 级别 | HSK四级以上: level 4 or higher | 三星级以下: three stars or fewer |\n| order 次序 | 以上几点: the points above | 以下几点: the following points |\n\n**Three rules**\n1. **Position:** after the number + measure word (or the level): 三个小时**以上**, 本科**以上**. Before a noun add 的: 六十岁以上**的**老人.\n2. **Does the number count?** In rules and laws: **yes** (Chinese law says so: 以上、以下…包括本数). In everyday talk it's fuzzy, so notices often add **(含)** 'inclusive' or **(不含)**. For strictly more / less: **超过 / 高于** and **不到 / 不满 / 低于**.\n3. **Don't mix up:** 以前 / 以后 (time points: 三点以前), 左右 (about), 以内 (within: 三天以内), 多 (三十多个 = thirty-odd), **零下** (minus: 零下五度 = −5°).",
+      "examples": [
+        [
+          "{以上|yǐshàng}{就是|jiùshì}{今天|jīntiān}{的|de}{内容|nèiróng}。",
+          "That's all for today."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "y7_read",
+      "prompt": "{招聘|zhāopìn}：{中文|Zhōngwén}{老师|lǎoshī}{一|yì}{名|míng}。{要求|yāoqiú}：{硕士|shuòshì}{以上|yǐshàng}{学历|xuélì}，HSK{六级|liù jí}{以上|yǐshàng}，{两|liǎng}{年|nián}{以上|yǐshàng}{教学|jiàoxué}{经验|jīngyàn}，{四十|sìshí}{岁|suì}{以下|yǐxià}。{每|měi}{周|zhōu}{工作|gōngzuò}{二十|èrshí}{个|ge}{小时|xiǎoshí}{左右|zuǒyòu}。\n\n★ {谁|shéi}{可以|kěyǐ}{申请|shēnqǐng}{这个|zhège}{工作|gōngzuò}？",
+      "options": [
+        "{二十八|èrshíbā}{岁|suì}，{本科|běnkē}，HSK{六级|liù jí}，{教|jiāo}{了|le}{三|sān}{年|nián}",
+        "{三十二|sānshí'èr}{岁|suì}，{博士|bóshì}，HSK{六级|liù jí}，{教|jiāo}{了|le}{五|wǔ}{年|nián}",
+        "{四十五|sìshíwǔ}{岁|suì}，{硕士|shuòshì}，HSK{六级|liù jí}，{教|jiāo}{了|le}{十|shí}{年|nián}",
+        "{三十|sānshí}{岁|suì}，{硕士|shuòshì}，HSK{五级|wǔ jí}，{教|jiāo}{了|le}{四|sì}{年|nián}"
+      ],
+      "answer": 1,
+      "explanation": "博士 is above 硕士, 32 ≤ 40, HSK 6, five years ≥ two → the **first** person.",
+      "notes": [
+        "本科 is below 硕士.",
+        "",
+        "45 is over 40.",
+        "HSK 5 is below level 6."
+      ],
+      "translation": "Wanted: one Chinese teacher. Requirements: a master's degree or higher, HSK level 6 or above, two or more years' teaching experience, aged 40 or under. About 20 hours a week. ★ Who can apply?"
+    },
+    {
+      "point": "y7_read",
+      "prompt": "{招聘|zhāopìn}：{中文|Zhōngwén}{老师|lǎoshī}{一|yì}{名|míng}。{要求|yāoqiú}：{硕士|shuòshì}{以上|yǐshàng}{学历|xuélì}，HSK{六级|liù jí}{以上|yǐshàng}，{两|liǎng}{年|nián}{以上|yǐshàng}{教学|jiàoxué}{经验|jīngyàn}，{四十|sìshí}{岁|suì}{以下|yǐxià}。{每|měi}{周|zhōu}{工作|gōngzuò}{二十|èrshí}{个|ge}{小时|xiǎoshí}{左右|zuǒyòu}。\n\n★ {这个|zhège}{工作|gōngzuò}{每|měi}{周|zhōu}{正好|zhènghǎo}{二十|èrshí}{个|ge}{小时|xiǎoshí}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "左右 = **about** — not exactly 20 hours.",
+      "notes": [
+        "二十个小时左右 = about 20 — not exactly.",
+        ""
+      ],
+      "translation": "Wanted: one Chinese teacher. Requirements: a master's degree or higher, HSK level 6 or above, two or more years' teaching experience, aged 40 or under. About 20 hours a week. ★ The job is exactly 20 hours a week.",
+      "fixed_order": true
+    },
+    {
+      "point": "y7_read",
+      "prompt": "{招聘|zhāopìn}：{中文|Zhōngwén}{老师|lǎoshī}{一|yì}{名|míng}。{要求|yāoqiú}：{硕士|shuòshì}{以上|yǐshàng}{学历|xuélì}，HSK{六级|liù jí}{以上|yǐshàng}，{两|liǎng}{年|nián}{以上|yǐshàng}{教学|jiàoxué}{经验|jīngyàn}，{四十|sìshí}{岁|suì}{以下|yǐxià}。{每|měi}{周|zhōu}{工作|gōngzuò}{二十|èrshí}{个|ge}{小时|xiǎoshí}{左右|zuǒyòu}。\n\n★ {有|yǒu}{一|yì}{年|nián}{教学|jiàoxué}{经验|jīngyàn}{的|de}{人|rén}{也|yě}{可以|kěyǐ}{申请|shēnqǐng}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "Experience must be **两年以上**. False.",
+      "notes": [
+        "两年以上 = two years or more — one year isn't enough.",
+        ""
+      ],
+      "translation": "Wanted: one Chinese teacher. Requirements: a master's degree or higher, HSK level 6 or above, two or more years' teaching experience, aged 40 or under. About 20 hours a week. ★ Someone with one year's experience can also apply.",
+      "fixed_order": true
+    },
+    {
+      "point": "y7_read",
+      "prompt": "{欢乐|Huānlè}{公园|Gōngyuán}{票价|piàojià}：{成人|chéngrén}{一百二十|yìbǎi èrshí}{元|yuán}。{身高|shēngāo}{一米二|yì mǐ èr}{以下|yǐxià}（{含|hán}）{的|de}{儿童|értóng}{免票|miǎnpiào}，{六十|liùshí}{岁|suì}{以上|yǐshàng}{的|de}{老人|lǎorén}{半价|bànjià}。{过山车|guòshānchē}：{身高|shēngāo}{一米四|yì mǐ sì}{以上|yǐshàng}{才|cái}{能|néng}{乘坐|chéngzuò}。\n\n★ {小林|Xiǎo Lín}（{三十|sānshí}{岁|suì}）、{他|tā}{女儿|nǚ'ér}（{一米二|yì mǐ èr}）{和|hé}{他|tā}{妈妈|māma}（{六十二|liùshí'èr}{岁|suì}）{一共|yígòng}{要|yào}{花|huā}{多少|duōshao}{钱|qián}？",
+      "options": [
+        "{一百八十|yìbǎi bāshí}{元|yuán}",
+        "{三百六十|sānbǎi liùshí}{元|yuán}",
+        "{二百四十|èrbǎi sìshí}{元|yuán}",
+        "{一百二十|yìbǎi èrshí}{元|yuán}"
+      ],
+      "answer": 0,
+      "explanation": "Xiao Lin 120 + daughter (1.2 m, inclusive → free) 0 + mother (62 ≥ 60 → half) 60 = **180 yuan**.",
+      "notes": [
+        "",
+        "That's three full tickets.",
+        "That leaves out the daughter's free ticket — and charges someone twice.",
+        "That forgets his mother's half-price ticket."
+      ],
+      "translation": "Happy Park ticket prices: adults 120 yuan. Children 1.2 m and under (inclusive) free; people 60 and over half price. Roller coaster: riders must be 1.4 m or taller. ★ How much do Xiao Lin (30), his daughter (1.2 m) and his mother (62) pay in total?"
+    },
+    {
+      "point": "y7_read",
+      "prompt": "{欢乐|Huānlè}{公园|Gōngyuán}{票价|piàojià}：{成人|chéngrén}{一百二十|yìbǎi èrshí}{元|yuán}。{身高|shēngāo}{一米二|yì mǐ èr}{以下|yǐxià}（{含|hán}）{的|de}{儿童|értóng}{免票|miǎnpiào}，{六十|liùshí}{岁|suì}{以上|yǐshàng}{的|de}{老人|lǎorén}{半价|bànjià}。{过山车|guòshānchē}：{身高|shēngāo}{一米四|yì mǐ sì}{以上|yǐshàng}{才|cái}{能|néng}{乘坐|chéngzuò}。\n\n★ {小林|Xiǎo Lín}{的|de}{女儿|nǚ'ér}（{一米二|yì mǐ èr}）{可以|kěyǐ}{坐|zuò}{过山车|guòshānchē}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "1.2 m < 1.4 m → **not allowed**.",
+      "notes": [
+        "过山车 needs 一米四以上 — 1.2 m is too short.",
+        ""
+      ],
+      "translation": "Happy Park ticket prices: adults 120 yuan. Children 1.2 m and under (inclusive) free; people 60 and over half price. Roller coaster: riders must be 1.4 m or taller. ★ Xiao Lin's daughter (1.2 m) can ride the roller coaster.",
+      "fixed_order": true
+    },
+    {
+      "point": "y7_read",
+      "prompt": "{欢乐|Huānlè}{公园|Gōngyuán}{票价|piàojià}：{成人|chéngrén}{一百二十|yìbǎi èrshí}{元|yuán}。{身高|shēngāo}{一米二|yì mǐ èr}{以下|yǐxià}（{含|hán}）{的|de}{儿童|értóng}{免票|miǎnpiào}，{六十|liùshí}{岁|suì}{以上|yǐshàng}{的|de}{老人|lǎorén}{半价|bànjià}。{过山车|guòshānchē}：{身高|shēngāo}{一米四|yì mǐ sì}{以上|yǐshàng}{才|cái}{能|néng}{乘坐|chéngzuò}。\n\n★ {一米二|yì mǐ èr}{的|de}{孩子|háizi}{不用|bú yòng}{买票|mǎi piào}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "一米二以下**(含)** → 1.2 m included → **free**.",
+      "notes": [
+        "",
+        "(含) = 1.2 m itself counts → free."
+      ],
+      "translation": "Happy Park ticket prices: adults 120 yuan. Children 1.2 m and under (inclusive) free; people 60 and over half price. Roller coaster: riders must be 1.4 m or taller. ★ A 1.2 m child doesn't need a ticket.",
+      "fixed_order": true
+    },
+    {
+      "point": "y7_read",
+      "prompt": "{以下|yǐxià}{是|shì}{小林|Xiǎo Lín}{周末|zhōumò}{的|de}{安排|ānpái}：{星期六|xīngqīliù}{上午|shàngwǔ}{十|shí}{点|diǎn}{以前|yǐqián}{到|dào}{机场|jīchǎng}，{托运|tuōyùn}{行李|xíngli}{不|bù}{能|néng}{超过|chāoguò}{二十三|èrshísān}{公斤|gōngjīn}。{天气|tiānqì}{预报|yùbào}{说|shuō}{哈尔滨|Hā'ěrbīn}{最|zuì}{低|dī}{零下|língxià}{二十|èrshí}{度|dù}。\n\n★ {小林|Xiǎo Lín}{的|de}{行李|xíngli}{最|zuì}{重|zhòng}{可以|kěyǐ}{是|shì}{多少|duōshao}？",
+      "options": [
+        "{二十三|èrshísān}{公斤|gōngjīn}{以上|yǐshàng}{都|dōu}{可以|kěyǐ}",
+        "{二十|èrshí}{公斤|gōngjīn}",
+        "{没有|méiyǒu}{限制|xiànzhì}",
+        "{二十三|èrshísān}{公斤|gōngjīn}"
+      ],
+      "answer": 3,
+      "explanation": "不能**超过**二十三公斤 → at most **23 kg**.",
+      "notes": [
+        "不能超过 = may not be more than 23.",
+        "The limit is 23, not 20.",
+        "There is a limit.",
+        ""
+      ],
+      "translation": "Here is Xiao Lin's weekend plan: be at the airport before 10 a.m. on Saturday; checked luggage may not exceed 23 kg. The forecast says Harbin will drop to minus 20 degrees. ★ What's the most Xiao Lin's luggage can weigh?"
+    },
+    {
+      "point": "y7_read",
+      "prompt": "{以下|yǐxià}{是|shì}{小林|Xiǎo Lín}{周末|zhōumò}{的|de}{安排|ānpái}：{星期六|xīngqīliù}{上午|shàngwǔ}{十|shí}{点|diǎn}{以前|yǐqián}{到|dào}{机场|jīchǎng}，{托运|tuōyùn}{行李|xíngli}{不|bù}{能|néng}{超过|chāoguò}{二十三|èrshísān}{公斤|gōngjīn}。{天气|tiānqì}{预报|yùbào}{说|shuō}{哈尔滨|Hā'ěrbīn}{最|zuì}{低|dī}{零下|língxià}{二十|èrshí}{度|dù}。\n\n★ {哈尔滨|Hā'ěrbīn}{最|zuì}{低|dī}{二十|èrshí}{度|dù}{左右|zuǒyòu}，{不|bù}{太|tài}{冷|lěng}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "**零下**二十度 = minus 20. Pack a warm coat!",
+      "notes": [
+        "零下二十度 = −20° — very cold!",
+        ""
+      ],
+      "translation": "Here is Xiao Lin's weekend plan: be at the airport before 10 a.m. on Saturday; checked luggage may not exceed 23 kg. The forecast says Harbin will drop to minus 20 degrees. ★ Harbin's low is about 20 degrees — not very cold.",
+      "fixed_order": true
+    },
+    {
+      "point": "y7_read",
+      "prompt": "{以下|yǐxià}{是|shì}{小林|Xiǎo Lín}{周末|zhōumò}{的|de}{安排|ānpái}：{星期六|xīngqīliù}{上午|shàngwǔ}{十|shí}{点|diǎn}{以前|yǐqián}{到|dào}{机场|jīchǎng}，{托运|tuōyùn}{行李|xíngli}{不|bù}{能|néng}{超过|chāoguò}{二十三|èrshísān}{公斤|gōngjīn}。{天气|tiānqì}{预报|yùbào}{说|shuō}{哈尔滨|Hā'ěrbīn}{最|zuì}{低|dī}{零下|língxià}{二十|èrshí}{度|dù}。\n\n★ {小林|Xiǎo Lín}{十|shí}{点|diǎn}{以后|yǐhòu}{到|dào}{机场|jīchǎng}{也|yě}{可以|kěyǐ}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "The plan says **十点以前** — before ten.",
+      "notes": [
+        "十点以前 = before ten.",
+        ""
+      ],
+      "translation": "Here is Xiao Lin's weekend plan: be at the airport before 10 a.m. on Saturday; checked luggage may not exceed 23 kg. The forecast says Harbin will drop to minus 20 degrees. ★ Xiao Lin can also get to the airport after ten.",
+      "fixed_order": true
+    },
+    {
+      "point": "y7_mixed",
+      "prompt": "（　）{是|shì}{小林|Xiǎo Lín}{周末|zhōumò}{的|de}{安排|ānpái}：…",
+      "options": [
+        "{以前|yǐqián}",
+        "{以上|yǐshàng}",
+        "{左右|zuǒyòu}",
+        "{以下|yǐxià}"
+      ],
+      "answer": 3,
+      "explanation": "Pointing forward: **以下**是….",
+      "notes": [
+        "以前 = before (time).",
+        "以上 points back — the plan follows.",
+        "左右 = about.",
+        ""
+      ],
+      "translation": "Here is Xiao Lin's weekend plan: …"
+    },
+    {
+      "point": "y7_mixed",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{六十|liùshí}{岁|suì}{以上|yǐshàng}{的|de}{老人|lǎorén}{半价|bànjià}。",
+        "{以上|yǐshàng}{六十|liùshí}{岁|suì}{的|de}{老人|lǎorén}{半价|bànjià}。",
+        "{六十|liùshí}{以上|yǐshàng}{岁|suì}{的|de}{老人|lǎorén}{半价|bànjià}。",
+        "{六十|liùshí}{岁|suì}{以前|yǐqián}{的|de}{老人|lǎorén}{半价|bànjià}。"
+      ],
+      "answer": 0,
+      "explanation": "Number phrase + **以上** + 的 + noun.",
+      "notes": [
+        "",
+        "以上 goes after the number.",
+        "以上 goes after the whole 六十岁.",
+        "以前 is for points in time, not ages as a limit."
+      ],
+      "translation": "People aged 60 and over pay half price."
+    },
+    {
+      "point": "y7_mixed",
+      "prompt": "Which pair is right?",
+      "options": [
+        "三个小时以上 = 3 hours or more; 三点以后 = after 3 o'clock",
+        "三个小时以后 = 3 hours or more; 三点以上 = after 3 o'clock",
+        "三个小时以上 = after 3 o'clock; 三点以后 = 3 hours or more",
+        "Both pairs mean the same."
+      ],
+      "answer": 0,
+      "explanation": "Amount → **以上 / 以下**; point in time → **以前 / 以后**.",
+      "notes": [
+        "",
+        "Swapped: amounts take 以上, points in time take 以后.",
+        "Swapped meanings.",
+        "One is an amount, the other a point in time."
+      ],
+      "translation": "",
+      "fixed_order": true
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "zh-dd-yishang-4",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "以上 / 以下 Step 4 · Order: 前三名, 以上几点, 以下是…",
+  "description": "次序: positions in a ranking (前三名, 第十名以下) and order in a text — 以上 = the above, 以下 = the following.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "y4_rank",
+      "title": "Positions in a ranking",
+      "summary": "In rankings, 'higher' means better: 前三名 = the top three; 第十名以下 = tenth place and below.",
+      "body": "- **前三名** (qián sān míng) — the top three\n- 第十名**以下** — tenth place or worse\n- 第三名**以上** — third place or better (1st, 2nd, 3rd)\n\n**以上 / 以下 at a glance**\n\n| | 以上 | 以下 |\n|---|---|---|\n| numbers 数目 | 18岁以上: 18 and over | 1.2米以下: 1.2 m and under |\n| levels 级别 | HSK四级以上: level 4 or higher | 三星级以下: three stars or fewer |\n| order 次序 | 以上几点: the points above | 以下几点: the following points |\n\n**Three rules**\n1. **Position:** after the number + measure word (or the level): 三个小时**以上**, 本科**以上**. Before a noun add 的: 六十岁以上**的**老人.\n2. **Does the number count?** In rules and laws: **yes** (Chinese law says so: 以上、以下…包括本数). In everyday talk it's fuzzy, so notices often add **(含)** 'inclusive' or **(不含)**. For strictly more / less: **超过 / 高于** and **不到 / 不满 / 低于**.\n3. **Don't mix up:** 以前 / 以后 (time points: 三点以前), 左右 (about), 以内 (within: 三天以内), 多 (三十多个 = thirty-odd), **零下** (minus: 零下五度 = −5°).",
+      "examples": [
+        [
+          "{比赛|bǐsài}{前|qián}{三|sān}{名|míng}{可以|kěyǐ}{拿到|nádào}{奖金|jiǎngjīn}。",
+          "The top three in the competition get prize money."
+        ]
+      ]
+    },
+    {
+      "id": "y4_text",
+      "title": "In a text: 以上 = the above, 以下 = the following",
+      "summary": "以上 points back to what was just said, 以下 points forward to what comes next.",
+      "body": "- **以上**就是我的介绍。 — That's all for my introduction. (lit. the above is my introduction)\n- **以上**几点请大家注意。 — Please note the points above.\n- 请看**以下**几点。 — Please look at the following points.\n- **以下**是今天的安排。 — Here is today's schedule.\n- Spoken equivalents: 上面 / 下面 (下面是…).\n\n**以上 / 以下 at a glance**\n\n| | 以上 | 以下 |\n|---|---|---|\n| numbers 数目 | 18岁以上: 18 and over | 1.2米以下: 1.2 m and under |\n| levels 级别 | HSK四级以上: level 4 or higher | 三星级以下: three stars or fewer |\n| order 次序 | 以上几点: the points above | 以下几点: the following points |\n\n**Three rules**\n1. **Position:** after the number + measure word (or the level): 三个小时**以上**, 本科**以上**. Before a noun add 的: 六十岁以上**的**老人.\n2. **Does the number count?** In rules and laws: **yes** (Chinese law says so: 以上、以下…包括本数). In everyday talk it's fuzzy, so notices often add **(含)** 'inclusive' or **(不含)**. For strictly more / less: **超过 / 高于** and **不到 / 不满 / 低于**.\n3. **Don't mix up:** 以前 / 以后 (time points: 三点以前), 左右 (about), 以内 (within: 三天以内), 多 (三十多个 = thirty-odd), **零下** (minus: 零下五度 = −5°).",
+      "examples": [
+        [
+          "{以上|yǐshàng}{就是|jiùshì}{我|wǒ}{的|de}{发言|fāyán}，{谢谢|xièxie}{大家|dàjiā}。",
+          "That's all from me — thank you, everyone."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "y4_text",
+      "prompt": "At the end of a speech: 「{以上|yǐshàng}{就是|jiùshì}{我|wǒ}{的|de}{发言|fāyán}。」 What does it mean?",
+      "options": [
+        "My speech starts now.",
+        "That's all from me.",
+        "My speech is above average.",
+        "I'll speak upstairs."
+      ],
+      "answer": 1,
+      "explanation": "**以上** = what was just said.",
+      "notes": [
+        "以上 points back — the speech is over.",
+        "",
+        "以上 here is about order, not quality.",
+        "以上 here is about the text, not floors."
+      ],
+      "translation": "That's all for my speech."
+    },
+    {
+      "point": "y4_text",
+      "prompt": "（　）{是|shì}{今天|jīntiān}{的|de}{安排|ānpái}：{九|jiǔ}{点|diǎn}{开会|kāihuì}，{十二|shí'èr}{点|diǎn}{吃饭|chīfàn}。",
+      "options": [
+        "{以下|yǐxià}",
+        "{以上|yǐshàng}",
+        "{以后|yǐhòu}",
+        "{以前|yǐqián}"
+      ],
+      "answer": 0,
+      "explanation": "Pointing forward to a list: **以下**是….",
+      "notes": [
+        "",
+        "以上 points back — but the schedule comes after.",
+        "以后 = after (time).",
+        "以前 = before (time)."
+      ],
+      "translation": "Here is today's schedule: meeting at nine, lunch at twelve."
+    },
+    {
+      "point": "y4_text",
+      "prompt": "「{请|qǐng}{注意|zhùyì}{以下|yǐxià}{几|jǐ}{点|diǎn}。」 — where are the points?",
+      "options": [
+        "Before this sentence.",
+        "Nowhere — it means 'a few o'clock'.",
+        "Right after this sentence.",
+        "Below the page."
+      ],
+      "answer": 2,
+      "explanation": "**以下** = the following.",
+      "notes": [
+        "That would be 以上几点.",
+        "几点 here = 'a few points'.",
+        "",
+        "以下 here means the following text, not the bottom of the page."
+      ],
+      "translation": "Please note the following points."
+    },
+    {
+      "point": "y4_text",
+      "prompt": "In speech, which word can replace 以下 in 「{以下|yǐxià}{是|shì}{今天|jīntiān}{的|de}{新闻|xīnwén}」?",
+      "options": [
+        "{以后|yǐhòu}",
+        "{下面|xiàmian}",
+        "{上面|shàngmian}",
+        "{下次|xiàcì}"
+      ],
+      "answer": 1,
+      "explanation": "Spoken: **下面**是… = 以下是….",
+      "notes": [
+        "以后 = after (time).",
+        "",
+        "上面 = the above.",
+        "下次 = next time."
+      ],
+      "translation": "Here is today's news."
+    },
+    {
+      "point": "y4_rank",
+      "prompt": "「{比赛|bǐsài}{前|qián}{三|sān}{名|míng}{有|yǒu}{奖|jiǎng}。」 Who wins a prize?",
+      "options": [
+        "the first three people to arrive",
+        "3rd place only",
+        "everyone after 3rd place",
+        "1st, 2nd and 3rd place"
+      ],
+      "answer": 3,
+      "explanation": "**前三名** = the top three.",
+      "notes": [
+        "名 here is about ranking, not arriving.",
+        "前三名 = the top three.",
+        "That's 第三名以下.",
+        ""
+      ],
+      "translation": "The top three in the competition get prizes."
+    },
+    {
+      "point": "y4_rank",
+      "prompt": "「{第|dì}{三|sān}{名|míng}{以上|yǐshàng}{可以|kěyǐ}{进|jìn}{决赛|juésài}。」\nYou came 2nd. Do you go to the final?",
+      "options": [
+        "✔ Yes",
+        "✘ No"
+      ],
+      "answer": 0,
+      "explanation": "2nd is better (higher) than 3rd → included.",
+      "notes": [
+        "",
+        "2nd is better (higher) than 3rd → included."
+      ],
+      "translation": "Third place or better goes through to the final.",
+      "fixed_order": true
+    },
+    {
+      "point": "y4_rank",
+      "prompt": "「{第|dì}{三|sān}{名|míng}{以上|yǐshàng}{可以|kěyǐ}{进|jìn}{决赛|juésài}。」\nYou came 5th. Do you go to the final?",
+      "options": [
+        "✔ Yes",
+        "✘ No"
+      ],
+      "answer": 1,
+      "explanation": "5th is below 3rd → out.",
+      "notes": [
+        "5th is below 3rd → out.",
+        ""
+      ],
+      "translation": "Third place or better goes through to the final.",
+      "fixed_order": true
+    },
+    {
+      "point": "y4_rank",
+      "prompt": "「{第|dì}{十|shí}{名|míng}{以下|yǐxià}」 — which places?",
+      "options": [
+        "exactly 10th",
+        "places 1 to 10",
+        "10th place and worse",
+        "about 10th"
+      ],
+      "answer": 2,
+      "explanation": "In rankings, **以下** = this place and worse.",
+      "notes": [
+        "以下 covers a range.",
+        "That's 前十名.",
+        "",
+        "That's 第十名左右."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "y4_text",
+      "prompt": "{老师|lǎoshī}{说|shuō}{了|le}{三|sān}{件|jiàn}{事|shì}。（　）{三|sān}{件|jiàn}{事|shì}，{大家|dàjiā}{一定|yídìng}{要|yào}{记住|jìzhu}。",
+      "options": [
+        "{以上|yǐshàng}",
+        "{上次|shàngcì}",
+        "{以前|yǐqián}",
+        "{以下|yǐxià}"
+      ],
+      "answer": 0,
+      "explanation": "Pointing back to what was just said: **以上**三件事.",
+      "notes": [
+        "",
+        "上次 = last time — they were said just now.",
+        "以前 = before (time) — doesn't fit.",
+        "以下 points forward — but the three things were already said."
+      ],
+      "translation": "The teacher said three things. Everyone must remember the three things above."
+    },
+    {
+      "point": "y4_text",
+      "prompt": "Which ending fits a short self-introduction?",
+      "options": [
+        "{以下|yǐxià}{就是|jiùshì}{我|wǒ}{的|de}{自我|zìwǒ}{介绍|jièshào}，{谢谢|xièxie}！",
+        "{以前|yǐqián}{就是|jiùshì}{我|wǒ}{的|de}{自我|zìwǒ}{介绍|jièshào}，{谢谢|xièxie}！",
+        "{以上|yǐshàng}{就是|jiùshì}{我|wǒ}{的|de}{自我|zìwǒ}{介绍|jièshào}，{谢谢|xièxie}！",
+        "{以后|yǐhòu}{就是|jiùshì}{我|wǒ}{的|de}{自我|zìwǒ}{介绍|jièshào}，{谢谢|xièxie}！"
+      ],
+      "answer": 2,
+      "explanation": "Finishing: **以上**就是….",
+      "notes": [
+        "以下 would announce an introduction still to come.",
+        "以前 = before (time).",
+        "",
+        "以后 = afterwards (time)."
+      ],
+      "translation": "That's my self-introduction — thank you!"
+    },
+    {
+      "point": "y4_text",
+      "prompt": "{请|qǐng}　＿＿　　＿＿　　★　　＿＿　。\n（{几|jǐ}{点|diǎn}・{以下|yǐxià}・{看|kàn}・{大家|dàjiā}）",
+      "options": [
+        "{大家|dàjiā}",
+        "{几|jǐ}{点|diǎn}",
+        "{看|kàn}",
+        "{以下|yǐxià}"
+      ],
+      "answer": 3,
+      "explanation": "请 **大家 看 以下 几点**。",
+      "notes": [
+        "大家 comes right after 请 — slot 1.",
+        "几点 ends the sentence — slot 4.",
+        "The verb 看 follows — slot 2.",
+        ""
+      ],
+      "translation": "Everyone, please look at the following points."
+    }
+  ]
+}

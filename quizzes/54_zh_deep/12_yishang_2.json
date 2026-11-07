@@ -1,0 +1,249 @@
+{
+  "id": "zh-dd-yishang-2",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "以上 / 以下 Step 2 · Does the Number Count? 以上 vs 超过, 以下 vs 不到",
+  "description": "Is an 18-year-old allowed when the sign says 18岁以上? How rules and laws read it, (含) on notices, and the strict words 超过 / 不到 / 不满.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "y2_incl",
+      "title": "In rules: the number counts",
+      "summary": "In laws, rules and official notices, 以上 / 以下 include the number itself.",
+      "body": "- Chinese law states it outright: 以上、以下、以内 **包括本数** (include the number itself).\n- So 18岁以上 in a rule = 18 **and** older; 60分以下 = 60 and lower.\n- In everyday speech it's fuzzy, so notices often spell it out: 18岁以上**(含18岁)** — '18 included'; 1.2米以下**(不含)** — 'not included'.\n\n**以上 / 以下 at a glance**\n\n| | 以上 | 以下 |\n|---|---|---|\n| numbers 数目 | 18岁以上: 18 and over | 1.2米以下: 1.2 m and under |\n| levels 级别 | HSK四级以上: level 4 or higher | 三星级以下: three stars or fewer |\n| order 次序 | 以上几点: the points above | 以下几点: the following points |\n\n**Three rules**\n1. **Position:** after the number + measure word (or the level): 三个小时**以上**, 本科**以上**. Before a noun add 的: 六十岁以上**的**老人.\n2. **Does the number count?** In rules and laws: **yes** (Chinese law says so: 以上、以下…包括本数). In everyday talk it's fuzzy, so notices often add **(含)** 'inclusive' or **(不含)**. For strictly more / less: **超过 / 高于** and **不到 / 不满 / 低于**.\n3. **Don't mix up:** 以前 / 以后 (time points: 三点以前), 左右 (about), 以内 (within: 三天以内), 多 (三十多个 = thirty-odd), **零下** (minus: 零下五度 = −5°).",
+      "examples": [
+        [
+          "{十八|shíbā}{岁|suì}{以上|yǐshàng}（{含|hán}{十八|shíbā}{岁|suì}）{可以|kěyǐ}{报名|bàomíng}。",
+          "Ages 18 and over (18 included) can sign up."
+        ]
+      ]
+    },
+    {
+      "id": "y2_strict",
+      "title": "Strictly more / less: 超过, 高于, 不到, 不满, 低于",
+      "summary": "When the number itself must not count, use 超过 / 高于 (more than) or 不到 / 不满 / 低于 (less than).",
+      "body": "- **超过** (chāoguò) 一百块 = more than 100 (100 itself doesn't count)\n- **不到** (bú dào) 十个人 = fewer than ten\n- **不满** (bùmǎn) 十八岁 = not yet 18 (under 18)\n- **至少** (zhìshǎo) = at least (≈ 以上), **最多** (zuìduō) = at most (≈ 以下)\n\n**以上 / 以下 at a glance**\n\n| | 以上 | 以下 |\n|---|---|---|\n| numbers 数目 | 18岁以上: 18 and over | 1.2米以下: 1.2 m and under |\n| levels 级别 | HSK四级以上: level 4 or higher | 三星级以下: three stars or fewer |\n| order 次序 | 以上几点: the points above | 以下几点: the following points |\n\n**Three rules**\n1. **Position:** after the number + measure word (or the level): 三个小时**以上**, 本科**以上**. Before a noun add 的: 六十岁以上**的**老人.\n2. **Does the number count?** In rules and laws: **yes** (Chinese law says so: 以上、以下…包括本数). In everyday talk it's fuzzy, so notices often add **(含)** 'inclusive' or **(不含)**. For strictly more / less: **超过 / 高于** and **不到 / 不满 / 低于**.\n3. **Don't mix up:** 以前 / 以后 (time points: 三点以前), 左右 (about), 以内 (within: 三天以内), 多 (三十多个 = thirty-odd), **零下** (minus: 零下五度 = −5°).",
+      "examples": [
+        [
+          "{不满|bùmǎn}{十八|shíbā}{岁|suì}{的|de}{人|rén}{不能|bù néng}{喝|hē}{酒|jiǔ}。",
+          "People under 18 may not drink alcohol."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "y2_incl",
+      "prompt": "「{十八|shíbā}{岁|suì}{以上|yǐshàng}（{含|hán}{十八|shíbā}{岁|suì}）{可以|kěyǐ}{报名|bàomíng}。」\nCan an 18-year-old sign up?",
+      "options": [
+        "✔ Yes",
+        "✘ No"
+      ],
+      "answer": 0,
+      "explanation": "(含十八岁) = 18 included.",
+      "notes": [
+        "",
+        "(含十八岁) = 18 included."
+      ],
+      "translation": "Ages 18 and over (18 included) can sign up.",
+      "fixed_order": true
+    },
+    {
+      "point": "y2_strict",
+      "prompt": "「{身高|shēngāo}{超过|chāoguò}{一米五|yì mǐ wǔ}{的|de}{儿童|értóng}{要|yào}{买|mǎi}{全价|quánjià}{票|piào}。」\nA child is exactly 1.5 m. Full-price ticket?",
+      "options": [
+        "✔ Yes",
+        "✘ No"
+      ],
+      "answer": 1,
+      "explanation": "超过 = strictly more than → exactly 1.5 m isn't over the limit.",
+      "notes": [
+        "超过 = strictly more than → exactly 1.5 m isn't over the limit.",
+        ""
+      ],
+      "translation": "Children taller than 1.5 m need a full-price ticket.",
+      "fixed_order": true
+    },
+    {
+      "point": "y2_incl",
+      "prompt": "In a law or official rule, 「{六十|liùshí}{岁|suì}{以上|yǐshàng}」 means …",
+      "options": [
+        "about 60",
+        "older than 60 — 60 not included",
+        "younger than 60",
+        "60 and older — 60 included"
+      ],
+      "answer": 3,
+      "explanation": "Rules and laws: 以上、以下 **包括本数** — the number counts.",
+      "notes": [
+        "That's 六十岁左右.",
+        "In rules and laws 以上 **includes** the number.",
+        "That's 以下.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "y2_strict",
+      "prompt": "「{不满|bùmǎn}{十八|shíbā}{岁|suì}{的|de}{人|rén}{不能|bù néng}{喝|hē}{酒|jiǔ}。」\nCan a 17-year-old drink?",
+      "options": [
+        "✔ Yes",
+        "✘ No"
+      ],
+      "answer": 1,
+      "explanation": "不满十八岁 = not yet 18 → 17 is covered by the ban.",
+      "notes": [
+        "不满十八岁 = not yet 18 → 17 is covered by the ban.",
+        ""
+      ],
+      "translation": "People under 18 may not drink.",
+      "fixed_order": true
+    },
+    {
+      "point": "y2_strict",
+      "prompt": "「{消费|xiāofèi}{超过|chāoguò}{一百|yìbǎi}{元|yuán}{打|dǎ}{九|jiǔ}{折|zhé}。」\nYou spend exactly 100 yuan. Do you get the discount?",
+      "options": [
+        "✔ Yes",
+        "✘ No"
+      ],
+      "answer": 1,
+      "explanation": "超过 = strictly more than → 100 itself doesn't qualify.",
+      "notes": [
+        "超过 = strictly more than → 100 itself doesn't qualify.",
+        ""
+      ],
+      "translation": "Spend more than 100 yuan and get 10% off.",
+      "fixed_order": true
+    },
+    {
+      "point": "y2_strict",
+      "prompt": "Which phrase means 'fewer than ten people' — ten **not** included?",
+      "options": [
+        "{十|shí}{多|duō}{个|ge}{人|rén}",
+        "{十|shí}{个|ge}{人|rén}{以上|yǐshàng}",
+        "{不到|bú dào}{十|shí}{个|ge}{人|rén}",
+        "{十|shí}{个|ge}{人|rén}{以下|yǐxià}"
+      ],
+      "answer": 2,
+      "explanation": "Strictly fewer: **不到**.",
+      "notes": [
+        "十多个 = more than ten (eleven to nineteen).",
+        "That's ten or more.",
+        "",
+        "以下 often includes ten (always in rules)."
+      ],
+      "translation": "fewer than ten people"
+    },
+    {
+      "point": "y2_strict",
+      "prompt": "{这|zhè}{家|jiā}{饭馆|fànguǎn}{每|měi}{人|rén}（　）{消费|xiāofèi}{五十|wǔshí}{块|kuài}，{也|yě}{就是|jiùshì}{说|shuō}{五十|wǔshí}{块|kuài}{以上|yǐshàng}。",
+      "options": [
+        "{最多|zuìduō}",
+        "{不到|bú dào}",
+        "{左右|zuǒyòu}",
+        "{至少|zhìshǎo}"
+      ],
+      "answer": 3,
+      "explanation": "以上 ≈ **至少** (at least).",
+      "notes": [
+        "最多 = at most — the opposite of 以上.",
+        "不到 = less than.",
+        "左右 goes after the number.",
+        ""
+      ],
+      "translation": "At this restaurant everyone spends at least 50 kuai — that is, 50 or more."
+    },
+    {
+      "point": "y2_incl",
+      "prompt": "Why do some notices say 「{一米二|yì mǐ èr}{以下|yǐxià}（{含|hán}）」?",
+      "options": [
+        "To make clear that exactly 1.2 m counts.",
+        "Because 以下 means 'above'.",
+        "Because 含 means 'about'.",
+        "To say 1.2 m does not count."
+      ],
+      "answer": 0,
+      "explanation": "In everyday use 以上/以下 can be fuzzy, so notices add **(含)** = inclusive.",
+      "notes": [
+        "",
+        "以下 = and below.",
+        "含 = including.",
+        "That would be (不含)."
+      ],
+      "translation": "1.2 m and under (inclusive)"
+    },
+    {
+      "point": "y2_strict",
+      "prompt": "Which phrase means 'at most 20 kg'?",
+      "options": [
+        "{至少|zhìshǎo}{二十|èrshí}{公斤|gōngjīn}",
+        "{二十|èrshí}{公斤|gōngjīn}{以上|yǐshàng}",
+        "{超过|chāoguò}{二十|èrshí}{公斤|gōngjīn}",
+        "{最多|zuìduō}{二十|èrshí}{公斤|gōngjīn}"
+      ],
+      "answer": 3,
+      "explanation": "以下 ≈ **最多** (at most).",
+      "notes": [
+        "至少 = at least.",
+        "以上 = 20 or more.",
+        "超过 = more than.",
+        ""
+      ],
+      "translation": "at most 20 kg"
+    },
+    {
+      "point": "y2_incl",
+      "prompt": "「{六十|liùshí}{分|fēn}{以上|yǐshàng}（{含|hán}{六十|liùshí}{分|fēn}）{为|wéi}{及格|jígé}。」\nYou scored exactly 60. Did you pass?",
+      "options": [
+        "✔ Yes",
+        "✘ No"
+      ],
+      "answer": 0,
+      "explanation": "(含六十分) = 60 included → pass.",
+      "notes": [
+        "",
+        "(含六十分) = 60 included → pass."
+      ],
+      "translation": "60 and above (60 included) is a pass.",
+      "fixed_order": true
+    },
+    {
+      "point": "y2_strict",
+      "prompt": "{考试|kǎoshì}（　）{六十|liùshí}{分|fēn}{就|jiù}{不|bù}{及格|jígé}。",
+      "options": [
+        "{以上|yǐshàng}",
+        "{超过|chāoguò}",
+        "{不到|bú dào}",
+        "{至少|zhìshǎo}"
+      ],
+      "answer": 2,
+      "explanation": "Below 60 → fail: **不到**六十分.",
+      "notes": [
+        "以上 goes after the number — and 'above 60' would pass.",
+        "超过六十分 = more than 60 — that's a pass.",
+        "",
+        "至少六十分 = at least 60 — that's a pass."
+      ],
+      "translation": "If you get less than 60 in the exam, you fail."
+    },
+    {
+      "point": "y2_incl",
+      "prompt": "A sign says 「{限高|xiàn gāo}{三|sān}{米|mǐ}」 (height limit 3 m). Which phrase means the same?",
+      "options": [
+        "{三|sān}{米|mǐ}{以下|yǐxià}{的|de}{车|chē}{可以|kěyǐ}{通过|tōngguò}",
+        "{超过|chāoguò}{三|sān}{米|mǐ}{的|de}{车|chē}{可以|kěyǐ}{通过|tōngguò}",
+        "{三|sān}{米|mǐ}{以上|yǐshàng}{的|de}{车|chē}{可以|kěyǐ}{通过|tōngguò}",
+        "{三|sān}{米|mǐ}{左右|zuǒyòu}{的|de}{车|chē}{可以|kěyǐ}{通过|tōngguò}"
+      ],
+      "answer": 0,
+      "explanation": "A height limit lets through vehicles **三米以下**.",
+      "notes": [
+        "",
+        "超过三米 = taller than 3 m — not allowed.",
+        "Taller vehicles are exactly what the limit stops.",
+        "左右 = about — a limit is not 'about'."
+      ],
+      "translation": "Vehicles 3 m and under may pass."
+    }
+  ]
+}
