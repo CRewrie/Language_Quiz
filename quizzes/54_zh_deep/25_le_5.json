@@ -36,18 +36,18 @@
       "point": "l5_soon",
       "prompt": "What does 「{快|kuài}{下雨|xià yǔ}{了|le}。」 mean?",
       "options": [
-        "It rained.",
         "It's raining fast.",
-        "It's about to rain.",
-        "It isn't raining."
+        "It rained.",
+        "It isn't raining.",
+        "It's about to rain."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "**快…了** = about to.",
       "notes": [
-        "That's 下雨了 / 下了雨.",
         "快 here isn't 'fast'.",
-        "",
-        "That's 不下雨."
+        "That's 下雨了 / 下了雨.",
+        "That's 不下雨.",
+        ""
       ],
       "translation": "It's about to rain."
     },
@@ -55,56 +55,66 @@
       "point": "l5_soon",
       "prompt": "{火车|huǒchē}（　）{开|kāi}{了|le}，{快|kuài}{上|shàng}{车|chē}！",
       "options": [
+        "{过|guo}",
         "{没|méi}",
         "{要|yào}",
-        "{过|guo}",
         "{太|tài}"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "About to leave: **要**开了.",
       "notes": [
+        "过 doesn't go before a verb.",
         "没…了 doesn't work.",
         "",
-        "过 doesn't go before a verb.",
         "太开了 isn't natural."
       ],
       "translation": "The train's about to leave — get on!"
     },
     {
       "point": "l5_soon",
-      "prompt": "{明天|míngtiān}（　）{考试|kǎoshì}{了|le}，{我|wǒ}{很|hěn}{紧张|jǐnzhāng}。",
+      "kind": "multi",
+      "prompt": "Which sentences say something is **about to** happen? Select all.",
       "options": [
-        "{就要|jiù yào}",
-        "{已经|yǐjīng}",
-        "{快|kuài}",
-        "{太|tài}"
+        "{下雨|xià yǔ}{了|le}。",
+        "{我|wǒ}{毕业|bìyè}{了|le}。",
+        "{火车|huǒchē}{要|yào}{开|kāi}{了|le}。",
+        "{快|kuài}{下雨|xià yǔ}{了|le}。",
+        "{我|wǒ}{快|kuài}{毕业|bìyè}{了|le}。",
+        "{这|zhè}{件|jiàn}{衣服|yīfu}{太|tài}{贵|guì}{了|le}。",
+        "{明天|míngtiān}{就要|jiù yào}{考试|kǎoshì}{了|le}。"
       ],
       "answer": 0,
-      "explanation": "Time word + **就要…了**.",
-      "notes": [
-        "",
-        "已经 = already — the exam is tomorrow.",
-        "With a time word (明天), use 就要…了, not 快…了.",
-        "太考试 isn't Chinese."
+      "accept": [
+        "2346"
       ],
-      "translation": "The exam is tomorrow — I'm nervous."
+      "explanation": "**快 / 要 / 快要 / 就要 … 了** = about to happen. Without them, 了 is about a change that's already here.",
+      "notes": [
+        "It's raining **now** — a change that has happened.",
+        "Already graduated.",
+        "要…了 = about to.",
+        "快…了 = about to.",
+        "快…了: graduating soon.",
+        "太…了 = too … — nothing is about to happen.",
+        "就要…了 with a time word = about to."
+      ],
+      "translation": ""
     },
     {
       "point": "l5_tai",
       "prompt": "What does 「{这|zhè}{件|jiàn}{衣服|yīfu}{太|tài}{贵|guì}{了|le}。」 mean?",
       "options": [
+        "This item of clothing is too expensive.",
         "This was expensive.",
         "This has become expensive.",
-        "This is a bit expensive.",
-        "This item of clothing is too expensive."
+        "This is a bit expensive."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "**太…了** = too / so.",
       "notes": [
+        "",
         "太…了 isn't past.",
         "太…了 isn't about change.",
-        "A bit = 有点儿贵.",
-        ""
+        "A bit = 有点儿贵."
       ],
       "translation": "This is too expensive."
     },
@@ -112,18 +122,18 @@
       "point": "l5_tai",
       "prompt": "A：{我|wǒ}{考|kǎo}{上|shang}{北京|Běijīng}{大学|Dàxué}{了|le}！\nB：（　）！",
       "options": [
-        "{太|tài}{好|hǎo}{了|le}",
         "{太|tài}{好|hǎo}",
-        "{很|hěn}{好|hǎo}{了|le}{了|le}",
-        "{好|hǎo}{了|le}{太|tài}"
+        "{太|tài}{好|hǎo}{了|le}",
+        "{好|hǎo}{了|le}{太|tài}",
+        "{很|hěn}{好|hǎo}{了|le}{了|le}"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Exclamation: **太好了**!",
       "notes": [
-        "",
         "太好 needs 了 in this exclamation.",
-        "One 了 is enough.",
-        "Word order is wrong."
+        "",
+        "Word order is wrong.",
+        "One 了 is enough."
       ],
       "translation": "A: I got into Peking University! B: That's great!"
     },
@@ -151,18 +161,18 @@
       "point": "l5_soon",
       "prompt": "Which is **wrong**?",
       "options": [
-        "{快|kuài}{下雨|xià yǔ}{了|le}。",
-        "{明天|míngtiān}{快|kuài}{下雨|xià yǔ}{了|le}。",
         "{要|yào}{下雨|xià yǔ}{了|le}。",
-        "{明天|míngtiān}{就要|jiù yào}{下雨|xià yǔ}{了|le}。"
+        "{明天|míngtiān}{快|kuài}{下雨|xià yǔ}{了|le}。",
+        "{明天|míngtiān}{就要|jiù yào}{下雨|xià yǔ}{了|le}。",
+        "{快|kuài}{下雨|xià yǔ}{了|le}。"
       ],
       "answer": 1,
       "explanation": "With a time word use **就要…了**, not 快…了.",
       "notes": [
         "Correct.",
         "",
-        "Correct.",
-        "Correct: with a time word."
+        "Correct: with a time word.",
+        "Correct."
       ],
       "translation": "It's going to rain tomorrow."
     },
@@ -170,18 +180,18 @@
       "point": "l5_tai",
       "prompt": "Which 了 is **not** about a change?",
       "options": [
-        "{太|tài}{累|lèi}{了|le}！",
+        "{天|tiān}{黑|hēi}{了|le}。",
         "{他|tā}{二十|èrshí}{岁|suì}{了|le}。",
         "{我|wǒ}{累|lèi}{了|le}。",
-        "{天|tiān}{黑|hēi}{了|le}。"
+        "{太|tài}{累|lèi}{了|le}！"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "**太…了** is an exclamation (so tired!), not news of a change.",
       "notes": [
-        "",
+        "天黑了 = it's got dark — a change.",
         "二十岁了 = turned twenty — a change.",
         "累了 = I've got tired — a change.",
-        "天黑了 = it's got dark — a change."
+        ""
       ],
       "translation": "So tired!"
     },
@@ -189,18 +199,18 @@
       "point": "l5_soon",
       "prompt": "{别|bié}{走|zǒu}，{电影|diànyǐng}{马上|mǎshàng}{就|jiù}（　）{了|le}。",
       "options": [
-        "{开始|kāishǐ}{的|de}",
         "{开始|kāishǐ}",
-        "{开始|kāishǐ}{过|guo}",
-        "{开始|kāishǐ}{着|zhe}"
+        "{开始|kāishǐ}{着|zhe}",
+        "{开始|kāishǐ}{的|de}",
+        "{开始|kāishǐ}{过|guo}"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "马上就 + verb + **了** = about to.",
       "notes": [
-        "的 doesn't fit.",
         "",
-        "过 doesn't fit.",
-        "着 doesn't fit."
+        "着 doesn't fit.",
+        "的 doesn't fit.",
+        "过 doesn't fit."
       ],
       "translation": "Don't go — the film's about to start."
     },
@@ -208,18 +218,18 @@
       "point": "l5_tai",
       "prompt": "'You're too kind!' Which sentence says so?",
       "options": [
-        "{你|nǐ}{太|tài}{客气|kèqi}{了|le}！",
-        "{你|nǐ}{快|kuài}{客气|kèqi}{了|le}！",
         "{你|nǐ}{太|tài}{客气|kèqi}！",
-        "{你|nǐ}{客气|kèqi}{了|le}{太|tài}！"
+        "{你|nǐ}{客气|kèqi}{了|le}{太|tài}！",
+        "{你|nǐ}{太|tài}{客气|kèqi}{了|le}！",
+        "{你|nǐ}{快|kuài}{客气|kèqi}{了|le}！"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "**太…了**.",
       "notes": [
-        "",
-        "快…了 = about to.",
         "Needs 了.",
-        "Word order is wrong."
+        "Word order is wrong.",
+        "",
+        "快…了 = about to."
       ],
       "translation": "You're too kind!"
     }

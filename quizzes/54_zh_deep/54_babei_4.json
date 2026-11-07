@@ -1,0 +1,205 @@
+{
+  "id": "zh-dd-babei-4",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "把 vs 被 Step 4 · Where 没 Goes, and When 把 Can't Be Used",
+  "description": "没, 不, 想 and 要 go before 把 / 被. And some sentences refuse 把 altogether: 知道, 喜欢, 有, unspecific things, and 看得懂-type verbs.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "b4_neg",
+      "title": "没 / 不 / 想 / 要 come first",
+      "summary": "Negation and wishes go **before** 把 or 被, never after.",
+      "body": "- 我**没**把作业做完。 ✔ ~~我把作业没做完~~ ✘\n- 他**没**被抓住。 ✔\n- 我**想**把房间打扫干净。 ✔\n\n| | pattern | the subject … | feeling |\n|---|---|---|---|\n| **把** | doer + 把 + thing + verb + result | **does** something to the thing | what you did to it |\n| **被** | thing + 被 + (doer) + verb + result | **receives** the action | often bad luck: got …ed |\n\n**Both** need something after the verb: ~~我把饭吃~~ → 我把饭吃**完了** · ~~杯子被打~~ → 杯子被打**破了**.\n**没 / 不 / 想 / 要** go **before** 把 / 被: 我**没**把作业做完 · 他**没**被抓住.",
+      "examples": [
+        [
+          "{我|wǒ}{没|méi}{把|bǎ}{护照|hùzhào}{带|dài}{来|lai}。",
+          "I didn't bring my passport."
+        ]
+      ]
+    },
+    {
+      "id": "b4_cant",
+      "title": "Sentences 把 refuses",
+      "summary": "No 把 with feelings/knowing (知道, 喜欢, 认识), 是 / 有, a non-specific thing (一个苹果), or 'can / can't' verbs (看得懂, 吃不完).",
+      "body": "- ~~我把他知道~~ → 我知道他\n- ~~我把一个苹果吃了~~ → 我把**那个**苹果吃了\n- ~~我把这本书看得懂~~ → 这本书我看得懂\n\n| | pattern | the subject … | feeling |\n|---|---|---|---|\n| **把** | doer + 把 + thing + verb + result | **does** something to the thing | what you did to it |\n| **被** | thing + 被 + (doer) + verb + result | **receives** the action | often bad luck: got …ed |\n\n**Both** need something after the verb: ~~我把饭吃~~ → 我把饭吃**完了** · ~~杯子被打~~ → 杯子被打**破了**.\n**没 / 不 / 想 / 要** go **before** 把 / 被: 我**没**把作业做完 · 他**没**被抓住.",
+      "examples": [
+        [
+          "{这|zhè}{本|běn}{书|shū}{我|wǒ}{看|kàn}{得|de}{懂|dǒng}。",
+          "I can understand this book."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "b4_neg",
+      "kind": "sort",
+      "prompt": "Right or wrong?",
+      "items": [
+        "{他|tā}{被|bèi}{没|méi}{抓|zhuā}{住|zhù}。",
+        "{我|wǒ}{想|xiǎng}{把|bǎ}{房间|fángjiān}{打扫|dǎsǎo}{干净|gānjìng}。",
+        "{我|wǒ}{没|méi}{把|bǎ}{作业|zuòyè}{做|zuò}{完|wán}。",
+        "{我|wǒ}{把|bǎ}{房间|fángjiān}{想|xiǎng}{打扫|dǎsǎo}{干净|gānjìng}。",
+        "{他|tā}{没|méi}{被|bèi}{抓|zhuā}{住|zhù}。",
+        "{我|wǒ}{把|bǎ}{作业|zuòyè}{没|méi}{做|zuò}{完|wán}。"
+      ],
+      "groups": [
+        "✔ Correct",
+        "✘ Wrong"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "100101"
+      ],
+      "explanation": "没 / 不 / 想 / 要 / 别 → **before** 把 / 被.",
+      "notes": [
+        "没 must come before 被.",
+        "想 before 把. ✔",
+        "没 before 把. ✔",
+        "想 must come before 把.",
+        "没 before 被. ✔",
+        "没 must come before 把."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b4_neg",
+      "kind": "tiles",
+      "prompt": "Build it: 'I didn't bring my passport.'",
+      "items": [
+        "{把|bǎ}",
+        "{我|wǒ}",
+        "{护照|hùzhào}",
+        "{带|dài}{来|lai}",
+        "{没|méi}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "14023"
+      ],
+      "explanation": "我**没把**护照带来。",
+      "notes": [],
+      "translation": "I didn't bring my passport."
+    },
+    {
+      "point": "b4_cant",
+      "kind": "multi",
+      "prompt": "Which verbs can **not** be used in a 把 sentence? Select all.",
+      "options": [
+        "{喜欢|xǐhuan}",
+        "{吃|chī}",
+        "{是|shì}",
+        "{知道|zhīdào}",
+        "{放|fàng}",
+        "{有|yǒu}"
+      ],
+      "answer": 0,
+      "accept": [
+        "0235"
+      ],
+      "explanation": "把 needs a verb that **does something to** the thing.",
+      "notes": [
+        "A feeling, not a handling.",
+        "把饭吃完了 ✔",
+        "是 links, it doesn't act.",
+        "Knowing isn't done **to** something.",
+        "把书放在桌子上 ✔",
+        "Having isn't an action on the thing."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b4_cant",
+      "prompt": "Why is 「{我|wǒ}{把|bǎ}{那|nà}{本|běn}{书|shū}{看|kàn}{得|de}{懂|dǒng}。」 wrong?",
+      "options": [
+        "It needs 了 at the end.",
+        "'Can / can't' verbs (看得懂, 看不懂) don't go with 把.",
+        "It should be 被.",
+        "It should be 一本书."
+      ],
+      "answer": 1,
+      "explanation": "No 把 with **得/不 + result** verbs: say 那本书我看得懂.",
+      "notes": [
+        "了 won't fix it.",
+        "",
+        "被 doesn't fit — 'I' am the reader.",
+        "把 needs a **specific** thing — 那本书 is right."
+      ],
+      "translation": "I can understand that book."
+    },
+    {
+      "point": "b4_cant",
+      "kind": "sort",
+      "prompt": "Can this sentence use 把?",
+      "items": [
+        "{我|wǒ}{把|bǎ}{那个|nàge}{苹果|píngguǒ}{吃|chī}{了|le}。",
+        "{我|wǒ}{把|bǎ}{中文|Zhōngwén}{喜欢|xǐhuan}。",
+        "{我|wǒ}{把|bǎ}{他|tā}{知道|zhīdào}{了|le}。",
+        "{我|wǒ}{把|bǎ}{一个|yí ge}{苹果|píngguǒ}{吃|chī}{了|le}。",
+        "{我|wǒ}{把|bǎ}{门|mén}{关上|guānshang}{了|le}。",
+        "{请|qǐng}{把|bǎ}{电视|diànshì}{关|guān}{掉|diào}。"
+      ],
+      "groups": [
+        "✔ Fine with 把",
+        "✘ 把 doesn't work"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "011100"
+      ],
+      "explanation": "把 = handling a **specific** thing with an action + result.",
+      "notes": [
+        "✔ specific.",
+        "Feelings can't take 把 → 我喜欢中文.",
+        "知道 can't take 把 → 我知道他.",
+        "'An apple' isn't specific → 那个苹果.",
+        "✔",
+        "✔"
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b4_neg",
+      "prompt": "'If you don't explain it clearly, I won't help you.' Which sentence says so?",
+      "options": [
+        "{你|nǐ}{把|bǎ}{话|huà}{说|shuō}{不|bu}{清楚|qīngchu}，{我|wǒ}{就|jiù}{不|bù}{帮|bāng}{你|nǐ}。",
+        "{你|nǐ}{把|bǎ}{话|huà}{不|bù}{说|shuō}{清楚|qīngchu}，{我|wǒ}{就|jiù}{不|bù}{帮|bāng}{你|nǐ}。",
+        "{你|nǐ}{不|bù}{把|bǎ}{话|huà}{说|shuō}{清楚|qīngchu}，{我|wǒ}{就|jiù}{不|bù}{帮|bāng}{你|nǐ}。",
+        "{你|nǐ}{把|bǎ}{不|bù}{话|huà}{说|shuō}{清楚|qīngchu}，{我|wǒ}{就|jiù}{不|bù}{帮|bāng}{你|nǐ}。"
+      ],
+      "answer": 2,
+      "explanation": "**不** + 把 + thing + verb + result.",
+      "notes": [
+        "说不清楚 = 'unable to' — and that can't go with 把 anyway.",
+        "不 must come before 把.",
+        "",
+        "不 can't split 把 from its object."
+      ],
+      "translation": "If you don't explain it clearly, I won't help you."
+    },
+    {
+      "point": "b4_neg",
+      "kind": "tiles",
+      "prompt": "Build it: 'He wasn't caught by the police.'",
+      "items": [
+        "{他|tā}",
+        "{警察|jǐngchá}",
+        "{没|méi}",
+        "{被|bèi}",
+        "{抓|zhuā}{住|zhù}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "02314"
+      ],
+      "explanation": "他**没被**警察抓住。",
+      "notes": [],
+      "translation": "He wasn't caught by the police."
+    }
+  ]
+}

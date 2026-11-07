@@ -86,16 +86,16 @@
       "options": [
         "three hotels above us",
         "hotels with three stars or more",
-        "hotels with fewer than three stars",
-        "about three hotels"
+        "about three hotels",
+        "hotels with fewer than three stars"
       ],
       "answer": 1,
       "explanation": "Level + **以上** = that level or higher.",
       "notes": [
         "以上 here is about the star level, not position.",
         "",
-        "That's 三星级以下.",
-        "That's 三家左右的酒店."
+        "That's 三家左右的酒店.",
+        "That's 三星级以下."
       ],
       "translation": "hotels of three stars or more"
     },
@@ -104,17 +104,17 @@
       "prompt": "{这|zhè}{个|ge}{会|huì}{只|zhǐ}{有|yǒu}{经理|jīnglǐ}（　）{的|de}{人|rén}{才|cái}{能|néng}{参加|cānjiā}。",
       "options": [
         "{以前|yǐqián}",
-        "{左右|zuǒyòu}",
         "{以下|yǐxià}",
-        "{以上|yǐshàng}"
+        "{以上|yǐshàng}",
+        "{左右|zuǒyòu}"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Exclusive meeting → 经理**以上** (managers and up).",
       "notes": [
         "以前 is for time.",
-        "Ranks aren't 'about'.",
         "以下 would let in everyone below manager — not exclusive.",
-        ""
+        "",
+        "Ranks aren't 'about'."
       ],
       "translation": "Only people at manager level and above can attend this meeting."
     },
@@ -122,56 +122,67 @@
       "point": "y3_ranks",
       "prompt": "「{科长|kēzhǎng}{以下|yǐxià}{的|de}{员工|yuángōng}」 — who is included?",
       "options": [
-        "only the section chief",
+        "only people above section chief",
         "people who sit downstairs",
-        "section chiefs and everyone below them",
-        "only people above section chief"
+        "only the section chief",
+        "section chiefs and everyone below them"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Rank + **以下** = this rank and lower.",
       "notes": [
-        "以下 covers a whole range, not one person.",
+        "That's 科长以上 (and it would include the chief too).",
         "以下 here is about rank, not floors.",
-        "",
-        "That's 科长以上 (and it would include the chief too)."
+        "以下 covers a whole range, not one person.",
+        ""
       ],
       "translation": ""
     },
     {
       "point": "y3_levels",
-      "prompt": "{这|zhè}{个|ge}{班|bān}{是|shì}{给|gěi HSK}{二级|èr jí}（　）{的|de}{学生|xuésheng}{的|de}，{太|tài}{简单|jiǎndān}{了|le}，{你|nǐ}{不|bú}{用|yòng}{来|lái}。",
-      "options": [
-        "{以上|yǐshàng}",
-        "{以后|yǐhòu}",
-        "{之间|zhījiān}",
-        "{以下|yǐxià}"
+      "kind": "sort",
+      "prompt": "A job ad says 「HSK{四级|sì jí}{以上|yǐshàng}」. Who qualifies?",
+      "items": [
+        "HSK{四级|sì jí}",
+        "HSK{五级|wǔ jí}",
+        "HSK{六级|liù jí}",
+        "HSK{二级|èr jí}",
+        "HSK{三级|sān jí}"
       ],
-      "answer": 3,
-      "explanation": "Too easy for you → a class for level 2 **以下**.",
+      "groups": [
+        "✔ Qualifies",
+        "✘ Doesn't"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "00011"
+      ],
+      "explanation": "Level + **以上** = that level **or higher** (the level itself counts).",
       "notes": [
-        "以上 would be for advanced students — not 'too easy'.",
-        "以后 is for time.",
-        "之间 needs two levels: 二级到三级之间.",
-        ""
+        "In requirements, 以上 includes the level itself.",
+        "Level 5 is above level 4.",
+        "Level 6 is above level 4.",
+        "Level 2 is well below the bar.",
+        "Level 3 is below the bar."
       ],
-      "translation": "This class is for students at HSK level 2 or below — it's too easy, you needn't come."
+      "translation": ""
     },
     {
       "point": "y3_levels",
       "prompt": "Which phrase means 'magnitude 6 or above' (earthquakes)?",
       "options": [
-        "{六|liù}{级|jí}{以上|yǐshàng}",
         "{六|liù}{级|jí}{以下|yǐxià}",
-        "{六|liù}{以上|yǐshàng}{级|jí}",
-        "{以上|yǐshàng}{六|liù}{级|jí}"
+        "{六|liù}{级|jí}{以上|yǐshàng}",
+        "{以上|yǐshàng}{六|liù}{级|jí}",
+        "{六|liù}{以上|yǐshàng}{级|jí}"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "**六级以上** = magnitude 6 or more.",
       "notes": [
-        "",
         "以下 = 6 or below.",
-        "以上 comes after the whole 六级.",
-        "以上 comes after the level."
+        "",
+        "以上 comes after the level.",
+        "以上 comes after the whole 六级."
       ],
       "translation": "magnitude 6 or above"
     },
@@ -213,16 +224,16 @@
       "options": [
         "{你|nǐ}{需要|xūyào}{以上|yǐshàng HSK}{五级|wǔ jí}。",
         "{你|nǐ}{需要|xūyào HSK}{五级|wǔ jí}{以下|yǐxià}。",
-        "{你|nǐ}{需要|xūyào HSK}{五级|wǔ jí}{以上|yǐshàng}。",
-        "{你|nǐ}{需要|xūyào HSK}{五级|wǔ jí}{左右|zuǒyòu}。"
+        "{你|nǐ}{需要|xūyào HSK}{五级|wǔ jí}{左右|zuǒyòu}。",
+        "{你|nǐ}{需要|xūyào HSK}{五级|wǔ jí}{以上|yǐshàng}。"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Level + **以上**.",
       "notes": [
         "以上 goes after the level.",
         "以下 = level 5 or lower.",
-        "",
-        "左右 = about."
+        "左右 = about.",
+        ""
       ],
       "translation": "You need HSK level 5 or higher."
     },
@@ -230,18 +241,18 @@
       "point": "y3_ranks",
       "prompt": "Which is **wrong**?",
       "options": [
-        "{我|wǒ}{的|de}{中文|Zhōngwén}{是|shì}{四级|sì jí}{以上|yǐshàng}。",
-        "{他|tā}{是|shì}{经理|jīnglǐ}{以上|yǐshàng}{的|de}{级别|jíbié}。",
         "{三|sān}{星级|xīngjí}{以上|yǐshàng}{的|de}{酒店|jiǔdiàn}{都|dōu}{有|yǒu}{早餐|zǎocān}。",
-        "{他|tā}{比|bǐ}{我|wǒ}{以上|yǐshàng}。"
+        "{他|tā}{是|shì}{经理|jīnglǐ}{以上|yǐshàng}{的|de}{级别|jíbié}。",
+        "{他|tā}{比|bǐ}{我|wǒ}{以上|yǐshàng}。",
+        "{我|wǒ}{的|de}{中文|Zhōngwén}{是|shì}{四级|sì jí}{以上|yǐshàng}。"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "以上 follows a **number or level**, not a comparison with a person. For 'higher than me' say 他的级别比我高.",
       "notes": [
-        "Correct: a level + 以上.",
-        "Correct: a rank + 以上.",
         "Correct: a star level + 以上 + 的.",
-        ""
+        "Correct: a rank + 以上.",
+        "",
+        "Correct: a level + 以上."
       ],
       "translation": ""
     }

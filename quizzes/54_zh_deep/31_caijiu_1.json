@@ -1,0 +1,240 @@
+{
+  "id": "zh-dd-caijiu-1",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "才 vs 就 Step 1 · Early Bird or Late? 就 vs 才 with Time",
+  "description": "Time + 就 = earlier than expected, time + 才 = later than expected. 他六点就来了 vs 他十点才来 — same clock, opposite feelings.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "c1_early",
+      "title": "Time + 就 = earlier than expected 🐇",
+      "summary": "就 after a time word: it happened sooner than you'd think.",
+      "body": "- 他六点**就**来了。 He came as early as six.\n- 我五分钟**就**做完了。 I finished in just five minutes.\n- 她十八岁**就**结婚了。 She got married at just 18.\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{他|tā}{早上|zǎoshang}{六|liù}{点|diǎn}{就|jiù}{来|lái}{了|le}。",
+          "He came as early as six in the morning."
+        ]
+      ]
+    },
+    {
+      "id": "c1_late",
+      "title": "Time + 才 = later than expected 🐢",
+      "summary": "才 after a time word: it happened later than you'd think — 'not until'.",
+      "body": "- 他十点**才**来。 He didn't come until ten.\n- 我做了三个小时**才**做完。 It took me three hours to finish.\n- 她三十五岁**才**结婚。 She didn't marry until 35.\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{他|tā}{晚上|wǎnshang}{十|shí}{点|diǎn}{才|cái}{来|lái}。",
+          "He didn't come until ten at night."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "c1_early",
+      "prompt": "「{会议|huìyì}{九|jiǔ}{点|diǎn}{开始|kāishǐ}，{他|tā}{八|bā}{点|diǎn}{就|jiù}{到|dào}{了|le}。」 — how does the speaker see it?",
+      "options": [
+        "He was early.",
+        "He arrived exactly on time.",
+        "He was late.",
+        "He didn't come."
+      ],
+      "answer": 0,
+      "explanation": "Time + **就** = early. 🐇",
+      "notes": [
+        "",
+        "八点 is before nine — and 就 stresses 'early'.",
+        "就 = earlier than expected.",
+        "He did come."
+      ],
+      "translation": "The meeting starts at nine — he was there by eight."
+    },
+    {
+      "point": "c1_late",
+      "prompt": "「{会议|huìyì}{九|jiǔ}{点|diǎn}{开始|kāishǐ}，{他|tā}{十|shí}{点|diǎn}{才|cái}{到|dào}。」 — how does the speaker see it?",
+      "options": [
+        "He arrived exactly on time.",
+        "He was early.",
+        "He was late.",
+        "He left at ten."
+      ],
+      "answer": 2,
+      "explanation": "Time + **才** = late. 🐢",
+      "notes": [
+        "Ten is an hour after nine.",
+        "才 = later than expected.",
+        "",
+        "到 = arrive."
+      ],
+      "translation": "The meeting started at nine — he didn't arrive until ten."
+    },
+    {
+      "point": "c1_late",
+      "prompt": "{电影|diànyǐng}{七|qī}{点|diǎn}{开始|kāishǐ}，{你|nǐ}{怎么|zěnme}{八|bā}{点|diǎn}（　）{来|lái}？",
+      "options": [
+        "{都|dōu}",
+        "{就|jiù}",
+        "{也|yě}",
+        "{才|cái}"
+      ],
+      "answer": 3,
+      "explanation": "Late → **才**.",
+      "notes": [
+        "都 doesn't fit.",
+        "就 = early — but you're an hour late.",
+        "也 doesn't fit.",
+        ""
+      ],
+      "translation": "The film started at seven — why are you only coming at eight?"
+    },
+    {
+      "point": "c1_early",
+      "kind": "sort",
+      "prompt": "Same clock, different feeling: is the speaker saying 'early' or 'late'?",
+      "items": [
+        "{会议|huìyì}{九|jiǔ}{点|diǎn}{开始|kāishǐ}，{他|tā}{八|bā}{点|diǎn}{就|jiù}{到|dào}{了|le}。",
+        "{会议|huìyì}{九|jiǔ}{点|diǎn}{开始|kāishǐ}，{他|tā}{十|shí}{点|diǎn}{才|cái}{到|dào}。",
+        "{我|wǒ}{五|wǔ}{分钟|fēnzhōng}{就|jiù}{做|zuò}{完|wán}{了|le}。",
+        "{她|tā}{十八|shíbā}{岁|suì}{就|jiù}{结婚|jiéhūn}{了|le}。",
+        "{他|tā}{中午|zhōngwǔ}{才|cái}{起床|qǐchuáng}。",
+        "{我|wǒ}{做|zuò}{了|le}{两|liǎng}{个|ge}{小时|xiǎoshí}{才|cái}{做|zuò}{完|wán}。"
+      ],
+      "groups": [
+        "🐇 sooner than expected",
+        "🐢 later than expected"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "010011"
+      ],
+      "explanation": "**就** = sooner / quicker / younger than expected; **才** = later / slower than expected.",
+      "notes": [
+        "Time + 就 = early.",
+        "Time + 才 = late.",
+        "Only five minutes — quick.",
+        "Married at just 18 — young.",
+        "Not up until noon — late.",
+        "Two hours of work — slow."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "c1_late",
+      "prompt": "{这|zhè}{道|dào}{题|tí}{太|tài}{难|nán}{了|le}，{我|wǒ}{做|zuò}{了|le}{两|liǎng}{个|ge}{小时|xiǎoshí}（　）{做|zuò}{完|wán}。",
+      "options": [
+        "{都|dōu}",
+        "{也|yě}",
+        "{才|cái}",
+        "{就|jiù}"
+      ],
+      "answer": 2,
+      "explanation": "Long and hard → **才**.",
+      "notes": [
+        "都 doesn't fit.",
+        "也 doesn't fit.",
+        "",
+        "就 = quick — but it was hard."
+      ],
+      "translation": "This problem was so hard — it took me two hours to finish."
+    },
+    {
+      "point": "c1_early",
+      "prompt": "'She was already married at 18.' Which sentence says so?",
+      "options": [
+        "{她|tā}{十八|shíbā}{岁|suì}{才|cái}{结婚|jiéhūn}。",
+        "{她|tā}{十八|shíbā}{岁|suì}{就|jiù}{结婚|jiéhūn}{了|le}。",
+        "{她|tā}{就|jiù}{十八|shíbā}{岁|suì}{结婚|jiéhūn}。",
+        "{她|tā}{十八|shíbā}{岁|suì}{结婚|jiéhūn}{了|le}{才|cái}。"
+      ],
+      "answer": 1,
+      "explanation": "Young / early → time + **就** + verb + 了.",
+      "notes": [
+        "才 = 'not until 18' — late.",
+        "",
+        "就 goes after the time word.",
+        "才 goes before the verb."
+      ],
+      "translation": "She got married at just 18."
+    },
+    {
+      "point": "c1_late",
+      "prompt": "'He didn't get up until noon.' Which sentence says so?",
+      "options": [
+        "{他|tā}{中午|zhōngwǔ}{起床|qǐchuáng}{才|cái}。",
+        "{他|tā}{才|cái}{中午|zhōngwǔ}{起床|qǐchuáng}。",
+        "{他|tā}{中午|zhōngwǔ}{才|cái}{起床|qǐchuáng}。",
+        "{他|tā}{中午|zhōngwǔ}{就|jiù}{起床|qǐchuáng}{了|le}。"
+      ],
+      "answer": 2,
+      "explanation": "Late → time + **才** + verb.",
+      "notes": [
+        "才 goes before the verb.",
+        "才 goes after the time word.",
+        "",
+        "就 = early — noon isn't early."
+      ],
+      "translation": "He didn't get up until noon."
+    },
+    {
+      "point": "c1_early",
+      "prompt": "Same clock, different feelings: 「{他|tā}{八|bā}{点|diǎn}{就|jiù}{起床|qǐchuáng}{了|le}。」 vs 「{他|tā}{八|bā}{点|diǎn}{才|cái}{起床|qǐchuáng}。」",
+      "options": [
+        "First: 8 is early for him. Second: 8 is late for him.",
+        "First: late. Second: early.",
+        "Both mean he gets up at 8 — no difference.",
+        "First: he didn't get up."
+      ],
+      "answer": 0,
+      "explanation": "就 = **earlier** than expected; 才 = **later** than expected.",
+      "notes": [
+        "",
+        "Swapped.",
+        "The time is the same — the speaker's feeling is opposite.",
+        "He got up in both."
+      ],
+      "translation": "",
+      "fixed_order": true
+    },
+    {
+      "point": "c1_late",
+      "prompt": "{我|wǒ}{找|zhǎo}{了|le}{半天|bàntiān}（　）{找到|zhǎodào}{我|wǒ}{的|de}{钥匙|yàoshi}。",
+      "options": [
+        "{就|jiù}",
+        "{才|cái}",
+        "{再|zài}",
+        "{又|yòu}"
+      ],
+      "answer": 1,
+      "explanation": "Took ages → **才**.",
+      "notes": [
+        "就 = quickly — but it took ages (半天).",
+        "",
+        "再 = again / then.",
+        "又 = again."
+      ],
+      "translation": "I searched for ages before I found my keys."
+    },
+    {
+      "point": "c1_early",
+      "prompt": "{我|wǒ}{弟弟|dìdi}{三|sān}{岁|suì}（　）{会|huì}{游泳|yóuyǒng}{了|le}！",
+      "options": [
+        "{也|yě}",
+        "{才|cái}",
+        "{还|hái}",
+        "{就|jiù}"
+      ],
+      "answer": 3,
+      "explanation": "That young → **就**.",
+      "notes": [
+        "也 doesn't fit.",
+        "才 = 'not until three' — but the ！ says 'that young!'.",
+        "还 doesn't fit.",
+        ""
+      ],
+      "translation": "My little brother could swim at just three!"
+    }
+  ]
+}

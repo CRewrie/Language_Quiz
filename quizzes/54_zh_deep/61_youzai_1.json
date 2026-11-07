@@ -1,0 +1,207 @@
+{
+  "id": "zh-dd-youzai-1",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "又 vs 再 Step 1 · Again! Already Happened or Not Yet?",
+  "description": "Both mean 'again'. 又 looks back — it happened again. 再 looks forward — do it again, come again.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "yz1_you",
+      "title": "又 = it happened again",
+      "summary": "又 + verb (+ 了): the repeat has already happened — often with a sigh.",
+      "body": "- 他昨天**又**迟到了。 He was late again yesterday.\n- 你怎么**又**忘了？ How come you forgot again?\n- 我们**又**见面了！ We meet again!\n\n| | 'again' when? | example |\n|---|---|---|\n| **又** | it **already happened** again (often: not again!) | 他昨天**又**迟到了。 你怎么**又**来了？ |\n| **再** | it **hasn't happened yet**: plans, requests | 请**再**说一遍。 欢迎**再**来！ |\n| **还** | future again in **questions** and with 想 / 要 / 会 | 你明天**还**来吗？ 我**还**想去。 |\n| **再** = then | first … then … / later | 吃了饭**再**走。 我们明天**再**说。 |\n| **又 … 又 …** | both … and … | **又**便宜**又**好吃 |\n\n**Exception:** 又 for a future that's certain to repeat: 明天**又**是星期一了。",
+      "examples": [
+        [
+          "{他|tā}{昨天|zuótiān}{又|yòu}{迟到|chídào}{了|le}。",
+          "He was late again yesterday."
+        ]
+      ]
+    },
+    {
+      "id": "yz1_zai",
+      "title": "再 = do it again (later)",
+      "summary": "再 + verb: the repeat is still to come — requests, invitations, plans.",
+      "body": "- 请**再**说一遍。 Please say it again.\n- 欢迎下次**再**来！ Come again!\n- 我可以**再**吃一碗吗？ Can I have another bowl?\n\n| | 'again' when? | example |\n|---|---|---|\n| **又** | it **already happened** again (often: not again!) | 他昨天**又**迟到了。 你怎么**又**来了？ |\n| **再** | it **hasn't happened yet**: plans, requests | 请**再**说一遍。 欢迎**再**来！ |\n| **还** | future again in **questions** and with 想 / 要 / 会 | 你明天**还**来吗？ 我**还**想去。 |\n| **再** = then | first … then … / later | 吃了饭**再**走。 我们明天**再**说。 |\n| **又 … 又 …** | both … and … | **又**便宜**又**好吃 |\n\n**Exception:** 又 for a future that's certain to repeat: 明天**又**是星期一了。",
+      "examples": [
+        [
+          "{对不起|duìbuqǐ}，{请|qǐng}{你|nǐ}{再|zài}{说|shuō}{一|yí}{遍|biàn}。",
+          "Sorry, could you say that again?"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "yz1_you",
+      "kind": "sort",
+      "prompt": "又 or 再? Has the repeat happened yet?",
+      "items": [
+        "{欢迎|huānyíng}{下次|xiàcì}＿{来|lái}！",
+        "{这|zhè}{个|ge}{电影|diànyǐng}{真|zhēn}{好看|hǎokàn}，{我|wǒ}{想|xiǎng}＿{看|kàn}{一|yí}{遍|biàn}。",
+        "{他|tā}{昨天|zuótiān}＿{迟到|chídào}{了|le}。",
+        "{你|nǐ}{怎么|zěnme}＿{忘|wàng}{了|le}？",
+        "{我|wǒ}{上|shàng}{周|zhōu}＿{去|qù}{了|le}{一|yí}{次|cì}{长城|Chángchéng}。",
+        "{请|qǐng}＿{说|shuō}{一|yí}{遍|biàn}。"
+      ],
+      "groups": [
+        "又 — already happened",
+        "再 — not yet"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "110001"
+      ],
+      "explanation": "Already happened → **又**; not yet → **再**.",
+      "notes": [
+        "下次: future → 再.",
+        "Want to (future) → 再.",
+        "昨天 … 了: it already happened → 又.",
+        "It happened (again!) → 又.",
+        "上周 … 了 → 又.",
+        "A request → 再."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz1_you",
+      "prompt": "「{他|tā}{又|yòu}{迟到|chídào}{了|le}。」 What do we know?",
+      "options": [
+        "He's about to be late.",
+        "This is the first time he's late.",
+        "He's been late before — and now he was late again.",
+        "He'll be late again."
+      ],
+      "answer": 2,
+      "explanation": "**又** = again, and it already happened.",
+      "notes": [
+        "That's 他快迟到了.",
+        "又 means it happened **before** too.",
+        "",
+        "Future 'again' would be 他还会迟到."
+      ],
+      "translation": "He was late again."
+    },
+    {
+      "point": "yz1_zai",
+      "kind": "tiles",
+      "prompt": "Build it: 'Sorry — could you say that again?'",
+      "items": [
+        "{请|qǐng}{你|nǐ}",
+        "{对不起|duìbuqǐ}，",
+        "{一|yí}{遍|biàn}",
+        "{说|shuō}",
+        "{再|zài}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "10432"
+      ],
+      "explanation": "对不起，请你**再**说一遍。 A request → 再.",
+      "notes": [],
+      "translation": "Sorry — could you say that again?"
+    },
+    {
+      "point": "yz1_you",
+      "kind": "multi",
+      "prompt": "Which sentences are correct? Select all.",
+      "options": [
+        "{明天|míngtiān}{你|nǐ}{又|yòu}{来|lái}{吧|ba}。",
+        "{明天|míngtiān}{你|nǐ}{再|zài}{来|lái}{吧|ba}。",
+        "{他|tā}{昨天|zuótiān}{又|yòu}{来|lái}{了|le}。",
+        "{欢迎|huānyíng}{你|nǐ}{又|yòu}{来|lái}！",
+        "{他|tā}{昨天|zuótiān}{再|zài}{来|lái}{了|le}。",
+        "{你|nǐ}{怎么|zěnme}{又|yòu}{哭|kū}{了|le}？"
+      ],
+      "answer": 0,
+      "accept": [
+        "125"
+      ],
+      "explanation": "又 looks **back**, 再 looks **forward**.",
+      "notes": [
+        "A request about tomorrow → 再来.",
+        "✔ future request → 再.",
+        "✔ past repeat → 又.",
+        "An invitation → 欢迎再来.",
+        "It already happened → 又来了.",
+        "✔ again?! → 又."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz1_zai",
+      "kind": "match",
+      "prompt": "Which 'again' is it?",
+      "items": [
+        "{下次|xiàcì}{再|zài}{来|lái}{吧|ba}！",
+        "{请|qǐng}{再|zài}{写|xiě}{一|yí}{遍|biàn}。",
+        "{我们|wǒmen}{又|yòu}{见面|jiànmiàn}{了|le}！",
+        "{又|yòu}{下雨|xià yǔ}{了|le}，{真|zhēn}{烦|fán}！",
+        "{你|nǐ}{怎么|zěnme}{又|yòu}{迟到|chídào}{了|le}？！",
+        "{他|tā}{上个月|shàng ge yuè}{又|yòu}{去|qù}{了|le}{一|yí}{次|cì}{北京|Běijīng}。"
+      ],
+      "groups": [
+        "not again! (annoyed)",
+        "it happened again",
+        "please do it again (later)"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "221001"
+      ],
+      "explanation": "**又** = happened again (often with feeling); **再** = do it again.",
+      "notes": [
+        "Invitation → 再.",
+        "Request → 再.",
+        "A happy reunion.",
+        "真烦 shows the sigh.",
+        "怎么又 = how come, AGAIN?!",
+        "Reported repeat."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz1_you",
+      "kind": "tiles",
+      "prompt": "Build it: 'He was late again yesterday.'",
+      "items": [
+        "{了|le}",
+        "{迟到|chídào}",
+        "{又|yòu}",
+        "{昨天|zuótiān}",
+        "{他|tā}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "43210",
+        "34210"
+      ],
+      "explanation": "他昨天**又**迟到了。",
+      "notes": [],
+      "translation": "He was late again yesterday."
+    },
+    {
+      "point": "yz1_zai",
+      "prompt": "The noodles are great and you want more. How do you ask for another bowl?",
+      "options": [
+        "{我|wǒ}{可以|kěyǐ}{又|yòu}{吃|chī}{一|yì}{碗|wǎn}{吗|ma}？",
+        "{我|wǒ}{再|zài}{吃|chī}{了|le}{一|yì}{碗|wǎn}。",
+        "{我|wǒ}{又|yòu}{吃|chī}{了|le}{一|yì}{碗|wǎn}。",
+        "{我|wǒ}{可以|kěyǐ}{再|zài}{吃|chī}{一|yì}{碗|wǎn}{吗|ma}？"
+      ],
+      "answer": 3,
+      "explanation": "Future repeat, a request → **再**.",
+      "notes": [
+        "Not yet eaten → 再, not 又.",
+        "再 + 了 clash: 再 is for the future.",
+        "That reports a bowl you've already eaten.",
+        ""
+      ],
+      "translation": "Can I have another bowl?"
+    }
+  ]
+}

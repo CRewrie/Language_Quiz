@@ -1,0 +1,249 @@
+{
+  "id": "zh-dd-de-2",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "的 / 地 / 得 Step 2 · After the Verb: 得 = How Well, How Much",
+  "description": "得 looks back at the verb and comments on it: 跑得很快, 说得很好, 累得不想动. Plus the verb-copy trick with objects, and the other two 得s (děi, dé).",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "d2_how",
+      "title": "Verb + 得 + comment",
+      "summary": "得 comes **after** a verb (or adjective) and says how well, how much, or with what result.",
+      "body": "- 他跑**得**很快。 He runs fast.\n- 她唱**得**很好听。 She sings beautifully.\n- 我累**得**不想说话。 I'm so tired I don't want to talk.\n- Negative: 跑**得不**快 (不 after 得).\n\n⚠️ 得 is also read **děi** (must: 我得走了) and **dé** (get: 得了第一名).\n\n| | comes before … | pattern | example |\n|---|---|---|---|\n| **的** | a **noun** | describer + 的 + noun | 漂亮**的**衣服 · 我买**的**书 |\n| **地** | a **verb** (how it's done) | describer + 地 + verb | 慢慢**地**走 · 认真**地**学习 |\n| **得** | the **result** (after the verb) | verb / adj. + 得 + how | 跑**得**很快 · 累**得**不想动 |\n\n**The trick:** look **right** — a noun next → 的, a verb next → 地. Look **left** — a verb or adjective just before → 得. (All three are read *de*.)",
+      "examples": [
+        [
+          "{她|tā}{唱|chàng}{得|de}{非常|fēicháng}{好|hǎo}。",
+          "She sings really well."
+        ]
+      ]
+    },
+    {
+      "id": "d2_obj",
+      "title": "With an object: say the verb twice",
+      "summary": "If the verb has an object, repeat the verb — or move the object to the front.",
+      "body": "- 他**说**中文**说得**很好。 ✔\n- 他中文**说得**很好。 ✔ (object first)\n- ~~他说中文得很好~~ ✘ — 得 must follow a verb directly.\n- ~~他说得中文很好~~ ✘ — nothing goes between 得 and the comment.\n\n| | comes before … | pattern | example |\n|---|---|---|---|\n| **的** | a **noun** | describer + 的 + noun | 漂亮**的**衣服 · 我买**的**书 |\n| **地** | a **verb** (how it's done) | describer + 地 + verb | 慢慢**地**走 · 认真**地**学习 |\n| **得** | the **result** (after the verb) | verb / adj. + 得 + how | 跑**得**很快 · 累**得**不想动 |\n\n**The trick:** look **right** — a noun next → 的, a verb next → 地. Look **left** — a verb or adjective just before → 得. (All three are read *de*.)",
+      "examples": [
+        [
+          "{他|tā}{中文|Zhōngwén}{说|shuō}{得|de}{很|hěn}{流利|liúlì}。",
+          "He speaks Chinese very fluently."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "d2_how",
+      "prompt": "What does 「{他|tā}{跑|pǎo}{得|de}{很|hěn}{快|kuài}。」 mean?",
+      "options": [
+        "He ran off quickly.",
+        "He has to run fast.",
+        "He runs fast.",
+        "He will run fast."
+      ],
+      "answer": 2,
+      "explanation": "Verb + **得** + comment = how he runs.",
+      "notes": [
+        "That'd be 他很快地跑了 — 地 + verb.",
+        "'Has to' is 得 **děi** — and it comes before the verb: 他得跑.",
+        "",
+        "Nothing about the future here."
+      ],
+      "translation": "He runs fast."
+    },
+    {
+      "point": "d2_how",
+      "kind": "sort",
+      "prompt": "地 or 得? Before the verb, or after it?",
+      "items": [
+        "{你|nǐ}{说|shuō}＿{太|tài}{快|kuài}{了|le}。",
+        "{他|tā}{跑|pǎo}＿{很|hěn}{快|kuài}。",
+        "{她|tā}{唱|chàng}＿{很|hěn}{好听|hǎotīng}。",
+        "{他|tā}{认真|rènzhēn}＿{听|tīng}{着|zhe}。",
+        "{她|tā}{开心|kāixīn}＿{唱|chàng}{了|le}{起来|qǐlai}。",
+        "{他|tā}{很|hěn}{快|kuài}＿{跑|pǎo}{了|le}{过去|guòqu}。"
+      ],
+      "groups": [
+        "{地|de}",
+        "{得|de}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "111000"
+      ],
+      "explanation": "**地 + verb** (how you do it) · **verb + 得** (how it turned out).",
+      "notes": [
+        "After 说 → 得.",
+        "After the verb 跑 → 得.",
+        "After 唱 → 得.",
+        "Before 听 → 地.",
+        "Before 唱 → 地.",
+        "Before the verb 跑 → 地."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d2_how",
+      "kind": "tiles",
+      "prompt": "Build it: 'She sings really well.'",
+      "items": [
+        "{非常|fēicháng}",
+        "{她|tā}",
+        "{唱|chàng}",
+        "{得|de}",
+        "{好|hǎo}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "12304"
+      ],
+      "explanation": "她**唱得非常好**。 Verb + 得 + comment.",
+      "notes": [],
+      "translation": "She sings really well."
+    },
+    {
+      "point": "d2_obj",
+      "kind": "tiles",
+      "prompt": "Build it: 'He speaks Chinese very fluently.'",
+      "items": [
+        "{得|de}",
+        "{中文|Zhōngwén}",
+        "{很|hěn}{流利|liúlì}",
+        "{他|tā}",
+        "{说|shuō}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "31402",
+        "13402"
+      ],
+      "explanation": "他**中文说得**很流利。 The object goes in front, so 得 can sit right after 说.",
+      "notes": [],
+      "translation": "He speaks Chinese very fluently."
+    },
+    {
+      "point": "d2_obj",
+      "kind": "multi",
+      "prompt": "Which say 'He writes characters beautifully'? Select all.",
+      "options": [
+        "{他|tā}{的|de}{字|zì}{写|xiě}{得|de}{很|hěn}{漂亮|piàoliang}。",
+        "{他|tā}{写|xiě}{得|de}{字|zì}{很|hěn}{漂亮|piàoliang}。",
+        "{他|tā}{字|zì}{写|xiě}{得|de}{很|hěn}{漂亮|piàoliang}。",
+        "{他|tā}{写|xiě}{字|zì}{写|xiě}{得|de}{很|hěn}{漂亮|piàoliang}。",
+        "{他|tā}{写|xiě}{字|zì}{得|de}{很|hěn}{漂亮|piàoliang}。"
+      ],
+      "answer": 0,
+      "accept": [
+        "023"
+      ],
+      "explanation": "Verb + object + **verb + 得** …, or object first.",
+      "notes": [
+        "'His characters are written beautifully.' ✔",
+        "Nothing can stand between 得 and the comment.",
+        "Object in front: 字写得很漂亮. ✔",
+        "Verb copied: 写字**写得**很漂亮. ✔",
+        "得 must follow a **verb**, not the object: repeat 写."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d2_how",
+      "prompt": "Careful — 「{我|wǒ}{得|děi}{走|zǒu}{了|le}。」 means …",
+      "options": [
+        "I've gone.",
+        "I walked well.",
+        "I can walk.",
+        "I have to go now."
+      ],
+      "answer": 3,
+      "explanation": "得 before a verb is **děi** = must, have to.",
+      "notes": [
+        "得 *děi* = must.",
+        "That would be 我走得很好 — 得 *de* after the verb.",
+        "'Can' is 能 / 会.",
+        ""
+      ],
+      "translation": "I have to go now."
+    },
+    {
+      "point": "d2_how",
+      "kind": "multi",
+      "prompt": "Which are correct? Select all.",
+      "options": [
+        "{不|bù}{跑|pǎo}{得|de}{快|kuài}",
+        "{跑|pǎo}{得|de}{了|le}{很|hěn}{快|kuài}",
+        "{跑|pǎo}{得|de}{满头大汗|mǎn tóu dà hàn}",
+        "{跑|pǎo}{得|de}{不|bú}{快|kuài}",
+        "{跑|pǎo}{得|de}{很|hěn}{快|kuài}"
+      ],
+      "answer": 0,
+      "accept": [
+        "234"
+      ],
+      "explanation": "Verb + 得 + (不) + comment.",
+      "notes": [
+        "The 不 belongs after 得: 跑得不快.",
+        "No 了 between 得 and the comment.",
+        "✔ result: ran till he was dripping with sweat.",
+        "✔ negative: 不 goes **after** 得.",
+        "✔ how fast."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d2_how",
+      "kind": "match",
+      "prompt": "得 does more than 'how well'. Match each sentence to what 得 does.",
+      "items": [
+        "{大家|dàjiā}{笑|xiào}{得|de}{肚子|dùzi}{疼|téng}。",
+        "{我|wǒ}{累|lèi}{得|de}{不|bù}{想|xiǎng}{说话|shuōhuà}。",
+        "{她|tā}{跑|pǎo}{得|de}{很|hěn}{快|kuài}。",
+        "{我|wǒ}{听|tīng}{得|de}{懂|dǒng}。",
+        "{他|tā}{说|shuō}{得|de}{很|hěn}{好|hǎo}。",
+        "{这么|zhème}{多|duō}，{你|nǐ}{吃|chī}{得|de}{完|wán}{吗|ma}？"
+      ],
+      "groups": [
+        "so much that … (a result)",
+        "how (well) it's done",
+        "can/isableto"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "001212"
+      ],
+      "explanation": "Verb + 得 + comment / result / possible (得懂, 得完).",
+      "notes": [
+        "Laughed so much their bellies hurt.",
+        "So tired that I don't want to talk.",
+        "How fast she runs.",
+        "听得懂 = can understand (听不懂 = can't).",
+        "How well he speaks.",
+        "吃得完 = able to finish."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d2_obj",
+      "prompt": "Which is correct?",
+      "options": [
+        "{他|tā}{游泳|yóuyǒng}{得|de}{很|hěn}{快|kuài}。",
+        "{他|tā}{很|hěn}{快|kuài}{得|de}{游泳|yóuyǒng}。",
+        "{他|tā}{游泳|yóuyǒng}{游|yóu}{得|de}{很|hěn}{快|kuài}。",
+        "{他|tā}{游|yóu}{得|de}{泳|yǒng}{很|hěn}{快|kuài}。"
+      ],
+      "answer": 2,
+      "explanation": "游泳 is verb + object → 游泳**游得**很快.",
+      "notes": [
+        "游泳 = 游 (verb) + 泳 (object) — copy the verb: 游泳**游得**.",
+        "Before a verb it would be 地 — and that means something else.",
+        "",
+        "The object can't sit after 得."
+      ],
+      "translation": "He swims fast."
+    }
+  ]
+}

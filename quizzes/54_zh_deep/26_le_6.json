@@ -34,115 +34,109 @@
   "questions": [
     {
       "point": "l6_where",
-      "prompt": "{你|nǐ}{看|kàn}，{花|huā}{开|kāi}（　）！",
-      "options": [
-        "{过|guo}",
-        "{的|de}",
-        "{着|zhe}",
-        "{了|le}"
+      "kind": "sort",
+      "prompt": "了 or no 了? Does the blank need a 了?",
+      "items": [
+        "{你|nǐ}{看|kàn}，{花|huā}{开|kāi}＿！",
+        "{他|tā}{喝|hē}＿{酒|jiǔ}{就|jiù}{睡觉|shuìjiào}{了|le}。",
+        "{上个|shàng ge}{周末|zhōumò}{我|wǒ}{去|qù}＿{一|yí}{次|cì}{长城|Chángchéng}。",
+        "{我|wǒ}{以前|yǐqián}{常常|chángcháng}{做|zuò}＿{中国|Zhōngguó}{菜|cài}。",
+        "{我|wǒ}{今天|jīntiān}{太|tài}{忙|máng}，{还|hái}{没|méi}{吃|chī}＿{午饭|wǔfàn}。",
+        "{我|wǒ}{小时候|xiǎoshíhou}{是|shì}＿{一个|yí ge}{很|hěn}{害羞|hàixiū}{的|de}{孩子|háizi}。"
       ],
-      "answer": 3,
-      "explanation": "News flash: 花开**了**!",
+      "groups": [
+        "了 goes here",
+        "no 了"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "000111"
+      ],
+      "explanation": "了 for **completed actions** and **changes**; none with **没**, **habits** or **states**.",
       "notes": [
-        "过 = experience.",
-        "的 doesn't fit.",
-        "开着 = (are) open — a state, not 'look, they've opened!'.",
-        ""
+        "The flowers have come out — a new situation: 开了.",
+        "First one action, then the next: 喝了酒就…",
+        "A completed action with an amount: 去了一次.",
+        "常常 = a habit → no 了.",
+        "没 + verb → no 了.",
+        "是 describes a state → no 了."
       ],
-      "translation": "Look — the flowers have come out!"
+      "translation": ""
     },
     {
-      "point": "l6_where",
-      "prompt": "{我|wǒ}{以前|yǐqián}{常常|chángcháng}（　）{中国|Zhōngguó}{菜|cài}。",
-      "options": [
-        "{做|zuò}{了|le}{了|le}",
-        "{做|zuò}{了|le}",
-        "{做|zuò}",
-        "{了|le}{做|zuò}"
+      "point": "l6_meaning",
+      "kind": "sort",
+      "prompt": "The big sort: what is each 了 doing?",
+      "items": [
+        "{我|wǒ}{学|xué}{了|le}{两|liǎng}{年|nián}{中文|Zhōngwén}{了|le}。",
+        "{下雨|xià yǔ}{了|le}。",
+        "{他|tā}{喝|hē}{了|le}{两|liǎng}{杯|bēi}{咖啡|kāfēi}。",
+        "{我|wǒ}{等|děng}{了|le}{你|nǐ}{二十|èrshí}{分钟|fēnzhōng}{了|le}。",
+        "{我|wǒ}{买|mǎi}{了|le}{三|sān}{本|běn}{书|shū}。",
+        "{火车|huǒchē}{要|yào}{开|kāi}{了|le}。",
+        "{快|kuài}{下雨|xià yǔ}{了|le}。",
+        "{他|tā}{是|shì}{大学生|dàxuéshēng}{了|le}。"
       ],
-      "answer": 2,
-      "explanation": "Past habit → **no 了**.",
+      "groups": [
+        "✅ done",
+        "🔄 changed",
+        "⏳ still going",
+        "🔜 about to"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "21020331"
+      ],
+      "explanation": "Verb-了 = done · sentence-了 = changed · double 了 + time = still going · 快/要…了 = about to.",
       "notes": [
-        "Double 了 is wrong.",
-        "常常 = habit → no 了.",
-        "",
-        "了 doesn't go before the verb."
+        "Double 了 + a time span: and still learning.",
+        "Sentence-了: a new situation.",
+        "Verb-了: completed.",
+        "Double 了: still waiting!",
+        "Verb-了: an action completed.",
+        "要…了: about to leave.",
+        "快…了: about to rain.",
+        "Sentence-了: new status."
       ],
-      "translation": "I used to cook Chinese food often."
-    },
-    {
-      "point": "l6_where",
-      "prompt": "{上个|shàng ge}{周末|zhōumò}{我|wǒ}{去|qù}（　）{一|yí}{次|cì}{长城|Chángchéng}。",
-      "options": [
-        "{的|de}",
-        "{了|le}",
-        "{在|zài}",
-        "{着|zhe}"
-      ],
-      "answer": 1,
-      "explanation": "Done last weekend: 去**了**一次.",
-      "notes": [
-        "的 doesn't fit.",
-        "",
-        "在 goes before a place.",
-        "着 doesn't fit."
-      ],
-      "translation": "Last weekend I went to the Great Wall."
+      "translation": ""
     },
     {
       "point": "l6_meaning",
       "prompt": "「{我|wǒ}{不|bù}{吃|chī}{肉|ròu}。」 vs 「{我|wǒ}{不|bù}{吃|chī}{肉|ròu}{了|le}。」",
       "options": [
+        "I don't eat meat (generally) vs I don't eat meat any more.",
         "Both: I didn't eat meat.",
         "Both: I don't eat meat any more.",
-        "I won't eat meat vs I didn't eat meat.",
-        "I don't eat meat (generally) vs I don't eat meat any more."
+        "I won't eat meat vs I didn't eat meat."
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "不… = general; **不…了** = no longer.",
       "notes": [
+        "",
         "不 isn't past.",
         "Only the second has the change.",
-        "Neither is 'didn't' (that's 没吃).",
-        ""
+        "Neither is 'didn't' (that's 没吃)."
       ],
       "translation": ""
     },
     {
       "point": "l6_where",
-      "prompt": "{我|wǒ}{今天|jīntiān}{太|tài}{忙|máng}，{还|hái}（　）{午饭|wǔfàn}。",
-      "options": [
-        "{不|bù}{吃|chī}{了|le}",
-        "{没|méi}{吃|chī}",
-        "{没|méi}{吃|chī}{了|le}",
-        "{吃|chī}{了|le}"
-      ],
-      "answer": 1,
-      "explanation": "Not yet: 还**没**吃 (no 了).",
-      "notes": [
-        "不吃了 = not going to eat any more — doesn't fit 还.",
-        "",
-        "没 doesn't take 了.",
-        "吃了 = ate — but you were too busy."
-      ],
-      "translation": "I've been too busy today — I haven't had lunch yet."
-    },
-    {
-      "point": "l6_where",
       "prompt": "{他|tā}{学|xué}{中文|Zhōngwén}{学|xué}{了|le}{两|liǎng}{年|nián}（　），{现在|xiànzài}{还|hái}{在|zài}{学|xué}。",
       "options": [
-        "{了|le}",
         "{的|de}",
         "{过|guo}",
-        "{着|zhe}"
+        "{着|zhe}",
+        "{了|le}"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Still learning → **double 了**.",
       "notes": [
-        "",
         "的 doesn't fit.",
         "过 doesn't fit.",
-        "着 doesn't fit."
+        "着 doesn't fit.",
+        ""
       ],
       "translation": "He's been learning Chinese for two years, and still is."
     },
@@ -150,75 +144,37 @@
       "point": "l6_meaning",
       "prompt": "Which sentence means 'It's about to get dark'?",
       "options": [
-        "{天|tiān}{太|tài}{黑|hēi}{了|le}。",
-        "{天|tiān}{快|kuài}{黑|hēi}{了|le}。",
+        "{天|tiān}{黑|hēi}{了|le}。",
         "{天|tiān}{没|méi}{黑|hēi}。",
-        "{天|tiān}{黑|hēi}{了|le}。"
-      ],
-      "answer": 1,
-      "explanation": "**快…了** = about to.",
-      "notes": [
-        "That's 'it's too dark'.",
-        "",
-        "That's 'it isn't dark'.",
-        "That's 'it's got dark'."
-      ],
-      "translation": "It's about to get dark."
-    },
-    {
-      "point": "l6_where",
-      "prompt": "{我|wǒ}{小时候|xiǎoshíhou}（　）{一个|yí ge}{很|hěn}{害羞|hàixiū}{的|de}{孩子|háizi}。",
-      "options": [
-        "{是|shì}",
-        "{是|shì}{了|le}",
-        "{是|shì}{着|zhe}",
-        "{了|le}{是|shì}"
-      ],
-      "answer": 0,
-      "explanation": "是 → **no 了**.",
-      "notes": [
-        "",
-        "是 in the past → no 了.",
-        "着 doesn't go with 是.",
-        "了 doesn't go before 是."
-      ],
-      "translation": "As a child I was very shy."
-    },
-    {
-      "point": "l6_where",
-      "prompt": "{他|tā}{喝|hē}（　）{酒|jiǔ}{就|jiù}{睡觉|shuìjiào}{了|le}。",
-      "options": [
-        "{过|guo}",
-        "{的|de}",
-        "{了|le}",
-        "{着|zhe}"
+        "{天|tiān}{快|kuài}{黑|hēi}{了|le}。",
+        "{天|tiān}{太|tài}{黑|hēi}{了|le}。"
       ],
       "answer": 2,
-      "explanation": "了…就… = after one action, the next.",
+      "explanation": "**快…了** = about to.",
       "notes": [
-        "过 doesn't fit.",
-        "的 doesn't fit.",
+        "That's 'it's got dark'.",
+        "That's 'it isn't dark'.",
         "",
-        "着 doesn't fit."
+        "That's 'it's too dark'."
       ],
-      "translation": "As soon as he'd had a drink he went to bed."
+      "translation": "It's about to get dark."
     },
     {
       "point": "l6_meaning",
       "prompt": "'Hurry — the shop is about to close!' Which sentence says so?",
       "options": [
+        "{快|kuài}{点儿|diǎnr}，{商店|shāngdiàn}{关|guān}{了|le}{门|mén}{了|le}！",
         "{快|kuài}{点儿|diǎnr}，{商店|shāngdiàn}{要|yào}{关门|guān mén}{了|le}！",
         "{快|kuài}{点儿|diǎnr}，{商店|shāngdiàn}{没|méi}{关门|guān mén}{了|le}！",
-        "{快|kuài}{点儿|diǎnr}，{商店|shāngdiàn}{关门|guān mén}{了|le}！",
-        "{快|kuài}{点儿|diǎnr}，{商店|shāngdiàn}{关|guān}{了|le}{门|mén}{了|le}！"
+        "{快|kuài}{点儿|diǎnr}，{商店|shāngdiàn}{关门|guān mén}{了|le}！"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "About to: **要…了**.",
       "notes": [
+        "That says it's already closed.",
         "",
         "没…了 doesn't work.",
-        "That says it has closed.",
-        "That says it's already closed."
+        "That says it has closed."
       ],
       "translation": "Hurry up — the shop's about to close!"
     },
@@ -226,18 +182,18 @@
       "point": "l6_where",
       "prompt": "{昨天|zuótiān}{晚上|wǎnshang}（　），{我|wǒ}{没|méi}{出去|chūqu}。",
       "options": [
-        "{了|le}{下雨|xià yǔ}",
         "{下|xià}{了|le}{一|yì}{晚上|wǎnshang}{的|de}{雨|yǔ}",
-        "{没|méi}{下雨|xià yǔ}{了|le}",
-        "{下雨|xià yǔ}{了|le}{了|le}"
+        "{下雨|xià yǔ}{了|le}{了|le}",
+        "{了|le}{下雨|xià yǔ}",
+        "{没|méi}{下雨|xià yǔ}{了|le}"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Done (all evening): 下**了**一晚上的雨.",
       "notes": [
-        "了 doesn't go before the verb.",
         "",
-        "没…了 doesn't work.",
-        "Double 了 here is wrong."
+        "Double 了 here is wrong.",
+        "了 doesn't go before the verb.",
+        "没…了 doesn't work."
       ],
       "translation": "It rained all last night, so I didn't go out."
     },
@@ -245,16 +201,16 @@
       "point": "l6_meaning",
       "prompt": "'He's been working here for ten years.' Which sentence says so?",
       "options": [
-        "{他|tā}{在|zài}{这儿|zhèr}{工作|gōngzuò}{了|le}{十|shí}{年|nián}{了|le}。",
         "{他|tā}{在|zài}{这儿|zhèr}{没|méi}{工作|gōngzuò}{十|shí}{年|nián}{了|le}。",
+        "{他|tā}{在|zài}{这儿|zhèr}{工作|gōngzuò}{了|le}{十|shí}{年|nián}{了|le}。",
         "{他|tā}{在|zài}{这儿|zhèr}{工作|gōngzuò}{十|shí}{年|nián}。",
         "{他|tā}{在|zài}{这儿|zhèr}{工作|gōngzuò}{过|guo}{十|shí}{年|nián}。"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Still working there → **double 了**.",
       "notes": [
-        "",
         "That says he hasn't worked here for ten years.",
+        "",
         "No 了 — sounds like a plan.",
         "过 = once, in the past."
       ],

@@ -1,0 +1,201 @@
+{
+  "id": "zh-dd-babei-5",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "把 vs 被 Step 5 · Boss Level: 小林's Terrible Day",
+  "description": "A broken alarm, a forgotten phone, a bike, a missing report and a downpour. What did 小林 do, and what happened to him?",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "b5_read",
+      "title": "Reading 把 and 被 in a story",
+      "summary": "把 = what 小林 did to things; 被 = what happened to him (or his things).",
+      "body": "Track the doer every time.\n\n| | pattern | the subject … | feeling |\n|---|---|---|---|\n| **把** | doer + 把 + thing + verb + result | **does** something to the thing | what you did to it |\n| **被** | thing + 被 + (doer) + verb + result | **receives** the action | often bad luck: got …ed |\n\n**Both** need something after the verb: ~~我把饭吃~~ → 我把饭吃**完了** · ~~杯子被打~~ → 杯子被打**破了**.\n**没 / 不 / 想 / 要** go **before** 把 / 被: 我**没**把作业做完 · 他**没**被抓住.",
+      "examples": [
+        [
+          "{他|tā}{把|bǎ}{手机|shǒujī}{忘|wàng}{在|zài}{家里|jiāli}{了|le}。",
+          "He left his phone at home."
+        ]
+      ]
+    },
+    {
+      "id": "b5_mixed",
+      "title": "Final mixed challenge",
+      "summary": "Everything: shape, result, flip, negation, limits.",
+      "body": "Doer 把 thing … · Thing 被 doer …\n\n| | pattern | the subject … | feeling |\n|---|---|---|---|\n| **把** | doer + 把 + thing + verb + result | **does** something to the thing | what you did to it |\n| **被** | thing + 被 + (doer) + verb + result | **receives** the action | often bad luck: got …ed |\n\n**Both** need something after the verb: ~~我把饭吃~~ → 我把饭吃**完了** · ~~杯子被打~~ → 杯子被打**破了**.\n**没 / 不 / 想 / 要** go **before** 把 / 被: 我**没**把作业做完 · 他**没**被抓住.",
+      "examples": [
+        [
+          "{他|tā}{马上|mǎshàng}{把|bǎ}{闹钟|nàozhōng}{修|xiū}{好|hǎo}{了|le}。",
+          "He fixed the alarm clock at once."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "b5_read",
+      "prompt": "{今天|jīntiān}{早上|zǎoshang}{小林|Xiǎo Lín}{的|de}{闹钟|nàozhōng}{坏|huài}{了|le}，{他|tā}{起|qǐ}{晚|wǎn}{了|le}。{他|tā}{急急忙忙|jíjí-mángmáng}{地|de}{出门|chūmén}，{可是|kěshì}{把|bǎ}{手机|shǒujī}{忘|wàng}{在|zài}{家里|jiāli}{了|le}。{在|zài}{路上|lùshang}，{他|tā}{被|bèi}{一|yí}{辆|liàng}{自行车|zìxíngchē}{撞|zhuàng}{了|le}{一下|yíxià}，{还好|háihǎo}{没|méi}{受伤|shòushāng}。{到|dào}{了|le}{公司|gōngsī}，{他|tā}{发现|fāxiàn}{报告|bàogào}{被|bèi}{同事|tóngshì}{拿|ná}{走|zǒu}{了|le}。{中午|zhōngwǔ}{下|xià}{大雨|dàyǔ}，{他|tā}{又|yòu}{被|bèi}{雨|yǔ}{淋|lín}{湿|shī}{了|le}。{晚上|wǎnshang}{回家|huí jiā}，{他|tā}{马上|mǎshàng}{把|bǎ}{闹钟|nàozhōng}{修|xiū}{好|hǎo}{了|le}：“{明天|míngtiān}{不|bù}{能|néng}{再|zài}{迟到|chídào}{了|le}！”\n\n★ {小林|Xiǎo Lín}{把|bǎ}{手机|shǒujī}{带|dài}{到|dào}{公司|gōngsī}{了|le}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "把手机**忘在家里**了.",
+      "notes": [
+        "把手机忘在家里了 — it stayed at home.",
+        ""
+      ],
+      "translation": "This morning Xiao Lin's alarm clock broke and he overslept. He rushed out of the door — but left his phone at home. On the way he got bumped by a bike; luckily he wasn't hurt. At the office he found that a colleague had taken his report. At noon it poured and he got soaked again. In the evening he went home and fixed the alarm clock at once: 'I can't be late again tomorrow!' ★ Xiao Lin took his phone to the office.",
+      "fixed_order": true
+    },
+    {
+      "point": "b5_read",
+      "prompt": "{今天|jīntiān}{早上|zǎoshang}{小林|Xiǎo Lín}{的|de}{闹钟|nàozhōng}{坏|huài}{了|le}，{他|tā}{起|qǐ}{晚|wǎn}{了|le}。{他|tā}{急急忙忙|jíjí-mángmáng}{地|de}{出门|chūmén}，{可是|kěshì}{把|bǎ}{手机|shǒujī}{忘|wàng}{在|zài}{家里|jiāli}{了|le}。{在|zài}{路上|lùshang}，{他|tā}{被|bèi}{一|yí}{辆|liàng}{自行车|zìxíngchē}{撞|zhuàng}{了|le}{一下|yíxià}，{还好|háihǎo}{没|méi}{受伤|shòushāng}。{到|dào}{了|le}{公司|gōngsī}，{他|tā}{发现|fāxiàn}{报告|bàogào}{被|bèi}{同事|tóngshì}{拿|ná}{走|zǒu}{了|le}。{中午|zhōngwǔ}{下|xià}{大雨|dàyǔ}，{他|tā}{又|yòu}{被|bèi}{雨|yǔ}{淋|lín}{湿|shī}{了|le}。{晚上|wǎnshang}{回家|huí jiā}，{他|tā}{马上|mǎshàng}{把|bǎ}{闹钟|nàozhōng}{修|xiū}{好|hǎo}{了|le}：“{明天|míngtiān}{不|bù}{能|néng}{再|zài}{迟到|chídào}{了|le}！”\n\n★ {小林|Xiǎo Lín}{被|bèi}{自行车|zìxíngchē}{撞|zhuàng}{伤|shāng}{了|le}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "撞了一下, but **没受伤**.",
+      "notes": [
+        "还好没受伤 — not hurt.",
+        ""
+      ],
+      "translation": "This morning Xiao Lin's alarm clock broke and he overslept. He rushed out of the door — but left his phone at home. On the way he got bumped by a bike; luckily he wasn't hurt. At the office he found that a colleague had taken his report. At noon it poured and he got soaked again. In the evening he went home and fixed the alarm clock at once: 'I can't be late again tomorrow!' ★ Xiao Lin was injured by a bike.",
+      "fixed_order": true
+    },
+    {
+      "point": "b5_read",
+      "prompt": "{今天|jīntiān}{早上|zǎoshang}{小林|Xiǎo Lín}{的|de}{闹钟|nàozhōng}{坏|huài}{了|le}，{他|tā}{起|qǐ}{晚|wǎn}{了|le}。{他|tā}{急急忙忙|jíjí-mángmáng}{地|de}{出门|chūmén}，{可是|kěshì}{把|bǎ}{手机|shǒujī}{忘|wàng}{在|zài}{家里|jiāli}{了|le}。{在|zài}{路上|lùshang}，{他|tā}{被|bèi}{一|yí}{辆|liàng}{自行车|zìxíngchē}{撞|zhuàng}{了|le}{一下|yíxià}，{还好|háihǎo}{没|méi}{受伤|shòushāng}。{到|dào}{了|le}{公司|gōngsī}，{他|tā}{发现|fāxiàn}{报告|bàogào}{被|bèi}{同事|tóngshì}{拿|ná}{走|zǒu}{了|le}。{中午|zhōngwǔ}{下|xià}{大雨|dàyǔ}，{他|tā}{又|yòu}{被|bèi}{雨|yǔ}{淋|lín}{湿|shī}{了|le}。{晚上|wǎnshang}{回家|huí jiā}，{他|tā}{马上|mǎshàng}{把|bǎ}{闹钟|nàozhōng}{修|xiū}{好|hǎo}{了|le}：“{明天|míngtiān}{不|bù}{能|néng}{再|zài}{迟到|chídào}{了|le}！”\n\n★ {同事|tóngshì}{把|bǎ}{小林|Xiǎo Lín}{的|de}{报告|bàogào}{拿|ná}{走|zǒu}{了|le}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "Flip: 报告**被同事**拿走了 = 同事**把报告**拿走了.",
+      "notes": [
+        "",
+        "报告被同事拿走了 = the colleague took it."
+      ],
+      "translation": "This morning Xiao Lin's alarm clock broke and he overslept. He rushed out of the door — but left his phone at home. On the way he got bumped by a bike; luckily he wasn't hurt. At the office he found that a colleague had taken his report. At noon it poured and he got soaked again. In the evening he went home and fixed the alarm clock at once: 'I can't be late again tomorrow!' ★ A colleague took Xiao Lin's report.",
+      "fixed_order": true
+    },
+    {
+      "point": "b5_read",
+      "prompt": "{今天|jīntiān}{早上|zǎoshang}{小林|Xiǎo Lín}{的|de}{闹钟|nàozhōng}{坏|huài}{了|le}，{他|tā}{起|qǐ}{晚|wǎn}{了|le}。{他|tā}{急急忙忙|jíjí-mángmáng}{地|de}{出门|chūmén}，{可是|kěshì}{把|bǎ}{手机|shǒujī}{忘|wàng}{在|zài}{家里|jiāli}{了|le}。{在|zài}{路上|lùshang}，{他|tā}{被|bèi}{一|yí}{辆|liàng}{自行车|zìxíngchē}{撞|zhuàng}{了|le}{一下|yíxià}，{还好|háihǎo}{没|méi}{受伤|shòushāng}。{到|dào}{了|le}{公司|gōngsī}，{他|tā}{发现|fāxiàn}{报告|bàogào}{被|bèi}{同事|tóngshì}{拿|ná}{走|zǒu}{了|le}。{中午|zhōngwǔ}{下|xià}{大雨|dàyǔ}，{他|tā}{又|yòu}{被|bèi}{雨|yǔ}{淋|lín}{湿|shī}{了|le}。{晚上|wǎnshang}{回家|huí jiā}，{他|tā}{马上|mǎshàng}{把|bǎ}{闹钟|nàozhōng}{修|xiū}{好|hǎo}{了|le}：“{明天|míngtiān}{不|bù}{能|néng}{再|zài}{迟到|chídào}{了|le}！”\n\n★ {晚上|wǎnshang}{小林|Xiǎo Lín}{做|zuò}{了|le}{什么|shénme}？",
+      "options": [
+        "{买|mǎi}{了|le}{新|xīn}{手机|shǒujī}",
+        "{把|bǎ}{闹钟|nàozhōng}{修|xiū}{好|hǎo}{了|le}",
+        "{把|bǎ}{报告|bàogào}{拿|ná}{走|zǒu}{了|le}",
+        "{被|bèi}{雨|yǔ}{淋|lín}{湿|shī}{了|le}"
+      ],
+      "answer": 1,
+      "explanation": "把闹钟**修好**了.",
+      "notes": [
+        "Not mentioned.",
+        "",
+        "The colleague took the report.",
+        "That was at noon."
+      ],
+      "translation": "This morning Xiao Lin's alarm clock broke and he overslept. He rushed out of the door — but left his phone at home. On the way he got bumped by a bike; luckily he wasn't hurt. At the office he found that a colleague had taken his report. At noon it poured and he got soaked again. In the evening he went home and fixed the alarm clock at once: 'I can't be late again tomorrow!' ★ What did Xiao Lin do in the evening?"
+    },
+    {
+      "point": "b5_mixed",
+      "kind": "sort",
+      "prompt": "From the story: did 小林 do it, or did it happen to him (or his things)?",
+      "items": [
+        "{又|yòu}{被|bèi}{雨|yǔ}{淋|lín}{湿|shī}{了|le}",
+        "{把|bǎ}{手机|shǒujī}{忘|wàng}{在|zài}{家里|jiāli}{了|le}",
+        "{被|bèi}{一|yí}{辆|liàng}{自行车|zìxíngchē}{撞|zhuàng}{了|le}{一下|yíxià}",
+        "{报告|bàogào}{被|bèi}{同事|tóngshì}{拿|ná}{走|zǒu}{了|le}",
+        "{把|bǎ}{闹钟|nàozhōng}{修|xiū}{好|hǎo}{了|le}"
+      ],
+      "groups": [
+        "👉 小林 did it",
+        "🎯 It happened to him"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "10110"
+      ],
+      "explanation": "把 = 小林 acting; 被 = 小林 on the receiving end.",
+      "notes": [
+        "被: soaked.",
+        "把: he left it.",
+        "被: he got bumped.",
+        "被: his report got taken.",
+        "把: he fixed it."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b5_mixed",
+      "kind": "tiles",
+      "prompt": "Build it: 'He left his phone at home.'",
+      "items": [
+        "{把|bǎ}",
+        "{在|zài}",
+        "{手机|shǒujī}",
+        "{家里|jiāli}{了|le}",
+        "{忘|wàng}",
+        "{他|tā}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "502413"
+      ],
+      "explanation": "他**把手机忘在家里了**。 把 + thing + verb + 在 + place.",
+      "notes": [],
+      "translation": "He left his phone at home."
+    },
+    {
+      "point": "b5_mixed",
+      "kind": "multi",
+      "prompt": "Which sentences are correct? Select all.",
+      "options": [
+        "{他|tā}{被|bèi}{没|méi}{撞|zhuàng}{伤|shāng}。",
+        "{报告|bàogào}{被|bèi}{拿|ná}{走|zǒu}{了|le}。",
+        "{他|tā}{没|méi}{把|bǎ}{报告|bàogào}{写|xiě}{完|wán}。",
+        "{他|tā}{把|bǎ}{雨|yǔ}{淋|lín}{湿|shī}{了|le}。",
+        "{他|tā}{把|bǎ}{闹钟|nàozhōng}{修|xiū}。",
+        "{请|qǐng}{把|bǎ}{闹钟|nàozhōng}{修|xiū}{好|hǎo}。"
+      ],
+      "answer": 0,
+      "accept": [
+        "125"
+      ],
+      "explanation": "Shape, result and negation together.",
+      "notes": [
+        "没 before 被: 没被撞伤.",
+        "✔ doer left out.",
+        "✔ 没 before 把.",
+        "He soaked the rain? → 他被雨淋湿了.",
+        "Bare verb → 修好.",
+        "✔ verb + result."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b5_mixed",
+      "prompt": "Which summary is right?",
+      "options": [
+        "把: doer first, does something to the thing · 被: receiver first, it happens to them",
+        "把 and 被 mean the same",
+        "把 = passive, 被 = active",
+        "Both can end with a bare verb"
+      ],
+      "answer": 0,
+      "explanation": "**把** = handling · **被** = receiving. Both need verb + result.",
+      "notes": [
+        "",
+        "Opposite viewpoints.",
+        "Swapped.",
+        "Both need a result after the verb."
+      ],
+      "translation": "",
+      "fixed_order": true
+    }
+  ]
+}

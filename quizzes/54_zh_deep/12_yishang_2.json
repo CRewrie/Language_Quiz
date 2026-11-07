@@ -68,18 +68,18 @@
       "point": "y2_incl",
       "prompt": "In a law or official rule, 「{六十|liùshí}{岁|suì}{以上|yǐshàng}」 means …",
       "options": [
+        "60 and older — 60 included",
         "about 60",
         "older than 60 — 60 not included",
-        "younger than 60",
-        "60 and older — 60 included"
+        "younger than 60"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Rules and laws: 以上、以下 **包括本数** — the number counts.",
       "notes": [
+        "",
         "That's 六十岁左右.",
         "In rules and laws 以上 **includes** the number.",
-        "That's 以下.",
-        ""
+        "That's 以下."
       ],
       "translation": ""
     },
@@ -119,18 +119,18 @@
       "point": "y2_strict",
       "prompt": "Which phrase means 'fewer than ten people' — ten **not** included?",
       "options": [
-        "{十|shí}{多|duō}{个|ge}{人|rén}",
-        "{十|shí}{个|ge}{人|rén}{以上|yǐshàng}",
         "{不到|bú dào}{十|shí}{个|ge}{人|rén}",
-        "{十|shí}{个|ge}{人|rén}{以下|yǐxià}"
+        "{十|shí}{多|duō}{个|ge}{人|rén}",
+        "{十|shí}{个|ge}{人|rén}{以下|yǐxià}",
+        "{十|shí}{个|ge}{人|rén}{以上|yǐshàng}"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Strictly fewer: **不到**.",
       "notes": [
-        "十多个 = more than ten (eleven to nineteen).",
-        "That's ten or more.",
         "",
-        "以下 often includes ten (always in rules)."
+        "十多个 = more than ten (eleven to nineteen).",
+        "以下 often includes ten (always in rules).",
+        "That's ten or more."
       ],
       "translation": "fewer than ten people"
     },
@@ -138,18 +138,18 @@
       "point": "y2_strict",
       "prompt": "{这|zhè}{家|jiā}{饭馆|fànguǎn}{每|měi}{人|rén}（　）{消费|xiāofèi}{五十|wǔshí}{块|kuài}，{也|yě}{就是|jiùshì}{说|shuō}{五十|wǔshí}{块|kuài}{以上|yǐshàng}。",
       "options": [
-        "{最多|zuìduō}",
         "{不到|bú dào}",
-        "{左右|zuǒyòu}",
-        "{至少|zhìshǎo}"
+        "{最多|zuìduō}",
+        "{至少|zhìshǎo}",
+        "{左右|zuǒyòu}"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "以上 ≈ **至少** (at least).",
       "notes": [
-        "最多 = at most — the opposite of 以上.",
         "不到 = less than.",
-        "左右 goes after the number.",
-        ""
+        "最多 = at most — the opposite of 以上.",
+        "",
+        "左右 goes after the number."
       ],
       "translation": "At this restaurant everyone spends at least 50 kuai — that is, 50 or more."
     },
@@ -157,18 +157,18 @@
       "point": "y2_incl",
       "prompt": "Why do some notices say 「{一米二|yì mǐ èr}{以下|yǐxià}（{含|hán}）」?",
       "options": [
-        "To make clear that exactly 1.2 m counts.",
-        "Because 以下 means 'above'.",
         "Because 含 means 'about'.",
-        "To say 1.2 m does not count."
+        "To make clear that exactly 1.2 m counts.",
+        "To say 1.2 m does not count.",
+        "Because 以下 means 'above'."
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "In everyday use 以上/以下 can be fuzzy, so notices add **(含)** = inclusive.",
       "notes": [
-        "",
-        "以下 = and below.",
         "含 = including.",
-        "That would be (不含)."
+        "",
+        "That would be (不含).",
+        "以下 = and below."
       ],
       "translation": "1.2 m and under (inclusive)"
     },
@@ -176,18 +176,18 @@
       "point": "y2_strict",
       "prompt": "Which phrase means 'at most 20 kg'?",
       "options": [
-        "{至少|zhìshǎo}{二十|èrshí}{公斤|gōngjīn}",
-        "{二十|èrshí}{公斤|gōngjīn}{以上|yǐshàng}",
+        "{最多|zuìduō}{二十|èrshí}{公斤|gōngjīn}",
         "{超过|chāoguò}{二十|èrshí}{公斤|gōngjīn}",
-        "{最多|zuìduō}{二十|èrshí}{公斤|gōngjīn}"
+        "{二十|èrshí}{公斤|gōngjīn}{以上|yǐshàng}",
+        "{至少|zhìshǎo}{二十|èrshí}{公斤|gōngjīn}"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "以下 ≈ **最多** (at most).",
       "notes": [
-        "至少 = at least.",
-        "以上 = 20 or more.",
+        "",
         "超过 = more than.",
-        ""
+        "以上 = 20 or more.",
+        "至少 = at least."
       ],
       "translation": "at most 20 kg"
     },
@@ -212,17 +212,17 @@
       "prompt": "{考试|kǎoshì}（　）{六十|liùshí}{分|fēn}{就|jiù}{不|bù}{及格|jígé}。",
       "options": [
         "{以上|yǐshàng}",
-        "{超过|chāoguò}",
+        "{至少|zhìshǎo}",
         "{不到|bú dào}",
-        "{至少|zhìshǎo}"
+        "{超过|chāoguò}"
       ],
       "answer": 2,
       "explanation": "Below 60 → fail: **不到**六十分.",
       "notes": [
         "以上 goes after the number — and 'above 60' would pass.",
-        "超过六十分 = more than 60 — that's a pass.",
+        "至少六十分 = at least 60 — that's a pass.",
         "",
-        "至少六十分 = at least 60 — that's a pass."
+        "超过六十分 = more than 60 — that's a pass."
       ],
       "translation": "If you get less than 60 in the exam, you fail."
     },
@@ -231,16 +231,16 @@
       "prompt": "A sign says 「{限高|xiàn gāo}{三|sān}{米|mǐ}」 (height limit 3 m). Which phrase means the same?",
       "options": [
         "{三|sān}{米|mǐ}{以下|yǐxià}{的|de}{车|chē}{可以|kěyǐ}{通过|tōngguò}",
-        "{超过|chāoguò}{三|sān}{米|mǐ}{的|de}{车|chē}{可以|kěyǐ}{通过|tōngguò}",
         "{三|sān}{米|mǐ}{以上|yǐshàng}{的|de}{车|chē}{可以|kěyǐ}{通过|tōngguò}",
+        "{超过|chāoguò}{三|sān}{米|mǐ}{的|de}{车|chē}{可以|kěyǐ}{通过|tōngguò}",
         "{三|sān}{米|mǐ}{左右|zuǒyòu}{的|de}{车|chē}{可以|kěyǐ}{通过|tōngguò}"
       ],
       "answer": 0,
       "explanation": "A height limit lets through vehicles **三米以下**.",
       "notes": [
         "",
-        "超过三米 = taller than 3 m — not allowed.",
         "Taller vehicles are exactly what the limit stops.",
+        "超过三米 = taller than 3 m — not allowed.",
         "左右 = about — a limit is not 'about'."
       ],
       "translation": "Vehicles 3 m and under may pass."

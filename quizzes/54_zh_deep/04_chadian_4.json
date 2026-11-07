@@ -52,18 +52,18 @@
       "point": "s4_relief",
       "prompt": "What does 「{他|tā}{差点|chàdiǎn}{没|méi}{考上|kǎoshàng}{大学|dàxué}。」 mean?",
       "options": [
-        "He didn't get into university.",
         "He got in easily.",
         "He almost took the entrance exam.",
-        "He only just got into university."
+        "He only just got into university.",
+        "He didn't get into university."
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Wanted + 差点没 → **did happen**, barely.",
       "notes": [
-        "考上 is wanted → 差点没 = he **did** get in.",
         "差点 says it was close — not easy.",
         "考上 = pass the entrance exam.",
-        ""
+        "",
+        "考上 is wanted → 差点没 = he **did** get in."
       ],
       "translation": "He only just got into university."
     },
@@ -87,18 +87,18 @@
       "point": "s4_clues",
       "prompt": "{路|lù}{上|shang}{太|tài}{堵|dǔ}{了|le}，{我们|wǒmen}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{火车|huǒchē}，（　）{最后|zuìhòu}{一|yì}{分钟|fēnzhōng}{上|shàng}{了|le}{车|chē}。",
       "options": [
-        "{本来|běnlái}",
-        "{幸亏|xìngkuī}",
+        "{可惜|kěxī}",
         "{差点|chàdiǎn}",
-        "{可惜|kěxī}"
+        "{本来|běnlái}",
+        "{幸亏|xìngkuī}"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "It worked out → relief: **幸亏** (luckily).",
       "notes": [
-        "本来 = 'originally' — doesn't fit.",
-        "",
+        "可惜 = 'what a pity' — but you got on.",
         "差点 = 'almost' — but you did get on.",
-        "可惜 = 'what a pity' — but you got on."
+        "本来 = 'originally' — doesn't fit.",
+        ""
       ],
       "translation": "The traffic was terrible — we almost missed the train; luckily we got on in the last minute."
     },
@@ -126,17 +126,17 @@
       "point": "s4_relief",
       "prompt": "The concert sold out right after you bought the last ticket. Which sentence fits?",
       "options": [
-        "{我|wǒ}{买到|mǎidào}{票|piào}{差点|chàdiǎn}。",
         "{我|wǒ}{差点|chàdiǎn}{买到|mǎidào}{票|piào}。",
         "{我|wǒ}{没|méi}{买到|mǎidào}{票|piào}。",
+        "{我|wǒ}{买到|mǎidào}{票|piào}{差点|chàdiǎn}。",
         "{我|wǒ}{差点|chàdiǎn}{没|méi}{买到|mǎidào}{票|piào}。"
       ],
       "answer": 3,
       "explanation": "Got it, just → **差点没买到**.",
       "notes": [
-        "差点 goes before the verb.",
         "差点买到 = almost got one — no ticket.",
         "That says you didn't get one.",
+        "差点 goes before the verb.",
         ""
       ],
       "translation": "I almost didn't get a ticket."
@@ -145,17 +145,17 @@
       "point": "s4_clues",
       "prompt": "Your friend says 「{我|wǒ}{差点|chàdiǎn}{没|méi}{通过|tōngguò}{考试|kǎoshì}。」 Which reply fits?",
       "options": [
-        "{你|nǐ}{怎么|zěnme}{不|bù}{考试|kǎoshì}？",
-        "{好险|hǎo xiǎn}！{恭喜|gōngxǐ}{你|nǐ}{过|guò}{了|le}！",
         "{别|bié}{难过|nánguò}，{没|méi}{通过|tōngguò}{也|yě}{没关系|méi guānxi}。",
+        "{好险|hǎo xiǎn}！{恭喜|gōngxǐ}{你|nǐ}{过|guò}{了|le}！",
+        "{你|nǐ}{怎么|zěnme}{不|bù}{考试|kǎoshì}？",
         "{太|tài}{可惜|kěxī}{了|le}，{下次|xiàcì}{再|zài}{努力|nǔlì}。"
       ],
       "answer": 1,
       "explanation": "Passed, just → relief: **好险！恭喜！**",
       "notes": [
-        "They did take the exam.",
-        "",
         "They passed — no need for comfort.",
+        "",
+        "They did take the exam.",
         "可惜 means they failed — they passed."
       ],
       "translation": "I almost didn't pass the exam."
@@ -164,18 +164,18 @@
       "point": "s4_relief",
       "prompt": "What does 「{这|zhè}{道|dào}{题|tí}{太|tài}{难|nán}{了|le}，{我|wǒ}{差点|chàdiǎn}{没|méi}{做|zuò}{出来|chūlai}。」 mean?",
       "options": [
-        "The problem was so hard — I only just managed to solve it.",
         "I didn't try.",
         "The problem was so hard I couldn't solve it.",
-        "I almost solved it."
+        "I almost solved it.",
+        "The problem was so hard — I only just managed to solve it."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Wanted + 差点没 → **did** happen: solved it, just.",
       "notes": [
-        "",
         "You tried hard.",
         "Solving it is wanted → 差点没 = you **did** solve it.",
-        "'Almost solved it' would be 差点做出来."
+        "'Almost solved it' would be 差点做出来.",
+        ""
       ],
       "translation": "This problem was so hard I only just managed it."
     },
@@ -183,18 +183,18 @@
       "point": "s4_relief",
       "prompt": "「{最后|zuìhòu}{一|yì}{秒|miǎo}{才|cái}{进球|jìnqiú}——{我们|wǒmen}{差点|chàdiǎn}{没|méi}{赢|yíng}！」 What happened?",
       "options": [
-        "We lost by a hair.",
         "It was a draw.",
+        "We won, but only just.",
         "We didn't play.",
-        "We won, but only just."
+        "We lost by a hair."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "Wanted + 差点没 → **won**, barely. 🎉",
       "notes": [
-        "'Lost by a hair' would be 差点赢了.",
         "Winning is the wanted event — and you won.",
+        "",
         "You played — and scored.",
-        ""
+        "'Lost by a hair' would be 差点赢了."
       ],
       "translation": "We only scored in the last second — we very nearly didn't win!"
     },
@@ -203,17 +203,17 @@
       "prompt": "'I almost couldn't find you! (but I did)' Which sentence says so?",
       "options": [
         "{我|wǒ}{差点|chàdiǎn}{没|méi}{找到|zhǎodào}{你|nǐ}！",
+        "{我|wǒ}{找到|zhǎodào}{你|nǐ}{差点|chàdiǎn}！",
         "{我|wǒ}{差点|chàdiǎn}{找到|zhǎodào}{你|nǐ}！",
-        "{我|wǒ}{没|méi}{找到|zhǎodào}{你|nǐ}！",
-        "{我|wǒ}{找到|zhǎodào}{你|nǐ}{差点|chàdiǎn}！"
+        "{我|wǒ}{没|méi}{找到|zhǎodào}{你|nǐ}！"
       ],
       "answer": 0,
       "explanation": "Found them, just → **差点没找到**.",
       "notes": [
         "",
+        "差点 goes before the verb.",
         "差点找到 = almost found you — so you didn't.",
-        "That says you didn't find them.",
-        "差点 goes before the verb."
+        "That says you didn't find them."
       ],
       "translation": "I almost couldn't find you!"
     },
@@ -222,17 +222,17 @@
       "prompt": "A：{你|nǐ}{考|kǎo}{得|de}{怎么样|zěnmeyàng}？\nB：{别提了|bié tí le}，{差点|chàdiǎn}{没|méi}{及格|jígé}。\nA：（　）",
       "options": [
         "{那|nà}{太|tài}{可惜|kěxī}{了|le}，{下次|xiàcì}{加油|jiāyóu}！",
+        "{你|nǐ}{怎么|zěnme}{没|méi}{去|qù}{考|kǎo}？",
         "{没|méi}{及格|jígé}{也|yě}{没关系|méi guānxi}。",
-        "{那|nà}{还好|háihǎo}，{总算|zǒngsuàn}{过|guò}{了|le}！",
-        "{你|nǐ}{怎么|zěnme}{没|méi}{去|qù}{考|kǎo}？"
+        "{那|nà}{还好|háihǎo}，{总算|zǒngsuàn}{过|guò}{了|le}！"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "差点没及格 = **passed**, just → 还好，总算过了！",
       "notes": [
         "可惜 means they failed — they passed.",
+        "They did take the exam.",
         "They didn't fail.",
-        "",
-        "They did take the exam."
+        ""
       ],
       "translation": "A: How did the exam go? B: Don't ask — I very nearly failed. A: Well, at least you passed!"
     },

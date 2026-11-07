@@ -34,39 +34,41 @@
   "questions": [
     {
       "point": "l1_done",
-      "prompt": "{昨天|zuótiān}{我|wǒ}{买|mǎi}（　）{三|sān}{本|běn}{书|shū}。",
-      "options": [
-        "{着|zhe}",
-        "{的|de}",
-        "{过|guo}",
-        "{了|le}"
+      "kind": "tiles",
+      "prompt": "Build it: 'Yesterday I bought three books.'",
+      "items": [
+        "{买|mǎi}{了|le}",
+        "{书|shū}",
+        "{我|wǒ}",
+        "{昨天|zuótiān}",
+        "{三|sān}{本|běn}"
       ],
-      "answer": 3,
-      "explanation": "A completed action: verb + **了**.",
-      "notes": [
-        "着 = ongoing state — not a completed purchase.",
-        "的 doesn't go after a verb like this.",
-        "过 = 'have ever' (experience) — not 'bought yesterday'.",
-        ""
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "32041",
+        "23041"
       ],
+      "explanation": "昨天我**买了**三本书。 了 straight after the verb, then the amount.",
+      "notes": [],
       "translation": "Yesterday I bought three books."
     },
     {
       "point": "l1_done",
       "prompt": "What does 「{他|tā}{喝|hē}{了|le}{两|liǎng}{杯|bēi}{咖啡|kāfēi}。」 mean?",
       "options": [
-        "He drank two cups of coffee.",
-        "He has never drunk coffee.",
         "He's drinking two cups of coffee.",
-        "He drinks two cups of coffee (every day)."
+        "He has never drunk coffee.",
+        "He drinks two cups of coffee (every day).",
+        "He drank two cups of coffee."
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Verb + **了** + number = done.",
       "notes": [
-        "",
-        "That's 没喝过.",
         "Ongoing would be 正在喝.",
-        "Habits don't take 了."
+        "That's 没喝过.",
+        "Habits don't take 了.",
+        ""
       ],
       "translation": "He drank two cups of coffee."
     },
@@ -74,18 +76,18 @@
       "point": "l1_shape",
       "prompt": "Which sentence sounds **complete** on its own?",
       "options": [
+        "{我|wǒ}{买|mǎi}{了|le}{书|shū}。",
         "{我|wǒ}{买|mǎi}{书|shū}{了|le}{了|le}。",
-        "{我|wǒ}{了|le}{买|mǎi}{书|shū}。",
         "{我|wǒ}{买|mǎi}{了|le}{三|sān}{本|běn}{书|shū}。",
-        "{我|wǒ}{买|mǎi}{了|le}{书|shū}。"
+        "{我|wǒ}{了|le}{买|mǎi}{书|shū}。"
       ],
       "answer": 2,
       "explanation": "Verb-了 likes a **number**: 买了三本书.",
       "notes": [
+        "Verb-了 + a bare object sounds unfinished ('… and then?').",
         "One 了 at the end is enough here.",
-        "了 goes after the verb.",
         "",
-        "Verb-了 + a bare object sounds unfinished ('… and then?')."
+        "了 goes after the verb."
       ],
       "translation": "I bought three books."
     },
@@ -95,92 +97,111 @@
       "options": [
         "{都|dōu}",
         "{就|jiù}",
-        "{才|cái}",
-        "{了|le}"
+        "{了|le}",
+        "{才|cái}"
       ],
       "answer": 1,
       "explanation": "**了…就…**: as soon as one action is done, the next follows.",
       "notes": [
         "都 doesn't fit.",
         "",
-        "才 = 'only then' — not the usual pattern here.",
-        "了 doesn't link two actions."
+        "了 doesn't link two actions.",
+        "才 = 'only then' — not the usual pattern here."
       ],
       "translation": "I go home as soon as class is over."
     },
     {
-      "point": "l1_done",
-      "prompt": "{我们|wǒmen}{昨天|zuótiān}{看|kàn}（　）{一个|yí ge}{很|hěn}{好看|hǎokàn}{的|de}{电影|diànyǐng}。",
+      "point": "l1_shape",
+      "kind": "multi",
+      "prompt": "Which sentences put 了 in the right place? Select all of them.",
       "options": [
-        "{过|guo}{了|le}",
-        "{着|zhe}",
-        "{在|zài}",
-        "{了|le}"
+        "{我|wǒ}{下|xià}{了|le}{课|kè}{就|jiù}{回家|huí jiā}。",
+        "{我|wǒ}{吃|chī}{两|liǎng}{碗|wǎn}{了|le}{米饭|mǐfàn}。",
+        "{他|tā}{喝|hē}{了|le}{两|liǎng}{杯|bēi}{咖啡|kāfēi}。",
+        "{我|wǒ}{了|le}{吃|chī}{两|liǎng}{碗|wǎn}{米饭|mǐfàn}。",
+        "{他|tā}{喝|hē}{两|liǎng}{杯|bēi}{咖啡|kāfēi}{了|le}{了|le}。",
+        "{我|wǒ}{吃|chī}{了|le}{两|liǎng}{碗|wǎn}{米饭|mǐfàn}。"
       ],
-      "answer": 3,
-      "explanation": "Done yesterday: 看**了**一个电影.",
+      "answer": 0,
+      "accept": [
+        "025"
+      ],
+      "explanation": "Verb-了 sits **right after the verb**: 吃**了**两碗米饭.",
       "notes": [
-        "过了 doesn't fit a single film yesterday.",
-        "着 is for ongoing states.",
-        "在 goes before a verb.",
-        ""
+        "Right: verb + 了 + object, then 就 + the next thing.",
+        "了 belongs right after the verb, not after the amount.",
+        "Right: 喝了 + 两杯咖啡.",
+        "了 never comes before the verb.",
+        "Two 了 in a row isn't a thing.",
+        "Right: verb + 了 + amount + object."
       ],
-      "translation": "Yesterday we watched a really good film."
+      "translation": ""
     },
     {
       "point": "l1_shape",
       "prompt": "Where does 了 go? 「{我|wǒ}{吃|chī}＿{两|liǎng}{碗|wǎn}＿{米饭|mǐfàn}＿。」",
       "options": [
-        "吃两碗米饭了了",
-        "了吃两碗米饭",
         "吃了两碗米饭",
-        "吃两碗了米饭"
+        "吃两碗了米饭",
+        "吃两碗米饭了了",
+        "了吃两碗米饭"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Verb-了 goes **right after the verb**.",
       "notes": [
-        "One 了 is enough.",
-        "了 never comes before the verb.",
         "",
-        "了 goes right after the verb, not after the number."
+        "了 goes right after the verb, not after the number.",
+        "One 了 is enough.",
+        "了 never comes before the verb."
       ],
       "translation": "I ate two bowls of rice."
     },
     {
-      "point": "l1_shape",
-      "prompt": "{你|nǐ}{吃|chī}（　）{饭|fàn}{再|zài}{走|zǒu}{吧|ba}。",
-      "options": [
-        "{着|zhe}",
-        "{的|de}",
-        "{过|guo}",
-        "{了|le}"
+      "point": "l1_done",
+      "kind": "sort",
+      "prompt": "Verb-了 isn't always past! Has it happened yet?",
+      "items": [
+        "{你|nǐ}{吃|chī}{了|le}{饭|fàn}{再|zài}{走|zǒu}{吧|ba}。",
+        "{明天|míngtiān}{下|xià}{了|le}{课|kè}{我们|wǒmen}{去|qù}{看|kàn}{电影|diànyǐng}。",
+        "{昨天|zuótiān}{我|wǒ}{买|mǎi}{了|le}{三|sān}{本|běn}{书|shū}。",
+        "{他|tā}{喝|hē}{了|le}{两|liǎng}{杯|bēi}{咖啡|kāfēi}。",
+        "{我|wǒ}{到|dào}{了|le}{北京|Běijīng}{就|jiù}{给|gěi}{你|nǐ}{打|dǎ}{电话|diànhuà}。"
       ],
-      "answer": 3,
-      "explanation": "Verb-了 also works in the **future**: after you've eaten, then go.",
+      "groups": [
+        "✔ Already happened",
+        "⏳ Not yet: first this, then that"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "11001"
+      ],
+      "explanation": "Verb-了 means **completed** — and that can be completed in the future: 吃了饭再走 = once you've eaten, go.",
       "notes": [
-        "着 = ongoing.",
-        "的 doesn't follow a verb here.",
-        "过 = experience.",
-        ""
+        "An invitation: eat **first**, then go — nothing has happened yet.",
+        "明天 → future: after class tomorrow.",
+        "昨天 + verb-了 → done.",
+        "A finished action, reported.",
+        "A promise: once I've arrived, I'll call — future."
       ],
-      "translation": "Have something to eat before you go."
+      "translation": ""
     },
     {
       "point": "l1_done",
       "prompt": "'I wrote three emails this morning.' Which sentence says so?",
       "options": [
-        "{我|wǒ}{今天|jīntiān}{上午|shàngwǔ}{了|le}{写|xiě}{三|sān}{封|fēng}{邮件|yóujiàn}。",
-        "{我|wǒ}{今天|jīntiān}{上午|shàngwǔ}{写|xiě}{了|le}{三|sān}{封|fēng}{邮件|yóujiàn}。",
         "{我|wǒ}{今天|jīntiān}{上午|shàngwǔ}{写|xiě}{三|sān}{封|fēng}{邮件|yóujiàn}。",
-        "{我|wǒ}{今天|jīntiān}{上午|shàngwǔ}{写|xiě}{着|zhe}{三|sān}{封|fēng}{邮件|yóujiàn}。"
+        "{我|wǒ}{今天|jīntiān}{上午|shàngwǔ}{写|xiě}{着|zhe}{三|sān}{封|fēng}{邮件|yóujiàn}。",
+        "{我|wǒ}{今天|jīntiān}{上午|shàngwǔ}{写|xiě}{了|le}{三|sān}{封|fēng}{邮件|yóujiàn}。",
+        "{我|wǒ}{今天|jīntiān}{上午|shàngwǔ}{了|le}{写|xiě}{三|sān}{封|fēng}{邮件|yóujiàn}。"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Completed: 写**了**三封.",
       "notes": [
-        "了 goes after the verb.",
-        "",
         "Without 了 it sounds like a plan or a habit.",
-        "着 = ongoing state."
+        "着 = ongoing state.",
+        "",
+        "了 goes after the verb."
       ],
       "translation": "I wrote three emails this morning."
     },
@@ -188,18 +209,18 @@
       "point": "l1_done",
       "prompt": "What does 「{我|wǒ}{到|dào}{了|le}{北京|Běijīng}{就|jiù}{给|gěi}{你|nǐ}{打|dǎ}{电话|diànhuà}。」 mean?",
       "options": [
-        "I called you when I was in Beijing.",
-        "I won't call you from Beijing.",
         "I'll call you as soon as I get to Beijing.",
-        "I'm in Beijing calling you."
+        "I'm in Beijing calling you.",
+        "I won't call you from Beijing.",
+        "I called you when I was in Beijing."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Verb-了 + **就** = as soon as (here in the future).",
       "notes": [
-        "了…就… can be future: 'as soon as I've arrived'.",
-        "There's no negation.",
         "",
-        "Nothing says you're there now."
+        "Nothing says you're there now.",
+        "There's no negation.",
+        "了…就… can be future: 'as soon as I've arrived'."
       ],
       "translation": "I'll call you as soon as I get to Beijing."
     },
@@ -207,17 +228,17 @@
       "point": "l1_shape",
       "prompt": "Which is **wrong**?",
       "options": [
+        "{我|wǒ}{喝|hē}{了|le}{水|shuǐ}{就|jiù}{睡|shuì}{了|le}。",
         "{我|wǒ}{喝|hē}{了|le}{很|hěn}{多|duō}{水|shuǐ}。",
         "{我|wǒ}{了|le}{喝|hē}{三|sān}{杯|bēi}{水|shuǐ}。",
-        "{我|wǒ}{喝|hē}{了|le}{水|shuǐ}{就|jiù}{睡|shuì}{了|le}。",
         "{我|wǒ}{喝|hē}{了|le}{三|sān}{杯|bēi}{水|shuǐ}。"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "了 goes **after** the verb.",
       "notes": [
         "Correct.",
-        "",
         "Correct.",
+        "",
         "Correct."
       ],
       "translation": "I drank three glasses of water."

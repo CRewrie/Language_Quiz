@@ -1,0 +1,226 @@
+{
+  "id": "zh-dd-youzai-4",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "又 vs 再 Step 4 · 又…又…, 不再, 再也不 — and the Big Sort",
+  "description": "又便宜又好吃 (both … and …), 不再 (not any more) and the dramatic 再也不 (never again!) — then long sorting rounds.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "yz4_more",
+      "title": "又…又…, 不再, 再也不",
+      "summary": "又A又B = both A and B; 不再 = no longer (calm); 再也不 = never again (strong).",
+      "body": "- 这家店**又**便宜**又**好吃。\n- 他**不再**抽烟了。 He no longer smokes.\n- 我**再也不**去那儿了！ I'm never going there again!\n\n| | 'again' when? | example |\n|---|---|---|\n| **又** | it **already happened** again (often: not again!) | 他昨天**又**迟到了。 你怎么**又**来了？ |\n| **再** | it **hasn't happened yet**: plans, requests | 请**再**说一遍。 欢迎**再**来！ |\n| **还** | future again in **questions** and with 想 / 要 / 会 | 你明天**还**来吗？ 我**还**想去。 |\n| **再** = then | first … then … / later | 吃了饭**再**走。 我们明天**再**说。 |\n| **又 … 又 …** | both … and … | **又**便宜**又**好吃 |\n\n**Exception:** 又 for a future that's certain to repeat: 明天**又**是星期一了。",
+      "examples": [
+        [
+          "{这|zhè}{家|jiā}{饭馆|fànguǎn}{又|yòu}{便宜|piányi}{又|yòu}{好吃|hǎochī}。",
+          "This restaurant is both cheap and tasty."
+        ]
+      ]
+    },
+    {
+      "id": "yz4_sort",
+      "title": "Sorting 又 / 再 / 还",
+      "summary": "Ask: has it happened? Is it a request? Is it a question?",
+      "body": "Then choose.\n\n| | 'again' when? | example |\n|---|---|---|\n| **又** | it **already happened** again (often: not again!) | 他昨天**又**迟到了。 你怎么**又**来了？ |\n| **再** | it **hasn't happened yet**: plans, requests | 请**再**说一遍。 欢迎**再**来！ |\n| **还** | future again in **questions** and with 想 / 要 / 会 | 你明天**还**来吗？ 我**还**想去。 |\n| **再** = then | first … then … / later | 吃了饭**再**走。 我们明天**再**说。 |\n| **又 … 又 …** | both … and … | **又**便宜**又**好吃 |\n\n**Exception:** 又 for a future that's certain to repeat: 明天**又**是星期一了。",
+      "examples": [
+        [
+          "{他|tā}{不|bú}{再|zài}{抽烟|chōuyān}{了|le}。",
+          "He doesn't smoke any more."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "yz4_more",
+      "kind": "match",
+      "prompt": "Match each sentence to its meaning.",
+      "items": [
+        "{这|zhè}{家|jiā}{店|diàn}{又|yòu}{便宜|piányi}{又|yòu}{好吃|hǎochī}。",
+        "{他|tā}{不|bú}{再|zài}{抽烟|chōuyān}{了|le}。",
+        "{我|wǒ}{再也|zài yě}{不|bú}{去|qù}{那儿|nàr}{了|le}！",
+        "{他|tā}{又|yòu}{抽烟|chōuyān}{了|le}。",
+        "{她|tā}{又|yòu}{聪明|cōngming}{又|yòu}{漂亮|piàoliang}。",
+        "{我|wǒ}{再也|zài yě}{不|bù}{相信|xiāngxìn}{你|nǐ}{了|le}！"
+      ],
+      "groups": [
+        "never again! (strong)",
+        "both … and …",
+        "did it again",
+        "no longer (calm)"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "130210"
+      ],
+      "explanation": "又…又… · 不再 · 再也不 · 又 + verb.",
+      "notes": [
+        "又A又B.",
+        "不再 = no longer.",
+        "再也不 = never again.",
+        "He's smoking again.",
+        "又A又B.",
+        "再也不 — strong."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz4_more",
+      "kind": "tiles",
+      "prompt": "Build it: 'This restaurant is both cheap and tasty.'",
+      "items": [
+        "{饭馆|fànguǎn}",
+        "{又|yòu}{好吃|hǎochī}",
+        "{这|zhè}{家|jiā}",
+        "{又|yòu}{便宜|piányi}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "2031",
+        "2013"
+      ],
+      "explanation": "这家饭馆**又便宜又好吃**。",
+      "notes": [],
+      "translation": "This restaurant is both cheap and tasty."
+    },
+    {
+      "point": "yz4_more",
+      "kind": "tiles",
+      "prompt": "Build it: 'I'm never going there again!'",
+      "items": [
+        "{去|qù}",
+        "{我|wǒ}",
+        "{那儿|nàr}",
+        "{再也|zài yě}",
+        "{了|le}！",
+        "{不|bú}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "135024"
+      ],
+      "explanation": "我**再也不**去那儿了！",
+      "notes": [],
+      "translation": "I'm never going there again!"
+    },
+    {
+      "point": "yz4_more",
+      "kind": "multi",
+      "prompt": "Which are correct? Select all.",
+      "options": [
+        "{他|tā}{再|zài}{不|bù}{也|yě}{来|lái}{了|le}。",
+        "{这|zhè}{个|ge}{菜|cài}{又|yòu}{辣|là}{又|yòu}{咸|xián}。",
+        "{他|tā}{又|yòu}{也|yě}{不|bù}{来|lái}{了|le}。",
+        "{这|zhè}{个|ge}{菜|cài}{又|yòu}{便宜|piányi}{好吃|hǎochī}。",
+        "{他|tā}{不|bú}{再|zài}{来|lái}{了|le}。",
+        "{他|tā}{再也|zài yě}{不|bù}{来|lái}{了|le}。"
+      ],
+      "answer": 0,
+      "accept": [
+        "145"
+      ],
+      "explanation": "又…又… needs two 又; **再也不** is fixed.",
+      "notes": [
+        "Word order: 再也不.",
+        "✔ both spicy and salty.",
+        "It's 再也不, not 又也不.",
+        "Both halves need 又: 又便宜又好吃.",
+        "✔ no longer.",
+        "✔ never again."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz4_sort",
+      "kind": "sort",
+      "prompt": "Big sort, round 1: 又 or 再?",
+      "items": [
+        "{我们|wǒmen}{吃|chī}{了|le}{饭|fàn}＿{走|zǒu}。",
+        "{请|qǐng}{你|nǐ}＿{想|xiǎng}{一|yì}{想|xiǎng}。",
+        "{你|nǐ}{怎么|zěnme}＿{迟到|chídào}{了|le}？",
+        "{这|zhè}{件|jiàn}{事|shì}{我们|wǒmen}{以后|yǐhòu}＿{说|shuō}。",
+        "{他|tā}＿{高|gāo}＿{帅|shuài}。",
+        "{我|wǒ}＿{也|yě}{不|bù}{吃|chī}{这|zhè}{个|ge}{了|le}！",
+        "{我|wǒ}{昨天|zuótiān}＿{给|gěi}{他|tā}{打|dǎ}{了|le}{电话|diànhuà}。",
+        "{明天|míngtiān}＿{要|yào}{上班|shàngbān}{了|le}。"
+      ],
+      "groups": [
+        "{又|yòu}",
+        "{再|zài}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "11010100"
+      ],
+      "explanation": "Look for: 了 / 怎么 / both → 又 · request / then / 再也不 → 再.",
+      "notes": [
+        "then → 再.",
+        "Request → 再.",
+        "Happened again → 又.",
+        "later → 再.",
+        "Both … and … → 又…又….",
+        "再也不 → 再.",
+        "Past repeat → 又.",
+        "Certain repeat → 又."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz4_sort",
+      "kind": "sort",
+      "prompt": "Big sort, round 2: 又, 再 or 还?",
+      "items": [
+        "{对不起|duìbuqǐ}，{请|qǐng}＿{给|gěi}{我|wǒ}{一|yí}{次|cì}{机会|jīhuì}。",
+        "{等|děng}{雨|yǔ}{停|tíng}{了|le}＿{出去|chūqu}。",
+        "{这|zhè}{家|jiā}{店|diàn}＿{便宜|piányi}＿{干净|gānjìng}。",
+        "{我|wǒ}＿{想|xiǎng}{听|tīng}{一|yí}{遍|biàn}。",
+        "{他|tā}＿{把|bǎ}{钥匙|yàoshi}{丢|diū}{了|le}！",
+        "{你|nǐ}{明年|míngnián}＿{来|lái}{北京|Běijīng}{吗|ma}？"
+      ],
+      "groups": [
+        "{又|yòu}",
+        "{再|zài}",
+        "{还|hái}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "110202"
+      ],
+      "explanation": "Past / both → 又 · request / then → 再 · question / 想 → 还.",
+      "notes": [
+        "Request → 再.",
+        "then → 再.",
+        "又…又….",
+        "还 + 想.",
+        "Not again! → 又.",
+        "Future question → 还."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz4_sort",
+      "prompt": "'He quit — he doesn't smoke any more.' Which sentence says so?",
+      "options": [
+        "{他|tā}{又|yòu}{抽烟|chōuyān}{了|le}。",
+        "{他|tā}{再|zài}{抽烟|chōuyān}。",
+        "{他|tā}{不|bú}{再|zài}{抽烟|chōuyān}{了|le}。",
+        "{他|tā}{还|hái}{抽烟|chōuyān}。"
+      ],
+      "answer": 2,
+      "explanation": "**不再** = no longer.",
+      "notes": [
+        "That's 'he's smoking again'.",
+        "That's 'smoke again (later)'.",
+        "",
+        "That's 'he still smokes'."
+      ],
+      "translation": "He doesn't smoke any more."
+    }
+  ]
+}

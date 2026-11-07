@@ -1,0 +1,182 @@
+{
+  "id": "zh-dd-caijiu-6",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "才 vs 就 Step 6 · 才 or 就? The Big Sort",
+  "description": "Early or late, only or already, as long as or only if, as soon as or only just — pick 才 or 就 (and mind the 了).",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "c6_pick",
+      "title": "Picking 才 or 就",
+      "summary": "Ask: sooner/easier (就) or later/harder (才)? Then check the pattern (只要…就, 只有…才, 一…就).",
+      "body": "And the 了 test: a past sentence ending in 了 usually wants 就, not 才.\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{我|wǒ}{等|děng}{了|le}{半天|bàntiān}{他|tā}{才|cái}{来|lái}。",
+          "I waited ages before he turned up."
+        ]
+      ]
+    },
+    {
+      "id": "c6_feel",
+      "title": "Reading the speaker's feelings",
+      "summary": "才 and 就 tell you whether the speaker finds something early/late, much/little.",
+      "body": "- 都十点了，他**才**起床！ (that's late!)\n- 他**才**二十岁**就**当了经理。 (so young — so early!)\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{他|tā}{才|cái}{二十|èrshí}{岁|suì}{就|jiù}{当|dāng}{了|le}{经理|jīnglǐ}。",
+          "He's only twenty and already a manager."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "c6_pick",
+      "kind": "sort",
+      "prompt": "The big sort, round 1: 才 or 就?",
+      "items": [
+        "{只要|zhǐyào}{你|nǐ}{说|shuō}，{他|tā}＿{会|huì}{听|tīng}。",
+        "{他|tā}{很|hěn}{聪明|cōngming}，{老师|lǎoshī}{说|shuō}{一|yí}{遍|biàn}{他|tā}＿{懂|dǒng}{了|le}。",
+        "{我|wǒ}{学|xué}{了|le}{三|sān}{年|nián}{中文|Zhōngwén}，{现在|xiànzài}＿{能|néng}{看|kàn}{中文|Zhōngwén}{报纸|bàozhǐ}。",
+        "{飞机|fēijī}{晚|wǎn}{点|diǎn}{了|le}，{夜里|yèli}{两|liǎng}{点|diǎn}＿{到|dào}。",
+        "{只有|zhǐyǒu}{你|nǐ}{说|shuō}，{他|tā}＿{会|huì}{听|tīng}。",
+        "{我|wǒ}{一|yì}{听|tīng}{这|zhè}{首|shǒu}{歌|gē}＿{想|xiǎng}{哭|kū}。"
+      ],
+      "groups": [
+        "{才|cái}",
+        "{就|jiù}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "110001"
+      ],
+      "explanation": "Late, hard, only-if → **才**; early, easy, as-long-as, as-soon-as → **就**.",
+      "notes": [
+        "只要 pairs with 就.",
+        "Quick and easy → 就…了.",
+        "After long effort → 才.",
+        "Delayed → late → 才.",
+        "只有 pairs with 才.",
+        "一…就…"
+      ],
+      "translation": ""
+    },
+    {
+      "point": "c6_feel",
+      "prompt": "{他|tā}（　）{二十|èrshí}{岁|suì}{就|jiù}{当|dāng}{了|le}{经理|jīnglǐ}。",
+      "options": [
+        "{才|cái}",
+        "{就|jiù}",
+        "{已经|yǐjīng}",
+        "{都|dōu}"
+      ],
+      "answer": 0,
+      "explanation": "So young → **才**二十岁 + 就 (so early).",
+      "notes": [
+        "",
+        "就二十岁就 doubles 就.",
+        "已经二十岁就 doesn't fit the 'so young' feeling.",
+        "都二十岁 = already 20 — not 'so young'."
+      ],
+      "translation": "He's only twenty and already a manager."
+    },
+    {
+      "point": "c6_feel",
+      "prompt": "{都|dōu}{十一|shíyī}{点|diǎn}{了|le}，{你|nǐ}{怎么|zěnme}（　）{起床|qǐchuáng}？",
+      "options": [
+        "{就|jiù}",
+        "{再|zài}",
+        "{又|yòu}",
+        "{才|cái}"
+      ],
+      "answer": 3,
+      "explanation": "Late → **才**.",
+      "notes": [
+        "就 = early — 11 isn't early.",
+        "再 doesn't fit.",
+        "又起床 = got up again.",
+        ""
+      ],
+      "translation": "It's already eleven — why are you only getting up now?"
+    },
+    {
+      "point": "c6_feel",
+      "prompt": "Which sentence shows the speaker thinks **ten minutes is quick**?",
+      "options": [
+        "{他|tā}{做|zuò}{了|le}{十|shí}{分钟|fēnzhōng}。",
+        "{他|tā}{十|shí}{分钟|fēnzhōng}{就|jiù}{做|zuò}{完|wán}{了|le}。",
+        "{他|tā}{十|shí}{分钟|fēnzhōng}{以后|yǐhòu}{做|zuò}。",
+        "{他|tā}{十|shí}{分钟|fēnzhōng}{才|cái}{做|zuò}{完|wán}。"
+      ],
+      "answer": 1,
+      "explanation": "Quick → **就**.",
+      "notes": [
+        "Neutral — no feeling.",
+        "",
+        "That's about starting later.",
+        "才 = it took (surprisingly) long."
+      ],
+      "translation": "He finished in just ten minutes."
+    },
+    {
+      "point": "c6_pick",
+      "prompt": "Which is **wrong**?",
+      "options": [
+        "{他|tā}{七|qī}{点|diǎn}{就|jiù}{来|lái}{了|le}。",
+        "{他|tā}{九|jiǔ}{点|diǎn}{才|cái}{来|lái}。",
+        "{只要|zhǐyào}{你|nǐ}{来|lái}{就|jiù}{行|xíng}。",
+        "{他|tā}{九|jiǔ}{点|diǎn}{才|cái}{来|lái}{了|le}。"
+      ],
+      "answer": 3,
+      "explanation": "才 + verb takes **no 了**.",
+      "notes": [
+        "Correct.",
+        "Correct.",
+        "Correct.",
+        ""
+      ],
+      "translation": "He didn't come until nine."
+    },
+    {
+      "point": "c6_feel",
+      "prompt": "{这么|zhème}{贵|guì}{的|de}{手机|shǒujī}，{你|nǐ}{一|yí}{个|ge}{月|yuè}（　）{弄|nòng}{丢|diū}{了|le}？",
+      "options": [
+        "{再|zài}",
+        "{就|jiù}",
+        "{也|yě}",
+        "{才|cái}"
+      ],
+      "answer": 1,
+      "explanation": "Surprisingly soon → **就**…了.",
+      "notes": [
+        "再 doesn't fit.",
+        "",
+        "也 doesn't fit.",
+        "才 doesn't take 了 — and the speaker finds one month surprisingly short."
+      ],
+      "translation": "Such an expensive phone, and you lost it within a month?"
+    },
+    {
+      "point": "c6_pick",
+      "prompt": "{你|nǐ}{看|kàn}，{我|wǒ}{说|shuō}{什么|shénme}{来|lái}{着|zhe}？{他|tā}（　）{不会|bú huì}{来|lái}。",
+      "options": [
+        "{才|cái}",
+        "{又|yòu}",
+        "{就|jiù}",
+        "{再|zài}"
+      ],
+      "answer": 2,
+      "explanation": "就 also adds emphasis = 'precisely, just as I said'.",
+      "notes": [
+        "才不会来 = 'he certainly won't come' (defiant) — but here the speaker is confirming a prediction.",
+        "又 doesn't fit.",
+        "",
+        "再 doesn't fit."
+      ],
+      "translation": "See, what did I say? He's not coming."
+    }
+  ]
+}

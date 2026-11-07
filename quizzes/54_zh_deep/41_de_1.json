@@ -1,0 +1,239 @@
+{
+  "id": "zh-dd-de-1",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "的 / 地 / 得 Step 1 · Before a Noun, Before a Verb: 的 and 地",
+  "description": "Three characters, one sound. Start with two: 的 links a describer to a **noun**, 地 links a describer to a **verb**.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "d1_de",
+      "title": "的 + noun: whose? which? what kind?",
+      "summary": "的 hangs a describer onto a noun: 我的书, 漂亮的衣服, 我昨天买的书.",
+      "body": "- **我的**书 my book\n- **漂亮的**衣服 pretty clothes\n- **我昨天买的**书 the book I bought yesterday — a whole clause can describe the noun.\n\nWhatever comes after 的 is a **thing** (noun).\n\n| | comes before … | pattern | example |\n|---|---|---|---|\n| **的** | a **noun** | describer + 的 + noun | 漂亮**的**衣服 · 我买**的**书 |\n| **地** | a **verb** (how it's done) | describer + 地 + verb | 慢慢**地**走 · 认真**地**学习 |\n| **得** | the **result** (after the verb) | verb / adj. + 得 + how | 跑**得**很快 · 累**得**不想动 |\n\n**The trick:** look **right** — a noun next → 的, a verb next → 地. Look **left** — a verb or adjective just before → 得. (All three are read *de*.)",
+      "examples": [
+        [
+          "{这|zhè}{是|shì}{我|wǒ}{昨天|zuótiān}{买|mǎi}{的|de}{书|shū}。",
+          "This is the book I bought yesterday."
+        ]
+      ]
+    },
+    {
+      "id": "d1_di",
+      "title": "地 + verb: how is it done?",
+      "summary": "地 hangs a describer onto a verb: 慢慢地走 (walk slowly), 认真地学习 (study hard).",
+      "body": "- 他**慢慢地**走进了教室。 He slowly walked into the classroom.\n- 她**高兴地**说：「我考上了！」 She said happily …\n\nWhatever comes after 地 is an **action** (verb). In casual writing people often type 的 here — tests want 地.\n\n| | comes before … | pattern | example |\n|---|---|---|---|\n| **的** | a **noun** | describer + 的 + noun | 漂亮**的**衣服 · 我买**的**书 |\n| **地** | a **verb** (how it's done) | describer + 地 + verb | 慢慢**地**走 · 认真**地**学习 |\n| **得** | the **result** (after the verb) | verb / adj. + 得 + how | 跑**得**很快 · 累**得**不想动 |\n\n**The trick:** look **right** — a noun next → 的, a verb next → 地. Look **left** — a verb or adjective just before → 得. (All three are read *de*.)",
+      "examples": [
+        [
+          "{她|tā}{轻轻|qīngqīng}{地|de}{关上|guānshang}{了|le}{门|mén}。",
+          "She quietly closed the door."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "d1_de",
+      "kind": "sort",
+      "prompt": "的 or 地? Look at the word right **after** the blank.",
+      "items": [
+        "{很|hěn}{好吃|hǎochī}＿{菜|cài}",
+        "{高兴|gāoxìng}＿{说|shuō}",
+        "{漂亮|piàoliang}＿{衣服|yīfu}",
+        "{我|wǒ}＿{书|shū}",
+        "{认真|rènzhēn}＿{学习|xuéxí}",
+        "{慢慢|mànmàn}＿{走|zǒu}"
+      ],
+      "groups": [
+        "{的|de}",
+        "{地|de}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "010011"
+      ],
+      "explanation": "Noun next → **的**; verb next → **地**.",
+      "notes": [
+        "菜 is a noun → 的.",
+        "说 is a verb → 地.",
+        "衣服 is a noun → 的.",
+        "书 is a noun → 的.",
+        "学习 (to study) is a verb here → 地.",
+        "走 is a verb → 地."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d1_de",
+      "kind": "tiles",
+      "prompt": "Build it: 'This is the book I bought yesterday.'",
+      "items": [
+        "{昨天|zuótiān}",
+        "{这|zhè}",
+        "{买|mǎi}",
+        "{书|shū}",
+        "{我|wǒ}",
+        "{是|shì}",
+        "{的|de}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "1540263",
+        "1504263"
+      ],
+      "explanation": "这是**我昨天买的书**。 The whole 'I bought yesterday' describes 书, glued on with 的.",
+      "notes": [],
+      "translation": "This is the book I bought yesterday."
+    },
+    {
+      "point": "d1_di",
+      "kind": "tiles",
+      "prompt": "Build it: 'He slowly walked into the classroom.'",
+      "items": [
+        "{他|tā}",
+        "{走进|zǒujìn}",
+        "{慢慢|mànmàn}",
+        "{了|le}",
+        "{地|de}",
+        "{教室|jiàoshì}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "024135"
+      ],
+      "explanation": "他**慢慢地走进**了教室。 How he walked (慢慢) + 地 + the verb.",
+      "notes": [],
+      "translation": "He slowly walked into the classroom."
+    },
+    {
+      "point": "d1_di",
+      "prompt": "What always comes right after 地?",
+      "options": [
+        "the end of the sentence",
+        "a number",
+        "a thing (a noun)",
+        "an action (a verb)"
+      ],
+      "answer": 3,
+      "explanation": "地 + **verb**: 慢慢地走, 认真地学习.",
+      "notes": [
+        "地 never ends a sentence: something must be done 'slowly', 'happily' …",
+        "No — 地 links to how something is done.",
+        "That's 的: 漂亮的衣服.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d1_di",
+      "kind": "multi",
+      "prompt": "Which phrases are correct (standard written Chinese)? Select all.",
+      "options": [
+        "{她|tā}{认真|rènzhēn}{地|de}{写|xiě}{作业|zuòyè}",
+        "{他|tā}{慢慢|mànmàn}{的|de}{走|zǒu}",
+        "{这|zhè}{是|shì}{我|wǒ}{的|de}{手机|shǒujī}",
+        "{我|wǒ}{地|de}{书|shū}",
+        "{漂亮|piàoliang}{地|de}{衣服|yīfu}",
+        "{他|tā}{高兴|gāoxìng}{地|de}{笑|xiào}{了|le}"
+      ],
+      "answer": 0,
+      "accept": [
+        "025"
+      ],
+      "explanation": "Look right: noun → **的**, verb → **地**.",
+      "notes": [
+        "写 is a verb → 地. ✔",
+        "走 is a verb → 慢慢**地**走 (的 here is casual, not standard).",
+        "手机 is a noun → 的. ✔",
+        "Whose? → 我**的**书.",
+        "衣服 is a noun → 漂亮**的**衣服.",
+        "笑 is a verb → 地. ✔"
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d1_de",
+      "prompt": "In 「{我|wǒ}{昨天|zuótiān}{买|mǎi}{的|de}{书|shū}」, what is 的 doing?",
+      "options": [
+        "Linking 'I bought yesterday' to 书",
+        "Marking the past tense",
+        "Meaning 'of', like English",
+        "Nothing — it could be left out"
+      ],
+      "answer": 0,
+      "explanation": "Describer (even a whole clause) + **的** + noun.",
+      "notes": [
+        "",
+        "的 isn't a tense marker — 昨天 shows the time.",
+        "Not quite: the describer comes **before** the noun, the reverse of 'of'.",
+        "Without 的 it isn't a phrase any more."
+      ],
+      "translation": "the book I bought yesterday"
+    },
+    {
+      "point": "d1_de",
+      "kind": "match",
+      "prompt": "的 phrases: match each to its meaning.",
+      "items": [
+        "{我|wǒ}{的|de}{书|shū}",
+        "{很|hěn}{贵|guì}{的|de}{手机|shǒujī}",
+        "{昨天|zuótiān}{来|lái}{的|de}{人|rén}",
+        "{我|wǒ}{买|mǎi}{的|de}{书|shū}"
+      ],
+      "groups": [
+        "the book I bought",
+        "a very expensive phone",
+        "the person who came yesterday",
+        "my book"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "3120"
+      ],
+      "explanation": "Everything before 的 describes the noun after it.",
+      "notes": [
+        "我 + 的 = whose.",
+        "很贵 describes 手机.",
+        "昨天来 describes 人.",
+        "我买 + 的 = which book: the one I bought."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d1_di",
+      "kind": "sort",
+      "prompt": "Round 2 — 的 or 地? (Careful: the same word can go either way.)",
+      "items": [
+        "{她|tā}{轻轻|qīngqīng}＿{关上|guānshang}{了|le}{门|mén}。",
+        "{我们|wǒmen}{开心|kāixīn}＿{玩|wán}{了|le}{一|yì}{天|tiān}。",
+        "{他|tā}{很|hěn}{努力|nǔlì}＿{工作|gōngzuò}。",
+        "{中国|Zhōngguó}＿{首都|shǒudū}{是|shì}{北京|Běijīng}。",
+        "{他|tā}{是|shì}{一个|yí ge}{很|hěn}{努力|nǔlì}＿{学生|xuésheng}。",
+        "{这|zhè}{是|shì}{一个|yí ge}{开心|kāixīn}＿{周末|zhōumò}。"
+      ],
+      "groups": [
+        "{的|de}",
+        "{地|de}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "111000"
+      ],
+      "explanation": "Same describer (努力, 开心), different job: it depends on what comes **next**.",
+      "notes": [
+        "关上 is a verb → 地.",
+        "玩 is a verb → 地.",
+        "工作 (to work) is the action → 努力地工作.",
+        "首都 is a noun → 的.",
+        "学生 is a noun → 努力的学生.",
+        "周末 is a noun → 的."
+      ],
+      "translation": ""
+    }
+  ]
+}

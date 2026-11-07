@@ -84,17 +84,17 @@
       "point": "y6_signs",
       "prompt": "Ticket rules: 「{六|liù}{岁|suì}{以下|yǐxià}{免票|miǎnpiào}，{六十五|liùshíwǔ}{岁|suì}{以上|yǐshàng}{半价|bànjià}。」 Who pays full price?",
       "options": [
-        "a 4-year-old",
-        "nobody",
         "a 70-year-old",
+        "nobody",
+        "a 4-year-old",
         "a 30-year-old"
       ],
       "answer": 3,
       "explanation": "Between the two limits → **full price**.",
       "notes": [
-        "4 is under 6 → free.",
-        "Everyone between 6 and 65 pays full price.",
         "70 is over 65 → half price.",
+        "Everyone between 6 and 65 pays full price.",
+        "4 is under 6 → free.",
         ""
       ],
       "translation": "Children six and under go free; people 65 and over pay half price."
@@ -103,18 +103,18 @@
       "point": "y6_signs",
       "prompt": "A job ad: 「{要求|yāoqiú}：{三|sān}{年|nián}{以上|yǐshàng}{工作|gōngzuò}{经验|jīngyàn}，{三十五|sānshíwǔ}{岁|suì}{以下|yǐxià}。」 Who fits?",
       "options": [
-        "29 years old, 4 years' experience",
+        "25 years old, 1 year's experience",
         "40 years old, 10 years' experience",
-        "38 years old, 2 years' experience",
-        "25 years old, 1 year's experience"
+        "29 years old, 4 years' experience",
+        "38 years old, 2 years' experience"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Experience **三年以上** and age **三十五岁以下** — only the first fits both.",
       "notes": [
-        "",
+        "One year is under three.",
         "40 is over 35.",
-        "38 is over 35, and two years is under three.",
-        "One year is under three."
+        "",
+        "38 is over 35, and two years is under three."
       ],
       "translation": "Requirements: three or more years' experience, aged 35 or under."
     },
@@ -122,16 +122,16 @@
       "point": "y6_signs",
       "prompt": "　＿＿　　＿＿　　★　　＿＿　{包邮|bāoyóu}。\n（{以上|yǐshàng}・{东西|dōngxi}・{的|de}・{一百|yìbǎi}{块|kuài}）",
       "options": [
-        "{东西|dōngxi}",
         "{的|de}",
+        "{东西|dōngxi}",
         "{以上|yǐshàng}",
         "{一百|yìbǎi}{块|kuài}"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "**一百块 以上 的 东西** 包邮。",
       "notes": [
-        "The noun comes last — slot 4.",
         "",
+        "The noun comes last — slot 4.",
         "以上 follows the amount — slot 2.",
         "The amount comes first — slot 1."
       ],
@@ -141,16 +141,16 @@
       "point": "y6_signs",
       "prompt": "{这|zhè}{家|jiā}{酒店|jiǔdiàn}　＿＿　　＿＿　　★　　＿＿　。\n（{以上|yǐshàng}・{五|wǔ}{星级|xīngjí}・{是|shì}・{的|de}）",
       "options": [
-        "{的|de}",
         "{是|shì}",
+        "{的|de}",
         "{以上|yǐshàng}",
         "{五|wǔ}{星级|xīngjí}"
       ],
       "answer": 2,
       "explanation": "这家酒店 **是 五星级 以上 的**。",
       "notes": [
-        "的 closes the 是…的 phrase — slot 4.",
         "是 comes first — slot 1.",
+        "的 closes the 是…的 phrase — slot 4.",
         "",
         "The level follows — slot 2."
       ],
@@ -160,75 +160,64 @@
       "point": "y6_fix",
       "prompt": "Which is **wrong**?",
       "options": [
-        "{以上|yǐshàng}{一百|yìbǎi}{块|kuài}{的|de}{东西|dōngxi}",
-        "{不到|bú dào}{一百|yìbǎi}{块|kuài}{的|de}{东西|dōngxi}",
         "{一百|yìbǎi}{块|kuài}{以上|yǐshàng}{的|de}{东西|dōngxi}",
-        "{一百|yìbǎi}{块|kuài}{以下|yǐxià}{的|de}{东西|dōngxi}"
+        "{不到|bú dào}{一百|yìbǎi}{块|kuài}{的|de}{东西|dōngxi}",
+        "{一百|yìbǎi}{块|kuài}{以下|yǐxià}{的|de}{东西|dōngxi}",
+        "{以上|yǐshàng}{一百|yìbǎi}{块|kuài}{的|de}{东西|dōngxi}"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "以上 goes **after** the number. (不到 goes before — that one's right.)",
       "notes": [
-        "",
+        "Correct.",
         "Correct: 不到 goes **before** the number.",
         "Correct.",
-        "Correct."
+        ""
       ],
       "translation": ""
     },
     {
       "point": "y6_fix",
-      "prompt": "Which is **wrong**?",
+      "kind": "multi",
+      "prompt": "Which phrases are **wrong**? Select all of them.",
       "options": [
-        "{会议|huìyì}{一般|yìbān}{一|yí}{个|ge}{小时|xiǎoshí}{以内|yǐnèi}。",
         "{我|wǒ}{每天|měitiān}{睡|shuì}{八|bā}{个|ge}{小时|xiǎoshí}{以上|yǐshàng}。",
-        "{我|wǒ}{下午|xiàwǔ}{三|sān}{点|diǎn}{以后|yǐhòu}{有|yǒu}{空|kòng}。",
+        "{以上|yǐshàng}{一百|yìbǎi}{人|rén}",
+        "{不到|bú dào}{一百|yìbǎi}{块|kuài}{的|de}{东西|dōngxi}",
+        "{明天|míngtiān}{五|wǔ}{度|dù}{零下|língxià}。",
+        "{会议|huìyì}{一般|yìbān}{一|yí}{个|ge}{小时|xiǎoshí}{以内|yǐnèi}。",
         "{我|wǒ}{下午|xiàwǔ}{三|sān}{点|diǎn}{以上|yǐshàng}{有|yǒu}{空|kòng}。"
       ],
-      "answer": 3,
-      "explanation": "三点 is a point in time → **以后**, not 以上.",
-      "notes": [
-        "Correct: within an hour.",
-        "Correct: an amount + 以上.",
-        "Correct: a point in time + 以后.",
-        ""
-      ],
-      "translation": "I'm free after three this afternoon."
-    },
-    {
-      "point": "y6_fix",
-      "prompt": "Which is **wrong**?",
-      "options": [
-        "{明天|míngtiān}{五|wǔ}{度|dù}{零下|língxià}。",
-        "{明天|míngtiān}{零下|língxià}{五|wǔ}{度|dù}。",
-        "{明天|míngtiān}{五|wǔ}{度|dù}{以下|yǐxià}。",
-        "{明天|míngtiān}{五|wǔ}{度|dù}{左右|zuǒyòu}。"
-      ],
       "answer": 0,
-      "explanation": "零下 goes **before** the number: 零下五度.",
-      "notes": [
-        "",
-        "Correct: minus five.",
-        "Correct: five or colder.",
-        "Correct: about five."
+      "accept": [
+        "135"
       ],
-      "translation": "Tomorrow: minus five."
+      "explanation": "以上/以下/以内 go **after** an amount; 不到 and 零下 go **before** the number; points in time take 以前/以后.",
+      "notes": [
+        "Fine: an amount of time + 以上.",
+        "Wrong: 以上 goes **after** the number.",
+        "Fine: 不到 goes **before** the number.",
+        "Wrong: 零下 goes **before** the number: 零下五度.",
+        "Fine: within an hour.",
+        "Wrong: 三点 is a point in time → **以后**."
+      ],
+      "translation": ""
     },
     {
       "point": "y6_signs",
       "prompt": "'Applicants must be 18 or over — 18 included.' Which says it most precisely?",
       "options": [
-        "{申请人|shēnqǐngrén}{须|xū}{十八|shíbā}{岁|suì}{左右|zuǒyòu}。",
         "{申请人|shēnqǐngrén}{须|xū}{超过|chāoguò}{十八|shíbā}{岁|suì}。",
         "{申请人|shēnqǐngrén}{须|xū}{不满|bùmǎn}{十八|shíbā}{岁|suì}。",
-        "{申请人|shēnqǐngrén}{须|xū}{年满|nián mǎn}{十八|shíbā}{岁|suì}（{含|hán}{十八|shíbā}{岁|suì}）{以上|yǐshàng}。"
+        "{申请人|shēnqǐngrén}{须|xū}{年满|nián mǎn}{十八|shíbā}{岁|suì}（{含|hán}{十八|shíbā}{岁|suì}）{以上|yǐshàng}。",
+        "{申请人|shēnqǐngrén}{须|xū}{十八|shíbā}{岁|suì}{左右|zuǒyòu}。"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "(含) makes 以上 explicitly **inclusive**.",
       "notes": [
-        "左右 = about 18.",
         "超过 = older than 18 — 18 itself is out.",
         "不满 = under 18 — the opposite.",
-        ""
+        "",
+        "左右 = about 18."
       ],
       "translation": "Applicants must be 18 or over (18 included)."
     },
@@ -236,18 +225,18 @@
       "point": "y6_signs",
       "prompt": "A shop sign: 「{全场|quánchǎng}{商品|shāngpǐn}{五十|wǔshí}{元|yuán}{以下|yǐxià}」 What does it tell you?",
       "options": [
-        "Everything costs more than 50 yuan.",
-        "There are 50 items below.",
         "Everything in the shop costs 50 yuan or less.",
-        "Everything is 50% off."
+        "Everything is 50% off.",
+        "There are 50 items below.",
+        "Everything costs more than 50 yuan."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Price + **以下** = that price or less.",
       "notes": [
-        "That would be 以上.",
-        "以下 here is about price, not position.",
         "",
-        "50% off = 五折."
+        "50% off = 五折.",
+        "以下 here is about price, not position.",
+        "That would be 以上."
       ],
       "translation": "Everything in the shop is 50 yuan or less."
     }

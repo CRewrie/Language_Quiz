@@ -1,0 +1,236 @@
+{
+  "id": "zh-dd-caijiu-4",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "才 vs 就 Step 4 · Conditions: 只要…就 vs 只有…才",
+  "description": "只要…就… = as long as (that's enough), 只有…才… = only if (nothing else works). Easy to mix up — and the meaning is very different.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "c4_zhiyao",
+      "title": "只要…就… = as long as",
+      "summary": "One easy condition is enough: as long as A, then B.",
+      "body": "- **只要**你努力，**就**能学好。 As long as you work hard, you'll learn it.\n- **只要**不下雨，我们**就**去。 As long as it doesn't rain, we'll go.\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{只要|zhǐyào}{你|nǐ}{努力|nǔlì}，{就|jiù}{能|néng}{学|xué}{好|hǎo}{中文|Zhōngwén}。",
+          "As long as you work hard, you'll learn Chinese well."
+        ]
+      ]
+    },
+    {
+      "id": "c4_zhiyou",
+      "title": "只有…才… = only if",
+      "summary": "Only this one condition works — a strict requirement.",
+      "body": "- **只有**多练习，**才**能说好。 Only by practising a lot can you speak well.\n- **只有**他**才**知道密码。 Only he knows the password.\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{只有|zhǐyǒu}{多|duō}{练习|liànxí}，{才|cái}{能|néng}{说|shuō}{好|hǎo}。",
+          "Only by practising a lot can you speak well."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "c4_zhiyao",
+      "prompt": "（　）{不|bú}{下雨|xià yǔ}，{我们|wǒmen}{就|jiù}{去|qù}{爬山|páshān}。",
+      "options": [
+        "{只要|zhǐyào}",
+        "{只有|zhǐyǒu}",
+        "{虽然|suīrán}",
+        "{因为|yīnwèi}"
+      ],
+      "answer": 0,
+      "explanation": "…就 → **只要** (as long as).",
+      "notes": [
+        "",
+        "只有 pairs with 才, not 就.",
+        "虽然 = although.",
+        "因为 = because — doesn't fit a condition."
+      ],
+      "translation": "As long as it doesn't rain, we'll go hiking."
+    },
+    {
+      "point": "c4_zhiyou",
+      "prompt": "{只有|zhǐyǒu}{多|duō}{练习|liànxí}，（　）{能|néng}{说|shuō}{得|de}{流利|liúlì}。",
+      "options": [
+        "{就|jiù}",
+        "{都|dōu}",
+        "{才|cái}",
+        "{也|yě}"
+      ],
+      "answer": 2,
+      "explanation": "只有… → **才**.",
+      "notes": [
+        "只有 pairs with 才.",
+        "都 doesn't fit.",
+        "",
+        "也 doesn't fit."
+      ],
+      "translation": "Only by practising a lot can you speak fluently."
+    },
+    {
+      "point": "c4_zhiyao",
+      "prompt": "What does 「{只要|zhǐyào}{有|yǒu}{时间|shíjiān}，{我|wǒ}{就|jiù}{去|qù}{看|kàn}{你|nǐ}。」 mean?",
+      "options": [
+        "Whenever I have time, I'll come and see you.",
+        "I'll see you because I have time.",
+        "Only if I have time will I see you — otherwise never.",
+        "I have no time to see you."
+      ],
+      "answer": 0,
+      "explanation": "**只要…就** = as long as — an easy condition.",
+      "notes": [
+        "",
+        "因为 would be 'because'.",
+        "That's the stricter 只有…才.",
+        "It says you will come."
+      ],
+      "translation": "As long as I have time, I'll come and see you."
+    },
+    {
+      "point": "c4_zhiyou",
+      "prompt": "What does 「{只有|zhǐyǒu}{他|tā}{才|cái}{知道|zhīdào}{密码|mìmǎ}。」 mean?",
+      "options": [
+        "He knows the password, too.",
+        "Only he knows the password.",
+        "He only just learned the password.",
+        "As long as he knows the password, it's fine."
+      ],
+      "answer": 1,
+      "explanation": "**只有…才** = only (nobody else).",
+      "notes": [
+        "That would be 也.",
+        "",
+        "Different meaning of 才 — here it's 只有…才.",
+        "That would be 只要…就."
+      ],
+      "translation": "Only he knows the password."
+    },
+    {
+      "point": "c4_zhiyou",
+      "prompt": "（　）{你|nǐ}{亲自|qīnzì}{去|qù}，{他|tā}{才|cái}{会|huì}{同意|tóngyì}。",
+      "options": [
+        "{只有|zhǐyǒu}",
+        "{如果|rúguǒ}{不|bù}",
+        "{只要|zhǐyào}",
+        "{虽然|suīrán}"
+      ],
+      "answer": 0,
+      "explanation": "…才 → **只有**.",
+      "notes": [
+        "",
+        "如果不 = if not — the opposite.",
+        "只要 pairs with 就.",
+        "虽然 = although."
+      ],
+      "translation": "He'll only agree if you go in person."
+    },
+    {
+      "point": "c4_zhiyao",
+      "prompt": "'As long as you're happy, that's fine.' Which sentence says so?",
+      "options": [
+        "{只要|zhǐyào}{你|nǐ}{高兴|gāoxìng}{才|cái}{好|hǎo}。",
+        "{只有|zhǐyǒu}{你|nǐ}{高兴|gāoxìng}{好|hǎo}{才|cái}。",
+        "{只要|zhǐyào}{你|nǐ}{高兴|gāoxìng}{就|jiù}{好|hǎo}。",
+        "{只有|zhǐyǒu}{你|nǐ}{高兴|gāoxìng}{就|jiù}{好|hǎo}。"
+      ],
+      "answer": 2,
+      "explanation": "**只要…就好** = as long as …, that's fine.",
+      "notes": [
+        "只要 pairs with 就.",
+        "才 goes before the verb/adjective.",
+        "",
+        "只有 pairs with 才."
+      ],
+      "translation": "As long as you're happy, that's fine."
+    },
+    {
+      "point": "c4_zhiyou",
+      "prompt": "Which sounds **stricter**?",
+      "options": [
+        "{只有|zhǐyǒu}{考|kǎo}{到|dào}{九十|jiǔshí}{分|fēn}，{才|cái}{能|néng}{拿|ná}{奖学金|jiǎngxuéjīn}。",
+        "{只要|zhǐyào}{考|kǎo}{到|dào}{九十|jiǔshí}{分|fēn}，{就|jiù}{能|néng}{拿|ná}{奖学金|jiǎngxuéjīn}。"
+      ],
+      "answer": 0,
+      "explanation": "**只有…才** = the only way — strict.",
+      "notes": [
+        "",
+        "只要…就 = 90 is enough; it doesn't rule out other ways."
+      ],
+      "translation": "Only with 90 points can you get the scholarship.",
+      "fixed_order": true
+    },
+    {
+      "point": "c4_zhiyao",
+      "prompt": "Which is **wrong**?",
+      "options": [
+        "{只有|zhǐyǒu}{你|nǐ}{来|lái}，{我|wǒ}{才|cái}{高兴|gāoxìng}。",
+        "{你|nǐ}{来|lái}{我|wǒ}{就|jiù}{高兴|gāoxìng}。",
+        "{只要|zhǐyào}{你|nǐ}{来|lái}，{我|wǒ}{才|cái}{高兴|gāoxìng}。",
+        "{只要|zhǐyào}{你|nǐ}{来|lái}，{我|wǒ}{就|jiù}{高兴|gāoxìng}。"
+      ],
+      "answer": 2,
+      "explanation": "只要 pairs with **就**, 只有 with **才**.",
+      "notes": [
+        "Correct.",
+        "Correct.",
+        "",
+        "Correct."
+      ],
+      "translation": "As long as you come, I'll be happy."
+    },
+    {
+      "point": "c4_zhiyou",
+      "prompt": "{这|zhè}{个|ge}{问题|wèntí}（　）{王|Wáng}{老师|lǎoshī}{才|cái}{能|néng}{回答|huídá}。",
+      "options": [
+        "{就|jiù}",
+        "{只有|zhǐyǒu}",
+        "{也|yě}",
+        "{只要|zhǐyào}"
+      ],
+      "answer": 1,
+      "explanation": "Only Mr Wang → **只有**…才.",
+      "notes": [
+        "就 doesn't go there.",
+        "",
+        "也 doesn't fit.",
+        "只要 pairs with 就."
+      ],
+      "translation": "Only Mr Wang can answer this question."
+    },
+    {
+      "point": "c4_zhiyao",
+      "kind": "sort",
+      "prompt": "Which pair fills both blanks: 只要…就 or 只有…才?",
+      "items": [
+        "＿＿{多|duō}{练习|liànxí}，＿{能|néng}{说|shuō}{得|de}{流利|liúlì}。",
+        "＿＿{按|àn}{这|zhè}{个|ge}{按钮|ànniǔ}，{门|mén}＿{开|kāi}{了|le}。",
+        "＿＿{有|yǒu}{时间|shíjiān}，{我|wǒ}＿{去|qù}{看|kàn}{你|nǐ}。",
+        "＿＿{你|nǐ}{高兴|gāoxìng}，＿{好|hǎo}。",
+        "＿＿{坚持|jiānchí}，＿{能|néng}{成功|chénggōng}。",
+        "＿＿{你|nǐ}{亲自|qīnzì}{去|qù}，{他|tā}＿{会|huì}{同意|tóngyì}。"
+      ],
+      "groups": [
+        "只要 … 就 (that's enough)",
+        "只有 … 才 (the only way)"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "100011"
+      ],
+      "explanation": "**只要…就** = one easy condition is enough; **只有…才** = this condition and nothing else.",
+      "notes": [
+        "Practice is the only way → 只有…才.",
+        "One press is enough → 只要…就…了.",
+        "Any free time at all is enough → 只要…就.",
+        "As long as you're happy → 只要你高兴就好.",
+        "The classic: 只有坚持才能成功.",
+        "Going in person is the only way → 只有…才."
+      ],
+      "translation": ""
+    }
+  ]
+}

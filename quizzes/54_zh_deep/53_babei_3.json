@@ -1,0 +1,194 @@
+{
+  "id": "zh-dd-babei-3",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "把 vs 被 Step 3 · Flip It: 把 ↔ 被",
+  "description": "Every 把 sentence can flip into a 被 sentence. Swap the people around and keep track of who got what.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "b3_flip",
+      "title": "Flipping",
+      "summary": "A 把 B + verb … ⇄ B 被 A + verb … — the verb and result stay the same.",
+      "body": "- 小狗**把**我的鞋咬坏了。 ⇄ 我的鞋**被**小狗咬坏了。\n- 风**把**门吹开了。 ⇄ 门**被**风吹开了。\n\n| | pattern | the subject … | feeling |\n|---|---|---|---|\n| **把** | doer + 把 + thing + verb + result | **does** something to the thing | what you did to it |\n| **被** | thing + 被 + (doer) + verb + result | **receives** the action | often bad luck: got …ed |\n\n**Both** need something after the verb: ~~我把饭吃~~ → 我把饭吃**完了** · ~~杯子被打~~ → 杯子被打**破了**.\n**没 / 不 / 想 / 要** go **before** 把 / 被: 我**没**把作业做完 · 他**没**被抓住.",
+      "examples": [
+        [
+          "{我|wǒ}{的|de}{鞋|xié}{被|bèi}{小狗|xiǎogǒu}{咬|yǎo}{坏|huài}{了|le}。",
+          "My shoe got chewed up by the puppy."
+        ]
+      ]
+    },
+    {
+      "id": "b3_who",
+      "title": "Who got what?",
+      "summary": "The noun right after 把 receives the action; the noun right after 被 does it.",
+      "body": "- 我**被**他打了 → **I** got hit.\n- 我**把**他打了 → **he** got hit.\n\n| | pattern | the subject … | feeling |\n|---|---|---|---|\n| **把** | doer + 把 + thing + verb + result | **does** something to the thing | what you did to it |\n| **被** | thing + 被 + (doer) + verb + result | **receives** the action | often bad luck: got …ed |\n\n**Both** need something after the verb: ~~我把饭吃~~ → 我把饭吃**完了** · ~~杯子被打~~ → 杯子被打**破了**.\n**没 / 不 / 想 / 要** go **before** 把 / 被: 我**没**把作业做完 · 他**没**被抓住.",
+      "examples": [
+        [
+          "{我|wǒ}{被|bèi}{他|tā}{骗|piàn}{了|le}。",
+          "I got tricked by him."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "b3_flip",
+      "kind": "tiles",
+      "prompt": "Flip 「{小狗|xiǎogǒu}{把|bǎ}{我|wǒ}{的|de}{鞋|xié}{咬|yǎo}{坏|huài}{了|le}。」 into a 被 sentence.",
+      "items": [
+        "{鞋|xié}",
+        "{小狗|xiǎogǒu}",
+        "{我|wǒ}{的|de}",
+        "{被|bèi}",
+        "{咬|yǎo}{坏|huài}{了|le}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "20314"
+      ],
+      "explanation": "我的鞋**被小狗**咬坏了。 The receiver moves to the front.",
+      "notes": [],
+      "translation": "My shoe got chewed up by the puppy."
+    },
+    {
+      "point": "b3_flip",
+      "kind": "tiles",
+      "prompt": "Flip 「{窗户|chuānghu}{被|bèi}{他|tā}{打开|dǎkāi}{了|le}。」 into a 把 sentence.",
+      "items": [
+        "{打开|dǎkāi}{了|le}",
+        "{他|tā}",
+        "{窗户|chuānghu}",
+        "{把|bǎ}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "1320"
+      ],
+      "explanation": "**他把窗户**打开了。 The doer moves to the front.",
+      "notes": [],
+      "translation": "He opened the window."
+    },
+    {
+      "point": "b3_who",
+      "prompt": "「{我|wǒ}{被|bèi}{他|tā}{打|dǎ}{了|le}。」 vs 「{我|wǒ}{把|bǎ}{他|tā}{打|dǎ}{了|le}。」 — who got hit?",
+      "options": [
+        "1st: I got hit · 2nd: he got hit",
+        "1st: he got hit · 2nd: I got hit",
+        "I got hit both times",
+        "He got hit both times"
+      ],
+      "answer": 0,
+      "explanation": "**被** + doer · **把** + receiver.",
+      "notes": [
+        "",
+        "Swapped: after 被 comes the hitter.",
+        "In the 2nd, 我 is the doer.",
+        "In the 1st, 我 is the receiver."
+      ],
+      "translation": "",
+      "fixed_order": true
+    },
+    {
+      "point": "b3_who",
+      "kind": "sort",
+      "prompt": "Who got the action?",
+      "items": [
+        "{他|tā}{被|bèi}{我|wǒ}{骗|piàn}{了|le}。",
+        "{我|wǒ}{把|bǎ}{他|tā}{打|dǎ}{了|le}。",
+        "{我|wǒ}{把|bǎ}{他|tā}{叫|jiào}{醒|xǐng}{了|le}。",
+        "{我|wǒ}{被|bèi}{他|tā}{骗|piàn}{了|le}。",
+        "{他|tā}{把|bǎ}{我|wǒ}{叫|jiào}{醒|xǐng}{了|le}。",
+        "{我|wǒ}{被|bèi}{他|tā}{打|dǎ}{了|le}。"
+      ],
+      "groups": [
+        "我 (me)",
+        "他 (him)"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "111000"
+      ],
+      "explanation": "The person right after **把** receives it; the one right after **被** does it.",
+      "notes": [
+        "He got tricked.",
+        "He got hit.",
+        "I woke him up.",
+        "I got tricked.",
+        "He woke me up.",
+        "I got hit."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b3_flip",
+      "kind": "multi",
+      "prompt": "Which mean the same as 「{弟弟|dìdi}{把|bǎ}{蛋糕|dàngāo}{吃|chī}{完|wán}{了|le}。」? Select all.",
+      "options": [
+        "{蛋糕|dàngāo}{把|bǎ}{弟弟|dìdi}{吃|chī}{完|wán}{了|le}。",
+        "{弟弟|dìdi}{吃|chī}{完|wán}{了|le}{蛋糕|dàngāo}。",
+        "{蛋糕|dàngāo}{叫|jiào}{弟弟|dìdi}{吃|chī}{完|wán}{了|le}。",
+        "{弟弟|dìdi}{把|bǎ}{蛋糕|dàngāo}{吃|chī}。",
+        "{蛋糕|dàngāo}{被|bèi}{弟弟|dìdi}{吃|chī}{完|wán}{了|le}。",
+        "{弟弟|dìdi}{被|bèi}{蛋糕|dàngāo}{吃|chī}{完|wán}{了|le}。"
+      ],
+      "answer": 0,
+      "accept": [
+        "124"
+      ],
+      "explanation": "把 ⇄ 被: swap the two nouns, keep verb + result.",
+      "notes": [
+        "Same monster cake.",
+        "Plain word order. ✔",
+        "Spoken 叫 = 被. ✔",
+        "Bare verb after 把.",
+        "The 被 flip. ✔",
+        "The cake ate the brother?!"
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b3_flip",
+      "prompt": "Which is the correct 被 version of 「{风|fēng}{把|bǎ}{门|mén}{吹|chuī}{开|kāi}{了|le}。」?",
+      "options": [
+        "{风|fēng}{被|bèi}{门|mén}{吹|chuī}{开|kāi}{了|le}。",
+        "{被|bèi}{风|fēng}{门|mén}{吹|chuī}{开|kāi}{了|le}。",
+        "{门|mén}{被|bèi}{吹|chuī}{风|fēng}{开|kāi}{了|le}。",
+        "{门|mén}{被|bèi}{风|fēng}{吹|chuī}{开|kāi}{了|le}。"
+      ],
+      "answer": 3,
+      "explanation": "Receiver + **被** + doer + verb + result.",
+      "notes": [
+        "Now the door is blowing the wind.",
+        "The receiver must come first.",
+        "The doer goes right after 被, before the verb.",
+        ""
+      ],
+      "translation": "The door was blown open by the wind."
+    },
+    {
+      "point": "b3_who",
+      "kind": "tiles",
+      "prompt": "Build it: 'Don't let the cat eat the fish!'",
+      "items": [
+        "{猫|māo}",
+        "{别|bié}",
+        "{把|bǎ}",
+        "{让|ràng}",
+        "{吃|chī}{了|le}",
+        "{鱼|yú}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "130254"
+      ],
+      "explanation": "别让猫**把鱼**吃了！ 把 + the fish (receiver) + 吃了.",
+      "notes": [],
+      "translation": "Don't let the cat eat the fish!"
+    }
+  ]
+}

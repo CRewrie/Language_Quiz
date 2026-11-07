@@ -100,18 +100,18 @@
       "point": "s7_story",
       "prompt": "{中午|zhōngwǔ}，{公司|gōngsī}{抽奖|chōujiǎng}。{小林|Xiǎo Lín}{差点|chàdiǎn}{中|zhòng}{了|le}{一等奖|yīděngjiǎng}——{就|jiù}{差|chà}{一|yí}{个|ge}{号码|hàomǎ}。{不过|búguò}，{他|tā}{差点|chàdiǎn}{没|méi}{吃|chī}{上|shang}{午饭|wǔfàn}：{食堂|shítáng}{只|zhǐ}{剩|shèng}{最后|zuìhòu}{一|yí}{份|fèn}{了|le}。\n\n★ {小林|Xiǎo Lín}{中|zhòng}{了|le}{一等奖|yīděngjiǎng}{吗|ma}？",
       "options": [
+        "{没有|méiyǒu}，{就|jiù}{差|chà}{一|yí}{个|ge}{号码|hàomǎ}",
         "{他|tā}{没|méi}{参加|cānjiā}",
         "{他|tā}{中|zhòng}{了|le}{二等奖|èrděngjiǎng}",
-        "{中|zhòng}{了|le}",
-        "{没有|méiyǒu}，{就|jiù}{差|chà}{一|yí}{个|ge}{号码|hàomǎ}"
+        "{中|zhòng}{了|le}"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "差点中了 + 就差一个号码 → **didn't win**. 😢",
       "notes": [
+        "",
         "He took part — and was one number short.",
         "The story doesn't mention a second prize.",
-        "差点中了 + wanted → he did **not** win.",
-        ""
+        "差点中了 + wanted → he did **not** win."
       ],
       "translation": "At lunchtime the company held a prize draw. Xiao Lin nearly won first prize — he was one number short. And he only just got lunch: the canteen had one portion left. ★ Did Xiao Lin win first prize?"
     },
@@ -119,18 +119,18 @@
       "point": "s7_story",
       "prompt": "{中午|zhōngwǔ}，{公司|gōngsī}{抽奖|chōujiǎng}。{小林|Xiǎo Lín}{差点|chàdiǎn}{中|zhòng}{了|le}{一等奖|yīděngjiǎng}——{就|jiù}{差|chà}{一|yí}{个|ge}{号码|hàomǎ}。{不过|búguò}，{他|tā}{差点|chàdiǎn}{没|méi}{吃|chī}{上|shang}{午饭|wǔfàn}：{食堂|shítáng}{只|zhǐ}{剩|shèng}{最后|zuìhòu}{一|yí}{份|fèn}{了|le}。\n\n★ {小林|Xiǎo Lín}{吃|chī}{上|shang}{午饭|wǔfàn}{了|le}{吗|ma}？",
       "options": [
-        "{没|méi}{吃|chī}{上|shang}",
-        "{他|tā}{在|zài}{家|jiā}{吃|chī}{的|de}",
+        "{他|tā}{不|bú}{饿|è}",
         "{吃|chī}{上|shang}{了|le}，{是|shì}{最后|zuìhòu}{一|yí}{份|fèn}",
-        "{他|tā}{不|bú}{饿|è}"
+        "{他|tā}{在|zài}{家|jiā}{吃|chī}{的|de}",
+        "{没|méi}{吃|chī}{上|shang}"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "差点没吃上 + 只剩最后一份 → **got the last portion**. 🎉",
       "notes": [
-        "差点没吃上 + wanted → he **did** get lunch.",
-        "He ate at the canteen.",
+        "The story doesn't say he wasn't hungry.",
         "",
-        "The story doesn't say he wasn't hungry."
+        "He ate at the canteen.",
+        "差点没吃上 + wanted → he **did** get lunch."
       ],
       "translation": "At lunchtime the company held a prize draw. Xiao Lin nearly won first prize — he was one number short. And he only just got lunch: the canteen had one portion left. ★ Did Xiao Lin get lunch?"
     },
@@ -190,18 +190,18 @@
       "point": "s7_mixed",
       "prompt": "{小林|Xiǎo Lín}{跑|pǎo}{到|dào}{站台|zhàntái}{的|de}{时候|shíhou}，{车门|chēmén}{刚|gāng}{关|guān}{上|shang}。{他|tā}{差点|chàdiǎn}（　）{末班车|mòbānchē}。",
       "options": [
-        "{摔倒|shuāidǎo}",
+        "{迟到|chídào}",
         "{没|méi}{赶上|gǎnshàng}",
         "{赶上|gǎnshàng}",
-        "{迟到|chídào}"
+        "{摔倒|shuāidǎo}"
       ],
       "answer": 2,
       "explanation": "Doors closed → missed it: 差点**赶上** (almost caught).",
       "notes": [
-        "Doesn't fit the doors closing.",
+        "迟到 doesn't take an object like 末班车.",
         "差点没赶上 = he **caught** it — but the doors had closed.",
         "",
-        "迟到 doesn't take an object like 末班车."
+        "Doesn't fit the doors closing."
       ],
       "translation": "When Xiao Lin reached the platform, the doors had just closed. He almost caught the last train."
     },

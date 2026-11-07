@@ -68,42 +68,52 @@
       "fixed_order": true
     },
     {
-      "point": "s1_meaning",
-      "prompt": "{地上|dìshang}{都|dōu}{是|shì}{水|shuǐ}，{我|wǒ}（　）{摔倒|shuāidǎo}{了|le}。",
+      "point": "s1_shape",
+      "kind": "multi",
+      "prompt": "In 「{我|wǒ}{差点|chàdiǎn}{迟到|chídào}{了|le}。」, which words could replace 差点 **without changing the meaning**? Select all.",
       "options": [
-        "{差点|chàdiǎn}",
+        "{差一点儿|chà yìdiǎnr}",
+        "{差不多|chàbuduō}",
+        "{快要|kuài yào}",
         "{一点|yìdiǎn}",
-        "{终于|zhōngyú}",
-        "{差不多|chàbuduō}"
+        "{差一点|chà yìdiǎn}",
+        "{差点儿|chàdiǎnr}"
       ],
       "answer": 0,
-      "explanation": "Almost (but didn't): **差点**.",
-      "notes": [
-        "",
-        "一点 = 'a little' — 摔倒一点 isn't a thing.",
-        "终于 = 'finally' — as if you'd been hoping to fall!",
-        "差不多 = 'roughly, about' — not 'almost (happened)'."
+      "accept": [
+        "045"
       ],
-      "translation": "There was water all over the floor — I almost fell."
+      "explanation": "差点 = 差点儿 = 差一点(儿): **almost** (didn't happen). 差不多 and 快要 are different words.",
+      "notes": [
+        "Same again — 差一点 + 儿.",
+        "差不多 = 'roughly, about' — 我差不多迟到了 doesn't mean 'almost late'.",
+        "快要迟到了 = 'I'm about to be late' (hurry!) — not 'I was almost late'.",
+        "一点 = 'a little' — it can't go before the verb like this.",
+        "Same meaning, a little more emphatic.",
+        "The northern spoken form — same meaning."
+      ],
+      "translation": "I was almost late."
     },
     {
       "point": "s1_meaning",
-      "prompt": "{我|wǒ}（　）{忘|wàng}{了|le}{今天|jīntiān}{是|shì}{妈妈|māma}{的|de}{生日|shēngrì}！{还好|háihǎo}{想|xiǎng}{起来|qǐlai}{了|le}。",
-      "options": [
-        "{一点儿|yìdiǎnr}",
-        "{已经|yǐjīng}",
-        "{差点|chàdiǎn}",
-        "{差不多|chàbuduō}"
+      "kind": "tiles",
+      "prompt": "Build it: 'I almost forgot that today is Mum's birthday!' (you remembered in time)",
+      "items": [
+        "{差点儿|chàdiǎnr}",
+        "{是|shì}",
+        "{妈妈|māma}{的|de}{生日|shēngrì}",
+        "{忘|wàng}{了|le}",
+        "{今天|jīntiān}",
+        "{我|wǒ}"
       ],
-      "answer": 2,
-      "explanation": "Remembered in the end → **差点**忘了.",
-      "notes": [
-        "一点儿 doesn't go before a verb like this.",
-        "已经忘了 = 'I've already forgotten' — but you remembered in time.",
-        "",
-        "差不多忘了 = 'more or less forgot' — wrong idea."
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "503412"
       ],
-      "translation": "I almost forgot it's Mum's birthday today! Luckily I remembered."
+      "explanation": "我 **差点儿 忘了** 今天是妈妈的生日！ 差点儿 sits right before the verb.",
+      "notes": [],
+      "translation": "I almost forgot that today is Mum's birthday!"
     },
     {
       "point": "s1_meaning",
@@ -125,18 +135,18 @@
       "point": "s1_meaning",
       "prompt": "What does 「{这|zhè}{道|dào}{题|tí}{太|tài}{难|nán}{了|le}，{我|wǒ}{差点|chàdiǎn}{放弃|fàngqì}。」 mean?",
       "options": [
-        "I'm going to give up soon.",
-        "The problem was so hard I gave up.",
         "The problem was so hard I almost gave up (but I kept going).",
-        "I gave up a little on the problem."
+        "I gave up a little on the problem.",
+        "I'm going to give up soon.",
+        "The problem was so hard I gave up."
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "差点放弃 = **almost** gave up.",
       "notes": [
-        "That would be 我快要放弃了.",
-        "差点 = it didn't happen — you kept going.",
         "",
-        "差点 isn't 'a little'."
+        "差点 isn't 'a little'.",
+        "That would be 我快要放弃了.",
+        "差点 = it didn't happen — you kept going."
       ],
       "translation": "This problem is so hard I almost gave up."
     },
@@ -146,16 +156,16 @@
       "options": [
         "{就|jiù}",
         "{差点儿|chàdiǎnr}",
-        "{了|le}",
-        "{迟到|chídào}"
+        "{迟到|chídào}",
+        "{了|le}"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "他 **差点儿 就 迟到 了**。",
       "notes": [
         "就 follows 差点儿 — slot 2.",
         "差点儿 comes first, right after the subject — slot 1.",
-        "了 closes the sentence — slot 4.",
-        ""
+        "",
+        "了 closes the sentence — slot 4."
       ],
       "translation": "He very nearly was late."
     },
@@ -163,17 +173,17 @@
       "point": "s1_shape",
       "prompt": "Which sentence is correct?",
       "options": [
-        "{我|wǒ}{差点|chàdiǎn}{了|le}{摔倒|shuāidǎo}。",
-        "{我|wǒ}{差点|chàdiǎn}{摔倒|shuāidǎo}{了|le}。",
         "{我|wǒ}{摔|shuāi}{差点|chàdiǎn}{倒|dǎo}{了|le}。",
+        "{我|wǒ}{差点|chàdiǎn}{摔倒|shuāidǎo}{了|le}。",
+        "{我|wǒ}{差点|chàdiǎn}{了|le}{摔倒|shuāidǎo}。",
         "{我|wǒ}{摔倒|shuāidǎo}{差点|chàdiǎn}{了|le}。"
       ],
       "answer": 1,
       "explanation": "Subject + **差点** + verb (+ 了).",
       "notes": [
-        "了 comes after the verb, not after 差点.",
-        "",
         "差点 can't split 摔倒.",
+        "",
+        "了 comes after the verb, not after 差点.",
         "差点 goes **before** the verb."
       ],
       "translation": "I almost fell."
@@ -183,17 +193,17 @@
       "prompt": "Which sentence means the same as 「{我|wǒ}{差点儿|chàdiǎnr}{哭|kū}{了|le}。」?",
       "options": [
         "{我|wǒ}{哭|kū}{了|le}{一下|yíxià}。",
-        "{我|wǒ}{快|kuài}{要|yào}{哭|kū}{了|le}。",
         "{我|wǒ}{哭|kū}{了|le}{一点|yìdiǎn}。",
-        "{我|wǒ}{差一点|chà yìdiǎn}{哭|kū}{了|le}。"
+        "{我|wǒ}{差一点|chà yìdiǎn}{哭|kū}{了|le}。",
+        "{我|wǒ}{快|kuài}{要|yào}{哭|kū}{了|le}。"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "差点儿 = 差一点 = **almost**.",
       "notes": [
         "哭了一下 = 'cried for a moment' — you did cry.",
-        "快要哭了 = 'about to cry' (right now), not 'almost cried'.",
         "哭了一点 = 'cried a little' — you did cry.",
-        ""
+        "",
+        "快要哭了 = 'about to cry' (right now), not 'almost cried'."
       ],
       "translation": "I almost cried."
     },
@@ -201,18 +211,18 @@
       "point": "s1_shape",
       "prompt": "{好险|hǎo xiǎn}！{我|wǒ}{差点|chàdiǎn}（　）{撞|zhuàng}{到|dào}{那|nà}{辆|liàng}{车|chē}{了|le}。",
       "options": [
-        "{就|jiù}",
-        "{才|cái}",
         "{都|dōu}",
-        "{还|hái}"
+        "{才|cái}",
+        "{还|hái}",
+        "{就|jiù}"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "The dramatic pattern: 差点 + **就** + verb + 了.",
       "notes": [
-        "",
-        "才 = 'only then / not until' — doesn't go with 差点.",
         "都 doesn't fit here.",
-        "还 = 'still' — doesn't fit."
+        "才 = 'only then / not until' — doesn't go with 差点.",
+        "还 = 'still' — doesn't fit.",
+        ""
       ],
       "translation": "That was close! I very nearly hit that car."
     },
@@ -220,39 +230,52 @@
       "point": "s1_shape",
       "prompt": "You nearly missed the train (but caught it). Which sentence says so?",
       "options": [
-        "{我|wǒ}{差不多|chàbuduō}{错过|cuòguò}{火车|huǒchē}。",
-        "{我|wǒ}{错过|cuòguò}{火车|huǒchē}{一点|yìdiǎn}。",
+        "{我|wǒ}{错过|cuòguò}{火车|huǒchē}{差点|chàdiǎn}。",
         "{我|wǒ}{差点|chàdiǎn}{错过|cuòguò}{火车|huǒchē}。",
-        "{我|wǒ}{错过|cuòguò}{火车|huǒchē}{差点|chàdiǎn}。"
+        "{我|wǒ}{差不多|chàbuduō}{错过|cuòguò}{火车|huǒchē}。",
+        "{我|wǒ}{错过|cuòguò}{火车|huǒchē}{一点|yìdiǎn}。"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "**差点**错过 = almost missed.",
       "notes": [
-        "差不多 = 'roughly' — not 'almost (happened)'.",
-        "错过…一点 = 'missed it a little' — not a thing.",
+        "差点 goes before the verb.",
         "",
-        "差点 goes before the verb."
+        "差不多 = 'roughly' — not 'almost (happened)'.",
+        "错过…一点 = 'missed it a little' — not a thing."
       ],
       "translation": "I almost missed the train."
     },
     {
-      "point": "s1_shape",
-      "prompt": "A：{你|nǐ}{的|de}{钱包|qiánbāo}{呢|ne}？\nB：{在|zài}{这儿|zhèr}，{刚才|gāngcái}（　）{丢|diū}{了|le}！",
-      "options": [
-        "{差点|chàdiǎn}",
-        "{已经|yǐjīng}",
-        "{一点|yìdiǎn}",
-        "{终于|zhōngyú}"
+      "point": "s1_meaning",
+      "kind": "match",
+      "prompt": "差点 has look-alikes. Match each sentence to what it means.",
+      "items": [
+        "{我|wǒ}{终于|zhōngyú}{到|dào}{了|le}！",
+        "{我|wǒ}{差点|chàdiǎn}{迟到|chídào}{了|le}。",
+        "{我|wǒ}{快要|kuài yào}{迟到|chídào}{了|le}！",
+        "{钱包|qiánbāo}{刚才|gāngcái}{差点|chàdiǎn}{丢|diū}{了|le}。",
+        "{我|wǒ}{差不多|chàbuduō}{到|dào}{了|le}。"
       ],
+      "groups": [
+        "finally — after a long wait",
+        "more or less, roughly",
+        "about to happen, any moment now",
+        "almost — but it didn't happen"
+      ],
+      "options": [],
       "answer": 0,
-      "explanation": "It's still here → **差点**丢了.",
-      "notes": [
-        "",
-        "已经丢了 = 'already lost' — but it's right here.",
-        "一点丢了 isn't Chinese.",
-        "终于丢了 = 'finally lost it' — as if you wanted to!"
+      "accept": [
+        "03231"
       ],
-      "translation": "A: Where's your wallet? B: Here — I almost lost it just now!"
+      "explanation": "Only **差点** says 'it almost happened, but didn't'. 快要 = soon, 差不多 = roughly, 终于 = finally.",
+      "notes": [
+        "终于 = at last, after a long wait.",
+        "差点 = almost late — you made it.",
+        "快要…了 = it's about to happen — hurry!",
+        "差点丢了 = almost lost — it's still here.",
+        "差不多 = more or less: you're basically there."
+      ],
+      "translation": ""
     }
   ]
 }

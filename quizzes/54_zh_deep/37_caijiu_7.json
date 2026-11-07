@@ -1,0 +1,253 @@
+{
+  "id": "zh-dd-caijiu-7",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "才 vs 就 Step 7 · Boss Level: Early Bird 小张, Late 小王",
+  "description": "One Saturday, two friends, every kind of 才 and 就. Who was early, who was late, who's young, and who ate how much?",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "c7_read",
+      "title": "Reading 才 and 就 in a story",
+      "summary": "For each 才 / 就: early or late? little or much? which pattern?",
+      "body": "The feelings tell the story.\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{小张|Xiǎo Zhāng}{九|jiǔ}{点|diǎn}{半|bàn}{就|jiù}{到|dào}{了|le}。",
+          "Xiao Zhang was there by half past nine."
+        ]
+      ]
+    },
+    {
+      "id": "c7_mixed",
+      "title": "Final mixed challenge",
+      "summary": "All the 才 / 就 patterns together.",
+      "body": "Sooner/easier 🐇 or later/harder 🐢?\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{只有|zhǐyǒu}{坚持|jiānchí}，{才|cái}{能|néng}{成功|chénggōng}。",
+          "Only by keeping at it can you succeed."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "c7_read",
+      "prompt": "{小林|Xiǎo Lín}{有|yǒu}{两|liǎng}{个|ge}{朋友|péngyou}：{小张|Xiǎo Zhāng}{和|hé}{小王|Xiǎo Wáng}。{上|shàng}{个|ge}{星期六|xīngqīliù}{他们|tāmen}{约|yuē}{好|hǎo}{十|shí}{点|diǎn}{在|zài}{公园|gōngyuán}{见面|jiànmiàn}。{小张|Xiǎo Zhāng}{九|jiǔ}{点|diǎn}{半|bàn}{就|jiù}{到|dào}{了|le}，{小王|Xiǎo Wáng}{十一|shíyī}{点|diǎn}{才|cái}{来|lái}。{小王|Xiǎo Wáng}{说|shuō}：“{我|wǒ}{才|cái}{起床|qǐchuáng}！”{小张|Xiǎo Zhāng}{说|shuō}：“{只要|zhǐyào}{你|nǐ}{来|lái}{就|jiù}{好|hǎo}。”{他们|tāmen}{一|yí}{到|dào}{饭馆|fànguǎn}{就|jiù}{点|diǎn}{了|le}{菜|cài}。{小王|Xiǎo Wáng}{才|cái}{二十|èrshí}{岁|suì}，{一个人|yí ge rén}{就|jiù}{吃|chī}{了|le}{三|sān}{碗|wǎn}{饭|fàn}。\n\n★ {小张|Xiǎo Zhāng}{来|lái}{得|de}{很|hěn}{早|zǎo}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "九点半**就**到了 = early. 🐇",
+      "notes": [
+        "",
+        "九点半就到了 — before ten, and 就 stresses early."
+      ],
+      "translation": "Xiao Lin has two friends, Xiao Zhang and Xiao Wang. Last Saturday they agreed to meet in the park at ten. Xiao Zhang was there by half past nine; Xiao Wang didn't turn up until eleven. Xiao Wang said: 'I've only just got up!' Xiao Zhang said: 'As long as you came, that's fine.' The moment they reached the restaurant they ordered. Xiao Wang is only twenty, and he ate three bowls of rice on his own. ★ Xiao Zhang came early.",
+      "fixed_order": true
+    },
+    {
+      "point": "c7_read",
+      "prompt": "{小林|Xiǎo Lín}{有|yǒu}{两|liǎng}{个|ge}{朋友|péngyou}：{小张|Xiǎo Zhāng}{和|hé}{小王|Xiǎo Wáng}。{上|shàng}{个|ge}{星期六|xīngqīliù}{他们|tāmen}{约|yuē}{好|hǎo}{十|shí}{点|diǎn}{在|zài}{公园|gōngyuán}{见面|jiànmiàn}。{小张|Xiǎo Zhāng}{九|jiǔ}{点|diǎn}{半|bàn}{就|jiù}{到|dào}{了|le}，{小王|Xiǎo Wáng}{十一|shíyī}{点|diǎn}{才|cái}{来|lái}。{小王|Xiǎo Wáng}{说|shuō}：“{我|wǒ}{才|cái}{起床|qǐchuáng}！”{小张|Xiǎo Zhāng}{说|shuō}：“{只要|zhǐyào}{你|nǐ}{来|lái}{就|jiù}{好|hǎo}。”{他们|tāmen}{一|yí}{到|dào}{饭馆|fànguǎn}{就|jiù}{点|diǎn}{了|le}{菜|cài}。{小王|Xiǎo Wáng}{才|cái}{二十|èrshí}{岁|suì}，{一个人|yí ge rén}{就|jiù}{吃|chī}{了|le}{三|sān}{碗|wǎn}{饭|fàn}。\n\n★ {小王|Xiǎo Wáng}{准时|zhǔnshí}{到|dào}{了|le}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "十一点**才**来 = late. 🐢",
+      "notes": [
+        "十一点才来 — an hour late.",
+        ""
+      ],
+      "translation": "Xiao Lin has two friends, Xiao Zhang and Xiao Wang. Last Saturday they agreed to meet in the park at ten. Xiao Zhang was there by half past nine; Xiao Wang didn't turn up until eleven. Xiao Wang said: 'I've only just got up!' Xiao Zhang said: 'As long as you came, that's fine.' The moment they reached the restaurant they ordered. Xiao Wang is only twenty, and he ate three bowls of rice on his own. ★ Xiao Wang arrived on time.",
+      "fixed_order": true
+    },
+    {
+      "point": "c7_read",
+      "prompt": "{小林|Xiǎo Lín}{有|yǒu}{两|liǎng}{个|ge}{朋友|péngyou}：{小张|Xiǎo Zhāng}{和|hé}{小王|Xiǎo Wáng}。{上|shàng}{个|ge}{星期六|xīngqīliù}{他们|tāmen}{约|yuē}{好|hǎo}{十|shí}{点|diǎn}{在|zài}{公园|gōngyuán}{见面|jiànmiàn}。{小张|Xiǎo Zhāng}{九|jiǔ}{点|diǎn}{半|bàn}{就|jiù}{到|dào}{了|le}，{小王|Xiǎo Wáng}{十一|shíyī}{点|diǎn}{才|cái}{来|lái}。{小王|Xiǎo Wáng}{说|shuō}：“{我|wǒ}{才|cái}{起床|qǐchuáng}！”{小张|Xiǎo Zhāng}{说|shuō}：“{只要|zhǐyào}{你|nǐ}{来|lái}{就|jiù}{好|hǎo}。”{他们|tāmen}{一|yí}{到|dào}{饭馆|fànguǎn}{就|jiù}{点|diǎn}{了|le}{菜|cài}。{小王|Xiǎo Wáng}{才|cái}{二十|èrshí}{岁|suì}，{一个人|yí ge rén}{就|jiù}{吃|chī}{了|le}{三|sān}{碗|wǎn}{饭|fàn}。\n\n★ {小王|Xiǎo Wáng}{起床|qǐchuáng}{起|qǐ}{得|de}{很|hěn}{早|zǎo}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "**才**起床 = only just got up.",
+      "notes": [
+        "我才起床 = I've only just got up (at eleven!).",
+        ""
+      ],
+      "translation": "Xiao Lin has two friends, Xiao Zhang and Xiao Wang. Last Saturday they agreed to meet in the park at ten. Xiao Zhang was there by half past nine; Xiao Wang didn't turn up until eleven. Xiao Wang said: 'I've only just got up!' Xiao Zhang said: 'As long as you came, that's fine.' The moment they reached the restaurant they ordered. Xiao Wang is only twenty, and he ate three bowls of rice on his own. ★ Xiao Wang got up early.",
+      "fixed_order": true
+    },
+    {
+      "point": "c7_read",
+      "prompt": "{小林|Xiǎo Lín}{有|yǒu}{两|liǎng}{个|ge}{朋友|péngyou}：{小张|Xiǎo Zhāng}{和|hé}{小王|Xiǎo Wáng}。{上|shàng}{个|ge}{星期六|xīngqīliù}{他们|tāmen}{约|yuē}{好|hǎo}{十|shí}{点|diǎn}{在|zài}{公园|gōngyuán}{见面|jiànmiàn}。{小张|Xiǎo Zhāng}{九|jiǔ}{点|diǎn}{半|bàn}{就|jiù}{到|dào}{了|le}，{小王|Xiǎo Wáng}{十一|shíyī}{点|diǎn}{才|cái}{来|lái}。{小王|Xiǎo Wáng}{说|shuō}：“{我|wǒ}{才|cái}{起床|qǐchuáng}！”{小张|Xiǎo Zhāng}{说|shuō}：“{只要|zhǐyào}{你|nǐ}{来|lái}{就|jiù}{好|hǎo}。”{他们|tāmen}{一|yí}{到|dào}{饭馆|fànguǎn}{就|jiù}{点|diǎn}{了|le}{菜|cài}。{小王|Xiǎo Wáng}{才|cái}{二十|èrshí}{岁|suì}，{一个人|yí ge rén}{就|jiù}{吃|chī}{了|le}{三|sān}{碗|wǎn}{饭|fàn}。\n\n★ {小张|Xiǎo Zhāng}{没有|méiyǒu}{生气|shēngqì}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "**只要…就好** — he's not angry.",
+      "notes": [
+        "",
+        "只要你来就好 = as long as you came, fine."
+      ],
+      "translation": "Xiao Lin has two friends, Xiao Zhang and Xiao Wang. Last Saturday they agreed to meet in the park at ten. Xiao Zhang was there by half past nine; Xiao Wang didn't turn up until eleven. Xiao Wang said: 'I've only just got up!' Xiao Zhang said: 'As long as you came, that's fine.' The moment they reached the restaurant they ordered. Xiao Wang is only twenty, and he ate three bowls of rice on his own. ★ Xiao Zhang wasn't angry.",
+      "fixed_order": true
+    },
+    {
+      "point": "c7_read",
+      "prompt": "{小林|Xiǎo Lín}{有|yǒu}{两|liǎng}{个|ge}{朋友|péngyou}：{小张|Xiǎo Zhāng}{和|hé}{小王|Xiǎo Wáng}。{上|shàng}{个|ge}{星期六|xīngqīliù}{他们|tāmen}{约|yuē}{好|hǎo}{十|shí}{点|diǎn}{在|zài}{公园|gōngyuán}{见面|jiànmiàn}。{小张|Xiǎo Zhāng}{九|jiǔ}{点|diǎn}{半|bàn}{就|jiù}{到|dào}{了|le}，{小王|Xiǎo Wáng}{十一|shíyī}{点|diǎn}{才|cái}{来|lái}。{小王|Xiǎo Wáng}{说|shuō}：“{我|wǒ}{才|cái}{起床|qǐchuáng}！”{小张|Xiǎo Zhāng}{说|shuō}：“{只要|zhǐyào}{你|nǐ}{来|lái}{就|jiù}{好|hǎo}。”{他们|tāmen}{一|yí}{到|dào}{饭馆|fànguǎn}{就|jiù}{点|diǎn}{了|le}{菜|cài}。{小王|Xiǎo Wáng}{才|cái}{二十|èrshí}{岁|suì}，{一个人|yí ge rén}{就|jiù}{吃|chī}{了|le}{三|sān}{碗|wǎn}{饭|fàn}。\n\n★ {他们|tāmen}{什么|shénme}{时候|shíhou}{点|diǎn}{的|de}{菜|cài}？",
+      "options": [
+        "{等|děng}{了|le}{很|hěn}{久|jiǔ}{才|cái}{点|diǎn}",
+        "{在|zài}{公园|gōngyuán}{点|diǎn}{的|de}",
+        "{没|méi}{点|diǎn}{菜|cài}",
+        "{一|yí}{到|dào}{饭馆|fànguǎn}{就|jiù}{点|diǎn}{了|le}"
+      ],
+      "answer": 3,
+      "explanation": "**一**到饭馆**就**点了菜 = as soon as they arrived.",
+      "notes": [
+        "一…就 = right away, not after a long wait.",
+        "They ordered at the restaurant.",
+        "They did order.",
+        ""
+      ],
+      "translation": "Xiao Lin has two friends, Xiao Zhang and Xiao Wang. Last Saturday they agreed to meet in the park at ten. Xiao Zhang was there by half past nine; Xiao Wang didn't turn up until eleven. Xiao Wang said: 'I've only just got up!' Xiao Zhang said: 'As long as you came, that's fine.' The moment they reached the restaurant they ordered. Xiao Wang is only twenty, and he ate three bowls of rice on his own. ★ When did they order?"
+    },
+    {
+      "point": "c7_read",
+      "prompt": "{小林|Xiǎo Lín}{有|yǒu}{两|liǎng}{个|ge}{朋友|péngyou}：{小张|Xiǎo Zhāng}{和|hé}{小王|Xiǎo Wáng}。{上|shàng}{个|ge}{星期六|xīngqīliù}{他们|tāmen}{约|yuē}{好|hǎo}{十|shí}{点|diǎn}{在|zài}{公园|gōngyuán}{见面|jiànmiàn}。{小张|Xiǎo Zhāng}{九|jiǔ}{点|diǎn}{半|bàn}{就|jiù}{到|dào}{了|le}，{小王|Xiǎo Wáng}{十一|shíyī}{点|diǎn}{才|cái}{来|lái}。{小王|Xiǎo Wáng}{说|shuō}：“{我|wǒ}{才|cái}{起床|qǐchuáng}！”{小张|Xiǎo Zhāng}{说|shuō}：“{只要|zhǐyào}{你|nǐ}{来|lái}{就|jiù}{好|hǎo}。”{他们|tāmen}{一|yí}{到|dào}{饭馆|fànguǎn}{就|jiù}{点|diǎn}{了|le}{菜|cài}。{小王|Xiǎo Wáng}{才|cái}{二十|èrshí}{岁|suì}，{一个人|yí ge rén}{就|jiù}{吃|chī}{了|le}{三|sān}{碗|wǎn}{饭|fàn}。\n\n★ {关于|guānyú}{小王|Xiǎo Wáng}，{下面|xiàmian}{哪|nǎ}{句|jù}{话|huà}{对|duì}？",
+      "options": [
+        "{他|tā}{年纪|niánjì}{很|hěn}{大|dà}",
+        "{他|tā}{很|hěn}{年轻|niánqīng}，{吃|chī}{得|de}{很|hěn}{多|duō}",
+        "{他|tā}{只|zhǐ}{吃|chī}{了|le}{一|yì}{碗|wǎn}{饭|fàn}",
+        "{他|tā}{来|lái}{得|de}{很|hěn}{早|zǎo}"
+      ],
+      "answer": 1,
+      "explanation": "**才**二十岁 (young) + 一个人**就**吃了三碗 (a lot).",
+      "notes": [
+        "才二十岁 = only twenty.",
+        "",
+        "一个人就吃了三碗 = three bowls.",
+        "He came at eleven."
+      ],
+      "translation": "Xiao Lin has two friends, Xiao Zhang and Xiao Wang. Last Saturday they agreed to meet in the park at ten. Xiao Zhang was there by half past nine; Xiao Wang didn't turn up until eleven. Xiao Wang said: 'I've only just got up!' Xiao Zhang said: 'As long as you came, that's fine.' The moment they reached the restaurant they ordered. Xiao Wang is only twenty, and he ate three bowls of rice on his own. ★ Which is true about Xiao Wang?"
+    },
+    {
+      "point": "c7_mixed",
+      "prompt": "{只有|zhǐyǒu}{坚持|jiānchí}，（　）{能|néng}{成功|chénggōng}。",
+      "options": [
+        "{都|dōu}",
+        "{就|jiù}",
+        "{也|yě}",
+        "{才|cái}"
+      ],
+      "answer": 3,
+      "explanation": "只有… → **才**.",
+      "notes": [
+        "都 doesn't fit.",
+        "只有 pairs with 才.",
+        "也 doesn't fit.",
+        ""
+      ],
+      "translation": "Only by keeping at it can you succeed."
+    },
+    {
+      "point": "c7_mixed",
+      "prompt": "{这么|zhème}{简单|jiǎndān}{的|de}{问题|wèntí}，{你|nǐ}{想|xiǎng}{了|le}{一个|yí ge}{小时|xiǎoshí}（　）{想|xiǎng}{出来|chūlai}？",
+      "options": [
+        "{才|cái}",
+        "{又|yòu}",
+        "{就|jiù}",
+        "{再|zài}"
+      ],
+      "answer": 0,
+      "explanation": "Slow → **才**.",
+      "notes": [
+        "",
+        "又 doesn't fit.",
+        "就 = quickly — but an hour for something simple is slow.",
+        "再 doesn't fit."
+      ],
+      "translation": "Such a simple problem — and it took you an hour to work it out?"
+    },
+    {
+      "point": "c7_mixed",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{才|cái}{十二|shí'èr}{点|diǎn}{睡觉|shuìjiào}{了|le}。",
+        "{他|tā}{十二|shí'èr}{点|diǎn}{才|cái}{睡觉|shuìjiào}。",
+        "{他|tā}{十二|shí'èr}{点|diǎn}{才|cái}{睡觉|shuìjiào}{了|le}。",
+        "{他|tā}{十二|shí'èr}{点|diǎn}{就|jiù}{睡觉|shuìjiào}{才|cái}。"
+      ],
+      "answer": 1,
+      "explanation": "Time + **才** + verb, no 了.",
+      "notes": [
+        "才 here goes after the time; no 了.",
+        "",
+        "才 doesn't take 了.",
+        "就 and 才 clash."
+      ],
+      "translation": "He didn't go to bed until midnight."
+    },
+    {
+      "point": "c7_mixed",
+      "prompt": "A：{你|nǐ}{到|dào}{了|le}{吗|ma}？\nB：{到|dào}{了|le}，{我|wǒ}（　）{下|xià}{飞机|fēijī}。",
+      "options": [
+        "{就|jiù}",
+        "{再|zài}",
+        "{又|yòu}",
+        "{才|cái}"
+      ],
+      "answer": 3,
+      "explanation": "Only just → **才** (= 刚).",
+      "notes": [
+        "就下飞机 = will get off right away.",
+        "再 doesn't fit.",
+        "又 = again.",
+        ""
+      ],
+      "translation": "A: Have you arrived? B: Yes — I've only just got off the plane."
+    },
+    {
+      "point": "c7_mixed",
+      "prompt": "{这|zhè}{家|jiā}{店|diàn}{的|de}{菜|cài}{太|tài}{好吃|hǎochī}{了|le}，{我|wǒ}{一|yí}{个|ge}{月|yuè}（　）{来|lái}{了|le}{五|wǔ}{次|cì}。",
+      "options": [
+        "{才|cái}",
+        "{也|yě}",
+        "{就|jiù}",
+        "{再|zài}"
+      ],
+      "answer": 2,
+      "explanation": "That much, that soon → **就**…了.",
+      "notes": [
+        "才 doesn't take 了 — and five visits in a month is a lot.",
+        "也 doesn't fit.",
+        "",
+        "再 doesn't fit."
+      ],
+      "translation": "The food here is so good — I've come five times in one month."
+    },
+    {
+      "point": "c7_mixed",
+      "prompt": "Which rule is right?",
+      "options": [
+        "就 = sooner/easier (usually with 了); 才 = later/harder (no 了); 只要…就, 只有…才, 一…就.",
+        "就 and 才 mean the same.",
+        "就 = later; 才 = sooner.",
+        "才 always takes 了."
+      ],
+      "answer": 0,
+      "explanation": "🐇 就 = sooner, easier · 🐢 才 = later, harder.",
+      "notes": [
+        "",
+        "Their feelings are opposite.",
+        "Swapped.",
+        "才 never takes 了 at the end."
+      ],
+      "translation": "",
+      "fixed_order": true
+    }
+  ]
+}

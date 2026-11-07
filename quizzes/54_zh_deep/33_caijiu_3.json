@@ -1,0 +1,229 @@
+{
+  "id": "zh-dd-caijiu-3",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "才 vs 就 Step 3 · How Much? 才十岁, 三岁就会了",
+  "description": "With amounts: 才 + number = only (so few, so young); number + 就 = already that much (so early). And spoken 就 + number = just.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "c3_only",
+      "title": "才 + number = only (so little / so young)",
+      "summary": "才 right before a number: the speaker finds it small.",
+      "body": "- 他**才**十岁。 He's only ten.\n- 这件衣服**才**五十块！ Only 50 kuai!\n- 我**才**吃了一个。 I've only eaten one.\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{他|tā}{才|cái}{十|shí}{岁|suì}，{就|jiù}{上|shàng}{大学|dàxué}{了|le}！",
+          "He's only ten and already at university!"
+        ]
+      ]
+    },
+    {
+      "id": "c3_already",
+      "title": "Number + 就 = already that much / that early",
+      "summary": "A number before 就: it happened at an early point or with little effort.",
+      "body": "- 他三岁**就**会写字了。 He could write at three.\n- 我一个人**就**吃了三碗。 I ate three bowls all by myself.\n- Spoken: **就** + number = only, just: 我**就**一个朋友。 (I've only got one friend.)\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{他|tā}{三|sān}{岁|suì}{就|jiù}{会|huì}{写字|xiězì}{了|le}。",
+          "He could write when he was three."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "c3_only",
+      "prompt": "What does 「{这|zhè}{件|jiàn}{衣服|yīfu}{才|cái}{五十|wǔshí}{块|kuài}。」 mean?",
+      "options": [
+        "This is 50 kuai or more.",
+        "This is only 50 kuai.",
+        "This didn't cost 50 kuai until later.",
+        "This costs exactly 50 — not cheap."
+      ],
+      "answer": 1,
+      "explanation": "**才** + number = only.",
+      "notes": [
+        "That's 五十块以上.",
+        "",
+        "才 + number here = 'only'.",
+        "才 shows the speaker finds it cheap."
+      ],
+      "translation": "This is only 50 kuai."
+    },
+    {
+      "point": "c3_only",
+      "prompt": "{他|tā}（　）{十二|shí'èr}{岁|suì}，{个子|gèzi}{已经|yǐjīng}{比|bǐ}{爸爸|bàba}{高|gāo}{了|le}。",
+      "options": [
+        "{才|cái}",
+        "{还|hái}{是|shì}",
+        "{都|dōu}",
+        "{就|jiù}"
+      ],
+      "answer": 0,
+      "explanation": "Only twelve → **才**十二岁.",
+      "notes": [
+        "",
+        "还是 = still is / or.",
+        "都十二岁了 = 'already 12' — the opposite feeling.",
+        "就十二岁 is possible in speech, but 才 is the natural 'only' here."
+      ],
+      "translation": "He's only twelve, and already taller than his dad."
+    },
+    {
+      "point": "c3_already",
+      "prompt": "{我|wǒ}{儿子|érzi}{两|liǎng}{岁|suì}（　）{会|huì}{说话|shuōhuà}{了|le}。",
+      "options": [
+        "{才|cái}",
+        "{再|zài}",
+        "{都|dōu}",
+        "{就|jiù}"
+      ],
+      "answer": 3,
+      "explanation": "That early → number + **就**.",
+      "notes": [
+        "才 = not until two (late) — and doesn't take 了.",
+        "再 = again.",
+        "都 doesn't fit here.",
+        ""
+      ],
+      "translation": "My son could talk at two."
+    },
+    {
+      "point": "c3_only",
+      "prompt": "A：{你|nǐ}{吃|chī}{饱|bǎo}{了|le}{吗|ma}？\nB：{没有|méiyǒu}，{我|wǒ}（　）{吃|chī}{了|le}{一个|yí ge}{包子|bāozi}。",
+      "options": [
+        "{终于|zhōngyú}",
+        "{就|jiù}{了|le}",
+        "{才|cái}",
+        "{已经|yǐjīng}"
+      ],
+      "answer": 2,
+      "explanation": "Only one → **才**吃了一个.",
+      "notes": [
+        "终于 = finally — doesn't fit 'not full'.",
+        "就了 isn't a pattern.",
+        "",
+        "已经 = already — the opposite feeling."
+      ],
+      "translation": "A: Are you full? B: No — I've only had one bun."
+    },
+    {
+      "point": "c3_already",
+      "prompt": "What does 「{他|tā}{一个人|yí ge rén}{就|jiù}{吃|chī}{了|le}{三|sān}{碗|wǎn}。」 mean?",
+      "options": [
+        "He ate with three people.",
+        "He ate three bowls all by himself.",
+        "He didn't eat until there were three bowls.",
+        "He only ate one bowl."
+      ],
+      "answer": 1,
+      "explanation": "Number + **就** = that much already (by himself!).",
+      "notes": [
+        "一个人 = alone.",
+        "",
+        "就 here stresses how much one person ate.",
+        "一个人 = by himself — not one bowl."
+      ],
+      "translation": "He ate three bowls all by himself."
+    },
+    {
+      "point": "c3_only",
+      "prompt": "Which sentence says the speaker thinks 100 kuai is **cheap**?",
+      "options": [
+        "{都|dōu}{一百|yìbǎi}{块|kuài}{了|le}！",
+        "{一百|yìbǎi}{块|kuài}{以上|yǐshàng}！",
+        "{要|yào}{一百|yìbǎi}{块|kuài}！",
+        "{才|cái}{一百|yìbǎi}{块|kuài}！"
+      ],
+      "answer": 3,
+      "explanation": "**才** + number = only — cheap!",
+      "notes": [
+        "都…了 = already 100 — expensive!",
+        "以上 = 100 or more.",
+        "要 = costs — neutral.",
+        ""
+      ],
+      "translation": "Only 100 kuai!"
+    },
+    {
+      "point": "c3_already",
+      "prompt": "'I've only got one brother.' (spoken) Which fits?",
+      "options": [
+        "{我|wǒ}{哥哥|gēge}{就|jiù}{一个|yí ge}{了|le}{了|le}。",
+        "{我|wǒ}{就|jiù}{一个|yí ge}{哥哥|gēge}。",
+        "{我|wǒ}{一个|yí ge}{哥哥|gēge}{就|jiù}{了|le}。",
+        "{我|wǒ}{才|cái}{一个|yí ge}{哥哥|gēge}{了|le}。"
+      ],
+      "answer": 1,
+      "explanation": "Spoken **就** + number = just / only.",
+      "notes": [
+        "Double 了 is wrong.",
+        "",
+        "就 goes before the number.",
+        "才 doesn't take 了."
+      ],
+      "translation": "I've only got one brother."
+    },
+    {
+      "point": "c3_only",
+      "kind": "tiles",
+      "prompt": "Build it: 'It's only seven — how come you're going to bed already?'",
+      "items": [
+        "{你|nǐ}",
+        "{现在|xiànzài}",
+        "{要|yào}{睡|shuì}{了|le}？",
+        "{才|cái}",
+        "{七|qī}{点|diǎn}，",
+        "{怎么|zěnme}",
+        "{就|jiù}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "1340562"
+      ],
+      "explanation": "现在**才**七点，你怎么**就**要睡了？ 才 + number = only that much; 就 = already, too soon.",
+      "notes": [],
+      "translation": "It's only seven — how come you're going to bed already?"
+    },
+    {
+      "point": "c3_already",
+      "prompt": "「{他|tā}{十|shí}{岁|suì}{才|cái}{会|huì}{游泳|yóuyǒng}。」 vs 「{他|tā}{十|shí}{岁|suì}{就|jiù}{会|huì}{开车|kāichē}{了|le}。」",
+      "options": [
+        "First: ten is late for swimming. Second: ten is amazingly early for driving.",
+        "First: early. Second: late.",
+        "Both: ten is early.",
+        "Both: ten is late."
+      ],
+      "answer": 0,
+      "explanation": "才 = later than expected; 就 = earlier than expected.",
+      "notes": [
+        "",
+        "Swapped.",
+        "才 = late.",
+        "就 = early."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "c3_only",
+      "prompt": "Which is **wrong**?",
+      "options": [
+        "{他|tā}{都|dōu}{十|shí}{岁|suì}{了|le}。",
+        "{他|tā}{才|cái}{十|shí}{岁|suì}{了|le}。",
+        "{他|tā}{十|shí}{岁|suì}{就|jiù}{会|huì}{开车|kāichē}{了|le}。",
+        "{他|tā}{才|cái}{十|shí}{岁|suì}。"
+      ],
+      "answer": 1,
+      "explanation": "才 + number takes **no 了**: 他才十岁.",
+      "notes": [
+        "Correct: already ten.",
+        "",
+        "Correct.",
+        "Correct."
+      ],
+      "translation": "He's only ten."
+    }
+  ]
+}

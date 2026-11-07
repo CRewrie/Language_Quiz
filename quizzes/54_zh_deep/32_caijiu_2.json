@@ -1,0 +1,234 @@
+{
+  "id": "zh-dd-caijiu-2",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "才 vs 就 Step 2 · The 了 Rule: 就…了, 才 Without 了",
+  "description": "就 likes 了 at the end (他六点就来了), 才 never takes it (他十点才来 — not 才来了). Plus 才 vs 终于.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "c2_le",
+      "title": "就…了 vs 才 (no 了)",
+      "summary": "In past sentences, 就 usually comes with 了; 才 does not.",
+      "body": "- ✔ 他六点**就**来**了**。\n- ✔ 他十点**才**来。 — ~~他十点才来了~~\n- Why? 才 already means 'only then' — the action happened late, not as a fresh completion.\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{他|tā}{十|shí}{点|diǎn}{才|cái}{来|lái}。",
+          "He didn't come until ten."
+        ]
+      ]
+    },
+    {
+      "id": "c2_zhongyu",
+      "title": "才 vs 终于",
+      "summary": "终于 = finally (relief, usually with 了); 才 = not until (stresses lateness).",
+      "body": "- 等了一个小时，车**终于**来**了**。 Finally the bus came. 😌\n- 等了一个小时，车**才**来。 The bus didn't come until an hour later. 😤\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{等|děng}{了|le}{一个|yí ge}{小时|xiǎoshí}，{车|chē}{终于|zhōngyú}{来|lái}{了|le}。",
+          "After an hour the bus finally came."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "c2_le",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{他|tā}{才|cái}{十|shí}{点|diǎn}{来|lái}{了|le}。",
+        "{他|tā}{十|shí}{点|diǎn}{才|cái}{来|lái}。",
+        "{他|tā}{十|shí}{点|diǎn}{才|cái}{来|lái}{了|le}。",
+        "{他|tā}{十|shí}{点|diǎn}{来|lái}{才|cái}。"
+      ],
+      "answer": 1,
+      "explanation": "才 + verb, **no 了**.",
+      "notes": [
+        "Word order and 了 are both off.",
+        "",
+        "才 doesn't take 了.",
+        "才 goes before the verb."
+      ],
+      "translation": "He didn't come until ten."
+    },
+    {
+      "point": "c2_le",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "{她|tā}{就|jiù}{七|qī}{点|diǎn}{走|zǒu}{了|le}{了|le}。",
+        "{她|tā}{七|qī}{点|diǎn}{就|jiù}{走|zǒu}{才|cái}。",
+        "{她|tā}{七|qī}{点|diǎn}{就|jiù}{走|zǒu}{了|le}。",
+        "{她|tā}{七|qī}{点|diǎn}{走|zǒu}{就|jiù}{了|le}。"
+      ],
+      "answer": 2,
+      "explanation": "就 + verb + **了**.",
+      "notes": [
+        "Word order and double 了 are wrong.",
+        "就 and 才 don't go together here.",
+        "",
+        "就 goes before the verb."
+      ],
+      "translation": "She left as early as seven."
+    },
+    {
+      "point": "c2_le",
+      "prompt": "{他|tā}{昨天|zuótiān}{晚上|wǎnshang}{十二|shí'èr}{点|diǎn}{才|cái}（　）。",
+      "options": [
+        "{就|jiù}{回家|huí jiā}",
+        "{回家|huí jiā}",
+        "{回家|huí jiā}{了|le}",
+        "{回|huí}{了|le}{家|jiā}{了|le}"
+      ],
+      "answer": 1,
+      "explanation": "才 → **no 了**.",
+      "notes": [
+        "就 and 才 clash.",
+        "",
+        "才 doesn't take 了.",
+        "才 doesn't take 了."
+      ],
+      "translation": "He didn't get home until midnight last night."
+    },
+    {
+      "point": "c2_le",
+      "kind": "multi",
+      "prompt": "The 了 rule: which sentences are correct? Select all of them.",
+      "options": [
+        "{我|wǒ}{考|kǎo}{了|le}{三|sān}{次|cì}{才|cái}{通过|tōngguò}。",
+        "{他|tā}{五|wǔ}{点|diǎn}{就|jiù}{下班|xiàbān}{了|le}。",
+        "{电影|diànyǐng}{九|jiǔ}{点|diǎn}{才|cái}{开始|kāishǐ}{了|le}。",
+        "{他|tā}{十二|shí'èr}{点|diǎn}{才|cái}{回家|huí jiā}。",
+        "{他|tā}{十二|shí'èr}{点|diǎn}{才|cái}{回家|huí jiā}{了|le}。",
+        "{他|tā}{一|yí}{到|dào}{家|jiā}{就|jiù}{睡|shuì}{了|le}。"
+      ],
+      "answer": 0,
+      "accept": [
+        "0135"
+      ],
+      "explanation": "**就 … 了** but **才 without 了**.",
+      "notes": [
+        "The 了 after 考 is fine; no 了 after 才通过.",
+        "就 … 了 — right.",
+        "才 … no 了: 九点才开始.",
+        "才 without 了 — right.",
+        "才 clashes with a final 了 — drop the 了.",
+        "一…就…了 — right."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "c2_zhongyu",
+      "prompt": "{等|děng}{了|le}{一个|yí ge}{小时|xiǎoshí}，{公共汽车|gōnggòng qìchē}（　）{来|lái}{了|le}，{太|tài}{好|hǎo}{了|le}！",
+      "options": [
+        "{终于|zhōngyú}",
+        "{已经|yǐjīng}",
+        "{才|cái}",
+        "{就|jiù}"
+      ],
+      "answer": 0,
+      "explanation": "Relief + 了 → **终于**.",
+      "notes": [
+        "",
+        "已经 = already.",
+        "才 doesn't take 了 — and stresses annoyance, not relief.",
+        "就 = early — after an hour?"
+      ],
+      "translation": "After an hour the bus finally came — great!"
+    },
+    {
+      "point": "c2_zhongyu",
+      "prompt": "「{车|chē}{终于|zhōngyú}{来|lái}{了|le}。」 vs 「{车|chē}{一个|yí ge}{小时|xiǎoshí}{以后|yǐhòu}{才|cái}{来|lái}。」 — what's the difference in feeling?",
+      "options": [
+        "Both mean the bus came early.",
+        "Both sound happy.",
+        "终于 means it didn't come.",
+        "终于 = relief (finally!); 才 = stresses it came late."
+      ],
+      "answer": 3,
+      "explanation": "**终于** = finally (relief); **才** = not until (late).",
+      "notes": [
+        "Neither is early.",
+        "才 isn't happy — it stresses lateness.",
+        "终于 = it came.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "c2_le",
+      "prompt": "Which is **wrong**?",
+      "options": [
+        "{我|wǒ}{昨天|zuótiān}{两|liǎng}{点|diǎn}{才|cái}{睡觉|shuìjiào}{了|le}。",
+        "{我|wǒ}{昨天|zuótiān}{九|jiǔ}{点|diǎn}{就|jiù}{睡觉|shuìjiào}{了|le}。",
+        "{我|wǒ}{昨天|zuótiān}{终于|zhōngyú}{睡着|shuìzháo}{了|le}。",
+        "{我|wǒ}{昨天|zuótiān}{两|liǎng}{点|diǎn}{才|cái}{睡觉|shuìjiào}。"
+      ],
+      "answer": 0,
+      "explanation": "才 never takes 了.",
+      "notes": [
+        "",
+        "Correct.",
+        "Correct.",
+        "Correct."
+      ],
+      "translation": "I didn't go to bed until two last night."
+    },
+    {
+      "point": "c2_le",
+      "prompt": "'The film only started at nine.' Which sentence says so?",
+      "options": [
+        "{电影|diànyǐng}{九|jiǔ}{点|diǎn}{才|cái}{开始|kāishǐ}{了|le}。",
+        "{电影|diànyǐng}{九|jiǔ}{点|diǎn}{才|cái}{开始|kāishǐ}。",
+        "{电影|diànyǐng}{才|cái}{九|jiǔ}{点|diǎn}{开始|kāishǐ}{了|le}。",
+        "{电影|diànyǐng}{九|jiǔ}{点|diǎn}{就|jiù}{开始|kāishǐ}。"
+      ],
+      "answer": 1,
+      "explanation": "Late → time + **才** + verb (no 了).",
+      "notes": [
+        "才 doesn't take 了.",
+        "",
+        "才 goes after the time word, and no 了.",
+        "就 = early — and needs 了."
+      ],
+      "translation": "The film didn't start until nine."
+    },
+    {
+      "point": "c2_zhongyu",
+      "prompt": "{我|wǒ}{考|kǎo}{了|le}{三|sān}{次|cì}，（　）{通过|tōngguò}{了|le}！",
+      "options": [
+        "{终于|zhōngyú}",
+        "{还|hái}",
+        "{才|cái}",
+        "{就|jiù}"
+      ],
+      "answer": 0,
+      "explanation": "After three tries, relief + 了 → **终于**.",
+      "notes": [
+        "",
+        "还 doesn't fit.",
+        "才 doesn't take 了.",
+        "就 = easily — but it took three tries."
+      ],
+      "translation": "I took it three times and finally passed!"
+    },
+    {
+      "point": "c2_le",
+      "prompt": "{他|tā}{一|yí}{到|dào}{家|jiā}（　）{睡|shuì}{了|le}。",
+      "options": [
+        "{还|hái}",
+        "{就|jiù}",
+        "{才|cái}",
+        "{也|yě}"
+      ],
+      "answer": 1,
+      "explanation": "一…**就**… + 了 (step 5 has more).",
+      "notes": [
+        "还 doesn't fit.",
+        "",
+        "才 doesn't take 了.",
+        "也 doesn't fit."
+      ],
+      "translation": "He went to bed as soon as he got home."
+    }
+  ]
+}

@@ -46,77 +46,106 @@
   "questions": [
     {
       "point": "s6_build",
-      "prompt": "{我|wǒ}　＿＿　　＿＿　　★　　＿＿　。\n（{飞机|fēijī}・{没|méi}・{赶上|gǎnshàng}・{差点儿|chàdiǎnr}）",
-      "options": [
-        "{没|méi}",
+      "kind": "tiles",
+      "prompt": "Build it: 'The traffic was awful — I very nearly missed the plane (but made it).'",
+      "items": [
+        "{太|tài}{堵|dǔ}{了|le}，",
         "{差点儿|chàdiǎnr}",
-        "{飞机|fēijī}",
-        "{赶上|gǎnshàng}"
-      ],
-      "answer": 3,
-      "explanation": "我 **差点儿 没 赶上 飞机**。",
-      "notes": [
-        "没 follows 差点儿 — slot 2.",
-        "差点儿 comes first — slot 1.",
-        "The object comes last — slot 4.",
-        ""
-      ],
-      "translation": "I very nearly missed the plane."
-    },
-    {
-      "point": "s6_build",
-      "prompt": "{他|tā}　＿＿　　＿＿　　★　　＿＿　。\n（{就|jiù}・{了|le}・{差一点|chà yìdiǎn}・{摔倒|shuāidǎo}）",
-      "options": [
-        "{摔倒|shuāidǎo}",
-        "{了|le}",
-        "{就|jiù}",
-        "{差一点|chà yìdiǎn}"
-      ],
-      "answer": 0,
-      "explanation": "他 **差一点 就 摔倒 了**。",
-      "notes": [
-        "",
-        "了 closes the sentence — slot 4.",
-        "就 follows 差一点 — slot 2.",
-        "差一点 comes first — slot 1."
-      ],
-      "translation": "He very nearly fell."
-    },
-    {
-      "point": "s6_build",
-      "prompt": "{我|wǒ}　＿＿　　＿＿　　★　　＿＿　{来|lái}！\n（{你|nǐ}・{认出|rènchū}・{差点|chàdiǎn}・{没|méi}）",
-      "options": [
-        "{你|nǐ}",
+        "{赶上|gǎnshàng}",
         "{没|méi}",
-        "{认出|rènchū}",
-        "{差点|chàdiǎn}"
+        "{飞机|fēijī}",
+        "{我|wǒ}",
+        "{路上|lùshang}"
       ],
-      "answer": 2,
-      "explanation": "我 **差点 没 认出 你** 来！",
-      "notes": [
-        "The person sits between 认出 and 来 — slot 4.",
-        "没 follows 差点 — slot 2.",
-        "",
-        "差点 comes first — slot 1."
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "6051324"
       ],
+      "explanation": "路上太堵了，我 **差点儿 没 赶上** 飞机。 Subject + 差点儿 + 没 + verb + object.",
+      "notes": [],
+      "translation": "The traffic was awful — I very nearly missed the plane."
+    },
+    {
+      "point": "s6_build",
+      "kind": "tiles",
+      "prompt": "Build it: 'He very nearly fell — luckily someone caught him.'",
+      "items": [
+        "{就|jiù}",
+        "{幸亏|xìngkuī}",
+        "{差一点|chà yìdiǎn}",
+        "{扶住|fúzhù}{了|le}{他|tā}",
+        "{有人|yǒu rén}",
+        "{摔倒|shuāidǎo}{了|le}，",
+        "{他|tā}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "6205143"
+      ],
+      "explanation": "他 **差一点 就 摔倒了**，幸亏有人扶住了他。 差一点 + 就 + verb + 了, then the relief word 幸亏.",
+      "notes": [],
+      "translation": "He very nearly fell — luckily someone caught him."
+    },
+    {
+      "point": "s6_build",
+      "kind": "tiles",
+      "prompt": "Build it: 'I almost didn't recognise you!'",
+      "items": [
+        "{差点|chàdiǎn}",
+        "{来|lái}！",
+        "{没|méi}",
+        "{你|nǐ}",
+        "{我|wǒ}",
+        "{认出|rènchū}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "402531"
+      ],
+      "explanation": "我 **差点 没 认出 你 来**！ The person sits between 认出 and 来.",
+      "notes": [],
       "translation": "I almost didn't recognise you!"
+    },
+    {
+      "point": "s6_build",
+      "kind": "tiles",
+      "prompt": "Build it: 'What a pity — I very nearly won the prize.'",
+      "items": [
+        "{中|zhòng}{了|le}",
+        "{差点|chàdiǎn}",
+        "{大奖|dàjiǎng}",
+        "{可惜|kěxī}，",
+        "{我|wǒ}",
+        "{就|jiù}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "341502"
+      ],
+      "explanation": "可惜，我 **差点就** 中了大奖。 Regret (可惜) + 差点就 + a wanted thing → it **didn't** happen.",
+      "notes": [],
+      "translation": "What a pity — I very nearly won the big prize."
     },
     {
       "point": "s6_choose",
       "prompt": "You wanted the last cake, but the person in front of you took it. Which sentence fits?",
       "options": [
-        "{我|wǒ}{差点|chàdiǎn}{买到|mǎidào}{最后|zuìhòu}{一个|yí ge}{蛋糕|dàngāo}。",
         "{我|wǒ}{差点|chàdiǎn}{没|méi}{买到|mǎidào}{最后|zuìhòu}{一个|yí ge}{蛋糕|dàngāo}。",
+        "{我|wǒ}{买到|mǎidào}{了|le}{最后|zuìhòu}{一个|yí ge}{蛋糕|dàngāo}。",
         "{我|wǒ}{没|méi}{差点|chàdiǎn}{买到|mǎidào}{蛋糕|dàngāo}。",
-        "{我|wǒ}{买到|mǎidào}{了|le}{最后|zuìhòu}{一个|yí ge}{蛋糕|dàngāo}。"
+        "{我|wǒ}{差点|chàdiǎn}{买到|mǎidào}{最后|zuìhòu}{一个|yí ge}{蛋糕|dàngāo}。"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Wanted it, missed it → **差点买到**. 😢",
       "notes": [
-        "",
         "差点没买到 = you **got** it, just.",
+        "That says you got it.",
         "没 can't go before 差点.",
-        "That says you got it."
+        ""
       ],
       "translation": "I almost got the last cake."
     },
@@ -124,18 +153,18 @@
       "point": "s6_choose",
       "prompt": "You slipped on the ice but grabbed the railing in time. Which sentence does **not** describe it?",
       "options": [
-        "{我|wǒ}{差点|chàdiǎn}{没|méi}{摔倒|shuāidǎo}。",
         "{我|wǒ}{摔倒|shuāidǎo}{了|le}。",
-        "{我|wǒ}{差点儿|chàdiǎnr}{就|jiù}{摔倒|shuāidǎo}{了|le}。",
-        "{我|wǒ}{差点|chàdiǎn}{摔倒|shuāidǎo}{了|le}。"
+        "{我|wǒ}{差点|chàdiǎn}{摔倒|shuāidǎo}{了|le}。",
+        "{我|wǒ}{差点|chàdiǎn}{没|méi}{摔倒|shuāidǎo}。",
+        "{我|wǒ}{差点儿|chàdiǎnr}{就|jiù}{摔倒|shuāidǎo}{了|le}。"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Only **我摔倒了** says you actually fell. The other three all mean 'almost fell'.",
       "notes": [
-        "Correct: unwanted event, 没 changes nothing.",
         "",
-        "Correct: the dramatic version.",
-        "Correct: almost fell."
+        "Correct: almost fell.",
+        "Correct: unwanted event, 没 changes nothing.",
+        "Correct: the dramatic version."
       ],
       "translation": "I almost fell."
     },
@@ -143,16 +172,16 @@
       "point": "s6_choose",
       "prompt": "Your train left ten seconds after you jumped on. What do you tell your friend?",
       "options": [
-        "{我|wǒ}{赶上|gǎnshàng}{火车|huǒchē}{差点|chàdiǎn}！",
         "{我|wǒ}{差点|chàdiǎn}{赶上|gǎnshàng}{火车|huǒchē}！",
+        "{我|wǒ}{赶上|gǎnshàng}{火车|huǒchē}{差点|chàdiǎn}！",
         "{我|wǒ}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{火车|huǒchē}！",
         "{我|wǒ}{没|méi}{赶上|gǎnshàng}{火车|huǒchē}！"
       ],
       "answer": 2,
       "explanation": "Caught it, just → **差点没赶上**. 🎉",
       "notes": [
-        "差点 goes before the verb.",
         "差点赶上 = almost caught it — so you missed it.",
+        "差点 goes before the verb.",
         "",
         "That says you missed it."
       ],
@@ -160,58 +189,72 @@
     },
     {
       "point": "s6_fix",
-      "prompt": "Which sentence is **wrong**?",
+      "kind": "multi",
+      "prompt": "Which sentences are **wrong**? Select all of them.",
       "options": [
-        "{我|wǒ}{差一点|chà yìdiǎn}{就|jiù}{迟到|chídào}{了|le}。",
-        "{我|wǒ}{没|méi}{差点|chàdiǎn}{迟到|chídào}。",
         "{我|wǒ}{差点|chàdiǎn}{没|méi}{迟到|chídào}。",
-        "{我|wǒ}{差点儿|chàdiǎnr}{迟到|chídào}{了|le}。"
+        "{我|wǒ}{摔倒|shuāidǎo}{差点|chàdiǎn}{了|le}。",
+        "{我|wǒ}{没|méi}{差点|chàdiǎn}{迟到|chídào}。",
+        "{他|tā}{差一点|chà yìdiǎn}{摔倒|shuāidǎo}{了|le}。",
+        "{我|wǒ}{差点|chàdiǎn}{迟到|chídào}{没|méi}。",
+        "{我|wǒ}{差点儿|chàdiǎnr}{就|jiù}{迟到|chídào}{了|le}。"
       ],
-      "answer": 1,
-      "explanation": "没 goes **after** 差点: 差点没, never 没差点.",
+      "answer": 0,
+      "accept": [
+        "124"
+      ],
+      "explanation": "Subject + **差点(没)** + verb: 没 right after 差点, both before the verb.",
       "notes": [
-        "Correct: 差一点就…了.",
-        "",
-        "Correct: 没 after 差点.",
-        "Correct: 差点儿 + verb + 了."
+        "Fine: unwanted event, 差点没 = almost late.",
+        "Wrong: 差点 goes **before** the verb.",
+        "Wrong: 没 goes **after** 差点 — 差点没, never 没差点.",
+        "Fine: 差一点 = 差点.",
+        "Wrong: 没 can't trail after the verb.",
+        "Fine: the dramatic 差点儿就…了."
       ],
-      "translation": "I was almost late."
+      "translation": ""
     },
     {
       "point": "s6_fix",
-      "prompt": "Which sentence is **wrong**?",
+      "kind": "multi",
+      "prompt": "You caught the train with seconds to spare: 「（　）， 我差点没赶上火车。」 Which words can start the sentence? Select all that fit.",
       "options": [
-        "{我|wǒ}{摔倒|shuāidǎo}{差点|chàdiǎn}{了|le}。",
-        "{我|wǒ}{差点|chàdiǎn}{没|méi}{摔倒|shuāidǎo}。",
-        "{我|wǒ}{差点儿|chàdiǎnr}{就|jiù}{摔倒|shuāidǎo}{了|le}。",
-        "{我|wǒ}{差点|chàdiǎn}{摔倒|shuāidǎo}{了|le}。"
+        "{吓死|xià sǐ}{我|wǒ}{了|le}",
+        "{好险|hǎo xiǎn}",
+        "{还好|háihǎo}",
+        "{可惜|kěxī}",
+        "{真|zhēn}{遗憾|yíhàn}"
       ],
       "answer": 0,
-      "explanation": "差点 goes **before** the verb.",
-      "notes": [
-        "",
-        "Correct.",
-        "Correct.",
-        "Correct."
+      "accept": [
+        "012"
       ],
-      "translation": "I almost fell."
+      "explanation": "差点没赶上 = you **made it** → relief words (好险、还好), never regret words (可惜、遗憾).",
+      "notes": [
+        "Fits: 'that scared me to death' — a close shave.",
+        "Fits: 'that was close!' — relief.",
+        "Fits: 'luckily' — it worked out.",
+        "可惜 = 'what a pity' — but you **caught** the train.",
+        "遗憾 = 'regrettable' — wrong mood: nothing went wrong."
+      ],
+      "translation": ""
     },
     {
       "point": "s6_fix",
       "prompt": "Which sentence doesn't make sense?",
       "options": [
-        "{好险|hǎo xiǎn}，{我|wǒ}{差点|chàdiǎn}{摔倒|shuāidǎo}。",
-        "{可惜|kěxī}，{我|wǒ}{差点|chàdiǎn}{没|méi}{买到|mǎidào}{票|piào}。",
         "{可惜|kěxī}，{我|wǒ}{差点|chàdiǎn}{就|jiù}{中奖|zhòngjiǎng}{了|le}。",
-        "{我|wǒ}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{飞机|fēijī}，{还好|háihǎo}{最后|zuìhòu}{赶上|gǎnshàng}{了|le}。"
+        "{好险|hǎo xiǎn}，{我|wǒ}{差点|chàdiǎn}{摔倒|shuāidǎo}。",
+        "{我|wǒ}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{飞机|fēijī}，{还好|háihǎo}{最后|zuìhòu}{赶上|gǎnshàng}{了|le}。",
+        "{可惜|kěxī}，{我|wǒ}{差点|chàdiǎn}{没|méi}{买到|mǎidào}{票|piào}。"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "差点没买到 = you **got** the ticket — so 可惜 (what a pity) doesn't fit. Use 好险 or 幸亏.",
       "notes": [
-        "Fine: 好险 + an escaped danger.",
-        "",
         "Fine: 可惜 + a prize you missed.",
-        "Fine: made it — 还好 fits."
+        "Fine: 好险 + an escaped danger.",
+        "Fine: made it — 还好 fits.",
+        ""
       ],
       "translation": "What a pity, I almost didn't get a ticket. (contradictory)"
     },
@@ -219,18 +262,18 @@
       "point": "s6_choose",
       "prompt": "险些 (xiǎnxiē) is a written word for 差点. Which sentence means the same as 「{他|tā}{险些|xiǎnxiē}{出|chū}{了|le}{车祸|chēhuò}。」?",
       "options": [
+        "{他|tā}{差点|chàdiǎn}{出|chū}{了|le}{车祸|chēhuò}。",
         "{他|tā}{差点|chàdiǎn}{没|méi}{开车|kāichē}。",
-        "{他|tā}{出|chū}{了|le}{车祸|chēhuò}。",
         "{他|tā}{很|hěn}{小心|xiǎoxīn}{地|de}{开车|kāichē}。",
-        "{他|tā}{差点|chàdiǎn}{出|chū}{了|le}{车祸|chēhuò}。"
+        "{他|tā}{出|chū}{了|le}{车祸|chēhuò}。"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "险些 = **差点** (written): he nearly had an accident.",
       "notes": [
+        "",
         "That's about (almost) not driving.",
-        "That says the accident happened.",
         "That's about driving carefully, not a near-accident.",
-        ""
+        "That says the accident happened."
       ],
       "translation": "He nearly had a car accident."
     },
@@ -238,18 +281,18 @@
       "point": "s6_choose",
       "prompt": "'I almost didn't recognise you — you've changed so much!' Which sentence says so?",
       "options": [
-        "{我|wǒ}{差点|chàdiǎn}{认|rèn}{出|chū}{你|nǐ}{来|lái}，{你|nǐ}{变化|biànhuà}{太|tài}{大|dà}{了|le}！",
+        "{我|wǒ}{认|rèn}{出|chū}{你|nǐ}{来|lái}{差点|chàdiǎn}，{你|nǐ}{变化|biànhuà}{太|tài}{大|dà}{了|le}！",
         "{我|wǒ}{没|méi}{认|rèn}{出|chū}{你|nǐ}{来|lái}，{你|nǐ}{变化|biànhuà}{太|tài}{大|dà}{了|le}！",
         "{我|wǒ}{差点|chàdiǎn}{没|méi}{认|rèn}{出|chū}{你|nǐ}{来|lái}，{你|nǐ}{变化|biànhuà}{太|tài}{大|dà}{了|le}！",
-        "{我|wǒ}{认|rèn}{出|chū}{你|nǐ}{来|lái}{差点|chàdiǎn}，{你|nǐ}{变化|biànhuà}{太|tài}{大|dà}{了|le}！"
+        "{我|wǒ}{差点|chàdiǎn}{认|rèn}{出|chū}{你|nǐ}{来|lái}，{你|nǐ}{变化|biànhuà}{太|tài}{大|dà}{了|le}！"
       ],
       "answer": 2,
       "explanation": "Recognised them, just → **差点没认出你来**.",
       "notes": [
-        "差点认出 = almost recognised — so you didn't.",
+        "差点 goes before the verb.",
         "That says you didn't recognise them.",
         "",
-        "差点 goes before the verb."
+        "差点认出 = almost recognised — so you didn't."
       ],
       "translation": "I almost didn't recognise you — you've changed so much!"
     },
@@ -257,18 +300,18 @@
       "point": "s6_choose",
       "prompt": "'We very nearly won the final (so close!).' Which sentence says so?",
       "options": [
-        "{我们|wǒmen}{没|méi}{差点|chàdiǎn}{赢|yíng}{决赛|juésài}。",
+        "{我们|wǒmen}{差点|chàdiǎn}{就|jiù}{赢|yíng}{了|le}{决赛|juésài}。",
         "{我们|wǒmen}{差点|chàdiǎn}{没|méi}{赢|yíng}{决赛|juésài}。",
-        "{我们|wǒmen}{赢|yíng}{了|le}{决赛|juésài}。",
-        "{我们|wǒmen}{差点|chàdiǎn}{就|jiù}{赢|yíng}{了|le}{决赛|juésài}。"
+        "{我们|wǒmen}{没|méi}{差点|chàdiǎn}{赢|yíng}{决赛|juésài}。",
+        "{我们|wǒmen}{赢|yíng}{了|le}{决赛|juésài}。"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Wanted, missed → **差点就赢了**. 😢",
       "notes": [
-        "没 can't go before 差点.",
+        "",
         "差点没赢 = you **won**, just.",
-        "That says you won.",
-        ""
+        "没 can't go before 差点.",
+        "That says you won."
       ],
       "translation": "We very nearly won the final."
     }

@@ -34,58 +34,76 @@
   "questions": [
     {
       "point": "y5_time",
-      "prompt": "{请|qǐng}{在|zài}{下午|xiàwǔ}{三|sān}{点|diǎn}（　）{交|jiāo}{作业|zuòyè}。",
-      "options": [
-        "{以上|yǐshàng}",
-        "{以下|yǐxià}",
-        "{以前|yǐqián}",
-        "{左右|zuǒyòu}"
+      "kind": "match",
+      "prompt": "以上 and its look-alikes: match each phrase to its meaning.",
+      "items": [
+        "{三|sān}{个|ge}{小时|xiǎoshí}{以上|yǐshàng}",
+        "{三|sān}{点|diǎn}{以前|yǐqián}",
+        "{二十|èrshí}{岁|suì}{左右|zuǒyòu}",
+        "{二〇一〇年|èr líng yī líng nián}{以后|yǐhòu}",
+        "{三|sān}{天|tiān}{以内|yǐnèi}",
+        "{零下|língxià}{五|wǔ}{度|dù}"
       ],
-      "answer": 2,
-      "explanation": "A point in time → **以前**.",
+      "groups": [
+        "below zero",
+        "about, roughly",
+        "within (a limit)",
+        "after, since (a point in time)",
+        "and above, more than",
+        "before (a point in time)"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "451320"
+      ],
+      "explanation": "Time points → **以前/以后**; amounts → **以上/以下**; limits → **以内**; estimates → **左右**; temperature → **零下** + number.",
       "notes": [
-        "三点 is a point in time — 以上 is for amounts.",
-        "以下 is for amounts, not deadlines.",
-        "",
-        "左右 = about — a deadline isn't 'about'."
+        "An amount + 以上 = that much or more.",
+        "以前 = before a point in time.",
+        "左右 = give or take.",
+        "以后 = after / since a point in time.",
+        "以内 = within the limit.",
+        "零下 = below zero — it goes before the number."
       ],
-      "translation": "Please hand in your homework before 3 p.m."
+      "translation": ""
     },
     {
-      "point": "y5_time",
-      "prompt": "{这|zhè}{个|ge}{电影|diànyǐng}{很|hěn}{长|cháng}，{有|yǒu}{三|sān}{个|ge}{小时|xiǎoshí}（　）。",
-      "options": [
-        "{以上|yǐshàng}",
-        "{以后|yǐhòu}",
-        "{零下|língxià}",
-        "{以前|yǐqián}"
+      "point": "y5_others",
+      "kind": "tiles",
+      "prompt": "Build it: 'Please reply within three days.'",
+      "items": [
+        "{回复|huífù}",
+        "{以内|yǐnèi}",
+        "{三|sān}{天|tiān}",
+        "{请|qǐng}",
+        "{在|zài}"
       ],
+      "options": [],
       "answer": 0,
-      "explanation": "An amount of time → **以上**.",
-      "notes": [
-        "",
-        "以后 is for points in time.",
-        "零下 is for temperatures.",
-        "以前 is for points in time."
+      "accept": [
+        "34210"
       ],
-      "translation": "This film is long — over three hours."
+      "explanation": "请**在三天以内**回复。 在 + amount of time + 以内 = within.",
+      "notes": [],
+      "translation": "Please reply within three days."
     },
     {
       "point": "y5_others",
       "prompt": "{明天|míngtiān}{很|hěn}{冷|lěng}，{最|zuì}{低|dī}{气温|qìwēn}（　）{十|shí}{度|dù}。",
       "options": [
-        "{左右|zuǒyòu}",
-        "{以上|yǐshàng}",
         "{零下|língxià}",
-        "{以下|yǐxià}"
+        "{左右|zuǒyòu}",
+        "{以下|yǐxià}",
+        "{以上|yǐshàng}"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Before the number, for minus: **零下**十度 = −10°.",
       "notes": [
-        "左右 goes after the number.",
-        "以上 goes after the number — and isn't 'very cold'.",
         "",
-        "以下 goes **after** the number: 十度以下."
+        "左右 goes after the number.",
+        "以下 goes **after** the number: 十度以下.",
+        "以上 goes after the number — and isn't 'very cold'."
       ],
       "translation": "Tomorrow will be very cold — the low is minus ten."
     },
@@ -93,18 +111,18 @@
       "point": "y5_others",
       "prompt": "「{零下|língxià}{五|wǔ}{度|dù}」 vs 「{五|wǔ}{度|dù}{以下|yǐxià}」 — which is right?",
       "options": [
-        "Both mean −5°.",
-        "Both mean 5° or colder.",
         "零下五度 is 5° or colder; 五度以下 is −5°.",
-        "零下五度 is −5°; 五度以下 is 5° or colder."
+        "零下五度 is −5°; 五度以下 is 5° or colder.",
+        "Both mean −5°.",
+        "Both mean 5° or colder."
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "**零下** = minus (before the number); **以下** = and below (after it).",
       "notes": [
-        "五度以下 can be +3°, for example.",
-        "零下五度 is one exact temperature.",
         "Swapped.",
-        ""
+        "",
+        "五度以下 can be +3°, for example.",
+        "零下五度 is one exact temperature."
       ],
       "translation": ""
     },
@@ -112,18 +130,18 @@
       "point": "y5_others",
       "prompt": "{他|tā}{看|kàn}{起来|qǐlai}{二十|èrshí}{岁|suì}（　），{不|bú}{太|tài}{清楚|qīngchu}。",
       "options": [
+        "{以下|yǐxià}",
         "{以内|yǐnèi}",
-        "{左右|zuǒyòu}",
         "{以上|yǐshàng}",
-        "{以下|yǐxià}"
+        "{左右|zuǒyòu}"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "A guess, 'about': **左右**.",
       "notes": [
+        "以下 is a limit — but you're guessing.",
         "以内 = within — doesn't fit an age guess.",
-        "",
         "以上 is a limit — but you're guessing.",
-        "以下 is a limit — but you're guessing."
+        ""
       ],
       "translation": "He looks about twenty — I'm not sure."
     },
@@ -132,17 +150,17 @@
       "prompt": "{请|qǐng}{在|zài}{三|sān}{天|tiān}（　）{回复|huífù}。",
       "options": [
         "{左右|zuǒyòu}",
-        "{以上|yǐshàng}",
         "{零下|língxià}",
-        "{以内|yǐnèi}"
+        "{以内|yǐnèi}",
+        "{以上|yǐshàng}"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Within: **以内**.",
       "notes": [
         "A deadline isn't 'about'.",
-        "三天以上 = after waiting three days or more — the opposite.",
         "零下 is for temperatures.",
-        ""
+        "",
+        "三天以上 = after waiting three days or more — the opposite."
       ],
       "translation": "Please reply within three days."
     },
@@ -151,17 +169,17 @@
       "prompt": "{参加|cānjiā}{的|de}{人|rén}{年龄|niánlíng}{都|dōu}{在|zài}{二十|èrshí}{到|dào}{三十|sānshí}{岁|suì}（　）。",
       "options": [
         "{以上|yǐshàng}",
+        "{以下|yǐxià}",
         "{左右|zuǒyòu}",
-        "{之间|zhījiān}",
-        "{以下|yǐxià}"
+        "{之间|zhījiān}"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "A到B + **之间** = between A and B.",
       "notes": [
         "以上 takes one number.",
+        "以下 takes one number.",
         "左右 takes one number.",
-        "",
-        "以下 takes one number."
+        ""
       ],
       "translation": "The participants are all between 20 and 30."
     },
@@ -169,18 +187,18 @@
       "point": "y5_others",
       "prompt": "{教室|jiàoshì}{里|lǐ}{有|yǒu}{三十|sānshí}（　）{个|ge}{学生|xuésheng}。",
       "options": [
-        "{以下|yǐxià}",
+        "{多|duō}",
         "{左右|zuǒyòu}",
-        "{以上|yǐshàng}",
-        "{多|duō}"
+        "{以下|yǐxià}",
+        "{以上|yǐshàng}"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanation": "Number + **多** + measure word = thirty-odd.",
       "notes": [
-        "以下 comes after the whole phrase.",
+        "",
         "左右 also comes after the phrase: 三十个左右.",
-        "以上 comes after 个学生 — not before 个.",
-        ""
+        "以下 comes after the whole phrase.",
+        "以上 comes after 个学生 — not before 个."
       ],
       "translation": "There are thirty-odd students in the classroom."
     },
@@ -207,18 +225,18 @@
       "point": "y5_time",
       "prompt": "{二〇一〇年|èr líng yī líng nián}（　），{我|wǒ}{一直|yìzhí}{住|zhù}{在|zài}{上海|Shànghǎi}。",
       "options": [
-        "{多|duō}",
-        "{以后|yǐhòu}",
+        "{以下|yǐxià}",
         "{以上|yǐshàng}",
-        "{以下|yǐxià}"
+        "{多|duō}",
+        "{以后|yǐhòu}"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "A point in time → **以后**.",
       "notes": [
-        "多 doesn't fit.",
-        "",
+        "A year is a point in time.",
         "A year like 2010 is a point in time.",
-        "A year is a point in time."
+        "多 doesn't fit.",
+        ""
       ],
       "translation": "Since 2010 I've lived in Shanghai."
     },
@@ -226,16 +244,16 @@
       "point": "y5_others",
       "prompt": "{这|zhè}{条|tiáo}{路|lù}{限速|xiànsù}{六十|liùshí}{公里|gōnglǐ}，{你|nǐ}{开|kāi}{了|le}{八十|bāshí}，（　）{了|le}！",
       "options": [
-        "{超速|chāosù}",
         "{以下|yǐxià}",
+        "{超速|chāosù}",
         "{以内|yǐnèi}",
         "{左右|zuǒyòu}"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanation": "Over the limit → **超速** (speeding; 超 = exceed, as in 超过).",
       "notes": [
-        "",
         "以下 would mean you were within the limit.",
+        "",
         "以内 would mean within the limit.",
         "左右 = about."
       ],
@@ -245,17 +263,17 @@
       "point": "y5_others",
       "prompt": "'Fewer than 100 people came' — 100 not included. Which is best?",
       "options": [
+        "{来|lái}{的|de}{人|rén}{不到|bú dào}{一百|yìbǎi}{个|ge}。",
         "{来|lái}{的|de}{人|rén}{一百|yìbǎi}{个|ge}{以上|yǐshàng}。",
         "{来|lái}{的|de}{人|rén}{有|yǒu}{一百|yìbǎi}{多|duō}{个|ge}。",
-        "{来|lái}{的|de}{人|rén}{不到|bú dào}{一百|yìbǎi}{个|ge}。",
         "{来|lái}{的|de}{人|rén}{一百|yìbǎi}{个|ge}{左右|zuǒyòu}。"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "Strictly fewer → **不到**.",
       "notes": [
+        "",
         "以上 = 100 or more.",
         "一百多 = more than 100.",
-        "",
         "左右 = about 100."
       ],
       "translation": "Fewer than 100 people came."
@@ -264,18 +282,18 @@
       "point": "y5_time",
       "prompt": "Which is **wrong**?",
       "options": [
-        "{三|sān}{点|diǎn}{以上|yǐshàng}{我|wǒ}{有|yǒu}{空|kòng}。",
-        "{三|sān}{个|ge}{小时|xiǎoshí}{以上|yǐshàng}",
+        "{三|sān}{点|diǎn}{以后|yǐhòu}{我|wǒ}{有|yǒu}{空|kòng}。",
         "{三|sān}{天|tiān}{以内|yǐnèi}",
-        "{三|sān}{点|diǎn}{以后|yǐhòu}{我|wǒ}{有|yǒu}{空|kòng}。"
+        "{三|sān}{点|diǎn}{以上|yǐshàng}{我|wǒ}{有|yǒu}{空|kòng}。",
+        "{三|sān}{个|ge}{小时|xiǎoshí}{以上|yǐshàng}"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "三点 is a point in time → 三点**以后**, not 以上.",
       "notes": [
-        "",
-        "Correct: an amount + 以上.",
+        "Correct: a point in time + 以后.",
         "Correct: within three days.",
-        "Correct: a point in time + 以后."
+        "",
+        "Correct: an amount + 以上."
       ],
       "translation": "I'm free after three."
     },
@@ -284,17 +302,17 @@
       "prompt": "{零下|língxià}{的|de}{天气|tiānqì}，{水|shuǐ}{会|huì}{结冰|jiébīng}。{意思|yìsi}{是|shì}{零|líng}{度|dù}（　）。",
       "options": [
         "{以前|yǐqián}",
-        "{左右|zuǒyòu}",
         "{以下|yǐxià}",
-        "{以上|yǐshàng}"
+        "{以上|yǐshàng}",
+        "{左右|zuǒyòu}"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "零下 = below zero = 零度**以下**.",
       "notes": [
         "以前 is for time.",
-        "左右 = about zero — not the meaning of 零下.",
         "",
-        "Above zero, water doesn't freeze."
+        "Above zero, water doesn't freeze.",
+        "左右 = about zero — not the meaning of 零下."
       ],
       "translation": "In sub-zero weather water freezes — that means below zero degrees."
     }

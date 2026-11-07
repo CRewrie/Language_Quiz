@@ -37,16 +37,16 @@
       "prompt": "What does 「{十八|shíbā}{岁|suì}{以上|yǐshàng}」 mean?",
       "options": [
         "under 18",
-        "about 18",
         "18 and over",
+        "about 18",
         "18 years ago"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Number + **以上** = that number and above.",
       "notes": [
         "That's 十八岁以下.",
-        "That's 十八岁左右.",
         "",
+        "That's 十八岁左右.",
         "That's 十八年以前."
       ],
       "translation": ""
@@ -55,39 +55,45 @@
       "point": "y1_meaning",
       "prompt": "What does 「{一百|yìbǎi}{块|kuài}{以下|yǐxià}{的|de}{礼物|lǐwù}」 mean?",
       "options": [
-        "presents of 100 kuai or less",
-        "presents of more than 100 kuai",
         "100 presents",
-        "presents of about 100 kuai"
+        "presents of more than 100 kuai",
+        "presents of about 100 kuai",
+        "presents of 100 kuai or less"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "以下 = **and below**: 100 kuai or less.",
       "notes": [
-        "",
-        "That's 一百块以上.",
         "That would be 一百个礼物.",
-        "That's 一百块左右."
+        "That's 一百块以上.",
+        "That's 一百块左右.",
+        ""
       ],
       "translation": "presents costing 100 kuai or less"
     },
     {
       "point": "y1_meaning",
-      "prompt": "{今天|jīntiān}{很|hěn}{热|rè}，{气温|qìwēn}{三十五|sānshíwǔ}{度|dù}（　）。",
+      "kind": "multi",
+      "prompt": "A museum sign: 「{六十五|liùshíwǔ}{岁|suì}{以上|yǐshàng}{的|de}{老人|lǎorén}{免费|miǎnfèi}」. Who gets in free? Select everyone.",
       "options": [
-        "{零下|língxià}",
-        "{以上|yǐshàng}",
-        "{以前|yǐqián}",
-        "{以下|yǐxià}"
+        "a 64-year-old",
+        "a 70-year-old grandpa",
+        "an 81-year-old",
+        "a 66-year-old grandma",
+        "a 59-year-old"
       ],
-      "answer": 1,
-      "explanation": "Very hot → 35 degrees **以上**.",
+      "answer": 0,
+      "accept": [
+        "123"
+      ],
+      "explanation": "number + **以上** = that number and **above**.",
       "notes": [
-        "零下 = minus — it comes before the number: 零下五度.",
-        "",
-        "以前 is for time, not temperature.",
-        "以下 = 35 or less — 'very hot' points the other way."
+        "64 is **below** 65 — that's 以下, not 以上.",
+        "70 is above 65 → free.",
+        "81 is above 65 → free.",
+        "66 is above 65 → free.",
+        "59 is below 65 → pays."
       ],
-      "translation": "It's very hot today — over 35 degrees."
+      "translation": "Over-65s go free."
     },
     {
       "point": "y1_meaning",
@@ -125,16 +131,16 @@
       "point": "y1_shape",
       "prompt": "Which sentence is correct?",
       "options": [
-        "{我|wǒ}{每天|měitiān}{学习|xuéxí}{两|liǎng}{个|ge}{以上|yǐshàng}{小时|xiǎoshí}{了|le}。",
         "{我|wǒ}{每天|měitiān}{学习|xuéxí}{以上|yǐshàng}{两|liǎng}{个|ge}{小时|xiǎoshí}。",
+        "{我|wǒ}{每天|měitiān}{学习|xuéxí}{两|liǎng}{个|ge}{以上|yǐshàng}{小时|xiǎoshí}{了|le}。",
         "{我|wǒ}{每天|měitiān}{学习|xuéxí}{两|liǎng}{个|ge}{小时|xiǎoshí}{以上|yǐshàng}。",
         "{我|wǒ}{每天|měitiān}{以上|yǐshàng}{学习|xuéxí}{两|liǎng}{个|ge}{小时|xiǎoshí}。"
       ],
       "answer": 2,
       "explanation": "Number phrase + **以上**: 两个小时以上.",
       "notes": [
-        "Put 以上 after the whole phrase 两个小时.",
         "以上 goes **after** the number, not before.",
+        "Put 以上 after the whole phrase 两个小时.",
         "",
         "以上 belongs to the amount, not the verb."
       ],
@@ -142,39 +148,41 @@
     },
     {
       "point": "y1_shape",
-      "prompt": "（　）{老人|lǎorén}{可以|kěyǐ}{买|mǎi}{半价|bànjià}{票|piào}。",
-      "options": [
-        "{以上|yǐshàng}{六十|liùshí}{岁|suì}{的|de}",
-        "{六十|liùshí}{岁|suì}{以上|yǐshàng}",
-        "{六十|liùshí}{以上|yǐshàng}{岁|suì}{的|de}",
-        "{六十|liùshí}{岁|suì}{以上|yǐshàng}{的|de}"
+      "kind": "tiles",
+      "prompt": "Build it: 'Any gift under 100 kuai is fine.'",
+      "items": [
+        "{可以|kěyǐ}{了|le}",
+        "{以下|yǐxià}",
+        "{就|jiù}",
+        "{的|de}",
+        "{礼物|lǐwù}",
+        "{一百|yìbǎi}{块|kuài}"
       ],
-      "answer": 3,
-      "explanation": "Before a noun: number + 以上 + **的** + noun.",
-      "notes": [
-        "以上 comes after the number.",
-        "Before a noun you need 的.",
-        "以上 comes after the whole 六十岁.",
-        ""
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "513420"
       ],
-      "translation": "People over 60 can buy half-price tickets."
+      "explanation": "**一百块以下**的礼物就可以了。 The amount, then 以下, then 的 + noun.",
+      "notes": [],
+      "translation": "Any gift under 100 kuai is fine."
     },
     {
       "point": "y1_shape",
       "prompt": "　＿＿　　＿＿　　★　　＿＿　{免费|miǎnfèi}。\n（{的|de}・{以下|yǐxià}・{六|liù}{岁|suì}・{儿童|értóng}）",
       "options": [
         "{儿童|értóng}",
-        "{的|de}",
         "{六|liù}{岁|suì}",
-        "{以下|yǐxià}"
+        "{以下|yǐxià}",
+        "{的|de}"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "**六岁 以下 的 儿童** 免费。",
       "notes": [
         "The noun comes last, after 的 — slot 4.",
-        "",
         "六岁 starts the phrase — slot 1.",
-        "以下 follows the number — slot 2."
+        "以下 follows the number — slot 2.",
+        ""
       ],
       "translation": "Children six and under go free."
     },
@@ -183,17 +191,17 @@
       "prompt": "Which means 'more than 5,000 people'?",
       "options": [
         "{五千|wǔqiān}{人|rén}{以下|yǐxià}",
+        "{五千|wǔqiān}{人|rén}{以上|yǐshàng}",
         "{五千|wǔqiān}{人|rén}{左右|zuǒyòu}",
-        "{以上|yǐshàng}{五千|wǔqiān}{人|rén}",
-        "{五千|wǔqiān}{人|rén}{以上|yǐshàng}"
+        "{以上|yǐshàng}{五千|wǔqiān}{人|rén}"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "**五千人以上** = 5,000 or more.",
       "notes": [
         "以下 = or fewer.",
+        "",
         "左右 = about.",
-        "以上 goes after the number.",
-        ""
+        "以上 goes after the number."
       ],
       "translation": "more than 5,000 people"
     },
@@ -202,17 +210,17 @@
       "prompt": "{这|zhè}{家|jiā}{店|diàn}{的|de}{手机|shǒujī}{都|dōu}{很|hěn}{便宜|piányi}，{一千|yìqiān}{块|kuài}（　）。",
       "options": [
         "{之间|zhījiān}",
+        "{以后|yǐhòu}",
         "{以上|yǐshàng}",
-        "{以下|yǐxià}",
-        "{以后|yǐhòu}"
+        "{以下|yǐxià}"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Cheap → 1,000 kuai **以下**.",
       "notes": [
         "之间 needs two numbers: 五百到一千块之间.",
+        "以后 is for time.",
         "以上 = 1,000 or more — not 'cheap'.",
-        "",
-        "以后 is for time."
+        ""
       ],
       "translation": "The phones in this shop are all cheap — under 1,000 kuai."
     },
@@ -220,18 +228,18 @@
       "point": "y1_meaning",
       "prompt": "What does 「{这|zhè}{个|ge}{包|bāo}{重|zhòng}{二十|èrshí}{公斤|gōngjīn}{以上|yǐshàng}。」 mean?",
       "options": [
-        "This bag weighs about 20 kg.",
-        "This bag weighs 20 kg or more.",
         "This bag weighs 20 kg or less.",
-        "This bag is 20 kg lighter."
+        "This bag is 20 kg lighter.",
+        "This bag weighs 20 kg or more.",
+        "This bag weighs about 20 kg."
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "**以上** = that much or more.",
       "notes": [
-        "That's 左右.",
-        "",
         "That's 以下.",
-        "That would be 轻二十公斤."
+        "That would be 轻二十公斤.",
+        "",
+        "That's 左右."
       ],
       "translation": "This bag weighs over 20 kg."
     },
@@ -239,17 +247,17 @@
       "point": "y1_shape",
       "prompt": "Which is **wrong**?",
       "options": [
+        "{十八|shíbā}{以上|yǐshàng}{岁|suì}{的|de}{人|rén}",
         "{十八|shíbā}{岁|suì}{以上|yǐshàng}{的|de}{人|rén}",
         "{六十|liùshí}{岁|suì}{以上|yǐshàng}{的|de}{人|rén}",
-        "{十八|shíbā}{以上|yǐshàng}{岁|suì}{的|de}{人|rén}",
         "{十八|shíbā}{岁|suì}{以下|yǐxià}{的|de}{人|rén}"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "以上 comes after the **whole** number phrase: 十八岁以上, not 十八以上岁.",
       "notes": [
-        "Correct.",
-        "Correct.",
         "",
+        "Correct.",
+        "Correct.",
         "Correct."
       ],
       "translation": ""

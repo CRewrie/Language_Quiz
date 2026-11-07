@@ -1,0 +1,244 @@
+{
+  "id": "zh-dd-de-3",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "的 / 地 / 得 Step 3 · Look Left, Look Right: All Three",
+  "description": "Now all three at once. Look right: a noun → 的, a verb → 地. Look left: a verb or adjective just before → 得.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "d3_right",
+      "title": "Look right: 的 or 地?",
+      "summary": "If the next word is a thing → 的; if it's an action → 地.",
+      "body": "- 认真**的**学生 (学生 = noun)\n- 认真**地**学习 (学习 = verb)\n\n| | comes before … | pattern | example |\n|---|---|---|---|\n| **的** | a **noun** | describer + 的 + noun | 漂亮**的**衣服 · 我买**的**书 |\n| **地** | a **verb** (how it's done) | describer + 地 + verb | 慢慢**地**走 · 认真**地**学习 |\n| **得** | the **result** (after the verb) | verb / adj. + 得 + how | 跑**得**很快 · 累**得**不想动 |\n\n**The trick:** look **right** — a noun next → 的, a verb next → 地. Look **left** — a verb or adjective just before → 得. (All three are read *de*.)",
+      "examples": [
+        [
+          "{她|tā}{认真|rènzhēn}{地|de}{学习|xuéxí}。",
+          "She studies hard."
+        ]
+      ]
+    },
+    {
+      "id": "d3_left",
+      "title": "Look left: 得",
+      "summary": "Verb or adjective right before the blank, and a comment after → 得.",
+      "body": "- 学**得**很认真 (studies very seriously)\n- 累**得**不想动 (so tired I can't move)\n\n| | comes before … | pattern | example |\n|---|---|---|---|\n| **的** | a **noun** | describer + 的 + noun | 漂亮**的**衣服 · 我买**的**书 |\n| **地** | a **verb** (how it's done) | describer + 地 + verb | 慢慢**地**走 · 认真**地**学习 |\n| **得** | the **result** (after the verb) | verb / adj. + 得 + how | 跑**得**很快 · 累**得**不想动 |\n\n**The trick:** look **right** — a noun next → 的, a verb next → 地. Look **left** — a verb or adjective just before → 得. (All three are read *de*.)",
+      "examples": [
+        [
+          "{他|tā}{学|xué}{得|de}{很|hěn}{认真|rènzhēn}。",
+          "He studies very seriously."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "d3_right",
+      "kind": "sort",
+      "prompt": "的, 地 or 得?",
+      "items": [
+        "{开心|kāixīn}＿{笑|xiào}{了|le}",
+        "{写|xiě}＿{太|tài}{慢|màn}{了|le}",
+        "{大声|dàshēng}＿{喊|hǎn}",
+        "{我|wǒ}{妈妈|māma}＿{车|chē}",
+        "{笑|xiào}＿{很|hěn}{开心|kāixīn}",
+        "{一|yí}{件|jiàn}{很|hěn}{贵|guì}＿{大衣|dàyī}"
+      ],
+      "groups": [
+        "{的|de}",
+        "{地|de}",
+        "{得|de}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "121020"
+      ],
+      "explanation": "Right: noun → 的, verb → 地 · Left: verb → 得.",
+      "notes": [
+        "笑 is a verb → 地.",
+        "After 写 → 得.",
+        "喊 is a verb → 地.",
+        "车 is a noun → 的.",
+        "After the verb 笑, a comment → 得.",
+        "大衣 is a noun → 的."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d3_left",
+      "kind": "sort",
+      "prompt": "Round 2 — 的, 地 or 得?",
+      "items": [
+        "{他|tā}{累|lèi}＿{不|bù}{想|xiǎng}{动|dòng}。",
+        "{你|nǐ}{来|lái}＿{正|zhèng}{好|hǎo}！",
+        "{他|tā}{紧张|jǐnzhāng}＿{看|kàn}{着|zhe}{我|wǒ}。",
+        "{孩子们|háizimen}{高高兴兴|gāogāoxìngxìng}＿{回家|huí jiā}{了|le}。",
+        "{我|wǒ}{昨天|zuótiān}{看|kàn}＿{电影|diànyǐng}{很|hěn}{好看|hǎokàn}。",
+        "{这|zhè}{是|shì}{谁|shéi}＿{主意|zhǔyi}？"
+      ],
+      "groups": [
+        "{的|de}",
+        "{地|de}",
+        "{得|de}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "221100"
+      ],
+      "explanation": "One look left, one look right — every time.",
+      "notes": [
+        "After the adjective 累, a result → 得.",
+        "After the verb 来: you came at just the right time → 得.",
+        "看 is a verb → 地.",
+        "回家 is a verb → 地.",
+        "电影 is a noun: the film I saw → 的.",
+        "主意 is a noun → 的."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d3_left",
+      "kind": "multi",
+      "prompt": "Which blanks need **得**? Select all.",
+      "options": [
+        "{他|tā}{慢慢|mànmàn}＿{站|zhàn}{起来|qǐlai}",
+        "{我们|wǒmen}{玩|wán}＿{很|hěn}{开心|kāixīn}",
+        "{他|tā}{跑|pǎo}＿{很|hěn}{快|kuài}",
+        "{我|wǒ}＿{妈妈|māma}",
+        "{他|tā}{累|lèi}＿{不|bù}{想|xiǎng}{动|dòng}",
+        "{她|tā}{说|shuō}＿{很|hěn}{清楚|qīngchu}"
+      ],
+      "answer": 0,
+      "accept": [
+        "1245"
+      ],
+      "explanation": "得 always looks **back** at a verb or adjective.",
+      "notes": [
+        "Before the verb → 地.",
+        "After the verb → 得.",
+        "After the verb → 得.",
+        "Whose? → 的.",
+        "After the adjective, a result → 得.",
+        "After the verb → 得."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d3_right",
+      "prompt": "「{她|tā}{高高兴兴|gāogāoxìngxìng}＿{唱|chàng}{了|le}{一|yì}{首|shǒu}{好听|hǎotīng}＿{歌|gē}。」 Which pair fills the blanks?",
+      "options": [
+        "地 … 的",
+        "地 … 得",
+        "的 … 地",
+        "得 … 的"
+      ],
+      "answer": 0,
+      "explanation": "高高兴兴**地**唱 (verb) … 好听**的**歌 (noun).",
+      "notes": [
+        "",
+        "歌 is a noun → 的.",
+        "Swapped: 唱 is a verb (地), 歌 a noun (的).",
+        "得 would need a verb on its **left**."
+      ],
+      "translation": "She happily sang a beautiful song."
+    },
+    {
+      "point": "d3_left",
+      "kind": "tiles",
+      "prompt": "Build it: 'She happily sang a beautiful song.'",
+      "items": [
+        "{好听|hǎotīng}",
+        "{唱|chàng}{了|le}",
+        "{她|tā}",
+        "{一|yì}{首|shǒu}",
+        "{高兴|gāoxìng}",
+        "{的|de}",
+        "{地|de}",
+        "{歌|gē}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "24613057"
+      ],
+      "explanation": "她**高兴地**唱了一首**好听的**歌。 地 before the verb, 的 before the noun.",
+      "notes": [],
+      "translation": "She happily sang a beautiful song."
+    },
+    {
+      "point": "d3_left",
+      "kind": "tiles",
+      "prompt": "Build it: 'He ran so fast that I couldn't catch up.'",
+      "items": [
+        "{我|wǒ}",
+        "{跑|pǎo}",
+        "{太|tài}{快|kuài}{了|le}，",
+        "{他|tā}",
+        "{追|zhuī}{不|bu}{上|shàng}",
+        "{得|de}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "315204"
+      ],
+      "explanation": "他**跑得**太快了，我追不上。 Verb + 得 + comment.",
+      "notes": [],
+      "translation": "He ran so fast that I couldn't catch up."
+    },
+    {
+      "point": "d3_right",
+      "prompt": "Why 「{认真|rènzhēn}{地|de}{学习|xuéxí}」 but 「{认真|rènzhēn}{的|de}{学生|xuésheng}」?",
+      "options": [
+        "地 is for people, 的 for things.",
+        "地 is for actions in the past, 的 for the present.",
+        "No reason — they're interchangeable.",
+        "地 comes before a verb, 的 before a noun."
+      ],
+      "answer": 3,
+      "explanation": "Look right: verb → **地**, noun → **的**.",
+      "notes": [
+        "学生 is a person — and it takes 的.",
+        "Neither marks time.",
+        "In careful Chinese they're not: it depends on the next word.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d3_right",
+      "kind": "match",
+      "prompt": "Same word, three jobs. What does each phrase do?",
+      "items": [
+        "{认真|rènzhēn}{地|de}{学习|xuéxí}",
+        "{认真|rènzhēn}{的|de}{学生|xuésheng}",
+        "{学|xué}{得|de}{很|hěn}{认真|rènzhēn}",
+        "{快乐|kuàilè}{的|de}{生活|shēnghuó}",
+        "{快乐|kuàilè}{地|de}{生活|shēnghuó}",
+        "{生活|shēnghuó}{得|de}{很|hěn}{快乐|kuàilè}"
+      ],
+      "groups": [
+        "comments on how it turned out",
+        "says how an action is done",
+        "describes a thing (noun)"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "120210"
+      ],
+      "explanation": "的 + noun · 地 + verb · verb + 得.",
+      "notes": [
+        "地 + verb.",
+        "的 + noun.",
+        "verb + 得.",
+        "a happy life: 的 + noun.",
+        "live happily: 地 + verb.",
+        "lives very happily: verb + 得."
+      ],
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "zh-dd-caijiu-5",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "才 vs 就 Step 5 · 一…就… and 才 = Only Just",
+  "description": "一…就… = as soon as. And 才 on its own = only just, a moment ago: 我才知道 (I've only just found out).",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "c5_yijiu",
+      "title": "一…就… = as soon as",
+      "summary": "One action follows the other immediately.",
+      "body": "- 他**一**到家**就**睡了。 He fell asleep as soon as he got home.\n- 我**一**喝咖啡**就**睡不着。 Whenever I drink coffee, I can't sleep.\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{他|tā}{一|yí}{到|dào}{家|jiā}{就|jiù}{睡|shuì}{了|le}。",
+          "He fell asleep as soon as he got home."
+        ]
+      ]
+    },
+    {
+      "id": "c5_justnow",
+      "title": "才 = only just (a moment ago)",
+      "summary": "才 + verb with no time word before it: it happened only just now — often surprised.",
+      "body": "- 我**才**知道。 I've only just found out.\n- 他**才**走。 He's only just left.\n- Similar: 刚 / 刚才 (just now).\n\n**才 vs 就 at a glance**\n\n| | 就 🐇 | 才 🐢 |\n|---|---|---|\n| time | earlier than expected: 六点**就**来了 | later than expected: 十点**才**来 |\n| 了? | usually **with** 了 | **no** 了 at the end |\n| amount | 三岁**就**会游泳了 (that young!) | **才**十岁 (only ten) |\n| condition | **只要**…**就**… (as long as) | **只有**…**才**… (only if) |\n| also | **一**…**就**… (as soon as) | **才** = only just: 我才知道 |\n\n**Feel the speaker:** 就 = sooner, easier, already 🐇 · 才 = later, harder, only then 🐢",
+      "examples": [
+        [
+          "{你|nǐ}{结婚|jiéhūn}{了|le}？{我|wǒ}{才|cái}{知道|zhīdào}！",
+          "You're married? I've only just found out!"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "c5_yijiu",
+      "prompt": "{他|tā}{一|yí}{下课|xiàkè}（　）{去|qù}{吃饭|chīfàn}{了|le}。",
+      "options": [
+        "{又|yòu}",
+        "{就|jiù}",
+        "{才|cái}",
+        "{再|zài}"
+      ],
+      "answer": 1,
+      "explanation": "**一…就…** = as soon as.",
+      "notes": [
+        "又 = again.",
+        "",
+        "一 pairs with 就.",
+        "再 = then (future)."
+      ],
+      "translation": "He went to eat as soon as class was over."
+    },
+    {
+      "point": "c5_yijiu",
+      "prompt": "What does 「{我|wǒ}{一|yì}{喝|hē}{咖啡|kāfēi}{就|jiù}{睡|shuì}{不|bu}{着|zháo}。」 mean?",
+      "options": [
+        "I only drink one coffee.",
+        "I can't sleep, so I drink coffee.",
+        "I drank coffee and then slept well.",
+        "Whenever I drink coffee, I can't sleep."
+      ],
+      "answer": 3,
+      "explanation": "**一…就…** = whenever / as soon as.",
+      "notes": [
+        "一 here isn't 'one cup'.",
+        "The order is the other way round.",
+        "睡不着 = can't fall asleep.",
+        ""
+      ],
+      "translation": "Whenever I drink coffee I can't sleep."
+    },
+    {
+      "point": "c5_justnow",
+      "prompt": "What does 「{我|wǒ}{才|cái}{知道|zhīdào}。」 mean?",
+      "options": [
+        "I've only just found out.",
+        "Only I know.",
+        "I knew it all along.",
+        "I'll find out later."
+      ],
+      "answer": 0,
+      "explanation": "才 + verb (no time word) = **only just**.",
+      "notes": [
+        "",
+        "That's 只有我知道.",
+        "That's 我早就知道.",
+        "That's future."
+      ],
+      "translation": "I've only just found out."
+    },
+    {
+      "point": "c5_justnow",
+      "prompt": "A：{他|tā}{还|hái}{在|zài}{吗|ma}？\nB：{他|tā}（　）{走|zǒu}，{你|nǐ}{快|kuài}{去|qù}{追|zhuī}！",
+      "options": [
+        "{就|jiù}",
+        "{才|cái}",
+        "{再|zài}",
+        "{又|yòu}"
+      ],
+      "answer": 1,
+      "explanation": "Only just left → **才**走.",
+      "notes": [
+        "就走 = leaves right away / soon.",
+        "",
+        "再走 = leave again / then.",
+        "又走 = left again."
+      ],
+      "translation": "A: Is he still here? B: He's only just left — run after him!"
+    },
+    {
+      "point": "c5_yijiu",
+      "prompt": "'As soon as she saw me, she smiled.' Which sentence says so?",
+      "options": [
+        "{她|tā}{看见|kànjiàn}{一|yí}{我|wǒ}{就|jiù}{笑|xiào}。",
+        "{她|tā}{一|yí}{看见|kànjiàn}{我|wǒ}{才|cái}{笑|xiào}{了|le}。",
+        "{她|tā}{一|yí}{看见|kànjiàn}{我|wǒ}{就|jiù}{笑|xiào}{了|le}。",
+        "{她|tā}{就|jiù}{看见|kànjiàn}{我|wǒ}{一|yí}{笑|xiào}{了|le}。"
+      ],
+      "answer": 2,
+      "explanation": "**一** + action 1 + **就** + action 2.",
+      "notes": [
+        "一 goes before the verb.",
+        "一 pairs with 就; 才 doesn't take 了.",
+        "",
+        "Word order is wrong."
+      ],
+      "translation": "As soon as she saw me she smiled."
+    },
+    {
+      "point": "c5_justnow",
+      "prompt": "「{他|tā}{才|cái}{来|lái}。」 vs 「{他|tā}{十|shí}{点|diǎn}{才|cái}{来|lái}。」",
+      "options": [
+        "First: he came early.",
+        "First: he's only just arrived. Second: he didn't come until ten.",
+        "Both: he's only just arrived.",
+        "Both: he came late."
+      ],
+      "answer": 1,
+      "explanation": "No time word → only just; time word + 才 → not until.",
+      "notes": [
+        "才 is never 'early'.",
+        "",
+        "With a time word, 才 = not until.",
+        "Without a time word, 才 = only just."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "c5_yijiu",
+      "kind": "tiles",
+      "prompt": "Build it: 'As soon as he gets home, he plays games.'",
+      "items": [
+        "{一|yì}",
+        "{玩|wán}",
+        "{就|jiù}",
+        "{回|huí}{家|jiā}",
+        "{他|tā}",
+        "{游戏|yóuxì}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "403215"
+      ],
+      "explanation": "他**一**回家**就**玩游戏。 一 + first action, 就 + what follows at once.",
+      "notes": [],
+      "translation": "As soon as he gets home, he plays games."
+    },
+    {
+      "point": "c5_justnow",
+      "prompt": "Which word can replace 才 in 「{我|wǒ}{才|cái}{到|dào}。」 (I've only just arrived)?",
+      "options": [
+        "{就|jiù}",
+        "{都|dōu}",
+        "{再|zài}",
+        "{刚|gāng}"
+      ],
+      "answer": 3,
+      "explanation": "才 = **刚** (only just).",
+      "notes": [
+        "就到 = will arrive right away.",
+        "都到 doesn't fit.",
+        "再到 doesn't fit.",
+        ""
+      ],
+      "translation": "I've only just arrived."
+    },
+    {
+      "point": "c5_yijiu",
+      "prompt": "Which is **wrong**?",
+      "options": [
+        "{他|tā}{一|yí}{到|dào}{家|jiā}{才|cái}{睡|shuì}{了|le}。",
+        "{他|tā}{一|yí}{到|dào}{家|jiā}{就|jiù}{睡|shuì}{了|le}。",
+        "{我|wǒ}{才|cái}{知道|zhīdào}。",
+        "{我|wǒ}{一|yí}{下班|xiàbān}{就|jiù}{回家|huí jiā}。"
+      ],
+      "answer": 0,
+      "explanation": "一 pairs with **就** — and 才 doesn't take 了.",
+      "notes": [
+        "",
+        "Correct.",
+        "Correct: only just found out.",
+        "Correct."
+      ],
+      "translation": "He fell asleep as soon as he got home."
+    },
+    {
+      "point": "c5_justnow",
+      "prompt": "{你|nǐ}{搬家|bānjiā}{了|le}？{我|wǒ}{怎么|zěnme}{现在|xiànzài}（　）{知道|zhīdào}？",
+      "options": [
+        "{又|yòu}",
+        "{就|jiù}",
+        "{才|cái}",
+        "{再|zài}"
+      ],
+      "answer": 2,
+      "explanation": "Only now → **才**知道.",
+      "notes": [
+        "又知道 doesn't fit.",
+        "就知道 = knew right away.",
+        "",
+        "再知道 doesn't fit."
+      ],
+      "translation": "You've moved? How come I'm only hearing about it now?"
+    }
+  ]
+}

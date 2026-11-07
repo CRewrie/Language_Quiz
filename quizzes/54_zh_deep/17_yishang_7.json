@@ -36,18 +36,18 @@
       "point": "y7_read",
       "prompt": "{招聘|zhāopìn}：{中文|Zhōngwén}{老师|lǎoshī}{一|yì}{名|míng}。{要求|yāoqiú}：{硕士|shuòshì}{以上|yǐshàng}{学历|xuélì}，HSK{六级|liù jí}{以上|yǐshàng}，{两|liǎng}{年|nián}{以上|yǐshàng}{教学|jiàoxué}{经验|jīngyàn}，{四十|sìshí}{岁|suì}{以下|yǐxià}。{每|měi}{周|zhōu}{工作|gōngzuò}{二十|èrshí}{个|ge}{小时|xiǎoshí}{左右|zuǒyòu}。\n\n★ {谁|shéi}{可以|kěyǐ}{申请|shēnqǐng}{这个|zhège}{工作|gōngzuò}？",
       "options": [
+        "{三十|sānshí}{岁|suì}，{硕士|shuòshì}，HSK{五级|wǔ jí}，{教|jiāo}{了|le}{四|sì}{年|nián}",
         "{二十八|èrshíbā}{岁|suì}，{本科|běnkē}，HSK{六级|liù jí}，{教|jiāo}{了|le}{三|sān}{年|nián}",
         "{三十二|sānshí'èr}{岁|suì}，{博士|bóshì}，HSK{六级|liù jí}，{教|jiāo}{了|le}{五|wǔ}{年|nián}",
-        "{四十五|sìshíwǔ}{岁|suì}，{硕士|shuòshì}，HSK{六级|liù jí}，{教|jiāo}{了|le}{十|shí}{年|nián}",
-        "{三十|sānshí}{岁|suì}，{硕士|shuòshì}，HSK{五级|wǔ jí}，{教|jiāo}{了|le}{四|sì}{年|nián}"
+        "{四十五|sìshíwǔ}{岁|suì}，{硕士|shuòshì}，HSK{六级|liù jí}，{教|jiāo}{了|le}{十|shí}{年|nián}"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "博士 is above 硕士, 32 ≤ 40, HSK 6, five years ≥ two → the **first** person.",
       "notes": [
+        "HSK 5 is below level 6.",
         "本科 is below 硕士.",
         "",
-        "45 is over 40.",
-        "HSK 5 is below level 6."
+        "45 is over 40."
       ],
       "translation": "Wanted: one Chinese teacher. Requirements: a master's degree or higher, HSK level 6 or above, two or more years' teaching experience, aged 40 or under. About 20 hours a week. ★ Who can apply?"
     },
@@ -87,18 +87,18 @@
       "point": "y7_read",
       "prompt": "{欢乐|Huānlè}{公园|Gōngyuán}{票价|piàojià}：{成人|chéngrén}{一百二十|yìbǎi èrshí}{元|yuán}。{身高|shēngāo}{一米二|yì mǐ èr}{以下|yǐxià}（{含|hán}）{的|de}{儿童|értóng}{免票|miǎnpiào}，{六十|liùshí}{岁|suì}{以上|yǐshàng}{的|de}{老人|lǎorén}{半价|bànjià}。{过山车|guòshānchē}：{身高|shēngāo}{一米四|yì mǐ sì}{以上|yǐshàng}{才|cái}{能|néng}{乘坐|chéngzuò}。\n\n★ {小林|Xiǎo Lín}（{三十|sānshí}{岁|suì}）、{他|tā}{女儿|nǚ'ér}（{一米二|yì mǐ èr}）{和|hé}{他|tā}{妈妈|māma}（{六十二|liùshí'èr}{岁|suì}）{一共|yígòng}{要|yào}{花|huā}{多少|duōshao}{钱|qián}？",
       "options": [
-        "{一百八十|yìbǎi bāshí}{元|yuán}",
-        "{三百六十|sānbǎi liùshí}{元|yuán}",
         "{二百四十|èrbǎi sìshí}{元|yuán}",
-        "{一百二十|yìbǎi èrshí}{元|yuán}"
+        "{三百六十|sānbǎi liùshí}{元|yuán}",
+        "{一百二十|yìbǎi èrshí}{元|yuán}",
+        "{一百八十|yìbǎi bāshí}{元|yuán}"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Xiao Lin 120 + daughter (1.2 m, inclusive → free) 0 + mother (62 ≥ 60 → half) 60 = **180 yuan**.",
       "notes": [
-        "",
-        "That's three full tickets.",
         "That leaves out the daughter's free ticket — and charges someone twice.",
-        "That forgets his mother's half-price ticket."
+        "That's three full tickets.",
+        "That forgets his mother's half-price ticket.",
+        ""
       ],
       "translation": "Happy Park ticket prices: adults 120 yuan. Children 1.2 m and under (inclusive) free; people 60 and over half price. Roller coaster: riders must be 1.4 m or taller. ★ How much do Xiao Lin (30), his daughter (1.2 m) and his mother (62) pay in total?"
     },
@@ -138,16 +138,16 @@
       "point": "y7_read",
       "prompt": "{以下|yǐxià}{是|shì}{小林|Xiǎo Lín}{周末|zhōumò}{的|de}{安排|ānpái}：{星期六|xīngqīliù}{上午|shàngwǔ}{十|shí}{点|diǎn}{以前|yǐqián}{到|dào}{机场|jīchǎng}，{托运|tuōyùn}{行李|xíngli}{不|bù}{能|néng}{超过|chāoguò}{二十三|èrshísān}{公斤|gōngjīn}。{天气|tiānqì}{预报|yùbào}{说|shuō}{哈尔滨|Hā'ěrbīn}{最|zuì}{低|dī}{零下|língxià}{二十|èrshí}{度|dù}。\n\n★ {小林|Xiǎo Lín}{的|de}{行李|xíngli}{最|zuì}{重|zhòng}{可以|kěyǐ}{是|shì}{多少|duōshao}？",
       "options": [
-        "{二十三|èrshísān}{公斤|gōngjīn}{以上|yǐshàng}{都|dōu}{可以|kěyǐ}",
         "{二十|èrshí}{公斤|gōngjīn}",
+        "{二十三|èrshísān}{公斤|gōngjīn}{以上|yǐshàng}{都|dōu}{可以|kěyǐ}",
         "{没有|méiyǒu}{限制|xiànzhì}",
         "{二十三|èrshísān}{公斤|gōngjīn}"
       ],
       "answer": 3,
       "explanation": "不能**超过**二十三公斤 → at most **23 kg**.",
       "notes": [
-        "不能超过 = may not be more than 23.",
         "The limit is 23, not 20.",
+        "不能超过 = may not be more than 23.",
         "There is a limit.",
         ""
       ],
@@ -208,18 +208,18 @@
       "point": "y7_mixed",
       "prompt": "Which sentence is correct?",
       "options": [
-        "{六十|liùshí}{岁|suì}{以上|yǐshàng}{的|de}{老人|lǎorén}{半价|bànjià}。",
         "{以上|yǐshàng}{六十|liùshí}{岁|suì}{的|de}{老人|lǎorén}{半价|bànjià}。",
-        "{六十|liùshí}{以上|yǐshàng}{岁|suì}{的|de}{老人|lǎorén}{半价|bànjià}。",
-        "{六十|liùshí}{岁|suì}{以前|yǐqián}{的|de}{老人|lǎorén}{半价|bànjià}。"
+        "{六十|liùshí}{岁|suì}{以前|yǐqián}{的|de}{老人|lǎorén}{半价|bànjià}。",
+        "{六十|liùshí}{岁|suì}{以上|yǐshàng}{的|de}{老人|lǎorén}{半价|bànjià}。",
+        "{六十|liùshí}{以上|yǐshàng}{岁|suì}{的|de}{老人|lǎorén}{半价|bànjià}。"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "Number phrase + **以上** + 的 + noun.",
       "notes": [
-        "",
         "以上 goes after the number.",
-        "以上 goes after the whole 六十岁.",
-        "以前 is for points in time, not ages as a limit."
+        "以前 is for points in time, not ages as a limit.",
+        "",
+        "以上 goes after the whole 六十岁."
       ],
       "translation": "People aged 60 and over pay half price."
     },

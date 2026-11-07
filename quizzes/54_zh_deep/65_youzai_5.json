@@ -1,0 +1,205 @@
+{
+  "id": "zh-dd-youzai-5",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "又 vs 再 Step 5 · Boss Level: 小林's Favourite Noodle Shop",
+  "description": "A noodle shop 小林 keeps going back to — until he can't. Every 又, 再 and 还 in one story.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "yz5_read",
+      "title": "Reading 又 / 再 / 还 in a story",
+      "summary": "For each one: already happened, still to come, or a question/wish?",
+      "body": "Follow the timeline.\n\n| | 'again' when? | example |\n|---|---|---|\n| **又** | it **already happened** again (often: not again!) | 他昨天**又**迟到了。 你怎么**又**来了？ |\n| **再** | it **hasn't happened yet**: plans, requests | 请**再**说一遍。 欢迎**再**来！ |\n| **还** | future again in **questions** and with 想 / 要 / 会 | 你明天**还**来吗？ 我**还**想去。 |\n| **再** = then | first … then … / later | 吃了饭**再**走。 我们明天**再**说。 |\n| **又 … 又 …** | both … and … | **又**便宜**又**好吃 |\n\n**Exception:** 又 for a future that's certain to repeat: 明天**又**是星期一了。",
+      "examples": [
+        [
+          "{昨天|zuótiān}{又|yòu}{去|qù}{了|le}。",
+          "He went again yesterday."
+        ]
+      ]
+    },
+    {
+      "id": "yz5_mixed",
+      "title": "Final mixed challenge",
+      "summary": "又, 再, 还, 又…又…, 不再, 再也不.",
+      "body": "Past → 又 · future → 再 / 还.\n\n| | 'again' when? | example |\n|---|---|---|\n| **又** | it **already happened** again (often: not again!) | 他昨天**又**迟到了。 你怎么**又**来了？ |\n| **再** | it **hasn't happened yet**: plans, requests | 请**再**说一遍。 欢迎**再**来！ |\n| **还** | future again in **questions** and with 想 / 要 / 会 | 你明天**还**来吗？ 我**还**想去。 |\n| **再** = then | first … then … / later | 吃了饭**再**走。 我们明天**再**说。 |\n| **又 … 又 …** | both … and … | **又**便宜**又**好吃 |\n\n**Exception:** 又 for a future that's certain to repeat: 明天**又**是星期一了。",
+      "examples": [
+        [
+          "{我|wǒ}{再也|zài yě}{吃|chī}{不|bu}{到|dào}{了|le}。",
+          "I'll never get to eat it again."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "yz5_read",
+      "prompt": "{小林|Xiǎo Lín}{很|hěn}{喜欢|xǐhuan}{学校|xuéxiào}{旁边|pángbiān}{的|de}{一|yì}{家|jiā}{面馆|miànguǎn}，{那儿|nàr}{的|de}{面|miàn}{又|yòu}{便宜|piányi}{又|yòu}{好吃|hǎochī}。{上个|shàng ge}{星期|xīngqī}{他|tā}{去|qù}{了|le}{三|sān}{次|cì}，{昨天|zuótiān}{又|yòu}{去|qù}{了|le}。{老板|lǎobǎn}{笑|xiào}{着|zhe}{说|shuō}：“{你|nǐ}{又|yòu}{来|lái}{了|le}！”{小林|Xiǎo Lín}{吃|chī}{完|wán}{一|yì}{碗|wǎn}，{还|hái}{想|xiǎng}{再|zài}{吃|chī}{一|yì}{碗|wǎn}。{老板|lǎobǎn}{说|shuō}：“{面|miàn}{卖|mài}{完|wán}{了|le}，{明天|míngtiān}{再|zài}{来|lái}{吧|ba}！”{小林|Xiǎo Lín}{说|shuō}：“{好|hǎo}，{我|wǒ}{明天|míngtiān}{还|hái}{来|lái}！”{可是|kěshì}{今天|jīntiān}{面馆|miànguǎn}{的|de}{门|mén}{上|shang}{写|xiě}{着|zhe}：“{本店|běn diàn}{不|bú}{再|zài}{营业|yíngyè}。”{小林|Xiǎo Lín}{很|hěn}{难过|nánguò}：“{我|wǒ}{再也|zài yě}{吃|chī}{不|bu}{到|dào}{那么|nàme}{好吃|hǎochī}{的|de}{面|miàn}{了|le}！”\n\n★ {小林|Xiǎo Lín}{昨天|zuótiān}{第一|dì yī}{次|cì}{去|qù}{那家|nà jiā}{面馆|miànguǎn}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "又去了 = went **again**.",
+      "notes": [
+        "上个星期去了三次 — 昨天**又**去了.",
+        ""
+      ],
+      "translation": "Xiao Lin loves the noodle shop next to school — the noodles there are cheap and tasty. Last week he went three times, and yesterday he went again. The owner laughed: 'You're here again!' Xiao Lin finished a bowl and wanted another. The owner said: 'We're sold out — come again tomorrow!' Xiao Lin said: 'OK, I'll come again tomorrow!' But today the sign on the door said: 'This shop is no longer open.' Xiao Lin was sad: 'I'll never get noodles that good again!' ★ Yesterday was Xiao Lin's first visit.",
+      "fixed_order": true
+    },
+    {
+      "point": "yz5_read",
+      "prompt": "{小林|Xiǎo Lín}{很|hěn}{喜欢|xǐhuan}{学校|xuéxiào}{旁边|pángbiān}{的|de}{一|yì}{家|jiā}{面馆|miànguǎn}，{那儿|nàr}{的|de}{面|miàn}{又|yòu}{便宜|piányi}{又|yòu}{好吃|hǎochī}。{上个|shàng ge}{星期|xīngqī}{他|tā}{去|qù}{了|le}{三|sān}{次|cì}，{昨天|zuótiān}{又|yòu}{去|qù}{了|le}。{老板|lǎobǎn}{笑|xiào}{着|zhe}{说|shuō}：“{你|nǐ}{又|yòu}{来|lái}{了|le}！”{小林|Xiǎo Lín}{吃|chī}{完|wán}{一|yì}{碗|wǎn}，{还|hái}{想|xiǎng}{再|zài}{吃|chī}{一|yì}{碗|wǎn}。{老板|lǎobǎn}{说|shuō}：“{面|miàn}{卖|mài}{完|wán}{了|le}，{明天|míngtiān}{再|zài}{来|lái}{吧|ba}！”{小林|Xiǎo Lín}{说|shuō}：“{好|hǎo}，{我|wǒ}{明天|míngtiān}{还|hái}{来|lái}！”{可是|kěshì}{今天|jīntiān}{面馆|miànguǎn}{的|de}{门|mén}{上|shang}{写|xiě}{着|zhe}：“{本店|běn diàn}{不|bú}{再|zài}{营业|yíngyè}。”{小林|Xiǎo Lín}{很|hěn}{难过|nánguò}：“{我|wǒ}{再也|zài yě}{吃|chī}{不|bu}{到|dào}{那么|nàme}{好吃|hǎochī}{的|de}{面|miàn}{了|le}！”\n\n★ {小林|Xiǎo Lín}{昨天|zuótiān}{吃|chī}{了|le}{两|liǎng}{碗|wǎn}{面|miàn}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "想**再**吃 = wanted to; 卖完了 = he couldn't.",
+      "notes": [
+        "还想再吃一碗 — but it was sold out.",
+        ""
+      ],
+      "translation": "Xiao Lin loves the noodle shop next to school — the noodles there are cheap and tasty. Last week he went three times, and yesterday he went again. The owner laughed: 'You're here again!' Xiao Lin finished a bowl and wanted another. The owner said: 'We're sold out — come again tomorrow!' Xiao Lin said: 'OK, I'll come again tomorrow!' But today the sign on the door said: 'This shop is no longer open.' Xiao Lin was sad: 'I'll never get noodles that good again!' ★ Xiao Lin ate two bowls yesterday.",
+      "fixed_order": true
+    },
+    {
+      "point": "yz5_read",
+      "prompt": "{小林|Xiǎo Lín}{很|hěn}{喜欢|xǐhuan}{学校|xuéxiào}{旁边|pángbiān}{的|de}{一|yì}{家|jiā}{面馆|miànguǎn}，{那儿|nàr}{的|de}{面|miàn}{又|yòu}{便宜|piányi}{又|yòu}{好吃|hǎochī}。{上个|shàng ge}{星期|xīngqī}{他|tā}{去|qù}{了|le}{三|sān}{次|cì}，{昨天|zuótiān}{又|yòu}{去|qù}{了|le}。{老板|lǎobǎn}{笑|xiào}{着|zhe}{说|shuō}：“{你|nǐ}{又|yòu}{来|lái}{了|le}！”{小林|Xiǎo Lín}{吃|chī}{完|wán}{一|yì}{碗|wǎn}，{还|hái}{想|xiǎng}{再|zài}{吃|chī}{一|yì}{碗|wǎn}。{老板|lǎobǎn}{说|shuō}：“{面|miàn}{卖|mài}{完|wán}{了|le}，{明天|míngtiān}{再|zài}{来|lái}{吧|ba}！”{小林|Xiǎo Lín}{说|shuō}：“{好|hǎo}，{我|wǒ}{明天|míngtiān}{还|hái}{来|lái}！”{可是|kěshì}{今天|jīntiān}{面馆|miànguǎn}{的|de}{门|mén}{上|shang}{写|xiě}{着|zhe}：“{本店|běn diàn}{不|bú}{再|zài}{营业|yíngyè}。”{小林|Xiǎo Lín}{很|hěn}{难过|nánguò}：“{我|wǒ}{再也|zài yě}{吃|chī}{不|bu}{到|dào}{那么|nàme}{好吃|hǎochī}{的|de}{面|miàn}{了|le}！”\n\n★ {那家|nà jiā}{面馆|miànguǎn}{以后|yǐhòu}{不|bù}{开|kāi}{了|le}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "**不再** = no longer.",
+      "notes": [
+        "",
+        "不再营业 = no longer open."
+      ],
+      "translation": "Xiao Lin loves the noodle shop next to school — the noodles there are cheap and tasty. Last week he went three times, and yesterday he went again. The owner laughed: 'You're here again!' Xiao Lin finished a bowl and wanted another. The owner said: 'We're sold out — come again tomorrow!' Xiao Lin said: 'OK, I'll come again tomorrow!' But today the sign on the door said: 'This shop is no longer open.' Xiao Lin was sad: 'I'll never get noodles that good again!' ★ The noodle shop won't open any more.",
+      "fixed_order": true
+    },
+    {
+      "point": "yz5_read",
+      "prompt": "{小林|Xiǎo Lín}{很|hěn}{喜欢|xǐhuan}{学校|xuéxiào}{旁边|pángbiān}{的|de}{一|yì}{家|jiā}{面馆|miànguǎn}，{那儿|nàr}{的|de}{面|miàn}{又|yòu}{便宜|piányi}{又|yòu}{好吃|hǎochī}。{上个|shàng ge}{星期|xīngqī}{他|tā}{去|qù}{了|le}{三|sān}{次|cì}，{昨天|zuótiān}{又|yòu}{去|qù}{了|le}。{老板|lǎobǎn}{笑|xiào}{着|zhe}{说|shuō}：“{你|nǐ}{又|yòu}{来|lái}{了|le}！”{小林|Xiǎo Lín}{吃|chī}{完|wán}{一|yì}{碗|wǎn}，{还|hái}{想|xiǎng}{再|zài}{吃|chī}{一|yì}{碗|wǎn}。{老板|lǎobǎn}{说|shuō}：“{面|miàn}{卖|mài}{完|wán}{了|le}，{明天|míngtiān}{再|zài}{来|lái}{吧|ba}！”{小林|Xiǎo Lín}{说|shuō}：“{好|hǎo}，{我|wǒ}{明天|míngtiān}{还|hái}{来|lái}！”{可是|kěshì}{今天|jīntiān}{面馆|miànguǎn}{的|de}{门|mén}{上|shang}{写|xiě}{着|zhe}：“{本店|běn diàn}{不|bú}{再|zài}{营业|yíngyè}。”{小林|Xiǎo Lín}{很|hěn}{难过|nánguò}：“{我|wǒ}{再也|zài yě}{吃|chī}{不|bu}{到|dào}{那么|nàme}{好吃|hǎochī}{的|de}{面|miàn}{了|le}！”\n\n★ {老板|lǎobǎn}{说|shuō}“{你|nǐ}{又|yòu}{来|lái}{了|le}”，{意思|yìsi}{是|shì}{什么|shénme}？",
+      "options": [
+        "{老板|lǎobǎn}{不|bù}{想|xiǎng}{让|ràng}{他|tā}{来|lái}",
+        "{小林|Xiǎo Lín}{明天|míngtiān}{要|yào}{来|lái}",
+        "{小林|Xiǎo Lín}{第一|dì yī}{次|cì}{来|lái}",
+        "{小林|Xiǎo Lín}{常常|chángcháng}{来|lái}"
+      ],
+      "answer": 3,
+      "explanation": "**又**来了 = here again (he comes often).",
+      "notes": [
+        "He's laughing — friendly.",
+        "又来了 is about now, not tomorrow.",
+        "又 = he's been before.",
+        ""
+      ],
+      "translation": "Xiao Lin loves the noodle shop next to school — the noodles there are cheap and tasty. Last week he went three times, and yesterday he went again. The owner laughed: 'You're here again!' Xiao Lin finished a bowl and wanted another. The owner said: 'We're sold out — come again tomorrow!' Xiao Lin said: 'OK, I'll come again tomorrow!' But today the sign on the door said: 'This shop is no longer open.' Xiao Lin was sad: 'I'll never get noodles that good again!' ★ What does the owner mean?"
+    },
+    {
+      "point": "yz5_mixed",
+      "kind": "sort",
+      "prompt": "Phrases from the story: what does each say?",
+      "items": [
+        "{昨天|zuótiān}{又|yòu}{去|qù}{了|le}",
+        "{明天|míngtiān}{再|zài}{来|lái}{吧|ba}",
+        "{不|bú}{再|zài}{营业|yíngyè}",
+        "{再也|zài yě}{吃|chī}{不|bu}{到|dào}{了|le}",
+        "{还|hái}{想|xiǎng}{再|zài}{吃|chī}{一|yì}{碗|wǎn}",
+        "{你|nǐ}{又|yòu}{来|lái}{了|le}！",
+        "{我|wǒ}{明天|míngtiān}{还|hái}{来|lái}"
+      ],
+      "groups": [
+        "⏪ happened again",
+        "⏩ again, still to come",
+        "🚫 no more"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "0122101"
+      ],
+      "explanation": "又 looks back; 再 / 还 look forward; 不再 / 再也不 close the door.",
+      "notes": [
+        "Past repeat.",
+        "Invitation.",
+        "No longer open.",
+        "Never again.",
+        "Wants another — future.",
+        "Here again.",
+        "Promise about tomorrow."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz5_mixed",
+      "kind": "tiles",
+      "prompt": "Build it: 'We're sold out — come again tomorrow!'",
+      "items": [
+        "{再|zài}",
+        "{来|lái}{吧|ba}",
+        "{面|miàn}",
+        "{卖|mài}{完|wán}{了|le}，",
+        "{明天|míngtiān}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "23401"
+      ],
+      "explanation": "面卖完了，明天**再**来吧！",
+      "notes": [],
+      "translation": "We're sold out — come again tomorrow!"
+    },
+    {
+      "point": "yz5_mixed",
+      "kind": "multi",
+      "prompt": "Which sentences are correct? Select all.",
+      "options": [
+        "{他|tā}{昨天|zuótiān}{再|zài}{去|qù}{了|le}。",
+        "{他|tā}{昨天|zuótiān}{又|yòu}{去|qù}{了|le}。",
+        "{这|zhè}{家|jiā}{面馆|miànguǎn}{又|yòu}{便宜|piányi}{又|yòu}{好吃|hǎochī}。",
+        "{我|wǒ}{又|yòu}{也|yě}{吃|chī}{不|bu}{到|dào}{了|le}。",
+        "{你|nǐ}{明天|míngtiān}{又|yòu}{来|lái}{吧|ba}。",
+        "{你|nǐ}{明天|míngtiān}{还|hái}{来|lái}{吗|ma}？"
+      ],
+      "answer": 0,
+      "accept": [
+        "125"
+      ],
+      "explanation": "又 back, 再 / 还 forward.",
+      "notes": [
+        "Already happened → 又去了.",
+        "✔",
+        "✔",
+        "It's 再也.",
+        "Invitation → 再来吧.",
+        "✔"
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz5_mixed",
+      "prompt": "Which rule is right?",
+      "options": [
+        "又: it already happened again · 再: it's still to come",
+        "又 = future, 再 = past",
+        "They're the same",
+        "再 always needs 了"
+      ],
+      "answer": 0,
+      "explanation": "⏪ **又** · ⏩ **再** (and 还 in questions).",
+      "notes": [
+        "",
+        "Swapped.",
+        "Opposite timelines.",
+        "再 and 了 clash."
+      ],
+      "translation": "",
+      "fixed_order": true
+    }
+  ]
+}

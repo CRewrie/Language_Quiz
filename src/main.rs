@@ -100,6 +100,16 @@ struct Question {
     /// Show the options in the given order (e.g. positions A–D in a sentence).
     #[serde(default, skip_serializing_if = "std::ops::Not::not")]
     fixed_order: bool,
+    /// Interactive kinds, answered with a code checked like a typed answer (see `accept`):
+    /// "tiles" (tap `items` into order; code = tile indices), "sort" (put each of `items` into one of
+    /// `groups`; code = a group index per item), "match" (pair each of `items` with one of `groups`;
+    /// code = a group index per item), "multi" (select all correct `options`; code = sorted indices).
+    #[serde(default, skip_serializing_if = "String::is_empty")]
+    kind: String,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    items: Vec<String>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    groups: Vec<String>,
 }
 
 impl Quiz {
@@ -200,6 +210,8 @@ fn to_traditional(quiz: &Quiz) -> Quiz {
         question.notes = question.notes.iter().map(|n| t(n)).collect();
         question.accept = question.accept.iter().map(|a| t(a)).collect();
         question.hint = t(&question.hint);
+        question.items = question.items.iter().map(|o| t(o)).collect();
+        question.groups = question.groups.iter().map(|o| t(o)).collect();
     }
     q
 }
@@ -231,6 +243,12 @@ struct PublicQuestion<'a> {
     input: bool,
     #[serde(skip_serializing_if = "str::is_empty")]
     hint: &'a str,
+    #[serde(skip_serializing_if = "str::is_empty")]
+    kind: &'a str,
+    #[serde(skip_serializing_if = "<[String]>::is_empty")]
+    items: &'a [String],
+    #[serde(skip_serializing_if = "<[String]>::is_empty")]
+    groups: &'a [String],
     /// Used only to order questions; never sent to the browser.
     #[serde(skip)]
     answer_text: &'a str,
@@ -311,6 +329,9 @@ fn public_questions(quiz: &Quiz) -> Vec<PublicQuestion<'_>> {
             fixed_order: q.fixed_order,
             input: !q.accept.is_empty(),
             hint: &q.hint,
+            kind: &q.kind,
+            items: &q.items,
+            groups: &q.groups,
             answer_text: q.accept.first().unwrap_or_else(|| &q.options[q.answer]),
             point: q.point.as_deref(),
         })
@@ -547,8 +568,20 @@ fn load_quizzes(dir: &Path) -> Result<Vec<Quiz>, String> {
             if q.accept.is_empty() && q.answer >= q.options.len() {
                 return Err(format!("{}: question {} has an out-of-range answer", path.display(), i + 1));
             }
-            if !q.notes.is_empty() && q.notes.len() != q.options.len() {
+            // sort / match questions have a note per item; the others one per option
+            let per = if matches!(q.kind.as_str(), "sort" | "match") { q.items.len() } else { q.options.len() };
+            if !q.notes.is_empty() && q.notes.len() != per {
                 return Err(format!("{}: question {} needs one note per option", path.display(), i + 1));
+            }
+            let kind_ok = match q.kind.as_str() {
+                "" => true,
+                "tiles" => q.items.len() >= 2,
+                "sort" | "match" => !q.items.is_empty() && !q.groups.is_empty(),
+                "multi" => q.options.len() >= 2,
+                _ => false,
+            };
+            if !kind_ok || (!q.kind.is_empty() && q.accept.is_empty()) {
+                return Err(format!("{}: question {} has an unknown or incomplete kind", path.display(), i + 1));
             }
             if q.point.is_some() && quiz.point(q.point.as_deref()).is_none() {
                 return Err(format!("{}: question {} refers to an unknown point", path.display(), i + 1));

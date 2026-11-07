@@ -76,18 +76,18 @@
       "point": "l4_double",
       "prompt": "{你|nǐ}{怎么|zěnme}{才|cái}{来|lái}？{我|wǒ}{等|děng}{了|le}{你|nǐ}{一个|yí ge}{小时|xiǎoshí}（　）！",
       "options": [
-        "{着|zhe}",
+        "{的|de}",
         "{过|guo}",
-        "{了|le}",
-        "{的|de}"
+        "{着|zhe}",
+        "{了|le}"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Still waiting until now: 等了…**了**.",
       "notes": [
-        "着 doesn't fit.",
+        "的 doesn't fit.",
         "过 = experience.",
-        "",
-        "的 doesn't fit."
+        "着 doesn't fit.",
+        ""
       ],
       "translation": "Why are you only coming now? I've been waiting for you for an hour!"
     },
@@ -96,17 +96,17 @@
       "prompt": "{我|wǒ}{今天|jīntiān}{已经|yǐjīng}{喝|hē}{了|le}{三|sān}{杯|bēi}{咖啡|kāfēi}（　），{不|bù}{能|néng}{再|zài}{喝|hē}{了|le}。",
       "options": [
         "{着|zhe}",
-        "{过|guo}",
         "{呢|ne}",
-        "{了|le}"
+        "{了|le}",
+        "{过|guo}"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "So far today: 已经…**了**.",
       "notes": [
         "着 doesn't fit.",
-        "过 = experience.",
         "呢 doesn't fit.",
-        ""
+        "",
+        "过 = experience."
       ],
       "translation": "I've already had three coffees today — I can't have any more."
     },
@@ -114,18 +114,18 @@
       "point": "l4_double",
       "prompt": "'I've been living in Beijing for five years (and still do).' Which sentence says so?",
       "options": [
-        "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{过|guo}{五|wǔ}{年|nián}。",
         "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{五|wǔ}{年|nián}。",
-        "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{了|le}{五|wǔ}{年|nián}{了|le}。",
-        "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{了|le}{五|wǔ}{年|nián}。"
+        "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{过|guo}{五|wǔ}{年|nián}。",
+        "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{了|le}{五|wǔ}{年|nián}。",
+        "{我|wǒ}{在|zài}{北京|Běijīng}{住|zhù}{了|le}{五|wǔ}{年|nián}{了|le}。"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Still living there → **double 了**.",
       "notes": [
-        "过 = you lived there once (in the past).",
         "No 了 — sounds like a plan.",
-        "",
-        "One 了 — you may have moved away."
+        "过 = you lived there once (in the past).",
+        "One 了 — you may have moved away.",
+        ""
       ],
       "translation": "I've been living in Beijing for five years."
     },
@@ -133,56 +133,57 @@
       "point": "l4_count",
       "prompt": "What does 「{这|zhè}{本|běn}{书|shū}{我|wǒ}{看|kàn}{了|le}{一半|yíbàn}{了|le}。」 mean?",
       "options": [
-        "I read half of this book and stopped.",
-        "I'm halfway through this book (and still reading).",
         "I've never read this book.",
+        "I'm halfway through this book (and still reading).",
+        "I read half of this book and stopped.",
         "I'll read half of this book."
       ],
       "answer": 1,
       "explanation": "Double 了 = **so far, still going**.",
       "notes": [
-        "Double 了 = still going.",
-        "",
         "You've read half.",
+        "",
+        "Double 了 = still going.",
         "That's future."
       ],
       "translation": "I'm halfway through this book."
     },
     {
       "point": "l4_double",
-      "prompt": "{我们|wǒmen}{认识|rènshi}（　）{十|shí}{年|nián}{了|le}。",
-      "options": [
-        "{的|de}",
-        "{着|zhe}",
+      "kind": "tiles",
+      "prompt": "Build it: 'We've known each other for ten years now (and still do).'",
+      "items": [
+        "{认识|rènshi}{了|le}",
+        "{已经|yǐjīng}",
         "{了|le}",
-        "{过|guo}"
+        "{十|shí}{年|nián}",
+        "{我们|wǒmen}"
       ],
-      "answer": 2,
-      "explanation": "认识**了**十年**了** = we've known each other for ten years.",
-      "notes": [
-        "的 doesn't fit.",
-        "着 doesn't fit.",
-        "",
-        "过 doesn't fit."
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "41032"
       ],
-      "translation": "We've known each other for ten years."
+      "explanation": "我们已经**认识了十年了**。 verb-了 + time + 了 = still going.",
+      "notes": [],
+      "translation": "We've known each other for ten years now."
     },
     {
       "point": "l4_count",
       "prompt": "Which sentence suggests the speaker might drink **more** today?",
       "options": [
         "{我|wǒ}{喝|hē}{了|le}{两|liǎng}{杯|bēi}。",
+        "{我|wǒ}{没|méi}{喝|hē}。",
         "{我|wǒ}{喝|hē}{了|le}{两|liǎng}{杯|bēi}{了|le}。",
-        "{我|wǒ}{喝|hē}{两|liǎng}{杯|bēi}。",
-        "{我|wǒ}{没|méi}{喝|hē}。"
+        "{我|wǒ}{喝|hē}{两|liǎng}{杯|bēi}。"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Double 了 = two **so far**.",
       "notes": [
         "One 了 just reports two cups.",
+        "They didn't drink.",
         "",
-        "That's a plan or a habit.",
-        "They didn't drink."
+        "That's a plan or a habit."
       ],
       "translation": "I've had two cups so far."
     },
@@ -190,18 +191,18 @@
       "point": "l4_double",
       "prompt": "Which is **wrong**?",
       "options": [
-        "{我|wǒ}{学|xué}{了|le}{三|sān}{年|nián}{中文|Zhōngwén}。",
-        "{我|wǒ}{学|xué}{了|le}{三|sān}{年|nián}{中文|Zhōngwén}{了|le}。",
         "{我|wǒ}{学|xué}{中文|Zhōngwén}{学|xué}{了|le}{三|sān}{年|nián}{了|le}。",
-        "{我|wǒ}{学|xué}{三|sān}{年|nián}{了|le}{了|le}{中文|Zhōngwén}。"
+        "{我|wǒ}{学|xué}{三|sān}{年|nián}{了|le}{了|le}{中文|Zhōngwén}。",
+        "{我|wǒ}{学|xué}{了|le}{三|sān}{年|nián}{中文|Zhōngwén}。",
+        "{我|wǒ}{学|xué}{了|le}{三|sān}{年|nián}{中文|Zhōngwén}{了|le}。"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "First 了 after the verb, second at the **end**.",
       "notes": [
-        "Correct: one 了.",
-        "Correct.",
         "Correct: verb repeated with the duration.",
-        ""
+        "",
+        "Correct: one 了.",
+        "Correct."
       ],
       "translation": "I've been studying Chinese for three years."
     },
@@ -209,18 +210,18 @@
       "point": "l4_double",
       "prompt": "Your friend arrives late. What do you say?",
       "options": [
-        "{我|wǒ}{等|děng}{过|guo}{半|bàn}{个|ge}{小时|xiǎoshí}！",
-        "{我|wǒ}{都|dōu}{等|děng}{了|le}{半|bàn}{个|ge}{小时|xiǎoshí}{了|le}！",
         "{我|wǒ}{等|děng}{半|bàn}{个|ge}{小时|xiǎoshí}！",
-        "{我|wǒ}{没|méi}{等|děng}{了|le}{半|bàn}{个|ge}{小时|xiǎoshí}！"
+        "{我|wǒ}{没|méi}{等|děng}{了|le}{半|bàn}{个|ge}{小时|xiǎoshí}！",
+        "{我|wǒ}{等|děng}{过|guo}{半|bàn}{个|ge}{小时|xiǎoshí}！",
+        "{我|wǒ}{都|dōu}{等|děng}{了|le}{半|bàn}{个|ge}{小时|xiǎoshí}{了|le}！"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Still waiting until now: **都…了…了**.",
       "notes": [
-        "过 = experience.",
-        "",
         "Sounds like a plan: I'll wait half an hour.",
-        "没 doesn't take 了."
+        "没 doesn't take 了.",
+        "过 = experience.",
+        ""
       ],
       "translation": "I've been waiting half an hour already!"
     }

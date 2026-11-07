@@ -1,0 +1,226 @@
+{
+  "id": "zh-dd-babei-2",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "把 vs 被 Step 2 · 被: It Happened to Me",
+  "description": "我的手机被偷了 — the subject is on the receiving end. Usually bad luck, the doer can be left out, and spoken Chinese often says 叫 / 让 instead.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "b2_shape",
+      "title": "thing + 被 + (doer) + verb + result",
+      "summary": "被 makes the receiver the subject: 我的手机被(小偷)偷了 = my phone was stolen (by a thief).",
+      "body": "- 我的手机**被**偷了。 My phone got stolen.\n- 他**被**老师批评了。 He was told off by the teacher.\n- The doer is optional: 蛋糕被(弟弟)吃完了.\n\n| | pattern | the subject … | feeling |\n|---|---|---|---|\n| **把** | doer + 把 + thing + verb + result | **does** something to the thing | what you did to it |\n| **被** | thing + 被 + (doer) + verb + result | **receives** the action | often bad luck: got …ed |\n\n**Both** need something after the verb: ~~我把饭吃~~ → 我把饭吃**完了** · ~~杯子被打~~ → 杯子被打**破了**.\n**没 / 不 / 想 / 要** go **before** 把 / 被: 我**没**把作业做完 · 他**没**被抓住.",
+      "examples": [
+        [
+          "{我|wǒ}{的|de}{自行车|zìxíngchē}{被|bèi}{弟弟|dìdi}{骑|qí}{走|zǒu}{了|le}。",
+          "My bike was taken by my little brother."
+        ]
+      ]
+    },
+    {
+      "id": "b2_bad",
+      "title": "被 = usually bad luck; spoken 叫 / 让",
+      "summary": "Most 被 sentences report something unpleasant. In speech, 叫 (jiào) and 让 (ràng) can replace 被 — but then the doer must be named.",
+      "body": "- 我**被**雨淋湿了。 I got soaked by the rain.\n- 我的自行车**让人**偷了。 (spoken) My bike was stolen.\n- Good news with 被 is more formal: 他被选为班长.\n\n| | pattern | the subject … | feeling |\n|---|---|---|---|\n| **把** | doer + 把 + thing + verb + result | **does** something to the thing | what you did to it |\n| **被** | thing + 被 + (doer) + verb + result | **receives** the action | often bad luck: got …ed |\n\n**Both** need something after the verb: ~~我把饭吃~~ → 我把饭吃**完了** · ~~杯子被打~~ → 杯子被打**破了**.\n**没 / 不 / 想 / 要** go **before** 把 / 被: 我**没**把作业做完 · 他**没**被抓住.",
+      "examples": [
+        [
+          "{今天|jīntiān}{我|wǒ}{被|bèi}{雨|yǔ}{淋|lín}{湿|shī}{了|le}。",
+          "I got soaked by the rain today."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "b2_shape",
+      "prompt": "「{我|wǒ}{的|de}{手机|shǒujī}{被|bèi}{偷|tōu}{了|le}。」 What happened?",
+      "options": [
+        "Someone stole my phone.",
+        "I almost lost my phone.",
+        "I got my phone back.",
+        "I stole a phone."
+      ],
+      "answer": 0,
+      "explanation": "Thing + **被** + verb = it happened **to** the thing.",
+      "notes": [
+        "",
+        "No 差点 — it's gone.",
+        "被偷了 = got stolen.",
+        "Then it'd be 我偷了一个手机 — the subject did it."
+      ],
+      "translation": "My phone got stolen."
+    },
+    {
+      "point": "b2_shape",
+      "kind": "tiles",
+      "prompt": "Build it: 'My bike was ridden off by my little brother.'",
+      "items": [
+        "{我|wǒ}{的|de}",
+        "{弟弟|dìdi}",
+        "{自行车|zìxíngchē}",
+        "{被|bèi}",
+        "{骑|qí}{走|zǒu}{了|le}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "02314"
+      ],
+      "explanation": "我的自行车**被弟弟骑走了**。 thing + 被 + doer + verb + result.",
+      "notes": [],
+      "translation": "My bike was ridden off by my little brother."
+    },
+    {
+      "point": "b2_bad",
+      "kind": "sort",
+      "prompt": "Did the subject do it, or did it happen to the subject?",
+      "items": [
+        "{鱼|yú}{被|bèi}{小猫|xiǎomāo}{吃|chī}{了|le}。",
+        "{我|wǒ}{把|bǎ}{杯子|bēizi}{打|dǎ}{破|pò}{了|le}。",
+        "{杯子|bēizi}{被|bèi}{我|wǒ}{打|dǎ}{破|pò}{了|le}。",
+        "{他|tā}{被|bèi}{老师|lǎoshī}{批评|pīpíng}{了|le}。",
+        "{小猫|xiǎomāo}{把|bǎ}{鱼|yú}{吃|chī}{了|le}。",
+        "{老师|lǎoshī}{把|bǎ}{他|tā}{批评|pīpíng}{了|le}{一|yí}{顿|dùn}。"
+      ],
+      "groups": [
+        "👉 The subject did it (把)",
+        "🎯 It happened to the subject (被)"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "101100"
+      ],
+      "explanation": "Before **把** = the doer; before **被** = the receiver.",
+      "notes": [
+        "The fish got eaten.",
+        "我 did it.",
+        "The cup got broken.",
+        "He got told off.",
+        "The cat ate it.",
+        "The teacher did the telling off."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b2_bad",
+      "kind": "multi",
+      "prompt": "Which 被 sentences are correct? Select all.",
+      "options": [
+        "{他|tā}{被|bèi}{走|zǒu}{了|le}。",
+        "{我|wǒ}{的|de}{手机|shǒujī}{被|bèi}{偷|tōu}{了|le}。",
+        "{他|tā}{被|bèi}{老师|lǎoshī}{批评|pīpíng}{了|le}。",
+        "{我|wǒ}{被|bèi}{吃|chī}{了|le}{饭|fàn}。",
+        "{钱包|qiánbāo}{被|bèi}{偷|tōu}。",
+        "{蛋糕|dàngāo}{被|bèi}{吃|chī}{完|wán}{了|le}。"
+      ],
+      "answer": 0,
+      "accept": [
+        "125"
+      ],
+      "explanation": "被 needs a verb that acts on the subject, **plus** something after it.",
+      "notes": [
+        "走 doesn't act on anything, so nothing can 'be walked'.",
+        "✔",
+        "✔",
+        "The receiver is the food: 饭被我吃了 — and that's an odd thing to report with 被.",
+        "Needs a result or 了: 被偷了.",
+        "✔ the doer can be left out."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b2_shape",
+      "prompt": "「{我|wǒ}{的|de}{钱包|qiánbāo}{被|bèi}{偷|tōu}{了|le}。」 — who stole it?",
+      "options": [
+        "The police.",
+        "I did.",
+        "The wallet did.",
+        "We don't know — 被 can leave the doer out."
+      ],
+      "answer": 3,
+      "explanation": "被 + **(doer)** — the doer is optional.",
+      "notes": [
+        "No police in the sentence.",
+        "I'm the owner, not the thief.",
+        "The wallet is what got stolen.",
+        ""
+      ],
+      "translation": "My wallet was stolen."
+    },
+    {
+      "point": "b2_bad",
+      "prompt": "Spoken Chinese: 「{我|wǒ}{的|de}{自行车|zìxíngchē}{让|ràng}{人|rén}{偷|tōu}{了|le}。」 means …",
+      "options": [
+        "I asked someone to steal a bike.",
+        "My bike got stolen.",
+        "I let someone steal my bike.",
+        "I stole a bike for someone."
+      ],
+      "answer": 1,
+      "explanation": "Spoken **叫 / 让 + doer** = 被.",
+      "notes": [
+        "No — the bike is the victim.",
+        "",
+        "Here 让 = 被, not 'let'.",
+        "The bike is mine and it's gone."
+      ],
+      "translation": "My bike got stolen."
+    },
+    {
+      "point": "b2_shape",
+      "kind": "match",
+      "prompt": "What happened?",
+      "items": [
+        "{他|tā}{被|bèi}{选|xuǎn}{为|wéi}{班长|bānzhǎng}。",
+        "{我|wǒ}{被|bèi}{雨|yǔ}{淋|lín}{湿|shī}{了|le}。",
+        "{蛋糕|dàngāo}{被|bèi}{吃|chī}{光|guāng}{了|le}。",
+        "{他|tā}{被|bèi}{车|chē}{撞|zhuàng}{了|le}。",
+        "{衣服|yīfu}{被|bèi}{风|fēng}{吹|chuī}{走|zǒu}{了|le}。"
+      ],
+      "groups": [
+        "got chosen as class monitor",
+        "got soaked by the rain",
+        "got hit by a car",
+        "all eaten up",
+        "got blown away"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "01324"
+      ],
+      "explanation": "被 + doer + verb + result: the result tells you what happened.",
+      "notes": [
+        "Good news with 被 — sounds formal.",
+        "淋湿 = soaked.",
+        "吃光 = eaten up.",
+        "被车撞了.",
+        "吹走 = blown away."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b2_bad",
+      "kind": "tiles",
+      "prompt": "Build it: 'I got soaked by the rain today.'",
+      "items": [
+        "{雨|yǔ}",
+        "{被|bèi}",
+        "{今天|jīntiān}",
+        "{我|wǒ}",
+        "{淋|lín}{湿|shī}{了|le}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "32104",
+        "23104"
+      ],
+      "explanation": "我今天**被雨淋湿了**。",
+      "notes": [],
+      "translation": "I got soaked by the rain today."
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "id": "zh-dd-babei-1",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "把 vs 被 Step 1 · 把: Doing Something to a Thing",
+  "description": "我把作业做完了 — the 把 sentence grabs a thing and says what you did to it. The rule that trips everyone up: the verb needs a result.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "b1_shape",
+      "title": "doer + 把 + thing + verb …",
+      "summary": "把 brings the object forward: 我把作业做完了 = I finished the homework.",
+      "body": "- 我**把**作业做完了。 I finished my homework.\n- 他**把**杯子打破了。 He broke the cup.\n- 请**把**门关上。 Please close the door.\n\nThe thing must be **specific** (那本书, 我的手机), not 'a book'.\n\n| | pattern | the subject … | feeling |\n|---|---|---|---|\n| **把** | doer + 把 + thing + verb + result | **does** something to the thing | what you did to it |\n| **被** | thing + 被 + (doer) + verb + result | **receives** the action | often bad luck: got …ed |\n\n**Both** need something after the verb: ~~我把饭吃~~ → 我把饭吃**完了** · ~~杯子被打~~ → 杯子被打**破了**.\n**没 / 不 / 想 / 要** go **before** 把 / 被: 我**没**把作业做完 · 他**没**被抓住.",
+      "examples": [
+        [
+          "{我|wǒ}{已经|yǐjīng}{把|bǎ}{作业|zuòyè}{做|zuò}{完|wán}{了|le}。",
+          "I've already finished my homework."
+        ]
+      ]
+    },
+    {
+      "id": "b1_result",
+      "title": "… + a result: never a bare verb",
+      "summary": "After the verb comes what happened to the thing: 完, 好, 坏, 上, 在 + place, 给 + person, 成 …",
+      "body": "- ~~我把饭吃~~ ✘ → 我把饭**吃完了** ✔\n- ~~你把书放~~ ✘ → 你把书**放在桌子上** ✔\n- 把信**寄给**妈妈 · 把中文**翻译成**英文\n\n| | pattern | the subject … | feeling |\n|---|---|---|---|\n| **把** | doer + 把 + thing + verb + result | **does** something to the thing | what you did to it |\n| **被** | thing + 被 + (doer) + verb + result | **receives** the action | often bad luck: got …ed |\n\n**Both** need something after the verb: ~~我把饭吃~~ → 我把饭吃**完了** · ~~杯子被打~~ → 杯子被打**破了**.\n**没 / 不 / 想 / 要** go **before** 把 / 被: 我**没**把作业做完 · 他**没**被抓住.",
+      "examples": [
+        [
+          "{请|qǐng}{把|bǎ}{书|shū}{放|fàng}{在|zài}{桌子|zhuōzi}{上|shang}。",
+          "Please put the book on the table."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "b1_shape",
+      "kind": "tiles",
+      "prompt": "Build it: 'I've already finished my homework.'",
+      "items": [
+        "{已经|yǐjīng}",
+        "{作业|zuòyè}",
+        "{我|wǒ}",
+        "{把|bǎ}",
+        "{做|zuò}{完|wán}{了|le}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "20314"
+      ],
+      "explanation": "我已经**把作业做完了**。 doer + 把 + thing + verb + result.",
+      "notes": [],
+      "translation": "I've already finished my homework."
+    },
+    {
+      "point": "b1_result",
+      "kind": "sort",
+      "prompt": "Complete 把 sentence, or is something missing?",
+      "items": [
+        "{请|qǐng}{把|bǎ}{门|mén}{关上|guānshang}。",
+        "{请|qǐng}{把|bǎ}{窗户|chuānghu}{打开|dǎkāi}。",
+        "{我|wǒ}{把|bǎ}{饭|fàn}{吃|chī}。",
+        "{他|tā}{把|bǎ}{钱包|qiánbāo}{丢|diū}{了|le}。",
+        "{我|wǒ}{把|bǎ}{饭|fàn}{吃|chī}{完|wán}{了|le}。",
+        "{你|nǐ}{把|bǎ}{书|shū}{放|fàng}。"
+      ],
+      "groups": [
+        "✔ Complete",
+        "✘ Something's missing"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "001001"
+      ],
+      "explanation": "把 sentences need **something after the verb**: a result, a place, a person, 了 …",
+      "notes": [
+        "关 + 上: result. ✔",
+        "打 + 开. ✔",
+        "Bare verb: what happened to the food? → 吃完了.",
+        "丢了: it's gone. ✔",
+        "Verb + result (完了). ✔",
+        "Put it **where**? → 放在桌子上."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b1_shape",
+      "prompt": "In 「{他|tā}{把|bǎ}{杯子|bēizi}{打|dǎ}{破|pò}{了|le}。」, who broke what?",
+      "options": [
+        "He almost broke the cup.",
+        "The cup broke him.",
+        "Someone broke his cup.",
+        "He broke the cup."
+      ],
+      "answer": 3,
+      "explanation": "**Doer** + 把 + **thing** + verb + result.",
+      "notes": [
+        "Nothing says 'almost' — 差点 would.",
+        "The doer comes before 把, the thing after.",
+        "That would be 他的杯子被打破了.",
+        ""
+      ],
+      "translation": "He broke the cup."
+    },
+    {
+      "point": "b1_result",
+      "kind": "multi",
+      "prompt": "Which endings complete 「{请|qǐng}{把|bǎ}{这些|zhèxiē}{菜|cài}……」? Select all.",
+      "options": [
+        "{喜欢|xǐhuan}",
+        "{吃|chī}",
+        "{吃|chī}{完|wán}",
+        "{放|fàng}{在|zài}{桌子|zhuōzi}{上|shang}",
+        "{洗|xǐ}{干净|gānjìng}",
+        "{好吃|hǎochī}"
+      ],
+      "answer": 0,
+      "accept": [
+        "234"
+      ],
+      "explanation": "把 + thing + **verb + result**.",
+      "notes": [
+        "Feelings (喜欢, 知道) don't go with 把.",
+        "A bare verb isn't enough after 把.",
+        "Eat them up — a result. ✔",
+        "Put them on the table — a place. ✔",
+        "Wash them clean — a result. ✔",
+        "Tasty is a description, not something you do to them."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b1_result",
+      "kind": "match",
+      "prompt": "The part after the verb carries the meaning. Match each 把 phrase.",
+      "items": [
+        "{把|bǎ}{信|xìn}{寄|jì}{给|gěi}{妈妈|māma}",
+        "{把|bǎ}{门|mén}{打开|dǎkāi}",
+        "{把|bǎ}{门|mén}{关上|guānshang}",
+        "{把|bǎ}{中文|Zhōngwén}{翻译|fānyì}{成|chéng}{英文|Yīngwén}",
+        "{把|bǎ}{书|shū}{放|fàng}{在|zài}{桌子|zhuōzi}{上|shang}"
+      ],
+      "groups": [
+        "send it to Mum",
+        "turn it into English",
+        "open it",
+        "close it",
+        "put it on the table"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "02314"
+      ],
+      "explanation": "Results (上, 开), places (在…), receivers (给…), changes (成…) — the heart of a 把 sentence.",
+      "notes": [
+        "给 + person.",
+        "打 + 开 = open.",
+        "关 + 上 = shut.",
+        "成 = into.",
+        "在 + place."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "b1_result",
+      "kind": "tiles",
+      "prompt": "Build it: 'Please put the book on the table.'",
+      "items": [
+        "{请|qǐng}",
+        "{放|fàng}",
+        "{在|zài}",
+        "{桌子|zhuōzi}{上|shang}",
+        "{书|shū}",
+        "{把|bǎ}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "054123"
+      ],
+      "explanation": "请**把书放在桌子上**。 把 + thing + verb + 在 + place.",
+      "notes": [],
+      "translation": "Please put the book on the table."
+    },
+    {
+      "point": "b1_shape",
+      "prompt": "「{我|wǒ}{吃|chī}{了|le}{你|nǐ}{的|de}{蛋糕|dàngāo}。」 vs 「{我|wǒ}{把|bǎ}{你|nǐ}{的|de}{蛋糕|dàngāo}{吃|chī}{了|le}。」 — the difference?",
+      "options": [
+        "Same facts; the 把 version focuses on what happened to **your cake** (a confession!)",
+        "The 把 version is passive",
+        "The 把 version is about the future",
+        "The first one is wrong"
+      ],
+      "answer": 0,
+      "explanation": "把 puts the **thing** in the spotlight: here's what I did to it.",
+      "notes": [
+        "",
+        "Passive is 被: 蛋糕被我吃了.",
+        "Both are done — 了.",
+        "Both are fine Chinese."
+      ],
+      "translation": "I ate your cake."
+    },
+    {
+      "point": "b1_shape",
+      "kind": "multi",
+      "prompt": "Which 把 sentences are correct? Select all.",
+      "options": [
+        "{我|wǒ}{把|bǎ}{一|yì}{本|běn}{书|shū}{看|kàn}{完|wán}{了|le}。",
+        "{把|bǎ}{我|wǒ}{作业|zuòyè}{做|zuò}{完|wán}{了|le}。",
+        "{他|tā}{把|bǎ}{车|chē}{开|kāi}{走|zǒu}{了|le}。",
+        "{你|nǐ}{把|bǎ}{窗户|chuānghu}{关上|guānshang}{吧|ba}。",
+        "{我|wǒ}{把|bǎ}{手机|shǒujī}{忘|wàng}{在|zài}{家里|jiāli}{了|le}。"
+      ],
+      "answer": 0,
+      "accept": [
+        "234"
+      ],
+      "explanation": "Doer + 把 + **specific** thing + verb + result.",
+      "notes": [
+        "把 needs a **specific** thing: 把**那本**书看完了.",
+        "The doer comes first: **我**把作业做完了.",
+        "✔ drove it away.",
+        "✔ close the window.",
+        "✔ left it at home."
+      ],
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "zh-dd-de-5",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "的 / 地 / 得 Step 5 · Boss Level: 小林's Sports Day",
+  "description": "A race, a tall rival and every de there is — including the 得 that's read dé and the one that's read děi.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "d5_read",
+      "title": "Reading de in a story",
+      "summary": "For each de: what's on its left, what's on its right?",
+      "body": "Two looks per de.\n\n| | comes before … | pattern | example |\n|---|---|---|---|\n| **的** | a **noun** | describer + 的 + noun | 漂亮**的**衣服 · 我买**的**书 |\n| **地** | a **verb** (how it's done) | describer + 地 + verb | 慢慢**地**走 · 认真**地**学习 |\n| **得** | the **result** (after the verb) | verb / adj. + 得 + how | 跑**得**很快 · 累**得**不想动 |\n\n**The trick:** look **right** — a noun next → 的, a verb next → 地. Look **left** — a verb or adjective just before → 得. (All three are read *de*.)",
+      "examples": [
+        [
+          "{他|tā}{飞快|fēikuài}{地|de}{跑|pǎo}{了|le}{出去|chuqu}。",
+          "He shot off."
+        ]
+      ]
+    },
+    {
+      "id": "d5_mixed",
+      "title": "Final mixed challenge",
+      "summary": "All three de — and 得 dé / děi.",
+      "body": "得 *dé* = get (得了第二名); 得 *děi* = must (我得练习).\n\n| | comes before … | pattern | example |\n|---|---|---|---|\n| **的** | a **noun** | describer + 的 + noun | 漂亮**的**衣服 · 我买**的**书 |\n| **地** | a **verb** (how it's done) | describer + 地 + verb | 慢慢**地**走 · 认真**地**学习 |\n| **得** | the **result** (after the verb) | verb / adj. + 得 + how | 跑**得**很快 · 累**得**不想动 |\n\n**The trick:** look **right** — a noun next → 的, a verb next → 地. Look **left** — a verb or adjective just before → 得. (All three are read *de*.)",
+      "examples": [
+        [
+          "{明年|míngnián}{我|wǒ}{得|děi}{多|duō}{练习|liànxí}。",
+          "Next year I have to train more."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "d5_read",
+      "prompt": "{今天|jīntiān}{学校|xuéxiào}{开|kāi}{运动会|yùndònghuì}。{小林|Xiǎo Lín}{是|shì}{我们|wǒmen}{班|bān}{跑|pǎo}{得|de}{最|zuì}{快|kuài}{的|de}{人|rén}。{比赛|bǐsài}{开始|kāishǐ}{了|le}，{他|tā}{飞快|fēikuài}{地|de}{跑|pǎo}{了|le}{出去|chuqu}，{一直|yìzhí}{跑|pǎo}{在|zài}{第一|dì yī}。{可是|kěshì}{最后|zuìhòu}{十|shí}{米|mǐ}，{他|tā}{累|lèi}{得|de}{跑|pǎo}{不|bu}{动|dòng}{了|le}，{一个|yí ge}{高高|gāogāo}{的|de}{男生|nánshēng}{慢慢|mànmàn}{地|de}{超过|chāoguò}{了|le}{他|tā}。{小林|Xiǎo Lín}{得|dé}{了|le}{第二|dì èr}{名|míng}，{可是|kěshì}{他|tā}{笑|xiào}{得|de}{很|hěn}{开心|kāixīn}：“{明年|míngnián}{我|wǒ}{得|děi}{多|duō}{练习|liànxí}！”\n\n★ {小林|Xiǎo Lín}{得|dé}{了|le}{第一|dì yī}{名|míng}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "他**得**(dé)了第二名 = he got second place.",
+      "notes": [
+        "得了第二名 — second.",
+        ""
+      ],
+      "translation": "Today was sports day. Xiao Lin is the fastest runner in our class. When the race began he shot off and led all the way. But in the last ten metres he was too exhausted to run, and a tall boy slowly overtook him. Xiao Lin came second, but he laughed happily: 'Next year I have to train more!' ★ Xiao Lin came first.",
+      "fixed_order": true
+    },
+    {
+      "point": "d5_read",
+      "prompt": "{今天|jīntiān}{学校|xuéxiào}{开|kāi}{运动会|yùndònghuì}。{小林|Xiǎo Lín}{是|shì}{我们|wǒmen}{班|bān}{跑|pǎo}{得|de}{最|zuì}{快|kuài}{的|de}{人|rén}。{比赛|bǐsài}{开始|kāishǐ}{了|le}，{他|tā}{飞快|fēikuài}{地|de}{跑|pǎo}{了|le}{出去|chuqu}，{一直|yìzhí}{跑|pǎo}{在|zài}{第一|dì yī}。{可是|kěshì}{最后|zuìhòu}{十|shí}{米|mǐ}，{他|tā}{累|lèi}{得|de}{跑|pǎo}{不|bu}{动|dòng}{了|le}，{一个|yí ge}{高高|gāogāo}{的|de}{男生|nánshēng}{慢慢|mànmàn}{地|de}{超过|chāoguò}{了|le}{他|tā}。{小林|Xiǎo Lín}{得|dé}{了|le}{第二|dì èr}{名|míng}，{可是|kěshì}{他|tā}{笑|xiào}{得|de}{很|hěn}{开心|kāixīn}：“{明年|míngnián}{我|wǒ}{得|děi}{多|duō}{练习|liànxí}！”\n\n★ {最后|zuìhòu}{十|shí}{米|mǐ}，{小林|Xiǎo Lín}{太|tài}{累|lèi}{了|le}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "累**得**跑不动 = so tired he couldn't run.",
+      "notes": [
+        "",
+        "累得跑不动了 = too tired to run."
+      ],
+      "translation": "Today was sports day. Xiao Lin is the fastest runner in our class. When the race began he shot off and led all the way. But in the last ten metres he was too exhausted to run, and a tall boy slowly overtook him. Xiao Lin came second, but he laughed happily: 'Next year I have to train more!' ★ In the last ten metres Xiao Lin was too tired.",
+      "fixed_order": true
+    },
+    {
+      "point": "d5_read",
+      "prompt": "{今天|jīntiān}{学校|xuéxiào}{开|kāi}{运动会|yùndònghuì}。{小林|Xiǎo Lín}{是|shì}{我们|wǒmen}{班|bān}{跑|pǎo}{得|de}{最|zuì}{快|kuài}{的|de}{人|rén}。{比赛|bǐsài}{开始|kāishǐ}{了|le}，{他|tā}{飞快|fēikuài}{地|de}{跑|pǎo}{了|le}{出去|chuqu}，{一直|yìzhí}{跑|pǎo}{在|zài}{第一|dì yī}。{可是|kěshì}{最后|zuìhòu}{十|shí}{米|mǐ}，{他|tā}{累|lèi}{得|de}{跑|pǎo}{不|bu}{动|dòng}{了|le}，{一个|yí ge}{高高|gāogāo}{的|de}{男生|nánshēng}{慢慢|mànmàn}{地|de}{超过|chāoguò}{了|le}{他|tā}。{小林|Xiǎo Lín}{得|dé}{了|le}{第二|dì èr}{名|míng}，{可是|kěshì}{他|tā}{笑|xiào}{得|de}{很|hěn}{开心|kāixīn}：“{明年|míngnián}{我|wǒ}{得|děi}{多|duō}{练习|liànxí}！”\n\n★ {那个|nàge}{高高|gāogāo}{的|de}{男生|nánshēng}{跑|pǎo}{得|de}{很|hěn}{快|kuài}{地|de}{超过|chāoguò}{了|le}{小林|Xiǎo Lín}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "慢慢**地**超过了他 — slowly.",
+      "notes": [
+        "He overtook him **slowly** — 慢慢地超过.",
+        ""
+      ],
+      "translation": "Today was sports day. Xiao Lin is the fastest runner in our class. When the race began he shot off and led all the way. But in the last ten metres he was too exhausted to run, and a tall boy slowly overtook him. Xiao Lin came second, but he laughed happily: 'Next year I have to train more!' ★ The tall boy overtook Xiao Lin very fast.",
+      "fixed_order": true
+    },
+    {
+      "point": "d5_read",
+      "prompt": "{今天|jīntiān}{学校|xuéxiào}{开|kāi}{运动会|yùndònghuì}。{小林|Xiǎo Lín}{是|shì}{我们|wǒmen}{班|bān}{跑|pǎo}{得|de}{最|zuì}{快|kuài}{的|de}{人|rén}。{比赛|bǐsài}{开始|kāishǐ}{了|le}，{他|tā}{飞快|fēikuài}{地|de}{跑|pǎo}{了|le}{出去|chuqu}，{一直|yìzhí}{跑|pǎo}{在|zài}{第一|dì yī}。{可是|kěshì}{最后|zuìhòu}{十|shí}{米|mǐ}，{他|tā}{累|lèi}{得|de}{跑|pǎo}{不|bu}{动|dòng}{了|le}，{一个|yí ge}{高高|gāogāo}{的|de}{男生|nánshēng}{慢慢|mànmàn}{地|de}{超过|chāoguò}{了|le}{他|tā}。{小林|Xiǎo Lín}{得|dé}{了|le}{第二|dì èr}{名|míng}，{可是|kěshì}{他|tā}{笑|xiào}{得|de}{很|hěn}{开心|kāixīn}：“{明年|míngnián}{我|wǒ}{得|děi}{多|duō}{练习|liànxí}！”\n\n★ {小林|Xiǎo Lín}{明年|míngnián}{想|xiǎng}{做|zuò}{什么|shénme}？",
+      "options": [
+        "{多|duō}{练习|liànxí}",
+        "{得|dé}{第二|dì èr}{名|míng}",
+        "{不|bú}{跑|pǎo}{了|le}",
+        "{跟|gēn}{高|gāo}{男生|nánshēng}{比赛|bǐsài}"
+      ],
+      "answer": 0,
+      "explanation": "我**得**(děi)多练习 = I have to train more.",
+      "notes": [
+        "",
+        "That's this year.",
+        "He laughed and plans to train more.",
+        "Not mentioned."
+      ],
+      "translation": "Today was sports day. Xiao Lin is the fastest runner in our class. When the race began he shot off and led all the way. But in the last ten metres he was too exhausted to run, and a tall boy slowly overtook him. Xiao Lin came second, but he laughed happily: 'Next year I have to train more!' ★ What does Xiao Lin want to do next year?"
+    },
+    {
+      "point": "d5_mixed",
+      "kind": "sort",
+      "prompt": "Phrases from the story: which de?",
+      "items": [
+        "{慢慢|mànmàn}＿{超过|chāoguò}{了|le}{他|tā}",
+        "{笑|xiào}＿{很|hěn}{开心|kāixīn}",
+        "{飞快|fēikuài}＿{跑|pǎo}{了|le}{出去|chuqu}",
+        "{跑|pǎo}{得|de}{最|zuì}{快|kuài}＿{人|rén}",
+        "{高高|gāogāo}＿{男生|nánshēng}",
+        "{累|lèi}＿{跑|pǎo}{不|bu}{动|dòng}{了|le}"
+      ],
+      "groups": [
+        "{的|de}",
+        "{地|de}",
+        "{得|de}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "121002"
+      ],
+      "explanation": "Every de in the story follows the left/right rule.",
+      "notes": [
+        "超过 is a verb → 地.",
+        "After 笑 → 得.",
+        "跑 is a verb → 地.",
+        "人 is a noun → 的.",
+        "男生 is a noun → 的.",
+        "After 累, a result → 得."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d5_mixed",
+      "kind": "match",
+      "prompt": "得 has three readings. How is 得 read here?",
+      "items": [
+        "{小林|Xiǎo Lín}{得|dé}{了|le}{第二|dì èr}{名|míng}。",
+        "{你|nǐ}{得|děi}{早|zǎo}{点儿|diǎnr}{睡|shuì}。",
+        "{明年|míngnián}{我|wǒ}{得|děi}{多|duō}{练习|liànxí}。",
+        "{他|tā}{跑|pǎo}{得|de}{最|zuì}{快|kuài}。",
+        "{他|tā}{笑|xiào}{得|de}{很|hěn}{开心|kāixīn}。"
+      ],
+      "groups": [
+        "dé — to get, win",
+        "de—afteraverb(how/result)",
+        "děi — must, have to"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "02211"
+      ],
+      "explanation": "After a verb → **de**; 得了 + thing → **dé**; before a verb → **děi**.",
+      "notes": [
+        "得了 + a prize/place → dé, 'got'.",
+        "Before a verb → děi.",
+        "得 before a verb → děi, 'must'.",
+        "After the verb → de.",
+        "After the verb → de."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d5_mixed",
+      "kind": "tiles",
+      "prompt": "Build it: 'He laughed happily.' (with 得)",
+      "items": [
+        "{很|hěn}",
+        "{他|tā}",
+        "{开心|kāixīn}",
+        "{笑|xiào}",
+        "{得|de}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "13402"
+      ],
+      "explanation": "他**笑得**很开心。",
+      "notes": [],
+      "translation": "He laughed happily."
+    },
+    {
+      "point": "d5_mixed",
+      "prompt": "Which rule is right?",
+      "options": [
+        "的 + noun, 地 + verb, verb + 得",
+        "的 + verb, 地 + noun, 得 + verb",
+        "All three are the same — just write 的",
+        "地 after the verb, 得 before it"
+      ],
+      "answer": 0,
+      "explanation": "的 + **noun** · 地 + **verb** · **verb** + 得.",
+      "notes": [
+        "",
+        "Swapped.",
+        "Casual writing does that, but they do different jobs.",
+        "The other way round."
+      ],
+      "translation": "",
+      "fixed_order": true
+    }
+  ]
+}

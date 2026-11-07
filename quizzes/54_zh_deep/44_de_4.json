@@ -1,0 +1,199 @@
+{
+  "id": "zh-dd-de-4",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "的 / 地 / 得 Step 4 · The Big Sort and Fix-It",
+  "description": "Long sorting rounds, then real mistakes to catch — the kind even native speakers make in texts.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "d4_sort",
+      "title": "Sorting at speed",
+      "summary": "Two looks per blank: right (noun/verb?) and left (verb before?).",
+      "body": "Practise until it's automatic.\n\n| | comes before … | pattern | example |\n|---|---|---|---|\n| **的** | a **noun** | describer + 的 + noun | 漂亮**的**衣服 · 我买**的**书 |\n| **地** | a **verb** (how it's done) | describer + 地 + verb | 慢慢**地**走 · 认真**地**学习 |\n| **得** | the **result** (after the verb) | verb / adj. + 得 + how | 跑**得**很快 · 累**得**不想动 |\n\n**The trick:** look **right** — a noun next → 的, a verb next → 地. Look **left** — a verb or adjective just before → 得. (All three are read *de*.)",
+      "examples": [
+        [
+          "{他|tā}{飞快|fēikuài}{地|de}{跑|pǎo}{了|le}{出去|chuqu}。",
+          "He dashed out."
+        ]
+      ]
+    },
+    {
+      "id": "d4_fix",
+      "title": "Common mistakes",
+      "summary": "得 right after an object, 的 before a verb, 地 before a noun.",
+      "body": "- ~~他说中文得很好~~ → 他说中文**说得**很好\n- ~~慢慢的走~~ → 慢慢**地**走\n- ~~漂亮地衣服~~ → 漂亮**的**衣服\n\n| | comes before … | pattern | example |\n|---|---|---|---|\n| **的** | a **noun** | describer + 的 + noun | 漂亮**的**衣服 · 我买**的**书 |\n| **地** | a **verb** (how it's done) | describer + 地 + verb | 慢慢**地**走 · 认真**地**学习 |\n| **得** | the **result** (after the verb) | verb / adj. + 得 + how | 跑**得**很快 · 累**得**不想动 |\n\n**The trick:** look **right** — a noun next → 的, a verb next → 地. Look **left** — a verb or adjective just before → 得. (All three are read *de*.)",
+      "examples": [
+        [
+          "{他|tā}{说|shuō}{中文|Zhōngwén}{说|shuō}{得|de}{很|hěn}{好|hǎo}。",
+          "He speaks Chinese very well."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "d4_sort",
+      "kind": "sort",
+      "prompt": "Big sort, round 1: 的, 地 or 得?",
+      "items": [
+        "{热情|rèqíng}＿{欢迎|huānyíng}{我们|wǒmen}",
+        "{我|wǒ}{新|xīn}{买|mǎi}＿{手机|shǒujī}",
+        "{吃|chī}＿{太|tài}{多|duō}{了|le}",
+        "{安静|ānjìng}＿{坐|zuò}{着|zhe}",
+        "{北京|Běijīng}＿{冬天|dōngtiān}",
+        "{冷|lěng}＿{发抖|fādǒu}",
+        "{干干净净|gāngānjìngjìng}＿{房间|fángjiān}"
+      ],
+      "groups": [
+        "{的|de}",
+        "{地|de}",
+        "{得|de}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "1021020"
+      ],
+      "explanation": "Noun next → 的 · verb next → 地 · verb/adjective before → 得.",
+      "notes": [
+        "欢迎 is a verb → 地.",
+        "手机 is a noun → 的.",
+        "After 吃 → 得.",
+        "坐 is a verb → 地.",
+        "冬天 is a noun → 的.",
+        "After the adjective, a result → 得.",
+        "房间 is a noun → 的."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d4_sort",
+      "kind": "sort",
+      "prompt": "Big sort, round 2: 的, 地 or 得?",
+      "items": [
+        "{他|tā}{篮球|lánqiú}{打|dǎ}＿{特别|tèbié}{好|hǎo}。",
+        "{我|wǒ}{最|zuì}{喜欢|xǐhuan}＿{季节|jìjié}{是|shì}{秋天|qiūtiān}。",
+        "{她|tā}{激动|jīdòng}＿{哭|kū}{了|le}。",
+        "{他|tā}{激动|jīdòng}＿{说|shuō}{不|bu}{出|chū}{话|huà}{来|lai}。",
+        "{请|qǐng}{大家|dàjiā}{安静|ānjìng}＿{听|tīng}。",
+        "{这|zhè}{是|shì}{一个|yí ge}{让|ràng}{人|rén}{激动|jīdòng}＿{消息|xiāoxi}。"
+      ],
+      "groups": [
+        "{的|de}",
+        "{地|de}",
+        "{得|de}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "201210"
+      ],
+      "explanation": "激动 three times — three different de, decided by its neighbours.",
+      "notes": [
+        "After 打 → 得.",
+        "季节 is a noun: the season I like most → 的.",
+        "哭 is a verb → 地.",
+        "So moved he couldn't speak: adjective + 得 + result.",
+        "听 is a verb → 地.",
+        "消息 is a noun → 的."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d4_fix",
+      "kind": "multi",
+      "prompt": "Which sentences have a mistake? Select all of them.",
+      "options": [
+        "{他|tā}{说|shuō}{中文|Zhōngwén}{得|de}{很|hěn}{好|hǎo}。",
+        "{我|wǒ}{哥哥|gēge}{跑|pǎo}{得|de}{比|bǐ}{我|wǒ}{快|kuài}。",
+        "{这|zhè}{是|shì}{我|wǒ}{姐姐|jiějie}{做|zuò}{的|de}{蛋糕|dàngāo}。",
+        "{这|zhè}{是|shì}{一|yí}{件|jiàn}{漂亮|piàoliang}{地|de}{衣服|yīfu}。",
+        "{她|tā}{唱|chàng}{地|de}{很|hěn}{好听|hǎotīng}。",
+        "{他|tā}{慢慢|mànmàn}{地|de}{走|zǒu}{了|le}{过来|guòlai}。"
+      ],
+      "answer": 0,
+      "accept": [
+        "034"
+      ],
+      "explanation": "Check each de against its neighbours.",
+      "notes": [
+        "得 can't follow the object: 说中文**说得**很好.",
+        "✔ verb + 得 + comparison.",
+        "✔ 的 + noun.",
+        "衣服 is a noun → 漂亮**的**衣服.",
+        "After the verb → 唱**得**很好听.",
+        "✔ 地 + verb."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d4_fix",
+      "kind": "multi",
+      "prompt": "Which sentences are **correct**? Select all of them.",
+      "options": [
+        "{他|tā}{唱|chàng}{歌|gē}{得|de}{好|hǎo}。",
+        "{你|nǐ}{汉字|Hànzì}{写|xiě}{得|de}{真|zhēn}{好看|hǎokàn}！",
+        "{他|tā}{生气|shēngqì}{地|de}{走|zǒu}{了|le}。",
+        "{她|tā}{是|shì}{一个|yí ge}{很|hěn}{安静|ānjìng}{地|de}{人|rén}。",
+        "{他|tā}{跑|pǎo}{得|de}{不|bù}{快|kuài}{了|le}{很|hěn}。",
+        "{我们|wǒmen}{玩|wán}{得|de}{很|hěn}{开心|kāixīn}。"
+      ],
+      "answer": 0,
+      "accept": [
+        "125"
+      ],
+      "explanation": "的 + noun · 地 + verb · verb + 得.",
+      "notes": [
+        "Copy the verb: 唱歌**唱得**好.",
+        "✔ object first, then verb + 得.",
+        "✔ 地 + verb.",
+        "人 is a noun → 安静**的**人.",
+        "Scrambled: 他跑得不快 or 他跑得很快.",
+        "✔ verb + 得."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "d4_fix",
+      "prompt": "Fix it: 「{他|tā}{说|shuō}{中文|Zhōngwén}{得|de}{很|hěn}{好|hǎo}。」 Which correction is right?",
+      "options": [
+        "{他|tā}{说|shuō}{得|de}{中文|Zhōngwén}{很|hěn}{好|hǎo}。",
+        "{他|tā}{说|shuō}{中文|Zhōngwén}{的|de}{很|hěn}{好|hǎo}。",
+        "{他|tā}{说|shuō}{中文|Zhōngwén}{地|de}{很|hěn}{好|hǎo}。",
+        "{他|tā}{说|shuō}{中文|Zhōngwén}{说|shuō}{得|de}{很|hěn}{好|hǎo}。"
+      ],
+      "answer": 3,
+      "explanation": "Copy the verb: 说中文**说得**很好.",
+      "notes": [
+        "Nothing can stand between 得 and the comment.",
+        "的 needs a noun after it.",
+        "地 needs a verb after it.",
+        ""
+      ],
+      "translation": "He speaks Chinese very well."
+    },
+    {
+      "point": "d4_sort",
+      "kind": "tiles",
+      "prompt": "Build it: 'The teacher patiently explained a very hard question.'",
+      "items": [
+        "{耐心|nàixīn}",
+        "{老师|lǎoshī}",
+        "{地|de}",
+        "{讲|jiǎng}{了|le}",
+        "{一个|yí ge}",
+        "{很|hěn}{难|nán}",
+        "{的|de}{问题|wèntí}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "1023456"
+      ],
+      "explanation": "老师**耐心地**讲了一个**很难的问题**。 地 + verb, 的 + noun.",
+      "notes": [],
+      "translation": "The teacher patiently explained a very hard question."
+    }
+  ]
+}

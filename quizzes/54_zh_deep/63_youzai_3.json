@@ -1,0 +1,205 @@
+{
+  "id": "zh-dd-youzai-3",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "又 vs 再 Step 3 · Where 还 Comes In, and the Future 又",
+  "description": "In questions and with 想 / 要 / 会, future 'again' is usually 还. And 又 can look forward after all — when the repeat is certain: 明天又是星期一了.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "yz3_hai",
+      "title": "还 for future 'again' in questions and wishes",
+      "summary": "你明天**还**来吗？ 我**还**想去。 还 + 想 + 再 is common: 我还想再吃一碗.",
+      "body": "- 你明天**还**来吗？ Are you coming again tomorrow?\n- 我以后**还**会来的。 I'll come again.\n- 我**还想再**吃一碗。 I'd like one more bowl.\n\n| | 'again' when? | example |\n|---|---|---|\n| **又** | it **already happened** again (often: not again!) | 他昨天**又**迟到了。 你怎么**又**来了？ |\n| **再** | it **hasn't happened yet**: plans, requests | 请**再**说一遍。 欢迎**再**来！ |\n| **还** | future again in **questions** and with 想 / 要 / 会 | 你明天**还**来吗？ 我**还**想去。 |\n| **再** = then | first … then … / later | 吃了饭**再**走。 我们明天**再**说。 |\n| **又 … 又 …** | both … and … | **又**便宜**又**好吃 |\n\n**Exception:** 又 for a future that's certain to repeat: 明天**又**是星期一了。",
+      "examples": [
+        [
+          "{我|wǒ}{还|hái}{想|xiǎng}{再|zài}{去|qù}{一|yí}{次|cì}。",
+          "I'd like to go once more."
+        ]
+      ]
+    },
+    {
+      "id": "yz3_trap",
+      "title": "Future 又: when the repeat is certain",
+      "summary": "Calendars, schedules, seasons: 明天又是星期一了, 下个月又要考试了.",
+      "body": "- 明天**又**是星期一了！ (it will be, no doubt)\n- 下个月**又**要考试了。\n- But a plan or request is still 再: 明天**再**来.\n\n| | 'again' when? | example |\n|---|---|---|\n| **又** | it **already happened** again (often: not again!) | 他昨天**又**迟到了。 你怎么**又**来了？ |\n| **再** | it **hasn't happened yet**: plans, requests | 请**再**说一遍。 欢迎**再**来！ |\n| **还** | future again in **questions** and with 想 / 要 / 会 | 你明天**还**来吗？ 我**还**想去。 |\n| **再** = then | first … then … / later | 吃了饭**再**走。 我们明天**再**说。 |\n| **又 … 又 …** | both … and … | **又**便宜**又**好吃 |\n\n**Exception:** 又 for a future that's certain to repeat: 明天**又**是星期一了。",
+      "examples": [
+        [
+          "{明天|míngtiān}{又|yòu}{是|shì}{星期一|xīngqīyī}{了|le}。",
+          "Tomorrow's Monday again."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "yz3_hai",
+      "kind": "sort",
+      "prompt": "Future 'again': 再 or 还?",
+      "items": [
+        "{你|nǐ}{明天|míngtiān}＿{来|lái}{吗|ma}？",
+        "{请|qǐng}＿{说|shuō}{一|yí}{遍|biàn}。",
+        "{你|nǐ}{以后|yǐhòu}＿{会|huì}{来|lái}{中国|Zhōngguó}{吗|ma}？",
+        "{我|wǒ}＿{想|xiǎng}{去|qù}{一|yí}{次|cì}。",
+        "{下次|xiàcì}＿{见|jiàn}！",
+        "{明天|míngtiān}＿{来|lái}{吧|ba}。"
+      ],
+      "groups": [
+        "{再|zài}",
+        "{还|hái}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "101100"
+      ],
+      "explanation": "Requests and suggestions → **再**; questions and 想 / 要 / 会 → **还**.",
+      "notes": [
+        "A question about the future → 还.",
+        "A request → 再.",
+        "还 + 会, in a question.",
+        "还 + 想.",
+        "再见 → 再.",
+        "A suggestion → 再."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz3_trap",
+      "prompt": "「{明天|míngtiān}{又|yòu}{是|shì}{星期一|xīngqīyī}{了|le}！」 Why 又 — isn't tomorrow the future?",
+      "options": [
+        "It's a mistake — it should be 再.",
+        "The repeat is certain (the calendar), so 又 works for the future too.",
+        "又 means 'tomorrow'.",
+        "Only because of the 了."
+      ],
+      "answer": 1,
+      "explanation": "Certain, regular repeats → **又** even for the future.",
+      "notes": [
+        "再是星期一 isn't Chinese — 再 is for plans and requests.",
+        "",
+        "明天 means tomorrow.",
+        "了 helps, but the key is certainty."
+      ],
+      "translation": "Tomorrow's Monday again!"
+    },
+    {
+      "point": "yz3_trap",
+      "kind": "multi",
+      "prompt": "Which future sentences use 又 correctly? Select all.",
+      "options": [
+        "{下个月|xià ge yuè}{又|yòu}{要|yào}{考试|kǎoshì}{了|le}。",
+        "{明天|míngtiān}{你|nǐ}{又|yòu}{来|lái}{吧|ba}。",
+        "{我|wǒ}{下次|xiàcì}{又|yòu}{去|qù}。",
+        "{快|kuài}{过年|guònián}{了|le}，{又|yòu}{要|yào}{长|zhǎng}{一|yí}{岁|suì}{了|le}。",
+        "{明天|míngtiān}{又|yòu}{是|shì}{星期一|xīngqīyī}{了|le}。"
+      ],
+      "answer": 0,
+      "accept": [
+        "034"
+      ],
+      "explanation": "Future 又 only for repeats that **will certainly** come.",
+      "notes": [
+        "Scheduled exam. ✔",
+        "A request → 再来吧.",
+        "A plan → 再去 / 还去.",
+        "New Year, another year older — certain. ✔",
+        "The calendar repeats. ✔"
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz3_hai",
+      "kind": "tiles",
+      "prompt": "Build it: 'Are you coming again tomorrow?'",
+      "items": [
+        "{来|lái}",
+        "{还|hái}",
+        "{明天|míngtiān}",
+        "{你|nǐ}",
+        "{吗|ma}？"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "32104"
+      ],
+      "explanation": "你明天**还**来吗？ Future question → 还.",
+      "notes": [],
+      "translation": "Are you coming again tomorrow?"
+    },
+    {
+      "point": "yz3_hai",
+      "prompt": "Is 「{我|wǒ}{还|hái}{想|xiǎng}{再|zài}{吃|chī}{一|yì}{碗|wǎn}。」 OK?",
+      "options": [
+        "It means I already ate twice.",
+        "It means I don't want any more.",
+        "Yes — 还想 + 再 often go together: I'd like another bowl.",
+        "No — 还 and 再 can't be in one sentence."
+      ],
+      "answer": 2,
+      "explanation": "**还想再** + verb = would like to … once more.",
+      "notes": [
+        "Nothing here is done yet.",
+        "想 = want.",
+        "",
+        "They're a common team."
+      ],
+      "translation": "I'd like another bowl."
+    },
+    {
+      "point": "yz3_hai",
+      "kind": "tiles",
+      "prompt": "Build it: 'I'd still like to go there once more.'",
+      "items": [
+        "{再|zài}",
+        "{一|yí}{次|cì}",
+        "{我|wǒ}",
+        "{还|hái}",
+        "{去|qù}",
+        "{想|xiǎng}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "235041"
+      ],
+      "explanation": "我**还想再**去一次。",
+      "notes": [],
+      "translation": "I'd still like to go there once more."
+    },
+    {
+      "point": "yz3_trap",
+      "kind": "sort",
+      "prompt": "又, 再 or 还?",
+      "items": [
+        "{我|wǒ}{以后|yǐhòu}＿{想|xiǎng}{来|lái}{这儿|zhèr}。",
+        "{请|qǐng}＿{检查|jiǎnchá}{一|yí}{遍|biàn}。",
+        "{欢迎|huānyíng}{下次|xiàcì}＿{来|lái}！",
+        "{他|tā}{上|shàng}{周|zhōu}＿{迟到|chídào}{了|le}。",
+        "{后天|hòutiān}＿{是|shì}{周末|zhōumò}{了|le}！",
+        "{你|nǐ}{下|xià}{周|zhōu}＿{来|lái}{吗|ma}？"
+      ],
+      "groups": [
+        "{又|yòu}",
+        "{再|zài}",
+        "{还|hái}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "211002"
+      ],
+      "explanation": "Past or certain → 又 · request/plan → 再 · question / 想 / 会 → 还.",
+      "notes": [
+        "还 + 想.",
+        "Request → 再.",
+        "Invitation → 再.",
+        "Past repeat → 又.",
+        "Certain calendar repeat → 又.",
+        "Future question → 还."
+      ],
+      "translation": ""
+    }
+  ]
+}

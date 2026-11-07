@@ -1,0 +1,194 @@
+{
+  "id": "zh-dd-youzai-2",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "又 vs 再 Step 2 · 再 = Again Later, 再 = Then",
+  "description": "再 has a second job: 'then, after that, later' — 吃了饭再走, 我们明天再说. And why 再见 means what it means.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "yz2_again",
+      "title": "再 for a repeat that's coming",
+      "summary": "Requests, offers and plans: 再来一次, 再等一下, 再见 (see you again).",
+      "body": "- 请**再**等一下。 Please wait a bit more.\n- 我想**再**去一次。 I'd like to go once more.\n- ⚠️ 再 + 了 don't mix: ~~我再吃了一碗~~.\n\n| | 'again' when? | example |\n|---|---|---|\n| **又** | it **already happened** again (often: not again!) | 他昨天**又**迟到了。 你怎么**又**来了？ |\n| **再** | it **hasn't happened yet**: plans, requests | 请**再**说一遍。 欢迎**再**来！ |\n| **还** | future again in **questions** and with 想 / 要 / 会 | 你明天**还**来吗？ 我**还**想去。 |\n| **再** = then | first … then … / later | 吃了饭**再**走。 我们明天**再**说。 |\n| **又 … 又 …** | both … and … | **又**便宜**又**好吃 |\n\n**Exception:** 又 for a future that's certain to repeat: 明天**又**是星期一了。",
+      "examples": [
+        [
+          "{请|qǐng}{再|zài}{等|děng}{一下|yíxià}。",
+          "Please wait a little longer."
+        ]
+      ]
+    },
+    {
+      "id": "yz2_then",
+      "title": "再 = then, after that",
+      "summary": "First X, **再** Y: the second thing waits for the first.",
+      "body": "- 吃了饭**再**走吧。 Eat first, then go.\n- 先做作业，**再**看电视。 Homework first, then TV.\n- 我们明天**再**说。 Let's talk about it tomorrow (not now).\n\n| | 'again' when? | example |\n|---|---|---|\n| **又** | it **already happened** again (often: not again!) | 他昨天**又**迟到了。 你怎么**又**来了？ |\n| **再** | it **hasn't happened yet**: plans, requests | 请**再**说一遍。 欢迎**再**来！ |\n| **还** | future again in **questions** and with 想 / 要 / 会 | 你明天**还**来吗？ 我**还**想去。 |\n| **再** = then | first … then … / later | 吃了饭**再**走。 我们明天**再**说。 |\n| **又 … 又 …** | both … and … | **又**便宜**又**好吃 |\n\n**Exception:** 又 for a future that's certain to repeat: 明天**又**是星期一了。",
+      "examples": [
+        [
+          "{你|nǐ}{吃|chī}{了|le}{饭|fàn}{再|zài}{走|zǒu}{吧|ba}。",
+          "Eat first, then go."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "yz2_then",
+      "prompt": "「{吃|chī}{了|le}{饭|fàn}{再|zài}{走|zǒu}{吧|ba}。」 means …",
+      "options": [
+        "Eat again, then go.",
+        "Eat first, then go.",
+        "Go and eat again.",
+        "You ate and then you left."
+      ],
+      "answer": 1,
+      "explanation": "First … **再** … = first …, **then** ….",
+      "notes": [
+        "This 再 isn't 'again' — it's 'then'.",
+        "",
+        "The order is: eat, then go.",
+        "吧 makes it a suggestion — nothing has happened."
+      ],
+      "translation": "Have something to eat before you go."
+    },
+    {
+      "point": "yz2_then",
+      "kind": "sort",
+      "prompt": "再 = 'again' or 再 = 'then / later'?",
+      "items": [
+        "{做|zuò}{完|wán}{作业|zuòyè}{再|zài}{玩|wán}。",
+        "{我们|wǒmen}{明天|míngtiān}{再|zài}{说|shuō}{吧|ba}。",
+        "{请|qǐng}{再|zài}{说|shuō}{一|yí}{遍|biàn}。",
+        "{等|děng}{他|tā}{来|lái}{了|le}{再|zài}{吃饭|chīfàn}。",
+        "{这|zhè}{首|shǒu}{歌|gē}{再|zài}{唱|chàng}{一|yí}{遍|biàn}！",
+        "{欢迎|huānyíng}{再|zài}{来|lái}！"
+      ],
+      "groups": [
+        "再 = again",
+        "再 = then, later"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "110100"
+      ],
+      "explanation": "一遍 / 一次 / 来 → again; first … 再 … → then.",
+      "notes": [
+        "Homework first, then play.",
+        "Not now — tomorrow.",
+        "Say it once more.",
+        "Wait for him, then eat.",
+        "Sing it again!",
+        "Come again."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz2_then",
+      "kind": "tiles",
+      "prompt": "Build it: 'Let's talk about it tomorrow.'",
+      "items": [
+        "{吧|ba}",
+        "{再|zài}",
+        "{我们|wǒmen}",
+        "{明天|míngtiān}",
+        "{说|shuō}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "23140"
+      ],
+      "explanation": "我们明天**再**说吧。 再 = later, not now.",
+      "notes": [],
+      "translation": "Let's talk about it tomorrow."
+    },
+    {
+      "point": "yz2_then",
+      "kind": "tiles",
+      "prompt": "Build it: 'Finish your homework first, then watch TV.'",
+      "items": [
+        "{做|zuò}{完|wán}，",
+        "{看|kàn}{电视|diànshì}",
+        "{作业|zuòyè}",
+        "{再|zài}",
+        "{先|xiān}",
+        "{把|bǎ}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "452031"
+      ],
+      "explanation": "**先**把作业做完，**再**看电视。 先 … 再 … = first … then ….",
+      "notes": [],
+      "translation": "Finish your homework first, then watch TV."
+    },
+    {
+      "point": "yz2_again",
+      "kind": "multi",
+      "prompt": "Which blanks can take 再? Select all.",
+      "options": [
+        "{明天|míngtiān}＿{来|lái}{吧|ba}。",
+        "{他|tā}{上|shàng}{周|zhōu}＿{生病|shēngbìng}{了|le}。",
+        "{请|qǐng}＿{等|děng}{一下|yíxià}。",
+        "{我|wǒ}{想|xiǎng}＿{去|qù}{一|yí}{次|cì}。",
+        "{他|tā}{昨天|zuótiān}＿{迟到|chídào}{了|le}。",
+        "＿{见|jiàn}！"
+      ],
+      "answer": 0,
+      "accept": [
+        "0235"
+      ],
+      "explanation": "再 for anything still to come.",
+      "notes": [
+        "再来 ✔",
+        "Already happened → 又.",
+        "再等一下 ✔",
+        "再去一次 ✔",
+        "Already happened → 又.",
+        "再见 ✔"
+      ],
+      "translation": ""
+    },
+    {
+      "point": "yz2_again",
+      "prompt": "Why is goodbye 「{再见|zàijiàn}」?",
+      "options": [
+        "It means 'goodbye forever'.",
+        "It means 'saw you again'.",
+        "It means 'look once more'.",
+        "再 + 见 = see (you) again — later."
+      ],
+      "answer": 3,
+      "explanation": "**再**见 = see you again — a future repeat.",
+      "notes": [
+        "The opposite: it promises another meeting.",
+        "Saw again (past) would need 又.",
+        "见 here is 'meet'.",
+        ""
+      ],
+      "translation": "Goodbye!"
+    },
+    {
+      "point": "yz2_again",
+      "prompt": "「{我|wǒ}{又|yòu}{吃|chī}{了|le}{一|yì}{碗|wǎn}。」 vs 「{我|wǒ}{再|zài}{吃|chī}{一|yì}{碗|wǎn}。」",
+      "options": [
+        "1st: already ate another · 2nd: going to eat another",
+        "1st: going to · 2nd: already did",
+        "Both already happened",
+        "Both are plans"
+      ],
+      "answer": 0,
+      "explanation": "**又 … 了** = done · **再** = still to come.",
+      "notes": [
+        "",
+        "Swapped.",
+        "再 is still to come.",
+        "又…了 is done."
+      ],
+      "translation": "",
+      "fixed_order": true
+    }
+  ]
+}

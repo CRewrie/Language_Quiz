@@ -16,6 +16,7 @@ function render(text) {
     .replace(/\{([^|{}]+)\|([^{}]+)\}/g, "<ruby>$1<rt>$2</rt></ruby>")
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/~~(.+?)~~/g, "<s>$1</s>") // a crossed-out mistake
+    .replace(/（　）/g, '<span class="blank" aria-label="blank"></span>')
     .replace(/\n/g, "<br>");
 }
 
@@ -675,6 +676,7 @@ function publicQuestions(quiz) {
     quiz_id: quiz.id, index, prompt: q.prompt, options: q.options || [],
     ...(q.fixed_order ? { fixed_order: true } : {}),
     ...(q.accept?.length ? { input: true, ...(q.hint ? { hint: q.hint } : {}) } : {}),
+    ...(q.kind ? { kind: q.kind, items: q.items || [], groups: q.groups || [] } : {}),
     answerText: q.accept?.length ? q.accept[0] : q.options[q.answer], point: q.point || null,
   }));
 }
@@ -909,6 +911,10 @@ const KINDS = [
   ["zhdd-chadian", "🎯", "差点 vs 差点没 — almost, or almost not? (steps 1–7)"],
   ["zhdd-yishang", "📏", "以上 / 以下 — upper and lower limits (steps 1–7)"],
   ["zhdd-le", "✅", "了 — done, changed, still going or about to? (steps 1–7)"],
+  ["zhdd-caijiu", "🐇", "才 vs 就 — sooner or later? (steps 1–7)"],
+  ["zhdd-de", "🧩", "的 / 地 / 得 — three ways to say de (steps 1–5)"],
+  ["zhdd-babei", "🔁", "把 vs 被 — doing it or getting it done to you? (steps 1–5)"],
+  ["zhdd-youzai", "🔂", "又 vs 再 — again, but when? (steps 1–5)"],
 ];
 function quizKind(q) {
   if (q.category === "Adjective Lab") {
@@ -1229,7 +1235,10 @@ function startSession(quiz, questions, key) {
     key,
     quizId: quiz.id,
     title: quiz.title,
-    questions: questions.map(q => ({ ...q, order: q.fixed_order ? q.options.map((_, i) => i) : shuffled(q.options.map((_, i) => i)) })),
+    questions: questions.map(q => ({
+      ...q, order: q.fixed_order ? q.options.map((_, i) => i) : shuffled(q.options.map((_, i) => i)),
+      ...(q.kind === "tiles" ? { tileOrder: shuffled(q.items.map((_, i) => i)) } : {}),
+    })),
     pos: 0,
     results: [],
     answered: false,
@@ -1289,6 +1298,159 @@ function wireTyped(q) {
   input.focus({ preventScroll: true });
 }
 
+// ---------- interactive kinds: tiles, sort, match, multi ----------
+// Answered with a short code, checked like a typed answer: tiles = item indices in order,
+// sort / match = a group index per item, multi = the selected option indices (sorted).
+const KIND_HINT = {
+  tiles: "Tap the tiles in order · tap a placed tile to put it back · Check when every tile is used",
+  sort: "Put every sentence into a group, then Check",
+  match: "Pick the matching meaning for every sentence, then Check",
+  multi: "Select every correct option (there can be more than one), then Check",
+};
+const kindState = { picked: [] }; // tiles: placed item indices; sort/match: group per item; multi: selected set
+
+function kindHtml(q) {
+  const actions = `<div class="typed-actions">
+      <button class="btn" id="check" disabled>Check</button>
+      ${q.kind === "tiles" ? `<button class="btn secondary" id="reset">Start again</button>` : ""}
+      <button class="btn secondary" id="dunno-btn">${LANGS[lang].dunno}</button></div>`;
+  if (q.kind === "tiles") {
+    return `<div class="kind tiles">
+      <div class="tile-line" id="tile-line" aria-label="Your sentence"></div>
+      <div class="tile-bank" id="tile-bank">${q.tileOrder.map(i =>
+        `<button class="tile" data-i="${i}">${render(q.items[i])}</button>`).join("")}</div>${actions}</div>`;
+  }
+  if (q.kind === "sort") {
+    return `<div class="kind sort">${q.items.map((it, i) => `
+      <div class="sort-row" data-i="${i}">
+        <div class="sort-item">${render(it)}</div>
+        <div class="sort-btns">${q.groups.map((g, k) => `<button class="sort-btn" data-i="${i}" data-g="${k}">${render(g)}</button>`).join("")}</div>
+        <div class="kind-note" hidden></div>
+      </div>`).join("")}${actions}</div>`;
+  }
+  if (q.kind === "match") {
+    return `<div class="kind match">
+      <ol class="match-groups" type="A">${q.groups.map(g => `<li>${render(g)}</li>`).join("")}</ol>
+      ${q.items.map((it, i) => `
+      <div class="sort-row" data-i="${i}">
+        <div class="sort-item">${render(it)}</div>
+        <div class="sort-btns">${q.groups.map((_, k) => `<button class="sort-btn letter" data-i="${i}" data-g="${k}">${LETTERS[k]}</button>`).join("")}</div>
+        <div class="kind-note" hidden></div>
+      </div>`).join("")}${actions}</div>`;
+  }
+  return `<div class="kind multi options">${q.order.map((orig, i) => `
+      <button class="option multi-opt" data-choice="${orig}"><span class="key">☐</span><span>${render(q.options[orig])}</span></button>
+      <div class="kind-note" data-for="${orig}" hidden></div>`).join("")}${actions}</div>`;
+}
+
+function kindCode(q) {
+  const p = kindState.picked;
+  if (q.kind === "multi") return [...p].sort((a, b) => a - b).join("");
+  return p.join("");
+}
+
+function kindComplete(q) {
+  const p = kindState.picked;
+  if (q.kind === "tiles") return p.length === q.items.length;
+  if (q.kind === "multi") return p.size > 0;
+  return q.items.every((_, i) => p[i] !== undefined);
+}
+
+function wireKind(q) {
+  kindState.picked = q.kind === "multi" ? new Set() : [];
+  const check = document.getElementById("check");
+  const refresh = () => {
+    check.disabled = !kindComplete(q);
+    if (q.kind === "tiles") {
+      document.getElementById("tile-line").innerHTML = kindState.picked.map((i, pos) =>
+        `<button class="tile placed" data-pos="${pos}">${render(q.items[i])}</button>`).join("");
+      app.querySelectorAll("#tile-bank .tile").forEach(b => { b.disabled = kindState.picked.includes(Number(b.dataset.i)); });
+    } else if (q.kind === "multi") {
+      app.querySelectorAll(".multi-opt").forEach(b => {
+        const on = kindState.picked.has(Number(b.dataset.choice));
+        b.classList.toggle("selected", on);
+        b.querySelector(".key").textContent = on ? "☑" : "☐";
+      });
+    } else {
+      app.querySelectorAll(".sort-btn").forEach(b => b.classList.toggle("selected", kindState.picked[b.dataset.i] === Number(b.dataset.g)));
+    }
+  };
+  app.querySelector(".kind").addEventListener("click", e => {
+    const b = e.target.closest("button");
+    if (!b || session.answered || b.disabled) return;
+    if (b.matches("#tile-bank .tile")) kindState.picked.push(Number(b.dataset.i));
+    else if (b.matches(".tile.placed")) kindState.picked.splice(Number(b.dataset.pos), 1);
+    else if (b.matches(".sort-btn")) kindState.picked[b.dataset.i] = Number(b.dataset.g);
+    else if (b.matches(".multi-opt")) {
+      const c = Number(b.dataset.choice);
+      kindState.picked.has(c) ? kindState.picked.delete(c) : kindState.picked.add(c);
+    } else return;
+    sound.play("click");
+    refresh();
+  });
+  document.getElementById("reset")?.addEventListener("click", () => { kindState.picked = []; refresh(); });
+  check.addEventListener("click", () => { if (kindComplete(q)) answer("typed", kindCode(q)); });
+  document.getElementById("dunno-btn").addEventListener("click", () => answer(null));
+  refresh();
+}
+
+// After checking: the learner's choices against the right ones (code from resp.accepted[0]).
+function markKind(r) {
+  const q = r.q, right = String((r.accepted || [""])[0]), mine = String(r.typed || "");
+  app.querySelectorAll(".kind button").forEach(b => { b.disabled = true; });
+  if (q.kind === "tiles") {
+    const line = document.getElementById("tile-line");
+    if (line) line.innerHTML = [...mine].map((d, pos) =>
+      `<span class="tile placed ${right[pos] === d ? "ok" : "bad"}">${render(q.items[Number(d)])}</span>`).join("") || `<span class="muted">—</span>`;
+    return;
+  }
+  if (q.kind === "multi") {
+    const want = new Set([...right].map(Number)), got = new Set([...mine].map(Number));
+    app.querySelectorAll(".multi-opt").forEach(b => {
+      const c = Number(b.dataset.choice);
+      b.classList.add(want.has(c) ? (got.has(c) ? "correct" : "missed") : got.has(c) ? "wrong" : "faded");
+      b.querySelector(".key").textContent = want.has(c) ? "✓" : got.has(c) ? "✗" : "☐";
+      const note = r.notes?.[c];
+      const box = app.querySelector(`.kind-note[data-for="${c}"]`);
+      if (box && note && (got.has(c) || want.has(c))) { box.innerHTML = render(note); box.hidden = false; }
+    });
+    return;
+  }
+  app.querySelectorAll(".sort-row").forEach(row => {
+    const i = Number(row.dataset.i), ok = mine[i] === right[i];
+    row.classList.add(ok ? "ok" : "bad");
+    row.querySelectorAll(".sort-btn").forEach(b => {
+      const g = b.dataset.g;
+      b.classList.toggle("correct", g === right[i]);
+      b.classList.toggle("wrong", g === mine[i] && !ok);
+    });
+    const note = r.notes?.[i], box = row.querySelector(".kind-note");
+    if (note && box) { box.innerHTML = (ok ? "✓ " : "✗ ") + render(note); box.hidden = false; }
+  });
+}
+
+function kindAnswerText(q, code) {
+  code = String(code || "");
+  if (!code) return "—";
+  if (q.kind === "tiles") return [...code].map(d => render(q.items[Number(d)] || "")).join(" ");
+  if (q.kind === "multi") return [...code].map(d => `「${render(q.options[Number(d)] || "")}」`).join(" ");
+  return [...code].map((g, i) => `${i + 1}→${q.kind === "match" ? LETTERS[Number(g)] : render(q.groups[Number(g)] || "")}`).join(", ");
+}
+
+function kindFeedbackHtml(r) {
+  const q = r.q, right = (r.accepted || [""])[0];
+  let html = r.correct
+    ? `<div class="feedback good"><h4>${LANGS[lang].correct} Correct</h4>`
+    : `<div class="feedback bad"><h4>${r.choice === null ? "Here's the answer" : "Not quite"}</h4>`;
+  if (q.kind === "tiles") html += `<p class="tile-answer">${kindAnswerText(q, right)}</p>`;
+  else if (!r.correct) html += `<p class="muted">${q.kind === "multi" ? "Correct options are marked ✓ above." : "Each row above shows the right answer and why."}</p>`;
+  html += `<span class="label">Grammar point</span><p>${render(r.explanation)}</p>`;
+  if (r.translation) html += `<p class="translation">“${render(r.translation)}”</p>`;
+  html += `</div>`;
+  if (r.point) html += guideHtml(r.point);
+  return html;
+}
+
 function showQuestion() {
   const s = session;
   const q = s.questions[s.pos];
@@ -1305,16 +1467,17 @@ function showQuestion() {
     <div class="progress"><div style="width:${(s.pos / s.questions.length) * 100}%"></div></div>
     <div class="question">
       <p class="prompt">${render(q.prompt)}</p>
-      ${q.input ? typedHtml(q) : `<div class="options">
+      ${q.kind ? kindHtml(q) : q.input ? typedHtml(q) : `<div class="options">
         ${options}
         <button class="option dunno" data-choice="none"><span class="key">?</span><span>${LANGS[lang].dunno} (I don't know)</span></button>
       </div>`}
       <div id="feedback"></div>
     </div>
-    <p class="hint">${q.input ? "Enter to check · romaji is converted to kana · Enter again for next"
+    <p class="hint">${q.kind ? KIND_HINT[q.kind] : q.input ? "Enter to check · romaji is converted to kana · Enter again for next"
       : `Keys: A–D or 1–4 to answer (afterwards: show why) · 0 for ${LANGS[lang].dunno} · Enter for next`}</p>`;
-  if (q.input) wireTyped(q);
-  app.querySelectorAll(".option").forEach(btn =>
+  if (q.kind) wireKind(q);
+  else if (q.input) wireTyped(q);
+  if (!q.kind) app.querySelectorAll(".option").forEach(btn =>
     btn.addEventListener("click", () => answer(btn.dataset.choice === "none" ? null : Number(btn.dataset.choice))));
   window.scrollTo(0, 0);
 }
@@ -1345,6 +1508,17 @@ async function answer(choice, text = null) {
 // Shows the marked options and feedback for an answered question (also used when resuming).
 function renderAnswer(r) {
   const s = session;
+  if (r.q.kind) {
+    markKind(r);
+    const last = s.pos === s.questions.length - 1;
+    document.getElementById("feedback").innerHTML = kindFeedbackHtml(r) + `
+      <div class="actions"><button class="btn" id="next">${last ? "See results" : "Next →"}</button></div>`;
+    addListen(r.q);
+    const next = document.getElementById("next");
+    next.addEventListener("click", advance);
+    next.focus({ preventScroll: true });
+    return;
+  }
   if (r.q.input) {
     const input = document.getElementById("typed");
     if (input) { input.value = r.typed || ""; input.disabled = true; input.classList.add(r.correct ? "correct" : "wrong"); }
@@ -1464,8 +1638,8 @@ function showResults() {
   const review = mistakes.map(r => `
     <div class="review-item">
       <p class="prompt">${render(r.q.prompt)}</p>
-      <p class="ans yours">✗ Your answer: ${r.choice === null ? LANGS[lang].dunno : r.q.input ? escapeHtml(r.typed || "") : render(r.q.options[r.choice])}</p>
-      <p class="ans right">✓ Correct: ${render(r.q.input ? (r.accepted || [""])[0] : r.q.options[r.answer])}</p>
+      <p class="ans yours">✗ Your answer: ${r.choice === null ? LANGS[lang].dunno : r.q.kind ? kindAnswerText(r.q, r.typed) : r.q.input ? escapeHtml(r.typed || "") : render(r.q.options[r.choice])}</p>
+      <p class="ans right">✓ Correct: ${r.q.kind ? kindAnswerText(r.q, (r.accepted || [""])[0]) : render(r.q.input ? (r.accepted || [""])[0] : r.q.options[r.answer])}</p>
       ${r.note ? `<div class="why-wrong"><strong>Why yours is wrong:</strong> ${render(r.note)}</div>` : ""}
       <p>${render(r.explanation)}</p>
       ${r.translation ? `<p class="translation">“${render(r.translation)}”</p>` : ""}
@@ -1547,6 +1721,13 @@ document.addEventListener("keydown", e => {
   if (!document.querySelector(".question")) return;
   if (e.target.matches?.("input, textarea") && !s.answered) return;
   if (s.questions[s.pos].input && !s.answered) return;
+  if (s.questions[s.pos].kind) { // tiles / sort / match / multi: only Enter (check, then next)
+    if (e.key !== "Enter") return;
+    if (s.answered) { if (s.results.length > s.pos) { e.preventDefault(); advance(); } return; }
+    const check = document.getElementById("check");
+    if (check && !check.disabled && !e.target.matches?.("button")) { e.preventDefault(); check.click(); }
+    return;
+  }
   const order = s.questions[s.pos].order;
   if (s.answered) {
     if (s.results.length <= s.pos) return; // still waiting for /api/check

@@ -37,55 +37,68 @@
       "prompt": "What does 「{下雨|xià yǔ}{了|le}。」 mean?",
       "options": [
         "It rained (last week).",
-        "It's going to rain.",
         "It doesn't rain.",
+        "It's going to rain.",
         "It's started raining."
       ],
       "answer": 3,
       "explanation": "Sentence-**了** = a change: now it's raining.",
       "notes": [
         "Sentence-了 is about **now**, a new situation.",
-        "That's 快下雨了.",
         "That's 不下雨.",
+        "That's 快下雨了.",
         ""
       ],
       "translation": "It's raining."
     },
     {
       "point": "l2_change",
-      "prompt": "{我|wǒ}{早上|zǎoshang}{没|méi}{吃|chī}{饭|fàn}，{现在|xiànzài}{饿|è}（　）。",
-      "options": [
-        "{过|guo}",
-        "{的|de}",
-        "{了|le}",
-        "{着|zhe}"
+      "kind": "sort",
+      "prompt": "Which 了 is it?",
+      "items": [
+        "{下雨|xià yǔ}{了|le}。",
+        "{我|wǒ}{饿|è}{了|le}。",
+        "{我|wǒ}{买|mǎi}{了|le}{三|sān}{本|běn}{书|shū}。",
+        "{他|tā}{是|shì}{大学生|dàxuéshēng}{了|le}。",
+        "{他|tā}{喝|hē}{了|le}{两|liǎng}{杯|bēi}{咖啡|kāfēi}。",
+        "{天|tiān}{黑|hēi}{了|le}。"
       ],
-      "answer": 2,
-      "explanation": "A new state: 饿**了** = I'm hungry now.",
+      "groups": [
+        "✅ Done: verb-了",
+        "🔄 New situation: sentence-了"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "110101"
+      ],
+      "explanation": "Verb-了 = an action got **done**; sentence-了 at the end = a **new situation**.",
       "notes": [
-        "过 = experience — doesn't fit a feeling now.",
-        "的 doesn't end this sentence.",
-        "",
-        "着 = ongoing state of an action."
+        "It wasn't raining, now it is — a change.",
+        "Not hungry before, hungry now.",
+        "Verb + 了 + amount: an action completed.",
+        "He's now a university student — new status.",
+        "An action completed.",
+        "It got dark — a change."
       ],
-      "translation": "I didn't eat breakfast — now I'm hungry."
+      "translation": ""
     },
     {
       "point": "l2_notany",
       "prompt": "What does 「{我|wǒ}{不|bú}{去|qù}{了|le}。」 mean?",
       "options": [
         "I'm not going any more (I've changed my mind).",
-        "I never go.",
         "I didn't go.",
-        "I'm going soon."
+        "I'm going soon.",
+        "I never go."
       ],
       "answer": 0,
       "explanation": "**不…了** = not any more — a change of plan.",
       "notes": [
         "",
-        "Never = 我从来不去.",
         "Didn't go = 我没去.",
-        "That's 我快去了."
+        "That's 我快去了.",
+        "Never = 我从来不去."
       ],
       "translation": "I'm not going after all."
     },
@@ -93,18 +106,18 @@
       "point": "l2_change",
       "prompt": "{我|wǒ}{女儿|nǚ'ér}{今年|jīnnián}{六|liù}{岁|suì}（　），{可以|kěyǐ}{上|shàng}{小学|xiǎoxué}{了|le}。",
       "options": [
-        "{着|zhe}",
+        "{的|de}",
         "{了|le}",
-        "{过|guo}",
-        "{的|de}"
+        "{着|zhe}",
+        "{过|guo}"
       ],
       "answer": 1,
       "explanation": "A new age = a new situation: 六岁**了**.",
       "notes": [
-        "着 doesn't go with ages.",
+        "的 doesn't fit.",
         "",
-        "过 doesn't go with ages.",
-        "的 doesn't fit."
+        "着 doesn't go with ages.",
+        "过 doesn't go with ages."
       ],
       "translation": "My daughter is six this year — she can start primary school."
     },
@@ -112,18 +125,18 @@
       "point": "l2_notany",
       "prompt": "{医生|yīshēng}{说|shuō}{他|tā}{身体|shēntǐ}{不|bù}{好|hǎo}，{所以|suǒyǐ}{他|tā}{现在|xiànzài}（　）。",
       "options": [
-        "{不|bù}{抽烟|chōuyān}{着|zhe}",
         "{抽烟|chōuyān}{不|bù}{了|le}",
         "{没|méi}{抽烟|chōuyān}{了|le}",
-        "{不|bù}{抽烟|chōuyān}{了|le}"
+        "{不|bù}{抽烟|chōuyān}{了|le}",
+        "{不|bù}{抽烟|chōuyān}{着|zhe}"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Quit a habit: **不抽烟了**.",
       "notes": [
-        "着 doesn't fit.",
         "Word order: 不 + verb + 了.",
         "没…了 is wrong — 没 doesn't take 了.",
-        ""
+        "",
+        "着 doesn't fit."
       ],
       "translation": "The doctor said his health is bad, so he doesn't smoke any more."
     },
@@ -132,17 +145,17 @@
       "prompt": "Which sentence announces a **change**?",
       "options": [
         "{天|tiān}{黑|hēi}{了|le}。",
-        "{天|tiān}{黑|hēi}{不|bù}{黑|hēi}？",
         "{天|tiān}{太|tài}{黑|hēi}。",
-        "{天|tiān}{很|hěn}{黑|hēi}。"
+        "{天|tiān}{很|hěn}{黑|hēi}。",
+        "{天|tiān}{黑|hēi}{不|bù}{黑|hēi}？"
       ],
       "answer": 0,
       "explanation": "Sentence-了: **天黑了** = it's got dark (now).",
       "notes": [
         "",
-        "A question.",
         "太 needs 了 (太黑了) and means 'too', not a change.",
-        "A description — no change."
+        "A description — no change.",
+        "A question."
       ],
       "translation": "It's got dark."
     },
@@ -150,18 +163,18 @@
       "point": "l2_change",
       "prompt": "A：{你|nǐ}{的|de}{中文|Zhōngwén}{怎么样|zěnmeyàng}？\nB：{比|bǐ}{以前|yǐqián}{好|hǎo}{多|duō}（　）。",
       "options": [
+        "{地|de}",
         "{着|zhe}",
         "{过|guo}",
-        "{了|le}",
-        "{地|de}"
+        "{了|le}"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Better than before = a change: 好多**了**.",
       "notes": [
+        "地 goes before a verb.",
         "着 doesn't fit.",
         "过 doesn't fit a comparison.",
-        "",
-        "地 goes before a verb."
+        ""
       ],
       "translation": "A: How's your Chinese? B: Much better than before."
     },
@@ -185,40 +198,41 @@
       "translation": "I don't want to eat any more — I'm full."
     },
     {
-      "point": "l2_change",
-      "prompt": "{快|kuài}{看|kàn}！{外面|wàimiàn}{下雪|xià xuě}（　）！",
-      "options": [
-        "{的|de}",
-        "{过|guo}",
-        "{着|zhe}",
-        "{了|le}"
+      "point": "l2_notany",
+      "kind": "tiles",
+      "prompt": "Build it: 'It's raining — I'm not going any more.'",
+      "items": [
+        "{了|le}",
+        "{不|bú}",
+        "{我|wǒ}",
+        "{去|qù}",
+        "{下雨|xià yǔ}{了|le}，"
       ],
-      "answer": 3,
-      "explanation": "News flash: 下雪**了**!",
-      "notes": [
-        "的 doesn't fit.",
-        "过 = experience — not 'look, right now!'.",
-        "下雪着 isn't natural.",
-        ""
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "42130"
       ],
-      "translation": "Look! It's snowing outside!"
+      "explanation": "下雨了，我**不去了**。 不 + verb + 了 = not any more (a change of plan).",
+      "notes": [],
+      "translation": "It's raining — I'm not going any more."
     },
     {
       "point": "l2_change",
       "prompt": "What does 「{他|tā}{是|shì}{大学生|dàxuéshēng}{了|le}。」 mean?",
       "options": [
-        "He was a university student.",
         "Is he a university student?",
-        "He's a university student now (he wasn't before).",
-        "He'll never be a university student."
+        "He was a university student.",
+        "He'll never be a university student.",
+        "He's a university student now (he wasn't before)."
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Sentence-了 = **he's become** a student.",
       "notes": [
-        "Sentence-了 = new situation, not past.",
         "There's no question word or 吗.",
-        "",
-        "That's 不会是."
+        "Sentence-了 = new situation, not past.",
+        "That's 不会是.",
+        ""
       ],
       "translation": "He's a university student now."
     }

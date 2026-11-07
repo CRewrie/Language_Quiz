@@ -72,6 +72,63 @@ def order3(point, parts, correct, wrong, notes_wrong, explanation, translation):
     return Q(point, prompt, opts, notes, explanation, translation, answer=opts.index(correct), fixed=True, raw_opts=True)
 
 
+# ---------- interactive kinds: answered with a digit code, checked like a typed answer ----------
+
+def _zh(t):
+    """zh() only for text in 汉字/pīnyīn notation, so plain English keeps its spaces."""
+    return zh(t) if "/" in t else t
+
+
+def _rng(seed):
+    return random.Random(seed)
+
+
+def tiles(point, prompt, pieces, explanation, translation, also=()):
+    """Tap the pieces into the right order. `pieces` is the correct order; `also` holds other orders that are fine."""
+    assert 2 <= len(pieces) <= 10 and len(set(pieces)) == len(pieces), pieces
+    perm = list(range(len(pieces)))
+    _rng(prompt + "".join(pieces)).shuffle(perm)
+    if perm == sorted(perm):
+        perm = perm[1:] + perm[:1]
+    items = [_zh(pieces[i]) for i in perm]
+    code = lambda order: "".join(str(perm.index(pieces.index(x))) for x in order)
+    accept = [code(pieces)] + [code(o) for o in also]
+    return {"point": point, "kind": "tiles", "prompt": prompt, "items": items, "options": [], "answer": 0,
+            "accept": accept, "explanation": explanation, "notes": [], "translation": translation}
+
+
+def _rows(kind, point, prompt, groups, rows, explanation, translation, shuffle_groups):
+    """rows: (sentence, group index, note). Sort = buckets; match = a meaning (A, B, C …) per sentence."""
+    assert len(rows) <= 10 and len(groups) <= 10 and all(n for _, _, n in rows), prompt
+    r = _rng(prompt)
+    rows = list(rows); r.shuffle(rows)
+    gperm = list(range(len(groups)))
+    if shuffle_groups:
+        r.shuffle(gperm)
+    gs = [groups[i] for i in gperm]
+    return {"point": point, "kind": kind, "prompt": prompt, "items": [_zh(t) for t, _, _ in rows],
+            "groups": [_zh(g) for g in gs], "options": [], "answer": 0,
+            "accept": ["".join(str(gperm.index(g)) for _, g, _ in rows)], "explanation": explanation,
+            "notes": [n for _, _, n in rows], "translation": translation}
+
+
+def sort(point, prompt, groups, rows, explanation, translation=""):
+    return _rows("sort", point, prompt, groups, rows, explanation, translation, False)
+
+
+def match(point, prompt, meanings, rows, explanation, translation=""):
+    return _rows("match", point, prompt, meanings, rows, explanation, translation, True)
+
+
+def multi(point, prompt, options, explanation, translation=""):
+    """Select every correct option. options: (text, is_correct, note); every option gets a note."""
+    assert 2 <= len(options) <= 10 and 1 <= sum(c for _, c, _ in options) < len(options), prompt
+    opts = list(options); _rng(prompt).shuffle(opts)
+    return {"point": point, "kind": "multi", "prompt": prompt, "options": [_zh(t) for t, _, _ in opts], "answer": 0,
+            "accept": ["".join(str(i) for i, (_, c, _) in enumerate(opts) if c)], "explanation": explanation,
+            "notes": [n for _, _, n in opts], "translation": translation}
+
+
 def apply_fixes(d):
     """tools/distractor_fixes.json: swap a wrong option for another point of the same quiz."""
     import os
@@ -100,6 +157,9 @@ def write(quizzes, folder, category, level, seed):
         prev = None
         for q in d["questions"]:
             assert len(set(q["options"])) == len(q["options"]), q["prompt"]
+            if q.get("kind"):
+                assert len(set(q.get("items", []))) == len(q.get("items", [])), q["prompt"]
+                continue
             if not q.get("fixed_order"):
                 n = len(q["options"])
                 while True:
