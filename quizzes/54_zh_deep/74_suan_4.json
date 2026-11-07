@@ -1,0 +1,228 @@
+{
+  "id": "zh-dd-suan-4",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "算 Step 4 · Everyday Maths: 倍, 打折, 增加了 vs 增加到",
+  "description": "打八折 means you pay 80%, not 80% off. 增加了一倍 doubles it, 增加了两倍 triples it. The everyday maths in shops and news.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "s4_zhe",
+      "title": "打折: you pay that many tenths",
+      "summary": "打 N 折 = pay N/10 of the price: 打八折 = 80% of the price (20% off). 半价 = half price.",
+      "body": "- 一百块的衣服**打八折** → 八十块\n- **打七折** → 七十块 (30% off)\n- **半价** / 打五折 → 五十块\n\n| | say | example |\n|---|---|---|\n| **+** | 加 jiā | 三**加**五**等于**八 (3 + 5 = 8) |\n| **−** | 减 jiǎn | 十**减**四等于六 (10 − 4 = 6) |\n| **×** | 乘 / 乘以 chéng(yǐ) | 六**乘以**七等于四十二 |\n| **÷** | 除以 chúyǐ | 十**除以**二等于五 · ⚠️ 二**除**十 = 10 ÷ 2 too! |\n| **=** | 等于 děngyú | (spoken: 是) |\n| **¾** | 四**分之**三 — bottom number first | 二分之一 = ½ |\n| **3.5 · 20% · −5** | 三**点**五 · **百分之**二十 · **负**五 | 0.08 = 零点零八 |\n| **×2 · 20% off** | 两**倍** · 打**八折** (pay 80%) | 增加了一倍 = doubled |",
+      "examples": [
+        [
+          "{所有|suǒyǒu}{衣服|yīfu}{都|dōu}{打|dǎ}{七|qī}{折|zhé}。",
+          "All clothes are 30% off."
+        ]
+      ]
+    },
+    {
+      "id": "s4_bei",
+      "title": "倍: times; 增加了 vs 增加到",
+      "summary": "两倍 = ×2. But **增加了**一倍 = grew **by** 100% (×2), **增加了两倍** = grew by 200% (×3). **增加到**两倍 = grew **to** ×2.",
+      "body": "- 我的工资是他的**两倍**。 I earn twice what he does.\n- 去年一百人，今年**增加了一倍** → 二百人。\n- **翻了一番** = doubled.\n\n| | say | example |\n|---|---|---|\n| **+** | 加 jiā | 三**加**五**等于**八 (3 + 5 = 8) |\n| **−** | 减 jiǎn | 十**减**四等于六 (10 − 4 = 6) |\n| **×** | 乘 / 乘以 chéng(yǐ) | 六**乘以**七等于四十二 |\n| **÷** | 除以 chúyǐ | 十**除以**二等于五 · ⚠️ 二**除**十 = 10 ÷ 2 too! |\n| **=** | 等于 děngyú | (spoken: 是) |\n| **¾** | 四**分之**三 — bottom number first | 二分之一 = ½ |\n| **3.5 · 20% · −5** | 三**点**五 · **百分之**二十 · **负**五 | 0.08 = 零点零八 |\n| **×2 · 20% off** | 两**倍** · 打**八折** (pay 80%) | 增加了一倍 = doubled |",
+      "examples": [
+        [
+          "{今年|jīnnián}{的|de}{学生|xuésheng}{增加|zēngjiā}{了|le}{一|yí}{倍|bèi}。",
+          "The number of students has doubled this year."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "s4_zhe",
+      "prompt": "A sign says 「{打|dǎ}{八|bā}{折|zhé}」. What do you pay?",
+      "options": [
+        "80% off — you pay 20%",
+        "8 yuan less",
+        "8% of the price",
+        "80% of the price (20% off)"
+      ],
+      "answer": 3,
+      "explanation": "打 **N** 折 = you pay **N tenths**.",
+      "notes": [
+        "The classic mistake: 八折 is what you **pay**.",
+        "折 is a fraction, not an amount.",
+        "Tenths, not hundredths: 八折 = 0.8.",
+        ""
+      ],
+      "translation": "20% off"
+    },
+    {
+      "point": "s4_zhe",
+      "kind": "sort",
+      "prompt": "A jacket costs 100 块. What do you pay?",
+      "items": [
+        "{打|dǎ}{七|qī}{折|zhé}",
+        "{半价|bànjià}",
+        "{打|dǎ}{九|jiǔ}{折|zhé}",
+        "{打|dǎ}{五|wǔ}{折|zhé}",
+        "{便宜|piányi}{了|le}{百分之三十|bǎi fēn zhī sānshí}",
+        "{便宜|piányi}{了|le}{二十|èrshí}{块|kuài}",
+        "{打|dǎ}{八|bā}{折|zhé}"
+      ],
+      "groups": [
+        "80 块",
+        "70 块",
+        "50 块",
+        "90 块"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "1232100"
+      ],
+      "explanation": "打 N 折 = N × 10%; 便宜了 X = minus X.",
+      "notes": [
+        "0.7 × 100.",
+        "Half price.",
+        "0.9 × 100.",
+        "0.5 × 100.",
+        "30% off = 打七折.",
+        "100 − 20.",
+        "0.8 × 100."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s4_bei",
+      "prompt": "「{我|wǒ}{的|de}{工资|gōngzī}{是|shì}{他|tā}{的|de}{两|liǎng}{倍|bèi}。」 He earns 5,000. I earn …",
+      "options": [
+        "7,000",
+        "10,000",
+        "5,002",
+        "2,500"
+      ],
+      "answer": 1,
+      "explanation": "**两倍** = × 2.",
+      "notes": [
+        "倍 multiplies.",
+        "",
+        "倍 isn't adding 2.",
+        "That's half."
+      ],
+      "translation": "My salary is twice his."
+    },
+    {
+      "point": "s4_bei",
+      "prompt": "「{去年|qùnián}{有|yǒu}{一百|yìbǎi}{个|ge}{学生|xuésheng}，{今年|jīnnián}{增加|zēngjiā}{了|le}{一|yí}{倍|bèi}。」 How many now?",
+      "options": [
+        "200",
+        "300",
+        "101",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "**增加了一倍** = grew by 100% = doubled.",
+      "notes": [
+        "",
+        "That would be 增加了两倍.",
+        "倍 isn't one person.",
+        "It grew."
+      ],
+      "translation": "Last year there were 100 students; this year the number has doubled."
+    },
+    {
+      "point": "s4_bei",
+      "kind": "sort",
+      "prompt": "Start at 100. Where do you end up?",
+      "items": [
+        "{增加|zēngjiā}{到|dào}{原来|yuánlái}{的|de}{两|liǎng}{倍|bèi}",
+        "{增加|zēngjiā}{了|le}{两|liǎng}{倍|bèi}",
+        "{翻|fān}{了|le}{一|yì}{番|fān}",
+        "{增加|zēngjiā}{了|le}{一|yí}{倍|bèi}",
+        "{增加|zēngjiā}{了|le}{百分之五十|bǎi fēn zhī wǔshí}",
+        "{增加|zēngjiā}{到|dào}{原来|yuánlái}{的|de}{三|sān}{倍|bèi}"
+      ],
+      "groups": [
+        "200",
+        "300",
+        "150"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "010021"
+      ],
+      "explanation": "**增加了** = by (add on top) · **增加到** = to (the new total).",
+      "notes": [
+        "To ×2 → 200.",
+        "+200% → 300 — the trap!",
+        "Doubled → 200.",
+        "+100% → 200.",
+        "+50% → 150.",
+        "To ×3 → 300."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s4_zhe",
+      "kind": "tiles",
+      "prompt": "Build it: 'All the clothes are 30% off.'",
+      "items": [
+        "{打|dǎ}",
+        "{衣服|yīfu}",
+        "{七|qī}{折|zhé}",
+        "{所有|suǒyǒu}",
+        "{都|dōu}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "31402"
+      ],
+      "explanation": "所有衣服都**打七折**。 30% off = pay 70% = 七折.",
+      "notes": [],
+      "translation": "All the clothes are 30% off."
+    },
+    {
+      "point": "s4_bei",
+      "kind": "multi",
+      "prompt": "Which mean 'twice as much (× 2)'? Select all.",
+      "options": [
+        "{增加|zēngjiā}{了|le}{两|liǎng}{倍|bèi}",
+        "{一半|yíbàn}",
+        "{增加|zēngjiā}{了|le}{一|yí}{倍|bèi}",
+        "{翻|fān}{了|le}{一|yì}{番|fān}",
+        "{两|liǎng}{倍|bèi}",
+        "{打|dǎ}{五|wǔ}{折|zhé}"
+      ],
+      "answer": 0,
+      "accept": [
+        "234"
+      ],
+      "explanation": "× 2 = 两倍 = 增加了一倍 = 翻了一番.",
+      "notes": [
+        "Grew by 200% → × 3.",
+        "Half.",
+        "Grew by 100% → × 2.",
+        "Doubled.",
+        "× 2.",
+        "Half price."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s4_zhe",
+      "prompt": "「{这|zhè}{个|ge}{房间|fángjiān}{二十|èrshí}{平方米|píngfāngmǐ}。」 means …",
+      "options": [
+        "The room is 20 m long.",
+        "The room is 20 × 20 m.",
+        "The room is 20 cm².",
+        "The room is 20 m²."
+      ],
+      "answer": 3,
+      "explanation": "**平方米** = m² (平方 = squared).",
+      "notes": [
+        "Length would be 米.",
+        "That would be 四百平方米.",
+        "平方米 = square **metres**.",
+        ""
+      ],
+      "translation": "This room is 20 square metres."
+    }
+  ]
+}

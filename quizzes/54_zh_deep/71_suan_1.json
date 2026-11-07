@@ -1,0 +1,228 @@
+{
+  "id": "zh-dd-suan-1",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "算 Step 1 · Plus and Minus: 加, 减, 等于",
+  "description": "三加五等于八. Saying sums out loud, and the words that tell you to add (一共, 加起来) or subtract (还剩, 比…少) in a word problem.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "s1_add",
+      "title": "加 and 等于",
+      "summary": "A 加 B 等于 C: 三加五等于八. In speech 等于 is often just 是.",
+      "body": "- 三**加**五**等于**八。 3 + 5 = 8\n- 二十五**加**十七等于四十二。\n- Adding-up words: **一共** (altogether), **加起来** (added up), **总共** (in total).\n\n| | say | example |\n|---|---|---|\n| **+** | 加 jiā | 三**加**五**等于**八 (3 + 5 = 8) |\n| **−** | 减 jiǎn | 十**减**四等于六 (10 − 4 = 6) |\n| **×** | 乘 / 乘以 chéng(yǐ) | 六**乘以**七等于四十二 |\n| **÷** | 除以 chúyǐ | 十**除以**二等于五 · ⚠️ 二**除**十 = 10 ÷ 2 too! |\n| **=** | 等于 děngyú | (spoken: 是) |\n| **¾** | 四**分之**三 — bottom number first | 二分之一 = ½ |\n| **3.5 · 20% · −5** | 三**点**五 · **百分之**二十 · **负**五 | 0.08 = 零点零八 |\n| **×2 · 20% off** | 两**倍** · 打**八折** (pay 80%) | 增加了一倍 = doubled |",
+      "examples": [
+        [
+          "{十二|shí'èr}{加|jiā}{九|jiǔ}{等于|děngyú}{二十一|èrshíyī}。",
+          "12 + 9 = 21"
+        ]
+      ]
+    },
+    {
+      "id": "s1_sub",
+      "title": "减, 还剩 and 比…多/少",
+      "summary": "A 减 B 等于 C. Word problems: 还剩 (how much is left), A 比 B 多/少 几 (how many more/fewer).",
+      "body": "- 十**减**四等于六。\n- 我有十块，花了三块，**还剩**七块。\n- 八**比**五**多**几？ — 多三。 (8 is 3 more than 5)\n\n| | say | example |\n|---|---|---|\n| **+** | 加 jiā | 三**加**五**等于**八 (3 + 5 = 8) |\n| **−** | 减 jiǎn | 十**减**四等于六 (10 − 4 = 6) |\n| **×** | 乘 / 乘以 chéng(yǐ) | 六**乘以**七等于四十二 |\n| **÷** | 除以 chúyǐ | 十**除以**二等于五 · ⚠️ 二**除**十 = 10 ÷ 2 too! |\n| **=** | 等于 děngyú | (spoken: 是) |\n| **¾** | 四**分之**三 — bottom number first | 二分之一 = ½ |\n| **3.5 · 20% · −5** | 三**点**五 · **百分之**二十 · **负**五 | 0.08 = 零点零八 |\n| **×2 · 20% off** | 两**倍** · 打**八折** (pay 80%) | 增加了一倍 = doubled |",
+      "examples": [
+        [
+          "{一百|yìbǎi}{减|jiǎn}{三十五|sānshíwǔ}{等于|děngyú}{六十五|liùshíwǔ}。",
+          "100 − 35 = 65"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "s1_add",
+      "kind": "match",
+      "prompt": "Read carefully: which sum is each sentence?",
+      "items": [
+        "{八|bā}{减|jiǎn}{三|sān}{等于|děngyú}{五|wǔ}",
+        "{五|wǔ}{加|jiā}{三|sān}{等于|děngyú}{八|bā}",
+        "{三|sān}{加|jiā}{五|wǔ}{等于|děngyú}{八|bā}",
+        "{八|bā}{减|jiǎn}{五|wǔ}{等于|děngyú}{三|sān}"
+      ],
+      "groups": [
+        "8 − 3 = 5",
+        "5 + 3 = 8",
+        "3 + 5 = 8",
+        "8 − 5 = 3"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "0123"
+      ],
+      "explanation": "Chinese reads sums left to right, just like the symbols: A **加/减** B **等于** C.",
+      "notes": [
+        "八减三 = 8 − 3.",
+        "五加三 = 5 + 3.",
+        "三加五 = 3 + 5.",
+        "八减五 = 8 − 5."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s1_add",
+      "kind": "tiles",
+      "prompt": "Say it in Chinese: 12 + 9 = 21",
+      "items": [
+        "{九|jiǔ}",
+        "{加|jiā}",
+        "{二十一|èrshíyī}",
+        "{等于|děngyú}",
+        "{十二|shí'èr}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "41032"
+      ],
+      "explanation": "十二**加**九**等于**二十一。",
+      "notes": [],
+      "translation": "12 + 9 = 21"
+    },
+    {
+      "point": "s1_sub",
+      "kind": "tiles",
+      "prompt": "Say it in Chinese: 100 − 35 = 65",
+      "items": [
+        "{六十五|liùshíwǔ}",
+        "{一百|yìbǎi}",
+        "{等于|děngyú}",
+        "{三十五|sānshíwǔ}",
+        "{减|jiǎn}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "14320"
+      ],
+      "explanation": "一百**减**三十五**等于**六十五。",
+      "notes": [],
+      "translation": "100 − 35 = 65"
+    },
+    {
+      "point": "s1_sub",
+      "prompt": "「{我|wǒ}{有|yǒu}{十|shí}{块|kuài}{钱|qián}，{买|mǎi}{了|le}{一个|yí ge}{三|sān}{块|kuài}{的|de}{面包|miànbāo}，{还|hái}{剩|shèng}{多少|duōshao}{钱|qián}？」",
+      "options": [
+        "{十|shí}{块|kuài}",
+        "{七|qī}{块|kuài}",
+        "{十三|shísān}{块|kuài}",
+        "{三|sān}{块|kuài}"
+      ],
+      "answer": 1,
+      "explanation": "**还剩** = what's left → 十减三等于七.",
+      "notes": [
+        "You spent some of it.",
+        "",
+        "That's 加 — but 还剩 means what's left: 减.",
+        "That's what the bread cost."
+      ],
+      "translation": "I had 10 kuai and bought a 3-kuai roll. How much is left?"
+    },
+    {
+      "point": "s1_add",
+      "kind": "sort",
+      "prompt": "Add or subtract? Which does each question need?",
+      "items": [
+        "{我|wǒ}{有|yǒu}{五|wǔ}{个|ge}{苹果|píngguǒ}，{妈妈|māma}{又|yòu}{给|gěi}{了|le}{我|wǒ}{三|sān}{个|ge}，{一共|yígòng}{几|jǐ}{个|ge}？",
+        "{我|wǒ}{带|dài}{了|le}{一百|yìbǎi}{块|kuài}，{花|huā}{了|le}{六十|liùshí}，{还|hái}{剩|shèng}{多少|duōshao}？",
+        "{我|wǒ}{比|bǐ}{哥哥|gēge}{小|xiǎo}{三|sān}{岁|suì}，{哥哥|gēge}{十三|shísān}{岁|suì}，{我|wǒ}{几|jǐ}{岁|suì}？",
+        "{班|bān}{里|li}{有|yǒu}{三十|sānshí}{个|ge}{学生|xuésheng}，{走|zǒu}{了|le}{五|wǔ}{个|ge}，{还|hái}{剩|shèng}{几|jǐ}{个|ge}？",
+        "{哥哥|gēge}{比|bǐ}{我|wǒ}{大|dà}{三|sān}{岁|suì}，{我|wǒ}{十|shí}{岁|suì}，{哥哥|gēge}{几|jǐ}{岁|suì}？",
+        "{这|zhè}{本|běn}{书|shū}{二十|èrshí}{块|kuài}，{那|nà}{本|běn}{十五|shíwǔ}{块|kuài}，{加起来|jiā qǐlai}{多少|duōshao}？"
+      ],
+      "groups": [
+        "➕ 加",
+        "➖ 减"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "011100"
+      ],
+      "explanation": "一共 / 加起来 / 大… → **加**; 还剩 / 走了 / 花了 / 小… → **减**.",
+      "notes": [
+        "一共 = altogether → 加.",
+        "还剩 → 减.",
+        "Younger by 3 → 十三减三.",
+        "还剩 → 减.",
+        "Older by 3 → 十加三.",
+        "加起来 → 加."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s1_add",
+      "kind": "multi",
+      "prompt": "Which words tell you to **add up**? Select all.",
+      "options": [
+        "{总共|zǒnggòng}",
+        "{少|shǎo}{了|le}",
+        "{用|yòng}{了|le}",
+        "{加起来|jiā qǐlai}",
+        "{还|hái}{剩|shèng}",
+        "{一共|yígòng}"
+      ],
+      "answer": 0,
+      "accept": [
+        "035"
+      ],
+      "explanation": "**一共 / 加起来 / 总共** → 加.",
+      "notes": [
+        "in total",
+        "fewer → subtract",
+        "used up → subtract",
+        "added together",
+        "what's left → subtract",
+        "altogether"
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s1_sub",
+      "prompt": "「{八|bā}{比|bǐ}{五|wǔ}{多|duō}{几|jǐ}？」 What is the question?",
+      "options": [
+        "What's 8 × 5? (40)",
+        "What's 8 + 5? (13)",
+        "Is 8 more than 5? (yes)",
+        "How much more is 8 than 5? (3)"
+      ],
+      "answer": 3,
+      "explanation": "A **比** B **多几** = how many more → A 减 B.",
+      "notes": [
+        "No 乘 here.",
+        "比…多几 asks for the **difference**.",
+        "多几 asks 'how many more', not yes/no.",
+        ""
+      ],
+      "translation": "How much more is 8 than 5?"
+    },
+    {
+      "point": "s1_add",
+      "kind": "multi",
+      "prompt": "Check the homework: which calculations are **right**? Select all.",
+      "options": [
+        "{二十五|èrshíwǔ}{加|jiā}{十七|shíqī}{等于|děngyú}{四十二|sìshí'èr}",
+        "{七|qī}{加|jiā}{七|qī}{等于|děngyú}{十四|shísì}",
+        "{十三|shísān}{加|jiā}{八|bā}{等于|děngyú}{二十二|èrshí'èr}",
+        "{六十|liùshí}{减|jiǎn}{十九|shíjiǔ}{等于|děngyú}{四十九|sìshíjiǔ}",
+        "{九十|jiǔshí}{减|jiǎn}{四十五|sìshíwǔ}{等于|děngyú}{四十五|sìshíwǔ}"
+      ],
+      "answer": 0,
+      "accept": [
+        "014"
+      ],
+      "explanation": "Read the numbers carefully: 十九 = 19, 九十 = 90.",
+      "notes": [
+        "25 + 17 = 42 ✔",
+        "7 + 7 = 14 ✔",
+        "13 + 8 = 21, not 22.",
+        "60 − 19 = 41, not 49.",
+        "90 − 45 = 45 ✔"
+      ],
+      "translation": ""
+    }
+  ]
+}

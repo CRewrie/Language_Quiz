@@ -1,0 +1,242 @@
+{
+  "id": "zh-dd-suan-3",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "算 Step 3 · Fractions, Decimals, Percent and Minus: 分之, 点, 百分之, 负",
+  "description": "四分之三 = ¾ — the bottom comes first! Then decimals (三点五, 零点零八), percentages (百分之二十) and negatives (负五).",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "s3_frac",
+      "title": "分之: the bottom number first",
+      "summary": "B 分之 A = A/B: '(out of) B parts, A of them'. 四分之三 = ¾.",
+      "body": "- 二**分之**一 = ½ (also **一半**)\n- 三分之二 = ⅔\n- 四分之一 = ¼\n- Percent works the same way: **百分之**二十 = 20/100 = 20%.\n\n| | say | example |\n|---|---|---|\n| **+** | 加 jiā | 三**加**五**等于**八 (3 + 5 = 8) |\n| **−** | 减 jiǎn | 十**减**四等于六 (10 − 4 = 6) |\n| **×** | 乘 / 乘以 chéng(yǐ) | 六**乘以**七等于四十二 |\n| **÷** | 除以 chúyǐ | 十**除以**二等于五 · ⚠️ 二**除**十 = 10 ÷ 2 too! |\n| **=** | 等于 děngyú | (spoken: 是) |\n| **¾** | 四**分之**三 — bottom number first | 二分之一 = ½ |\n| **3.5 · 20% · −5** | 三**点**五 · **百分之**二十 · **负**五 | 0.08 = 零点零八 |\n| **×2 · 20% off** | 两**倍** · 打**八折** (pay 80%) | 增加了一倍 = doubled |",
+      "examples": [
+        [
+          "{四分之三|sì fēn zhī sān}{的|de}{学生|xuésheng}{会|huì}{说|shuō}{中文|Zhōngwén}。",
+          "Three quarters of the students speak Chinese."
+        ]
+      ]
+    },
+    {
+      "id": "s3_dec",
+      "title": "点, 百分之, 负",
+      "summary": "3.5 = 三**点**五 (digits after the point one by one: 0.25 = 零点二五). 20% = **百分之**二十. −5 = **负**五.",
+      "body": "- 零点零八 = 0.08\n- 百分之五 = 5%\n- 负五度 = −5° (weather often says 零下五度)\n\n| | say | example |\n|---|---|---|\n| **+** | 加 jiā | 三**加**五**等于**八 (3 + 5 = 8) |\n| **−** | 减 jiǎn | 十**减**四等于六 (10 − 4 = 6) |\n| **×** | 乘 / 乘以 chéng(yǐ) | 六**乘以**七等于四十二 |\n| **÷** | 除以 chúyǐ | 十**除以**二等于五 · ⚠️ 二**除**十 = 10 ÷ 2 too! |\n| **=** | 等于 děngyú | (spoken: 是) |\n| **¾** | 四**分之**三 — bottom number first | 二分之一 = ½ |\n| **3.5 · 20% · −5** | 三**点**五 · **百分之**二十 · **负**五 | 0.08 = 零点零八 |\n| **×2 · 20% off** | 两**倍** · 打**八折** (pay 80%) | 增加了一倍 = doubled |",
+      "examples": [
+        [
+          "{今天|jīntiān}{便宜|piányi}{百分之二十|bǎi fēn zhī èrshí}。",
+          "It's 20% cheaper today."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "s3_frac",
+      "kind": "match",
+      "prompt": "Bottom first! Which fraction is each?",
+      "items": [
+        "{四分之一|sì fēn zhī yī}",
+        "{二分之一|èr fēn zhī yī}",
+        "{四分之三|sì fēn zhī sān}",
+        "{三分之一|sān fēn zhī yī}",
+        "{三分之二|sān fēn zhī èr}"
+      ],
+      "groups": [
+        "⅔",
+        "¾",
+        "½",
+        "⅓",
+        "¼"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "42130"
+      ],
+      "explanation": "B **分之** A = A/B — the bottom number comes first.",
+      "notes": [
+        "4 parts, 1 of them.",
+        "2 parts, 1 of them.",
+        "4 parts, 3 of them.",
+        "3 parts, 1 of them.",
+        "3 parts, 2 of them."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s3_frac",
+      "prompt": "Why is ¾ said 「{四分之三|sì fēn zhī sān}」?",
+      "options": [
+        "It's a mistake for 三分之四.",
+        "'Divided into 4 parts, 3 of them' — the whole comes first.",
+        "Chinese reads fractions right to left.",
+        "四 means three here."
+      ],
+      "answer": 1,
+      "explanation": "**分之** = 'of the parts': whole first, then the part.",
+      "notes": [
+        "三分之四 = 4/3.",
+        "",
+        "It's not about direction — it's whole first, then the part.",
+        "四 is always four."
+      ],
+      "translation": "¾"
+    },
+    {
+      "point": "s3_frac",
+      "kind": "tiles",
+      "prompt": "Say it: two fifths (⅖)",
+      "items": [
+        "{分|fēn}",
+        "{之|zhī}",
+        "{五|wǔ}",
+        "{二|èr}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "2013"
+      ],
+      "explanation": "**五分之二** — five parts, two of them.",
+      "notes": [],
+      "translation": "two fifths"
+    },
+    {
+      "point": "s3_dec",
+      "kind": "match",
+      "prompt": "Which number is it?",
+      "items": [
+        "{零点二五|líng diǎn èr wǔ}",
+        "{百分之三十五|bǎi fēn zhī sānshíwǔ}",
+        "{百分之五|bǎi fēn zhī wǔ}",
+        "{负五|fù wǔ}",
+        "{三点五|sān diǎn wǔ}",
+        "{百分之二十|bǎi fēn zhī èrshí}"
+      ],
+      "groups": [
+        "3.5",
+        "35%",
+        "5%",
+        "−5",
+        "20%",
+        "0.25"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "512304"
+      ],
+      "explanation": "**点** = decimal point · **百分之** = % · **负** = negative.",
+      "notes": [
+        "Digits after 点 one by one: 二五.",
+        "35%.",
+        "5%.",
+        "负 = minus (a negative number).",
+        "点 = decimal point.",
+        "百分之 = per cent."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s3_dec",
+      "prompt": "How do you say 0.08?",
+      "options": [
+        "零点零零八/líng diǎn líng líng bā",
+        "点零八/diǎn líng bā",
+        "零点零八/líng diǎn líng bā",
+        "零点八/líng diǎn bā"
+      ],
+      "answer": 2,
+      "explanation": "Read every digit after 点: 0.08 = **零点零八**.",
+      "notes": [
+        "That's 0.008.",
+        "The 零 before the point is needed.",
+        "",
+        "That's 0.8."
+      ],
+      "translation": "0.08"
+    },
+    {
+      "point": "s3_dec",
+      "kind": "multi",
+      "prompt": "Which are said correctly? Select all.",
+      "options": [
+        "50%→{百分之五十|bǎi fēn zhī wǔshí}",
+        "1.05→{一点五|yī diǎn wǔ}",
+        "¼→{一分之四|yī fēn zhī sì}",
+        "−3→{负三|fù sān}",
+        "2.5→{二点五|èr diǎn wǔ}",
+        "⅓→{三分之一|sān fēn zhī yī}",
+        "30%→{三十百分|sānshí bǎifēn}"
+      ],
+      "answer": 0,
+      "accept": [
+        "0345"
+      ],
+      "explanation": "分之 / 百分之: the whole first. 点: every digit.",
+      "notes": [
+        "✔",
+        "That's 1.5 — 1.05 is 一点零五.",
+        "Bottom first: 四分之一.",
+        "✔",
+        "✔",
+        "✔",
+        "百分之 comes first: 百分之三十."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s3_frac",
+      "prompt": "Which means 'half'?",
+      "options": [
+        "百分之二/bǎi fēn zhī èr",
+        "两倍/liǎng bèi",
+        "一点二/yī diǎn èr",
+        "二分之一/èr fēn zhī yī"
+      ],
+      "answer": 3,
+      "explanation": "½ = **二分之一** = 一半.",
+      "notes": [
+        "That's 2%.",
+        "That's double.",
+        "That's 1.2.",
+        ""
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s3_dec",
+      "kind": "sort",
+      "prompt": "More or less than a half?",
+      "items": [
+        "{零点三|líng diǎn sān}",
+        "{百分之六十|bǎi fēn zhī liùshí}",
+        "{零点七五|líng diǎn qī wǔ}",
+        "{三分之二|sān fēn zhī èr}",
+        "{五分之二|wǔ fēn zhī èr}",
+        "{四分之一|sì fēn zhī yī}"
+      ],
+      "groups": [
+        "> ½",
+        "< ½"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "100011"
+      ],
+      "explanation": "Read the bottom number first in 分之 — then compare.",
+      "notes": [
+        "0.3",
+        "60%",
+        "0.75",
+        "⅔ ≈ 0.67",
+        "⅖ = 0.4",
+        "¼ = 0.25"
+      ],
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "id": "zh-dd-suan-2",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "算 Step 2 · Times and Divided By: 乘, 除以 and the Order Trap",
+  "description": "六乘以七等于四十二 — easy. But 十除以二 and 二除十 are the same sum! Plus the times-table chant (三七二十一) and sharing with 平均 / 每.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "s2_mul",
+      "title": "乘 / 乘以, and the times-table chant",
+      "summary": "A 乘(以) B 等于 C. Children chant the table without any operator: 三七二十一 = 3 × 7 = 21.",
+      "body": "- 六**乘以**七等于四十二。 (乘 alone is fine too)\n- 九九乘法表: 二二得四, 三七二十一, 九九八十一 (得 dé = makes).\n- Idiom: **不管三七二十一** = no matter what, regardless.\n\n| | say | example |\n|---|---|---|\n| **+** | 加 jiā | 三**加**五**等于**八 (3 + 5 = 8) |\n| **−** | 减 jiǎn | 十**减**四等于六 (10 − 4 = 6) |\n| **×** | 乘 / 乘以 chéng(yǐ) | 六**乘以**七等于四十二 |\n| **÷** | 除以 chúyǐ | 十**除以**二等于五 · ⚠️ 二**除**十 = 10 ÷ 2 too! |\n| **=** | 等于 děngyú | (spoken: 是) |\n| **¾** | 四**分之**三 — bottom number first | 二分之一 = ½ |\n| **3.5 · 20% · −5** | 三**点**五 · **百分之**二十 · **负**五 | 0.08 = 零点零八 |\n| **×2 · 20% off** | 两**倍** · 打**八折** (pay 80%) | 增加了一倍 = doubled |",
+      "examples": [
+        [
+          "{六|liù}{乘以|chéngyǐ}{七|qī}{等于|děngyú}{四十二|sìshí'èr}。",
+          "6 × 7 = 42"
+        ]
+      ]
+    },
+    {
+      "id": "s2_div",
+      "title": "除以 vs 除: the order trap",
+      "summary": "A **除以** B = A ÷ B. But A **除** B = B ÷ A ('use A to divide B'). Say 除以 and you'll never get it wrong.",
+      "body": "- 十**除以**二等于五。 10 ÷ 2 = 5\n- 二**除**十等于五。 also 10 ÷ 2!\n- Sharing: 二十四块饼干，六个人**平均**分，**每**人四块。\n\n| | say | example |\n|---|---|---|\n| **+** | 加 jiā | 三**加**五**等于**八 (3 + 5 = 8) |\n| **−** | 减 jiǎn | 十**减**四等于六 (10 − 4 = 6) |\n| **×** | 乘 / 乘以 chéng(yǐ) | 六**乘以**七等于四十二 |\n| **÷** | 除以 chúyǐ | 十**除以**二等于五 · ⚠️ 二**除**十 = 10 ÷ 2 too! |\n| **=** | 等于 děngyú | (spoken: 是) |\n| **¾** | 四**分之**三 — bottom number first | 二分之一 = ½ |\n| **3.5 · 20% · −5** | 三**点**五 · **百分之**二十 · **负**五 | 0.08 = 零点零八 |\n| **×2 · 20% off** | 两**倍** · 打**八折** (pay 80%) | 增加了一倍 = doubled |",
+      "examples": [
+        [
+          "{十|shí}{除以|chúyǐ}{二|èr}{等于|děngyú}{五|wǔ}。",
+          "10 ÷ 2 = 5"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "s2_mul",
+      "kind": "tiles",
+      "prompt": "Say it in Chinese: 6 × 7 = 42",
+      "items": [
+        "{四十二|sìshí'èr}",
+        "{乘以|chéngyǐ}",
+        "{六|liù}",
+        "{七|qī}",
+        "{等于|děngyú}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "21340"
+      ],
+      "explanation": "六**乘以**七等于四十二。",
+      "notes": [],
+      "translation": "6 × 7 = 42"
+    },
+    {
+      "point": "s2_div",
+      "prompt": "「{十|shí}{除以|chúyǐ}{二|èr}」 is …",
+      "options": [
+        "10 ÷ 2",
+        "2 ÷ 10",
+        "10 × 2",
+        "10 − 2"
+      ],
+      "answer": 0,
+      "explanation": "A **除以** B = A ÷ B.",
+      "notes": [
+        "",
+        "除以 keeps the order: the first number is divided.",
+        "That's 乘.",
+        "That's 减."
+      ],
+      "translation": "10 ÷ 2",
+      "fixed_order": true
+    },
+    {
+      "point": "s2_div",
+      "prompt": "⚠️ And 「{二|èr}{除|chú}{十|shí}」 (no 以)?",
+      "options": [
+        "10 ÷ 2 = 5",
+        "2 ÷ 10 = 0.2",
+        "2 × 10 = 20",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "A **除** B = B ÷ A. That's why everyone just says **除以**.",
+      "notes": [
+        "",
+        "Plain 除 flips it: 二除十 = 'use 2 to divide 10'.",
+        "No multiplication here.",
+        "No adding either."
+      ],
+      "translation": "10 ÷ 2 = 5",
+      "fixed_order": true
+    },
+    {
+      "point": "s2_div",
+      "kind": "sort",
+      "prompt": "The order trap: is the answer 5 or ⅕?",
+      "items": [
+        "{二|èr}{除|chú}{十|shí}",
+        "{一|yī}{除以|chúyǐ}{五|wǔ}",
+        "{十|shí}{除以|chúyǐ}{二|èr}",
+        "{十五|shíwǔ}{除以|chúyǐ}{三|sān}",
+        "{二|èr}{除以|chúyǐ}{十|shí}",
+        "{三|sān}{除以|chúyǐ}{十五|shíwǔ}"
+      ],
+      "groups": [
+        "= 5",
+        "= ⅕ (0.2)"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "010011"
+      ],
+      "explanation": "**除以**: first ÷ second. Plain **除**: second ÷ first.",
+      "notes": [
+        "Plain 除 flips: 10 ÷ 2 = 5",
+        "1 ÷ 5 = 0.2",
+        "10 ÷ 2 = 5",
+        "15 ÷ 3 = 5",
+        "2 ÷ 10 = 0.2",
+        "3 ÷ 15 = 0.2"
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s2_mul",
+      "kind": "match",
+      "prompt": "The times-table chant: which sum is it?",
+      "items": [
+        "{三七二十一|sān qī èrshíyī}",
+        "{五五二十五|wǔ wǔ èrshíwǔ}",
+        "{四六二十四|sì liù èrshísì}",
+        "{八九七十二|bā jiǔ}qīshí'èr"
+      ],
+      "groups": [
+        "4 × 6 = 24",
+        "8 × 9 = 72",
+        "3 × 7 = 21",
+        "5 × 5 = 25"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "2301"
+      ],
+      "explanation": "The 九九乘法表 just strings the numbers together: 三七二十一.",
+      "notes": [
+        "三 × 七 = 二十一 (and the idiom 不管三七二十一).",
+        "5 × 5 = 25.",
+        "4 × 6 = 24.",
+        "8 × 9 = 72."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s2_mul",
+      "kind": "multi",
+      "prompt": "Which ways can you say 4 × 5 = 20? Select all.",
+      "options": [
+        "{四|sì}{乘|chéng}{五|wǔ}{等于|děngyú}{二十|èrshí}",
+        "{四五二十|sì wǔ èrshí}",
+        "{四|sì}{加|jiā}{五|wǔ}{等于|děngyú}{二十|èrshí}",
+        "{五|wǔ}{除以|chúyǐ}{四|sì}{等于|děngyú}{二十|èrshí}",
+        "{四|sì}{乘|chéng}{五|wǔ}{是|shì}{二十|èrshí}",
+        "{四|sì}{乘以|chéngyǐ}{五|wǔ}{等于|děngyú}{二十|èrshí}"
+      ],
+      "answer": 0,
+      "accept": [
+        "0145"
+      ],
+      "explanation": "× = **乘 / 乘以**, or just the chant.",
+      "notes": [
+        "✔ 乘 alone works.",
+        "✔ the times-table chant.",
+        "加 = plus: 4 + 5 = 9.",
+        "÷, not ×.",
+        "✔ spoken: 是 for 等于.",
+        "✔ the full form."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s2_div",
+      "prompt": "「{二十四|èrshísì}{块|kuài}{饼干|bǐnggān}，{六|liù}{个|ge}{孩子|háizi}{平均|píngjūn}{分|fēn}，{每|měi}{人|rén}{几|jǐ}{块|kuài}？」",
+      "options": [
+        "{一百四十四|yìbǎi sìshísì}{块|kuài}",
+        "{四|sì}{块|kuài}",
+        "{三十|sānshí}{块|kuài}",
+        "{十八|shíbā}{块|kuài}"
+      ],
+      "answer": 1,
+      "explanation": "**平均分 / 每人** → 除以: 二十四除以六等于四.",
+      "notes": [
+        "That's 乘.",
+        "",
+        "That's 加.",
+        "That's 减."
+      ],
+      "translation": "24 biscuits shared equally among 6 children — how many each?"
+    },
+    {
+      "point": "s2_mul",
+      "kind": "sort",
+      "prompt": "Times or divide? Which does each question need?",
+      "items": [
+        "{十五|shíwǔ}{块|kuài}{买|mǎi}{了|le}{五|wǔ}{个|ge}{苹果|píngguǒ}，{一个|yí ge}{多少|duōshao}{钱|qián}？",
+        "{每|měi}{人|rén}{两|liǎng}{本|běn}{书|shū}，{二十|èrshí}{个|ge}{人|rén}{要|yào}{几|jǐ}{本|běn}？",
+        "{一个|yí ge}{苹果|píngguǒ}{三|sān}{块|kuài}，{五|wǔ}{个|ge}{多少|duōshao}{钱|qián}？",
+        "{一个|yí ge}{星期|xīngqī}{七|qī}{天|tiān}，{四|sì}{个|ge}{星期|xīngqī}{几|jǐ}{天|tiān}？",
+        "{三十|sānshí}{个|ge}{学生|xuésheng}{分成|fēnchéng}{六|liù}{组|zǔ}，{每|měi}{组|zǔ}{几|jǐ}{个|ge}{人|rén}？",
+        "{一百|yìbǎi}{块|kuài}{平均|píngjūn}{分|fēn}{给|gěi}{四|sì}{个|ge}{人|rén}，{每|měi}{人|rén}{多少|duōshao}？"
+      ],
+      "groups": [
+        "✖️ 乘",
+        "➗ 除"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "100011"
+      ],
+      "explanation": "Each × how many → **乘**; share out / per one → **除以**.",
+      "notes": [
+        "15 ÷ 5.",
+        "2 × 20.",
+        "3 × 5.",
+        "7 × 4.",
+        "30 ÷ 6.",
+        "100 ÷ 4."
+      ],
+      "translation": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "id": "zh-dd-suan-5",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "算 Step 5 · Boss Level: 小林 Splits the Hotpot Bill",
+  "description": "Four friends, one hotpot, a discount and a bill to split. Every kind of calculation in one dinner.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "s5_read",
+      "title": "Reading numbers in a story",
+      "summary": "Spot the operation: 一共 (+), 还剩 (−), 打折 (×), 平均分 (÷).",
+      "body": "Follow the money.\n\n| | say | example |\n|---|---|---|\n| **+** | 加 jiā | 三**加**五**等于**八 (3 + 5 = 8) |\n| **−** | 减 jiǎn | 十**减**四等于六 (10 − 4 = 6) |\n| **×** | 乘 / 乘以 chéng(yǐ) | 六**乘以**七等于四十二 |\n| **÷** | 除以 chúyǐ | 十**除以**二等于五 · ⚠️ 二**除**十 = 10 ÷ 2 too! |\n| **=** | 等于 děngyú | (spoken: 是) |\n| **¾** | 四**分之**三 — bottom number first | 二分之一 = ½ |\n| **3.5 · 20% · −5** | 三**点**五 · **百分之**二十 · **负**五 | 0.08 = 零点零八 |\n| **×2 · 20% off** | 两**倍** · 打**八折** (pay 80%) | 增加了一倍 = doubled |",
+      "examples": [
+        [
+          "{每|měi}{人|rén}{八十一|bāshíyī}{块|kuài}。",
+          "81 kuai each."
+        ]
+      ]
+    },
+    {
+      "id": "s5_mixed",
+      "title": "Final mixed challenge",
+      "summary": "All the maths words together.",
+      "body": "加 · 减 · 乘以 · 除以 · 分之 · 点 · 折 · 倍\n\n| | say | example |\n|---|---|---|\n| **+** | 加 jiā | 三**加**五**等于**八 (3 + 5 = 8) |\n| **−** | 减 jiǎn | 十**减**四等于六 (10 − 4 = 6) |\n| **×** | 乘 / 乘以 chéng(yǐ) | 六**乘以**七等于四十二 |\n| **÷** | 除以 chúyǐ | 十**除以**二等于五 · ⚠️ 二**除**十 = 10 ÷ 2 too! |\n| **=** | 等于 děngyú | (spoken: 是) |\n| **¾** | 四**分之**三 — bottom number first | 二分之一 = ½ |\n| **3.5 · 20% · −5** | 三**点**五 · **百分之**二十 · **负**五 | 0.08 = 零点零八 |\n| **×2 · 20% off** | 两**倍** · 打**八折** (pay 80%) | 增加了一倍 = doubled |",
+      "examples": [
+        [
+          "{三百六十|sānbǎi liùshí}{乘以|chéngyǐ}{零点九|líng diǎn jiǔ}{等于|děngyú}{三百二十四|sānbǎi èrshísì}。",
+          "360 × 0.9 = 324"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "s5_read",
+      "prompt": "{周末|zhōumò}{小林|Xiǎo Lín}{和|hé}{三|sān}{个|ge}{朋友|péngyou}{去|qù}{吃|chī}{火锅|huǒguō}。{他们|tāmen}{一共|yígòng}{点|diǎn}{了|le}{三百六十|sānbǎi liùshí}{块|kuài}{的|de}{菜|cài}。{老板|lǎobǎn}{说|shuō}：“{今天|jīntiān}{打|dǎ}{九|jiǔ}{折|zhé}！”{打折|dǎzhé}{以后|yǐhòu}{是|shì}{三百二十四|sānbǎi èrshísì}{块|kuài}。{他们|tāmen}{四|sì}{个|ge}{人|rén}{平均|píngjūn}{分|fēn}，{每|měi}{人|rén}{八十一|bāshíyī}{块|kuài}。{小林|Xiǎo Lín}{带|dài}{了|le}{一百|yìbǎi}{块|kuài}，{付|fù}{完|wán}{以后|yǐhòu}{还|hái}{剩|shèng}{十九|shíjiǔ}{块|kuài}。{一个|yí ge}{朋友|péngyou}{说|shuō}：“{下次|xiàcì}{我|wǒ}{请客|qǐngkè}，{你们|nǐmen}{只|zhǐ}{付|fù}{一半|yíbàn}！”\n\n★ {每|měi}{人|rén}{付|fù}{了|le}{九十|jiǔshí}{块|kuài}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "三百二十四**除以**四等于八十一.",
+      "notes": [
+        "八十一块 each (324 ÷ 4).",
+        ""
+      ],
+      "translation": "At the weekend Xiao Lin and three friends went for hotpot. They ordered 360 kuai of food altogether. The owner said: 'Ten per cent off today!' After the discount it was 324 kuai. The four of them split it equally — 81 kuai each. Xiao Lin had brought 100 kuai, so after paying he had 19 left. One friend said: 'Next time it's my treat — you only pay half!' ★ Each person paid 90 kuai.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_read",
+      "prompt": "{周末|zhōumò}{小林|Xiǎo Lín}{和|hé}{三|sān}{个|ge}{朋友|péngyou}{去|qù}{吃|chī}{火锅|huǒguō}。{他们|tāmen}{一共|yígòng}{点|diǎn}{了|le}{三百六十|sānbǎi liùshí}{块|kuài}{的|de}{菜|cài}。{老板|lǎobǎn}{说|shuō}：“{今天|jīntiān}{打|dǎ}{九|jiǔ}{折|zhé}！”{打折|dǎzhé}{以后|yǐhòu}{是|shì}{三百二十四|sānbǎi èrshísì}{块|kuài}。{他们|tāmen}{四|sì}{个|ge}{人|rén}{平均|píngjūn}{分|fēn}，{每|měi}{人|rén}{八十一|bāshíyī}{块|kuài}。{小林|Xiǎo Lín}{带|dài}{了|le}{一百|yìbǎi}{块|kuài}，{付|fù}{完|wán}{以后|yǐhòu}{还|hái}{剩|shèng}{十九|shíjiǔ}{块|kuài}。{一个|yí ge}{朋友|péngyou}{说|shuō}：“{下次|xiàcì}{我|wǒ}{请客|qǐngkè}，{你们|nǐmen}{只|zhǐ}{付|fù}{一半|yíbàn}！”\n\n★ {吃饭|chīfàn}{的|de}{一共|yígòng}{有|yǒu}{四|sì}{个|ge}{人|rén}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "一加三等于四.",
+      "notes": [
+        "",
+        "小林 + 三个朋友 = 4."
+      ],
+      "translation": "At the weekend Xiao Lin and three friends went for hotpot. They ordered 360 kuai of food altogether. The owner said: 'Ten per cent off today!' After the discount it was 324 kuai. The four of them split it equally — 81 kuai each. Xiao Lin had brought 100 kuai, so after paying he had 19 left. One friend said: 'Next time it's my treat — you only pay half!' ★ Four people ate together.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_read",
+      "prompt": "{周末|zhōumò}{小林|Xiǎo Lín}{和|hé}{三|sān}{个|ge}{朋友|péngyou}{去|qù}{吃|chī}{火锅|huǒguō}。{他们|tāmen}{一共|yígòng}{点|diǎn}{了|le}{三百六十|sānbǎi liùshí}{块|kuài}{的|de}{菜|cài}。{老板|lǎobǎn}{说|shuō}：“{今天|jīntiān}{打|dǎ}{九|jiǔ}{折|zhé}！”{打折|dǎzhé}{以后|yǐhòu}{是|shì}{三百二十四|sānbǎi èrshísì}{块|kuài}。{他们|tāmen}{四|sì}{个|ge}{人|rén}{平均|píngjūn}{分|fēn}，{每|měi}{人|rén}{八十一|bāshíyī}{块|kuài}。{小林|Xiǎo Lín}{带|dài}{了|le}{一百|yìbǎi}{块|kuài}，{付|fù}{完|wán}{以后|yǐhòu}{还|hái}{剩|shèng}{十九|shíjiǔ}{块|kuài}。{一个|yí ge}{朋友|péngyou}{说|shuō}：“{下次|xiàcì}{我|wǒ}{请客|qǐngkè}，{你们|nǐmen}{只|zhǐ}{付|fù}{一半|yíbàn}！”\n\n★ {打折|dǎzhé}{以后|yǐhòu}{他们|tāmen}{要|yào}{付|fù}{多少|duōshao}{钱|qián}？",
+      "options": [
+        "{二百七十|èrbǎi qīshí}{块|kuài}",
+        "{三十六|sānshíliù}{块|kuài}",
+        "{三百二十四|sānbǎi èrshísì}{块|kuài}",
+        "{三百六十|sānbǎi liùshí}{块|kuài}"
+      ],
+      "answer": 2,
+      "explanation": "打九折 = pay 90%: 360 × 0.9 = **324**.",
+      "notes": [
+        "That would be 打七五折.",
+        "That's the discount itself (10%).",
+        "",
+        "That's before the discount."
+      ],
+      "translation": "At the weekend Xiao Lin and three friends went for hotpot. They ordered 360 kuai of food altogether. The owner said: 'Ten per cent off today!' After the discount it was 324 kuai. The four of them split it equally — 81 kuai each. Xiao Lin had brought 100 kuai, so after paying he had 19 left. One friend said: 'Next time it's my treat — you only pay half!' ★ How much did they pay after the discount?"
+    },
+    {
+      "point": "s5_read",
+      "prompt": "{周末|zhōumò}{小林|Xiǎo Lín}{和|hé}{三|sān}{个|ge}{朋友|péngyou}{去|qù}{吃|chī}{火锅|huǒguō}。{他们|tāmen}{一共|yígòng}{点|diǎn}{了|le}{三百六十|sānbǎi liùshí}{块|kuài}{的|de}{菜|cài}。{老板|lǎobǎn}{说|shuō}：“{今天|jīntiān}{打|dǎ}{九|jiǔ}{折|zhé}！”{打折|dǎzhé}{以后|yǐhòu}{是|shì}{三百二十四|sānbǎi èrshísì}{块|kuài}。{他们|tāmen}{四|sì}{个|ge}{人|rén}{平均|píngjūn}{分|fēn}，{每|měi}{人|rén}{八十一|bāshíyī}{块|kuài}。{小林|Xiǎo Lín}{带|dài}{了|le}{一百|yìbǎi}{块|kuài}，{付|fù}{完|wán}{以后|yǐhòu}{还|hái}{剩|shèng}{十九|shíjiǔ}{块|kuài}。{一个|yí ge}{朋友|péngyou}{说|shuō}：“{下次|xiàcì}{我|wǒ}{请客|qǐngkè}，{你们|nǐmen}{只|zhǐ}{付|fù}{一半|yíbàn}！”\n\n★ {小林|Xiǎo Lín}{还|hái}{剩|shèng}{多少|duōshao}{钱|qián}？",
+      "options": [
+        "{一百|yìbǎi}{块|kuài}",
+        "{十九|shíjiǔ}{块|kuài}",
+        "{八十一|bāshíyī}{块|kuài}",
+        "{九十一|jiǔshíyī}{块|kuài}"
+      ],
+      "answer": 1,
+      "explanation": "一百减八十一等于**十九**.",
+      "notes": [
+        "That's what he brought.",
+        "",
+        "That's what he paid.",
+        "九十一 = 91 — careful with the order of 十 and 九."
+      ],
+      "translation": "At the weekend Xiao Lin and three friends went for hotpot. They ordered 360 kuai of food altogether. The owner said: 'Ten per cent off today!' After the discount it was 324 kuai. The four of them split it equally — 81 kuai each. Xiao Lin had brought 100 kuai, so after paying he had 19 left. One friend said: 'Next time it's my treat — you only pay half!' ★ How much money does Xiao Lin have left?"
+    },
+    {
+      "point": "s5_mixed",
+      "kind": "sort",
+      "prompt": "Which operation answers each question about the story?",
+      "items": [
+        "{小林|Xiǎo Lín}{还|hái}{剩|shèng}{多少|duōshao}？",
+        "{打|dǎ}{九|jiǔ}{折|zhé}{以后|yǐhòu}{多少|duōshao}{钱|qián}？",
+        "{每|měi}{人|rén}{付|fù}{多少|duōshao}？",
+        "{一共|yígòng}{几|jǐ}{个|ge}{人|rén}？",
+        "{便宜|piányi}{了|le}{多少|duōshao}{钱|qián}？"
+      ],
+      "groups": [
+        "➕ 加",
+        "➖ 减",
+        "✖️ 乘",
+        "➗ 除"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "12301"
+      ],
+      "explanation": "一共 → 加 · 还剩 / 便宜了 → 减 · 打折 → 乘 · 平均 / 每 → 除.",
+      "notes": [
+        "100 − 81.",
+        "360 × 0.9.",
+        "324 ÷ 4.",
+        "1 + 3.",
+        "360 − 324 = 36."
+      ],
+      "translation": ""
+    },
+    {
+      "point": "s5_mixed",
+      "kind": "tiles",
+      "prompt": "Say it in Chinese: 360 × 0.9 = 324",
+      "items": [
+        "{等于|děngyú}",
+        "{三百六十|sānbǎi liùshí}",
+        "{三百二十四|sānbǎi èrshísì}",
+        "{零点九|líng diǎn jiǔ}",
+        "{乘以|chéngyǐ}"
+      ],
+      "options": [],
+      "answer": 0,
+      "accept": [
+        "14302"
+      ],
+      "explanation": "三百六十**乘以零点九**等于三百二十四。",
+      "notes": [],
+      "translation": "360 × 0.9 = 324"
+    },
+    {
+      "point": "s5_mixed",
+      "prompt": "Next time they only pay half of 81 块 each. How much is that?",
+      "options": [
+        "{四|sì}{点|diǎn}{五|wǔ}{块|kuài}",
+        "{四十五|sìshíwǔ}{块|kuài}",
+        "{一百六十二|yìbǎi}liùshí'èr{块|kuài}",
+        "{四十点五|sìshí diǎn wǔ}{块|kuài}"
+      ],
+      "answer": 3,
+      "explanation": "八十一的**一半** = 八十一除以二 = **四十点五** (40.5).",
+      "notes": [
+        "That's 4.5 — a tenth of the answer.",
+        "81 ÷ 2 isn't 45.",
+        "That's double.",
+        ""
+      ],
+      "translation": "Next time they pay half of 81 kuai each."
+    },
+    {
+      "point": "s5_mixed",
+      "kind": "multi",
+      "prompt": "Which statements are true? Select all.",
+      "options": [
+        "{五十|wǔshí}{增加|zēngjiā}{了|le}{两|liǎng}{倍|bèi}{是|shì}{一百|yìbǎi}",
+        "{一百|yìbǎi}{块|kuài}{打|dǎ}{八|bā}{折|zhé}{是|shì}{八十|bāshí}{块|kuài}",
+        "{四分之一|sì fēn zhī yī}{等于|děngyú}{百分之二十五|bǎi fēn zhī èrshíwǔ}",
+        "{四|sì}{除以|chúyǐ}{二十|èrshí}{等于|děngyú}{五|wǔ}",
+        "{二十|èrshí}{除以|chúyǐ}{四|sì}{等于|děngyú}{五|wǔ}",
+        "{三分之一|sān fēn zhī yī}{比|bǐ}{二分之一|èr fēn zhī yī}{大|dà}"
+      ],
+      "answer": 0,
+      "accept": [
+        "124"
+      ],
+      "explanation": "除以 order, 分之 order, 折 and 倍 — the four traps.",
+      "notes": [
+        "增加了两倍 = × 3 → 150.",
+        "✔",
+        "¼ = 25% ✔",
+        "4 ÷ 20 = 0.2.",
+        "20 ÷ 4 = 5 ✔",
+        "⅓ < ½."
+      ],
+      "translation": ""
+    }
+  ]
+}

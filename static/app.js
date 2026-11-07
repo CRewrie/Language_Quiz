@@ -915,6 +915,7 @@ const KINDS = [
   ["zhdd-de", "🧩", "的 / 地 / 得 — three ways to say de (steps 1–5)"],
   ["zhdd-babei", "🔁", "把 vs 被 — doing it or getting it done to you? (steps 1–5)"],
   ["zhdd-youzai", "🔂", "又 vs 再 — again, but when? (steps 1–5)"],
+  ["zhdd-suan", "🧮", "算 — plus, minus, times, divided by, fractions and % (steps 1–5)"],
 ];
 function quizKind(q) {
   if (q.category === "Adjective Lab") {
