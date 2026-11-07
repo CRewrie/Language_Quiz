@@ -1,0 +1,247 @@
+{
+  "id": "zh-dd-chadian-7",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "差点 Step 7 · Boss Level: 小林's Crazy Monday",
+  "description": "One very unlucky (and lucky) day, HSK-style: read 小林's story and decide what really happened — then the final mixed challenge.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "s7_story",
+      "title": "Reading for what really happened",
+      "summary": "In a story, mark each 差点 sentence: wanted or unwanted? With 没 or without? Then you know what happened.",
+      "body": "Check every 差点 against the table — then the true/false questions are easy.\n\n**The whole picture: 差点 vs 差点没**\n\n| | 😅 unwanted (摔倒) | 🎯 wanted (赶上) |\n|---|---|---|\n| **差点** | didn't happen | didn't happen 😢 |\n| **差点没** | didn't happen (same!) | **did** happen 🎉 |\n\n**Two questions decide it**\n1. Is the event something the speaker **wants** (赶上, 考上, 买到) or **doesn't want** (摔倒, 迟到, 丢)?\n2. Unwanted → it **didn't happen**, with or without 没. Wanted → 差点 = didn't happen, 差点没 = **did** happen.\n\n**Memory hooks**\n- 坏事加「没」，意思不变 — for bad things, 没 changes nothing.\n- 好事加「没」，意思反转 — for good things, 没 flips it.\n\n**Mood words give it away**\n- Relief (it went well): **幸亏 / 还好 / 好在** (luckily), **总算** (in the end), **好险** (that was close!)\n- Regret (it didn't): **可惜** (what a pity), **就差一点** (just a tiny bit short), **真遗憾** (what a shame)",
+      "examples": [
+        [
+          "{他|tā}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{公共汽车|gōnggòng qìchē}。",
+          "He only just caught the bus."
+        ]
+      ]
+    },
+    {
+      "id": "s7_mixed",
+      "title": "Final mixed challenge",
+      "summary": "Everything together: meaning, form and mood.",
+      "body": "If in doubt, run the two questions: wanted or unwanted? 没 or no 没?\n\n**The whole picture: 差点 vs 差点没**\n\n| | 😅 unwanted (摔倒) | 🎯 wanted (赶上) |\n|---|---|---|\n| **差点** | didn't happen | didn't happen 😢 |\n| **差点没** | didn't happen (same!) | **did** happen 🎉 |\n\n**Two questions decide it**\n1. Is the event something the speaker **wants** (赶上, 考上, 买到) or **doesn't want** (摔倒, 迟到, 丢)?\n2. Unwanted → it **didn't happen**, with or without 没. Wanted → 差点 = didn't happen, 差点没 = **did** happen.\n\n**Memory hooks**\n- 坏事加「没」，意思不变 — for bad things, 没 changes nothing.\n- 好事加「没」，意思反转 — for good things, 没 flips it.\n\n**Mood words give it away**\n- Relief (it went well): **幸亏 / 还好 / 好在** (luckily), **总算** (in the end), **好险** (that was close!)\n- Regret (it didn't): **可惜** (what a pity), **就差一点** (just a tiny bit short), **真遗憾** (what a shame)",
+      "examples": [
+        [
+          "{我|wǒ}{差点|chàdiǎn}{没|méi}{认|rèn}{出|chū}{你|nǐ}{来|lái}！",
+          "I almost didn't recognise you!"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "s7_story",
+      "prompt": "{星期一|xīngqīyī}{早上|zǎoshang}，{小林|Xiǎo Lín}{的|de}{闹钟|nàozhōng}{没|méi}{响|xiǎng}，{他|tā}{差点|chàdiǎn}{没|méi}{起来|qǐlai}。{他|tā}{跑|pǎo}{到|dào}{车站|chēzhàn}，{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{公共汽车|gōnggòng qìchē}。{下|xià}{车|chē}{的|de}{时候|shíhou}，{他|tā}{差点|chàdiǎn}{摔倒|shuāidǎo}。{到|dào}{了|le}{公司|gōngsī}，{他|tā}{以为|yǐwéi}{把|bǎ}{电脑|diànnǎo}{忘|wàng}{在|zài}{家|jiā}{里|li}{了|le}——{还好|háihǎo}，{电脑|diànnǎo}{就|jiù}{在|zài}{包|bāo}{里|li}。\n\n★ {小林|Xiǎo Lín}{没|méi}{赶上|gǎnshàng}{公共汽车|gōnggòng qìchē}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "赶上 is wanted → 差点没赶上 = **caught it**, just. So the statement is false.",
+      "notes": [
+        "差点没赶上 + wanted (赶上) → he **did** catch it.",
+        ""
+      ],
+      "translation": "On Monday morning Xiao Lin's alarm didn't go off, and he only just managed to get up. He ran to the bus stop and only just caught the bus. Getting off, he almost fell. At work he thought he'd left his laptop at home — luckily it was in his bag. ★ Xiao Lin missed the bus.",
+      "fixed_order": true
+    },
+    {
+      "point": "s7_story",
+      "prompt": "{星期一|xīngqīyī}{早上|zǎoshang}，{小林|Xiǎo Lín}{的|de}{闹钟|nàozhōng}{没|méi}{响|xiǎng}，{他|tā}{差点|chàdiǎn}{没|méi}{起来|qǐlai}。{他|tā}{跑|pǎo}{到|dào}{车站|chēzhàn}，{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{公共汽车|gōnggòng qìchē}。{下|xià}{车|chē}{的|de}{时候|shíhou}，{他|tā}{差点|chàdiǎn}{摔倒|shuāidǎo}。{到|dào}{了|le}{公司|gōngsī}，{他|tā}{以为|yǐwéi}{把|bǎ}{电脑|diànnǎo}{忘|wàng}{在|zài}{家|jiā}{里|li}{了|le}——{还好|háihǎo}，{电脑|diànnǎo}{就|jiù}{在|zài}{包|bāo}{里|li}。\n\n★ {小林|Xiǎo Lín}{下|xià}{车|chē}{的|de}{时候|shíhou}{摔倒|shuāidǎo}{了|le}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "Unwanted event + 差点 → **didn't fall**.",
+      "notes": [
+        "差点摔倒 = almost fell — he didn't.",
+        ""
+      ],
+      "translation": "On Monday morning Xiao Lin's alarm didn't go off, and he only just managed to get up. He ran to the bus stop and only just caught the bus. Getting off, he almost fell. At work he thought he'd left his laptop at home — luckily it was in his bag. ★ Xiao Lin fell when getting off.",
+      "fixed_order": true
+    },
+    {
+      "point": "s7_story",
+      "prompt": "{星期一|xīngqīyī}{早上|zǎoshang}，{小林|Xiǎo Lín}{的|de}{闹钟|nàozhōng}{没|méi}{响|xiǎng}，{他|tā}{差点|chàdiǎn}{没|méi}{起来|qǐlai}。{他|tā}{跑|pǎo}{到|dào}{车站|chēzhàn}，{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{公共汽车|gōnggòng qìchē}。{下|xià}{车|chē}{的|de}{时候|shíhou}，{他|tā}{差点|chàdiǎn}{摔倒|shuāidǎo}。{到|dào}{了|le}{公司|gōngsī}，{他|tā}{以为|yǐwéi}{把|bǎ}{电脑|diànnǎo}{忘|wàng}{在|zài}{家|jiā}{里|li}{了|le}——{还好|háihǎo}，{电脑|diànnǎo}{就|jiù}{在|zài}{包|bāo}{里|li}。\n\n★ {小林|Xiǎo Lín}{最后|zuìhòu}{起床|qǐchuáng}{了|le}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "Getting up is wanted → 差点没起来 = he **got up**, just in time.",
+      "notes": [
+        "",
+        "差点没起来 + wanted (getting up) → he **did** get up."
+      ],
+      "translation": "On Monday morning Xiao Lin's alarm didn't go off, and he only just managed to get up. He ran to the bus stop and only just caught the bus. Getting off, he almost fell. At work he thought he'd left his laptop at home — luckily it was in his bag. ★ Xiao Lin did get up in the end.",
+      "fixed_order": true
+    },
+    {
+      "point": "s7_story",
+      "prompt": "{星期一|xīngqīyī}{早上|zǎoshang}，{小林|Xiǎo Lín}{的|de}{闹钟|nàozhōng}{没|méi}{响|xiǎng}，{他|tā}{差点|chàdiǎn}{没|méi}{起来|qǐlai}。{他|tā}{跑|pǎo}{到|dào}{车站|chēzhàn}，{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{公共汽车|gōnggòng qìchē}。{下|xià}{车|chē}{的|de}{时候|shíhou}，{他|tā}{差点|chàdiǎn}{摔倒|shuāidǎo}。{到|dào}{了|le}{公司|gōngsī}，{他|tā}{以为|yǐwéi}{把|bǎ}{电脑|diànnǎo}{忘|wàng}{在|zài}{家|jiā}{里|li}{了|le}——{还好|háihǎo}，{电脑|diànnǎo}{就|jiù}{在|zài}{包|bāo}{里|li}。\n\n★ {小林|Xiǎo Lín}{把|bǎ}{电脑|diànnǎo}{忘|wàng}{在|zài}{家|jiā}{里|li}{了|le}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "以为 = **mistakenly thought**: 电脑就在包里. False.",
+      "notes": [
+        "以为 = he wrongly thought so — the laptop was in his bag.",
+        ""
+      ],
+      "translation": "On Monday morning Xiao Lin's alarm didn't go off, and he only just managed to get up. He ran to the bus stop and only just caught the bus. Getting off, he almost fell. At work he thought he'd left his laptop at home — luckily it was in his bag. ★ Xiao Lin left his laptop at home.",
+      "fixed_order": true
+    },
+    {
+      "point": "s7_story",
+      "prompt": "{中午|zhōngwǔ}，{公司|gōngsī}{抽奖|chōujiǎng}。{小林|Xiǎo Lín}{差点|chàdiǎn}{中|zhòng}{了|le}{一等奖|yīděngjiǎng}——{就|jiù}{差|chà}{一|yí}{个|ge}{号码|hàomǎ}。{不过|búguò}，{他|tā}{差点|chàdiǎn}{没|méi}{吃|chī}{上|shang}{午饭|wǔfàn}：{食堂|shítáng}{只|zhǐ}{剩|shèng}{最后|zuìhòu}{一|yí}{份|fèn}{了|le}。\n\n★ {小林|Xiǎo Lín}{中|zhòng}{了|le}{一等奖|yīděngjiǎng}{吗|ma}？",
+      "options": [
+        "{他|tā}{没|méi}{参加|cānjiā}",
+        "{他|tā}{中|zhòng}{了|le}{二等奖|èrděngjiǎng}",
+        "{中|zhòng}{了|le}",
+        "{没有|méiyǒu}，{就|jiù}{差|chà}{一|yí}{个|ge}{号码|hàomǎ}"
+      ],
+      "answer": 3,
+      "explanation": "差点中了 + 就差一个号码 → **didn't win**. 😢",
+      "notes": [
+        "He took part — and was one number short.",
+        "The story doesn't mention a second prize.",
+        "差点中了 + wanted → he did **not** win.",
+        ""
+      ],
+      "translation": "At lunchtime the company held a prize draw. Xiao Lin nearly won first prize — he was one number short. And he only just got lunch: the canteen had one portion left. ★ Did Xiao Lin win first prize?"
+    },
+    {
+      "point": "s7_story",
+      "prompt": "{中午|zhōngwǔ}，{公司|gōngsī}{抽奖|chōujiǎng}。{小林|Xiǎo Lín}{差点|chàdiǎn}{中|zhòng}{了|le}{一等奖|yīděngjiǎng}——{就|jiù}{差|chà}{一|yí}{个|ge}{号码|hàomǎ}。{不过|búguò}，{他|tā}{差点|chàdiǎn}{没|méi}{吃|chī}{上|shang}{午饭|wǔfàn}：{食堂|shítáng}{只|zhǐ}{剩|shèng}{最后|zuìhòu}{一|yí}{份|fèn}{了|le}。\n\n★ {小林|Xiǎo Lín}{吃|chī}{上|shang}{午饭|wǔfàn}{了|le}{吗|ma}？",
+      "options": [
+        "{没|méi}{吃|chī}{上|shang}",
+        "{他|tā}{在|zài}{家|jiā}{吃|chī}{的|de}",
+        "{吃|chī}{上|shang}{了|le}，{是|shì}{最后|zuìhòu}{一|yí}{份|fèn}",
+        "{他|tā}{不|bú}{饿|è}"
+      ],
+      "answer": 2,
+      "explanation": "差点没吃上 + 只剩最后一份 → **got the last portion**. 🎉",
+      "notes": [
+        "差点没吃上 + wanted → he **did** get lunch.",
+        "He ate at the canteen.",
+        "",
+        "The story doesn't say he wasn't hungry."
+      ],
+      "translation": "At lunchtime the company held a prize draw. Xiao Lin nearly won first prize — he was one number short. And he only just got lunch: the canteen had one portion left. ★ Did Xiao Lin get lunch?"
+    },
+    {
+      "point": "s7_story",
+      "prompt": "{晚上|wǎnshang}，{小林|Xiǎo Lín}{看|kàn}{了|le}{一个|yí ge}{很|hěn}{好笑|hǎoxiào}{的|de}{电影|diànyǐng}，{差点|chàdiǎn}{没|méi}{笑死|xiào sǐ}。{回家|huí jiā}{的|de}{路|lù}{上|shang}，{他|tā}{差点|chàdiǎn}{迷路|mílù}，{幸亏|xìngkuī}{有|yǒu}{手机|shǒujī}{地图|dìtú}。\n\n★ {小林|Xiǎo Lín}{迷路|mílù}{了|le}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 1,
+      "explanation": "Unwanted + 差点 → **didn't get lost** — thanks to the map.",
+      "notes": [
+        "差点迷路 + 幸亏有手机地图 → he didn't get lost.",
+        ""
+      ],
+      "translation": "In the evening Xiao Lin watched a really funny film and nearly died laughing. On the way home he almost got lost — luckily he had the map on his phone. ★ Xiao Lin got lost.",
+      "fixed_order": true
+    },
+    {
+      "point": "s7_story",
+      "prompt": "{晚上|wǎnshang}，{小林|Xiǎo Lín}{看|kàn}{了|le}{一个|yí ge}{很|hěn}{好笑|hǎoxiào}{的|de}{电影|diànyǐng}，{差点|chàdiǎn}{没|méi}{笑死|xiào sǐ}。{回家|huí jiā}{的|de}{路|lù}{上|shang}，{他|tā}{差点|chàdiǎn}{迷路|mílù}，{幸亏|xìngkuī}{有|yǒu}{手机|shǒujī}{地图|dìtú}。\n\n★ {这个|zhège}{电影|diànyǐng}{很|hěn}{好笑|hǎoxiào}。",
+      "options": [
+        "{对|duì}（true）",
+        "{错|cuò}（false）"
+      ],
+      "answer": 0,
+      "explanation": "差点没笑死 is an exaggeration: the film was **very funny**.",
+      "notes": [
+        "",
+        "差点没笑死 = he nearly died laughing — very funny."
+      ],
+      "translation": "In the evening Xiao Lin watched a really funny film and nearly died laughing. On the way home he almost got lost — luckily he had the map on his phone. ★ The film was funny.",
+      "fixed_order": true
+    },
+    {
+      "point": "s7_mixed",
+      "prompt": "Which rule is right?",
+      "options": [
+        "Bad thing: 差点 = 差点没 (didn't happen). Good thing: 差点 = didn't happen, 差点没 = did happen.",
+        "Bad thing: 差点没 = did happen. Good thing: 差点 = 差点没.",
+        "差点没 always means it happened.",
+        "差点 always means it happened, a little."
+      ],
+      "answer": 0,
+      "explanation": "坏事加「没」，意思不变；好事加「没」，意思反转。",
+      "notes": [
+        "",
+        "Swapped: with bad things the 没 changes nothing.",
+        "Not for bad things: 差点没摔倒 = didn't fall.",
+        "差点 means 'almost' — it didn't happen."
+      ],
+      "translation": "",
+      "fixed_order": true
+    },
+    {
+      "point": "s7_mixed",
+      "prompt": "{小林|Xiǎo Lín}{跑|pǎo}{到|dào}{站台|zhàntái}{的|de}{时候|shíhou}，{车门|chēmén}{刚|gāng}{关|guān}{上|shang}。{他|tā}{差点|chàdiǎn}（　）{末班车|mòbānchē}。",
+      "options": [
+        "{摔倒|shuāidǎo}",
+        "{没|méi}{赶上|gǎnshàng}",
+        "{赶上|gǎnshàng}",
+        "{迟到|chídào}"
+      ],
+      "answer": 2,
+      "explanation": "Doors closed → missed it: 差点**赶上** (almost caught).",
+      "notes": [
+        "Doesn't fit the doors closing.",
+        "差点没赶上 = he **caught** it — but the doors had closed.",
+        "",
+        "迟到 doesn't take an object like 末班车."
+      ],
+      "translation": "When Xiao Lin reached the platform, the doors had just closed. He almost caught the last train."
+    },
+    {
+      "point": "s7_mixed",
+      "prompt": "Which reply fits 「{我|wǒ}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{你|nǐ}{的|de}{婚礼|hūnlǐ}！」?",
+      "options": [
+        "{没关系|méi guānxi}，{下次|xiàcì}{吧|ba}。",
+        "{幸亏|xìngkuī}{你|nǐ}{来|lái}{了|le}！",
+        "{真|zhēn}{可惜|kěxī}，{你|nǐ}{没|méi}{来|lái}。",
+        "{你|nǐ}{为什么|wèishénme}{不|bù}{来|lái}？"
+      ],
+      "answer": 1,
+      "explanation": "差点没赶上 + wanted → **made it** → 幸亏你来了！",
+      "notes": [
+        "There's nothing to make up for — they came.",
+        "",
+        "差点没赶上 = they made it — 可惜 doesn't fit.",
+        "They did come."
+      ],
+      "translation": "I nearly missed your wedding!"
+    },
+    {
+      "point": "s7_mixed",
+      "prompt": "Which sentence means 'Luckily I left early — otherwise I'd have been late'?",
+      "options": [
+        "{幸亏|xìngkuī}{我|wǒ}{出门|chūmén}{早|zǎo}，{不然|bùrán}{就|jiù}{迟到|chídào}{了|le}。",
+        "{幸亏|xìngkuī}{我|wǒ}{差点|chàdiǎn}{没|méi}{出门|chūmén}。",
+        "{我|wǒ}{差点|chàdiǎn}{出门|chūmén}{早|zǎo}。",
+        "{可惜|kěxī}{我|wǒ}{出门|chūmén}{早|zǎo}，{差点|chàdiǎn}{迟到|chídào}{了|le}。"
+      ],
+      "answer": 0,
+      "explanation": "**幸亏…，不然…** = luckily …, otherwise … — the relief pattern that often sits next to 差点.",
+      "notes": [
+        "",
+        "That says you almost didn't leave at all.",
+        "差点出门早 isn't natural.",
+        "可惜 (pity) doesn't fit leaving early."
+      ],
+      "translation": "Luckily I left early, otherwise I'd have been late."
+    }
+  ]
+}

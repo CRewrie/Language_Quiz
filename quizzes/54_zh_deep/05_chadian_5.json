@@ -1,0 +1,308 @@
+{
+  "id": "zh-dd-chadian-5",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "差点 Step 5 · Did It Happen? The Big Sort",
+  "description": "17 quick sentences, one question each: did it really happen? Decide wanted or unwanted, then look for the 没.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "s5_bad",
+      "title": "Unwanted events: never happened",
+      "summary": "Unwanted event: with or without 没, it didn't happen.",
+      "body": "Falling, being late, losing things, starting a quarrel …\n\n**The whole picture: 差点 vs 差点没**\n\n| | 😅 unwanted (摔倒) | 🎯 wanted (赶上) |\n|---|---|---|\n| **差点** | didn't happen | didn't happen 😢 |\n| **差点没** | didn't happen (same!) | **did** happen 🎉 |\n\n**Two questions decide it**\n1. Is the event something the speaker **wants** (赶上, 考上, 买到) or **doesn't want** (摔倒, 迟到, 丢)?\n2. Unwanted → it **didn't happen**, with or without 没. Wanted → 差点 = didn't happen, 差点没 = **did** happen.\n\n**Memory hooks**\n- 坏事加「没」，意思不变 — for bad things, 没 changes nothing.\n- 好事加「没」，意思反转 — for good things, 没 flips it.\n\n**Mood words give it away**\n- Relief (it went well): **幸亏 / 还好 / 好在** (luckily), **总算** (in the end), **好险** (that was close!)\n- Regret (it didn't): **可惜** (what a pity), **就差一点** (just a tiny bit short), **真遗憾** (what a shame)",
+      "examples": [
+        [
+          "{我|wǒ}{差点|chàdiǎn}{把|bǎ}{钥匙|yàoshi}{丢|diū}{了|le}。",
+          "I almost lost my keys."
+        ]
+      ]
+    },
+    {
+      "id": "s5_good",
+      "title": "Wanted events: look for the 没",
+      "summary": "Wanted event: 差点 = didn't happen (so close!), 差点没 = did happen (phew!).",
+      "body": "Winning, buying tickets, getting in, catching the train …\n\n**The whole picture: 差点 vs 差点没**\n\n| | 😅 unwanted (摔倒) | 🎯 wanted (赶上) |\n|---|---|---|\n| **差点** | didn't happen | didn't happen 😢 |\n| **差点没** | didn't happen (same!) | **did** happen 🎉 |\n\n**Two questions decide it**\n1. Is the event something the speaker **wants** (赶上, 考上, 买到) or **doesn't want** (摔倒, 迟到, 丢)?\n2. Unwanted → it **didn't happen**, with or without 没. Wanted → 差点 = didn't happen, 差点没 = **did** happen.\n\n**Memory hooks**\n- 坏事加「没」，意思不变 — for bad things, 没 changes nothing.\n- 好事加「没」，意思反转 — for good things, 没 flips it.\n\n**Mood words give it away**\n- Relief (it went well): **幸亏 / 还好 / 好在** (luckily), **总算** (in the end), **好险** (that was close!)\n- Regret (it didn't): **可惜** (what a pity), **就差一点** (just a tiny bit short), **真遗憾** (what a shame)",
+      "examples": [
+        [
+          "{我们|wǒmen}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{末班车|mòbānchē}。",
+          "We very nearly missed the last train (but caught it)."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "s5_bad",
+      "prompt": "「{他|tā}{差点|chàdiǎn}{摔倒|shuāidǎo}{了|le}。」\nDid he fall?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "😅 Falling is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+      "notes": [
+        "😅 Falling is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+        ""
+      ],
+      "translation": "He almost fell.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_good",
+      "prompt": "「{她|tā}{差点|chàdiǎn}{赢|yíng}{了|le}。」\nDid she win?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "😢 Winning is wanted; plain 差点 = so close → it **didn't happen**.",
+      "notes": [
+        "😢 Winning is wanted; plain 差点 = so close → it **didn't happen**.",
+        ""
+      ],
+      "translation": "She almost won.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_bad",
+      "prompt": "「{他|tā}{差点|chàdiǎn}{没|méi}{摔倒|shuāidǎo}。」\nDid he fall?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "😅 Falling is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+      "notes": [
+        "😅 Falling is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+        ""
+      ],
+      "translation": "He almost fell.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_good",
+      "prompt": "「{她|tā}{差点|chàdiǎn}{没|méi}{赢|yíng}。」\nDid she win?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 0,
+      "explanation": "🎉 Winning is wanted; 差点没 = almost didn't → it **did happen**, just barely.",
+      "notes": [
+        "",
+        "🎉 Winning is wanted; 差点没 = almost didn't → it **did happen**, just barely."
+      ],
+      "translation": "She very nearly didn't win.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_bad",
+      "prompt": "「{我|wǒ}{差点|chàdiǎn}{迟到|chídào}。」\nWas I late?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "😅 Being late is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+      "notes": [
+        "😅 Being late is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+        ""
+      ],
+      "translation": "I was almost late.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_good",
+      "prompt": "「{我|wǒ}{差点|chàdiǎn}{买到|mǎidào}{票|piào}。」\nDid I get a ticket?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "😢 Getting a ticket is wanted; plain 差点 = so close → it **didn't happen**.",
+      "notes": [
+        "😢 Getting a ticket is wanted; plain 差点 = so close → it **didn't happen**.",
+        ""
+      ],
+      "translation": "I almost got a ticket.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_bad",
+      "prompt": "「{我|wǒ}{差点|chàdiǎn}{没|méi}{迟到|chídào}。」\nWas I late?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "😅 Being late is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+      "notes": [
+        "😅 Being late is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+        ""
+      ],
+      "translation": "I was almost late.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_good",
+      "prompt": "「{我|wǒ}{差点|chàdiǎn}{没|méi}{买到|mǎidào}{票|piào}。」\nDid I get a ticket?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 0,
+      "explanation": "🎉 Getting a ticket is wanted; 差点没 = almost didn't → it **did happen**, just barely.",
+      "notes": [
+        "",
+        "🎉 Getting a ticket is wanted; 差点没 = almost didn't → it **did happen**, just barely."
+      ],
+      "translation": "I almost didn't get a ticket.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_bad",
+      "prompt": "「{我|wǒ}{差点|chàdiǎn}{把|bǎ}{钥匙|yàoshi}{丢|diū}{了|le}。」\nDid I lose the keys?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "😅 Losing your keys is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+      "notes": [
+        "😅 Losing your keys is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+        ""
+      ],
+      "translation": "I almost lost my keys.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_good",
+      "prompt": "「{他|tā}{差点|chàdiǎn}{考上|kǎoshàng}。」\nDid he get in?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "😢 Getting in (考上) is wanted; plain 差点 = so close → it **didn't happen**.",
+      "notes": [
+        "😢 Getting in (考上) is wanted; plain 差点 = so close → it **didn't happen**.",
+        ""
+      ],
+      "translation": "He very nearly got in.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_bad",
+      "prompt": "「{孩子|háizi}{差点|chàdiǎn}{没|méi}{哭|kū}{出来|chūlai}。」\nDid the child burst into tears?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "😅 Bursting into tears is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+      "notes": [
+        "😅 Bursting into tears is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+        ""
+      ],
+      "translation": "The child almost burst into tears.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_good",
+      "prompt": "「{他|tā}{差点|chàdiǎn}{没|méi}{考上|kǎoshàng}。」\nDid he get in?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 0,
+      "explanation": "🎉 Getting in (考上) is wanted; 差点没 = almost didn't → it **did happen**, just barely.",
+      "notes": [
+        "",
+        "🎉 Getting in (考上) is wanted; 差点没 = almost didn't → it **did happen**, just barely."
+      ],
+      "translation": "He only just got in.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_bad",
+      "prompt": "「{我们|wǒmen}{差点|chàdiǎn}{吵|chǎo}{起来|qǐlai}。」\nDid we start arguing?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "😅 Starting a quarrel is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+      "notes": [
+        "😅 Starting a quarrel is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+        ""
+      ],
+      "translation": "We almost started arguing.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_good",
+      "prompt": "「{我|wǒ}{差点|chàdiǎn}{没|méi}{认|rèn}{出|chū}{她|tā}{来|lái}。」\nDid I recognise her?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 0,
+      "explanation": "🎉 Recognising someone is wanted; 差点没 = almost didn't → it **did happen**, just barely.",
+      "notes": [
+        "",
+        "🎉 Recognising someone is wanted; 差点没 = almost didn't → it **did happen**, just barely."
+      ],
+      "translation": "I almost didn't recognise her.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_good",
+      "prompt": "「{我们|wǒmen}{差点|chàdiǎn}{赶上|gǎnshàng}{末班车|mòbānchē}。」\nDid we catch the last train?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "😢 Catching the train is wanted; plain 差点 = so close → it **didn't happen**.",
+      "notes": [
+        "😢 Catching the train is wanted; plain 差点 = so close → it **didn't happen**.",
+        ""
+      ],
+      "translation": "We almost caught the last train.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_bad",
+      "prompt": "「{手机|shǒujī}{差点|chàdiǎn}{没|méi}{掉|diào}{进|jìn}{水|shuǐ}{里|li}。」\nDid the phone fall into the water?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "😅 Dropping your phone in water is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+      "notes": [
+        "😅 Dropping your phone in water is unwanted → 差点 and 差点没 both mean it **didn't happen**.",
+        ""
+      ],
+      "translation": "The phone almost fell into the water.",
+      "fixed_order": true
+    },
+    {
+      "point": "s5_good",
+      "prompt": "「{我们|wǒmen}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{末班车|mòbānchē}。」\nDid we catch the last train?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 0,
+      "explanation": "🎉 Catching the train is wanted; 差点没 = almost didn't → it **did happen**, just barely.",
+      "notes": [
+        "",
+        "🎉 Catching the train is wanted; 差点没 = almost didn't → it **did happen**, just barely."
+      ],
+      "translation": "We very nearly missed the last train.",
+      "fixed_order": true
+    }
+  ]
+}

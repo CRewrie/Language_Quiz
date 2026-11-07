@@ -1,0 +1,236 @@
+{
+  "id": "zh-dd-chadian-3",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "差点 Step 3 · So Close! 差点 + Good Things",
+  "description": "When the event is something you want (winning, passing, getting tickets), 差点 means it didn't happen — and the mood is regret.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "s3_regret",
+      "title": "Good events with 差点: it didn't happen 😢",
+      "summary": "差点 + something you want = you came close but missed it: 我差点中奖 = I almost won (I didn't).",
+      "body": "差点 still means 'almost' — and almost winning means you **didn't** win.\n\n- 我**差点**中奖。 I almost won the lottery. 😢\n- 我们**差点**赢了。 We almost won. (We lost.)\n- 我**差点**买到票。 I almost got a ticket. (No ticket.)\n\nThe feeling is **regret**: so close!\n\n**The whole picture: 差点 vs 差点没**\n\n| | 😅 unwanted (摔倒) | 🎯 wanted (赶上) |\n|---|---|---|\n| **差点** | didn't happen | didn't happen 😢 |\n| **差点没** | didn't happen (same!) | **did** happen 🎉 |\n\n**Two questions decide it**\n1. Is the event something the speaker **wants** (赶上, 考上, 买到) or **doesn't want** (摔倒, 迟到, 丢)?\n2. Unwanted → it **didn't happen**, with or without 没. Wanted → 差点 = didn't happen, 差点没 = **did** happen.\n\n**Memory hooks**\n- 坏事加「没」，意思不变 — for bad things, 没 changes nothing.\n- 好事加「没」，意思反转 — for good things, 没 flips it.\n\n**Mood words give it away**\n- Relief (it went well): **幸亏 / 还好 / 好在** (luckily), **总算** (in the end), **好险** (that was close!)\n- Regret (it didn't): **可惜** (what a pity), **就差一点** (just a tiny bit short), **真遗憾** (what a shame)",
+      "examples": [
+        [
+          "{我|wǒ}{差点|chàdiǎn}{就|jiù}{中奖|zhòngjiǎng}{了|le}！",
+          "I nearly won the prize! (but didn't)"
+        ]
+      ]
+    },
+    {
+      "id": "s3_clues",
+      "title": "Regret clues: 可惜, 就差一点, 真遗憾",
+      "summary": "可惜 (what a pity), 就差一点 (just a tiny bit short) and 真遗憾 (what a shame) tell you the good thing didn't happen.",
+      "body": "- **可惜** (kěxī): 可惜，他差点就考上了。\n- **就差一点** (jiù chà yìdiǎn): 就差一点，我就拿到第一名了。\n- **真遗憾** (zhēn yíhàn): 真遗憾，我们差点赢了。\n\nRelief words (幸亏, 还好, 好在) don't fit here — they mean the good thing **did** happen.\n\n**The whole picture: 差点 vs 差点没**\n\n| | 😅 unwanted (摔倒) | 🎯 wanted (赶上) |\n|---|---|---|\n| **差点** | didn't happen | didn't happen 😢 |\n| **差点没** | didn't happen (same!) | **did** happen 🎉 |\n\n**Two questions decide it**\n1. Is the event something the speaker **wants** (赶上, 考上, 买到) or **doesn't want** (摔倒, 迟到, 丢)?\n2. Unwanted → it **didn't happen**, with or without 没. Wanted → 差点 = didn't happen, 差点没 = **did** happen.\n\n**Memory hooks**\n- 坏事加「没」，意思不变 — for bad things, 没 changes nothing.\n- 好事加「没」，意思反转 — for good things, 没 flips it.\n\n**Mood words give it away**\n- Relief (it went well): **幸亏 / 还好 / 好在** (luckily), **总算** (in the end), **好险** (that was close!)\n- Regret (it didn't): **可惜** (what a pity), **就差一点** (just a tiny bit short), **真遗憾** (what a shame)",
+      "examples": [
+        [
+          "{可惜|kěxī}，{他|tā}{差点|chàdiǎn}{就|jiù}{考上|kǎoshàng}{了|le}。",
+          "What a pity — he very nearly got in."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "s3_regret",
+      "prompt": "「{我|wǒ}{差点|chàdiǎn}{中奖|zhòngjiǎng}。」\nDid I win?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "中奖 is wanted; 差点 = so close → **no win**. 😢",
+      "notes": [
+        "中奖 is wanted; 差点 = so close → **no win**. 😢",
+        ""
+      ],
+      "translation": "I almost won the prize.",
+      "fixed_order": true
+    },
+    {
+      "point": "s3_regret",
+      "prompt": "What does 「{我们|wǒmen}{差点|chàdiǎn}{就|jiù}{赢|yíng}{了|le}。」 mean?",
+      "options": [
+        "We won, but only just.",
+        "We didn't play.",
+        "We nearly won — but we lost.",
+        "We won easily."
+      ],
+      "answer": 2,
+      "explanation": "Wanted event + 差点 → **didn't happen**: so close!",
+      "notes": [
+        "'Won, but only just' would be 差点没赢 (step 4).",
+        "They played — and almost won.",
+        "",
+        "差点 = it didn't happen."
+      ],
+      "translation": "We very nearly won."
+    },
+    {
+      "point": "s3_clues",
+      "prompt": "（　），{他|tā}{差点|chàdiǎn}{就|jiù}{考上|kǎoshàng}{了|le}。",
+      "options": [
+        "{还好|háihǎo}",
+        "{幸亏|xìngkuī}",
+        "{好在|hǎozài}",
+        "{可惜|kěxī}"
+      ],
+      "answer": 3,
+      "explanation": "He didn't get in → regret: **可惜**.",
+      "notes": [
+        "还好 = 'luckily' — but he didn't get in.",
+        "幸亏 = 'luckily' — but he didn't get in.",
+        "好在 = 'fortunately' — but he didn't get in.",
+        ""
+      ],
+      "translation": "What a pity — he very nearly got in."
+    },
+    {
+      "point": "s3_regret",
+      "prompt": "「{她|tā}{差点|chàdiǎn}{买到|mǎidào}{那|nà}{双|shuāng}{鞋|xié}。」\nDid she get the shoes?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "买到 is wanted; 差点买到 = almost got them → **no shoes**. 😢",
+      "notes": [
+        "买到 is wanted; 差点买到 = almost got them → **no shoes**. 😢",
+        ""
+      ],
+      "translation": "She almost got those shoes.",
+      "fixed_order": true
+    },
+    {
+      "point": "s3_regret",
+      "prompt": "You ran for the bus, but the doors closed in front of you. Which sentence fits?",
+      "options": [
+        "{我|wǒ}{差点|chàdiǎn}{赶上|gǎnshàng}{公共汽车|gōnggòng qìchē}。",
+        "{我|wǒ}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{公共汽车|gōnggòng qìchē}。",
+        "{我|wǒ}{没|méi}{差点|chàdiǎn}{赶上|gǎnshàng}{公共汽车|gōnggòng qìchē}。",
+        "{我|wǒ}{赶上|gǎnshàng}{公共汽车|gōnggòng qìchē}{了|le}。"
+      ],
+      "answer": 0,
+      "explanation": "Missed it after a close race → **差点赶上** (almost caught).",
+      "notes": [
+        "",
+        "差点没赶上 = you **caught** it, just barely (step 4).",
+        "没 can't go before 差点.",
+        "That says you caught it."
+      ],
+      "translation": "I almost caught the bus."
+    },
+    {
+      "point": "s3_clues",
+      "prompt": "What does 「{就|jiù}{差|chà}{一点|yìdiǎn}，{我|wǒ}{就|jiù}{拿到|nádào}{第一名|dì-yī míng}{了|le}。」 mean?",
+      "options": [
+        "I got first place by a tiny margin.",
+        "I didn't take part.",
+        "I easily got first place.",
+        "I came so close to first place — but didn't get it."
+      ],
+      "answer": 3,
+      "explanation": "**就差一点** = just short → didn't happen.",
+      "notes": [
+        "'By a tiny margin' would be 差点没拿到.",
+        "You took part and nearly won.",
+        "就差一点 = just a tiny bit short — no first place.",
+        ""
+      ],
+      "translation": "Just a little more and I'd have got first place."
+    },
+    {
+      "point": "s3_clues",
+      "prompt": "Your friend says 「{我|wǒ}{差点|chàdiǎn}{抢到|qiǎngdào}{演唱会|yǎnchànghuì}{的|de}{票|piào}。」 Which reply fits?",
+      "options": [
+        "{太|tài}{好|hǎo}{了|le}，{恭喜|gōngxǐ}！",
+        "{太|tài}{可惜|kěxī}{了|le}！",
+        "{你|nǐ}{真|zhēn}{倒霉|dǎoméi}，{被|bèi}{骗|piàn}{了|le}。",
+        "{好险|hǎo xiǎn}{啊|a}！"
+      ],
+      "answer": 1,
+      "explanation": "No ticket → regret: **太可惜了**.",
+      "notes": [
+        "Congratulations would mean they got a ticket — they didn't.",
+        "",
+        "Nobody was cheated.",
+        "好险 (that was close!) is for dangers you escaped."
+      ],
+      "translation": "I almost got concert tickets."
+    },
+    {
+      "point": "s3_regret",
+      "prompt": "{最后|zuìhòu}{一|yì}{秒|miǎo}，{球|qiú}{打|dǎ}{在|zài}{门柱|ménzhù}{上|shang}——{我们|wǒmen}（　）{进球|jìnqiú}{了|le}！",
+      "options": [
+        "{差点|chàdiǎn}",
+        "{终于|zhōngyú}",
+        "{差点|chàdiǎn}{没|méi}",
+        "{已经|yǐjīng}"
+      ],
+      "answer": 0,
+      "explanation": "Hit the post, no goal → **差点**进球 (almost scored).",
+      "notes": [
+        "",
+        "终于 = 'finally' — but the ball hit the post.",
+        "差点没进球 = you **did** score, just barely.",
+        "已经进球了 = 'already scored' — it hit the post."
+      ],
+      "translation": "In the last second the ball hit the post — we almost scored!"
+    },
+    {
+      "point": "s3_regret",
+      "prompt": "'We nearly caught the last train (but missed it).' Which sentence says so?",
+      "options": [
+        "{我们|wǒmen}{赶上|gǎnshàng}{末班车|mòbānchē}{了|le}。",
+        "{我们|wǒmen}{末班车|mòbānchē}{差点|chàdiǎn}{赶上|gǎnshàng}。",
+        "{我们|wǒmen}{差点|chàdiǎn}{赶上|gǎnshàng}{末班车|mòbānchē}。",
+        "{我们|wǒmen}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{末班车|mòbānchē}。"
+      ],
+      "answer": 2,
+      "explanation": "Wanted + 差点 → missed: **差点赶上**.",
+      "notes": [
+        "That says you caught it.",
+        "The subject comes first, then 差点 + verb + object.",
+        "",
+        "差点没赶上 = you **caught** it, barely."
+      ],
+      "translation": "We nearly caught the last train."
+    },
+    {
+      "point": "s3_regret",
+      "prompt": "「{他|tā}{差点|chàdiǎn}{考上|kǎoshàng}{北京|Běijīng}{大学|Dàxué}。」\nDid he get into Peking University?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "考上 is wanted; 差点考上 = so close → **didn't get in**. 😢",
+      "notes": [
+        "考上 is wanted; 差点考上 = so close → **didn't get in**. 😢",
+        ""
+      ],
+      "translation": "He very nearly got into Peking University.",
+      "fixed_order": true
+    },
+    {
+      "point": "s3_regret",
+      "prompt": "「{差点|chàdiǎn}{摔倒|shuāidǎo}」 and 「{差点|chàdiǎn}{中奖|zhòngjiǎng}」 — in which did the event happen?",
+      "options": [
+        "Only摔倒.",
+        "Only中奖.",
+        "Both.",
+        "Neither—差点onitsownalwaysmeansitdidn'thappen."
+      ],
+      "answer": 3,
+      "explanation": "Plain **差点** = didn't happen, whatever the event. Only 差点没 + a good thing means it did.",
+      "notes": [
+        "差点摔倒 = didn't fall.",
+        "差点中奖 = didn't win.",
+        "差点 = almost — neither happened.",
+        ""
+      ],
+      "translation": ""
+    }
+  ]
+}

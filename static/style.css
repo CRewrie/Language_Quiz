@@ -360,7 +360,7 @@ details.qgroup > summary > span:first-child { flex: 1; }
 /* Tables in grammar guides */
 .table-wrap { overflow-x: auto; margin: 8px 0; }
 .table-wrap table { border-collapse: collapse; font-size: 0.95rem; }
-.table-wrap th, .table-wrap td { border: 1px solid var(--border); padding: 4px 10px; text-align: left; white-space: nowrap; }
+.table-wrap th, .table-wrap td { border: 1px solid var(--border); padding: 4px 8px; text-align: left; }
 .table-wrap th { background: var(--bg); }
 
 /* ---------- language chooser and language homes ---------- */

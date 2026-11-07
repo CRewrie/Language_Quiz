@@ -15,6 +15,7 @@ function render(text) {
   return escapeHtml(text || "")
     .replace(/\{([^|{}]+)\|([^{}]+)\}/g, "<ruby>$1<rt>$2</rt></ruby>")
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/~~(.+?)~~/g, "<s>$1</s>") // a crossed-out mistake
     .replace(/\n/g, "<br>");
 }
 
@@ -766,7 +767,7 @@ const LANG_INFO = {
   ja: { flag: "🇯🇵", name: "Japanese", native: "日本語",
         blurb: "JLPT N5–N1 grammar, Verb Lab & Adjective Lab, Hiragana Dojo and a verb & adjective lookup." },
   zh: { flag: "🇨🇳", name: "Mandarin", native: "中文",
-        blurb: "Grammar from A1 to B2 with HSK-style questions, in simplified or traditional characters." },
+        blurb: "Grammar from A1 to B2 with HSK-style questions, plus step-by-step deep dives into tricky points (差点没 …)." },
 };
 const homeHref = () => `#/${lang}`;
 // The Japanese extras, linked the same way from the quiz home and from each extra page.
@@ -904,6 +905,8 @@ const KINDS = [
   ["adrill", "🏃", "Step 2 · Adjective form drills"],
   ["atyped", "⌨️", "Step 3 · Adjectives in context"],
   ["vsadj", "⚖️", "Verb or adjective? Side by side"],
+  // Mandarin deep dives: one group per grammar point (the id is zh-dd-<topic>-<step>)
+  ["zhdd-chadian", "🎯", "差点 vs 差点没 — almost, or almost not? (steps 1–7)"],
 ];
 function quizKind(q) {
   if (q.category === "Adjective Lab") {
@@ -912,6 +915,7 @@ function quizKind(q) {
     if (/adj-vs-/.test(q.id)) return "vsadj";
     return "atyped";
   }
+  if (q.category === "Mandarin Deep Dives") return "zhdd-" + q.id.split("-")[2];
   if (q.category === "Verb Lab") {
     if (/verbs-(can|will)/.test(q.id)) return "deep";
     if (/verbs-(pairs|state)/.test(q.id)) return "trans";
@@ -926,7 +930,8 @@ function quizKind(q) {
 }
 
 const plainText = t => String(t || "").replace(/\{([^|{}]+)\|[^{}]+\}/g, "$1").replace(/\*\*/g, "");
-const levelLabel = category => /mix/i.test(category) ? "Mix" : (category.match(/\b([NABC][1-5])\b/) || [])[1] || category;
+const levelLabel = category => /mix/i.test(category) ? "Mix" : /deep dive/i.test(category) ? "Deep dives"
+  : (category.match(/\b([NABC][1-5])\b/) || [])[1] || category;
 // "Particles: が, に, で" → "Particles", "Which One? A/B, …" → "Which One?"; the points are listed separately.
 const shortTitle = title => {
   const m = title.match(/^(.+?)(: |\? )/);

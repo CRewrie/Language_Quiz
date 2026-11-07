@@ -1,0 +1,254 @@
+{
+  "id": "zh-dd-chadian-2",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "差点 Step 2 · The 没 That Changes Nothing: 差点没 + Bad Things",
+  "description": "The famous puzzle: with things nobody wants (falling, being late, forgetting), 差点 and 差点没 mean exactly the same.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "s2_same",
+      "title": "Bad events: 差点 = 差点没",
+      "summary": "With unwanted events, adding 没 changes nothing: 我差点摔倒 = 我差点没摔倒 — I almost fell, and didn't.",
+      "body": "Here's the puzzle: 没 means 'not' — so why doesn't it flip the meaning?\n\nBecause nobody **wants** to fall. Whether you say 'almost fell' or 'very nearly didn't-not-fall', the picture is the same: the bad thing came close and missed you. 😅 The 没 just adds feeling — it sounds more dramatic.\n\n- 我差点摔倒 = 我差点**没**摔倒 → I almost fell.\n- 他差点迟到 = 他差点**没**迟到 → he was almost late.\n- Word order: 差点**没** — never ~~没差点~~.\n\n**The whole picture: 差点 vs 差点没**\n\n| | 😅 unwanted (摔倒) | 🎯 wanted (赶上) |\n|---|---|---|\n| **差点** | didn't happen | didn't happen 😢 |\n| **差点没** | didn't happen (same!) | **did** happen 🎉 |\n\n**Two questions decide it**\n1. Is the event something the speaker **wants** (赶上, 考上, 买到) or **doesn't want** (摔倒, 迟到, 丢)?\n2. Unwanted → it **didn't happen**, with or without 没. Wanted → 差点 = didn't happen, 差点没 = **did** happen.\n\n**Memory hooks**\n- 坏事加「没」，意思不变 — for bad things, 没 changes nothing.\n- 好事加「没」，意思反转 — for good things, 没 flips it.\n\n**Mood words give it away**\n- Relief (it went well): **幸亏 / 还好 / 好在** (luckily), **总算** (in the end), **好险** (that was close!)\n- Regret (it didn't): **可惜** (what a pity), **就差一点** (just a tiny bit short), **真遗憾** (what a shame)",
+      "examples": [
+        [
+          "{我|wǒ}{差点|chàdiǎn}{没|méi}{摔倒|shuāidǎo}。",
+          "I almost fell. (= 我差点摔倒)"
+        ]
+      ]
+    },
+    {
+      "id": "s2_bad",
+      "title": "Spotting a bad (unwanted) event",
+      "summary": "Ask: would anyone hope for this? 摔倒, 迟到, 忘, 丢, 撞车, 哭出来, 笑出来 (at the wrong moment), 吵架 …",
+      "body": "- Typical unwanted events: 摔倒 (fall), 迟到 (be late), 忘 (forget), 丢 (lose), 撞车 (crash), 生病 (get ill), 哭出来 (burst into tears), 笑出来 (burst out laughing at the wrong moment), 吵起来 (start a quarrel).\n- Spoken exaggerations love 差点没: 差点没**饿死** (I nearly starved!), 差点没**笑死** (I nearly died laughing!), 差点没**气死** (I was furious!). Of course nobody died. 😄\n\n**The whole picture: 差点 vs 差点没**\n\n| | 😅 unwanted (摔倒) | 🎯 wanted (赶上) |\n|---|---|---|\n| **差点** | didn't happen | didn't happen 😢 |\n| **差点没** | didn't happen (same!) | **did** happen 🎉 |\n\n**Two questions decide it**\n1. Is the event something the speaker **wants** (赶上, 考上, 买到) or **doesn't want** (摔倒, 迟到, 丢)?\n2. Unwanted → it **didn't happen**, with or without 没. Wanted → 差点 = didn't happen, 差点没 = **did** happen.\n\n**Memory hooks**\n- 坏事加「没」，意思不变 — for bad things, 没 changes nothing.\n- 好事加「没」，意思反转 — for good things, 没 flips it.\n\n**Mood words give it away**\n- Relief (it went well): **幸亏 / 还好 / 好在** (luckily), **总算** (in the end), **好险** (that was close!)\n- Regret (it didn't): **可惜** (what a pity), **就差一点** (just a tiny bit short), **真遗憾** (what a shame)",
+      "examples": [
+        [
+          "{这个|zhège}{电影|diànyǐng}{太|tài}{好笑|hǎoxiào}{了|le}，{我|wǒ}{差点|chàdiǎn}{没|méi}{笑死|xiào sǐ}。",
+          "The film was so funny I nearly died laughing."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "s2_same",
+      "prompt": "「{我|wǒ}{差点|chàdiǎn}{摔倒|shuāidǎo}。」 and 「{我|wǒ}{差点|chàdiǎn}{没|méi}{摔倒|shuāidǎo}。」 — do they mean the same?",
+      "options": [
+        "Yes — both: I almost fell, but didn't.",
+        "No — the second means I did fall.",
+        "No — the second means I wasn't even close to falling."
+      ],
+      "answer": 0,
+      "explanation": "Unwanted event: **差点 = 差点没**. 坏事加「没」，意思不变.",
+      "notes": [
+        "",
+        "摔倒 is unwanted, so 没 doesn't flip it — you didn't fall.",
+        "差点没 still says it came close."
+      ],
+      "translation": "I almost fell.",
+      "fixed_order": true
+    },
+    {
+      "point": "s2_same",
+      "prompt": "「{他|tā}{差点|chàdiǎn}{没|méi}{迟到|chídào}。」\nWas he late?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "迟到 is unwanted → 差点没迟到 = 差点迟到 = he made it in time. 😅",
+      "notes": [
+        "迟到 is unwanted → 差点没迟到 = 差点迟到 = he made it in time. 😅",
+        ""
+      ],
+      "translation": "He was almost late.",
+      "fixed_order": true
+    },
+    {
+      "point": "s2_bad",
+      "prompt": "「{开会|kāihuì}{的|de}{时候|shíhou}，{我|wǒ}{差点|chàdiǎn}{没|méi}{笑|xiào}{出来|chūlai}。」\nDid I burst out laughing in the meeting?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "Laughing out loud in a meeting is unwanted → 差点没笑出来 = I almost laughed, but held it in. 😅",
+      "notes": [
+        "Laughing out loud in a meeting is unwanted → 差点没笑出来 = I almost laughed, but held it in. 😅",
+        ""
+      ],
+      "translation": "I almost burst out laughing in the meeting.",
+      "fixed_order": true
+    },
+    {
+      "point": "s2_bad",
+      "prompt": "What does 「{昨天|zuótiān}{我|wǒ}{差点|chàdiǎn}{没|méi}{饿死|è sǐ}。」 mean?",
+      "options": [
+        "I was starving yesterday! (exaggeration)",
+        "I ate too much yesterday.",
+        "I wasn't hungry at all yesterday.",
+        "I almost didn't eat yesterday."
+      ],
+      "answer": 0,
+      "explanation": "饿死 is unwanted → 差点没饿死 = **nearly starved** (spoken exaggeration).",
+      "notes": [
+        "",
+        "That would be 吃得太多了.",
+        "差点没饿死 = I nearly starved — very hungry, not 'not hungry'.",
+        "It's about starving, not about eating."
+      ],
+      "translation": "I nearly starved yesterday."
+    },
+    {
+      "point": "s2_same",
+      "prompt": "In which sentence does 没 change **nothing**?",
+      "options": [
+        "{我|wǒ}{差点|chàdiǎn}{没|méi}{买到|mǎidào}{票|piào}。",
+        "{我|wǒ}{差点|chàdiǎn}{没|méi}{摔倒|shuāidǎo}。",
+        "{我|wǒ}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{飞机|fēijī}。",
+        "{我|wǒ}{差点|chàdiǎn}{没|méi}{考上|kǎoshàng}{大学|dàxué}。"
+      ],
+      "answer": 1,
+      "explanation": "Only the unwanted event (**摔倒**) ignores the 没.",
+      "notes": [
+        "买到票 is wanted — there 没 flips it (step 4).",
+        "",
+        "赶上 is wanted — there 没 flips it (step 4).",
+        "考上 is something you want — there 没 does flip it (step 4)."
+      ],
+      "translation": "I almost fell."
+    },
+    {
+      "point": "s2_same",
+      "prompt": "Which sentence means the same as 「{我|wǒ}{差点|chàdiǎn}{哭|kū}{了|le}。」?",
+      "options": [
+        "{我|wǒ}{差点|chàdiǎn}{想|xiǎng}{哭|kū}。",
+        "{我|wǒ}{没|méi}{差点|chàdiǎn}{哭|kū}。",
+        "{我|wǒ}{哭|kū}{了|le}。",
+        "{我|wǒ}{差点|chàdiǎn}{没|méi}{哭|kū}。"
+      ],
+      "answer": 3,
+      "explanation": "Crying is unwanted here → 差点哭了 = **差点没哭**.",
+      "notes": [
+        "差点想哭 isn't natural.",
+        "没 must come after 差点: 差点没.",
+        "That says you did cry.",
+        ""
+      ],
+      "translation": "I almost cried."
+    },
+    {
+      "point": "s2_bad",
+      "prompt": "{太|tài}{危险|wēixiǎn}{了|le}！{刚才|gāngcái}{我们|wǒmen}{差点|chàdiǎn}{没|méi}（　）！",
+      "options": [
+        "{撞车|zhuàngchē}",
+        "{买到|mǎidào}",
+        "{赢|yíng}",
+        "{考上|kǎoshàng}"
+      ],
+      "answer": 0,
+      "explanation": "Danger → an unwanted event: **撞车** (crash). 差点没撞车 = almost crashed.",
+      "notes": [
+        "",
+        "买到 is something you want — doesn't fit 'dangerous'.",
+        "赢 doesn't fit 'dangerous'.",
+        "考上 doesn't fit 'dangerous'."
+      ],
+      "translation": "That was dangerous! We almost crashed just now!"
+    },
+    {
+      "point": "s2_same",
+      "prompt": "A：{听说|tīngshuō}{你|nǐ}{昨天|zuótiān}{差点|chàdiǎn}{没|méi}{迟到|chídào}？\nB：{是|shì}{啊|a}，（　）。",
+      "options": [
+        "{我|wǒ}{很|hěn}{早|zǎo}{就|jiù}{到|dào}{了|le}",
+        "{还好|háihǎo}{最后|zuìhòu}{赶上|gǎnshàng}{了|le}",
+        "{我|wǒ}{不|bù}{想|xiǎng}{去|qù}",
+        "{我|wǒ}{迟到|chídào}{了|le}{一个|yí ge}{小时|xiǎoshí}"
+      ],
+      "answer": 1,
+      "explanation": "差点没迟到 = almost late, **made it** → 还好最后赶上了.",
+      "notes": [
+        "差点 means it was close — not early and relaxed.",
+        "",
+        "That doesn't answer the question.",
+        "差点没迟到 = you weren't late."
+      ],
+      "translation": "A: I heard you were almost late yesterday? B: Yes — luckily I made it in the end."
+    },
+    {
+      "point": "s2_bad",
+      "prompt": "「{他|tā}{差点|chàdiǎn}{没|méi}{把|bǎ}{杯子|bēizi}{打破|dǎpò}。」\nDid he break the cup?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 1,
+      "explanation": "Breaking a cup is unwanted → 差点没打破 = he almost broke it. 😅",
+      "notes": [
+        "Breaking a cup is unwanted → 差点没打破 = he almost broke it. 😅",
+        ""
+      ],
+      "translation": "He almost broke the cup.",
+      "fixed_order": true
+    },
+    {
+      "point": "s2_same",
+      "prompt": "「{我|wǒ}{差点|chàdiǎn}{忘|wàng}{了|le}。」 vs 「{我|wǒ}{差点|chàdiǎn}{没|méi}{忘|wàng}{了|le}。」 — what's the difference?",
+      "options": [
+        "The 没 version means I forgot.",
+        "The 没 version means I remembered easily.",
+        "None in meaning — the 没 version just sounds more dramatic.",
+        "The 没 version is a question."
+      ],
+      "answer": 2,
+      "explanation": "Unwanted event: same meaning; 没 adds **emphasis**.",
+      "notes": [
+        "Forgetting is unwanted → 没 changes nothing.",
+        "差点 still means it was close.",
+        "",
+        "There's no question word or 吗."
+      ],
+      "translation": "I almost forgot."
+    },
+    {
+      "point": "s2_bad",
+      "prompt": "What does 「{这个|zhège}{电影|diànyǐng}{太|tài}{好笑|hǎoxiào}{了|le}，{我|wǒ}{差点|chàdiǎn}{没|méi}{笑死|xiào sǐ}。」 mean?",
+      "options": [
+        "I almost didn't laugh at the film.",
+        "The film wasn't funny at all.",
+        "I laughed so much I died.",
+        "The film was so funny I nearly died laughing."
+      ],
+      "answer": 3,
+      "explanation": "Exaggeration: 差点没**笑死** = nearly died laughing.",
+      "notes": [
+        "笑死 is the (fun) 'bad' event — 差点没 keeps it unhappened.",
+        "太好笑了 = very funny.",
+        "It's an exaggeration — nobody died.",
+        ""
+      ],
+      "translation": "The film was so funny I nearly died laughing."
+    },
+    {
+      "point": "s2_same",
+      "prompt": "{地上|dìshang}{都|dōu}{是|shì}{冰|bīng}，{我|wǒ}（　）{摔倒|shuāidǎo}。",
+      "options": [
+        "{没|méi}{差点|chàdiǎn}",
+        "{差点|chàdiǎn}{没|méi}",
+        "{差|chà}{没|méi}{点|diǎn}",
+        "{没有|méiyǒu}{差点|chàdiǎn}"
+      ],
+      "answer": 1,
+      "explanation": "Word order: **差点没** + verb.",
+      "notes": [
+        "没 comes **after** 差点.",
+        "",
+        "差点 can't be split.",
+        "没有 can't go before 差点."
+      ],
+      "translation": "The ground was all ice — I almost fell."
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "zh-dd-chadian-4",
+  "category": "Mandarin Deep Dives",
+  "language": "zh",
+  "title": "差点 Step 4 · Phew, Made It! 差点没 + Good Things",
+  "description": "With things you want, 没 really flips it: 差点没赶上 = almost missed it — so you caught it, just barely. The mood is relief.",
+  "level": "Deep dive",
+  "points": [
+    {
+      "id": "s4_relief",
+      "title": "Good events with 差点没: it DID happen 🎉",
+      "summary": "差点没 + something you want = it almost didn't happen — so it did, by a hair: 我差点没赶上飞机 = I made the plane, just.",
+      "body": "Here 没 does its normal job ('not'): **almost didn't** happen → **did** happen.\n\n- 我**差点没**赶上飞机。 I almost missed the plane — I made it. 🎉\n- 他**差点没**考上。 He nearly failed — but he got in.\n- 我**差点没**认出你来！ I almost didn't recognise you! (but I did)\n\nThe feeling is **relief**: phew!\n\n**The whole picture: 差点 vs 差点没**\n\n| | 😅 unwanted (摔倒) | 🎯 wanted (赶上) |\n|---|---|---|\n| **差点** | didn't happen | didn't happen 😢 |\n| **差点没** | didn't happen (same!) | **did** happen 🎉 |\n\n**Two questions decide it**\n1. Is the event something the speaker **wants** (赶上, 考上, 买到) or **doesn't want** (摔倒, 迟到, 丢)?\n2. Unwanted → it **didn't happen**, with or without 没. Wanted → 差点 = didn't happen, 差点没 = **did** happen.\n\n**Memory hooks**\n- 坏事加「没」，意思不变 — for bad things, 没 changes nothing.\n- 好事加「没」，意思反转 — for good things, 没 flips it.\n\n**Mood words give it away**\n- Relief (it went well): **幸亏 / 还好 / 好在** (luckily), **总算** (in the end), **好险** (that was close!)\n- Regret (it didn't): **可惜** (what a pity), **就差一点** (just a tiny bit short), **真遗憾** (what a shame)",
+      "examples": [
+        [
+          "{我|wǒ}{差点|chàdiǎn}{没|méi}{认|rèn}{出|chū}{你|nǐ}{来|lái}！",
+          "I almost didn't recognise you!"
+        ]
+      ]
+    },
+    {
+      "id": "s4_clues",
+      "title": "Relief clues: 幸亏, 还好, 好在, 总算, 好险",
+      "summary": "幸亏 / 还好 / 好在 (luckily), 总算 (in the end) and 好险 (that was close!) tell you it worked out.",
+      "body": "- **幸亏** (xìngkuī) / **还好** (háihǎo) / **好在** (hǎozài): luckily.\n- **总算** (zǒngsuàn): in the end, at last — 差点没赶上，总算赶上了。\n- **好险** (hǎo xiǎn): phew, that was close!\n\nRegret words (可惜, 就差一点) don't fit — they mean the good thing did **not** happen.\n\n**The whole picture: 差点 vs 差点没**\n\n| | 😅 unwanted (摔倒) | 🎯 wanted (赶上) |\n|---|---|---|\n| **差点** | didn't happen | didn't happen 😢 |\n| **差点没** | didn't happen (same!) | **did** happen 🎉 |\n\n**Two questions decide it**\n1. Is the event something the speaker **wants** (赶上, 考上, 买到) or **doesn't want** (摔倒, 迟到, 丢)?\n2. Unwanted → it **didn't happen**, with or without 没. Wanted → 差点 = didn't happen, 差点没 = **did** happen.\n\n**Memory hooks**\n- 坏事加「没」，意思不变 — for bad things, 没 changes nothing.\n- 好事加「没」，意思反转 — for good things, 没 flips it.\n\n**Mood words give it away**\n- Relief (it went well): **幸亏 / 还好 / 好在** (luckily), **总算** (in the end), **好险** (that was close!)\n- Regret (it didn't): **可惜** (what a pity), **就差一点** (just a tiny bit short), **真遗憾** (what a shame)",
+      "examples": [
+        [
+          "{我|wǒ}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}，{总算|zǒngsuàn}{赶上|gǎnshàng}{了|le}。",
+          "I very nearly missed it — but I made it in the end."
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "point": "s4_relief",
+      "prompt": "「{我|wǒ}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{飞机|fēijī}。」\nDid I catch the plane?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 0,
+      "explanation": "赶上 is wanted; 差点没 = almost didn't → I **did** catch it. 🎉",
+      "notes": [
+        "",
+        "赶上 is wanted; 差点没 = almost didn't → I **did** catch it. 🎉"
+      ],
+      "translation": "I almost missed the plane.",
+      "fixed_order": true
+    },
+    {
+      "point": "s4_relief",
+      "prompt": "What does 「{他|tā}{差点|chàdiǎn}{没|méi}{考上|kǎoshàng}{大学|dàxué}。」 mean?",
+      "options": [
+        "He didn't get into university.",
+        "He got in easily.",
+        "He almost took the entrance exam.",
+        "He only just got into university."
+      ],
+      "answer": 3,
+      "explanation": "Wanted + 差点没 → **did happen**, barely.",
+      "notes": [
+        "考上 is wanted → 差点没 = he **did** get in.",
+        "差点 says it was close — not easy.",
+        "考上 = pass the entrance exam.",
+        ""
+      ],
+      "translation": "He only just got into university."
+    },
+    {
+      "point": "s4_relief",
+      "prompt": "「{我|wǒ}{差点|chàdiǎn}{没|méi}{认|rèn}{出|chū}{你|nǐ}{来|lái}！」\nDid I recognise you?",
+      "options": [
+        "✔ Yes — it happened",
+        "✘ No — it didn't happen"
+      ],
+      "answer": 0,
+      "explanation": "Recognising a friend is wanted → 差点没认出 = I **did** recognise you, just. 🎉",
+      "notes": [
+        "",
+        "Recognising a friend is wanted → 差点没认出 = I **did** recognise you, just. 🎉"
+      ],
+      "translation": "I almost didn't recognise you!",
+      "fixed_order": true
+    },
+    {
+      "point": "s4_clues",
+      "prompt": "{路|lù}{上|shang}{太|tài}{堵|dǔ}{了|le}，{我们|wǒmen}{差点|chàdiǎn}{没|méi}{赶上|gǎnshàng}{火车|huǒchē}，（　）{最后|zuìhòu}{一|yì}{分钟|fēnzhōng}{上|shàng}{了|le}{车|chē}。",
+      "options": [
+        "{本来|běnlái}",
+        "{幸亏|xìngkuī}",
+        "{差点|chàdiǎn}",
+        "{可惜|kěxī}"
+      ],
+      "answer": 1,
+      "explanation": "It worked out → relief: **幸亏** (luckily).",
+      "notes": [
+        "本来 = 'originally' — doesn't fit.",
+        "",
+        "差点 = 'almost' — but you did get on.",
+        "可惜 = 'what a pity' — but you got on."
+      ],
+      "translation": "The traffic was terrible — we almost missed the train; luckily we got on in the last minute."
+    },
+    {
+      "point": "s4_relief",
+      "prompt": "「{我|wǒ}{差点|chàdiǎn}{买到|mǎidào}{票|piào}。」 vs 「{我|wǒ}{差点|chàdiǎn}{没|méi}{买到|mǎidào}{票|piào}。」 — who has a ticket?",
+      "options": [
+        "Only the second speaker.",
+        "Only the first speaker.",
+        "Both.",
+        "Neither."
+      ],
+      "answer": 0,
+      "explanation": "Wanted event: 差点 → no; **差点没 → yes**. 好事加「没」，意思反转.",
+      "notes": [
+        "",
+        "差点买到 = almost got one → no ticket.",
+        "差点买到 = no ticket; 差点没买到 = ticket.",
+        "差点没买到 = got one, just."
+      ],
+      "translation": "",
+      "fixed_order": true
+    },
+    {
+      "point": "s4_relief",
+      "prompt": "The concert sold out right after you bought the last ticket. Which sentence fits?",
+      "options": [
+        "{我|wǒ}{买到|mǎidào}{票|piào}{差点|chàdiǎn}。",
+        "{我|wǒ}{差点|chàdiǎn}{买到|mǎidào}{票|piào}。",
+        "{我|wǒ}{没|méi}{买到|mǎidào}{票|piào}。",
+        "{我|wǒ}{差点|chàdiǎn}{没|méi}{买到|mǎidào}{票|piào}。"
+      ],
+      "answer": 3,
+      "explanation": "Got it, just → **差点没买到**.",
+      "notes": [
+        "差点 goes before the verb.",
+        "差点买到 = almost got one — no ticket.",
+        "That says you didn't get one.",
+        ""
+      ],
+      "translation": "I almost didn't get a ticket."
+    },
+    {
+      "point": "s4_clues",
+      "prompt": "Your friend says 「{我|wǒ}{差点|chàdiǎn}{没|méi}{通过|tōngguò}{考试|kǎoshì}。」 Which reply fits?",
+      "options": [
+        "{你|nǐ}{怎么|zěnme}{不|bù}{考试|kǎoshì}？",
+        "{好险|hǎo xiǎn}！{恭喜|gōngxǐ}{你|nǐ}{过|guò}{了|le}！",
+        "{别|bié}{难过|nánguò}，{没|méi}{通过|tōngguò}{也|yě}{没关系|méi guānxi}。",
+        "{太|tài}{可惜|kěxī}{了|le}，{下次|xiàcì}{再|zài}{努力|nǔlì}。"
+      ],
+      "answer": 1,
+      "explanation": "Passed, just → relief: **好险！恭喜！**",
+      "notes": [
+        "They did take the exam.",
+        "",
+        "They passed — no need for comfort.",
+        "可惜 means they failed — they passed."
+      ],
+      "translation": "I almost didn't pass the exam."
+    },
+    {
+      "point": "s4_relief",
+      "prompt": "What does 「{这|zhè}{道|dào}{题|tí}{太|tài}{难|nán}{了|le}，{我|wǒ}{差点|chàdiǎn}{没|méi}{做|zuò}{出来|chūlai}。」 mean?",
+      "options": [
+        "The problem was so hard — I only just managed to solve it.",
+        "I didn't try.",
+        "The problem was so hard I couldn't solve it.",
+        "I almost solved it."
+      ],
+      "answer": 0,
+      "explanation": "Wanted + 差点没 → **did** happen: solved it, just.",
+      "notes": [
+        "",
+        "You tried hard.",
+        "Solving it is wanted → 差点没 = you **did** solve it.",
+        "'Almost solved it' would be 差点做出来."
+      ],
+      "translation": "This problem was so hard I only just managed it."
+    },
+    {
+      "point": "s4_relief",
+      "prompt": "「{最后|zuìhòu}{一|yì}{秒|miǎo}{才|cái}{进球|jìnqiú}——{我们|wǒmen}{差点|chàdiǎn}{没|méi}{赢|yíng}！」 What happened?",
+      "options": [
+        "We lost by a hair.",
+        "It was a draw.",
+        "We didn't play.",
+        "We won, but only just."
+      ],
+      "answer": 3,
+      "explanation": "Wanted + 差点没 → **won**, barely. 🎉",
+      "notes": [
+        "'Lost by a hair' would be 差点赢了.",
+        "Winning is the wanted event — and you won.",
+        "You played — and scored.",
+        ""
+      ],
+      "translation": "We only scored in the last second — we very nearly didn't win!"
+    },
+    {
+      "point": "s4_relief",
+      "prompt": "'I almost couldn't find you! (but I did)' Which sentence says so?",
+      "options": [
+        "{我|wǒ}{差点|chàdiǎn}{没|méi}{找到|zhǎodào}{你|nǐ}！",
+        "{我|wǒ}{差点|chàdiǎn}{找到|zhǎodào}{你|nǐ}！",
+        "{我|wǒ}{没|méi}{找到|zhǎodào}{你|nǐ}！",
+        "{我|wǒ}{找到|zhǎodào}{你|nǐ}{差点|chàdiǎn}！"
+      ],
+      "answer": 0,
+      "explanation": "Found them, just → **差点没找到**.",
+      "notes": [
+        "",
+        "差点找到 = almost found you — so you didn't.",
+        "That says you didn't find them.",
+        "差点 goes before the verb."
+      ],
+      "translation": "I almost couldn't find you!"
+    },
+    {
+      "point": "s4_clues",
+      "prompt": "A：{你|nǐ}{考|kǎo}{得|de}{怎么样|zěnmeyàng}？\nB：{别提了|bié tí le}，{差点|chàdiǎn}{没|méi}{及格|jígé}。\nA：（　）",
+      "options": [
+        "{那|nà}{太|tài}{可惜|kěxī}{了|le}，{下次|xiàcì}{加油|jiāyóu}！",
+        "{没|méi}{及格|jígé}{也|yě}{没关系|méi guānxi}。",
+        "{那|nà}{还好|háihǎo}，{总算|zǒngsuàn}{过|guò}{了|le}！",
+        "{你|nǐ}{怎么|zěnme}{没|méi}{去|qù}{考|kǎo}？"
+      ],
+      "answer": 2,
+      "explanation": "差点没及格 = **passed**, just → 还好，总算过了！",
+      "notes": [
+        "可惜 means they failed — they passed.",
+        "They didn't fail.",
+        "",
+        "They did take the exam."
+      ],
+      "translation": "A: How did the exam go? B: Don't ask — I very nearly failed. A: Well, at least you passed!"
+    },
+    {
+      "point": "s4_relief",
+      "prompt": "In 差点没 + **good thing**, what does 没 do?",
+      "options": [
+        "It flips it: it almost didn't happen — so it did.",
+        "Nothing — it means the same as 差点.",
+        "It makes it a question.",
+        "It means it happened twice."
+      ],
+      "answer": 0,
+      "explanation": "Good thing: **没 flips it**. 好事加「没」，意思反转.",
+      "notes": [
+        "",
+        "That's true for **bad** things only.",
+        "There's no question word.",
+        "No — it's about whether it happened at all."
+      ],
+      "translation": "",
+      "fixed_order": true
+    }
+  ]
+}
