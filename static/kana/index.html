@@ -26,8 +26,6 @@ body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 Inter
 header { display: flex; align-items: center; gap: 16px; padding: 14px 24px; border-bottom: 1px solid var(--line); background: var(--panel); position: sticky; top: 0; z-index: 2; flex-wrap: wrap; }
 header h1 { font: 600 22px var(--jp); margin: 0; white-space: nowrap; }
 header h1 span { color: var(--accent); }
-.navlink { color: var(--muted); text-decoration: none; font-weight: 500; font-size: 14px; white-space: nowrap; }
-.navlink:hover { color: var(--ink); }
 .sync { font-size: 13px; color: var(--muted); white-space: nowrap; text-decoration: none; }
 a.sync:hover { color: var(--ink); }
 .progress { flex: 1; max-width: 340px; min-width: 180px; margin-left: auto; font-size: 13px; color: var(--muted); }
@@ -115,14 +113,18 @@ footer a { color: inherit; }
   header { padding: 12px 16px; }
   .prompt .en { font-size: 22px; }
 }
+.ja-menu { display: flex; flex-wrap: wrap; gap: 6px; }
+.ja-menu a { padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px; background: var(--panel); color: var(--ink);
+  text-decoration: none; font: 500 13px Inter, system-ui, sans-serif; white-space: nowrap; }
+.ja-menu a:hover { border-color: var(--accent); }
+.ja-menu a.on { background: var(--accent); border-color: var(--accent); color: #fff; }
 </style>
 </head>
 <body>
 <header>
   <h1><span>ひらがな</span> Dojo</h1>
-  <a class="navlink" href="../">← Grammar quizzes</a>
-  <a class="navlink" href="write.html">Writing drills →</a>
-  <a class="sync" id="syncBadge" href="../" title="Sign in on the quiz page to keep your progress on every device">☁️ Sign in to sync</a>
+  <nav class="ja-menu" aria-label="Japanese practice"><a href="../#/ja">📚 Quizzes</a><a href="../kana/" class="on" aria-current="page">✍️ Hiragana Dojo</a><a href="../kana/write.html">🖨️ Writing drills</a><a href="../verbs/">📖 Verb &amp; Adjective Lookup</a></nav>
+  <a class="sync" id="syncBadge" href="../#/ja" title="Sign in on the quiz page to keep your progress on every device">☁️ Sign in to sync</a>
   <div class="progress"><span id="progText"></span><div class="bar"><div id="progBar"></div></div></div>
 </header>
 

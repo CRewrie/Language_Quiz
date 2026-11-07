@@ -362,3 +362,38 @@ details.qgroup > summary > span:first-child { flex: 1; }
 .table-wrap table { border-collapse: collapse; font-size: 0.95rem; }
 .table-wrap th, .table-wrap td { border: 1px solid var(--border); padding: 4px 10px; text-align: left; white-space: nowrap; }
 .table-wrap th { background: var(--bg); }
+
+/* ---------- language chooser and language homes ---------- */
+body.lang-zh { --accent: #1f7a6d; --accent-soft: #e0f1ed; }
+@media (prefers-color-scheme: dark) {
+  body.lang-zh { --accent: #5cc0ae; --accent-soft: #1b3330; }
+}
+.landing { max-width: 760px; margin: 12px auto 0; }
+.landing h1 { margin-bottom: 4px; }
+.lang-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 18px; }
+.lang-card { display: flex; flex-direction: column; gap: 6px; padding: 20px; border: 2px solid var(--border); border-radius: 16px;
+  background: var(--card); color: var(--text); text-decoration: none; }
+.lang-card:hover { border-color: #b5452f; }
+.lang-card-zh:hover { border-color: #1f7a6d; }
+.lang-card .lang-flag { font-size: 2.2rem; line-height: 1; }
+.lang-card .lang-name { font-size: 1.15rem; }
+.lang-card .lang-name strong { font-size: 1.6rem; margin-right: 6px; }
+.lang-card .lang-blurb { font-size: 0.95rem; }
+.lang-card .lang-progress { font-size: 0.85rem; margin-top: auto; }
+.lang-card .bar { margin-top: 2px; }
+.lang-card-ja .bar > span { background: #b5452f; }
+.lang-card-zh .bar > span { background: #1f7a6d; }
+@media (max-width: 640px) { .lang-cards { grid-template-columns: 1fr; } }
+
+.lang-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 4px 0 10px; }
+.lang-head h1 { margin: 0; color: var(--accent); }
+.lang-head .lang-en { color: var(--muted); font-size: 0.6em; font-weight: 500; }
+.switch-lang { font-size: 0.9rem; color: var(--muted); }
+.home-title { margin: 0; font-size: 1.3rem; }
+
+/* the Japanese menu: the same four links on the quiz home and the extra pages */
+.ja-menu { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 16px; }
+.ja-menu a { padding: 7px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--card);
+  color: var(--text); text-decoration: none; font-size: 0.92rem; white-space: nowrap; }
+.ja-menu a:hover { border-color: var(--accent); }
+.ja-menu a.on { background: var(--accent); border-color: var(--accent); color: #fff; }

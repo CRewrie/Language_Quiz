@@ -30,6 +30,9 @@ The difference from the server is that the answers are in the JSON files, so any
 
 ## Features
 
+- **Two languages, two homes:** the first visit shows a language chooser (`#/`). Japanese (`#/ja`, red) and Mandarin (`#/zh`, jade) each have their own home page, and the app reopens on the one used last. Each home has a "Switch language" link.
+- **Japanese menu:** the Japanese home and the extra pages share one menu: Quizzes · Hiragana Dojo · Writing drills · Verb & Adjective Lookup.
+
 - 10 themed quizzes plus a **Random mix** of 20 questions drawn from all of them
 - After each answer: why *your* choice is wrong, the grammar point, and a translation
 - Answer order is shuffled each time; furigana can be toggled on and off

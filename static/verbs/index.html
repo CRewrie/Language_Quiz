@@ -24,8 +24,6 @@ body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 Inter
 header { display: flex; align-items: center; gap: 16px; padding: 14px 24px; border-bottom: 1px solid var(--line); background: var(--panel); position: sticky; top: 0; z-index: 2; flex-wrap: wrap; }
 header h1 { font: 600 22px var(--jp); margin: 0; white-space: nowrap; }
 header h1 span { color: var(--accent); }
-.navlink { color: var(--muted); text-decoration: none; font-weight: 500; font-size: 14px; white-space: nowrap; }
-.navlink:hover { color: var(--ink); }
 main { max-width: 1040px; margin: 0 auto; padding: 24px; display: grid; gap: 18px; }
 .search { display: grid; gap: 6px; }
 .search input { width: 100%; font: 20px var(--jp); padding: 12px 14px; border: 2px solid var(--line); border-radius: 12px; background: var(--panel); color: var(--ink); }
@@ -87,13 +85,17 @@ footer a { color: inherit; }
   .form { grid-template-columns: 1fr; }
   .verb-head .big { font-size: 36px; }
 }
+.ja-menu { display: flex; flex-wrap: wrap; gap: 6px; }
+.ja-menu a { padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px; background: var(--panel); color: var(--ink);
+  text-decoration: none; font: 500 13px Inter, system-ui, sans-serif; white-space: nowrap; }
+.ja-menu a:hover { border-color: var(--accent); }
+.ja-menu a.on { background: var(--accent); border-color: var(--accent); color: #fff; }
 </style>
 </head>
 <body>
 <header>
   <h1><span>活用</span> Verb & Adjective Lookup</h1>
-  <a class="navlink" href="../">← Grammar quizzes</a>
-  <a class="navlink" href="../kana/">Hiragana Dojo →</a>
+  <nav class="ja-menu" aria-label="Japanese practice"><a href="../#/ja">📚 Quizzes</a><a href="../kana/">✍️ Hiragana Dojo</a><a href="../kana/write.html">🖨️ Writing drills</a><a href="../verbs/" class="on" aria-current="page">📖 Verb &amp; Adjective Lookup</a></nav>
 </header>
 
 <main>

@@ -447,7 +447,7 @@ async function startReview(fresh = false) {
   if (saved) return resumeSession(saved);
   const quizzes = (await api("/api/quizzes")).filter(q => (q.language || "ja") === lang);
   const picked = dueItems(new Set(quizzes.map(q => q.id))).slice(0, 20);
-  if (!picked.length) { location.hash = "#/"; return; }
+  if (!picked.length) { location.hash = homeHref(); return; }
   const byQuiz = new Map();
   for (const it of picked) byQuiz.set(it.quiz_id, [...(byQuiz.get(it.quiz_id) || []), it.index]);
   const questions = [];
@@ -762,16 +762,28 @@ const LANGS = {
   zh: { label: "中文", html: "zh-CN", ruby: "Pinyin", brand: "语法", dunno: "不知道", correct: "对了！" },
 };
 let lang = LANGS[store.get("lang", "ja")] ? store.get("lang", "ja") : "ja";
+const LANG_INFO = {
+  ja: { flag: "🇯🇵", name: "Japanese", native: "日本語",
+        blurb: "JLPT N5–N1 grammar, Verb Lab & Adjective Lab, Hiragana Dojo and a verb & adjective lookup." },
+  zh: { flag: "🇨🇳", name: "Mandarin", native: "中文",
+        blurb: "Grammar from A1 to B2 with HSK-style questions, in simplified or traditional characters." },
+};
+const homeHref = () => `#/${lang}`;
+// The Japanese extras, linked the same way from the quiz home and from each extra page.
+const JA_MENU = [["quizzes", "#/ja", "📚 Quizzes"], ["dojo", "kana/", "✍️ Hiragana Dojo"],
+  ["drills", "kana/write.html", "🖨️ Writing drills"], ["lookup", "verbs/", "📖 Verb & Adjective Lookup"]];
 
-function setLang(l) {
+function setLang(l, remember = true) {
   if (!LANGS[l]) return;
   lang = l;
-  store.set("lang", l);
+  if (remember) store.set("lang", l);
   const trad = l === "zh" && script === "trad";
   document.documentElement.lang = trad ? "zh-TW" : LANGS[l].html;
   document.getElementById("ruby-label").textContent = LANGS[l].ruby;
   document.getElementById("brand-word").textContent = trad ? "語法" : LANGS[l].brand;
   document.getElementById("script-switch").hidden = l !== "zh";
+  document.body.classList.toggle("lang-zh", l === "zh");
+  document.getElementById("home-link").href = `#/${l}`;
   document.querySelectorAll("[data-script]").forEach(b => b.classList.toggle("active", b.dataset.script === script));
 }
 
@@ -805,7 +817,7 @@ async function setScript(sc) {
   if (answered) { s.answered = true; renderAnswer(s.results[s.pos]); }
 }
 document.querySelectorAll("[data-script]").forEach(b => b.addEventListener("click", () => setScript(b.dataset.script)));
-setLang(lang);
+setLang(lang, false); // set up the header; the chooser decides on a first visit
 
 const toggle = document.getElementById("furigana-toggle");
 toggle.checked = store.get("furigana", true);
@@ -1025,6 +1037,33 @@ function searchHtml(query, quizzes, best, saved, view) {
     ${itemsHtml(hits, best, saved, view, true)}`;
 }
 
+// The first page: pick a language. Each language then has its own home (#/ja, #/zh).
+async function showLanding() {
+  session = null;
+  document.body.classList.add("home");
+  document.body.classList.remove("lang-zh");
+  const all = await api("/api/quizzes");
+  const best = store.get("best", {});
+  const cards = Object.entries(LANG_INFO).map(([k, info]) => {
+    const list = all.filter(q => (q.language || "ja") === k);
+    const st = levelStats(list, best);
+    return `
+      <a class="lang-card lang-card-${k}" href="#/${k}">
+        <span class="lang-flag" aria-hidden="true">${info.flag}</span>
+        <span class="lang-name"><strong>${info.native}</strong> ${info.name}</span>
+        <span class="lang-blurb">${info.blurb}</span>
+        <span class="muted lang-progress">${st.total} quizzes · ${st.done} at 80%+${k === store.get("lang", null) ? " · last used" : ""}</span>
+        <span class="bar"><span style="width:${st.pct}%"></span></span>
+      </a>`;
+  }).join("");
+  app.innerHTML = `
+    <div class="landing">
+      <h1>Which language do you want to practise?</h1>
+      <p class="sub">You can switch any time from the language's home page.</p>
+      <div class="lang-cards">${cards}</div>
+    </div>`;
+}
+
 async function showHome() {
   session = null;
   document.body.classList.add("home");
@@ -1032,7 +1071,9 @@ async function showHome() {
   const best = store.get("best", {});
   const view = store.get("view", "cards");
   const filter = FILTERS[store.get("filter", "all")] ? store.get("filter", "all") : "all";
-  const saved = loadProgress();
+  const ids = new Set(quizzes.map(q => q.id));
+  const anySaved = loadProgress();
+  const saved = anySaved && (anySaved.questions || []).some(q => ids.has(q.quiz_id)) ? anySaved : null;
   const groups = [...groupByCategory(quizzes)];
   let level = store.get(`level:${lang}`, null);
   if (!groups.some(([c]) => c === level)) level = groups[0]?.[0];
@@ -1064,15 +1105,18 @@ async function showHome() {
   app.innerHTML = `
     ${resume}
     ${reviewBanner}
+    <div class="lang-head">
+      <h1><span aria-hidden="true">${LANG_INFO[lang].flag}</span> ${LANG_INFO[lang].native} <span class="lang-en">${LANG_INFO[lang].name}</span></h1>
+      <a class="switch-lang" href="#/">Switch language</a>
+    </div>
+    ${lang === "ja" ? `<nav class="ja-menu" aria-label="Japanese practice">${JA_MENU.map(([id, href, label]) =>
+      `<a href="${href}"${id === "quizzes" ? ' class="on" aria-current="page"' : ""}>${label}</a>`).join("")}</nav>` : ""}
     <div class="home-head">
       <div>
-        <h1>Choose a quiz</h1>
+        <h2 class="home-title">Choose a quiz</h2>
         <p class="sub">Pick a level, open a quiz to read its guide, or jump straight in.</p>
       </div>
       <div class="home-controls">
-        <div class="segmented" role="group" aria-label="Language">
-          ${Object.entries(LANGS).map(([k, v]) => `<button data-lang="${k}" class="${k === lang ? "active" : ""}">${v.label}</button>`).join("")}
-        </div>
         <div class="segmented" role="group" aria-label="View">
           <button data-view="cards" class="${view === "cards" ? "active" : ""}">Cards</button>
           <button data-view="list" class="${view === "list" ? "active" : ""}">List</button>
@@ -1082,15 +1126,6 @@ async function showHome() {
         </div>` : ""}
       </div>
     </div>
-    ${lang === "ja" ? `
-    <a class="mix-banner dojo-banner" href="kana/">
-      <span>✍️ <strong>Hiragana Dojo</strong> — learn to write hiragana: trace, write from memory, instant feedback, printable drills</span>
-      <span class="btn small">Open</span>
-    </a>
-    <a class="mix-banner dojo-banner" href="verbs/">
-      <span>📖 <strong>Verb & Adjective Lookup</strong> — type a verb or adjective (kanji, kana or romaji) and see every form with example sentences</span>
-      <span class="btn small">Open</span>
-    </a>` : ""}
     ${offlineCardHtml()}
     <div class="home-layout">
       <nav class="levels" aria-label="Levels">${levelNav}</nav>
@@ -1144,10 +1179,6 @@ async function showHome() {
       playAudio(btn);
     }
   }));
-  app.querySelectorAll("[data-lang]").forEach(b => b.addEventListener("click", () => {
-    setLang(b.dataset.lang);
-    showHome();
-  }));
 }
 
 // ---------- quiz intro / study page ----------
@@ -1164,7 +1195,7 @@ async function showIntro(id) {
        <button class="btn secondary" id="start-over">Start over</button>`
     : `<a class="btn" href="${startHref}">Start quiz (${quiz.questions.length} questions)</a>`;
   app.innerHTML = `
-    <p class="crumb"><a href="#/">← All quizzes</a></p>
+    <p class="crumb"><a href="${homeHref()}">← ${LANG_INFO[lang].native} quizzes</a></p>
     <h1>${render(quiz.title)}</h1>
     <p class="sub">${render(quiz.description)}</p>
     <div class="actions" style="justify-content:flex-start">
@@ -1440,7 +1471,7 @@ function showResults() {
     <div class="actions" style="justify-content:flex-start">
       ${mistakes.length ? `<button class="btn" id="retry">Retry my ${mistakes.length} mistake${mistakes.length > 1 ? "s" : ""}</button>` : ""}
       <button class="btn secondary" id="again">Restart</button>
-      <a class="btn secondary" href="#/">All quizzes</a>
+      <a class="btn secondary" href="${homeHref()}">All quizzes</a>
     </div>
     ${mistakes.length ? `<h2 class="section-title">Review</h2>${review}` : ""}`;
   const retry = document.getElementById("retry");
@@ -1488,14 +1519,18 @@ async function route() {
     else if ((m = hash.match(/^#\/quiz\/([^/]+)$/))) await showIntro(decodeURIComponent(m[1]));
     else if ((m = hash.match(/^#\/mix(?:\/(.+))?$/))) await startMix(m[1] ? decodeURIComponent(m[1]) : "");
     else if (hash === "#/review") await startReview();
-    else await showHome();
+    else if ((m = hash.match(/^#\/(ja|zh)\/?$/))) { setLang(m[1]); await showHome(); }
+    else if (hash === "#/") await showLanding();
+    // no hash (opening the app): the language used last time, or the chooser on a first visit
+    else if (store.get("lang", null)) { history.replaceState(null, "", homeHref()); await showHome(); }
+    else await showLanding();
   } catch (e) {
-    app.innerHTML = `<p>Something went wrong: ${escapeHtml(e.message)}</p><p><a href="#/">Back to quizzes</a></p>`;
+    app.innerHTML = `<p>Something went wrong: ${escapeHtml(e.message)}</p><p><a href="${homeHref()}">Back to quizzes</a></p>`;
   }
   window.scrollTo(0, 0);
 }
 
-document.getElementById("home-link").addEventListener("click", e => { e.preventDefault(); location.hash = "#/"; });
+document.getElementById("home-link").addEventListener("click", e => { e.preventDefault(); location.hash = homeHref(); });
 window.addEventListener("hashchange", route);
 
 document.addEventListener("keydown", e => {
